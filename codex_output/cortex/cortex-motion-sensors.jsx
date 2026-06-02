@@ -9,6 +9,9 @@ function cortexSetMotionVars(x, y, force) {
   const root = document.documentElement;
   root.style.setProperty('--cortex-tilt-x', x.toFixed(3));
   root.style.setProperty('--cortex-tilt-y', y.toFixed(3));
+  const tiltMagnitude = Math.min(1, Math.abs(x) + Math.abs(y));
+  const motionScale = 1 + Math.min(0.036, tiltMagnitude * 0.014 + Math.max(0, force || 0) * 0.004);
+  root.style.setProperty('--cortex-motion-scale', motionScale.toFixed(3));
   root.style.setProperty('--cortex-depth-x', `${(x * 12).toFixed(2)}px`);
   root.style.setProperty('--cortex-depth-y', `${(y * 9).toFixed(2)}px`);
   root.style.setProperty('--cortex-wallpaper-shift-x', `${(x * -5.8).toFixed(2)}px`);
@@ -93,6 +96,7 @@ function CortexMotionSensorControl() {
         motionRef.current.lastShake = now;
         const jolt = Math.min(delta / 15, 1);
         document.documentElement.style.setProperty('--cortex-shake-force', jolt.toFixed(3));
+        document.documentElement.style.setProperty('--cortex-shake-scale', `${(1 + jolt * 0.045).toFixed(3)}`);
         document.documentElement.style.setProperty('--cortex-shake-x', `${(jolt * 4.2).toFixed(2)}px`);
         document.documentElement.style.setProperty('--cortex-shake-y', `${(jolt * -3.1).toFixed(2)}px`);
         document.documentElement.style.setProperty('--cortex-shake-x-neg', `${(jolt * -3.6).toFixed(2)}px`);
@@ -101,7 +105,10 @@ function CortexMotionSensorControl() {
         document.documentElement.style.setProperty('--cortex-shake-rot-neg', `${(jolt * -0.82).toFixed(3)}deg`);
         document.documentElement.style.setProperty('--cortex-shake-rest', `${(jolt * 0.3).toFixed(3)}deg`);
         document.documentElement.classList.add('cortex-device-shake');
-        window.setTimeout(() => document.documentElement.classList.remove('cortex-device-shake'), 620);
+        window.setTimeout(() => {
+          document.documentElement.classList.remove('cortex-device-shake');
+          document.documentElement.style.setProperty('--cortex-shake-scale', '1');
+        }, 860);
       }
     };
 
@@ -113,6 +120,7 @@ function CortexMotionSensorControl() {
       window.removeEventListener('devicemotion', onMotion);
       motionRef.current.active = false;
       cortexSetMotionVars(0, 0, 0);
+      document.documentElement.style.setProperty('--cortex-shake-scale', '1');
     };
   }, []);
 
