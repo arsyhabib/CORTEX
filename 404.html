@@ -205,6 +205,23 @@
   100% { transform: scale(1) rotate(0deg); }
 }
 
+@keyframes cortex-wallpaper-drift {
+  0%, 100% { transform: translate3d(var(--wallpaper-x, 0px), var(--wallpaper-y, 0px), 0) scale(1.07) rotate(0deg); }
+  45% { transform: translate3d(calc(var(--wallpaper-x, 0px) * 1.4 + 10px), calc(var(--wallpaper-y, 0px) * 1.2 - 12px), 0) scale(1.105) rotate(0.7deg); }
+  72% { transform: translate3d(calc(var(--wallpaper-x, 0px) * 0.7 - 7px), calc(var(--wallpaper-y, 0px) * 1.5 + 8px), 0) scale(1.085) rotate(-0.45deg); }
+}
+
+@keyframes cortex-wallpaper-bloom {
+  0%, 100% { opacity: 0.36; transform: translate(-50%, -50%) scale(0.82); filter: blur(22px); }
+  50% { opacity: 0.62; transform: translate(-50%, -50%) scale(1.14); filter: blur(16px); }
+}
+
+@keyframes cortex-ripple-pop {
+  0% { opacity: 0.46; transform: translate(-50%, -50%) scale(0.12); }
+  65% { opacity: 0.22; }
+  100% { opacity: 0; transform: translate(-50%, -50%) scale(2.8); }
+}
+
 /* ═══════════════════════════════════════════
    GLASS UTILITIES
    ═══════════════════════════════════════════ */
@@ -364,6 +381,128 @@
   .cortex-motion-orb,
   .cortex-motion-pill {
     animation: none !important;
+  }
+}
+
+/* Interactive wallpaper layer */
+.cortex-wallpaper-layer {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  background: #070718;
+  --pointer-x: 50%;
+  --pointer-y: 45%;
+  --wallpaper-x: 0px;
+  --wallpaper-y: 0px;
+}
+.cortex-wallpaper-image {
+  position: absolute;
+  inset: -6%;
+  background-image: var(--wallpaper-image);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.72;
+  transform-origin: center;
+  animation: cortex-wallpaper-drift 18s ease-in-out infinite;
+  will-change: transform, filter, opacity;
+}
+.cortex-wallpaper-layer[data-wallpaper="bubbly"] .cortex-wallpaper-image {
+  opacity: 0.82;
+  filter: saturate(1.12) contrast(1.02);
+  mix-blend-mode: screen;
+}
+.cortex-wallpaper-layer[data-wallpaper="aurora"] .cortex-wallpaper-image {
+  opacity: 0.76;
+  filter: saturate(1.08) contrast(1.04);
+}
+.cortex-wallpaper-layer[data-wallpaper="organza"] .cortex-wallpaper-image {
+  opacity: 0.78;
+  filter: saturate(1.1) hue-rotate(-4deg) contrast(1.03);
+}
+.cortex-wallpaper-hotspot {
+  position: absolute;
+  left: var(--pointer-x);
+  top: var(--pointer-y);
+  width: min(46vw, 440px);
+  height: min(46vw, 440px);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle, rgba(180,150,255,0.32), rgba(6,214,160,0.12) 34%, transparent 68%);
+  opacity: 0.55;
+  filter: blur(18px);
+  mix-blend-mode: screen;
+  animation: cortex-wallpaper-bloom 5.8s ease-in-out infinite;
+  will-change: left, top, transform;
+}
+.cortex-wallpaper-caustic {
+  position: absolute;
+  inset: -15%;
+  background:
+    radial-gradient(circle at var(--pointer-x) var(--pointer-y), rgba(255,255,255,0.20), transparent 16%),
+    conic-gradient(from var(--wallpaper-angle, 0deg) at var(--pointer-x) var(--pointer-y), transparent, rgba(168,85,247,0.13), transparent, rgba(6,214,160,0.10), transparent);
+  opacity: 0.62;
+  filter: blur(18px);
+  mix-blend-mode: screen;
+  transition: opacity 0.35s ease;
+}
+.cortex-wallpaper-vignette {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 50% 40%, transparent 0, rgba(8,8,24,0.22) 52%, rgba(5,5,14,0.72) 100%),
+    linear-gradient(180deg, rgba(5,5,18,0.35), rgba(5,5,18,0.08) 42%, rgba(5,5,18,0.58));
+}
+.cortex-wallpaper-ripple {
+  position: absolute;
+  left: var(--ripple-x, 50%);
+  top: var(--ripple-y, 50%);
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.34);
+  background: radial-gradient(circle, rgba(255,255,255,0.20), rgba(168,85,247,0.12) 36%, transparent 68%);
+  animation: cortex-ripple-pop 0.9s cubic-bezier(0.16,1,0.3,1) forwards;
+  mix-blend-mode: screen;
+}
+.cortex-wallpaper-toggle {
+  display: flex;
+  gap: 4px;
+  padding: 4px;
+  border-radius: 18px;
+  background: rgba(120,80,255,0.12);
+  border: 1px solid rgba(160,120,255,0.28);
+  box-shadow: 0 10px 30px rgba(99,102,241,0.18), inset 0 1px 0 rgba(255,255,255,0.11);
+  backdrop-filter: blur(22px) saturate(190%);
+  -webkit-backdrop-filter: blur(22px) saturate(190%);
+}
+.cortex-wallpaper-toggle button {
+  appearance: none;
+  border: 0;
+  border-radius: 14px;
+  padding: 8px 10px;
+  min-width: 76px;
+  background: transparent;
+  color: rgba(220,200,255,0.62);
+  font: inherit;
+  font-size: 10px;
+  font-weight: 900;
+  cursor: pointer;
+  transition: all 0.28s cubic-bezier(0.34,1.56,0.64,1);
+}
+.cortex-wallpaper-toggle button[data-active="true"] {
+  color: #fff;
+  background: linear-gradient(135deg, rgba(99,102,241,0.92), rgba(168,85,247,0.90));
+  box-shadow: 0 8px 24px rgba(99,102,241,0.34), inset 0 1px 0 rgba(255,255,255,0.18);
+  animation: pill-jiggle 4.2s cubic-bezier(0.34,1.56,0.64,1) infinite;
+}
+@media (max-width: 720px) {
+  .cortex-wallpaper-toggle button {
+    min-width: 42px;
+    padding: 8px 9px;
+  }
+  .cortex-wallpaper-toggle .wallpaper-label-full {
+    display: none;
   }
 }
 
@@ -5273,6 +5412,127 @@ Object.assign(window, {
 });
 
 </script><script type="text/babel">
+/* inline: cortex-wallpapers.jsx */
+/* CORTEX - Interactive Wallpaper Engine
+   Three generated wallpaper concepts with pointer/touch-aware motion. */
+
+const CORTEX_WALLPAPERS = [
+  {
+    id:'aurora',
+    short:'Aurora',
+    label:'Synaptic Aurora',
+    icon:'A',
+    file:'synaptic-aurora-membrane.png',
+  },
+  {
+    id:'bubbly',
+    short:'Bubbly',
+    label:'Bubbly Kaleidoscope',
+    icon:'B',
+    file:'bubbly-kaleidoscope.png',
+  },
+  {
+    id:'organza',
+    short:'Organza',
+    label:'Organza Bloom',
+    icon:'O',
+    file:'chromatic-organza-bloom.png',
+  },
+];
+
+function cortexWallpaperAsset(file) {
+  const rootPrefix = window.location.pathname.includes('/codex_output/cortex/') ? '' : 'codex_output/cortex/';
+  return `${rootPrefix}assets/wallpapers/${file}`;
+}
+
+function CortexInteractiveWallpaper({ wallpaper }) {
+  const item = CORTEX_WALLPAPERS.find(w => w.id === wallpaper) || CORTEX_WALLPAPERS[0];
+  const [pointer, setPointer] = React.useState({ x:50, y:45, px:0, py:0, angle:0 });
+  const [ripples, setRipples] = React.useState([]);
+  const frame = React.useRef(null);
+
+  React.useEffect(() => {
+    const update = (clientX, clientY, makeRipple) => {
+      if (frame.current) cancelAnimationFrame(frame.current);
+      frame.current = requestAnimationFrame(() => {
+        const x = Math.max(0, Math.min(100, (clientX / window.innerWidth) * 100));
+        const y = Math.max(0, Math.min(100, (clientY / window.innerHeight) * 100));
+        const px = (x - 50) * -0.34;
+        const py = (y - 50) * -0.28;
+        const angle = Math.atan2(y - 50, x - 50) * 180 / Math.PI;
+        setPointer({ x, y, px, py, angle });
+        if (makeRipple) {
+          const id = Date.now();
+          setRipples(rs => [...rs.slice(-2), { id, x, y }]);
+          setTimeout(() => setRipples(rs => rs.filter(r => r.id !== id)), 950);
+        }
+      });
+    };
+    const onPointerMove = e => update(e.clientX, e.clientY, false);
+    const onPointerDown = e => update(e.clientX, e.clientY, true);
+    const onTouchMove = e => {
+      const t = e.touches && e.touches[0];
+      if (t) update(t.clientX, t.clientY, false);
+    };
+    const onTouchStart = e => {
+      const t = e.touches && e.touches[0];
+      if (t) update(t.clientX, t.clientY, true);
+    };
+    window.addEventListener('pointermove', onPointerMove, { passive:true });
+    window.addEventListener('pointerdown', onPointerDown, { passive:true });
+    window.addEventListener('touchmove', onTouchMove, { passive:true });
+    window.addEventListener('touchstart', onTouchStart, { passive:true });
+    return () => {
+      if (frame.current) cancelAnimationFrame(frame.current);
+      window.removeEventListener('pointermove', onPointerMove);
+      window.removeEventListener('pointerdown', onPointerDown);
+      window.removeEventListener('touchmove', onTouchMove);
+      window.removeEventListener('touchstart', onTouchStart);
+    };
+  }, []);
+
+  return React.createElement('div', {
+    className:'cortex-wallpaper-layer',
+    'data-wallpaper':item.id,
+    style:{
+      '--wallpaper-image':`url("${cortexWallpaperAsset(item.file)}")`,
+      '--pointer-x':`${pointer.x}%`,
+      '--pointer-y':`${pointer.y}%`,
+      '--wallpaper-x':`${pointer.px}px`,
+      '--wallpaper-y':`${pointer.py}px`,
+      '--wallpaper-angle':`${pointer.angle}deg`,
+    }
+  },
+    React.createElement('div', { className:'cortex-wallpaper-image' }),
+    React.createElement('div', { className:'cortex-wallpaper-caustic' }),
+    React.createElement('div', { className:'cortex-wallpaper-hotspot' }),
+    ripples.map(r => React.createElement('div', {
+      key:r.id,
+      className:'cortex-wallpaper-ripple',
+      style:{ '--ripple-x':`${r.x}%`, '--ripple-y':`${r.y}%` },
+    })),
+    React.createElement('div', { className:'cortex-wallpaper-vignette' }),
+  );
+}
+
+function CortexWallpaperToggle({ value, onChange }) {
+  return React.createElement('div', { className:'cortex-wallpaper-toggle', role:'group', 'aria-label':'Wallpaper selector' },
+    CORTEX_WALLPAPERS.map(item => React.createElement('button', {
+      key:item.id,
+      type:'button',
+      'data-active':String(value === item.id),
+      onClick:()=>onChange(item.id),
+      title:item.label,
+    },
+      React.createElement('span', { className:'wallpaper-label-full' }, item.short),
+      React.createElement('span', { className:'wallpaper-label-short' }, item.icon),
+    ))
+  );
+}
+
+Object.assign(window, { CORTEX_WALLPAPERS, CortexInteractiveWallpaper, CortexWallpaperToggle });
+
+</script><script type="text/babel">
 /* inline: design-library-24-app.jsx */
 /* CORTEX DESIGN LIBRARY - Consolidated Batch 0 + Pages 1-24
    Adaptive fullscreen shell for desktop, iPad/tablet, Android tablet, and mobile. */
@@ -5496,6 +5756,7 @@ function CortexLibraryShell() {
   const initialPage = Number(new URLSearchParams(window.location.search).get('page') || 0);
   const [page, setPage] = React.useState(CORTEX_LIBRARY_PAGES.some(p => p.id === initialPage) ? initialPage : 0);
   const [animKey, setAnimKey] = React.useState(0);
+  const [wallpaper, setWallpaper] = React.useState(() => localStorage.getItem('cortex.wallpaper') || 'aurora');
   const current = CORTEX_LIBRARY_PAGES.find(p => p.id === page) || CORTEX_LIBRARY_PAGES[0];
 
   React.useEffect(() => {
@@ -5504,6 +5765,10 @@ function CortexLibraryShell() {
     const next = `${window.location.pathname}?${params.toString()}`;
     window.history.replaceState(null, '', next);
   }, [page]);
+
+  React.useEffect(() => {
+    localStorage.setItem('cortex.wallpaper', wallpaper);
+  }, [wallpaper]);
 
   const navigate = React.useCallback((target) => {
     const next = typeof target === 'number' ? target : Number(target);
@@ -5533,6 +5798,7 @@ function CortexLibraryShell() {
     display:'flex', flexDirection:mode === 'desktop' ? 'row' : 'column',
     position:'relative',
   }},
+    React.createElement(CortexInteractiveWallpaper, { wallpaper }),
     React.createElement('div', { style:{ position:'absolute', inset:0, pointerEvents:'none', filter:'blur(60px)', opacity:0.98 }},
       [
         { x:'8%', y:'12%', s:220, c:'rgba(99,102,241,0.20)', d:12 },
@@ -5565,6 +5831,7 @@ function CortexLibraryShell() {
             `Auto layout: ${mode} - ${window.innerWidth}x${window.innerHeight}`),
         ),
         React.createElement('div', { style:{ display:'flex', gap:8, alignItems:'center' }},
+          React.createElement(CortexWallpaperToggle, { value:wallpaper, onChange:setWallpaper }),
           React.createElement(B1Badge, { color:mode === 'desktop' ? DL.teal : mode === 'tablet' ? DL.gold : DL.accent }, mode.toUpperCase()),
           React.createElement(B1Badge, null, '0-24'),
         )

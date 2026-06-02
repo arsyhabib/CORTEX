@@ -220,6 +220,7 @@ function CortexLibraryShell() {
   const initialPage = Number(new URLSearchParams(window.location.search).get('page') || 0);
   const [page, setPage] = React.useState(CORTEX_LIBRARY_PAGES.some(p => p.id === initialPage) ? initialPage : 0);
   const [animKey, setAnimKey] = React.useState(0);
+  const [wallpaper, setWallpaper] = React.useState(() => localStorage.getItem('cortex.wallpaper') || 'aurora');
   const current = CORTEX_LIBRARY_PAGES.find(p => p.id === page) || CORTEX_LIBRARY_PAGES[0];
 
   React.useEffect(() => {
@@ -228,6 +229,10 @@ function CortexLibraryShell() {
     const next = `${window.location.pathname}?${params.toString()}`;
     window.history.replaceState(null, '', next);
   }, [page]);
+
+  React.useEffect(() => {
+    localStorage.setItem('cortex.wallpaper', wallpaper);
+  }, [wallpaper]);
 
   const navigate = React.useCallback((target) => {
     const next = typeof target === 'number' ? target : Number(target);
@@ -257,6 +262,7 @@ function CortexLibraryShell() {
     display:'flex', flexDirection:mode === 'desktop' ? 'row' : 'column',
     position:'relative',
   }},
+    React.createElement(CortexInteractiveWallpaper, { wallpaper }),
     React.createElement('div', { style:{ position:'absolute', inset:0, pointerEvents:'none', filter:'blur(60px)', opacity:0.98 }},
       [
         { x:'8%', y:'12%', s:220, c:'rgba(99,102,241,0.20)', d:12 },
@@ -289,6 +295,7 @@ function CortexLibraryShell() {
             `Auto layout: ${mode} - ${window.innerWidth}x${window.innerHeight}`),
         ),
         React.createElement('div', { style:{ display:'flex', gap:8, alignItems:'center' }},
+          React.createElement(CortexWallpaperToggle, { value:wallpaper, onChange:setWallpaper }),
           React.createElement(B1Badge, { color:mode === 'desktop' ? DL.teal : mode === 'tablet' ? DL.gold : DL.accent }, mode.toUpperCase()),
           React.createElement(B1Badge, null, '0-24'),
         )
