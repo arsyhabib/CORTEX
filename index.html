@@ -428,8 +428,7 @@
 .cortex-motion-card {
   position: relative;
   transform-origin: center;
-  animation: buttery-pop 0.72s cubic-bezier(0.16, 1, 0.3, 1) backwards,
-             bubbly-breathe 7.5s ease-in-out 1s infinite;
+  animation: buttery-pop 0.72s cubic-bezier(0.16, 1, 0.3, 1) backwards;
 }
 .cortex-sensor-active .cortex-motion-card,
 .cortex-sensor-active .b1-card,
@@ -529,10 +528,10 @@
   animation: jelly-press 0.45s cubic-bezier(0.34,1.56,0.64,1);
 }
 .cortex-motion-orb {
-  animation: soft-wobble 5.6s ease-in-out infinite, float 4.2s ease-in-out infinite;
+  animation: soft-wobble 12s ease-in-out infinite, float 10s ease-in-out infinite;
 }
 .cortex-motion-pill {
-  animation: pill-jiggle 4.2s cubic-bezier(0.34,1.56,0.64,1) infinite;
+  animation: pill-jiggle 10s cubic-bezier(0.34,1.56,0.64,1) infinite;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -553,20 +552,83 @@
   overflow: hidden;
   pointer-events: none;
   background: #070718;
-  --pointer-x: 50%;
-  --pointer-y: 45%;
-  --wallpaper-x: 0px;
-  --wallpaper-y: 0px;
-}
-.cortex-sensor-active .cortex-wallpaper-layer {
-  transform: translate3d(var(--cortex-wallpaper-shift-x, 0px), var(--cortex-wallpaper-shift-y, 0px), 0) scale(1.012);
-  transition: transform 90ms linear, filter 220ms ease;
 }
 .cortex-wallpaper-layer[data-exhibition="false"] {
   opacity: 0.64;
 }
 .cortex-wallpaper-layer[data-exhibition="true"] {
   opacity: 1;
+}
+.cortex-wallpaper-performance-field {
+  position: absolute;
+  inset: -12%;
+  opacity: 0.98;
+  transform: translate3d(0,0,0);
+  animation: cortex-performance-drift 32s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+.cortex-wallpaper-performance-field::before,
+.cortex-wallpaper-performance-field::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-repeat: no-repeat;
+  will-change: transform, opacity;
+}
+.cortex-wallpaper-performance-field::before {
+  background:
+    radial-gradient(circle at 18% 22%, rgba(120, 100, 255, 0.36), transparent 24%),
+    radial-gradient(circle at 74% 18%, rgba(70, 220, 255, 0.22), transparent 20%),
+    radial-gradient(circle at 48% 72%, rgba(206, 112, 255, 0.22), transparent 30%),
+    linear-gradient(145deg, rgba(10, 12, 28, 0.98), rgba(6, 8, 18, 1));
+  opacity: 0.92;
+  animation: cortex-performance-drift-a 34s ease-in-out infinite;
+}
+.cortex-wallpaper-performance-field::after {
+  background:
+    radial-gradient(circle at 34% 24%, rgba(255,255,255,0.08), transparent 18%),
+    radial-gradient(circle at 68% 76%, rgba(255,255,255,0.06), transparent 22%),
+    radial-gradient(circle at 52% 48%, rgba(141, 92, 255, 0.10), transparent 30%);
+  opacity: 0.72;
+  animation: cortex-performance-drift-b 42s ease-in-out infinite reverse;
+}
+.cortex-wallpaper-layer[data-wallpaper="aurora"] .cortex-wallpaper-performance-field::before {
+  background:
+    radial-gradient(circle at 16% 24%, rgba(48, 211, 255, 0.30), transparent 24%),
+    radial-gradient(circle at 74% 20%, rgba(166, 92, 255, 0.24), transparent 20%),
+    radial-gradient(circle at 56% 74%, rgba(99, 102, 241, 0.20), transparent 30%),
+    linear-gradient(145deg, rgba(8, 10, 24, 0.98), rgba(5, 7, 18, 1));
+}
+.cortex-wallpaper-layer[data-wallpaper="bubbly"] .cortex-wallpaper-performance-field::before {
+  background:
+    radial-gradient(circle at 16% 22%, rgba(120, 100, 255, 0.34), transparent 22%),
+    radial-gradient(circle at 76% 18%, rgba(52, 211, 255, 0.24), transparent 20%),
+    radial-gradient(circle at 54% 74%, rgba(72, 255, 196, 0.12), transparent 28%),
+    linear-gradient(145deg, rgba(10, 10, 30, 0.98), rgba(5, 7, 18, 1));
+}
+.cortex-wallpaper-layer[data-wallpaper="organza"] .cortex-wallpaper-performance-field::before {
+  background:
+    radial-gradient(circle at 18% 24%, rgba(203, 108, 255, 0.26), transparent 22%),
+    radial-gradient(circle at 74% 18%, rgba(63, 220, 255, 0.16), transparent 20%),
+    radial-gradient(circle at 50% 72%, rgba(255, 216, 116, 0.10), transparent 28%),
+    linear-gradient(145deg, rgba(12, 10, 28, 0.98), rgba(5, 7, 18, 1));
+}
+.cortex-wallpaper-layer[data-exhibition="true"] .cortex-wallpaper-performance-field::before { opacity: 1; }
+.cortex-wallpaper-layer[data-exhibition="true"] .cortex-wallpaper-performance-field::after { opacity: 0.82; }
+.cortex-wallpaper-layer[data-exhibition="false"] .cortex-wallpaper-performance-field {
+  opacity: 0.88;
+}
+@keyframes cortex-performance-drift {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(0.8%, -0.7%, 0) scale(1.015); }
+}
+@keyframes cortex-performance-drift-a {
+  0%, 100% { transform: translate3d(-1.2%, 0.8%, 0) scale(1); }
+  50% { transform: translate3d(1.4%, -1.1%, 0) scale(1.02); }
+}
+@keyframes cortex-performance-drift-b {
+  0%, 100% { transform: translate3d(0.6%, -0.7%, 0) scale(1); }
+  50% { transform: translate3d(-0.9%, 1%, 0) scale(1.01); }
 }
 .cortex-wallpaper-image {
   position: absolute;
@@ -3706,8 +3768,15 @@ Object.assign(window, {
 function PageWelcome({ onNavigate }) {
   const [step, setStep] = React.useState(0);
   React.useEffect(() => {
-    const t = [500,1200,2000,2800].map((d,i) => setTimeout(()=>setStep(i+1),d));
-    return () => t.forEach(clearTimeout);
+    const timers = [420, 980, 1620, 2300].map((d, i) => setTimeout(() => setStep(i + 1), d));
+    const exit = setTimeout(() => {
+      try { localStorage.setItem('cortex.welcomeSeen', '1'); } catch (err) {}
+      onNavigate(0);
+    }, 3300);
+    return () => {
+      timers.forEach(clearTimeout);
+      clearTimeout(exit);
+    };
   }, []);
 
   const orbs = React.useMemo(() => [
@@ -3719,8 +3788,17 @@ function PageWelcome({ onNavigate }) {
 
   return React.createElement('div', {
     'data-screen-label': 'P1-Welcome',
-    style: { position:'absolute', inset:0, display:'flex', flexDirection:'column',
-      alignItems:'center', justifyContent:'center', background:'transparent', overflow:'hidden' }
+    style: {
+      position:'absolute',
+      inset:0,
+      display:'flex',
+      flexDirection:'column',
+      alignItems:'center',
+      justifyContent:'center',
+      background:'transparent',
+      overflow:'hidden',
+      pointerEvents:'none',
+    }
   },
     /* Animated orbs background */
     React.createElement('div', { style:{ position:'absolute', inset:0, filter:'blur(60px)' }},
@@ -3763,34 +3841,16 @@ function PageWelcome({ onNavigate }) {
         opacity:step>=3?1:0, transform:step>=3?'translateY(0)':'translateY(12px)',
         transition:'all 0.5s ease',
       }}, 'Platform pembelajaran medis premium berbasis AI untuk mahasiswa & profesional.'),
-      /* CTA */
       React.createElement('div', { style:{
-        marginTop:32, opacity:step>=4?1:0, transform:step>=4?'translateY(0)':'translateY(16px)',
-        transition:'all 0.5s ease',
-      }},
-        React.createElement(B1Button, {
-          label:'Mulai Belajar', full:true, onClick:()=>onNavigate(2),
-          style:{ padding:'14px 0' },
-        }),
-        React.createElement('div', { style:{ marginTop:14 }},
-          React.createElement(B1Button, {
-            label:'Sudah punya akun? Masuk', variant:'ghost', full:true,
-            onClick:()=>onNavigate(2),
-            style:{ background:'none', border:'none', color:DL.sub, fontSize:12 },
-          })
-        ),
-      ),
-      /* Dots / steps indicator */
-      React.createElement('div', { style:{
-        display:'flex', gap:6, justifyContent:'center', marginTop:28,
-        opacity:step>=4?1:0, transition:'opacity 0.5s ease',
-      }},
-        [0,1,2].map(i => React.createElement('div', { key:i, style:{
-          width: i===0?20:6, height:6, borderRadius:3,
-          background: i===0 ? DL.accent : 'rgba(255,255,255,0.15)',
-          transition:'all 0.3s ease',
-        }}))
-      ),
+        marginTop:30,
+        opacity:step>=4?1:0,
+        transform:step>=4?'translateY(0)':'translateY(10px)',
+        transition:'all 0.45s ease',
+        color:DL.sub,
+        fontSize:11,
+        letterSpacing:1.4,
+        textTransform:'uppercase',
+      }}, 'Entering studio'),
     )
   );
 }
@@ -6397,166 +6457,15 @@ function CortexSoftBlendWallpaper({ palette, mode }) {
 
 function CortexInteractiveWallpaper({ wallpaper, exhibition }) {
   const item = CORTEX_WALLPAPERS.find(w => w.id === wallpaper) || CORTEX_WALLPAPERS[0];
-  const [pointer, setPointer] = React.useState({ x:50, y:45, px:0, py:0, angle:0 });
-  const [ripples, setRipples] = React.useState([]);
-  const frame = React.useRef(null);
-  const touchRef = React.useRef({ x:50, y:45, t:0 });
-  const interactiveSelector = '.b1-card, .b1-button, .b1-toggle, .b1-search-input, .cortex-motion-sensor-control, .cortex-library-nav button, .cortex-wallpaper-toggle button';
-  const coarsePointer = typeof window !== 'undefined' &&
-    window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
-  const performanceMode = coarsePointer;
-
-  React.useEffect(() => {
-    const root = document.documentElement;
-    root.dataset.cortexMotionMode = performanceMode ? 'lite' : 'rich';
-    if (performanceMode) {
-      return () => { delete root.dataset.cortexMotionMode; };
-    }
-    const update = (clientX, clientY, makeRipple) => {
-      if (frame.current) cancelAnimationFrame(frame.current);
-      frame.current = requestAnimationFrame(() => {
-        const x = Math.max(0, Math.min(100, (clientX / window.innerWidth) * 100));
-        const y = Math.max(0, Math.min(100, (clientY / window.innerHeight) * 100));
-        const px = (x - 50) * -0.34;
-        const py = (y - 50) * -0.28;
-        const angle = Math.atan2(y - 50, x - 50) * 180 / Math.PI;
-        const now = performance.now();
-        const elapsed = Math.max(16, now - (touchRef.current.t || now));
-        const deltaX = x - touchRef.current.x;
-        const deltaY = y - touchRef.current.y;
-        const velocity = Math.min(1, Math.hypot(deltaX, deltaY) / elapsed * 0.95);
-        const xNorm = Math.max(-1, Math.min(1, (x - 50) / 50));
-        const yNorm = Math.max(-1, Math.min(1, (y - 45) / 45));
-        const allowRipple = makeRipple && !coarsePointer;
-        const touchScale = allowRipple
-          ? 0.018
-          : coarsePointer
-            ? 0.003 + velocity * 0.002
-            : 0.008 + velocity * 0.006;
-        const touchSquash = allowRipple
-          ? 0.48
-          : coarsePointer
-            ? 0.08 + velocity * 0.05
-            : 0.18 + velocity * 0.26;
-        root.style.setProperty('--cortex-touch-shift-x', `${(xNorm * 4.2 + deltaX * 0.16).toFixed(2)}px`);
-        root.style.setProperty('--cortex-touch-shift-y', `${(yNorm * 3.4 + deltaY * 0.13).toFixed(2)}px`);
-        root.style.setProperty('--cortex-touch-sheen-x', `${(xNorm * 8 + deltaX * 0.34).toFixed(2)}px`);
-        root.style.setProperty('--cortex-touch-sheen-y', `${(yNorm * 7 + deltaY * 0.28).toFixed(2)}px`);
-        root.style.setProperty('--cortex-touch-sheen-angle', `${(angle + 90).toFixed(2)}deg`);
-        root.style.setProperty('--cortex-touch-scale', `${touchScale.toFixed(3)}`);
-        root.style.setProperty('--cortex-touch-squash', `${touchSquash.toFixed(3)}`);
-        root.style.setProperty('--cortex-touch-press', allowRipple ? '0.8' : coarsePointer ? '0.12' : '0.42');
-        if (allowRipple) root.classList.add('cortex-touch-active');
-        touchRef.current = { x, y, t: now };
-        setPointer({ x, y, px, py, angle });
-        if (allowRipple) {
-          const id = Date.now();
-          setRipples(rs => [...rs.slice(-1), { id, x, y }]);
-          setTimeout(() => setRipples(rs => rs.filter(r => r.id !== id)), 860);
-        }
-      });
-    };
-    const shouldBurstWallpaper = eventTarget => {
-      if (!eventTarget || !eventTarget.closest) return true;
-      if (eventTarget.closest(interactiveSelector)) return false;
-      return true;
-    };
-    const settle = () => {
-      root.classList.remove('cortex-touch-active');
-      root.style.setProperty('--cortex-touch-shift-x', '0px');
-      root.style.setProperty('--cortex-touch-shift-y', '0px');
-      root.style.setProperty('--cortex-touch-sheen-x', '0px');
-      root.style.setProperty('--cortex-touch-sheen-y', '0px');
-      root.style.setProperty('--cortex-touch-sheen-angle', '0deg');
-      root.style.setProperty('--cortex-touch-scale', '0');
-      root.style.setProperty('--cortex-touch-squash', '0');
-      root.style.setProperty('--cortex-touch-press', '0');
-    };
-    const onPointerMove = e => update(e.clientX, e.clientY, false);
-    const onPointerDown = e => update(e.clientX, e.clientY, shouldBurstWallpaper(e.target));
-    const onPointerUp = () => settle();
-    const onTouchMove = e => {
-      const t = e.touches && e.touches[0];
-      if (t) update(t.clientX, t.clientY, false);
-    };
-    const onTouchStart = e => {
-      const t = e.touches && e.touches[0];
-      if (t) update(t.clientX, t.clientY, shouldBurstWallpaper(e.target));
-    };
-    const onTouchEnd = () => settle();
-    window.addEventListener('pointermove', onPointerMove, { passive:true });
-    window.addEventListener('pointerdown', onPointerDown, { passive:true });
-    window.addEventListener('pointerup', onPointerUp, { passive:true });
-    window.addEventListener('touchmove', onTouchMove, { passive:true });
-    window.addEventListener('touchstart', onTouchStart, { passive:true });
-    window.addEventListener('touchend', onTouchEnd, { passive:true });
-    window.addEventListener('touchcancel', onTouchEnd, { passive:true });
-    return () => {
-      if (frame.current) cancelAnimationFrame(frame.current);
-      window.removeEventListener('pointermove', onPointerMove);
-      window.removeEventListener('pointerdown', onPointerDown);
-      window.removeEventListener('pointerup', onPointerUp);
-      window.removeEventListener('touchmove', onTouchMove);
-      window.removeEventListener('touchstart', onTouchStart);
-      window.removeEventListener('touchend', onTouchEnd);
-      window.removeEventListener('touchcancel', onTouchEnd);
-      delete root.dataset.cortexMotionMode;
-    };
-  }, [performanceMode]);
-
   return React.createElement('div', {
     className:'cortex-wallpaper-layer',
     'data-wallpaper':item.id,
-    'data-mode':item.mode || 'image',
-    'data-motion-mode':performanceMode ? 'lite' : 'rich',
+    'data-mode':'stable',
+    'data-motion-mode':'stable',
     'data-exhibition':String(!!exhibition),
-    style:{
-      '--wallpaper-image':`url("${cortexWallpaperAsset(item.file)}")`,
-      '--pointer-x':`${pointer.x}%`,
-      '--pointer-y':`${pointer.y}%`,
-      '--wallpaper-x':`calc(${pointer.px}px + var(--cortex-depth-x, 0px))`,
-      '--wallpaper-y':`calc(${pointer.py}px + var(--cortex-depth-y, 0px))`,
-      '--wallpaper-angle':`${pointer.angle}deg`,
-    }
+    style:{ '--wallpaper-image':`url("${cortexWallpaperAsset(item.file)}")` }
   },
-    performanceMode
-      ? React.createElement('div', { className:'cortex-wallpaper-performance-field' })
-      : item.id === 'aurora'
-      ? React.createElement(CortexSoftBlendWallpaper, {
-          mode:'aurora',
-          palette:[
-            'rgba(68, 122, 255, 0.26)',
-            'rgba(166, 92, 255, 0.22)',
-            'rgba(48, 211, 255, 0.18)',
-            'rgba(255, 255, 255, 0.10)',
-          ],
-        })
-      : item.id === 'bubbly'
-        ? React.createElement(CortexSoftBlendWallpaper, {
-            mode:'bubbly',
-            palette:[
-              'rgba(124, 92, 255, 0.28)',
-              'rgba(52, 211, 255, 0.22)',
-              'rgba(72, 255, 196, 0.16)',
-              'rgba(255, 255, 255, 0.10)',
-            ],
-          })
-        : React.createElement(CortexSoftBlendWallpaper, {
-            mode:'organza',
-            palette:[
-              'rgba(203, 108, 255, 0.22)',
-              'rgba(63, 220, 255, 0.16)',
-              'rgba(255, 150, 205, 0.20)',
-              'rgba(255, 216, 116, 0.12)',
-            ],
-          }),
-    !performanceMode && React.createElement('div', { className:'cortex-wallpaper-caustic' }),
-    !performanceMode && React.createElement('div', { className:'cortex-wallpaper-hotspot' }),
-    !performanceMode && ripples.map(r => React.createElement('div', {
-      key:r.id,
-      className:'cortex-wallpaper-ripple',
-      style:{ '--ripple-x':`${r.x}%`, '--ripple-y':`${r.y}%` },
-    })),
+    React.createElement('div', { className:'cortex-wallpaper-performance-field' }),
     React.createElement('div', { className:'cortex-wallpaper-vignette' }),
   );
 }
@@ -6691,6 +6600,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
   const currentTheme = theme || cortexResolveTheme(currentThemeId);
   const compact = mode !== 'desktop';
   const [fabOpen, setFabOpen] = React.useState(false);
+  const [fabGroup, setFabGroup] = React.useState('Foundation');
   const themeRows = [
     { id:'neural', name:'Neural Pulse', note:'Core Claude DNA, synaptic purple-blue glass.' },
     { id:'aurora', name:'Aurora Prism', note:'Ethereal cyan/prism exploratory shell.' },
@@ -6717,6 +6627,11 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
     { title:'Purpose', sub:activeSurface.summary },
     { title:'Action', sub:`Use this surface as a production-ready slot for ${activeSurface.label.toLowerCase()}.` },
   ];
+  const surfaceGroups = groupOrder.map(group => ({
+    group,
+    items:groupedSurfaces[group] || [],
+  })).filter(group => group.items.length);
+  const activeGroupItems = groupedSurfaces[fabGroup] || [];
 
   return React.createElement('div', {
     'data-screen-label':'P0-MainStudio',
@@ -6777,23 +6692,38 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
       }},
         React.createElement(B1Section, { title:'Surface Index', action:'21 pages' }),
         React.createElement('div', { style:{ display:'flex', flexWrap:'wrap', gap:8, marginBottom:12 }},
-          groupOrder.map(group => React.createElement(B1Badge, { key:group, color:group === activeSurface.group ? currentTheme.colors.accent1 : DL.sub }, group))
+          surfaceGroups.map(group => React.createElement('button', {
+            key:group.group,
+            type:'button',
+            onClick:()=>setFabGroup(group.group),
+            className:'cortex-motion-press',
+            style:{
+              padding:'6px 10px',
+              borderRadius:18,
+              border:`1px solid ${group.group === fabGroup ? currentTheme.colors.accent1 : DL.glassBorder}`,
+              background:group.group === fabGroup ? 'rgba(168,85,247,0.16)' : 'rgba(255,255,255,0.04)',
+              color:group.group === fabGroup ? currentTheme.colors.accent1 : DL.sub,
+              fontSize:10,
+              fontWeight:900,
+              cursor:'pointer',
+            }
+          }, `${group.group} · ${group.items.length}`))
+        ),
+        React.createElement('div', { style:{ fontSize:11, fontWeight:900, color:DL.mute, letterSpacing:1.1, textTransform:'uppercase', margin:'6px 0 8px' }},
+          `${fabGroup} surfaces`
         ),
         React.createElement('div', { style:{ display:'grid', gap:10 }},
-          groupOrder.filter(group => groupedSurfaces[group]).map(group => React.createElement('div', { key:group },
-            React.createElement('div', { style:{ fontSize:11, fontWeight:900, color:DL.mute, letterSpacing:1.1, textTransform:'uppercase', margin:'6px 0 8px' }}, group),
-            groupedSurfaces[group].map(surface => {
-              const active = surface.id === activeSurface.id;
-              return React.createElement(B3Row, {
-                key:surface.id,
-                title:`P${surface.id} · ${surface.label}`,
-                sub:surface.summary,
-                active,
-                onClick:()=>onSurfaceChange && onSurfaceChange(surface.id),
-                right:React.createElement('span', { style:{ color:active ? currentTheme.colors.accent2 : DL.sub, fontWeight:900 }}, active ? 'Open' : 'View'),
-              });
-            })
-          ))
+          activeGroupItems.map(surface => {
+            const active = surface.id === activeSurface.id;
+            return React.createElement(B3Row, {
+              key:surface.id,
+              title:`P${surface.id} · ${surface.label}`,
+              sub:surface.summary,
+              active,
+              onClick:()=>onSurfaceChange && onSurfaceChange(surface.id),
+              right:React.createElement('span', { style:{ color:active ? currentTheme.colors.accent2 : DL.sub, fontWeight:900 }}, active ? 'Open' : 'View'),
+            });
+          })
         )
       ),
       React.createElement('div', { style:{ display:'grid', gap:12 } },
@@ -6875,22 +6805,36 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
           position:'absolute',
           right:0,
           bottom:66,
-          width: compact ? 234 : 270,
+          width: compact ? 260 : 310,
           padding:12,
           borderRadius:22,
-          background:'rgba(12,12,32,0.86)',
+          background:'rgba(12,12,32,0.90)',
           border:`1px solid ${DL.glassBorder}`,
-          backdropFilter:'blur(24px) saturate(180%)',
-          WebkitBackdropFilter:'blur(24px) saturate(180%)',
+          backdropFilter:'blur(18px) saturate(150%)',
+          WebkitBackdropFilter:'blur(18px) saturate(150%)',
           boxShadow:`0 26px 56px ${currentTheme.colors.shadowColor}`,
         }},
-          React.createElement('div', { style:{ color:DL.text, fontSize:13, fontWeight:900, marginBottom:10 }}, 'Quick inject'),
-          [
-            { label:'Jump to practice', id:17 },
-            { label:'Jump to support', id:23 },
-            { label:'Jump to ops', id:20 },
-            { label:'Jump to review', id:9 },
-          ].map(item => React.createElement(B1Button, {
+          React.createElement('div', { style:{ color:DL.text, fontSize:13, fontWeight:900, marginBottom:8 }}, 'Surface hub'),
+          React.createElement('div', { style:{ display:'flex', flexWrap:'wrap', gap:6, marginBottom:10 } },
+            surfaceGroups.map(group => React.createElement('button', {
+              key:group.group,
+              type:'button',
+              onClick:()=>setFabGroup(group.group),
+              className:'cortex-motion-press',
+              style:{
+                padding:'6px 9px',
+                borderRadius:16,
+                border:`1px solid ${group.group === fabGroup ? currentTheme.colors.accent1 : DL.glassBorder}`,
+                background:group.group === fabGroup ? 'rgba(168,85,247,0.18)' : 'rgba(255,255,255,0.04)',
+                color:group.group === fabGroup ? currentTheme.colors.accent1 : DL.sub,
+                fontSize:9,
+                fontWeight:900,
+                cursor:'pointer',
+              }
+            }, `${group.group}`))
+          ),
+          React.createElement('div', { style:{ color:DL.mute, fontSize:10, textTransform:'uppercase', letterSpacing:1.2, margin:'8px 0 8px' }}, `${fabGroup} • tap to open`),
+          activeGroupItems.map(item => React.createElement(B1Button, {
             key:item.id,
             onClick:()=>{
               onSurfaceChange && onSurfaceChange(item.id);
@@ -6901,10 +6845,10 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
               width:'100%',
               marginBottom:8,
               justifyContent:'space-between',
-              padding:'12px 14px',
+              padding:'11px 13px',
             }
           },
-            React.createElement('span', null, item.label),
+            React.createElement('span', null, `P${item.id} · ${item.label}`),
             React.createElement('span', { style:{ color:DL.accent, fontWeight:900 }}, '>')
           ))
         )
@@ -6980,9 +6924,10 @@ function CortexLibraryShell() {
   const coarsePointer = typeof window !== 'undefined' &&
     window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
   const params = new URLSearchParams(window.location.search);
-  const initialPage = Number(params.get('page') || 0);
+  const hasSeenWelcome = typeof window !== 'undefined' && localStorage.getItem('cortex.welcomeSeen') === '1';
+  const initialPage = Number(params.get('page') || (hasSeenWelcome ? 0 : 1));
   const initialSurface = Number(params.get('surface') || (initialPage > 1 ? initialPage : 2));
-  const [page, setPage] = React.useState(initialPage === 1 ? 1 : 0);
+  const [page, setPage] = React.useState(CORTEX_LIBRARY_PAGES.some(p => p.id === initialPage) ? initialPage : (hasSeenWelcome ? 0 : 1));
   const [surfaceId, setSurfaceId] = React.useState(CORTEX_MAIN_SURFACES.some(s => s.id === initialSurface) ? initialSurface : 2);
   const [animKey, setAnimKey] = React.useState(0);
   const [wallpaper, setWallpaper] = React.useState(() => localStorage.getItem('cortex.wallpaper') || 'bubbly');
@@ -7001,6 +6946,12 @@ function CortexLibraryShell() {
     const next = `${window.location.pathname}?${params.toString()}`;
     window.history.replaceState(null, '', next);
   }, [page, surfaceId]);
+
+  React.useEffect(() => {
+    if (page === 1) {
+      try { localStorage.setItem('cortex.welcomeSeen', '1'); } catch (err) {}
+    }
+  }, [page]);
 
   React.useEffect(() => {
     localStorage.setItem('cortex.wallpaper', wallpaper);
@@ -7060,12 +7011,11 @@ function CortexLibraryShell() {
     position:'relative',
   }},
     React.createElement(CortexInteractiveWallpaper, { wallpaper, exhibition:isWelcomePage }),
-    React.createElement('div', { className:'cortex-library-ambient-orbs', style:{ position:'absolute', inset:0, pointerEvents:'none', filter:coarsePointer ? 'none' : 'blur(60px)', opacity:isWelcomePage ? (coarsePointer ? 0.44 : 0.82) : (coarsePointer ? 0.20 : 0.54) }},
+    React.createElement('div', { className:'cortex-library-ambient-orbs', style:{ position:'absolute', inset:0, pointerEvents:'none', filter:coarsePointer ? 'none' : 'blur(24px)', opacity:isWelcomePage ? (coarsePointer ? 0.26 : 0.48) : (coarsePointer ? 0.08 : 0.18) }},
       [
-        { x:'8%', y:'12%', s:220, c:`${theme.colors.accent3}33`, d:12 },
-        { x:'72%', y:'8%', s:180, c:`${theme.colors.accent1}2d`, d:15 },
-        { x:'48%', y:'70%', s:260, c:`${theme.colors.accent2}14`, d:18 },
-        { x:'86%', y:'78%', s:130, c:`${theme.colors.accent3}14`, d:10 },
+        { x:'8%', y:'12%', s:220, c:`${theme.colors.accent3}24`, d:12 },
+        { x:'72%', y:'8%', s:180, c:`${theme.colors.accent1}1c`, d:15 },
+        { x:'48%', y:'70%', s:260, c:`${theme.colors.accent2}12`, d:18 },
       ].map((o,i) => React.createElement('div', { key:i, className:'cortex-motion-orb', style:{
         position:'absolute', left:o.x, top:o.y, width:o.s, height:o.s,
         borderRadius:'50%', background:o.c,
@@ -7082,8 +7032,8 @@ function CortexLibraryShell() {
         padding:mode === 'mobile' ? '10px 14px' : '14px 22px',
         borderBottom:`1px solid ${theme.colors.glassBorder}`,
         background:'rgba(10,10,26,0.42)',
-        backdropFilter:coarsePointer ? 'blur(12px) saturate(135%)' : 'blur(22px)',
-        WebkitBackdropFilter:coarsePointer ? 'blur(12px) saturate(135%)' : 'blur(22px)',
+        backdropFilter:coarsePointer ? 'blur(10px) saturate(125%)' : 'blur(16px)',
+        WebkitBackdropFilter:coarsePointer ? 'blur(10px) saturate(125%)' : 'blur(16px)',
         flexShrink:0,
       }},
         React.createElement('div', null,
@@ -7118,9 +7068,9 @@ function CortexLibraryShell() {
           borderRadius:mode === 'mobile' ? 0 : 28,
           border:mode === 'mobile' ? 'none' : `1px solid ${theme.colors.glassBorder}`,
           background:isWelcomePage ? 'rgba(10,10,26,0.38)' : 'rgba(10,10,26,0.58)',
-          boxShadow:mode === 'mobile' ? 'none' : coarsePointer ? `0 10px 28px ${theme.colors.shadowColor}` : `0 18px 60px ${theme.colors.shadowColor}, inset 0 1px 0 ${theme.colors.glassHighlight}`,
-          backdropFilter:coarsePointer ? 'blur(8px) saturate(120%)' : (isWelcomePage ? 'blur(14px) saturate(165%)' : 'blur(24px) saturate(180%)'),
-          WebkitBackdropFilter:coarsePointer ? 'blur(8px) saturate(120%)' : (isWelcomePage ? 'blur(14px) saturate(165%)' : 'blur(24px) saturate(180%)'),
+          boxShadow:mode === 'mobile' ? 'none' : coarsePointer ? `0 8px 22px ${theme.colors.shadowColor}` : `0 14px 42px ${theme.colors.shadowColor}, inset 0 1px 0 ${theme.colors.glassHighlight}`,
+          backdropFilter:coarsePointer ? 'blur(6px) saturate(112%)' : (isWelcomePage ? 'blur(12px) saturate(150%)' : 'blur(16px) saturate(150%)'),
+          WebkitBackdropFilter:coarsePointer ? 'blur(6px) saturate(112%)' : (isWelcomePage ? 'blur(12px) saturate(150%)' : 'blur(16px) saturate(150%)'),
         }},
           React.createElement(ThemeProvider, { themeId:theme.id },
             React.createElement('div', { className:'cortex-library-stage-inner', style:{ height:'100%', overflow:'hidden', position:'relative' }}, renderPage())
