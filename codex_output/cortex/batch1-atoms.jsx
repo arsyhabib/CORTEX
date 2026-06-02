@@ -255,10 +255,10 @@ function B1Ripple({ children, style }) {
     if (coarse) return;
     const now = performance.now();
     const lastAt = lastRippleAt.get(target) || 0;
-    if (now - lastAt < 140) return;
+    if (now - lastAt < 180) return;
     lastRippleAt.set(target, now);
     const ink = document.createElement('span');
-    const size = Math.max(rect.width, rect.height) * (coarse ? 1.08 : 1.28);
+    const size = Math.max(rect.width, rect.height) * (coarse ? 1.08 : 1.16);
     const x = event.clientX - rect.left;
     const y = event.clientY - rect.top;
     ink.className = 'cortex-ripple-ink';
@@ -267,7 +267,7 @@ function B1Ripple({ children, style }) {
     ink.style.left = `${x}px`;
     ink.style.top = `${y}px`;
     target.appendChild(ink);
-    window.setTimeout(() => ink.remove(), coarse ? 520 : 620);
+    window.setTimeout(() => ink.remove(), coarse ? 520 : 760);
   };
 
   const onPointerDown = event => {

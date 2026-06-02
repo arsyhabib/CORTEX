@@ -90,30 +90,30 @@ function CortexInteractiveWallpaper({ wallpaper, exhibition }) {
         const yNorm = Math.max(-1, Math.min(1, (y - 45) / 45));
         const allowRipple = makeRipple && !coarsePointer;
         const touchScale = allowRipple
-          ? 0.024
+          ? 0.018
           : coarsePointer
-            ? 0.004 + velocity * 0.003
-            : 0.011 + velocity * 0.01;
+            ? 0.003 + velocity * 0.002
+            : 0.008 + velocity * 0.006;
         const touchSquash = allowRipple
-          ? 0.7
+          ? 0.48
           : coarsePointer
-            ? 0.12 + velocity * 0.08
-            : 0.28 + velocity * 0.42;
-        root.style.setProperty('--cortex-touch-shift-x', `${(xNorm * 6.2 + deltaX * 0.22).toFixed(2)}px`);
-        root.style.setProperty('--cortex-touch-shift-y', `${(yNorm * 5.0 + deltaY * 0.18).toFixed(2)}px`);
-        root.style.setProperty('--cortex-touch-sheen-x', `${(xNorm * 18 + deltaX * 0.8).toFixed(2)}px`);
-        root.style.setProperty('--cortex-touch-sheen-y', `${(yNorm * 14 + deltaY * 0.65).toFixed(2)}px`);
+            ? 0.08 + velocity * 0.05
+            : 0.18 + velocity * 0.26;
+        root.style.setProperty('--cortex-touch-shift-x', `${(xNorm * 4.2 + deltaX * 0.16).toFixed(2)}px`);
+        root.style.setProperty('--cortex-touch-shift-y', `${(yNorm * 3.4 + deltaY * 0.13).toFixed(2)}px`);
+        root.style.setProperty('--cortex-touch-sheen-x', `${(xNorm * 8 + deltaX * 0.34).toFixed(2)}px`);
+        root.style.setProperty('--cortex-touch-sheen-y', `${(yNorm * 7 + deltaY * 0.28).toFixed(2)}px`);
         root.style.setProperty('--cortex-touch-sheen-angle', `${(angle + 90).toFixed(2)}deg`);
         root.style.setProperty('--cortex-touch-scale', `${touchScale.toFixed(3)}`);
         root.style.setProperty('--cortex-touch-squash', `${touchSquash.toFixed(3)}`);
-        root.style.setProperty('--cortex-touch-press', allowRipple ? '1' : coarsePointer ? '0.18' : '0.55');
+        root.style.setProperty('--cortex-touch-press', allowRipple ? '0.8' : coarsePointer ? '0.12' : '0.42');
         if (allowRipple) root.classList.add('cortex-touch-active');
         touchRef.current = { x, y, t: now };
         setPointer({ x, y, px, py, angle });
         if (allowRipple) {
           const id = Date.now();
-          setRipples(rs => [...rs.slice(-2), { id, x, y }]);
-          setTimeout(() => setRipples(rs => rs.filter(r => r.id !== id)), 760);
+          setRipples(rs => [...rs.slice(-1), { id, x, y }]);
+          setTimeout(() => setRipples(rs => rs.filter(r => r.id !== id)), 860);
         }
       });
     };
