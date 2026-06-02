@@ -131,18 +131,18 @@ function CortexInteractiveWallpaper({ wallpaper, exhibition }) {
         const velocity = Math.min(1, Math.hypot(deltaX, deltaY) / elapsed * 0.95);
         const xNorm = Math.max(-1, Math.min(1, (x - 50) / 50));
         const yNorm = Math.max(-1, Math.min(1, (y - 45) / 45));
-        const touchScale = makeRipple ? 0.034 : 0.016 + velocity * 0.014;
-        const touchSquash = makeRipple ? 1 : 0.45 + velocity * 0.7;
-        const tiltX = Math.max(-6.2, Math.min(6.2, xNorm * 5.8 + deltaX * 0.15 + velocity * Math.sign(deltaX || 1) * 2.2));
-        const tiltY = Math.max(-6.8, Math.min(6.8, yNorm * -6.4 + deltaY * 0.12 - velocity * Math.sign(deltaY || 1) * 1.8));
-        const rollZ = Math.max(-8, Math.min(8, xNorm * 2.9 + deltaX * 0.18 - deltaY * 0.08 + velocity * 3.8 * Math.sign(deltaX || 1)));
+        const touchScale = makeRipple ? 0.024 : 0.011 + velocity * 0.01;
+        const touchSquash = makeRipple ? 0.7 : 0.28 + velocity * 0.42;
+        const tiltX = Math.max(-4.2, Math.min(4.2, xNorm * 4.0 + deltaX * 0.1 + velocity * Math.sign(deltaX || 1) * 1.5));
+        const tiltY = Math.max(-4.8, Math.min(4.8, yNorm * -4.4 + deltaY * 0.08 - velocity * Math.sign(deltaY || 1) * 1.2));
+        const rollZ = Math.max(-5.5, Math.min(5.5, xNorm * 2.1 + deltaX * 0.12 - deltaY * 0.05 + velocity * 2.3 * Math.sign(deltaX || 1)));
         root.style.setProperty('--cortex-touch-tilt-x', `${tiltX.toFixed(3)}deg`);
         root.style.setProperty('--cortex-touch-tilt-y', `${tiltY.toFixed(3)}deg`);
         root.style.setProperty('--cortex-touch-roll-z', `${rollZ.toFixed(3)}deg`);
-        root.style.setProperty('--cortex-touch-shift-x', `${(xNorm * 9.4 + deltaX * 0.35).toFixed(2)}px`);
-        root.style.setProperty('--cortex-touch-shift-y', `${(yNorm * 7.4 + deltaY * 0.28).toFixed(2)}px`);
-        root.style.setProperty('--cortex-touch-sheen-x', `${(xNorm * 24 + deltaX * 1.2).toFixed(2)}px`);
-        root.style.setProperty('--cortex-touch-sheen-y', `${(yNorm * 18 + deltaY * 1.0).toFixed(2)}px`);
+        root.style.setProperty('--cortex-touch-shift-x', `${(xNorm * 6.2 + deltaX * 0.22).toFixed(2)}px`);
+        root.style.setProperty('--cortex-touch-shift-y', `${(yNorm * 5.0 + deltaY * 0.18).toFixed(2)}px`);
+        root.style.setProperty('--cortex-touch-sheen-x', `${(xNorm * 18 + deltaX * 0.8).toFixed(2)}px`);
+        root.style.setProperty('--cortex-touch-sheen-y', `${(yNorm * 14 + deltaY * 0.65).toFixed(2)}px`);
         root.style.setProperty('--cortex-touch-sheen-angle', `${(angle + 90).toFixed(2)}deg`);
         root.style.setProperty('--cortex-touch-scale', `${touchScale.toFixed(3)}`);
         root.style.setProperty('--cortex-touch-squash', `${touchSquash.toFixed(3)}`);
@@ -153,7 +153,7 @@ function CortexInteractiveWallpaper({ wallpaper, exhibition }) {
         if (makeRipple) {
           const id = Date.now();
           setRipples(rs => [...rs.slice(-2), { id, x, y }]);
-          setTimeout(() => setRipples(rs => rs.filter(r => r.id !== id)), 950);
+          setTimeout(() => setRipples(rs => rs.filter(r => r.id !== id)), 760);
         }
       });
     };
