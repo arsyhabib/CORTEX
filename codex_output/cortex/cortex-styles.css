@@ -828,6 +828,17 @@
   mix-blend-mode: normal;
 }
 
+.cortex-wallpaper-performance-field {
+  position: absolute;
+  inset: -8%;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(116,92,255,0.22), transparent 22%),
+    radial-gradient(circle at 82% 16%, rgba(62,201,255,0.16), transparent 24%),
+    radial-gradient(circle at 52% 76%, rgba(255,168,214,0.13), transparent 28%),
+    linear-gradient(145deg, rgba(6,7,18,0.96), rgba(13,12,34,0.92));
+  opacity: 0.92;
+}
+
 @media (pointer: coarse) {
   .cortex-ripple-ink {
     display: none;
@@ -853,6 +864,27 @@
   .cortex-wallpaper-hotspot {
     display: none;
   }
+  .cortex-wallpaper-image,
+  .cortex-wallpaper-performance-field,
+  .cortex-wallpaper-minimal-field,
+  .cortex-wallpaper-organza-field,
+  .cortex-live-bubble,
+  .cortex-live-facet,
+  .cortex-live-kaleidoscope-line,
+  .cortex-live-sheen,
+  .cortex-live-ribbon,
+  .cortex-live-pearl,
+  .cortex-live-organza-glow,
+  .cortex-motion-card::after,
+  .cortex-motion-orb,
+  .cortex-motion-pill {
+    animation: none !important;
+    transition: none !important;
+    filter: none !important;
+    mix-blend-mode: normal !important;
+  }
+  .cortex-sensor-active .cortex-wallpaper-layer,
+  .cortex-sensor-active .cortex-library-stage-inner,
   .cortex-touch-active .cortex-motion-card,
   .cortex-touch-active .b1-card,
   .cortex-touch-active .b1-button,
@@ -862,7 +894,7 @@
   .cortex-touch-active .cortex-motion-sensor-control,
   .cortex-touch-active .b1-toggle,
   .cortex-touch-active .b1-search-input {
-    animation-duration: 520ms;
+    transform: none !important;
   }
 }
 .cortex-wallpaper-toggle {

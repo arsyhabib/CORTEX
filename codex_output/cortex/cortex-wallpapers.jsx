@@ -70,9 +70,16 @@ function CortexInteractiveWallpaper({ wallpaper, exhibition }) {
   const interactiveSelector = '.b1-card, .b1-button, .b1-toggle, .b1-search-input, .cortex-motion-sensor-control, .cortex-library-nav button, .cortex-wallpaper-toggle button';
   const coarsePointer = typeof window !== 'undefined' &&
     window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
+  const performanceMode = coarsePointer;
 
   React.useEffect(() => {
     const root = document.documentElement;
+    root.dataset.cortexMotionMode = performanceMode ? 'lite' : 'rich';
+    if (performanceMode) {
+      return () => {
+        delete root.dataset.cortexMotionMode;
+      };
+    }
     const update = (clientX, clientY, makeRipple) => {
       if (frame.current) cancelAnimationFrame(frame.current);
       frame.current = requestAnimationFrame(() => {
@@ -161,13 +168,15 @@ function CortexInteractiveWallpaper({ wallpaper, exhibition }) {
       window.removeEventListener('touchstart', onTouchStart);
       window.removeEventListener('touchend', onTouchEnd);
       window.removeEventListener('touchcancel', onTouchEnd);
+      delete root.dataset.cortexMotionMode;
     };
-  }, []);
+  }, [performanceMode]);
 
   return React.createElement('div', {
     className:'cortex-wallpaper-layer',
     'data-wallpaper':item.id,
     'data-mode':item.mode || 'image',
+    'data-motion-mode':performanceMode ? 'lite' : 'rich',
     'data-exhibition':String(!!exhibition),
     style:{
       '--wallpaper-image':`url("${cortexWallpaperAsset(item.file)}")`,
@@ -178,7 +187,9 @@ function CortexInteractiveWallpaper({ wallpaper, exhibition }) {
       '--wallpaper-angle':`${pointer.angle}deg`,
     }
   },
-    item.id === 'aurora'
+    performanceMode
+      ? React.createElement('div', { className:'cortex-wallpaper-performance-field' })
+      : item.id === 'aurora'
       ? React.createElement(CortexSoftBlendWallpaper, {
           mode:'aurora',
           palette:[
@@ -207,9 +218,9 @@ function CortexInteractiveWallpaper({ wallpaper, exhibition }) {
               'rgba(255, 216, 116, 0.12)',
             ],
           }),
-    React.createElement('div', { className:'cortex-wallpaper-caustic' }),
-    React.createElement('div', { className:'cortex-wallpaper-hotspot' }),
-    !coarsePointer && ripples.map(r => React.createElement('div', {
+    !performanceMode && React.createElement('div', { className:'cortex-wallpaper-caustic' }),
+    !performanceMode && React.createElement('div', { className:'cortex-wallpaper-hotspot' }),
+    !performanceMode && ripples.map(r => React.createElement('div', {
       key:r.id,
       className:'cortex-wallpaper-ripple',
       style:{ '--ripple-x':`${r.x}%`, '--ripple-y':`${r.y}%` },
