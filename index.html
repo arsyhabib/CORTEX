@@ -2,16 +2,13 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CORTEX DESIGN LIBRARY - Batch 3</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>CORTEX DESIGN LIBRARY - Batch 0 + 24 Pages</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
     html, body, #root { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; }
     body {
       background: #0a0a0a;
-      display: flex;
-      align-items: center;
-      justify-content: center;
       font-family: "SF Pro Display", "Inter", -apple-system, sans-serif;
     }
 /* CORTEX EDUCATION — Master Stylesheet */
@@ -1274,6 +1271,1366 @@ Object.assign(window, {
 });
 
 </script><script type="text/babel">
+/* inline: cortex-themes.jsx */
+/* CORTEX EDUCATION — Theme Engine */
+/* 5 Distinct Theme Configurations + React Context */
+
+const THEMES = {
+  neural: {
+    id: 'neural',
+    name: 'Neural Pulse',
+    emoji: '🧠',
+    description: 'Cerebral synaptic energy',
+    colors: {
+      bg: '#0a0a1a',
+      bgAlt: '#12102a',
+      surface: 'rgba(120, 80, 255, 0.08)',
+      glass: 'rgba(120, 80, 255, 0.12)',
+      glassBorder: 'rgba(160, 120, 255, 0.25)',
+      glassHighlight: 'rgba(180, 140, 255, 0.15)',
+      accent1: '#a855f7',
+      accent2: '#fbbf24',
+      accent3: '#6366f1',
+      text: '#f0eaff',
+      textSecondary: 'rgba(220, 200, 255, 0.6)',
+      textMuted: 'rgba(200, 180, 255, 0.35)',
+      gradientMain: 'linear-gradient(135deg, #6366f1, #a855f7, #fbbf24)',
+      gradientCard: 'linear-gradient(145deg, rgba(99,102,241,0.15), rgba(168,85,247,0.08))',
+      gradientAccent: 'linear-gradient(135deg, #a855f7, #6366f1)',
+      glow: '168, 85, 247',
+      shadowColor: 'rgba(99, 102, 241, 0.3)',
+    },
+    glass: { blur: 28, saturation: 200, bgOpacity: 0.1, borderOpacity: 0.2 },
+    borderRadius: 22,
+    fontWeight: { heading: 700, body: 400 },
+  },
+
+  aurora: {
+    id: 'aurora',
+    name: 'Aurora Prism',
+    emoji: '🌌',
+    description: 'Ethereal northern lights',
+    colors: {
+      bg: '#050a18',
+      bgAlt: '#0a1628',
+      surface: 'rgba(0, 220, 200, 0.06)',
+      glass: 'rgba(80, 200, 255, 0.1)',
+      glassBorder: 'rgba(100, 240, 255, 0.2)',
+      glassHighlight: 'rgba(130, 255, 230, 0.12)',
+      accent1: '#06d6a0',
+      accent2: '#e040fb',
+      accent3: '#00b4d8',
+      text: '#e0fff8',
+      textSecondary: 'rgba(200, 255, 240, 0.6)',
+      textMuted: 'rgba(180, 240, 230, 0.3)',
+      gradientMain: 'linear-gradient(135deg, #00b4d8, #06d6a0, #e040fb)',
+      gradientCard: 'linear-gradient(145deg, rgba(6,214,160,0.12), rgba(0,180,216,0.06))',
+      gradientAccent: 'linear-gradient(135deg, #06d6a0, #00b4d8)',
+      glow: '6, 214, 160',
+      shadowColor: 'rgba(0, 180, 216, 0.3)',
+    },
+    glass: { blur: 32, saturation: 180, bgOpacity: 0.08, borderOpacity: 0.18 },
+    borderRadius: 26,
+    fontWeight: { heading: 600, body: 400 },
+  },
+
+  gold: {
+    id: 'gold',
+    name: 'Liquid Gold',
+    emoji: '✨',
+    description: 'Premium luxury edition',
+    colors: {
+      bg: '#0c0a08',
+      bgAlt: '#1a1510',
+      surface: 'rgba(212, 175, 55, 0.06)',
+      glass: 'rgba(212, 175, 55, 0.08)',
+      glassBorder: 'rgba(212, 175, 55, 0.25)',
+      glassHighlight: 'rgba(255, 215, 100, 0.12)',
+      accent1: '#d4af37',
+      accent2: '#e8c4a0',
+      accent3: '#b8860b',
+      text: '#fff5e0',
+      textSecondary: 'rgba(255, 235, 200, 0.6)',
+      textMuted: 'rgba(220, 200, 160, 0.35)',
+      gradientMain: 'linear-gradient(135deg, #b8860b, #d4af37, #f5d67b)',
+      gradientCard: 'linear-gradient(145deg, rgba(212,175,55,0.1), rgba(184,134,11,0.05))',
+      gradientAccent: 'linear-gradient(135deg, #d4af37, #f5d67b)',
+      glow: '212, 175, 55',
+      shadowColor: 'rgba(212, 175, 55, 0.25)',
+    },
+    glass: { blur: 24, saturation: 160, bgOpacity: 0.06, borderOpacity: 0.22 },
+    borderRadius: 18,
+    fontWeight: { heading: 300, body: 300 },
+  },
+
+  neon: {
+    id: 'neon',
+    name: 'Neon Matrix',
+    emoji: '💚',
+    description: 'Cyberpunk hacker vibes',
+    colors: {
+      bg: '#030806',
+      bgAlt: '#0a1a0f',
+      surface: 'rgba(0, 255, 120, 0.05)',
+      glass: 'rgba(0, 255, 120, 0.08)',
+      glassBorder: 'rgba(0, 255, 120, 0.2)',
+      glassHighlight: 'rgba(0, 255, 180, 0.1)',
+      accent1: '#00ff88',
+      accent2: '#00e5ff',
+      accent3: '#ff0080',
+      text: '#e0ffe8',
+      textSecondary: 'rgba(200, 255, 220, 0.6)',
+      textMuted: 'rgba(150, 255, 200, 0.3)',
+      gradientMain: 'linear-gradient(135deg, #00ff88, #00e5ff, #ff0080)',
+      gradientCard: 'linear-gradient(145deg, rgba(0,255,136,0.08), rgba(0,229,255,0.04))',
+      gradientAccent: 'linear-gradient(135deg, #00ff88, #00e5ff)',
+      glow: '0, 255, 136',
+      shadowColor: 'rgba(0, 255, 136, 0.3)',
+    },
+    glass: { blur: 20, saturation: 150, bgOpacity: 0.06, borderOpacity: 0.15 },
+    borderRadius: 12,
+    fontWeight: { heading: 700, body: 400 },
+  },
+
+  bloom: {
+    id: 'bloom',
+    name: 'Sunset Bloom',
+    emoji: '🌸',
+    description: 'Warm radiant energy',
+    colors: {
+      bg: '#1a0a14',
+      bgAlt: '#24101c',
+      surface: 'rgba(255, 120, 100, 0.06)',
+      glass: 'rgba(255, 150, 120, 0.1)',
+      glassBorder: 'rgba(255, 180, 160, 0.2)',
+      glassHighlight: 'rgba(255, 200, 180, 0.12)',
+      accent1: '#ff6b6b',
+      accent2: '#feca57',
+      accent3: '#a29bfe',
+      text: '#fff0f0',
+      textSecondary: 'rgba(255, 220, 210, 0.65)',
+      textMuted: 'rgba(255, 200, 190, 0.35)',
+      gradientMain: 'linear-gradient(135deg, #ff6b6b, #feca57, #a29bfe)',
+      gradientCard: 'linear-gradient(145deg, rgba(255,107,107,0.12), rgba(254,202,87,0.06))',
+      gradientAccent: 'linear-gradient(135deg, #ff6b6b, #feca57)',
+      glow: '255, 107, 107',
+      shadowColor: 'rgba(255, 107, 107, 0.3)',
+    },
+    glass: { blur: 30, saturation: 190, bgOpacity: 0.1, borderOpacity: 0.18 },
+    borderRadius: 28,
+    fontWeight: { heading: 800, body: 400 },
+  },
+};
+
+const ThemeContext = React.createContext();
+
+function ThemeProvider({ themeId, children }) {
+  const theme = THEMES[themeId] || THEMES.neural;
+  return React.createElement(ThemeContext.Provider, { value: theme }, children);
+}
+
+function useTheme() {
+  return React.useContext(ThemeContext);
+}
+
+function glassStyle(theme, extra = {}) {
+  return {
+    backdropFilter: `blur(${theme.glass.blur}px) saturate(${theme.glass.saturation}%)`,
+    WebkitBackdropFilter: `blur(${theme.glass.blur}px) saturate(${theme.glass.saturation}%)`,
+    background: theme.colors.glass,
+    border: `1px solid ${theme.colors.glassBorder}`,
+    borderRadius: theme.borderRadius,
+    ...extra,
+  };
+}
+
+function glassCardStyle(theme, extra = {}) {
+  return {
+    ...glassStyle(theme),
+    boxShadow: `0 8px 32px ${theme.colors.shadowColor}, inset 0 1px 0 ${theme.colors.glassHighlight}`,
+    ...extra,
+  };
+}
+
+Object.assign(window, { THEMES, ThemeContext, ThemeProvider, useTheme, glassStyle, glassCardStyle });
+
+</script><script type="text/babel">
+/* inline: cortex-shared.jsx */
+/* CORTEX — Shared Glass UI Components */
+
+/* ═══ GLASS CARD ═══ */
+function GlassCard({ children, style, className, onClick, animate = true }) {
+  const theme = useTheme();
+  const [pressed, setPressed] = React.useState(false);
+  return React.createElement('div', {
+    className: className || '',
+    onClick, onPointerDown: () => setPressed(true),
+    onPointerUp: () => setPressed(false), onPointerLeave: () => setPressed(false),
+    style: {
+      ...glassCardStyle(theme),
+      transition: 'all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1)',
+      transform: pressed && onClick ? 'scale(0.97)' : 'scale(1)',
+      cursor: onClick ? 'pointer' : 'default',
+      position: 'relative', overflow: 'hidden',
+      ...style,
+    }
+  },
+    React.createElement('div', { style: {
+      position:'absolute', top:0, left:0, right:0, height:'50%',
+      background: `linear-gradient(180deg, ${theme.colors.glassHighlight}, transparent)`,
+      pointerEvents:'none', borderRadius:'inherit',
+    }}),
+    React.createElement('div', { style: { position:'relative', zIndex:1 } }, children)
+  );
+}
+
+/* ═══ ICON CIRCLE ═══ */
+function IconCircle({ icon, size = 44, gradient, style }) {
+  const theme = useTheme();
+  return React.createElement('div', { style: {
+    width: size, height: size, borderRadius: size/2,
+    background: gradient || theme.colors.gradientAccent,
+    display:'flex', alignItems:'center', justifyContent:'center',
+    fontSize: size*0.45, flexShrink:0,
+    boxShadow: `0 4px 16px ${theme.colors.shadowColor}`,
+    ...style,
+  }}, icon);
+}
+
+/* ═══ BADGE / CHIP ═══ */
+function GlassBadge({ children, accent, style }) {
+  const theme = useTheme();
+  return React.createElement('span', { style: {
+    display:'inline-flex', alignItems:'center', gap:4,
+    padding:'4px 12px', borderRadius:20,
+    background: accent ? `${theme.colors.accent1}22` : theme.colors.glass,
+    border: `1px solid ${accent ? theme.colors.accent1+'44' : theme.colors.glassBorder}`,
+    color: accent ? theme.colors.accent1 : theme.colors.textSecondary,
+    fontSize:11, fontWeight:600, letterSpacing:0.5,
+    backdropFilter:'blur(10px)', WebkitBackdropFilter:'blur(10px)',
+    ...style,
+  }}, children);
+}
+
+/* ═══ PROGRESS BAR ═══ */
+function GlassProgress({ value = 0, height = 6, color, style }) {
+  const theme = useTheme();
+  return React.createElement('div', { style: {
+    width:'100%', height, borderRadius: height,
+    background: 'rgba(255,255,255,0.08)', overflow:'hidden', ...style,
+  }},
+    React.createElement('div', { style: {
+      width:`${Math.min(100,Math.max(0,value))}%`, height:'100%',
+      background: color || theme.colors.gradientAccent,
+      borderRadius: height,
+      transition:'width 1s cubic-bezier(0.34, 1.56, 0.64, 1)',
+      boxShadow: `0 0 12px ${theme.colors.shadowColor}`,
+    }})
+  );
+}
+
+/* ═══ ANIMATED COUNTER ═══ */
+function AnimCounter({ end, duration = 1500, prefix = '', suffix = '' }) {
+  const [val, setVal] = React.useState(0);
+  React.useEffect(() => {
+    let start = 0; const startTime = Date.now();
+    const tick = () => {
+      const elapsed = Date.now() - startTime;
+      const progress = Math.min(1, elapsed / duration);
+      const eased = 1 - Math.pow(1 - progress, 3);
+      setVal(Math.round(eased * end));
+      if (progress < 1) requestAnimationFrame(tick);
+    };
+    requestAnimationFrame(tick);
+  }, [end]);
+  return React.createElement('span', null, `${prefix}${val.toLocaleString()}${suffix}`);
+}
+
+/* ═══ STREAK FLAME ═══ */
+function StreakFlame({ days, style }) {
+  const theme = useTheme();
+  return React.createElement('div', { style: {
+    display:'flex', alignItems:'center', gap:6, ...style,
+  }},
+    React.createElement('span', { style: { fontSize:20, animation:'float 2s ease-in-out infinite' }}, '🔥'),
+    React.createElement('div', null,
+      React.createElement('div', { style: { fontSize:14, fontWeight:700, color:theme.colors.text }},
+        React.createElement(AnimCounter, { end: days }), ' hari'),
+      React.createElement('div', { style: { fontSize:10, color:theme.colors.textMuted }}, 'Streak')
+    )
+  );
+}
+
+/* ═══ XP DISPLAY ═══ */
+function XPDisplay({ xp, level, style }) {
+  const theme = useTheme();
+  const nextLevel = level * 500;
+  return React.createElement('div', { style: {
+    display:'flex', alignItems:'center', gap:8, ...style
+  }},
+    React.createElement('div', { style: {
+      width:36, height:36, borderRadius:18,
+      background: theme.colors.gradientAccent,
+      display:'flex', alignItems:'center', justifyContent:'center',
+      fontSize:14, fontWeight:800, color:'#fff',
+      boxShadow: `0 0 16px ${theme.colors.shadowColor}`,
+    }}, level),
+    React.createElement('div', { style: { flex:1 }},
+      React.createElement('div', { style: {
+        display:'flex', justifyContent:'space-between', fontSize:11, marginBottom:3
+      }},
+        React.createElement('span', { style: { color:theme.colors.text, fontWeight:600 }},
+          React.createElement(AnimCounter, { end: xp }), ' XP'),
+        React.createElement('span', { style: { color:theme.colors.textMuted }}, `${nextLevel} XP`),
+      ),
+      React.createElement(GlassProgress, { value: (xp/nextLevel)*100, height:4 })
+    )
+  );
+}
+
+/* ═══ TAB BAR ═══ */
+function GlassTabBar({ tabs, active, onSelect }) {
+  const theme = useTheme();
+  return React.createElement('div', { style: {
+    display:'flex', gap:0, padding:'8px 12px 28px',
+    background: `linear-gradient(180deg, transparent, ${theme.colors.bg}cc)`,
+    backdropFilter:'blur(30px)', WebkitBackdropFilter:'blur(30px)',
+    borderTop:`1px solid ${theme.colors.glassBorder}`,
+    position:'relative',
+  }},
+    tabs.map(tab => React.createElement('div', {
+      key: tab.id,
+      onClick: () => onSelect(tab.id),
+      style: {
+        flex:1, display:'flex', flexDirection:'column', alignItems:'center', gap:3,
+        padding:'6px 0', cursor:'pointer',
+        transition:'all 0.3s ease',
+      }
+    },
+      React.createElement('span', { style: {
+        fontSize:22, transition:'transform 0.3s cubic-bezier(0.34,1.56,0.64,1)',
+        transform: active===tab.id ? 'scale(1.2)' : 'scale(1)',
+        filter: active===tab.id ? `drop-shadow(0 0 8px ${theme.colors.accent1})` : 'none',
+      }}, tab.icon),
+      React.createElement('span', { style: {
+        fontSize:9, fontWeight: active===tab.id ? 700 : 500,
+        color: active===tab.id ? theme.colors.accent1 : theme.colors.textMuted,
+        letterSpacing:0.5, textTransform:'uppercase',
+      }}, tab.label),
+      active===tab.id && React.createElement('div', { style: {
+        position:'absolute', bottom:26, width:4, height:4, borderRadius:2,
+        background: theme.colors.accent1,
+        boxShadow:`0 0 8px ${theme.colors.accent1}`,
+      }})
+    ))
+  );
+}
+
+/* ═══ COURSE CARD ═══ */
+function CourseCard({ course, onClick, delay = 0 }) {
+  const theme = useTheme();
+  return React.createElement(GlassCard, {
+    onClick,
+    style: {
+      padding:16, animation: `stagger-in 0.5s cubic-bezier(0.34,1.56,0.64,1) both`,
+      animationDelay: `${delay}s`,
+    }
+  },
+    React.createElement('div', { style: { display:'flex', gap:14, alignItems:'flex-start' }},
+      React.createElement(IconCircle, { icon: course.icon, size: 48 }),
+      React.createElement('div', { style: { flex:1, minWidth:0 }},
+        React.createElement('div', { style: {
+          fontSize:14, fontWeight:theme.fontWeight.heading, color:theme.colors.text,
+          marginBottom:3, textWrap:'pretty',
+        }}, course.title),
+        React.createElement('div', { style: {
+          fontSize:11, color:theme.colors.textSecondary, marginBottom:8,
+        }}, `${course.lessons} lessons • ${course.duration}`),
+        React.createElement(GlassProgress, { value: course.progress }),
+        React.createElement('div', { style: {
+          fontSize:10, color:theme.colors.textMuted, marginTop:4,
+        }}, `${course.progress}% selesai`)
+      )
+    )
+  );
+}
+
+/* ═══ STAT CARD ═══ */
+function StatCard({ icon, label, value, suffix, delay = 0 }) {
+  const theme = useTheme();
+  return React.createElement(GlassCard, {
+    style: {
+      padding:14, textAlign:'center',
+      animation: `stagger-in 0.5s cubic-bezier(0.34,1.56,0.64,1) both`,
+      animationDelay: `${delay}s`,
+    }
+  },
+    React.createElement('div', { style: { fontSize:24, marginBottom:6 }}, icon),
+    React.createElement('div', { style: {
+      fontSize:22, fontWeight:800, color:theme.colors.text,
+      background: theme.colors.gradientMain, WebkitBackgroundClip:'text',
+      WebkitTextFillColor:'transparent', backgroundClip:'text',
+    }}, React.createElement(AnimCounter, { end: value, suffix })),
+    React.createElement('div', { style: { fontSize:10, color:theme.colors.textMuted, marginTop:2 }}, label)
+  );
+}
+
+/* ═══ ACHIEVEMENT BADGE ═══ */
+function AchievementBadge({ icon, title, unlocked, delay = 0 }) {
+  const theme = useTheme();
+  return React.createElement('div', { style: {
+    display:'flex', flexDirection:'column', alignItems:'center', gap:6,
+    opacity: unlocked ? 1 : 0.3, filter: unlocked ? 'none' : 'grayscale(100%)',
+    animation: unlocked ? `scale-bounce 0.6s cubic-bezier(0.34,1.56,0.64,1) both` : 'none',
+    animationDelay: `${delay}s`,
+  }},
+    React.createElement('div', { style: {
+      width:52, height:52, borderRadius:26,
+      background: unlocked ? theme.colors.gradientAccent : 'rgba(255,255,255,0.05)',
+      border: `2px solid ${unlocked ? theme.colors.accent1 : 'rgba(255,255,255,0.1)'}`,
+      display:'flex', alignItems:'center', justifyContent:'center', fontSize:24,
+      boxShadow: unlocked ? `0 0 20px ${theme.colors.shadowColor}` : 'none',
+    }}, icon),
+    React.createElement('span', { style: {
+      fontSize:9, color: unlocked ? theme.colors.textSecondary : theme.colors.textMuted,
+      textAlign:'center', maxWidth:60, lineHeight:1.2,
+    }}, title)
+  );
+}
+
+/* ═══ LEADERBOARD ROW ═══ */
+function LeaderRow({ rank, name, xp, isUser, delay = 0 }) {
+  const theme = useTheme();
+  const medals = { 1:'🥇', 2:'🥈', 3:'🥉' };
+  return React.createElement(GlassCard, {
+    style: {
+      padding:'10px 14px',
+      background: isUser ? `${theme.colors.accent1}15` : theme.colors.glass,
+      border: isUser ? `1px solid ${theme.colors.accent1}44` : `1px solid ${theme.colors.glassBorder}`,
+      animation: `stagger-in 0.4s ease both`, animationDelay: `${delay}s`,
+    }
+  },
+    React.createElement('div', { style: { display:'flex', alignItems:'center', gap:12 }},
+      React.createElement('span', { style: { fontSize:16, width:28, textAlign:'center' }},
+        medals[rank] || React.createElement('span', { style: { color:theme.colors.textMuted, fontSize:13, fontWeight:700 }}, `#${rank}`)),
+      React.createElement('div', { style: {
+        width:32, height:32, borderRadius:16,
+        background: theme.colors.gradientCard,
+        border: `1px solid ${theme.colors.glassBorder}`,
+        display:'flex', alignItems:'center', justifyContent:'center',
+        fontSize:14, fontWeight:600, color:theme.colors.text,
+      }}, name[0]),
+      React.createElement('div', { style: { flex:1 }},
+        React.createElement('div', { style: { fontSize:13, fontWeight:isUser?700:500, color:theme.colors.text }},
+          name, isUser && ' (Kamu)'),
+        React.createElement('div', { style: { fontSize:10, color:theme.colors.textMuted }},
+          React.createElement(AnimCounter, { end: xp, suffix:' XP' }))
+      )
+    )
+  );
+}
+
+Object.assign(window, {
+  GlassCard, IconCircle, GlassBadge, GlassProgress, AnimCounter,
+  StreakFlame, XPDisplay, GlassTabBar, CourseCard, StatCard,
+  AchievementBadge, LeaderRow,
+});
+
+</script><script type="text/babel">
+/* inline: cortex-backgrounds.jsx */
+/* CORTEX — Animated Backgrounds for each theme */
+
+function NeuralBackground() {
+  const canvasRef = React.useRef(null);
+  const theme = useTheme();
+  React.useEffect(() => {
+    const c = canvasRef.current; if (!c) return;
+    const ctx = c.getContext('2d');
+    let w = c.width = c.parentElement.offsetWidth;
+    let h = c.height = c.parentElement.offsetHeight;
+    const nodes = Array.from({length: 35}, () => ({
+      x: Math.random()*w, y: Math.random()*h,
+      vx: (Math.random()-0.5)*0.4, vy: (Math.random()-0.5)*0.4,
+      r: Math.random()*3+1, pulse: Math.random()*Math.PI*2
+    }));
+    let raf;
+    function draw(t) {
+      ctx.clearRect(0,0,w,h);
+      nodes.forEach(n => {
+        n.x += n.vx; n.y += n.vy;
+        if(n.x<0||n.x>w) n.vx*=-1;
+        if(n.y<0||n.y>h) n.vy*=-1;
+        n.pulse += 0.02;
+      });
+      nodes.forEach((a,i) => {
+        nodes.forEach((b,j) => {
+          if(i>=j) return;
+          const d = Math.hypot(a.x-b.x, a.y-b.y);
+          if(d<120) {
+            const alpha = (1-d/120)*0.25;
+            ctx.beginPath();
+            ctx.moveTo(a.x, a.y); ctx.lineTo(b.x, b.y);
+            ctx.strokeStyle = `rgba(168,85,247,${alpha})`;
+            ctx.lineWidth = 0.8; ctx.stroke();
+          }
+        });
+        const glow = Math.sin(a.pulse)*0.4+0.6;
+        ctx.beginPath(); ctx.arc(a.x, a.y, a.r*glow*2, 0, Math.PI*2);
+        ctx.fillStyle = `rgba(168,85,247,${glow*0.3})`;
+        ctx.fill();
+        ctx.beginPath(); ctx.arc(a.x, a.y, a.r, 0, Math.PI*2);
+        ctx.fillStyle = `rgba(200,160,255,${glow*0.8})`;
+        ctx.fill();
+      });
+      raf = requestAnimationFrame(draw);
+    }
+    draw(0);
+    return () => cancelAnimationFrame(raf);
+  }, []);
+  return React.createElement('canvas', {
+    ref: canvasRef,
+    style: { position:'absolute', inset:0, width:'100%', height:'100%', opacity:0.6 }
+  });
+}
+
+function AuroraBackground() {
+  return React.createElement('div', { style: { position:'absolute', inset:0, overflow:'hidden' }},
+    [0,1,2,3].map(i => React.createElement('div', { key: i, style: {
+      position:'absolute',
+      width: '160%', height: '60%',
+      left: '-30%',
+      top: `${i*20-10}%`,
+      background: [
+        'radial-gradient(ellipse, rgba(6,214,160,0.2) 0%, transparent 70%)',
+        'radial-gradient(ellipse, rgba(0,180,216,0.18) 0%, transparent 70%)',
+        'radial-gradient(ellipse, rgba(224,64,251,0.15) 0%, transparent 70%)',
+        'radial-gradient(ellipse, rgba(6,214,160,0.12) 0%, transparent 70%)',
+      ][i],
+      animation: `wave-flow ${12+i*3}s ease-in-out infinite`,
+      animationDelay: `${i*-2}s`,
+      filter: 'blur(40px)',
+      borderRadius: '50%',
+    }}))
+  );
+}
+
+function MosaicBackground() {
+  const tiles = React.useMemo(() =>
+    Array.from({length: 48}, (_,i) => ({
+      id: i, delay: Math.random()*5,
+      duration: 3+Math.random()*4,
+      opacity: 0.06+Math.random()*0.12,
+      hue: Math.random()>0.5 ? 40+Math.random()*15 : 25+Math.random()*10,
+    })), []);
+  return React.createElement('div', {
+    style: { position:'absolute', inset:0, display:'grid',
+      gridTemplateColumns:'repeat(8,1fr)', gridTemplateRows:'repeat(6,1fr)', gap:2, padding:2, opacity:0.5 }
+  }, tiles.map(t => React.createElement('div', { key: t.id, style: {
+    background: `linear-gradient(135deg, hsla(${t.hue},60%,40%,${t.opacity}), hsla(${t.hue+10},50%,30%,${t.opacity*0.5}))`,
+    borderRadius: 4,
+    animation: `mosaic-tile ${t.duration}s ease-in-out infinite`,
+    animationDelay: `${t.delay}s`,
+    border: `1px solid rgba(212,175,55,0.08)`,
+  }})));
+}
+
+function MatrixBackground() {
+  const canvasRef = React.useRef(null);
+  React.useEffect(() => {
+    const c = canvasRef.current; if(!c) return;
+    const ctx = c.getContext('2d');
+    let w = c.width = c.parentElement.offsetWidth;
+    let h = c.height = c.parentElement.offsetHeight;
+    const cols = Math.floor(w/14);
+    const drops = Array(cols).fill(0).map(()=>Math.random()*h/14);
+    const chars = '01アイウエオカキクケコ{}[]<>=/+';
+    let raf; let frame = 0;
+    function draw() {
+      ctx.fillStyle = 'rgba(3,8,6,0.12)';
+      ctx.fillRect(0,0,w,h);
+      ctx.font = '12px monospace';
+      if(frame%2===0) {
+        drops.forEach((y,i) => {
+          const ch = chars[Math.floor(Math.random()*chars.length)];
+          const alpha = Math.random()*0.4+0.1;
+          ctx.fillStyle = `rgba(0,255,136,${alpha})`;
+          ctx.fillText(ch, i*14, y*14);
+          if(y*14>h && Math.random()>0.975) drops[i]=0;
+          drops[i] += 0.5;
+        });
+      }
+      frame++;
+      raf = requestAnimationFrame(draw);
+    }
+    draw();
+    return () => cancelAnimationFrame(raf);
+  }, []);
+  return React.createElement('canvas', {
+    ref: canvasRef,
+    style: { position:'absolute', inset:0, width:'100%', height:'100%', opacity:0.5 }
+  });
+}
+
+function BloomBackground() {
+  const blobs = React.useMemo(() => [
+    { color: 'rgba(255,107,107,0.25)', size: 200, x: 20, y: 15, dur: 10 },
+    { color: 'rgba(254,202,87,0.2)', size: 250, x: 70, y: 30, dur: 13 },
+    { color: 'rgba(162,155,254,0.2)', size: 180, x: 40, y: 65, dur: 11 },
+    { color: 'rgba(255,150,120,0.18)', size: 220, x: 80, y: 75, dur: 14 },
+    { color: 'rgba(255,107,180,0.15)', size: 160, x: 15, y: 80, dur: 12 },
+  ], []);
+  return React.createElement('div', { style: { position:'absolute', inset:0, overflow:'hidden', filter:'blur(50px)' }},
+    blobs.map((b,i) => React.createElement('div', { key: i, style: {
+      position:'absolute', left:`${b.x}%`, top:`${b.y}%`,
+      width: b.size, height: b.size,
+      background: b.color, borderRadius:'50%',
+      animation: `morph-blob ${b.dur}s ease-in-out infinite, float-slow ${b.dur+2}s ease-in-out infinite`,
+      animationDelay: `${i*-2}s`,
+    }}))
+  );
+}
+
+function ThemeBackground({ themeId }) {
+  const bgs = { neural: NeuralBackground, aurora: AuroraBackground, gold: MosaicBackground, neon: MatrixBackground, bloom: BloomBackground };
+  const Bg = bgs[themeId];
+  return Bg ? React.createElement(Bg) : null;
+}
+
+Object.assign(window, { ThemeBackground, NeuralBackground, AuroraBackground, MosaicBackground, MatrixBackground, BloomBackground });
+
+</script><script type="text/babel">
+/* inline: cortex-homes.jsx */
+/* CORTEX — 5 Unique Home Screen Layouts */
+
+const COURSES_DATA = [
+  { id:1, icon:'🧬', title:'Anatomi Manusia Dasar', lessons:24, duration:'8 jam', progress:72, category:'Medis' },
+  { id:2, icon:'💻', title:'React & Modern JavaScript', lessons:32, duration:'12 jam', progress:45, category:'Programming' },
+  { id:3, icon:'🎨', title:'UI/UX Design Fundamentals', lessons:18, duration:'6 jam', progress:88, category:'Desain' },
+  { id:4, icon:'🫀', title:'Kardiologi Klinis', lessons:20, duration:'10 jam', progress:30, category:'Medis' },
+  { id:5, icon:'🐍', title:'Python untuk Data Science', lessons:28, duration:'14 jam', progress:15, category:'Programming' },
+  { id:6, icon:'🖌️', title:'Digital Illustration Pro', lessons:16, duration:'5 jam', progress:60, category:'Seni' },
+];
+
+const CATEGORIES = [
+  { id:'all', icon:'✦', label:'Semua' },
+  { id:'medis', icon:'🩺', label:'Medis' },
+  { id:'code', icon:'⌨️', label:'Coding' },
+  { id:'design', icon:'🎨', label:'Desain' },
+  { id:'art', icon:'🖌️', label:'Seni' },
+];
+
+/* ═══════════════════════════════════════════
+   DESIGN 1: NEURAL PULSE
+   Organic flowing layout with synaptic connections
+   ═══════════════════════════════════════════ */
+function HomeNeural({ onNavigate, userName }) {
+  const theme = useTheme();
+  return React.createElement('div', { style: { padding:'0 18px 20px', display:'flex', flexDirection:'column', gap:18 }},
+    /* Header */
+    React.createElement('div', { style: { display:'flex', justifyContent:'space-between', alignItems:'center', animation:'slide-down 0.5s ease both' }},
+      React.createElement('div', null,
+        React.createElement('div', { style: { fontSize:11, color:theme.colors.textMuted, letterSpacing:1, textTransform:'uppercase', marginBottom:2 }}, 'Selamat Datang'),
+        React.createElement('div', { style: { fontSize:22, fontWeight:700, color:theme.colors.text }}, userName || 'Cortexian 🧠'),
+      ),
+      React.createElement('div', { onClick:()=>onNavigate('profile'), style: { cursor:'pointer' }},
+        React.createElement(StreakFlame, { days:14 })
+      )
+    ),
+    /* XP Bar */
+    React.createElement(GlassCard, { style: { padding:14 }},
+      React.createElement(XPDisplay, { xp:2840, level:7 })
+    ),
+    /* Big Hero Card - "Brain Activity" */
+    React.createElement(GlassCard, {
+      onClick: () => onNavigate('course'),
+      style: { padding:0, overflow:'hidden', animation:'scale-in 0.6s ease both', animationDelay:'0.1s' }
+    },
+      React.createElement('div', { style: {
+        padding:'24px 20px', background: theme.colors.gradientCard,
+        position:'relative',
+      }},
+        React.createElement(GlassBadge, { accent:true }, '🔥 Lanjutkan Belajar'),
+        React.createElement('div', { style: { fontSize:18, fontWeight:700, color:theme.colors.text, margin:'12px 0 6px' }},
+          'Anatomi Manusia Dasar'),
+        React.createElement('div', { style: { fontSize:12, color:theme.colors.textSecondary, marginBottom:14 }},
+          'Chapter 12: Sistem Saraf Pusat'),
+        React.createElement(GlassProgress, { value:72, height:5 }),
+        React.createElement('div', { style: { fontSize:10, color:theme.colors.textMuted, marginTop:6 }}, '72% — 6 lessons tersisa'),
+      )
+    ),
+    /* Stats Row */
+    React.createElement('div', { style: { display:'grid', gridTemplateColumns:'1fr 1fr 1fr', gap:10 }},
+      React.createElement(StatCard, { icon:'⚡', label:'XP Hari Ini', value:180, delay:0.15 }),
+      React.createElement(StatCard, { icon:'📚', label:'Selesai', value:47, delay:0.2 }),
+      React.createElement(StatCard, { icon:'🏆', label:'Ranking', value:12, suffix:'th', delay:0.25 }),
+    ),
+    /* Category Pills */
+    React.createElement('div', { style: { display:'flex', gap:8, overflowX:'auto', paddingBottom:4 }, className:'hide-scrollbar' },
+      CATEGORIES.map((cat,i) => React.createElement(GlassBadge, {
+        key:cat.id, accent: i===0,
+        style: { cursor:'pointer', whiteSpace:'nowrap', animation:`stagger-in 0.4s ease both`, animationDelay:`${0.3+i*0.05}s` }
+      }, `${cat.icon} ${cat.label}`))
+    ),
+    /* Course List */
+    React.createElement('div', { style: { display:'flex', flexDirection:'column', gap:10 }},
+      React.createElement('div', { style: { fontSize:15, fontWeight:700, color:theme.colors.text }}, 'Kursus Aktif'),
+      COURSES_DATA.slice(0,4).map((c,i) =>
+        React.createElement(CourseCard, { key:c.id, course:c, onClick:()=>onNavigate('course'), delay:0.35+i*0.08 })
+      )
+    ),
+  );
+}
+
+/* ═══════════════════════════════════════════
+   DESIGN 2: AURORA PRISM
+   Panoramic horizontal cards, ethereal
+   ═══════════════════════════════════════════ */
+function HomeAurora({ onNavigate, userName }) {
+  const theme = useTheme();
+  return React.createElement('div', { style: { padding:'0 0 20px', display:'flex', flexDirection:'column', gap:16 }},
+    /* Header */
+    React.createElement('div', { style: { padding:'0 20px', display:'flex', justifyContent:'space-between', alignItems:'center', animation:'slide-down 0.5s ease both' }},
+      React.createElement('div', null,
+        React.createElement('div', { style: { fontSize:22, fontWeight:600, color:theme.colors.text }}, `Hai, ${userName || 'Explorer'} ✦`),
+        React.createElement('div', { style: { fontSize:12, color:theme.colors.textSecondary }}, 'Siap menjelajah hari ini?'),
+      ),
+      React.createElement(StreakFlame, { days:21, style: { cursor:'pointer' }, onClick:()=>onNavigate('profile') })
+    ),
+    /* Horizontal Featured Scroll */
+    React.createElement('div', { style: {
+      display:'flex', gap:14, overflowX:'auto', padding:'4px 20px', scrollSnapType:'x mandatory',
+    }, className:'hide-scrollbar' },
+      [
+        { gradient:'linear-gradient(135deg, rgba(6,214,160,0.3), rgba(0,180,216,0.15))', title:'Anatomi Manusia', sub:'24 lessons', icon:'🧬', prog:72 },
+        { gradient:'linear-gradient(135deg, rgba(224,64,251,0.25), rgba(6,214,160,0.1))', title:'React & JS Modern', sub:'32 lessons', icon:'💻', prog:45 },
+        { gradient:'linear-gradient(135deg, rgba(0,180,216,0.25), rgba(224,64,251,0.1))', title:'UI/UX Design', sub:'18 lessons', icon:'🎨', prog:88 },
+      ].map((card,i) => React.createElement(GlassCard, {
+        key:i, onClick:()=>onNavigate('course'),
+        style: {
+          minWidth:240, padding:20, background:card.gradient, scrollSnapAlign:'start',
+          animation:`slide-right 0.5s ease both`, animationDelay:`${0.1+i*0.1}s`,
+        }
+      },
+        React.createElement('div', { style: { fontSize:36, marginBottom:12 }}, card.icon),
+        React.createElement('div', { style: { fontSize:16, fontWeight:600, color:theme.colors.text, marginBottom:4 }}, card.title),
+        React.createElement('div', { style: { fontSize:11, color:theme.colors.textSecondary, marginBottom:14 }}, card.sub),
+        React.createElement(GlassProgress, { value:card.prog }),
+        React.createElement('div', { style: { fontSize:10, color:theme.colors.textMuted, marginTop:6 }}, `${card.prog}% selesai`)
+      ))
+    ),
+    /* Stats */
+    React.createElement('div', { style: { padding:'0 20px', display:'grid', gridTemplateColumns:'1fr 1fr', gap:10 }},
+      React.createElement(StatCard, { icon:'🌟', label:'Total XP', value:2840, delay:0.3 }),
+      React.createElement(StatCard, { icon:'📖', label:'Kursus Aktif', value:6, delay:0.35 }),
+    ),
+    /* XP Progress */
+    React.createElement('div', { style: { padding:'0 20px' }},
+      React.createElement(GlassCard, { style: { padding:14 }},
+        React.createElement(XPDisplay, { xp:2840, level:7 })
+      )
+    ),
+    /* Quick Actions */
+    React.createElement('div', { style: { padding:'0 20px' }},
+      React.createElement('div', { style: { fontSize:15, fontWeight:600, color:theme.colors.text, marginBottom:10 }}, 'Aksi Cepat'),
+      React.createElement('div', { style: { display:'grid', gridTemplateColumns:'1fr 1fr', gap:10 }},
+        [
+          { icon:'🧪', label:'Quiz Harian', color:theme.colors.accent1 },
+          { icon:'📊', label:'Leaderboard', color:theme.colors.accent2 },
+          { icon:'🎯', label:'Tantangan', color:theme.colors.accent3 },
+          { icon:'📝', label:'Catatan', color:theme.colors.accent1 },
+        ].map((a,i) => React.createElement(GlassCard, {
+          key:i, onClick:()=>onNavigate(i===0?'quiz':i===1?'profile':'course'),
+          style: { padding:16, textAlign:'center', animation:`stagger-in 0.4s ease both`, animationDelay:`${0.4+i*0.06}s` }
+        },
+          React.createElement('div', { style: { fontSize:28, marginBottom:6 }}, a.icon),
+          React.createElement('div', { style: { fontSize:12, fontWeight:600, color:theme.colors.text }}, a.label)
+        ))
+      )
+    ),
+  );
+}
+
+/* ═══════════════════════════════════════════
+   DESIGN 3: LIQUID GOLD
+   Editorial luxury magazine layout
+   ═══════════════════════════════════════════ */
+function HomeGold({ onNavigate, userName }) {
+  const theme = useTheme();
+  return React.createElement('div', { style: { padding:'0 20px 20px', display:'flex', flexDirection:'column', gap:20 }},
+    /* Luxury Header */
+    React.createElement('div', { style: { textAlign:'center', padding:'8px 0', animation:'slide-down 0.6s ease both' }},
+      React.createElement('div', { style: {
+        fontSize:10, letterSpacing:4, textTransform:'uppercase', color:theme.colors.accent1,
+        marginBottom:6, fontWeight:300,
+      }}, '— CORTEX EDUCATION —'),
+      React.createElement('div', { style: {
+        fontSize:24, fontWeight:300, color:theme.colors.text, letterSpacing:1,
+      }}, `${userName || 'Learner'}`),
+      React.createElement('div', { style: { width:40, height:1, background:theme.colors.accent1, margin:'10px auto 0', opacity:0.5 }}),
+    ),
+    /* Gold Hero */
+    React.createElement(GlassCard, { onClick:()=>onNavigate('course'), style: {
+      padding:0, overflow:'hidden', borderRadius:theme.borderRadius,
+      animation:'scale-in 0.6s ease both', animationDelay:'0.15s',
+    }},
+      React.createElement('div', { style: {
+        padding:'28px 22px',
+        background:'linear-gradient(135deg, rgba(212,175,55,0.12), rgba(184,134,11,0.04))',
+        borderBottom:`1px solid ${theme.colors.glassBorder}`,
+      }},
+        React.createElement('div', { style: { display:'flex', justifyContent:'space-between', alignItems:'flex-start' }},
+          React.createElement('div', null,
+            React.createElement(GlassBadge, { accent:true, style:{ marginBottom:12 }}, '✦ PREMIUM'),
+            React.createElement('div', { style: { fontSize:18, fontWeight:300, color:theme.colors.text, letterSpacing:0.5, lineHeight:1.3 }},
+              'Anatomi Manusia', React.createElement('br'), React.createElement('span', { style: { fontWeight:600 }}, 'Dasar')),
+          ),
+          React.createElement('div', { style: { fontSize:48, opacity:0.8, animation:'float 4s ease-in-out infinite' }}, '🧬')
+        ),
+        React.createElement('div', { style: { marginTop:16 }},
+          React.createElement(GlassProgress, { value:72, height:3, color:theme.colors.gradientMain }),
+          React.createElement('div', { style: { fontSize:10, color:theme.colors.accent2, marginTop:6, letterSpacing:1 }}, '72% COMPLETE'),
+        )
+      )
+    ),
+    /* Minimal Stats */
+    React.createElement('div', { style: { display:'flex', justifyContent:'space-around', padding:'0 10px' }},
+      [{v:'2,840', l:'XP'},{v:'14', l:'STREAK'},{v:'47', l:'DONE'},{v:'#12', l:'RANK'}].map((s,i) =>
+        React.createElement('div', { key:i, style: {
+          textAlign:'center', animation:'counter-up 0.5s ease both', animationDelay:`${0.3+i*0.08}s`
+        }},
+          React.createElement('div', { style: {
+            fontSize:20, fontWeight:300, color:theme.colors.accent1, letterSpacing:1
+          }}, s.v),
+          React.createElement('div', { style: { fontSize:8, letterSpacing:2, color:theme.colors.textMuted, marginTop:4 }}, s.l),
+        )
+      )
+    ),
+    /* Course Grid - Magazine Style */
+    React.createElement('div', { style: { display:'flex', flexDirection:'column', gap:2 }},
+      React.createElement('div', { style: { fontSize:9, letterSpacing:3, color:theme.colors.textMuted, textTransform:'uppercase', marginBottom:10 }}, 'YOUR COURSES'),
+      COURSES_DATA.slice(0,4).map((c,i) =>
+        React.createElement('div', { key:c.id, onClick:()=>onNavigate('course'), style: {
+          display:'flex', alignItems:'center', gap:16, padding:'14px 0',
+          borderBottom:`1px solid ${theme.colors.glassBorder}`,
+          cursor:'pointer', animation:`stagger-in 0.4s ease both`, animationDelay:`${0.4+i*0.08}s`,
+        }},
+          React.createElement('span', { style: { fontSize:26 }}, c.icon),
+          React.createElement('div', { style: { flex:1 }},
+            React.createElement('div', { style: { fontSize:13, fontWeight:300, color:theme.colors.text, letterSpacing:0.3 }}, c.title),
+            React.createElement('div', { style: { fontSize:10, color:theme.colors.textMuted, letterSpacing:1 }}, `${c.lessons} LESSONS`),
+          ),
+          React.createElement('div', { style: { fontSize:12, color:theme.colors.accent1, fontWeight:600 }}, `${c.progress}%`)
+        )
+      )
+    ),
+  );
+}
+
+/* ═══════════════════════════════════════════
+   DESIGN 4: NEON MATRIX
+   Terminal-inspired dashboard, monospace
+   ═══════════════════════════════════════════ */
+function HomeNeon({ onNavigate, userName }) {
+  const theme = useTheme();
+  const [cmdText, setCmdText] = React.useState('');
+  React.useEffect(() => {
+    const full = `> cortex --user ${userName||'user'} --init-dashboard`;
+    let i=0;
+    const iv=setInterval(()=>{ if(i<=full.length){setCmdText(full.slice(0,i));i++;}else clearInterval(iv);},30);
+    return ()=>clearInterval(iv);
+  },[]);
+  return React.createElement('div', { style: { padding:'0 16px 20px', display:'flex', flexDirection:'column', gap:14, fontFamily:'monospace' }},
+    /* Terminal Header */
+    React.createElement(GlassCard, { style: { padding:'12px 14px', animation:'slide-down 0.5s ease both' }},
+      React.createElement('div', { style: { display:'flex', gap:6, marginBottom:8 }},
+        ['#ff5f57','#febc2e','#28c840'].map((c,i)=>
+          React.createElement('div', { key:i, style: { width:8, height:8, borderRadius:4, background:c }})
+        )
+      ),
+      React.createElement('div', { style: { fontSize:12, color:theme.colors.accent1, display:'flex', alignItems:'center' }},
+        React.createElement('span', null, cmdText),
+        React.createElement('span', { style: { display:'inline-block', width:7, height:14, background:theme.colors.accent1, marginLeft:2, animation:'blink-cursor 1s step-end infinite' }})
+      ),
+    ),
+    /* Status Bar */
+    React.createElement('div', { style: { display:'flex', gap:8 }},
+      [
+        { l:'STATUS', v:'ONLINE', c:theme.colors.accent1 },
+        { l:'STREAK', v:'14D', c:theme.colors.accent2 },
+        { l:'RANK', v:'#12', c:theme.colors.accent3 },
+      ].map((s,i) => React.createElement(GlassCard, { key:i, style: {
+        flex:1, padding:'10px 8px', textAlign:'center',
+        animation:`stagger-in 0.3s ease both`, animationDelay:`${0.2+i*0.08}s`
+      }},
+        React.createElement('div', { style: { fontSize:8, letterSpacing:2, color:theme.colors.textMuted }}, s.l),
+        React.createElement('div', { style: { fontSize:14, fontWeight:700, color:s.c, marginTop:4, fontFamily:'monospace' }}, s.v),
+      ))
+    ),
+    /* XP */
+    React.createElement(GlassCard, { style: { padding:14 }},
+      React.createElement('div', { style: { fontSize:9, letterSpacing:2, color:theme.colors.textMuted, marginBottom:8 }}, 'XP_PROGRESS'),
+      React.createElement(XPDisplay, { xp:2840, level:7 })
+    ),
+    /* Course Modules as "Processes" */
+    React.createElement('div', null,
+      React.createElement('div', { style: { fontSize:9, letterSpacing:2, color:theme.colors.textMuted, marginBottom:10 }}, 'ACTIVE_PROCESSES'),
+      React.createElement('div', { style: { display:'flex', flexDirection:'column', gap:8 }},
+        COURSES_DATA.slice(0,4).map((c,i) =>
+          React.createElement(GlassCard, { key:c.id, onClick:()=>onNavigate('course'), style: {
+            padding:'12px 14px', animation:`stagger-in 0.4s ease both`, animationDelay:`${0.35+i*0.08}s`,
+          }},
+            React.createElement('div', { style: { display:'flex', alignItems:'center', gap:10 }},
+              React.createElement('span', { style: { fontSize:10, color:theme.colors.accent1, fontFamily:'monospace' }}, `PID:${1024+c.id}`),
+              React.createElement('span', { style: { fontSize:18 }}, c.icon),
+              React.createElement('div', { style: { flex:1 }},
+                React.createElement('div', { style: { fontSize:12, fontWeight:700, color:theme.colors.text, fontFamily:'monospace' }}, c.title),
+                React.createElement('div', { style: { display:'flex', justifyContent:'space-between', alignItems:'center', marginTop:6 }},
+                  React.createElement(GlassProgress, { value:c.progress, height:3, color:`${theme.colors.accent1}`, style:{ flex:1, marginRight:8 } }),
+                  React.createElement('span', { style: { fontSize:10, color:theme.colors.accent1, fontFamily:'monospace' }}, `${c.progress}%`),
+                )
+              )
+            )
+          )
+        )
+      )
+    ),
+    /* Quick Commands */
+    React.createElement('div', { style: { display:'grid', gridTemplateColumns:'1fr 1fr', gap:8 }},
+      [{i:'⚡',l:'./quiz --daily'},{i:'📊',l:'./leaderboard'},{i:'🎯',l:'./challenge'},{i:'📋',l:'./notes'}].map((a,i)=>
+        React.createElement(GlassCard, { key:i, onClick:()=>onNavigate(i===0?'quiz':'profile'), style: {
+          padding:12, cursor:'pointer', animation:`stagger-in 0.3s ease both`, animationDelay:`${0.55+i*0.06}s`,
+        }},
+          React.createElement('div', { style: { fontSize:20, marginBottom:4 }}, a.i),
+          React.createElement('div', { style: { fontSize:10, color:theme.colors.accent1, fontFamily:'monospace' }}, a.l),
+        )
+      )
+    ),
+  );
+}
+
+/* ═══════════════════════════════════════════
+   DESIGN 5: SUNSET BLOOM
+   Bento grid with warm playful energy
+   ═══════════════════════════════════════════ */
+function HomeBloom({ onNavigate, userName }) {
+  const theme = useTheme();
+  return React.createElement('div', { style: { padding:'0 16px 20px', display:'flex', flexDirection:'column', gap:14 }},
+    /* Playful Header */
+    React.createElement('div', { style: { display:'flex', justifyContent:'space-between', alignItems:'center', animation:'slide-down 0.5s ease both' }},
+      React.createElement('div', null,
+        React.createElement('div', { style: { fontSize:24, fontWeight:800, color:theme.colors.text }}, `Hey ${userName||'Bestie'}! 👋`),
+        React.createElement('div', { style: { fontSize:13, color:theme.colors.textSecondary }}, 'Let\'s crush it today ✨'),
+      ),
+      React.createElement(StreakFlame, { days:14 })
+    ),
+    /* Bento Grid */
+    React.createElement('div', { style: { display:'grid', gridTemplateColumns:'1fr 1fr', gridAutoRows:'auto', gap:10 }},
+      /* Big Card - spans 2 cols */
+      React.createElement(GlassCard, { onClick:()=>onNavigate('course'), style: {
+        gridColumn:'1 / -1', padding:20,
+        background:'linear-gradient(135deg, rgba(255,107,107,0.15), rgba(254,202,87,0.08))',
+        animation:'scale-in 0.5s ease both', animationDelay:'0.1s',
+      }},
+        React.createElement('div', { style: { display:'flex', justifyContent:'space-between', alignItems:'flex-start' }},
+          React.createElement('div', null,
+            React.createElement(GlassBadge, { accent:true, style:{marginBottom:10} }, '🔥 Continue'),
+            React.createElement('div', { style: { fontSize:17, fontWeight:800, color:theme.colors.text, lineHeight:1.3 }}, 'Anatomi Manusia'),
+            React.createElement('div', { style: { fontSize:12, color:theme.colors.textSecondary, margin:'4px 0 12px' }}, 'Ch.12: Sistem Saraf'),
+            React.createElement(GlassProgress, { value:72, height:6 }),
+          ),
+          React.createElement('div', { style: { fontSize:50, animation:'float 3s ease-in-out infinite' }}, '🧬')
+        )
+      ),
+      /* Stats Bento */
+      React.createElement(GlassCard, { style: { padding:16, animation:'stagger-in 0.4s ease both', animationDelay:'0.2s' }},
+        React.createElement('div', { style: { fontSize:32, marginBottom:4 }}, '⚡'),
+        React.createElement('div', { style: {
+          fontSize:28, fontWeight:800, color:theme.colors.accent1,
+        }}, React.createElement(AnimCounter, { end: 2840 })),
+        React.createElement('div', { style: { fontSize:10, color:theme.colors.textMuted }}, 'Total XP'),
+      ),
+      React.createElement(GlassCard, { onClick:()=>onNavigate('quiz'), style: {
+        padding:16, background:'linear-gradient(135deg, rgba(162,155,254,0.15), rgba(255,107,107,0.05))',
+        animation:'stagger-in 0.4s ease both', animationDelay:'0.25s',
+      }},
+        React.createElement('div', { style: { fontSize:32, marginBottom:4 }}, '🧪'),
+        React.createElement('div', { style: { fontSize:16, fontWeight:800, color:theme.colors.text }}, 'Quiz Harian'),
+        React.createElement('div', { style: { fontSize:10, color:theme.colors.accent3 }}, 'Belum dikerjakan!'),
+      ),
+      /* Level Card */
+      React.createElement(GlassCard, { style: { gridColumn:'1 / -1', padding:14, animation:'stagger-in 0.4s ease both', animationDelay:'0.3s' }},
+        React.createElement(XPDisplay, { xp:2840, level:7 })
+      ),
+    ),
+    /* Courses */
+    React.createElement('div', { style: { fontSize:16, fontWeight:800, color:theme.colors.text }}, 'Kursus Kamu 📚'),
+    React.createElement('div', { style: { display:'flex', flexDirection:'column', gap:10 }},
+      COURSES_DATA.slice(0,3).map((c,i) =>
+        React.createElement(CourseCard, { key:c.id, course:c, onClick:()=>onNavigate('course'), delay:0.4+i*0.08 })
+      )
+    ),
+    /* Leaderboard Peek */
+    React.createElement(GlassCard, { onClick:()=>onNavigate('profile'), style: {
+      padding:16, background:'linear-gradient(135deg, rgba(254,202,87,0.1), rgba(162,155,254,0.05))',
+      animation:'stagger-in 0.4s ease both', animationDelay:'0.6s',
+    }},
+      React.createElement('div', { style: { display:'flex', justifyContent:'space-between', alignItems:'center' }},
+        React.createElement('div', null,
+          React.createElement('div', { style: { fontSize:14, fontWeight:800, color:theme.colors.text }}, '🏆 Leaderboard'),
+          React.createElement('div', { style: { fontSize:11, color:theme.colors.textSecondary }}, 'Kamu ranking #12 minggu ini!'),
+        ),
+        React.createElement('div', { style: { fontSize:24, color:theme.colors.accent2 }}, '→')
+      )
+    ),
+  );
+}
+
+const HOME_COMPONENTS = { neural:HomeNeural, aurora:HomeAurora, gold:HomeGold, neon:HomeNeon, bloom:HomeBloom };
+
+Object.assign(window, { HOME_COMPONENTS, HomeNeural, HomeAurora, HomeGold, HomeNeon, HomeBloom, COURSES_DATA, CATEGORIES });
+
+</script><script type="text/babel">
+/* inline: cortex-screens.jsx */
+/* CORTEX — Adaptive Screens (Splash, Course Detail, Quiz, Profile) */
+
+/* ═══════════════════════════════════════════
+   SPLASH / ONBOARDING SCREEN
+   ═══════════════════════════════════════════ */
+function SplashScreen({ onComplete, themeId }) {
+  const theme = useTheme();
+  const [step, setStep] = React.useState(0);
+  React.useEffect(() => {
+    const t1 = setTimeout(()=>setStep(1), 600);
+    const t2 = setTimeout(()=>setStep(2), 1400);
+    const t3 = setTimeout(()=>setStep(3), 2200);
+    return ()=>{clearTimeout(t1);clearTimeout(t2);clearTimeout(t3);};
+  },[]);
+  const logoEmojis = { neural:'🧠', aurora:'🌌', gold:'✨', neon:'💚', bloom:'🌸' };
+  const taglines = {
+    neural:'Activate Your Mind', aurora:'Explore Beyond Limits',
+    gold:'Excellence Redefined', neon:'> hack_your_brain()', bloom:'Learn, Play, Grow ✨',
+  };
+  return React.createElement('div', { style: {
+    position:'absolute', inset:0, display:'flex', flexDirection:'column',
+    alignItems:'center', justifyContent:'center', zIndex:100,
+    background:theme.colors.bg,
+  }},
+    React.createElement(ThemeBackground, { themeId }),
+    React.createElement('div', { style: { position:'relative', zIndex:2, textAlign:'center', padding:40 }},
+      React.createElement('div', { style: {
+        fontSize:72, marginBottom:20,
+        opacity:step>=0?1:0, transform:step>=0?'scale(1)':'scale(0.5)',
+        transition:'all 0.8s cubic-bezier(0.34,1.56,0.64,1)',
+        filter: step>=1 ? `drop-shadow(0 0 30px rgba(${theme.colors.glow},0.6))` : 'none',
+      }}, logoEmojis[themeId]),
+      React.createElement('div', { style: {
+        fontSize:28, fontWeight:theme.fontWeight.heading, color:theme.colors.text,
+        letterSpacing:2, opacity:step>=1?1:0, transform:step>=1?'translateY(0)':'translateY(20px)',
+        transition:'all 0.6s ease', transitionDelay:'0.1s',
+        fontFamily: themeId==='neon'?'monospace':'inherit',
+      }}, 'CORTEX'),
+      React.createElement('div', { style: {
+        fontSize:12, color:theme.colors.textSecondary, marginTop:8, letterSpacing:3,
+        textTransform:'uppercase', opacity:step>=2?1:0,
+        transition:'all 0.6s ease', fontWeight:300,
+      }}, taglines[themeId]),
+      React.createElement('div', { onClick:onComplete, style: {
+        marginTop:40, opacity:step>=3?1:0, transition:'all 0.5s ease',
+        cursor:'pointer',
+      }},
+        React.createElement('div', { style: {
+          ...glassCardStyle(theme, { padding:'14px 40px', display:'inline-block' }),
+        }},
+          React.createElement('span', { style: {
+            fontSize:14, fontWeight:600, color:theme.colors.accent1, letterSpacing:1,
+          }}, themeId==='neon' ? '> START' : 'Mulai Belajar →')
+        )
+      )
+    )
+  );
+}
+
+/* ═══════════════════════════════════════════
+   COURSE DETAIL SCREEN
+   ═══════════════════════════════════════════ */
+function CourseDetailScreen({ onBack, onNavigate }) {
+  const theme = useTheme();
+  const chapters = [
+    { id:1, title:'Pengenalan Anatomi', duration:'25 min', done:true },
+    { id:2, title:'Sel dan Jaringan', duration:'30 min', done:true },
+    { id:3, title:'Sistem Rangka', duration:'35 min', done:true },
+    { id:4, title:'Sistem Otot', duration:'28 min', done:true },
+    { id:5, title:'Sistem Pencernaan', duration:'32 min', done:true },
+    { id:6, title:'Sistem Pernapasan', duration:'30 min', done:true },
+    { id:7, title:'Sistem Kardiovaskular', duration:'40 min', done:true },
+    { id:8, title:'Sistem Limfatik', duration:'25 min', done:true },
+    { id:9, title:'Sistem Endokrin', duration:'35 min', done:true },
+    { id:10, title:'Sistem Saraf Tepi', duration:'38 min', done:true },
+    { id:11, title:'Sistem Saraf Otonom', duration:'30 min', done:true },
+    { id:12, title:'Sistem Saraf Pusat', duration:'42 min', done:false, current:true },
+    { id:13, title:'Organ Sensorik', duration:'28 min', done:false },
+    { id:14, title:'Sistem Reproduksi', duration:'35 min', done:false },
+  ];
+  return React.createElement('div', { style: { display:'flex', flexDirection:'column', height:'100%' }},
+    /* Header */
+    React.createElement('div', { style: { padding:'4px 18px 14px', animation:'slide-down 0.4s ease both' }},
+      React.createElement('div', { onClick:onBack, style: {
+        fontSize:13, color:theme.colors.accent1, cursor:'pointer', marginBottom:12, display:'flex', alignItems:'center', gap:4,
+      }}, '← Kembali'),
+      React.createElement('div', { style: { display:'flex', gap:16, alignItems:'flex-start' }},
+        React.createElement('div', { style: { fontSize:48, animation:'float 4s ease-in-out infinite' }}, '🧬'),
+        React.createElement('div', { style: { flex:1 }},
+          React.createElement(GlassBadge, { accent:true, style:{ marginBottom:6 }}, '🩺 Medis'),
+          React.createElement('div', { style: { fontSize:18, fontWeight:theme.fontWeight.heading, color:theme.colors.text, lineHeight:1.3 }},
+            'Anatomi Manusia Dasar'),
+          React.createElement('div', { style: { fontSize:11, color:theme.colors.textSecondary, marginTop:4 }},
+            '24 lessons • 8 jam • Dr. Sarah Chen'),
+        )
+      ),
+      React.createElement('div', { style: { marginTop:14 }},
+        React.createElement(GlassProgress, { value:72, height:6 }),
+        React.createElement('div', { style: { display:'flex', justifyContent:'space-between', marginTop:6 }},
+          React.createElement('span', { style: { fontSize:10, color:theme.colors.textMuted }}, '17/24 selesai'),
+          React.createElement('span', { style: { fontSize:10, color:theme.colors.accent1, fontWeight:600 }}, '72%'),
+        )
+      ),
+    ),
+    /* Stats Row */
+    React.createElement('div', { style: { display:'flex', gap:8, padding:'0 18px 14px' }},
+      [{i:'⏱️',v:'5.8 jam',l:'Waktu'},{i:'⚡',v:'680 XP',l:'Earned'},{i:'🏅',v:'4',l:'Badges'}].map((s,i)=>
+        React.createElement(GlassCard, { key:i, style: {
+          flex:1, padding:'10px 8px', textAlign:'center',
+          animation:`stagger-in 0.3s ease both`, animationDelay:`${0.1+i*0.08}s`,
+        }},
+          React.createElement('div', { style: { fontSize:16 }}, s.i),
+          React.createElement('div', { style: { fontSize:13, fontWeight:700, color:theme.colors.text, marginTop:2 }}, s.v),
+          React.createElement('div', { style: { fontSize:9, color:theme.colors.textMuted }}, s.l),
+        )
+      )
+    ),
+    /* Chapter List */
+    React.createElement('div', { style: {
+      flex:1, overflowY:'auto', padding:'0 18px 20px',
+    }, className:'hide-scrollbar' },
+      React.createElement('div', { style: { fontSize:13, fontWeight:700, color:theme.colors.text, marginBottom:10 }}, 'Chapters'),
+      React.createElement('div', { style: { display:'flex', flexDirection:'column', gap:6 }},
+        chapters.map((ch,i) => React.createElement(GlassCard, {
+          key:ch.id,
+          onClick: ch.current ? ()=>onNavigate('quiz') : undefined,
+          style: {
+            padding:'12px 14px',
+            background: ch.current ? `${theme.colors.accent1}15` : theme.colors.glass,
+            border: ch.current ? `1px solid ${theme.colors.accent1}44` : `1px solid ${theme.colors.glassBorder}`,
+            animation:`stagger-in 0.3s ease both`, animationDelay:`${0.2+i*0.04}s`,
+          }
+        },
+          React.createElement('div', { style: { display:'flex', alignItems:'center', gap:12 }},
+            React.createElement('div', { style: {
+              width:28, height:28, borderRadius:14, flexShrink:0,
+              background: ch.done ? theme.colors.gradientAccent : ch.current ? `${theme.colors.accent1}33` : 'rgba(255,255,255,0.05)',
+              border: ch.done || ch.current ? 'none' : `1px solid ${theme.colors.glassBorder}`,
+              display:'flex', alignItems:'center', justifyContent:'center',
+              fontSize: ch.done ? 12 : 10, color:'#fff', fontWeight:700,
+            }}, ch.done ? '✓' : ch.id),
+            React.createElement('div', { style: { flex:1 }},
+              React.createElement('div', { style: {
+                fontSize:12, fontWeight: ch.current?700:400, color: ch.done||ch.current ? theme.colors.text : theme.colors.textMuted,
+              }}, ch.title),
+              React.createElement('div', { style: { fontSize:10, color:theme.colors.textMuted }}, ch.duration),
+            ),
+            ch.current && React.createElement(GlassBadge, { accent:true, style:{ fontSize:9 }}, '▶ PLAY')
+          )
+        ))
+      )
+    ),
+  );
+}
+
+/* ═══════════════════════════════════════════
+   QUIZ SCREEN
+   ═══════════════════════════════════════════ */
+function QuizScreen({ onBack }) {
+  const theme = useTheme();
+  const [current, setCurrent] = React.useState(0);
+  const [selected, setSelected] = React.useState(null);
+  const [score, setScore] = React.useState(0);
+  const [answered, setAnswered] = React.useState(false);
+  const [showResult, setShowResult] = React.useState(false);
+  const questions = [
+    { q:'Bagian otak mana yang mengontrol keseimbangan tubuh?',
+      opts:['Cerebrum','Cerebellum','Medulla Oblongata','Thalamus'], correct:1 },
+    { q:'Neurotransmitter utama pada sistem saraf parasimpatik adalah?',
+      opts:['Dopamin','Serotonin','Asetilkolin','Norepinefrin'], correct:2 },
+    { q:'Berapa jumlah pasang saraf kranial pada manusia?',
+      opts:['10 pasang','12 pasang','14 pasang','8 pasang'], correct:1 },
+  ];
+  const handleSelect = (idx) => {
+    if(answered) return;
+    setSelected(idx); setAnswered(true);
+    if(idx === questions[current].correct) setScore(s=>s+1);
+    setTimeout(()=>{
+      if(current < questions.length-1) {
+        setCurrent(c=>c+1); setSelected(null); setAnswered(false);
+      } else { setShowResult(true); }
+    }, 1200);
+  };
+  if(showResult) {
+    return React.createElement('div', { style: {
+      display:'flex', flexDirection:'column', alignItems:'center', justifyContent:'center',
+      height:'100%', padding:30, textAlign:'center',
+    }},
+      React.createElement('div', { style: { fontSize:72, marginBottom:20, animation:'scale-bounce 0.8s ease both' }},
+        score===questions.length ? '🏆' : score>=2 ? '🌟' : '💪'),
+      React.createElement('div', { style: { fontSize:24, fontWeight:theme.fontWeight.heading, color:theme.colors.text, marginBottom:8 }},
+        score===questions.length ? 'Perfect!' : 'Bagus!'),
+      React.createElement('div', { style: { fontSize:14, color:theme.colors.textSecondary, marginBottom:20 }},
+        `${score}/${questions.length} jawaban benar`),
+      React.createElement('div', { style: {
+        fontSize:28, fontWeight:800, color:theme.colors.accent1,
+        background:theme.colors.gradientMain, WebkitBackgroundClip:'text', WebkitTextFillColor:'transparent',
+        marginBottom:24,
+      }}, `+${score*50} XP`),
+      React.createElement(GlassCard, { onClick:onBack, style: { padding:'14px 40px', cursor:'pointer' }},
+        React.createElement('span', { style: { color:theme.colors.accent1, fontWeight:600 }}, '← Kembali ke Dashboard')
+      ),
+    );
+  }
+  const q = questions[current];
+  return React.createElement('div', { style: { display:'flex', flexDirection:'column', height:'100%' }},
+    /* Header */
+    React.createElement('div', { style: { padding:'4px 18px 14px' }},
+      React.createElement('div', { onClick:onBack, style: {
+        fontSize:13, color:theme.colors.accent1, cursor:'pointer', marginBottom:12,
+      }}, '← Kembali'),
+      React.createElement('div', { style: { display:'flex', justifyContent:'space-between', alignItems:'center', marginBottom:10 }},
+        React.createElement('div', { style: { fontSize:15, fontWeight:700, color:theme.colors.text }}, '🧪 Quiz Harian'),
+        React.createElement(GlassBadge, null, `${current+1}/${questions.length}`),
+      ),
+      React.createElement(GlassProgress, { value:((current+1)/questions.length)*100, height:4 }),
+    ),
+    /* Question */
+    React.createElement('div', { style: { flex:1, padding:'10px 18px 20px', display:'flex', flexDirection:'column', gap:14 }},
+      React.createElement(GlassCard, { key:current, style: {
+        padding:20, textAlign:'center', animation:'scale-in 0.4s ease both',
+      }},
+        React.createElement('div', { style: { fontSize:40, marginBottom:14 }}, '🧠'),
+        React.createElement('div', { style: {
+          fontSize:15, fontWeight:600, color:theme.colors.text, lineHeight:1.5, textWrap:'pretty',
+        }}, q.q),
+      ),
+      React.createElement('div', { style: { display:'flex', flexDirection:'column', gap:10 }},
+        q.opts.map((opt,i) => {
+          const isCorrect = i===q.correct;
+          const isSelected = i===selected;
+          let bg = theme.colors.glass;
+          let border = theme.colors.glassBorder;
+          if(answered) {
+            if(isCorrect) { bg='rgba(34,197,94,0.15)'; border='rgba(34,197,94,0.5)'; }
+            else if(isSelected && !isCorrect) { bg='rgba(239,68,68,0.15)'; border='rgba(239,68,68,0.5)'; }
+          }
+          return React.createElement(GlassCard, {
+            key:i, onClick:()=>handleSelect(i),
+            style: {
+              padding:'14px 16px', background:bg, borderColor:border,
+              animation:`stagger-in 0.4s ease both`, animationDelay:`${0.2+i*0.08}s`,
+              transition:'all 0.3s ease',
+              transform: isSelected ? 'scale(0.98)' : 'scale(1)',
+            }
+          },
+            React.createElement('div', { style: { display:'flex', alignItems:'center', gap:12 }},
+              React.createElement('div', { style: {
+                width:28, height:28, borderRadius:14, flexShrink:0,
+                background: answered && isCorrect ? 'rgba(34,197,94,0.3)' : answered && isSelected ? 'rgba(239,68,68,0.3)' : 'rgba(255,255,255,0.06)',
+                border:`1px solid ${answered && isCorrect ? 'rgba(34,197,94,0.5)' : answered && isSelected ? 'rgba(239,68,68,0.5)' : 'rgba(255,255,255,0.1)'}`,
+                display:'flex', alignItems:'center', justifyContent:'center',
+                fontSize:12, fontWeight:700, color:'#fff',
+              }}, answered ? (isCorrect ? '✓' : isSelected ? '✕' : String.fromCharCode(65+i)) : String.fromCharCode(65+i)),
+              React.createElement('span', { style: {
+                fontSize:13, color:theme.colors.text, fontWeight: isSelected?600:400,
+              }}, opt)
+            )
+          );
+        })
+      ),
+      /* Score Indicator */
+      React.createElement('div', { style: { display:'flex', justifyContent:'center', gap:6, marginTop:8 }},
+        questions.map((_,i) => React.createElement('div', { key:i, style: {
+          width:8, height:8, borderRadius:4,
+          background: i<current ? (i===0||(score>0&&i<score) ? theme.colors.accent1 : 'rgba(239,68,68,0.6)') : i===current ? theme.colors.accent1+'66' : 'rgba(255,255,255,0.1)',
+          transition:'all 0.3s ease',
+        }}))
+      ),
+    ),
+  );
+}
+
+/* ═══════════════════════════════════════════
+   PROFILE / ACHIEVEMENT SCREEN
+   ═══════════════════════════════════════════ */
+function ProfileScreen({ onBack }) {
+  const theme = useTheme();
+  const achievements = [
+    { icon:'🔥', title:'7-Day Streak', unlocked:true },
+    { icon:'🧬', title:'Bio Master', unlocked:true },
+    { icon:'💻', title:'Code Ninja', unlocked:true },
+    { icon:'🏆', title:'Top 10', unlocked:true },
+    { icon:'📚', title:'Bookworm', unlocked:true },
+    { icon:'🎯', title:'Perfectionist', unlocked:false },
+    { icon:'⚡', title:'Speed Learner', unlocked:false },
+    { icon:'🌟', title:'All Stars', unlocked:false },
+  ];
+  const leaderboard = [
+    { rank:1, name:'Aria Putri', xp:4200 },
+    { rank:2, name:'Budi Santoso', xp:3850 },
+    { rank:3, name:'Citra Dewi', xp:3600 },
+    { rank:4, name:'Dimas Prakoso', xp:3100 },
+    { rank:5, name:'Eka Saputra', xp:2950 },
+    { rank:12, name:'Kamu', xp:2840, isUser:true },
+  ];
+  return React.createElement('div', { style: { display:'flex', flexDirection:'column', height:'100%' }},
+    React.createElement('div', { style: { padding:'4px 18px 0' }},
+      React.createElement('div', { onClick:onBack, style: { fontSize:13, color:theme.colors.accent1, cursor:'pointer', marginBottom:12 }}, '← Kembali'),
+    ),
+    React.createElement('div', { style: { flex:1, overflowY:'auto', padding:'0 18px 20px' }, className:'hide-scrollbar' },
+      /* Profile Header */
+      React.createElement('div', { style: { textAlign:'center', marginBottom:20, animation:'slide-down 0.5s ease both' }},
+        React.createElement('div', { style: {
+          width:80, height:80, borderRadius:40, margin:'0 auto 12px',
+          background:theme.colors.gradientMain,
+          display:'flex', alignItems:'center', justifyContent:'center',
+          fontSize:36, boxShadow:`0 0 30px ${theme.colors.shadowColor}`,
+          border:`3px solid ${theme.colors.glassBorder}`,
+        }}, '🧑‍🎓'),
+        React.createElement('div', { style: { fontSize:20, fontWeight:theme.fontWeight.heading, color:theme.colors.text }}, 'Cortexian'),
+        React.createElement('div', { style: { fontSize:11, color:theme.colors.textSecondary, marginTop:4 }}, 'Bergabung 3 bulan lalu'),
+      ),
+      /* Level & XP */
+      React.createElement(GlassCard, { style: { padding:16, marginBottom:14, animation:'scale-in 0.5s ease both', animationDelay:'0.1s' }},
+        React.createElement(XPDisplay, { xp:2840, level:7 }),
+      ),
+      /* Stats Grid */
+      React.createElement('div', { style: { display:'grid', gridTemplateColumns:'1fr 1fr 1fr', gap:8, marginBottom:16 }},
+        React.createElement(StatCard, { icon:'🔥', label:'Streak', value:14, suffix:' hari', delay:0.2 }),
+        React.createElement(StatCard, { icon:'📚', label:'Kursus', value:6, delay:0.25 }),
+        React.createElement(StatCard, { icon:'⏱️', label:'Jam Belajar', value:42, delay:0.3 }),
+      ),
+      /* Achievements */
+      React.createElement('div', { style: { fontSize:14, fontWeight:700, color:theme.colors.text, marginBottom:12 }}, '🏅 Achievements'),
+      React.createElement('div', { style: { display:'grid', gridTemplateColumns:'repeat(4,1fr)', gap:12, marginBottom:18 }},
+        achievements.map((a,i) => React.createElement(AchievementBadge, { key:i, ...a, delay:0.35+i*0.06 }))
+      ),
+      /* Leaderboard */
+      React.createElement('div', { style: { fontSize:14, fontWeight:700, color:theme.colors.text, marginBottom:12 }}, '🏆 Leaderboard'),
+      React.createElement('div', { style: { display:'flex', flexDirection:'column', gap:6 }},
+        leaderboard.map((l,i) => React.createElement(LeaderRow, { key:l.rank, ...l, delay:0.5+i*0.06 }))
+      ),
+    ),
+  );
+}
+
+Object.assign(window, { SplashScreen, CourseDetailScreen, QuizScreen, ProfileScreen });
+
+</script><script type="text/babel">
 /* inline: batch1-atoms.jsx */
 /* CORTEX DESIGN LIBRARY — Batch 1 Refined Atoms
    Preserves kernel's visual DNA: glass, purple/blue, rounded, iOS-like
@@ -1513,6 +2870,947 @@ Object.assign(window, {
 });
 
 </script><script type="text/babel">
+/* inline: batch1-screens-a.jsx */
+/* CORTEX DESIGN LIBRARY — Batch 1 Screens (1-4)
+   Page 1: Welcome / Entry
+   Page 2: Home / Dashboard
+   Page 3: Main Learning Page
+   Page 4: Slide / Section Detail */
+
+/* ═══════════════════════════════════════════
+   PAGE 1 — WELCOME / ENTRY SCREEN
+   Premium onboarding with liquid glass identity
+   ═══════════════════════════════════════════ */
+function PageWelcome({ onNavigate }) {
+  const [step, setStep] = React.useState(0);
+  React.useEffect(() => {
+    const t = [500,1200,2000,2800].map((d,i) => setTimeout(()=>setStep(i+1),d));
+    return () => t.forEach(clearTimeout);
+  }, []);
+
+  const orbs = React.useMemo(() => [
+    { x:15, y:20, s:180, c:'rgba(99,102,241,0.25)', d:11 },
+    { x:75, y:15, s:140, c:'rgba(168,85,247,0.2)', d:13 },
+    { x:50, y:70, s:200, c:'rgba(99,102,241,0.18)', d:15 },
+    { x:85, y:75, s:120, c:'rgba(251,191,36,0.12)', d:10 },
+  ], []);
+
+  return React.createElement('div', {
+    'data-screen-label': 'P1-Welcome',
+    style: { position:'absolute', inset:0, display:'flex', flexDirection:'column',
+      alignItems:'center', justifyContent:'center', background:DL.bg, overflow:'hidden' }
+  },
+    /* Animated orbs background */
+    React.createElement('div', { style:{ position:'absolute', inset:0, filter:'blur(60px)' }},
+      orbs.map((o,i) => React.createElement('div', { key:i, style:{
+        position:'absolute', left:`${o.x}%`, top:`${o.y}%`, width:o.s, height:o.s,
+        background:o.c, borderRadius:'50%',
+        animation:`morph-blob ${o.d}s ease-in-out infinite, float-slow ${o.d+3}s ease-in-out infinite`,
+        animationDelay:`${i*-2}s`,
+      }}))
+    ),
+    /* Content */
+    React.createElement('div', { style:{ position:'relative', zIndex:2, textAlign:'center', padding:'0 40px', maxWidth:340 }},
+      /* Logo mark */
+      React.createElement('div', { style:{
+        width:88, height:88, borderRadius:28, margin:'0 auto 24px',
+        background:'linear-gradient(135deg, rgba(99,102,241,0.2), rgba(168,85,247,0.15))',
+        border:`1px solid ${DL.glassBorder}`,
+        backdropFilter:'blur(20px)', WebkitBackdropFilter:'blur(20px)',
+        display:'flex', alignItems:'center', justifyContent:'center',
+        boxShadow:`0 8px 40px ${DL.shadowColor}, 0 0 60px rgba(168,85,247,0.15)`,
+        opacity:step>=1?1:0, transform:step>=1?'scale(1) rotate(0deg)':'scale(0.5) rotate(-10deg)',
+        transition:'all 0.8s cubic-bezier(0.34,1.56,0.64,1)',
+      }},
+        React.createElement('div', { style:{ fontSize:38 }}, '🧬')
+      ),
+      /* Title */
+      React.createElement('div', { style:{
+        fontSize:30, fontWeight:700, color:DL.text, letterSpacing:1.5,
+        opacity:step>=2?1:0, transform:step>=2?'translateY(0)':'translateY(16px)',
+        transition:'all 0.6s ease 0.1s',
+      }}, 'CORTEX'),
+      React.createElement('div', { style:{
+        fontSize:11, letterSpacing:4, color:DL.accent, textTransform:'uppercase',
+        marginTop:4, fontWeight:600,
+        opacity:step>=2?1:0, transition:'all 0.5s ease 0.2s',
+      }}, 'EDUCATION'),
+      /* Tagline */
+      React.createElement('div', { style:{
+        fontSize:14, color:DL.sub, lineHeight:1.6, marginTop:20, textWrap:'pretty',
+        opacity:step>=3?1:0, transform:step>=3?'translateY(0)':'translateY(12px)',
+        transition:'all 0.5s ease',
+      }}, 'Platform pembelajaran medis premium berbasis AI untuk mahasiswa & profesional.'),
+      /* CTA */
+      React.createElement('div', { style:{
+        marginTop:32, opacity:step>=4?1:0, transform:step>=4?'translateY(0)':'translateY(16px)',
+        transition:'all 0.5s ease',
+      }},
+        React.createElement(B1Button, {
+          label:'Mulai Belajar', full:true, onClick:()=>onNavigate(2),
+          style:{ padding:'14px 0' },
+        }),
+        React.createElement('div', { style:{ marginTop:14 }},
+          React.createElement(B1Button, {
+            label:'Sudah punya akun? Masuk', variant:'ghost', full:true,
+            onClick:()=>onNavigate(2),
+            style:{ background:'none', border:'none', color:DL.sub, fontSize:12 },
+          })
+        ),
+      ),
+      /* Dots / steps indicator */
+      React.createElement('div', { style:{
+        display:'flex', gap:6, justifyContent:'center', marginTop:28,
+        opacity:step>=4?1:0, transition:'opacity 0.5s ease',
+      }},
+        [0,1,2].map(i => React.createElement('div', { key:i, style:{
+          width: i===0?20:6, height:6, borderRadius:3,
+          background: i===0 ? DL.accent : 'rgba(255,255,255,0.15)',
+          transition:'all 0.3s ease',
+        }}))
+      ),
+    )
+  );
+}
+
+/* ═══════════════════════════════════════════
+   PAGE 2 — HOME / LIGHTWEIGHT DASHBOARD
+   Clean medical learning dashboard
+   ═══════════════════════════════════════════ */
+function PageHome({ onNavigate }) {
+  const courses = [
+    { id:1, icon:'🧬', title:'Anatomi Manusia', sub:'Ch.12 — Sistem Saraf Pusat', progress:72, lessons:24, badge:'Lanjutkan' },
+    { id:2, icon:'🫀', title:'Kardiologi Klinis', sub:'Ch.5 — Aritmia & EKG', progress:30, lessons:20, badge:null },
+    { id:3, icon:'🧪', title:'Farmakologi Dasar', sub:'Ch.8 — Farmakokinetik', progress:55, lessons:16, badge:null },
+  ];
+  return React.createElement('div', {
+    'data-screen-label': 'P2-Home',
+    style:{ display:'flex', flexDirection:'column', height:'100%' }
+  },
+    /* Topbar */
+    React.createElement(B1Topbar, {
+      transparent: true,
+      left: React.createElement('div', { style:{
+        width:34, height:34, borderRadius:17, background:DL.gradA,
+        display:'flex', alignItems:'center', justifyContent:'center', fontSize:15,
+        boxShadow:`0 0 12px ${DL.shadowColor}`,
+      }}, '🧑‍🎓'),
+      title: null,
+      right: React.createElement('div', { style:{ display:'flex', gap:8 }},
+        React.createElement('span', { onClick:()=>onNavigate(6), style:{ fontSize:18, cursor:'pointer', opacity:0.6 }}, '🔍'),
+        React.createElement('span', { onClick:()=>onNavigate(5), style:{ fontSize:18, cursor:'pointer', opacity:0.6 }}, '☰'),
+      ),
+    }),
+    /* Scrollable content */
+    React.createElement('div', { style:{ flex:1, overflowY:'auto', padding:'0 18px 20px' }, className:'hide-scrollbar' },
+      /* Greeting */
+      React.createElement('div', { style:{ marginBottom:18, animation:'slide-down 0.5s ease backwards' }},
+        React.createElement('div', { style:{ fontSize:22, fontWeight:700, color:DL.text }}, 'Halo, Dr. Raka'),
+        React.createElement('div', { style:{ fontSize:13, color:DL.sub, marginTop:2 }}, 'Lanjutkan perjalanan belajarmu'),
+      ),
+      /* Stats row */
+      React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'1fr 1fr 1fr', gap:10, marginBottom:18 }},
+        [{i:'🔥',v:14,l:'Hari Streak'},{i:'⚡',v:2840,l:'Total XP'},{i:'📚',v:6,l:'Kursus'}].map((s,idx) =>
+          React.createElement(B1Card, { key:idx, pad:12, style:{
+            textAlign:'center', animation:'stagger-in 0.4s ease backwards', animationDelay:`${0.1+idx*0.06}s`,
+          }},
+            React.createElement('div', { style:{ fontSize:20, marginBottom:4 }}, s.i),
+            React.createElement('div', { style:{
+              fontSize:18, fontWeight:800, color:DL.text,
+              background:DL.grad, WebkitBackgroundClip:'text', WebkitTextFillColor:'transparent',
+            }}, React.createElement(B1Counter, { end:s.v })),
+            React.createElement('div', { style:{ fontSize:9, color:DL.mute, marginTop:2, letterSpacing:0.5 }}, s.l),
+          )
+        )
+      ),
+      /* Continue Learning — Hero card */
+      React.createElement(B1Card, {
+        onClick:()=>onNavigate(3), glow:true,
+        style:{ marginBottom:18, background:DL.gradCard, animation:'scale-in 0.5s ease backwards', animationDelay:'0.25s' },
+      },
+        React.createElement(B1Badge, { color:DL.gold, style:{ marginBottom:10 } }, '🔥 Lanjutkan'),
+        React.createElement('div', { style:{ display:'flex', gap:14, alignItems:'flex-start' }},
+          React.createElement(B1Icon, { icon:'🧬', size:52 }),
+          React.createElement('div', { style:{ flex:1 }},
+            React.createElement('div', { style:{ fontSize:16, fontWeight:700, color:DL.text, lineHeight:1.3 }}, 'Anatomi Manusia Dasar'),
+            React.createElement('div', { style:{ fontSize:11, color:DL.sub, margin:'4px 0 10px' }}, 'Ch.12 — Sistem Saraf Pusat'),
+            React.createElement(B1Progress, { value:72 }),
+            React.createElement('div', { style:{ fontSize:10, color:DL.mute, marginTop:5 }}, '72% • 6 lessons tersisa'),
+          )
+        )
+      ),
+      /* Courses list */
+      React.createElement(B1Section, { title:'Kursus Aktif', action:'Lihat Semua', style:{ marginBottom:10 } }),
+      React.createElement('div', { style:{ display:'flex', flexDirection:'column', gap:10 }},
+        courses.map((c,i) => React.createElement(B1Card, {
+          key:c.id, onClick:()=>onNavigate(3),
+          style:{ animation:'stagger-in 0.4s ease backwards', animationDelay:`${0.35+i*0.07}s` },
+        },
+          React.createElement('div', { style:{ display:'flex', gap:12, alignItems:'center' }},
+            React.createElement(B1Icon, { icon:c.icon, size:44 }),
+            React.createElement('div', { style:{ flex:1 }},
+              React.createElement('div', { style:{ fontSize:13, fontWeight:600, color:DL.text }}, c.title),
+              React.createElement('div', { style:{ fontSize:10, color:DL.sub, margin:'2px 0 8px' }}, c.sub),
+              React.createElement(B1Progress, { value:c.progress, h:4 }),
+            ),
+            React.createElement('span', { style:{ fontSize:12, color:DL.accent, fontWeight:700 }}, `${c.progress}%`),
+          )
+        ))
+      ),
+      /* Quick actions */
+      React.createElement(B1Section, { title:'Aksi Cepat', style:{ marginTop:18, marginBottom:10 } }),
+      React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:10 }},
+        [{i:'🧪',l:'Quiz Harian',n:4},{i:'📊',l:'Progress',n:2},{i:'🤖',l:'AI Tutor',n:3},{i:'📖',l:'Glosarium',n:3}].map((a,i) =>
+          React.createElement(B1Card, { key:i, pad:14, onClick:()=>onNavigate(a.n), style:{
+            textAlign:'center', animation:'stagger-in 0.3s ease backwards', animationDelay:`${0.55+i*0.06}s`,
+          }},
+            React.createElement('div', { style:{ fontSize:26, marginBottom:6 }}, a.i),
+            React.createElement('div', { style:{ fontSize:11, fontWeight:600, color:DL.text }}, a.l),
+          )
+        )
+      ),
+    ),
+  );
+}
+
+/* ═══════════════════════════════════════════
+   PAGE 3 — MAIN LEARNING PAGE
+   Slide-based medical content viewport
+   ═══════════════════════════════════════════ */
+function PageLearning({ onNavigate }) {
+  const [slideIdx, setSlideIdx] = React.useState(0);
+  const slides = [
+    { title:'Sistem Saraf Pusat', sub:'Pengenalan & Anatomi Dasar' },
+    { title:'Otak Besar (Cerebrum)', sub:'Struktur & Fungsi Lobus' },
+    { title:'Otak Kecil (Cerebellum)', sub:'Koordinasi Motorik' },
+  ];
+  const total = slides.length;
+  const s = slides[slideIdx];
+
+  return React.createElement('div', {
+    'data-screen-label': 'P3-Learning',
+    style:{ display:'flex', flexDirection:'column', height:'100%' }
+  },
+    /* Topbar */
+    React.createElement(B1Topbar, {
+      left: React.createElement('span', { onClick:()=>onNavigate(2), style:{ fontSize:13, color:DL.accent, cursor:'pointer' }}, '← Back'),
+      title: 'Anatomi Manusia',
+      subtitle: `Slide ${slideIdx+1} / ${total}`,
+      right: React.createElement('span', { onClick:()=>onNavigate(5), style:{ fontSize:16, cursor:'pointer', opacity:0.6 }}, '☰'),
+    }),
+    /* Slide progress */
+    React.createElement('div', { style:{ padding:'0 18px 8px' }},
+      React.createElement(B1Progress, { value:((slideIdx+1)/total)*100, h:3 }),
+    ),
+    /* Content viewport */
+    React.createElement('div', { style:{ flex:1, overflowY:'auto', padding:'0 18px 20px' }, className:'hide-scrollbar' },
+      /* Slide card */
+      React.createElement(B1Card, { key:slideIdx, glow:true, style:{
+        marginBottom:16, animation:'scale-in 0.4s ease backwards',
+      }},
+        React.createElement(B1Badge, { color:DL.teal }, `📖 Slide ${slideIdx+1}`),
+        React.createElement('div', { style:{ fontSize:20, fontWeight:700, color:DL.text, marginTop:12, lineHeight:1.3 }}, s.title),
+        React.createElement('div', { style:{ fontSize:12, color:DL.sub, marginTop:4 }}, s.sub),
+      ),
+      /* Image placeholder */
+      React.createElement(B1Card, { pad:0, style:{ marginBottom:16, overflow:'hidden' }},
+        React.createElement('div', { style:{
+          height:160, background:'linear-gradient(135deg, rgba(99,102,241,0.15), rgba(168,85,247,0.08))',
+          display:'flex', alignItems:'center', justifyContent:'center', flexDirection:'column', gap:8,
+        }},
+          React.createElement('div', { style:{ fontSize:40, opacity:0.4 }}, '🧠'),
+          React.createElement('div', { style:{ fontSize:11, color:DL.mute }}, 'Diagram: Struktur Otak Manusia'),
+        )
+      ),
+      /* Text content */
+      React.createElement('div', { style:{ fontSize:14, lineHeight:1.75, color:DL.sub, textWrap:'pretty' }},
+        'Sistem saraf pusat (SSP) terdiri dari otak dan medulla spinalis. SSP merupakan pusat pengolahan informasi utama dalam tubuh manusia, menerima input sensorik, mengintegrasikan data, dan mengirimkan respon motorik.',
+        React.createElement('br'), React.createElement('br'),
+        'Otak manusia memiliki berat sekitar 1,4 kg dan terdiri dari sekitar 86 miliar neuron yang saling terhubung melalui sinapsis.',
+      ),
+      /* Clinical callout */
+      React.createElement(B1Card, { style:{
+        marginTop:16, background:'rgba(34,197,94,0.08)', borderColor:'rgba(34,197,94,0.25)',
+      }},
+        React.createElement('div', { style:{ display:'flex', gap:10, alignItems:'flex-start' }},
+          React.createElement('span', { style:{ fontSize:18 }}, '💡'),
+          React.createElement('div', null,
+            React.createElement('div', { style:{ fontSize:12, fontWeight:700, color:DL.green }}, 'Clinical Pearl'),
+            React.createElement('div', { style:{ fontSize:12, color:DL.sub, marginTop:4, lineHeight:1.6 }},
+              'Kerusakan pada area Broca menyebabkan afasia motorik — pasien memahami bahasa tetapi kesulitan memproduksi kata-kata.'),
+          )
+        )
+      ),
+      /* Key terms */
+      React.createElement(B1Section, { title:'Istilah Kunci', style:{ marginTop:18, marginBottom:8 } }),
+      React.createElement('div', { style:{ display:'flex', flexWrap:'wrap', gap:6 }},
+        ['Neuron','Sinapsis','Cerebrum','Cerebellum','Medulla','Akson','Dendrit'].map(t =>
+          React.createElement(B1Badge, { key:t, style:{ cursor:'pointer' }}, t)
+        )
+      ),
+    ),
+    /* Navigation footer */
+    React.createElement('div', { style:{
+      display:'flex', gap:10, padding:'12px 18px 28px',
+      borderTop:`1px solid ${DL.glassBorder}`,
+      backdropFilter:'blur(20px)', WebkitBackdropFilter:'blur(20px)',
+    }},
+      React.createElement(B1Button, {
+        label:'← Prev', variant:'ghost',
+        onClick:()=>setSlideIdx(Math.max(0,slideIdx-1)),
+        style:{ flex:1, opacity:slideIdx===0?0.3:1 },
+      }),
+      React.createElement(B1Button, {
+        label: slideIdx<total-1 ? 'Next →' : 'Selesai ✓',
+        onClick:()=> slideIdx<total-1 ? setSlideIdx(slideIdx+1) : onNavigate(4),
+        style:{ flex:1 },
+      }),
+    ),
+  );
+}
+
+/* ═══════════════════════════════════════════
+   PAGE 4 — SLIDE / SECTION DETAIL PAGE
+   Deep dive into a specific topic section
+   ═══════════════════════════════════════════ */
+function PageSlideDetail({ onNavigate }) {
+  const chapters = [
+    { id:1, t:'Pengenalan Anatomi', dur:'25 min', done:true },
+    { id:2, t:'Sel dan Jaringan', dur:'30 min', done:true },
+    { id:3, t:'Sistem Rangka', dur:'35 min', done:true },
+    { id:4, t:'Sistem Otot', dur:'28 min', done:true },
+    { id:5, t:'Sistem Pencernaan', dur:'32 min', done:true },
+    { id:6, t:'Sistem Kardiovaskular', dur:'40 min', done:true },
+    { id:7, t:'Sistem Pernapasan', dur:'30 min', done:true },
+    { id:8, t:'Sistem Limfatik', dur:'25 min', done:true },
+    { id:9, t:'Sistem Endokrin', dur:'35 min', done:true },
+    { id:10, t:'Sistem Saraf Tepi', dur:'38 min', done:true },
+    { id:11, t:'Sistem Saraf Otonom', dur:'30 min', done:true },
+    { id:12, t:'Sistem Saraf Pusat', dur:'42 min', done:false, current:true },
+    { id:13, t:'Organ Sensorik', dur:'28 min', done:false },
+    { id:14, t:'Sistem Reproduksi', dur:'35 min', done:false },
+  ];
+  return React.createElement('div', {
+    'data-screen-label': 'P4-SlideDetail',
+    style:{ display:'flex', flexDirection:'column', height:'100%' }
+  },
+    React.createElement(B1Topbar, {
+      left: React.createElement('span', { onClick:()=>onNavigate(2), style:{ fontSize:13, color:DL.accent, cursor:'pointer' }}, '← Back'),
+      title: 'Detail Kursus',
+      right: React.createElement('span', { style:{ fontSize:16, opacity:0.5 }}, '⋯'),
+    }),
+    React.createElement('div', { style:{ flex:1, overflowY:'auto', padding:'0 18px 20px' }, className:'hide-scrollbar' },
+      /* Hero */
+      React.createElement(B1Card, { glow:true, style:{ marginBottom:16, animation:'scale-in 0.4s ease backwards' }},
+        React.createElement('div', { style:{ display:'flex', gap:14 }},
+          React.createElement('div', { style:{ fontSize:48, animation:'float 4s ease-in-out infinite' }}, '🧬'),
+          React.createElement('div', { style:{ flex:1 }},
+            React.createElement(B1Badge, { color:DL.teal }, '🩺 Medis'),
+            React.createElement('div', { style:{ fontSize:18, fontWeight:700, color:DL.text, marginTop:6, lineHeight:1.3 }}, 'Anatomi Manusia Dasar'),
+            React.createElement('div', { style:{ fontSize:11, color:DL.sub, marginTop:4 }}, '14 chapters • 8 jam • Dr. Sarah Chen'),
+          ),
+        ),
+        React.createElement('div', { style:{ marginTop:14 }},
+          React.createElement(B1Progress, { value:72, h:5 }),
+          React.createElement('div', { style:{ display:'flex', justifyContent:'space-between', marginTop:6 }},
+            React.createElement('span', { style:{ fontSize:10, color:DL.mute }}, '11/14 selesai'),
+            React.createElement('span', { style:{ fontSize:10, color:DL.accent, fontWeight:700 }}, '72%'),
+          ),
+        ),
+      ),
+      /* Stats */
+      React.createElement('div', { style:{ display:'flex', gap:8, marginBottom:16 }},
+        [{i:'⏱️',v:'5.8 jam',l:'Waktu'},{i:'⚡',v:'680 XP',l:'Earned'},{i:'🏅',v:'4',l:'Badges'}].map((s,idx) =>
+          React.createElement(B1Card, { key:idx, pad:10, style:{
+            flex:1, textAlign:'center', animation:'stagger-in 0.3s ease backwards', animationDelay:`${0.1+idx*0.07}s`,
+          }},
+            React.createElement('div', { style:{ fontSize:16 }}, s.i),
+            React.createElement('div', { style:{ fontSize:13, fontWeight:700, color:DL.text, marginTop:3 }}, s.v),
+            React.createElement('div', { style:{ fontSize:9, color:DL.mute }}, s.l),
+          )
+        )
+      ),
+      /* Chapters */
+      React.createElement(B1Section, { title:'Chapters', action:`${chapters.length} total`, style:{ marginBottom:10 } }),
+      React.createElement('div', { style:{ display:'flex', flexDirection:'column', gap:6 }},
+        chapters.map((ch,i) => React.createElement(B1Card, {
+          key:ch.id, pad:12,
+          onClick: ch.current ? ()=>onNavigate(3) : undefined,
+          style:{
+            background: ch.current ? 'rgba(168,85,247,0.12)' : DL.glass,
+            borderColor: ch.current ? 'rgba(168,85,247,0.35)' : DL.glassBorder,
+            animation:'stagger-in 0.3s ease backwards', animationDelay:`${0.2+i*0.03}s`,
+          }
+        },
+          React.createElement('div', { style:{ display:'flex', alignItems:'center', gap:10 }},
+            React.createElement('div', { style:{
+              width:26, height:26, borderRadius:13, flexShrink:0,
+              background: ch.done ? DL.gradA : ch.current ? 'rgba(168,85,247,0.25)' : 'rgba(255,255,255,0.05)',
+              border: !ch.done && !ch.current ? `1px solid ${DL.glassBorder}` : 'none',
+              display:'flex', alignItems:'center', justifyContent:'center',
+              fontSize:ch.done ? 10 : 9, color:'#fff', fontWeight:700,
+            }}, ch.done ? '✓' : ch.id),
+            React.createElement('div', { style:{ flex:1 }},
+              React.createElement('div', { style:{
+                fontSize:12, fontWeight:ch.current?700:400,
+                color: ch.done||ch.current ? DL.text : DL.mute,
+              }}, ch.t),
+              React.createElement('div', { style:{ fontSize:9, color:DL.mute }}, ch.dur),
+            ),
+            ch.current && React.createElement(B1Badge, { color:DL.accent }, '▶ Mulai'),
+          )
+        ))
+      ),
+    ),
+  );
+}
+
+Object.assign(window, { PageWelcome, PageHome, PageLearning, PageSlideDetail });
+
+</script><script type="text/babel">
+/* inline: batch1-screens-b.jsx */
+/* CORTEX DESIGN LIBRARY — Batch 1 Screens (5-8)
+   Page 5: Mobile Sidebar State
+   Page 6: Search Overlay
+   Page 7: Settings Basic
+   Page 8: Theme & Motion Showcase */
+
+/* ═══════════════════════════════════════════
+   PAGE 5 — MOBILE SIDEBAR STATE
+   Slide-out navigation with glass overlay
+   ═══════════════════════════════════════════ */
+function PageSidebar({ onNavigate }) {
+  const [open, setOpen] = React.useState(false);
+  React.useEffect(() => { setTimeout(()=>setOpen(true), 300); }, []);
+
+  const navItems = [
+    { icon:'🏠', label:'Beranda', page:2, active:false },
+    { icon:'📚', label:'Kursus Saya', page:4, active:true },
+    { icon:'🧪', label:'Quiz & Latihan', page:3, active:false },
+    { icon:'📊', label:'Progress', page:2, active:false },
+    { icon:'🤖', label:'AI Tutor', page:3, active:false },
+    { icon:'📖', label:'Glosarium', page:4, active:false },
+    { icon:'🔍', label:'Pencarian', page:6, active:false },
+  ];
+  const bottomItems = [
+    { icon:'⚙️', label:'Pengaturan', page:7 },
+    { icon:'❓', label:'Bantuan', page:7 },
+  ];
+
+  return React.createElement('div', {
+    'data-screen-label': 'P5-Sidebar',
+    style:{ position:'relative', height:'100%', background:DL.bg, overflow:'hidden' }
+  },
+    /* Background page (dimmed) */
+    React.createElement('div', { style:{
+      position:'absolute', inset:0, opacity:0.3, filter:'blur(4px)',
+      pointerEvents:'none',
+    }},
+      React.createElement('div', { style:{ padding:'60px 18px 20px' }},
+        React.createElement('div', { style:{ fontSize:22, fontWeight:700, color:DL.text }}, 'Halo, Dr. Raka'),
+        React.createElement('div', { style:{ height:80, marginTop:16, borderRadius:DL.radius, background:DL.gradCard }}),
+        React.createElement('div', { style:{ height:60, marginTop:10, borderRadius:DL.radius, background:DL.glass }}),
+        React.createElement('div', { style:{ height:60, marginTop:10, borderRadius:DL.radius, background:DL.glass }}),
+      ),
+    ),
+    /* Backdrop */
+    React.createElement('div', {
+      onClick:()=>{ setOpen(false); setTimeout(()=>onNavigate(2),300); },
+      style:{
+        position:'absolute', inset:0, zIndex:5,
+        background:'rgba(0,0,0,0.5)',
+        opacity:open?1:0, transition:'opacity 0.3s ease',
+        cursor:'pointer',
+      }
+    }),
+    /* Sidebar panel */
+    React.createElement('div', { style:{
+      position:'absolute', top:0, left:0, bottom:0, width:280, zIndex:10,
+      background:'rgba(10,10,26,0.92)',
+      backdropFilter:'blur(40px)', WebkitBackdropFilter:'blur(40px)',
+      borderRight:`1px solid ${DL.glassBorder}`,
+      transform: open ? 'translateX(0)' : 'translateX(-100%)',
+      transition:'transform 0.4s cubic-bezier(0.34,1.56,0.64,1)',
+      display:'flex', flexDirection:'column',
+      boxShadow:'20px 0 60px rgba(0,0,0,0.5)',
+    }},
+      /* User card */
+      React.createElement('div', { style:{
+        padding:'54px 20px 20px', borderBottom:`1px solid ${DL.glassBorder}`,
+      }},
+        React.createElement('div', { style:{ display:'flex', alignItems:'center', gap:12 }},
+          React.createElement('div', { style:{
+            width:44, height:44, borderRadius:22, background:DL.gradA,
+            display:'flex', alignItems:'center', justifyContent:'center', fontSize:20,
+            boxShadow:`0 0 16px ${DL.shadowColor}`,
+          }}, '🧑‍🎓'),
+          React.createElement('div', null,
+            React.createElement('div', { style:{ fontSize:15, fontWeight:700, color:DL.text }}, 'Dr. Raka'),
+            React.createElement('div', { style:{ fontSize:11, color:DL.sub }}, 'Level 7 • 2,840 XP'),
+          ),
+        ),
+        React.createElement('div', { style:{ marginTop:12 }},
+          React.createElement(B1Progress, { value:68, h:4 }),
+          React.createElement('div', { style:{ fontSize:9, color:DL.mute, marginTop:4 }}, '68% ke Level 8'),
+        ),
+      ),
+      /* Nav items */
+      React.createElement('div', { style:{ flex:1, overflowY:'auto', padding:'12px 10px' }, className:'hide-scrollbar' },
+        navItems.map((item,i) => React.createElement(B1Ripple, { key:i },
+          React.createElement('div', {
+            onClick:()=>{ setOpen(false); setTimeout(()=>onNavigate(item.page),300); },
+            style:{
+              display:'flex', alignItems:'center', gap:12, padding:'11px 12px',
+              borderRadius:14, cursor:'pointer',
+              background: item.active ? 'rgba(168,85,247,0.12)' : 'transparent',
+              border: item.active ? `1px solid rgba(168,85,247,0.25)` : '1px solid transparent',
+              transition:'all 0.2s ease',
+              animation:'stagger-in 0.3s ease backwards', animationDelay:`${0.2+i*0.05}s`,
+            }
+          },
+            React.createElement('span', { style:{ fontSize:18 }}, item.icon),
+            React.createElement('span', { style:{
+              fontSize:13, fontWeight: item.active ? 700 : 400,
+              color: item.active ? DL.accent : DL.text,
+            }}, item.label),
+            item.active && React.createElement('div', { style:{
+              marginLeft:'auto', width:6, height:6, borderRadius:3,
+              background:DL.accent, boxShadow:`0 0 8px ${DL.accent}`,
+            }}),
+          )
+        )),
+      ),
+      /* Bottom items */
+      React.createElement('div', { style:{
+        padding:'10px 10px 34px', borderTop:`1px solid ${DL.glassBorder}`,
+      }},
+        bottomItems.map((item,i) => React.createElement('div', {
+          key:i, onClick:()=>{ setOpen(false); setTimeout(()=>onNavigate(item.page),300); },
+          style:{
+            display:'flex', alignItems:'center', gap:12, padding:'10px 12px',
+            borderRadius:12, cursor:'pointer',
+          }
+        },
+          React.createElement('span', { style:{ fontSize:16, opacity:0.5 }}, item.icon),
+          React.createElement('span', { style:{ fontSize:12, color:DL.sub }}, item.label),
+        )),
+        /* App version */
+        React.createElement('div', { style:{ textAlign:'center', marginTop:8, fontSize:9, color:DL.mute }},
+          'Cortex Education v2.1.0'),
+      ),
+    ),
+  );
+}
+
+/* ═══════════════════════════════════════════
+   PAGE 6 — SEARCH OVERLAY
+   Full-screen search with results & states
+   ═══════════════════════════════════════════ */
+function renderSearchContent(query, results, recents, trending, onNavigate) {
+  if (query.length === 0) {
+    return React.createElement(React.Fragment, null,
+      React.createElement(B1Section, { title:'Pencarian Terakhir', action:'Hapus', style:{ marginBottom:10 } }),
+      React.createElement('div', { style:{ display:'flex', flexWrap:'wrap', gap:6, marginBottom:20 }},
+        recents.map(function(r,i) { return React.createElement(B1Badge, { key:i, style:{ cursor:'pointer' }},
+          React.createElement('span', { style:{ fontSize:10, marginRight:2 }}, '🕒'), r
+        ); })
+      ),
+      React.createElement(B1Section, { title:'Trending', style:{ marginBottom:10 } }),
+      React.createElement('div', { style:{ display:'flex', flexDirection:'column', gap:6 }},
+        trending.map(function(t,i) { return React.createElement('div', { key:i, style:{
+          display:'flex', alignItems:'center', gap:10, padding:'10px 0',
+          borderBottom:'1px solid rgba(255,255,255,0.04)', cursor:'pointer',
+          animation:'stagger-in 0.3s ease backwards', animationDelay:i*0.05+'s',
+        }},
+          React.createElement('span', { style:{ fontSize:14, color:DL.accent, fontWeight:700, width:20, textAlign:'center' }}, i+1),
+          React.createElement('span', { style:{ fontSize:13, color:DL.text }}, t),
+          React.createElement('span', { style:{ marginLeft:'auto', fontSize:10, color:DL.mute }}, '\u2192')
+        ); })
+      )
+    );
+  }
+  if (results.length > 0) {
+    return React.createElement(React.Fragment, null,
+      React.createElement('div', { style:{ fontSize:11, color:DL.mute, marginBottom:12 }},
+        results.length + ' hasil untuk "' + query + '"'),
+      React.createElement('div', { style:{ display:'flex', flexDirection:'column', gap:8 }},
+        results.map(function(r,i) { return React.createElement(B1Card, {
+          key:i, pad:12, onClick:function(){onNavigate(3);},
+          style:{ animation:'stagger-in 0.3s ease backwards', animationDelay:i*0.05+'s' },
+        },
+          React.createElement('div', { style:{ display:'flex', alignItems:'center', gap:10 }},
+            React.createElement('span', { style:{ fontSize:24 }}, r.icon),
+            React.createElement('div', { style:{ flex:1 }},
+              React.createElement('div', { style:{ fontSize:13, fontWeight:600, color:DL.text }}, r.title),
+              React.createElement('div', { style:{ fontSize:10, color:DL.mute }}, r.type)
+            ),
+            React.createElement('span', { style:{ fontSize:12, color:DL.mute }}, '\u2192')
+          )
+        ); })
+      )
+    );
+  }
+  return React.createElement('div', { style:{
+    textAlign:'center', padding:'40px 20px', animation:'scale-in 0.4s ease backwards',
+  }},
+    React.createElement('div', { style:{ fontSize:48, marginBottom:12, opacity:0.4 }}, '🔍'),
+    React.createElement('div', { style:{ fontSize:15, fontWeight:600, color:DL.text }}, 'Tidak ditemukan'),
+    React.createElement('div', { style:{ fontSize:12, color:DL.sub, marginTop:4 }},
+      'Tidak ada hasil untuk "' + query + '". Coba kata kunci lain.')
+  );
+}
+
+function PageSearch({ onNavigate }) {
+  const [query, setQuery] = React.useState('');
+  const [focused, setFocused] = React.useState(true);
+  const allResults = [
+    { icon:'🧬', title:'Anatomi Manusia Dasar', type:'Kursus', match:'anatomi' },
+    { icon:'🧠', title:'Sistem Saraf Pusat', type:'Slide', match:'saraf' },
+    { icon:'🫀', title:'Kardiologi Klinis', type:'Kursus', match:'kardiologi' },
+    { icon:'💊', title:'Farmakokinetik', type:'Slide', match:'farmako' },
+    { icon:'🦴', title:'Sistem Rangka', type:'Slide', match:'rangka' },
+    { icon:'🔬', title:'Sel dan Jaringan', type:'Slide', match:'sel' },
+    { icon:'🫁', title:'Sistem Pernapasan', type:'Slide', match:'napas' },
+  ];
+  const results = query.length > 0
+    ? allResults.filter(r => r.title.toLowerCase().includes(query.toLowerCase()) || r.match.includes(query.toLowerCase()))
+    : [];
+  const recents = ['Sistem Saraf','Kardiologi','Farmakologi','EKG'];
+  const trending = ['Anatomi Otak','Aritmia','Sinapsis','Neurotransmitter'];
+
+  return React.createElement('div', {
+    'data-screen-label': 'P6-Search',
+    style:{ display:'flex', flexDirection:'column', height:'100%', background:DL.bg }
+  },
+    /* Header */
+    React.createElement('div', { style:{ padding:'52px 18px 8px' }},
+      React.createElement('div', { style:{ display:'flex', gap:10, alignItems:'center' }},
+        React.createElement('div', { style:{ flex:1 }},
+          React.createElement(B1SearchInput, {
+            value:query, onChange:setQuery, autoFocus:true,
+            placeholder:'Cari kursus, slide, istilah...',
+          }),
+        ),
+        React.createElement('span', {
+          onClick:()=>onNavigate(2),
+          style:{ fontSize:13, color:DL.accent, cursor:'pointer', fontWeight:600, flexShrink:0 },
+        }, 'Batal'),
+      ),
+    ),
+    /* Content */
+    React.createElement('div', { style:{ flex:1, overflowY:'auto', padding:'8px 18px 20px' }, className:'hide-scrollbar' },
+      renderSearchContent(query, results, recents, trending, onNavigate)
+    ),
+  );
+}
+
+/* ═══════════════════════════════════════════
+   PAGE 7 — SETTINGS BASIC
+   Clean settings with haptic/tactile controls
+   ═══════════════════════════════════════════ */
+function PageSettings({ onNavigate }) {
+  const [darkMode, setDarkMode] = React.useState(true);
+  const [haptic, setHaptic] = React.useState(true);
+  const [hapticIntensity, setHapticIntensity] = React.useState(70);
+  const [notifications, setNotifications] = React.useState(true);
+  const [autoPlay, setAutoPlay] = React.useState(false);
+  const [reducedMotion, setReducedMotion] = React.useState(false);
+
+  const SettingsRow = ({ icon, label, right, onClick, sub }) =>
+    React.createElement('div', {
+      onClick, style:{
+        display:'flex', alignItems:'center', gap:12, padding:'12px 0',
+        borderBottom:`1px solid rgba(255,255,255,0.04)`,
+        cursor: onClick ? 'pointer' : 'default',
+      }
+    },
+      React.createElement('span', { style:{ fontSize:18 }}, icon),
+      React.createElement('div', { style:{ flex:1 }},
+        React.createElement('div', { style:{ fontSize:13, color:DL.text }}, label),
+        sub && React.createElement('div', { style:{ fontSize:10, color:DL.mute, marginTop:1 }}, sub),
+      ),
+      right || React.createElement('span', { style:{ fontSize:12, color:DL.mute }}, '›'),
+    );
+
+  return React.createElement('div', {
+    'data-screen-label': 'P7-Settings',
+    style:{ display:'flex', flexDirection:'column', height:'100%' }
+  },
+    React.createElement(B1Topbar, {
+      left: React.createElement('span', { onClick:()=>onNavigate(2), style:{ fontSize:13, color:DL.accent, cursor:'pointer' }}, '← Back'),
+      title: 'Pengaturan',
+    }),
+    React.createElement('div', { style:{ flex:1, overflowY:'auto', padding:'4px 18px 20px' }, className:'hide-scrollbar' },
+      /* Appearance */
+      React.createElement(B1Section, { title:'Tampilan', style:{ marginBottom:4, marginTop:8 } }),
+      React.createElement(SettingsRow, {
+        icon:'🌙', label:'Mode Gelap',
+        right: React.createElement(B1Toggle, { value:darkMode, onChange:setDarkMode }),
+      }),
+      React.createElement(SettingsRow, {
+        icon:'🎨', label:'Tema Visual', sub:'Neural Pulse',
+        onClick:()=>onNavigate(8),
+      }),
+      React.createElement(SettingsRow, {
+        icon:'✨', label:'Reduced Motion',
+        sub:'Kurangi animasi untuk aksesibilitas',
+        right: React.createElement(B1Toggle, { value:reducedMotion, onChange:setReducedMotion }),
+      }),
+
+      /* Haptic / Tactile Section */
+      React.createElement(B1Section, { title:'Haptic & Sentuhan', style:{ marginTop:18, marginBottom:4 } }),
+      React.createElement(B1Card, { pad:14, style:{ marginTop:8, marginBottom:4 }},
+        React.createElement(B1Toggle, { value:haptic, onChange:setHaptic, label:'Feedback Haptic' }),
+        haptic && React.createElement(React.Fragment, null,
+          React.createElement('div', { style:{ marginTop:12 }},
+            React.createElement('div', { style:{ display:'flex', justifyContent:'space-between', marginBottom:6 }},
+              React.createElement('span', { style:{ fontSize:11, color:DL.sub }}, 'Intensitas'),
+              React.createElement('span', { style:{ fontSize:11, color:DL.accent, fontWeight:700 }}, `${hapticIntensity}%`),
+            ),
+            React.createElement('input', {
+              type:'range', min:0, max:100, value:hapticIntensity,
+              onChange: e => setHapticIntensity(Number(e.target.value)),
+              style:{ width:'100%', accentColor:DL.accent },
+            }),
+          ),
+          React.createElement('div', { style:{ display:'flex', gap:6, marginTop:10 }},
+            ['Ringan','Sedang','Kuat'].map((l,i) => React.createElement(B1Badge, {
+              key:i,
+              color: hapticIntensity <= 33 && i===0 ? DL.accent
+                : hapticIntensity <= 66 && i===1 ? DL.accent
+                : hapticIntensity > 66 && i===2 ? DL.accent : undefined,
+              style:{ flex:1, justifyContent:'center', cursor:'pointer', fontSize:9 },
+            }, l)),
+          ),
+          React.createElement('div', { style:{ fontSize:10, color:DL.mute, marginTop:8 }},
+            '💡 Haptic feedback memberikan respons sentuhan saat menekan tombol, menyelesaikan quiz, dan navigasi slide.'),
+        ),
+      ),
+
+      /* Learning */
+      React.createElement(B1Section, { title:'Pembelajaran', style:{ marginTop:14, marginBottom:4 } }),
+      React.createElement(SettingsRow, {
+        icon:'🔔', label:'Notifikasi',
+        right: React.createElement(B1Toggle, { value:notifications, onChange:setNotifications }),
+      }),
+      React.createElement(SettingsRow, {
+        icon:'▶️', label:'Auto-play Slide',
+        right: React.createElement(B1Toggle, { value:autoPlay, onChange:setAutoPlay }),
+      }),
+      React.createElement(SettingsRow, {
+        icon:'🌐', label:'Bahasa', sub:'Indonesia',
+      }),
+
+      /* Account */
+      React.createElement(B1Section, { title:'Akun', style:{ marginTop:14, marginBottom:4 } }),
+      React.createElement(SettingsRow, { icon:'👤', label:'Profil', sub:'Dr. Raka' }),
+      React.createElement(SettingsRow, { icon:'🔑', label:'Keamanan' }),
+      React.createElement(SettingsRow, { icon:'📤', label:'Ekspor Data' }),
+      React.createElement(SettingsRow, { icon:'❓', label:'Bantuan & FAQ' }),
+
+      /* Footer */
+      React.createElement('div', { style:{ textAlign:'center', marginTop:20, padding:'10px 0' }},
+        React.createElement('div', { style:{ fontSize:10, color:DL.mute }}, 'Cortex Education v2.1.0'),
+        React.createElement('div', { style:{ fontSize:9, color:DL.mute, marginTop:4 }}, '© 2026 Cortex Labs'),
+      ),
+    ),
+  );
+}
+
+/* ═══════════════════════════════════════════
+   PAGE 8 — THEME & MOTION SHOWCASE
+   Visual showcase of glass, motion, and press states
+   ═══════════════════════════════════════════ */
+function PageMotionShowcase({ onNavigate }) {
+  const [pressState, setPressState] = React.useState(null);
+  const [longPressed, setLongPressed] = React.useState(false);
+  const [showCtxMenu, setShowCtxMenu] = React.useState(false);
+  const longPressTimer = React.useRef(null);
+
+  const handleLongPressStart = () => {
+    longPressTimer.current = setTimeout(() => {
+      setLongPressed(true);
+      setShowCtxMenu(true);
+    }, 600);
+  };
+  const handleLongPressEnd = () => {
+    clearTimeout(longPressTimer.current);
+    setLongPressed(false);
+  };
+
+  /* Animated glass orb */
+  const GlassOrb = ({ size, x, y, delay }) => React.createElement('div', { style:{
+    position:'absolute', left:x, top:y, width:size, height:size, borderRadius:'50%',
+    background:'rgba(168,85,247,0.08)',
+    border:`1px solid rgba(168,85,247,0.15)`,
+    backdropFilter:'blur(12px)', WebkitBackdropFilter:'blur(12px)',
+    animation:`float-slow ${6+delay}s ease-in-out infinite`,
+    animationDelay:`${delay*-1}s`,
+    boxShadow:`inset 0 1px 0 rgba(255,255,255,0.1), 0 8px 20px rgba(99,102,241,0.15)`,
+  }});
+
+  return React.createElement('div', {
+    'data-screen-label': 'P8-MotionShowcase',
+    style:{ display:'flex', flexDirection:'column', height:'100%' }
+  },
+    React.createElement(B1Topbar, {
+      left: React.createElement('span', { onClick:()=>onNavigate(7), style:{ fontSize:13, color:DL.accent, cursor:'pointer' }}, '← Back'),
+      title: 'Tema & Motion',
+    }),
+    React.createElement('div', { style:{ flex:1, overflowY:'auto', padding:'4px 18px 20px' }, className:'hide-scrollbar' },
+
+      /* Glass Showcase */
+      React.createElement(B1Section, { title:'Liquid Glass', style:{ marginBottom:10 } }),
+      React.createElement('div', { style:{
+        position:'relative', height:160, borderRadius:DL.radius, overflow:'hidden',
+        background:'linear-gradient(135deg, rgba(99,102,241,0.1), rgba(168,85,247,0.05))',
+        border:`1px solid ${DL.glassBorder}`, marginBottom:16,
+      }},
+        React.createElement(GlassOrb, { size:60, x:'10%', y:'20%', delay:0 }),
+        React.createElement(GlassOrb, { size:45, x:'55%', y:'40%', delay:2 }),
+        React.createElement(GlassOrb, { size:35, x:'75%', y:'15%', delay:4 }),
+        React.createElement(GlassOrb, { size:50, x:'30%', y:'60%', delay:1 }),
+        React.createElement('div', { style:{
+          position:'absolute', bottom:12, left:14, right:14,
+          backdropFilter:'blur(20px)', WebkitBackdropFilter:'blur(20px)',
+          background:'rgba(255,255,255,0.08)', borderRadius:14, padding:'10px 14px',
+          border:`1px solid rgba(255,255,255,0.12)`,
+        }},
+          React.createElement('div', { style:{ fontSize:11, color:DL.text, fontWeight:600 }}, 'Frosted Glass Surface'),
+          React.createElement('div', { style:{ fontSize:9, color:DL.mute }}, 'blur(28px) • saturate(195%) • layered depth'),
+        ),
+      ),
+
+      /* Press States Showcase */
+      React.createElement(B1Section, { title:'Press & Long-Press States', style:{ marginBottom:10 } }),
+      React.createElement('div', { style:{ display:'flex', flexDirection:'column', gap:10, marginBottom:16 }},
+        /* Normal press */
+        React.createElement(B1Card, {
+          onClick:()=>setPressState('tap'),
+          style:{ background: pressState==='tap' ? 'rgba(168,85,247,0.15)' : DL.glass },
+        },
+          React.createElement('div', { style:{ display:'flex', alignItems:'center', gap:10 }},
+            React.createElement(B1Icon, { icon:'👆', size:36 }),
+            React.createElement('div', null,
+              React.createElement('div', { style:{ fontSize:13, fontWeight:600, color:DL.text }}, 'Tap / Press'),
+              React.createElement('div', { style:{ fontSize:10, color:DL.sub }}, 'Scale 0.97 + glow feedback'),
+            ),
+          )
+        ),
+        /* Long press demo */
+        React.createElement(B1Card, {
+          pad:16,
+          style:{
+            background: longPressed ? 'rgba(251,191,36,0.12)' : DL.glass,
+            borderColor: longPressed ? 'rgba(251,191,36,0.35)' : DL.glassBorder,
+            transition:'all 0.3s ease',
+          },
+        },
+          React.createElement('div', {
+            onPointerDown:handleLongPressStart,
+            onPointerUp:handleLongPressEnd,
+            onPointerLeave:handleLongPressEnd,
+            style:{ display:'flex', alignItems:'center', gap:10, cursor:'pointer' },
+          },
+            React.createElement(B1Icon, { icon:'👇', size:36, gradient:'linear-gradient(135deg,#fbbf24,#f59e0b)' }),
+            React.createElement('div', null,
+              React.createElement('div', { style:{ fontSize:13, fontWeight:600, color:DL.text }}, 'Long Press (Tahan 600ms)'),
+              React.createElement('div', { style:{ fontSize:10, color:DL.sub }}, 'Border glow + context menu reveal'),
+            ),
+          ),
+          /* Context menu */
+          showCtxMenu && React.createElement(B1Card, { pad:0, style:{
+            marginTop:12, animation:'scale-in 0.3s cubic-bezier(0.34,1.56,0.64,1) backwards',
+            background:'rgba(20,18,40,0.95)',
+          }},
+            ['📋 Salin Teks', '📌 Bookmark', '🔗 Bagikan', '🗑️ Hapus'].map((item,i) =>
+              React.createElement('div', { key:i, onClick:()=>setShowCtxMenu(false), style:{
+                padding:'11px 14px', fontSize:12, color:DL.text, cursor:'pointer',
+                borderBottom: i<3 ? `1px solid rgba(255,255,255,0.04)` : 'none',
+              }}, item)
+            ),
+          ),
+        ),
+        /* Ripple */
+        React.createElement(B1Ripple, null,
+          React.createElement(B1Card, null,
+            React.createElement('div', { style:{ display:'flex', alignItems:'center', gap:10 }},
+              React.createElement(B1Icon, { icon:'💧', size:36, gradient:'linear-gradient(135deg,#06d6a0,#00b4d8)' }),
+              React.createElement('div', null,
+                React.createElement('div', { style:{ fontSize:13, fontWeight:600, color:DL.text }}, 'Ripple Effect'),
+                React.createElement('div', { style:{ fontSize:10, color:DL.sub }}, 'Tap di mana saja untuk melihat ripple'),
+              ),
+            ),
+          ),
+        ),
+      ),
+
+      /* Animation Showcase */
+      React.createElement(B1Section, { title:'Motion Primitives', style:{ marginBottom:10 } }),
+      React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:10, marginBottom:16 }},
+        [
+          { label:'Float', anim:'float 3s ease-in-out infinite', icon:'🫧' },
+          { label:'Pulse Glow', anim:'pulse-glow 2s ease-in-out infinite', icon:'💫' },
+          { label:'Morph Blob', anim:'morph-blob 6s ease-in-out infinite', icon:'🔮' },
+          { label:'Shimmer', anim:'shimmer 2s linear infinite', icon:'✨' },
+        ].map((m,i) => React.createElement(B1Card, { key:i, pad:14, style:{ textAlign:'center' }},
+          React.createElement('div', { style:{
+            fontSize:28, marginBottom:6,
+            animation:m.anim,
+            ...(m.label==='Shimmer' ? {
+              background:'linear-gradient(90deg,transparent,rgba(255,255,255,0.3),transparent)',
+              backgroundSize:'200% 100%',
+              WebkitBackgroundClip:'text', WebkitTextFillColor:'transparent',
+            } : {}),
+          }}, m.icon),
+          React.createElement('div', { style:{ fontSize:10, color:DL.sub, fontWeight:600 }}, m.label),
+        )),
+      ),
+
+      /* Color Tokens */
+      React.createElement(B1Section, { title:'Design Tokens', style:{ marginBottom:10 } }),
+      React.createElement('div', { style:{ display:'flex', gap:8, flexWrap:'wrap', marginBottom:16 }},
+        [
+          { c:DL.accent, l:'Accent' },
+          { c:DL.accentB, l:'AccentB' },
+          { c:DL.gold, l:'Gold' },
+          { c:DL.green, l:'Green' },
+          { c:DL.red, l:'Red' },
+          { c:DL.teal, l:'Teal' },
+        ].map((tok,i) => React.createElement('div', { key:i, style:{
+          display:'flex', alignItems:'center', gap:6,
+        }},
+          React.createElement('div', { style:{
+            width:24, height:24, borderRadius:8, background:tok.c,
+            border:`1px solid rgba(255,255,255,0.1)`,
+            boxShadow:`0 0 12px ${tok.c}44`,
+          }}),
+          React.createElement('div', { style:{ fontSize:10, color:DL.sub }}, tok.l),
+        )),
+      ),
+
+      /* Typography Scale */
+      React.createElement(B1Section, { title:'Typography', style:{ marginBottom:10 } }),
+      React.createElement(B1Card, { pad:14 },
+        [
+          { s:24, w:700, l:'Heading 1' },
+          { s:18, w:700, l:'Heading 2' },
+          { s:15, w:600, l:'Heading 3' },
+          { s:13, w:400, l:'Body' },
+          { s:11, w:400, l:'Caption' },
+          { s:9, w:600, l:'Overline' },
+        ].map((t,i) => React.createElement('div', { key:i, style:{
+          fontSize:t.s, fontWeight:t.w, color: i<3 ? DL.text : DL.sub,
+          padding:'4px 0', borderBottom: i<5 ? `1px solid rgba(255,255,255,0.03)` : 'none',
+        }}, `${t.l} — ${t.s}px`)),
+      ),
+    ),
+  );
+}
+
+Object.assign(window, { PageSidebar, PageSearch, PageSettings, PageMotionShowcase });
+
+</script><script type="text/babel">
 /* inline: batch2-atoms.jsx */
 /* CORTEX DESIGN LIBRARY - Batch 2 Atoms
    Additive helpers for reading, clinical content, image cards, and media states.
@@ -1722,6 +4020,591 @@ function B2Segmented({ value, options, onChange }) {
 Object.assign(window, {
   B2PageShell, B2Kicker, B2ReadingBlock, B2StatPill, B2Callout,
   B2Bullet, B2PressHint, B2ImageCard, B2Segmented,
+});
+
+</script><script type="text/babel">
+/* inline: batch2-screens-a.jsx */
+/* CORTEX DESIGN LIBRARY - Batch 2 Screens (9-12)
+   Page 9: Typography Reading Page
+   Page 10: Bullet / Sub-bullet Content Page
+   Page 11: Callout & Clinical Pearl Page
+   Page 12: Image Card Page */
+
+function PageTypographyReading({ onNavigate }) {
+  const [held, setHeld] = React.useState(false);
+  const timer = React.useRef(null);
+  const startHold = () => {
+    timer.current = setTimeout(() => setHeld(true), 520);
+  };
+  const endHold = () => {
+    clearTimeout(timer.current);
+  };
+
+  return React.createElement(B2PageShell, {
+    label:'P9-TypographyReading',
+    title:'Reading',
+    subtitle:'Neuroanatomy note',
+    onBack:()=>onNavigate(8),
+    right:React.createElement(B1Badge, { color:DL.teal }, 'Aa'),
+  },
+    React.createElement(B1Card, { glow:true, style:{ marginBottom:14, animation:'scale-in 0.35s ease backwards' }},
+      React.createElement(B2Kicker, null, 'Medical typography sample'),
+      React.createElement('div', { style:{ fontSize:24, lineHeight:1.18, fontWeight:800, color:DL.text, letterSpacing:0, textWrap:'balance' }},
+        'Cerebral Perfusion and Early Neurologic Assessment'),
+      React.createElement('div', { style:{ marginTop:12, display:'flex', gap:8 }},
+        React.createElement(B2StatPill, { label:'READ', value:'7 min' }),
+        React.createElement(B2StatPill, { label:'LEVEL', value:'Core' }),
+        React.createElement(B2StatPill, { label:'FOCUS', value:'CNS', color:DL.teal }),
+      ),
+    ),
+
+    React.createElement(B1Card, { pad:16, style:{ marginBottom:14 }},
+      React.createElement(B2ReadingBlock, { lead:true },
+        'Perfusion pressure describes the force that supports blood flow through delicate neural tissue. In a bedside learning context, the goal is not memorizing a single number, but recognizing patterns that may change consciousness, speech, pupil symmetry, or motor response.'),
+      React.createElement(B2ReadingBlock, null,
+        'A mature clinical reading page should feel quiet and stable. The line length stays short, the contrast is soft but legible, and key terms are highlighted without turning the paragraph into a decoration layer.'),
+      React.createElement('div', {
+        onPointerDown:startHold,
+        onPointerUp:endHold,
+        onPointerLeave:endHold,
+        style:{
+          margin:'14px 0', padding:'13px 14px', borderRadius:16,
+          background:held ? 'rgba(251,191,36,0.11)' : 'rgba(255,255,255,0.045)',
+          border:`1px solid ${held ? 'rgba(251,191,36,0.34)' : DL.glassBorder}`,
+          transition:'all 0.25s ease', cursor:'pointer',
+        }
+      },
+        React.createElement('div', { style:{ display:'flex', justifyContent:'space-between', alignItems:'center', gap:10 }},
+          React.createElement('div', { style:{ fontSize:12, lineHeight:1.6, color:DL.sub }},
+            'Long-press this paragraph to reveal tactile reading tools for highlight, bookmark, and note capture.'),
+          React.createElement(B2PressHint, { active:held, label:'Tools' }),
+        ),
+        held && React.createElement('div', { style:{ display:'flex', gap:7, marginTop:11, animation:'scale-in 0.2s ease backwards' }},
+          ['Highlight','Note','Share'].map((item, i) => React.createElement(B1Badge, {
+            key:i,
+            color:i === 0 ? DL.gold : DL.accent,
+            style:{ flex:1, justifyContent:'center' },
+          }, item)),
+        ),
+      ),
+      React.createElement(B2ReadingBlock, null,
+        'In dummy curriculum content, terminology such as autoregulation, ischemia, and edema can be introduced progressively, then revisited with callouts or glossary cards.'),
+    ),
+
+    React.createElement(B1Section, { title:'Inline Terms', style:{ marginBottom:9 } }),
+    React.createElement('div', { style:{ display:'flex', flexWrap:'wrap', gap:6, marginBottom:14 }},
+      ['Autoregulation','Ischemia','Edema','Perfusion','GCS','Pupil reflex'].map((term, i) =>
+        React.createElement(B1Badge, { key:i, color:i % 3 === 0 ? DL.teal : undefined, style:{ cursor:'pointer' }}, term)
+      )
+    ),
+
+    React.createElement(B2Callout, { tone:'note', title:'Reading rhythm' },
+      'Dummy body copy uses 14-15px text, generous line height, and restrained highlights so the screen stays readable on a narrow iOS frame.')
+  );
+}
+
+function PageBulletContent({ onNavigate }) {
+  const bullets = [
+    {
+      text:'Start with a one-line learning objective.',
+      sub:['State the organ system being discussed.','Keep the objective measurable and simple.'],
+      tone:'ok',
+    },
+    {
+      text:'Group related findings before adding exceptions.',
+      sub:['Primary signs first.','Modifiers, severity, and caveats second.'],
+    },
+    {
+      text:'Use sub-bullets for mechanism, example, and clinical implication.',
+      sub:['Mechanism: vascular supply decreases.','Example: transient weakness after exertion.','Implication: escalate when symptoms persist.'],
+      tone:'warn',
+    },
+    {
+      text:'End with a short recall cue.',
+      sub:['One sentence.','No dense paragraph hiding inside a bullet.'],
+    },
+  ];
+
+  return React.createElement(B2PageShell, {
+    label:'P10-BulletContent',
+    title:'Bullets',
+    subtitle:'Structured lesson',
+    onBack:()=>onNavigate(9),
+    right:React.createElement('span', { style:{ fontSize:16, color:DL.mute }}, '1/4'),
+  },
+    React.createElement(B1Card, { glow:true, style:{ marginBottom:14 }},
+      React.createElement(B2Kicker, null, 'Checklist anatomy'),
+      React.createElement('div', { style:{ fontSize:21, fontWeight:800, color:DL.text, lineHeight:1.25 }},
+        'How to Read a Symptom Cluster'),
+      React.createElement('div', { style:{ fontSize:12, color:DL.sub, marginTop:7, lineHeight:1.55 }},
+        'Dummy content demonstrating bullets, sub-bullets, hierarchy, and scan-friendly spacing for medical education.'),
+    ),
+
+    React.createElement(B1Card, { pad:15, style:{ marginBottom:14 }},
+      bullets.map((b, i) => React.createElement(B2Bullet, {
+        key:i, index:i, text:b.text, sub:b.sub, tone:b.tone,
+      })),
+    ),
+
+    React.createElement(B1Section, { title:'Tactile Examples', style:{ marginBottom:9 } }),
+    React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:10, marginBottom:14 }},
+      [
+        { icon:'Tap', title:'Press row', sub:'Scale + glow' },
+        { icon:'Hold', title:'Long press', sub:'Selection rail' },
+      ].map((item, i) => React.createElement(B1Card, {
+        key:i, onClick:function(){}, pad:13,
+        style:{ minHeight:92, display:'flex', flexDirection:'column', justifyContent:'space-between' },
+      },
+        React.createElement('div', { style:{ fontSize:11, color:DL.accent, fontWeight:900 }}, item.icon),
+        React.createElement('div', null,
+          React.createElement('div', { style:{ fontSize:13, color:DL.text, fontWeight:800 }}, item.title),
+          React.createElement('div', { style:{ fontSize:10, color:DL.sub, marginTop:2 }}, item.sub),
+        ),
+      )),
+    ),
+
+    React.createElement(B2Callout, { tone:'evidence', title:'Hierarchy note' },
+      'The page keeps bullets compact, but sub-bullets remain readable by using small gaps and muted arrows.')
+  );
+}
+
+function PageCalloutClinicalPearl({ onNavigate }) {
+  const [selected, setSelected] = React.useState('pearl');
+
+  return React.createElement(B2PageShell, {
+    label:'P11-ClinicalPearl',
+    title:'Clinical Pearls',
+    subtitle:'Callout system',
+    onBack:()=>onNavigate(10),
+    right:React.createElement(B1Badge, { color:DL.green }, 'Safe dummy'),
+  },
+    React.createElement(B1Card, { glow:true, style:{ marginBottom:14 }},
+      React.createElement(B2Kicker, { color:DL.green }, 'Clinical callout library'),
+      React.createElement('div', { style:{ fontSize:21, fontWeight:800, color:DL.text, lineHeight:1.25 }},
+        'Pearls, Cautions, Evidence, and Notes'),
+      React.createElement('div', { style:{ fontSize:12, color:DL.sub, marginTop:7, lineHeight:1.55 }},
+        'Dummy medical content with distinct tones for teaching emphasis.'),
+    ),
+
+    React.createElement('div', { style:{ marginBottom:12 }},
+      React.createElement(B2Segmented, {
+        value:selected,
+        options:[
+          { value:'pearl', label:'Pearl' },
+          { value:'caution', label:'Caution' },
+          { value:'evidence', label:'Evidence' },
+        ],
+        onChange:setSelected,
+      }),
+    ),
+
+    React.createElement(B2Callout, { tone:'pearl', title:'Clinical Pearl', icon:'+' },
+      'A clear neurologic baseline makes later changes easier to interpret. Document speech, gaze, limb strength, and level of alertness in the same order each time.'),
+    React.createElement(B2Callout, { tone:'caution', title:'Caution', icon:'!' },
+      'Dummy warning state: do not treat isolated visual details as a diagnosis. Pair findings with history, timing, and objective assessment.'),
+    React.createElement(B2Callout, { tone:'evidence', title:'Evidence Cue', icon:'E' },
+      'Use this callout for citations, guideline reminders, or a short method note. The visual tone stays calm so it does not compete with urgent warnings.'),
+    React.createElement(B2Callout, { tone:'danger', title:'Escalation Pattern', icon:'!' },
+      'Rapid deterioration, persistent confusion, or new unilateral weakness should be shown as an escalation example in dummy learning flows.'),
+
+    React.createElement(B1Section, { title:'Long-press Pearl State', style:{ marginTop:6, marginBottom:9 } }),
+    React.createElement(B1Card, {
+      pad:14,
+      onClick:()=>setSelected(selected === 'pearl' ? 'caution' : 'pearl'),
+      style:{
+        background:selected === 'pearl' ? 'rgba(34,197,94,0.08)' : 'rgba(251,191,36,0.08)',
+        borderColor:selected === 'pearl' ? 'rgba(34,197,94,0.24)' : 'rgba(251,191,36,0.28)',
+      }
+    },
+      React.createElement('div', { style:{ display:'flex', justifyContent:'space-between', gap:10, alignItems:'center' }},
+        React.createElement('div', null,
+          React.createElement('div', { style:{ fontSize:13, fontWeight:800, color:DL.text }}, 'Press to cycle tactile emphasis'),
+          React.createElement('div', { style:{ fontSize:10, color:DL.sub, marginTop:2 }}, 'Demonstrates pressed visual feedback and tone shift.'),
+        ),
+        React.createElement(B2PressHint, { active:selected === 'caution', label:'Tone' }),
+      ),
+    )
+  );
+}
+
+function PageImageCard({ onNavigate }) {
+  const [active, setActive] = React.useState(0);
+  const cards = [
+    {
+      title:'Rounded Anatomy Plate',
+      subtitle:'Dummy image card with soft glass caption and image-safe corner radius.',
+      badge:'Figure 12.1',
+      icon:'Brain',
+      tint:'linear-gradient(135deg,rgba(99,102,241,0.30),rgba(6,214,160,0.12))',
+    },
+    {
+      title:'Clinical Diagram Snapshot',
+      subtitle:'Placeholder for a labelled medical diagram, optimized for mobile scanning.',
+      badge:'Diagram',
+      icon:'Pulse',
+      tint:'linear-gradient(135deg,rgba(168,85,247,0.26),rgba(251,191,36,0.12))',
+    },
+    {
+      title:'Microscopy Reference Card',
+      subtitle:'Dummy visual slot for tissue, cells, or lab education media.',
+      badge:'Image',
+      icon:'Cell',
+      tint:'linear-gradient(135deg,rgba(6,214,160,0.20),rgba(99,102,241,0.18))',
+    },
+  ];
+
+  return React.createElement(B2PageShell, {
+    label:'P12-ImageCard',
+    title:'Image Cards',
+    subtitle:'Rounded media',
+    onBack:()=>onNavigate(11),
+    right:React.createElement(B1Badge, null, `${active + 1}/3`),
+  },
+    React.createElement(B1Card, { glow:true, style:{ marginBottom:14 }},
+      React.createElement(B2Kicker, null, 'Media-friendly lesson cards'),
+      React.createElement('div', { style:{ fontSize:21, fontWeight:800, color:DL.text, lineHeight:1.25 }},
+        'Rounded Image Cards for Medical Content'),
+      React.createElement('div', { style:{ fontSize:12, color:DL.sub, marginTop:7, lineHeight:1.55 }},
+        'All image areas are placeholders and keep a rounded, liquid-glass treatment.'),
+    ),
+
+    cards.map((card, i) => React.createElement(B2ImageCard, {
+      key:i,
+      title:card.title,
+      subtitle:card.subtitle,
+      badge:card.badge,
+      tint:card.tint,
+      icon:card.icon,
+      onClick:()=>setActive(i),
+    },
+      React.createElement('div', { style:{ display:'flex', alignItems:'center', gap:8, marginTop:12 }},
+        React.createElement(B1Progress, { value:i === active ? 100 : 40 + i * 18, h:4, color:i === active ? DL.gradA : undefined }),
+        React.createElement('span', { style:{ fontSize:10, color:i === active ? DL.accent : DL.mute, fontWeight:800 }},
+          i === active ? 'Selected' : 'Preview'),
+      )
+    )),
+
+    React.createElement(B2Callout, { tone:'note', title:'Image fallback pattern' },
+      'If a real media asset is unavailable, the card still displays a polished placeholder, caption, and progress affordance.')
+  );
+}
+
+Object.assign(window, {
+  PageTypographyReading, PageBulletContent, PageCalloutClinicalPearl, PageImageCard,
+});
+
+</script><script type="text/babel">
+/* inline: batch2-screens-b.jsx */
+/* CORTEX DESIGN LIBRARY - Batch 2 Screens (13-16)
+   Page 13: Media Viewer / 3D Anatomy Viewer Placeholder
+   Page 14: Glossary / Terms Page
+   Page 15: Quick Summary Page
+   Page 16: Bilingual / Simpler Explanation State */
+
+function PageMediaViewer3D({ onNavigate }) {
+  const [mode, setMode] = React.useState('poster');
+  const modeCopy = {
+    poster:{ title:'Poster fallback', sub:'Static anatomy poster shown before loading starts.', badge:'Fallback' },
+    loading:{ title:'Loading viewport', sub:'Skeleton overlay and scanline while media prepares.', badge:'Loading' },
+    unsupported:{ title:'Unsupported state', sub:'Graceful message when 3D is not available.', badge:'Unsupported' },
+    ready:{ title:'3D placeholder only', sub:'No real 3D implementation. Visual viewport mock for Batch 2.', badge:'Placeholder' },
+  };
+  const current = modeCopy[mode];
+
+  return React.createElement(B2PageShell, {
+    label:'P13-MediaViewer3D',
+    title:'Media Viewer',
+    subtitle:'3D placeholder',
+    onBack:()=>onNavigate(12),
+    right:React.createElement(B1Badge, { color: mode === 'unsupported' ? DL.gold : DL.teal }, current.badge),
+  },
+    React.createElement(B1Card, { glow:true, pad:0, style:{ overflow:'hidden', marginBottom:14 }},
+      React.createElement('div', {
+        style:{
+          position:'relative', height:286, overflow:'hidden',
+          background:'radial-gradient(circle at 50% 38%,rgba(168,85,247,0.25),transparent 28%), linear-gradient(145deg,rgba(8,12,30,0.98),rgba(28,18,58,0.92))',
+          display:'flex', alignItems:'center', justifyContent:'center',
+        }
+      },
+        React.createElement('div', { style:{
+          position:'absolute', inset:0,
+          backgroundImage:'linear-gradient(rgba(255,255,255,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.035) 1px, transparent 1px)',
+          backgroundSize:'24px 24px',
+          opacity:0.35,
+        }}),
+        mode === 'loading' && React.createElement('div', { style:{
+          position:'absolute', left:0, right:0, height:70,
+          background:'linear-gradient(180deg,transparent,rgba(6,214,160,0.12),transparent)',
+          animation:'scanline 1.8s linear infinite',
+        }}),
+        mode === 'unsupported'
+          ? React.createElement('div', { style:{ textAlign:'center', padding:24 }},
+              React.createElement('div', { style:{ fontSize:34, color:DL.gold, marginBottom:10 }}, '!'),
+              React.createElement('div', { style:{ fontSize:16, color:DL.text, fontWeight:800 }}, '3D unavailable'),
+              React.createElement('div', { style:{ fontSize:12, color:DL.sub, marginTop:5, lineHeight:1.55 }},
+                'Use poster fallback and text explanation for this lesson.'),
+            )
+          : React.createElement('div', { style:{
+              position:'relative', width:142, height:176, borderRadius:44,
+              background:'linear-gradient(160deg,rgba(99,102,241,0.32),rgba(168,85,247,0.18))',
+              border:'1px solid rgba(255,255,255,0.16)',
+              boxShadow:`0 20px 70px ${DL.shadowColor}, inset 0 1px 0 rgba(255,255,255,0.18)`,
+              display:'flex', alignItems:'center', justifyContent:'center',
+              transform:mode === 'ready' ? 'rotateY(-12deg) rotateX(5deg)' : 'none',
+              animation:mode === 'ready' ? 'float 3.8s ease-in-out infinite' : 'none',
+            }},
+              React.createElement('div', { style:{
+                width:78, height:112, borderRadius:'46% 54% 44% 56%',
+                background:'linear-gradient(135deg,rgba(240,234,255,0.28),rgba(6,214,160,0.10))',
+                border:'1px solid rgba(255,255,255,0.18)',
+              }}),
+              React.createElement('div', { style:{ position:'absolute', bottom:18, fontSize:10, color:DL.sub, fontWeight:800 }},
+                mode === 'poster' ? 'POSTER' : mode === 'loading' ? 'LOADING' : '3D MOCK'),
+            ),
+        React.createElement('div', { style:{
+          position:'absolute', left:14, right:14, bottom:14, padding:'10px 12px',
+          borderRadius:16, background:'rgba(10,10,26,0.54)',
+          border:'1px solid rgba(255,255,255,0.12)',
+          backdropFilter:'blur(18px)', WebkitBackdropFilter:'blur(18px)',
+        }},
+          React.createElement('div', { style:{ fontSize:13, fontWeight:800, color:DL.text }}, current.title),
+          React.createElement('div', { style:{ fontSize:10, color:DL.sub, marginTop:2, lineHeight:1.4 }}, current.sub),
+        ),
+      ),
+    ),
+
+    React.createElement('div', { style:{ marginBottom:14 }},
+      React.createElement(B2Segmented, {
+        value:mode,
+        options:[
+          { value:'poster', label:'Poster' },
+          { value:'loading', label:'Loading' },
+          { value:'unsupported', label:'No 3D' },
+          { value:'ready', label:'Mock' },
+        ],
+        onChange:setMode,
+      }),
+    ),
+
+    React.createElement(B1Section, { title:'Viewport Controls', style:{ marginBottom:9 } }),
+    React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'1fr 1fr 1fr', gap:8, marginBottom:14 }},
+      ['Rotate','Zoom','Labels'].map((item, i) => React.createElement(B1Card, {
+        key:i, pad:11, onClick:function(){},
+        style:{ textAlign:'center', opacity:mode === 'unsupported' ? 0.45 : 1 },
+      },
+        React.createElement('div', { style:{ fontSize:16, color:DL.accent, fontWeight:900 }}, i === 0 ? '<>' : i === 1 ? '+' : 'Aa'),
+        React.createElement('div', { style:{ fontSize:10, color:DL.sub, marginTop:5, fontWeight:700 }}, item),
+      )),
+    ),
+
+    React.createElement(B2Callout, { tone:'caution', title:'Implementation boundary' },
+      'This is intentionally a non-3D placeholder viewport. Batch 2 includes poster, loading, and unsupported states without loading models or real renderers.')
+  );
+}
+
+function PageGlossaryTerms({ onNavigate }) {
+  const [query, setQuery] = React.useState('');
+  const terms = [
+    { term:'Autoregulation', type:'Physiology', def:'A local control process that helps keep blood flow relatively stable despite pressure changes.' },
+    { term:'Aphasia', type:'Neurology', def:'A language impairment affecting expression, comprehension, or both.' },
+    { term:'Edema', type:'Pathology', def:'Excess fluid accumulation in tissue spaces, shown here as dummy educational copy.' },
+    { term:'Perfusion', type:'Circulation', def:'Delivery of blood to tissue through capillary networks.' },
+    { term:'Synapse', type:'Cell Biology', def:'A specialized junction where neurons communicate with target cells.' },
+  ];
+  const shown = terms.filter(t => (t.term + t.type + t.def).toLowerCase().includes(query.toLowerCase()));
+
+  return React.createElement(B2PageShell, {
+    label:'P14-Glossary',
+    title:'Glossary',
+    subtitle:'Terms & definitions',
+    onBack:()=>onNavigate(13),
+    right:React.createElement(B1Badge, null, `${shown.length} terms`),
+  },
+    React.createElement(B1SearchInput, {
+      value:query,
+      onChange:setQuery,
+      placeholder:'Search dummy terms...',
+      style:{ marginBottom:14 },
+    }),
+
+    React.createElement(B1Card, { glow:true, style:{ marginBottom:14 }},
+      React.createElement(B2Kicker, null, 'Term bank'),
+      React.createElement('div', { style:{ fontSize:20, fontWeight:800, color:DL.text, lineHeight:1.25 }},
+        'Medical Vocabulary for Fast Review'),
+      React.createElement('div', { style:{ fontSize:12, color:DL.sub, lineHeight:1.55, marginTop:7 }},
+        'Dummy glossary entries with tags, definitions, and press-ready rows.'),
+    ),
+
+    React.createElement('div', { style:{ display:'flex', flexDirection:'column', gap:10 }},
+      shown.map((item, i) => React.createElement(B1Card, {
+        key:item.term,
+        pad:14,
+        onClick:function(){},
+        style:{ animation:'stagger-in 0.3s ease backwards', animationDelay:`${i * 0.04}s` },
+      },
+        React.createElement('div', { style:{ display:'flex', justifyContent:'space-between', alignItems:'flex-start', gap:10 }},
+          React.createElement('div', { style:{ flex:1 }},
+            React.createElement('div', { style:{ fontSize:15, fontWeight:850, color:DL.text }}, item.term),
+            React.createElement('div', { style:{ fontSize:12, lineHeight:1.58, color:DL.sub, marginTop:5 }}, item.def),
+          ),
+          React.createElement(B1Badge, { color:i % 2 ? DL.teal : DL.accent }, item.type),
+        ),
+        React.createElement('div', { style:{ display:'flex', gap:6, marginTop:11 }},
+          ['Save','Explain','Quiz'].map((action, idx) => React.createElement(B1Badge, {
+            key:idx,
+            style:{ flex:1, justifyContent:'center', cursor:'pointer' },
+          }, action)),
+        ),
+      )),
+    ),
+  );
+}
+
+function PageQuickSummary({ onNavigate }) {
+  const points = [
+    'Stable structure makes medical reading faster on mobile.',
+    'Clinical pearls should be visually distinct but not visually loud.',
+    'Image and media placeholders need graceful fallback states.',
+    'Glossary actions should support save, simplify, and quiz flows.',
+  ];
+
+  return React.createElement(B2PageShell, {
+    label:'P15-QuickSummary',
+    title:'Summary',
+    subtitle:'End of lesson',
+    onBack:()=>onNavigate(14),
+    right:React.createElement(B1Badge, { color:DL.gold }, '4 takeaways'),
+  },
+    React.createElement(B1Card, { glow:true, style:{ marginBottom:14 }},
+      React.createElement(B2Kicker, { color:DL.gold }, 'Quick summary'),
+      React.createElement('div', { style:{ fontSize:22, fontWeight:850, color:DL.text, lineHeight:1.22 }},
+        'What to Remember from This Section'),
+      React.createElement('div', { style:{ display:'flex', gap:8, marginTop:13 }},
+        React.createElement(B2StatPill, { label:'TIME', value:'2 min' }),
+        React.createElement(B2StatPill, { label:'RECALL', value:'High', color:DL.green }),
+        React.createElement(B2StatPill, { label:'NEXT', value:'Quiz' }),
+      ),
+    ),
+
+    React.createElement(B1Card, { pad:15, style:{ marginBottom:14 }},
+      points.map((point, i) => React.createElement('div', {
+        key:i,
+        style:{
+          display:'grid', gridTemplateColumns:'30px 1fr', gap:10, alignItems:'start',
+          padding:'10px 0', borderBottom:i < points.length - 1 ? '1px solid rgba(255,255,255,0.045)' : 'none',
+        }
+      },
+        React.createElement('div', { style:{
+          width:30, height:30, borderRadius:12, background:i === 0 ? DL.gradA : 'rgba(255,255,255,0.055)',
+          border:i === 0 ? 'none' : `1px solid ${DL.glassBorder}`,
+          color:'#fff', display:'flex', alignItems:'center', justifyContent:'center',
+          fontSize:12, fontWeight:900,
+        }}, i + 1),
+        React.createElement('div', { style:{ fontSize:13, lineHeight:1.55, color:DL.sub, paddingTop:3 }}, point),
+      )),
+    ),
+
+    React.createElement(B1Section, { title:'Recall Actions', style:{ marginBottom:9 } }),
+    React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:10, marginBottom:14 }},
+      [
+        { title:'5-question quiz', sub:'Dummy practice set', color:DL.accent },
+        { title:'Flashcards', sub:'Review saved terms', color:DL.teal },
+        { title:'Simplify', sub:'Plain-language mode', color:DL.gold },
+        { title:'Bookmark', sub:'Save summary card', color:DL.green },
+      ].map((item, i) => React.createElement(B1Card, {
+        key:i, pad:13, onClick: i === 2 ? ()=>onNavigate(16) : function(){},
+      },
+        React.createElement('div', { style:{ fontSize:13, fontWeight:850, color:item.color, lineHeight:1.3 }}, item.title),
+        React.createElement('div', { style:{ fontSize:10, color:DL.sub, marginTop:4 }}, item.sub),
+      )),
+    ),
+
+    React.createElement(B2Callout, { tone:'pearl', title:'End-state affordance' },
+      'A summary screen should offer a clear next step without crowding the learner after a dense section.')
+  );
+}
+
+function PageBilingualSimple({ onNavigate }) {
+  const [mode, setMode] = React.useState('simple');
+  const simple = mode === 'simple';
+
+  return React.createElement(B2PageShell, {
+    label:'P16-BilingualSimple',
+    title:'Simpler',
+    subtitle:'Bilingual state',
+    onBack:()=>onNavigate(15),
+    right:React.createElement(B1Badge, { color:simple ? DL.gold : DL.teal }, simple ? 'Simple' : 'Bilingual'),
+  },
+    React.createElement(B1Card, { glow:true, style:{ marginBottom:14 }},
+      React.createElement(B2Kicker, { color:simple ? DL.gold : DL.teal }, 'Accessible explanation'),
+      React.createElement('div', { style:{ fontSize:21, fontWeight:850, color:DL.text, lineHeight:1.22 }},
+        'Perfusion Explained for Different Reading Needs'),
+      React.createElement('div', { style:{ fontSize:12, color:DL.sub, lineHeight:1.55, marginTop:7 }},
+        'Dummy state showing simpler wording and bilingual support inside the same mobile frame.'),
+    ),
+
+    React.createElement('div', { style:{ marginBottom:14 }},
+      React.createElement(B2Segmented, {
+        value:mode,
+        options:[
+          { value:'simple', label:'Simple ID' },
+          { value:'bilingual', label:'ID + EN' },
+          { value:'medical', label:'Medical' },
+        ],
+        onChange:setMode,
+      }),
+    ),
+
+    mode === 'bilingual'
+      ? React.createElement(React.Fragment, null,
+          React.createElement(B1Card, { pad:15, style:{ marginBottom:12 }},
+            React.createElement(B1Badge, { color:DL.teal, style:{ marginBottom:10 }}, 'Indonesia'),
+            React.createElement(B2ReadingBlock, { lead:true },
+              'Perfusi adalah aliran darah yang membawa oksigen ke jaringan. Jika aliran ini turun, sel tubuh bisa bekerja lebih lambat atau rusak.'),
+          ),
+          React.createElement(B1Card, { pad:15, style:{ marginBottom:14 }},
+            React.createElement(B1Badge, { color:DL.accent, style:{ marginBottom:10 }}, 'English'),
+            React.createElement(B2ReadingBlock, { lead:true },
+              'Perfusion means blood flow that delivers oxygen to tissue. When flow drops, cells may slow down or become injured.'),
+          ),
+        )
+      : React.createElement(B1Card, { pad:16, style:{ marginBottom:14 }},
+          React.createElement(B1Badge, { color:simple ? DL.gold : DL.accent, style:{ marginBottom:10 }},
+            simple ? 'Simpler wording' : 'Medical wording'),
+          React.createElement(B2ReadingBlock, { lead:true },
+            simple
+              ? 'Bayangkan darah seperti layanan antar oksigen. Perfusi berarti oksigen sampai ke tempat yang membutuhkan. Jika jalannya terganggu, tubuh memberi tanda seperti lemah, bingung, atau pucat.'
+              : 'Perfusion is the delivery of oxygenated blood to tissue beds through vascular networks, influenced by pressure, resistance, and local autoregulation.'),
+          React.createElement(B2ReadingBlock, null,
+            simple
+              ? 'Versi sederhana membantu pelajar baru memahami inti konsep sebelum masuk ke istilah teknis.'
+              : 'The medical version is useful after the learner understands the simple model and is ready for mechanism-level detail.'),
+        ),
+
+    React.createElement(B1Section, { title:'Support Tools', style:{ marginBottom:9 } }),
+    React.createElement('div', { style:{ display:'flex', flexDirection:'column', gap:9, marginBottom:14 }},
+      [
+        { label:'Read aloud', sub:'Voice-friendly sentence length' },
+        { label:'Compare terms', sub:'Plain term beside medical term' },
+        { label:'Long-press word', sub:'Reveal definition and translation' },
+      ].map((item, i) => React.createElement(B1Card, { key:i, pad:13, onClick:function(){} },
+        React.createElement('div', { style:{ display:'flex', justifyContent:'space-between', gap:10, alignItems:'center' }},
+          React.createElement('div', null,
+            React.createElement('div', { style:{ fontSize:13, color:DL.text, fontWeight:800 }}, item.label),
+            React.createElement('div', { style:{ fontSize:10, color:DL.sub, marginTop:2 }}, item.sub),
+          ),
+          React.createElement(B2PressHint, { active:i === 2, label:i === 2 ? 'Define' : 'Open' }),
+        ),
+      )),
+    ),
+
+    React.createElement(B2Callout, { tone:'note', title:'State requirement' },
+      'This page demonstrates bilingual and simpler explanation states using dummy content only.')
+  );
+}
+
+Object.assign(window, {
+  PageMediaViewer3D, PageGlossaryTerms, PageQuickSummary, PageBilingualSimple,
 });
 
 </script><script type="text/babel">
@@ -2390,165 +5273,333 @@ Object.assign(window, {
 });
 
 </script><script type="text/babel">
-/* inline: batch3-app.jsx */
-/* CORTEX DESIGN LIBRARY - Batch 3 App Shell
-   Pages 17-24 only. Batch 1 and Batch 2 files remain preserved. */
+/* inline: design-library-24-app.jsx */
+/* CORTEX DESIGN LIBRARY - Consolidated Batch 0 + Pages 1-24
+   Adaptive fullscreen shell for desktop, iPad/tablet, Android tablet, and mobile. */
 
-const BATCH3_PAGES = [
-  { id:17, label:'Quiz', icon:'Quiz' },
-  { id:18, label:'Flashcard', icon:'Card' },
-  { id:19, label:'Progress Dashboard', icon:'Dash' },
-  { id:20, label:'AI Workspace', icon:'AI' },
-  { id:21, label:'Provider Settings', icon:'Set' },
-  { id:22, label:'QuickRef Modal', icon:'Ref' },
-  { id:23, label:'Help About Privacy', icon:'Info' },
-  { id:24, label:'States Library', icon:'State' },
+const CORTEX_LIBRARY_PAGES = [
+  { id:0, batch:'B0', label:'Kernel v0.1', icon:'Core', component:'PageBatch0Kernel' },
+  { id:1, batch:'B1', label:'Welcome', icon:'P1', component:'PageWelcome' },
+  { id:2, batch:'B1', label:'Home Dashboard', icon:'P2', component:'PageHome' },
+  { id:3, batch:'B1', label:'Learning', icon:'P3', component:'PageLearning' },
+  { id:4, batch:'B1', label:'Slide Detail', icon:'P4', component:'PageSlideDetail' },
+  { id:5, batch:'B1', label:'Sidebar', icon:'P5', component:'PageSidebar' },
+  { id:6, batch:'B1', label:'Search', icon:'P6', component:'PageSearch' },
+  { id:7, batch:'B1', label:'Settings', icon:'P7', component:'PageSettings' },
+  { id:8, batch:'B1', label:'Motion', icon:'P8', component:'PageMotionShowcase' },
+  { id:9, batch:'B2', label:'Typography', icon:'P9', component:'PageTypographyReading' },
+  { id:10, batch:'B2', label:'Bullets', icon:'P10', component:'PageBulletContent' },
+  { id:11, batch:'B2', label:'Clinical Pearl', icon:'P11', component:'PageCalloutClinicalPearl' },
+  { id:12, batch:'B2', label:'Image Cards', icon:'P12', component:'PageImageCard' },
+  { id:13, batch:'B2', label:'Media Viewer', icon:'P13', component:'PageMediaViewer3D' },
+  { id:14, batch:'B2', label:'Glossary', icon:'P14', component:'PageGlossaryTerms' },
+  { id:15, batch:'B2', label:'Summary', icon:'P15', component:'PageQuickSummary' },
+  { id:16, batch:'B2', label:'Bilingual', icon:'P16', component:'PageBilingualSimple' },
+  { id:17, batch:'B3', label:'Quiz', icon:'P17', component:'PageQuiz' },
+  { id:18, batch:'B3', label:'Flashcard', icon:'P18', component:'PageFlashcard' },
+  { id:19, batch:'B3', label:'Progress', icon:'P19', component:'PageProgressDashboard' },
+  { id:20, batch:'B3', label:'AI Workspace', icon:'P20', component:'PageAIWorkspace' },
+  { id:21, batch:'B3', label:'Provider Settings', icon:'P21', component:'PageProviderAdvancedSettings' },
+  { id:22, batch:'B3', label:'QuickRef Modal', icon:'P22', component:'PageQuickRefModal' },
+  { id:23, batch:'B3', label:'Help Privacy', icon:'P23', component:'PageHelpAboutPrivacy' },
+  { id:24, batch:'B3', label:'States Library', icon:'P24', component:'PageStatesLibrary' },
 ];
 
-function Batch3App() {
-  const [t, setTweak] = useTweaks(BATCH3_DEFAULTS);
-  const initialPage = Number(new URLSearchParams(window.location.search).get('page') || t.page || 17);
-  const [page, setPage] = React.useState(BATCH3_PAGES.some(p => p.id === initialPage) ? initialPage : 17);
-  const [animKey, setAnimKey] = React.useState(0);
-
-  const navigate = React.useCallback((p) => {
-    setAnimKey(k => k + 1);
-    setPage(p);
-    setTweak('page', p);
-  }, [setTweak]);
-
-  const renderPage = () => {
-    const props = { onNavigate:navigate };
-    switch(page) {
-      case 17: return React.createElement(PageQuiz, props);
-      case 18: return React.createElement(PageFlashcard, props);
-      case 19: return React.createElement(PageProgressDashboard, props);
-      case 20: return React.createElement(PageAIWorkspace, props);
-      case 21: return React.createElement(PageProviderAdvancedSettings, props);
-      case 22: return React.createElement(PageQuickRefModal, props);
-      case 23: return React.createElement(PageHelpAboutPrivacy, props);
-      case 24: return React.createElement(PageStatesLibrary, props);
-      default: return React.createElement(PageQuiz, props);
-    }
+function useCortexLayoutMode() {
+  const detect = () => {
+    const w = window.innerWidth;
+    const h = window.innerHeight;
+    const coarse = window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
+    if (w >= 1180) return 'desktop';
+    if (w >= 760 || (coarse && Math.min(w, h) >= 700)) return 'tablet';
+    return 'mobile';
   };
-
-  const PageIndicator = () => {
-    const info = BATCH3_PAGES.find(p => p.id === page);
-    if (!info) return null;
-    return React.createElement('div', {
-      style:{
-        position:'absolute', top:52, left:'50%', transform:'translateX(-50%)',
-        zIndex:50, pointerEvents:'none', animation:'slide-down 0.35s ease backwards',
-      }
-    },
-      React.createElement('div', {
-        style:{
-          padding:'3px 12px', borderRadius:20,
-          backdropFilter:'blur(20px)', WebkitBackdropFilter:'blur(20px)',
-          background:'rgba(120,80,255,0.12)', border:`1px solid ${DL.glassBorder}`,
-          fontSize:9, fontWeight:800, color:DL.accent, letterSpacing:0.4,
-          display:'flex', alignItems:'center', gap:5, whiteSpace:'nowrap',
-          boxShadow:`0 4px 16px ${DL.shadowColor}`,
-        }
-      },
-        React.createElement('span', null, info.icon),
-        React.createElement('span', null, `Page ${info.id}: ${info.label}`),
-      )
-    );
-  };
-
-  const BgParticles = React.useMemo(() => {
-    const orbs = [
-      { x:'8%', y:'18%', s:180, c:'rgba(99,102,241,0.17)', d:12 },
-      { x:'74%', y:'12%', s:150, c:'rgba(168,85,247,0.15)', d:14 },
-      { x:'54%', y:'68%', s:220, c:'rgba(6,214,160,0.08)', d:17 },
-      { x:'84%', y:'82%', s:110, c:'rgba(251,191,36,0.08)', d:10 },
-    ];
-    return React.createElement('div', {
-      style:{ position:'absolute', inset:0, overflow:'hidden', filter:'blur(60px)', zIndex:0, pointerEvents:'none' }
-    },
-      orbs.map((o,i) => React.createElement('div', {
-        key:i,
-        style:{
-          position:'absolute', left:o.x, top:o.y, width:o.s, height:o.s,
-          background:o.c, borderRadius:'50%',
-          animation:`morph-blob ${o.d}s ease-in-out infinite, float-slow ${o.d + 3}s ease-in-out infinite`,
-          animationDelay:`${i * -2.5}s`,
-        }
-      }))
-    );
+  const [mode, setMode] = React.useState(detect);
+  React.useEffect(() => {
+    const onResize = () => setMode(detect());
+    window.addEventListener('resize', onResize);
+    window.addEventListener('orientationchange', onResize);
+    return () => {
+      window.removeEventListener('resize', onResize);
+      window.removeEventListener('orientationchange', onResize);
+    };
   }, []);
+  return mode;
+}
 
-  return React.createElement(React.Fragment, null,
-    React.createElement(IOSDevice, { dark:true, noNav:true, style:{ background:DL.bg } },
-      React.createElement('div', {
-        style:{
-          display:'flex', flexDirection:'column', height:'100%',
-          background:DL.bg, color:DL.text,
-          fontFamily:'"SF Pro Display", "Inter", -apple-system, sans-serif',
-          position:'relative', overflow:'hidden',
-        }
-      },
-        BgParticles,
-        React.createElement(PageIndicator),
-        React.createElement('div', {
-          key:animKey,
-          style:{ flex:1, display:'flex', flexDirection:'column', position:'relative', zIndex:1, overflow:'hidden' },
-        }, renderPage()),
+function PageBatch0Kernel({ onNavigate }) {
+  const [themeId, setThemeId] = React.useState('neural');
+  const theme = THEMES[themeId] || THEMES.neural;
+  const themeRows = [
+    { id:'neural', name:'Neural Pulse', note:'Core Claude DNA, synaptic purple-blue glass.' },
+    { id:'aurora', name:'Aurora Prism', note:'Ethereal cyan/prism exploratory shell.' },
+    { id:'gold', name:'Liquid Gold', note:'Editorial premium variation from Batch 0.' },
+    { id:'neon', name:'Neon Matrix', note:'Cyber green hacker learning mood.' },
+    { id:'bloom', name:'Sunset Bloom', note:'Warm playful alternate visual route.' },
+  ];
+
+  return React.createElement('div', {
+    'data-screen-label':'P0-Batch0Kernel',
+    className:'hide-scrollbar cortex-motion-page',
+    style:{ height:'100%', overflowY:'auto', padding:'26px clamp(18px,4vw,38px) 34px' }
+  },
+    React.createElement(B1Card, { glow:true, className:'cortex-motion-card', style:{
+      marginBottom:16,
+      background:'linear-gradient(145deg,rgba(99,102,241,0.16),rgba(168,85,247,0.10))',
+    }},
+      React.createElement(B2Kicker, null, 'Batch 0 - Original Cortex Kernel'),
+      React.createElement('div', { style:{ fontSize:28, fontWeight:900, color:DL.text, lineHeight:1.1, letterSpacing:0 }},
+        'CORTEX DESIGN KERNEL v0.1'),
+      React.createElement('div', { style:{ fontSize:13, color:DL.sub, lineHeight:1.65, marginTop:10, maxWidth:760 }},
+        'Original Claude design foundation: theme engine, liquid-glass learning shell, animated backgrounds, tab navigation, home/course/quiz/profile patterns, and five visual directions.'),
+      React.createElement('div', { style:{ display:'flex', gap:8, flexWrap:'wrap', marginTop:14 }},
+        ['liquid glass','blue/purple medical','iOS-like','smooth motion','rounded cards'].map((tag, i) =>
+          React.createElement(B1Badge, { key:i, color:i === 0 ? DL.teal : undefined }, tag)
+        )
       )
     ),
 
-    React.createElement(TweaksPanel, null,
-      React.createElement(TweakSection, { label:'Page Navigation' }),
-      React.createElement(TweakSelect, {
-        label:'Halaman',
-        value:String(page),
-        options:BATCH3_PAGES.map(p => String(p.id)),
-        optionLabels:BATCH3_PAGES.map(p => `${p.id}. ${p.label}`),
-        onChange:v => navigate(Number(v)),
-      }),
-      React.createElement(TweakSection, { label:'Batch 3 Index' }),
-      React.createElement('div', { style:{ padding:'4px 16px' }},
-        BATCH3_PAGES.map(p => React.createElement('div', {
-          key:p.id,
-          onClick:() => navigate(p.id),
-          style:{
-            display:'flex', alignItems:'center', gap:8, padding:'7px 10px',
-            borderRadius:10, cursor:'pointer', marginBottom:2,
-            background:page === p.id ? 'rgba(168,85,247,0.15)' : 'transparent',
-            border:page === p.id ? '1px solid rgba(168,85,247,0.25)' : '1px solid transparent',
-            transition:'all 0.2s ease',
-          }
-        },
-          React.createElement('span', { style:{ fontSize:10, color:DL.accent, fontWeight:900, width:30 }}, p.icon),
-          React.createElement('span', {
-            style:{
-              fontSize:11, fontWeight:page === p.id ? 800 : 400,
-              color:page === p.id ? DL.accent : 'rgba(255,255,255,0.62)',
-            }
-          }, `${p.id}. ${p.label}`),
-        ))
-      ),
-      React.createElement(TweakSection, { label:'Design Notes' }),
-      React.createElement('div', {
-        style:{ padding:'6px 16px', fontSize:10, lineHeight:1.6, color:'rgba(255,255,255,0.45)' }
+    React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'repeat(auto-fit,minmax(220px,1fr))', gap:12, marginBottom:16 }},
+      themeRows.map((row, i) => React.createElement(B1Card, {
+        key:row.id,
+        onClick:()=>setThemeId(row.id),
+        className:'cortex-motion-card cortex-motion-press',
+        style:{
+          background:themeId === row.id ? 'rgba(168,85,247,0.16)' : DL.glass,
+          borderColor:themeId === row.id ? 'rgba(168,85,247,0.38)' : DL.glassBorder,
+          animationDelay:`${i * 0.05}s`,
+        }
       },
-        React.createElement('div', { style:{ fontWeight:800, color:'rgba(255,255,255,0.72)', marginBottom:4 }},
-          'Cortex Design Library - Batch 3'),
-        React.createElement('div', null, 'Pages 17-24: quiz, flashcard, progress, AI workspace, provider and haptic settings, QuickRef modal, help/privacy, and fallback states.'),
-        React.createElement('div', { style:{ marginTop:6 }}, 'Design placeholders only. No real quiz engine, AI provider calls, API keys, haptic device access, or 3D rendering.'),
+        React.createElement('div', { style:{ display:'flex', alignItems:'center', gap:12 }},
+          React.createElement('div', { className:'cortex-motion-orb', style:{
+            width:42, height:42, borderRadius:16,
+            background:THEMES[row.id].colors.gradientAccent,
+            boxShadow:`0 10px 24px ${THEMES[row.id].colors.shadowColor}`,
+          }}),
+          React.createElement('div', null,
+            React.createElement('div', { style:{ color:DL.text, fontSize:14, fontWeight:900 }}, row.name),
+            React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.35, marginTop:3 }}, row.note),
+          )
+        )
+      ))
+    ),
+
+    React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'minmax(0,1.2fr) minmax(260px,0.8fr)', gap:14 }},
+      React.createElement(B1Card, { className:'cortex-motion-card', style:{
+        minHeight:320,
+        background:theme.colors.gradientCard,
+        borderColor:theme.colors.glassBorder,
+      }},
+        React.createElement('div', { style:{ display:'flex', alignItems:'center', gap:14, marginBottom:18 }},
+          React.createElement('div', { className:'cortex-motion-orb', style:{
+            width:70, height:70, borderRadius:26,
+            display:'flex', alignItems:'center', justifyContent:'center',
+            background:theme.colors.gradientAccent,
+            fontSize:32, boxShadow:`0 18px 48px ${theme.colors.shadowColor}`,
+          }}, theme.emoji),
+          React.createElement('div', null,
+            React.createElement(B1Badge, { color:theme.colors.accent1 }, 'Selected Batch 0 Theme'),
+            React.createElement('div', { style:{ color:DL.text, fontSize:22, fontWeight:900, marginTop:8 }}, theme.name),
+            React.createElement('div', { style:{ color:DL.sub, fontSize:12, marginTop:3 }}, theme.description),
+          )
+        ),
+        React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'repeat(3,1fr)', gap:10, marginBottom:16 }},
+          React.createElement(B2StatPill, { label:'Theme', value:themeId }),
+          React.createElement(B2StatPill, { label:'Blur', value:`${theme.glass.blur}px`, color:theme.colors.accent1 }),
+          React.createElement(B2StatPill, { label:'Radius', value:`${theme.borderRadius}px`, color:theme.colors.accent2 }),
+        ),
+        React.createElement(B2Callout, { tone:'note', title:'Batch 0 preserved' },
+          'This consolidated library keeps the original kernel as Page 0, then continues through the refined 24-page library.'),
       ),
+      React.createElement(B1Card, { className:'cortex-motion-card', style:{ minHeight:320 }},
+        React.createElement(B1Section, { title:'Jump Into Library', action:'24 pages' }),
+        [1,8,9,13,17,21,24].map((id, i) => {
+          const item = CORTEX_LIBRARY_PAGES.find(p => p.id === id);
+          return React.createElement(B3Row, {
+            key:id,
+            title:`Page ${item.id}: ${item.label}`,
+            sub:`${item.batch} - ${item.component}`,
+            onClick:()=>onNavigate(id),
+            right:React.createElement('span', { style:{ color:DL.accent, fontWeight:900 }}, '>'),
+            active:i === 0,
+          });
+        })
+      )
     )
   );
 }
 
-Object.assign(window, { Batch3App });
+function CortexLibraryNav({ page, onNavigate, mode }) {
+  const groups = ['B0','B1','B2','B3'];
+  return React.createElement('aside', { className:'cortex-library-nav hide-scrollbar', style:{
+    width:mode === 'desktop' ? 292 : '100%',
+    height:mode === 'desktop' ? '100%' : 'auto',
+    overflowY:mode === 'desktop' ? 'auto' : 'hidden',
+    overflowX:mode === 'desktop' ? 'hidden' : 'auto',
+    padding:mode === 'desktop' ? '22px 14px' : '10px 14px',
+    borderRight:mode === 'desktop' ? `1px solid ${DL.glassBorder}` : 'none',
+    borderBottom:mode === 'desktop' ? 'none' : `1px solid ${DL.glassBorder}`,
+    background:'rgba(10,10,26,0.70)',
+    backdropFilter:'blur(28px) saturate(190%)',
+    WebkitBackdropFilter:'blur(28px) saturate(190%)',
+    flexShrink:0,
+  }},
+    React.createElement('div', { style:{
+      display:mode === 'desktop' ? 'block' : 'flex',
+      alignItems:'center',
+      gap:12,
+      minWidth:mode === 'desktop' ? 'auto' : 900,
+    }},
+      React.createElement('div', { style:{ marginBottom:mode === 'desktop' ? 18 : 0, minWidth:210 }},
+        React.createElement('div', { style:{ color:DL.text, fontSize:18, fontWeight:900, letterSpacing:0 }}, 'CORTEX Library'),
+        React.createElement('div', { style:{ color:DL.mute, fontSize:10, marginTop:4 }}, 'Batch 0 + Pages 1-24'),
+      ),
+      groups.map(group => React.createElement('div', { key:group, style:{
+        marginBottom:mode === 'desktop' ? 16 : 0,
+        display:mode === 'desktop' ? 'block' : 'flex',
+        alignItems:'center',
+        gap:6,
+      }},
+        React.createElement('div', { style:{
+          fontSize:9, fontWeight:900, color:DL.accent, letterSpacing:1,
+          margin:mode === 'desktop' ? '0 0 7px 8px' : '0 4px 0 0',
+          minWidth:mode === 'desktop' ? 'auto' : 28,
+        }}, group === 'B0' ? 'BATCH 0' : group),
+        CORTEX_LIBRARY_PAGES.filter(p => p.batch === group).map(item => {
+          const active = item.id === page;
+          return React.createElement('button', {
+            key:item.id,
+            onClick:()=>onNavigate(item.id),
+            className:'cortex-motion-press',
+            style:{
+              width:mode === 'desktop' ? '100%' : 118,
+              display:'flex', alignItems:'center', gap:8,
+              padding:'9px 10px', marginBottom:mode === 'desktop' ? 4 : 0,
+              borderRadius:12, border:active ? '1px solid rgba(168,85,247,0.38)' : '1px solid transparent',
+              background:active ? 'rgba(168,85,247,0.16)' : 'transparent',
+              color:active ? DL.text : DL.sub,
+              fontFamily:'inherit', cursor:'pointer', textAlign:'left',
+              boxShadow:active ? `0 8px 22px ${DL.shadowColor}` : 'none',
+            }
+          },
+            React.createElement('span', { style:{ fontSize:10, color:active ? DL.gold : DL.accent, fontWeight:900, minWidth:28 }}, item.icon),
+            React.createElement('span', { style:{ fontSize:11, fontWeight:active ? 850 : 650, overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap' }}, item.label)
+          );
+        })
+      ))
+    )
+  );
+}
+
+function CortexLibraryShell() {
+  const mode = useCortexLayoutMode();
+  const initialPage = Number(new URLSearchParams(window.location.search).get('page') || 0);
+  const [page, setPage] = React.useState(CORTEX_LIBRARY_PAGES.some(p => p.id === initialPage) ? initialPage : 0);
+  const [animKey, setAnimKey] = React.useState(0);
+  const current = CORTEX_LIBRARY_PAGES.find(p => p.id === page) || CORTEX_LIBRARY_PAGES[0];
+
+  React.useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    params.set('page', String(page));
+    const next = `${window.location.pathname}?${params.toString()}`;
+    window.history.replaceState(null, '', next);
+  }, [page]);
+
+  const navigate = React.useCallback((target) => {
+    const next = typeof target === 'number' ? target : Number(target);
+    if (!CORTEX_LIBRARY_PAGES.some(p => p.id === next)) return;
+    setAnimKey(k => k + 1);
+    setPage(next);
+  }, []);
+
+  const renderPage = () => {
+    if (page === 0) return React.createElement(PageBatch0Kernel, { onNavigate:navigate });
+    const Comp = window[current.component];
+    if (!Comp) {
+      return React.createElement(B2PageShell, {
+        label:'MissingPage',
+        title:'Missing Page',
+        subtitle:current.label,
+        onBack:()=>navigate(0),
+      }, React.createElement(B2Callout, { tone:'danger', title:'Component not loaded' }, current.component));
+    }
+    return React.createElement(Comp, { onNavigate:navigate });
+  };
+
+  return React.createElement('div', { style:{
+    width:'100vw', height:'100dvh', minHeight:'100vh',
+    background:DL.bg, color:DL.text, overflow:'hidden',
+    fontFamily:'"SF Pro Display", "Inter", -apple-system, sans-serif',
+    display:'flex', flexDirection:mode === 'desktop' ? 'row' : 'column',
+    position:'relative',
+  }},
+    React.createElement('div', { style:{ position:'absolute', inset:0, pointerEvents:'none', filter:'blur(60px)', opacity:0.98 }},
+      [
+        { x:'8%', y:'12%', s:220, c:'rgba(99,102,241,0.20)', d:12 },
+        { x:'72%', y:'8%', s:180, c:'rgba(168,85,247,0.17)', d:15 },
+        { x:'48%', y:'70%', s:260, c:'rgba(6,214,160,0.08)', d:18 },
+        { x:'86%', y:'78%', s:130, c:'rgba(251,191,36,0.08)', d:10 },
+      ].map((o,i) => React.createElement('div', { key:i, className:'cortex-motion-orb', style:{
+        position:'absolute', left:o.x, top:o.y, width:o.s, height:o.s,
+        borderRadius:'50%', background:o.c,
+        animationDelay:`${i * -1.7}s`,
+      }}))
+    ),
+    React.createElement(CortexLibraryNav, { page, onNavigate:navigate, mode }),
+    React.createElement('main', { style:{
+      position:'relative', zIndex:1, flex:1, minWidth:0, minHeight:0,
+      display:'flex', flexDirection:'column', overflow:'hidden',
+    }},
+      React.createElement('div', { style:{
+        display:'flex', justifyContent:'space-between', alignItems:'center',
+        padding:mode === 'mobile' ? '10px 14px' : '14px 22px',
+        borderBottom:`1px solid ${DL.glassBorder}`,
+        background:'rgba(10,10,26,0.42)',
+        backdropFilter:'blur(22px)', WebkitBackdropFilter:'blur(22px)',
+        flexShrink:0,
+      }},
+        React.createElement('div', null,
+          React.createElement('div', { style:{ fontSize:mode === 'mobile' ? 13 : 15, color:DL.text, fontWeight:900 }},
+            `${current.batch} / Page ${current.id}: ${current.label}`),
+          React.createElement('div', { style:{ fontSize:10, color:DL.mute, marginTop:2 }},
+            `Auto layout: ${mode} - ${window.innerWidth}x${window.innerHeight}`),
+        ),
+        React.createElement('div', { style:{ display:'flex', gap:8, alignItems:'center' }},
+          React.createElement(B1Badge, { color:mode === 'desktop' ? DL.teal : mode === 'tablet' ? DL.gold : DL.accent }, mode.toUpperCase()),
+          React.createElement(B1Badge, null, '0-24'),
+        )
+      ),
+      React.createElement('section', {
+        key:animKey,
+        style:{
+          flex:1, minHeight:0, overflow:'hidden',
+          padding:mode === 'desktop' ? 24 : mode === 'tablet' ? 18 : 0,
+        }
+      },
+        React.createElement('div', { style:{
+          height:'100%', width:'100%',
+          maxWidth:mode === 'desktop' ? 'none' : '100%',
+          margin:'0 auto', overflow:'hidden',
+          borderRadius:mode === 'mobile' ? 0 : 28,
+          border:mode === 'mobile' ? 'none' : `1px solid ${DL.glassBorder}`,
+          background:'rgba(10,10,26,0.58)',
+          boxShadow:mode === 'mobile' ? 'none' : `0 18px 60px ${DL.shadowColor}, inset 0 1px 0 ${DL.glassHigh}`,
+          backdropFilter:'blur(24px) saturate(180%)',
+          WebkitBackdropFilter:'blur(24px) saturate(180%)',
+        }},
+          React.createElement('div', { style:{ height:'100%', overflow:'hidden', position:'relative' }}, renderPage())
+        )
+      )
+    )
+  );
+}
+
+Object.assign(window, { CORTEX_LIBRARY_PAGES, PageBatch0Kernel, CortexLibraryShell });
 
 </script>
   <script type="text/babel">
-    const BATCH3_DEFAULTS = { "page": 24 };
     ReactDOM.createRoot(document.getElementById('root')).render(
-      React.createElement(Batch3App)
+      React.createElement(CortexLibraryShell)
     );
   </script>
 </body>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CORTEX DESIGN LIBRARY - Batch 0 + 24 Pages</title>
+  <link rel="stylesheet" href="cortex-styles.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+    html, body, #root { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; }
+    body {
+      background: #0a0a0a;
+      font-family: "SF Pro Display", "Inter", -apple-system, sans-serif;
+    }
+  </style>
+
+  <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script type="text/babel" src="ios-frame.jsx"></script>
+  <script type="text/babel" src="tweaks-panel.jsx"></script>
+  <script type="text/babel" src="cortex-themes.jsx"></script>
+  <script type="text/babel" src="cortex-shared.jsx"></script>
+  <script type="text/babel" src="cortex-backgrounds.jsx"></script>
+  <script type="text/babel" src="cortex-homes.jsx"></script>
+  <script type="text/babel" src="cortex-screens.jsx"></script>
+  <script type="text/babel" src="batch1-atoms.jsx"></script>
+  <script type="text/babel" src="batch1-screens-a.jsx"></script>
+  <script type="text/babel" src="batch1-screens-b.jsx"></script>
+  <script type="text/babel" src="batch2-atoms.jsx"></script>
+  <script type="text/babel" src="batch2-screens-a.jsx"></script>
+  <script type="text/babel" src="batch2-screens-b.jsx"></script>
+  <script type="text/babel" src="batch3-atoms.jsx"></script>
+  <script type="text/babel" src="batch3-screens-a.jsx"></script>
+  <script type="text/babel" src="batch3-screens-b.jsx"></script>
+  <script type="text/babel" src="design-library-24-app.jsx"></script>
+
+  <script type="text/babel">
+    ReactDOM.createRoot(document.getElementById('root')).render(
+      React.createElement(CortexLibraryShell)
+    );
+  </script>
+</body>
+</html>
