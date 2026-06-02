@@ -251,12 +251,13 @@ function B1Ripple({ children, style }) {
     if (!target || !target.getBoundingClientRect) return;
     const rect = target.getBoundingClientRect();
     if (!rect.width || !rect.height) return;
+    const coarse = window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
+    if (coarse) return;
     const now = performance.now();
     const lastAt = lastRippleAt.get(target) || 0;
     if (now - lastAt < 140) return;
     lastRippleAt.set(target, now);
     const ink = document.createElement('span');
-    const coarse = window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
     const size = Math.max(rect.width, rect.height) * (coarse ? 1.08 : 1.28);
     const x = event.clientX - rect.left;
     const y = event.clientY - rect.top;

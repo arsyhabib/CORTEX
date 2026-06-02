@@ -603,6 +603,66 @@
     radial-gradient(circle at 70% 22%, rgba(62,211,255,0.12), transparent 28%),
     radial-gradient(circle at 58% 82%, rgba(218,130,255,0.15), transparent 34%);
 }
+.cortex-soft-blend-scene {
+  position: absolute;
+  inset: -14%;
+  background:
+    radial-gradient(circle at 50% 42%, rgba(255,255,255,0.10), transparent 22%),
+    linear-gradient(135deg, rgba(24, 18, 58, 0.68), rgba(8, 12, 32, 0.88));
+  opacity: 0.98;
+  animation: cortex-soft-scene-drift 26s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+.cortex-soft-blend-orb {
+  position: absolute;
+  border-radius: 50%;
+  mix-blend-mode: screen;
+  background:
+    radial-gradient(circle at 35% 30%, rgba(255,255,255,0.26), transparent 18%),
+    radial-gradient(circle, var(--orb-color), transparent 68%);
+  opacity: 0.72;
+  transform: translate3d(var(--orb-offset-x, 0px), var(--orb-offset-y, 0px), 0) scale(1);
+  animation: cortex-soft-orb-drift var(--orb-duration, 24s) ease-in-out infinite;
+  animation-delay: var(--orb-delay, 0s);
+  filter: saturate(1.08);
+  will-change: transform, opacity;
+}
+.cortex-soft-blend-orb.orb-1 { left: 8%; top: 18%; }
+.cortex-soft-blend-orb.orb-2 { left: 64%; top: 10%; }
+.cortex-soft-blend-orb.orb-3 { left: 30%; top: 58%; }
+.cortex-soft-blend-orb.orb-4 { left: 78%; top: 72%; }
+.cortex-soft-blend-sweep {
+  position: absolute;
+  inset: -22%;
+  background:
+    linear-gradient(120deg, transparent 32%, rgba(255,255,255,0.08) 45%, transparent 58%),
+    radial-gradient(circle at 35% 35%, rgba(255,255,255,0.10), transparent 28%);
+  opacity: 0.34;
+  mix-blend-mode: screen;
+  animation: cortex-soft-sweep-drift 20s linear infinite;
+  will-change: transform, opacity;
+}
+.cortex-soft-blend-sweep.sweep-a { animation-duration: 24s; }
+.cortex-soft-blend-sweep.sweep-b {
+  opacity: 0.22;
+  animation-duration: 31s;
+  animation-direction: reverse;
+}
+@keyframes cortex-soft-scene-drift {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  40% { transform: translate3d(1.5%, -1.2%, 0) scale(1.03); }
+  70% { transform: translate3d(-1.1%, 0.8%, 0) scale(1.015); }
+}
+@keyframes cortex-soft-orb-drift {
+  0%, 100% { transform: translate3d(var(--orb-offset-x, 0px), var(--orb-offset-y, 0px), 0) scale(1); opacity: 0.68; }
+  35% { transform: translate3d(calc(var(--orb-offset-x, 0px) * -1.1 + 14px), calc(var(--orb-offset-y, 0px) * 1.1 - 12px), 0) scale(1.06); opacity: 0.78; }
+  70% { transform: translate3d(calc(var(--orb-offset-x, 0px) * 0.8 - 10px), calc(var(--orb-offset-y, 0px) * -0.9 + 9px), 0) scale(0.98); opacity: 0.64; }
+}
+@keyframes cortex-soft-sweep-drift {
+  0% { transform: translate3d(-12%, 0, 0) rotate(0deg); }
+  50% { transform: translate3d(12%, -3%, 0) rotate(3deg); }
+  100% { transform: translate3d(-12%, 0, 0) rotate(0deg); }
+}
 .cortex-live-bubble {
   position: absolute;
   border-radius: 999px;
@@ -753,20 +813,28 @@
 
 @media (pointer: coarse) {
   .cortex-ripple-ink {
-    mix-blend-mode: normal;
-    background:
-      radial-gradient(circle at 34% 30%, rgba(255,255,255,0.22), transparent 24%),
-      radial-gradient(circle, rgba(255,255,255,0.10), rgba(168,85,247,0.08) 44%, transparent 76%);
-    border-color: rgba(255,255,255,0.14);
-    opacity: 0.42;
-    filter: none;
-    box-shadow: none;
+    display: none;
   }
   .cortex-wallpaper-ripple {
+    display: none;
+  }
+  .cortex-soft-blend-scene {
+    animation-duration: 42s;
+  }
+  .cortex-soft-blend-orb {
+    animation-duration: 36s !important;
+    opacity: 0.58;
     mix-blend-mode: normal;
-    opacity: 0.24;
     filter: none;
-    box-shadow: none;
+  }
+  .cortex-soft-blend-sweep {
+    animation-duration: 48s !important;
+    opacity: 0.18;
+    mix-blend-mode: normal;
+  }
+  .cortex-wallpaper-caustic,
+  .cortex-wallpaper-hotspot {
+    display: none;
   }
   .cortex-touch-active .cortex-motion-card,
   .cortex-touch-active .b1-card,
