@@ -255,7 +255,7 @@ function CortexLibraryShell() {
     return React.createElement(Comp, { onNavigate:navigate });
   };
 
-  return React.createElement('div', { className:'cortex-wallpaper-showcase', style:{
+  return React.createElement('div', { style:{
     width:'100vw', height:'100dvh', minHeight:'100vh',
     background:DL.bg, color:DL.text, overflow:'hidden',
     fontFamily:'"SF Pro Display", "Inter", -apple-system, sans-serif',
@@ -280,7 +280,7 @@ function CortexLibraryShell() {
       position:'relative', zIndex:1, flex:1, minWidth:0, minHeight:0,
       display:'flex', flexDirection:'column', overflow:'hidden',
     }},
-      React.createElement('div', { className:'cortex-library-topbar', style:{
+      React.createElement('div', { style:{
         display:'flex', justifyContent:'space-between', alignItems:'center',
         padding:mode === 'mobile' ? '10px 14px' : '14px 22px',
         borderBottom:`1px solid ${DL.glassBorder}`,
@@ -302,13 +302,12 @@ function CortexLibraryShell() {
       ),
       React.createElement('section', {
         key:animKey,
-        className:'cortex-library-content',
         style:{
           flex:1, minHeight:0, overflow:'hidden',
           padding:mode === 'desktop' ? 24 : mode === 'tablet' ? 18 : 0,
         }
       },
-        React.createElement('div', { className:'cortex-library-stage', style:{
+        React.createElement('div', { style:{
           height:'100%', width:'100%',
           maxWidth:mode === 'desktop' ? 'none' : '100%',
           margin:'0 auto', overflow:'hidden',
@@ -319,7 +318,7 @@ function CortexLibraryShell() {
           backdropFilter:'blur(24px) saturate(180%)',
           WebkitBackdropFilter:'blur(24px) saturate(180%)',
         }},
-          React.createElement('div', { className:'cortex-library-stage-inner', style:{ height:'100%', overflow:'hidden', position:'relative' }}, renderPage())
+          React.createElement('div', { style:{ height:'100%', overflow:'hidden', position:'relative' }}, renderPage())
         )
       )
     )
