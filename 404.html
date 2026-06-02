@@ -15,6 +15,29 @@
 /* Glass Effects, Animations, Backgrounds */
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --cortex-tilt-x: 0;
+  --cortex-tilt-y: 0;
+  --cortex-depth-x: 0px;
+  --cortex-depth-y: 0px;
+  --cortex-wallpaper-shift-x: 0px;
+  --cortex-wallpaper-shift-y: 0px;
+  --cortex-card-tilt-x: 0deg;
+  --cortex-card-tilt-y: 0deg;
+  --cortex-card-shift-x: 0px;
+  --cortex-card-shift-y: 0px;
+  --cortex-button-tilt-x: 0deg;
+  --cortex-button-tilt-y: 0deg;
+  --cortex-button-shift-x: 0px;
+  --cortex-button-shift-y: 0px;
+  --cortex-shake-force: 0;
+  --cortex-shake-x: 0px;
+  --cortex-shake-y: 0px;
+  --cortex-shake-x-neg: 0px;
+  --cortex-shake-y-pos: 0px;
+  --cortex-shake-rot: 0deg;
+  --cortex-shake-rot-neg: 0deg;
+}
 
 /* ═══════════════════════════════════════════
    KEYFRAME ANIMATIONS
@@ -246,6 +269,13 @@
   72% { opacity: 0.24; filter: blur(22px) saturate(1.15); }
 }
 
+@keyframes cortex-device-jolt {
+  0%, 100% { transform: translate3d(0,0,0) rotate(0deg); }
+  22% { transform: translate3d(var(--cortex-shake-x, 3px), var(--cortex-shake-y, -2px), 0) rotate(var(--cortex-shake-rot, 0.7deg)); }
+  48% { transform: translate3d(var(--cortex-shake-x-neg, -2.5px), var(--cortex-shake-y-pos, 1.5px), 0) rotate(var(--cortex-shake-rot-neg, -0.55deg)); }
+  72% { transform: translate3d(1.4px, -0.8px, 0) rotate(0.35deg); }
+}
+
 /* ═══════════════════════════════════════════
    GLASS UTILITIES
    ═══════════════════════════════════════════ */
@@ -374,6 +404,19 @@
   animation: buttery-pop 0.72s cubic-bezier(0.16, 1, 0.3, 1) backwards,
              bubbly-breathe 7.5s ease-in-out 1s infinite;
 }
+.cortex-sensor-active .cortex-motion-card,
+.cortex-sensor-active .b1-card,
+.cortex-sensor-active .b1-button,
+.cortex-sensor-active .cortex-motion-press {
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+.cortex-device-shake .cortex-library-stage-inner {
+  animation: cortex-device-jolt 520ms cubic-bezier(0.34,1.56,0.64,1);
+}
+.cortex-device-shake .cortex-wallpaper-layer {
+  filter: saturate(1.08) brightness(1.05);
+}
 .cortex-motion-card::after {
   content: '';
   position: absolute;
@@ -419,6 +462,10 @@
   --pointer-y: 45%;
   --wallpaper-x: 0px;
   --wallpaper-y: 0px;
+}
+.cortex-sensor-active .cortex-wallpaper-layer {
+  transform: translate3d(var(--cortex-wallpaper-shift-x, 0px), var(--cortex-wallpaper-shift-y, 0px), 0) scale(1.012);
+  transition: transform 90ms linear, filter 220ms ease;
 }
 .cortex-wallpaper-layer[data-exhibition="false"] {
   opacity: 0.64;
@@ -645,6 +692,48 @@
   backdrop-filter: blur(22px) saturate(190%);
   -webkit-backdrop-filter: blur(22px) saturate(190%);
 }
+.cortex-motion-sensor-control {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 36px;
+  padding: 8px 10px;
+  border-radius: 18px;
+  background: rgba(120,80,255,0.11);
+  border: 1px solid rgba(160,120,255,0.26);
+  color: rgba(230,215,255,0.76);
+  font: inherit;
+  font-size: 10px;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(99,102,241,0.14), inset 0 1px 0 rgba(255,255,255,0.10);
+  backdrop-filter: blur(18px) saturate(175%);
+  -webkit-backdrop-filter: blur(18px) saturate(175%);
+  transition: transform 0.26s cubic-bezier(0.34,1.56,0.64,1), border-color 0.24s ease, background 0.24s ease;
+}
+.cortex-motion-sensor-control .sensor-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: var(--sensor-color, #a855f7);
+  box-shadow: 0 0 14px var(--sensor-color, #a855f7);
+}
+.cortex-motion-sensor-control[data-status="active"] {
+  color: #fff;
+  background: linear-gradient(135deg, rgba(6,214,160,0.20), rgba(99,102,241,0.20));
+  border-color: rgba(6,214,160,0.36);
+}
+.cortex-motion-sensor-control[data-status="denied"] {
+  color: rgba(251,191,36,0.94);
+  border-color: rgba(251,191,36,0.34);
+}
+.cortex-motion-sensor-control[data-status="unsupported"] {
+  opacity: 0.58;
+}
+.cortex-motion-sensor-control .sensor-label-short {
+  display: none;
+}
 .cortex-wallpaper-toggle button {
   appearance: none;
   border: 0;
@@ -672,6 +761,16 @@
   }
   .cortex-wallpaper-toggle .wallpaper-label-full {
     display: none;
+  }
+  .cortex-motion-sensor-control {
+    min-width: 42px;
+    padding: 8px 9px;
+  }
+  .cortex-motion-sensor-control .sensor-label-full {
+    display: none;
+  }
+  .cortex-motion-sensor-control .sensor-label-short {
+    display: inline;
   }
 }
 
@@ -770,6 +869,10 @@
     gap: 8px;
   }
   .cortex-library-topbar .cortex-wallpaper-toggle {
+    transform: scale(0.94);
+    transform-origin: right center;
+  }
+  .cortex-library-topbar .cortex-motion-sensor-control {
     transform: scale(0.94);
     transform-origin: right center;
   }
@@ -3104,7 +3207,7 @@ function B1Card({ children, style, onClick, glow, pad = 16, className }) {
         ? `0 8px 32px ${DL.shadowColor}, 0 0 20px rgba(168,85,247,0.15), inset 0 1px 0 ${DL.glassHigh}`
         : `0 8px 32px ${DL.shadowColor}, inset 0 1px 0 ${DL.glassHigh}`,
       transition: 'all 0.25s cubic-bezier(0.34,1.56,0.64,1)',
-      transform: p && onClick ? 'scale(0.97)' : 'scale(1)',
+      transform:`perspective(900px) rotateX(var(--cortex-card-tilt-y, 0deg)) rotateY(var(--cortex-card-tilt-x, 0deg)) translate3d(var(--cortex-card-shift-x, 0px), var(--cortex-card-shift-y, 0px), 0) scale(${p && onClick ? 0.97 : 1})`,
       cursor: onClick ? 'pointer' : 'default',
       ...style,
     }
@@ -3205,7 +3308,7 @@ function B1Button({ label, icon, onClick, variant = 'primary', full, style }) {
       fontSize:13, fontWeight:600, cursor:'pointer', userSelect:'none',
       boxShadow: isPrimary ? `0 4px 20px ${DL.shadowColor}` : 'none',
       transition:'all 0.2s cubic-bezier(0.34,1.56,0.64,1)',
-      transform: p ? 'scale(0.95)' : 'scale(1)',
+      transform:`perspective(700px) rotateX(var(--cortex-button-tilt-y, 0deg)) rotateY(var(--cortex-button-tilt-x, 0deg)) translate3d(var(--cortex-button-shift-x, 0px), var(--cortex-button-shift-y, 0px), 0) scale(${p ? 0.95 : 1})`,
       width: full ? '100%' : 'auto',
       ...style,
     }
@@ -5723,6 +5826,180 @@ Object.assign(window, {
 
 </script>
   <script type="text/babel">
+/* cortex-motion-sensors.jsx */
+/* CORTEX - PWA motion sensor layer
+   Subtle gyro tilt and shake impulse for browser/PWA contexts. */
+
+function cortexClampMotion(value, min, max) {
+  return Math.max(min, Math.min(max, value || 0));
+}
+
+function cortexSetMotionVars(x, y, force) {
+  const root = document.documentElement;
+  root.style.setProperty('--cortex-tilt-x', x.toFixed(3));
+  root.style.setProperty('--cortex-tilt-y', y.toFixed(3));
+  root.style.setProperty('--cortex-depth-x', `${(x * 10).toFixed(2)}px`);
+  root.style.setProperty('--cortex-depth-y', `${(y * 8).toFixed(2)}px`);
+  root.style.setProperty('--cortex-wallpaper-shift-x', `${(x * -4.5).toFixed(2)}px`);
+  root.style.setProperty('--cortex-wallpaper-shift-y', `${(y * -2.9).toFixed(2)}px`);
+  root.style.setProperty('--cortex-card-tilt-x', `${(x * 1.25).toFixed(3)}deg`);
+  root.style.setProperty('--cortex-card-tilt-y', `${(y * -1.15).toFixed(3)}deg`);
+  root.style.setProperty('--cortex-card-shift-x', `${(x * 0.45).toFixed(3)}px`);
+  root.style.setProperty('--cortex-card-shift-y', `${(y * 0.35).toFixed(3)}px`);
+  root.style.setProperty('--cortex-button-tilt-x', `${(x * 0.95).toFixed(3)}deg`);
+  root.style.setProperty('--cortex-button-tilt-y', `${(y * -0.85).toFixed(3)}deg`);
+  root.style.setProperty('--cortex-button-shift-x', `${(x * 0.28).toFixed(3)}px`);
+  root.style.setProperty('--cortex-button-shift-y', `${(y * 0.22).toFixed(3)}px`);
+  root.style.setProperty('--cortex-shake-force', (force || 0).toFixed(3));
+}
+
+function CortexMotionSensorControl() {
+  const supported = typeof window !== 'undefined' &&
+    ('DeviceOrientationEvent' in window || 'DeviceMotionEvent' in window);
+  const needsGesture = typeof DeviceOrientationEvent !== 'undefined' &&
+    typeof DeviceOrientationEvent.requestPermission === 'function';
+  const [status, setStatus] = React.useState(supported ? 'idle' : 'unsupported');
+  const motionRef = React.useRef({
+    active:false,
+    x:0,
+    y:0,
+    lastForce:0,
+    lastShake:0,
+    frame:null,
+  });
+
+  React.useEffect(() => {
+    document.documentElement.dataset.motionSensor = status;
+    document.documentElement.classList.toggle('cortex-sensor-active', status === 'active');
+    document.documentElement.classList.toggle('cortex-sensor-unsupported', status === 'unsupported');
+    return () => {
+      document.documentElement.classList.remove('cortex-sensor-active', 'cortex-sensor-unsupported');
+      document.documentElement.removeAttribute('data-motion-sensor');
+    };
+  }, [status]);
+
+  React.useEffect(() => {
+    return () => {
+      if (motionRef.current.frame) cancelAnimationFrame(motionRef.current.frame);
+      cortexSetMotionVars(0, 0, 0);
+    };
+  }, []);
+
+  const attach = React.useCallback(() => {
+    if (motionRef.current.active) return;
+    motionRef.current.active = true;
+    setStatus('active');
+
+    const write = (nextX, nextY, force) => {
+      if (motionRef.current.frame) cancelAnimationFrame(motionRef.current.frame);
+      motionRef.current.frame = requestAnimationFrame(() => {
+        motionRef.current.x = motionRef.current.x * 0.86 + nextX * 0.14;
+        motionRef.current.y = motionRef.current.y * 0.86 + nextY * 0.14;
+        cortexSetMotionVars(motionRef.current.x, motionRef.current.y, force || 0);
+      });
+    };
+
+    const onOrientation = event => {
+      const gamma = cortexClampMotion(event.gamma || 0, -32, 32);
+      const beta = cortexClampMotion((event.beta || 0) - 20, -38, 38);
+      const x = cortexClampMotion(gamma / 32, -1, 1);
+      const y = cortexClampMotion(beta / 38, -1, 1);
+      write(x, y, 0);
+    };
+
+    const onMotion = event => {
+      const a = event.accelerationIncludingGravity || event.acceleration;
+      if (!a) return;
+      const force = Math.sqrt((a.x || 0) ** 2 + (a.y || 0) ** 2 + (a.z || 0) ** 2);
+      const delta = Math.abs(force - motionRef.current.lastForce);
+      motionRef.current.lastForce = force;
+      const now = performance.now();
+      if (delta > 8.5 && now - motionRef.current.lastShake > 650) {
+        motionRef.current.lastShake = now;
+        const jolt = Math.min(delta / 18, 1);
+        document.documentElement.style.setProperty('--cortex-shake-force', jolt.toFixed(3));
+        document.documentElement.style.setProperty('--cortex-shake-x', `${(jolt * 3).toFixed(2)}px`);
+        document.documentElement.style.setProperty('--cortex-shake-y', `${(jolt * -2).toFixed(2)}px`);
+        document.documentElement.style.setProperty('--cortex-shake-x-neg', `${(jolt * -2.5).toFixed(2)}px`);
+        document.documentElement.style.setProperty('--cortex-shake-y-pos', `${(jolt * 1.5).toFixed(2)}px`);
+        document.documentElement.style.setProperty('--cortex-shake-rot', `${(jolt * 0.7).toFixed(3)}deg`);
+        document.documentElement.style.setProperty('--cortex-shake-rot-neg', `${(jolt * -0.55).toFixed(3)}deg`);
+        document.documentElement.classList.add('cortex-device-shake');
+        window.setTimeout(() => document.documentElement.classList.remove('cortex-device-shake'), 520);
+      }
+    };
+
+    window.addEventListener('deviceorientation', onOrientation, { passive:true });
+    window.addEventListener('devicemotion', onMotion, { passive:true });
+
+    motionRef.current.detach = () => {
+      window.removeEventListener('deviceorientation', onOrientation);
+      window.removeEventListener('devicemotion', onMotion);
+      motionRef.current.active = false;
+      cortexSetMotionVars(0, 0, 0);
+    };
+  }, []);
+
+  const enable = React.useCallback(async () => {
+    if (!supported) {
+      setStatus('unsupported');
+      return;
+    }
+    try {
+      const requests = [];
+      if (typeof DeviceOrientationEvent !== 'undefined' &&
+          typeof DeviceOrientationEvent.requestPermission === 'function') {
+        requests.push(DeviceOrientationEvent.requestPermission());
+      }
+      if (typeof DeviceMotionEvent !== 'undefined' &&
+          typeof DeviceMotionEvent.requestPermission === 'function') {
+        requests.push(DeviceMotionEvent.requestPermission());
+      }
+      const results = await Promise.all(requests);
+      if (results.some(result => result !== 'granted')) {
+        setStatus('denied');
+        return;
+      }
+      attach();
+    } catch (error) {
+      setStatus('denied');
+    }
+  }, [attach, supported]);
+
+  const disable = React.useCallback(() => {
+    if (motionRef.current.detach) motionRef.current.detach();
+    setStatus(supported ? 'idle' : 'unsupported');
+  }, [supported]);
+
+  const label = status === 'active' ? 'Gyro on'
+    : status === 'denied' ? 'Gyro off'
+    : status === 'unsupported' ? 'No gyro'
+    : needsGesture ? 'Enable gyro' : 'Gyro';
+  const color = status === 'active' ? DL.teal
+    : status === 'denied' ? DL.gold
+    : status === 'unsupported' ? DL.mute
+    : DL.accent;
+
+  return React.createElement('button', {
+    type:'button',
+    className:'cortex-motion-sensor-control cortex-motion-press',
+    onClick:status === 'active' ? disable : enable,
+    title:status === 'active'
+      ? 'Motion sensor is active'
+      : 'Enable subtle gyro tilt and shake response',
+    'data-status':status,
+    style:{ '--sensor-color':color },
+  },
+    React.createElement('span', { className:'sensor-dot' }),
+    React.createElement('span', { className:'sensor-label-full' }, label),
+    React.createElement('span', { className:'sensor-label-short' }, 'Gyro')
+  );
+}
+
+Object.assign(window, { CortexMotionSensorControl });
+
+</script>
+  <script type="text/babel">
 /* cortex-wallpapers.jsx */
 /* CORTEX - Interactive Wallpaper Engine
    Three generated wallpaper concepts with pointer/touch-aware motion. */
@@ -5888,8 +6165,8 @@ function CortexInteractiveWallpaper({ wallpaper, exhibition }) {
       '--wallpaper-image':`url("${cortexWallpaperAsset(item.file)}")`,
       '--pointer-x':`${pointer.x}%`,
       '--pointer-y':`${pointer.y}%`,
-      '--wallpaper-x':`${pointer.px}px`,
-      '--wallpaper-y':`${pointer.py}px`,
+      '--wallpaper-x':`calc(${pointer.px}px + var(--cortex-depth-x, 0px))`,
+      '--wallpaper-y':`calc(${pointer.py}px + var(--cortex-depth-y, 0px))`,
       '--wallpaper-angle':`${pointer.angle}deg`,
     }
   },
@@ -6232,6 +6509,7 @@ function CortexLibraryShell() {
             `Auto layout: ${mode} - ${window.innerWidth}x${window.innerHeight}`),
         ),
         React.createElement('div', { style:{ display:'flex', gap:8, alignItems:'center' }},
+          React.createElement(CortexMotionSensorControl),
           React.createElement(CortexWallpaperToggle, { value:wallpaper, onChange:setWallpaper }),
           React.createElement(B1Badge, { color:mode === 'desktop' ? DL.teal : mode === 'tablet' ? DL.gold : DL.accent }, mode.toUpperCase()),
           React.createElement(B1Badge, null, '0-24'),

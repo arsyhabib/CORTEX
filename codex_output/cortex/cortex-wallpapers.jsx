@@ -162,8 +162,8 @@ function CortexInteractiveWallpaper({ wallpaper, exhibition }) {
       '--wallpaper-image':`url("${cortexWallpaperAsset(item.file)}")`,
       '--pointer-x':`${pointer.x}%`,
       '--pointer-y':`${pointer.y}%`,
-      '--wallpaper-x':`${pointer.px}px`,
-      '--wallpaper-y':`${pointer.py}px`,
+      '--wallpaper-x':`calc(${pointer.px}px + var(--cortex-depth-x, 0px))`,
+      '--wallpaper-y':`calc(${pointer.py}px + var(--cortex-depth-y, 0px))`,
       '--wallpaper-angle':`${pointer.angle}deg`,
     }
   },

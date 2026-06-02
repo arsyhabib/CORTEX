@@ -2,6 +2,29 @@
 /* Glass Effects, Animations, Backgrounds */
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+  --cortex-tilt-x: 0;
+  --cortex-tilt-y: 0;
+  --cortex-depth-x: 0px;
+  --cortex-depth-y: 0px;
+  --cortex-wallpaper-shift-x: 0px;
+  --cortex-wallpaper-shift-y: 0px;
+  --cortex-card-tilt-x: 0deg;
+  --cortex-card-tilt-y: 0deg;
+  --cortex-card-shift-x: 0px;
+  --cortex-card-shift-y: 0px;
+  --cortex-button-tilt-x: 0deg;
+  --cortex-button-tilt-y: 0deg;
+  --cortex-button-shift-x: 0px;
+  --cortex-button-shift-y: 0px;
+  --cortex-shake-force: 0;
+  --cortex-shake-x: 0px;
+  --cortex-shake-y: 0px;
+  --cortex-shake-x-neg: 0px;
+  --cortex-shake-y-pos: 0px;
+  --cortex-shake-rot: 0deg;
+  --cortex-shake-rot-neg: 0deg;
+}
 
 /* ═══════════════════════════════════════════
    KEYFRAME ANIMATIONS
@@ -233,6 +256,13 @@
   72% { opacity: 0.24; filter: blur(22px) saturate(1.15); }
 }
 
+@keyframes cortex-device-jolt {
+  0%, 100% { transform: translate3d(0,0,0) rotate(0deg); }
+  22% { transform: translate3d(var(--cortex-shake-x, 3px), var(--cortex-shake-y, -2px), 0) rotate(var(--cortex-shake-rot, 0.7deg)); }
+  48% { transform: translate3d(var(--cortex-shake-x-neg, -2.5px), var(--cortex-shake-y-pos, 1.5px), 0) rotate(var(--cortex-shake-rot-neg, -0.55deg)); }
+  72% { transform: translate3d(1.4px, -0.8px, 0) rotate(0.35deg); }
+}
+
 /* ═══════════════════════════════════════════
    GLASS UTILITIES
    ═══════════════════════════════════════════ */
@@ -361,6 +391,19 @@
   animation: buttery-pop 0.72s cubic-bezier(0.16, 1, 0.3, 1) backwards,
              bubbly-breathe 7.5s ease-in-out 1s infinite;
 }
+.cortex-sensor-active .cortex-motion-card,
+.cortex-sensor-active .b1-card,
+.cortex-sensor-active .b1-button,
+.cortex-sensor-active .cortex-motion-press {
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+.cortex-device-shake .cortex-library-stage-inner {
+  animation: cortex-device-jolt 520ms cubic-bezier(0.34,1.56,0.64,1);
+}
+.cortex-device-shake .cortex-wallpaper-layer {
+  filter: saturate(1.08) brightness(1.05);
+}
 .cortex-motion-card::after {
   content: '';
   position: absolute;
@@ -406,6 +449,10 @@
   --pointer-y: 45%;
   --wallpaper-x: 0px;
   --wallpaper-y: 0px;
+}
+.cortex-sensor-active .cortex-wallpaper-layer {
+  transform: translate3d(var(--cortex-wallpaper-shift-x, 0px), var(--cortex-wallpaper-shift-y, 0px), 0) scale(1.012);
+  transition: transform 90ms linear, filter 220ms ease;
 }
 .cortex-wallpaper-layer[data-exhibition="false"] {
   opacity: 0.64;
@@ -632,6 +679,48 @@
   backdrop-filter: blur(22px) saturate(190%);
   -webkit-backdrop-filter: blur(22px) saturate(190%);
 }
+.cortex-motion-sensor-control {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 36px;
+  padding: 8px 10px;
+  border-radius: 18px;
+  background: rgba(120,80,255,0.11);
+  border: 1px solid rgba(160,120,255,0.26);
+  color: rgba(230,215,255,0.76);
+  font: inherit;
+  font-size: 10px;
+  font-weight: 900;
+  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(99,102,241,0.14), inset 0 1px 0 rgba(255,255,255,0.10);
+  backdrop-filter: blur(18px) saturate(175%);
+  -webkit-backdrop-filter: blur(18px) saturate(175%);
+  transition: transform 0.26s cubic-bezier(0.34,1.56,0.64,1), border-color 0.24s ease, background 0.24s ease;
+}
+.cortex-motion-sensor-control .sensor-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 999px;
+  background: var(--sensor-color, #a855f7);
+  box-shadow: 0 0 14px var(--sensor-color, #a855f7);
+}
+.cortex-motion-sensor-control[data-status="active"] {
+  color: #fff;
+  background: linear-gradient(135deg, rgba(6,214,160,0.20), rgba(99,102,241,0.20));
+  border-color: rgba(6,214,160,0.36);
+}
+.cortex-motion-sensor-control[data-status="denied"] {
+  color: rgba(251,191,36,0.94);
+  border-color: rgba(251,191,36,0.34);
+}
+.cortex-motion-sensor-control[data-status="unsupported"] {
+  opacity: 0.58;
+}
+.cortex-motion-sensor-control .sensor-label-short {
+  display: none;
+}
 .cortex-wallpaper-toggle button {
   appearance: none;
   border: 0;
@@ -659,6 +748,16 @@
   }
   .cortex-wallpaper-toggle .wallpaper-label-full {
     display: none;
+  }
+  .cortex-motion-sensor-control {
+    min-width: 42px;
+    padding: 8px 9px;
+  }
+  .cortex-motion-sensor-control .sensor-label-full {
+    display: none;
+  }
+  .cortex-motion-sensor-control .sensor-label-short {
+    display: inline;
   }
 }
 
@@ -757,6 +856,10 @@
     gap: 8px;
   }
   .cortex-library-topbar .cortex-wallpaper-toggle {
+    transform: scale(0.94);
+    transform-origin: right center;
+  }
+  .cortex-library-topbar .cortex-motion-sensor-control {
     transform: scale(0.94);
     transform-origin: right center;
   }

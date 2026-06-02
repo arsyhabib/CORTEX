@@ -32,7 +32,7 @@ function B1Card({ children, style, onClick, glow, pad = 16, className }) {
         ? `0 8px 32px ${DL.shadowColor}, 0 0 20px rgba(168,85,247,0.15), inset 0 1px 0 ${DL.glassHigh}`
         : `0 8px 32px ${DL.shadowColor}, inset 0 1px 0 ${DL.glassHigh}`,
       transition: 'all 0.25s cubic-bezier(0.34,1.56,0.64,1)',
-      transform: p && onClick ? 'scale(0.97)' : 'scale(1)',
+      transform:`perspective(900px) rotateX(var(--cortex-card-tilt-y, 0deg)) rotateY(var(--cortex-card-tilt-x, 0deg)) translate3d(var(--cortex-card-shift-x, 0px), var(--cortex-card-shift-y, 0px), 0) scale(${p && onClick ? 0.97 : 1})`,
       cursor: onClick ? 'pointer' : 'default',
       ...style,
     }
@@ -133,7 +133,7 @@ function B1Button({ label, icon, onClick, variant = 'primary', full, style }) {
       fontSize:13, fontWeight:600, cursor:'pointer', userSelect:'none',
       boxShadow: isPrimary ? `0 4px 20px ${DL.shadowColor}` : 'none',
       transition:'all 0.2s cubic-bezier(0.34,1.56,0.64,1)',
-      transform: p ? 'scale(0.95)' : 'scale(1)',
+      transform:`perspective(700px) rotateX(var(--cortex-button-tilt-y, 0deg)) rotateY(var(--cortex-button-tilt-x, 0deg)) translate3d(var(--cortex-button-shift-x, 0px), var(--cortex-button-shift-y, 0px), 0) scale(${p ? 0.95 : 1})`,
       width: full ? '100%' : 'auto',
       ...style,
     }

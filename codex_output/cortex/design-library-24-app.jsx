@@ -301,6 +301,7 @@ function CortexLibraryShell() {
             `Auto layout: ${mode} - ${window.innerWidth}x${window.innerHeight}`),
         ),
         React.createElement('div', { style:{ display:'flex', gap:8, alignItems:'center' }},
+          React.createElement(CortexMotionSensorControl),
           React.createElement(CortexWallpaperToggle, { value:wallpaper, onChange:setWallpaper }),
           React.createElement(B1Badge, { color:mode === 'desktop' ? DL.teal : mode === 'tablet' ? DL.gold : DL.accent }, mode.toUpperCase()),
           React.createElement(B1Badge, null, '0-24'),
