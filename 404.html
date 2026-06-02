@@ -498,15 +498,45 @@
   border-radius: 50%;
   pointer-events: none;
   mix-blend-mode: screen;
+  contain: paint;
   background:
-    radial-gradient(circle at 34% 30%, rgba(255,255,255,0.48), transparent 18%),
-    radial-gradient(circle, rgba(255,255,255,0.20), rgba(168,85,247,0.16) 40%, transparent 72%);
-  border: 1px solid rgba(255,255,255,0.24);
-  opacity: 0.78;
+    radial-gradient(circle at 34% 30%, rgba(255,255,255,0.30), transparent 20%),
+    radial-gradient(circle, rgba(255,255,255,0.12), rgba(168,85,247,0.10) 42%, transparent 74%);
+  border: 1px solid rgba(255,255,255,0.16);
+  opacity: 0.56;
   transform: translate(-50%, -50%) scale(0);
-  animation: cortex-ripple-pop 700ms cubic-bezier(0.16,1,0.3,1) forwards;
-  filter: blur(0.2px);
-  box-shadow: 0 0 28px rgba(168,85,247,0.16);
+  animation: cortex-ripple-pop 560ms cubic-bezier(0.16,1,0.3,1) forwards;
+  filter: blur(0.1px);
+  box-shadow: 0 0 14px rgba(168,85,247,0.10);
+}
+@media (pointer: coarse) {
+  .cortex-ripple-ink {
+    mix-blend-mode: normal;
+    background:
+      radial-gradient(circle at 34% 30%, rgba(255,255,255,0.22), transparent 24%),
+      radial-gradient(circle, rgba(255,255,255,0.10), rgba(168,85,247,0.08) 44%, transparent 76%);
+    border-color: rgba(255,255,255,0.14);
+    opacity: 0.42;
+    filter: none;
+    box-shadow: none;
+  }
+  .cortex-wallpaper-ripple {
+    mix-blend-mode: normal;
+    opacity: 0.24;
+    filter: none;
+    box-shadow: none;
+  }
+  .cortex-touch-active .cortex-motion-card,
+  .cortex-touch-active .b1-card,
+  .cortex-touch-active .b1-button,
+  .cortex-touch-active .cortex-motion-press,
+  .cortex-touch-active .cortex-library-nav button,
+  .cortex-touch-active .cortex-wallpaper-toggle button,
+  .cortex-touch-active .cortex-motion-sensor-control,
+  .cortex-touch-active .b1-toggle,
+  .cortex-touch-active .b1-search-input {
+    animation-duration: 520ms;
+  }
 }
 .cortex-motion-press {
   transition: transform 0.34s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.34s ease, border-color 0.34s ease;
@@ -757,9 +787,9 @@
   width: 180px;
   height: 180px;
   border-radius: 50%;
-  border: 1px solid rgba(255,255,255,0.34);
-  background: radial-gradient(circle, rgba(255,255,255,0.20), rgba(168,85,247,0.12) 36%, transparent 68%);
-  animation: cortex-ripple-pop 0.9s cubic-bezier(0.16,1,0.3,1) forwards;
+  border: 1px solid rgba(255,255,255,0.24);
+  background: radial-gradient(circle, rgba(255,255,255,0.14), rgba(168,85,247,0.08) 38%, transparent 70%);
+  animation: cortex-ripple-pop 680ms cubic-bezier(0.16,1,0.3,1) forwards;
   mix-blend-mode: screen;
 }
 .cortex-wallpaper-toggle {
@@ -3506,6 +3536,7 @@ function B1Ripple({ children, style }) {
 (function cortexInstallRippleFeedback() {
   if (window.__cortexRippleFeedbackInstalled) return;
   window.__cortexRippleFeedbackInstalled = true;
+  const lastRippleAt = new WeakMap();
   const selector = [
     ".b1-card",
     ".b1-button",
@@ -3520,8 +3551,13 @@ function B1Ripple({ children, style }) {
     if (!target || !target.getBoundingClientRect) return;
     const rect = target.getBoundingClientRect();
     if (!rect.width || !rect.height) return;
+    const now = performance.now();
+    const lastAt = lastRippleAt.get(target) || 0;
+    if (now - lastAt < 140) return;
+    lastRippleAt.set(target, now);
     const ink = document.createElement("span");
-    const size = Math.max(rect.width, rect.height) * 1.5;
+    const coarse = window.matchMedia && window.matchMedia("(pointer: coarse)").matches;
+    const size = Math.max(rect.width, rect.height) * (coarse ? 1.08 : 1.28);
     const x = event.clientX - rect.left;
     const y = event.clientY - rect.top;
     ink.className = "cortex-ripple-ink";
@@ -3530,7 +3566,7 @@ function B1Ripple({ children, style }) {
     ink.style.left = x + "px";
     ink.style.top = y + "px";
     target.appendChild(ink);
-    window.setTimeout(() => ink.remove(), 760);
+    window.setTimeout(() => ink.remove(), coarse ? 520 : 620);
   };
 
   const onPointerDown = event => {
@@ -6353,7 +6389,7 @@ function CortexInteractiveWallpaper({ wallpaper, exhibition }) {
       root.style.setProperty('--cortex-touch-press', '0');
     };
     const onPointerMove = e => update(e.clientX, e.clientY, false);
-    const onPointerDown = e => update(e.clientX, e.clientY, true);
+    const onPointerDown = e => update(e.clientX, e.clientY, shouldBurstWallpaper(e.target));
     const onPointerUp = () => settle();
     const onTouchMove = e => {
       const t = e.touches && e.touches[0];
@@ -6361,7 +6397,7 @@ function CortexInteractiveWallpaper({ wallpaper, exhibition }) {
     };
     const onTouchStart = e => {
       const t = e.touches && e.touches[0];
-      if (t) update(t.clientX, t.clientY, true);
+      if (t) update(t.clientX, t.clientY, shouldBurstWallpaper(e.target));
     };
     const onTouchEnd = () => settle();
     window.addEventListener('pointermove', onPointerMove, { passive:true });

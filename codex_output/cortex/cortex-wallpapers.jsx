@@ -113,6 +113,7 @@ function CortexInteractiveWallpaper({ wallpaper, exhibition }) {
   const [ripples, setRipples] = React.useState([]);
   const frame = React.useRef(null);
   const touchRef = React.useRef({ x:50, y:45, t:0 });
+  const interactiveSelector = '.b1-card, .b1-button, .b1-toggle, .b1-search-input, .cortex-motion-sensor-control, .cortex-library-nav button, .cortex-wallpaper-toggle button';
 
   React.useEffect(() => {
     const root = document.documentElement;
@@ -151,6 +152,11 @@ function CortexInteractiveWallpaper({ wallpaper, exhibition }) {
         }
       });
     };
+    const shouldBurstWallpaper = eventTarget => {
+      if (!eventTarget || !eventTarget.closest) return true;
+      if (eventTarget.closest(interactiveSelector)) return false;
+      return true;
+    };
     const settle = () => {
       root.classList.remove('cortex-touch-active');
       root.style.setProperty('--cortex-touch-shift-x', '0px');
@@ -163,7 +169,7 @@ function CortexInteractiveWallpaper({ wallpaper, exhibition }) {
       root.style.setProperty('--cortex-touch-press', '0');
     };
     const onPointerMove = e => update(e.clientX, e.clientY, false);
-    const onPointerDown = e => update(e.clientX, e.clientY, true);
+    const onPointerDown = e => update(e.clientX, e.clientY, shouldBurstWallpaper(e.target));
     const onPointerUp = () => settle();
     const onTouchMove = e => {
       const t = e.touches && e.touches[0];
@@ -171,7 +177,7 @@ function CortexInteractiveWallpaper({ wallpaper, exhibition }) {
     };
     const onTouchStart = e => {
       const t = e.touches && e.touches[0];
-      if (t) update(t.clientX, t.clientY, true);
+      if (t) update(t.clientX, t.clientY, shouldBurstWallpaper(e.target));
     };
     const onTouchEnd = () => settle();
     window.addEventListener('pointermove', onPointerMove, { passive:true });
