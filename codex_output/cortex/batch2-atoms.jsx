@@ -17,7 +17,7 @@ function B2PageShell({ label, title, subtitle, onBack, right, children, footer }
       right,
     }),
     React.createElement('div', {
-      className:'hide-scrollbar',
+      className:'hide-scrollbar cortex-motion-page',
       style:{ flex:1, overflowY:'auto', padding:'22px 18px 20px' }
     }, children),
     footer
@@ -49,6 +49,7 @@ function B2ReadingBlock({ children, lead }) {
 
 function B2StatPill({ label, value, color }) {
   return React.createElement('div', {
+    className:'cortex-motion-card',
     style:{
       flex:1, minWidth:0, padding:'9px 10px', borderRadius:14,
       background:'rgba(255,255,255,0.05)', border:`1px solid ${DL.glassBorder}`,
@@ -70,6 +71,7 @@ function B2Callout({ tone = 'pearl', title, children, icon }) {
   const t = tones[tone] || tones.note;
   return React.createElement(B1Card, {
     pad:14,
+    className:'cortex-motion-card',
     style:{ background:t.bg, borderColor:t.border, marginBottom:10 }
   },
     React.createElement('div', { style:{ display:'flex', gap:11, alignItems:'flex-start' }},
@@ -92,6 +94,7 @@ function B2Callout({ tone = 'pearl', title, children, icon }) {
 function B2Bullet({ text, sub, tone, index }) {
   const color = tone === 'warn' ? DL.gold : tone === 'ok' ? DL.green : DL.accent;
   return React.createElement('div', {
+    className:'cortex-motion-press',
     style:{
       display:'grid', gridTemplateColumns:'24px 1fr', gap:9, padding:'10px 0',
       borderBottom:'1px solid rgba(255,255,255,0.045)',
@@ -129,13 +132,14 @@ function B2PressHint({ active, label }) {
       color:active ? DL.gold : DL.mute, fontSize:9, fontWeight:800,
       transform:active ? 'scale(1.03)' : 'scale(1)', transition:'all 0.22s ease',
     }
-  }, React.createElement('span', null, active ? 'HOLD' : 'PRESS'), label);
+  }, React.createElement('span', { className: active ? 'cortex-motion-pill' : undefined }, active ? 'HOLD' : 'PRESS'), label);
 }
 
 function B2ImageCard({ title, subtitle, badge, tint, icon, children, onClick }) {
   return React.createElement(B1Card, {
     pad:0,
     onClick,
+    className:'cortex-motion-card cortex-motion-press',
     style:{ overflow:'hidden', marginBottom:12, borderRadius:22 }
   },
     React.createElement('div', {
@@ -150,6 +154,7 @@ function B2ImageCard({ title, subtitle, badge, tint, icon, children, onClick }) 
         background:'radial-gradient(circle at 28% 22%,rgba(255,255,255,0.18),transparent 28%), radial-gradient(circle at 76% 70%,rgba(6,214,160,0.12),transparent 24%)',
       }}),
       React.createElement('div', {
+        className:'cortex-motion-orb',
         style:{
           width:82, height:82, borderRadius:28,
           background:'rgba(255,255,255,0.07)', border:'1px solid rgba(255,255,255,0.14)',
@@ -181,6 +186,7 @@ function B2Segmented({ value, options, onChange }) {
       const active = opt.value === value;
       return React.createElement('button', {
         key:opt.value,
+        className:'cortex-motion-press',
         onClick:()=>onChange(opt.value),
         style:{
           appearance:'none', border:0, flex:1, minWidth:0,
@@ -189,6 +195,7 @@ function B2Segmented({ value, options, onChange }) {
           color:active ? '#fff' : DL.sub, fontSize:10, fontWeight:800,
           fontFamily:'inherit', cursor:'pointer',
           boxShadow:active ? `0 4px 16px ${DL.shadowColor}` : 'none',
+          animation:active ? 'pill-jiggle 3.8s cubic-bezier(0.34,1.56,0.64,1) infinite' : 'none',
           transition:'all 0.2s ease',
         }
       }, opt.label);

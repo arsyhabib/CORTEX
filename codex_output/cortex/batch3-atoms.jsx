@@ -3,7 +3,7 @@
    Depends on Batch 1/2 atoms: DL, B1Card, B1Badge, B1Progress, B2PageShell, B2Callout. */
 
 function B3Hero({ kicker, title, subtitle, color, right }) {
-  return React.createElement(B1Card, { glow:true, style:{ marginBottom:14, animation:'scale-in 0.35s ease backwards' }},
+  return React.createElement(B1Card, { glow:true, className:'cortex-motion-card', style:{ marginBottom:14 }},
     React.createElement('div', { style:{ display:'flex', justifyContent:'space-between', gap:10, alignItems:'flex-start' }},
       React.createElement('div', { style:{ flex:1, minWidth:0 }},
         React.createElement(B2Kicker, { color:color || DL.accent }, kicker),
@@ -20,6 +20,7 @@ function B3Choice({ label, text, selected, correct, onClick }) {
   return React.createElement(B1Card, {
     pad:12,
     onClick,
+    className:'cortex-motion-card cortex-motion-press',
     style:{
       marginBottom:8,
       background:selected ? 'rgba(168,85,247,0.13)' : correct ? 'rgba(34,197,94,0.08)' : DL.glass,
@@ -39,7 +40,7 @@ function B3Choice({ label, text, selected, correct, onClick }) {
 }
 
 function B3MetricCard({ label, value, sub, color }) {
-  return React.createElement(B1Card, { pad:12, style:{ minHeight:86 }},
+  return React.createElement(B1Card, { pad:12, className:'cortex-motion-card cortex-motion-press', style:{ minHeight:86 }},
     React.createElement('div', { style:{ fontSize:9, color:DL.mute, letterSpacing:0.7, textTransform:'uppercase', fontWeight:800 }}, label),
     React.createElement('div', { style:{ fontSize:22, color:color || DL.text, fontWeight:900, marginTop:5, lineHeight:1 }}, value),
     sub && React.createElement('div', { style:{ fontSize:10, color:DL.sub, marginTop:7, lineHeight:1.35 }}, sub),
@@ -50,6 +51,7 @@ function B3Row({ title, sub, right, active, onClick, color }) {
   return React.createElement(B1Card, {
     pad:13,
     onClick,
+    className:'cortex-motion-card cortex-motion-press',
     style:{
       marginBottom:9,
       background:active ? `${color || DL.accent}16` : DL.glass,
@@ -77,10 +79,11 @@ function B3StateCard({ tone = 'note', title, sub, action, compact }) {
   const t = tones[tone] || tones.note;
   return React.createElement(B1Card, {
     pad:compact ? 12 : 14,
+    className:'cortex-motion-card cortex-motion-press',
     style:{ background:t.bg, borderColor:`${t.color}38`, marginBottom:10 }
   },
     React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'36px 1fr', gap:11, alignItems:'start' }},
-      React.createElement('div', { style:{
+      React.createElement('div', { className:'cortex-motion-orb', style:{
         width:36, height:36, borderRadius:14,
         display:'flex', alignItems:'center', justifyContent:'center',
         background:`${t.color}1f`, border:`1px solid ${t.color}40`,

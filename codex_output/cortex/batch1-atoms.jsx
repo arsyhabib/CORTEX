@@ -17,9 +17,10 @@ const DL = {
 };
 
 /* ── Glass Card with tactile press ── */
-function B1Card({ children, style, onClick, glow, pad = 16 }) {
+function B1Card({ children, style, onClick, glow, pad = 16, className }) {
   const [p, setP] = React.useState(false);
   return React.createElement('div', {
+    className,
     onPointerDown: () => setP(true), onPointerUp: () => setP(false), onPointerLeave: () => setP(false),
     onClick,
     style: {

@@ -167,6 +167,47 @@
   100% { background-position: 200% center; }
 }
 
+@keyframes buttery-pop {
+  0% { opacity: 0; transform: translateY(24px) scale(0.92); filter: blur(8px); }
+  55% { opacity: 1; transform: translateY(-4px) scale(1.025); filter: blur(0); }
+  78% { transform: translateY(2px) scale(0.992); }
+  100% { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
+}
+
+@keyframes bubbly-breathe {
+  0%, 100% { transform: translateY(0) scale(1); border-radius: 20px; }
+  35% { transform: translateY(-3px) scale(1.006); border-radius: 24px; }
+  70% { transform: translateY(1px) scale(0.998); border-radius: 18px; }
+}
+
+@keyframes jelly-press {
+  0% { transform: scale(1); }
+  32% { transform: scale(0.965, 1.035); }
+  62% { transform: scale(1.018, 0.982); }
+  100% { transform: scale(1); }
+}
+
+@keyframes soft-wobble {
+  0%, 100% { transform: rotate(0deg) translateY(0); }
+  25% { transform: rotate(-0.8deg) translateY(-2px); }
+  55% { transform: rotate(0.7deg) translateY(1px); }
+  80% { transform: rotate(-0.3deg) translateY(-1px); }
+}
+
+@keyframes liquid-sheen {
+  0% { transform: translateX(-120%) skewX(-18deg); opacity: 0; }
+  18% { opacity: 0.65; }
+  46% { opacity: 0; }
+  100% { transform: translateX(220%) skewX(-18deg); opacity: 0; }
+}
+
+@keyframes pill-jiggle {
+  0% { transform: scale(1) rotate(0deg); }
+  35% { transform: scale(1.08, 0.94) rotate(-1.2deg); }
+  65% { transform: scale(0.98, 1.04) rotate(0.8deg); }
+  100% { transform: scale(1) rotate(0deg); }
+}
+
 /* ═══════════════════════════════════════════
    GLASS UTILITIES
    ═══════════════════════════════════════════ */
@@ -274,6 +315,59 @@
 
 .page-exit {
   animation: slide-up 0.3s ease reverse backwards;
+}
+
+/* Batch 2/3 motion: Claude-like buttery, bubbly, jiggly layer */
+.cortex-motion-page > * {
+  animation: buttery-pop 0.72s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+}
+.cortex-motion-page > *:nth-child(1) { animation-delay: 0.03s; }
+.cortex-motion-page > *:nth-child(2) { animation-delay: 0.08s; }
+.cortex-motion-page > *:nth-child(3) { animation-delay: 0.13s; }
+.cortex-motion-page > *:nth-child(4) { animation-delay: 0.18s; }
+.cortex-motion-page > *:nth-child(5) { animation-delay: 0.23s; }
+.cortex-motion-page > *:nth-child(6) { animation-delay: 0.28s; }
+.cortex-motion-page > *:nth-child(7) { animation-delay: 0.33s; }
+.cortex-motion-page > *:nth-child(8) { animation-delay: 0.38s; }
+.cortex-motion-page > *:nth-child(9) { animation-delay: 0.43s; }
+.cortex-motion-card {
+  position: relative;
+  transform-origin: center;
+  animation: buttery-pop 0.72s cubic-bezier(0.16, 1, 0.3, 1) backwards,
+             bubbly-breathe 7.5s ease-in-out 1s infinite;
+}
+.cortex-motion-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  width: 38%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.16), transparent);
+  animation: liquid-sheen 5.8s ease-in-out infinite;
+  pointer-events: none;
+}
+.cortex-motion-press {
+  transition: transform 0.34s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.34s ease, border-color 0.34s ease;
+}
+.cortex-motion-press:active {
+  animation: jelly-press 0.45s cubic-bezier(0.34,1.56,0.64,1);
+}
+.cortex-motion-orb {
+  animation: soft-wobble 5.6s ease-in-out infinite, float 4.2s ease-in-out infinite;
+}
+.cortex-motion-pill {
+  animation: pill-jiggle 4.2s cubic-bezier(0.34,1.56,0.64,1) infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cortex-motion-page > *,
+  .cortex-motion-card,
+  .cortex-motion-card::after,
+  .cortex-motion-press:active,
+  .cortex-motion-orb,
+  .cortex-motion-pill {
+    animation: none !important;
+  }
 }
 
   </style>
@@ -1200,9 +1294,10 @@ const DL = {
 };
 
 /* ── Glass Card with tactile press ── */
-function B1Card({ children, style, onClick, glow, pad = 16 }) {
+function B1Card({ children, style, onClick, glow, pad = 16, className }) {
   const [p, setP] = React.useState(false);
   return React.createElement('div', {
+    className,
     onPointerDown: () => setP(true), onPointerUp: () => setP(false), onPointerLeave: () => setP(false),
     onClick,
     style: {
@@ -1438,7 +1533,7 @@ function B2PageShell({ label, title, subtitle, onBack, right, children, footer }
       right,
     }),
     React.createElement('div', {
-      className:'hide-scrollbar',
+      className:'hide-scrollbar cortex-motion-page',
       style:{ flex:1, overflowY:'auto', padding:'22px 18px 20px' }
     }, children),
     footer
@@ -1470,6 +1565,7 @@ function B2ReadingBlock({ children, lead }) {
 
 function B2StatPill({ label, value, color }) {
   return React.createElement('div', {
+    className:'cortex-motion-card',
     style:{
       flex:1, minWidth:0, padding:'9px 10px', borderRadius:14,
       background:'rgba(255,255,255,0.05)', border:`1px solid ${DL.glassBorder}`,
@@ -1491,6 +1587,7 @@ function B2Callout({ tone = 'pearl', title, children, icon }) {
   const t = tones[tone] || tones.note;
   return React.createElement(B1Card, {
     pad:14,
+    className:'cortex-motion-card',
     style:{ background:t.bg, borderColor:t.border, marginBottom:10 }
   },
     React.createElement('div', { style:{ display:'flex', gap:11, alignItems:'flex-start' }},
@@ -1513,6 +1610,7 @@ function B2Callout({ tone = 'pearl', title, children, icon }) {
 function B2Bullet({ text, sub, tone, index }) {
   const color = tone === 'warn' ? DL.gold : tone === 'ok' ? DL.green : DL.accent;
   return React.createElement('div', {
+    className:'cortex-motion-press',
     style:{
       display:'grid', gridTemplateColumns:'24px 1fr', gap:9, padding:'10px 0',
       borderBottom:'1px solid rgba(255,255,255,0.045)',
@@ -1550,13 +1648,14 @@ function B2PressHint({ active, label }) {
       color:active ? DL.gold : DL.mute, fontSize:9, fontWeight:800,
       transform:active ? 'scale(1.03)' : 'scale(1)', transition:'all 0.22s ease',
     }
-  }, React.createElement('span', null, active ? 'HOLD' : 'PRESS'), label);
+  }, React.createElement('span', { className: active ? 'cortex-motion-pill' : undefined }, active ? 'HOLD' : 'PRESS'), label);
 }
 
 function B2ImageCard({ title, subtitle, badge, tint, icon, children, onClick }) {
   return React.createElement(B1Card, {
     pad:0,
     onClick,
+    className:'cortex-motion-card cortex-motion-press',
     style:{ overflow:'hidden', marginBottom:12, borderRadius:22 }
   },
     React.createElement('div', {
@@ -1571,6 +1670,7 @@ function B2ImageCard({ title, subtitle, badge, tint, icon, children, onClick }) 
         background:'radial-gradient(circle at 28% 22%,rgba(255,255,255,0.18),transparent 28%), radial-gradient(circle at 76% 70%,rgba(6,214,160,0.12),transparent 24%)',
       }}),
       React.createElement('div', {
+        className:'cortex-motion-orb',
         style:{
           width:82, height:82, borderRadius:28,
           background:'rgba(255,255,255,0.07)', border:'1px solid rgba(255,255,255,0.14)',
@@ -1602,6 +1702,7 @@ function B2Segmented({ value, options, onChange }) {
       const active = opt.value === value;
       return React.createElement('button', {
         key:opt.value,
+        className:'cortex-motion-press',
         onClick:()=>onChange(opt.value),
         style:{
           appearance:'none', border:0, flex:1, minWidth:0,
@@ -1610,6 +1711,7 @@ function B2Segmented({ value, options, onChange }) {
           color:active ? '#fff' : DL.sub, fontSize:10, fontWeight:800,
           fontFamily:'inherit', cursor:'pointer',
           boxShadow:active ? `0 4px 16px ${DL.shadowColor}` : 'none',
+          animation:active ? 'pill-jiggle 3.8s cubic-bezier(0.34,1.56,0.64,1) infinite' : 'none',
           transition:'all 0.2s ease',
         }
       }, opt.label);
@@ -1629,7 +1731,7 @@ Object.assign(window, {
    Depends on Batch 1/2 atoms: DL, B1Card, B1Badge, B1Progress, B2PageShell, B2Callout. */
 
 function B3Hero({ kicker, title, subtitle, color, right }) {
-  return React.createElement(B1Card, { glow:true, style:{ marginBottom:14, animation:'scale-in 0.35s ease backwards' }},
+  return React.createElement(B1Card, { glow:true, className:'cortex-motion-card', style:{ marginBottom:14 }},
     React.createElement('div', { style:{ display:'flex', justifyContent:'space-between', gap:10, alignItems:'flex-start' }},
       React.createElement('div', { style:{ flex:1, minWidth:0 }},
         React.createElement(B2Kicker, { color:color || DL.accent }, kicker),
@@ -1646,6 +1748,7 @@ function B3Choice({ label, text, selected, correct, onClick }) {
   return React.createElement(B1Card, {
     pad:12,
     onClick,
+    className:'cortex-motion-card cortex-motion-press',
     style:{
       marginBottom:8,
       background:selected ? 'rgba(168,85,247,0.13)' : correct ? 'rgba(34,197,94,0.08)' : DL.glass,
@@ -1665,7 +1768,7 @@ function B3Choice({ label, text, selected, correct, onClick }) {
 }
 
 function B3MetricCard({ label, value, sub, color }) {
-  return React.createElement(B1Card, { pad:12, style:{ minHeight:86 }},
+  return React.createElement(B1Card, { pad:12, className:'cortex-motion-card cortex-motion-press', style:{ minHeight:86 }},
     React.createElement('div', { style:{ fontSize:9, color:DL.mute, letterSpacing:0.7, textTransform:'uppercase', fontWeight:800 }}, label),
     React.createElement('div', { style:{ fontSize:22, color:color || DL.text, fontWeight:900, marginTop:5, lineHeight:1 }}, value),
     sub && React.createElement('div', { style:{ fontSize:10, color:DL.sub, marginTop:7, lineHeight:1.35 }}, sub),
@@ -1676,6 +1779,7 @@ function B3Row({ title, sub, right, active, onClick, color }) {
   return React.createElement(B1Card, {
     pad:13,
     onClick,
+    className:'cortex-motion-card cortex-motion-press',
     style:{
       marginBottom:9,
       background:active ? `${color || DL.accent}16` : DL.glass,
@@ -1703,10 +1807,11 @@ function B3StateCard({ tone = 'note', title, sub, action, compact }) {
   const t = tones[tone] || tones.note;
   return React.createElement(B1Card, {
     pad:compact ? 12 : 14,
+    className:'cortex-motion-card cortex-motion-press',
     style:{ background:t.bg, borderColor:`${t.color}38`, marginBottom:10 }
   },
     React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'36px 1fr', gap:11, alignItems:'start' }},
-      React.createElement('div', { style:{
+      React.createElement('div', { className:'cortex-motion-orb', style:{
         width:36, height:36, borderRadius:14,
         display:'flex', alignItems:'center', justifyContent:'center',
         background:`${t.color}1f`, border:`1px solid ${t.color}40`,
