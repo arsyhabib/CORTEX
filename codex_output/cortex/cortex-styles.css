@@ -24,6 +24,7 @@
   --cortex-shake-y-pos: 0px;
   --cortex-shake-rot: 0deg;
   --cortex-shake-rot-neg: 0deg;
+  --cortex-shake-rest: 0deg;
 }
 
 /* ═══════════════════════════════════════════
@@ -260,7 +261,7 @@
   0%, 100% { transform: translate3d(0,0,0) rotate(0deg); }
   22% { transform: translate3d(var(--cortex-shake-x, 3px), var(--cortex-shake-y, -2px), 0) rotate(var(--cortex-shake-rot, 0.7deg)); }
   48% { transform: translate3d(var(--cortex-shake-x-neg, -2.5px), var(--cortex-shake-y-pos, 1.5px), 0) rotate(var(--cortex-shake-rot-neg, -0.55deg)); }
-  72% { transform: translate3d(1.4px, -0.8px, 0) rotate(0.35deg); }
+  72% { transform: translate3d(1.4px, -0.8px, 0) rotate(var(--cortex-shake-rest, 0.35deg)); }
 }
 
 /* ═══════════════════════════════════════════
@@ -394,7 +395,11 @@
 .cortex-sensor-active .cortex-motion-card,
 .cortex-sensor-active .b1-card,
 .cortex-sensor-active .b1-button,
-.cortex-sensor-active .cortex-motion-press {
+.cortex-sensor-active .cortex-motion-press,
+.cortex-sensor-active .cortex-library-nav button,
+.cortex-sensor-active .cortex-wallpaper-toggle button,
+.cortex-sensor-active .cortex-motion-sensor-control,
+.cortex-sensor-active .b1-toggle {
   transform-style: preserve-3d;
   will-change: transform;
 }
@@ -720,6 +725,34 @@
 }
 .cortex-motion-sensor-control .sensor-label-short {
   display: none;
+}
+.cortex-sensor-active .cortex-library-nav button {
+  transform: perspective(550px) rotateX(var(--cortex-control-tilt-y, 0deg)) rotateY(var(--cortex-control-tilt-x, 0deg)) translate3d(var(--cortex-control-shift-x, 0px), var(--cortex-control-shift-y, 0px), 0);
+  transition: transform 110ms linear, background 0.2s ease, box-shadow 0.2s ease;
+}
+.cortex-sensor-active .cortex-wallpaper-toggle button {
+  transform: perspective(580px) rotateX(var(--cortex-control-tilt-y, 0deg)) rotateY(var(--cortex-control-tilt-x, 0deg)) translate3d(calc(var(--cortex-control-shift-x, 0px) * 0.7), calc(var(--cortex-control-shift-y, 0px) * 0.7), 0);
+  transition: transform 110ms linear, background 0.2s ease, box-shadow 0.2s ease;
+}
+.cortex-sensor-active .cortex-motion-sensor-control {
+  transform: perspective(580px) rotateX(var(--cortex-control-tilt-y, 0deg)) rotateY(var(--cortex-control-tilt-x, 0deg)) translate3d(var(--cortex-control-shift-x, 0px), var(--cortex-control-shift-y, 0px), 0);
+  transition: transform 110ms linear, background 0.2s ease, box-shadow 0.2s ease;
+}
+.cortex-sensor-active .b1-toggle {
+  transform: perspective(500px) rotateX(calc(var(--cortex-control-tilt-y, 0deg) * 0.45)) rotateY(calc(var(--cortex-control-tilt-x, 0deg) * 0.45)) translate3d(calc(var(--cortex-control-shift-x, 0px) * 0.45), calc(var(--cortex-control-shift-y, 0px) * 0.45), 0);
+  transition: transform 110ms linear;
+}
+.cortex-sensor-active .b1-search-input {
+  transform: perspective(620px) rotateX(calc(var(--cortex-control-tilt-y, 0deg) * 0.6)) rotateY(calc(var(--cortex-control-tilt-x, 0deg) * 0.6)) translate3d(calc(var(--cortex-control-shift-x, 0px) * 0.5), calc(var(--cortex-control-shift-y, 0px) * 0.5), 0);
+  transition: transform 110ms linear;
+}
+.cortex-sensor-active .cortex-wallpaper-toggle button,
+.cortex-sensor-active .cortex-motion-sensor-control,
+.cortex-sensor-active .b1-toggle,
+.cortex-sensor-active .b1-search-input,
+.cortex-sensor-active .cortex-library-nav button {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
 }
 .cortex-wallpaper-toggle button {
   appearance: none;

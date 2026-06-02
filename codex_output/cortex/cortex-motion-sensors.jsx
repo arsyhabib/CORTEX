@@ -9,18 +9,22 @@ function cortexSetMotionVars(x, y, force) {
   const root = document.documentElement;
   root.style.setProperty('--cortex-tilt-x', x.toFixed(3));
   root.style.setProperty('--cortex-tilt-y', y.toFixed(3));
-  root.style.setProperty('--cortex-depth-x', `${(x * 10).toFixed(2)}px`);
-  root.style.setProperty('--cortex-depth-y', `${(y * 8).toFixed(2)}px`);
-  root.style.setProperty('--cortex-wallpaper-shift-x', `${(x * -4.5).toFixed(2)}px`);
-  root.style.setProperty('--cortex-wallpaper-shift-y', `${(y * -2.9).toFixed(2)}px`);
-  root.style.setProperty('--cortex-card-tilt-x', `${(x * 1.25).toFixed(3)}deg`);
-  root.style.setProperty('--cortex-card-tilt-y', `${(y * -1.15).toFixed(3)}deg`);
-  root.style.setProperty('--cortex-card-shift-x', `${(x * 0.45).toFixed(3)}px`);
-  root.style.setProperty('--cortex-card-shift-y', `${(y * 0.35).toFixed(3)}px`);
-  root.style.setProperty('--cortex-button-tilt-x', `${(x * 0.95).toFixed(3)}deg`);
-  root.style.setProperty('--cortex-button-tilt-y', `${(y * -0.85).toFixed(3)}deg`);
-  root.style.setProperty('--cortex-button-shift-x', `${(x * 0.28).toFixed(3)}px`);
-  root.style.setProperty('--cortex-button-shift-y', `${(y * 0.22).toFixed(3)}px`);
+  root.style.setProperty('--cortex-depth-x', `${(x * 12).toFixed(2)}px`);
+  root.style.setProperty('--cortex-depth-y', `${(y * 9).toFixed(2)}px`);
+  root.style.setProperty('--cortex-wallpaper-shift-x', `${(x * -5.8).toFixed(2)}px`);
+  root.style.setProperty('--cortex-wallpaper-shift-y', `${(y * -3.7).toFixed(2)}px`);
+  root.style.setProperty('--cortex-card-tilt-x', `${(x * 1.55).toFixed(3)}deg`);
+  root.style.setProperty('--cortex-card-tilt-y', `${(y * -1.35).toFixed(3)}deg`);
+  root.style.setProperty('--cortex-card-shift-x', `${(x * 0.6).toFixed(3)}px`);
+  root.style.setProperty('--cortex-card-shift-y', `${(y * 0.48).toFixed(3)}px`);
+  root.style.setProperty('--cortex-button-tilt-x', `${(x * 1.18).toFixed(3)}deg`);
+  root.style.setProperty('--cortex-button-tilt-y', `${(y * -1.02).toFixed(3)}deg`);
+  root.style.setProperty('--cortex-button-shift-x', `${(x * 0.38).toFixed(3)}px`);
+  root.style.setProperty('--cortex-button-shift-y', `${(y * 0.3).toFixed(3)}px`);
+  root.style.setProperty('--cortex-control-tilt-x', `${(x * 1.02).toFixed(3)}deg`);
+  root.style.setProperty('--cortex-control-tilt-y', `${(y * -0.92).toFixed(3)}deg`);
+  root.style.setProperty('--cortex-control-shift-x', `${(x * 0.3).toFixed(3)}px`);
+  root.style.setProperty('--cortex-control-shift-y', `${(y * 0.24).toFixed(3)}px`);
   root.style.setProperty('--cortex-shake-force', (force || 0).toFixed(3));
 }
 
@@ -85,18 +89,19 @@ function CortexMotionSensorControl() {
       const delta = Math.abs(force - motionRef.current.lastForce);
       motionRef.current.lastForce = force;
       const now = performance.now();
-      if (delta > 8.5 && now - motionRef.current.lastShake > 650) {
+      if (delta > 7.5 && now - motionRef.current.lastShake > 540) {
         motionRef.current.lastShake = now;
-        const jolt = Math.min(delta / 18, 1);
+        const jolt = Math.min(delta / 15, 1);
         document.documentElement.style.setProperty('--cortex-shake-force', jolt.toFixed(3));
-        document.documentElement.style.setProperty('--cortex-shake-x', `${(jolt * 3).toFixed(2)}px`);
-        document.documentElement.style.setProperty('--cortex-shake-y', `${(jolt * -2).toFixed(2)}px`);
-        document.documentElement.style.setProperty('--cortex-shake-x-neg', `${(jolt * -2.5).toFixed(2)}px`);
-        document.documentElement.style.setProperty('--cortex-shake-y-pos', `${(jolt * 1.5).toFixed(2)}px`);
-        document.documentElement.style.setProperty('--cortex-shake-rot', `${(jolt * 0.7).toFixed(3)}deg`);
-        document.documentElement.style.setProperty('--cortex-shake-rot-neg', `${(jolt * -0.55).toFixed(3)}deg`);
+        document.documentElement.style.setProperty('--cortex-shake-x', `${(jolt * 4.2).toFixed(2)}px`);
+        document.documentElement.style.setProperty('--cortex-shake-y', `${(jolt * -3.1).toFixed(2)}px`);
+        document.documentElement.style.setProperty('--cortex-shake-x-neg', `${(jolt * -3.6).toFixed(2)}px`);
+        document.documentElement.style.setProperty('--cortex-shake-y-pos', `${(jolt * 2.2).toFixed(2)}px`);
+        document.documentElement.style.setProperty('--cortex-shake-rot', `${(jolt * 1.05).toFixed(3)}deg`);
+        document.documentElement.style.setProperty('--cortex-shake-rot-neg', `${(jolt * -0.82).toFixed(3)}deg`);
+        document.documentElement.style.setProperty('--cortex-shake-rest', `${(jolt * 0.3).toFixed(3)}deg`);
         document.documentElement.classList.add('cortex-device-shake');
-        window.setTimeout(() => document.documentElement.classList.remove('cortex-device-shake'), 520);
+        window.setTimeout(() => document.documentElement.classList.remove('cortex-device-shake'), 620);
       }
     };
 

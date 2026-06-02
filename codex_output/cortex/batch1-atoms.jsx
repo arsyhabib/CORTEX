@@ -165,6 +165,7 @@ function B1Counter({ end, duration = 1200, suffix = '' }) {
 /* ── Toggle Switch ── */
 function B1Toggle({ value, onChange, label }) {
   return React.createElement('div', {
+    className:'b1-toggle',
     style: { display:'flex', alignItems:'center', justifyContent:'space-between', padding:'4px 0' }
   },
     label && React.createElement('span', { style:{ fontSize:13, color:DL.text }}, label),
@@ -197,7 +198,7 @@ function B1SearchInput({ value, onChange, placeholder, autoFocus, style }) {
     background:DL.glass, border:`1px solid ${DL.glassBorder}`,
     backdropFilter:'blur(16px)', WebkitBackdropFilter:'blur(16px)',
     ...style,
-  }},
+  }, className:'b1-search-input'},
     React.createElement('span', { style:{ fontSize:16, opacity:0.5 }}, '🔍'),
     React.createElement('input', {
       value, onChange: e => onChange(e.target.value),

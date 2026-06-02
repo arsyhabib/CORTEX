@@ -37,6 +37,7 @@
   --cortex-shake-y-pos: 0px;
   --cortex-shake-rot: 0deg;
   --cortex-shake-rot-neg: 0deg;
+  --cortex-shake-rest: 0deg;
 }
 
 /* ═══════════════════════════════════════════
@@ -273,7 +274,7 @@
   0%, 100% { transform: translate3d(0,0,0) rotate(0deg); }
   22% { transform: translate3d(var(--cortex-shake-x, 3px), var(--cortex-shake-y, -2px), 0) rotate(var(--cortex-shake-rot, 0.7deg)); }
   48% { transform: translate3d(var(--cortex-shake-x-neg, -2.5px), var(--cortex-shake-y-pos, 1.5px), 0) rotate(var(--cortex-shake-rot-neg, -0.55deg)); }
-  72% { transform: translate3d(1.4px, -0.8px, 0) rotate(0.35deg); }
+  72% { transform: translate3d(1.4px, -0.8px, 0) rotate(var(--cortex-shake-rest, 0.35deg)); }
 }
 
 /* ═══════════════════════════════════════════
@@ -407,7 +408,11 @@
 .cortex-sensor-active .cortex-motion-card,
 .cortex-sensor-active .b1-card,
 .cortex-sensor-active .b1-button,
-.cortex-sensor-active .cortex-motion-press {
+.cortex-sensor-active .cortex-motion-press,
+.cortex-sensor-active .cortex-library-nav button,
+.cortex-sensor-active .cortex-wallpaper-toggle button,
+.cortex-sensor-active .cortex-motion-sensor-control,
+.cortex-sensor-active .b1-toggle {
   transform-style: preserve-3d;
   will-change: transform;
 }
@@ -733,6 +738,34 @@
 }
 .cortex-motion-sensor-control .sensor-label-short {
   display: none;
+}
+.cortex-sensor-active .cortex-library-nav button {
+  transform: perspective(550px) rotateX(var(--cortex-control-tilt-y, 0deg)) rotateY(var(--cortex-control-tilt-x, 0deg)) translate3d(var(--cortex-control-shift-x, 0px), var(--cortex-control-shift-y, 0px), 0);
+  transition: transform 110ms linear, background 0.2s ease, box-shadow 0.2s ease;
+}
+.cortex-sensor-active .cortex-wallpaper-toggle button {
+  transform: perspective(580px) rotateX(var(--cortex-control-tilt-y, 0deg)) rotateY(var(--cortex-control-tilt-x, 0deg)) translate3d(calc(var(--cortex-control-shift-x, 0px) * 0.7), calc(var(--cortex-control-shift-y, 0px) * 0.7), 0);
+  transition: transform 110ms linear, background 0.2s ease, box-shadow 0.2s ease;
+}
+.cortex-sensor-active .cortex-motion-sensor-control {
+  transform: perspective(580px) rotateX(var(--cortex-control-tilt-y, 0deg)) rotateY(var(--cortex-control-tilt-x, 0deg)) translate3d(var(--cortex-control-shift-x, 0px), var(--cortex-control-shift-y, 0px), 0);
+  transition: transform 110ms linear, background 0.2s ease, box-shadow 0.2s ease;
+}
+.cortex-sensor-active .b1-toggle {
+  transform: perspective(500px) rotateX(calc(var(--cortex-control-tilt-y, 0deg) * 0.45)) rotateY(calc(var(--cortex-control-tilt-x, 0deg) * 0.45)) translate3d(calc(var(--cortex-control-shift-x, 0px) * 0.45), calc(var(--cortex-control-shift-y, 0px) * 0.45), 0);
+  transition: transform 110ms linear;
+}
+.cortex-sensor-active .b1-search-input {
+  transform: perspective(620px) rotateX(calc(var(--cortex-control-tilt-y, 0deg) * 0.6)) rotateY(calc(var(--cortex-control-tilt-x, 0deg) * 0.6)) translate3d(calc(var(--cortex-control-shift-x, 0px) * 0.5), calc(var(--cortex-control-shift-y, 0px) * 0.5), 0);
+  transition: transform 110ms linear;
+}
+.cortex-sensor-active .cortex-wallpaper-toggle button,
+.cortex-sensor-active .cortex-motion-sensor-control,
+.cortex-sensor-active .b1-toggle,
+.cortex-sensor-active .b1-search-input,
+.cortex-sensor-active .cortex-library-nav button {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
 }
 .cortex-wallpaper-toggle button {
   appearance: none;
@@ -3340,6 +3373,7 @@ function B1Counter({ end, duration = 1200, suffix = '' }) {
 /* ── Toggle Switch ── */
 function B1Toggle({ value, onChange, label }) {
   return React.createElement('div', {
+    className:'b1-toggle',
     style: { display:'flex', alignItems:'center', justifyContent:'space-between', padding:'4px 0' }
   },
     label && React.createElement('span', { style:{ fontSize:13, color:DL.text }}, label),
@@ -3372,7 +3406,7 @@ function B1SearchInput({ value, onChange, placeholder, autoFocus, style }) {
     background:DL.glass, border:`1px solid ${DL.glassBorder}`,
     backdropFilter:'blur(16px)', WebkitBackdropFilter:'blur(16px)',
     ...style,
-  }},
+  }, className:'b1-search-input'},
     React.createElement('span', { style:{ fontSize:16, opacity:0.5 }}, '🔍'),
     React.createElement('input', {
       value, onChange: e => onChange(e.target.value),
@@ -5838,18 +5872,22 @@ function cortexSetMotionVars(x, y, force) {
   const root = document.documentElement;
   root.style.setProperty('--cortex-tilt-x', x.toFixed(3));
   root.style.setProperty('--cortex-tilt-y', y.toFixed(3));
-  root.style.setProperty('--cortex-depth-x', `${(x * 10).toFixed(2)}px`);
-  root.style.setProperty('--cortex-depth-y', `${(y * 8).toFixed(2)}px`);
-  root.style.setProperty('--cortex-wallpaper-shift-x', `${(x * -4.5).toFixed(2)}px`);
-  root.style.setProperty('--cortex-wallpaper-shift-y', `${(y * -2.9).toFixed(2)}px`);
-  root.style.setProperty('--cortex-card-tilt-x', `${(x * 1.25).toFixed(3)}deg`);
-  root.style.setProperty('--cortex-card-tilt-y', `${(y * -1.15).toFixed(3)}deg`);
-  root.style.setProperty('--cortex-card-shift-x', `${(x * 0.45).toFixed(3)}px`);
-  root.style.setProperty('--cortex-card-shift-y', `${(y * 0.35).toFixed(3)}px`);
-  root.style.setProperty('--cortex-button-tilt-x', `${(x * 0.95).toFixed(3)}deg`);
-  root.style.setProperty('--cortex-button-tilt-y', `${(y * -0.85).toFixed(3)}deg`);
-  root.style.setProperty('--cortex-button-shift-x', `${(x * 0.28).toFixed(3)}px`);
-  root.style.setProperty('--cortex-button-shift-y', `${(y * 0.22).toFixed(3)}px`);
+  root.style.setProperty('--cortex-depth-x', `${(x * 12).toFixed(2)}px`);
+  root.style.setProperty('--cortex-depth-y', `${(y * 9).toFixed(2)}px`);
+  root.style.setProperty('--cortex-wallpaper-shift-x', `${(x * -5.8).toFixed(2)}px`);
+  root.style.setProperty('--cortex-wallpaper-shift-y', `${(y * -3.7).toFixed(2)}px`);
+  root.style.setProperty('--cortex-card-tilt-x', `${(x * 1.55).toFixed(3)}deg`);
+  root.style.setProperty('--cortex-card-tilt-y', `${(y * -1.35).toFixed(3)}deg`);
+  root.style.setProperty('--cortex-card-shift-x', `${(x * 0.6).toFixed(3)}px`);
+  root.style.setProperty('--cortex-card-shift-y', `${(y * 0.48).toFixed(3)}px`);
+  root.style.setProperty('--cortex-button-tilt-x', `${(x * 1.18).toFixed(3)}deg`);
+  root.style.setProperty('--cortex-button-tilt-y', `${(y * -1.02).toFixed(3)}deg`);
+  root.style.setProperty('--cortex-button-shift-x', `${(x * 0.38).toFixed(3)}px`);
+  root.style.setProperty('--cortex-button-shift-y', `${(y * 0.3).toFixed(3)}px`);
+  root.style.setProperty('--cortex-control-tilt-x', `${(x * 1.02).toFixed(3)}deg`);
+  root.style.setProperty('--cortex-control-tilt-y', `${(y * -0.92).toFixed(3)}deg`);
+  root.style.setProperty('--cortex-control-shift-x', `${(x * 0.3).toFixed(3)}px`);
+  root.style.setProperty('--cortex-control-shift-y', `${(y * 0.24).toFixed(3)}px`);
   root.style.setProperty('--cortex-shake-force', (force || 0).toFixed(3));
 }
 
@@ -5914,18 +5952,19 @@ function CortexMotionSensorControl() {
       const delta = Math.abs(force - motionRef.current.lastForce);
       motionRef.current.lastForce = force;
       const now = performance.now();
-      if (delta > 8.5 && now - motionRef.current.lastShake > 650) {
+      if (delta > 7.5 && now - motionRef.current.lastShake > 540) {
         motionRef.current.lastShake = now;
-        const jolt = Math.min(delta / 18, 1);
+        const jolt = Math.min(delta / 15, 1);
         document.documentElement.style.setProperty('--cortex-shake-force', jolt.toFixed(3));
-        document.documentElement.style.setProperty('--cortex-shake-x', `${(jolt * 3).toFixed(2)}px`);
-        document.documentElement.style.setProperty('--cortex-shake-y', `${(jolt * -2).toFixed(2)}px`);
-        document.documentElement.style.setProperty('--cortex-shake-x-neg', `${(jolt * -2.5).toFixed(2)}px`);
-        document.documentElement.style.setProperty('--cortex-shake-y-pos', `${(jolt * 1.5).toFixed(2)}px`);
-        document.documentElement.style.setProperty('--cortex-shake-rot', `${(jolt * 0.7).toFixed(3)}deg`);
-        document.documentElement.style.setProperty('--cortex-shake-rot-neg', `${(jolt * -0.55).toFixed(3)}deg`);
+        document.documentElement.style.setProperty('--cortex-shake-x', `${(jolt * 4.2).toFixed(2)}px`);
+        document.documentElement.style.setProperty('--cortex-shake-y', `${(jolt * -3.1).toFixed(2)}px`);
+        document.documentElement.style.setProperty('--cortex-shake-x-neg', `${(jolt * -3.6).toFixed(2)}px`);
+        document.documentElement.style.setProperty('--cortex-shake-y-pos', `${(jolt * 2.2).toFixed(2)}px`);
+        document.documentElement.style.setProperty('--cortex-shake-rot', `${(jolt * 1.05).toFixed(3)}deg`);
+        document.documentElement.style.setProperty('--cortex-shake-rot-neg', `${(jolt * -0.82).toFixed(3)}deg`);
+        document.documentElement.style.setProperty('--cortex-shake-rest', `${(jolt * 0.3).toFixed(3)}deg`);
         document.documentElement.classList.add('cortex-device-shake');
-        window.setTimeout(() => document.documentElement.classList.remove('cortex-device-shake'), 520);
+        window.setTimeout(() => document.documentElement.classList.remove('cortex-device-shake'), 620);
       }
     };
 
