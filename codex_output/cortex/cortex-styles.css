@@ -27,6 +27,17 @@
   --cortex-shake-rot: 0deg;
   --cortex-shake-rot-neg: 0deg;
   --cortex-shake-rest: 0deg;
+  --cortex-touch-tilt-x: 0deg;
+  --cortex-touch-tilt-y: 0deg;
+  --cortex-touch-shift-x: 0px;
+  --cortex-touch-shift-y: 0px;
+  --cortex-touch-sheen-x: 0px;
+  --cortex-touch-sheen-y: 0px;
+  --cortex-touch-sheen-angle: 0deg;
+  --cortex-touch-roll-z: 0deg;
+  --cortex-touch-squash: 0;
+  --cortex-touch-scale: 0;
+  --cortex-touch-press: 0;
 }
 
 /* ═══════════════════════════════════════════
@@ -218,6 +229,14 @@
   100% { transform: scale(1) rotate(0deg); }
 }
 
+@keyframes cortex-touch-flop {
+  0% { transform: translate3d(0, 0, 0) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale3d(1, 1, 1); }
+  30% { transform: translate3d(1px, -1px, 0) rotateX(calc(var(--cortex-touch-tilt-y, 0deg) * 0.7)) rotateY(calc(var(--cortex-touch-tilt-x, 0deg) * 0.7)) rotateZ(calc(var(--cortex-touch-roll-z, 0deg) * 0.8)) scale3d(1.03, 0.97, 1); }
+  58% { transform: translate3d(-1px, 1px, 0) rotateX(calc(var(--cortex-touch-tilt-y, 0deg) * -0.6)) rotateY(calc(var(--cortex-touch-tilt-x, 0deg) * -0.6)) rotateZ(calc(var(--cortex-touch-roll-z, 0deg) * -0.35)) scale3d(0.985, 1.025, 1); }
+  82% { transform: translate3d(0.5px, -0.5px, 0) rotateX(calc(var(--cortex-touch-tilt-y, 0deg) * 0.22)) rotateY(calc(var(--cortex-touch-tilt-x, 0deg) * 0.22)) rotateZ(calc(var(--cortex-touch-roll-z, 0deg) * 0.16)) scale3d(1.008, 0.995, 1); }
+  100% { transform: translate3d(0, 0, 0) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale3d(1, 1, 1); }
+}
+
 @keyframes cortex-wallpaper-drift {
   0%, 100% { transform: translate3d(var(--wallpaper-x, 0px), var(--wallpaper-y, 0px), 0) scale(1.07) rotate(0deg); }
   45% { transform: translate3d(calc(var(--wallpaper-x, 0px) * 1.4 + 10px), calc(var(--wallpaper-y, 0px) * 1.2 - 12px), 0) scale(1.105) rotate(0.7deg); }
@@ -407,8 +426,19 @@
   transform-style: preserve-3d;
   will-change: transform;
 }
+.cortex-touch-active .cortex-motion-card,
+.cortex-touch-active .b1-card,
+.cortex-touch-active .b1-button,
+.cortex-touch-active .cortex-motion-press,
+.cortex-touch-active .cortex-library-nav button,
+.cortex-touch-active .cortex-wallpaper-toggle button,
+.cortex-touch-active .cortex-motion-sensor-control,
+.cortex-touch-active .b1-toggle,
+.cortex-touch-active .b1-search-input {
+  animation: cortex-touch-flop 980ms cubic-bezier(0.16,1.18,0.28,1);
+}
 .cortex-device-shake .cortex-library-stage-inner {
-  animation: cortex-device-jolt 860ms cubic-bezier(0.16,1.18,0.28,1);
+  animation: cortex-device-jolt 980ms cubic-bezier(0.16,1.18,0.28,1);
 }
 .cortex-device-shake .cortex-wallpaper-layer {
   filter: saturate(1.08) brightness(1.05);
@@ -422,6 +452,36 @@
   background: linear-gradient(90deg, transparent, rgba(255,255,255,0.16), transparent);
   animation: liquid-sheen 5.8s ease-in-out infinite;
   pointer-events: none;
+}
+.b1-card,
+.b1-button,
+.b1-toggle,
+.b1-search-input,
+.cortex-motion-sensor-control,
+.cortex-library-nav button,
+.cortex-wallpaper-toggle button {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  transform-origin: center;
+}
+.b1-card::before,
+.b1-button::before,
+.b1-toggle::before,
+.b1-search-input::before,
+.cortex-motion-sensor-control::before,
+.cortex-library-nav button::before,
+.cortex-wallpaper-toggle button::before {
+  content: '';
+  position: absolute;
+  inset: -18%;
+  border-radius: inherit;
+  background: linear-gradient(125deg, transparent 35%, rgba(255,255,255,0.26) 50%, transparent 65%);
+  opacity: calc(0.08 + var(--cortex-touch-press, 0) * 0.24);
+  mix-blend-mode: screen;
+  transform: translate3d(var(--cortex-touch-sheen-x, 0px), var(--cortex-touch-sheen-y, 0px), 0) rotate(var(--cortex-touch-sheen-angle, 0deg));
+  pointer-events: none;
+  transition: opacity 180ms ease, transform 180ms cubic-bezier(0.16,1.18,0.28,1);
 }
 .cortex-motion-press {
   transition: transform 0.34s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.34s ease, border-color 0.34s ease;
@@ -731,24 +791,24 @@
   display: none;
 }
 .cortex-sensor-active .cortex-library-nav button {
-  transform: perspective(550px) rotateX(var(--cortex-control-tilt-y, 0deg)) rotateY(var(--cortex-control-tilt-x, 0deg)) translate3d(var(--cortex-control-shift-x, 0px), var(--cortex-control-shift-y, 0px), 0) scale(var(--cortex-motion-scale, 1)) scale(var(--cortex-shake-scale, 1));
-  transition: transform 180ms cubic-bezier(0.16,1.18,0.28,1), background 0.2s ease, box-shadow 0.2s ease;
+  transform: perspective(550px) rotateX(var(--cortex-control-tilt-y, 0deg)) rotateY(var(--cortex-control-tilt-x, 0deg)) translate3d(var(--cortex-control-shift-x, 0px), var(--cortex-control-shift-y, 0px), 0) rotateX(var(--cortex-touch-tilt-y, 0deg)) rotateY(var(--cortex-touch-tilt-x, 0deg)) rotateZ(var(--cortex-touch-roll-z, 0deg)) translate3d(var(--cortex-touch-shift-x, 0px), var(--cortex-touch-shift-y, 0px), 0) scale3d(calc(1 + var(--cortex-motion-scale, 1) * 0.04), calc(1 - var(--cortex-touch-squash, 0) * 0.02), 1) scale(var(--cortex-shake-scale, 1));
+  transition: transform 220ms cubic-bezier(0.16,1.18,0.28,1), background 0.2s ease, box-shadow 0.2s ease;
 }
 .cortex-sensor-active .cortex-wallpaper-toggle button {
-  transform: perspective(580px) rotateX(var(--cortex-control-tilt-y, 0deg)) rotateY(var(--cortex-control-tilt-x, 0deg)) translate3d(calc(var(--cortex-control-shift-x, 0px) * 0.7), calc(var(--cortex-control-shift-y, 0px) * 0.7), 0) scale(var(--cortex-motion-scale, 1)) scale(var(--cortex-shake-scale, 1));
-  transition: transform 180ms cubic-bezier(0.16,1.18,0.28,1), background 0.2s ease, box-shadow 0.2s ease;
+  transform: perspective(580px) rotateX(var(--cortex-control-tilt-y, 0deg)) rotateY(var(--cortex-control-tilt-x, 0deg)) translate3d(calc(var(--cortex-control-shift-x, 0px) * 0.7), calc(var(--cortex-control-shift-y, 0px) * 0.7), 0) rotateX(var(--cortex-touch-tilt-y, 0deg)) rotateY(var(--cortex-touch-tilt-x, 0deg)) rotateZ(var(--cortex-touch-roll-z, 0deg)) translate3d(calc(var(--cortex-touch-shift-x, 0px) * 0.7), calc(var(--cortex-touch-shift-y, 0px) * 0.7), 0) scale3d(calc(1 + var(--cortex-touch-scale, 0) * 1.4), calc(1 - var(--cortex-touch-squash, 0) * 0.015), 1) scale(var(--cortex-shake-scale, 1));
+  transition: transform 220ms cubic-bezier(0.16,1.18,0.28,1), background 0.2s ease, box-shadow 0.2s ease;
 }
 .cortex-sensor-active .cortex-motion-sensor-control {
-  transform: perspective(580px) rotateX(var(--cortex-control-tilt-y, 0deg)) rotateY(var(--cortex-control-tilt-x, 0deg)) translate3d(var(--cortex-control-shift-x, 0px), var(--cortex-control-shift-y, 0px), 0) scale(var(--cortex-motion-scale, 1)) scale(var(--cortex-shake-scale, 1));
-  transition: transform 180ms cubic-bezier(0.16,1.18,0.28,1), background 0.2s ease, box-shadow 0.2s ease;
+  transform: perspective(580px) rotateX(var(--cortex-control-tilt-y, 0deg)) rotateY(var(--cortex-control-tilt-x, 0deg)) translate3d(var(--cortex-control-shift-x, 0px), var(--cortex-control-shift-y, 0px), 0) rotateX(var(--cortex-touch-tilt-y, 0deg)) rotateY(var(--cortex-touch-tilt-x, 0deg)) rotateZ(var(--cortex-touch-roll-z, 0deg)) translate3d(var(--cortex-touch-shift-x, 0px), var(--cortex-touch-shift-y, 0px), 0) scale3d(calc(1 + var(--cortex-touch-scale, 0) * 1.2), calc(1 - var(--cortex-touch-squash, 0) * 0.014), 1) scale(var(--cortex-shake-scale, 1));
+  transition: transform 220ms cubic-bezier(0.16,1.18,0.28,1), background 0.2s ease, box-shadow 0.2s ease;
 }
 .cortex-sensor-active .b1-toggle {
-  transform: perspective(500px) rotateX(calc(var(--cortex-control-tilt-y, 0deg) * 0.45)) rotateY(calc(var(--cortex-control-tilt-x, 0deg) * 0.45)) translate3d(calc(var(--cortex-control-shift-x, 0px) * 0.45), calc(var(--cortex-control-shift-y, 0px) * 0.45), 0) scale(var(--cortex-motion-scale, 1)) scale(var(--cortex-shake-scale, 1));
-  transition: transform 180ms cubic-bezier(0.16,1.18,0.28,1);
+  transform: perspective(500px) rotateX(calc(var(--cortex-control-tilt-y, 0deg) * 0.45)) rotateY(calc(var(--cortex-control-tilt-x, 0deg) * 0.45)) translate3d(calc(var(--cortex-control-shift-x, 0px) * 0.45), calc(var(--cortex-control-shift-y, 0px) * 0.45), 0) rotateX(calc(var(--cortex-touch-tilt-y, 0deg) * 1.0)) rotateY(calc(var(--cortex-touch-tilt-x, 0deg) * 1.0)) rotateZ(var(--cortex-touch-roll-z, 0deg)) translate3d(calc(var(--cortex-touch-shift-x, 0px) * 0.55), calc(var(--cortex-touch-shift-y, 0px) * 0.55), 0) scale3d(calc(1 + var(--cortex-touch-scale, 0) * 1.25), calc(1 - var(--cortex-touch-squash, 0) * 0.02), 1) scale(var(--cortex-shake-scale, 1));
+  transition: transform 220ms cubic-bezier(0.16,1.18,0.28,1);
 }
 .cortex-sensor-active .b1-search-input {
-  transform: perspective(620px) rotateX(calc(var(--cortex-control-tilt-y, 0deg) * 0.6)) rotateY(calc(var(--cortex-control-tilt-x, 0deg) * 0.6)) translate3d(calc(var(--cortex-control-shift-x, 0px) * 0.5), calc(var(--cortex-control-shift-y, 0px) * 0.5), 0) scale(var(--cortex-motion-scale, 1)) scale(var(--cortex-shake-scale, 1));
-  transition: transform 180ms cubic-bezier(0.16,1.18,0.28,1);
+  transform: perspective(620px) rotateX(calc(var(--cortex-control-tilt-y, 0deg) * 0.6)) rotateY(calc(var(--cortex-control-tilt-x, 0deg) * 0.6)) translate3d(calc(var(--cortex-control-shift-x, 0px) * 0.5), calc(var(--cortex-control-shift-y, 0px) * 0.5), 0) rotateX(calc(var(--cortex-touch-tilt-y, 0deg) * 1.0)) rotateY(calc(var(--cortex-touch-tilt-x, 0deg) * 1.0)) rotateZ(var(--cortex-touch-roll-z, 0deg)) translate3d(calc(var(--cortex-touch-shift-x, 0px) * 0.5), calc(var(--cortex-touch-shift-y, 0px) * 0.5), 0) scale3d(calc(1 + var(--cortex-touch-scale, 0) * 1.1), calc(1 - var(--cortex-touch-squash, 0) * 0.014), 1) scale(var(--cortex-shake-scale, 1));
+  transition: transform 220ms cubic-bezier(0.16,1.18,0.28,1);
 }
 .cortex-sensor-active .cortex-wallpaper-toggle button,
 .cortex-sensor-active .cortex-motion-sensor-control,

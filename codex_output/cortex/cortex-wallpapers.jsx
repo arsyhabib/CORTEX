@@ -112,8 +112,10 @@ function CortexInteractiveWallpaper({ wallpaper, exhibition }) {
   const [pointer, setPointer] = React.useState({ x:50, y:45, px:0, py:0, angle:0 });
   const [ripples, setRipples] = React.useState([]);
   const frame = React.useRef(null);
+  const touchRef = React.useRef({ x:50, y:45, t:0 });
 
   React.useEffect(() => {
+    const root = document.documentElement;
     const update = (clientX, clientY, makeRipple) => {
       if (frame.current) cancelAnimationFrame(frame.current);
       frame.current = requestAnimationFrame(() => {
@@ -122,6 +124,31 @@ function CortexInteractiveWallpaper({ wallpaper, exhibition }) {
         const px = (x - 50) * -0.34;
         const py = (y - 50) * -0.28;
         const angle = Math.atan2(y - 50, x - 50) * 180 / Math.PI;
+        const now = performance.now();
+        const elapsed = Math.max(16, now - (touchRef.current.t || now));
+        const deltaX = x - touchRef.current.x;
+        const deltaY = y - touchRef.current.y;
+        const velocity = Math.min(1, Math.hypot(deltaX, deltaY) / elapsed * 0.95);
+        const xNorm = Math.max(-1, Math.min(1, (x - 50) / 50));
+        const yNorm = Math.max(-1, Math.min(1, (y - 45) / 45));
+        const touchScale = makeRipple ? 0.034 : 0.016 + velocity * 0.014;
+        const touchSquash = makeRipple ? 1 : 0.45 + velocity * 0.7;
+        const tiltX = Math.max(-6.2, Math.min(6.2, xNorm * 5.8 + deltaX * 0.15 + velocity * Math.sign(deltaX || 1) * 2.2));
+        const tiltY = Math.max(-6.8, Math.min(6.8, yNorm * -6.4 + deltaY * 0.12 - velocity * Math.sign(deltaY || 1) * 1.8));
+        const rollZ = Math.max(-8, Math.min(8, xNorm * 2.9 + deltaX * 0.18 - deltaY * 0.08 + velocity * 3.8 * Math.sign(deltaX || 1)));
+        root.style.setProperty('--cortex-touch-tilt-x', `${tiltX.toFixed(3)}deg`);
+        root.style.setProperty('--cortex-touch-tilt-y', `${tiltY.toFixed(3)}deg`);
+        root.style.setProperty('--cortex-touch-roll-z', `${rollZ.toFixed(3)}deg`);
+        root.style.setProperty('--cortex-touch-shift-x', `${(xNorm * 9.4 + deltaX * 0.35).toFixed(2)}px`);
+        root.style.setProperty('--cortex-touch-shift-y', `${(yNorm * 7.4 + deltaY * 0.28).toFixed(2)}px`);
+        root.style.setProperty('--cortex-touch-sheen-x', `${(xNorm * 24 + deltaX * 1.2).toFixed(2)}px`);
+        root.style.setProperty('--cortex-touch-sheen-y', `${(yNorm * 18 + deltaY * 1.0).toFixed(2)}px`);
+        root.style.setProperty('--cortex-touch-sheen-angle', `${(angle + 90).toFixed(2)}deg`);
+        root.style.setProperty('--cortex-touch-scale', `${touchScale.toFixed(3)}`);
+        root.style.setProperty('--cortex-touch-squash', `${touchSquash.toFixed(3)}`);
+        root.style.setProperty('--cortex-touch-press', makeRipple ? '1' : '0.55');
+        if (makeRipple) root.classList.add('cortex-touch-active');
+        touchRef.current = { x, y, t: now };
         setPointer({ x, y, px, py, angle });
         if (makeRipple) {
           const id = Date.now();
@@ -130,8 +157,23 @@ function CortexInteractiveWallpaper({ wallpaper, exhibition }) {
         }
       });
     };
+    const settle = () => {
+      root.classList.remove('cortex-touch-active');
+      root.style.setProperty('--cortex-touch-tilt-x', '0deg');
+      root.style.setProperty('--cortex-touch-tilt-y', '0deg');
+      root.style.setProperty('--cortex-touch-roll-z', '0deg');
+      root.style.setProperty('--cortex-touch-shift-x', '0px');
+      root.style.setProperty('--cortex-touch-shift-y', '0px');
+      root.style.setProperty('--cortex-touch-sheen-x', '0px');
+      root.style.setProperty('--cortex-touch-sheen-y', '0px');
+      root.style.setProperty('--cortex-touch-sheen-angle', '0deg');
+      root.style.setProperty('--cortex-touch-scale', '0');
+      root.style.setProperty('--cortex-touch-squash', '0');
+      root.style.setProperty('--cortex-touch-press', '0');
+    };
     const onPointerMove = e => update(e.clientX, e.clientY, false);
     const onPointerDown = e => update(e.clientX, e.clientY, true);
+    const onPointerUp = () => settle();
     const onTouchMove = e => {
       const t = e.touches && e.touches[0];
       if (t) update(t.clientX, t.clientY, false);
@@ -140,16 +182,23 @@ function CortexInteractiveWallpaper({ wallpaper, exhibition }) {
       const t = e.touches && e.touches[0];
       if (t) update(t.clientX, t.clientY, true);
     };
+    const onTouchEnd = () => settle();
     window.addEventListener('pointermove', onPointerMove, { passive:true });
     window.addEventListener('pointerdown', onPointerDown, { passive:true });
+    window.addEventListener('pointerup', onPointerUp, { passive:true });
     window.addEventListener('touchmove', onTouchMove, { passive:true });
     window.addEventListener('touchstart', onTouchStart, { passive:true });
+    window.addEventListener('touchend', onTouchEnd, { passive:true });
+    window.addEventListener('touchcancel', onTouchEnd, { passive:true });
     return () => {
       if (frame.current) cancelAnimationFrame(frame.current);
       window.removeEventListener('pointermove', onPointerMove);
       window.removeEventListener('pointerdown', onPointerDown);
+      window.removeEventListener('pointerup', onPointerUp);
       window.removeEventListener('touchmove', onTouchMove);
       window.removeEventListener('touchstart', onTouchStart);
+      window.removeEventListener('touchend', onTouchEnd);
+      window.removeEventListener('touchcancel', onTouchEnd);
     };
   }, []);
 

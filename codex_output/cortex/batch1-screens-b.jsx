@@ -237,7 +237,12 @@ function PageSearch({ onNavigate }) {
    PAGE 7 — SETTINGS BASIC
    Clean settings with haptic/tactile controls
    ═══════════════════════════════════════════ */
-function PageSettings({ onNavigate }) {
+function PageSettings({ onNavigate, themeId: themeIdProp, theme: themeProp, onThemeChange }) {
+  const themeKeys = ['neural', 'aurora', 'gold', 'neon', 'bloom'];
+  const [localThemeId, setLocalThemeId] = React.useState('neural');
+  const currentThemeId = themeIdProp || localThemeId;
+  const currentTheme = themeProp || THEMES[currentThemeId] || THEMES.neural;
+  const setThemeId = onThemeChange || setLocalThemeId;
   const [darkMode, setDarkMode] = React.useState(true);
   const [haptic, setHaptic] = React.useState(true);
   const [hapticIntensity, setHapticIntensity] = React.useState(70);
@@ -276,10 +281,62 @@ function PageSettings({ onNavigate }) {
         icon:'🌙', label:'Mode Gelap',
         right: React.createElement(B1Toggle, { value:darkMode, onChange:setDarkMode }),
       }),
-      React.createElement(SettingsRow, {
-        icon:'🎨', label:'Tema Visual', sub:'Neural Pulse',
-        onClick:()=>onNavigate(8),
-      }),
+      React.createElement(B1Card, { pad:14, style:{ margin:'10px 0 12px', background:'rgba(255,255,255,0.045)' }},
+        React.createElement(B2Kicker, { color:currentTheme.colors.accent1 }, 'Global theme'),
+        React.createElement('div', { style:{ display:'flex', justifyContent:'space-between', gap:12, alignItems:'start', marginBottom:12 }},
+          React.createElement('div', { style:{ minWidth:0, flex:1 }},
+            React.createElement('div', { style:{ fontSize:16, fontWeight:850, color:DL.text, lineHeight:1.2 }}, currentTheme.name),
+            React.createElement('div', { style:{ fontSize:11, color:DL.sub, marginTop:4, lineHeight:1.45 }}, currentTheme.description),
+          ),
+          React.createElement(B1Badge, { color:currentTheme.colors.accent1 }, currentThemeId.toUpperCase()),
+        ),
+        React.createElement('div', { style:{ marginTop:8, padding:'10px 12px', borderRadius:16, background:currentTheme.colors.gradientCard, border:`1px solid ${currentTheme.colors.glassBorder}` }},
+          React.createElement('div', { style:{ display:'flex', justifyContent:'space-between', marginBottom:8 }},
+            React.createElement('span', { style:{ fontSize:10, color:DL.mute }}, 'Neural'),
+            React.createElement('span', { style:{ fontSize:10, color:DL.mute }}, 'Aurora'),
+            React.createElement('span', { style:{ fontSize:10, color:DL.mute }}, 'Gold'),
+            React.createElement('span', { style:{ fontSize:10, color:DL.mute }}, 'Neon'),
+            React.createElement('span', { style:{ fontSize:10, color:DL.mute }}, 'Bloom'),
+          ),
+          React.createElement('input', {
+            type:'range',
+            min:0,
+            max:themeKeys.length - 1,
+            step:1,
+            value:Math.max(0, themeKeys.indexOf(currentThemeId)),
+            onChange: e => setThemeId(themeKeys[Math.max(0, Math.min(themeKeys.length - 1, Number(e.target.value))) ]),
+            style:{
+              width:'100%',
+              margin:'4px 0 0',
+              accentColor:currentTheme.colors.accent1,
+            },
+          }),
+        ),
+        React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'repeat(5, 1fr)', gap:6, marginTop:10 }},
+          themeKeys.map((id, i) => {
+            const meta = THEMES[id] || THEMES.neural;
+            const active = id === currentThemeId;
+            return React.createElement('div', {
+              key:id,
+              onClick:()=>setThemeId(id),
+              style:{
+                padding:'8px 6px',
+                borderRadius:12,
+                cursor:'pointer',
+                border:`1px solid ${active ? meta.colors.glassBorder : 'transparent'}`,
+                background:active ? 'rgba(255,255,255,0.065)' : 'rgba(255,255,255,0.03)',
+                textAlign:'center',
+              }
+            },
+              React.createElement('div', { style:{ width:14, height:14, borderRadius:999, margin:'0 auto 6px', background:meta.colors.gradientAccent, boxShadow:`0 0 10px ${meta.colors.shadowColor}` } }),
+              React.createElement('div', { style:{ fontSize:9, fontWeight:800, color:active ? DL.text : DL.mute, lineHeight:1.15 }}, meta.name.split(' ')[0]),
+            );
+          })
+        ),
+        React.createElement('div', { style:{ fontSize:10, color:DL.mute, marginTop:8, lineHeight:1.45 }},
+          'Tema ini mengalir ke seluruh 24 halaman: warna accent, glass, bayangan, surface, dan nuansa shell ikut berubah serentak.'
+        ),
+      ),
       React.createElement(SettingsRow, {
         icon:'✨', label:'Reduced Motion',
         sub:'Kurangi animasi untuk aksesibilitas',
