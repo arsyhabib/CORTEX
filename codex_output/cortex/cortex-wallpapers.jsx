@@ -133,12 +133,6 @@ function CortexInteractiveWallpaper({ wallpaper, exhibition }) {
         const yNorm = Math.max(-1, Math.min(1, (y - 45) / 45));
         const touchScale = makeRipple ? 0.024 : 0.011 + velocity * 0.01;
         const touchSquash = makeRipple ? 0.7 : 0.28 + velocity * 0.42;
-        const tiltX = Math.max(-4.2, Math.min(4.2, xNorm * 4.0 + deltaX * 0.1 + velocity * Math.sign(deltaX || 1) * 1.5));
-        const tiltY = Math.max(-4.8, Math.min(4.8, yNorm * -4.4 + deltaY * 0.08 - velocity * Math.sign(deltaY || 1) * 1.2));
-        const rollZ = Math.max(-5.5, Math.min(5.5, xNorm * 2.1 + deltaX * 0.12 - deltaY * 0.05 + velocity * 2.3 * Math.sign(deltaX || 1)));
-        root.style.setProperty('--cortex-touch-tilt-x', `${tiltX.toFixed(3)}deg`);
-        root.style.setProperty('--cortex-touch-tilt-y', `${tiltY.toFixed(3)}deg`);
-        root.style.setProperty('--cortex-touch-roll-z', `${rollZ.toFixed(3)}deg`);
         root.style.setProperty('--cortex-touch-shift-x', `${(xNorm * 6.2 + deltaX * 0.22).toFixed(2)}px`);
         root.style.setProperty('--cortex-touch-shift-y', `${(yNorm * 5.0 + deltaY * 0.18).toFixed(2)}px`);
         root.style.setProperty('--cortex-touch-sheen-x', `${(xNorm * 18 + deltaX * 0.8).toFixed(2)}px`);
@@ -159,9 +153,6 @@ function CortexInteractiveWallpaper({ wallpaper, exhibition }) {
     };
     const settle = () => {
       root.classList.remove('cortex-touch-active');
-      root.style.setProperty('--cortex-touch-tilt-x', '0deg');
-      root.style.setProperty('--cortex-touch-tilt-y', '0deg');
-      root.style.setProperty('--cortex-touch-roll-z', '0deg');
       root.style.setProperty('--cortex-touch-shift-x', '0px');
       root.style.setProperty('--cortex-touch-shift-y', '0px');
       root.style.setProperty('--cortex-touch-sheen-x', '0px');

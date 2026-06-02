@@ -32,7 +32,7 @@ function B1Card({ children, style, onClick, glow, pad = 16, className }) {
         ? `0 8px 32px ${DL.shadowColor}, 0 0 20px rgba(168,85,247,0.15), inset 0 1px 0 ${DL.glassHigh}`
         : `0 8px 32px ${DL.shadowColor}, inset 0 1px 0 ${DL.glassHigh}`,
       transition: 'all 0.42s cubic-bezier(0.16,1.22,0.24,1)',
-      transform:`perspective(900px) rotateX(var(--cortex-card-tilt-y, 0deg)) rotateY(var(--cortex-card-tilt-x, 0deg)) translate3d(var(--cortex-card-shift-x, 0px), var(--cortex-card-shift-y, 0px), 0) rotateX(var(--cortex-touch-tilt-y, 0deg)) rotateY(var(--cortex-touch-tilt-x, 0deg)) rotateZ(var(--cortex-touch-roll-z, 0deg)) translate3d(var(--cortex-touch-shift-x, 0px), var(--cortex-touch-shift-y, 0px), 0) scale3d(calc(1 + var(--cortex-touch-scale, 0) * 1.25), calc(1 - var(--cortex-touch-squash, 0) * 0.02), 1) scale(calc(var(--cortex-motion-scale, 1) * var(--cortex-shake-scale, 1))) scale(${p && onClick ? 0.97 : 1})`,
+      transform:`perspective(900px) rotateX(var(--cortex-card-tilt-y, 0deg)) rotateY(var(--cortex-card-tilt-x, 0deg)) translate3d(var(--cortex-card-shift-x, 0px), var(--cortex-card-shift-y, 0px), 0) translate3d(var(--cortex-touch-shift-x, 0px), var(--cortex-touch-shift-y, 0px), 0) scale3d(calc(1 + var(--cortex-touch-scale, 0) * 1.25), calc(1 - var(--cortex-touch-squash, 0) * 0.02), 1) scale(calc(var(--cortex-motion-scale, 1) * var(--cortex-shake-scale, 1))) scale(${p && onClick ? 0.97 : 1})`,
       cursor: onClick ? 'pointer' : 'default',
       ...style,
     }
@@ -133,7 +133,7 @@ function B1Button({ label, icon, onClick, variant = 'primary', full, style }) {
       fontSize:13, fontWeight:600, cursor:'pointer', userSelect:'none',
       boxShadow: isPrimary ? `0 4px 20px ${DL.shadowColor}` : 'none',
       transition:'all 0.38s cubic-bezier(0.16,1.22,0.24,1)',
-      transform:`perspective(700px) rotateX(var(--cortex-button-tilt-y, 0deg)) rotateY(var(--cortex-button-tilt-x, 0deg)) translate3d(var(--cortex-button-shift-x, 0px), var(--cortex-button-shift-y, 0px), 0) rotateX(var(--cortex-touch-tilt-y, 0deg)) rotateY(var(--cortex-touch-tilt-x, 0deg)) rotateZ(var(--cortex-touch-roll-z, 0deg)) translate3d(var(--cortex-touch-shift-x, 0px), var(--cortex-touch-shift-y, 0px), 0) scale3d(calc(1 + var(--cortex-touch-scale, 0) * 1.15), calc(1 - var(--cortex-touch-squash, 0) * 0.018), 1) scale(calc(var(--cortex-motion-scale, 1) * var(--cortex-shake-scale, 1))) scale(${p ? 0.95 : 1})`,
+      transform:`perspective(700px) rotateX(var(--cortex-button-tilt-y, 0deg)) rotateY(var(--cortex-button-tilt-x, 0deg)) translate3d(var(--cortex-button-shift-x, 0px), var(--cortex-button-shift-y, 0px), 0) translate3d(var(--cortex-touch-shift-x, 0px), var(--cortex-touch-shift-y, 0px), 0) scale3d(calc(1 + var(--cortex-touch-scale, 0) * 1.15), calc(1 - var(--cortex-touch-squash, 0) * 0.018), 1) scale(calc(var(--cortex-motion-scale, 1) * var(--cortex-shake-scale, 1))) scale(${p ? 0.95 : 1})`,
       width: full ? '100%' : 'auto',
       ...style,
     }
@@ -231,6 +231,47 @@ function B1Ripple({ children, style }) {
     style: { position:'relative', overflow:'hidden', ...style }
   }, children);
 }
+
+/* ── Global ripple tap feedback ── */
+(function cortexInstallRippleFeedback() {
+  if (window.__cortexRippleFeedbackInstalled) return;
+  window.__cortexRippleFeedbackInstalled = true;
+  const selector = [
+    '.b1-card',
+    '.b1-button',
+    '.b1-toggle',
+    '.b1-search-input',
+    '.cortex-motion-sensor-control',
+    '.cortex-library-nav button',
+    '.cortex-wallpaper-toggle button',
+  ].join(',');
+
+  const spawnRipple = (target, event) => {
+    if (!target || !target.getBoundingClientRect) return;
+    const rect = target.getBoundingClientRect();
+    if (!rect.width || !rect.height) return;
+    const ink = document.createElement('span');
+    const size = Math.max(rect.width, rect.height) * 1.5;
+    const x = event.clientX - rect.left;
+    const y = event.clientY - rect.top;
+    ink.className = 'cortex-ripple-ink';
+    ink.style.width = `${size}px`;
+    ink.style.height = `${size}px`;
+    ink.style.left = `${x}px`;
+    ink.style.top = `${y}px`;
+    target.appendChild(ink);
+    window.setTimeout(() => ink.remove(), 760);
+  };
+
+  const onPointerDown = event => {
+    if (event.button != null && event.button !== 0) return;
+    const target = event.target && event.target.closest ? event.target.closest(selector) : null;
+    if (!target) return;
+    spawnRipple(target, event);
+  };
+
+  document.addEventListener('pointerdown', onPointerDown, true);
+})();
 
 Object.assign(window, {
   DL, B1Card, B1Badge, B1Progress, B1Icon, B1Section, B1Topbar,
