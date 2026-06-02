@@ -222,6 +222,30 @@
   100% { opacity: 0; transform: translate(-50%, -50%) scale(2.8); }
 }
 
+@keyframes cortex-live-float-a {
+  0%, 100% { transform: translate3d(var(--wallpaper-x,0px), var(--wallpaper-y,0px), 0) scale(0.96) rotate(0deg); }
+  33% { transform: translate3d(calc(var(--wallpaper-x,0px) * -0.7 + 22px), calc(var(--wallpaper-y,0px) * 0.8 - 18px), 0) scale(1.04) rotate(7deg); }
+  66% { transform: translate3d(calc(var(--wallpaper-x,0px) * 0.9 - 18px), calc(var(--wallpaper-y,0px) * -0.6 + 20px), 0) scale(1.01) rotate(-5deg); }
+}
+
+@keyframes cortex-live-float-b {
+  0%, 100% { transform: translate3d(0,0,0) rotate(var(--facet-rotate,0deg)) scale(1); }
+  45% { transform: translate3d(28px,-18px,0) rotate(calc(var(--facet-rotate,0deg) + 10deg)) scale(1.05); }
+  72% { transform: translate3d(-18px,16px,0) rotate(calc(var(--facet-rotate,0deg) - 6deg)) scale(0.98); }
+}
+
+@keyframes cortex-live-ribbon-drift {
+  0%, 100% { transform: translate3d(calc(var(--wallpaper-x,0px) * 0.35), calc(var(--wallpaper-y,0px) * 0.22), 0) rotate(var(--ribbon-rotate,0deg)) scale(1); }
+  38% { transform: translate3d(calc(var(--wallpaper-x,0px) * -0.42 + 18px), calc(var(--wallpaper-y,0px) * 0.40 - 20px), 0) rotate(calc(var(--ribbon-rotate,0deg) + 5deg)) scale(1.04); }
+  70% { transform: translate3d(calc(var(--wallpaper-x,0px) * 0.20 - 22px), calc(var(--wallpaper-y,0px) * -0.36 + 16px), 0) rotate(calc(var(--ribbon-rotate,0deg) - 4deg)) scale(0.99); }
+}
+
+@keyframes cortex-live-glimmer {
+  0%, 100% { opacity: 0.18; filter: blur(18px) saturate(1.05); }
+  45% { opacity: 0.36; filter: blur(12px) saturate(1.25); }
+  72% { opacity: 0.24; filter: blur(22px) saturate(1.15); }
+}
+
 /* ═══════════════════════════════════════════
    GLASS UTILITIES
    ═══════════════════════════════════════════ */
@@ -396,6 +420,12 @@
   --wallpaper-x: 0px;
   --wallpaper-y: 0px;
 }
+.cortex-wallpaper-layer[data-exhibition="false"] {
+  opacity: 0.64;
+}
+.cortex-wallpaper-layer[data-exhibition="true"] {
+  opacity: 1;
+}
 .cortex-wallpaper-image {
   position: absolute;
   inset: -6%;
@@ -419,6 +449,145 @@
 .cortex-wallpaper-layer[data-wallpaper="organza"] .cortex-wallpaper-image {
   opacity: 0.78;
   filter: saturate(1.1) hue-rotate(-4deg) contrast(1.03);
+}
+.cortex-wallpaper-layer[data-mode="generative"] {
+  background:
+    radial-gradient(circle at 50% 35%, rgba(50,45,130,0.58), transparent 46%),
+    linear-gradient(145deg, #050714 0%, #0a0820 48%, #050712 100%);
+}
+.cortex-wallpaper-layer[data-mode="generative"] .cortex-wallpaper-caustic {
+  opacity: 0.34;
+}
+.cortex-wallpaper-layer[data-mode="generative"] .cortex-wallpaper-hotspot {
+  opacity: 0.32;
+}
+.cortex-wallpaper-layer[data-exhibition="true"][data-mode="generative"] .cortex-wallpaper-caustic {
+  opacity: 0.56;
+}
+.cortex-wallpaper-layer[data-exhibition="true"][data-mode="generative"] .cortex-wallpaper-hotspot {
+  opacity: 0.50;
+}
+.cortex-wallpaper-minimal-field,
+.cortex-wallpaper-organza-field {
+  position: absolute;
+  inset: -10%;
+  background:
+    radial-gradient(circle at var(--pointer-x) var(--pointer-y), rgba(255,255,255,0.16), transparent 18%),
+    radial-gradient(circle at 15% 20%, rgba(104,120,255,0.20), transparent 28%),
+    radial-gradient(circle at 82% 18%, rgba(71,226,255,0.13), transparent 28%),
+    radial-gradient(circle at 52% 76%, rgba(190,92,255,0.15), transparent 32%);
+  opacity: 0.78;
+  filter: blur(4px);
+  animation: cortex-wallpaper-drift 32s ease-in-out infinite;
+}
+.cortex-wallpaper-organza-field {
+  background:
+    radial-gradient(circle at var(--pointer-x) var(--pointer-y), rgba(255,255,255,0.12), transparent 16%),
+    radial-gradient(circle at 26% 18%, rgba(155,118,255,0.18), transparent 30%),
+    radial-gradient(circle at 70% 22%, rgba(62,211,255,0.12), transparent 28%),
+    radial-gradient(circle at 58% 82%, rgba(218,130,255,0.15), transparent 34%);
+}
+.cortex-live-bubble {
+  position: absolute;
+  border-radius: 999px;
+  background:
+    radial-gradient(circle at 32% 28%, rgba(255,255,255,0.52), transparent 13%),
+    radial-gradient(circle at 68% 72%, var(--bubble-color), transparent 56%),
+    radial-gradient(circle, rgba(255,255,255,0.04), transparent 66%);
+  border: 1px solid rgba(255,255,255,0.18);
+  box-shadow:
+    inset 0 0 42px rgba(255,255,255,0.08),
+    0 0 70px rgba(99,102,241,0.18);
+  filter: blur(0.2px);
+  mix-blend-mode: screen;
+  animation: cortex-live-float-a var(--live-duration, 24s) ease-in-out infinite;
+  will-change: transform, opacity;
+}
+.cortex-live-bubble::after {
+  content: "";
+  position: absolute;
+  inset: 18%;
+  border-radius: inherit;
+  border: 1px solid rgba(255,255,255,0.16);
+  opacity: 0.62;
+}
+.cortex-live-facet {
+  position: absolute;
+  border-radius: 46% 54% 62% 38% / 42% 52% 48% 58%;
+  background:
+    linear-gradient(120deg, rgba(255,255,255,0.10), transparent 35%, rgba(99,102,241,0.13), transparent 72%),
+    radial-gradient(circle at 40% 30%, rgba(255,255,255,0.18), transparent 28%);
+  border: 1px solid rgba(255,255,255,0.10);
+  filter: blur(9px);
+  opacity: 0.46;
+  mix-blend-mode: screen;
+  animation: cortex-live-float-b var(--live-duration, 30s) ease-in-out infinite;
+}
+.cortex-live-kaleidoscope-line {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 120vmax;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.18), rgba(120,100,255,0.20), transparent);
+  transform-origin: center;
+  mix-blend-mode: screen;
+  opacity: 0.24;
+  animation: rotate-slow 42s linear infinite;
+}
+.cortex-live-kaleidoscope-line.line-a { transform: translate(-50%, -50%) rotate(26deg); }
+.cortex-live-kaleidoscope-line.line-b { transform: translate(-50%, -50%) rotate(116deg); animation-duration: 58s; animation-direction: reverse; }
+.cortex-live-sheen {
+  position: absolute;
+  inset: -20%;
+  background: conic-gradient(from var(--wallpaper-angle,0deg) at var(--pointer-x) var(--pointer-y), transparent, rgba(255,255,255,0.09), transparent, rgba(93,220,255,0.08), transparent);
+  opacity: 0.54;
+  mix-blend-mode: screen;
+  filter: blur(20px);
+}
+.cortex-live-ribbon {
+  position: absolute;
+  border-radius: 999px;
+  background:
+    linear-gradient(90deg, transparent, var(--ribbon-color), rgba(255,255,255,0.10), transparent);
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 0 62px rgba(99,102,241,0.14), inset 0 1px 0 rgba(255,255,255,0.16);
+  filter: blur(10px);
+  mix-blend-mode: screen;
+  animation: cortex-live-ribbon-drift var(--live-duration, 36s) ease-in-out infinite;
+  will-change: transform;
+}
+.cortex-live-pearl {
+  position: absolute;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 35% 30%, rgba(255,255,255,0.50), transparent 16%),
+    radial-gradient(circle, rgba(167,139,250,0.24), rgba(45,212,191,0.08) 48%, transparent 70%);
+  border: 1px solid rgba(255,255,255,0.12);
+  filter: blur(1px);
+  mix-blend-mode: screen;
+  opacity: 0.54;
+  animation: cortex-live-float-a var(--live-duration, 22s) ease-in-out infinite;
+}
+.cortex-live-organza-glow {
+  position: absolute;
+  border-radius: 50%;
+  width: 48vmax;
+  height: 48vmax;
+  background: radial-gradient(circle, rgba(150,120,255,0.15), rgba(70,215,255,0.05) 46%, transparent 70%);
+  mix-blend-mode: screen;
+  filter: blur(18px);
+  animation: cortex-live-glimmer 18s ease-in-out infinite;
+}
+.cortex-live-organza-glow.glow-a { left: -14%; top: 8%; }
+.cortex-live-organza-glow.glow-b { right: -18%; bottom: -12%; animation-delay: -9s; }
+.cortex-wallpaper-layer[data-exhibition="false"] .cortex-live-bubble,
+.cortex-wallpaper-layer[data-exhibition="false"] .cortex-live-facet,
+.cortex-wallpaper-layer[data-exhibition="false"] .cortex-live-ribbon,
+.cortex-wallpaper-layer[data-exhibition="false"] .cortex-live-pearl,
+.cortex-wallpaper-layer[data-exhibition="false"] .cortex-live-organza-glow,
+.cortex-wallpaper-layer[data-exhibition="false"] .cortex-live-sheen {
+  opacity: 0.38;
 }
 .cortex-wallpaper-hotspot {
   position: absolute;
@@ -506,15 +675,138 @@
   }
 }
 
+/* Mobile compatibility guardrails for iPhone/Android aspect ratios. */
+@media (max-width: 760px) {
+  .cortex-library-root {
+    height: 100svh !important;
+    min-height: 100svh !important;
+  }
+  .cortex-library-nav {
+    overscroll-behavior-x: contain;
+  }
+  .cortex-library-topbar {
+    min-height: 56px;
+  }
+  .cortex-library-topbar > div:first-child {
+    min-width: 0 !important;
+    flex: 1 1 auto;
+  }
+  .cortex-library-topbar > div:last-child {
+    flex-shrink: 0;
+  }
+  .cortex-library-stage,
+  .cortex-library-stage-inner,
+  .cortex-page-shell {
+    min-width: 0 !important;
+    min-height: 0 !important;
+  }
+  .cortex-page-scroll,
+  [data-screen-label] > .hide-scrollbar {
+    padding-left: max(16px, env(safe-area-inset-left)) !important;
+    padding-right: max(16px, env(safe-area-inset-right)) !important;
+    padding-bottom: calc(116px + env(safe-area-inset-bottom)) !important;
+    scroll-padding-bottom: calc(116px + env(safe-area-inset-bottom));
+  }
+  .cortex-responsive-grid,
+  [data-screen-label] [style*="grid-template-columns: 1fr 1fr"],
+  [data-screen-label] [style*="grid-template-columns: repeat(3"],
+  [data-screen-label] [style*="gridTemplateColumns"] {
+    grid-template-columns: 1fr !important;
+  }
+  .cortex-motion-card,
+  .b1-card,
+  .b2-card,
+  .b3-card {
+    max-width: 100%;
+  }
+  [data-screen-label] button,
+  [data-screen-label] [role="button"],
+  [data-screen-label] [style*="cursor: pointer"] {
+    min-height: 44px;
+  }
+  .cortex-quickref-overlay {
+    padding-left: max(14px, env(safe-area-inset-left)) !important;
+    padding-right: max(14px, env(safe-area-inset-right)) !important;
+    padding-bottom: calc(18px + env(safe-area-inset-bottom)) !important;
+  }
+  .cortex-quickref-sheet {
+    max-height: calc(100% - 18px) !important;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+@media (max-width: 420px), (max-height: 720px) {
+  .cortex-page-scroll,
+  [data-screen-label] > .hide-scrollbar {
+    padding-top: 16px !important;
+    padding-bottom: calc(132px + env(safe-area-inset-bottom)) !important;
+  }
+  .cortex-motion-card {
+    border-radius: 18px !important;
+  }
+  .cortex-wallpaper-toggle button {
+    min-width: 38px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .cortex-quickref-sheet {
+    padding: 14px !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .cortex-library-nav {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .cortex-library-nav button {
+    width: 106px !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+  .cortex-library-topbar {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    gap: 8px;
+  }
+  .cortex-library-topbar .cortex-wallpaper-toggle {
+    transform: scale(0.94);
+    transform-origin: right center;
+  }
+  .cortex-library-topbar .b1-button,
+  .cortex-library-topbar .b1-card,
+  .cortex-library-topbar span {
+    white-space: nowrap;
+  }
+  .b1-card {
+    padding: min(var(--card-pad, 16px), 16px) !important;
+  }
+  [data-screen-label="P0-Batch0Kernel"] {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+  [data-screen-label="P22-QuickRefModal"] .cortex-page-scroll {
+    padding-bottom: calc(150px + env(safe-area-inset-bottom)) !important;
+  }
+  .cortex-quickref-overlay {
+    align-items: flex-end !important;
+  }
+  .cortex-quickref-sheet .b1-button {
+    margin-bottom: max(4px, env(safe-area-inset-bottom)) !important;
+  }
+}
+
   </style>
+
   <script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <div id="root"></div>
+
   <script type="text/babel">
-/* inline: ios-frame.jsx */
+/* ios-frame.jsx */
 // @ds-adherence-ignore -- omelette starter scaffold (raw elements/hex/px by design)
 
 /* BEGIN USAGE */
@@ -865,8 +1157,9 @@ Object.assign(window, {
   IOSDevice, IOSStatusBar, IOSNavBar, IOSGlassPill, IOSList, IOSListRow, IOSKeyboard,
 });
 
-</script><script type="text/babel">
-/* inline: tweaks-panel.jsx */
+</script>
+  <script type="text/babel">
+/* tweaks-panel.jsx */
 // @ds-adherence-ignore -- omelette starter scaffold (raw elements/hex/px by design)
 
 /* BEGIN USAGE */
@@ -1409,8 +1702,9 @@ Object.assign(window, {
   TweakText, TweakNumber, TweakColor, TweakButton,
 });
 
-</script><script type="text/babel">
-/* inline: cortex-themes.jsx */
+</script>
+  <script type="text/babel">
+/* cortex-themes.jsx */
 /* CORTEX EDUCATION — Theme Engine */
 /* 5 Distinct Theme Configurations + React Context */
 
@@ -1593,8 +1887,9 @@ function glassCardStyle(theme, extra = {}) {
 
 Object.assign(window, { THEMES, ThemeContext, ThemeProvider, useTheme, glassStyle, glassCardStyle });
 
-</script><script type="text/babel">
-/* inline: cortex-shared.jsx */
+</script>
+  <script type="text/babel">
+/* cortex-shared.jsx */
 /* CORTEX — Shared Glass UI Components */
 
 /* ═══ GLASS CARD ═══ */
@@ -1875,8 +2170,9 @@ Object.assign(window, {
   AchievementBadge, LeaderRow,
 });
 
-</script><script type="text/babel">
-/* inline: cortex-backgrounds.jsx */
+</script>
+  <script type="text/babel">
+/* cortex-backgrounds.jsx */
 /* CORTEX — Animated Backgrounds for each theme */
 
 function NeuralBackground() {
@@ -2037,8 +2333,9 @@ function ThemeBackground({ themeId }) {
 
 Object.assign(window, { ThemeBackground, NeuralBackground, AuroraBackground, MosaicBackground, MatrixBackground, BloomBackground });
 
-</script><script type="text/babel">
-/* inline: cortex-homes.jsx */
+</script>
+  <script type="text/babel">
+/* cortex-homes.jsx */
 /* CORTEX — 5 Unique Home Screen Layouts */
 
 const COURSES_DATA = [
@@ -2428,8 +2725,9 @@ const HOME_COMPONENTS = { neural:HomeNeural, aurora:HomeAurora, gold:HomeGold, n
 
 Object.assign(window, { HOME_COMPONENTS, HomeNeural, HomeAurora, HomeGold, HomeNeon, HomeBloom, COURSES_DATA, CATEGORIES });
 
-</script><script type="text/babel">
-/* inline: cortex-screens.jsx */
+</script>
+  <script type="text/babel">
+/* cortex-screens.jsx */
 /* CORTEX — Adaptive Screens (Splash, Course Detail, Quiz, Profile) */
 
 /* ═══════════════════════════════════════════
@@ -2769,8 +3067,9 @@ function ProfileScreen({ onBack }) {
 
 Object.assign(window, { SplashScreen, CourseDetailScreen, QuizScreen, ProfileScreen });
 
-</script><script type="text/babel">
-/* inline: batch1-atoms.jsx */
+</script>
+  <script type="text/babel">
+/* batch1-atoms.jsx */
 /* CORTEX DESIGN LIBRARY — Batch 1 Refined Atoms
    Preserves kernel's visual DNA: glass, purple/blue, rounded, iOS-like
    Enhanced: typography hierarchy, spacing, press states, mobile layout */
@@ -2793,7 +3092,7 @@ const DL = {
 function B1Card({ children, style, onClick, glow, pad = 16, className }) {
   const [p, setP] = React.useState(false);
   return React.createElement('div', {
-    className,
+    className:['b1-card', className].filter(Boolean).join(' '),
     onPointerDown: () => setP(true), onPointerUp: () => setP(false), onPointerLeave: () => setP(false),
     onClick,
     style: {
@@ -2894,6 +3193,7 @@ function B1Button({ label, icon, onClick, variant = 'primary', full, style }) {
   const [p, setP] = React.useState(false);
   const isPrimary = variant === 'primary';
   return React.createElement('div', {
+    className:'b1-button',
     onClick, onPointerDown:()=>setP(true), onPointerUp:()=>setP(false), onPointerLeave:()=>setP(false),
     style: {
       display:'inline-flex', alignItems:'center', justifyContent:'center', gap:6,
@@ -3008,8 +3308,9 @@ Object.assign(window, {
   B1Button, B1Divider, B1Counter, B1Toggle, B1SearchInput, B1Ripple,
 });
 
-</script><script type="text/babel">
-/* inline: batch1-screens-a.jsx */
+</script>
+  <script type="text/babel">
+/* batch1-screens-a.jsx */
 /* CORTEX DESIGN LIBRARY — Batch 1 Screens (1-4)
    Page 1: Welcome / Entry
    Page 2: Home / Dashboard
@@ -3037,7 +3338,7 @@ function PageWelcome({ onNavigate }) {
   return React.createElement('div', {
     'data-screen-label': 'P1-Welcome',
     style: { position:'absolute', inset:0, display:'flex', flexDirection:'column',
-      alignItems:'center', justifyContent:'center', background:DL.bg, overflow:'hidden' }
+      alignItems:'center', justifyContent:'center', background:'transparent', overflow:'hidden' }
   },
     /* Animated orbs background */
     React.createElement('div', { style:{ position:'absolute', inset:0, filter:'blur(60px)' }},
@@ -3406,8 +3707,9 @@ function PageSlideDetail({ onNavigate }) {
 
 Object.assign(window, { PageWelcome, PageHome, PageLearning, PageSlideDetail });
 
-</script><script type="text/babel">
-/* inline: batch1-screens-b.jsx */
+</script>
+  <script type="text/babel">
+/* batch1-screens-b.jsx */
 /* CORTEX DESIGN LIBRARY — Batch 1 Screens (5-8)
    Page 5: Mobile Sidebar State
    Page 6: Search Overlay
@@ -3949,8 +4251,9 @@ function PageMotionShowcase({ onNavigate }) {
 
 Object.assign(window, { PageSidebar, PageSearch, PageSettings, PageMotionShowcase });
 
-</script><script type="text/babel">
-/* inline: batch2-atoms.jsx */
+</script>
+  <script type="text/babel">
+/* batch2-atoms.jsx */
 /* CORTEX DESIGN LIBRARY - Batch 2 Atoms
    Additive helpers for reading, clinical content, image cards, and media states.
    Depends on Batch 1 atoms: DL, B1Card, B1Badge, B1Topbar, B1Button. */
@@ -3958,7 +4261,8 @@ Object.assign(window, { PageSidebar, PageSearch, PageSettings, PageMotionShowcas
 function B2PageShell({ label, title, subtitle, onBack, right, children, footer }) {
   return React.createElement('div', {
     'data-screen-label': label,
-    style: { display:'flex', flexDirection:'column', height:'100%' }
+    className:'cortex-page-shell',
+    style: { display:'flex', flexDirection:'column', height:'100%', minHeight:0 }
   },
     React.createElement(B1Topbar, {
       left: onBack && React.createElement('span', {
@@ -3970,8 +4274,8 @@ function B2PageShell({ label, title, subtitle, onBack, right, children, footer }
       right,
     }),
     React.createElement('div', {
-      className:'hide-scrollbar cortex-motion-page',
-      style:{ flex:1, overflowY:'auto', padding:'22px 18px 20px' }
+      className:'hide-scrollbar cortex-motion-page cortex-page-scroll',
+      style:{ flex:1, minHeight:0, overflowY:'auto', padding:'22px 18px calc(96px + env(safe-area-inset-bottom))' }
     }, children),
     footer
   );
@@ -4161,8 +4465,9 @@ Object.assign(window, {
   B2Bullet, B2PressHint, B2ImageCard, B2Segmented,
 });
 
-</script><script type="text/babel">
-/* inline: batch2-screens-a.jsx */
+</script>
+  <script type="text/babel">
+/* batch2-screens-a.jsx */
 /* CORTEX DESIGN LIBRARY - Batch 2 Screens (9-12)
    Page 9: Typography Reading Page
    Page 10: Bullet / Sub-bullet Content Page
@@ -4432,8 +4737,9 @@ Object.assign(window, {
   PageTypographyReading, PageBulletContent, PageCalloutClinicalPearl, PageImageCard,
 });
 
-</script><script type="text/babel">
-/* inline: batch2-screens-b.jsx */
+</script>
+  <script type="text/babel">
+/* batch2-screens-b.jsx */
 /* CORTEX DESIGN LIBRARY - Batch 2 Screens (13-16)
    Page 13: Media Viewer / 3D Anatomy Viewer Placeholder
    Page 14: Glossary / Terms Page
@@ -4746,8 +5052,9 @@ Object.assign(window, {
   PageMediaViewer3D, PageGlossaryTerms, PageQuickSummary, PageBilingualSimple,
 });
 
-</script><script type="text/babel">
-/* inline: batch3-atoms.jsx */
+</script>
+  <script type="text/babel">
+/* batch3-atoms.jsx */
 /* CORTEX DESIGN LIBRARY - Batch 3 Atoms
    Additive placeholders for quiz, study tools, AI workspace, settings, and states.
    Depends on Batch 1/2 atoms: DL, B1Card, B1Badge, B1Progress, B2PageShell, B2Callout. */
@@ -4860,8 +5167,9 @@ Object.assign(window, {
   B3Hero, B3Choice, B3MetricCard, B3Row, B3StateCard, B3TinyToggle,
 });
 
-</script><script type="text/babel">
-/* inline: batch3-screens-a.jsx */
+</script>
+  <script type="text/babel">
+/* batch3-screens-a.jsx */
 /* CORTEX DESIGN LIBRARY - Batch 3 Screens (17-20)
    Page 17: Quiz Page
    Page 18: Flashcard Page
@@ -5118,8 +5426,9 @@ Object.assign(window, {
   PageQuiz, PageFlashcard, PageProgressDashboard, PageAIWorkspace,
 });
 
-</script><script type="text/babel">
-/* inline: batch3-screens-b.jsx */
+</script>
+  <script type="text/babel">
+/* batch3-screens-b.jsx */
 /* CORTEX DESIGN LIBRARY - Batch 3 Screens (21-24)
    Page 21: Provider & Advanced Settings Page
    Page 22: QuickRef Modal Page
@@ -5240,14 +5549,15 @@ function PageQuickRefModal({ onNavigate }) {
     ),
 
     open && React.createElement('div', {
+      className:'cortex-quickref-overlay',
       style:{
         position:'absolute', inset:0, zIndex:80,
         background:'rgba(0,0,0,0.52)', display:'flex',
-        alignItems:'flex-end', padding:'0 18px 28px',
+        alignItems:'flex-end', padding:'0 18px calc(22px + env(safe-area-inset-bottom))',
         backdropFilter:'blur(6px)', WebkitBackdropFilter:'blur(6px)',
       }
     },
-      React.createElement(B1Card, { glow:true, pad:16, style:{ width:'100%', animation:'slide-up 0.3s ease backwards' }},
+      React.createElement(B1Card, { glow:true, pad:16, className:'cortex-quickref-sheet', style:{ width:'100%', maxHeight:'min(640px, calc(100% - 26px))', overflowY:'auto', animation:'slide-up 0.3s ease backwards' }},
         React.createElement('div', { style:{ width:42, height:4, borderRadius:999, background:'rgba(255,255,255,0.22)', margin:'0 auto 13px' }}),
         React.createElement('div', { style:{ display:'flex', justifyContent:'space-between', alignItems:'center', gap:10, marginBottom:10 }},
           React.createElement('div', null,
@@ -5411,8 +5721,9 @@ Object.assign(window, {
   PageProviderAdvancedSettings, PageQuickRefModal, PageHelpAboutPrivacy, PageStatesLibrary,
 });
 
-</script><script type="text/babel">
-/* inline: cortex-wallpapers.jsx */
+</script>
+  <script type="text/babel">
+/* cortex-wallpapers.jsx */
 /* CORTEX - Interactive Wallpaper Engine
    Three generated wallpaper concepts with pointer/touch-aware motion. */
 
@@ -5430,6 +5741,7 @@ const CORTEX_WALLPAPERS = [
     label:'Bubbly Kaleidoscope',
     icon:'B',
     file:'bubbly-kaleidoscope.png',
+    mode:'generative',
   },
   {
     id:'organza',
@@ -5437,6 +5749,7 @@ const CORTEX_WALLPAPERS = [
     label:'Organza Bloom',
     icon:'O',
     file:'chromatic-organza-bloom.png',
+    mode:'generative',
   },
 ];
 
@@ -5445,7 +5758,82 @@ function cortexWallpaperAsset(file) {
   return `${rootPrefix}assets/wallpapers/${file}`;
 }
 
-function CortexInteractiveWallpaper({ wallpaper }) {
+function CortexGenerativeBubblyWallpaper() {
+  const bubbles = [
+    { x:9, y:14, s:180, d:19, delay:-2.4, hue:'rgba(124,92,255,0.24)' },
+    { x:73, y:9, s:220, d:24, delay:-8.8, hue:'rgba(52,211,255,0.20)' },
+    { x:34, y:64, s:260, d:28, delay:-14.2, hue:'rgba(190,120,255,0.22)' },
+    { x:86, y:72, s:150, d:21, delay:-5.7, hue:'rgba(72,255,210,0.14)' },
+    { x:52, y:32, s:112, d:16, delay:-11.1, hue:'rgba(255,255,255,0.13)' },
+    { x:18, y:82, s:118, d:18, delay:-6.2, hue:'rgba(92,130,255,0.16)' },
+  ];
+  const facets = [
+    { x:17, y:20, w:32, h:58, r:-18, d:26, delay:-7 },
+    { x:62, y:18, w:28, h:50, r:24, d:29, delay:-13 },
+    { x:42, y:58, w:36, h:64, r:12, d:33, delay:-17 },
+  ];
+  return React.createElement(React.Fragment, null,
+    React.createElement('div', { className:'cortex-wallpaper-minimal-field' }),
+    facets.map((f, i) => React.createElement('div', {
+      key:`facet-${i}`,
+      className:'cortex-live-facet',
+      style:{
+        left:`${f.x}%`, top:`${f.y}%`, width:`${f.w}%`, height:`${f.h}%`,
+        '--facet-rotate':`${f.r}deg`, '--live-duration':`${f.d}s`, animationDelay:`${f.delay}s`,
+      }
+    })),
+    bubbles.map((b, i) => React.createElement('div', {
+      key:`bubble-${i}`,
+      className:'cortex-live-bubble',
+      style:{
+        left:`${b.x}%`, top:`${b.y}%`, width:b.s, height:b.s,
+        '--bubble-color':b.hue, '--live-duration':`${b.d}s`, animationDelay:`${b.delay}s`,
+      }
+    })),
+    React.createElement('div', { className:'cortex-live-kaleidoscope-line line-a' }),
+    React.createElement('div', { className:'cortex-live-kaleidoscope-line line-b' }),
+    React.createElement('div', { className:'cortex-live-sheen' }),
+  );
+}
+
+function CortexGenerativeOrganzaWallpaper() {
+  const ribbons = [
+    { x:-10, y:12, w:72, h:20, r:-14, d:30, delay:-4, c:'rgba(149,120,255,0.18)' },
+    { x:38, y:8, w:78, h:22, r:18, d:36, delay:-15, c:'rgba(60,220,255,0.14)' },
+    { x:8, y:54, w:86, h:24, r:8, d:42, delay:-22, c:'rgba(210,130,255,0.17)' },
+    { x:54, y:66, w:62, h:18, r:-22, d:34, delay:-10, c:'rgba(100,255,218,0.12)' },
+  ];
+  const pearls = [
+    { x:18, y:24, s:70, d:18, delay:-2 },
+    { x:82, y:20, s:54, d:22, delay:-8 },
+    { x:66, y:76, s:86, d:26, delay:-14 },
+    { x:30, y:82, s:44, d:20, delay:-11 },
+  ];
+  return React.createElement(React.Fragment, null,
+    React.createElement('div', { className:'cortex-wallpaper-organza-field' }),
+    ribbons.map((r, i) => React.createElement('div', {
+      key:`ribbon-${i}`,
+      className:'cortex-live-ribbon',
+      style:{
+        left:`${r.x}%`, top:`${r.y}%`, width:`${r.w}%`, height:`${r.h}%`,
+        '--ribbon-rotate':`${r.r}deg`, '--ribbon-color':r.c,
+        '--live-duration':`${r.d}s`, animationDelay:`${r.delay}s`,
+      }
+    })),
+    pearls.map((p, i) => React.createElement('div', {
+      key:`pearl-${i}`,
+      className:'cortex-live-pearl',
+      style:{
+        left:`${p.x}%`, top:`${p.y}%`, width:p.s, height:p.s,
+        '--live-duration':`${p.d}s`, animationDelay:`${p.delay}s`,
+      }
+    })),
+    React.createElement('div', { className:'cortex-live-organza-glow glow-a' }),
+    React.createElement('div', { className:'cortex-live-organza-glow glow-b' }),
+  );
+}
+
+function CortexInteractiveWallpaper({ wallpaper, exhibition }) {
   const item = CORTEX_WALLPAPERS.find(w => w.id === wallpaper) || CORTEX_WALLPAPERS[0];
   const [pointer, setPointer] = React.useState({ x:50, y:45, px:0, py:0, angle:0 });
   const [ripples, setRipples] = React.useState([]);
@@ -5494,6 +5882,8 @@ function CortexInteractiveWallpaper({ wallpaper }) {
   return React.createElement('div', {
     className:'cortex-wallpaper-layer',
     'data-wallpaper':item.id,
+    'data-mode':item.mode || 'image',
+    'data-exhibition':String(!!exhibition),
     style:{
       '--wallpaper-image':`url("${cortexWallpaperAsset(item.file)}")`,
       '--pointer-x':`${pointer.x}%`,
@@ -5503,7 +5893,11 @@ function CortexInteractiveWallpaper({ wallpaper }) {
       '--wallpaper-angle':`${pointer.angle}deg`,
     }
   },
-    React.createElement('div', { className:'cortex-wallpaper-image' }),
+    item.mode === 'generative'
+      ? (item.id === 'bubbly'
+          ? React.createElement(CortexGenerativeBubblyWallpaper)
+          : React.createElement(CortexGenerativeOrganzaWallpaper))
+      : React.createElement('div', { className:'cortex-wallpaper-image' }),
     React.createElement('div', { className:'cortex-wallpaper-caustic' }),
     React.createElement('div', { className:'cortex-wallpaper-hotspot' }),
     ripples.map(r => React.createElement('div', {
@@ -5532,8 +5926,9 @@ function CortexWallpaperToggle({ value, onChange }) {
 
 Object.assign(window, { CORTEX_WALLPAPERS, CortexInteractiveWallpaper, CortexWallpaperToggle });
 
-</script><script type="text/babel">
-/* inline: design-library-24-app.jsx */
+</script>
+  <script type="text/babel">
+/* design-library-24-app.jsx */
 /* CORTEX DESIGN LIBRARY - Consolidated Batch 0 + Pages 1-24
    Adaptive fullscreen shell for desktop, iPad/tablet, Android tablet, and mobile. */
 
@@ -5587,9 +5982,10 @@ function useCortexLayoutMode() {
   return mode;
 }
 
-function PageBatch0Kernel({ onNavigate }) {
+function PageBatch0Kernel({ onNavigate, mode }) {
   const [themeId, setThemeId] = React.useState('neural');
   const theme = THEMES[themeId] || THEMES.neural;
+  const compact = mode !== 'desktop';
   const themeRows = [
     { id:'neural', name:'Neural Pulse', note:'Core Claude DNA, synaptic purple-blue glass.' },
     { id:'aurora', name:'Aurora Prism', note:'Ethereal cyan/prism exploratory shell.' },
@@ -5601,7 +5997,7 @@ function PageBatch0Kernel({ onNavigate }) {
   return React.createElement('div', {
     'data-screen-label':'P0-Batch0Kernel',
     className:'hide-scrollbar cortex-motion-page',
-    style:{ height:'100%', overflowY:'auto', padding:'26px clamp(18px,4vw,38px) 34px' }
+    style:{ height:'100%', overflowY:'auto', padding:compact ? '18px 18px calc(96px + env(safe-area-inset-bottom))' : '26px clamp(18px,4vw,38px) 34px' }
   },
     React.createElement(B1Card, { glow:true, className:'cortex-motion-card', style:{
       marginBottom:16,
@@ -5619,7 +6015,7 @@ function PageBatch0Kernel({ onNavigate }) {
       )
     ),
 
-    React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'repeat(auto-fit,minmax(220px,1fr))', gap:12, marginBottom:16 }},
+    React.createElement('div', { className:'cortex-responsive-grid', style:{ display:'grid', gridTemplateColumns:compact ? '1fr' : 'repeat(auto-fit,minmax(220px,1fr))', gap:12, marginBottom:16 }},
       themeRows.map((row, i) => React.createElement(B1Card, {
         key:row.id,
         onClick:()=>setThemeId(row.id),
@@ -5644,7 +6040,7 @@ function PageBatch0Kernel({ onNavigate }) {
       ))
     ),
 
-    React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'minmax(0,1.2fr) minmax(260px,0.8fr)', gap:14 }},
+    React.createElement('div', { className:'cortex-responsive-grid cortex-kernel-main-grid', style:{ display:'grid', gridTemplateColumns:compact ? '1fr' : 'minmax(0,1.2fr) minmax(260px,0.8fr)', gap:14 }},
       React.createElement(B1Card, { className:'cortex-motion-card', style:{
         minHeight:320,
         background:theme.colors.gradientCard,
@@ -5663,7 +6059,7 @@ function PageBatch0Kernel({ onNavigate }) {
             React.createElement('div', { style:{ color:DL.sub, fontSize:12, marginTop:3 }}, theme.description),
           )
         ),
-        React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'repeat(3,1fr)', gap:10, marginBottom:16 }},
+        React.createElement('div', { className:'cortex-responsive-grid', style:{ display:'grid', gridTemplateColumns:compact ? '1fr' : 'repeat(3,1fr)', gap:10, marginBottom:16 }},
           React.createElement(B2StatPill, { label:'Theme', value:themeId }),
           React.createElement(B2StatPill, { label:'Blur', value:`${theme.glass.blur}px`, color:theme.colors.accent1 }),
           React.createElement(B2StatPill, { label:'Radius', value:`${theme.borderRadius}px`, color:theme.colors.accent2 }),
@@ -5756,8 +6152,9 @@ function CortexLibraryShell() {
   const initialPage = Number(new URLSearchParams(window.location.search).get('page') || 0);
   const [page, setPage] = React.useState(CORTEX_LIBRARY_PAGES.some(p => p.id === initialPage) ? initialPage : 0);
   const [animKey, setAnimKey] = React.useState(0);
-  const [wallpaper, setWallpaper] = React.useState(() => localStorage.getItem('cortex.wallpaper') || 'aurora');
+  const [wallpaper, setWallpaper] = React.useState(() => localStorage.getItem('cortex.wallpaper') || 'bubbly');
   const current = CORTEX_LIBRARY_PAGES.find(p => p.id === page) || CORTEX_LIBRARY_PAGES[0];
+  const isWelcomePage = page === 1;
 
   React.useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -5778,7 +6175,7 @@ function CortexLibraryShell() {
   }, []);
 
   const renderPage = () => {
-    if (page === 0) return React.createElement(PageBatch0Kernel, { onNavigate:navigate });
+    if (page === 0) return React.createElement(PageBatch0Kernel, { onNavigate:navigate, mode });
     const Comp = window[current.component];
     if (!Comp) {
       return React.createElement(B2PageShell, {
@@ -5791,15 +6188,19 @@ function CortexLibraryShell() {
     return React.createElement(Comp, { onNavigate:navigate });
   };
 
-  return React.createElement('div', { style:{
+  return React.createElement('div', {
+    'data-current-page':page,
+    'data-wallpaper-exhibition':String(isWelcomePage),
+    className:'cortex-library-root',
+    style:{
     width:'100vw', height:'100dvh', minHeight:'100vh',
     background:DL.bg, color:DL.text, overflow:'hidden',
     fontFamily:'"SF Pro Display", "Inter", -apple-system, sans-serif',
     display:'flex', flexDirection:mode === 'desktop' ? 'row' : 'column',
     position:'relative',
   }},
-    React.createElement(CortexInteractiveWallpaper, { wallpaper }),
-    React.createElement('div', { style:{ position:'absolute', inset:0, pointerEvents:'none', filter:'blur(60px)', opacity:0.98 }},
+    React.createElement(CortexInteractiveWallpaper, { wallpaper, exhibition:isWelcomePage }),
+    React.createElement('div', { className:'cortex-library-ambient-orbs', style:{ position:'absolute', inset:0, pointerEvents:'none', filter:'blur(60px)', opacity:isWelcomePage ? 0.82 : 0.54 }},
       [
         { x:'8%', y:'12%', s:220, c:'rgba(99,102,241,0.20)', d:12 },
         { x:'72%', y:'8%', s:180, c:'rgba(168,85,247,0.17)', d:15 },
@@ -5816,7 +6217,7 @@ function CortexLibraryShell() {
       position:'relative', zIndex:1, flex:1, minWidth:0, minHeight:0,
       display:'flex', flexDirection:'column', overflow:'hidden',
     }},
-      React.createElement('div', { style:{
+      React.createElement('div', { className:'cortex-library-topbar', style:{
         display:'flex', justifyContent:'space-between', alignItems:'center',
         padding:mode === 'mobile' ? '10px 14px' : '14px 22px',
         borderBottom:`1px solid ${DL.glassBorder}`,
@@ -5838,23 +6239,24 @@ function CortexLibraryShell() {
       ),
       React.createElement('section', {
         key:animKey,
+        className:'cortex-library-content',
         style:{
           flex:1, minHeight:0, overflow:'hidden',
           padding:mode === 'desktop' ? 24 : mode === 'tablet' ? 18 : 0,
         }
       },
-        React.createElement('div', { style:{
+        React.createElement('div', { className:'cortex-library-stage', style:{
           height:'100%', width:'100%',
           maxWidth:mode === 'desktop' ? 'none' : '100%',
           margin:'0 auto', overflow:'hidden',
           borderRadius:mode === 'mobile' ? 0 : 28,
           border:mode === 'mobile' ? 'none' : `1px solid ${DL.glassBorder}`,
-          background:'rgba(10,10,26,0.58)',
+          background:isWelcomePage ? 'rgba(10,10,26,0.38)' : 'rgba(10,10,26,0.58)',
           boxShadow:mode === 'mobile' ? 'none' : `0 18px 60px ${DL.shadowColor}, inset 0 1px 0 ${DL.glassHigh}`,
-          backdropFilter:'blur(24px) saturate(180%)',
-          WebkitBackdropFilter:'blur(24px) saturate(180%)',
+          backdropFilter:isWelcomePage ? 'blur(14px) saturate(165%)' : 'blur(24px) saturate(180%)',
+          WebkitBackdropFilter:isWelcomePage ? 'blur(14px) saturate(165%)' : 'blur(24px) saturate(180%)',
         }},
-          React.createElement('div', { style:{ height:'100%', overflow:'hidden', position:'relative' }}, renderPage())
+          React.createElement('div', { className:'cortex-library-stage-inner', style:{ height:'100%', overflow:'hidden', position:'relative' }}, renderPage())
         )
       )
     )
@@ -5864,6 +6266,7 @@ function CortexLibraryShell() {
 Object.assign(window, { CORTEX_LIBRARY_PAGES, PageBatch0Kernel, CortexLibraryShell });
 
 </script>
+
   <script type="text/babel">
     ReactDOM.createRoot(document.getElementById('root')).render(
       React.createElement(CortexLibraryShell)

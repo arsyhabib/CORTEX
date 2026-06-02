@@ -209,6 +209,30 @@
   100% { opacity: 0; transform: translate(-50%, -50%) scale(2.8); }
 }
 
+@keyframes cortex-live-float-a {
+  0%, 100% { transform: translate3d(var(--wallpaper-x,0px), var(--wallpaper-y,0px), 0) scale(0.96) rotate(0deg); }
+  33% { transform: translate3d(calc(var(--wallpaper-x,0px) * -0.7 + 22px), calc(var(--wallpaper-y,0px) * 0.8 - 18px), 0) scale(1.04) rotate(7deg); }
+  66% { transform: translate3d(calc(var(--wallpaper-x,0px) * 0.9 - 18px), calc(var(--wallpaper-y,0px) * -0.6 + 20px), 0) scale(1.01) rotate(-5deg); }
+}
+
+@keyframes cortex-live-float-b {
+  0%, 100% { transform: translate3d(0,0,0) rotate(var(--facet-rotate,0deg)) scale(1); }
+  45% { transform: translate3d(28px,-18px,0) rotate(calc(var(--facet-rotate,0deg) + 10deg)) scale(1.05); }
+  72% { transform: translate3d(-18px,16px,0) rotate(calc(var(--facet-rotate,0deg) - 6deg)) scale(0.98); }
+}
+
+@keyframes cortex-live-ribbon-drift {
+  0%, 100% { transform: translate3d(calc(var(--wallpaper-x,0px) * 0.35), calc(var(--wallpaper-y,0px) * 0.22), 0) rotate(var(--ribbon-rotate,0deg)) scale(1); }
+  38% { transform: translate3d(calc(var(--wallpaper-x,0px) * -0.42 + 18px), calc(var(--wallpaper-y,0px) * 0.40 - 20px), 0) rotate(calc(var(--ribbon-rotate,0deg) + 5deg)) scale(1.04); }
+  70% { transform: translate3d(calc(var(--wallpaper-x,0px) * 0.20 - 22px), calc(var(--wallpaper-y,0px) * -0.36 + 16px), 0) rotate(calc(var(--ribbon-rotate,0deg) - 4deg)) scale(0.99); }
+}
+
+@keyframes cortex-live-glimmer {
+  0%, 100% { opacity: 0.18; filter: blur(18px) saturate(1.05); }
+  45% { opacity: 0.36; filter: blur(12px) saturate(1.25); }
+  72% { opacity: 0.24; filter: blur(22px) saturate(1.15); }
+}
+
 /* ═══════════════════════════════════════════
    GLASS UTILITIES
    ═══════════════════════════════════════════ */
@@ -383,6 +407,12 @@
   --wallpaper-x: 0px;
   --wallpaper-y: 0px;
 }
+.cortex-wallpaper-layer[data-exhibition="false"] {
+  opacity: 0.64;
+}
+.cortex-wallpaper-layer[data-exhibition="true"] {
+  opacity: 1;
+}
 .cortex-wallpaper-image {
   position: absolute;
   inset: -6%;
@@ -406,6 +436,145 @@
 .cortex-wallpaper-layer[data-wallpaper="organza"] .cortex-wallpaper-image {
   opacity: 0.78;
   filter: saturate(1.1) hue-rotate(-4deg) contrast(1.03);
+}
+.cortex-wallpaper-layer[data-mode="generative"] {
+  background:
+    radial-gradient(circle at 50% 35%, rgba(50,45,130,0.58), transparent 46%),
+    linear-gradient(145deg, #050714 0%, #0a0820 48%, #050712 100%);
+}
+.cortex-wallpaper-layer[data-mode="generative"] .cortex-wallpaper-caustic {
+  opacity: 0.34;
+}
+.cortex-wallpaper-layer[data-mode="generative"] .cortex-wallpaper-hotspot {
+  opacity: 0.32;
+}
+.cortex-wallpaper-layer[data-exhibition="true"][data-mode="generative"] .cortex-wallpaper-caustic {
+  opacity: 0.56;
+}
+.cortex-wallpaper-layer[data-exhibition="true"][data-mode="generative"] .cortex-wallpaper-hotspot {
+  opacity: 0.50;
+}
+.cortex-wallpaper-minimal-field,
+.cortex-wallpaper-organza-field {
+  position: absolute;
+  inset: -10%;
+  background:
+    radial-gradient(circle at var(--pointer-x) var(--pointer-y), rgba(255,255,255,0.16), transparent 18%),
+    radial-gradient(circle at 15% 20%, rgba(104,120,255,0.20), transparent 28%),
+    radial-gradient(circle at 82% 18%, rgba(71,226,255,0.13), transparent 28%),
+    radial-gradient(circle at 52% 76%, rgba(190,92,255,0.15), transparent 32%);
+  opacity: 0.78;
+  filter: blur(4px);
+  animation: cortex-wallpaper-drift 32s ease-in-out infinite;
+}
+.cortex-wallpaper-organza-field {
+  background:
+    radial-gradient(circle at var(--pointer-x) var(--pointer-y), rgba(255,255,255,0.12), transparent 16%),
+    radial-gradient(circle at 26% 18%, rgba(155,118,255,0.18), transparent 30%),
+    radial-gradient(circle at 70% 22%, rgba(62,211,255,0.12), transparent 28%),
+    radial-gradient(circle at 58% 82%, rgba(218,130,255,0.15), transparent 34%);
+}
+.cortex-live-bubble {
+  position: absolute;
+  border-radius: 999px;
+  background:
+    radial-gradient(circle at 32% 28%, rgba(255,255,255,0.52), transparent 13%),
+    radial-gradient(circle at 68% 72%, var(--bubble-color), transparent 56%),
+    radial-gradient(circle, rgba(255,255,255,0.04), transparent 66%);
+  border: 1px solid rgba(255,255,255,0.18);
+  box-shadow:
+    inset 0 0 42px rgba(255,255,255,0.08),
+    0 0 70px rgba(99,102,241,0.18);
+  filter: blur(0.2px);
+  mix-blend-mode: screen;
+  animation: cortex-live-float-a var(--live-duration, 24s) ease-in-out infinite;
+  will-change: transform, opacity;
+}
+.cortex-live-bubble::after {
+  content: "";
+  position: absolute;
+  inset: 18%;
+  border-radius: inherit;
+  border: 1px solid rgba(255,255,255,0.16);
+  opacity: 0.62;
+}
+.cortex-live-facet {
+  position: absolute;
+  border-radius: 46% 54% 62% 38% / 42% 52% 48% 58%;
+  background:
+    linear-gradient(120deg, rgba(255,255,255,0.10), transparent 35%, rgba(99,102,241,0.13), transparent 72%),
+    radial-gradient(circle at 40% 30%, rgba(255,255,255,0.18), transparent 28%);
+  border: 1px solid rgba(255,255,255,0.10);
+  filter: blur(9px);
+  opacity: 0.46;
+  mix-blend-mode: screen;
+  animation: cortex-live-float-b var(--live-duration, 30s) ease-in-out infinite;
+}
+.cortex-live-kaleidoscope-line {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 120vmax;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.18), rgba(120,100,255,0.20), transparent);
+  transform-origin: center;
+  mix-blend-mode: screen;
+  opacity: 0.24;
+  animation: rotate-slow 42s linear infinite;
+}
+.cortex-live-kaleidoscope-line.line-a { transform: translate(-50%, -50%) rotate(26deg); }
+.cortex-live-kaleidoscope-line.line-b { transform: translate(-50%, -50%) rotate(116deg); animation-duration: 58s; animation-direction: reverse; }
+.cortex-live-sheen {
+  position: absolute;
+  inset: -20%;
+  background: conic-gradient(from var(--wallpaper-angle,0deg) at var(--pointer-x) var(--pointer-y), transparent, rgba(255,255,255,0.09), transparent, rgba(93,220,255,0.08), transparent);
+  opacity: 0.54;
+  mix-blend-mode: screen;
+  filter: blur(20px);
+}
+.cortex-live-ribbon {
+  position: absolute;
+  border-radius: 999px;
+  background:
+    linear-gradient(90deg, transparent, var(--ribbon-color), rgba(255,255,255,0.10), transparent);
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 0 62px rgba(99,102,241,0.14), inset 0 1px 0 rgba(255,255,255,0.16);
+  filter: blur(10px);
+  mix-blend-mode: screen;
+  animation: cortex-live-ribbon-drift var(--live-duration, 36s) ease-in-out infinite;
+  will-change: transform;
+}
+.cortex-live-pearl {
+  position: absolute;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 35% 30%, rgba(255,255,255,0.50), transparent 16%),
+    radial-gradient(circle, rgba(167,139,250,0.24), rgba(45,212,191,0.08) 48%, transparent 70%);
+  border: 1px solid rgba(255,255,255,0.12);
+  filter: blur(1px);
+  mix-blend-mode: screen;
+  opacity: 0.54;
+  animation: cortex-live-float-a var(--live-duration, 22s) ease-in-out infinite;
+}
+.cortex-live-organza-glow {
+  position: absolute;
+  border-radius: 50%;
+  width: 48vmax;
+  height: 48vmax;
+  background: radial-gradient(circle, rgba(150,120,255,0.15), rgba(70,215,255,0.05) 46%, transparent 70%);
+  mix-blend-mode: screen;
+  filter: blur(18px);
+  animation: cortex-live-glimmer 18s ease-in-out infinite;
+}
+.cortex-live-organza-glow.glow-a { left: -14%; top: 8%; }
+.cortex-live-organza-glow.glow-b { right: -18%; bottom: -12%; animation-delay: -9s; }
+.cortex-wallpaper-layer[data-exhibition="false"] .cortex-live-bubble,
+.cortex-wallpaper-layer[data-exhibition="false"] .cortex-live-facet,
+.cortex-wallpaper-layer[data-exhibition="false"] .cortex-live-ribbon,
+.cortex-wallpaper-layer[data-exhibition="false"] .cortex-live-pearl,
+.cortex-wallpaper-layer[data-exhibition="false"] .cortex-live-organza-glow,
+.cortex-wallpaper-layer[data-exhibition="false"] .cortex-live-sheen {
+  opacity: 0.38;
 }
 .cortex-wallpaper-hotspot {
   position: absolute;
@@ -490,5 +659,126 @@
   }
   .cortex-wallpaper-toggle .wallpaper-label-full {
     display: none;
+  }
+}
+
+/* Mobile compatibility guardrails for iPhone/Android aspect ratios. */
+@media (max-width: 760px) {
+  .cortex-library-root {
+    height: 100svh !important;
+    min-height: 100svh !important;
+  }
+  .cortex-library-nav {
+    overscroll-behavior-x: contain;
+  }
+  .cortex-library-topbar {
+    min-height: 56px;
+  }
+  .cortex-library-topbar > div:first-child {
+    min-width: 0 !important;
+    flex: 1 1 auto;
+  }
+  .cortex-library-topbar > div:last-child {
+    flex-shrink: 0;
+  }
+  .cortex-library-stage,
+  .cortex-library-stage-inner,
+  .cortex-page-shell {
+    min-width: 0 !important;
+    min-height: 0 !important;
+  }
+  .cortex-page-scroll,
+  [data-screen-label] > .hide-scrollbar {
+    padding-left: max(16px, env(safe-area-inset-left)) !important;
+    padding-right: max(16px, env(safe-area-inset-right)) !important;
+    padding-bottom: calc(116px + env(safe-area-inset-bottom)) !important;
+    scroll-padding-bottom: calc(116px + env(safe-area-inset-bottom));
+  }
+  .cortex-responsive-grid,
+  [data-screen-label] [style*="grid-template-columns: 1fr 1fr"],
+  [data-screen-label] [style*="grid-template-columns: repeat(3"],
+  [data-screen-label] [style*="gridTemplateColumns"] {
+    grid-template-columns: 1fr !important;
+  }
+  .cortex-motion-card,
+  .b1-card,
+  .b2-card,
+  .b3-card {
+    max-width: 100%;
+  }
+  [data-screen-label] button,
+  [data-screen-label] [role="button"],
+  [data-screen-label] [style*="cursor: pointer"] {
+    min-height: 44px;
+  }
+  .cortex-quickref-overlay {
+    padding-left: max(14px, env(safe-area-inset-left)) !important;
+    padding-right: max(14px, env(safe-area-inset-right)) !important;
+    padding-bottom: calc(18px + env(safe-area-inset-bottom)) !important;
+  }
+  .cortex-quickref-sheet {
+    max-height: calc(100% - 18px) !important;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+@media (max-width: 420px), (max-height: 720px) {
+  .cortex-page-scroll,
+  [data-screen-label] > .hide-scrollbar {
+    padding-top: 16px !important;
+    padding-bottom: calc(132px + env(safe-area-inset-bottom)) !important;
+  }
+  .cortex-motion-card {
+    border-radius: 18px !important;
+  }
+  .cortex-wallpaper-toggle button {
+    min-width: 38px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .cortex-quickref-sheet {
+    padding: 14px !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .cortex-library-nav {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .cortex-library-nav button {
+    width: 106px !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+  .cortex-library-topbar {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+    gap: 8px;
+  }
+  .cortex-library-topbar .cortex-wallpaper-toggle {
+    transform: scale(0.94);
+    transform-origin: right center;
+  }
+  .cortex-library-topbar .b1-button,
+  .cortex-library-topbar .b1-card,
+  .cortex-library-topbar span {
+    white-space: nowrap;
+  }
+  .b1-card {
+    padding: min(var(--card-pad, 16px), 16px) !important;
+  }
+  [data-screen-label="P0-Batch0Kernel"] {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+  [data-screen-label="P22-QuickRefModal"] .cortex-page-scroll {
+    padding-bottom: calc(150px + env(safe-area-inset-bottom)) !important;
+  }
+  .cortex-quickref-overlay {
+    align-items: flex-end !important;
+  }
+  .cortex-quickref-sheet .b1-button {
+    margin-bottom: max(4px, env(safe-area-inset-bottom)) !important;
   }
 }

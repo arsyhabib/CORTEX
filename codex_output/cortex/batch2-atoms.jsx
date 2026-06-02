@@ -5,7 +5,8 @@
 function B2PageShell({ label, title, subtitle, onBack, right, children, footer }) {
   return React.createElement('div', {
     'data-screen-label': label,
-    style: { display:'flex', flexDirection:'column', height:'100%' }
+    className:'cortex-page-shell',
+    style: { display:'flex', flexDirection:'column', height:'100%', minHeight:0 }
   },
     React.createElement(B1Topbar, {
       left: onBack && React.createElement('span', {
@@ -17,8 +18,8 @@ function B2PageShell({ label, title, subtitle, onBack, right, children, footer }
       right,
     }),
     React.createElement('div', {
-      className:'hide-scrollbar cortex-motion-page',
-      style:{ flex:1, overflowY:'auto', padding:'22px 18px 20px' }
+      className:'hide-scrollbar cortex-motion-page cortex-page-scroll',
+      style:{ flex:1, minHeight:0, overflowY:'auto', padding:'22px 18px calc(96px + env(safe-area-inset-bottom))' }
     }, children),
     footer
   );

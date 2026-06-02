@@ -51,9 +51,10 @@ function useCortexLayoutMode() {
   return mode;
 }
 
-function PageBatch0Kernel({ onNavigate }) {
+function PageBatch0Kernel({ onNavigate, mode }) {
   const [themeId, setThemeId] = React.useState('neural');
   const theme = THEMES[themeId] || THEMES.neural;
+  const compact = mode !== 'desktop';
   const themeRows = [
     { id:'neural', name:'Neural Pulse', note:'Core Claude DNA, synaptic purple-blue glass.' },
     { id:'aurora', name:'Aurora Prism', note:'Ethereal cyan/prism exploratory shell.' },
@@ -65,7 +66,7 @@ function PageBatch0Kernel({ onNavigate }) {
   return React.createElement('div', {
     'data-screen-label':'P0-Batch0Kernel',
     className:'hide-scrollbar cortex-motion-page',
-    style:{ height:'100%', overflowY:'auto', padding:'26px clamp(18px,4vw,38px) 34px' }
+    style:{ height:'100%', overflowY:'auto', padding:compact ? '18px 18px calc(96px + env(safe-area-inset-bottom))' : '26px clamp(18px,4vw,38px) 34px' }
   },
     React.createElement(B1Card, { glow:true, className:'cortex-motion-card', style:{
       marginBottom:16,
@@ -83,7 +84,7 @@ function PageBatch0Kernel({ onNavigate }) {
       )
     ),
 
-    React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'repeat(auto-fit,minmax(220px,1fr))', gap:12, marginBottom:16 }},
+    React.createElement('div', { className:'cortex-responsive-grid', style:{ display:'grid', gridTemplateColumns:compact ? '1fr' : 'repeat(auto-fit,minmax(220px,1fr))', gap:12, marginBottom:16 }},
       themeRows.map((row, i) => React.createElement(B1Card, {
         key:row.id,
         onClick:()=>setThemeId(row.id),
@@ -108,7 +109,7 @@ function PageBatch0Kernel({ onNavigate }) {
       ))
     ),
 
-    React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'minmax(0,1.2fr) minmax(260px,0.8fr)', gap:14 }},
+    React.createElement('div', { className:'cortex-responsive-grid cortex-kernel-main-grid', style:{ display:'grid', gridTemplateColumns:compact ? '1fr' : 'minmax(0,1.2fr) minmax(260px,0.8fr)', gap:14 }},
       React.createElement(B1Card, { className:'cortex-motion-card', style:{
         minHeight:320,
         background:theme.colors.gradientCard,
@@ -127,7 +128,7 @@ function PageBatch0Kernel({ onNavigate }) {
             React.createElement('div', { style:{ color:DL.sub, fontSize:12, marginTop:3 }}, theme.description),
           )
         ),
-        React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'repeat(3,1fr)', gap:10, marginBottom:16 }},
+        React.createElement('div', { className:'cortex-responsive-grid', style:{ display:'grid', gridTemplateColumns:compact ? '1fr' : 'repeat(3,1fr)', gap:10, marginBottom:16 }},
           React.createElement(B2StatPill, { label:'Theme', value:themeId }),
           React.createElement(B2StatPill, { label:'Blur', value:`${theme.glass.blur}px`, color:theme.colors.accent1 }),
           React.createElement(B2StatPill, { label:'Radius', value:`${theme.borderRadius}px`, color:theme.colors.accent2 }),
@@ -220,8 +221,9 @@ function CortexLibraryShell() {
   const initialPage = Number(new URLSearchParams(window.location.search).get('page') || 0);
   const [page, setPage] = React.useState(CORTEX_LIBRARY_PAGES.some(p => p.id === initialPage) ? initialPage : 0);
   const [animKey, setAnimKey] = React.useState(0);
-  const [wallpaper, setWallpaper] = React.useState(() => localStorage.getItem('cortex.wallpaper') || 'aurora');
+  const [wallpaper, setWallpaper] = React.useState(() => localStorage.getItem('cortex.wallpaper') || 'bubbly');
   const current = CORTEX_LIBRARY_PAGES.find(p => p.id === page) || CORTEX_LIBRARY_PAGES[0];
+  const isWelcomePage = page === 1;
 
   React.useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -242,7 +244,7 @@ function CortexLibraryShell() {
   }, []);
 
   const renderPage = () => {
-    if (page === 0) return React.createElement(PageBatch0Kernel, { onNavigate:navigate });
+    if (page === 0) return React.createElement(PageBatch0Kernel, { onNavigate:navigate, mode });
     const Comp = window[current.component];
     if (!Comp) {
       return React.createElement(B2PageShell, {
@@ -255,15 +257,19 @@ function CortexLibraryShell() {
     return React.createElement(Comp, { onNavigate:navigate });
   };
 
-  return React.createElement('div', { style:{
+  return React.createElement('div', {
+    'data-current-page':page,
+    'data-wallpaper-exhibition':String(isWelcomePage),
+    className:'cortex-library-root',
+    style:{
     width:'100vw', height:'100dvh', minHeight:'100vh',
     background:DL.bg, color:DL.text, overflow:'hidden',
     fontFamily:'"SF Pro Display", "Inter", -apple-system, sans-serif',
     display:'flex', flexDirection:mode === 'desktop' ? 'row' : 'column',
     position:'relative',
   }},
-    React.createElement(CortexInteractiveWallpaper, { wallpaper }),
-    React.createElement('div', { style:{ position:'absolute', inset:0, pointerEvents:'none', filter:'blur(60px)', opacity:0.98 }},
+    React.createElement(CortexInteractiveWallpaper, { wallpaper, exhibition:isWelcomePage }),
+    React.createElement('div', { className:'cortex-library-ambient-orbs', style:{ position:'absolute', inset:0, pointerEvents:'none', filter:'blur(60px)', opacity:isWelcomePage ? 0.82 : 0.54 }},
       [
         { x:'8%', y:'12%', s:220, c:'rgba(99,102,241,0.20)', d:12 },
         { x:'72%', y:'8%', s:180, c:'rgba(168,85,247,0.17)', d:15 },
@@ -280,7 +286,7 @@ function CortexLibraryShell() {
       position:'relative', zIndex:1, flex:1, minWidth:0, minHeight:0,
       display:'flex', flexDirection:'column', overflow:'hidden',
     }},
-      React.createElement('div', { style:{
+      React.createElement('div', { className:'cortex-library-topbar', style:{
         display:'flex', justifyContent:'space-between', alignItems:'center',
         padding:mode === 'mobile' ? '10px 14px' : '14px 22px',
         borderBottom:`1px solid ${DL.glassBorder}`,
@@ -302,23 +308,24 @@ function CortexLibraryShell() {
       ),
       React.createElement('section', {
         key:animKey,
+        className:'cortex-library-content',
         style:{
           flex:1, minHeight:0, overflow:'hidden',
           padding:mode === 'desktop' ? 24 : mode === 'tablet' ? 18 : 0,
         }
       },
-        React.createElement('div', { style:{
+        React.createElement('div', { className:'cortex-library-stage', style:{
           height:'100%', width:'100%',
           maxWidth:mode === 'desktop' ? 'none' : '100%',
           margin:'0 auto', overflow:'hidden',
           borderRadius:mode === 'mobile' ? 0 : 28,
           border:mode === 'mobile' ? 'none' : `1px solid ${DL.glassBorder}`,
-          background:'rgba(10,10,26,0.58)',
+          background:isWelcomePage ? 'rgba(10,10,26,0.38)' : 'rgba(10,10,26,0.58)',
           boxShadow:mode === 'mobile' ? 'none' : `0 18px 60px ${DL.shadowColor}, inset 0 1px 0 ${DL.glassHigh}`,
-          backdropFilter:'blur(24px) saturate(180%)',
-          WebkitBackdropFilter:'blur(24px) saturate(180%)',
+          backdropFilter:isWelcomePage ? 'blur(14px) saturate(165%)' : 'blur(24px) saturate(180%)',
+          WebkitBackdropFilter:isWelcomePage ? 'blur(14px) saturate(165%)' : 'blur(24px) saturate(180%)',
         }},
-          React.createElement('div', { style:{ height:'100%', overflow:'hidden', position:'relative' }}, renderPage())
+          React.createElement('div', { className:'cortex-library-stage-inner', style:{ height:'100%', overflow:'hidden', position:'relative' }}, renderPage())
         )
       )
     )

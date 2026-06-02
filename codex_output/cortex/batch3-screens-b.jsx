@@ -118,14 +118,15 @@ function PageQuickRefModal({ onNavigate }) {
     ),
 
     open && React.createElement('div', {
+      className:'cortex-quickref-overlay',
       style:{
         position:'absolute', inset:0, zIndex:80,
         background:'rgba(0,0,0,0.52)', display:'flex',
-        alignItems:'flex-end', padding:'0 18px 28px',
+        alignItems:'flex-end', padding:'0 18px calc(22px + env(safe-area-inset-bottom))',
         backdropFilter:'blur(6px)', WebkitBackdropFilter:'blur(6px)',
       }
     },
-      React.createElement(B1Card, { glow:true, pad:16, style:{ width:'100%', animation:'slide-up 0.3s ease backwards' }},
+      React.createElement(B1Card, { glow:true, pad:16, className:'cortex-quickref-sheet', style:{ width:'100%', maxHeight:'min(640px, calc(100% - 26px))', overflowY:'auto', animation:'slide-up 0.3s ease backwards' }},
         React.createElement('div', { style:{ width:42, height:4, borderRadius:999, background:'rgba(255,255,255,0.22)', margin:'0 auto 13px' }}),
         React.createElement('div', { style:{ display:'flex', justifyContent:'space-between', alignItems:'center', gap:10, marginBottom:10 }},
           React.createElement('div', null,

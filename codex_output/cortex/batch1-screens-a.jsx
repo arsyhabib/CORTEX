@@ -25,7 +25,7 @@ function PageWelcome({ onNavigate }) {
   return React.createElement('div', {
     'data-screen-label': 'P1-Welcome',
     style: { position:'absolute', inset:0, display:'flex', flexDirection:'column',
-      alignItems:'center', justifyContent:'center', background:DL.bg, overflow:'hidden' }
+      alignItems:'center', justifyContent:'center', background:'transparent', overflow:'hidden' }
   },
     /* Animated orbs background */
     React.createElement('div', { style:{ position:'absolute', inset:0, filter:'blur(60px)' }},

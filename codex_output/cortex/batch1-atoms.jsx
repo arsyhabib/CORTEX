@@ -20,7 +20,7 @@ const DL = {
 function B1Card({ children, style, onClick, glow, pad = 16, className }) {
   const [p, setP] = React.useState(false);
   return React.createElement('div', {
-    className,
+    className:['b1-card', className].filter(Boolean).join(' '),
     onPointerDown: () => setP(true), onPointerUp: () => setP(false), onPointerLeave: () => setP(false),
     onClick,
     style: {
@@ -121,6 +121,7 @@ function B1Button({ label, icon, onClick, variant = 'primary', full, style }) {
   const [p, setP] = React.useState(false);
   const isPrimary = variant === 'primary';
   return React.createElement('div', {
+    className:'b1-button',
     onClick, onPointerDown:()=>setP(true), onPointerUp:()=>setP(false), onPointerLeave:()=>setP(false),
     style: {
       display:'inline-flex', alignItems:'center', justifyContent:'center', gap:6,
