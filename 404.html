@@ -1192,11 +1192,11 @@
   .b1-card {
     padding: min(var(--card-pad, 16px), 16px) !important;
   }
-  [data-screen-label="P0-Batch0Kernel"] {
+  [data-screen-label="Studio-Main"] {
     padding-left: 16px !important;
     padding-right: 16px !important;
   }
-  [data-screen-label="P22-QuickRefModal"] .cortex-page-scroll {
+  [data-screen-label="QuickRef Modal"] .cortex-page-scroll {
     padding-bottom: calc(150px + env(safe-area-inset-bottom)) !important;
   }
   .cortex-quickref-overlay {
@@ -3787,7 +3787,7 @@ function PageWelcome({ onNavigate }) {
   ], []);
 
   return React.createElement('div', {
-    'data-screen-label': 'P1-Welcome',
+    'data-screen-label': 'Welcome-Intro',
     style: {
       position:'absolute',
       inset:0,
@@ -4978,7 +4978,7 @@ function PageTypographyReading({ onNavigate }) {
   };
 
   return React.createElement(B2PageShell, {
-    label:'P9-TypographyReading',
+    label:'Typography Reading',
     title:'Reading',
     subtitle:'Neuroanatomy note',
     onBack:()=>onNavigate(8),
@@ -5063,7 +5063,7 @@ function PageBulletContent({ onNavigate }) {
   ];
 
   return React.createElement(B2PageShell, {
-    label:'P10-BulletContent',
+    label:'Bullet Content',
     title:'Bullets',
     subtitle:'Structured lesson',
     onBack:()=>onNavigate(9),
@@ -5109,7 +5109,7 @@ function PageCalloutClinicalPearl({ onNavigate }) {
   const [selected, setSelected] = React.useState('pearl');
 
   return React.createElement(B2PageShell, {
-    label:'P11-ClinicalPearl',
+    label:'Clinical Pearl',
     title:'Clinical Pearls',
     subtitle:'Callout system',
     onBack:()=>onNavigate(10),
@@ -5191,7 +5191,7 @@ function PageImageCard({ onNavigate }) {
   ];
 
   return React.createElement(B2PageShell, {
-    label:'P12-ImageCard',
+    label:'Image Cards',
     title:'Image Cards',
     subtitle:'Rounded media',
     onBack:()=>onNavigate(11),
@@ -5248,7 +5248,7 @@ function PageMediaViewer3D({ onNavigate }) {
   const current = modeCopy[mode];
 
   return React.createElement(B2PageShell, {
-    label:'P13-MediaViewer3D',
+    label:'Media Viewer',
     title:'Media Viewer',
     subtitle:'3D placeholder',
     onBack:()=>onNavigate(12),
@@ -5350,7 +5350,7 @@ function PageGlossaryTerms({ onNavigate }) {
   const shown = terms.filter(t => (t.term + t.type + t.def).toLowerCase().includes(query.toLowerCase()));
 
   return React.createElement(B2PageShell, {
-    label:'P14-Glossary',
+    label:'Glossary',
     title:'Glossary',
     subtitle:'Terms & definitions',
     onBack:()=>onNavigate(13),
@@ -5405,7 +5405,7 @@ function PageQuickSummary({ onNavigate }) {
   ];
 
   return React.createElement(B2PageShell, {
-    label:'P15-QuickSummary',
+    label:'Quick Summary',
     title:'Summary',
     subtitle:'End of lesson',
     onBack:()=>onNavigate(14),
@@ -5465,7 +5465,7 @@ function PageBilingualSimple({ onNavigate }) {
   const simple = mode === 'simple';
 
   return React.createElement(B2PageShell, {
-    label:'P16-BilingualSimple',
+    label:'Bilingual / Simple',
     title:'Simpler',
     subtitle:'Bilingual state',
     onBack:()=>onNavigate(15),
@@ -5674,7 +5674,7 @@ function PageQuiz({ onNavigate }) {
   ];
 
   return React.createElement(B2PageShell, {
-    label:'P17-Quiz',
+    label:'Quiz',
     title:'Quiz',
     subtitle:'Design placeholder',
     onBack:()=>onNavigate(16),
@@ -5729,7 +5729,7 @@ function PageFlashcard({ onNavigate }) {
   const [difficulty, setDifficulty] = React.useState('balanced');
 
   return React.createElement(B2PageShell, {
-    label:'P18-Flashcard',
+    label:'Flashcard',
     title:'Flashcards',
     subtitle:'Review mode',
     onBack:()=>onNavigate(17),
@@ -5795,7 +5795,7 @@ function PageProgressDashboard({ onNavigate }) {
   ];
 
   return React.createElement(B2PageShell, {
-    label:'P19-ProgressDashboard',
+    label:'Progress Dashboard',
     title:'Progress',
     subtitle:'Learning dashboard',
     onBack:()=>onNavigate(18),
@@ -5851,7 +5851,7 @@ function PageAIWorkspace({ onNavigate }) {
   ];
 
   return React.createElement(B2PageShell, {
-    label:'P20-AIWorkspace',
+    label:'AI Workspace',
     title:'AI Workspace',
     subtitle:'No real API calls',
     onBack:()=>onNavigate(19),
@@ -5938,7 +5938,7 @@ function PageProviderAdvancedSettings({ onNavigate }) {
   });
 
   return React.createElement(B2PageShell, {
-    label:'P21-ProviderAdvancedSettings',
+    label:'Provider & Advanced Settings',
     title:'Advanced',
     subtitle:'Provider & haptics',
     onBack:()=>onNavigate(20),
@@ -6013,7 +6013,7 @@ function PageQuickRefModal({ onNavigate }) {
   const [open, setOpen] = React.useState(true);
 
   return React.createElement(B2PageShell, {
-    label:'P22-QuickRefModal',
+    label:'QuickRef Modal',
     title:'QuickRef',
     subtitle:'Modal pattern',
     onBack:()=>onNavigate(21),
@@ -6072,7 +6072,7 @@ function PageHelpAboutPrivacy({ onNavigate }) {
   };
 
   return React.createElement(B2PageShell, {
-    label:'P23-HelpAboutPrivacy',
+    label:'Help / About / Privacy',
     title:'Help',
     subtitle:'About & privacy',
     onBack:()=>onNavigate(22),
@@ -6101,7 +6101,7 @@ function PageHelpAboutPrivacy({ onNavigate }) {
       React.createElement(B1Divider, { style:{ margin:'12px 0' }}),
       [
         { t:'Contact placeholder', s:'No message is sent from this prototype.' },
-        { t:'Version', s:'Cortex Design Library Batch 3.' },
+        { t:'Version', s:'Cortex Design Library.' },
         { t:'Data handling', s:'Dummy content only; no real medical or user data.' },
       ].map((row, i) => React.createElement(B3Row, {
         key:i,
@@ -6129,7 +6129,7 @@ function PageStatesLibrary({ onNavigate }) {
   const current = states[mode];
 
   return React.createElement(B2PageShell, {
-    label:'P24-StatesLibrary',
+    label:'States Library',
     title:'States',
     subtitle:'Empty / loading / error',
     onBack:()=>onNavigate(23),
@@ -6492,8 +6492,8 @@ Object.assign(window, { CORTEX_WALLPAPERS, CortexInteractiveWallpaper, CortexWal
    Adaptive fullscreen shell for desktop, iPad/tablet, Android tablet, and mobile. */
 
 const CORTEX_LIBRARY_PAGES = [
-  { id:0, batch:'B0', label:'Main Studio', icon:'Core', component:'PageBatch0Kernel' },
-  { id:1, batch:'B1', label:'Welcome', icon:'P1', component:'PageWelcome' },
+  { id:0, label:'Main Studio', icon:'Core', component:'PageBatch0Kernel' },
+  { id:1, label:'Welcome', icon:'⌂', component:'PageWelcome' },
 ];
 
 function useCortexLayoutMode() {
@@ -6629,7 +6629,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
   const themeRows = [
     { id:'neural', name:'Neural Pulse', note:'Core Claude DNA, synaptic purple-blue glass.' },
     { id:'aurora', name:'Aurora Prism', note:'Ethereal cyan/prism exploratory shell.' },
-    { id:'gold', name:'Liquid Gold', note:'Editorial premium variation from Batch 0.' },
+    { id:'gold', name:'Liquid Gold', note:'Editorial premium variation in the theme set.' },
     { id:'neon', name:'Neon Matrix', note:'Cyber green hacker learning mood.' },
     { id:'bloom', name:'Sunset Bloom', note:'Warm playful alternate visual route.' },
   ];
@@ -6661,7 +6661,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
   const SurfaceComp = SurfaceCompName && window[SurfaceCompName];
 
   return React.createElement('div', {
-    'data-screen-label':'P0-MainStudio',
+    'data-screen-label':'Studio-Main',
     className:'hide-scrollbar cortex-motion-page',
     style:{
       height:'100%',
@@ -6744,8 +6744,8 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
             const active = surface.id === activeSurface.id;
             return React.createElement(B3Row, {
               key:surface.id,
-              title:`P${surface.id} · ${surface.label}`,
-              sub:surface.summary,
+              title:surface.label,
+              sub:`Page ${surface.id} • ${surface.summary}`,
               active,
               onClick:()=>{
                 onSurfaceChange && onSurfaceChange(surface.id);
@@ -6761,6 +6761,10 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
           background:theme.colors.gradientCard,
           borderColor:theme.colors.glassBorder,
           marginBottom:12,
+          display:'flex',
+          flexDirection:'column',
+          minHeight:0,
+          height:'100%',
         }},
           React.createElement('div', { style:{ display:'flex', alignItems:'center', justifyContent:'space-between', gap:12, marginBottom:12 }},
             React.createElement('div', null,
@@ -6771,23 +6775,25 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
             React.createElement(B1Button, {
               className:'cortex-motion-press',
               onClick:()=>setViewSurface(null),
+              icon:'←',
+              label:'Back to hub',
               style:{ padding:'10px 12px', fontSize:11 }
-            }, 'Back to hub'),
+            }),
           ),
           React.createElement('div', { style:{ display:'flex', flexWrap:'wrap', gap:8, marginBottom:12 } },
-            [activeSurface.group, `P${activeSurface.id}`, activeSurface.hint].map((chip, i) =>
+            [activeSurface.group, `Page ${activeSurface.id}`, activeSurface.hint].map((chip, i) =>
               React.createElement(B1Badge, { key:chip, color:i === 0 ? currentTheme.colors.accent1 : i === 1 ? currentTheme.colors.accent2 : currentTheme.colors.accent3 }, chip)
             )
           ),
           SurfaceComp
-            ? React.createElement('div', { style:{ maxHeight: compact ? '68vh' : '72vh', overflow:'auto', paddingRight:4 } },
+            ? React.createElement('div', { style:{ flex:1, minHeight:0, overflow:'auto', paddingRight:4 } },
                 React.createElement(SurfaceComp, { onNavigate, themeId, theme, onThemeChange })
               )
             : React.createElement(B2Callout, { tone:'danger', title:'Missing surface component' }, SurfaceCompName || activeSurface.label)
         ) : React.createElement(React.Fragment, null,
-          React.createElement(B1Section, { title:'Surface Preview', action:`P${activeSurface.id}` }),
+          React.createElement(B1Section, { title:'Surface Preview', action:`Page ${activeSurface.id}` }),
           React.createElement('div', { style:{ display:'flex', flexWrap:'wrap', gap:8, marginBottom:12 } },
-            [activeSurface.group, `P${activeSurface.id}`, activeSurface.hint].map((chip, i) =>
+            [activeSurface.group, `Page ${activeSurface.id}`, activeSurface.hint].map((chip, i) =>
               React.createElement(B1Badge, { key:chip, color:i === 0 ? currentTheme.colors.accent1 : i === 1 ? currentTheme.colors.accent2 : currentTheme.colors.accent3 }, chip)
             )
           ),
@@ -6848,6 +6854,8 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
         React.createElement(B1Button, {
           className:'cortex-motion-press',
           onClick:()=>setFabOpen(v => !v),
+          icon:'◉',
+          label:'Pages',
           style:{
             minWidth:104,
             height:56,
@@ -6858,7 +6866,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
             justifyContent:'center',
             boxShadow:`0 18px 32px ${currentTheme.colors.shadowColor}`,
           }
-        }, '◉', 'Pages'),
+        }),
         fabOpen && React.createElement('div', { style:{
           position:'absolute',
           right:0,
@@ -6894,22 +6902,22 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
           React.createElement('div', { style:{ color:DL.mute, fontSize:10, textTransform:'uppercase', letterSpacing:1.2, margin:'8px 0 8px' }}, `${fabGroup} • tap to open`),
           activeGroupItems.map(item => React.createElement(B1Button, {
             key:item.id,
+            icon:`#${item.id}`,
+            label:item.label,
             onClick:()=>{
               onSurfaceChange && onSurfaceChange(item.id);
               setViewSurface(item.id);
               setFabOpen(false);
             },
             className:'cortex-motion-press',
+            variant:'ghost',
             style:{
               width:'100%',
               marginBottom:8,
-              justifyContent:'space-between',
+              justifyContent:'flex-start',
               padding:'11px 13px',
             }
-          },
-            React.createElement('span', null, `P${item.id} · ${item.label}`),
-            React.createElement('span', { style:{ color:DL.accent, fontWeight:900 }}, '>')
-          ))
+          }))
         )
       )
     )
@@ -7028,7 +7036,7 @@ function CortexLibraryShell() {
   const [themeId, setThemeId] = React.useState(() => localStorage.getItem('cortex.themeId') || 'neural');
   const current = page === 1
     ? (CORTEX_LIBRARY_PAGES.find(p => p.id === 1) || CORTEX_LIBRARY_PAGES[0])
-    : { id:0, batch:'B0', label:'Main Studio', icon:'Core', component:'PageBatch0Kernel' };
+    : { id:0, label:'Main Studio', icon:'Core', component:'PageBatch0Kernel' };
   const isWelcomePage = page === 1;
   const theme = React.useMemo(() => cortexApplyThemeGlobals(themeId), [themeId]);
 
@@ -7133,8 +7141,8 @@ function CortexLibraryShell() {
         React.createElement('div', null,
           React.createElement('div', { style:{ fontSize:mode === 'mobile' ? 13 : 15, color:theme.colors.text, fontWeight:900 }},
             page === 0
-              ? `Main Studio / Surface P${surfaceId}: ${cortexSurfaceLookup(surfaceId).label}`
-              : `${current.batch} / Page ${current.id}: ${current.label}`),
+              ? `Main Studio / ${cortexSurfaceLookup(surfaceId).label}`
+              : current.label),
           React.createElement('div', { style:{ fontSize:10, color:theme.colors.textMuted, marginTop:2 }},
             page === 0
               ? `Auto layout: ${mode} - ${window.innerWidth}x${window.innerHeight} • 21 packed surfaces`
