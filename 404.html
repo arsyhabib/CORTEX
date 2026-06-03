@@ -6849,17 +6849,16 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
           className:'cortex-motion-press',
           onClick:()=>setFabOpen(v => !v),
           style:{
-            width:56,
+            minWidth:104,
             height:56,
             borderRadius:20,
-            padding:0,
+            padding:'0 16px',
             display:'flex',
             alignItems:'center',
             justifyContent:'center',
-            fontSize:26,
             boxShadow:`0 18px 32px ${currentTheme.colors.shadowColor}`,
           }
-        }, '+'),
+        }, '◉', 'Pages'),
         fabOpen && React.createElement('div', { style:{
           position:'absolute',
           right:0,
@@ -6918,63 +6917,98 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
 }
 
 function CortexLibraryNav({ page, onNavigate, mode }) {
-  const groups = ['B0','B1'];
   return React.createElement('aside', { className:'cortex-library-nav hide-scrollbar', style:{
     width:mode === 'desktop' ? 292 : '100%',
     height:mode === 'desktop' ? '100%' : 'auto',
     overflowY:mode === 'desktop' ? 'auto' : 'hidden',
     overflowX:mode === 'desktop' ? 'hidden' : 'auto',
-    padding:mode === 'desktop' ? '22px 14px' : '10px 14px',
-    borderRight:mode === 'desktop' ? `1px solid ${DL.glassBorder}` : 'none',
-    borderBottom:mode === 'desktop' ? 'none' : `1px solid ${DL.glassBorder}`,
-    background:'rgba(10,10,26,0.70)',
-    backdropFilter:'blur(28px) saturate(190%)',
-    WebkitBackdropFilter:'blur(28px) saturate(190%)',
+    padding:mode === 'desktop' ? '18px 14px' : '10px 14px',
+    borderRight:mode === 'desktop' ? `1px solid rgba(120,120,180,0.10)` : 'none',
+    borderBottom:mode === 'desktop' ? 'none' : `1px solid rgba(120,120,180,0.10)`,
+    background:'rgba(8,10,26,0.52)',
+    backdropFilter:'blur(18px) saturate(150%)',
+    WebkitBackdropFilter:'blur(18px) saturate(150%)',
     flexShrink:0,
   }},
     React.createElement('div', { style:{
       display:mode === 'desktop' ? 'block' : 'flex',
       alignItems:'center',
       gap:12,
-      minWidth:mode === 'desktop' ? 'auto' : 900,
+      minWidth:mode === 'desktop' ? 'auto' : 760,
     }},
       React.createElement('div', { style:{ marginBottom:mode === 'desktop' ? 18 : 0, minWidth:210 }},
         React.createElement('div', { style:{ color:DL.text, fontSize:18, fontWeight:900, letterSpacing:0 }}, 'CORTEX Studio'),
-        React.createElement('div', { style:{ color:DL.mute, fontSize:10, marginTop:4 }}, 'Main Studio + Welcome'),
+        React.createElement('div', { style:{ color:DL.mute, fontSize:10, marginTop:4 }}, 'Main studio and lecture rail'),
       ),
-      groups.map(group => React.createElement('div', { key:group, style:{
-        marginBottom:mode === 'desktop' ? 16 : 0,
-        display:mode === 'desktop' ? 'block' : 'flex',
-        alignItems:'center',
-        gap:6,
+      React.createElement('div', { style:{
+        marginTop:mode === 'desktop' ? 10 : 0,
+        display:'grid',
+        gap:12,
+        minWidth:mode === 'desktop' ? 'auto' : 420,
       }},
         React.createElement('div', { style:{
-          fontSize:9, fontWeight:900, color:DL.accent, letterSpacing:1,
-          margin:mode === 'desktop' ? '0 0 7px 8px' : '0 4px 0 0',
-          minWidth:mode === 'desktop' ? 'auto' : 28,
-        }}, group === 'B0' ? 'BATCH 0' : group),
-        CORTEX_LIBRARY_PAGES.filter(p => p.batch === group).map(item => {
-          const active = item.id === page;
-          return React.createElement('button', {
-            key:item.id,
-            onClick:()=>onNavigate(item.id),
+          padding:14,
+          borderRadius:20,
+          background:'rgba(255,255,255,0.04)',
+          border:`1px solid ${DL.glassBorder}`,
+          boxShadow:`0 12px 30px ${DL.shadowColor}`,
+        }},
+          React.createElement('div', { style:{ color:DL.text, fontSize:11, fontWeight:900, letterSpacing:1.2, textTransform:'uppercase', marginBottom:10 }}, 'Workspace'),
+          React.createElement(B1Button, {
+            label:'Main Studio',
+            icon:'⌁',
+            onClick:()=>onNavigate(0),
             className:'cortex-motion-press',
+            full:true,
             style:{
-              width:mode === 'desktop' ? '100%' : 118,
-              display:'flex', alignItems:'center', gap:8,
-              padding:'9px 10px', marginBottom:mode === 'desktop' ? 4 : 0,
-              borderRadius:12, border:active ? '1px solid rgba(168,85,247,0.38)' : '1px solid transparent',
-              background:active ? 'rgba(168,85,247,0.16)' : 'transparent',
-              color:active ? DL.text : DL.sub,
-              fontFamily:'inherit', cursor:'pointer', textAlign:'left',
-              boxShadow:active ? `0 8px 22px ${DL.shadowColor}` : 'none',
+              justifyContent:'flex-start',
+              padding:'10px 12px',
+              borderRadius:16,
+              marginBottom:8,
             }
-          },
-            React.createElement('span', { style:{ fontSize:10, color:active ? DL.gold : DL.accent, fontWeight:900, minWidth:28 }}, item.icon),
-            React.createElement('span', { style:{ fontSize:11, fontWeight:active ? 850 : 650, overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap' }}, item.label)
-          );
-        })
-      ))
+          }),
+          React.createElement('div', { style:{ color:DL.mute, fontSize:10, lineHeight:1.5, marginTop:6 }},
+            'Welcome appears only at first launch, so the rail stays focused on the main workspace.'
+          )
+        ),
+        React.createElement('div', { style:{
+          padding:14,
+          borderRadius:20,
+          background:'rgba(255,255,255,0.04)',
+          border:`1px solid ${DL.glassBorder}`,
+          boxShadow:`0 12px 30px ${DL.shadowColor}`,
+        }},
+          React.createElement('div', { style:{ color:DL.text, fontSize:11, fontWeight:900, letterSpacing:1.2, textTransform:'uppercase', marginBottom:10 }}, 'Lecture file'),
+          React.createElement('div', { style:{
+            padding:12,
+            borderRadius:16,
+            background:'linear-gradient(135deg, rgba(16,185,129,0.14), rgba(59,130,246,0.12))',
+            border:`1px solid ${DL.glassBorder}`,
+            marginBottom:10,
+          }},
+            React.createElement('div', { style:{ display:'flex', alignItems:'center', justifyContent:'space-between', gap:10, marginBottom:6 }},
+              React.createElement('div', { style:{ color:DL.text, fontSize:12, fontWeight:900 }}, 'Neurology Lecture 01'),
+              React.createElement(B1Badge, { color:DL.teal }, 'PDF')
+            ),
+            React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.45 }},
+              'Dummy file slot for a lecturer upload. The real app can later inject each course file here.'
+            )
+          ),
+          React.createElement(B1Button, {
+            label:'Open file',
+            icon:'↗',
+            onClick:()=>onNavigate(9),
+            className:'cortex-motion-press',
+            full:true,
+            variant:'ghost',
+            style:{
+              justifyContent:'flex-start',
+              padding:'10px 12px',
+              borderRadius:16,
+            }
+          })
+        )
+      )
     )
   );
 }
@@ -7110,7 +7144,7 @@ function CortexLibraryShell() {
           React.createElement(CortexMotionSensorControl),
           React.createElement(CortexWallpaperToggle, { value:wallpaper, onChange:setWallpaper }),
           React.createElement(B1Badge, { color:mode === 'desktop' ? theme.colors.accent1 : mode === 'tablet' ? theme.colors.accent2 : theme.colors.accent3 }, mode.toUpperCase()),
-          React.createElement(B1Badge, null, page === 0 ? '21' : 'WELCOME'),
+          React.createElement(B1Badge, null, page === 0 ? 'STUDIO' : 'ENTRY'),
         )
       ),
       React.createElement('section', {
