@@ -4753,12 +4753,54 @@ function PageSettings({ onNavigate, themeId: themeIdProp, theme: themeProp, onTh
         icon:'🌐', label:'Bahasa', sub:'Indonesia',
       }),
 
+      React.createElement(B1Section, { title:'Identitas Akun', style:{ marginTop:14, marginBottom:4 } }),
+      React.createElement(B1Card, { pad:14, style:{ marginTop:8, marginBottom:4 }},
+        React.createElement('div', { style:{ display:'flex', alignItems:'center', gap:12, marginBottom:12 }},
+          React.createElement('div', { style:{
+            width:48, height:48, borderRadius:18,
+            background:'linear-gradient(145deg, rgba(6,214,160,0.92), rgba(168,85,247,0.86))',
+            display:'flex', alignItems:'center', justifyContent:'center',
+            fontSize:20, boxShadow:`0 12px 28px ${DL.shadowColor}`,
+          }}, 'U'),
+          React.createElement('div', null,
+            React.createElement('div', { style:{ fontSize:15, fontWeight:900, color:DL.text }}, 'Dr. Raka'),
+            React.createElement('div', { style:{ fontSize:11, color:DL.sub, marginTop:3 }}, 'Learner profile • Demo account'),
+          ),
+        ),
+        React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'repeat(3, minmax(0,1fr))', gap:8 }},
+          [
+            { t:'Course', v:'Neurology' },
+            { t:'Level', v:'7' },
+            { t:'Status', v:'Active' },
+          ].map(item => React.createElement(B2StatPill, { key:item.t, label:item.t, value:item.v })),
+        ),
+        React.createElement('div', { style:{ fontSize:10, color:DL.mute, marginTop:10, lineHeight:1.5 }},
+          'This identity block is a placeholder for the user profile that will later receive real course and session metadata.'
+        ),
+      ),
+
       /* Account */
       React.createElement(B1Section, { title:'Akun', style:{ marginTop:14, marginBottom:4 } }),
       React.createElement(SettingsRow, { icon:'👤', label:'Profil', sub:'Dr. Raka' }),
       React.createElement(SettingsRow, { icon:'🔑', label:'Keamanan' }),
       React.createElement(SettingsRow, { icon:'📤', label:'Ekspor Data' }),
       React.createElement(SettingsRow, { icon:'❓', label:'Bantuan & FAQ' }),
+
+      React.createElement(B1Section, { title:'Developer', style:{ marginTop:14, marginBottom:4 } }),
+      React.createElement(B1Card, { pad:14, style:{ marginTop:8, marginBottom:4 }},
+        React.createElement(B3Row, {
+          title:CORTEX_DEVELOPER_NAME,
+          sub:`${CORTEX_DEVELOPER_ROLE} • WhatsApp contact`,
+          right:React.createElement(B1Badge, { color:DL.teal }, 'WA'),
+        }),
+        React.createElement(B1Button, {
+          label:'Chat WhatsApp',
+          icon:'↗',
+          onClick:()=>window.open(CORTEX_DEVELOPER_WA_URL, '_blank', 'noopener,noreferrer'),
+          full:true,
+          style:{ marginTop:10, justifyContent:'flex-start' }
+        }),
+      ),
 
       /* Footer */
       React.createElement('div', { style:{ textAlign:'center', marginTop:20, padding:'10px 0' }},
@@ -5183,37 +5225,178 @@ Object.assign(window, {
 
 function PageTypographyReading({ onNavigate }) {
   const [held, setHeld] = React.useState(false);
+  const [openSections, setOpenSections] = React.useState([0, 1, 3]);
+  const [openSubs, setOpenSubs] = React.useState([0, 2]);
+  const [viewerMode, setViewerMode] = React.useState('poster');
+  const [recallAnswers, setRecallAnswers] = React.useState([null, null, null, null, null]);
   const timer = React.useRef(null);
   const startHold = () => {
+    clearTimeout(timer.current);
     timer.current = setTimeout(() => setHeld(true), 520);
   };
   const endHold = () => {
     clearTimeout(timer.current);
   };
+  const toggleSection = (idx) => {
+    setOpenSections(prev => prev.includes(idx) ? prev.filter(v => v !== idx) : [...prev, idx]);
+  };
+  const toggleSub = (idx) => {
+    setOpenSubs(prev => prev.includes(idx) ? prev.filter(v => v !== idx) : [...prev, idx]);
+  };
+
+  const lectureSections = [
+    {
+      title:'1. Snapshot klinis',
+      summary:'Kerangka baca cepat untuk mengenali perfusi, kesadaran, dan tanda neurologis awal.',
+      tone:'note',
+      body:[
+        'Perfusi yang berubah biasanya tidak datang sendirian. Di practice material, kita membaca pola: respons bicara, pupil, kekuatan motorik, dan tingkat alertness.',
+        'Tujuan utamanya adalah menghubungkan observasi yang kecil menjadi keputusan yang lebih tenang dan lebih cepat.',
+      ],
+      subs:[
+        {
+          title:'1.1 Perfusion window',
+          lines:['Nilai kesadaran baseline.', 'Bandingkan perubahan kecil dari sebelumnya.', 'Cari timing kejadian: mendadak atau bertahap.'],
+        },
+        {
+          title:'1.2 Bedside red flags',
+          lines:['Speech berubah.', 'Satu pupil berbeda.', 'Kelemahan sisi tubuh.', 'Penurunan fokus atau perhatian.'],
+        },
+      ],
+    },
+    {
+      title:'2. Pemeriksaan inti',
+      summary:'Langkah bedside yang paling berguna untuk membangun rasa aman saat menilai sistem saraf.',
+      tone:'caution',
+      body:[
+        'Materi dummy ini menekankan urutan yang stabil. Observasi awal yang konsisten sering lebih bernilai daripada pemeriksaan yang terlalu ramai.',
+        'Gunakan irama yang sama: lihat, dengar, bandingkan, lalu catat perubahan yang paling relevan.',
+      ],
+      subs:[
+        {
+          title:'2.1 Speech & language',
+          lines:['Dengar kelancaran kalimat.', 'Cari kata yang hilang atau tersendat.', 'Nilai apakah jawaban sesuai konteks.'],
+        },
+        {
+          title:'2.2 Pupil & motor',
+          lines:['Bandingkan ukuran pupil.', 'Lihat reaksi terhadap cahaya.', 'Periksa kekuatan kanan dan kiri secara seimbang.'],
+        },
+      ],
+    },
+    {
+      title:'3. Supportive data',
+      summary:'Tabel pelengkap untuk membantu menghubungkan istilah, makna, dan tindakan belajar.',
+      tone:'evidence',
+      body:[
+        'Bagian ini sengaja dibuat seperti ringkasan dosen: pendek, rapi, dan mudah dirujuk ulang saat mengerjakan kuis atau revisi cepat.',
+      ],
+      subs:[
+        {
+          title:'3.1 Teaching note',
+          lines:['Tandai istilah penting.', 'Pindahkan ke glossary jika perlu.', 'Hubungkan ke kasus latihan berikutnya.'],
+        },
+      ],
+    },
+    {
+      title:'4. Visual reference',
+      summary:'Satu panel gambar dan satu panel viewport 3D placeholder untuk memperkaya bahan baca.',
+      tone:'pearl',
+      body:[
+        'Konsep visual di sini bukan ilustrasi medis asli, melainkan placeholder yang menjaga alur belajar tetap menyenangkan dan mudah di-scan.',
+      ],
+      subs:[
+        {
+          title:'4.1 Poster fallback',
+          lines:['Dipakai saat viewport tidak tersedia.', 'Tetap menyimpan konteks visual.', 'Membantu pengguna mobile yang butuh frame statis.'],
+        },
+        {
+          title:'4.2 Unsupported states',
+          lines:['Loading placeholder.', '3D unsupported.', 'Motion fallback.'],
+        },
+      ],
+    },
+    {
+      title:'5. Recall drill',
+      summary:'Lima soal dummy untuk mengecek daya ingat setelah membaca materi.',
+      tone:'note',
+      body:[
+        'Kuis recall ini sengaja diletakkan di bawah supaya materi, ilustrasi, dan review merasa seperti satu paket yang utuh.',
+      ],
+      subs:[
+        {
+          title:'5.1 How to use',
+          lines:['Pilih jawaban terbaik.', 'Lihat feedback langsung.', 'Gunakan sebagai latihan cepat sebelum pindah page.'],
+        },
+      ],
+    },
+  ];
+  const lectureTable = [
+    ['Speech berubah', 'Perlu perhatian awal', 'Dengar alur kalimat dan artikulasi'],
+    ['Pupil asimetris', 'Red flag bedside', 'Bandingkan kiri-kanan secara tenang'],
+    ['Motor menurun', 'Kecurigaan lebih tinggi', 'Uji kekuatan, bukan hanya gerakan'],
+    ['Kesadaran menurun', 'Butuh evaluasi lanjut', 'Catat baseline dan waktu perubahan'],
+  ];
+  const recallQuestions = [
+    {
+      q:'Apa langkah awal paling aman saat melihat perubahan neurologis halus?',
+      options:['Langsung menegakkan diagnosis tunggal', 'Bandingkan dengan baseline dan timing', 'Hanya cek suhu tubuh', 'Lewati pemeriksaan bedside'],
+      correct:1,
+      explain:'Perbandingan dengan baseline dan timing membantu membedakan perubahan akut, progresif, atau stabil.',
+    },
+    {
+      q:'Tanda apa yang paling sering dianggap red flag pada bedside screen dummy ini?',
+      options:['Pupil kanan-kiri sama', 'Kekuatan simetris', 'Pupil asimetris', 'Napas normal'],
+      correct:2,
+      explain:'Asimetri pupil adalah sinyal yang layak mendapat perhatian karena dapat memandu tindak lanjut.',
+    },
+    {
+      q:'Mengapa speech dan language dipasangkan di materi ini?',
+      options:['Agar lebih panjang', 'Karena keduanya memberi petunjuk cepat tentang fungsi kortikal', 'Supaya sulit', 'Tidak ada alasan'],
+      correct:1,
+      explain:'Bahasa dan bicara sering memberi petunjuk awal tentang fungsi neurologis yang berubah.',
+    },
+    {
+      q:'Apa fungsi tabel ringkasan di halaman ini?',
+      options:['Mengganti semua materi', 'Membantu scan cepat istilah dan makna', 'Membuat layar padat', 'Hanya dekorasi'],
+      correct:1,
+      explain:'Tabel dipakai sebagai pelengkap baca cepat agar user bisa melakukan recall tanpa mengulang seluruh paragraf.',
+    },
+    {
+      q:'Saat viewport 3D tidak tersedia, fallback terbaik pada materi dummy ini adalah...',
+      options:['Menghapus konteks visual', 'Menampilkan poster fallback dan status unsupported', 'Memaksa load model', 'Menutup halaman'],
+      correct:1,
+      explain:'Poster fallback menjaga konteks tetap terlihat ketika fitur 3D tidak tersedia di device.',
+    },
+  ];
 
   return React.createElement(B2PageShell, {
     label:'Typography Reading',
-    title:'Reading',
-    subtitle:'Neuroanatomy note',
+    title:'Neurology Lecture 01',
+    subtitle:'Sidebar lecture file',
     onBack:()=>onNavigate(8),
-    right:React.createElement(B1Badge, { color:DL.teal }, 'Aa'),
+    right:React.createElement(B1Badge, { color:DL.teal }, 'Lecture'),
   },
     React.createElement(B1Card, { glow:true, style:{ marginBottom:14, animation:'scale-in 0.35s ease backwards' }},
-      React.createElement(B2Kicker, null, 'Medical typography sample'),
-      React.createElement('div', { style:{ fontSize:24, lineHeight:1.18, fontWeight:800, color:DL.text, letterSpacing:0, textWrap:'balance' }},
+      React.createElement(B2Kicker, null, 'Lecture file preview'),
+      React.createElement('div', { style:{ fontSize:26, lineHeight:1.14, fontWeight:900, color:DL.text, letterSpacing:0, textWrap:'balance' }},
         'Cerebral Perfusion and Early Neurologic Assessment'),
-      React.createElement('div', { style:{ marginTop:12, display:'flex', gap:8 }},
-        React.createElement(B2StatPill, { label:'READ', value:'7 min' }),
-        React.createElement(B2StatPill, { label:'LEVEL', value:'Core' }),
-        React.createElement(B2StatPill, { label:'FOCUS', value:'CNS', color:DL.teal }),
+      React.createElement('div', { style:{ marginTop:10, color:DL.sub, fontSize:13, lineHeight:1.6, maxWidth:760 }},
+        'This dummy lecture is intentionally long enough to feel like a real file from a lecturer. It mixes narrative reading, structured folds, reference tables, visual placeholders, and a compact recall block so the sidebar file feels meaningful rather than decorative.'),
+      React.createElement('div', { style:{ marginTop:12, display:'grid', gridTemplateColumns:'repeat(3, minmax(0,1fr))', gap:8 }},
+        React.createElement(B2StatPill, { label:'DURATION', value:'10 min' }),
+        React.createElement(B2StatPill, { label:'CHAPTERS', value:'5 folds' }),
+        React.createElement(B2StatPill, { label:'MODE', value:'Lecture', color:DL.teal }),
       ),
+      React.createElement('div', { style:{ display:'flex', gap:8, flexWrap:'wrap', marginTop:12 }},
+        ['Synaptic','Bedside','Recall','Visual'].map((t, i) => React.createElement(B1Badge, { key:t, color:i === 1 ? DL.gold : DL.accent }, t))
+      )
     ),
 
     React.createElement(B1Card, { pad:16, style:{ marginBottom:14 }},
       React.createElement(B2ReadingBlock, { lead:true },
-        'Perfusion pressure describes the force that supports blood flow through delicate neural tissue. In a bedside learning context, the goal is not memorizing a single number, but recognizing patterns that may change consciousness, speech, pupil symmetry, or motor response.'),
+        'The lecture begins with a quiet framing: evaluate the patient first, then translate subtle findings into a learning story. In the shell, this style of writing keeps the content calm and readable on both iPhone and Android screens.'),
       React.createElement(B2ReadingBlock, null,
-        'A mature clinical reading page should feel quiet and stable. The line length stays short, the contrast is soft but legible, and key terms are highlighted without turning the paragraph into a decoration layer.'),
+        'The notes do not chase completeness for its own sake. They aim for clarity: what changed, what it could mean, and what would make us pause. That structure makes the page feel more like a real classroom file and less like a demo card.'),
       React.createElement('div', {
         onPointerDown:startHold,
         onPointerUp:endHold,
@@ -5239,18 +5422,176 @@ function PageTypographyReading({ onNavigate }) {
         ),
       ),
       React.createElement(B2ReadingBlock, null,
-        'In dummy curriculum content, terminology such as autoregulation, ischemia, and edema can be introduced progressively, then revisited with callouts or glossary cards.'),
+        'Key vocabulary is introduced gradually. Terms such as autoregulation, ischemia, edema, perfusion, GCS, and pupil reflex are not presented as isolated labels; they sit inside a small narrative so the learner can link meaning to action.')
     ),
 
-    React.createElement(B1Section, { title:'Inline Terms', style:{ marginBottom:9 } }),
-    React.createElement('div', { style:{ display:'flex', flexWrap:'wrap', gap:6, marginBottom:14 }},
-      ['Autoregulation','Ischemia','Edema','Perfusion','GCS','Pupil reflex'].map((term, i) =>
-        React.createElement(B1Badge, { key:i, color:i % 3 === 0 ? DL.teal : undefined, style:{ cursor:'pointer' }}, term)
+    lectureSections.map((section, idx) => React.createElement(B1Card, {
+      key:section.title,
+      pad:14,
+      style:{ marginBottom:12, overflow:'hidden' }
+    },
+      React.createElement('div', {
+        onClick:()=>toggleSection(idx),
+        style:{ display:'flex', alignItems:'flex-start', justifyContent:'space-between', gap:12, cursor:'pointer' }
+      },
+        React.createElement('div', null,
+          React.createElement(B2Kicker, { color:section.tone === 'caution' ? DL.gold : section.tone === 'evidence' ? DL.teal : section.tone === 'pearl' ? DL.green : DL.accent }, section.title),
+          React.createElement('div', { style:{ fontSize:16, fontWeight:900, color:DL.text, lineHeight:1.25 }}, section.summary),
+        ),
+        React.createElement(B1Badge, { color:section.tone === 'caution' ? DL.gold : section.tone === 'evidence' ? DL.teal : section.tone === 'pearl' ? DL.green : DL.accent },
+          openSections.includes(idx) ? 'Open' : 'Fold'
+        ),
+      ),
+      openSections.includes(idx) && React.createElement('div', { style:{ marginTop:12 } },
+        section.body.map((line, i) => React.createElement(B2ReadingBlock, { key:i }, line)),
+        section.subs.map((sub, subIdx) => React.createElement(B1Card, {
+          key:sub.title,
+          pad:13,
+          style:{
+            marginTop:10,
+            background:'rgba(255,255,255,0.045)',
+            borderColor:DL.glassBorder,
+          }
+        },
+          React.createElement('div', {
+            onClick:()=>toggleSub(subIdx + idx * 10),
+            style:{ display:'flex', justifyContent:'space-between', alignItems:'center', gap:12, cursor:'pointer' }
+          },
+            React.createElement('div', { style:{ fontSize:13, fontWeight:850, color:DL.text }}, sub.title),
+            React.createElement(B1Badge, { color:DL.mute }, openSubs.includes(subIdx + idx * 10) ? 'Sub open' : 'Sub fold'),
+          ),
+          openSubs.includes(subIdx + idx * 10) && React.createElement('div', { style:{ marginTop:10, display:'grid', gap:6 }},
+            sub.lines.map((line, lineIdx) => React.createElement(B2Bullet, {
+              key:lineIdx,
+              index:lineIdx,
+              text:line,
+              tone:lineIdx === 0 ? 'ok' : undefined,
+            }))
+          )
+        ))
+      )
+    )),
+
+    React.createElement(B1Card, { pad:15, style:{ marginBottom:14 }},
+      React.createElement(B1Section, { title:'Reference Table', action:'Teaching cue', style:{ marginBottom:10 } }),
+      React.createElement('div', { style:{ overflowX:'auto' }},
+        React.createElement('table', { style:{ width:'100%', borderCollapse:'collapse', minWidth:560 } },
+          React.createElement('thead', null,
+            React.createElement('tr', null,
+              ['Signal','Meaning','Teaching note'].map(th => React.createElement('th', {
+                key:th,
+                style:{ textAlign:'left', fontSize:10, color:DL.mute, fontWeight:900, letterSpacing:0.8, textTransform:'uppercase', padding:'10px 8px', borderBottom:`1px solid ${DL.glassBorder}` }
+              }, th))
+            )
+          ),
+          React.createElement('tbody', null,
+            lectureTable.map((row, i) => React.createElement('tr', { key:i },
+              row.map((cell, j) => React.createElement('td', {
+                key:j,
+                style:{ padding:'12px 8px', borderBottom:`1px solid rgba(255,255,255,0.05)`, color:j === 0 ? DL.text : DL.sub, fontSize:12, lineHeight:1.5, fontWeight:j === 0 ? 850 : 500 }
+              }, cell))
+            ))
+          )
+        )
       )
     ),
 
-    React.createElement(B2Callout, { tone:'note', title:'Reading rhythm' },
-      'Dummy body copy uses 14-15px text, generous line height, and restrained highlights so the screen stays readable on a narrow iOS frame.')
+    React.createElement(B1Card, { pad:15, style:{ marginBottom:14 }},
+      React.createElement(B1Section, { title:'Visual Reference', style:{ marginBottom:10 } }),
+      React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'1fr', gap:12 }},
+        React.createElement(B2ImageCard, {
+          badge:'Lecture image',
+          title:'Poster style cue',
+          subtitle:'Rounded visual container for a future course image or diagram. This stays warm, readable, and easy to swap with real lecture artwork later.',
+          icon:'◉',
+          tint:'linear-gradient(135deg, rgba(72, 94, 255, 0.35), rgba(6, 214, 160, 0.16))',
+        }),
+        React.createElement(B1Card, { pad:14, style:{ marginBottom:0 }},
+          React.createElement('div', { style:{ display:'flex', justifyContent:'space-between', gap:10, alignItems:'center', marginBottom:10 }},
+            React.createElement('div', null,
+              React.createElement(B2Kicker, { color:DL.gold }, '3D placeholder'),
+              React.createElement('div', { style:{ fontSize:15, fontWeight:900, color:DL.text }}, 'View mode preview'),
+            ),
+            React.createElement(B2Segmented, {
+              value:viewerMode,
+              options:[
+                { value:'poster', label:'Poster' },
+                { value:'loading', label:'Loading' },
+                { value:'unsupported', label:'Unsupported' },
+              ],
+              onChange:setViewerMode,
+            }),
+          ),
+          React.createElement('div', {
+            style:{
+              minHeight:190,
+              borderRadius:22,
+              border:`1px solid ${DL.glassBorder}`,
+              background:'linear-gradient(145deg, rgba(13,16,36,0.92), rgba(26,20,54,0.92))',
+              display:'flex',
+              alignItems:'center',
+              justifyContent:'center',
+              padding:16,
+              position:'relative',
+              overflow:'hidden',
+              boxShadow:`inset 0 1px 0 ${DL.glassHighlight}`,
+            }
+          },
+            viewerMode === 'poster' && React.createElement('div', { style:{ textAlign:'center', maxWidth:320 }},
+              React.createElement('div', { style:{ fontSize:44, marginBottom:8 }}, '◉'),
+              React.createElement('div', { style:{ fontSize:16, color:DL.text, fontWeight:900 }}, 'Poster fallback ready'),
+              React.createElement('div', { style:{ fontSize:11, color:DL.sub, lineHeight:1.55, marginTop:6 }},
+                'Use this slot for a static preview image whenever a device cannot support richer media.')
+            ),
+            viewerMode === 'loading' && React.createElement('div', { style:{ width:'100%', maxWidth:320 }},
+              React.createElement(B1Progress, { value:56, h:6, color:DL.gradA }),
+              React.createElement('div', { style:{ fontSize:12, color:DL.sub, marginTop:10, textAlign:'center' }}, 'Loading viewport placeholder...')
+            ),
+            viewerMode === 'unsupported' && React.createElement('div', { style:{ textAlign:'center', maxWidth:320 }},
+              React.createElement('div', { style:{ fontSize:44, marginBottom:8 }}, 'N/A'),
+              React.createElement('div', { style:{ fontSize:16, color:DL.text, fontWeight:900 }}, '3D unsupported'),
+              React.createElement('div', { style:{ fontSize:11, color:DL.sub, lineHeight:1.55, marginTop:6 }},
+                'The app can gracefully stay on this fallback card without breaking the lecture flow.')
+            ),
+          )
+        )
+      )
+    ),
+
+    React.createElement(B1Card, { pad:15, style:{ marginBottom:14 }},
+      React.createElement(B1Section, { title:'Recall Drill', action:'5 questions', style:{ marginBottom:10 } }),
+      recallQuestions.map((item, idx) => React.createElement(B1Card, {
+        key:item.q,
+        pad:13,
+        style:{ marginBottom:10, background:'rgba(255,255,255,0.045)' }
+      },
+        React.createElement('div', { style:{ fontSize:13, fontWeight:850, color:DL.text, lineHeight:1.45, marginBottom:10 }}, `${idx + 1}. ${item.q}`),
+        React.createElement('div', { style:{ display:'grid', gap:8 }},
+          item.options.map((opt, optIdx) => React.createElement('button', {
+            key:opt,
+            type:'button',
+            onClick:()=>setRecallAnswers(prev => prev.map((v, i) => i === idx ? optIdx : v)),
+            className:'cortex-motion-press',
+            style:{
+              width:'100%',
+              textAlign:'left',
+              padding:'10px 12px',
+              borderRadius:14,
+              border:`1px solid ${recallAnswers[idx] === optIdx ? 'rgba(6,214,160,0.40)' : DL.glassBorder}`,
+              background:recallAnswers[idx] === optIdx ? 'rgba(6,214,160,0.10)' : 'rgba(255,255,255,0.04)',
+              color:recallAnswers[idx] === optIdx ? DL.text : DL.sub,
+              cursor:'pointer',
+              fontSize:12,
+              fontWeight:650,
+            }
+          }, `${String.fromCharCode(65 + optIdx)}. ${opt}`))
+        ),
+        recallAnswers[idx] != null && React.createElement(B2Callout, {
+          tone: recallAnswers[idx] === item.correct ? 'pearl' : 'caution',
+          title: recallAnswers[idx] === item.correct ? 'Correct pattern' : 'Review cue'
+        }, item.explain),
+      ))
+    ),
   );
 }
 
@@ -6118,6 +6459,25 @@ function PageAIWorkspace({ onNavigate }) {
       ),
     ),
 
+    React.createElement(B1Card, { pad:14, style:{ marginBottom:14 }},
+      React.createElement(B1Section, { title:'Account Identity', style:{ marginBottom:8 } }),
+      React.createElement(B3Row, {
+        title:'Learner profile',
+        sub:'Dr. Raka • Neurology track • Demo workspace',
+        right:React.createElement(B1Badge, { color:DL.teal }, 'Active'),
+      }),
+      React.createElement(B3Row, {
+        title:'Developer',
+        sub:`${CORTEX_DEVELOPER_NAME} • ${CORTEX_DEVELOPER_ROLE}`,
+        right:React.createElement(B1Button, {
+          label:'WA',
+          icon:'✆',
+          onClick:()=>window.open(CORTEX_DEVELOPER_WA_URL, '_blank', 'noopener,noreferrer'),
+          style:{ padding:'8px 10px', fontSize:11 }
+        }),
+      }),
+    ),
+
     React.createElement(B2Callout, { tone:'caution', title:'No provider access' },
       'This workspace is a visual placeholder. It does not call OpenAI, Claude, local models, or any external API.')
   );
@@ -6710,6 +7070,10 @@ const CORTEX_LIBRARY_PAGES = [
   { id:1, label:'Welcome', icon:'⌂', component:'PageWelcome' },
 ];
 
+const CORTEX_DEVELOPER_NAME = 'Habib Arsy';
+const CORTEX_DEVELOPER_ROLE = 'Developer';
+const CORTEX_DEVELOPER_WA_URL = 'https://wa.me/6281330039520?text=' + encodeURIComponent('Halo Habib Arsy, saya ingin membahas CORTEX Studio dan file kuliah dummy-nya.');
+
 function useCortexLayoutMode() {
   const detect = () => {
     const w = window.innerWidth;
@@ -6839,7 +7203,6 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
   const compact = mode !== 'desktop';
   const [fabOpen, setFabOpen] = React.useState(false);
   const [fabGroup, setFabGroup] = React.useState('Foundation');
-  const [viewSurface, setViewSurface] = React.useState(null);
   const themeRows = [
     { id:'neural', name:'Neural Pulse', note:'Core Claude DNA, synaptic purple-blue glass.' },
     { id:'aurora', name:'Aurora Prism', note:'Ethereal cyan/prism exploratory shell.' },
@@ -6852,7 +7215,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
     return acc;
   }, {});
   const groupOrder = ['Foundation', 'Learn', 'Review', 'Reference', 'Practice', 'Ops', 'Support'];
-  const activeSurface = cortexSurfaceLookup(viewSurface || surfaceId || 2);
+  const activeSurface = cortexSurfaceLookup(surfaceId || 2);
   const surfaceMeta = {
     note: { badge:'Calm', title:'Reading-focused', sub:'Quiet hierarchy and open spacing.' },
     success: { badge:'Scan', title:'Fast recall', sub:'Structured and efficient.' },
@@ -6871,8 +7234,6 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
     items:groupedSurfaces[group] || [],
   })).filter(group => group.items.length);
   const activeGroupItems = groupedSurfaces[fabGroup] || [];
-  const SurfaceCompName = SURFACE_COMPONENT_MAP[activeSurface.id];
-  const SurfaceComp = SurfaceCompName && window[SurfaceCompName];
 
   return React.createElement('div', {
     'data-screen-label':'Studio-Main',
@@ -6925,7 +7286,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
       ))
     ),
 
-    React.createElement('div', { className:'cortex-responsive-grid cortex-kernel-main-grid', style:{ display:'grid', gridTemplateColumns:compact ? '1fr' : 'minmax(0,0.95fr) minmax(0,1.05fr)', gap:14, marginBottom:16 }},
+      React.createElement('div', { className:'cortex-responsive-grid cortex-kernel-main-grid', style:{ display:'grid', gridTemplateColumns:compact ? '1fr' : 'minmax(0,0.95fr) minmax(0,1.05fr)', gap:14, marginBottom:16 }},
       React.createElement(B1Card, { className:'cortex-motion-card', style:{
         minHeight:compact ? 360 : 520,
         background:theme.colors.gradientCard,
@@ -6964,7 +7325,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
               active,
               onClick:()=>{
                 onSurfaceChange && onSurfaceChange(surface.id);
-                setViewSurface(surface.id);
+                onNavigate(surface.id);
               },
               style:{
                 minHeight:82,
@@ -6975,14 +7336,10 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
         )
       ),
       React.createElement('div', { style:{ display:'grid', gap:12 } },
-        viewSurface ? React.createElement(B1Card, { className:'cortex-motion-card', style:{
+        React.createElement(B1Card, { className:'cortex-motion-card', style:{
           background:theme.colors.gradientCard,
           borderColor:theme.colors.glassBorder,
           marginBottom:12,
-          display:'flex',
-          flexDirection:'column',
-          minHeight:0,
-          height:'100%',
         }},
           React.createElement('div', { style:{ display:'flex', alignItems:'center', justifyContent:'space-between', gap:12, marginBottom:12 }},
             React.createElement('div', null,
@@ -6990,12 +7347,17 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
               React.createElement('div', { style:{ color:DL.text, fontSize:24, fontWeight:950, lineHeight:1.08, marginTop:4 }}, activeSurface.label),
               React.createElement('div', { style:{ color:DL.sub, fontSize:12, lineHeight:1.55, marginTop:6, maxWidth:560 }}, activeSurface.summary),
             ),
-            React.createElement(B1Button, {
-              className:'cortex-motion-press',
-              onClick:()=>setViewSurface(null),
-              icon:'←',
-              label:'Back to hub',
-              style:{ padding:'10px 12px', fontSize:11 }
+            React.createElement(CortexAtomPageButton, {
+              page:activeSurface.id,
+              title:'Open page',
+              sub:'Render full surface',
+              compact:true,
+              active:true,
+              onClick:()=>{
+                onSurfaceChange && onSurfaceChange(activeSurface.id);
+                onNavigate(activeSurface.id);
+              },
+              style:{ minWidth:146 }
             }),
           ),
           React.createElement('div', { style:{ display:'flex', flexWrap:'wrap', gap:8, marginBottom:12 } },
@@ -7003,61 +7365,35 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
               React.createElement(B1Badge, { key:chip, color:i === 0 ? currentTheme.colors.accent1 : i === 1 ? currentTheme.colors.accent2 : currentTheme.colors.accent3 }, chip)
             )
           ),
-          SurfaceComp
-            ? React.createElement('div', { style:{ flex:1, minHeight:0, overflow:'auto', paddingRight:4 } },
-                React.createElement(SurfaceComp, { onNavigate, themeId, theme, onThemeChange })
-              )
-            : React.createElement(B2Callout, { tone:'danger', title:'Missing surface component' }, SurfaceCompName || activeSurface.label)
-        ) : React.createElement(React.Fragment, null,
-          React.createElement(B1Section, { title:'Surface Preview', action:`Page ${activeSurface.id}` }),
-          React.createElement('div', { style:{ display:'flex', flexWrap:'wrap', gap:8, marginBottom:12 } },
-            [activeSurface.group, `Page ${activeSurface.id}`, activeSurface.hint].map((chip, i) =>
-              React.createElement(B1Badge, { key:chip, color:i === 0 ? currentTheme.colors.accent1 : i === 1 ? currentTheme.colors.accent2 : currentTheme.colors.accent3 }, chip)
-            )
-          ),
-          React.createElement(B1Card, { className:'cortex-motion-card', style:{
-            background:theme.colors.gradientCard,
-            borderColor:theme.colors.glassBorder,
-            marginBottom:12,
-          }},
-            React.createElement('div', { style:{ display:'flex', alignItems:'center', justifyContent:'space-between', gap:12, marginBottom:12 }},
-              React.createElement('div', null,
-                React.createElement('div', { style:{ color:DL.sub, fontSize:11, fontWeight:900, letterSpacing:1.2 }}, surfaceMeta.badge.toUpperCase()),
-                React.createElement('div', { style:{ color:DL.text, fontSize:24, fontWeight:950, lineHeight:1.08, marginTop:4 }}, activeSurface.label),
-                React.createElement('div', { style:{ color:DL.sub, fontSize:12, lineHeight:1.55, marginTop:6, maxWidth:560 }}, activeSurface.summary),
-              ),
-              React.createElement(B1Badge, { color:currentTheme.colors.accent1 }, surfaceMeta.title),
-            ),
-            React.createElement(B2Callout, { tone:activeSurface.tone, title:`${activeSurface.label} surface` }, surfaceMeta.sub),
-            React.createElement('div', { style:{ display:'grid', gridTemplateColumns:compact ? '1fr' : 'repeat(3, minmax(0,1fr))', gap:10, marginTop:12 }},
-              previewRows.map((row, i) => React.createElement(B2StatPill, {
-                key:row.title,
-                label:row.title,
-                value: row.title === 'Action' ? 'Open in viewer' : row.sub.slice(0, 24),
-                color:i === 0 ? currentTheme.colors.accent1 : i === 1 ? currentTheme.colors.accent2 : currentTheme.colors.accent3,
-              }))
-            )
-          ),
-          React.createElement(B1Card, { className:'cortex-motion-card', style:{
-            background:'rgba(10,10,26,0.44)',
-            borderColor:DL.glassBorder,
-          }},
-            React.createElement('div', { style:{ color:DL.text, fontSize:14, fontWeight:900, marginBottom:8 }}, 'Injection notes'),
-            previewRows.map((row, idx) => React.createElement(B3Row, {
-              key:`row-${idx}`,
-              title:row.title,
-              sub:row.sub,
-              right:React.createElement('span', { style:{ color:DL.accent, fontWeight:900 }}, 'OK'),
+          React.createElement(B2Callout, { tone:activeSurface.tone, title:`${activeSurface.label} preview` }, surfaceMeta.sub),
+          React.createElement('div', { style:{ display:'grid', gridTemplateColumns:compact ? '1fr' : 'repeat(3, minmax(0,1fr))', gap:10, marginTop:12 }},
+            previewRows.map((row, i) => React.createElement(B2StatPill, {
+              key:row.title,
+              label:row.title,
+              value: row.title === 'Action' ? 'Open from hub' : row.sub.slice(0, 24),
+              color:i === 0 ? currentTheme.colors.accent1 : i === 1 ? currentTheme.colors.accent2 : currentTheme.colors.accent3,
             }))
-          ),
-          React.createElement(B1Card, { className:'cortex-motion-card', style:{
-            background:'rgba(10,10,26,0.40)',
-            borderColor:DL.glassBorder,
-          }},
-            React.createElement('div', { style:{ color:DL.text, fontSize:14, fontWeight:900, marginBottom:8 }}, 'Production posture'),
-            React.createElement('div', { style:{ color:DL.sub, fontSize:12, lineHeight:1.65 }},
-              'Welcome remains separate. Sidebar navigation is folded into this studio rail so the shell stays production-ready, compact, and easy to inject with new content.')
           )
+        ),
+        React.createElement(B1Card, { className:'cortex-motion-card', style:{
+          background:'rgba(10,10,26,0.44)',
+          borderColor:DL.glassBorder,
+        }},
+          React.createElement('div', { style:{ color:DL.text, fontSize:14, fontWeight:900, marginBottom:8 }}, 'Injection notes'),
+          previewRows.map((row, idx) => React.createElement(B3Row, {
+            key:`row-${idx}`,
+            title:row.title,
+            sub:row.sub,
+            right:React.createElement('span', { style:{ color:DL.accent, fontWeight:900 }}, 'OK'),
+          }))
+        ),
+        React.createElement(B1Card, { className:'cortex-motion-card', style:{
+          background:'rgba(10,10,26,0.40)',
+          borderColor:DL.glassBorder,
+        }},
+          React.createElement('div', { style:{ color:DL.text, fontSize:14, fontWeight:900, marginBottom:8 }}, 'Production posture'),
+          React.createElement('div', { style:{ color:DL.sub, fontSize:12, lineHeight:1.65 }},
+            'Welcome remains separate. Sidebar navigation is folded into this studio rail so the shell stays production-ready, compact, and easy to inject with new content.')
         )
       )
     ),
@@ -7069,7 +7405,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
       zIndex:25,
     }},
       React.createElement('div', { style:{ position:'relative' }},
-        React.createElement(CortexAtomPageButton, {
+      React.createElement(CortexAtomPageButton, {
           onClick:()=>setFabOpen(v => !v),
           page:null,
           title:'Pages',
@@ -7125,7 +7461,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
             sub:item.summary,
             onClick:()=>{
               onSurfaceChange && onSurfaceChange(item.id);
-              setViewSurface(item.id);
+              onNavigate(item.id);
               setFabOpen(false);
             },
             compact:true,
@@ -7205,12 +7541,13 @@ function CortexLibraryNav({ page, onNavigate, mode }) {
           boxShadow:`0 12px 30px ${DL.shadowColor}`,
         }},
           React.createElement('div', { style:{ color:DL.text, fontSize:11, fontWeight:900, letterSpacing:1.2, textTransform:'uppercase', marginBottom:10 }}, 'Lecture file'),
-          React.createElement('div', { style:{
+          React.createElement('div', { onClick:()=>onNavigate(9), style:{
             padding:12,
             borderRadius:16,
             background:'linear-gradient(135deg, rgba(16,185,129,0.14), rgba(59,130,246,0.12))',
             border:`1px solid ${DL.glassBorder}`,
             marginBottom:10,
+            cursor:'pointer',
           }},
             React.createElement('div', { style:{ display:'flex', alignItems:'center', justifyContent:'space-between', gap:10, marginBottom:6 }},
               React.createElement('div', { style:{ color:DL.text, fontSize:12, fontWeight:900 }}, 'Neurology Lecture 01'),
@@ -7239,6 +7576,37 @@ function CortexLibraryNav({ page, onNavigate, mode }) {
   );
 }
 
+function CortexContactFab({ mode }) {
+  return React.createElement('a', {
+    href:CORTEX_DEVELOPER_WA_URL,
+    target:'_blank',
+    rel:'noreferrer',
+    'aria-label':`Chat with ${CORTEX_DEVELOPER_NAME} on WhatsApp`,
+    className:'cortex-atom-button cortex-atom-button--fab cortex-motion-press',
+    style:{
+      position:'fixed',
+      left:mode === 'desktop' ? 18 : 14,
+      bottom:'calc(18px + env(safe-area-inset-bottom))',
+      zIndex:34,
+      textDecoration:'none',
+      width:'auto',
+      minWidth:180,
+      color:'#fff',
+    }
+  },
+    React.createElement('span', { className:'cortex-atom-button-orbit cortex-atom-button-orbit-a' }),
+    React.createElement('span', { className:'cortex-atom-button-orbit cortex-atom-button-orbit-b' }),
+    React.createElement('span', { className:'cortex-atom-button-core' },
+      React.createElement('span', { className:'cortex-atom-button-core-dot' })
+    ),
+    React.createElement('span', { className:'cortex-atom-button-copy' },
+      React.createElement('span', { className:'cortex-atom-button-kicker' }, 'Developer'),
+      React.createElement('span', { className:'cortex-atom-button-title' }, 'WA'),
+      React.createElement('span', { className:'cortex-atom-button-sub' }, `${CORTEX_DEVELOPER_NAME} · ${CORTEX_DEVELOPER_ROLE}`)
+    )
+  );
+}
+
 function CortexLibraryShell() {
   const mode = useCortexLayoutMode();
   const coarsePointer = typeof window !== 'undefined' &&
@@ -7247,14 +7615,17 @@ function CortexLibraryShell() {
   const hasSeenWelcome = typeof window !== 'undefined' && localStorage.getItem('cortex.welcomeSeen') === '1';
   const initialPage = Number(params.get('page') || (hasSeenWelcome ? 0 : 1));
   const initialSurface = Number(params.get('surface') || (initialPage > 1 ? initialPage : 2));
-  const [page, setPage] = React.useState(CORTEX_LIBRARY_PAGES.some(p => p.id === initialPage) ? initialPage : (hasSeenWelcome ? 0 : 1));
+  const isInitialValid = initialPage === 0 || initialPage === 1 || CORTEX_MAIN_SURFACES.some(s => s.id === initialPage);
+  const [page, setPage] = React.useState(isInitialValid ? initialPage : (hasSeenWelcome ? 0 : 1));
   const [surfaceId, setSurfaceId] = React.useState(CORTEX_MAIN_SURFACES.some(s => s.id === initialSurface) ? initialSurface : 2);
   const [animKey, setAnimKey] = React.useState(0);
   const [wallpaper, setWallpaper] = React.useState(() => localStorage.getItem('cortex.wallpaper') || 'bubbly');
   const [themeId, setThemeId] = React.useState(() => localStorage.getItem('cortex.themeId') || 'neural');
-  const current = page === 1
-    ? (CORTEX_LIBRARY_PAGES.find(p => p.id === 1) || CORTEX_LIBRARY_PAGES[0])
-    : { id:0, label:'Main Studio', icon:'Core', component:'PageBatch0Kernel' };
+  const current = page === 0
+    ? { id:0, label:'Main Studio', icon:'Core', component:'PageBatch0Kernel' }
+    : page === 1
+      ? (CORTEX_LIBRARY_PAGES.find(p => p.id === 1) || CORTEX_LIBRARY_PAGES[0])
+      : cortexSurfaceLookup(page);
   const isWelcomePage = page === 1;
   const theme = React.useMemo(() => cortexApplyThemeGlobals(themeId), [themeId]);
 
@@ -7291,7 +7662,7 @@ function CortexLibraryShell() {
     if (CORTEX_MAIN_SURFACES.some(s => s.id === next)) {
       setAnimKey(k => k + 1);
       setSurfaceId(next);
-      setPage(0);
+      setPage(next);
       return;
     }
     if (next === 0) {
@@ -7306,16 +7677,29 @@ function CortexLibraryShell() {
   const renderPage = () => {
     const sharedProps = { onNavigate:navigate, themeId:theme.id, theme, onThemeChange:setThemeId };
     if (page === 0) return React.createElement(PageBatch0Kernel, { ...sharedProps, mode, surfaceId, onSurfaceChange:setSurfaceId });
-    const Comp = window[current.component];
-    if (!Comp) {
+    if (page === 1) {
+      const Comp = window[current.component];
+      if (!Comp) {
+        return React.createElement(B2PageShell, {
+          label:'MissingPage',
+          title:'Missing Page',
+          subtitle:current.label,
+          onBack:()=>navigate(0),
+        }, React.createElement(B2Callout, { tone:'danger', title:'Component not loaded' }, current.component));
+      }
+      return React.createElement(Comp, sharedProps);
+    }
+    const currentSurface = cortexSurfaceLookup(page);
+    const SurfaceComp = window[SURFACE_COMPONENT_MAP[currentSurface.id]];
+    if (!SurfaceComp) {
       return React.createElement(B2PageShell, {
         label:'MissingPage',
         title:'Missing Page',
-        subtitle:current.label,
+        subtitle:currentSurface.label,
         onBack:()=>navigate(0),
-      }, React.createElement(B2Callout, { tone:'danger', title:'Component not loaded' }, current.component));
+      }, React.createElement(B2Callout, { tone:'danger', title:'Component not loaded' }, SURFACE_COMPONENT_MAP[currentSurface.id]));
     }
-    return React.createElement(Comp, sharedProps);
+    return React.createElement(SurfaceComp, sharedProps);
   };
 
   return React.createElement('div', {
@@ -7343,6 +7727,7 @@ function CortexLibraryShell() {
       }}))
     ),
     React.createElement(CortexLibraryNav, { page, onNavigate:navigate, mode, theme }),
+    React.createElement(CortexContactFab, { mode }),
     React.createElement('main', { style:{
       position:'relative', zIndex:1, flex:1, minWidth:0, minHeight:0,
       display:'flex', flexDirection:'column', overflow:'hidden',
@@ -7370,7 +7755,7 @@ function CortexLibraryShell() {
           React.createElement(CortexMotionSensorControl),
           React.createElement(CortexWallpaperToggle, { value:wallpaper, onChange:setWallpaper }),
           React.createElement(B1Badge, { color:mode === 'desktop' ? theme.colors.accent1 : mode === 'tablet' ? theme.colors.accent2 : theme.colors.accent3 }, mode.toUpperCase()),
-          React.createElement(B1Badge, null, page === 0 ? 'STUDIO' : 'ENTRY'),
+          React.createElement(B1Badge, null, page === 0 ? 'STUDIO' : page === 1 ? 'ENTRY' : 'SURFACE'),
         )
       ),
       React.createElement('section', {
