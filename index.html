@@ -8339,6 +8339,28 @@ function CortexLibraryShell() {
   const [sidebarOpen, setSidebarOpen] = React.useState(false);
   const [sidebarPinnedHidden, setSidebarPinnedHidden] = React.useState(false);
   const [navTrail, setNavTrail] = React.useState([]);
+  const [fabPortalTarget, setFabPortalTarget] = React.useState(null);
+  React.useEffect(() => {
+    if (typeof document === 'undefined') return undefined;
+    let el = document.getElementById('cortex-fab-portal');
+    let created = false;
+    if (!el) {
+      el = document.createElement('div');
+      el.id = 'cortex-fab-portal';
+      el.style.position = 'fixed';
+      el.style.inset = '0';
+      el.style.zIndex = '2147483647';
+      el.style.pointerEvents = 'none';
+      document.body.appendChild(el);
+      created = true;
+    }
+    setFabPortalTarget(el);
+    return () => {
+      if (created && el && el.parentNode) {
+        el.parentNode.removeChild(el);
+      }
+    };
+  }, []);
   const current = page === 0
     ? { id:0, label:'Main Studio', icon:'Core', component:'PageBatch0Kernel' }
     : page === 1
@@ -8623,25 +8645,48 @@ function CortexLibraryShell() {
     }},
       sidebarDocked && React.createElement(CortexLibraryNav, { page, onNavigate:navigate, mode, sidebarMode:'dock' })
     ),
-    React.createElement(CortexSidebarFab, {
-      open:sidebarOpen,
-      onClick:()=>setSidebarOpen(v => !v),
-      theme,
-      count:CORTEX_MAIN_SURFACES.length,
-      style:{
-        position:'fixed',
-        left: fabViewportLeft,
-        top:'auto',
-        right:'auto',
-        bottom:'calc(88px + env(safe-area-inset-bottom))',
-        display:'block',
-        opacity:1,
-        visibility:'visible',
-        pointerEvents:'auto',
-        zIndex:2147483647,
-        transform:'translate3d(0,0,0)',
-      }
-    }),
+    fabPortalTarget
+      ? ReactDOM.createPortal(
+        React.createElement(CortexSidebarFab, {
+          open:sidebarOpen,
+          onClick:()=>setSidebarOpen(v => !v),
+          theme,
+          count:CORTEX_MAIN_SURFACES.length,
+          style:{
+            position:'fixed',
+            left: fabViewportLeft,
+            top:'auto',
+            right:'auto',
+            bottom:'calc(88px + env(safe-area-inset-bottom))',
+            display:'block',
+            opacity:1,
+            visibility:'visible',
+            pointerEvents:'auto',
+            zIndex:2147483647,
+            transform:'translate3d(0,0,0)',
+          }
+        }),
+        fabPortalTarget
+      )
+      : React.createElement(CortexSidebarFab, {
+          open:sidebarOpen,
+          onClick:()=>setSidebarOpen(v => !v),
+          theme,
+          count:CORTEX_MAIN_SURFACES.length,
+          style:{
+            position:'fixed',
+            left: fabViewportLeft,
+            top:'auto',
+            right:'auto',
+            bottom:'calc(88px + env(safe-area-inset-bottom))',
+            display:'block',
+            opacity:1,
+            visibility:'visible',
+            pointerEvents:'auto',
+            zIndex:2147483647,
+            transform:'translate3d(0,0,0)',
+          }
+        }),
     React.createElement('div', { className:'cortex-zoom-shell', style:{ flex:1, minWidth:0, minHeight:0, display:'flex', flexDirection:'column', overflow:'hidden' }},
       React.createElement('main', { style:{
         position:'relative', zIndex:1, flex:1, minWidth:0, minHeight:0,
