@@ -419,6 +419,31 @@
   animation: slide-up 0.3s ease reverse backwards;
 }
 
+@keyframes cortex-page-enter-forward {
+  0% { opacity: 0; transform: translate3d(24px, 0, 0) scale(0.985); filter: blur(2px); }
+  62% { opacity: 1; transform: translate3d(-2px, 0, 0) scale(1.004); filter: blur(0); }
+  100% { opacity: 1; transform: translate3d(0, 0, 0) scale(1); filter: blur(0); }
+}
+
+@keyframes cortex-page-enter-back {
+  0% { opacity: 0; transform: translate3d(-22px, 0, 0) scale(0.985); filter: blur(2px); }
+  64% { opacity: 1; transform: translate3d(2px, 0, 0) scale(1.004); filter: blur(0); }
+  100% { opacity: 1; transform: translate3d(0, 0, 0) scale(1); filter: blur(0); }
+}
+
+.cortex-library-content.cortex-page-enter-forward,
+.cortex-library-content.cortex-page-enter-back {
+  will-change: transform, opacity, filter;
+}
+
+.cortex-library-content.cortex-page-enter-forward {
+  animation: cortex-page-enter-forward 0.56s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+}
+
+.cortex-library-content.cortex-page-enter-back {
+  animation: cortex-page-enter-back 0.64s cubic-bezier(0.12, 0.9, 0.2, 1) backwards;
+}
+
 /* Batch 2/3 motion: Claude-like buttery, bubbly, jiggly layer */
 .cortex-motion-page > * {
   animation: buttery-pop 0.72s cubic-bezier(0.16, 1, 0.3, 1) backwards;
@@ -876,16 +901,8 @@
   50% { transform: translateY(-1px) scale(1.04); filter: saturate(1.18); }
 }
 .cortex-zoom-shell {
-  zoom: var(--cortex-text-zoom, 1);
-}
-@supports not (zoom: 1) {
-  .cortex-zoom-shell {
-    zoom: 1;
-    transform: scale(var(--cortex-text-zoom, 1));
-    transform-origin: top left;
-    width: calc(100% / var(--cortex-text-zoom, 1));
-    height: calc(100% / var(--cortex-text-zoom, 1));
-  }
+  font-size: calc(16px * var(--cortex-text-zoom, 1));
+  line-height: 1.2;
 }
 .cortex-page-glyph {
   position: absolute;
@@ -4143,7 +4160,7 @@ function B1Button({ label, icon, onClick, variant = 'primary', full, style, clas
   }, icon, label);
 }
 
-function CortexAtomPageButton({ page, title, sub, onClick, active = false, className, compact = false, style, theme }) {
+function CortexAtomPageButton({ page, title, sub, onClick, active = false, className, compact = false, style, theme, showKicker = true, ...rest }) {
   return React.createElement('button', {
     type:'button',
     onClick,
@@ -4165,11 +4182,12 @@ function CortexAtomPageButton({ page, title, sub, onClick, active = false, class
       cursor:'pointer',
       userSelect:'none',
       ...style,
-    }
+    },
+    ...rest
   },
     React.createElement(CortexPageGlyph, { page, theme, variant: page != null ? page : 0, compact }),
     React.createElement('span', { className:'cortex-atom-button-copy' },
-      React.createElement('span', { className:'cortex-atom-button-kicker' }, page != null ? `Page ${page}` : 'Surface hub'),
+      showKicker && React.createElement('span', { className:'cortex-atom-button-kicker' }, page != null ? `Page ${page}` : 'Surface hub'),
       React.createElement('span', { className:'cortex-atom-button-title' }, title),
       sub && React.createElement('span', { className:'cortex-atom-button-sub' }, sub)
     )
@@ -7642,7 +7660,21 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
   const currentTheme = theme || cortexResolveTheme(currentThemeId);
   const compact = mode !== 'desktop';
   const [fabOpen, setFabOpen] = React.useState(false);
+  const [fabPos, setFabPos] = React.useState(null);
   const [fabGroup, setFabGroup] = React.useState('Foundation');
+  const fabDragRef = React.useRef({ active:false, moved:false, sx:0, sy:0, ox:0, oy:0 });
+  const getFabBasePosition = React.useCallback(() => ({
+    x: Math.max(16, window.innerWidth - (compact ? 158 : 176)),
+    y: Math.max(16, window.innerHeight - (compact ? 98 : 110)),
+  }), [compact]);
+  const fabMenuSide = React.useMemo(() => {
+    const pos = fabPos || getFabBasePosition();
+    const width = compact ? 252 : 304;
+    const height = compact ? 360 : 390;
+    const anchorRight = pos.x + width + 24 > window.innerWidth;
+    const anchorBottom = pos.y + height + 92 > window.innerHeight;
+    return { anchorRight, anchorBottom };
+  }, [fabPos, getFabBasePosition, compact]);
   const themeRows = [
     { id:'neural', name:'Neural Pulse', note:'Core Claude DNA, synaptic purple-blue glass.' },
     { id:'aurora', name:'Aurora Prism', note:'Ethereal cyan/prism exploratory shell.' },
@@ -7674,6 +7706,56 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
     items:groupedSurfaces[group] || [],
   })).filter(group => group.items.length);
   const activeGroupItems = groupedSurfaces[fabGroup] || [];
+  const fabButtonPos = fabPos ? {
+    left: fabPos.x,
+    top: fabPos.y,
+    right:'auto',
+    bottom:'auto',
+  } : {
+    right: compact ? 16 : 22,
+    bottom: `calc(${compact ? 16 : 22}px + env(safe-area-inset-bottom))`,
+  };
+  const fabMenuPos = fabMenuSide.anchorRight
+    ? { right:0, left:'auto' }
+    : { left:0, right:'auto' };
+  const fabMenuVert = fabMenuSide.anchorBottom
+    ? { bottom:66, top:'auto' }
+    : { top:66, bottom:'auto' };
+
+  const onFabPointerDown = (event) => {
+    if (event.button !== 0) return;
+    const start = getFabBasePosition();
+    fabDragRef.current = {
+      active:true,
+      moved:false,
+      sx:event.clientX,
+      sy:event.clientY,
+      ox:fabPos ? fabPos.x : start.x,
+      oy:fabPos ? fabPos.y : start.y,
+    };
+    const onMove = (moveEvent) => {
+      if (!fabDragRef.current.active) return;
+      const dx = moveEvent.clientX - fabDragRef.current.sx;
+      const dy = moveEvent.clientY - fabDragRef.current.sy;
+      if (!fabDragRef.current.moved && Math.hypot(dx, dy) > 8) {
+        fabDragRef.current.moved = true;
+        setFabOpen(false);
+      }
+      if (!fabDragRef.current.moved) return;
+      const nextX = Math.max(12, Math.min(window.innerWidth - 132, fabDragRef.current.ox + dx));
+      const nextY = Math.max(12, Math.min(window.innerHeight - 88, fabDragRef.current.oy + dy));
+      setFabPos({ x: nextX, y: nextY });
+    };
+    const onUp = () => {
+      fabDragRef.current.active = false;
+      window.removeEventListener('pointermove', onMove);
+      window.removeEventListener('pointerup', onUp);
+      window.removeEventListener('pointercancel', onUp);
+    };
+    window.addEventListener('pointermove', onMove);
+    window.addEventListener('pointerup', onUp);
+    window.addEventListener('pointercancel', onUp);
+  };
 
   return React.createElement('div', {
     'data-screen-label':'Studio-Main',
@@ -7842,42 +7924,42 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
 
     React.createElement('div', { style:{
       position:'fixed',
-      right:compact ? 16 : 22,
-      bottom:`calc(${compact ? 16 : 22}px + env(safe-area-inset-bottom))`,
       zIndex:25,
+      ...fabButtonPos,
     }},
       React.createElement('div', { style:{ position:'relative' }},
       React.createElement(CortexAtomPageButton, {
-          onClick:()=>setFabOpen(v => !v),
+          onClick:()=>{ if (!fabDragRef.current.moved) setFabOpen(v => !v); fabDragRef.current.moved = false; },
+          onPointerDown:onFabPointerDown,
           page:null,
           title:'Pages',
-          sub:'Surface hub',
+          sub:null,
           theme:currentTheme,
           compact:true,
           active:fabOpen,
+          showKicker:false,
           style:{
-            minWidth:128,
-            minHeight:56,
-            padding:'8px 14px',
-            borderRadius:22,
+            minWidth:114,
+            minHeight:52,
+            padding:'8px 12px',
+            borderRadius:20,
             boxShadow:`0 18px 32px ${currentTheme.colors.shadowColor}`,
             width:'auto',
           }
         }),
         fabOpen && React.createElement('div', { style:{
           position:'absolute',
-          right:0,
-          bottom:66,
-          width: compact ? 260 : 310,
+          ...fabMenuPos,
+          ...fabMenuVert,
+          width: compact ? 236 : 286,
           padding:12,
-          borderRadius:22,
+          borderRadius:20,
           background:'rgba(12,12,32,0.90)',
           border:`1px solid ${DL.glassBorder}`,
           backdropFilter:'blur(18px) saturate(150%)',
           WebkitBackdropFilter:'blur(18px) saturate(150%)',
           boxShadow:`0 26px 56px ${currentTheme.colors.shadowColor}`,
         }},
-          React.createElement('div', { style:{ color:DL.text, fontSize:13, fontWeight:900, marginBottom:8 }}, 'Surface hub'),
           React.createElement('div', { style:{ display:'flex', flexWrap:'wrap', gap:6, marginBottom:10 } },
             surfaceGroups.map(group => React.createElement('button', {
               key:group.group,
@@ -7896,12 +7978,11 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
               }
             }, `${group.group}`))
           ),
-          React.createElement('div', { style:{ color:DL.mute, fontSize:10, textTransform:'uppercase', letterSpacing:1.2, margin:'8px 0 8px' }}, `${fabGroup} • tap to open`),
           activeGroupItems.map(item => React.createElement(CortexAtomPageButton, {
             key:item.id,
             page:item.id,
             title:item.label,
-            sub:item.summary,
+            sub:null,
             theme:currentTheme,
             onClick:()=>{
               onSurfaceChange && onSurfaceChange(item.id);
@@ -7910,6 +7991,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
             },
             compact:true,
             active:item.id === activeSurface.id,
+            showKicker:false,
             style:{
               width:'100%',
               marginBottom:8,
@@ -7946,7 +8028,7 @@ function CortexLibraryNav({ page, onNavigate, mode, sidebarMode = 'dock', onClos
     flexShrink:1,
   };
   return React.createElement('aside', { className:'cortex-library-nav hide-scrollbar', style:navStyle},
-    React.createElement('div', { style:{ display:'grid', gap:12, minWidth:0 }},
+    React.createElement('div', { style:{ display:'flex', flexDirection:'column', gap:12, minWidth:0, minHeight:'100%' }},
       React.createElement('div', { style:{
         display:'flex',
         alignItems:'flex-start',
@@ -8042,33 +8124,41 @@ function CortexLibraryNav({ page, onNavigate, mode, sidebarMode = 'dock', onClos
         })
       ),
       React.createElement('div', { style:{
+        marginTop:'auto',
+        position:'sticky',
+        bottom:0,
+        paddingTop:2,
+        zIndex:2,
+      }},
+        React.createElement('div', { style:{
         padding:14,
         borderRadius:20,
         background:'rgba(255,255,255,0.04)',
         border:`1px solid ${DL.glassBorder}`,
         boxShadow:`0 12px 30px ${DL.shadowColor}`,
       }},
-        React.createElement('div', { style:{ color:DL.text, fontSize:11, fontWeight:900, letterSpacing:1.2, textTransform:'uppercase', marginBottom:10 }}, 'Developer'),
-        React.createElement('div', { style:{ display:'flex', alignItems:'center', justifyContent:'space-between', gap:10, marginBottom:8 }},
-          React.createElement('div', null,
-            React.createElement('div', { style:{ color:DL.text, fontSize:13, fontWeight:900 }}, CORTEX_DEVELOPER_NAME),
-            React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.45, marginTop:2 }}, CORTEX_DEVELOPER_ROLE),
+          React.createElement('div', { style:{ color:DL.text, fontSize:11, fontWeight:900, letterSpacing:1.2, textTransform:'uppercase', marginBottom:10 }}, 'Developer'),
+          React.createElement('div', { style:{ display:'flex', alignItems:'center', justifyContent:'space-between', gap:10, marginBottom:8 }},
+            React.createElement('div', null,
+              React.createElement('div', { style:{ color:DL.text, fontSize:13, fontWeight:900 }}, CORTEX_DEVELOPER_NAME),
+              React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.45, marginTop:2 }}, CORTEX_DEVELOPER_ROLE),
+            ),
+            React.createElement(B1Badge, { color:DL.teal }, 'WA')
           ),
-          React.createElement(B1Badge, { color:DL.teal }, 'WA')
-        ),
-        React.createElement(B1Button, {
-          label:'Chat WhatsApp',
-          icon:'↗',
-          onClick:()=>window.open(CORTEX_DEVELOPER_WA_URL, '_blank', 'noopener,noreferrer'),
-          className:'cortex-motion-press',
-          full:true,
-          variant:'ghost',
-          style:{
-            justifyContent:'flex-start',
-            padding:'10px 12px',
-            borderRadius:16,
-          }
-        }),
+          React.createElement(B1Button, {
+            label:'Chat WhatsApp',
+            icon:'↗',
+            onClick:()=>window.open(CORTEX_DEVELOPER_WA_URL, '_blank', 'noopener,noreferrer'),
+            className:'cortex-motion-press',
+            full:true,
+            variant:'ghost',
+            style:{
+              justifyContent:'flex-start',
+              padding:'10px 12px',
+              borderRadius:16,
+            }
+          }),
+        )
       )
     )
   );
@@ -8088,6 +8178,7 @@ function CortexLibraryShell() {
   const [page, setPage] = React.useState(isInitialValid ? initialPage : (hasSeenWelcome ? 0 : 1));
   const [surfaceId, setSurfaceId] = React.useState(CORTEX_MAIN_SURFACES.some(s => s.id === initialSurface) ? initialSurface : 2);
   const [animKey, setAnimKey] = React.useState(0);
+  const [navDirection, setNavDirection] = React.useState('forward');
   const [wallpaper, setWallpaper] = React.useState(() => localStorage.getItem('cortex.wallpaper') || 'bubbly');
   const [themeId, setThemeId] = React.useState(() => localStorage.getItem('cortex.themeId') || 'neural');
   const [textZoom, setTextZoom] = React.useState(() => {
@@ -8122,6 +8213,55 @@ function CortexLibraryShell() {
 
   React.useEffect(() => {
     if (sidebarDocked) setSidebarOpen(false);
+  }, [sidebarDocked]);
+
+  const goBack = React.useCallback(() => {
+    setSidebarOpen(false);
+    setNavDirection('back');
+    setNavTrail(prev => {
+      if (!prev.length) return prev;
+      const nextTrail = prev.slice();
+      const previous = nextTrail.pop();
+      setPage(previous.page);
+      setSurfaceId(previous.surfaceId);
+      setAnimKey(k => k + 1);
+      return nextTrail;
+    });
+  }, []);
+
+  const navigate = React.useCallback((target) => {
+    const next = typeof target === 'number' ? target : Number(target);
+    if (next !== page) {
+      setNavTrail(prev => [...prev, { page, surfaceId }]);
+    }
+    setSidebarOpen(false);
+    setNavDirection('forward');
+    if (next === 1) {
+      setAnimKey(k => k + 1);
+      setPage(1);
+      return;
+    }
+    if (CORTEX_MAIN_SURFACES.some(s => s.id === next)) {
+      setAnimKey(k => k + 1);
+      setSurfaceId(next);
+      setPage(next);
+      return;
+    }
+    if (next === 0) {
+      setAnimKey(k => k + 1);
+      setPage(0);
+      return;
+    }
+    setAnimKey(k => k + 1);
+    setPage(0);
+  }, [page, surfaceId]);
+
+  const toggleSidebar = React.useCallback(() => {
+    if (sidebarDocked) {
+      setSidebarPinnedHidden(v => !v);
+      return;
+    }
+    setSidebarOpen(v => !v);
   }, [sidebarDocked]);
 
   React.useEffect(() => {
@@ -8199,53 +8339,6 @@ function CortexLibraryShell() {
       window.removeEventListener('touchend', onTouchEnd);
     };
   }, [goBack]);
-
-  const goBack = React.useCallback(() => {
-    setSidebarOpen(false);
-    setNavTrail(prev => {
-      if (!prev.length) return prev;
-      const nextTrail = prev.slice();
-      const previous = nextTrail.pop();
-      setPage(previous.page);
-      setSurfaceId(previous.surfaceId);
-      setAnimKey(k => k + 1);
-      return nextTrail;
-    });
-  }, []);
-
-  const navigate = React.useCallback((target) => {
-    const next = typeof target === 'number' ? target : Number(target);
-    if (next !== page) {
-      setNavTrail(prev => [...prev, { page, surfaceId }]);
-    }
-    setSidebarOpen(false);
-    if (next === 1) {
-      setAnimKey(k => k + 1);
-      setPage(1);
-      return;
-    }
-    if (CORTEX_MAIN_SURFACES.some(s => s.id === next)) {
-      setAnimKey(k => k + 1);
-      setSurfaceId(next);
-      setPage(next);
-      return;
-    }
-    if (next === 0) {
-      setAnimKey(k => k + 1);
-      setPage(0);
-      return;
-    }
-    setAnimKey(k => k + 1);
-    setPage(0);
-  }, [page, surfaceId]);
-
-  const toggleSidebar = React.useCallback(() => {
-    if (sidebarDocked) {
-      setSidebarPinnedHidden(v => !v);
-      return;
-    }
-    setSidebarOpen(v => !v);
-  }, [sidebarDocked]);
 
   const renderPage = () => {
     const sharedProps = { onNavigate:navigate, themeId:theme.id, theme, onThemeChange:setThemeId };
@@ -8388,7 +8481,7 @@ function CortexLibraryShell() {
         ),
         React.createElement('section', {
           key:animKey,
-          className:'cortex-library-content',
+          className:['cortex-library-content', `cortex-page-enter-${navDirection}`].join(' '),
           style:{
             flex:1, minHeight:0, overflow:'hidden',
             padding:mode === 'desktop' ? 24 : mode === 'tablet' ? 18 : 0,
