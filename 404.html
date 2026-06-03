@@ -527,6 +527,183 @@
 .cortex-motion-press:active {
   animation: jelly-press 0.45s cubic-bezier(0.34,1.56,0.64,1);
 }
+.cortex-atom-button {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  border: 1px solid rgba(100, 180, 255, 0.26);
+  background:
+    linear-gradient(145deg, rgba(255,255,255,0.14), rgba(255,255,255,0.04)),
+    linear-gradient(135deg, rgba(0, 245, 255, 0.18), rgba(130, 95, 255, 0.18) 48%, rgba(255,255,255,0.10));
+  box-shadow:
+    0 16px 34px rgba(3, 10, 30, 0.42),
+    inset 0 1px 0 rgba(255,255,255,0.18),
+    inset 0 -1px 0 rgba(255,255,255,0.04);
+  backdrop-filter: blur(10px) saturate(160%);
+  -webkit-backdrop-filter: blur(10px) saturate(160%);
+}
+.cortex-atom-button::before,
+.cortex-atom-button::after {
+  content:'';
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  border-radius:inherit;
+}
+.cortex-atom-button::before {
+  inset:1px;
+  background:
+    radial-gradient(circle at 18% 22%, rgba(255,255,255,0.24), transparent 16%),
+    radial-gradient(circle at 78% 18%, rgba(93, 240, 255, 0.22), transparent 18%),
+    radial-gradient(circle at 50% 82%, rgba(168,85,247,0.18), transparent 24%),
+    linear-gradient(145deg, rgba(255,255,255,0.06), rgba(255,255,255,0.01));
+  opacity:0.92;
+}
+.cortex-atom-button::after {
+  inset:-25% -30%;
+  background: linear-gradient(115deg, transparent 38%, rgba(255,255,255,0.22) 49%, transparent 58%);
+  opacity:0.42;
+  mix-blend-mode: screen;
+  animation: cortex-atom-sheen 5.8s linear infinite;
+}
+.cortex-atom-button[data-active="true"] {
+  box-shadow:
+    0 18px 38px rgba(11, 17, 46, 0.52),
+    0 0 0 1px rgba(255,255,255,0.14) inset,
+    0 0 0 1px rgba(52, 211, 255, 0.18),
+    inset 0 1px 0 rgba(255,255,255,0.18);
+}
+.cortex-atom-button[data-active="true"]::before {
+  opacity:1;
+}
+.cortex-atom-button-core,
+.cortex-atom-button-orbit {
+  position:absolute;
+  pointer-events:none;
+}
+.cortex-atom-button-core {
+  left:14px;
+  top:50%;
+  width:38px;
+  height:38px;
+  border-radius:14px;
+  transform:translateY(-50%);
+  background:
+    radial-gradient(circle at 30% 26%, rgba(255,255,255,0.34), transparent 18%),
+    radial-gradient(circle at 50% 56%, rgba(255,255,255,0.08), transparent 58%),
+    linear-gradient(145deg, rgba(53, 252, 231, 0.82), rgba(135, 90, 255, 0.82));
+  box-shadow:
+    0 12px 20px rgba(0, 0, 0, 0.18),
+    inset 0 1px 0 rgba(255,255,255,0.24),
+    inset 0 -8px 18px rgba(7, 18, 34, 0.18);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  animation: cortex-atom-core-breathe 4.8s ease-in-out infinite;
+}
+.cortex-atom-button-core-dot {
+  width:12px;
+  height:12px;
+  border-radius:50%;
+  background:rgba(255,255,255,0.92);
+  box-shadow:0 0 10px rgba(255,255,255,0.55);
+}
+.cortex-atom-button-orbit {
+  border-radius:50%;
+  border:1px solid rgba(255,255,255,0.20);
+  box-shadow: inset 0 0 16px rgba(255,255,255,0.04);
+  animation: cortex-atom-orbit 8.4s linear infinite;
+}
+.cortex-atom-button-orbit-a {
+  left:8px;
+  top:50%;
+  width:54px;
+  height:54px;
+  transform:translateY(-50%) rotate(24deg);
+  opacity:0.48;
+}
+.cortex-atom-button-orbit-b {
+  left:12px;
+  top:50%;
+  width:46px;
+  height:46px;
+  transform:translateY(-50%) rotate(-32deg);
+  opacity:0.34;
+  animation-direction:reverse;
+}
+.cortex-atom-button-copy {
+  position:relative;
+  z-index:1;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  gap:1px;
+  padding-left:64px;
+  min-width:0;
+}
+.cortex-atom-button-kicker {
+  font-size:9px;
+  font-weight:900;
+  letter-spacing:1.3px;
+  text-transform:uppercase;
+  color:rgba(205, 238, 255, 0.84);
+}
+.cortex-atom-button-title {
+  font-size:13px;
+  font-weight:900;
+  color:inherit;
+  line-height:1.05;
+}
+.cortex-atom-button-sub {
+  font-size:10px;
+  font-weight:600;
+  color:var(--cortex-theme-text-muted, rgba(205, 208, 255, 0.72));
+  line-height:1.25;
+  max-width:100%;
+}
+.cortex-atom-button--fab {
+  min-width:126px;
+  min-height:58px;
+  padding:10px 16px 10px 14px;
+  border-radius:22px;
+}
+.cortex-atom-button--fab .cortex-atom-button-copy {
+  padding-left:58px;
+  justify-content:center;
+}
+.cortex-atom-button--page {
+  width:100%;
+  min-height:76px;
+  padding:12px 14px;
+  border-radius:20px;
+  justify-content:flex-start;
+  text-align:left;
+}
+.cortex-atom-button--page .cortex-atom-button-copy {
+  padding-left:64px;
+}
+.cortex-atom-button--page .cortex-atom-button-title {
+  font-size:14px;
+}
+.cortex-atom-button--page .cortex-atom-button-sub {
+  max-width:280px;
+}
+.cortex-atom-button--mini {
+  min-height:58px;
+  padding:10px 12px;
+}
+@keyframes cortex-atom-sheen {
+  0% { transform: translate3d(-18%, 0, 0) rotate(0.001deg); }
+  100% { transform: translate3d(18%, 0, 0) rotate(0.001deg); }
+}
+@keyframes cortex-atom-core-breathe {
+  0%, 100% { transform: translateY(-50%) scale(1); }
+  50% { transform: translateY(-50%) scale(1.05); }
+}
+@keyframes cortex-atom-orbit {
+  0% { transform: translateY(-50%) rotate(0deg); }
+  100% { transform: translateY(-50%) rotate(360deg); }
+}
 .cortex-motion-orb {
   animation: soft-wobble 12s ease-in-out infinite, float 10s ease-in-out infinite;
 }
@@ -3586,11 +3763,11 @@ function B1Topbar({ left, title, right, subtitle, transparent }) {
 }
 
 /* ── Button ── */
-function B1Button({ label, icon, onClick, variant = 'primary', full, style }) {
+function B1Button({ label, icon, onClick, variant = 'primary', full, style, className }) {
   const [p, setP] = React.useState(false);
   const isPrimary = variant === 'primary';
   return React.createElement('div', {
-    className:'b1-button',
+    className:['b1-button', className].filter(Boolean).join(' '),
     onClick, onPointerDown:()=>setP(true), onPointerUp:()=>setP(false), onPointerLeave:()=>setP(false),
     style: {
       display:'inline-flex', alignItems:'center', justifyContent:'center', gap:6,
@@ -3607,6 +3784,43 @@ function B1Button({ label, icon, onClick, variant = 'primary', full, style }) {
       ...style,
     }
   }, icon, label);
+}
+
+function CortexAtomPageButton({ page, title, sub, onClick, active = false, className, compact = false, style }) {
+  return React.createElement('button', {
+    type:'button',
+    onClick,
+    className:[
+      'cortex-atom-button',
+      'cortex-motion-press',
+      compact ? 'cortex-atom-button--mini' : 'cortex-atom-button--page',
+      active ? 'is-active' : '',
+      className,
+    ].filter(Boolean).join(' '),
+    'data-active':String(!!active),
+    style:{
+      display:'flex',
+      alignItems:'center',
+      justifyContent:'flex-start',
+      gap:12,
+      width:'100%',
+      color: active ? '#ffffff' : DL.text,
+      cursor:'pointer',
+      userSelect:'none',
+      ...style,
+    }
+  },
+    React.createElement('span', { className:'cortex-atom-button-orbit cortex-atom-button-orbit-a' }),
+    React.createElement('span', { className:'cortex-atom-button-orbit cortex-atom-button-orbit-b' }),
+    React.createElement('span', { className:'cortex-atom-button-core' },
+      React.createElement('span', { className:'cortex-atom-button-core-dot' })
+    ),
+    React.createElement('span', { className:'cortex-atom-button-copy' },
+      React.createElement('span', { className:'cortex-atom-button-kicker' }, page != null ? `Page ${page}` : 'Surface hub'),
+      React.createElement('span', { className:'cortex-atom-button-title' }, title),
+      sub && React.createElement('span', { className:'cortex-atom-button-sub' }, sub)
+    )
+  );
 }
 
 /* ── Divider ── */
@@ -6739,19 +6953,23 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
         React.createElement('div', { style:{ fontSize:11, fontWeight:900, color:DL.mute, letterSpacing:1.1, textTransform:'uppercase', margin:'6px 0 8px' }},
           `${fabGroup} surfaces`
         ),
-        React.createElement('div', { style:{ display:'grid', gap:10 }},
+        React.createElement('div', { style:{ display:'grid', gap:10, gridTemplateColumns:compact ? '1fr' : 'repeat(2, minmax(0,1fr))' }},
           activeGroupItems.map(surface => {
             const active = surface.id === activeSurface.id;
-            return React.createElement(B3Row, {
+            return React.createElement(CortexAtomPageButton, {
               key:surface.id,
+              page:surface.id,
               title:surface.label,
-              sub:`Page ${surface.id} • ${surface.summary}`,
+              sub:surface.summary,
               active,
               onClick:()=>{
                 onSurfaceChange && onSurfaceChange(surface.id);
                 setViewSurface(surface.id);
               },
-              right:React.createElement('span', { style:{ color:active ? currentTheme.colors.accent2 : DL.sub, fontWeight:900 }}, active ? 'Open' : 'View'),
+              style:{
+                minHeight:82,
+                paddingRight:16,
+              }
             });
           })
         )
@@ -6851,20 +7069,20 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
       zIndex:25,
     }},
       React.createElement('div', { style:{ position:'relative' }},
-        React.createElement(B1Button, {
-          className:'cortex-motion-press',
+        React.createElement(CortexAtomPageButton, {
           onClick:()=>setFabOpen(v => !v),
-          icon:'◉',
-          label:'Pages',
+          page:null,
+          title:'Pages',
+          sub:'Surface hub',
+          compact:true,
+          active:fabOpen,
           style:{
-            minWidth:104,
-            height:56,
-            borderRadius:20,
-            padding:'0 16px',
-            display:'flex',
-            alignItems:'center',
-            justifyContent:'center',
+            minWidth:128,
+            minHeight:56,
+            padding:'8px 14px',
+            borderRadius:22,
             boxShadow:`0 18px 32px ${currentTheme.colors.shadowColor}`,
+            width:'auto',
           }
         }),
         fabOpen && React.createElement('div', { style:{
@@ -6900,22 +7118,22 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
             }, `${group.group}`))
           ),
           React.createElement('div', { style:{ color:DL.mute, fontSize:10, textTransform:'uppercase', letterSpacing:1.2, margin:'8px 0 8px' }}, `${fabGroup} • tap to open`),
-          activeGroupItems.map(item => React.createElement(B1Button, {
+          activeGroupItems.map(item => React.createElement(CortexAtomPageButton, {
             key:item.id,
-            icon:`#${item.id}`,
-            label:item.label,
+            page:item.id,
+            title:item.label,
+            sub:item.summary,
             onClick:()=>{
               onSurfaceChange && onSurfaceChange(item.id);
               setViewSurface(item.id);
               setFabOpen(false);
             },
-            className:'cortex-motion-press',
-            variant:'ghost',
+            compact:true,
+            active:item.id === activeSurface.id,
             style:{
               width:'100%',
               marginBottom:8,
-              justifyContent:'flex-start',
-              padding:'11px 13px',
+              padding:'10px 12px',
             }
           }))
         )
