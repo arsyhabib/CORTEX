@@ -218,6 +218,12 @@
   62% { transform: scale(1.018, 0.982); }
   100% { transform: scale(1); }
 }
+@keyframes cortex-button-tap-bloom {
+  0% { opacity: 0.0; transform: scale(0.94); filter: blur(1px); }
+  32% { opacity: 1; transform: scale(1.02); filter: blur(0); }
+  64% { transform: scale(0.985); }
+  100% { opacity: 1; transform: scale(1); filter: blur(0); }
+}
 
 @keyframes soft-wobble {
   0%, 100% { transform: rotate(0deg) translateY(0); }
@@ -528,6 +534,9 @@
 .cortex-motion-press:active {
   animation: jelly-press 0.45s cubic-bezier(0.34,1.56,0.64,1);
 }
+.cortex-button-tap {
+  animation: cortex-button-tap-bloom 420ms cubic-bezier(0.16,1,0.3,1);
+}
 .cortex-atom-button {
   position: relative;
   overflow: hidden;
@@ -726,6 +735,7 @@
     inset 0 -10px 24px rgba(5, 10, 28, 0.14);
   backdrop-filter: blur(14px) saturate(170%);
   -webkit-backdrop-filter: blur(14px) saturate(170%);
+  transition: opacity 260ms ease, transform 360ms cubic-bezier(0.16,1,0.3,1), box-shadow 260ms ease;
 }
 .cortex-sidebar-fab::before,
 .cortex-sidebar-fab::after {
@@ -801,13 +811,18 @@
   text-shadow:0 1px 8px rgba(0,0,0,0.45);
 }
 .cortex-sidebar-fab[data-open="true"] {
-  transform: translateY(-2px) scale(0.98);
+  opacity: 0;
+  transform: translateY(14px) scale(0.82);
+  pointer-events: none;
   box-shadow:
     0 22px 42px rgba(3, 10, 30, 0.48),
     0 0 0 1px rgba(255,255,255,0.08) inset;
 }
 .cortex-sidebar-fab[data-open="true"]::after {
   opacity:0.52;
+}
+.cortex-sidebar-shell {
+  min-height: 0;
 }
 .cortex-sidebar-drawer-backdrop {
   position: fixed;
@@ -816,6 +831,7 @@
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   z-index: 31;
+  transition: opacity 260ms ease, visibility 260ms ease;
 }
 .cortex-sidebar-drawer {
   position: fixed;
@@ -832,6 +848,7 @@
   box-shadow: 0 26px 64px rgba(0,0,0,0.42);
   backdrop-filter: blur(22px) saturate(170%);
   -webkit-backdrop-filter: blur(22px) saturate(170%);
+  transition: transform 420ms cubic-bezier(0.16,1,0.3,1), opacity 260ms ease;
 }
 .cortex-sidebar-drawer .cortex-library-nav {
   position: relative;
@@ -1543,6 +1560,12 @@
   .cortex-quickref-sheet {
     max-height: calc(100% - 18px) !important;
     -webkit-overflow-scrolling: touch;
+  }
+}
+
+@media (max-width: 1279px) {
+  .cortex-sidebar-shell {
+    display: none !important;
   }
 }
 
@@ -8083,7 +8106,7 @@ function CortexLibraryShell() {
   const coarsePointer = typeof window !== 'undefined' &&
     window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
   const sidebarDocked = typeof window !== 'undefined' &&
-    (mode === 'desktop' || (mode === 'tablet' && window.innerWidth >= 1040));
+    !coarsePointer && window.innerWidth >= 1280;
   const params = new URLSearchParams(window.location.search);
   const hasSeenWelcome = typeof window !== 'undefined' && localStorage.getItem('cortex.welcomeSeen') === '1';
   const initialPage = Number(params.get('page') || (hasSeenWelcome ? 0 : 1));
@@ -8142,7 +8165,26 @@ function CortexLibraryShell() {
     }
   }, [textZoom]);
 
-  const sidebarVisible = sidebarDocked && !sidebarPinnedHidden;
+  React.useEffect(() => {
+    const pulse = (el) => {
+      if (!el || el.disabled) return;
+      el.classList.remove('cortex-button-tap');
+      // Force reflow to restart the animation cleanly.
+      void el.offsetWidth;
+      el.classList.add('cortex-button-tap');
+      window.setTimeout(() => {
+        el.classList.remove('cortex-button-tap');
+      }, 460);
+    };
+    const onPointerDown = (event) => {
+      const target = event.target && event.target.closest
+        ? event.target.closest('button, a, [role="button"]')
+        : null;
+      if (target) pulse(target);
+    };
+    document.addEventListener('pointerdown', onPointerDown, true);
+    return () => document.removeEventListener('pointerdown', onPointerDown, true);
+  }, []);
 
   const navigate = React.useCallback((target) => {
     const next = typeof target === 'number' ? target : Number(target);
@@ -8227,11 +8269,20 @@ function CortexLibraryShell() {
         animationDelay:`${i * -1.7}s`,
       }}))
     ),
-    !sidebarDocked && sidebarOpen && React.createElement('div', {
+    !sidebarDocked && React.createElement('div', {
       className:'cortex-sidebar-drawer-backdrop',
       onClick:()=>setSidebarOpen(false),
+      style:{
+        opacity: sidebarOpen ? 1 : 0,
+        visibility: sidebarOpen ? 'visible' : 'hidden',
+        pointerEvents: sidebarOpen ? 'auto' : 'none',
+      }
     }),
-    !sidebarDocked && sidebarOpen && React.createElement('div', { className:'cortex-sidebar-drawer' },
+    !sidebarDocked && React.createElement('div', { className:'cortex-sidebar-drawer', style:{
+      opacity: sidebarOpen ? 1 : 0,
+      transform: sidebarOpen ? 'translateX(0) scale(1)' : 'translateX(-18px) scale(0.98)',
+      pointerEvents: sidebarOpen ? 'auto' : 'none',
+    } },
       React.createElement(CortexLibraryNav, {
         page,
         onNavigate:navigate,
@@ -8240,10 +8291,29 @@ function CortexLibraryShell() {
         onClose:()=>setSidebarOpen(false),
       })
     ),
-    sidebarVisible && React.createElement(CortexLibraryNav, { page, onNavigate:navigate, mode, sidebarMode:'dock' }),
-    !sidebarDocked && !sidebarOpen && React.createElement(CortexSidebarFab, {
-      open:false,
-      onClick:()=>setSidebarOpen(true),
+    React.createElement('div', { className:'cortex-sidebar-shell', style: sidebarDocked ? {
+      width: sidebarPinnedHidden ? 0 : 292,
+      maxWidth: sidebarPinnedHidden ? 0 : 292,
+      opacity: sidebarPinnedHidden ? 0 : 1,
+      transform: sidebarPinnedHidden ? 'translateX(-18px)' : 'translateX(0)',
+      pointerEvents: sidebarPinnedHidden ? 'none' : 'auto',
+      overflow:'hidden',
+      transition:'width 420ms cubic-bezier(0.16,1,0.3,1), max-width 420ms cubic-bezier(0.16,1,0.3,1), opacity 220ms ease, transform 420ms cubic-bezier(0.16,1,0.3,1)',
+      flexShrink:0,
+    } : {
+      position:'fixed',
+      left:12,
+      top:'calc(env(safe-area-inset-top) + 12px)',
+      bottom:'calc(12px + env(safe-area-inset-bottom))',
+      width:'min(360px, calc(100vw - 24px))',
+      zIndex:32,
+      pointerEvents:'none',
+    }},
+      sidebarDocked && React.createElement(CortexLibraryNav, { page, onNavigate:navigate, mode, sidebarMode:'dock' })
+    ),
+    !sidebarDocked && React.createElement(CortexSidebarFab, {
+      open:sidebarOpen,
+      onClick:()=>setSidebarOpen(v => !v),
       theme,
       count:CORTEX_MAIN_SURFACES.length,
     }),
