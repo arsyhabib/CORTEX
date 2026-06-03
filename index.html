@@ -4292,9 +4292,14 @@ function CortexPageGlyph({ page, theme, variant = 0, compact = false }) {
 function B1Button({ label, icon, onClick, variant = 'primary', full, style, className }) {
   const [p, setP] = React.useState(false);
   const isPrimary = variant === 'primary';
-  return React.createElement('div', {
+  return React.createElement('button', {
+    type:'button',
     className:['b1-button', className].filter(Boolean).join(' '),
-    onClick, onPointerDown:()=>setP(true), onPointerUp:()=>setP(false), onPointerLeave:()=>setP(false),
+    onClick,
+    onPointerDown:()=>setP(true),
+    onPointerUp:()=>setP(false),
+    onPointerLeave:()=>setP(false),
+    onPointerCancel:()=>setP(false),
     style: {
       display:'inline-flex', alignItems:'center', justifyContent:'center', gap:6,
       padding: isPrimary ? '12px 24px' : '10px 18px',
@@ -4303,9 +4308,12 @@ function B1Button({ label, icon, onClick, variant = 'primary', full, style, clas
       border: isPrimary ? 'none' : `1px solid ${DL.glassBorder}`,
       color: isPrimary ? '#fff' : DL.text,
       fontSize:13, fontWeight:600, cursor:'pointer', userSelect:'none',
+      appearance:'none',
+      WebkitAppearance:'none',
       boxShadow: isPrimary ? `0 4px 20px ${DL.shadowColor}` : 'none',
       transition:'all 0.38s cubic-bezier(0.16,1.22,0.24,1)',
       transform:`perspective(700px) rotateX(var(--cortex-button-tilt-y, 0deg)) rotateY(var(--cortex-button-tilt-x, 0deg)) translate3d(var(--cortex-button-shift-x, 0px), var(--cortex-button-shift-y, 0px), 0) translate3d(var(--cortex-touch-shift-x, 0px), var(--cortex-touch-shift-y, 0px), 0) scale3d(calc(1 + var(--cortex-touch-scale, 0) * 1.15), calc(1 - var(--cortex-touch-squash, 0) * 0.018), 1) scale(calc(var(--cortex-motion-scale, 1) * var(--cortex-shake-scale, 1))) scale(${p ? 0.95 : 1})`,
+      borderStyle: 'solid',
       width: full ? '100%' : 'auto',
       ...style,
     }
@@ -4481,7 +4489,7 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
       if (!fabDragRef.current.active) return;
       const dx = moveEvent.clientX - fabDragRef.current.sx;
       const dy = moveEvent.clientY - fabDragRef.current.sy;
-      if (!fabDragRef.current.moved && Math.hypot(dx, dy) > 8) {
+      if (!fabDragRef.current.moved && Math.hypot(dx, dy) > 14) {
         fabDragRef.current.moved = true;
         setFabOpen(false);
       }
@@ -8906,7 +8914,7 @@ function CortexLibraryShell() {
       if (!sidebarFabDragRef.current.active) return;
       const dx = moveEvent.clientX - sidebarFabDragRef.current.sx;
       const dy = moveEvent.clientY - sidebarFabDragRef.current.sy;
-      if (!sidebarFabDragRef.current.moved && Math.hypot(dx, dy) > 8) {
+      if (!sidebarFabDragRef.current.moved && Math.hypot(dx, dy) > 14) {
         sidebarFabDragRef.current.moved = true;
         setSidebarOpen(false);
       }
