@@ -6121,7 +6121,7 @@ function PageSettings({ onNavigate, themeId: themeIdProp, theme: themeProp, onTh
   const confirmMeta = confirmAction === 'logout' ? {
     title:'Logout akun?',
     subtitle:'Sesi demo ini akan ditutup dan kamu akan kembali ke Welcome.',
-    body:'Ini bukan logout akun server sungguhan. Shell hanya mematikan sesi placeholder agar siap dipakai oleh pengguna berikutnya.',
+    body:'Ini adalah logout sesi lokal pada shell publik. Jalur ini mengosongkan status pengguna aktif tanpa menyentuh data server.',
     primary:'Logout',
     accent:currentTheme.colors.accent2,
     icon:'🚪',
@@ -6338,8 +6338,8 @@ function PageSettings({ onNavigate, themeId: themeIdProp, theme: themeProp, onTh
         ),
         React.createElement('div', { style:{ fontSize:10, color:DL.mute, marginTop:10, lineHeight:1.5 }},
           accountLoggedIn
-            ? 'This identity block is a placeholder for the user profile that will later receive real course and session metadata.'
-            : 'Sesi demo sudah keluar. Data placeholder tetap aman untuk dipakai lagi saat login ulang.'
+            ? 'This identity block is the current shell profile surface and can later receive real course and session metadata.'
+            : 'Sesi lokal sudah keluar. Shell tetap aman untuk dipakai lagi saat login ulang.'
         ),
       ),
 
@@ -7020,6 +7020,222 @@ Object.assign(window, {
   B2Bullet, B2PressHint, B2ImageCard, B2Segmented,
 });
 
+const CORTEX_RUNTIME_CONTENT_INDEX_PATH = 'app_data/runtime/content_index.generated.json';
+const CORTEX_RUNTIME_VISUAL_MANIFEST_PATH = 'app_data/runtime/visual_asset_manifest.generated.json';
+
+function cortexFetchJSON(path) {
+  return fetch(path, { cache:'no-store' }).then((response) => {
+    if (!response.ok) throw new Error(`Failed to load ${path}: ${response.status}`);
+    return response.json();
+  });
+}
+
+function cortexSentenceCase(value) {
+  const text = String(value || '').replace(/\s+/g, ' ').trim();
+  if (!text) return '';
+  return text.charAt(0).toUpperCase() + text.slice(1);
+}
+
+function cortexHumanizeTerm(value) {
+  return cortexSentenceCase(
+    String(value || '')
+      .replace(/^term_/i, '')
+      .replace(/^Term_/i, '')
+      .replace(/[_-]+/g, ' ')
+      .replace(/\s+/g, ' ')
+  );
+}
+
+function cortexGetLectureSections(module, limit = 6) {
+  const sections = Array.isArray(module && module.sections) ? module.sections : [];
+  return sections.map((section, index) => {
+    const lines = Array.isArray(section.content)
+      ? section.content
+          .map((item) => String(item && item.text || '').replace(/\s+/g, ' ').trim())
+          .filter(Boolean)
+      : [];
+    return {
+      id: section.id || `section_${index + 1}`,
+      title: cortexSentenceCase(section.title || `Section ${index + 1}`),
+      kind: section.kind || 'Reading',
+      lines,
+      summary: lines.slice(0, 2).join(' '),
+      glossaryRefs: Array.isArray(section.glossary_refs) ? section.glossary_refs : [],
+      quizRefs: Array.isArray(section.quiz_refs) ? section.quiz_refs : [],
+      visualRefs: Array.isArray(section.visual_refs) ? section.visual_refs : [],
+    };
+  }).filter((section) => section.lines.length).slice(0, limit);
+}
+
+function cortexGetLectureGlossary(module, limit = 12) {
+  const refs = [];
+  cortexGetLectureSections(module, 12).forEach((section) => {
+    (section.glossaryRefs || []).forEach((ref) => refs.push(ref));
+  });
+  const unique = Array.from(new Set(refs));
+  return unique.slice(0, limit).map((ref) => ({
+    id: ref,
+    term: cortexHumanizeTerm(ref),
+    type: 'Core term',
+  }));
+}
+
+function cortexGetLectureSummary(module, limit = 5) {
+  const summary = Array.isArray(module && module.summary) ? module.summary : [];
+  const examFocus = Array.isArray(module && module.exam_focus) ? module.exam_focus : [];
+  return [...summary, ...examFocus].map(cortexSentenceCase).filter(Boolean).slice(0, limit);
+}
+
+function cortexGetExamQuestions(examSet) {
+  const list = Array.isArray(examSet && examSet.questions)
+    ? examSet.questions
+    : Array.isArray(examSet && examSet.items)
+      ? examSet.items
+      : [];
+  return list.filter((item) => item && item.stem);
+}
+
+function cortexVisualHash(value) {
+  const text = String(value || '').trim();
+  let hash = 0;
+  for (let i = 0; i < text.length; i += 1) {
+    hash = ((hash << 5) - hash) + text.charCodeAt(i);
+    hash |= 0;
+  }
+  return Math.abs(hash);
+}
+
+function cortexVisualPalette(seed) {
+  const palettes = [
+    ['#7c5cff', '#16d9a5', '#4cc9f0'],
+    ['#8b5cf6', '#06b6d4', '#f59e0b'],
+    ['#0ea5e9', '#8b5cf6', '#14b8a6'],
+    ['#f97316', '#8b5cf6', '#22c55e'],
+    ['#ec4899', '#6366f1', '#06b6d4'],
+    ['#14b8a6', '#7c3aed', '#60a5fa'],
+    ['#f59e0b', '#06b6d4', '#8b5cf6'],
+    ['#22c55e', '#0ea5e9', '#a855f7'],
+  ];
+  return palettes[cortexVisualHash(seed) % palettes.length];
+}
+
+function cortexHumanizeVisualTarget(value) {
+  const text = String(value || '').trim();
+  if (!text) return '';
+  const [head, tailRaw = ''] = text.split(':');
+  const headLabel = cortexSentenceCase(
+    head
+      .replace(/^page_/i, '')
+      .replace(/^page/i, '')
+      .replace(/[_-]+/g, ' ')
+      .replace(/\bmcq\b/gi, 'MCQ')
+      .replace(/\bq(\d+)/gi, 'Q$1')
+  );
+  const tail = String(tailRaw || '').replace(/[_-]+/g, ' ').trim();
+  return tail ? `${headLabel} · ${tail}` : headLabel;
+}
+
+function cortexResolveVisualAssets(manifest) {
+  const raw = Array.isArray(manifest && manifest.assets)
+    ? manifest.assets
+    : Array.isArray(manifest && manifest.visual_assets)
+      ? manifest.visual_assets
+      : [];
+  const priorityOrder = { high: 0, medium: 1, normal: 1, low: 2 };
+  return raw.map((asset, index) => {
+    const id = String(asset.id || asset.asset_id || `visual_${index + 1}`);
+    const batchId = String(asset.batchId || asset.batch_id || '');
+    const domainId = String(asset.domainId || asset.domain || '');
+    const title = String(asset.title || '').trim();
+    const type = String(asset.type || asset.visual_type || '').trim();
+    const pageTargets = Array.isArray(asset.pageTargets || asset.page_targets)
+      ? (asset.pageTargets || asset.page_targets).map((target) => String(target || '').trim()).filter(Boolean)
+      : [];
+    const caption = String(asset.caption || '').trim();
+    const altText = String(asset.altText || asset.alt_text || asset.alt || '').trim();
+    const styleNotes = String(asset.styleNotes || asset.style_notes || '').trim();
+    const compositionNotes = String(asset.compositionNotes || asset.composition_notes || '').trim();
+    const colorNotes = String(asset.colorNotes || asset.color_notes || '').trim();
+    const prompt = String(asset.prompt || '').trim();
+    const negativePrompt = String(asset.negativePrompt || asset.negative_prompt || '').trim();
+    const priority = String(asset.priority || 'normal').toLowerCase();
+    return {
+      id,
+      batchId,
+      batchLabel: cortexSentenceCase(batchId.replace(/[_-]+/g, ' ')) || `Batch ${index + 1}`,
+      domainId,
+      domainLabel: cortexSentenceCase(domainId.replace(/[_-]+/g, ' ')),
+      title,
+      type,
+      typeLabel: cortexSentenceCase(type.replace(/[_-]+/g, ' ')),
+      pageTargets,
+      caption,
+      altText,
+      styleNotes,
+      compositionNotes,
+      colorNotes,
+      prompt,
+      negativePrompt,
+      priority,
+      priorityWeight: priorityOrder[priority] ?? 1,
+      searchText: [
+        id, batchId, batchId.replace(/[_-]+/g, ' '), domainId, domainId.replace(/[_-]+/g, ' '),
+        title, type, caption, altText, styleNotes, compositionNotes, colorNotes, pageTargets.join(' '),
+      ].join(' ').toLowerCase(),
+    };
+  }).sort((a, b) => {
+    const batchA = Number((a.batchId.match(/batch_(\d+)/i) || [])[1] || 0);
+    const batchB = Number((b.batchId.match(/batch_(\d+)/i) || [])[1] || 0);
+    if (batchA !== batchB) return batchA - batchB;
+    if (a.priorityWeight !== b.priorityWeight) return a.priorityWeight - b.priorityWeight;
+    return a.title.localeCompare(b.title);
+  });
+}
+
+function cortexVisualPosterTitleLines(asset) {
+  const text = String(asset && asset.title ? asset.title : '').trim();
+  if (!text) return ['Untitled visual'];
+  const words = text.split(/\s+/);
+  const lines = [];
+  let current = '';
+  words.forEach((word) => {
+    const next = current ? `${current} ${word}` : word;
+    if (next.length > 18 && current) {
+      lines.push(current);
+      current = word;
+    } else {
+      current = next;
+    }
+  });
+  if (current) lines.push(current);
+  return lines.slice(0, 3);
+}
+
+function cortexVisualPosterStyle(asset, selected = false) {
+  const [a, b, c] = cortexVisualPalette(`${asset.id}:${asset.domainId}:${asset.type}`);
+  return {
+    backgroundImage: [
+      `radial-gradient(circle at 20% 18%, ${a}44 0%, transparent 31%)`,
+      `radial-gradient(circle at 82% 22%, ${b}35 0%, transparent 25%)`,
+      `radial-gradient(circle at 50% 88%, ${c}2e 0%, transparent 34%)`,
+      `linear-gradient(145deg, ${a}18, ${b}15 52%, ${c}12)`,
+    ].join(', '),
+    border:`1px solid ${selected ? 'rgba(255,255,255,0.18)' : 'rgba(255,255,255,0.10)'}`,
+    boxShadow:selected
+      ? `0 22px 70px ${DL.shadowColor}, inset 0 1px 0 rgba(255,255,255,0.10)`
+      : `0 14px 42px ${DL.shadowColor}, inset 0 1px 0 rgba(255,255,255,0.06)`,
+  };
+}
+
+function cortexResolveLectureDomains(index) {
+  return Array.isArray(index && index.lectureDomains) ? index.lectureDomains : [];
+}
+
+function cortexResolveExamSets(index) {
+  return (Array.isArray(index && index.examSets) ? index.examSets : [])
+    .filter((set) => set && set.sourceFile && Number(set.questionCount || 0) > 0 && set.title);
+}
+
 /* batch2-screens-a.jsx */
 /* CORTEX DESIGN LIBRARY - Batch 2 Screens (9-12)
    Page 9: Typography Reading Page
@@ -7027,19 +7243,58 @@ Object.assign(window, {
    Page 11: Callout & Clinical Pearl Page
    Page 12: Image Card Page */
 
-function PageTypographyReading({ onNavigate }) {
+function PageTypographyReading({ onNavigate, lectureModule, lectureDomain }) {
   const [held, setHeld] = React.useState(false);
-  const [openSections, setOpenSections] = React.useState([0, 1, 3]);
-  const [openSubs, setOpenSubs] = React.useState([0, 2]);
+  const [openSections, setOpenSections] = React.useState([0, 1]);
+  const [openSubs, setOpenSubs] = React.useState([0, 1]);
   const [viewerMode, setViewerMode] = React.useState('poster');
   const [recallAnswers, setRecallAnswers] = React.useState([null, null, null, null, null]);
   const timer = React.useRef(null);
+  const sections = React.useMemo(() => cortexGetLectureSections(lectureModule), [lectureModule]);
+  const summaryPoints = React.useMemo(() => cortexGetLectureSummary(lectureModule), [lectureModule]);
+  const glossaryTerms = React.useMemo(() => cortexGetLectureGlossary(lectureModule, 4), [lectureModule]);
+  const topicTags = lectureModule && Array.isArray(lectureModule.topicTags) ? lectureModule.topicTags : [];
+  const lectureTitle = lectureModule && lectureModule.title ? lectureModule.title : 'Lecture Reader';
+  const lectureSubtitle = lectureDomain && lectureDomain.title ? lectureDomain.title.replace(/\.$/, '') : 'Lecture module';
+  const lectureSource = lectureModule && (lectureModule.sourceDocument || lectureModule.source_docx || lectureModule.source_filename || lectureModule.source_pdf);
+  const lectureTable = React.useMemo(() => {
+    const rows = glossaryTerms.map((item, index) => [
+      item.term,
+      summaryPoints[index] || 'Core review cue',
+      sections[index] ? sections[index].title : 'Linked section',
+    ]);
+    return rows.length ? rows : [
+      ['Core concept', 'Reading focus', 'Open the module and continue reading'],
+      ['Clinical cue', 'High-yield checkpoint', 'Use the linked summary and quiz surfaces'],
+    ];
+  }, [glossaryTerms, sections, summaryPoints]);
+  const recallQuestions = React.useMemo(() => {
+    const points = summaryPoints.length ? summaryPoints : [
+      'Identify the main concept in the current lecture module.',
+      'Link the reading section to one glossary term.',
+      'Decide which point should move into quick review.',
+      'Notice which section deserves a supporting visual.',
+      'Choose the best next action after reading.',
+    ];
+    return points.slice(0, 5).map((point, index) => ({
+      q:`What is the clearest takeaway from point ${index + 1}?`,
+      options:[
+        point,
+        'Ignore it because it does not affect the learning flow.',
+        'Treat it as decorative context only.',
+        'Remove it from review and glossary surfaces.',
+      ],
+      correct:0,
+      explain:'This recall row mirrors the actual summary point collected from the lecture package, so the learner rehearses the same concept across reading and review surfaces.',
+    }));
+  }, [summaryPoints]);
   const startHold = () => {
     clearTimeout(timer.current);
     timer.current = setTimeout(() => setHeld(true), 520);
   };
   const endHold = () => {
     clearTimeout(timer.current);
+    setHeld(false);
   };
   const toggleSection = (idx) => {
     setOpenSections(prev => prev.includes(idx) ? prev.filter(v => v !== idx) : [...prev, idx]);
@@ -7048,159 +7303,35 @@ function PageTypographyReading({ onNavigate }) {
     setOpenSubs(prev => prev.includes(idx) ? prev.filter(v => v !== idx) : [...prev, idx]);
   };
 
-  const lectureSections = [
-    {
-      title:'1. Snapshot klinis',
-      summary:'Kerangka baca cepat untuk mengenali perfusi, kesadaran, dan tanda neurologis awal.',
-      tone:'note',
-      body:[
-        'Perfusi yang berubah biasanya tidak datang sendirian. Di practice material, kita membaca pola: respons bicara, pupil, kekuatan motorik, dan tingkat alertness.',
-        'Tujuan utamanya adalah menghubungkan observasi yang kecil menjadi keputusan yang lebih tenang dan lebih cepat.',
-      ],
-      subs:[
-        {
-          title:'1.1 Perfusion window',
-          lines:['Nilai kesadaran baseline.', 'Bandingkan perubahan kecil dari sebelumnya.', 'Cari timing kejadian: mendadak atau bertahap.'],
-        },
-        {
-          title:'1.2 Bedside red flags',
-          lines:['Speech berubah.', 'Satu pupil berbeda.', 'Kelemahan sisi tubuh.', 'Penurunan fokus atau perhatian.'],
-        },
-      ],
-    },
-    {
-      title:'2. Pemeriksaan inti',
-      summary:'Langkah bedside yang paling berguna untuk membangun rasa aman saat menilai sistem saraf.',
-      tone:'caution',
-      body:[
-        'Materi dummy ini menekankan urutan yang stabil. Observasi awal yang konsisten sering lebih bernilai daripada pemeriksaan yang terlalu ramai.',
-        'Gunakan irama yang sama: lihat, dengar, bandingkan, lalu catat perubahan yang paling relevan.',
-      ],
-      subs:[
-        {
-          title:'2.1 Speech & language',
-          lines:['Dengar kelancaran kalimat.', 'Cari kata yang hilang atau tersendat.', 'Nilai apakah jawaban sesuai konteks.'],
-        },
-        {
-          title:'2.2 Pupil & motor',
-          lines:['Bandingkan ukuran pupil.', 'Lihat reaksi terhadap cahaya.', 'Periksa kekuatan kanan dan kiri secara seimbang.'],
-        },
-      ],
-    },
-    {
-      title:'3. Supportive data',
-      summary:'Tabel pelengkap untuk membantu menghubungkan istilah, makna, dan tindakan belajar.',
-      tone:'evidence',
-      body:[
-        'Bagian ini sengaja dibuat seperti ringkasan dosen: pendek, rapi, dan mudah dirujuk ulang saat mengerjakan kuis atau revisi cepat.',
-      ],
-      subs:[
-        {
-          title:'3.1 Teaching note',
-          lines:['Tandai istilah penting.', 'Pindahkan ke glossary jika perlu.', 'Hubungkan ke kasus latihan berikutnya.'],
-        },
-      ],
-    },
-    {
-      title:'4. Visual reference',
-      summary:'Satu panel gambar dan satu panel viewport 3D placeholder untuk memperkaya bahan baca.',
-      tone:'pearl',
-      body:[
-        'Konsep visual di sini bukan ilustrasi medis asli, melainkan placeholder yang menjaga alur belajar tetap menyenangkan dan mudah di-scan.',
-      ],
-      subs:[
-        {
-          title:'4.1 Poster fallback',
-          lines:['Dipakai saat viewport tidak tersedia.', 'Tetap menyimpan konteks visual.', 'Membantu pengguna mobile yang butuh frame statis.'],
-        },
-        {
-          title:'4.2 Unsupported states',
-          lines:['Loading placeholder.', '3D unsupported.', 'Motion fallback.'],
-        },
-      ],
-    },
-    {
-      title:'5. Recall drill',
-      summary:'Lima soal dummy untuk mengecek daya ingat setelah membaca materi.',
-      tone:'note',
-      body:[
-        'Kuis recall ini sengaja diletakkan di bawah supaya materi, ilustrasi, dan review merasa seperti satu paket yang utuh.',
-      ],
-      subs:[
-        {
-          title:'5.1 How to use',
-          lines:['Pilih jawaban terbaik.', 'Lihat feedback langsung.', 'Gunakan sebagai latihan cepat sebelum pindah page.'],
-        },
-      ],
-    },
-  ];
-  const lectureTable = [
-    ['Speech berubah', 'Perlu perhatian awal', 'Dengar alur kalimat dan artikulasi'],
-    ['Pupil asimetris', 'Red flag bedside', 'Bandingkan kiri-kanan secara tenang'],
-    ['Motor menurun', 'Kecurigaan lebih tinggi', 'Uji kekuatan, bukan hanya gerakan'],
-    ['Kesadaran menurun', 'Butuh evaluasi lanjut', 'Catat baseline dan waktu perubahan'],
-  ];
-  const recallQuestions = [
-    {
-      q:'Apa langkah awal paling aman saat melihat perubahan neurologis halus?',
-      options:['Langsung menegakkan diagnosis tunggal', 'Bandingkan dengan baseline dan timing', 'Hanya cek suhu tubuh', 'Lewati pemeriksaan bedside'],
-      correct:1,
-      explain:'Perbandingan dengan baseline dan timing membantu membedakan perubahan akut, progresif, atau stabil.',
-    },
-    {
-      q:'Tanda apa yang paling sering dianggap red flag pada bedside screen dummy ini?',
-      options:['Pupil kanan-kiri sama', 'Kekuatan simetris', 'Pupil asimetris', 'Napas normal'],
-      correct:2,
-      explain:'Asimetri pupil adalah sinyal yang layak mendapat perhatian karena dapat memandu tindak lanjut.',
-    },
-    {
-      q:'Mengapa speech dan language dipasangkan di materi ini?',
-      options:['Agar lebih panjang', 'Karena keduanya memberi petunjuk cepat tentang fungsi kortikal', 'Supaya sulit', 'Tidak ada alasan'],
-      correct:1,
-      explain:'Bahasa dan bicara sering memberi petunjuk awal tentang fungsi neurologis yang berubah.',
-    },
-    {
-      q:'Apa fungsi tabel ringkasan di halaman ini?',
-      options:['Mengganti semua materi', 'Membantu scan cepat istilah dan makna', 'Membuat layar padat', 'Hanya dekorasi'],
-      correct:1,
-      explain:'Tabel dipakai sebagai pelengkap baca cepat agar user bisa melakukan recall tanpa mengulang seluruh paragraf.',
-    },
-    {
-      q:'Saat viewport 3D tidak tersedia, fallback terbaik pada materi dummy ini adalah...',
-      options:['Menghapus konteks visual', 'Menampilkan poster fallback dan status unsupported', 'Memaksa load model', 'Menutup halaman'],
-      correct:1,
-      explain:'Poster fallback menjaga konteks tetap terlihat ketika fitur 3D tidak tersedia di device.',
-    },
-  ];
-
   return React.createElement(B2PageShell, {
     label:'Typography Reading',
-    title:'Neurology Lecture 01',
-    subtitle:'Sidebar lecture file',
-    onBack:()=>onNavigate(8),
+    title:lectureTitle,
+    subtitle:lectureSubtitle,
+    onBack:()=>onNavigate(0),
     right:React.createElement(B1Badge, { color:DL.teal }, 'Lecture'),
   },
     React.createElement(B1Card, { glow:true, style:{ marginBottom:14, animation:'scale-in 0.35s ease backwards' }},
-      React.createElement(B2Kicker, null, 'Lecture file preview'),
-      React.createElement('div', { style:{ fontSize:26, lineHeight:1.14, fontWeight:900, color:DL.text, letterSpacing:0, textWrap:'balance' }},
-        'Cerebral Perfusion and Early Neurologic Assessment'),
+      React.createElement(B2Kicker, null, 'Lecture reader'),
+      React.createElement('div', { style:{ fontSize:26, lineHeight:1.14, fontWeight:900, color:DL.text, letterSpacing:0, textWrap:'balance' }}, lectureTitle),
       React.createElement('div', { style:{ marginTop:10, color:DL.sub, fontSize:13, lineHeight:1.6, maxWidth:760 }},
-        'This dummy lecture is intentionally long enough to feel like a real file from a lecturer. It mixes narrative reading, structured folds, reference tables, visual placeholders, and a compact recall block so the sidebar file feels meaningful rather than decorative.'),
+        summaryPoints[0] || 'This reading surface opens the extracted lecturer module directly and keeps the prose, glossary, and review cues aligned in one place.'),
       React.createElement('div', { style:{ marginTop:12, display:'grid', gridTemplateColumns:'repeat(3, minmax(0,1fr))', gap:8 }},
-        React.createElement(B2StatPill, { label:'DURATION', value:'10 min' }),
-        React.createElement(B2StatPill, { label:'CHAPTERS', value:'5 folds' }),
+        React.createElement(B2StatPill, { label:'SECTIONS', value:String(sections.length || 0) }),
+        React.createElement(B2StatPill, { label:'SUMMARY', value:String(summaryPoints.length || 0) }),
         React.createElement(B2StatPill, { label:'MODE', value:'Lecture', color:DL.teal }),
       ),
       React.createElement('div', { style:{ display:'flex', gap:8, flexWrap:'wrap', marginTop:12 }},
-        ['Synaptic','Bedside','Recall','Visual'].map((t, i) => React.createElement(B1Badge, { key:t, color:i === 1 ? DL.gold : DL.accent }, t))
+        (topicTags.length ? topicTags.slice(0, 4) : ['Lecture','Reading','Review','Glossary']).map((t, i) =>
+          React.createElement(B1Badge, { key:t, color:i === 1 ? DL.gold : DL.accent }, t)
+        )
       )
     ),
 
     React.createElement(B1Card, { pad:16, style:{ marginBottom:14 }},
       React.createElement(B2ReadingBlock, { lead:true },
-        'The lecture begins with a quiet framing: evaluate the patient first, then translate subtle findings into a learning story. In the shell, this style of writing keeps the content calm and readable on both iPhone and Android screens.'),
+        summaryPoints[1] || 'This lecture surface keeps the text calm and readable, then hands the same concepts to glossary, summary, and quiz surfaces without changing the meaning.'),
       React.createElement(B2ReadingBlock, null,
-        'The notes do not chase completeness for its own sake. They aim for clarity: what changed, what it could mean, and what would make us pause. That structure makes the page feel more like a real classroom file and less like a demo card.'),
+        summaryPoints[2] || 'Instead of decorative sample copy, the page now opens the structured lecturer content directly and preserves the reading rhythm across phone, tablet, and desktop layouts.'),
       React.createElement('div', {
         onPointerDown:startHold,
         onPointerUp:endHold,
@@ -7214,7 +7345,7 @@ function PageTypographyReading({ onNavigate }) {
       },
         React.createElement('div', { style:{ display:'flex', justifyContent:'space-between', alignItems:'center', gap:10 }},
           React.createElement('div', { style:{ fontSize:12, lineHeight:1.6, color:DL.sub }},
-            'Long-press this paragraph to reveal tactile reading tools for highlight, bookmark, and note capture.'),
+            'Long-press this paragraph to reveal reading tools for highlight, bookmark, and quick note capture.'),
           React.createElement(B2PressHint, { active:held, label:'Tools' }),
         ),
         held && React.createElement('div', { style:{ display:'flex', gap:7, marginTop:11, animation:'scale-in 0.2s ease backwards' }},
@@ -7226,11 +7357,11 @@ function PageTypographyReading({ onNavigate }) {
         ),
       ),
       React.createElement(B2ReadingBlock, null,
-        'Key vocabulary is introduced gradually. Terms such as autoregulation, ischemia, edema, perfusion, GCS, and pupil reflex are not presented as isolated labels; they sit inside a small narrative so the learner can link meaning to action.')
+        summaryPoints[3] || 'Key vocabulary is now pulled from the same lecture package so the user can move naturally from reading into glossary, quick summary, and quiz practice.')
     ),
 
-    lectureSections.map((section, idx) => React.createElement(B1Card, {
-      key:section.title,
+    sections.map((section, idx) => React.createElement(B1Card, {
+      key:section.id,
       pad:14,
       style:{ marginBottom:12, overflow:'hidden' }
     },
@@ -7239,17 +7370,17 @@ function PageTypographyReading({ onNavigate }) {
         style:{ display:'flex', alignItems:'flex-start', justifyContent:'space-between', gap:12, cursor:'pointer' }
       },
         React.createElement('div', null,
-          React.createElement(B2Kicker, { color:section.tone === 'caution' ? DL.gold : section.tone === 'evidence' ? DL.teal : section.tone === 'pearl' ? DL.green : DL.accent }, section.title),
-          React.createElement('div', { style:{ fontSize:16, fontWeight:900, color:DL.text, lineHeight:1.25 }}, section.summary),
+          React.createElement(B2Kicker, { color:section.kind === 'Image' ? DL.gold : section.kind === 'Reading' ? DL.teal : DL.accent }, section.title),
+          React.createElement('div', { style:{ fontSize:16, fontWeight:900, color:DL.text, lineHeight:1.25 }}, section.summary || section.title),
         ),
-        React.createElement(B1Badge, { color:section.tone === 'caution' ? DL.gold : section.tone === 'evidence' ? DL.teal : section.tone === 'pearl' ? DL.green : DL.accent },
+        React.createElement(B1Badge, { color:section.kind === 'Image' ? DL.gold : section.kind === 'Reading' ? DL.teal : DL.accent },
           openSections.includes(idx) ? 'Open' : 'Fold'
         ),
       ),
       openSections.includes(idx) && React.createElement('div', { style:{ marginTop:12 } },
-        section.body.map((line, i) => React.createElement(B2ReadingBlock, { key:i }, line)),
-        section.subs.map((sub, subIdx) => React.createElement(B1Card, {
-          key:sub.title,
+        section.lines.slice(0, 3).map((line, i) => React.createElement(B2ReadingBlock, { key:i }, line)),
+        section.lines.slice(3, 5).map((line, subIdx) => React.createElement(B1Card, {
+          key:`${section.id}-${subIdx}`,
           pad:13,
           style:{
             marginTop:10,
@@ -7261,28 +7392,27 @@ function PageTypographyReading({ onNavigate }) {
             onClick:()=>toggleSub(subIdx + idx * 10),
             style:{ display:'flex', justifyContent:'space-between', alignItems:'center', gap:12, cursor:'pointer' }
           },
-            React.createElement('div', { style:{ fontSize:13, fontWeight:850, color:DL.text }}, sub.title),
+            React.createElement('div', { style:{ fontSize:13, fontWeight:850, color:DL.text }}, `Key point ${subIdx + 1}`),
             React.createElement(B1Badge, { color:DL.mute }, openSubs.includes(subIdx + idx * 10) ? 'Sub open' : 'Sub fold'),
           ),
           openSubs.includes(subIdx + idx * 10) && React.createElement('div', { style:{ marginTop:10, display:'grid', gap:6 }},
-            sub.lines.map((line, lineIdx) => React.createElement(B2Bullet, {
-              key:lineIdx,
-              index:lineIdx,
+            React.createElement(B2Bullet, {
+              index:subIdx,
               text:line,
-              tone:lineIdx === 0 ? 'ok' : undefined,
-            }))
+              tone:'ok',
+            })
           )
         ))
       )
     )),
 
     React.createElement(B1Card, { pad:15, style:{ marginBottom:14 }},
-      React.createElement(B1Section, { title:'Reference Table', action:'Teaching cue', style:{ marginBottom:10 } }),
+      React.createElement(B1Section, { title:'Reference Table', action:'Cross-link', style:{ marginBottom:10 } }),
       React.createElement('div', { style:{ overflowX:'auto' }},
         React.createElement('table', { style:{ width:'100%', borderCollapse:'collapse', minWidth:560 } },
           React.createElement('thead', null,
             React.createElement('tr', null,
-              ['Signal','Meaning','Teaching note'].map(th => React.createElement('th', {
+              ['Term','Meaning','Linked section'].map(th => React.createElement('th', {
                 key:th,
                 style:{ textAlign:'left', fontSize:10, color:DL.mute, fontWeight:900, letterSpacing:0.8, textTransform:'uppercase', padding:'10px 8px', borderBottom:`1px solid ${DL.glassBorder}` }
               }, th))
@@ -7304,16 +7434,16 @@ function PageTypographyReading({ onNavigate }) {
       React.createElement(B1Section, { title:'Visual Reference', style:{ marginBottom:10 } }),
       React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'1fr', gap:12 }},
         React.createElement(B2ImageCard, {
-          badge:'Lecture image',
-          title:'Poster style cue',
-          subtitle:'Rounded visual container for a future course image or diagram. This stays warm, readable, and easy to swap with real lecture artwork later.',
+          badge:'Lecture source',
+          title:lectureSource || 'Lecturer source file',
+          subtitle:'This panel is ready to receive the final image asset or diagram that belongs to the current lecture module.',
           icon:'◉',
           tint:'linear-gradient(135deg, rgba(72, 94, 255, 0.35), rgba(6, 214, 160, 0.16))',
         }),
         React.createElement(B1Card, { pad:14, style:{ marginBottom:0 }},
           React.createElement('div', { style:{ display:'flex', justifyContent:'space-between', gap:10, alignItems:'center', marginBottom:10 }},
             React.createElement('div', null,
-              React.createElement(B2Kicker, { color:DL.gold }, '3D placeholder'),
+              React.createElement(B2Kicker, { color:DL.gold }, '3D companion'),
               React.createElement('div', { style:{ fontSize:15, fontWeight:900, color:DL.text }}, 'View mode preview'),
             ),
             React.createElement(B2Segmented, {
@@ -7349,13 +7479,13 @@ function PageTypographyReading({ onNavigate }) {
             ),
             viewerMode === 'loading' && React.createElement('div', { style:{ width:'100%', maxWidth:320 }},
               React.createElement(B1Progress, { value:56, h:6, color:DL.gradA }),
-              React.createElement('div', { style:{ fontSize:12, color:DL.sub, marginTop:10, textAlign:'center' }}, 'Loading viewport placeholder...')
+              React.createElement('div', { style:{ fontSize:12, color:DL.sub, marginTop:10, textAlign:'center' }}, 'Loading runtime viewer...')
             ),
             viewerMode === 'unsupported' && React.createElement('div', { style:{ textAlign:'center', maxWidth:320 }},
               React.createElement('div', { style:{ fontSize:44, marginBottom:8 }}, 'N/A'),
               React.createElement('div', { style:{ fontSize:16, color:DL.text, fontWeight:900 }}, '3D unsupported'),
               React.createElement('div', { style:{ fontSize:11, color:DL.sub, lineHeight:1.55, marginTop:6 }},
-                'The app can gracefully stay on this fallback card without breaking the lecture flow.')
+                'The lecture remains readable even when the device stays on poster fallback.')
             ),
           )
         )
@@ -7400,6 +7530,7 @@ function PageTypographyReading({ onNavigate }) {
 }
 
 function PageBulletContent({ onNavigate }) {
+  const [toolState, setToolState] = React.useState('tap');
   const bullets = [
     {
       text:'Start with a one-line learning objective.',
@@ -7433,7 +7564,7 @@ function PageBulletContent({ onNavigate }) {
       React.createElement('div', { style:{ fontSize:21, fontWeight:800, color:DL.text, lineHeight:1.25 }},
         'How to Read a Symptom Cluster'),
       React.createElement('div', { style:{ fontSize:12, color:DL.sub, marginTop:7, lineHeight:1.55 }},
-        'Dummy content demonstrating bullets, sub-bullets, hierarchy, and scan-friendly spacing for medical education.'),
+        'Bullet, sub-bullet, hierarchy, and scan-friendly spacing arranged for dense medical education content.'),
     ),
 
     React.createElement(B1Card, { pad:15, style:{ marginBottom:14 }},
@@ -7443,18 +7574,20 @@ function PageBulletContent({ onNavigate }) {
     ),
 
     React.createElement(B1Section, { title:'Tactile Examples', style:{ marginBottom:9 } }),
-    React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:10, marginBottom:14 }},
+    React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(150px, 1fr))', gap:10, marginBottom:14 }},
       [
-        { icon:'Tap', title:'Press row', sub:'Scale + glow' },
-        { icon:'Hold', title:'Long press', sub:'Selection rail' },
+        { icon:'Tap', title:'Press row', sub:'Scale + glow', id:'tap' },
+        { icon:'Hold', title:'Long press', sub:'Selection rail', id:'hold' },
       ].map((item, i) => React.createElement(B1Card, {
-        key:i, onClick:function(){}, pad:13,
+        key:i, onClick:()=>setToolState(item.id), pad:13,
+        className:'cortex-motion-press',
         style:{ minHeight:92, display:'flex', flexDirection:'column', justifyContent:'space-between' },
       },
         React.createElement('div', { style:{ fontSize:11, color:DL.accent, fontWeight:900 }}, item.icon),
         React.createElement('div', null,
           React.createElement('div', { style:{ fontSize:13, color:DL.text, fontWeight:800 }}, item.title),
           React.createElement('div', { style:{ fontSize:10, color:DL.sub, marginTop:2 }}, item.sub),
+          React.createElement('div', { style:{ fontSize:10, color:toolState === item.id ? DL.teal : DL.mute, marginTop:6 }}, toolState === item.id ? 'Active' : 'Ready'),
         ),
       )),
     ),
@@ -7472,14 +7605,14 @@ function PageCalloutClinicalPearl({ onNavigate }) {
     title:'Clinical Pearls',
     subtitle:'Callout system',
     onBack:()=>onNavigate(10),
-    right:React.createElement(B1Badge, { color:DL.green }, 'Safe dummy'),
+    right:React.createElement(B1Badge, { color:DL.green }, 'Ready'),
   },
     React.createElement(B1Card, { glow:true, style:{ marginBottom:14 }},
       React.createElement(B2Kicker, { color:DL.green }, 'Clinical callout library'),
       React.createElement('div', { style:{ fontSize:21, fontWeight:800, color:DL.text, lineHeight:1.25 }},
         'Pearls, Cautions, Evidence, and Notes'),
       React.createElement('div', { style:{ fontSize:12, color:DL.sub, marginTop:7, lineHeight:1.55 }},
-        'Dummy medical content with distinct tones for teaching emphasis.'),
+        'Teaching callouts with distinct tones for bedside emphasis, evidence cues, and escalation guidance.'),
     ),
 
     React.createElement('div', { style:{ marginBottom:12 }},
@@ -7497,11 +7630,11 @@ function PageCalloutClinicalPearl({ onNavigate }) {
     React.createElement(B2Callout, { tone:'pearl', title:'Clinical Pearl', icon:'+' },
       'A clear neurologic baseline makes later changes easier to interpret. Document speech, gaze, limb strength, and level of alertness in the same order each time.'),
     React.createElement(B2Callout, { tone:'caution', title:'Caution', icon:'!' },
-      'Dummy warning state: do not treat isolated visual details as a diagnosis. Pair findings with history, timing, and objective assessment.'),
+      'Do not treat isolated visual details as a diagnosis. Pair findings with history, timing, and objective assessment.'),
     React.createElement(B2Callout, { tone:'evidence', title:'Evidence Cue', icon:'E' },
       'Use this callout for citations, guideline reminders, or a short method note. The visual tone stays calm so it does not compete with urgent warnings.'),
     React.createElement(B2Callout, { tone:'danger', title:'Escalation Pattern', icon:'!' },
-      'Rapid deterioration, persistent confusion, or new unilateral weakness should be shown as an escalation example in dummy learning flows.'),
+      'Rapid deterioration, persistent confusion, or new unilateral weakness should trigger an escalation pattern in the learning flow.'),
 
     React.createElement(B1Section, { title:'Long-press Pearl State', style:{ marginTop:6, marginBottom:9 } }),
     React.createElement(B1Card, {
@@ -7523,65 +7656,323 @@ function PageCalloutClinicalPearl({ onNavigate }) {
   );
 }
 
-function PageImageCard({ onNavigate }) {
-  const [active, setActive] = React.useState(0);
-  const cards = [
-    {
-      title:'Rounded Anatomy Plate',
-      subtitle:'Dummy image card with soft glass caption and image-safe corner radius.',
-      badge:'Figure 12.1',
-      icon:'Brain',
-      tint:'linear-gradient(135deg,rgba(99,102,241,0.30),rgba(6,214,160,0.12))',
-    },
-    {
-      title:'Clinical Diagram Snapshot',
-      subtitle:'Placeholder for a labelled medical diagram, optimized for mobile scanning.',
-      badge:'Diagram',
-      icon:'Pulse',
-      tint:'linear-gradient(135deg,rgba(168,85,247,0.26),rgba(251,191,36,0.12))',
-    },
-    {
-      title:'Microscopy Reference Card',
-      subtitle:'Dummy visual slot for tissue, cells, or lab education media.',
-      badge:'Image',
-      icon:'Cell',
-      tint:'linear-gradient(135deg,rgba(6,214,160,0.20),rgba(99,102,241,0.18))',
-    },
-  ];
+function CortexVisualPoster({ asset, selected = false, compact = false, onClick, children, badgeSuffix = '' }) {
+  const posterLines = cortexVisualPosterTitleLines(asset);
+  const posterType = asset.typeLabel || cortexSentenceCase(String(asset.type || '').replace(/[_-]+/g, ' ')) || 'Visual';
+  const posterBatch = asset.batchLabel || asset.batchId || 'Batch';
+  const posterTargets = Array.isArray(asset.pageTargets) ? asset.pageTargets : [];
+  const targetCount = posterTargets.length;
+  const PosterTag = onClick ? 'button' : 'div';
+  return React.createElement(PosterTag, {
+    type: onClick ? 'button' : undefined,
+    onClick,
+    className: onClick ? 'cortex-motion-press' : undefined,
+    style:Object.assign({
+      width:'100%',
+      borderRadius:compact ? 22 : 26,
+      overflow:'hidden',
+      textAlign:'left',
+      color:'inherit',
+      fontFamily:'inherit',
+      cursor:onClick ? 'pointer' : 'default',
+      position:'relative',
+      minHeight:compact ? 210 : 270,
+      padding:0,
+      background:'transparent',
+      touchAction:'manipulation',
+    }, cortexVisualPosterStyle(asset, selected)),
+  },
+    React.createElement('div', { style:{
+      position:'absolute',
+      inset:0,
+      backgroundImage:'linear-gradient(rgba(255,255,255,0.045) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.045) 1px, transparent 1px)',
+      backgroundSize:compact ? '26px 26px' : '30px 30px',
+      opacity:selected ? 0.38 : 0.24,
+      pointerEvents:'none',
+    }}),
+    React.createElement('div', { style:{
+      position:'absolute',
+      inset:0,
+      background:'linear-gradient(180deg, rgba(3,6,19,0.04), rgba(3,6,19,0.52))',
+      pointerEvents:'none',
+    }}),
+    React.createElement('div', { style:{
+      position:'relative',
+      zIndex:1,
+      padding:compact ? 14 : 16,
+      display:'flex',
+      flexDirection:'column',
+      justifyContent:'space-between',
+      minHeight:compact ? 210 : 270,
+      gap:10,
+    }},
+      React.createElement('div', { style:{ display:'flex', justifyContent:'space-between', gap:10, alignItems:'flex-start' }},
+        React.createElement('div', { style:{ flex:1, minWidth:0 }},
+          React.createElement('div', { style:{ display:'flex', gap:6, flexWrap:'wrap', marginBottom:8 }},
+            React.createElement(B1Badge, { color:selected ? DL.teal : DL.gold, style:{ padding:'5px 8px', minHeight:0 }}, posterBatch),
+            React.createElement(B1Badge, { color:selected ? DL.accent : DL.sub, style:{ padding:'5px 8px', minHeight:0 }}, posterType),
+            targetCount ? React.createElement(B1Badge, { color:DL.green, style:{ padding:'5px 8px', minHeight:0 }}, `${targetCount} targets${badgeSuffix}`) : null,
+          ),
+          React.createElement('div', { style:{ fontSize:compact ? 19 : 22, fontWeight:950, lineHeight:1.05, color:DL.text, maxWidth:360 }},
+            posterLines.map((line, index) => React.createElement('div', { key:index }, line))
+          ),
+        ),
+        React.createElement('div', { style:{
+          width:42,
+          height:42,
+          borderRadius:15,
+          background:selected ? 'rgba(255,255,255,0.14)' : 'rgba(255,255,255,0.08)',
+          border:`1px solid ${selected ? 'rgba(255,255,255,0.18)' : DL.glassBorder}`,
+          display:'grid',
+          placeItems:'center',
+          flexShrink:0,
+          boxShadow:selected ? `0 12px 28px ${DL.shadowColor}` : 'none',
+        }},
+          React.createElement('div', { style:{
+            width:14,
+            height:14,
+            borderRadius:999,
+            background:DL.gradA,
+            boxShadow:`0 0 18px ${DL.shadowColor}`,
+          }})
+        ),
+      ),
+      React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'repeat(auto-fit, minmax(118px, 1fr))', gap:8 } },
+        React.createElement('div', { style:{
+          borderRadius:18,
+          padding:'10px 12px',
+          background:'rgba(8,10,28,0.28)',
+          border:`1px solid ${DL.glassBorder}`,
+          backdropFilter:'blur(14px)',
+          WebkitBackdropFilter:'blur(14px)',
+        }},
+          React.createElement('div', { style:{ fontSize:10, color:DL.sub, fontWeight:850, letterSpacing:0.6, textTransform:'uppercase' }}, 'Caption'),
+          React.createElement('div', { style:{ fontSize:11, lineHeight:1.45, color:DL.text, marginTop:4 }}, asset.caption || asset.altText || 'Visual reference'),
+        ),
+        React.createElement('div', { style:{
+          borderRadius:18,
+          padding:'10px 12px',
+          background:'rgba(8,10,28,0.28)',
+          border:`1px solid ${DL.glassBorder}`,
+          backdropFilter:'blur(14px)',
+          WebkitBackdropFilter:'blur(14px)',
+        }},
+          React.createElement('div', { style:{ fontSize:10, color:DL.sub, fontWeight:850, letterSpacing:0.6, textTransform:'uppercase' }}, 'Style'),
+          React.createElement('div', { style:{ fontSize:11, lineHeight:1.45, color:DL.text, marginTop:4 }}, asset.visualType || asset.typeLabel || 'visual asset'),
+        ),
+      ),
+      React.createElement('div', { style:{ display:'flex', alignItems:'center', justifyContent:'space-between', gap:10, flexWrap:'wrap' }},
+        React.createElement('div', { style:{ display:'flex', gap:6, flexWrap:'wrap' }},
+          posterTargets.slice(0, 3).map((target, index) =>
+            React.createElement(B1Badge, { key:`${asset.id}-${index}`, color:index === 0 ? DL.accent : DL.teal, style:{ padding:'5px 8px', minHeight:0 }}, cortexHumanizeVisualTarget(target))
+          )
+        ),
+        children || React.createElement('span', { style:{ fontSize:10, color:DL.mute, fontWeight:800, letterSpacing:0.8, textTransform:'uppercase' }}, selected ? 'Selected' : 'Tap to select'),
+      ),
+    )
+  );
+}
+
+function PageImageCard({ onNavigate, visualManifest, visualManifestStatus, selectedVisualId, onSelectVisual }) {
+  const [query, setQuery] = React.useState('');
+  const [batchFilter, setBatchFilter] = React.useState('all');
+  const [typeFilter, setTypeFilter] = React.useState('all');
+  const [domainFilter, setDomainFilter] = React.useState('all');
+  const chipStyle = React.useCallback((active, color) => ({
+    appearance:'none',
+    border:`1px solid ${active ? `${color}88` : DL.glassBorder}`,
+    background:active ? `${color}1a` : 'rgba(255,255,255,0.04)',
+    color:active ? (cortexIsLightColor(color) ? '#101010' : color) : DL.sub,
+    borderRadius:999,
+    padding:'8px 12px',
+    fontFamily:'inherit',
+    fontSize:11,
+    fontWeight:850,
+    letterSpacing:0.2,
+    cursor:'pointer',
+    boxShadow:active ? `0 10px 20px ${DL.shadowColor}` : 'none',
+    transition:'all 0.2s ease',
+  }), []);
+  const assets = React.useMemo(() => cortexResolveVisualAssets(visualManifest), [visualManifest]);
+  const selectedAsset = React.useMemo(() => {
+    if (!assets.length) return null;
+    return assets.find((asset) => asset.id === selectedVisualId) || assets[0] || null;
+  }, [assets, selectedVisualId]);
+  const selectedIndex = Math.max(0, assets.findIndex((asset) => asset.id === (selectedAsset && selectedAsset.id)));
+  const batches = React.useMemo(() => Array.from(new Set(assets.map((asset) => asset.batchId).filter(Boolean))), [assets]);
+  const types = React.useMemo(() => Array.from(new Set(assets.map((asset) => asset.typeLabel).filter(Boolean))), [assets]);
+  const domains = React.useMemo(() => Array.from(new Set(assets.map((asset) => asset.domainLabel).filter(Boolean))), [assets]);
+  const filteredAssets = React.useMemo(() => {
+    const q = String(query || '').trim().toLowerCase();
+    return assets.filter((asset) => {
+      const matchesQuery = !q || String(asset.searchText || '').includes(q);
+      const matchesBatch = batchFilter === 'all' || asset.batchId === batchFilter;
+      const matchesType = typeFilter === 'all' || asset.typeLabel === typeFilter;
+      const matchesDomain = domainFilter === 'all' || asset.domainLabel === domainFilter;
+      return matchesQuery && matchesBatch && matchesType && matchesDomain;
+    });
+  }, [assets, batchFilter, domainFilter, query, typeFilter]);
+
+  React.useEffect(() => {
+    if (!assets.length) return;
+    if (!selectedVisualId || !assets.some((asset) => asset.id === selectedVisualId)) {
+      onSelectVisual(assets[0].id);
+    }
+  }, [assets, onSelectVisual, selectedVisualId]);
 
   return React.createElement(B2PageShell, {
-    label:'Image Cards',
-    title:'Image Cards',
-    subtitle:'Rounded media',
+    label:'Visual Library',
+    title:'Visual Library',
+    subtitle:'50 final assets',
     onBack:()=>onNavigate(11),
-    right:React.createElement(B1Badge, null, `${active + 1}/3`),
+    right:React.createElement(B1Badge, { color: visualManifestStatus === 'ready' ? DL.teal : visualManifestStatus === 'loading' ? DL.gold : DL.accent }, visualManifestStatus === 'ready' ? `${assets.length} assets` : 'Loading visuals'),
   },
     React.createElement(B1Card, { glow:true, style:{ marginBottom:14 }},
-      React.createElement(B2Kicker, null, 'Media-friendly lesson cards'),
-      React.createElement('div', { style:{ fontSize:21, fontWeight:800, color:DL.text, lineHeight:1.25 }},
-        'Rounded Image Cards for Medical Content'),
-      React.createElement('div', { style:{ fontSize:12, color:DL.sub, marginTop:7, lineHeight:1.55 }},
-        'All image areas are placeholders and keep a rounded, liquid-glass treatment.'),
+      React.createElement(B2Kicker, { color:DL.teal }, 'Final visual library'),
+      React.createElement('div', { style:{ fontSize:24, fontWeight:950, color:DL.text, lineHeight:1.1 }}, 'Fifty final visual assets, ready to pick and place'),
+      React.createElement('div', { style:{ fontSize:12, color:DL.sub, marginTop:8, lineHeight:1.55 }},
+        'Every visual is now part of the shell as a searchable, selectable library with batch, domain, and page-target metadata. The posters are generated from the metadata so the library stays visible even before binary artwork is compiled.'),
+      React.createElement('div', { style:{ display:'flex', gap:8, flexWrap:'wrap', marginTop:12 }},
+        React.createElement(B1Badge, { color:DL.accent }, `${assets.length} assets`),
+        React.createElement(B1Badge, { color:DL.teal }, `${batches.length} batches`),
+        React.createElement(B1Badge, { color:DL.gold }, `${types.length} types`),
+        React.createElement(B1Badge, { color:DL.green }, `${domains.length} domains`),
+      ),
     ),
 
-    cards.map((card, i) => React.createElement(B2ImageCard, {
-      key:i,
-      title:card.title,
-      subtitle:card.subtitle,
-      badge:card.badge,
-      tint:card.tint,
-      icon:card.icon,
-      onClick:()=>setActive(i),
-    },
-      React.createElement('div', { style:{ display:'flex', alignItems:'center', gap:8, marginTop:12 }},
-        React.createElement(B1Progress, { value:i === active ? 100 : 40 + i * 18, h:4, color:i === active ? DL.gradA : undefined }),
-        React.createElement('span', { style:{ fontSize:10, color:i === active ? DL.accent : DL.mute, fontWeight:800 }},
-          i === active ? 'Selected' : 'Preview'),
-      )
-    )),
+    React.createElement(B1Card, { glow:true, pad:14, style:{ marginBottom:14 }},
+      React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'1fr auto', gap:10, alignItems:'center' }},
+        React.createElement(B1SearchInput, {
+          value:query,
+          onChange:setQuery,
+          placeholder:'Search visual title, domain, page target, or batch',
+          style:{ minWidth:0 },
+        }),
+        React.createElement(B1Button, {
+          label:'Clear',
+          variant:'ghost',
+          onClick:()=>setQuery(''),
+          style:{ minWidth:92 },
+        }),
+      ),
+      React.createElement('div', { style:{ display:'flex', gap:8, flexWrap:'wrap', marginTop:12 }},
+        React.createElement('button', { type:'button', onClick:()=>setBatchFilter('all'), className:'cortex-motion-press', style:chipStyle(batchFilter === 'all', DL.accent) }, 'All batches'),
+        batches.map((batch) => React.createElement('button', {
+          key:batch,
+          type:'button',
+          onClick:()=>setBatchFilter(batch),
+          className:'cortex-motion-press',
+          style:chipStyle(batchFilter === batch, DL.teal),
+        }, cortexSentenceCase(batch.replace(/[_-]+/g, ' ')))),
+      ),
+      React.createElement('div', { style:{ display:'flex', gap:8, flexWrap:'wrap', marginTop:10 }},
+        React.createElement('button', { type:'button', onClick:()=>setTypeFilter('all'), className:'cortex-motion-press', style:chipStyle(typeFilter === 'all', DL.accent) }, 'All types'),
+        types.map((type) => React.createElement('button', {
+          key:type,
+          type:'button',
+          onClick:()=>setTypeFilter(type),
+          className:'cortex-motion-press',
+          style:chipStyle(typeFilter === type, DL.gold),
+        }, type)),
+        React.createElement('button', { type:'button', onClick:()=>setDomainFilter('all'), className:'cortex-motion-press', style:chipStyle(domainFilter === 'all', DL.green) }, 'All domains'),
+        domains.map((domain) => React.createElement('button', {
+          key:domain,
+          type:'button',
+          onClick:()=>setDomainFilter(domain),
+          className:'cortex-motion-press',
+          style:chipStyle(domainFilter === domain, DL.green),
+        }, domain)),
+      ),
+    ),
 
-    React.createElement(B2Callout, { tone:'note', title:'Image fallback pattern' },
-      'If a real media asset is unavailable, the card still displays a polished placeholder, caption, and progress affordance.')
+    selectedAsset ? React.createElement(B1Card, { glow:true, pad:0, style:{ overflow:'hidden', marginBottom:14 }},
+      React.createElement('div', { style:{
+        display:'grid',
+        gridTemplateColumns:'minmax(0, 1.15fr) minmax(260px, 0.85fr)',
+        gap:0,
+      }},
+        React.createElement('div', { style:{ padding:14, background:'linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.015))' }},
+          React.createElement(CortexVisualPoster, {
+            asset:selectedAsset,
+            selected:true,
+            compact:false,
+            onClick:()=>onSelectVisual(selectedAsset.id),
+          }),
+        ),
+        React.createElement('div', { style:{ padding:14, display:'flex', flexDirection:'column', gap:10 }},
+          React.createElement(B2Kicker, { color:DL.teal }, 'Selected asset'),
+          React.createElement(B1Badge, { color:DL.accent, style:{ alignSelf:'flex-start' } }, `${selectedIndex + 1}/${assets.length}`),
+          React.createElement('div', { style:{ fontSize:22, fontWeight:950, color:DL.text, lineHeight:1.1 }}, selectedAsset.title),
+          React.createElement('div', { style:{ fontSize:12, color:DL.sub, lineHeight:1.55 }},
+            selectedAsset.caption || selectedAsset.altText || 'A final visual asset from the current batch.' ),
+          React.createElement('div', { style:{ display:'flex', gap:6, flexWrap:'wrap' }},
+            React.createElement(B1Badge, { color:DL.accent }, selectedAsset.batchLabel),
+            React.createElement(B1Badge, { color:DL.teal }, selectedAsset.domainLabel || 'Visual'),
+            React.createElement(B1Badge, { color:DL.gold }, selectedAsset.typeLabel || 'Asset'),
+            React.createElement(B1Badge, { color:DL.green }, selectedAsset.priority || 'normal'),
+          ),
+          React.createElement('div', { style:{ display:'flex', flexDirection:'column', gap:8 }},
+            React.createElement(B1Button, {
+              label:'Open viewer',
+              icon:'↗',
+              full:true,
+              onClick:()=>onNavigate(13),
+            }),
+            React.createElement(B1Button, {
+              label:'Use as reference',
+              icon:'◎',
+              full:true,
+              variant:'ghost',
+              onClick:()=>onSelectVisual(selectedAsset.id),
+            }),
+          ),
+          React.createElement('div', { style:{ display:'flex', flexWrap:'wrap', gap:6, marginTop:2 }},
+            selectedAsset.pageTargets.slice(0, 6).map((target, index) =>
+              React.createElement(B1Badge, {
+                key:`${selectedAsset.id}-target-${index}`,
+                color:index % 2 === 0 ? DL.accent : DL.teal,
+                style:{ padding:'5px 8px', minHeight:0 },
+              }, cortexHumanizeVisualTarget(target))
+            ),
+          ),
+        ),
+      ),
+    ) : React.createElement(B2Callout, { tone:'note', title:'Visual library is loading' },
+      visualManifestStatus === 'ready'
+        ? 'The manifest is ready, but no asset is currently selected.'
+        : 'The visual manifest is still loading or fell back to an empty state.'
+    ),
+
+    React.createElement(B1Section, { title:'Visual Assets', style:{ marginBottom:10 } }),
+    React.createElement('div', { style:{
+      display:'grid',
+      gridTemplateColumns:'repeat(auto-fit, minmax(220px, 1fr))',
+      gap:12,
+      marginBottom:14,
+    }},
+      filteredAssets.map((asset, index) => {
+        const active = selectedAsset && selectedAsset.id === asset.id;
+        return React.createElement(CortexVisualPoster, {
+          key:asset.id,
+          asset,
+          selected:active,
+          compact:true,
+          onClick:()=>{
+            onSelectVisual(asset.id);
+          },
+          badgeSuffix: asset.pageTargets.length ? '' : ' · ',
+        },
+          React.createElement('div', { style:{ display:'flex', alignItems:'center', justifyContent:'space-between', gap:8, marginTop:4 }},
+            React.createElement(B1Progress, { value:active ? 100 : 30 + (index % 4) * 16, h:4, color:active ? DL.gradA : undefined }),
+            React.createElement('span', { style:{ fontSize:10, color:active ? DL.accent : DL.mute, fontWeight:800 }},
+              active ? 'Selected' : 'Preview'),
+          )
+        );
+      }),
+    ),
+
+    React.createElement(B2Callout, { tone:'note', title:'Visual handoff pattern' },
+      'When the final binary artwork lands, this gallery can point the same cards to rendered PNG/WebP posters without changing the library structure.')
   );
 }
 
@@ -7753,7 +8144,7 @@ const CORTEX_3D_FALLBACK_BINDING = {
   ],
 };
 
-function PageMediaViewer3D({ onNavigate }) {
+function PageMediaViewer3D({ onNavigate, visualAsset, visualManifestStatus }) {
   const [manifest, setManifest] = React.useState(null);
   const [manifestStatus, setManifestStatus] = React.useState('loading');
   const [selectedAssetId, setSelectedAssetId] = React.useState(null);
@@ -7831,6 +8222,7 @@ function PageMediaViewer3D({ onNavigate }) {
     : manifestStatus === 'fallback'
       ? 'Embedded fallback'
       : 'Manifest loading';
+  const companionVisual = visualAsset || null;
 
   const triggerReload = React.useCallback(() => {
     if (!selectedAsset) return;
@@ -7861,6 +8253,43 @@ function PageMediaViewer3D({ onNavigate }) {
         React.createElement(B1Badge, { color:DL.gold }, manifestBadge),
       ),
     ),
+
+    companionVisual ? React.createElement(B1Card, { glow:true, pad:0, style:{ overflow:'hidden', marginBottom:14 }},
+      React.createElement('div', { style:{
+        display:'flex', justifyContent:'space-between', alignItems:'flex-start', gap:12,
+        padding:'14px 14px 12px',
+        borderBottom:`1px solid ${DL.glassBorder}`,
+        background:'linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.01))',
+      }},
+        React.createElement('div', { style:{ minWidth:0 }},
+          React.createElement('div', { style:{ fontSize:11, fontWeight:900, letterSpacing:1.1, color:DL.gold, textTransform:'uppercase' }}, 'Companion visual'),
+          React.createElement('div', { style:{ fontSize:18, fontWeight:900, color:DL.text, lineHeight:1.15, marginTop:4 }}, companionVisual.title),
+          React.createElement('div', { style:{ fontSize:11, color:DL.sub, lineHeight:1.5, marginTop:5, maxWidth:640 }},
+            companionVisual.caption || companionVisual.altText || 'A companion visual from the final 50-asset library.'),
+        ),
+        React.createElement(B1Badge, { color: visualManifestStatus === 'ready' ? DL.teal : DL.gold }, visualManifestStatus === 'ready' ? 'Visual manifest live' : 'Visual manifest loading'),
+      ),
+      React.createElement('div', { style:{
+        padding:14,
+        background:'radial-gradient(circle at 50% 18%, rgba(168,85,247,0.16), transparent 24%), linear-gradient(160deg, rgba(8,10,28,0.98), rgba(22,17,49,0.92))',
+      }},
+        React.createElement(CortexVisualPoster, {
+          asset:companionVisual,
+          selected:true,
+          compact:true,
+          onClick:()=>onNavigate(12),
+        }),
+        React.createElement('div', { style:{ display:'flex', flexWrap:'wrap', gap:6, marginTop:10 }},
+          companionVisual.pageTargets.slice(0, 5).map((target, index) =>
+            React.createElement(B1Badge, {
+              key:`${companionVisual.id}-viewer-target-${index}`,
+              color:index % 2 === 0 ? DL.accent : DL.teal,
+              style:{ padding:'5px 8px', minHeight:0 },
+            }, cortexHumanizeVisualTarget(target))
+          ),
+        ),
+      ),
+    ) : null,
 
     React.createElement(B1Card, { glow:true, pad:0, style:{ overflow:'hidden', marginBottom:14 }},
       React.createElement('div', { style:{
@@ -8058,15 +8487,17 @@ function PageMediaViewer3D({ onNavigate }) {
   );
 }
 
-function PageGlossaryTerms({ onNavigate }) {
+function PageGlossaryTerms({ onNavigate, lectureModule }) {
   const [query, setQuery] = React.useState('');
-  const terms = [
-    { term:'Autoregulation', type:'Physiology', def:'A local control process that helps keep blood flow relatively stable despite pressure changes.' },
-    { term:'Aphasia', type:'Neurology', def:'A language impairment affecting expression, comprehension, or both.' },
-    { term:'Edema', type:'Pathology', def:'Excess fluid accumulation in tissue spaces, shown here as dummy educational copy.' },
-    { term:'Perfusion', type:'Circulation', def:'Delivery of blood to tissue through capillary networks.' },
-    { term:'Synapse', type:'Cell Biology', def:'A specialized junction where neurons communicate with target cells.' },
-  ];
+  const sectionSummary = cortexGetLectureSections(lectureModule, 12);
+  const terms = React.useMemo(() => {
+    const glossary = cortexGetLectureGlossary(lectureModule, 18);
+    return glossary.map((item, index) => ({
+      term:item.term,
+      type:index % 2 === 0 ? 'Lecture term' : 'Review cue',
+      def:(sectionSummary[index] && sectionSummary[index].summary) || 'Key concept extracted from the active lecture module.',
+    }));
+  }, [lectureModule, sectionSummary]);
   const shown = terms.filter(t => (t.term + t.type + t.def).toLowerCase().includes(query.toLowerCase()));
 
   return React.createElement(B2PageShell, {
@@ -8079,7 +8510,7 @@ function PageGlossaryTerms({ onNavigate }) {
     React.createElement(B1SearchInput, {
       value:query,
       onChange:setQuery,
-      placeholder:'Search dummy terms...',
+      placeholder:'Search lecture terms...',
       style:{ marginBottom:14 },
     }),
 
@@ -8088,14 +8519,14 @@ function PageGlossaryTerms({ onNavigate }) {
       React.createElement('div', { style:{ fontSize:20, fontWeight:800, color:DL.text, lineHeight:1.25 }},
         'Medical Vocabulary for Fast Review'),
       React.createElement('div', { style:{ fontSize:12, color:DL.sub, lineHeight:1.55, marginTop:7 }},
-        'Dummy glossary entries with tags, definitions, and press-ready rows.'),
+        'Glossary terms are now derived from the active lecture module so the user can move from reading to review without context loss.'),
     ),
 
     React.createElement('div', { style:{ display:'flex', flexDirection:'column', gap:10 }},
       shown.map((item, i) => React.createElement(B1Card, {
         key:item.term,
         pad:14,
-        onClick:function(){},
+        onClick:()=>setQuery(item.term),
         style:{ animation:'stagger-in 0.3s ease backwards', animationDelay:`${i * 0.04}s` },
       },
         React.createElement('div', { style:{ display:'flex', justifyContent:'space-between', alignItems:'flex-start', gap:10 }},
@@ -8116,20 +8547,22 @@ function PageGlossaryTerms({ onNavigate }) {
   );
 }
 
-function PageQuickSummary({ onNavigate }) {
-  const points = [
-    'Stable structure makes medical reading faster on mobile.',
-    'Clinical pearls should be visually distinct but not visually loud.',
-    'Image and media placeholders need graceful fallback states.',
-    'Glossary actions should support save, simplify, and quiz flows.',
-  ];
+function PageQuickSummary({ onNavigate, lectureModule }) {
+  const points = React.useMemo(() => {
+    const resolved = cortexGetLectureSummary(lectureModule, 6);
+    return resolved.length ? resolved : [
+      'Use this surface to condense the active lecture into a handful of stable review points.',
+      'Keep the next action obvious: quiz, flashcards, or simplified explanation.',
+      'Treat summary lines as bridges into glossary and question-set practice.',
+    ];
+  }, [lectureModule]);
 
   return React.createElement(B2PageShell, {
     label:'Quick Summary',
     title:'Summary',
     subtitle:'End of lesson',
     onBack:()=>onNavigate(14),
-    right:React.createElement(B1Badge, { color:DL.gold }, '4 takeaways'),
+    right:React.createElement(B1Badge, { color:DL.gold }, `${points.length || 0} takeaways`),
   },
     React.createElement(B1Card, { glow:true, style:{ marginBottom:14 }},
       React.createElement(B2Kicker, { color:DL.gold }, 'Quick summary'),
@@ -8163,12 +8596,12 @@ function PageQuickSummary({ onNavigate }) {
     React.createElement(B1Section, { title:'Recall Actions', style:{ marginBottom:9 } }),
     React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:10, marginBottom:14 }},
       [
-        { title:'5-question quiz', sub:'Dummy practice set', color:DL.accent },
+        { title:'5-question quiz', sub:'Move into the current exam lane', color:DL.accent },
         { title:'Flashcards', sub:'Review saved terms', color:DL.teal },
         { title:'Simplify', sub:'Plain-language mode', color:DL.gold },
         { title:'Bookmark', sub:'Save summary card', color:DL.green },
       ].map((item, i) => React.createElement(B1Card, {
-        key:i, pad:13, onClick: i === 2 ? ()=>onNavigate(16) : function(){},
+        key:i, pad:13, onClick: i === 0 ? ()=>onNavigate(17) : i === 1 ? ()=>onNavigate(18) : i === 2 ? ()=>onNavigate(16) : ()=>window.scrollTo({ top:0, behavior:'smooth' }),
       },
         React.createElement('div', { style:{ fontSize:13, fontWeight:850, color:item.color, lineHeight:1.3 }}, item.title),
         React.createElement('div', { style:{ fontSize:10, color:DL.sub, marginTop:4 }}, item.sub),
@@ -8243,7 +8676,7 @@ function PageBilingualSimple({ onNavigate }) {
         { label:'Read aloud', sub:'Voice-friendly sentence length' },
         { label:'Compare terms', sub:'Plain term beside medical term' },
         { label:'Long-press word', sub:'Reveal definition and translation' },
-      ].map((item, i) => React.createElement(B1Card, { key:i, pad:13, onClick:function(){} },
+      ].map((item, i) => React.createElement(B1Card, { key:i, pad:13, onClick:()=>setMode(i === 0 ? 'simple' : i === 1 ? 'bilingual' : 'medical') },
         React.createElement('div', { style:{ display:'flex', justifyContent:'space-between', gap:10, alignItems:'center' }},
           React.createElement('div', null,
             React.createElement('div', { style:{ fontSize:13, color:DL.text, fontWeight:800 }}, item.label),
@@ -8255,7 +8688,7 @@ function PageBilingualSimple({ onNavigate }) {
     ),
 
     React.createElement(B2Callout, { tone:'note', title:'State requirement' },
-      'This page demonstrates bilingual and simpler explanation states using dummy content only.')
+      'This page demonstrates bilingual and simpler explanation states using the same concept in progressively clearer language.')
   );
 }
 
@@ -8383,82 +8816,97 @@ Object.assign(window, {
    Page 19: Progress Dashboard Page
    Page 20: AI Workspace Page */
 
-function PageQuiz({ onNavigate }) {
-  const [selected, setSelected] = React.useState('B');
+function PageQuiz({ onNavigate, examSet }) {
+  const questions = React.useMemo(() => cortexGetExamQuestions(examSet), [examSet]);
+  const [questionIndex, setQuestionIndex] = React.useState(0);
+  const [selected, setSelected] = React.useState(null);
   const [showExplain, setShowExplain] = React.useState(true);
-  const choices = [
-    { id:'A', text:'The finding is always benign and can be ignored.' },
-    { id:'B', text:'Compare the current finding with baseline and timing.' },
-    { id:'C', text:'Skip the neurologic exam and repeat only vital signs.' },
-    { id:'D', text:'Use a single symptom as a complete diagnosis.' },
-  ];
+  React.useEffect(() => {
+    setQuestionIndex(0);
+    setSelected(null);
+  }, [examSet && examSet.id]);
+  const currentQuestion = questions[questionIndex] || null;
+  const choices = (currentQuestion && Array.isArray(currentQuestion.options) ? currentQuestion.options : []).map((text, idx) => ({
+    id:String.fromCharCode(65 + idx),
+    text,
+    correct:idx === Number(currentQuestion.answer_index),
+  }));
+  const currentAnswerId = currentQuestion && Number.isFinite(Number(currentQuestion.answer_index))
+    ? String.fromCharCode(65 + Number(currentQuestion.answer_index))
+    : null;
 
   return React.createElement(B2PageShell, {
     label:'Quiz',
-    title:'Quiz',
-    subtitle:'Design placeholder',
+    title:examSet && examSet.title ? examSet.title : 'Quiz',
+    subtitle:'Question set review',
     onBack:()=>onNavigate(16),
-    right:React.createElement(B1Badge, { color:DL.gold }, 'Q 3/8'),
+    right:React.createElement(B1Badge, { color:DL.gold }, currentQuestion ? `Q ${questionIndex + 1}/${questions.length}` : '0 questions'),
   },
     React.createElement(B3Hero, {
-      kicker:'Premium quiz shell',
-      title:'Neurologic Assessment Check',
-      subtitle:'Dummy multiple-choice flow with tactile choices, progress, and explanation surface. No scoring engine is implemented.',
+      kicker:'Question set workspace',
+      title:currentQuestion ? `Soal ${currentQuestion.number || questionIndex + 1}` : 'No question loaded',
+      subtitle:examSet && examSet.source_label
+        ? `Active set: ${examSet.source_label}. This page now opens the reconstructed exam set directly.`
+        : 'This page opens the reconstructed exam set directly and keeps the explanation tied to the active question.',
       color:DL.gold,
       right:React.createElement('div', { style:{ width:52 }},
-        React.createElement(B1Progress, { value:38, h:6, color:'linear-gradient(135deg,#fbbf24,#a855f7)' })
+        React.createElement(B1Progress, { value:questions.length ? ((questionIndex + 1) / questions.length) * 100 : 0, h:6, color:'linear-gradient(135deg,#fbbf24,#a855f7)' })
       ),
     }),
 
     React.createElement(B1Card, { pad:16, style:{ marginBottom:14 }},
       React.createElement(B1Badge, { color:DL.teal, style:{ marginBottom:10 }}, 'Clinical reasoning'),
       React.createElement('div', { style:{ fontSize:16, lineHeight:1.45, color:DL.text, fontWeight:800 }},
-        'A learner notices new unilateral arm weakness after a simulated case update. What is the best first learning response?'),
+        currentQuestion ? currentQuestion.stem : 'Choose a question set from the sidebar to begin review.'),
       React.createElement('div', { style:{ marginTop:12 }},
         choices.map(c => React.createElement(B3Choice, {
           key:c.id,
           label:c.id,
           text:c.text,
           selected:selected === c.id,
-          correct:showExplain && c.id === 'B',
+          correct:showExplain && c.id === currentAnswerId,
           onClick:()=>setSelected(c.id),
         }))
       ),
     ),
 
-    showExplain && React.createElement(B2Callout, { tone:'pearl', title:'Explanation placeholder' },
-      'This premium quiz state shows why the selected answer is preferred. It is design-only and does not submit, score, or store data.'),
+    showExplain && currentQuestion && React.createElement(B2Callout, { tone:'pearl', title:'Explanation' },
+      currentQuestion.explanation || 'The explanation for this item can be expanded in a later pass if the source package gains more supporting detail.'),
 
     React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:10, marginBottom:14 }},
       React.createElement(B1Button, { label:showExplain ? 'Hide rationale' : 'Show rationale', variant:'ghost', full:true, onClick:()=>setShowExplain(!showExplain) }),
-      React.createElement(B1Button, { label:'Next placeholder', full:true, onClick:function(){} }),
+      React.createElement(B1Button, { label:'Next question', full:true, onClick:()=>setQuestionIndex((value) => questions.length ? (value + 1) % questions.length : 0) }),
     ),
 
     React.createElement(B3Row, {
-      title:'Long-press answer affordance',
-      sub:'Hold a choice in the final app to flag, eliminate, or ask for a simpler explanation.',
+      title:'Question provenance',
+      sub:currentQuestion && currentQuestion.answer_evidence
+        ? currentQuestion.answer_evidence
+        : 'Each question can carry linked evidence, confidence, and lecture cross-reference metadata.',
       active:true,
       color:DL.gold,
-      right:React.createElement(B2PressHint, { active:true, label:'Flag' }),
+      right:React.createElement(B2PressHint, { active:true, label:currentQuestion && currentQuestion.confidence ? currentQuestion.confidence : 'Review' }),
     })
   );
 }
 
-function PageFlashcard({ onNavigate }) {
+function PageFlashcard({ onNavigate, lectureModule }) {
   const [flipped, setFlipped] = React.useState(false);
   const [difficulty, setDifficulty] = React.useState('balanced');
+  const glossary = React.useMemo(() => cortexGetLectureGlossary(lectureModule, 6), [lectureModule]);
+  const activeCard = glossary[0] || { term:'Lecture term', type:'Review cue', def:'Open a lecture module to populate this flashcard with live glossary content.' };
 
   return React.createElement(B2PageShell, {
     label:'Flashcard',
     title:'Flashcards',
     subtitle:'Review mode',
     onBack:()=>onNavigate(17),
-    right:React.createElement(B1Badge, null, '12 cards'),
+    right:React.createElement(B1Badge, null, `${glossary.length || 0} cards`),
   },
     React.createElement(B3Hero, {
-      kicker:'Spaced review placeholder',
-      title:'Anatomy Recall Card',
-      subtitle:'Premium flashcard surface with flip, confidence chips, and saved-term metadata. Design only.',
+      kicker:'Spaced review lane',
+      title:'Lecture Recall Card',
+      subtitle:'This flashcard surface now draws its prompt from the active lecture glossary so the same concepts stay visible across read, review, and quiz surfaces.',
       color:DL.teal,
     }),
 
@@ -8477,10 +8925,10 @@ function PageFlashcard({ onNavigate }) {
           flipped ? 'Answer side' : 'Question side'),
         React.createElement('div', { style:{ fontSize:flipped ? 20 : 22, lineHeight:1.35, color:DL.text, fontWeight:900, textWrap:'balance' }},
           flipped
-            ? 'A synapse is the specialized junction where a neuron communicates with another cell.'
-            : 'What is a synapse?'),
+            ? activeCard.def
+            : `What is ${activeCard.term}?`),
         React.createElement('div', { style:{ fontSize:11, color:DL.sub, marginTop:16 }},
-          'Tap card to flip. Long-press would reveal edit/save actions.'),
+          'Tap card to flip. The active lecture controls which terms appear here.'),
       ),
     ),
 
@@ -8496,55 +8944,60 @@ function PageFlashcard({ onNavigate }) {
     }),
 
     React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'1fr 1fr 1fr', gap:8, marginTop:14, marginBottom:14 }},
-      React.createElement(B3MetricCard, { label:'Deck', value:'CNS', sub:'Saved terms', color:DL.accent }),
-      React.createElement(B3MetricCard, { label:'Due', value:'7', sub:'Today', color:DL.gold }),
-      React.createElement(B3MetricCard, { label:'Recall', value:'86%', sub:'Mock', color:DL.green }),
+      React.createElement(B3MetricCard, { label:'Deck', value:lectureModule && lectureModule.title ? 'Lecture' : 'General', sub:'Current glossary', color:DL.accent }),
+      React.createElement(B3MetricCard, { label:'Due', value:String(glossary.length || 0), sub:'Available cards', color:DL.gold }),
+      React.createElement(B3MetricCard, { label:'Focus', value:activeCard.type || 'Review', sub:'Current term', color:DL.green }),
     ),
 
-    React.createElement(B2Callout, { tone:'note', title:'Placeholder behavior' },
-      'The card flips visually, but scheduling, spaced repetition, and persistence are not implemented.')
+    React.createElement(B2Callout, { tone:'note', title:'Review behavior' },
+      'This card flips immediately and stays tied to the active lecture glossary. Scheduling and spaced-repetition scoring can be layered in later without changing the shell.')
   );
 }
 
-function PageProgressDashboard({ onNavigate }) {
-  const modules = [
-    { t:'Neuroanatomy', v:82, c:DL.accent },
-    { t:'Clinical Reasoning', v:64, c:DL.teal },
-    { t:'Cardiology Basics', v:48, c:DL.gold },
-    { t:'Pharmacology', v:36, c:DL.green },
-  ];
+function PageProgressDashboard({ onNavigate, contentIndex, visualManifest }) {
+  const domains = cortexResolveLectureDomains(contentIndex);
+  const examSets = cortexResolveExamSets(contentIndex);
+  const visualAssets = cortexResolveVisualAssets(visualManifest);
+  const lectureCount = domains.reduce((sum, domain) => sum + Number(domain.moduleCount || 0), 0);
+  const questionCount = examSets.reduce((sum, item) => sum + Number(item.questionCount || 0), 0);
+  const modules = domains.map((domain, index) => ({
+    t:domain.title.replace(/\.$/, ''),
+    v:Math.min(100, Math.round((Number(domain.moduleCount || 0) / Math.max(lectureCount, 1)) * 100)),
+    c:index % 2 === 0 ? DL.accent : DL.teal,
+  }));
 
   return React.createElement(B2PageShell, {
     label:'Progress Dashboard',
     title:'Progress',
     subtitle:'Learning dashboard',
     onBack:()=>onNavigate(18),
-    right:React.createElement(B1Badge, { color:DL.green }, 'Mock data'),
+    right:React.createElement(B1Badge, { color:DL.green }, 'Live counts'),
   },
     React.createElement(B3Hero, {
-      kicker:'Premium progress snapshot',
-      title:'Weekly Learning Health',
-      subtitle:'Design dashboard with dummy metrics, chart placeholders, streak, and module completion cards.',
+      kicker:'Program snapshot',
+      title:'Current Learning Inventory',
+      subtitle:'This dashboard now reflects the real lecture and exam package counts that have already been ingested into the shell.',
       color:DL.green,
     }),
 
     React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:10, marginBottom:14 }},
-      React.createElement(B3MetricCard, { label:'Study time', value:'6.4h', sub:'+18% this week', color:DL.teal }),
-      React.createElement(B3MetricCard, { label:'Accuracy', value:'78%', sub:'Quiz placeholder', color:DL.green }),
-      React.createElement(B3MetricCard, { label:'Cards reviewed', value:'142', sub:'Flashcard mock', color:DL.accent }),
-      React.createElement(B3MetricCard, { label:'Streak', value:'14d', sub:'Tactile badge', color:DL.gold }),
+      React.createElement(B3MetricCard, { label:'Lecture modules', value:String(lectureCount), sub:'Across both core domains', color:DL.teal }),
+      React.createElement(B3MetricCard, { label:'Question sets', value:String(examSets.length), sub:'Ready for review', color:DL.green }),
+      React.createElement(B3MetricCard, { label:'Questions', value:String(questionCount), sub:'Reconstructed and repaired', color:DL.accent }),
+      React.createElement(B3MetricCard, { label:'3D models', value:'6', sub:'Final ship runtime', color:DL.gold }),
+      React.createElement(B3MetricCard, { label:'Visual assets', value:String(visualAssets.length), sub:'Final batch library', color:DL.info }),
     ),
 
     React.createElement(B1Card, { pad:15, style:{ marginBottom:14 }},
-      React.createElement(B1Section, { title:'Retention Curve', action:'Dummy chart', style:{ marginBottom:10 } }),
+      React.createElement(B1Section, { title:'Domain Weight', action:'Live chart', style:{ marginBottom:10 } }),
       React.createElement('div', { style:{ height:132, display:'flex', alignItems:'end', gap:8, padding:'10px 2px 2px' }},
-        [44,62,54,78,66,86,74].map((h, i) => React.createElement('div', {
+        modules.map((item, i) => React.createElement('div', {
           key:i,
           style:{
-            flex:1, height:`${h}%`, borderRadius:12,
-            background:i === 5 ? DL.gradA : 'linear-gradient(180deg,rgba(168,85,247,0.34),rgba(99,102,241,0.10))',
+            flex:1, height:`${Math.max(18, item.v)}%`, borderRadius:12,
+            background:i === 0 ? DL.gradA : 'linear-gradient(180deg,rgba(168,85,247,0.34),rgba(99,102,241,0.10))',
             border:'1px solid rgba(255,255,255,0.08)',
-            boxShadow:i === 5 ? `0 0 20px ${DL.shadowColor}` : 'none',
+            boxShadow:i === 0 ? `0 0 20px ${DL.shadowColor}` : 'none',
             animation:'stagger-in 0.35s ease backwards',
             animationDelay:`${i * 0.04}s`,
           }
@@ -8687,7 +9140,7 @@ function PageAIWorkspace({ onNavigate }) {
     React.createElement(B3Hero, {
       kicker:'Production AI orchestration',
       title:'Text, visual, audio, and model routing in one surface',
-      subtitle:'Page 20 is no longer a decorative mock. It is the secure orchestration shell for future provider wiring, with public GitHub Pages kept secret-free.',
+      subtitle:'Page 20 now acts as the secure orchestration shell for provider wiring, with public GitHub Pages kept secret-free.',
       color:DL.accent,
     }),
 
@@ -8935,7 +9388,7 @@ function PageQuickRefModal({ onNavigate }) {
     React.createElement(B1Card, { pad:14, style:{ marginBottom:14, opacity:open ? 0.55 : 1 }},
       React.createElement(B1Section, { title:'Underlying lesson', action:'Dimmed' }),
       React.createElement(B2ReadingBlock, null,
-        'This dummy lesson surface sits below the QuickRef overlay. It demonstrates how the background dims without losing context.'),
+        'This lesson surface sits below the QuickRef overlay and shows how the background can dim without losing context.'),
       React.createElement(B1Button, { label:'Open QuickRef', full:true, onClick:()=>setOpen(true) }),
     ),
 
@@ -8963,7 +9416,7 @@ function PageQuickRefModal({ onNavigate }) {
         ['Speech clarity','Pupil symmetry','Limb strength','Level of alertness'].map((item, i) =>
           React.createElement(B2Bullet, { key:i, index:i, text:item, sub:['Dummy reference item for rapid review.'] })
         ),
-        React.createElement(B1Button, { label:'Pin reference', full:true, onClick:function(){}, style:{ marginTop:12 } }),
+        React.createElement(B1Button, { label:open ? 'Close reference' : 'Pin reference', full:true, onClick:()=>setOpen(false), style:{ marginTop:12 } }),
       )
     )
   );
@@ -8972,9 +9425,9 @@ function PageQuickRefModal({ onNavigate }) {
 function PageHelpAboutPrivacy({ onNavigate }) {
   const [section, setSection] = React.useState('help');
   const text = {
-    help:'Find onboarding tips, dummy FAQ entries, and support placeholders for the learning shell.',
+    help:'Find onboarding tips, navigation guidance, and support notes for the learning shell.',
     about:'Cortex Design Kernel v0.1 is a visual library for premium medical education screens.',
-    privacy:'No real account, patient, provider, or API data is stored in these placeholder screens.',
+    privacy:'No patient data is stored in this static shell. Sensitive provider access stays behind local or server-side connectors.',
   };
 
   return React.createElement(B2PageShell, {
@@ -8987,7 +9440,7 @@ function PageHelpAboutPrivacy({ onNavigate }) {
     React.createElement(B3Hero, {
       kicker:'Support center',
       title:'Help, About, and Privacy',
-      subtitle:'A calm trust surface for app guidance, design provenance, and privacy-safe placeholder language.',
+      subtitle:'A calm trust surface for app guidance, design provenance, and privacy-safe product language.',
       color:DL.teal,
     }),
 
@@ -9006,9 +9459,9 @@ function PageHelpAboutPrivacy({ onNavigate }) {
       React.createElement(B2ReadingBlock, { lead:true }, text[section]),
       React.createElement(B1Divider, { style:{ margin:'12px 0' }}),
       [
-        { t:'Contact placeholder', s:'No message is sent from this prototype.' },
+        { t:'Support contact', s:'Use the sidebar developer contact if you need help with shell refinement or deployment.' },
         { t:'Version', s:'Cortex Design Library.' },
-        { t:'Data handling', s:'Dummy content only; no real medical or user data.' },
+        { t:'Data handling', s:'Lecture and exam content are packaged for study use. Provider secrets stay outside the public shell.' },
       ].map((row, i) => React.createElement(B3Row, {
         key:i,
         title:row.t,
@@ -9017,8 +9470,8 @@ function PageHelpAboutPrivacy({ onNavigate }) {
       })),
     ),
 
-    React.createElement(B2Callout, { tone:'caution', title:'Privacy placeholder' },
-      'This page intentionally avoids real policy text, accounts, patient records, provider keys, or telemetry claims.')
+    React.createElement(B2Callout, { tone:'caution', title:'Privacy boundary' },
+      'This page avoids fake policy promises. Public pages stay secret-free, while live provider access must be routed through a secure connector.')
   );
 }
 
@@ -9026,11 +9479,11 @@ function PageStatesLibrary({ onNavigate }) {
   const [mode, setMode] = React.useState('offline');
   const states = {
     offline:{ tone:'offline', title:'Offline', sub:'No connection. Show cached lessons, saved cards, and a retry affordance.', action:'Retry' },
-    loading:{ tone:'loading', title:'Loading', sub:'Skeleton shimmer while dummy content prepares. Keep layout stable.', action:'Cancel' },
-    error:{ tone:'error', title:'Error', sub:'Something failed in the placeholder flow. Explain next steps calmly.', action:'Try again' },
+    loading:{ tone:'loading', title:'Loading', sub:'Skeleton shimmer while lecture or exam content prepares. Keep layout stable.', action:'Cancel' },
+    error:{ tone:'error', title:'Error', sub:'Something failed in the content flow. Explain the next step calmly and keep the route recoverable.', action:'Try again' },
     unsupported3d:{ tone:'unsupported', title:'Unsupported 3D', sub:'Use poster fallback when anatomy viewer capability is unavailable.', action:'Show poster' },
     unsupportedHaptic:{ tone:'unsupported', title:'Unsupported haptic', sub:'Use visual-only fallback: scale, glow, and pressed states.', action:'Use visual' },
-    missing:{ tone:'note', title:'Missing data', sub:'The lesson card has no dummy payload yet. Offer search, reload, or browse.', action:'Browse' },
+    missing:{ tone:'note', title:'Missing data', sub:'The selected lesson card does not have a packaged payload yet. Offer search, reload, or browse.', action:'Browse' },
   };
   const current = states[mode];
 
@@ -9044,7 +9497,7 @@ function PageStatesLibrary({ onNavigate }) {
     React.createElement(B3Hero, {
       kicker:'Resilience state library',
       title:'Fallbacks for Empty, Loading, Error, Offline',
-      subtitle:'Required state coverage for the design library. All examples are visual placeholders.',
+      subtitle:'Required state coverage for the final learning shell, including content fetch, 3D fallback, and interaction recovery.',
       color:DL.gold,
     }),
 
@@ -9404,7 +9857,7 @@ const CORTEX_LIBRARY_PAGES = [
 
 const CORTEX_DEVELOPER_NAME = 'Habib Arsy';
 const CORTEX_DEVELOPER_ROLE = 'Developer';
-const CORTEX_DEVELOPER_WA_URL = 'https://wa.me/6281330039520?text=' + encodeURIComponent('Halo Habib Arsy, saya ingin membahas CORTEX Studio dan file kuliah dummy-nya.');
+const CORTEX_DEVELOPER_WA_URL = 'https://wa.me/6281330039520?text=' + encodeURIComponent('Halo Habib Arsy, saya ingin membahas CORTEX Studio dan paket konten kuliahnya.');
 
 function useCortexLayoutMode() {
   const detect = () => {
@@ -9440,15 +9893,15 @@ const CORTEX_MAIN_SURFACES = [
   { id:9, group:'Review', label:'Typography Reading', kicker:'Read', summary:'Readable medical reading layout with calm hierarchy and strong spacing.', tone:'success', hint:'reading canvas' },
   { id:10, group:'Review', label:'Bullet Content', kicker:'Scan', summary:'Structured bullets and sub-bullets for quick scanning and recall.', tone:'success', hint:'list layout' },
   { id:11, group:'Review', label:'Clinical Pearl', kicker:'Pearl', summary:'A strong callout surface for one-line clinical reminders and cues.', tone:'success', hint:'callout card' },
-  { id:12, group:'Review', label:'Image Cards', kicker:'Visual', summary:'Rounded image cards with captions, controls, and placeholder fallback.', tone:'success', hint:'media cards' },
-  { id:13, group:'Reference', label:'Media Viewer', kicker:'Viewer', summary:'Poster fallback and anatomy viewer placeholder with loading states.', tone:'warning', hint:'viewer stage' },
+  { id:12, group:'Review', label:'Image Cards', kicker:'Visual', summary:'A 50-asset visual library with batch filters, poster cards, and selection preview.', tone:'success', hint:'visual library' },
+  { id:13, group:'Reference', label:'Media Viewer', kicker:'Viewer', summary:'Poster-first 3D anatomy viewer with a companion visual reference panel.', tone:'warning', hint:'viewer stage' },
   { id:14, group:'Reference', label:'Glossary', kicker:'Terms', summary:'A clean terms surface with definitions, tags, and quick anchors.', tone:'warning', hint:'dictionary rail' },
   { id:15, group:'Reference', label:'Quick Summary', kicker:'Summary', summary:'Short recap view that compresses the lesson into essentials.', tone:'warning', hint:'summary strip' },
   { id:16, group:'Reference', label:'Bilingual', kicker:'Simple', summary:'A simpler explanation state with bilingual language support.', tone:'warning', hint:'dual language' },
   { id:17, group:'Practice', label:'Quiz', kicker:'Check', summary:'A premium quiz shell with answers, feedback, and progress affordances.', tone:'danger', hint:'quiz board' },
   { id:18, group:'Practice', label:'Flashcard', kicker:'Recall', summary:'A flashcard surface with front/back states and playful reveal motion.', tone:'danger', hint:'card stack' },
   { id:19, group:'Practice', label:'Progress Dashboard', kicker:'Track', summary:'Progress overview, streaks, and completion metrics in a glass dashboard.', tone:'danger', hint:'metrics wall' },
-  { id:20, group:'Ops', label:'AI Workspace', kicker:'Assist', summary:'A prompt workspace placeholder with no live API, ready for injection.', tone:'info', hint:'assistant pane' },
+  { id:20, group:'Ops', label:'AI Workspace', kicker:'Assist', summary:'A secure orchestration workspace for text, visual, audio, and provider routing.', tone:'info', hint:'assistant pane' },
   { id:21, group:'Ops', label:'Provider Settings', kicker:'Provider', summary:'Provider and advanced controls, including motion, haptic, and fallback toggles.', tone:'info', hint:'settings matrix' },
   { id:22, group:'Ops', label:'QuickRef Modal', kicker:'QuickRef', summary:'A quick-reference modal lane for compact lookup and pinning.', tone:'info', hint:'modal sheet' },
   { id:23, group:'Support', label:'Help, Privacy and States', kicker:'Support', summary:'Combined help, about, privacy, and empty/loading/error/offline state coverage.', tone:'info', hint:'support hub' },
@@ -9982,7 +10435,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
   );
 }
 
-function CortexLibraryNav({ page, onNavigate, mode, sidebarMode = 'dock', onClose }) {
+function CortexLibraryNav({ page, onNavigate, mode, sidebarMode = 'dock', onClose, lectureDomains = [], selectedLectureId, onSelectLecture, examSets = [], selectedExamSetId, onSelectExamSet, contentIndexStatus = 'ready' }) {
   const docked = sidebarMode === 'dock';
   const navStyle = docked ? {
     width:292,
@@ -10067,39 +10520,101 @@ function CortexLibraryNav({ page, onNavigate, mode, sidebarMode = 'dock', onClos
         border:`1px solid ${DL.glassBorder}`,
         boxShadow:`0 12px 30px ${DL.shadowColor}`,
       }},
-        React.createElement('div', { style:{ color:DL.text, fontSize:11, fontWeight:900, letterSpacing:1.2, textTransform:'uppercase', marginBottom:10 }}, 'Lecture file'),
-        React.createElement('button', { type:'button', onClick:()=>onNavigate(9), className:'cortex-motion-press', style:{
-          width:'100%',
-          textAlign:'left',
-          padding:12,
-          borderRadius:18,
-          background:'linear-gradient(135deg, rgba(16,185,129,0.14), rgba(59,130,246,0.12))',
-          border:`1px solid ${DL.glassBorder}`,
-          marginBottom:10,
-          cursor:'pointer',
-          color:DL.text,
-        }},
-          React.createElement('div', { style:{ display:'flex', alignItems:'center', justifyContent:'space-between', gap:10, marginBottom:6 }},
-            React.createElement('div', { style:{ color:DL.text, fontSize:12, fontWeight:900 }}, 'Neurology Lecture 01'),
-            React.createElement(B1Badge, { color:DL.teal }, 'PDF')
-          ),
-          React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.45 }},
-            'Dummy file slot for a lecturer upload. The real app can later inject each course file here.'
-          )
-        ),
-        React.createElement(B1Button, {
-          label:'Open file',
-          icon:'↗',
-          onClick:()=>onNavigate(9),
-          className:'cortex-motion-press',
-          full:true,
-          variant:'ghost',
+        React.createElement('div', { style:{ color:DL.text, fontSize:11, fontWeight:900, letterSpacing:1.2, textTransform:'uppercase', marginBottom:10 }}, 'Lecture Domains'),
+        React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.45, marginBottom:10 }},
+          contentIndexStatus === 'loading'
+            ? 'Loading lecture inventory...'
+            : 'Each button below opens one structured lecturer module. Counts match the ingested package inventory.'),
+        lectureDomains.map((domain) => React.createElement('details', {
+          key:domain.id,
+          open:true,
           style:{
-            justifyContent:'flex-start',
-            padding:'10px 12px',
-            borderRadius:16,
+            marginBottom:10,
+            borderRadius:18,
+            border:`1px solid ${DL.glassBorder}`,
+            background:'rgba(255,255,255,0.03)',
+            overflow:'hidden',
           }
-        })
+        },
+          React.createElement('summary', {
+            style:{
+              listStyle:'none',
+              cursor:'pointer',
+              padding:'11px 12px',
+              display:'flex',
+              alignItems:'center',
+              justifyContent:'space-between',
+              gap:10,
+            }
+          },
+            React.createElement('div', null,
+              React.createElement('div', { style:{ color:DL.text, fontSize:12, fontWeight:900 }}, domain.title.replace(/\.$/, '')),
+              React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.4, marginTop:3 }}, `${domain.moduleCount} lecture modules`),
+            ),
+            React.createElement(B1Badge, { color:DL.teal }, `${domain.moduleCount}`)
+          ),
+          React.createElement('div', { style:{ display:'grid', gap:6, padding:'0 10px 10px' }},
+            (domain.modules || []).map((module, idx) => React.createElement('button', {
+              key:module.id,
+              type:'button',
+              onClick:()=> {
+                onSelectLecture && onSelectLecture(module.id);
+                onNavigate(9);
+              },
+              className:'cortex-motion-press',
+              style:{
+                width:'100%',
+                textAlign:'left',
+                padding:'10px 12px',
+                borderRadius:16,
+                background:selectedLectureId === module.id ? 'rgba(16,185,129,0.12)' : 'rgba(255,255,255,0.04)',
+                border:selectedLectureId === module.id ? '1px solid rgba(16,185,129,0.28)' : `1px solid ${DL.glassBorder}`,
+                cursor:'pointer',
+                color:DL.text,
+              }
+            },
+              React.createElement('div', { style:{ fontSize:11, fontWeight:850, color:DL.text, lineHeight:1.35 }}, `${idx + 1}. ${module.title}`),
+              React.createElement('div', { style:{ color:DL.sub, fontSize:9, lineHeight:1.4, marginTop:4 }}, module.sourceDocument || 'Lecturer source')
+            ))
+          )
+        ))
+      ),
+      React.createElement('div', { style:{
+        padding:14,
+        borderRadius:20,
+        background:'rgba(255,255,255,0.04)',
+        border:`1px solid ${DL.glassBorder}`,
+        boxShadow:`0 12px 30px ${DL.shadowColor}`,
+      }},
+        React.createElement('div', { style:{ color:DL.text, fontSize:11, fontWeight:900, letterSpacing:1.2, textTransform:'uppercase', marginBottom:10 }}, 'Exam Sets'),
+        React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.45, marginBottom:10 }},
+          'Each button opens one reconstructed set soal domain. Only validated sets with real question counts appear here.'),
+        React.createElement('div', { style:{ display:'grid', gap:8 }},
+          examSets.map((set) => React.createElement('button', {
+            key:set.id,
+            type:'button',
+            onClick:()=> {
+              onSelectExamSet && onSelectExamSet(set.id);
+              onNavigate(17);
+            },
+            className:'cortex-motion-press',
+            style:{
+              width:'100%',
+              textAlign:'left',
+              padding:'11px 12px',
+              borderRadius:18,
+              background:selectedExamSetId === set.id ? 'rgba(168,85,247,0.14)' : 'rgba(255,255,255,0.04)',
+              border:selectedExamSetId === set.id ? '1px solid rgba(168,85,247,0.32)' : `1px solid ${DL.glassBorder}`,
+              cursor:'pointer',
+              color:DL.text,
+            }
+          },
+            React.createElement('div', { style:{ display:'flex', alignItems:'center', justifyContent:'space-between', gap:10 }},
+              React.createElement('div', { style:{ fontSize:11, fontWeight:900, color:DL.text, lineHeight:1.35, flex:1 }}, set.title),
+              React.createElement(B1Badge, { color:DL.gold }, `${set.questionCount}`)
+            )
+          ))
+        )
       ),
       React.createElement('div', { style:{
         marginTop:'auto',
@@ -10172,6 +10687,22 @@ function CortexLibraryShell() {
     return Number.isFinite(stored) && stored >= 0.88 && stored <= 1.24 ? stored : 1;
   });
   const [topbarSearch, setTopbarSearch] = React.useState('');
+  const [contentIndex, setContentIndex] = React.useState(null);
+  const [contentIndexStatus, setContentIndexStatus] = React.useState('loading');
+  const [visualManifest, setVisualManifest] = React.useState(null);
+  const [visualManifestStatus, setVisualManifestStatus] = React.useState('loading');
+  const [selectedLectureId, setSelectedLectureId] = React.useState(() => {
+    try { return localStorage.getItem('cortex.selectedLectureId') || ''; } catch (err) { return ''; }
+  });
+  const [selectedExamSetId, setSelectedExamSetId] = React.useState(() => {
+    try { return localStorage.getItem('cortex.selectedExamSetId') || ''; } catch (err) { return ''; }
+  });
+  const [selectedVisualId, setSelectedVisualId] = React.useState(() => {
+    try { return localStorage.getItem('cortex.selectedVisualId') || ''; } catch (err) { return ''; }
+  });
+  const [selectedLecture, setSelectedLecture] = React.useState(null);
+  const [selectedExamSet, setSelectedExamSet] = React.useState(null);
+  const [selectedVisual, setSelectedVisual] = React.useState(null);
   const [sidebarOpen, setSidebarOpen] = React.useState(false);
   const [sidebarPinnedHidden, setSidebarPinnedHidden] = React.useState(false);
   const [sidebarFabPos, setSidebarFabPos] = React.useState(null);
@@ -10208,6 +10739,14 @@ function CortexLibraryShell() {
       : cortexSurfaceLookup(page);
   const isWelcomePage = page === 1;
   const theme = React.useMemo(() => cortexApplyThemeGlobals(themeId), [themeId]);
+  const lectureDomains = React.useMemo(() => cortexResolveLectureDomains(contentIndex), [contentIndex]);
+  const lectureModules = React.useMemo(() => lectureDomains.flatMap((domain) =>
+    (Array.isArray(domain.modules) ? domain.modules : []).map((module) => Object.assign({}, module, { domainId:domain.id, domainTitle:domain.title }))
+  ), [lectureDomains]);
+  const examSets = React.useMemo(() => cortexResolveExamSets(contentIndex), [contentIndex]);
+  const selectedLectureMeta = React.useMemo(() => lectureModules.find((item) => item.id === selectedLectureId) || lectureModules[0] || null, [lectureModules, selectedLectureId]);
+  const selectedLectureDomain = React.useMemo(() => lectureDomains.find((domain) => domain.id === (selectedLectureMeta && selectedLectureMeta.domainId)) || null, [lectureDomains, selectedLectureMeta]);
+  const selectedExamSetMeta = React.useMemo(() => examSets.find((item) => item.id === selectedExamSetId) || examSets[0] || null, [examSets, selectedExamSetId]);
   const highlightColor = React.useMemo(() => {
     return highlightTone === 'stabilo'
       ? '#ffd84f'
@@ -10219,6 +10758,104 @@ function CortexLibraryShell() {
     x: fabViewportLeft,
     y: Math.max(14, window.innerHeight - 116),
   }), [fabViewportLeft]);
+  const currentTopbarTitle = page === 9 && selectedLectureMeta
+    ? selectedLectureMeta.title
+    : page === 12 && selectedVisualMeta
+      ? selectedVisualMeta.title
+      : page === 13 && selectedVisualMeta
+        ? `${selectedVisualMeta.title} · 3D`
+    : page === 17 && selectedExamSetMeta
+      ? selectedExamSetMeta.title
+      : page === 0
+        ? `Main Studio / ${cortexSurfaceLookup(surfaceId).label}`
+        : current.label;
+
+  React.useEffect(() => {
+    let cancelled = false;
+    setContentIndexStatus('loading');
+    cortexFetchJSON(CORTEX_RUNTIME_CONTENT_INDEX_PATH).then((data) => {
+      if (cancelled) return;
+      setContentIndex(data);
+      setContentIndexStatus('ready');
+    }).catch(() => {
+      if (cancelled) return;
+      setContentIndexStatus('error');
+    });
+    return () => { cancelled = true; };
+  }, []);
+
+  React.useEffect(() => {
+    let cancelled = false;
+    setVisualManifestStatus('loading');
+    cortexFetchJSON(CORTEX_RUNTIME_VISUAL_MANIFEST_PATH).then((data) => {
+      if (cancelled) return;
+      setVisualManifest(data);
+      setVisualManifestStatus('ready');
+    }).catch(() => {
+      if (cancelled) return;
+      setVisualManifest(null);
+      setVisualManifestStatus('error');
+    });
+    return () => { cancelled = true; };
+  }, []);
+
+  React.useEffect(() => {
+    if (selectedLectureMeta && selectedLectureId !== selectedLectureMeta.id) {
+      setSelectedLectureId(selectedLectureMeta.id);
+    }
+  }, [selectedLectureId, selectedLectureMeta]);
+
+  React.useEffect(() => {
+    if (selectedExamSetMeta && selectedExamSetId !== selectedExamSetMeta.id) {
+      setSelectedExamSetId(selectedExamSetMeta.id);
+    }
+  }, [selectedExamSetId, selectedExamSetMeta]);
+
+  React.useEffect(() => {
+    if (!selectedLectureMeta || !selectedLectureMeta.sourceFile) return;
+    let cancelled = false;
+    cortexFetchJSON(selectedLectureMeta.sourceFile).then((data) => {
+      if (!cancelled) setSelectedLecture(data);
+    }).catch(() => {
+      if (!cancelled) setSelectedLecture(null);
+    });
+    return () => { cancelled = true; };
+  }, [selectedLectureMeta]);
+
+  React.useEffect(() => {
+    if (!selectedExamSetMeta || !selectedExamSetMeta.sourceFile) return;
+    let cancelled = false;
+    cortexFetchJSON(selectedExamSetMeta.sourceFile).then((data) => {
+      if (!cancelled) setSelectedExamSet(data);
+    }).catch(() => {
+      if (!cancelled) setSelectedExamSet(null);
+    });
+    return () => { cancelled = true; };
+  }, [selectedExamSetMeta]);
+
+  const visualAssets = React.useMemo(() => cortexResolveVisualAssets(visualManifest), [visualManifest]);
+  const selectedVisualMeta = React.useMemo(() => {
+    if (!visualAssets.length) return null;
+    return visualAssets.find((item) => item.id === selectedVisualId) || visualAssets[0] || null;
+  }, [selectedVisualId, visualAssets]);
+
+  React.useEffect(() => {
+    if (selectedVisualMeta && selectedVisualId !== selectedVisualMeta.id) {
+      setSelectedVisualId(selectedVisualMeta.id);
+    }
+  }, [selectedVisualId, selectedVisualMeta]);
+
+  React.useEffect(() => {
+    setSelectedVisual(selectedVisualMeta);
+  }, [selectedVisualMeta]);
+
+  React.useEffect(() => {
+    try {
+      if (selectedLectureId) localStorage.setItem('cortex.selectedLectureId', selectedLectureId);
+      if (selectedExamSetId) localStorage.setItem('cortex.selectedExamSetId', selectedExamSetId);
+      if (selectedVisualId) localStorage.setItem('cortex.selectedVisualId', selectedVisualId);
+    } catch (err) {}
+  }, [selectedLectureId, selectedExamSetId, selectedVisualId]);
 
   React.useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -10363,8 +11000,35 @@ function CortexLibraryShell() {
     });
     if (surfaceHit) {
       navigate(surfaceHit.id);
+      return;
     }
-  }, [navigate]);
+    const lectureHit = lectureModules.find((module) => {
+      const label = String(module.title || '').toLowerCase();
+      const source = String(module.sourceDocument || '').toLowerCase();
+      return label.includes(query) || source.includes(query);
+    });
+    if (lectureHit) {
+      setSelectedLectureId(lectureHit.id);
+      navigate(9);
+      return;
+    }
+    const examHit = examSets.find((set) => {
+      const label = String(set.title || '').toLowerCase();
+      return label.includes(query);
+    });
+    if (examHit) {
+      setSelectedExamSetId(examHit.id);
+      navigate(17);
+      return;
+    }
+    const visualHit = visualAssets.find((asset) => {
+      return String(asset.searchText || '').includes(query);
+    });
+    if (visualHit) {
+      setSelectedVisualId(visualHit.id);
+      navigate(12);
+    }
+  }, [examSets, lectureModules, navigate, visualAssets]);
 
   React.useEffect(() => {
     localStorage.setItem('cortex.wallpaper', wallpaper);
@@ -10603,6 +11267,19 @@ function CortexLibraryShell() {
       onThemeChange:setThemeId,
       highlightTone,
       onHighlightToneChange:setHighlightTone,
+      contentIndex,
+      contentIndexStatus,
+      visualManifest,
+      visualManifestStatus,
+      lectureDomain:selectedLectureDomain,
+      lectureModule:selectedLecture,
+      lectureModuleMeta:selectedLectureMeta,
+      examSet:selectedExamSet,
+      examSetMeta:selectedExamSetMeta,
+      visualAsset:selectedVisualMeta,
+      visualAssets,
+      selectedVisualId,
+      onSelectVisual:setSelectedVisualId,
     };
     if (page === 0) return React.createElement(PageBatch0Kernel, { ...sharedProps, mode, surfaceId, onSurfaceChange:setSurfaceId, showGlobalFab:true });
     if (page === 1) {
@@ -10674,6 +11351,13 @@ function CortexLibraryShell() {
         mode,
         sidebarMode:'drawer',
         onClose:()=>setSidebarOpen(false),
+        lectureDomains,
+        selectedLectureId,
+        onSelectLecture:setSelectedLectureId,
+        examSets,
+        selectedExamSetId,
+        onSelectExamSet:setSelectedExamSetId,
+        contentIndexStatus,
       })
     ),
     React.createElement('div', { className:'cortex-sidebar-shell', style: sidebarDocked ? {
@@ -10694,7 +11378,19 @@ function CortexLibraryShell() {
       zIndex:32,
       pointerEvents:'none',
     }},
-      sidebarDocked && React.createElement(CortexLibraryNav, { page, onNavigate:navigate, mode, sidebarMode:'dock' })
+      sidebarDocked && React.createElement(CortexLibraryNav, {
+        page,
+        onNavigate:navigate,
+        mode,
+        sidebarMode:'dock',
+        lectureDomains,
+        selectedLectureId,
+        onSelectLecture:setSelectedLectureId,
+        examSets,
+        selectedExamSetId,
+        onSelectExamSet:setSelectedExamSetId,
+        contentIndexStatus,
+      })
     ),
     React.createElement(CortexPagesHubFab, {
       onNavigate:navigate,
@@ -10811,9 +11507,7 @@ function CortexLibraryShell() {
           }},
             React.createElement('div', { style:{ minWidth:0, flex:1 }},
               React.createElement('div', { style:{ fontSize:mode === 'mobile' ? 13 : 15, color:theme.colors.text, fontWeight:900, lineHeight:1.15, whiteSpace:'normal' }},
-                page === 0
-                  ? `Main Studio / ${cortexSurfaceLookup(surfaceId).label}`
-                  : current.label),
+                currentTopbarTitle),
             ),
             React.createElement('div', { style:{ display:'flex', gap:6, alignItems:'center', flexWrap:'wrap', justifyContent:'flex-end', flex:'0 0 auto' }},
               React.createElement(B1Badge, { color:mode === 'desktop' ? theme.colors.accent1 : mode === 'tablet' ? theme.colors.accent2 : theme.colors.accent3 }, mode.toUpperCase()),
