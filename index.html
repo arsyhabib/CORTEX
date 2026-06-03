@@ -460,7 +460,7 @@
 .cortex-motion-card {
   position: relative;
   transform-origin: center;
-  animation: buttery-pop 0.72s cubic-bezier(0.16, 1, 0.3, 1) backwards;
+  animation: buttery-pop 0.82s cubic-bezier(0.16, 1, 0.3, 1) backwards;
 }
 .cortex-sensor-active .cortex-motion-card,
 .cortex-sensor-active .b1-card,
@@ -482,10 +482,10 @@
 .cortex-touch-active .cortex-motion-sensor-control,
 .cortex-touch-active .b1-toggle,
 .cortex-touch-active .b1-search-input {
-  animation: cortex-touch-flop 760ms cubic-bezier(0.18,1.08,0.3,1);
+  animation: cortex-touch-flop 920ms cubic-bezier(0.18,1.08,0.3,1);
 }
 .cortex-device-shake .cortex-library-stage-inner {
-  animation: cortex-device-jolt 720ms cubic-bezier(0.18,1.08,0.3,1);
+  animation: cortex-device-jolt 820ms cubic-bezier(0.18,1.08,0.3,1);
 }
 .cortex-device-shake .cortex-wallpaper-layer {
   filter: saturate(1.08) brightness(1.05);
@@ -545,22 +545,22 @@
     radial-gradient(circle at 50% 50%, rgba(255,255,255,0.20), transparent 18%),
     radial-gradient(circle at 50% 50%, transparent 36%, rgba(255,255,255,0.22) 38%, transparent 41%),
     radial-gradient(circle at 50% 50%, transparent 58%, rgba(168,85,247,0.12) 60%, transparent 63%),
-    radial-gradient(circle at 50% 50%, rgba(73,198,255,0.08), rgba(255,255,255,0.05) 32%, transparent 72%);
+  radial-gradient(circle at 50% 50%, rgba(73,198,255,0.08), rgba(255,255,255,0.05) 32%, transparent 72%);
   border: 1px solid rgba(255,255,255,0.12);
-  opacity: 0.44;
+  opacity: 0.54;
   transform: translate(-50%, -50%) scale(0);
-  animation: cortex-ripple-pop 760ms cubic-bezier(0.16,1,0.3,1) forwards;
+  animation: cortex-ripple-pop 820ms cubic-bezier(0.16,1,0.3,1) forwards;
   filter: blur(0.2px) saturate(1.08);
   box-shadow: 0 0 10px rgba(168,85,247,0.08);
 }
 .cortex-motion-press {
-  transition: transform 0.34s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.34s ease, border-color 0.34s ease;
+  transition: transform 0.42s cubic-bezier(0.34,1.56,0.64,1), box-shadow 0.38s ease, border-color 0.38s ease;
 }
 .cortex-motion-press:active {
-  animation: jelly-press 0.45s cubic-bezier(0.34,1.56,0.64,1);
+  animation: jelly-press 0.54s cubic-bezier(0.34,1.56,0.64,1);
 }
 .cortex-button-tap {
-  animation: cortex-button-tap-bloom 420ms cubic-bezier(0.16,1,0.3,1);
+  animation: cortex-button-tap-bloom 520ms cubic-bezier(0.16,1,0.3,1);
 }
 .cortex-atom-button {
   position: relative;
@@ -1514,7 +1514,7 @@
   color: #fff;
   background: linear-gradient(135deg, rgba(99,102,241,0.92), rgba(168,85,247,0.90));
   box-shadow: 0 8px 24px rgba(99,102,241,0.34), inset 0 1px 0 rgba(255,255,255,0.18);
-  animation: pill-jiggle 4.2s cubic-bezier(0.34,1.56,0.64,1) infinite;
+  animation: pill-jiggle 3.8s cubic-bezier(0.34,1.56,0.64,1) infinite;
 }
 @media (max-width: 720px) {
   .cortex-wallpaper-toggle button {
@@ -4362,7 +4362,7 @@ function CortexTextZoomControl({ value, onChange, mode }) {
   );
 }
 
-function CortexTopbarSearch({ value, onChange, onSubmit, mode }) {
+function CortexTopbarSearch({ value, onChange, onSubmit, mode, style }) {
   const inputRef = React.useRef(null);
   const focusSearch = React.useCallback(() => {
     if (inputRef.current) {
@@ -4390,6 +4390,7 @@ function CortexTopbarSearch({ value, onChange, onSubmit, mode }) {
       boxShadow:`0 8px 18px ${DL.shadowColor}`,
       cursor:'text',
       minHeight: mode === 'mobile' ? 36 : 40,
+      ...style,
     }
   },
     React.createElement('span', { style:{ color:DL.mute, fontSize:12, flex:'0 0 auto' } }, '⌕'),
@@ -7368,24 +7369,24 @@ function cortexSetMotionVars(x, y, force) {
   root.style.setProperty('--cortex-tilt-x', x.toFixed(3));
   root.style.setProperty('--cortex-tilt-y', y.toFixed(3));
   const tiltMagnitude = Math.min(1, Math.abs(x) + Math.abs(y));
-  const motionScale = 1 + Math.min(0.034, tiltMagnitude * 0.014 + Math.max(0, force || 0) * 0.004);
+  const motionScale = 1 + Math.min(0.048, tiltMagnitude * 0.019 + Math.max(0, force || 0) * 0.005);
   root.style.setProperty('--cortex-motion-scale', motionScale.toFixed(3));
-  root.style.setProperty('--cortex-depth-x', `${(x * 11).toFixed(2)}px`);
-  root.style.setProperty('--cortex-depth-y', `${(y * 9).toFixed(2)}px`);
-  root.style.setProperty('--cortex-wallpaper-shift-x', `${(x * -5.4).toFixed(2)}px`);
-  root.style.setProperty('--cortex-wallpaper-shift-y', `${(y * -3.6).toFixed(2)}px`);
-  root.style.setProperty('--cortex-card-tilt-x', `${(x * 1.7).toFixed(3)}deg`);
-  root.style.setProperty('--cortex-card-tilt-y', `${(y * -1.55).toFixed(3)}deg`);
-  root.style.setProperty('--cortex-card-shift-x', `${(x * 0.64).toFixed(3)}px`);
-  root.style.setProperty('--cortex-card-shift-y', `${(y * 0.52).toFixed(3)}px`);
-  root.style.setProperty('--cortex-button-tilt-x', `${(x * 1.35).toFixed(3)}deg`);
-  root.style.setProperty('--cortex-button-tilt-y', `${(y * -1.18).toFixed(3)}deg`);
-  root.style.setProperty('--cortex-button-shift-x', `${(x * 0.4).toFixed(3)}px`);
-  root.style.setProperty('--cortex-button-shift-y', `${(y * 0.32).toFixed(3)}px`);
-  root.style.setProperty('--cortex-control-tilt-x', `${(x * 1.12).toFixed(3)}deg`);
-  root.style.setProperty('--cortex-control-tilt-y', `${(y * -1.0).toFixed(3)}deg`);
-  root.style.setProperty('--cortex-control-shift-x', `${(x * 0.31).toFixed(3)}px`);
-  root.style.setProperty('--cortex-control-shift-y', `${(y * 0.24).toFixed(3)}px`);
+  root.style.setProperty('--cortex-depth-x', `${(x * 13).toFixed(2)}px`);
+  root.style.setProperty('--cortex-depth-y', `${(y * 11).toFixed(2)}px`);
+  root.style.setProperty('--cortex-wallpaper-shift-x', `${(x * -6.2).toFixed(2)}px`);
+  root.style.setProperty('--cortex-wallpaper-shift-y', `${(y * -4.1).toFixed(2)}px`);
+  root.style.setProperty('--cortex-card-tilt-x', `${(x * 2.05).toFixed(3)}deg`);
+  root.style.setProperty('--cortex-card-tilt-y', `${(y * -1.8).toFixed(3)}deg`);
+  root.style.setProperty('--cortex-card-shift-x', `${(x * 0.82).toFixed(3)}px`);
+  root.style.setProperty('--cortex-card-shift-y', `${(y * 0.66).toFixed(3)}px`);
+  root.style.setProperty('--cortex-button-tilt-x', `${(x * 1.58).toFixed(3)}deg`);
+  root.style.setProperty('--cortex-button-tilt-y', `${(y * -1.34).toFixed(3)}deg`);
+  root.style.setProperty('--cortex-button-shift-x', `${(x * 0.52).toFixed(3)}px`);
+  root.style.setProperty('--cortex-button-shift-y', `${(y * 0.4).toFixed(3)}px`);
+  root.style.setProperty('--cortex-control-tilt-x', `${(x * 1.34).toFixed(3)}deg`);
+  root.style.setProperty('--cortex-control-tilt-y', `${(y * -1.16).toFixed(3)}deg`);
+  root.style.setProperty('--cortex-control-shift-x', `${(x * 0.42).toFixed(3)}px`);
+  root.style.setProperty('--cortex-control-shift-y', `${(y * 0.32).toFixed(3)}px`);
   root.style.setProperty('--cortex-shake-force', (force || 0).toFixed(3));
 }
 
@@ -8724,27 +8725,58 @@ function CortexLibraryShell() {
             )
           ),
           React.createElement('div', { className:'cortex-library-topbar-actions', style:{ display:'flex', gap:6, alignItems:'center', flexWrap:'wrap', justifyContent:'flex-start', width:'100%' }},
-            React.createElement(B1Button, {
-              label: mode === 'mobile' ? '' : (sidebarDocked ? (sidebarPinnedHidden ? 'Show sidebar' : 'Hide sidebar') : (sidebarOpen ? 'Close sidebar' : 'Sidebar')),
-              icon: sidebarDocked ? (sidebarPinnedHidden ? '↗' : '↙') : '☰',
-              onClick: toggleSidebar,
-              className:'cortex-motion-press',
-              style:{
-                padding:'8px 12px',
-                borderRadius:16,
-                minHeight:36,
-                fontSize:12,
-                flex:'0 0 auto',
-                minWidth: mode === 'mobile' ? 40 : 92,
-              }
-            }),
-            React.createElement(CortexTextZoomControl, { value:textZoom, onChange:setTextZoom, mode }),
-            React.createElement(CortexTopbarSearch, {
-              value:topbarSearch,
-              onChange:setTopbarSearch,
-              onSubmit:submitTopbarSearch,
-              mode,
-            }),
+            mode === 'mobile'
+              ? React.createElement(React.Fragment, null,
+                React.createElement('div', { style:{ width:'100%', display:'flex', gap:6, alignItems:'center', flexWrap:'nowrap' }},
+                  React.createElement(B1Button, {
+                    label:'',
+                    icon: sidebarDocked ? (sidebarPinnedHidden ? '↗' : '↙') : '☰',
+                    onClick: toggleSidebar,
+                    className:'cortex-motion-press',
+                    style:{
+                      padding:'8px 11px',
+                      borderRadius:16,
+                      minHeight:36,
+                      fontSize:12,
+                      flex:'0 0 auto',
+                      minWidth:40,
+                    }
+                  }),
+                  React.createElement(CortexMotionSensorControl, null),
+                  React.createElement(CortexTextZoomControl, { value:textZoom, onChange:setTextZoom, mode }),
+                ),
+                React.createElement(CortexTopbarSearch, {
+                  value:topbarSearch,
+                  onChange:setTopbarSearch,
+                  onSubmit:submitTopbarSearch,
+                  mode,
+                  style:{ width:'100%', flex:'1 1 100%', minWidth:0 }
+                }),
+              )
+              : React.createElement(React.Fragment, null,
+                React.createElement(B1Button, {
+                  label: sidebarDocked ? (sidebarPinnedHidden ? 'Show sidebar' : 'Hide sidebar') : (sidebarOpen ? 'Close sidebar' : 'Sidebar'),
+                  icon: sidebarDocked ? (sidebarPinnedHidden ? '↗' : '↙') : '☰',
+                  onClick: toggleSidebar,
+                  className:'cortex-motion-press',
+                  style:{
+                    padding:'8px 12px',
+                    borderRadius:16,
+                    minHeight:36,
+                    fontSize:12,
+                    flex:'0 0 auto',
+                    minWidth:92,
+                  }
+                }),
+                React.createElement(CortexMotionSensorControl, null),
+                React.createElement(CortexTextZoomControl, { value:textZoom, onChange:setTextZoom, mode }),
+                React.createElement(CortexTopbarSearch, {
+                  value:topbarSearch,
+                  onChange:setTopbarSearch,
+                  onSubmit:submitTopbarSearch,
+                  mode,
+                }),
+              ),
           )
         ),
         React.createElement('section', {
