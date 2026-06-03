@@ -1658,9 +1658,9 @@
     font-size: 7px;
   }
   .cortex-text-zoom-control {
-    min-width: 142px !important;
+    min-width: 84px !important;
     width: auto !important;
-    max-width: 178px;
+    max-width: 108px;
   }
   .cortex-library-topbar {
     padding-left: 12px !important;
@@ -4299,15 +4299,15 @@ function CortexTextZoomControl({ value, onChange, mode }) {
     style:{
       display:'flex',
       alignItems:'center',
-      gap:8,
+      gap:6,
       padding: mode === 'mobile' ? '6px 8px' : '8px 10px',
       borderRadius:18,
       border:`1px solid ${DL.glassBorder}`,
       background:'rgba(255,255,255,0.04)',
       boxShadow:`0 8px 18px ${DL.shadowColor}`,
-      minWidth: mode === 'mobile' ? 154 : mode === 'tablet' ? 226 : 252,
-      flex:'1 1 auto',
-      maxWidth: mode === 'mobile' ? 180 : 286,
+      minWidth: mode === 'mobile' ? 84 : mode === 'tablet' ? 116 : 126,
+      flex:'0 0 auto',
+      maxWidth: mode === 'mobile' ? 108 : 140,
     }
   },
     React.createElement('button', {
@@ -4328,26 +4328,18 @@ function CortexTextZoomControl({ value, onChange, mode }) {
         flex:'0 0 auto',
       }
     }, '−'),
-    React.createElement('div', { style:{ flex:1, minWidth:0, display:'grid', gap:4 }},
-      React.createElement('div', { style:{ display:'flex', justifyContent:'space-between', gap:8, fontSize:9, fontWeight:900, letterSpacing:0.8, color:DL.mute, textTransform:'uppercase' }},
-        React.createElement('span', null, 'Text zoom'),
-        React.createElement('span', null, `${pct}%`)
-      ),
-      React.createElement('input', {
-        type:'range',
-        min:'0',
-        max:'2',
-        step:'1',
-        value:String(currentIndex),
-        onChange:e => setIndex(Number(e.target.value)),
-        style:{
-          width:'100%',
-          accentColor:DL.accent,
-          cursor:'pointer',
-          margin:0,
-        }
-      })
-    ),
+    React.createElement('div', {
+      style:{
+        minWidth: mode === 'mobile' ? 34 : 38,
+        display:'flex',
+        alignItems:'center',
+        justifyContent:'center',
+        color:DL.text,
+        fontSize: mode === 'mobile' ? 11 : 12,
+        fontWeight:900,
+        letterSpacing:0.3,
+      }
+    }, `${pct}%`),
     React.createElement('button', {
       type:'button',
       onClick:()=>setIndex(currentIndex + 1),
@@ -4366,6 +4358,68 @@ function CortexTextZoomControl({ value, onChange, mode }) {
         flex:'0 0 auto',
       }
     }, '+')
+  );
+}
+
+function CortexTopbarSearch({ value, onChange, onSubmit, mode }) {
+  const inputRef = React.useRef(null);
+  const focusSearch = React.useCallback(() => {
+    if (inputRef.current) {
+      inputRef.current.focus({ preventScroll:true });
+      const len = inputRef.current.value.length;
+      try {
+        inputRef.current.setSelectionRange(len, len);
+      } catch (err) {}
+    }
+  }, []);
+  return React.createElement('div', {
+    className:'cortex-topbar-search cortex-motion-press',
+    onMouseDown:focusSearch,
+    onTouchStart:focusSearch,
+    style:{
+      flex:'1 1 220px',
+      minWidth: mode === 'mobile' ? 132 : 180,
+      display:'flex',
+      alignItems:'center',
+      gap:8,
+      padding: mode === 'mobile' ? '8px 10px' : '9px 12px',
+      borderRadius:18,
+      border:`1px solid ${DL.glassBorder}`,
+      background:'rgba(255,255,255,0.05)',
+      boxShadow:`0 8px 18px ${DL.shadowColor}`,
+      cursor:'text',
+      minHeight: mode === 'mobile' ? 36 : 40,
+    }
+  },
+    React.createElement('span', { style:{ color:DL.mute, fontSize:12, flex:'0 0 auto' } }, '⌕'),
+    React.createElement('input', {
+      ref:inputRef,
+      type:'search',
+      value,
+      onChange:e => onChange(e.target.value),
+      onFocus:focusSearch,
+      onKeyDown:e => {
+        if (e.key === 'Enter') {
+          e.preventDefault();
+          onSubmit && onSubmit(value);
+        }
+      },
+      placeholder:'Search pages, lessons, terms',
+      enterKeyHint:'search',
+      spellCheck:false,
+      autoCapitalize:'off',
+      autoCorrect:'off',
+      style:{
+        width:'100%',
+        minWidth:0,
+        border:0,
+        outline:'none',
+        background:'transparent',
+        color:DL.text,
+        fontSize: mode === 'mobile' ? 12 : 13,
+        fontWeight:700,
+      }
+    })
   );
 }
 
@@ -8276,6 +8330,7 @@ function CortexLibraryShell() {
     const stored = Number(localStorage.getItem('cortex.textZoom'));
     return Number.isFinite(stored) && stored >= 0.88 && stored <= 1.24 ? stored : 1;
   });
+  const [topbarSearch, setTopbarSearch] = React.useState('');
   const [sidebarOpen, setSidebarOpen] = React.useState(false);
   const [sidebarPinnedHidden, setSidebarPinnedHidden] = React.useState(false);
   const [navTrail, setNavTrail] = React.useState([]);
@@ -8355,6 +8410,43 @@ function CortexLibraryShell() {
     }
     setSidebarOpen(v => !v);
   }, [sidebarDocked]);
+
+  const submitTopbarSearch = React.useCallback((raw) => {
+    const query = String(raw || '').trim().toLowerCase();
+    if (!query) return;
+    if (['main', 'studio', 'dashboard', 'home'].some(word => query.includes(word))) {
+      navigate(0);
+      return;
+    }
+    if (['welcome', 'entry'].some(word => query.includes(word))) {
+      navigate(1);
+      return;
+    }
+    const numeric = Number(query.replace(/[^\d]/g, ''));
+    if (Number.isFinite(numeric)) {
+      if (numeric === 0) return navigate(0);
+      if (numeric === 1) return navigate(1);
+      if (CORTEX_MAIN_SURFACES.some(s => s.id === numeric)) return navigate(numeric);
+    }
+    const pageHit = CORTEX_LIBRARY_PAGES.find(p => {
+      const label = String(p.label || '').toLowerCase();
+      const summary = String(p.summary || '').toLowerCase();
+      return label.includes(query) || summary.includes(query);
+    });
+    if (pageHit) {
+      navigate(pageHit.id);
+      return;
+    }
+    const surfaceHit = CORTEX_MAIN_SURFACES.find(s => {
+      const label = String(s.label || '').toLowerCase();
+      const summary = String(s.summary || '').toLowerCase();
+      const hint = String(s.hint || '').toLowerCase();
+      return label.includes(query) || summary.includes(query) || hint.includes(query);
+    });
+    if (surfaceHit) {
+      navigate(surfaceHit.id);
+    }
+  }, [navigate]);
 
   React.useEffect(() => {
     localStorage.setItem('cortex.wallpaper', wallpaper);
@@ -8572,9 +8664,8 @@ function CortexLibraryShell() {
             )
           ),
           React.createElement('div', { className:'cortex-library-topbar-actions', style:{ display:'flex', gap:6, alignItems:'center', flexWrap:'wrap', justifyContent:'flex-start', width:'100%' }},
-            React.createElement(CortexMotionSensorControl),
             React.createElement(B1Button, {
-              label: sidebarDocked ? (sidebarPinnedHidden ? 'Show sidebar' : 'Hide sidebar') : (sidebarOpen ? 'Close sidebar' : 'Sidebar'),
+              label: mode === 'mobile' ? '' : (sidebarDocked ? (sidebarPinnedHidden ? 'Show sidebar' : 'Hide sidebar') : (sidebarOpen ? 'Close sidebar' : 'Sidebar')),
               icon: sidebarDocked ? (sidebarPinnedHidden ? '↗' : '↙') : '☰',
               onClick: toggleSidebar,
               className:'cortex-motion-press',
@@ -8584,9 +8675,16 @@ function CortexLibraryShell() {
                 minHeight:36,
                 fontSize:12,
                 flex:'0 0 auto',
+                minWidth: mode === 'mobile' ? 40 : 92,
               }
             }),
             React.createElement(CortexTextZoomControl, { value:textZoom, onChange:setTextZoom, mode }),
+            React.createElement(CortexTopbarSearch, {
+              value:topbarSearch,
+              onChange:setTopbarSearch,
+              onSubmit:submitTopbarSearch,
+              mode,
+            }),
           )
         ),
         React.createElement('section', {
