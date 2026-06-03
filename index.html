@@ -571,6 +571,16 @@
   74% { transform: scale(1.012, 0.992) translateY(-0.5px); }
   100% { transform: scale(1); }
 }
+.cortex-fab-launch-button[data-open="true"] {
+  animation: cortex-fab-launch-open-jiggle 900ms cubic-bezier(0.16,1.08,0.28,1);
+}
+@keyframes cortex-fab-launch-open-jiggle {
+  0% { transform: translateY(0) scale(1); }
+  18% { transform: translateY(-1px) scale(0.94, 1.06); }
+  42% { transform: translateY(1px) scale(1.03, 0.98); }
+  68% { transform: translateY(0) scale(0.985, 1.01); }
+  100% { transform: translateY(0) scale(1); }
+}
 .cortex-button-tap {
   animation: cortex-button-tap-bloom 520ms cubic-bezier(0.16,1,0.3,1);
 }
@@ -4526,7 +4536,6 @@ function CortexSidebarFab({ open = false, onClick, onPointerDown, theme, count =
         React.createElement('circle', { cx:'74', cy:'51', r:'18', fill:'none', stroke:'rgba(255,255,255,0.24)', strokeWidth:'2' }),
       )
     ),
-    React.createElement('span', { className:'cortex-sidebar-fab-badge' }, count),
     React.createElement('span', { className:'cortex-sidebar-fab-label' }, open ? 'Close' : 'Sidebar')
   );
 }
@@ -4714,6 +4723,26 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
   }, [fabActiveHub, fabPos, getFabBasePosition, compact]);
   const fabMenuPos = fabMenuSide.anchorRight ? { right:0, left:'auto' } : { left:0, right:'auto' };
   const fabMenuVert = fabMenuSide.anchorBottom ? { bottom:66, top:'auto' } : { top:66, bottom:'auto' };
+  const fabBodyStyle = fabActiveHub ? {
+    flex:'1 1 auto',
+    minHeight:0,
+    overflow:'hidden',
+    display:'flex',
+    flexDirection:'column',
+    gap:8,
+  } : {
+    flex:'1 1 auto',
+    minHeight:0,
+    overflowY:'auto',
+    overflowX:'hidden',
+    display:'flex',
+    flexDirection:'column',
+    gap:8,
+    paddingRight:4,
+    paddingBottom:8,
+    WebkitOverflowScrolling:'touch',
+    touchAction:'pan-y',
+  };
 
   React.useEffect(() => {
     if (typeof document === 'undefined') return undefined;
@@ -4791,6 +4820,7 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
     active:fabOpen,
     showKicker:false,
     className:'cortex-fab-launch-button',
+    'data-open': String(!!fabOpen),
     style:{
       minWidth:114,
       minHeight:52,
@@ -4904,7 +4934,7 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
         )
       )
     ),
-    React.createElement('div', { style:{ flex:'1 1 auto', minHeight:0, overflow:'hidden', display:'flex', flexDirection:'column', gap:8 } },
+    React.createElement('div', { style:fabBodyStyle },
       !fabActiveHub && React.createElement('div', { className:'cortex-fab-grid' },
         hubGroups.map(group => React.createElement(CortexFabGridChip, {
           key:group.id,
@@ -8579,6 +8609,26 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
   const fabMenuVert = fabMenuSide.anchorBottom
     ? { bottom:66, top:'auto' }
     : { top:66, bottom:'auto' };
+  const fabBodyStyle = fabActiveHub ? {
+    display:'flex',
+    flexDirection:'column',
+    gap:8,
+    minHeight:0,
+    flex:'1 1 auto',
+    overflow:'hidden',
+  } : {
+    display:'flex',
+    flexDirection:'column',
+    gap:8,
+    minHeight:0,
+    flex:'1 1 auto',
+    overflowY:'auto',
+    overflowX:'hidden',
+    paddingRight:4,
+    paddingBottom:8,
+    WebkitOverflowScrolling:'touch',
+    touchAction:'pan-y',
+  };
 
   const onFabPointerDown = (event) => {
     if (!allowFabDrag) return;
@@ -8802,6 +8852,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
           active:fabOpen,
           showKicker:false,
           className:'cortex-fab-launch-button',
+          'data-open': String(!!fabOpen),
           style:{
             minWidth:114,
             minHeight:52,
@@ -8833,7 +8884,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
           flexDirection:'column',
           minHeight:0,
         }},
-          React.createElement('div', { style:{ display:'flex', flexDirection:'column', gap:8, minHeight:0, flex:'1 1 auto', overflow:'hidden' } },
+          React.createElement('div', { style:fabBodyStyle },
             !fabActiveHub && React.createElement('div', { className:'cortex-fab-grid' },
               hubGroups.map(group => React.createElement(CortexFabGridChip, {
                 key:group.id,
