@@ -4255,6 +4255,7 @@ function CortexSidebarFab({ open = false, onClick, theme, count = CORTEX_MAIN_SU
     'data-open':String(!!open),
     style:{
       color:'#fff',
+      zIndex:60,
       ...style,
     }
   },
@@ -8041,7 +8042,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
 
     !showGlobalFab && React.createElement('div', { style:{
       position:'fixed',
-      zIndex:25,
+      zIndex:60,
       ...fabButtonPos,
     }},
       React.createElement('div', { style:{ position:'relative' }},
@@ -8071,6 +8072,8 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
           ...fabMenuPos,
           ...fabMenuVert,
           width: compact ? 236 : 286,
+          height: compact ? 324 : 372,
+          maxHeight: compact ? 324 : 372,
           padding:12,
           borderRadius:20,
           background:'rgba(12,12,32,0.90)',
@@ -8078,8 +8081,11 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
           backdropFilter:'blur(18px) saturate(150%)',
           WebkitBackdropFilter:'blur(18px) saturate(150%)',
           boxShadow:`0 26px 56px ${currentTheme.colors.shadowColor}`,
+          overflowY:'auto',
+          overflowX:'hidden',
+          overscrollBehavior:'contain',
         }},
-          React.createElement('div', { style:{ display:'grid', gap:8 } },
+          React.createElement('div', { style:{ display:'grid', gap:8, minHeight:'100%', alignContent:'start' } },
             surfaceGroups.map(group => {
               const expanded = fabAccordionGroup === group.group;
               return React.createElement('div', {
@@ -8128,7 +8134,6 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
                     onClick:()=>{
                       onSurfaceChange && onSurfaceChange(item.id);
                       onNavigate(item.id);
-                      setFabOpen(false);
                     },
                     compact:true,
                     active:item.id === activeSurface.id,
