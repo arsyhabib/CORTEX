@@ -2966,18 +2966,18 @@ const THEMES = {
     colors: {
       bg: '#090909',
       bgAlt: '#121212',
-      surface: 'rgba(255,255,255,0.04)',
-      glass: 'rgba(255,255,255,0.06)',
-      glassBorder: 'rgba(255,255,255,0.16)',
-      glassHighlight: 'rgba(255,255,255,0.08)',
+      surface: 'rgba(255,255,255,0.05)',
+      glass: 'rgba(255,255,255,0.08)',
+      glassBorder: 'rgba(255,255,255,0.22)',
+      glassHighlight: 'rgba(255,255,255,0.11)',
       accent1: '#f5f5f5',
       accent2: '#bdbdbd',
       accent3: '#7a7a7a',
       text: '#f7f7f7',
-      textSecondary: 'rgba(245,245,245,0.64)',
-      textMuted: 'rgba(235,235,235,0.38)',
+      textSecondary: 'rgba(248,248,248,0.76)',
+      textMuted: 'rgba(240,240,240,0.54)',
       gradientMain: 'linear-gradient(135deg, #f7f7f7, #cfcfcf, #8d8d8d)',
-      gradientCard: 'linear-gradient(145deg, rgba(255,255,255,0.09), rgba(255,255,255,0.03))',
+      gradientCard: 'linear-gradient(145deg, rgba(255,255,255,0.11), rgba(255,255,255,0.05))',
       gradientAccent: 'linear-gradient(135deg, #ffffff, #bfbfbf)',
       glow: '245, 245, 245',
       shadowColor: 'rgba(255,255,255,0.12)',
@@ -9875,12 +9875,12 @@ function CortexLibraryShell() {
     const text = textSelection && textSelection.text;
     if (!selection || !text) return;
     const range = selection.cloneRange ? selection.cloneRange() : selection;
-    const highlightColor = currentTheme.colors.accent1 || DL.accent;
+    const highlightColor = theme.colors.accent1 || DL.accent;
     if (cortexWrapRangeHighlight(range, highlightColor)) {
       persistHighlight(range, text);
     }
     clearTextSelection();
-  }, [clearTextSelection, currentTheme.colors.accent1, persistHighlight, textSelection]);
+  }, [clearTextSelection, persistHighlight, textSelection, theme.colors.accent1]);
 
   React.useEffect(() => {
     const pulse = (el) => {
