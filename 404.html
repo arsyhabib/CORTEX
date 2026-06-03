@@ -5544,6 +5544,84 @@ function PageLearning({ onNavigate }) {
   ];
   const total = slides.length;
   const s = slides[slideIdx];
+  const stickyPager = ReactDOM.createPortal(
+    React.createElement('div', {
+      style:{
+        position:'fixed',
+        left:'50%',
+        bottom:'calc(12px + env(safe-area-inset-bottom))',
+        transform:'translateX(-50%)',
+        zIndex:2147483647,
+        pointerEvents:'none',
+      }
+    },
+      React.createElement('div', {
+        style:{
+          pointerEvents:'auto',
+          display:'flex',
+          alignItems:'center',
+          gap:8,
+          padding:'7px',
+          borderRadius:999,
+          background:`linear-gradient(145deg, rgba(10,10,26,0.72), rgba(18,16,42,0.86))`,
+          border:`1px solid ${DL.glassBorder}`,
+          boxShadow:`0 18px 32px ${DL.shadowColor}, inset 0 1px 0 rgba(255,255,255,0.10)`,
+          backdropFilter:'blur(18px) saturate(160%)',
+          WebkitBackdropFilter:'blur(18px) saturate(160%)',
+        }
+      },
+        React.createElement('button', {
+          type:'button',
+          title:'Prev',
+          'aria-label':'Prev',
+          onClick:()=>setSlideIdx(Math.max(0, slideIdx-1)),
+          disabled:slideIdx===0,
+          style:{
+            width:42,
+            height:42,
+            borderRadius:15,
+            border:`1px solid ${DL.accentB}55`,
+            background:slideIdx===0
+              ? 'rgba(255,255,255,0.06)'
+              : DL.gradA,
+            color:slideIdx===0 ? DL.mute : '#fff',
+            display:'flex',
+            alignItems:'center',
+            justifyContent:'center',
+            fontSize:18,
+            cursor:slideIdx===0 ? 'default' : 'pointer',
+            boxShadow:slideIdx===0 ? 'none' : `0 10px 20px ${DL.shadowColor}`,
+            opacity:slideIdx===0 ? 0.35 : 1,
+            transition:'all 0.28s cubic-bezier(0.16,1.2,0.3,1)',
+          }
+        }, '⏮️'),
+        React.createElement('button', {
+          type:'button',
+          title:slideIdx < total - 1 ? 'Next' : 'Selesai',
+          'aria-label':slideIdx < total - 1 ? 'Next' : 'Selesai',
+          onClick:()=> slideIdx < total - 1 ? setSlideIdx(slideIdx+1) : onNavigate(4),
+          style:{
+            width:42,
+            height:42,
+            borderRadius:15,
+            border:`1px solid ${DL.gold}55`,
+            background:slideIdx < total - 1
+              ? `linear-gradient(145deg, ${DL.gold}CC, ${DL.accent}CC)`
+              : `linear-gradient(145deg, ${DL.green}CC, ${DL.teal}CC)`,
+            color:'#fff',
+            display:'flex',
+            alignItems:'center',
+            justifyContent:'center',
+            fontSize:18,
+            cursor:'pointer',
+            boxShadow:`0 10px 20px ${DL.shadowColor}`,
+            transition:'all 0.28s cubic-bezier(0.16,1.2,0.3,1)',
+          }
+        }, slideIdx < total - 1 ? '⏭️' : '✓'),
+      )
+    ),
+    document.body
+  );
 
   return React.createElement('div', {
     'data-screen-label': 'P3-Learning',
@@ -5561,7 +5639,7 @@ function PageLearning({ onNavigate }) {
       React.createElement(B1Progress, { value:((slideIdx+1)/total)*100, h:3 }),
     ),
     /* Content viewport */
-    React.createElement('div', { style:{ flex:1, overflowY:'auto', padding:'0 18px 20px' }, className:'hide-scrollbar' },
+    React.createElement('div', { style:{ flex:1, overflowY:'auto', padding:'0 18px calc(110px + env(safe-area-inset-bottom))' }, className:'hide-scrollbar' },
       /* Slide card */
       React.createElement(B1Card, { key:slideIdx, glow:true, style:{
         marginBottom:16, animation:'scale-in 0.4s ease backwards',
@@ -5607,23 +5685,7 @@ function PageLearning({ onNavigate }) {
         )
       ),
     ),
-    /* Navigation footer */
-    React.createElement('div', { style:{
-      display:'flex', gap:10, padding:'12px 18px 28px',
-      borderTop:`1px solid ${DL.glassBorder}`,
-      backdropFilter:'blur(20px)', WebkitBackdropFilter:'blur(20px)',
-    }},
-      React.createElement(B1Button, {
-        label:'← Prev', variant:'ghost',
-        onClick:()=>setSlideIdx(Math.max(0,slideIdx-1)),
-        style:{ flex:1, opacity:slideIdx===0?0.3:1 },
-      }),
-      React.createElement(B1Button, {
-        label: slideIdx<total-1 ? 'Next →' : 'Selesai ✓',
-        onClick:()=> slideIdx<total-1 ? setSlideIdx(slideIdx+1) : onNavigate(4),
-        style:{ flex:1 },
-      }),
-    ),
+    stickyPager,
   );
 }
 
