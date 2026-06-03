@@ -691,6 +691,56 @@
 .cortex-atom-button--mini {
   min-height:58px;
   padding:10px 12px;
+  border-radius:18px;
+}
+.cortex-atom-button--mini .cortex-atom-button-copy {
+  padding-left:54px;
+}
+.cortex-atom-button--mini .cortex-atom-button-title {
+  font-size:12px;
+}
+.cortex-atom-button--mini .cortex-atom-button-sub {
+  font-size:9px;
+}
+.cortex-page-glyph {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 16px;
+  overflow: hidden;
+  pointer-events: none;
+  box-shadow:
+    0 10px 22px rgba(0,0,0,0.16),
+    inset 0 1px 0 rgba(255,255,255,0.16);
+}
+.cortex-page-glyph svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  animation: cortex-page-glyph-float 7.2s ease-in-out infinite;
+  transform-origin: center;
+}
+.cortex-page-glyph[data-variant="1"] svg { animation-duration: 8.2s; animation-direction: reverse; }
+.cortex-page-glyph[data-variant="2"] svg { animation-duration: 6.4s; }
+.cortex-page-glyph[data-variant="3"] svg { animation-duration: 9.3s; animation-direction: reverse; }
+.cortex-page-glyph[data-variant="4"] svg { animation-duration: 7.8s; }
+.cortex-page-glyph[data-variant="5"] svg { animation-duration: 6.9s; animation-direction: reverse; }
+.cortex-page-glyph[data-variant="6"] svg { animation-duration: 8.8s; }
+.cortex-page-glyph[data-variant="7"] svg { animation-duration: 7.4s; animation-direction: reverse; }
+.cortex-page-glyph circle,
+.cortex-page-glyph path,
+.cortex-page-glyph rect,
+.cortex-page-glyph line,
+.cortex-page-glyph polyline,
+.cortex-page-glyph polygon {
+  vector-effect: non-scaling-stroke;
+}
+@keyframes cortex-page-glyph-float {
+  0%, 100% { transform: translate3d(0,0,0) rotate(0deg) scale(1); }
+  50% { transform: translate3d(0,-1px,0) rotate(2deg) scale(1.03); }
 }
 @keyframes cortex-atom-sheen {
   0% { transform: translate3d(-18%, 0, 0) rotate(0.001deg); }
@@ -3763,6 +3813,117 @@ function B1Topbar({ left, title, right, subtitle, transparent }) {
 }
 
 /* ── Button ── */
+function CortexPageGlyph({ page, theme, variant = 0, compact = false }) {
+  const uid = React.useId ? React.useId().replace(/[:]/g, '') : `pg${Math.random().toString(36).slice(2, 8)}`;
+  const strokeA = theme?.colors?.accent1 || DL.accent;
+  const strokeB = theme?.colors?.accent2 || DL.gold;
+  const strokeC = theme?.colors?.accent3 || DL.accentB;
+  const seed = page || 0;
+  const kind = seed % 8;
+  const phase = Math.floor(seed / 8);
+  const rot = (seed * 17 + phase * 29) % 360;
+  const dash = 4 + (seed % 5);
+  const gap = 3 + (seed % 4);
+  const stroke = 2.05;
+  const dataVariant = String(variant % 8);
+  const size = compact ? 38 : 44;
+  const inset = compact ? 10 : 12;
+
+  const motifs = [
+    React.createElement(React.Fragment, { key:'m0' },
+      React.createElement('circle', { cx:36, cy:36, r:19.5, fill:'none', stroke:`${strokeA}CC`, strokeWidth:stroke }),
+      React.createElement('circle', { cx:36, cy:36, r:10.5, fill:'none', stroke:`${strokeB}AA`, strokeWidth:stroke, strokeDasharray:`${dash} ${gap}` }),
+      React.createElement('circle', { cx:36, cy:36, r:3.2, fill:strokeC, opacity:0.9 }),
+      React.createElement('path', { d:`M17 ${28 + phase} C24 ${18 + phase} 48 ${18 - phase} 55 ${27 + phase}`, fill:'none', stroke:`${strokeC}CC`, strokeWidth:stroke, strokeLinecap:'round' }),
+      React.createElement('circle', { cx:24 + phase * 2, cy:23, r:2.8, fill:strokeB }),
+      React.createElement('circle', { cx:48 - phase * 1.2, cy:49, r:2.2, fill:strokeA }),
+    ),
+    React.createElement(React.Fragment, { key:'m1' },
+      React.createElement('polygon', { points:`36,12 ${55 - phase},36 36,60 ${17 + phase},36`, fill:'none', stroke:`${strokeA}CC`, strokeWidth:stroke, strokeLinejoin:'round' }),
+      React.createElement('path', { d:`M23 36h26M36 23v26`, fill:'none', stroke:`${strokeB}AA`, strokeWidth:stroke, strokeLinecap:'round' }),
+      React.createElement('circle', { cx:36, cy:36, r:5.4, fill:'none', stroke:strokeC, strokeWidth:stroke, strokeDasharray:`${dash+1} ${gap+1}` }),
+      React.createElement('circle', { cx:23, cy:24 + phase, r:2.3, fill:strokeB }),
+      React.createElement('circle', { cx:49, cy:48 - phase, r:2.1, fill:strokeA }),
+    ),
+    React.createElement(React.Fragment, { key:'m2' },
+      React.createElement('path', { d:`M14 40 C20 30, 26 30, 32 40 S44 50, 50 40 S58 30, 64 40`, fill:'none', stroke:`${strokeA}D0`, strokeWidth:stroke, strokeLinecap:'round', strokeLinejoin:'round' }),
+      React.createElement('path', { d:`M14 28 C20 18, 26 18, 32 28 S44 38, 50 28 S58 18, 64 28`, fill:'none', stroke:`${strokeB}AA`, strokeWidth:stroke, strokeLinecap:'round', strokeLinejoin:'round', strokeDasharray:`${dash} ${gap}` }),
+      React.createElement('circle', { cx:36, cy:36, r:3.4, fill:strokeC }),
+      React.createElement('circle', { cx:21 + phase, cy:46, r:2.4, fill:strokeB }),
+      React.createElement('circle', { cx:51 - phase, cy:24, r:2.1, fill:strokeA }),
+    ),
+    React.createElement(React.Fragment, { key:'m3' },
+      React.createElement('polygon', { points:'36,10 58,22 58,50 36,62 14,50 14,22', fill:'none', stroke:`${strokeA}CC`, strokeWidth:stroke, strokeLinejoin:'round' }),
+      React.createElement('path', { d:'M20 36h32M36 18v36', fill:'none', stroke:`${strokeB}AA`, strokeWidth:stroke, strokeLinecap:'round' }),
+      React.createElement('path', { d:`M22 ${23 + phase}L50 ${49 - phase}`, fill:'none', stroke:`${strokeC}CC`, strokeWidth:stroke, strokeLinecap:'round' }),
+      React.createElement('circle', { cx:31, cy:31, r:2.2, fill:strokeB }),
+      React.createElement('circle', { cx:45, cy:41, r:2.7, fill:strokeA }),
+    ),
+    React.createElement(React.Fragment, { key:'m4' },
+      React.createElement('path', { d:'M36 14 C45 14, 55 24, 55 36 C55 48, 45 58, 36 58 C27 58, 17 48, 17 36 C17 24, 27 14, 36 14Z', fill:'none', stroke:`${strokeA}CC`, strokeWidth:stroke }),
+      React.createElement('path', { d:`M36 18 C43 18, 49 24, 49 36 C49 48, 43 54, 36 54 C29 54, 23 48, 23 36 C23 24, 29 18, 36 18Z`, fill:'none', stroke:`${strokeB}AA`, strokeWidth:stroke, strokeDasharray:`${dash} ${gap}` }),
+      React.createElement('path', { d:`M36 24L36 48M24 36H48`, fill:'none', stroke:`${strokeC}CC`, strokeWidth:stroke, strokeLinecap:'round' }),
+      React.createElement('circle', { cx:36, cy:36, r:4.2, fill:strokeC }),
+    ),
+    React.createElement(React.Fragment, { key:'m5' },
+      React.createElement('rect', { x:14, y:14, width:44, height:44, rx:16, fill:'none', stroke:`${strokeA}CC`, strokeWidth:stroke }),
+      React.createElement('path', { d:'M21 24h22M21 36h30M21 48h18', fill:'none', stroke:`${strokeB}AA`, strokeWidth:stroke, strokeLinecap:'round' }),
+      React.createElement('path', { d:`M49 20v28`, fill:'none', stroke:`${strokeC}CC`, strokeWidth:stroke, strokeLinecap:'round', strokeDasharray:`${dash} ${gap}` }),
+      React.createElement('circle', { cx:50, cy:50, r:3.4, fill:strokeC }),
+    ),
+    React.createElement(React.Fragment, { key:'m6' },
+      React.createElement('polygon', { points:'36,13 53,22 57,36 53,50 36,59 19,50 15,36 19,22', fill:'none', stroke:`${strokeA}CC`, strokeWidth:stroke, strokeLinejoin:'round' }),
+      React.createElement('path', { d:`M24 28h24M22 36h28M24 44h20`, fill:'none', stroke:`${strokeB}AA`, strokeWidth:stroke, strokeLinecap:'round' }),
+      React.createElement('circle', { cx:36, cy:36, r:5.2, fill:'none', stroke:strokeC, strokeWidth:stroke }),
+      React.createElement('circle', { cx:27, cy:26, r:2.1, fill:strokeB }),
+      React.createElement('circle', { cx:45, cy:46, r:2.1, fill:strokeA }),
+    ),
+    React.createElement(React.Fragment, { key:'m7' },
+      React.createElement('path', { d:'M19 36c0-9.4 7.6-17 17-17s17 7.6 17 17-7.6 17-17 17-17-7.6-17-17z', fill:'none', stroke:`${strokeA}CC`, strokeWidth:stroke }),
+      React.createElement('path', { d:'M28 28l16 16M44 28L28 44', fill:'none', stroke:`${strokeB}AA`, strokeWidth:stroke, strokeLinecap:'round' }),
+      React.createElement('path', { d:`M36 20v32`, fill:'none', stroke:`${strokeC}CC`, strokeWidth:stroke, strokeLinecap:'round', strokeDasharray:`${dash} ${gap}` }),
+      React.createElement('circle', { cx:36, cy:36, r:3.6, fill:strokeC }),
+    ),
+  ];
+
+  return React.createElement('span', {
+    className:'cortex-page-glyph',
+    'data-variant':dataVariant,
+    'data-kind':String(kind),
+    style:{
+      width:size,
+      height:size,
+      left:inset,
+      borderRadius: compact ? 14 : 16,
+    },
+  },
+    React.createElement('svg', {
+      viewBox:'0 0 72 72',
+      fill:'none',
+      xmlns:'http://www.w3.org/2000/svg',
+      style:{
+        transform:`rotate(${rot}deg)`,
+      },
+    },
+      React.createElement('defs', null,
+        React.createElement('linearGradient', { id:`pg-bg-${seed}-${uid}`, x1:'10%', y1:'10%', x2:'90%', y2:'90%' },
+          React.createElement('stop', { offset:'0%', stopColor:`${strokeA}88` }),
+          React.createElement('stop', { offset:'48%', stopColor:`${strokeB}66` }),
+          React.createElement('stop', { offset:'100%', stopColor:`${strokeC}44` }),
+        ),
+        React.createElement('radialGradient', { id:`pg-rad-${seed}-${uid}`, cx:'35%', cy:'28%', r:'80%' },
+          React.createElement('stop', { offset:'0%', stopColor:'rgba(255,255,255,0.56)' }),
+          React.createElement('stop', { offset:'34%', stopColor:(theme?.colors?.glass || DL.glass), stopOpacity:0.82 }),
+          React.createElement('stop', { offset:'100%', stopColor:'rgba(255,255,255,0.04)' }),
+        ),
+      ),
+      React.createElement('rect', { x:8, y:8, width:56, height:56, rx:18, fill:`url(#pg-bg-${seed}-${uid})`, opacity:0.92 }),
+      React.createElement('rect', { x:10, y:10, width:52, height:52, rx:16, fill:`url(#pg-rad-${seed}-${uid})`, opacity:0.75 }),
+      motifs[kind],
+    )
+  );
+}
+
 function B1Button({ label, icon, onClick, variant = 'primary', full, style, className }) {
   const [p, setP] = React.useState(false);
   const isPrimary = variant === 'primary';
@@ -3786,7 +3947,7 @@ function B1Button({ label, icon, onClick, variant = 'primary', full, style, clas
   }, icon, label);
 }
 
-function CortexAtomPageButton({ page, title, sub, onClick, active = false, className, compact = false, style }) {
+function CortexAtomPageButton({ page, title, sub, onClick, active = false, className, compact = false, style, theme }) {
   return React.createElement('button', {
     type:'button',
     onClick,
@@ -3810,11 +3971,7 @@ function CortexAtomPageButton({ page, title, sub, onClick, active = false, class
       ...style,
     }
   },
-    React.createElement('span', { className:'cortex-atom-button-orbit cortex-atom-button-orbit-a' }),
-    React.createElement('span', { className:'cortex-atom-button-orbit cortex-atom-button-orbit-b' }),
-    React.createElement('span', { className:'cortex-atom-button-core' },
-      React.createElement('span', { className:'cortex-atom-button-core-dot' })
-    ),
+    React.createElement(CortexPageGlyph, { page, theme, variant: page != null ? page : 0, compact }),
     React.createElement('span', { className:'cortex-atom-button-copy' },
       React.createElement('span', { className:'cortex-atom-button-kicker' }, page != null ? `Page ${page}` : 'Surface hub'),
       React.createElement('span', { className:'cortex-atom-button-title' }, title),
@@ -7322,6 +7479,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
               page:surface.id,
               title:surface.label,
               sub:surface.summary,
+              theme:currentTheme,
               active,
               onClick:()=>{
                 onSurfaceChange && onSurfaceChange(surface.id);
@@ -7351,6 +7509,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
               page:activeSurface.id,
               title:'Open page',
               sub:'Render full surface',
+              theme:currentTheme,
               compact:true,
               active:true,
               onClick:()=>{
@@ -7410,6 +7569,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
           page:null,
           title:'Pages',
           sub:'Surface hub',
+          theme:currentTheme,
           compact:true,
           active:fabOpen,
           style:{
@@ -7459,6 +7619,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
             page:item.id,
             title:item.label,
             sub:item.summary,
+            theme:currentTheme,
             onClick:()=>{
               onSurfaceChange && onSurfaceChange(item.id);
               onNavigate(item.id);
