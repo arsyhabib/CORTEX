@@ -5002,10 +5002,10 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
 
 function CortexTextZoomControl({ value, onChange, mode }) {
   const zoomValue = mode === 'mobile'
-    ? 1.08
+    ? 1.12
     : mode === 'tablet'
-      ? 1.12
-      : 1.14;
+      ? 1.15
+      : 1.18;
   const isZoom = value > 1.001;
   const setNormal = () => onChange(1);
   const setZoom = () => onChange(zoomValue);
@@ -9531,11 +9531,13 @@ function CortexLibraryShell() {
       display:'flex',
       flexDirection:'column',
       overflow:'hidden',
-      transform:'none',
+      transform: mode === 'desktop' ? 'none' : `scale(${textZoom})`,
       transformOrigin:'top left',
       zoom: mode === 'desktop' ? textZoom : undefined,
-      width:'100%',
-      height:'100%',
+      width: mode === 'desktop' ? '100%' : `calc(100% / ${textZoom})`,
+      height: mode === 'desktop' ? '100%' : `calc(100% / ${textZoom})`,
+      minWidth: mode === 'desktop' ? 0 : `calc(100% / ${textZoom})`,
+      minHeight: mode === 'desktop' ? 0 : `calc(100% / ${textZoom})`,
     }},
       React.createElement('main', { style:{
         position:'relative', zIndex:1, flex:1, minWidth:0, minHeight:0,
