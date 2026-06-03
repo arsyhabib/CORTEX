@@ -1525,9 +1525,26 @@
     overscroll-behavior-x: contain;
   }
   .cortex-sidebar-fab {
-    width: 68px;
-    height: 68px;
-    bottom: calc(86px + env(safe-area-inset-bottom));
+    width: 56px;
+    height: 56px;
+    bottom: calc(70px + env(safe-area-inset-bottom));
+    border-radius: 18px;
+  }
+  .cortex-sidebar-fab-core { inset: 9px; border-radius: 14px; }
+  .cortex-sidebar-fab-badge {
+    right: -3px;
+    top: -3px;
+    min-width: 18px;
+    height: 18px;
+    padding: 0 5px;
+    font-size: 8px;
+  }
+  .cortex-sidebar-fab-label {
+    left: 6px;
+    right: 6px;
+    bottom: 5px;
+    font-size: 8px;
+    letter-spacing: 0.1px;
   }
   .cortex-library-topbar {
     min-height: 56px;
@@ -1609,6 +1626,16 @@
 }
 
 @media (max-width: 430px) {
+  .cortex-sidebar-fab {
+    width: 52px;
+    height: 52px;
+    bottom: calc(64px + env(safe-area-inset-bottom));
+  }
+  .cortex-sidebar-fab-core { inset: 8px; border-radius: 13px; }
+  .cortex-sidebar-fab-label {
+    bottom: 4px;
+    font-size: 7px;
+  }
   .cortex-text-zoom-control {
     min-width: 142px !important;
     width: auto !important;
