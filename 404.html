@@ -924,7 +924,10 @@
 .cortex-zoom-shell {
   font-size: calc(16px * var(--cortex-text-zoom, 1));
   line-height: 1.2;
-  zoom: var(--cortex-text-zoom, 1);
+  transform: scale(var(--cortex-text-zoom, 1));
+  transform-origin: top left;
+  width: calc(100% / var(--cortex-text-zoom, 1));
+  height: calc(100% / var(--cortex-text-zoom, 1));
 }
 .cortex-page-glyph {
   position: absolute;
@@ -8626,11 +8629,17 @@ function CortexLibraryShell() {
       theme,
       count:CORTEX_MAIN_SURFACES.length,
       style:{
+        position:'fixed',
         left: fabViewportLeft,
+        top:'auto',
+        right:'auto',
+        bottom:'calc(88px + env(safe-area-inset-bottom))',
         display:'block',
         opacity:1,
         visibility:'visible',
         pointerEvents:'auto',
+        zIndex:9999,
+        transform:'translate3d(0,0,0)',
       }
     }),
     React.createElement('div', { className:'cortex-zoom-shell', style:{ flex:1, minWidth:0, minHeight:0, display:'flex', flexDirection:'column', overflow:'hidden' }},
