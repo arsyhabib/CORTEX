@@ -5460,7 +5460,7 @@ function PageHome({ onNavigate }) {
       ),
     }),
     /* Scrollable content */
-    React.createElement('div', { style:{ flex:1, overflowY:'auto', padding:'0 18px calc(24px + env(safe-area-inset-bottom))' }, className:'hide-scrollbar' },
+    React.createElement('div', { style:{ flex:1, overflowY:'auto', padding:'0 18px 20px' }, className:'hide-scrollbar' },
       /* Greeting */
       React.createElement('div', { style:{ marginBottom:18, animation:'slide-down 0.5s ease backwards' }},
         React.createElement('div', { style:{ fontSize:22, fontWeight:700, color:DL.text }}, 'Halo, Dr. Raka'),
@@ -5606,32 +5606,23 @@ function PageLearning({ onNavigate }) {
           React.createElement(B1Badge, { key:t, style:{ cursor:'pointer' }}, t)
         )
       ),
-      /* Navigation footer */
-      React.createElement('div', { style:{
-        position:'sticky',
-        bottom:0,
-        zIndex:6,
-        display:'flex',
-        gap:10,
-        marginTop:18,
-        padding:'12px 0 calc(18px + env(safe-area-inset-bottom))',
-        borderTop:`1px solid ${DL.glassBorder}`,
-        background:'linear-gradient(180deg, rgba(12,12,32,0.18), rgba(12,12,32,0.82) 18%, rgba(12,12,32,0.92))',
-        backdropFilter:'blur(20px) saturate(160%)',
-        WebkitBackdropFilter:'blur(20px) saturate(160%)',
-        boxShadow:`0 -12px 24px rgba(6, 8, 22, 0.22)`,
-      }},
-        React.createElement(B1Button, {
-          label:'← Prev', variant:'ghost',
-          onClick:()=>setSlideIdx(Math.max(0,slideIdx-1)),
-          style:{ flex:1, opacity:slideIdx===0?0.3:1, minHeight:42 },
-        }),
-        React.createElement(B1Button, {
-          label: slideIdx<total-1 ? 'Next →' : 'Selesai ✓',
-          onClick:()=> slideIdx<total-1 ? setSlideIdx(slideIdx+1) : onNavigate(4),
-          style:{ flex:1, minHeight:42 },
-        }),
-      ),
+    ),
+    /* Navigation footer */
+    React.createElement('div', { style:{
+      display:'flex', gap:10, padding:'12px 18px 28px',
+      borderTop:`1px solid ${DL.glassBorder}`,
+      backdropFilter:'blur(20px)', WebkitBackdropFilter:'blur(20px)',
+    }},
+      React.createElement(B1Button, {
+        label:'← Prev', variant:'ghost',
+        onClick:()=>setSlideIdx(Math.max(0,slideIdx-1)),
+        style:{ flex:1, opacity:slideIdx===0?0.3:1 },
+      }),
+      React.createElement(B1Button, {
+        label: slideIdx<total-1 ? 'Next →' : 'Selesai ✓',
+        onClick:()=> slideIdx<total-1 ? setSlideIdx(slideIdx+1) : onNavigate(4),
+        style:{ flex:1 },
+      }),
     ),
   );
 }
