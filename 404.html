@@ -6672,6 +6672,168 @@ function B2ImageCard({ title, subtitle, badge, tint, icon, children, onClick }) 
   );
 }
 
+function cortexClamp(value, min, max) {
+  return Math.max(min, Math.min(max, value));
+}
+
+function cortexReadJSON(key, fallback) {
+  try {
+    const raw = localStorage.getItem(key);
+    return raw ? JSON.parse(raw) : fallback;
+  } catch (err) {
+    return fallback;
+  }
+}
+
+function cortexWriteJSON(key, value) {
+  try {
+    localStorage.setItem(key, JSON.stringify(value));
+  } catch (err) {}
+}
+
+function cortexGetRangeRect(range) {
+  if (!range) return null;
+  const rects = Array.from(range.getClientRects ? range.getClientRects() : []).filter(r => r && (r.width || r.height));
+  if (rects.length) {
+    return rects.reduce((acc, rect) => ({
+      left: Math.min(acc.left, rect.left),
+      top: Math.min(acc.top, rect.top),
+      right: Math.max(acc.right, rect.right),
+      bottom: Math.max(acc.bottom, rect.bottom),
+      width: Math.max(acc.right, rect.right) - Math.min(acc.left, rect.left),
+      height: Math.max(acc.bottom, rect.bottom) - Math.min(acc.top, rect.top),
+    }), {
+      left: rects[0].left,
+      top: rects[0].top,
+      right: rects[0].right,
+      bottom: rects[0].bottom,
+      width: rects[0].width,
+      height: rects[0].height,
+    });
+  }
+  const rect = range.getBoundingClientRect ? range.getBoundingClientRect() : null;
+  if (!rect || (!rect.width && !rect.height)) return null;
+  return rect;
+}
+
+function cortexWrapRangeHighlight(range, accent) {
+  if (!range || range.collapsed) return false;
+  const wrapper = document.createElement('span');
+  wrapper.setAttribute('data-cortex-highlight', '1');
+  wrapper.style.background = `linear-gradient(90deg, ${accent}44, rgba(255,255,255,0.14))`;
+  wrapper.style.borderRadius = '0.45em';
+  wrapper.style.boxShadow = `inset 0 -0.55em 0 ${accent}18`;
+  wrapper.style.webkitBoxDecorationBreak = 'clone';
+  wrapper.style.boxDecorationBreak = 'clone';
+  wrapper.style.color = 'inherit';
+  wrapper.style.padding = '0 0.08em';
+  try {
+    range.surroundContents(wrapper);
+  } catch (err) {
+    const fragment = range.extractContents();
+    wrapper.appendChild(fragment);
+    range.insertNode(wrapper);
+  }
+  return true;
+}
+
+function CortexSelectionToolbar({ selection, theme, onBookmark, onHighlight, onClose }) {
+  if (!selection) return null;
+  const bubbleWidth = 126;
+  const bubbleHeight = 42;
+  const belowTop = selection.rect.bottom + 10;
+  const aboveTop = selection.rect.top - bubbleHeight - 10;
+  const fitBelow = belowTop + bubbleHeight + 12 <= window.innerHeight;
+  const top = fitBelow ? belowTop : Math.max(12, aboveTop);
+  const left = cortexClamp(selection.rect.left + (selection.rect.width / 2) - (bubbleWidth / 2), 12, window.innerWidth - bubbleWidth - 12);
+  const accentA = theme?.colors?.accent1 || DL.accent;
+  const accentB = theme?.colors?.accent2 || DL.teal;
+
+  return ReactDOM.createPortal(
+    React.createElement('div', {
+      style:{
+        position:'fixed',
+        inset:0,
+        zIndex:2147483647,
+        pointerEvents:'none',
+      },
+    },
+      React.createElement('div', {
+        'data-cortex-selection-toolbar':'true',
+        style:{
+          position:'fixed',
+          left,
+          top,
+          width:bubbleWidth,
+          minHeight:bubbleHeight,
+          borderRadius:18,
+          padding:4,
+          display:'flex',
+          alignItems:'center',
+          justifyContent:'space-between',
+          gap:4,
+          pointerEvents:'auto',
+          background:'linear-gradient(145deg, rgba(12,12,32,0.92), rgba(26,26,48,0.84))',
+          border:`1px solid ${theme?.colors?.glassBorder || DL.glassBorder}`,
+          boxShadow:`0 18px 42px ${theme?.colors?.shadowColor || DL.shadowColor}, inset 0 1px 0 rgba(255,255,255,0.14)`,
+          backdropFilter:'blur(18px) saturate(165%)',
+          WebkitBackdropFilter:'blur(18px) saturate(165%)',
+          animation:'scale-bounce 0.3s cubic-bezier(0.16,1.2,0.3,1) backwards',
+        },
+        onPointerDown:e=>e.stopPropagation(),
+        onClick:e=>e.stopPropagation(),
+      },
+        React.createElement('button', {
+          type:'button',
+          title:'Bookmark',
+          onClick: onBookmark,
+          style:{
+            width:34,
+            height:34,
+            flex:'0 0 auto',
+            borderRadius:12,
+            border:`1px solid ${accentB}55`,
+            background:`linear-gradient(145deg, ${accentB}2a, rgba(255,255,255,0.06))`,
+            color:accentB,
+            cursor:'pointer',
+            display:'flex',
+            alignItems:'center',
+            justifyContent:'center',
+            fontSize:16,
+            boxShadow:`0 0 0 1px rgba(255,255,255,0.06) inset, 0 8px 18px ${DL.shadowColor}`,
+          }
+        }, '🔖'),
+        React.createElement('div', { style:{
+          width:1,
+          alignSelf:'stretch',
+          background:'rgba(255,255,255,0.08)',
+        }}),
+        React.createElement('button', {
+          type:'button',
+          title:'Highlight',
+          onClick: onHighlight,
+          style:{
+            width:34,
+            height:34,
+            flex:'0 0 auto',
+            borderRadius:12,
+            border:`1px solid ${accentA}55`,
+            background:`linear-gradient(145deg, ${accentA}2a, rgba(255,255,255,0.06))`,
+            color:accentA,
+            cursor:'pointer',
+            display:'flex',
+            alignItems:'center',
+            justifyContent:'center',
+            fontSize:16,
+            boxShadow:`0 0 0 1px rgba(255,255,255,0.06) inset, 0 8px 18px ${DL.shadowColor}`,
+          }
+        }, '✨'),
+      )
+    ),
+    document.body
+  );
+}
+
 function B2Segmented({ value, options, onChange }) {
   return React.createElement('div', {
     style:{
@@ -9314,6 +9476,8 @@ function CortexLibraryShell() {
   const [sidebarFabPos, setSidebarFabPos] = React.useState(null);
   const [navTrail, setNavTrail] = React.useState([]);
   const [fabPortalTarget, setFabPortalTarget] = React.useState(null);
+  const [textSelection, setTextSelection] = React.useState(null);
+  const selectionRangeRef = React.useRef(null);
   const sidebarFabDragRef = React.useRef({ active:false, moved:false, sx:0, sy:0, ox:0, oy:0 });
   React.useEffect(() => {
     if (typeof document === 'undefined') return undefined;
@@ -9510,6 +9674,151 @@ function CortexLibraryShell() {
       document.documentElement.style.setProperty('--cortex-text-zoom', String(textZoom));
     }
   }, [textZoom]);
+
+  const clearTextSelection = React.useCallback(() => {
+    selectionRangeRef.current = null;
+    setTextSelection(null);
+    try {
+      const sel = window.getSelection && window.getSelection();
+      if (sel && sel.removeAllRanges) sel.removeAllRanges();
+    } catch (err) {}
+  }, []);
+
+  const syncTextSelection = React.useCallback(() => {
+    if (typeof window === 'undefined' || typeof document === 'undefined') return;
+    const sel = window.getSelection ? window.getSelection() : null;
+    if (!sel || sel.isCollapsed || !String(sel.toString() || '').trim()) {
+      if (selectionRangeRef.current) clearTextSelection();
+      return;
+    }
+    const active = document.activeElement;
+    if (active && ['INPUT', 'TEXTAREA', 'SELECT'].includes(active.tagName)) {
+      if (selectionRangeRef.current) clearTextSelection();
+      return;
+    }
+    if (active && active.isContentEditable) {
+      if (selectionRangeRef.current) clearTextSelection();
+      return;
+    }
+    const range = sel.rangeCount ? sel.getRangeAt(0).cloneRange() : null;
+    const rect = cortexGetRangeRect(range);
+    if (!range || !rect || (!rect.width && !rect.height)) {
+      if (selectionRangeRef.current) clearTextSelection();
+      return;
+    }
+    const text = String(sel.toString() || '').trim().replace(/\s+/g, ' ');
+    if (text.length < 2) {
+      if (selectionRangeRef.current) clearTextSelection();
+      return;
+    }
+    selectionRangeRef.current = range;
+    const fitBelow = rect.bottom + 64 < window.innerHeight;
+    const bubbleWidth = 126;
+    const bubbleHeight = 42;
+    const top = fitBelow ? rect.bottom + 10 : Math.max(12, rect.top - bubbleHeight - 10);
+    const left = cortexClamp(rect.left + (rect.width / 2) - (bubbleWidth / 2), 12, window.innerWidth - bubbleWidth - 12);
+    setTextSelection({
+      text,
+      rect,
+      left,
+      top,
+      page,
+      pageLabel: current.label,
+      surfaceId,
+    });
+  }, [clearTextSelection, current.label, page, surfaceId]);
+
+  React.useEffect(() => {
+    if (selectionRangeRef.current) syncTextSelection();
+  }, [textZoom, syncTextSelection]);
+
+  React.useEffect(() => {
+    if (selectionRangeRef.current) clearTextSelection();
+  }, [page, surfaceId, clearTextSelection]);
+
+  React.useEffect(() => {
+    if (typeof window === 'undefined') return undefined;
+    let raf = 0;
+    const schedule = () => {
+      if (raf) window.cancelAnimationFrame(raf);
+      raf = window.requestAnimationFrame(syncTextSelection);
+    };
+    const clearIfEscape = (event) => {
+      if (event.key === 'Escape') clearTextSelection();
+    };
+    document.addEventListener('selectionchange', schedule);
+    window.addEventListener('pointerup', schedule);
+    window.addEventListener('touchend', schedule, { passive:true });
+    window.addEventListener('scroll', schedule, true);
+    window.addEventListener('resize', schedule);
+    window.addEventListener('keydown', clearIfEscape);
+    const dismissOnPointerDown = (event) => {
+      if (!selectionRangeRef.current) return;
+      const target = event.target && event.target.closest
+        ? event.target.closest('[data-cortex-selection-toolbar]')
+        : null;
+      if (!target) clearTextSelection();
+    };
+    document.addEventListener('pointerdown', dismissOnPointerDown, true);
+    return () => {
+      if (raf) window.cancelAnimationFrame(raf);
+      document.removeEventListener('selectionchange', schedule);
+      window.removeEventListener('pointerup', schedule);
+      window.removeEventListener('touchend', schedule);
+      window.removeEventListener('scroll', schedule, true);
+      window.removeEventListener('resize', schedule);
+      window.removeEventListener('keydown', clearIfEscape);
+      document.removeEventListener('pointerdown', dismissOnPointerDown, true);
+    };
+  }, [clearTextSelection, syncTextSelection]);
+
+  const persistHighlight = React.useCallback((range, selectionText) => {
+    if (!range || !selectionText) return;
+    const existing = cortexReadJSON('cortex.textHighlights', []);
+    const next = existing.concat({
+      id: (typeof crypto !== 'undefined' && crypto.randomUUID) ? crypto.randomUUID() : `hl_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`,
+      text: selectionText,
+      page,
+      pageLabel: current.label,
+      surfaceId,
+      createdAt: Date.now(),
+    }).slice(-80);
+    cortexWriteJSON('cortex.textHighlights', next);
+  }, [current.label, page, surfaceId]);
+
+  const persistBookmark = React.useCallback((selectionText) => {
+    if (!selectionText) return;
+    const existing = cortexReadJSON('cortex.textBookmarks', []);
+    const next = existing.concat({
+      id: (typeof crypto !== 'undefined' && crypto.randomUUID) ? crypto.randomUUID() : `bm_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`,
+      text: selectionText,
+      page,
+      pageLabel: current.label,
+      surfaceId,
+      createdAt: Date.now(),
+    }).slice(-120);
+    cortexWriteJSON('cortex.textBookmarks', next);
+  }, [current.label, page, surfaceId]);
+
+  const handleBookmarkSelection = React.useCallback(() => {
+    const selection = selectionRangeRef.current;
+    const text = textSelection && textSelection.text;
+    if (!selection || !text) return;
+    persistBookmark(text);
+    clearTextSelection();
+  }, [clearTextSelection, persistBookmark, textSelection]);
+
+  const handleHighlightSelection = React.useCallback(() => {
+    const selection = selectionRangeRef.current;
+    const text = textSelection && textSelection.text;
+    if (!selection || !text) return;
+    const range = selection.cloneRange ? selection.cloneRange() : selection;
+    const highlightColor = currentTheme.colors.accent1 || DL.accent;
+    if (cortexWrapRangeHighlight(range, highlightColor)) {
+      persistHighlight(range, text);
+    }
+    clearTextSelection();
+  }, [clearTextSelection, currentTheme.colors.accent1, persistHighlight, textSelection]);
 
   React.useEffect(() => {
     const pulse = (el) => {
@@ -9732,6 +10041,13 @@ function CortexLibraryShell() {
             cursor:mobileFabDocked ? 'pointer' : 'grab',
           }
         }),
+    React.createElement(CortexSelectionToolbar, {
+      selection:textSelection,
+      theme,
+      onBookmark:handleBookmarkSelection,
+      onHighlight:handleHighlightSelection,
+      onClose:clearTextSelection,
+    }),
     React.createElement('div', { className:'cortex-zoom-shell', style:{
       flex:1,
       minWidth:0,
