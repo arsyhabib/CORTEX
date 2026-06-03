@@ -932,15 +932,14 @@
   box-shadow: 0 14px 28px rgba(168,85,247,0.14), inset 0 1px 0 rgba(255,255,255,0.08);
 }
 .cortex-fab-accordion-panel-wrap {
-  display: grid;
-  grid-template-rows: 0fr;
-  transition: grid-template-rows 520ms cubic-bezier(0.16, 1, 0.3, 1), opacity 220ms ease, transform 520ms cubic-bezier(0.16, 1, 0.3, 1);
+  max-height: 0;
+  transition: max-height 520ms cubic-bezier(0.16, 1, 0.3, 1), opacity 220ms ease, transform 520ms cubic-bezier(0.16, 1, 0.3, 1);
   opacity: 0;
   transform: translateY(-4px);
-  will-change: grid-template-rows, opacity, transform;
+  will-change: max-height, opacity, transform;
 }
 .cortex-fab-accordion-panel-wrap[data-open="true"] {
-  grid-template-rows: 1fr;
+  max-height: 520px;
   opacity: 1;
   transform: translateY(0);
 }
@@ -4634,6 +4633,7 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
     React.createElement('div', { style:{ flex:'1 1 auto', minHeight:0, overflowY:'auto', overflowX:'hidden', display:'grid', gap:8, alignContent:'start', paddingRight:2 } },
       surfaceGroups.map(group => {
         const expanded = fabAccordionGroup === group.group;
+        const nextPanelHeight = Math.min(520, 32 + (group.items.length * 78));
         return React.createElement('div', {
           key:group.group,
           className:'cortex-fab-accordion',
@@ -4680,6 +4680,7 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
             'data-open':String(expanded),
             style:{
               overflow:'hidden',
+              maxHeight: expanded ? `${nextPanelHeight}px` : '0px',
             }
           },
             React.createElement('div', { className:'cortex-fab-accordion-panel', style:{ padding:'0 8px 8px' } },
@@ -8826,6 +8827,7 @@ function CortexLibraryShell() {
   const isWelcomePage = page === 1;
   const theme = React.useMemo(() => cortexApplyThemeGlobals(themeId), [themeId]);
   const fabViewportLeft = sidebarDocked && !sidebarPinnedHidden ? 320 : 14;
+  const sidebarFabVisible = sidebarDocked ? !sidebarPinnedHidden : sidebarOpen;
   const sidebarFabDefaultPos = React.useMemo(() => ({
     x: fabViewportLeft,
     y: Math.max(14, window.innerHeight - 116),
@@ -8894,6 +8896,7 @@ function CortexLibraryShell() {
   const toggleSidebar = React.useCallback(() => {
     if (sidebarDocked) {
       setSidebarPinnedHidden(v => !v);
+      setSidebarOpen(false);
       return;
     }
     setSidebarOpen(v => !v);
@@ -9152,13 +9155,13 @@ function CortexLibraryShell() {
     fabPortalTarget
       ? ReactDOM.createPortal(
         React.createElement(CortexSidebarFab, {
-          open:sidebarOpen,
+          open:sidebarDocked ? sidebarFabVisible : sidebarOpen,
           onClick:()=> {
             if (sidebarFabDragRef.current.moved) {
               sidebarFabDragRef.current.moved = false;
               return;
             }
-            setSidebarOpen(v => !v);
+            toggleSidebar();
           },
           onPointerDown:onSidebarFabPointerDown,
           theme,
@@ -9181,13 +9184,13 @@ function CortexLibraryShell() {
         fabPortalTarget
       )
       : React.createElement(CortexSidebarFab, {
-          open:sidebarOpen,
+          open:sidebarDocked ? sidebarFabVisible : sidebarOpen,
           onClick:()=> {
             if (sidebarFabDragRef.current.moved) {
               sidebarFabDragRef.current.moved = false;
               return;
             }
-            setSidebarOpen(v => !v);
+            toggleSidebar();
           },
           onPointerDown:onSidebarFabPointerDown,
           theme,
