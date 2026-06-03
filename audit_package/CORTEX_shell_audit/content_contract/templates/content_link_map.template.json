@@ -1,0 +1,19 @@
+{
+  "links": [
+    {
+      "from_id": "lecture_id",
+      "to_id": "exam_set_id",
+      "link_type": "material_to_question",
+      "strength": "strong",
+      "notes": "The question set is derived from the same topic family as this lecture."
+    },
+    {
+      "from_id": "exam_set_id_q01",
+      "to_id": "term_id",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Recurring terminology in the stem should be defined in the glossary."
+    }
+  ]
+}
+

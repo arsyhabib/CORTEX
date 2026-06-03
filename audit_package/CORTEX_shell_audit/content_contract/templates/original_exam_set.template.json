@@ -1,0 +1,36 @@
+{
+  "id": "exam_set_id",
+  "title": "Original Exam Set Title",
+  "block": "5e",
+  "year": 2021,
+  "year_label": "2021/2022",
+  "source_label": "Original question recall set",
+  "page_route": "pages/exam_sets/exam_set_id.html",
+  "question_count": 0,
+  "reconstruction_level": "reconstructed",
+  "questions": [
+    {
+      "id": "exam_set_id_q01",
+      "number": 1,
+      "stem": "Question stem reconstructed from recall.",
+      "stem_original": "Original remembered stem if available.",
+      "options": [
+        "Option A",
+        "Option B",
+        "Option C",
+        "Option D"
+      ],
+      "answer_index": 0,
+      "answer_text": "Option A",
+      "explanation": "Short explanation.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": ["lecture_id"]
+    }
+  ]
+}
+

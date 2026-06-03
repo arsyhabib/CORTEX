@@ -1,0 +1,23 @@
+{
+  "pages": [
+    {
+      "page_id": 3,
+      "page_type": "lecture_index",
+      "source": "course_manifest.json",
+      "renderer": "learning_index_renderer"
+    },
+    {
+      "page_id": 4,
+      "page_type": "lecture_detail",
+      "source": "lecture_material/*.json",
+      "renderer": "section_detail_renderer"
+    },
+    {
+      "page_id": 24,
+      "page_type": "original_exam_set_index",
+      "source": "original_exam_set/*.json",
+      "renderer": "exam_set_index_renderer"
+    }
+  ]
+}
+

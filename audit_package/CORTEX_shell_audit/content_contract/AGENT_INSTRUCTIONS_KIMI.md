@@ -8,6 +8,7 @@ You are filling content for the CORTEX education shell.
 - Files in `working/`
 - QC report files
 - content manifests
+- schema files when validating the contract structure
 
 ## What you must not edit
 
@@ -22,6 +23,7 @@ You are filling content for the CORTEX education shell.
 - Prefer short, readable sections with clear IDs.
 - Reference visuals through manifest IDs.
 - Keep quiz, glossary, flashcards, and 3D refs separate from prose.
+- Keep lecture material and original exam sets in separate manifests.
 - Do not insert API keys.
 - Do not inline large assets.
 
@@ -31,4 +33,5 @@ You are filling content for the CORTEX education shell.
 - Keep summary fields short.
 - Ensure page mappings are valid.
 - Write content that can be rendered lazily and independently.
-
+- Include provenance fields for exam sets when the source is reconstructed from memory or partial notes.
+- Use confidence or status fields when a question answer is inferred instead of directly read from source.
