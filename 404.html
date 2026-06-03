@@ -581,6 +581,19 @@
   68% { transform: translateY(0) scale(0.985, 1.01); }
   100% { transform: translateY(0) scale(1); }
 }
+.cortex-fab-menu-shell {
+  transform-origin: bottom right;
+}
+.cortex-fab-menu-shell[data-open="true"] {
+  animation: cortex-fab-menu-open-jelly 820ms cubic-bezier(0.16, 1.08, 0.28, 1);
+}
+@keyframes cortex-fab-menu-open-jelly {
+  0% { opacity: 0; transform: translateY(10px) scale(0.92); filter: blur(2px); }
+  28% { opacity: 1; transform: translateY(-2px) scale(1.03); filter: blur(0); }
+  54% { transform: translateY(1px) scale(0.985); }
+  74% { transform: translateY(-1px) scale(1.01); }
+  100% { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
+}
 .cortex-button-tap {
   animation: cortex-button-tap-bloom 520ms cubic-bezier(0.16,1,0.3,1);
 }
@@ -4582,15 +4595,25 @@ function CortexFabHubPanel({ title, accent, onBack, children }) {
       display:'flex',
       flexDirection:'column',
       gap:8,
-      overflow:'hidden',
+      overflowY:'auto',
+      overflowX:'hidden',
+      WebkitOverflowScrolling:'touch',
+      touchAction:'pan-y',
+      scrollbarGutter:'stable',
     }
   },
     React.createElement('div', { style:{
+      position:'sticky',
+      top:0,
+      zIndex:2,
       display:'flex',
       alignItems:'center',
       justifyContent:'space-between',
       gap:8,
-      padding:'0 4px 2px',
+      padding:'0 4px 8px',
+      background:'linear-gradient(180deg, rgba(14,16,40,0.98), rgba(14,16,40,0.88))',
+      backdropFilter:'blur(12px) saturate(150%)',
+      WebkitBackdropFilter:'blur(12px) saturate(150%)',
     }},
       React.createElement('div', null,
         React.createElement('div', { style:{
@@ -4627,19 +4650,11 @@ function CortexFabHubPanel({ title, accent, onBack, children }) {
       }, 'Back')
     ),
     React.createElement('div', {
-      className:'cortex-fab-hub-scroll',
       style:{
-        flex:'1 1 auto',
-        minHeight:0,
-        overflowY:'auto',
-        overflowX:'hidden',
-        overscrollBehavior:'contain',
-        touchAction:'pan-y',
-        WebkitOverflowScrolling:'touch',
-        paddingRight:4,
-        paddingBottom:8,
         display:'grid',
         gap:8,
+        paddingRight:4,
+        paddingBottom:8,
       }
     }, children)
   );
@@ -4853,7 +4868,7 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
     display:'flex',
     flexDirection:'column',
     minHeight:0,
-  }},
+  }, className:'cortex-fab-menu-shell', 'data-open':String(!!fabOpen)},
     React.createElement('div', { style:{
       flex:'0 0 auto',
       zIndex:4,
@@ -5032,7 +5047,7 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
 
 function CortexTextZoomControl({ value, onChange, mode }) {
   const zoomValue = mode === 'mobile'
-    ? 1.12
+    ? 1.16
     : mode === 'tablet'
       ? 1.15
       : 1.18;
@@ -8883,7 +8898,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
           display:'flex',
           flexDirection:'column',
           minHeight:0,
-        }},
+        }, className:'cortex-fab-menu-shell', 'data-open':String(!!fabOpen)},
           React.createElement('div', { style:fabBodyStyle },
             !fabActiveHub && React.createElement('div', { className:'cortex-fab-grid' },
               hubGroups.map(group => React.createElement(CortexFabGridChip, {
