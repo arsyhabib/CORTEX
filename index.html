@@ -1668,12 +1668,34 @@
   :root {
     --cortex-mobile-fab-clearance: calc(176px + env(safe-area-inset-bottom));
   }
+  html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: clip;
+  }
   .cortex-library-root {
     height: 100svh !important;
     min-height: 100svh !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: clip !important;
   }
   .cortex-library-nav {
     overscroll-behavior-x: contain;
+  }
+  .cortex-zoom-shell,
+  .cortex-library-root main,
+  .cortex-library-root section,
+  .cortex-library-root article,
+  .cortex-library-root aside,
+  .cortex-library-root [data-screen-label],
+  .cortex-library-root [data-screen-label] > *,
+  .cortex-library-root .b1-card,
+  .cortex-library-root .b2-card,
+  .cortex-library-root .b3-card,
+  .cortex-library-root .cortex-motion-card {
+    min-width: 0 !important;
+    max-width: 100% !important;
   }
   .cortex-sidebar-fab {
     width: 56px;
@@ -1715,6 +1737,7 @@
   .cortex-page-shell {
     min-width: 0 !important;
     min-height: 0 !important;
+    max-width: 100% !important;
   }
   .cortex-page-scroll,
   .cortex-motion-page,
@@ -1723,12 +1746,17 @@
     padding-right: max(16px, env(safe-area-inset-right)) !important;
     padding-bottom: var(--cortex-mobile-fab-clearance) !important;
     scroll-padding-bottom: var(--cortex-mobile-fab-clearance);
+    overflow-x: clip !important;
   }
   .cortex-responsive-grid,
   [data-screen-label] [style*="grid-template-columns: 1fr 1fr"],
   [data-screen-label] [style*="grid-template-columns: repeat(3"],
   [data-screen-label] [style*="gridTemplateColumns"] {
     grid-template-columns: 1fr !important;
+  }
+  .cortex-library-root [style*="grid-template-columns"],
+  .cortex-library-root [style*="gridTemplateColumns"] {
+    max-width: 100% !important;
   }
   .cortex-motion-card,
   .b1-card,
@@ -1749,6 +1777,12 @@
   .cortex-quickref-sheet {
     max-height: calc(100% - 18px) !important;
     -webkit-overflow-scrolling: touch;
+  }
+  .cortex-library-root img,
+  .cortex-library-root svg,
+  .cortex-library-root canvas {
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -9404,11 +9438,11 @@ function CortexLibraryShell() {
       display:'flex',
       flexDirection:'column',
       overflow:'hidden',
-      transform: mode === 'desktop' ? 'none' : (textZoom > 1 ? `scale(${textZoom})` : 'none'),
+      transform:'none',
       transformOrigin:'top left',
       zoom: mode === 'desktop' ? textZoom : undefined,
-      width: mode === 'desktop' ? '100%' : textZoom > 1 ? `calc(100% / ${textZoom})` : '100%',
-      height: mode === 'desktop' ? '100%' : textZoom > 1 ? `calc(100% / ${textZoom})` : '100%',
+      width:'100%',
+      height:'100%',
     }},
       React.createElement('main', { style:{
         position:'relative', zIndex:1, flex:1, minWidth:0, minHeight:0,
