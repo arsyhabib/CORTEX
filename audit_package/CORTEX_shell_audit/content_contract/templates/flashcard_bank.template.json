@@ -1,0 +1,13 @@
+{
+  "flashcards": [
+    {
+      "id": "flashcard_id",
+      "domain": "domain_id",
+      "front": "Front prompt",
+      "back": "Back answer",
+      "tags": ["tag1", "tag2"],
+      "linked_content_ids": ["module_id_s01"]
+    }
+  ]
+}
+

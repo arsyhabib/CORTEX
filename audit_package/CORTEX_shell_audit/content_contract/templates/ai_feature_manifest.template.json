@@ -1,0 +1,19 @@
+{
+  "features": [
+    {
+      "id": "ask_this_slide",
+      "page": 20,
+      "enabled_by_default": false,
+      "requires_api_key": true,
+      "prompt_template_id": "ask_slide_default"
+    },
+    {
+      "id": "explain_simpler",
+      "page": 20,
+      "enabled_by_default": false,
+      "requires_api_key": true,
+      "prompt_template_id": "explain_simpler_default"
+    }
+  ]
+}
+

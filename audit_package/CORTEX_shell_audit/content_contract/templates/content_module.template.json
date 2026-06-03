@@ -1,0 +1,46 @@
+{
+  "id": "module_id",
+  "domain": "domain_id",
+  "title": "Module Title",
+  "subtitle": "Clinical subtitle",
+  "summary": [
+    "Key point 1",
+    "Key point 2",
+    "Key point 3"
+  ],
+  "sections": [
+    {
+      "id": "module_id_s01",
+      "title": "Section title",
+      "type": "reading",
+      "body": [
+        {
+          "type": "paragraph",
+          "text": "Paragraph text."
+        },
+        {
+          "type": "bullets",
+          "items": [
+            {
+              "text": "Main bullet",
+              "children": [
+                "Sub bullet"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "variant": "clinical_pearl",
+          "title": "Clinical pearl",
+          "text": "Short clinical note."
+        }
+      ],
+      "visual_refs": ["visual_id"],
+      "model_refs": ["model_id"],
+      "glossary_refs": ["term_id"],
+      "quiz_refs": ["quiz_id"]
+    }
+  ]
+}
+

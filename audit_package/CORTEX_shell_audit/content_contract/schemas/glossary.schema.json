@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CORTEX Glossary",
+  "type": "object",
+  "required": ["terms"],
+  "properties": {
+    "terms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "term", "domain", "definition"],
+        "properties": {
+          "id": { "type": "string" },
+          "term": { "type": "string" },
+          "domain": { "type": "string" },
+          "definition": { "type": "string" }
+        }
+      }
+    }
+  }
+}
+

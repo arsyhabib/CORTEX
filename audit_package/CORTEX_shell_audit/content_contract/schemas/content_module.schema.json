@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CORTEX Content Module",
+  "type": "object",
+  "required": ["id", "domain", "title", "sections"],
+  "properties": {
+    "id": { "type": "string" },
+    "domain": { "type": "string" },
+    "title": { "type": "string" },
+    "subtitle": { "type": "string" },
+    "summary": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "type", "body"],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "type": { "type": "string" },
+          "body": { "type": "array" }
+        }
+      }
+    }
+  }
+}
+

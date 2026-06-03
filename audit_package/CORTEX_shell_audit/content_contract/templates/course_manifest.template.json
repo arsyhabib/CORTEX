@@ -1,0 +1,23 @@
+{
+  "app": "CORTEX Education",
+  "version": "0.1",
+  "generated_at": "",
+  "domains": [
+    {
+      "id": "domain_id",
+      "title": "Domain Title",
+      "order": 1,
+      "summary": "Short domain description.",
+      "modules": [
+        {
+          "id": "module_id",
+          "title": "Module Title",
+          "source_file": "content/domain_id/module_id.json",
+          "page_targets": [3, 4],
+          "status": "draft"
+        }
+      ]
+    }
+  ]
+}
+
