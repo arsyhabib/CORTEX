@@ -4675,12 +4675,12 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
             React.createElement('span', null, group.group),
             React.createElement('span', { style:{ color:expanded ? currentTheme.colors.accent1 : DL.mute, fontSize:11 }}, expanded ? '−' : '+')
           ),
-          React.createElement('div', {
+          expanded && React.createElement('div', {
             className:'cortex-fab-accordion-panel-wrap',
-            'data-open':String(expanded),
+            'data-open':'true',
             style:{
               overflow:'hidden',
-              maxHeight: expanded ? `${nextPanelHeight}px` : '0px',
+              maxHeight: `${nextPanelHeight}px`,
             }
           },
             React.createElement('div', { className:'cortex-fab-accordion-panel', style:{ padding:'0 8px 8px' } },
@@ -8531,6 +8531,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
           React.createElement('div', { style:{ display:'grid', gap:8, minHeight:'100%', alignContent:'start' } },
             surfaceGroups.map(group => {
               const expanded = fabAccordionGroup === group.group;
+              const nextPanelHeight = Math.min(520, 32 + (group.items.length * 78));
               return React.createElement('div', {
                 key:group.group,
                 className:'cortex-fab-accordion',
@@ -8572,11 +8573,12 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
                   React.createElement('span', null, group.group),
                   React.createElement('span', { style:{ color:expanded ? currentTheme.colors.accent1 : DL.mute, fontSize:11 }}, expanded ? '−' : '+')
                 ),
-                React.createElement('div', {
+                expanded && React.createElement('div', {
                   className:'cortex-fab-accordion-panel-wrap',
-                  'data-open':String(expanded),
+                  'data-open':'true',
                   style:{
                     overflow:'hidden',
+                    maxHeight: `${nextPanelHeight}px`,
                   }
                 },
                   React.createElement('div', { className:'cortex-fab-accordion-panel', style:{ padding:'0 8px 8px' } },
