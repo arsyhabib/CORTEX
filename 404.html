@@ -4666,12 +4666,12 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
   const fabMenuSide = React.useMemo(() => {
     const pos = fabPos || getFabBasePosition();
     const width = compact ? 252 : 304;
-    const height = compact ? 360 : 390;
+    const height = fabActiveHub ? (compact ? 428 : 468) : (compact ? 360 : 390);
     return {
       anchorRight: pos.x + width + 24 > window.innerWidth,
       anchorBottom: pos.y + height + 92 > window.innerHeight,
     };
-  }, [fabPos, getFabBasePosition, compact]);
+  }, [fabActiveHub, fabPos, getFabBasePosition, compact]);
   const fabMenuPos = fabMenuSide.anchorRight ? { right:0, left:'auto' } : { left:0, right:'auto' };
   const fabMenuVert = fabMenuSide.anchorBottom ? { bottom:66, top:'auto' } : { top:66, bottom:'auto' };
 
@@ -4767,8 +4767,8 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
     ...fabMenuPos,
     ...fabMenuVert,
     width: compact ? 252 : 304,
-    height: compact ? 360 : 390,
-    maxHeight: compact ? 360 : 390,
+    height: fabActiveHub ? (compact ? 428 : 468) : (compact ? 360 : 390),
+    maxHeight: fabActiveHub ? 'min(78svh, 520px)' : (compact ? 'min(68svh, 360px)' : 'min(72svh, 390px)'),
     padding:12,
     borderRadius:20,
     background:'rgba(12,12,32,0.90)',
@@ -4776,7 +4776,8 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
     backdropFilter:'blur(18px) saturate(150%)',
     WebkitBackdropFilter:'blur(18px) saturate(150%)',
     boxShadow:`0 26px 56px ${currentTheme.colors.shadowColor}`,
-    overflow:'hidden',
+    overflowY:'auto',
+    overflowX:'hidden',
     overscrollBehavior:'contain',
     pointerEvents:'auto',
     display:'flex',
@@ -4882,8 +4883,8 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
         className:'cortex-fab-accordion-panel-wrap',
         'data-open':'true',
         style:{
-          overflow:'hidden',
-          maxHeight:'520px',
+          overflow:'visible',
+          maxHeight:'none',
           marginTop:2,
         }
       },
@@ -8461,11 +8462,11 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
   const fabMenuSide = React.useMemo(() => {
     const pos = fabPos || getFabBasePosition();
     const width = compact ? 252 : 304;
-    const height = compact ? 360 : 390;
+    const height = fabActiveHub ? (compact ? 428 : 468) : (compact ? 360 : 390);
     const anchorRight = pos.x + width + 24 > window.innerWidth;
     const anchorBottom = pos.y + height + 92 > window.innerHeight;
     return { anchorRight, anchorBottom };
-  }, [fabPos, getFabBasePosition, compact]);
+  }, [fabActiveHub, fabPos, getFabBasePosition, compact]);
   const themeRows = [
     { id:'neural', name:'Neural Pulse', note:'Core Claude DNA, synaptic purple-blue glass.' },
     { id:'aurora', name:'Aurora Prism', note:'Ethereal cyan/prism exploratory shell.' },
@@ -8772,8 +8773,8 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
           ...fabMenuPos,
           ...fabMenuVert,
           width: compact ? 236 : 286,
-          height: compact ? 324 : 372,
-          maxHeight: compact ? 324 : 372,
+          height: fabActiveHub ? (compact ? 428 : 468) : (compact ? 324 : 372),
+          maxHeight: fabActiveHub ? 'min(78svh, 520px)' : (compact ? 'min(68svh, 324px)' : 'min(72svh, 372px)'),
           padding:12,
           borderRadius:20,
           background:'rgba(12,12,32,0.90)',
@@ -8805,8 +8806,8 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
               className:'cortex-fab-accordion-panel-wrap',
               'data-open':'true',
               style:{
-                overflow:'hidden',
-                maxHeight:'520px',
+                overflow:'visible',
+                maxHeight:'none',
                 marginTop:2,
               }
             },
