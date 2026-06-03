@@ -4244,7 +4244,7 @@ function CortexAtomPageButton({ page, title, sub, onClick, active = false, class
   );
 }
 
-function CortexSidebarFab({ open = false, onClick, theme, count = CORTEX_MAIN_SURFACES.length }) {
+function CortexSidebarFab({ open = false, onClick, theme, count = CORTEX_MAIN_SURFACES.length, style }) {
   const accentA = theme?.colors?.accent1 || DL.accent;
   const accentB = theme?.colors?.accent2 || DL.gold;
   return React.createElement('button', {
@@ -4255,6 +4255,7 @@ function CortexSidebarFab({ open = false, onClick, theme, count = CORTEX_MAIN_SU
     'data-open':String(!!open),
     style:{
       color:'#fff',
+      ...style,
     }
   },
     React.createElement('span', { className:'cortex-sidebar-fab-core' },
@@ -7716,7 +7717,7 @@ function cortexApplyThemeGlobals(themeId) {
   return theme;
 }
 
-function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, surfaceId, onSurfaceChange }) {
+function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, surfaceId, onSurfaceChange, showGlobalFab = false }) {
   const currentThemeId = themeId || 'neural';
   const currentTheme = theme || cortexResolveTheme(currentThemeId);
   const compact = mode !== 'desktop';
@@ -7984,7 +7985,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
       )
     ),
 
-    React.createElement('div', { style:{
+    !showGlobalFab && React.createElement('div', { style:{
       position:'fixed',
       zIndex:25,
       ...fabButtonPos,
@@ -8285,6 +8286,7 @@ function CortexLibraryShell() {
       : cortexSurfaceLookup(page);
   const isWelcomePage = page === 1;
   const theme = React.useMemo(() => cortexApplyThemeGlobals(themeId), [themeId]);
+  const fabViewportLeft = sidebarDocked && !sidebarPinnedHidden ? 320 : 14;
 
   React.useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -8432,7 +8434,7 @@ function CortexLibraryShell() {
 
   const renderPage = () => {
     const sharedProps = { onNavigate:navigate, themeId:theme.id, theme, onThemeChange:setThemeId };
-    if (page === 0) return React.createElement(PageBatch0Kernel, { ...sharedProps, mode, surfaceId, onSurfaceChange:setSurfaceId });
+    if (page === 0) return React.createElement(PageBatch0Kernel, { ...sharedProps, mode, surfaceId, onSurfaceChange:setSurfaceId, showGlobalFab:true });
     if (page === 1) {
       const Comp = window[current.component];
       if (!Comp) {
@@ -8524,11 +8526,14 @@ function CortexLibraryShell() {
     }},
       sidebarDocked && React.createElement(CortexLibraryNav, { page, onNavigate:navigate, mode, sidebarMode:'dock' })
     ),
-    !sidebarDocked && React.createElement(CortexSidebarFab, {
+    React.createElement(CortexSidebarFab, {
       open:sidebarOpen,
       onClick:()=>setSidebarOpen(v => !v),
       theme,
       count:CORTEX_MAIN_SURFACES.length,
+      style:{
+        left: fabViewportLeft,
+      }
     }),
     React.createElement('div', { className:'cortex-zoom-shell', style:{ flex:1, minWidth:0, minHeight:0, display:'flex', flexDirection:'column', overflow:'hidden' }},
       React.createElement('main', { style:{
