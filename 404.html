@@ -6544,6 +6544,30 @@ const CORTEX_MAIN_SURFACES = [
   { id:23, group:'Support', label:'Help, Privacy and States', kicker:'Support', summary:'Combined help, about, privacy, and empty/loading/error/offline state coverage.', tone:'info', hint:'support hub' },
 ];
 
+const SURFACE_COMPONENT_MAP = {
+  2: 'PageHome',
+  3: 'PageLearning',
+  4: 'PageSlideDetail',
+  6: 'PageSearch',
+  7: 'PageSettings',
+  8: 'PageMotionShowcase',
+  9: 'PageTypographyReading',
+  10: 'PageBulletContent',
+  11: 'PageCalloutClinicalPearl',
+  12: 'PageImageCard',
+  13: 'PageMediaViewer3D',
+  14: 'PageGlossaryTerms',
+  15: 'PageQuickSummary',
+  16: 'PageBilingualSimple',
+  17: 'PageQuiz',
+  18: 'PageFlashcard',
+  19: 'PageProgressDashboard',
+  20: 'PageAIWorkspace',
+  21: 'PageProviderAdvancedSettings',
+  22: 'PageQuickRefModal',
+  23: 'PageHelpAboutPrivacy',
+};
+
 function cortexSurfaceLookup(surfaceId) {
   return CORTEX_MAIN_SURFACES.find(s => s.id === surfaceId) || CORTEX_MAIN_SURFACES[0];
 }
@@ -6601,6 +6625,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
   const compact = mode !== 'desktop';
   const [fabOpen, setFabOpen] = React.useState(false);
   const [fabGroup, setFabGroup] = React.useState('Foundation');
+  const [viewSurface, setViewSurface] = React.useState(null);
   const themeRows = [
     { id:'neural', name:'Neural Pulse', note:'Core Claude DNA, synaptic purple-blue glass.' },
     { id:'aurora', name:'Aurora Prism', note:'Ethereal cyan/prism exploratory shell.' },
@@ -6613,7 +6638,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
     return acc;
   }, {});
   const groupOrder = ['Foundation', 'Learn', 'Review', 'Reference', 'Practice', 'Ops', 'Support'];
-  const activeSurface = cortexSurfaceLookup(surfaceId || 2);
+  const activeSurface = cortexSurfaceLookup(viewSurface || surfaceId || 2);
   const surfaceMeta = {
     note: { badge:'Calm', title:'Reading-focused', sub:'Quiet hierarchy and open spacing.' },
     success: { badge:'Scan', title:'Fast recall', sub:'Structured and efficient.' },
@@ -6632,6 +6657,8 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
     items:groupedSurfaces[group] || [],
   })).filter(group => group.items.length);
   const activeGroupItems = groupedSurfaces[fabGroup] || [];
+  const SurfaceCompName = SURFACE_COMPONENT_MAP[activeSurface.id];
+  const SurfaceComp = SurfaceCompName && window[SurfaceCompName];
 
   return React.createElement('div', {
     'data-screen-label':'P0-MainStudio',
@@ -6720,20 +6747,17 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
               title:`P${surface.id} · ${surface.label}`,
               sub:surface.summary,
               active,
-              onClick:()=>onSurfaceChange && onSurfaceChange(surface.id),
+              onClick:()=>{
+                onSurfaceChange && onSurfaceChange(surface.id);
+                setViewSurface(surface.id);
+              },
               right:React.createElement('span', { style:{ color:active ? currentTheme.colors.accent2 : DL.sub, fontWeight:900 }}, active ? 'Open' : 'View'),
             });
           })
         )
       ),
       React.createElement('div', { style:{ display:'grid', gap:12 } },
-        React.createElement(B1Section, { title:'Surface Preview', action:`P${activeSurface.id}` }),
-        React.createElement('div', { style:{ display:'flex', flexWrap:'wrap', gap:8, marginBottom:12 } },
-          [activeSurface.group, `P${activeSurface.id}`, activeSurface.hint].map((chip, i) =>
-            React.createElement(B1Badge, { key:chip, color:i === 0 ? currentTheme.colors.accent1 : i === 1 ? currentTheme.colors.accent2 : currentTheme.colors.accent3 }, chip)
-          )
-        ),
-        React.createElement(B1Card, { className:'cortex-motion-card', style:{
+        viewSurface ? React.createElement(B1Card, { className:'cortex-motion-card', style:{
           background:theme.colors.gradientCard,
           borderColor:theme.colors.glassBorder,
           marginBottom:12,
@@ -6744,37 +6768,72 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
               React.createElement('div', { style:{ color:DL.text, fontSize:24, fontWeight:950, lineHeight:1.08, marginTop:4 }}, activeSurface.label),
               React.createElement('div', { style:{ color:DL.sub, fontSize:12, lineHeight:1.55, marginTop:6, maxWidth:560 }}, activeSurface.summary),
             ),
-            React.createElement(B1Badge, { color:currentTheme.colors.accent1 }, surfaceMeta.title),
+            React.createElement(B1Button, {
+              className:'cortex-motion-press',
+              onClick:()=>setViewSurface(null),
+              style:{ padding:'10px 12px', fontSize:11 }
+            }, 'Back to hub'),
           ),
-          React.createElement(B2Callout, { tone:activeSurface.tone, title:`${activeSurface.label} surface` }, surfaceMeta.sub),
-          React.createElement('div', { style:{ display:'grid', gridTemplateColumns:compact ? '1fr' : 'repeat(3, minmax(0,1fr))', gap:10, marginTop:12 }},
-            previewRows.map((row, i) => React.createElement(B2StatPill, {
-              key:row.title,
-              label:row.title,
-              value: row.title === 'Action' ? 'Inject-ready' : row.sub.slice(0, 24),
-              color:i === 0 ? currentTheme.colors.accent1 : i === 1 ? currentTheme.colors.accent2 : currentTheme.colors.accent3,
+          React.createElement('div', { style:{ display:'flex', flexWrap:'wrap', gap:8, marginBottom:12 } },
+            [activeSurface.group, `P${activeSurface.id}`, activeSurface.hint].map((chip, i) =>
+              React.createElement(B1Badge, { key:chip, color:i === 0 ? currentTheme.colors.accent1 : i === 1 ? currentTheme.colors.accent2 : currentTheme.colors.accent3 }, chip)
+            )
+          ),
+          SurfaceComp
+            ? React.createElement('div', { style:{ maxHeight: compact ? '68vh' : '72vh', overflow:'auto', paddingRight:4 } },
+                React.createElement(SurfaceComp, { onNavigate, themeId, theme, onThemeChange })
+              )
+            : React.createElement(B2Callout, { tone:'danger', title:'Missing surface component' }, SurfaceCompName || activeSurface.label)
+        ) : React.createElement(React.Fragment, null,
+          React.createElement(B1Section, { title:'Surface Preview', action:`P${activeSurface.id}` }),
+          React.createElement('div', { style:{ display:'flex', flexWrap:'wrap', gap:8, marginBottom:12 } },
+            [activeSurface.group, `P${activeSurface.id}`, activeSurface.hint].map((chip, i) =>
+              React.createElement(B1Badge, { key:chip, color:i === 0 ? currentTheme.colors.accent1 : i === 1 ? currentTheme.colors.accent2 : currentTheme.colors.accent3 }, chip)
+            )
+          ),
+          React.createElement(B1Card, { className:'cortex-motion-card', style:{
+            background:theme.colors.gradientCard,
+            borderColor:theme.colors.glassBorder,
+            marginBottom:12,
+          }},
+            React.createElement('div', { style:{ display:'flex', alignItems:'center', justifyContent:'space-between', gap:12, marginBottom:12 }},
+              React.createElement('div', null,
+                React.createElement('div', { style:{ color:DL.sub, fontSize:11, fontWeight:900, letterSpacing:1.2 }}, surfaceMeta.badge.toUpperCase()),
+                React.createElement('div', { style:{ color:DL.text, fontSize:24, fontWeight:950, lineHeight:1.08, marginTop:4 }}, activeSurface.label),
+                React.createElement('div', { style:{ color:DL.sub, fontSize:12, lineHeight:1.55, marginTop:6, maxWidth:560 }}, activeSurface.summary),
+              ),
+              React.createElement(B1Badge, { color:currentTheme.colors.accent1 }, surfaceMeta.title),
+            ),
+            React.createElement(B2Callout, { tone:activeSurface.tone, title:`${activeSurface.label} surface` }, surfaceMeta.sub),
+            React.createElement('div', { style:{ display:'grid', gridTemplateColumns:compact ? '1fr' : 'repeat(3, minmax(0,1fr))', gap:10, marginTop:12 }},
+              previewRows.map((row, i) => React.createElement(B2StatPill, {
+                key:row.title,
+                label:row.title,
+                value: row.title === 'Action' ? 'Open in viewer' : row.sub.slice(0, 24),
+                color:i === 0 ? currentTheme.colors.accent1 : i === 1 ? currentTheme.colors.accent2 : currentTheme.colors.accent3,
+              }))
+            )
+          ),
+          React.createElement(B1Card, { className:'cortex-motion-card', style:{
+            background:'rgba(10,10,26,0.44)',
+            borderColor:DL.glassBorder,
+          }},
+            React.createElement('div', { style:{ color:DL.text, fontSize:14, fontWeight:900, marginBottom:8 }}, 'Injection notes'),
+            previewRows.map((row, idx) => React.createElement(B3Row, {
+              key:`row-${idx}`,
+              title:row.title,
+              sub:row.sub,
+              right:React.createElement('span', { style:{ color:DL.accent, fontWeight:900 }}, 'OK'),
             }))
+          ),
+          React.createElement(B1Card, { className:'cortex-motion-card', style:{
+            background:'rgba(10,10,26,0.40)',
+            borderColor:DL.glassBorder,
+          }},
+            React.createElement('div', { style:{ color:DL.text, fontSize:14, fontWeight:900, marginBottom:8 }}, 'Production posture'),
+            React.createElement('div', { style:{ color:DL.sub, fontSize:12, lineHeight:1.65 }},
+              'Welcome remains separate. Sidebar navigation is folded into this studio rail so the shell stays production-ready, compact, and easy to inject with new content.')
           )
-        ),
-        React.createElement(B1Card, { className:'cortex-motion-card', style:{
-          background:'rgba(10,10,26,0.44)',
-          borderColor:DL.glassBorder,
-        }},
-          React.createElement('div', { style:{ color:DL.text, fontSize:14, fontWeight:900, marginBottom:8 }}, 'Injection notes'),
-          previewRows.map((row, idx) => React.createElement(B3Row, {
-            key:`row-${idx}`,
-            title:row.title,
-            sub:row.sub,
-            right:React.createElement('span', { style:{ color:DL.accent, fontWeight:900 }}, 'OK'),
-          }))
-        ),
-        React.createElement(B1Card, { className:'cortex-motion-card', style:{
-          background:'rgba(10,10,26,0.40)',
-          borderColor:DL.glassBorder,
-        }},
-          React.createElement('div', { style:{ color:DL.text, fontSize:14, fontWeight:900, marginBottom:8 }}, 'Production posture'),
-          React.createElement('div', { style:{ color:DL.sub, fontSize:12, lineHeight:1.65 }},
-            'Welcome remains separate. Sidebar navigation is folded into this studio rail so the shell stays production-ready, compact, and easy to inject with new content.')
         )
       )
     ),
@@ -6838,6 +6897,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
             key:item.id,
             onClick:()=>{
               onSurfaceChange && onSurfaceChange(item.id);
+              setViewSurface(item.id);
               setFabOpen(false);
             },
             className:'cortex-motion-press',
