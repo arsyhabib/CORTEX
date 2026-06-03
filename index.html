@@ -5977,6 +5977,21 @@ function PageSettings({ onNavigate, themeId: themeIdProp, theme: themeProp, onTh
   const [notifications, setNotifications] = React.useState(true);
   const [autoPlay, setAutoPlay] = React.useState(false);
   const [reducedMotion, setReducedMotion] = React.useState(false);
+  const [accountLoggedIn, setAccountLoggedIn] = React.useState(() => {
+    try {
+      const stored = localStorage.getItem('cortex.accountLoggedIn');
+      return stored === null ? true : stored === '1';
+    } catch (err) {
+      return true;
+    }
+  });
+  const [confirmAction, setConfirmAction] = React.useState(null);
+
+  React.useEffect(() => {
+    try {
+      localStorage.setItem('cortex.accountLoggedIn', accountLoggedIn ? '1' : '0');
+    } catch (err) {}
+  }, [accountLoggedIn]);
 
   const SettingsRow = ({ icon, label, right, onClick, sub }) =>
     React.createElement('div', {
@@ -5994,9 +6009,40 @@ function PageSettings({ onNavigate, themeId: themeIdProp, theme: themeProp, onTh
       right || React.createElement('span', { style:{ fontSize:12, color:DL.mute }}, '›'),
     );
 
+  const confirmMeta = confirmAction === 'logout' ? {
+    title:'Logout akun?',
+    subtitle:'Sesi demo ini akan ditutup dan kamu akan kembali ke Welcome.',
+    body:'Ini bukan logout akun server sungguhan. Shell hanya mematikan sesi placeholder agar siap dipakai oleh pengguna berikutnya.',
+    primary:'Logout',
+    accent:currentTheme.colors.accent2,
+    icon:'🚪',
+    action:()=>{
+      setAccountLoggedIn(false);
+      setConfirmAction(null);
+      onNavigate(1);
+    },
+  } : confirmAction === 'exit' ? {
+    title:'Keluar aplikasi?',
+    subtitle:'Kamu akan kembali ke layar Welcome dan sesi kerja saat ini berakhir.',
+    body:'Browser tidak bisa benar-benar ditutup dari web app, jadi aksi ini mengembalikan kamu ke layar awal dengan panel konfirmasi yang jelas.',
+    primary:'Keluar',
+    accent:currentTheme.colors.accent3,
+    icon:'⏻',
+    action:()=>{
+      setConfirmAction(null);
+      onNavigate(1);
+    },
+  } : null;
+
+  const accountSub = accountLoggedIn
+    ? 'Learner profile • Demo account'
+    : 'Learner profile • Session logged out';
+  const accountStatus = accountLoggedIn ? 'Active' : 'Signed out';
+  const accountName = 'Dr. Raka';
+
   return React.createElement('div', {
     'data-screen-label': 'P7-Settings',
-    style:{ display:'flex', flexDirection:'column', height:'100%' }
+    style:{ display:'flex', flexDirection:'column', height:'100%', position:'relative' }
   },
     React.createElement(B1Topbar, {
       left: React.createElement('span', { onClick:()=>onNavigate(2), style:{ fontSize:13, color:DL.accent, cursor:'pointer' }}, '← Back'),
@@ -6121,39 +6167,135 @@ function PageSettings({ onNavigate, themeId: themeIdProp, theme: themeProp, onTh
         React.createElement('div', { style:{ display:'flex', alignItems:'center', gap:12, marginBottom:12 }},
           React.createElement('div', { style:{
             width:48, height:48, borderRadius:18,
-            background:'linear-gradient(145deg, rgba(6,214,160,0.92), rgba(168,85,247,0.86))',
+            background:accountLoggedIn
+              ? 'linear-gradient(145deg, rgba(6,214,160,0.92), rgba(168,85,247,0.86))'
+              : 'linear-gradient(145deg, rgba(148,163,184,0.88), rgba(99,102,241,0.7))',
             display:'flex', alignItems:'center', justifyContent:'center',
             fontSize:20, boxShadow:`0 12px 28px ${DL.shadowColor}`,
-          }}, 'U'),
+          }}, accountLoggedIn ? 'U' : 'G'),
           React.createElement('div', null,
-            React.createElement('div', { style:{ fontSize:15, fontWeight:900, color:DL.text }}, 'Dr. Raka'),
-            React.createElement('div', { style:{ fontSize:11, color:DL.sub, marginTop:3 }}, 'Learner profile • Demo account'),
+            React.createElement('div', { style:{ fontSize:15, fontWeight:900, color:DL.text }}, accountName),
+            React.createElement('div', { style:{ fontSize:11, color:DL.sub, marginTop:3 }}, accountSub),
           ),
         ),
         React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'repeat(3, minmax(0,1fr))', gap:8 }},
           [
             { t:'Course', v:'Neurology' },
             { t:'Level', v:'7' },
-            { t:'Status', v:'Active' },
+            { t:'Status', v:accountStatus },
           ].map(item => React.createElement(B2StatPill, { key:item.t, label:item.t, value:item.v })),
         ),
         React.createElement('div', { style:{ fontSize:10, color:DL.mute, marginTop:10, lineHeight:1.5 }},
-          'This identity block is a placeholder for the user profile that will later receive real course and session metadata.'
+          accountLoggedIn
+            ? 'This identity block is a placeholder for the user profile that will later receive real course and session metadata.'
+            : 'Sesi demo sudah keluar. Data placeholder tetap aman untuk dipakai lagi saat login ulang.'
         ),
       ),
 
       /* Account */
       React.createElement(B1Section, { title:'Akun', style:{ marginTop:14, marginBottom:4 } }),
-      React.createElement(SettingsRow, { icon:'👤', label:'Profil', sub:'Dr. Raka' }),
+      React.createElement(SettingsRow, { icon:'👤', label:'Profil', sub:accountLoggedIn ? accountName : 'Tamu / Demo session' }),
       React.createElement(SettingsRow, { icon:'🔑', label:'Keamanan' }),
       React.createElement(SettingsRow, { icon:'📤', label:'Ekspor Data' }),
       React.createElement(SettingsRow, { icon:'❓', label:'Bantuan & FAQ' }),
+      React.createElement(SettingsRow, {
+        icon:'↩', label:'Keluar Aplikasi',
+        sub:'Kembali ke welcome shell',
+        onClick:()=>setConfirmAction('exit'),
+      }),
+      React.createElement(SettingsRow, {
+        icon:'🚪', label:'Logout Akun',
+        sub:accountLoggedIn ? 'Akhiri sesi demo akun ini' : 'Sesi sedang logout',
+        onClick:()=>setConfirmAction('logout'),
+      }),
 
       /* Footer */
       React.createElement('div', { style:{ textAlign:'center', marginTop:20, padding:'10px 0' }},
         React.createElement('div', { style:{ fontSize:10, color:DL.mute }}, 'Cortex Education v2.1.0'),
         React.createElement('div', { style:{ fontSize:9, color:DL.mute, marginTop:4 }}, '© 2026 Cortex Labs'),
       ),
+    ),
+
+    confirmMeta && React.createElement('div', {
+      className:'cortex-settings-confirm-overlay',
+      onClick:()=>setConfirmAction(null),
+      style:{
+        position:'absolute',
+        inset:0,
+        zIndex:90,
+        display:'flex',
+        alignItems:'center',
+        justifyContent:'center',
+        padding:'18px',
+        background:'rgba(6,8,24,0.52)',
+        backdropFilter:'blur(9px)',
+        WebkitBackdropFilter:'blur(9px)',
+      },
+    },
+      React.createElement(B1Card, {
+        glow:true,
+        pad:16,
+        onClick:e=>e.stopPropagation(),
+        style:{
+          width:'100%',
+          maxWidth:460,
+          borderRadius:24,
+          boxShadow:`0 24px 48px ${DL.shadowColor}`,
+          animation:'scale-bounce 0.45s cubic-bezier(0.16, 1.2, 0.3, 1) backwards',
+        },
+      },
+        React.createElement('div', { style:{ display:'flex', alignItems:'flex-start', justifyContent:'space-between', gap:12, marginBottom:10 }},
+          React.createElement('div', { style:{ minWidth:0, flex:1 }},
+            React.createElement(B2Kicker, { color:confirmMeta.accent }, 'Akun & Sesi'),
+            React.createElement('div', { style:{ fontSize:20, fontWeight:900, color:DL.text, lineHeight:1.15, marginTop:4 }}, confirmMeta.title),
+            React.createElement('div', { style:{ fontSize:12, color:DL.sub, lineHeight:1.45, marginTop:6 }}, confirmMeta.subtitle),
+          ),
+          React.createElement('div', {
+            style:{
+              width:42,
+              height:42,
+              flex:'0 0 auto',
+              borderRadius:16,
+              display:'flex',
+              alignItems:'center',
+              justifyContent:'center',
+              background:`linear-gradient(145deg, ${confirmMeta.accent}55, rgba(255,255,255,0.08))`,
+              border:`1px solid ${DL.glassBorder}`,
+              boxShadow:`0 10px 24px ${DL.shadowColor}`,
+              fontSize:18,
+              color:DL.text,
+            }
+          }, confirmMeta.icon),
+        ),
+        React.createElement('div', { style:{
+          marginTop:12,
+          padding:12,
+          borderRadius:18,
+          background:'rgba(255,255,255,0.04)',
+          border:`1px solid ${DL.glassBorder}`,
+          color:DL.sub,
+          fontSize:12,
+          lineHeight:1.55,
+        }}, confirmMeta.body),
+        React.createElement('div', { style:{ display:'flex', gap:10, marginTop:14 }},
+          React.createElement(B1Button, {
+            label:'Batal',
+            variant:'ghost',
+            full:true,
+            onClick:()=>setConfirmAction(null),
+            style:{ justifyContent:'center' },
+          }),
+          React.createElement(B1Button, {
+            label:confirmMeta.primary,
+            full:true,
+            onClick:confirmMeta.action,
+            style:{
+              justifyContent:'center',
+              background:`linear-gradient(135deg, ${confirmMeta.accent}, ${confirmMeta.accent}CC)`,
+            },
+          }),
+        ),
+      )
     ),
   );
 }
