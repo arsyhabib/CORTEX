@@ -2649,7 +2649,7 @@ Object.assign(window, {
 
 /* cortex-themes.jsx */
 /* CORTEX EDUCATION — Theme Engine */
-/* 5 Distinct Theme Configurations + React Context */
+/* 6 Distinct Theme Configurations + React Context */
 
 const THEMES = {
   neural: {
@@ -2794,6 +2794,35 @@ const THEMES = {
     },
     glass: { blur: 30, saturation: 190, bgOpacity: 0.1, borderOpacity: 0.18 },
     borderRadius: 28,
+    fontWeight: { heading: 800, body: 400 },
+  },
+
+  monochrome: {
+    id: 'monochrome',
+    name: 'Monochrome',
+    emoji: '◌',
+    description: 'Minimal luxury grayscale',
+    colors: {
+      bg: '#090909',
+      bgAlt: '#121212',
+      surface: 'rgba(255,255,255,0.04)',
+      glass: 'rgba(255,255,255,0.06)',
+      glassBorder: 'rgba(255,255,255,0.16)',
+      glassHighlight: 'rgba(255,255,255,0.08)',
+      accent1: '#f5f5f5',
+      accent2: '#bdbdbd',
+      accent3: '#7a7a7a',
+      text: '#f7f7f7',
+      textSecondary: 'rgba(245,245,245,0.64)',
+      textMuted: 'rgba(235,235,235,0.38)',
+      gradientMain: 'linear-gradient(135deg, #f7f7f7, #cfcfcf, #8d8d8d)',
+      gradientCard: 'linear-gradient(145deg, rgba(255,255,255,0.09), rgba(255,255,255,0.03))',
+      gradientAccent: 'linear-gradient(135deg, #ffffff, #bfbfbf)',
+      glow: '245, 245, 245',
+      shadowColor: 'rgba(255,255,255,0.12)',
+    },
+    glass: { blur: 26, saturation: 0, bgOpacity: 0.08, borderOpacity: 0.18 },
+    borderRadius: 22,
     fontWeight: { heading: 800, body: 400 },
   },
 };
@@ -3264,13 +3293,40 @@ function BloomBackground() {
   );
 }
 
+
+function MonochromeBackground() {
+  const layers = React.useMemo(() => ([
+    { x:-10, y:4, s:48, a:0.12, d:14 },
+    { x:24, y:18, s:34, a:0.09, d:17 },
+    { x:60, y:-8, s:52, a:0.08, d:20 },
+    { x:82, y:52, s:38, a:0.11, d:16 },
+    { x:18, y:74, s:44, a:0.07, d:19 },
+  ]), []);
+  return React.createElement('div', { style:{ position:'absolute', inset:0, overflow:'hidden', background:'linear-gradient(180deg, rgba(0,0,0,0.92), rgba(18,18,18,0.96))' } },
+    React.createElement('div', { style:{ position:'absolute', inset:0, background:'radial-gradient(circle at 20% 18%, rgba(255,255,255,0.08), transparent 24%), radial-gradient(circle at 78% 26%, rgba(255,255,255,0.05), transparent 20%), radial-gradient(circle at 52% 72%, rgba(255,255,255,0.06), transparent 26%)', opacity:0.9 } }),
+    layers.map((l,i) => React.createElement('div', { key:i, style:{
+      position:'absolute', left:`${l.x}%`, top:`${l.y}%`,
+      width:`${l.s}vmin`, height:`${l.s}vmin`, borderRadius:'50%',
+      background:'linear-gradient(145deg, rgba(255,255,255,0.12), rgba(255,255,255,0.02))',
+      border:'1px solid rgba(255,255,255,0.12)',
+      boxShadow:'0 0 30px rgba(255,255,255,0.06), inset 0 0 30px rgba(255,255,255,0.06)',
+      backdropFilter:'blur(12px)',
+      animation:`float-slow ${l.d}s ease-in-out infinite`,
+      animationDelay:`${-i*2}s`,
+      opacity:l.a,
+      mixBlendMode:'screen',
+    }})),
+    React.createElement('div', { style:{ position:'absolute', inset:0, background:'linear-gradient(135deg, transparent 0%, rgba(255,255,255,0.03) 50%, transparent 100%)', opacity:0.7 } })
+  );
+}
+
 function ThemeBackground({ themeId }) {
-  const bgs = { neural: NeuralBackground, aurora: AuroraBackground, gold: MosaicBackground, neon: MatrixBackground, bloom: BloomBackground };
+  const bgs = { neural: NeuralBackground, aurora: AuroraBackground, gold: MosaicBackground, neon: MatrixBackground, bloom: BloomBackground, monochrome: MonochromeBackground };
   const Bg = bgs[themeId];
   return Bg ? React.createElement(Bg) : null;
 }
 
-Object.assign(window, { ThemeBackground, NeuralBackground, AuroraBackground, MosaicBackground, MatrixBackground, BloomBackground });
+Object.assign(window, { ThemeBackground, NeuralBackground, AuroraBackground, MosaicBackground, MatrixBackground, BloomBackground, MonochromeBackground });
 
 /* cortex-homes.jsx */
 /* CORTEX — 5 Unique Home Screen Layouts */
@@ -3677,10 +3733,10 @@ function SplashScreen({ onComplete, themeId }) {
     const t3 = setTimeout(()=>setStep(3), 2200);
     return ()=>{clearTimeout(t1);clearTimeout(t2);clearTimeout(t3);};
   },[]);
-  const logoEmojis = { neural:'🧠', aurora:'🌌', gold:'✨', neon:'💚', bloom:'🌸' };
+  const logoEmojis = { neural:'🧠', aurora:'🌌', gold:'✨', neon:'💚', bloom:'🌸', monochrome:'◌' };
   const taglines = {
     neural:'Activate Your Mind', aurora:'Explore Beyond Limits',
-    gold:'Excellence Redefined', neon:'> hack_your_brain()', bloom:'Learn, Play, Grow ✨',
+    gold:'Excellence Redefined', neon:'> hack_your_brain()', bloom:'Learn, Play, Grow ✨', monochrome:'Quiet precision, premium restraint',
   };
   return React.createElement('div', { style: {
     position:'absolute', inset:0, display:'flex', flexDirection:'column',
@@ -5581,7 +5637,7 @@ function PageSearch({ onNavigate }) {
    Clean settings with haptic/tactile controls
    ═══════════════════════════════════════════ */
 function PageSettings({ onNavigate, themeId: themeIdProp, theme: themeProp, onThemeChange }) {
-  const themeKeys = ['neural', 'aurora', 'gold', 'neon', 'bloom'];
+  const themeKeys = ['neural', 'aurora', 'gold', 'neon', 'bloom', 'monochrome'];
   const [localThemeId, setLocalThemeId] = React.useState('neural');
   const currentThemeId = themeIdProp || localThemeId;
   const currentTheme = themeProp || THEMES[currentThemeId] || THEMES.neural;
@@ -5640,6 +5696,7 @@ function PageSettings({ onNavigate, themeId: themeIdProp, theme: themeProp, onTh
             React.createElement('span', { style:{ fontSize:10, color:DL.mute }}, 'Gold'),
             React.createElement('span', { style:{ fontSize:10, color:DL.mute }}, 'Neon'),
             React.createElement('span', { style:{ fontSize:10, color:DL.mute }}, 'Bloom'),
+            React.createElement('span', { style:{ fontSize:10, color:DL.mute }}, 'Mono'),
           ),
           React.createElement('input', {
             type:'range',
@@ -5655,7 +5712,7 @@ function PageSettings({ onNavigate, themeId: themeIdProp, theme: themeProp, onTh
             },
           }),
         ),
-        React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'repeat(5, 1fr)', gap:6, marginTop:10 }},
+        React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'repeat(6, 1fr)', gap:6, marginTop:10 }},
           themeKeys.map((id, i) => {
             const meta = THEMES[id] || THEMES.neural;
             const active = id === currentThemeId;
@@ -8047,7 +8104,7 @@ function useCortexLayoutMode() {
   return mode;
 }
 
-const CORTEX_THEME_ORDER = ['neural', 'aurora', 'gold', 'neon', 'bloom'];
+const CORTEX_THEME_ORDER = ['neural', 'aurora', 'gold', 'neon', 'bloom', 'monochrome'];
 
 const CORTEX_MAIN_SURFACES = [
   { id:2, group:'Foundation', label:'Home Dashboard', kicker:'Launch', summary:'Entry surface for daily study, progress, and quick continuation.', tone:'note', hint:'hero + quick actions' },
@@ -8175,6 +8232,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
     { id:'gold', name:'Liquid Gold', note:'Editorial premium variation in the theme set.' },
     { id:'neon', name:'Neon Matrix', note:'Cyber green hacker learning mood.' },
     { id:'bloom', name:'Sunset Bloom', note:'Warm playful alternate visual route.' },
+    { id:'monochrome', name:'Monochrome', note:'Minimal luxury grayscale route.' },
   ];
   const groupedSurfaces = CORTEX_MAIN_SURFACES.reduce((acc, surface) => {
     (acc[surface.group] ||= []).push(surface);
