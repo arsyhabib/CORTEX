@@ -4444,6 +4444,86 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
     overscrollBehavior:'contain',
     pointerEvents:'auto',
   }},
+    React.createElement('div', { style:{
+      position:'sticky',
+      top:0,
+      zIndex:3,
+      padding:'2px 0 10px',
+      marginBottom:6,
+      background:'linear-gradient(180deg, rgba(12,12,32,0.98) 0%, rgba(12,12,32,0.82) 100%)',
+      backdropFilter:'blur(18px) saturate(165%)',
+      WebkitBackdropFilter:'blur(18px) saturate(165%)',
+    }},
+      React.createElement('div', { style:{
+        position:'relative',
+        overflow:'hidden',
+        borderRadius:18,
+        border:`1px solid rgba(255,255,255,0.18)`,
+        background:
+          'linear-gradient(145deg, rgba(255,255,255,0.12), rgba(255,255,255,0.03)), linear-gradient(135deg, rgba(34,211,238,0.12), rgba(168,85,247,0.16) 45%, rgba(255,255,255,0.06))',
+        boxShadow:
+          `0 16px 34px ${currentTheme.colors.shadowColor}, inset 0 1px 0 rgba(255,255,255,0.20), inset 0 -12px 20px rgba(7,12,30,0.18)`,
+      }},
+        React.createElement('div', { style:{
+          position:'absolute',
+          inset:'-20% -18%',
+          background:'linear-gradient(120deg, transparent 38%, rgba(255,255,255,0.42) 50%, transparent 62%)',
+          opacity:0.55,
+          mixBlendMode:'screen',
+          animation:'cortex-sidebar-fab-sheen 5.6s linear infinite',
+          pointerEvents:'none',
+        }}),
+        React.createElement('div', { style:{
+          display:'flex',
+          alignItems:'center',
+          justifyContent:'space-between',
+          gap:12,
+          padding:'10px 10px 10px 12px',
+        }},
+          React.createElement('div', { style:{ minWidth:0, flex:1 }},
+            React.createElement('div', { style:{ color:'rgba(255,255,255,0.88)', fontSize:10, fontWeight:900, letterSpacing:1.2, textTransform:'uppercase' }}, 'Feature rail'),
+            React.createElement('div', { style:{ color:currentTheme.colors.text, fontSize:13, fontWeight:900, lineHeight:1.1, marginTop:3 }}, 'AI Workspace')
+          ),
+          React.createElement('button', {
+            type:'button',
+            onClick:()=>{
+              setFabOpen(false);
+              onSurfaceChange && onSurfaceChange(20);
+              onNavigate(20);
+            },
+            className:'cortex-motion-press',
+            style:{
+              border:'1px solid rgba(255,255,255,0.20)',
+              borderRadius:16,
+              padding:'10px 12px',
+              minHeight:42,
+              minWidth: compact ? 96 : 112,
+              cursor:'pointer',
+              color:'#fff',
+              background:'linear-gradient(135deg, rgba(34,211,238,0.92), rgba(168,85,247,0.92) 56%, rgba(255,255,255,0.18))',
+              boxShadow:
+                `0 0 0 1px rgba(255,255,255,0.12) inset, 0 18px 28px ${currentTheme.colors.shadowColor}, 0 0 24px rgba(99,102,241,0.28)`,
+              position:'relative',
+              overflow:'hidden',
+            }
+          },
+            React.createElement('span', { style:{
+              position:'absolute',
+              inset:'-18% -16%',
+              background:'linear-gradient(120deg, transparent 40%, rgba(255,255,255,0.55) 50%, transparent 60%)',
+              opacity:0.45,
+              mixBlendMode:'screen',
+              animation:'cortex-sidebar-fab-sheen 4.8s linear infinite',
+              pointerEvents:'none',
+            }}),
+            React.createElement('span', { style:{ position:'relative', zIndex:1, display:'inline-flex', alignItems:'center', gap:6, fontSize:11, fontWeight:900, letterSpacing:0.2 }},
+              React.createElement('span', { style:{ width:8, height:8, borderRadius:999, background:'rgba(255,255,255,0.95)', boxShadow:'0 0 14px rgba(255,255,255,0.65)' }}),
+              'Open AI'
+            )
+          )
+        )
+      )
+    ),
     React.createElement('div', { style:{ display:'grid', gap:8, minHeight:'100%', alignContent:'start' } },
       surfaceGroups.map(group => {
         const expanded = fabAccordionGroup === group.group;
