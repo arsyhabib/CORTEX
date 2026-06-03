@@ -4287,6 +4287,239 @@ function CortexSidebarFab({ open = false, onClick, onPointerDown, theme, count =
   );
 }
 
+function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme }) {
+  const compact = mode !== 'desktop';
+  const [fabOpen, setFabOpen] = React.useState(false);
+  const [fabPos, setFabPos] = React.useState(null);
+  const [fabGroup, setFabGroup] = React.useState('Foundation');
+  const [fabAccordionGroup, setFabAccordionGroup] = React.useState('Foundation');
+  const [fabPortalTarget, setFabPortalTarget] = React.useState(null);
+  const fabDragRef = React.useRef({ active:false, moved:false, sx:0, sy:0, ox:0, oy:0 });
+  const currentTheme = theme || cortexResolveTheme('neural');
+  const groupedSurfaces = React.useMemo(() => CORTEX_MAIN_SURFACES.reduce((acc, surface) => {
+    (acc[surface.group] ||= []).push(surface);
+    return acc;
+  }, {}), []);
+  const groupOrder = ['Foundation', 'Learn', 'Review', 'Reference', 'Practice', 'Ops', 'Support'];
+  const activeSurface = cortexSurfaceLookup(surfaceId || 2);
+  const surfaceMeta = {
+    note: { badge:'Calm', title:'Reading-focused', sub:'Quiet hierarchy and open spacing.' },
+    success: { badge:'Scan', title:'Fast recall', sub:'Structured and efficient.' },
+    warning: { badge:'Reference', title:'Reusable reference', sub:'Prepared for lookup and support.' },
+    danger: { badge:'Practice', title:'Interactive review', sub:'Warm feedback and progress.' },
+    info: { badge:'Ops', title:'Production surface', sub:'Ready for content injection.' },
+  }[activeSurface.tone] || { badge:'Surface', title:'Balanced', sub:'Ready for content.' };
+  const previewRows = [
+    { title:'Layout', sub:activeSurface.hint },
+    { title:'Purpose', sub:activeSurface.summary },
+    { title:'Action', sub:`Use this surface as a production-ready slot for ${activeSurface.label.toLowerCase()}.` },
+  ];
+  const surfaceGroups = groupOrder.map(group => ({
+    group,
+    items:groupedSurfaces[group] || [],
+  })).filter(group => group.items.length);
+  const activeGroupItems = groupedSurfaces[fabGroup] || [];
+  const getFabBasePosition = React.useCallback(() => ({
+    x: Math.max(16, window.innerWidth - (compact ? 158 : 176)),
+    y: Math.max(16, window.innerHeight - (compact ? 98 : 110)),
+  }), [compact]);
+  const fabButtonPos = fabPos ? {
+    left: fabPos.x,
+    top: fabPos.y,
+    right:'auto',
+    bottom:'auto',
+  } : {
+    right: compact ? 16 : 22,
+    bottom: `calc(${compact ? 16 : 22}px + env(safe-area-inset-bottom))`,
+  };
+  const fabMenuSide = React.useMemo(() => {
+    const pos = fabPos || getFabBasePosition();
+    const width = compact ? 252 : 304;
+    const height = compact ? 360 : 390;
+    return {
+      anchorRight: pos.x + width + 24 > window.innerWidth,
+      anchorBottom: pos.y + height + 92 > window.innerHeight,
+    };
+  }, [fabPos, getFabBasePosition, compact]);
+  const fabMenuPos = fabMenuSide.anchorRight ? { right:0, left:'auto' } : { left:0, right:'auto' };
+  const fabMenuVert = fabMenuSide.anchorBottom ? { bottom:66, top:'auto' } : { top:66, bottom:'auto' };
+
+  React.useEffect(() => {
+    if (typeof document === 'undefined') return undefined;
+    let el = document.getElementById('cortex-pages-fab-portal');
+    let created = false;
+    if (!el) {
+      el = document.createElement('div');
+      el.id = 'cortex-pages-fab-portal';
+      el.style.position = 'fixed';
+      el.style.inset = '0';
+      el.style.zIndex = '2147483646';
+      el.style.pointerEvents = 'none';
+      document.body.appendChild(el);
+      created = true;
+    }
+    setFabPortalTarget(el);
+    return () => {
+      if (created && el && el.parentNode) el.parentNode.removeChild(el);
+    };
+  }, []);
+
+  const onFabPointerDown = React.useCallback((event) => {
+    if (event.button !== 0) return;
+    const start = getFabBasePosition();
+    fabDragRef.current = {
+      active:true,
+      moved:false,
+      sx:event.clientX,
+      sy:event.clientY,
+      ox:fabPos ? fabPos.x : start.x,
+      oy:fabPos ? fabPos.y : start.y,
+    };
+    const onMove = (moveEvent) => {
+      if (!fabDragRef.current.active) return;
+      const dx = moveEvent.clientX - fabDragRef.current.sx;
+      const dy = moveEvent.clientY - fabDragRef.current.sy;
+      if (!fabDragRef.current.moved && Math.hypot(dx, dy) > 8) {
+        fabDragRef.current.moved = true;
+        setFabOpen(false);
+      }
+      if (!fabDragRef.current.moved) return;
+      const nextX = Math.max(12, Math.min(window.innerWidth - 132, fabDragRef.current.ox + dx));
+      const nextY = Math.max(12, Math.min(window.innerHeight - 88, fabDragRef.current.oy + dy));
+      setFabPos({ x: nextX, y: nextY });
+    };
+    const onUp = () => {
+      fabDragRef.current.active = false;
+      window.removeEventListener('pointermove', onMove);
+      window.removeEventListener('pointerup', onUp);
+      window.removeEventListener('pointercancel', onUp);
+    };
+    window.addEventListener('pointermove', onMove);
+    window.addEventListener('pointerup', onUp);
+    window.addEventListener('pointercancel', onUp);
+  }, [fabPos, getFabBasePosition]);
+
+  const fabButton = React.createElement(CortexAtomPageButton, {
+    onClick:()=>{ if (!fabDragRef.current.moved) setFabOpen(v => !v); fabDragRef.current.moved = false; },
+    onPointerDown:onFabPointerDown,
+    page:null,
+    title:'Pages',
+    sub:null,
+    theme:currentTheme,
+    compact:true,
+    active:fabOpen,
+    showKicker:false,
+    style:{
+      minWidth:114,
+      minHeight:52,
+      padding:'8px 12px',
+      borderRadius:20,
+      boxShadow:`0 18px 32px ${currentTheme.colors.shadowColor}`,
+      width:'auto',
+      cursor:'grab',
+      touchAction:'none',
+    }
+  });
+
+  const fabMenu = fabOpen && React.createElement('div', { style:{
+    position:'absolute',
+    ...fabMenuPos,
+    ...fabMenuVert,
+    width: compact ? 252 : 304,
+    height: compact ? 360 : 390,
+    maxHeight: compact ? 360 : 390,
+    padding:12,
+    borderRadius:20,
+    background:'rgba(12,12,32,0.90)',
+    border:`1px solid ${DL.glassBorder}`,
+    backdropFilter:'blur(18px) saturate(150%)',
+    WebkitBackdropFilter:'blur(18px) saturate(150%)',
+    boxShadow:`0 26px 56px ${currentTheme.colors.shadowColor}`,
+    overflowY:'auto',
+    overflowX:'hidden',
+    overscrollBehavior:'contain',
+    pointerEvents:'auto',
+  }},
+    React.createElement('div', { style:{ display:'grid', gap:8, minHeight:'100%', alignContent:'start' } },
+      surfaceGroups.map(group => {
+        const expanded = fabAccordionGroup === group.group;
+        return React.createElement('div', {
+          key:group.group,
+          style:{
+            borderRadius:16,
+            overflow:'hidden',
+            border:`1px solid ${expanded ? currentTheme.colors.accent1 : DL.glassBorder}`,
+            background:expanded ? 'rgba(168,85,247,0.10)' : 'rgba(255,255,255,0.03)',
+          }
+        },
+          React.createElement('button', {
+            type:'button',
+            onClick:()=>{
+              setFabGroup(group.group);
+              setFabAccordionGroup(prev => prev === group.group ? null : group.group);
+            },
+            className:'cortex-motion-press cortex-fab-accordion-toggle',
+            'data-open':String(expanded),
+            style:{
+              width:'100%',
+              display:'flex',
+              alignItems:'center',
+              justifyContent:'space-between',
+              gap:10,
+              padding:'10px 12px',
+              border:0,
+              background:'transparent',
+              color:expanded ? currentTheme.colors.accent1 : DL.text,
+              fontSize:11,
+              fontWeight:900,
+              cursor:'pointer',
+              textAlign:'left',
+            }
+            },
+            React.createElement('span', null, group.group),
+            React.createElement('span', { style:{ color:expanded ? currentTheme.colors.accent1 : DL.mute, fontSize:11 }}, expanded ? '−' : '+')
+          ),
+          expanded && React.createElement('div', { className:'cortex-fab-accordion-panel', style:{ padding:'0 8px 8px' } },
+            group.items.map(item => React.createElement(CortexAtomPageButton, {
+              key:item.id,
+              page:item.id,
+              title:item.label,
+              sub:null,
+              theme:currentTheme,
+              onClick:()=>{
+                onSurfaceChange && onSurfaceChange(item.id);
+                onNavigate(item.id);
+              },
+              compact:true,
+              active:item.id === activeSurface.id,
+              showKicker:false,
+              style:{
+                width:'100%',
+                marginTop:8,
+                padding:'10px 12px',
+              }
+            }))
+          )
+        );
+      })
+    )
+  );
+
+  if (!fabPortalTarget) {
+    return React.createElement('div', { style:{ position:'fixed', ...fabButtonPos, zIndex:2147483646, pointerEvents:'none' } }, fabButton);
+  }
+
+  return ReactDOM.createPortal(
+    React.createElement('div', { style:{ position:'fixed', inset:0, pointerEvents:'none', zIndex:2147483646 } },
+      React.createElement('div', { style:{ position:'absolute', pointerEvents:'auto', ...fabButtonPos } },
+        fabButton,
+        fabMenu
+      )
+    ),
+    fabPortalTarget
+  );
+}
+
 function CortexTextZoomControl({ value, onChange, mode }) {
   const zoomValue = mode === 'mobile'
     ? 1.08
@@ -8597,7 +8830,7 @@ function CortexLibraryShell() {
 
   const renderPage = () => {
     const sharedProps = { onNavigate:navigate, themeId:theme.id, theme, onThemeChange:setThemeId };
-    if (page === 0) return React.createElement(PageBatch0Kernel, { ...sharedProps, mode, surfaceId, onSurfaceChange:setSurfaceId, showGlobalFab:false });
+    if (page === 0) return React.createElement(PageBatch0Kernel, { ...sharedProps, mode, surfaceId, onSurfaceChange:setSurfaceId, showGlobalFab:true });
     if (page === 1) {
       const Comp = window[current.component];
       if (!Comp) {
@@ -8689,6 +8922,13 @@ function CortexLibraryShell() {
     }},
       sidebarDocked && React.createElement(CortexLibraryNav, { page, onNavigate:navigate, mode, sidebarMode:'dock' })
     ),
+    React.createElement(CortexPagesHubFab, {
+      onNavigate:navigate,
+      onSurfaceChange:setSurfaceId,
+      mode,
+      surfaceId,
+      theme,
+    }),
     fabPortalTarget
       ? ReactDOM.createPortal(
         React.createElement(CortexSidebarFab, {
