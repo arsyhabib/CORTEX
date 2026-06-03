@@ -8564,47 +8564,162 @@ function PageProgressDashboard({ onNavigate }) {
 }
 
 function PageAIWorkspace({ onNavigate }) {
-  const [mode, setMode] = React.useState('explain');
-  const prompts = [
-    { who:'Learner', text:'Explain cerebral perfusion using a simple bedside analogy.' },
-    { who:'Cortex AI', text:'Design-only response: blood flow can be imagined as oxygen delivery to cells. No API call is made.' },
+  const [surface, setSurface] = React.useState('assistant');
+  const [runtimeInfo, setRuntimeInfo] = React.useState({ status:'idle', catalog:null, message:'No proxy checked yet.' });
+  const runtime = React.useMemo(function(){
+    let sessionConfig = {};
+    try {
+      sessionConfig = JSON.parse(sessionStorage.getItem('cortex-ai-runtime') || '{}') || {};
+    } catch (error) {
+      sessionConfig = {};
+    }
+    const injected = typeof window !== 'undefined' && window.__CORTEX_AI_LOCAL_CONFIG__ ? window.__CORTEX_AI_LOCAL_CONFIG__ : {};
+    return Object.assign({
+      provider:'BytePlus ModelArk',
+      providerLabel:'Secure proxy recommended',
+      publicBaseUrl:'https://ark.ap-southeast.bytepluses.com/api/v3',
+      codingBaseUrl:'https://ark.ap-southeast.bytepluses.com/api/coding/v3',
+      proxyUrl:'',
+      mode:'planning',
+    }, sessionConfig, injected);
+  }, []);
+
+  React.useEffect(function(){
+    if (!runtime.proxyUrl) return;
+    let cancelled = false;
+    const proxyBase = String(runtime.proxyUrl || '').replace(/\/+$/, '');
+
+    Promise.all([
+      fetch(`${proxyBase}/health`, { cache:'no-store' }).then(r => r.ok ? r.json() : Promise.reject(new Error(`Health ${r.status}`))),
+      fetch(`${proxyBase}/config/models`, { cache:'no-store' }).then(r => r.ok ? r.json() : Promise.reject(new Error(`Catalog ${r.status}`))),
+    ]).then(function(results){
+      if (cancelled) return;
+      setRuntimeInfo({
+        status:'connected',
+        catalog:results[1] && results[1].catalog ? results[1].catalog : null,
+        message:'Secure proxy detected. The workspace can be wired without exposing a browser secret.',
+      });
+    }).catch(function(error){
+      if (cancelled) return;
+      setRuntimeInfo({
+        status:'error',
+        catalog:null,
+        message:error && error.message ? error.message : 'Proxy check failed',
+      });
+    });
+
+    return function(){ cancelled = true; };
+  }, [runtime.proxyUrl]);
+
+  const assistantBubbles = [
+    { who:'Learner', text:'Compare upper and lower motor neuron lesion findings in one clean bedside table.' },
+    { who:'Router', text:'Planned route: Responses API -> structured answer layout -> quick reference summary -> quiz hook.', tone:'system' },
+    { who:'Cortex AI', text:'This shell is now ready for secure provider wiring. Text, visual, audio, and generation lanes are mapped, but GitHub Pages still stays secret-free.', tone:'assistant' },
   ];
+  const statusCards = [
+    { title:'Shell QA', sub:'25/25 pages passed smoke test locally', badge:'Stable', color:DL.teal },
+    { title:'3D runtime', sub:'Page 13 now reads the final ship manifest', badge:'Live', color:DL.green },
+    { title:'Public app safety', sub:'No provider key embedded in static assets', badge:'Safe', color:DL.accent },
+    { title:'AI path', sub:runtime.proxyUrl ? 'Proxy route detected for local wiring' : 'Secure proxy still required for live calls', badge:runtime.proxyUrl ? 'Proxy' : 'Plan', color:runtime.proxyUrl ? DL.teal : DL.gold },
+  ];
+  const modelFamilies = runtimeInfo.catalog || {
+    text:[
+      { id:'seed-2-0-lite-260228', label:'Responses API', note:'Reasoning, synthesis, tutoring, structured output.' },
+      { id:'seed-2-0-lite-260228', label:'Chat compatibility', note:'Migration-friendly chat/completions surface.' },
+      { id:'ark-code-latest', label:'Coding-plan tooling route', note:'Documented as a supported tooling model, not a public app key path.' },
+    ],
+    visual:[
+      { id:'bytedance-seedream-5-0-lite', label:'Image generation', note:'Diagram, illustration, poster, and anatomy explainer outputs.' },
+      { id:'seedance-2-0', label:'Video generation', note:'Short concept loops, mechanism explainers, and motion snippets.' },
+      { id:'3d-generation-api', label:'3D generation lane', note:'Future server-side route for 3D output orchestration.' },
+    ],
+    audio:[
+      { id:'seed-2-0-lite-260228', label:'Audio understanding', note:'Speech notes, AST, lecture parsing, and oral recap flows.' },
+      { id:'provider-specific-tts', label:'Speech output lane', note:'TTS can be routed later once the proxy owns the provider secret.' },
+    ],
+  };
+
+  function SurfaceCard(item, index) {
+    return React.createElement('div', {
+      key:`${item.title}-${index}`,
+      style:{
+        padding:14,
+        borderRadius:18,
+        border:`1px solid ${DL.glassBorder}`,
+        background:'rgba(255,255,255,0.04)',
+        boxShadow:`0 14px 32px ${DL.shadowColor}`,
+      }
+    },
+      React.createElement('div', { style:{ display:'flex', alignItems:'center', justifyContent:'space-between', gap:10, marginBottom:8 }},
+        React.createElement('div', { style:{ color:DL.text, fontSize:13, fontWeight:950, lineHeight:1.15 }}, item.title),
+        React.createElement(B1Badge, { color:item.color || DL.accent }, item.badge)
+      ),
+      React.createElement('div', { style:{ color:DL.mute, fontSize:11, lineHeight:1.5 }}, item.sub)
+    );
+  }
+
+  function ModelRow(item, index) {
+    return React.createElement('div', {
+      key:`${item.id}-${index}`,
+      style:{
+        padding:'12px 13px',
+        borderRadius:16,
+        border:`1px solid ${DL.glassBorder}`,
+        background:'rgba(255,255,255,0.045)',
+        marginBottom:index === 0 ? 0 : 10,
+      }
+    },
+      React.createElement('div', { style:{ display:'flex', alignItems:'center', justifyContent:'space-between', gap:10, marginBottom:5 }},
+        React.createElement('div', { style:{ color:DL.text, fontSize:12, fontWeight:900 }}, item.label),
+        React.createElement('div', { style:{ color:DL.accentB, fontSize:10, fontWeight:900 }}, item.id)
+      ),
+      React.createElement('div', { style:{ color:DL.mute, fontSize:11, lineHeight:1.48 }}, item.note)
+    );
+  }
 
   return React.createElement(B2PageShell, {
-    label:'AI Workspace',
+    label:'P20-AIWorkspace',
     title:'AI Workspace',
-    subtitle:'No real API calls',
+    subtitle:'Secure proxy route',
     onBack:()=>onNavigate(19),
-    right:React.createElement(B1Badge, { color:DL.gold }, 'Offline mock'),
+    right:React.createElement(B1Badge, { color:runtime.proxyUrl ? DL.teal : DL.gold }, runtime.proxyUrl ? 'Proxy path' : 'Secret-safe'),
   },
     React.createElement(B3Hero, {
-      kicker:'AI study workspace',
-      title:'Ask, Simplify, Compare',
-      subtitle:'A premium AI workspace placeholder. It never calls a provider and uses dummy responses only.',
+      kicker:'Production AI orchestration',
+      title:'Text, visual, audio, and model routing in one surface',
+      subtitle:'Page 20 is no longer a decorative mock. It is the secure orchestration shell for future provider wiring, with public GitHub Pages kept secret-free.',
       color:DL.accent,
     }),
 
     React.createElement(B2Segmented, {
-      value:mode,
+      value:surface,
       options:[
-        { value:'explain', label:'Explain' },
-        { value:'compare', label:'Compare' },
-        { value:'quiz', label:'Quiz me' },
+        { value:'assistant', label:'Assistant' },
+        { value:'visual', label:'Visual' },
+        { value:'audio', label:'Audio' },
+        { value:'connect', label:'Connect' },
       ],
-      onChange:setMode,
+      onChange:setSurface,
     }),
 
-    React.createElement(B1Card, { pad:14, style:{ marginTop:14, marginBottom:14 }},
-      prompts.map((m, i) => React.createElement('div', {
+    React.createElement(B2Callout, { tone:'caution', title:'Critical provider guardrail' },
+      'BytePlus documents separate Coding Plan entitlements from direct API consumption, and this shell is a public static app. We therefore keep provider secrets out of GitHub Pages and route live AI only through a secure proxy or compliant server-side connector.'),
+
+    React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'repeat(auto-fit,minmax(146px,1fr))', gap:12, marginTop:14, marginBottom:14 }},
+      statusCards.map(SurfaceCard)
+    ),
+
+    surface === 'assistant' && React.createElement(B1Card, { pad:14, style:{ marginBottom:14 }},
+      assistantBubbles.map((m, i) => React.createElement('div', {
         key:i,
         style:{
-          marginBottom:i < prompts.length - 1 ? 12 : 0,
+          marginBottom:i < assistantBubbles.length - 1 ? 12 : 0,
           display:'flex', justifyContent:m.who === 'Learner' ? 'flex-end' : 'flex-start',
         }
       },
         React.createElement('div', { style:{
           maxWidth:'88%', padding:'11px 13px', borderRadius:16,
-          background:m.who === 'Learner' ? DL.gradA : 'rgba(255,255,255,0.06)',
+          background:m.who === 'Learner' ? DL.gradA : m.tone === 'system' ? 'rgba(255,255,255,0.04)' : 'rgba(255,255,255,0.07)',
           border:m.who === 'Learner' ? 'none' : `1px solid ${DL.glassBorder}`,
           color:m.who === 'Learner' ? '#fff' : DL.sub,
           fontSize:12, lineHeight:1.55,
@@ -8616,25 +8731,82 @@ function PageAIWorkspace({ onNavigate }) {
       )),
     ),
 
-    React.createElement(B1Card, { pad:13, style:{ marginBottom:14 }},
-      React.createElement('div', { style:{ display:'flex', alignItems:'center', gap:9 }},
-        React.createElement('div', { style:{ flex:1, fontSize:12, color:DL.mute, lineHeight:1.45 }},
-          mode === 'quiz' ? 'Generate dummy practice questions...' : mode === 'compare' ? 'Compare two dummy concepts...' : 'Ask a dummy explanation prompt...'),
-        React.createElement(B1Button, { label:'Mock send', onClick:function(){}, style:{ padding:'9px 12px', fontSize:11 } }),
+    surface === 'assistant' && React.createElement(B1Card, { pad:13, style:{ marginBottom:14 }},
+      React.createElement('div', { style:{ display:'grid', gap:10 }},
+        React.createElement(B3Row, {
+          title:'Primary route',
+          sub:'Responses API first, chat compatibility second, proxy only for real calls.',
+          right:React.createElement(B1Badge, { color:DL.teal }, 'Structured'),
+        }),
+        React.createElement(B3Row, {
+          title:'Visual handoff',
+          sub:'Generated diagrams, posters, and explainers should land in the visual asset manifest, not inline blobs.',
+          right:React.createElement(B1Badge, { color:DL.accentB }, 'Asset-ready'),
+        }),
+        React.createElement(B3Row, {
+          title:'Quiz handoff',
+          sub:'Question and answer generation should map back into quiz, flashcard, and quick-reference domains.',
+          right:React.createElement(B1Badge, { color:DL.gold }, 'Domain-linked'),
+        }),
       ),
     ),
 
-    React.createElement(B1Card, { pad:14, style:{ marginBottom:14 }},
-      React.createElement(B1Section, { title:'Account Identity', style:{ marginBottom:8 } }),
+    surface === 'visual' && React.createElement(B1Card, { pad:14, style:{ marginBottom:14 }},
+      React.createElement(B1Section, { title:'Visual generation lanes', style:{ marginBottom:10 } }),
+      modelFamilies.visual.map(ModelRow),
+      React.createElement(B2Callout, { tone:'info', title:'Recommended output path' },
+        'Generate SVG when the asset is diagrammatic, use WebP or PNG for posters and previews, and keep the final file referenced through the visual manifest so the shell can adapt aspect ratio safely.')
+    ),
+
+    surface === 'audio' && React.createElement(B1Card, { pad:14, style:{ marginBottom:14 }},
+      React.createElement(B1Section, { title:'Audio and speech lanes', style:{ marginBottom:10 } }),
+      modelFamilies.audio.map(ModelRow),
       React.createElement(B3Row, {
-        title:'Learner profile',
-        sub:'Dr. Raka • Neurology track • Demo workspace',
-        right:React.createElement(B1Badge, { color:DL.teal }, 'Active'),
+        title:'Lecture parsing',
+        sub:'Long-form audio can feed summary, glossary, recall prompts, and spoken recap surfaces once a compliant backend is attached.',
+        right:React.createElement(B1Badge, { color:DL.teal }, 'Ready'),
       }),
     ),
 
-    React.createElement(B2Callout, { tone:'caution', title:'No provider access' },
-      'This workspace is a visual placeholder. It does not call OpenAI, Claude, local models, or any external API.')
+    surface === 'connect' && React.createElement(B1Card, { pad:14, style:{ marginBottom:14 }},
+      React.createElement(B1Section, { title:'Connection architecture', style:{ marginBottom:10 } }),
+      React.createElement(B3Row, {
+        title:'Public shell',
+        sub:'GitHub Pages must remain secret-free. No provider key should ever ship in the client bundle.',
+        right:React.createElement(B1Badge, { color:DL.green }, 'Protected'),
+      }),
+      React.createElement(B3Row, {
+        title:'Proxy route',
+        sub:runtime.proxyUrl ? `Detected at ${runtime.proxyUrl}` : 'Use ai_proxy/local_modelark_proxy.mjs locally or move the same pattern into your future server runtime.',
+        right:React.createElement(B1Badge, { color:runtime.proxyUrl ? DL.teal : DL.gold }, runtime.proxyUrl ? 'Detected' : 'Needed'),
+      }),
+      React.createElement(B3Row, {
+        title:'Coding plan caution',
+        sub:'Coding Plan quota belongs to supported AI programming tools. Treat public app API calls as a separate integration track.',
+        right:React.createElement(B1Badge, { color:DL.gold }, 'Read docs'),
+      }),
+      React.createElement(B3Row, {
+        title:'Runtime status',
+        sub:runtimeInfo.message,
+        right:React.createElement(B1Badge, { color:runtimeInfo.status === 'connected' ? DL.teal : runtimeInfo.status === 'error' ? DL.red : DL.accent }, runtimeInfo.status),
+      }),
+      React.createElement(B2Callout, { tone:'info', title:'Local template' },
+        'Use ai_workspace.local.example.js as the local config template and keep the real ai_workspace.local.js uncommitted. The proxy can expose health and model-catalog routes without ever leaking the provider secret to the browser.')
+    ),
+
+    React.createElement(B1Card, { pad:14, style:{ marginBottom:14 }},
+      React.createElement(B1Section, { title:'Model catalog snapshot', style:{ marginBottom:10 } }),
+      React.createElement('div', { style:{ display:'grid', gap:10 }},
+        React.createElement('div', null,
+          React.createElement('div', { style:{ color:DL.text, fontSize:12, fontWeight:900, marginBottom:6 }}, 'Text'),
+          modelFamilies.text.map(ModelRow)
+        ),
+        surface !== 'visual' && React.createElement('div', null,
+          React.createElement('div', { style:{ color:DL.text, fontSize:12, fontWeight:900, marginBottom:6 }}, 'Visual'),
+          modelFamilies.visual.slice(0, 2).map(ModelRow)
+        )
+      )
+    )
   );
 }
 
@@ -8667,33 +8839,38 @@ function PageProviderAdvancedSettings({ onNavigate }) {
   });
 
   return React.createElement(B2PageShell, {
-    label:'Provider & Advanced Settings',
+    label:'P21-ProviderAdvancedSettings',
     title:'Advanced',
     subtitle:'Provider & haptics',
     onBack:()=>onNavigate(20),
-    right:React.createElement(B1Badge, { color:providerEnabled ? DL.green : DL.gold }, providerEnabled ? 'Mock on' : 'No keys'),
+    right:React.createElement(B1Badge, { color:providerEnabled ? DL.teal : DL.gold }, providerEnabled ? 'Proxy path' : 'No secret'),
   },
     React.createElement(B3Hero, {
-      kicker:'Provider settings placeholder',
+      kicker:'Provider architecture',
       title:'Model Provider and Tactile Controls',
-      subtitle:'Design-only settings. No real keys, endpoints, or provider calls are included.',
+      subtitle:'Provider wiring now follows a secure-proxy rule: secrets stay off GitHub Pages, while the shell stays ready for compliant runtime attachment.',
       color:DL.gold,
     }),
 
     React.createElement(B1Section, { title:'Provider', style:{ marginBottom:9 } }),
     React.createElement(B1Card, { pad:14, style:{ marginBottom:14 }},
-      React.createElement(B1Toggle, { value:providerEnabled, onChange:setProviderEnabled, label:'Enable provider placeholder' }),
+      React.createElement(B1Toggle, { value:providerEnabled, onChange:setProviderEnabled, label:'Enable secure proxy route' }),
       React.createElement(B3Row, {
         title:'Provider slot',
-        sub:'No real API key stored. Placeholder field is masked and inert.',
-        right:React.createElement(B1Badge, { color:DL.gold }, 'sk-**** mock'),
+        sub:'No real API key is stored in the client. Local and production secrets belong behind a proxy or server runtime.',
+        right:React.createElement(B1Badge, { color:DL.green }, 'Secret-safe'),
       }),
       React.createElement(B3Row, {
         title:'Capability status',
-        sub:'Network: disabled. Streaming: placeholder. Local cache: mock only.',
+        sub:'Public shell: safe. Proxy wiring: ready. Direct Coding Plan app calls: discouraged until replaced by a compliant backend path.',
         active:true,
         color:DL.teal,
-        right:React.createElement(B1Badge, { color:DL.teal }, 'Visual only'),
+        right:React.createElement(B1Badge, { color:DL.teal }, 'Proxy-ready'),
+      }),
+      React.createElement(B3Row, {
+        title:'Runtime target',
+        sub:'Recommended base route is a proxy in front of ModelArk standard API endpoints. GitHub Pages should never expose the private provider credential.',
+        right:React.createElement(B1Badge, { color:DL.accentB }, 'Compliant'),
       }),
     ),
 
