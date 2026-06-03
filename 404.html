@@ -4287,7 +4287,7 @@ function CortexSidebarFab({ open = false, onClick, onPointerDown, theme, count =
   );
 }
 
-function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme }) {
+function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme, page }) {
   const compact = mode !== 'desktop';
   const [fabOpen, setFabOpen] = React.useState(false);
   const [fabPos, setFabPos] = React.useState(null);
@@ -4363,6 +4363,10 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
       if (created && el && el.parentNode) el.parentNode.removeChild(el);
     };
   }, []);
+
+  React.useEffect(() => {
+    setFabOpen(false);
+  }, [page]);
 
   const onFabPointerDown = React.useCallback((event) => {
     if (event.button !== 0) return;
@@ -8928,6 +8932,7 @@ function CortexLibraryShell() {
       mode,
       surfaceId,
       theme,
+      page,
     }),
     fabPortalTarget
       ? ReactDOM.createPortal(
