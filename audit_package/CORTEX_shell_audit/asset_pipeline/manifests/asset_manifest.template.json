@@ -1,0 +1,22 @@
+{
+  "models": [
+    {
+      "id": "asset_id",
+      "title": "Asset title",
+      "domain": "domain_id",
+      "source_name": "source_name",
+      "source_page": "https://example.com",
+      "license": "license text",
+      "attribution": "author or organization",
+      "src": "assets/models/domain_id/asset_id.glb",
+      "ios_src": "assets/models/domain_id/asset_id.usdz",
+      "poster": "assets/posters/domain_id/asset_id.webp",
+      "category": "category",
+      "page_targets": [13],
+      "lazy": true,
+      "hotspots": [],
+      "linked_content_ids": []
+    }
+  ]
+}
+

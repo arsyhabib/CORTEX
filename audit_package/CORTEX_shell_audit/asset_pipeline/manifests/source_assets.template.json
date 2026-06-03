@@ -1,0 +1,56 @@
+{
+  "assets": [
+    {
+      "id": "nih_brain_001",
+      "source_name": "NIH 3D",
+      "source_page": "https://3d.nih.gov/",
+      "download_url": "",
+      "license": "check_source",
+      "attribution": "NIH 3D",
+      "category": "brain",
+      "title": "Brain anatomy model",
+      "file_type": "glb",
+      "preferred_runtime_format": "glb",
+      "poster_required": true,
+      "convert_to_glb": false,
+      "target_folder": "brain",
+      "page_targets": [13],
+      "notes": "Fill the direct asset download URL before running the downloader."
+    },
+    {
+      "id": "bodyparts3d_skeleton_001",
+      "source_name": "BodyParts3D",
+      "source_page": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/download.html",
+      "download_url": "",
+      "license": "CC BY 4.0",
+      "attribution": "BodyParts3D / DBCLS",
+      "category": "skeleton",
+      "title": "Skeleton anatomy model",
+      "file_type": "zip",
+      "preferred_runtime_format": "glb",
+      "poster_required": true,
+      "convert_to_glb": true,
+      "target_folder": "skeleton",
+      "page_targets": [13],
+      "notes": "Source may provide archive files that need extraction and conversion."
+    },
+    {
+      "id": "zanatomy_eye_001",
+      "source_name": "Z-Anatomy",
+      "source_page": "https://github.com/Z-Anatomy",
+      "download_url": "",
+      "license": "CC BY-SA 4.0",
+      "attribution": "Z-Anatomy",
+      "category": "eye",
+      "title": "Eye anatomy model",
+      "file_type": "glb",
+      "preferred_runtime_format": "glb",
+      "poster_required": true,
+      "convert_to_glb": false,
+      "target_folder": "eye",
+      "page_targets": [13],
+      "notes": "Prefer direct release assets or repo release downloads."
+    }
+  ]
+}
+
