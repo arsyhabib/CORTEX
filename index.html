@@ -836,15 +836,15 @@
   text-shadow:0 1px 8px rgba(0,0,0,0.45);
 }
 .cortex-sidebar-fab[data-open="true"] {
-  opacity: 0;
-  transform: translateY(14px) scale(0.82);
-  pointer-events: none;
+  opacity: 1;
+  transform: translateY(-2px) scale(0.98);
+  pointer-events: auto;
   box-shadow:
-    0 22px 42px rgba(3, 10, 30, 0.48),
+    0 22px 42px rgba(3, 10, 30, 0.52),
     0 0 0 1px rgba(255,255,255,0.08) inset;
 }
 .cortex-sidebar-fab[data-open="true"]::after {
-  opacity:0.52;
+  opacity:0.42;
 }
 .cortex-sidebar-shell {
   min-height: 0;
@@ -8638,7 +8638,7 @@ function CortexLibraryShell() {
         opacity:1,
         visibility:'visible',
         pointerEvents:'auto',
-        zIndex:9999,
+        zIndex:2147483647,
         transform:'translate3d(0,0,0)',
       }
     }),
