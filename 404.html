@@ -4439,18 +4439,20 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
     backdropFilter:'blur(18px) saturate(150%)',
     WebkitBackdropFilter:'blur(18px) saturate(150%)',
     boxShadow:`0 26px 56px ${currentTheme.colors.shadowColor}`,
-    overflowY:'auto',
-    overflowX:'hidden',
+    overflow:'hidden',
     overscrollBehavior:'contain',
     pointerEvents:'auto',
+    display:'flex',
+    flexDirection:'column',
   }},
     React.createElement('div', { style:{
+      flex:'0 0 auto',
       position:'sticky',
       top:0,
       zIndex:3,
-      padding:'2px 0 10px',
-      marginBottom:6,
-      background:'linear-gradient(180deg, rgba(12,12,32,0.98) 0%, rgba(12,12,32,0.82) 100%)',
+      marginBottom:8,
+      paddingBottom:10,
+      background:'linear-gradient(180deg, rgba(12,12,32,0.98) 0%, rgba(12,12,32,0.86) 100%)',
       backdropFilter:'blur(18px) saturate(165%)',
       WebkitBackdropFilter:'blur(18px) saturate(165%)',
     }},
@@ -4524,7 +4526,7 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
         )
       )
     ),
-    React.createElement('div', { style:{ display:'grid', gap:8, minHeight:'100%', alignContent:'start' } },
+    React.createElement('div', { style:{ flex:'1 1 auto', minHeight:0, overflowY:'auto', overflowX:'hidden', display:'grid', gap:8, alignContent:'start', paddingRight:2 } },
       surfaceGroups.map(group => {
         const expanded = fabAccordionGroup === group.group;
         return React.createElement('div', {
