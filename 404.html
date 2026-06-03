@@ -4539,13 +4539,70 @@ function CortexFabGridChip({ title, sub, kicker, active, onClick, accent, muted 
   );
 }
 
+function CortexFabHubPanel({ title, accent, onBack, children }) {
+  return React.createElement('div', {
+    className:'cortex-fab-accordion-panel cortex-fab-grid-panel',
+    style:{
+      padding:'10px 8px 8px',
+      borderRadius:18,
+      border:`1px solid ${accent}33`,
+      background:'linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02))',
+      display:'grid',
+      gap:8,
+    }
+  },
+    React.createElement('div', { style:{
+      display:'flex',
+      alignItems:'center',
+      justifyContent:'space-between',
+      gap:8,
+      padding:'0 4px 2px',
+    }},
+      React.createElement('div', null,
+        React.createElement('div', { style:{
+          color:accent,
+          fontSize:10,
+          fontWeight:900,
+          letterSpacing:1.1,
+          textTransform:'uppercase',
+        }}, 'Expanded'),
+        React.createElement('div', { style:{
+          color:'var(--cortex-theme-text, #fff)',
+          fontSize:14,
+          fontWeight:900,
+          lineHeight:1.08,
+          marginTop:2,
+        }}, title)
+      ),
+      React.createElement('button', {
+        type:'button',
+        onClick:onBack,
+        className:'cortex-motion-press',
+        style:{
+          border:'1px solid rgba(255,255,255,0.14)',
+          background:'rgba(255,255,255,0.04)',
+          color:'var(--cortex-theme-text, #fff)',
+          borderRadius:14,
+          minHeight:34,
+          minWidth:58,
+          padding:'0 10px',
+          cursor:'pointer',
+          fontSize:11,
+          fontWeight:900,
+        }
+      }, 'Back')
+    ),
+    children
+  );
+}
+
 function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme, page }) {
   const compact = mode !== 'desktop';
   const allowFabDrag = mode === 'desktop';
   const [fabOpen, setFabOpen] = React.useState(false);
   const [fabPos, setFabPos] = React.useState(null);
   const [fabGroup, setFabGroup] = React.useState('Foundation');
-  const [fabAccordionGroup, setFabAccordionGroup] = React.useState('Foundation');
+  const [fabActiveHub, setFabActiveHub] = React.useState(null);
   const [fabPortalTarget, setFabPortalTarget] = React.useState(null);
   const fabDragRef = React.useRef({ active:false, moved:false, sx:0, sy:0, ox:0, oy:0 });
   const currentTheme = theme || cortexResolveTheme('neural');
@@ -4640,6 +4697,7 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
 
   React.useEffect(() => {
     setFabOpen(false);
+    setFabActiveHub(null);
   }, [page]);
 
   React.useEffect(() => {
@@ -4805,25 +4863,22 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
       )
     ),
     React.createElement('div', { style:{ flex:'1 1 auto', minHeight:0, overflowY:'auto', overflowX:'hidden', display:'grid', gap:8, alignContent:'start', paddingRight:2 } },
-      React.createElement('div', { className:'cortex-fab-grid' },
-        hubGroups.map(group => {
-          const expanded = fabAccordionGroup === group.id;
-          return React.createElement(CortexFabGridChip, {
-            key:group.id,
-            title:group.title,
-            sub:group.sub,
-            kicker:group.kicker,
-            active:expanded,
-            accent:currentTheme.colors.accent1,
-            muted:DL.mute,
-            onClick:()=>{
-              if (group.type === 'pages') setFabGroup(group.id);
-              setFabAccordionGroup(prev => prev === group.id ? null : group.id);
-            },
-          });
-        })
+      !fabActiveHub && React.createElement('div', { className:'cortex-fab-grid' },
+        hubGroups.map(group => React.createElement(CortexFabGridChip, {
+          key:group.id,
+          title:group.title,
+          sub:group.sub,
+          kicker:group.kicker,
+          active:false,
+          accent:currentTheme.colors.accent1,
+          muted:DL.mute,
+          onClick:()=>{
+            if (group.type === 'pages') setFabGroup(group.id);
+            setFabActiveHub(group.id);
+          },
+        }))
       ),
-      fabAccordionGroup && React.createElement('div', {
+      fabActiveHub && React.createElement('div', {
         className:'cortex-fab-accordion-panel-wrap',
         'data-open':'true',
         style:{
@@ -4832,21 +4887,12 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
           marginTop:2,
         }
       },
-        React.createElement('div', { className:'cortex-fab-accordion-panel cortex-fab-grid-panel', style:{
-          padding:'10px 8px 8px',
-          borderRadius:18,
-          border:`1px solid ${currentTheme.colors.accent1}33`,
-          background:'linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02))',
-        } },
-          React.createElement('div', { style:{
-            color:currentTheme.colors.accent1,
-            fontSize:10,
-            fontWeight:900,
-            letterSpacing:1.1,
-            textTransform:'uppercase',
-            padding:'0 4px 4px',
-          }}, fabAccordionGroup),
-          fabAccordionGroup === 'Features'
+        React.createElement(CortexFabHubPanel, {
+          title:fabActiveHub,
+          accent:currentTheme.colors.accent1,
+          onBack:()=>setFabActiveHub(null),
+        },
+          fabActiveHub === 'Features'
             ? CORTEX_FAB_FEATURES.map(item => React.createElement(CortexAtomPageButton, {
                 key:item.id,
                 page:item.page,
@@ -4854,6 +4900,8 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
                 sub:item.sub,
                 theme:currentTheme,
                 onClick:()=>{
+                  setFabOpen(false);
+                  setFabActiveHub(null);
                   if (item.surfaceId && onSurfaceChange) onSurfaceChange(item.surfaceId);
                   onNavigate(item.page);
                 },
@@ -4862,17 +4910,19 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
                 showKicker:false,
                 style:{
                   width:'100%',
-                  marginTop:8,
+                  marginTop:4,
                   padding:'10px 12px',
                 }
               }))
-            : (groupedSurfaces[fabAccordionGroup] || []).map(item => React.createElement(CortexAtomPageButton, {
+            : (groupedSurfaces[fabActiveHub] || []).map(item => React.createElement(CortexAtomPageButton, {
                 key:item.id,
                 page:item.id,
                 title:item.label,
                 sub:null,
                 theme:currentTheme,
                 onClick:()=>{
+                  setFabOpen(false);
+                  setFabActiveHub(null);
                   onSurfaceChange && onSurfaceChange(item.id);
                   onNavigate(item.id);
                 },
@@ -4881,7 +4931,7 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
                 showKicker:false,
                 style:{
                   width:'100%',
-                  marginTop:8,
+                  marginTop:4,
                   padding:'10px 12px',
                 }
               }))
@@ -8402,7 +8452,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
   const [fabOpen, setFabOpen] = React.useState(false);
   const [fabPos, setFabPos] = React.useState(null);
   const [fabGroup, setFabGroup] = React.useState('Foundation');
-  const [fabAccordionGroup, setFabAccordionGroup] = React.useState('Foundation');
+  const [fabActiveHub, setFabActiveHub] = React.useState(null);
   const fabDragRef = React.useRef({ active:false, moved:false, sx:0, sy:0, ox:0, oy:0 });
   const getFabBasePosition = React.useCallback(() => ({
     x: Math.max(16, window.innerWidth - (compact ? 158 : 176)),
@@ -8736,25 +8786,22 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
           overscrollBehavior:'contain',
         }},
           React.createElement('div', { style:{ display:'grid', gap:8, minHeight:'100%', alignContent:'start' } },
-            React.createElement('div', { className:'cortex-fab-grid' },
-              hubGroups.map(group => {
-                const expanded = fabAccordionGroup === group.id;
-                return React.createElement(CortexFabGridChip, {
-                  key:group.id,
-                  title:group.title,
-                  sub:group.sub,
-                  kicker:group.kicker,
-                  active:expanded,
-                  accent:currentTheme.colors.accent1,
-                  muted:DL.mute,
-                  onClick:()=>{
-                    if (group.type === 'pages') setFabGroup(group.id);
-                    setFabAccordionGroup(prev => prev === group.id ? null : group.id);
-                  },
-                });
-              })
+            !fabActiveHub && React.createElement('div', { className:'cortex-fab-grid' },
+              hubGroups.map(group => React.createElement(CortexFabGridChip, {
+                key:group.id,
+                title:group.title,
+                sub:group.sub,
+                kicker:group.kicker,
+                active:false,
+                accent:currentTheme.colors.accent1,
+                muted:DL.mute,
+                onClick:()=>{
+                  if (group.type === 'pages') setFabGroup(group.id);
+                  setFabActiveHub(group.id);
+                },
+              }))
             ),
-            fabAccordionGroup && React.createElement('div', {
+            fabActiveHub && React.createElement('div', {
               className:'cortex-fab-accordion-panel-wrap',
               'data-open':'true',
               style:{
@@ -8763,21 +8810,12 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
                 marginTop:2,
               }
             },
-              React.createElement('div', { className:'cortex-fab-accordion-panel cortex-fab-grid-panel', style:{
-                padding:'10px 8px 8px',
-                borderRadius:18,
-                border:`1px solid ${currentTheme.colors.accent1}33`,
-                background:'linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02))',
-              } },
-                React.createElement('div', { style:{
-                  color:currentTheme.colors.accent1,
-                  fontSize:10,
-                fontWeight:900,
-                letterSpacing:1.1,
-                textTransform:'uppercase',
-                padding:'0 4px 4px',
-              }}, fabAccordionGroup),
-                fabAccordionGroup === 'Features'
+              React.createElement(CortexFabHubPanel, {
+                title:fabActiveHub,
+                accent:currentTheme.colors.accent1,
+                onBack:()=>setFabActiveHub(null),
+              },
+                fabActiveHub === 'Features'
                   ? CORTEX_FAB_FEATURES.map(item => React.createElement(CortexAtomPageButton, {
                       key:item.id,
                       page:item.page,
@@ -8785,6 +8823,8 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
                       sub:item.sub,
                       theme:currentTheme,
                       onClick:()=>{
+                        setFabOpen(false);
+                        setFabActiveHub(null);
                         if (item.surfaceId && onSurfaceChange) onSurfaceChange(item.surfaceId);
                         onNavigate(item.page);
                       },
@@ -8793,17 +8833,19 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
                       showKicker:false,
                       style:{
                         width:'100%',
-                        marginTop:8,
+                        marginTop:4,
                         padding:'10px 12px',
                       }
                     }))
-                  : (groupedSurfaces[fabAccordionGroup] || []).map(item => React.createElement(CortexAtomPageButton, {
+                  : (groupedSurfaces[fabActiveHub] || []).map(item => React.createElement(CortexAtomPageButton, {
                       key:item.id,
                       page:item.id,
                       title:item.label,
                       sub:null,
                       theme:currentTheme,
                       onClick:()=>{
+                        setFabOpen(false);
+                        setFabActiveHub(null);
                         onSurfaceChange && onSurfaceChange(item.id);
                         onNavigate(item.id);
                       },
@@ -8812,7 +8854,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
                       showKicker:false,
                       style:{
                         width:'100%',
-                        marginTop:8,
+                        marginTop:4,
                         padding:'10px 12px',
                       }
                     }))
