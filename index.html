@@ -900,6 +900,27 @@
   0%, 100% { transform: translateY(0) scale(1); filter: saturate(1.05); }
   50% { transform: translateY(-1px) scale(1.04); filter: saturate(1.18); }
 }
+@keyframes cortex-fab-accordion-open {
+  0% { opacity: 0; transform: translateY(-8px) scale(0.985); filter: blur(1.5px); }
+  60% { opacity: 1; transform: translateY(1px) scale(1.006); filter: blur(0); }
+  100% { opacity: 1; transform: translateY(0) scale(1); filter: blur(0); }
+}
+.cortex-fab-accordion-panel {
+  animation: cortex-fab-accordion-open 520ms cubic-bezier(0.16, 1, 0.3, 1) backwards;
+  transform-origin: top center;
+}
+.cortex-fab-accordion-toggle {
+  transition:
+    transform 420ms cubic-bezier(0.16, 1, 0.3, 1),
+    color 220ms ease,
+    background-color 220ms ease,
+    border-color 220ms ease,
+    box-shadow 320ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.cortex-fab-accordion-toggle[data-open="true"] {
+  transform: translateY(-1px);
+  box-shadow: 0 14px 28px rgba(168,85,247,0.14), inset 0 1px 0 rgba(255,255,255,0.08);
+}
 .cortex-zoom-shell {
   font-size: calc(16px * var(--cortex-text-zoom, 1));
   line-height: 1.2;
@@ -8010,7 +8031,8 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
                     setFabGroup(group.group);
                     setFabAccordionGroup(prev => prev === group.group ? null : group.group);
                   },
-                  className:'cortex-motion-press',
+                  className:'cortex-motion-press cortex-fab-accordion-toggle',
+                  'data-open':String(expanded),
                   style:{
                     width:'100%',
                     display:'flex',
@@ -8026,12 +8048,11 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
                     cursor:'pointer',
                     textAlign:'left',
                   }
-                },
+                  },
                   React.createElement('span', null, group.group),
-                  React.createElement('span', { style:{ color:expanded ? currentTheme.colors.accent1 : DL.sub, fontSize:10 }}, `${group.items.length}`),
                   React.createElement('span', { style:{ color:expanded ? currentTheme.colors.accent1 : DL.mute, fontSize:11 }}, expanded ? '−' : '+')
                 ),
-                expanded && React.createElement('div', { style:{ padding:'0 8px 8px' } },
+                expanded && React.createElement('div', { className:'cortex-fab-accordion-panel', style:{ padding:'0 8px 8px' } },
                   group.items.map(item => React.createElement(CortexAtomPageButton, {
                     key:item.id,
                     page:item.id,
