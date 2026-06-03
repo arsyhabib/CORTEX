@@ -6027,12 +6027,18 @@ function PageSearch({ onNavigate }) {
    PAGE 7 — SETTINGS BASIC
    Clean settings with haptic/tactile controls
    ═══════════════════════════════════════════ */
-function PageSettings({ onNavigate, themeId: themeIdProp, theme: themeProp, onThemeChange }) {
+function PageSettings({ onNavigate, themeId: themeIdProp, theme: themeProp, onThemeChange, highlightTone: highlightToneProp, onHighlightToneChange }) {
   const themeKeys = ['neural', 'aurora', 'gold', 'neon', 'bloom', 'monochrome'];
   const [localThemeId, setLocalThemeId] = React.useState('neural');
   const currentThemeId = themeIdProp || localThemeId;
   const currentTheme = themeProp || THEMES[currentThemeId] || THEMES.neural;
   const setThemeId = onThemeChange || setLocalThemeId;
+  const [localHighlightTone, setLocalHighlightTone] = React.useState('theme');
+  const currentHighlightTone = highlightToneProp || localHighlightTone;
+  const setHighlightTone = onHighlightToneChange || setLocalHighlightTone;
+  const highlightColor = currentHighlightTone === 'stabilo'
+    ? '#ffd84f'
+    : currentTheme.colors.accent1;
   const [darkMode, setDarkMode] = React.useState(true);
   const [haptic, setHaptic] = React.useState(true);
   const [hapticIntensity, setHapticIntensity] = React.useState(70);
@@ -6054,6 +6060,12 @@ function PageSettings({ onNavigate, themeId: themeIdProp, theme: themeProp, onTh
       localStorage.setItem('cortex.accountLoggedIn', accountLoggedIn ? '1' : '0');
     } catch (err) {}
   }, [accountLoggedIn]);
+
+  React.useEffect(() => {
+    try {
+      localStorage.setItem('cortex.highlightTone', currentHighlightTone);
+    } catch (err) {}
+  }, [currentHighlightTone]);
 
   const SettingsRow = ({ icon, label, right, onClick, sub }) =>
     React.createElement('div', {
@@ -6170,8 +6182,50 @@ function PageSettings({ onNavigate, themeId: themeIdProp, theme: themeProp, onTh
             );
           })
         ),
-        React.createElement('div', { style:{ fontSize:10, color:DL.mute, marginTop:8, lineHeight:1.45 }},
+          React.createElement('div', { style:{ fontSize:10, color:DL.mute, marginTop:8, lineHeight:1.45 }},
           'Tema ini mengalir ke seluruh 24 halaman: warna accent, glass, bayangan, surface, dan nuansa shell ikut berubah serentak.'
+        ),
+      ),
+      React.createElement(B1Card, { pad:14, style:{ margin:'0 0 12px', background:'rgba(255,255,255,0.045)' }},
+        React.createElement(B2Kicker, { color:highlightColor }, 'Highlight'),
+        React.createElement('div', { style:{ display:'flex', justifyContent:'space-between', gap:12, alignItems:'start', marginBottom:10 }},
+          React.createElement('div', { style:{ minWidth:0, flex:1 }},
+            React.createElement('div', { style:{ fontSize:15, fontWeight:850, color:DL.text, lineHeight:1.2 }}, 'Warna sorotan teks'),
+            React.createElement('div', { style:{ fontSize:11, color:DL.sub, marginTop:4, lineHeight:1.45 }}, 'Pilih warna highlight saat user menyorot teks di halaman mana pun.'),
+          ),
+          React.createElement(B1Badge, { color:highlightColor }, currentHighlightTone === 'stabilo' ? 'STABILO' : 'THEME'),
+        ),
+        React.createElement(B2Segmented, {
+          value:currentHighlightTone,
+          onChange:setHighlightTone,
+          options:[
+            { value:'theme', label:'Tema' },
+            { value:'stabilo', label:'Stabilo' },
+          ],
+        }),
+        React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'1fr 1fr', gap:8, marginTop:10 }},
+          [
+            { label:'Tema aktif', swatch:currentTheme.colors.accent1, sub:'mengikuti palet shell' },
+            { label:'Stabilo metalik', swatch:'linear-gradient(135deg, #fff2a6, #ffd84f, #f5c400)', sub:'kuning terang premium' },
+          ].map(item => React.createElement('div', {
+            key:item.label,
+            style:{
+              padding:'10px 11px',
+              borderRadius:14,
+              background:'rgba(255,255,255,0.04)',
+              border:`1px solid ${DL.glassBorder}`,
+            }
+          },
+            React.createElement('div', { style:{ display:'flex', alignItems:'center', gap:8, marginBottom:5 }},
+              React.createElement('span', { style:{
+                width:14, height:14, borderRadius:999,
+                background:item.swatch,
+                boxShadow:`0 0 12px ${item.label === 'Stabilo metalik' ? 'rgba(255,216,79,0.52)' : currentTheme.colors.shadowColor}`,
+              }}),
+              React.createElement('div', { style:{ fontSize:11, color:DL.text, fontWeight:800 }}, item.label),
+            ),
+            React.createElement('div', { style:{ fontSize:10, color:DL.mute, lineHeight:1.45 }}, item.sub),
+          ))
         ),
       ),
       React.createElement(SettingsRow, {
@@ -6799,7 +6853,7 @@ function cortexWrapRangeHighlight(range, accent) {
   return true;
 }
 
-function CortexSelectionToolbar({ selection, theme, onBookmark, onHighlight, onClose }) {
+function CortexSelectionToolbar({ selection, theme, highlightColor, onBookmark, onHighlight, onClose }) {
   if (!selection) return null;
   const bubbleWidth = 126;
   const bubbleHeight = 42;
@@ -6808,7 +6862,7 @@ function CortexSelectionToolbar({ selection, theme, onBookmark, onHighlight, onC
   const fitBelow = belowTop + bubbleHeight + 12 <= window.innerHeight;
   const top = fitBelow ? belowTop : Math.max(12, aboveTop);
   const left = cortexClamp(selection.rect.left + (selection.rect.width / 2) - (bubbleWidth / 2), 12, window.innerWidth - bubbleWidth - 12);
-  const accentA = theme?.colors?.accent1 || DL.accent;
+  const accentA = highlightColor || theme?.colors?.accent1 || DL.accent;
   const accentB = theme?.colors?.accent2 || DL.teal;
 
   return ReactDOM.createPortal(
@@ -6880,7 +6934,9 @@ function CortexSelectionToolbar({ selection, theme, onBookmark, onHighlight, onC
             flex:'0 0 auto',
             borderRadius:12,
             border:`1px solid ${accentA}55`,
-            background:`linear-gradient(145deg, ${accentA}2a, rgba(255,255,255,0.06))`,
+            background: accentA === '#ffd84f'
+              ? 'linear-gradient(145deg, rgba(255,242,166,0.42), rgba(255,216,79,0.26), rgba(245,196,0,0.18))'
+              : `linear-gradient(145deg, ${accentA}2a, rgba(255,255,255,0.06))`,
             color:accentA,
             cursor:'pointer',
             display:'flex',
@@ -9528,6 +9584,13 @@ function CortexLibraryShell() {
   const [navDirection, setNavDirection] = React.useState('forward');
   const [wallpaper, setWallpaper] = React.useState(() => localStorage.getItem('cortex.wallpaper') || 'bubbly');
   const [themeId, setThemeId] = React.useState(() => localStorage.getItem('cortex.themeId') || 'neural');
+  const [highlightTone, setHighlightTone] = React.useState(() => {
+    try {
+      return localStorage.getItem('cortex.highlightTone') || 'theme';
+    } catch (err) {
+      return 'theme';
+    }
+  });
   const [textZoom, setTextZoom] = React.useState(() => {
     const stored = Number(localStorage.getItem('cortex.textZoom'));
     return Number.isFinite(stored) && stored >= 0.88 && stored <= 1.24 ? stored : 1;
@@ -9569,6 +9632,11 @@ function CortexLibraryShell() {
       : cortexSurfaceLookup(page);
   const isWelcomePage = page === 1;
   const theme = React.useMemo(() => cortexApplyThemeGlobals(themeId), [themeId]);
+  const highlightColor = React.useMemo(() => {
+    return highlightTone === 'stabilo'
+      ? '#ffd84f'
+      : (theme?.colors?.accent1 || DL.accent);
+  }, [highlightTone, theme]);
   const fabViewportLeft = sidebarDocked && !sidebarPinnedHidden ? 320 : 14;
   const sidebarFabVisible = sidebarDocked ? !sidebarPinnedHidden : sidebarOpen;
   const sidebarFabDefaultPos = React.useMemo(() => ({
@@ -9731,6 +9799,15 @@ function CortexLibraryShell() {
   }, [themeId]);
 
   React.useEffect(() => {
+    try {
+      localStorage.setItem('cortex.highlightTone', highlightTone);
+    } catch (err) {}
+    if (typeof document !== 'undefined') {
+      document.documentElement.style.setProperty('--cortex-highlight-accent', highlightColor);
+    }
+  }, [highlightTone, highlightColor]);
+
+  React.useEffect(() => {
     localStorage.setItem('cortex.textZoom', String(textZoom));
     if (typeof document !== 'undefined') {
       document.documentElement.style.setProperty('--cortex-text-zoom', String(textZoom));
@@ -9875,12 +9952,11 @@ function CortexLibraryShell() {
     const text = textSelection && textSelection.text;
     if (!selection || !text) return;
     const range = selection.cloneRange ? selection.cloneRange() : selection;
-    const highlightColor = theme.colors.accent1 || DL.accent;
     if (cortexWrapRangeHighlight(range, highlightColor)) {
       persistHighlight(range, text);
     }
     clearTextSelection();
-  }, [clearTextSelection, persistHighlight, textSelection, theme.colors.accent1]);
+  }, [clearTextSelection, highlightColor, persistHighlight, textSelection]);
 
   React.useEffect(() => {
     const pulse = (el) => {
@@ -9944,7 +10020,14 @@ function CortexLibraryShell() {
   }, [goBack]);
 
   const renderPage = () => {
-    const sharedProps = { onNavigate:navigate, themeId:theme.id, theme, onThemeChange:setThemeId };
+    const sharedProps = {
+      onNavigate:navigate,
+      themeId:theme.id,
+      theme,
+      onThemeChange:setThemeId,
+      highlightTone,
+      onHighlightToneChange:setHighlightTone,
+    };
     if (page === 0) return React.createElement(PageBatch0Kernel, { ...sharedProps, mode, surfaceId, onSurfaceChange:setSurfaceId, showGlobalFab:true });
     if (page === 1) {
       const Comp = window[current.component];
@@ -10109,6 +10192,7 @@ function CortexLibraryShell() {
       onBookmark:handleBookmarkSelection,
       onHighlight:handleHighlightSelection,
       onClose:clearTextSelection,
+      highlightColor,
     }),
     React.createElement('div', { className:'cortex-zoom-shell', style:{
       flex:1,
