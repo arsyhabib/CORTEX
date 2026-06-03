@@ -1539,6 +1539,9 @@
   .cortex-library-topbar > div:last-child {
     flex-shrink: 0;
   }
+  .cortex-library-topbar .cortex-library-topbar-actions {
+    width: 100%;
+  }
   .cortex-library-stage,
   .cortex-library-stage-inner,
   .cortex-page-shell {
@@ -1625,8 +1628,7 @@
     transform-origin: right center;
   }
   .cortex-library-topbar .b1-button,
-  .cortex-library-topbar .b1-card,
-  .cortex-library-topbar span {
+  .cortex-library-topbar .b1-card {
     white-space: nowrap;
   }
   .b1-card {
@@ -7662,6 +7664,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
   const [fabOpen, setFabOpen] = React.useState(false);
   const [fabPos, setFabPos] = React.useState(null);
   const [fabGroup, setFabGroup] = React.useState('Foundation');
+  const [fabAccordionGroup, setFabAccordionGroup] = React.useState('Foundation');
   const fabDragRef = React.useRef({ active:false, moved:false, sx:0, sy:0, ox:0, oy:0 });
   const getFabBasePosition = React.useCallback(() => ({
     x: Math.max(16, window.innerWidth - (compact ? 158 : 176)),
@@ -7945,6 +7948,8 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
             borderRadius:20,
             boxShadow:`0 18px 32px ${currentTheme.colors.shadowColor}`,
             width:'auto',
+            cursor:'grab',
+            touchAction:'none',
           }
         }),
         fabOpen && React.createElement('div', { style:{
@@ -7960,44 +7965,70 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
           WebkitBackdropFilter:'blur(18px) saturate(150%)',
           boxShadow:`0 26px 56px ${currentTheme.colors.shadowColor}`,
         }},
-          React.createElement('div', { style:{ display:'flex', flexWrap:'wrap', gap:6, marginBottom:10 } },
-            surfaceGroups.map(group => React.createElement('button', {
-              key:group.group,
-              type:'button',
-              onClick:()=>setFabGroup(group.group),
-              className:'cortex-motion-press',
-              style:{
-                padding:'6px 9px',
-                borderRadius:16,
-                border:`1px solid ${group.group === fabGroup ? currentTheme.colors.accent1 : DL.glassBorder}`,
-                background:group.group === fabGroup ? 'rgba(168,85,247,0.18)' : 'rgba(255,255,255,0.04)',
-                color:group.group === fabGroup ? currentTheme.colors.accent1 : DL.sub,
-                fontSize:9,
-                fontWeight:900,
-                cursor:'pointer',
-              }
-            }, `${group.group}`))
-          ),
-          activeGroupItems.map(item => React.createElement(CortexAtomPageButton, {
-            key:item.id,
-            page:item.id,
-            title:item.label,
-            sub:null,
-            theme:currentTheme,
-            onClick:()=>{
-              onSurfaceChange && onSurfaceChange(item.id);
-              onNavigate(item.id);
-              setFabOpen(false);
-            },
-            compact:true,
-            active:item.id === activeSurface.id,
-            showKicker:false,
-            style:{
-              width:'100%',
-              marginBottom:8,
-              padding:'10px 12px',
-            }
-          }))
+          React.createElement('div', { style:{ display:'grid', gap:8 } },
+            surfaceGroups.map(group => {
+              const expanded = fabAccordionGroup === group.group;
+              return React.createElement('div', {
+                key:group.group,
+                style:{
+                  borderRadius:16,
+                  overflow:'hidden',
+                  border:`1px solid ${expanded ? currentTheme.colors.accent1 : DL.glassBorder}`,
+                  background:expanded ? 'rgba(168,85,247,0.10)' : 'rgba(255,255,255,0.03)',
+                }
+              },
+                React.createElement('button', {
+                  type:'button',
+                  onClick:()=>{
+                    setFabGroup(group.group);
+                    setFabAccordionGroup(prev => prev === group.group ? null : group.group);
+                  },
+                  className:'cortex-motion-press',
+                  style:{
+                    width:'100%',
+                    display:'flex',
+                    alignItems:'center',
+                    justifyContent:'space-between',
+                    gap:10,
+                    padding:'10px 12px',
+                    border:0,
+                    background:'transparent',
+                    color:expanded ? currentTheme.colors.accent1 : DL.text,
+                    fontSize:11,
+                    fontWeight:900,
+                    cursor:'pointer',
+                    textAlign:'left',
+                  }
+                },
+                  React.createElement('span', null, group.group),
+                  React.createElement('span', { style:{ color:expanded ? currentTheme.colors.accent1 : DL.sub, fontSize:10 }}, `${group.items.length}`),
+                  React.createElement('span', { style:{ color:expanded ? currentTheme.colors.accent1 : DL.mute, fontSize:11 }}, expanded ? '−' : '+')
+                ),
+                expanded && React.createElement('div', { style:{ padding:'0 8px 8px' } },
+                  group.items.map(item => React.createElement(CortexAtomPageButton, {
+                    key:item.id,
+                    page:item.id,
+                    title:item.label,
+                    sub:null,
+                    theme:currentTheme,
+                    onClick:()=>{
+                      onSurfaceChange && onSurfaceChange(item.id);
+                      onNavigate(item.id);
+                      setFabOpen(false);
+                    },
+                    compact:true,
+                    active:item.id === activeSurface.id,
+                    showKicker:false,
+                    style:{
+                      width:'100%',
+                      marginTop:8,
+                      padding:'10px 12px',
+                    }
+                  }))
+                )
+              );
+            })
+          )
         )
       )
     )
@@ -8447,20 +8478,36 @@ function CortexLibraryShell() {
       }},
         React.createElement('div', { className:'cortex-library-topbar', style:{
           display:'flex', justifyContent:'space-between', alignItems:'center', flexWrap:'wrap',
-          padding:mode === 'mobile' ? '10px 14px' : '14px 22px',
+          flexDirection:mode === 'mobile' ? 'column' : 'row',
+          alignItems:mode === 'mobile' ? 'stretch' : 'center',
+          padding:mode === 'mobile' ? '10px 12px 12px' : '14px 22px',
+          gap:mode === 'mobile' ? 10 : 0,
           borderBottom:`1px solid ${theme.colors.glassBorder}`,
           background:'rgba(10,10,26,0.42)',
           backdropFilter:coarsePointer ? 'blur(10px) saturate(125%)' : 'blur(16px)',
           WebkitBackdropFilter:coarsePointer ? 'blur(10px) saturate(125%)' : 'blur(16px)',
           flexShrink:0,
         }},
-          React.createElement('div', null,
-            React.createElement('div', { style:{ fontSize:mode === 'mobile' ? 13 : 15, color:theme.colors.text, fontWeight:900, lineHeight:1.15 }},
-              page === 0
-                ? `Main Studio / ${cortexSurfaceLookup(surfaceId).label}`
-                : current.label),
+          React.createElement('div', { style:{
+            width:'100%',
+            minWidth:0,
+            display:'flex',
+            alignItems:'flex-start',
+            justifyContent:'space-between',
+            gap:10,
+          }},
+            React.createElement('div', { style:{ minWidth:0, flex:1 }},
+              React.createElement('div', { style:{ fontSize:mode === 'mobile' ? 13 : 15, color:theme.colors.text, fontWeight:900, lineHeight:1.15, whiteSpace:'normal' }},
+                page === 0
+                  ? `Main Studio / ${cortexSurfaceLookup(surfaceId).label}`
+                  : current.label),
+            ),
+            React.createElement('div', { style:{ display:'flex', gap:6, alignItems:'center', flexWrap:'wrap', justifyContent:'flex-end', flex:'0 0 auto' }},
+              React.createElement(B1Badge, { color:mode === 'desktop' ? theme.colors.accent1 : mode === 'tablet' ? theme.colors.accent2 : theme.colors.accent3 }, mode.toUpperCase()),
+              React.createElement(B1Badge, null, page === 0 ? 'STUDIO' : page === 1 ? 'ENTRY' : 'SURFACE'),
+            )
           ),
-          React.createElement('div', { style:{ display:'flex', gap:6, alignItems:'center', flexWrap:'wrap', justifyContent:'flex-end', marginLeft:'auto' }},
+          React.createElement('div', { className:'cortex-library-topbar-actions', style:{ display:'flex', gap:6, alignItems:'center', flexWrap:'wrap', justifyContent:'flex-start', width:'100%' }},
             React.createElement(CortexMotionSensorControl),
             React.createElement(B1Button, {
               label: sidebarDocked ? (sidebarPinnedHidden ? 'Show sidebar' : 'Hide sidebar') : (sidebarOpen ? 'Close sidebar' : 'Sidebar'),
@@ -8472,11 +8519,10 @@ function CortexLibraryShell() {
                 borderRadius:16,
                 minHeight:36,
                 fontSize:12,
+                flex:'0 0 auto',
               }
             }),
             React.createElement(CortexTextZoomControl, { value:textZoom, onChange:setTextZoom }),
-            React.createElement(B1Badge, { color:mode === 'desktop' ? theme.colors.accent1 : mode === 'tablet' ? theme.colors.accent2 : theme.colors.accent3 }, mode.toUpperCase()),
-            React.createElement(B1Badge, null, page === 0 ? 'STUDIO' : page === 1 ? 'ENTRY' : 'SURFACE'),
           )
         ),
         React.createElement('section', {
