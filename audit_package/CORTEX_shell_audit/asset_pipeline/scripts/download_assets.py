@@ -17,7 +17,8 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-MANIFEST = ROOT / "manifests" / "source_assets.template.json"
+MANIFEST = ROOT / "manifests" / "source_assets.starter.json"
+MANIFEST_FALLBACK = ROOT / "manifests" / "source_assets.template.json"
 DOWNLOAD_DIR = ROOT / "downloads"
 LOG_DIR = ROOT / "logs"
 OUTPUT_MANIFEST = ROOT / "manifests" / "asset_manifest.generated.json"
@@ -30,18 +31,19 @@ def ensure_dirs() -> None:
 
 def download_file(url: str, dest: Path) -> None:
     with urllib.request.urlopen(url) as response:
-      # some sources return content with unknown length
-      with dest.open("wb") as out:
-        shutil.copyfileobj(response, out)
+        # some sources return content with unknown length
+        with dest.open("wb") as out:
+            shutil.copyfileobj(response, out)
 
 
 def main() -> int:
     ensure_dirs()
-    if not MANIFEST.exists():
-        print(f"Missing manifest: {MANIFEST}", file=sys.stderr)
+    manifest_path = MANIFEST if MANIFEST.exists() else MANIFEST_FALLBACK
+    if not manifest_path.exists():
+        print(f"Missing manifest: {MANIFEST} or {MANIFEST_FALLBACK}", file=sys.stderr)
         return 1
 
-    data = json.loads(MANIFEST.read_text(encoding="utf-8"))
+    data = json.loads(manifest_path.read_text(encoding="utf-8"))
     assets = data.get("assets", [])
     results = []
 
@@ -82,4 +84,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
