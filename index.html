@@ -4633,7 +4633,6 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
     React.createElement('div', { style:{ flex:'1 1 auto', minHeight:0, overflowY:'auto', overflowX:'hidden', display:'grid', gap:8, alignContent:'start', paddingRight:2 } },
       surfaceGroups.map(group => {
         const expanded = fabAccordionGroup === group.group;
-        const nextPanelHeight = Math.min(520, 32 + (group.items.length * 78));
         return React.createElement('div', {
           key:group.group,
           className:'cortex-fab-accordion',
@@ -4653,60 +4652,74 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
             className:'cortex-motion-press cortex-fab-accordion-toggle',
             'data-open':String(expanded),
             'aria-expanded':String(expanded),
-              style:{
-                width:'100%',
-                display:'flex',
-                alignItems:'center',
-                justifyContent:'space-between',
-                gap:10,
-                padding:'10px 12px',
-                border:0,
-                background:'transparent',
-                color:expanded ? currentTheme.colors.accent1 : DL.text,
-                fontSize:11,
-                fontWeight:900,
-                cursor:'pointer',
-                textAlign:'left',
-                position:'relative',
-                zIndex:1,
-                touchAction:'manipulation',
-              }
-            },
-            React.createElement('span', null, group.group),
-            React.createElement('span', { style:{ color:expanded ? currentTheme.colors.accent1 : DL.mute, fontSize:11 }}, expanded ? '−' : '+')
-          ),
-          expanded && React.createElement('div', {
-            className:'cortex-fab-accordion-panel-wrap',
-            'data-open':'true',
             style:{
-              overflow:'hidden',
-              maxHeight: `${nextPanelHeight}px`,
+              width:'100%',
+              display:'flex',
+              alignItems:'center',
+              justifyContent:'space-between',
+              gap:10,
+              padding:'10px 12px',
+              border:0,
+              background:'transparent',
+              color:expanded ? currentTheme.colors.accent1 : DL.text,
+              fontSize:11,
+              fontWeight:900,
+              cursor:'pointer',
+              textAlign:'left',
+              position:'relative',
+              zIndex:1,
+              touchAction:'manipulation',
             }
           },
-            React.createElement('div', { className:'cortex-fab-accordion-panel', style:{ padding:'0 8px 8px' } },
-              group.items.map(item => React.createElement(CortexAtomPageButton, {
-                key:item.id,
-                page:item.id,
-                title:item.label,
-                sub:null,
-                theme:currentTheme,
-                onClick:()=>{
-                  onSurfaceChange && onSurfaceChange(item.id);
-                  onNavigate(item.id);
-                },
-                compact:true,
-                active:item.id === activeSurface.id,
-                showKicker:false,
-                style:{
-                  width:'100%',
-                  marginTop:8,
-                  padding:'10px 12px',
-                }
-              }))
-            )
+            React.createElement('span', null, group.group),
+            React.createElement('span', { style:{ color:expanded ? currentTheme.colors.accent1 : DL.mute, fontSize:11 }}, expanded ? '−' : '+')
           )
         );
-      })
+      }),
+      fabAccordionGroup && React.createElement('div', {
+        className:'cortex-fab-accordion-panel-wrap',
+        'data-open':'true',
+        style:{
+          overflow:'hidden',
+          maxHeight:'520px',
+          marginTop:2,
+        }
+      },
+        React.createElement('div', { className:'cortex-fab-accordion-panel', style:{
+          padding:'10px 8px 8px',
+          borderRadius:18,
+          border:`1px solid ${currentTheme.colors.accent1}33`,
+          background:'linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02))',
+        } },
+          React.createElement('div', { style:{
+            color:currentTheme.colors.accent1,
+            fontSize:10,
+            fontWeight:900,
+            letterSpacing:1.1,
+            textTransform:'uppercase',
+            padding:'0 4px 4px',
+          }}, fabAccordionGroup),
+          (groupedSurfaces[fabAccordionGroup] || []).map(item => React.createElement(CortexAtomPageButton, {
+            key:item.id,
+            page:item.id,
+            title:item.label,
+            sub:null,
+            theme:currentTheme,
+            onClick:()=>{
+              onSurfaceChange && onSurfaceChange(item.id);
+              onNavigate(item.id);
+            },
+            compact:true,
+            active:item.id === activeSurface.id,
+            showKicker:false,
+            style:{
+              width:'100%',
+              marginTop:8,
+              padding:'10px 12px',
+            }
+          }))
+        )
+      )
     )
   );
 
@@ -8531,7 +8544,6 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
           React.createElement('div', { style:{ display:'grid', gap:8, minHeight:'100%', alignContent:'start' } },
             surfaceGroups.map(group => {
               const expanded = fabAccordionGroup === group.group;
-              const nextPanelHeight = Math.min(520, 32 + (group.items.length * 78));
               return React.createElement('div', {
                 key:group.group,
                 className:'cortex-fab-accordion',
@@ -8572,39 +8584,53 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
                   },
                   React.createElement('span', null, group.group),
                   React.createElement('span', { style:{ color:expanded ? currentTheme.colors.accent1 : DL.mute, fontSize:11 }}, expanded ? '−' : '+')
-                ),
-                expanded && React.createElement('div', {
-                  className:'cortex-fab-accordion-panel-wrap',
-                  'data-open':'true',
-                  style:{
-                    overflow:'hidden',
-                    maxHeight: `${nextPanelHeight}px`,
-                  }
-                },
-                  React.createElement('div', { className:'cortex-fab-accordion-panel', style:{ padding:'0 8px 8px' } },
-                    group.items.map(item => React.createElement(CortexAtomPageButton, {
-                      key:item.id,
-                      page:item.id,
-                      title:item.label,
-                      sub:null,
-                      theme:currentTheme,
-                      onClick:()=>{
-                        onSurfaceChange && onSurfaceChange(item.id);
-                        onNavigate(item.id);
-                      },
-                      compact:true,
-                      active:item.id === activeSurface.id,
-                      showKicker:false,
-                      style:{
-                        width:'100%',
-                        marginTop:8,
-                        padding:'10px 12px',
-                      }
-                    }))
-                  )
                 )
               );
-            })
+            }),
+            fabAccordionGroup && React.createElement('div', {
+              className:'cortex-fab-accordion-panel-wrap',
+              'data-open':'true',
+              style:{
+                overflow:'hidden',
+                maxHeight:'520px',
+                marginTop:2,
+              }
+            },
+              React.createElement('div', { className:'cortex-fab-accordion-panel', style:{
+                padding:'10px 8px 8px',
+                borderRadius:18,
+                border:`1px solid ${currentTheme.colors.accent1}33`,
+                background:'linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02))',
+              } },
+                React.createElement('div', { style:{
+                  color:currentTheme.colors.accent1,
+                  fontSize:10,
+                  fontWeight:900,
+                  letterSpacing:1.1,
+                  textTransform:'uppercase',
+                  padding:'0 4px 4px',
+                }}, fabAccordionGroup),
+                (groupedSurfaces[fabAccordionGroup] || []).map(item => React.createElement(CortexAtomPageButton, {
+                  key:item.id,
+                  page:item.id,
+                  title:item.label,
+                  sub:null,
+                  theme:currentTheme,
+                  onClick:()=>{
+                    onSurfaceChange && onSurfaceChange(item.id);
+                    onNavigate(item.id);
+                  },
+                  compact:true,
+                  active:item.id === activeSurface.id,
+                  showKicker:false,
+                  style:{
+                    width:'100%',
+                    marginTop:8,
+                    padding:'10px 12px',
+                  }
+                }))
+              )
+            )
           )
         )
       )
