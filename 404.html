@@ -4248,18 +4248,20 @@ function CortexAtomPageButton({ page, title, sub, onClick, active = false, class
   );
 }
 
-function CortexSidebarFab({ open = false, onClick, theme, count = CORTEX_MAIN_SURFACES.length, style }) {
+function CortexSidebarFab({ open = false, onClick, onPointerDown, theme, count = CORTEX_MAIN_SURFACES.length, style }) {
   const accentA = theme?.colors?.accent1 || DL.accent;
   const accentB = theme?.colors?.accent2 || DL.gold;
   return React.createElement('button', {
     type:'button',
     onClick,
+    onPointerDown,
     'aria-label': open ? 'Close sidebar' : 'Open sidebar',
     className:'cortex-sidebar-fab cortex-motion-press',
     'data-open':String(!!open),
     style:{
       color:'#fff',
       zIndex:60,
+      touchAction:'none',
       ...style,
     }
   },
@@ -8339,8 +8341,10 @@ function CortexLibraryShell() {
   const [topbarSearch, setTopbarSearch] = React.useState('');
   const [sidebarOpen, setSidebarOpen] = React.useState(false);
   const [sidebarPinnedHidden, setSidebarPinnedHidden] = React.useState(false);
+  const [sidebarFabPos, setSidebarFabPos] = React.useState(null);
   const [navTrail, setNavTrail] = React.useState([]);
   const [fabPortalTarget, setFabPortalTarget] = React.useState(null);
+  const sidebarFabDragRef = React.useRef({ active:false, moved:false, sx:0, sy:0, ox:0, oy:0 });
   React.useEffect(() => {
     if (typeof document === 'undefined') return undefined;
     let el = document.getElementById('cortex-fab-portal');
@@ -8370,6 +8374,10 @@ function CortexLibraryShell() {
   const isWelcomePage = page === 1;
   const theme = React.useMemo(() => cortexApplyThemeGlobals(themeId), [themeId]);
   const fabViewportLeft = sidebarDocked && !sidebarPinnedHidden ? 320 : 14;
+  const sidebarFabDefaultPos = React.useMemo(() => ({
+    x: fabViewportLeft,
+    y: Math.max(14, window.innerHeight - 116),
+  }), [fabViewportLeft]);
 
   React.useEffect(() => {
     const params = new URLSearchParams(window.location.search);
@@ -8438,6 +8446,41 @@ function CortexLibraryShell() {
     }
     setSidebarOpen(v => !v);
   }, [sidebarDocked]);
+
+  const onSidebarFabPointerDown = React.useCallback((event) => {
+    if (event.button !== 0) return;
+    const start = sidebarFabPos || sidebarFabDefaultPos;
+    sidebarFabDragRef.current = {
+      active:true,
+      moved:false,
+      sx:event.clientX,
+      sy:event.clientY,
+      ox:start.x,
+      oy:start.y,
+    };
+    const onMove = (moveEvent) => {
+      if (!sidebarFabDragRef.current.active) return;
+      const dx = moveEvent.clientX - sidebarFabDragRef.current.sx;
+      const dy = moveEvent.clientY - sidebarFabDragRef.current.sy;
+      if (!sidebarFabDragRef.current.moved && Math.hypot(dx, dy) > 8) {
+        sidebarFabDragRef.current.moved = true;
+        setSidebarOpen(false);
+      }
+      if (!sidebarFabDragRef.current.moved) return;
+      const nextX = Math.max(12, Math.min(window.innerWidth - 84, sidebarFabDragRef.current.ox + dx));
+      const nextY = Math.max(12, Math.min(window.innerHeight - 84, sidebarFabDragRef.current.oy + dy));
+      setSidebarFabPos({ x: nextX, y: nextY });
+    };
+    const onUp = () => {
+      sidebarFabDragRef.current.active = false;
+      window.removeEventListener('pointermove', onMove);
+      window.removeEventListener('pointerup', onUp);
+      window.removeEventListener('pointercancel', onUp);
+    };
+    window.addEventListener('pointermove', onMove);
+    window.addEventListener('pointerup', onUp);
+    window.addEventListener('pointercancel', onUp);
+  }, [sidebarFabDefaultPos, sidebarFabPos]);
 
   const submitTopbarSearch = React.useCallback((raw) => {
     const query = String(raw || '').trim().toLowerCase();
@@ -8554,7 +8597,7 @@ function CortexLibraryShell() {
 
   const renderPage = () => {
     const sharedProps = { onNavigate:navigate, themeId:theme.id, theme, onThemeChange:setThemeId };
-    if (page === 0) return React.createElement(PageBatch0Kernel, { ...sharedProps, mode, surfaceId, onSurfaceChange:setSurfaceId, showGlobalFab:true });
+    if (page === 0) return React.createElement(PageBatch0Kernel, { ...sharedProps, mode, surfaceId, onSurfaceChange:setSurfaceId, showGlobalFab:false });
     if (page === 1) {
       const Comp = window[current.component];
       if (!Comp) {
@@ -8650,42 +8693,58 @@ function CortexLibraryShell() {
       ? ReactDOM.createPortal(
         React.createElement(CortexSidebarFab, {
           open:sidebarOpen,
-          onClick:()=>setSidebarOpen(v => !v),
+          onClick:()=> {
+            if (sidebarFabDragRef.current.moved) {
+              sidebarFabDragRef.current.moved = false;
+              return;
+            }
+            setSidebarOpen(v => !v);
+          },
+          onPointerDown:onSidebarFabPointerDown,
           theme,
           count:CORTEX_MAIN_SURFACES.length,
           style:{
             position:'fixed',
-            left: fabViewportLeft,
-            top:'auto',
+            left: sidebarFabPos ? sidebarFabPos.x : fabViewportLeft,
+            top: sidebarFabPos ? sidebarFabPos.y : 'auto',
             right:'auto',
-            bottom:'calc(88px + env(safe-area-inset-bottom))',
+            bottom: sidebarFabPos ? 'auto' : 'calc(88px + env(safe-area-inset-bottom))',
             display:'block',
             opacity:1,
             visibility:'visible',
             pointerEvents:'auto',
             zIndex:2147483647,
             transform:'translate3d(0,0,0)',
+            cursor:'grab',
           }
         }),
         fabPortalTarget
       )
       : React.createElement(CortexSidebarFab, {
           open:sidebarOpen,
-          onClick:()=>setSidebarOpen(v => !v),
+          onClick:()=> {
+            if (sidebarFabDragRef.current.moved) {
+              sidebarFabDragRef.current.moved = false;
+              return;
+            }
+            setSidebarOpen(v => !v);
+          },
+          onPointerDown:onSidebarFabPointerDown,
           theme,
           count:CORTEX_MAIN_SURFACES.length,
           style:{
             position:'fixed',
-            left: fabViewportLeft,
-            top:'auto',
+            left: sidebarFabPos ? sidebarFabPos.x : fabViewportLeft,
+            top: sidebarFabPos ? sidebarFabPos.y : 'auto',
             right:'auto',
-            bottom:'calc(88px + env(safe-area-inset-bottom))',
+            bottom: sidebarFabPos ? 'auto' : 'calc(88px + env(safe-area-inset-bottom))',
             display:'block',
             opacity:1,
             visibility:'visible',
             pointerEvents:'auto',
             zIndex:2147483647,
             transform:'translate3d(0,0,0)',
+            cursor:'grab',
           }
         }),
     React.createElement('div', { className:'cortex-zoom-shell', style:{ flex:1, minWidth:0, minHeight:0, display:'flex', flexDirection:'column', overflow:'hidden' }},
