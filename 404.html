@@ -4279,39 +4279,49 @@ function CortexSidebarFab({ open = false, onClick, theme, count = CORTEX_MAIN_SU
   );
 }
 
-function CortexTextZoomControl({ value, onChange }) {
-  const pct = Math.round(value * 100);
-  const bump = (delta) => {
-    const next = Math.max(0.88, Math.min(1.24, +(value + delta).toFixed(2)));
-    onChange(next);
+function CortexTextZoomControl({ value, onChange, mode }) {
+  const presets = mode === 'mobile'
+    ? [0.94, 1.0, 1.08]
+    : mode === 'tablet'
+      ? [0.92, 1.0, 1.12]
+      : [0.90, 1.0, 1.14];
+  const currentIndex = Math.max(0, presets.reduce((best, current, index) => (
+    Math.abs(current - value) < Math.abs(presets[best] - value) ? index : best
+  ), 0));
+  const pct = Math.round(presets[currentIndex] * 100);
+  const setIndex = (nextIndex) => {
+    const clamped = Math.max(0, Math.min(presets.length - 1, nextIndex));
+    onChange(presets[clamped]);
   };
   return React.createElement('div', {
     className:'cortex-text-zoom-control',
     style:{
       display:'flex',
       alignItems:'center',
-      gap:6,
-      padding:'6px 8px',
-      borderRadius:16,
+      gap:8,
+      padding: mode === 'mobile' ? '6px 8px' : '8px 10px',
+      borderRadius:18,
       border:`1px solid ${DL.glassBorder}`,
       background:'rgba(255,255,255,0.04)',
       boxShadow:`0 8px 18px ${DL.shadowColor}`,
-      minWidth:168,
+      minWidth: mode === 'mobile' ? 154 : mode === 'tablet' ? 226 : 252,
+      flex:'1 1 auto',
+      maxWidth: mode === 'mobile' ? 180 : 286,
     }
   },
     React.createElement('button', {
       type:'button',
-      onClick:()=>bump(-0.04),
+      onClick:()=>setIndex(currentIndex - 1),
       className:'cortex-motion-press',
       'aria-label':'Zoom out',
       style:{
-        width:24,
-        height:24,
+        width: mode === 'mobile' ? 24 : 28,
+        height: mode === 'mobile' ? 24 : 28,
         borderRadius:10,
         border:`1px solid ${DL.glassBorder}`,
         background:'rgba(255,255,255,0.04)',
         color:DL.text,
-        fontSize:14,
+        fontSize: mode === 'mobile' ? 14 : 15,
         fontWeight:900,
         cursor:'pointer',
         flex:'0 0 auto',
@@ -4324,31 +4334,32 @@ function CortexTextZoomControl({ value, onChange }) {
       ),
       React.createElement('input', {
         type:'range',
-        min:'88',
-        max:'124',
-        step:'2',
-        value:String(pct),
-        onChange:e => onChange(Math.max(0.88, Math.min(1.24, Number(e.target.value) / 100))),
+        min:'0',
+        max:'2',
+        step:'1',
+        value:String(currentIndex),
+        onChange:e => setIndex(Number(e.target.value)),
         style:{
           width:'100%',
           accentColor:DL.accent,
           cursor:'pointer',
+          margin:0,
         }
       })
     ),
     React.createElement('button', {
       type:'button',
-      onClick:()=>bump(0.04),
+      onClick:()=>setIndex(currentIndex + 1),
       className:'cortex-motion-press',
       'aria-label':'Zoom in',
       style:{
-        width:24,
-        height:24,
+        width: mode === 'mobile' ? 24 : 28,
+        height: mode === 'mobile' ? 24 : 28,
         borderRadius:10,
         border:`1px solid ${DL.glassBorder}`,
         background:'rgba(255,255,255,0.04)',
         color:DL.text,
-        fontSize:14,
+        fontSize: mode === 'mobile' ? 14 : 15,
         fontWeight:900,
         cursor:'pointer',
         flex:'0 0 auto',
@@ -8570,7 +8581,7 @@ function CortexLibraryShell() {
                 flex:'0 0 auto',
               }
             }),
-            React.createElement(CortexTextZoomControl, { value:textZoom, onChange:setTextZoom }),
+            React.createElement(CortexTextZoomControl, { value:textZoom, onChange:setTextZoom, mode }),
           )
         ),
         React.createElement('section', {
