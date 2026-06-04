@@ -6,6 +6,7 @@ Goal:
 - Produce a deeply detailed, structured, medically accurate rewrite of each lecture module.
 - Keep the shell-ready JSON output concise in schema, but dense in content.
 - This task is material-only. Do not generate new visuals, 3D, quiz banks, or exam sets unless a field explicitly asks for cross-links.
+- Build two layers when needed: a source-faithful teaching layer and a surgical translation layer that rewrites awkward or OCR-noisy PPT language into cleaner, more readable teaching prose without changing the meaning.
 
 Extraction mandate:
 - Treat each PDF as the source of truth for one lecture module unless the document itself clearly contains multiple standalone lectures.
@@ -34,6 +35,8 @@ What not to do:
 - Do not invent references, citations, doses, dates, page counts, or titles.
 - Do not "improve" the lecture by replacing the lecturer's structure with a different narrative structure.
 - Do not add unrelated anatomy, diseases, mechanisms, or visuals that are not grounded in the source.
+- Do not copy the PPT text plek ketiplek unless the exact wording is clinically important, a formal definition, a threshold, a citation, or a named term.
+- Do not let the surgical translation layer drift into a separate opinion piece; it must remain source-bound and clinically faithful.
 
 Hard requirements:
 - Work in 2 batches only: Batch 1 = 6E lecture PDFs, Batch 2 = 6F lecture PDFs.
@@ -50,6 +53,7 @@ Hard requirements:
 - For each module, include visual placement hints and `visual_targets` so the shell can place related visuals later.
 - Do not embed final binary images. Use only references and layout hints.
 - Keep the tone educational and polished, not casual.
+- Use the surgical translation layer to normalize messy structure, broken sentence order, repeated slide fragments, and awkward phrasing while preserving the source's meaning and terminology.
 
 Extraction checklist for every source PDF:
 - Title slide / opening slide details.
@@ -70,6 +74,7 @@ Extraction checklist for every source PDF:
 - Embedded practice questions, recall prompts, or case-based teaching items.
 - References or source attributions shown in the source.
 - Any source uncertainty, missing OCR, or visually unreadable sections.
+- Sections that need surgical translation because the original PPT language is anomalous, repetitive, or difficult to scan quickly.
 - Any explicit page/slide numbering visible in the PDF, especially when a figure, table, or algorithm is reused across slides.
 - Any repeated teaching cues that indicate what the lecturer wants remembered for exams.
 
@@ -85,6 +90,7 @@ Output structure for each module:
 - `overview`
 - `learning_goals`
 - `key_points`
+- `surgical_translation`
 - `source_coverage`
 - `evidence_map`
 - `expanded_sections`
@@ -101,6 +107,8 @@ Output structure for each module:
 - `visual_targets`
 - `crosslinks`
 - `source_notes`
+- `coverage_gaps`
+- `confidence_summary`
 - `qc_flags`
 
 Expanded-section guidance:
@@ -112,12 +120,15 @@ Expanded-section guidance:
 - Prefer source-grounded expansion over creative rewriting.
 - Add detail by unpacking source facts, not by inventing new facts.
 - If a section is repeated across slides, deduplicate only when the meaning is identical.
+- Keep the surgical translation layer readable and clean, but still anchored to the original slide order and medical meaning.
+- Use surgical translation especially for slides that are text-dense, OCR-noisy, or structurally awkward; do not use it to invent new content.
 
 Source coverage guidance:
 - `source_coverage` should state what was extracted from the PDF, such as slides, tables, figures, algorithms, cases, and references.
 - `evidence_map` should connect sections back to slide/page references or clearly named source fragments.
 - If a source is weakly OCR’d, preserve that in `source_notes` and keep the rewrite conservative.
 - If a source section is missing or unreadable, leave the content missing rather than filling it with a best guess. Flag it instead.
+- If a section is clearer in surgical translation than in the raw slide wording, record that in `extraction_notes` rather than hiding the source issue.
 
 Visual placement guidance:
 - For each module, provide 3 to 8 visual targets.

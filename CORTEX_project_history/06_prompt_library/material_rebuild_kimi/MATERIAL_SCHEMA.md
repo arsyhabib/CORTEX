@@ -17,6 +17,15 @@ Use this as the canonical structure for lecture-material rebuild output.
   "overview": "Short but dense module overview.",
   "learning_goals": ["...", "..."],
   "key_points": ["...", "..."],
+  "surgical_translation": [
+    {
+      "translation_id": "st01",
+      "section_id": "s01",
+      "source_refs": ["slide 1", "slide 2"],
+      "clean_teaching_text": "A clear, source-faithful rewrite of the awkward or noisy source section.",
+      "notes": "Use this layer to normalize broken sentence order, repeated fragments, and OCR noise while keeping meaning intact."
+    }
+  ],
   "source_coverage": {
     "source_document_type": "pdf_lecture",
     "page_count": 42,
@@ -151,6 +160,7 @@ Use this as the canonical structure for lecture-material rebuild output.
 - Avoid overcompression; the module should remain meaningfully detailed after serialization.
 - If a visual or table exists in the source, do not drop it; preserve it as `figure_notes`, `table_notes`, or structured data in `expanded_sections`.
 - If a field is not supported by the source, leave it empty or null and explain the gap in `source_notes` or `coverage_gaps`.
+- The surgical translation layer should improve readability, not invent meaning; keep it aligned to the source order, terminology, and clinical intent.
 
 ## Anti-fluff rules
 
@@ -159,3 +169,4 @@ Use this as the canonical structure for lecture-material rebuild output.
 - Do not add new disease entities that are not implied by the source.
 - Do not create fake references.
 - Do not invent a polished narrative when the source is incomplete; preserve the incompleteness and flag it.
+- Do not let the surgical translation layer drift into a generic re-summary; it must remain a faithful rewrite of the original lecture.

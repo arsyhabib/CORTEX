@@ -13,6 +13,7 @@ Use two batches only.
 - Preserve the original source order unless the manifest says a document is clearly a duplicate or a continuation.
 - Give extra attention to slide-heavy or OCR-heavy documents.
 - For each PDF, extract the complete lecture spine: opening slide, course context, headings, definitions, clinical logic, diagnostic flow, treatment, tables, figures, and exam pearls.
+- For each PDF, also produce a surgical translation layer for awkward or OCR-noisy sections so the app can display a clean teaching rewrite without losing the original meaning.
 - Keep visual placement hints for later shell injection.
 - Do not merge documents unless the source itself clearly indicates a continued lecture or split handout that should be one module.
 - Preserve source filename exactly in `source_file`, even if the title is normalized.
@@ -35,6 +36,7 @@ Use two batches only.
 - Preserve the original source order unless a doc is clearly a continuation or composite lecture.
 - Keep psychopharmacology, diagnosis, and ethics detail intact.
 - For each PDF, extract the full teaching spine: diagnostic criteria, core symptoms, risk factors, medication classes, side effects, safety cautions, contraindications, legal and ethical framing, and exam pitfalls.
+- Also produce surgical translation text for awkward slide language, because psychiatry decks often mix rapid bulleting with shorthand and OCR noise.
 - Give explicit `visual_targets` for any slide that naturally wants an infographic, comparison diagram, or summary strip.
 - Keep psychiatry-specific terminology, medication details, and legal/ethical framing precise and conservative.
 - If the source has decision trees or management flow, preserve them as structured steps rather than flattening them into prose.
@@ -53,6 +55,7 @@ Use two batches only.
 - Every module should be dense enough that the serialized JSON is materially large and information-rich.
 - The output should be detailed enough that the app can render it as the primary source of truth for the lecture surface, not as a teaser summary.
 - Avoid compressing multiple source sections into one synthetic paragraph if the source clearly separates them.
+- The surgical translation layer should exist to make the lecture easier to read, not to replace the lecture with a generic summary.
 
 ## Visual rebind notes
 

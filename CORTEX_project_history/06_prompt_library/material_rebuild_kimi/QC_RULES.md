@@ -12,6 +12,7 @@
 - Each module must include at least one `evidence_map` entry that clearly links the content to source page/slide references.
 - Each module must include `source_coverage`, `source_notes`, and `extraction_notes` so we can audit what was really extracted.
 - Every table or figure that materially appears in the source must be represented as structured content or explicitly noted as missing / unreadable.
+- Each module should include a `surgical_translation` layer or a rationale for why the source was already clean enough not to need one.
 
 ## Consistency rules
 
@@ -23,6 +24,7 @@
 - Keep table columns consistent within each module.
 - Keep `visual_targets` grounded in explicit source material; no invented visual themes.
 - Keep `crosslinks` conservative: link only to real app surfaces or clearly relevant domain neighbors.
+- Keep the surgical translation faithful, readable, and source-ordered; do not let it drift into a separate essay.
 
 ## Content density rules
 
@@ -32,6 +34,7 @@
 - Keep quotation reuse minimal and only when the lecturer wording is itself important.
 - If a source is mostly OCR-dense but text-light, expand only from what can be read with confidence and flag the rest.
 - If the source is sparse, do not force the 30 KB target by padding; instead preserve the true source density and document the gap.
+- If the source has awkward or fragmented prose, prefer surgical translation over direct quoting, but preserve all clinically meaningful terms and sequence.
 
 ## Allowed synthesis
 
@@ -40,6 +43,7 @@
 - Exam-focus framing based on the source.
 - Visual placement hints.
 - Short source-faithful connectors that preserve sequence and classroom logic.
+- Readability-oriented rewrites that keep the source meaning intact.
 
 ## Forbidden synthesis
 
@@ -49,6 +53,7 @@
 - Filling blanks with confident guesses.
 - Generic filler that makes the lecture sound polished but removes the lecturer's actual emphasis.
 - Rewriting a table, figure, or algorithm into a vague paragraph when the source clearly provides a structured form.
+- Copy-paste formatting of broken slides without first considering surgical translation for readability.
 
 ## Output validation checklist
 
@@ -61,6 +66,7 @@
 - Every module has `source_coverage` and `evidence_map`.
 - Every module has at least one extraction note explaining what was captured or what was unreadable.
 - Every module with a table or figure has a corresponding structured note or explicit gap note.
+- Every module either includes surgical translation blocks or a note explaining why the source text was already clean.
 
 ## Final self-audit before returning JSON
 
