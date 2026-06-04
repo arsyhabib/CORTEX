@@ -1,0 +1,192 @@
+[
+  {
+    "asset_id": "horner_syndrome_pathway",
+    "batch_id": "batch_3_cranial_nerves_head_neck",
+    "domain": "cranial_nerves_head_neck",
+    "title": "Horner Syndrome",
+    "page_targets": [
+      "pages/glossary/batch3_pembahasan_mcq_6_3.html",
+      "pages/quiz/batch3_pembahasan_mcq_6_3.html"
+    ],
+    "visual_type": "diagram",
+    "style_notes": "Liquid-glass medical diagram with clean line art, high contrast, and mobile-readable labels.",
+    "composition_notes": "Show the three-neuron sympathetic pathway from hypothalamus to eye with lesion markers and a compact triad card.",
+    "color_notes": "Deep navy base, cyan sympathetic pathway, violet lesion markers, amber pupil and eyelid highlights.",
+    "caption": "Horner syndrome reflects disruption of the ocular sympathetic pathway.",
+    "alt_text": "Diagram of the sympathetic pathway to the eye with lesion points and the Horner syndrome triad: ptosis, miosis, and anhidrosis.",
+    "prompt": "Create a premium liquid-glass educational medical diagram for a mobile-first CORTEX learning app. Topic: Horner syndrome. Show the ocular sympathetic pathway in three clean segments: hypothalamus to ciliospinal center, ciliospinal center to superior cervical ganglion, superior cervical ganglion to eye. Add an elegant eye inset showing mild ptosis and a small pupil on one side. Include concise readable labels: hypothalamus, brainstem, ciliospinal center C8-T2, superior cervical ganglion, carotid plexus, eye, ptosis, miosis, anhidrosis. Use medium-weight line art, translucent glass cards, subtle depth, clear arrows, generous spacing, medically accurate but simplified anatomy, no clutter, no scary patient realism.",
+    "negative_prompt": "No photorealistic patient face, no gore, no chaotic arrows, no tiny unreadable text, no inaccurate sympathetic pathway, no excessive labels, no cartoon style, no thick comic outlines, no decorative anatomy unrelated to Horner syndrome.",
+    "priority": "high"
+  },
+  {
+    "asset_id": "facial_nerve_palsy_map",
+    "batch_id": "batch_3_cranial_nerves_head_neck",
+    "domain": "cranial_nerves_head_neck",
+    "title": "Facial Nerve Palsy",
+    "page_targets": [
+      "pages/exam_sets/batch3_pembahasan_mcq_6_3_akt_18_2021.html",
+      "pages/glossary/batch3_pembahasan_mcq_6_3.html"
+    ],
+    "visual_type": "diagram",
+    "style_notes": "Premium cranial nerve lesion map with restrained labels and clear clinical hierarchy.",
+    "composition_notes": "Map CN VII from pons to facial muscles and show peripheral palsy signs in one face inset.",
+    "color_notes": "Midnight blue base, cyan nerve path, violet skull canal accent, rose facial muscle highlight.",
+    "caption": "Bell palsy is peripheral CN VII palsy with forehead involvement.",
+    "alt_text": "Facial nerve pathway diagram with peripheral Bell palsy signs including forehead weakness, incomplete eye closure, flattened nasolabial fold, and mouth deviation.",
+    "prompt": "Create a premium liquid-glass medical education diagram titled Facial Nerve Palsy. Show a simplified skull-base and facial nerve pathway from pons through internal acoustic meatus and facial canal to stylomastoid foramen and facial expression muscles. Add a clean clinical face inset showing peripheral CN VII palsy. Labels must be concise and readable: CN VII, pons, internal acoustic meatus, facial canal, stylomastoid foramen, forehead weakness, incomplete eye closure, flattened nasolabial fold, mouth deviation, hyperacusis, early corticosteroid. Use elegant medium-weight line art, glassmorphism cards, mobile-first layout, medically accurate simplification, high contrast, and premium spacing.",
+    "negative_prompt": "No frightening facial deformity, no photorealistic patient, no surgical blood, no cluttered skull anatomy, no tiny labels, no central facial palsy pattern, no wrong statement that forehead is spared in Bell palsy, no excessive decorative elements.",
+    "priority": "high"
+  },
+  {
+    "asset_id": "olfactory_nerve_skull_base",
+    "batch_id": "batch_3_cranial_nerves_head_neck",
+    "domain": "cranial_nerves_head_neck",
+    "title": "Olfactory Skull Base",
+    "page_targets": [
+      "pages/glossary/batch3_pembahasan_mcq_6_3.html",
+      "pages/quiz/batch3_pembahasan_mcq_6_3.html"
+    ],
+    "visual_type": "illustration",
+    "style_notes": "Elegant anatomical illustration with transparent cranial base overlay and concise labels.",
+    "composition_notes": "Show cribriform plate, olfactory bulb, olfactory tract, nasal roof, and frontal lobe base.",
+    "color_notes": "Dark navy background, ivory skull base, cyan olfactory fibers, violet frontal lobe silhouette.",
+    "caption": "CN I passes through the cribriform plate at the anterior skull base.",
+    "alt_text": "Anterior skull-base illustration showing the olfactory nerve, olfactory bulb, olfactory tract, cribriform plate, nasal cavity, and frontal lobe base.",
+    "prompt": "Create a premium liquid-glass medical anatomy illustration for a mobile learning app. Topic: olfactory nerve and anterior skull base. Show a simplified transparent anterior skull base with cribriform plate, nasal cavity roof, olfactory bulb, olfactory tract, and frontal lobe base. Add subtle arrows showing smell fibers passing through the cribriform plate. Include concise readable labels: olfactory nerve CN I, olfactory bulb, olfactory tract, cribriform plate, nasal cavity, anterior cranial fossa, anosmia risk. Use medium-weight line art, translucent panels, clean medical composition, high contrast, and elegant blue-violet CORTEX style.",
+    "negative_prompt": "No bloody trauma scene, no excessive sinus detail, no microscopic histology, no inaccurate nerve route, no cluttered labels, no photorealistic cadaver anatomy, no low-contrast text, no decorative skull unrelated to olfactory anatomy.",
+    "priority": "medium"
+  },
+  {
+    "asset_id": "optic_chiasm_hemianopsia",
+    "batch_id": "batch_3_cranial_nerves_head_neck",
+    "domain": "cranial_nerves_head_neck",
+    "title": "Optic Chiasm Lesion",
+    "page_targets": [
+      "pages/exam_sets/batch3_pembahasan_mcq_6_3_akt_18_2021.html",
+      "pages/quiz/batch3_pembahasan_mcq_6_3.html"
+    ],
+    "visual_type": "diagram",
+    "style_notes": "Clean neuro-ophthalmology diagram with obvious lesion-to-field mapping.",
+    "composition_notes": "Show optic chiasm compression from below with bilateral temporal visual-field loss cards.",
+    "color_notes": "Deep navy background, cyan optic fibers, violet pituitary mass, amber compression arrow, gray field loss.",
+    "caption": "Optic chiasm compression classically causes bitemporal hemianopsia.",
+    "alt_text": "Diagram of optic chiasm compression by a pituitary lesion with temporal visual-field loss in both eyes.",
+    "prompt": "Create a premium liquid-glass neuro-ophthalmology diagram. Topic: bitemporal hemianopsia caused by pituitary compression of the optic chiasm. Show both eyes, optic nerves, optic chiasm, optic tracts, pituitary gland below the chiasm, and a simplified upward compression arrow. Include visual field cards for left and right eyes with temporal halves shaded as lost. Label only essential structures: optic nerve, optic chiasm, optic tract, pituitary, nasal retinal fibers cross, temporal field loss. Use clear arrows, medium-weight line art, elegant blue-violet medical style, and mobile-readable labels.",
+    "negative_prompt": "No incorrect homonymous hemianopia, no photorealistic eyeballs, no complex retinal anatomy overload, no tiny labels, no tumor gore, no wrong field shading, no excessive colors, no decorative brain unrelated to optic chiasm.",
+    "priority": "high"
+  },
+  {
+    "asset_id": "cerebellopontine_angle_map",
+    "batch_id": "batch_3_cranial_nerves_head_neck",
+    "domain": "cranial_nerves_head_neck",
+    "title": "CPA Lesion Map",
+    "page_targets": [
+      "pages/exam_sets/batch3_pembahasan_mcq_6_3_akt_18_2021.html",
+      "pages/glossary/batch3_pembahasan_mcq_6_3.html"
+    ],
+    "visual_type": "diagram",
+    "style_notes": "Simplified posterior fossa lesion map with layered glass panels and crisp labels.",
+    "composition_notes": "Show pons, cerebellum, internal acoustic meatus, CN V, CN VII, CN VIII, and a CPA lesion bubble.",
+    "color_notes": "Dark blue base, violet lesion, cyan cranial nerves, amber cerebellar warning accents.",
+    "caption": "CPA lesions may combine vestibular, facial, trigeminal, and cerebellar signs.",
+    "alt_text": "Cerebellopontine angle map showing pons, cerebellum, internal acoustic meatus, cranial nerves V, VII, and VIII, with clinical callouts for hearing, vertigo, facial weakness, and ataxia.",
+    "prompt": "Create a premium liquid-glass posterior fossa anatomy diagram titled CPA Lesion Map. Use a simplified axial view of pons, cerebellum, internal acoustic meatus, and cranial nerves V, VII, and VIII. Place a small translucent lesion at the cerebellopontine angle. Add concise symptom callouts: CN VIII hearing loss tinnitus vertigo, CN VII facial weakness hyperacusis, CN V facial sensory change, cerebellum ataxia dysmetria. Use medium-weight line art, elegant medical blue-violet palette, glass cards, clear hierarchy, and mobile-readable labels.",
+    "negative_prompt": "No detailed neurosurgical scene, no gore, no photorealistic tumor, no wrong nerve numbering, no crowded brainstem labels, no tiny text, no confusing vestibular pathway with basal ganglia, no decorative anatomy unrelated to CPA lesions.",
+    "priority": "high"
+  },
+  {
+    "asset_id": "skull_base_fracture_patterns",
+    "batch_id": "batch_3_cranial_nerves_head_neck",
+    "domain": "cranial_nerves_head_neck",
+    "title": "Skull Base Fractures",
+    "page_targets": [
+      "pages/exam_sets/batch3_pembahasan_mcq_6_3_akt_18_2021.html",
+      "pages/glossary/batch3_pembahasan_mcq_6_3.html"
+    ],
+    "visual_type": "comparison_card",
+    "style_notes": "Scannable mobile comparison card with non-graphic trauma visualization.",
+    "composition_notes": "Compare anterior, middle, and posterior cranial fossa fracture clues using three compact glass cards.",
+    "color_notes": "Navy background, ivory skull icons, cyan fossa outlines, amber fracture lines, muted red warning accents.",
+    "caption": "Skull-base fracture clues vary by cranial fossa location.",
+    "alt_text": "Comparison card for anterior, middle, and posterior skull-base fracture patterns with key clinical clues such as CSF rhinorrhea, hemotympanum, Battle sign, and lower cranial nerve signs.",
+    "prompt": "Create a premium liquid-glass comparison card for medical students titled Skull Base Fractures. Design three clean vertical cards: anterior cranial fossa, middle cranial fossa, posterior cranial fossa. Each card has a simplified skull-base top-view icon with highlighted fracture region and concise clues. Anterior: raccoon eyes, CSF rhinorrhea, anosmia risk. Middle: Battle sign, hemotympanum, CSF otorrhea, facial nerve risk. Posterior: lower cranial nerve signs and posterior fossa concern. Use non-graphic trauma symbolism, medium line art, clear mobile labels, and elegant blue-violet glassmorphism.",
+    "negative_prompt": "No bloody trauma, no fractured face photorealism, no excessive emergency equipment, no tiny unreadable labels, no wrong fossa location, no cluttered skull sutures, no sensational injury depiction.",
+    "priority": "medium"
+  },
+  {
+    "asset_id": "eye_anatomy_neuro_reference",
+    "batch_id": "batch_3_cranial_nerves_head_neck",
+    "domain": "cranial_nerves_head_neck",
+    "title": "Neuro Eye Reference",
+    "page_targets": [
+      "pages/exam_sets/batch3_pembahasan_mcq_6_3_akt_18_2021.html",
+      "pages/glossary/batch3_pembahasan_mcq_6_3.html"
+    ],
+    "visual_type": "reference_strip",
+    "style_notes": "Concise eye-neurology reference strip with high label readability.",
+    "composition_notes": "Use four panels: ptosis, pupil, extraocular movement, and optic nerve entry point.",
+    "color_notes": "Deep navy canvas, cyan optic lines, violet muscle accents, amber pupil highlight, white labels.",
+    "caption": "Eye findings help localize cranial nerve and visual pathway disorders.",
+    "alt_text": "Neuro-ophthalmology reference strip showing eyelid ptosis, pupil response, extraocular movement, optic nerve pathway, and GCS eye response cue.",
+    "prompt": "Create a premium liquid-glass eye anatomy reference strip for a neurology exam app. Four clean panels: eyelid and levator showing ptosis, pupil and light reflex, extraocular movement with CN III cue, and optic nerve entering the optic chiasm. Add a small clinical badge: GCS eye response. Use simplified medically accurate anatomy, medium-weight line art, readable labels, glass cards, high contrast, mobile-first design, and elegant blue-violet CORTEX style.",
+    "negative_prompt": "No detailed ophthalmology atlas overload, no surgical instruments, no photorealistic diseased eye, no tiny labels, no incorrect optic chiasm crossing, no confusing cranial nerve numbering, no excessive colors.",
+    "priority": "high"
+  },
+  {
+    "asset_id": "vestibular_pathway_summary",
+    "batch_id": "batch_3_cranial_nerves_head_neck",
+    "domain": "cranial_nerves_head_neck",
+    "title": "Vestibular Pathway",
+    "page_targets": [
+      "pages/exam_sets/batch3_pembahasan_mcq_6_3_akt_18_2021.html",
+      "pages/glossary/batch3_pembahasan_mcq_6_3.html"
+    ],
+    "visual_type": "flowchart",
+    "style_notes": "Clean vestibular flowchart with glass nodes and central-versus-peripheral separation.",
+    "composition_notes": "Trace labyrinth to CN VIII, vestibular nuclei, cerebellum, ocular motor nuclei, and postural output.",
+    "color_notes": "Navy background, cyan peripheral pathway, violet central pathway, teal peripheral card, amber warning card.",
+    "caption": "Vestibular pathways connect inner ear input with eye movement and posture.",
+    "alt_text": "Flowchart of the vestibular pathway from labyrinth and CN VIII to vestibular nuclei, cerebellum, ocular motor nuclei, and postural outputs, with peripheral and central vertigo comparison.",
+    "prompt": "Create a premium liquid-glass vestibular pathway flowchart for medical students. Show semicircular canals and labyrinth leading to CN VIII, vestibular nuclei, cerebellum, ocular motor nuclei, and spinal or postural outputs. Add a bottom comparison strip: peripheral vertigo or Meniere disease with episodic vertigo, tinnitus, and hearing symptoms; central vertigo with no latency nystagmus and cerebellar or brainstem warning signs. Use medium-weight line art, clean arrows, elegant blue-violet palette, readable labels, and mobile-first layout.",
+    "negative_prompt": "No inner ear microscopic overload, no wrong statement that basal ganglia are the main vestibular processor, no crowded arrows, no unreadable labels, no photorealistic ear surgery, no excessive color coding, no confusing peripheral and central vertigo features.",
+    "priority": "high"
+  },
+  {
+    "asset_id": "cranial_nerve_origins",
+    "batch_id": "batch_3_cranial_nerves_head_neck",
+    "domain": "cranial_nerves_head_neck",
+    "title": "Cranial Nerve Origins",
+    "page_targets": [
+      "pages/exam_sets/batch3_pembahasan_mcq_6_3_akt_18_2021.html",
+      "pages/glossary/batch3_pembahasan_mcq_6_3.html"
+    ],
+    "visual_type": "poster",
+    "style_notes": "Compact reference poster with exam-relevant origin zones and minimal labels.",
+    "composition_notes": "Use a vertical brainstem silhouette with midbrain, pons, and medulla bands plus CN I-XII chips.",
+    "color_notes": "Deep navy base, translucent brainstem bands, cyan nerve roots, violet nerve chips, amber exam anchors.",
+    "caption": "Cranial nerve origins help localize brainstem lesions.",
+    "alt_text": "Reference poster showing cranial nerve origins across forebrain, midbrain, pons, and medulla with highlighted exam anchors for CN III, CN VII, CN VIII, and lower cranial nerves.",
+    "prompt": "Create a premium liquid-glass cranial nerve origin overview poster for a mobile medical app. Use a simplified vertical brainstem silhouette with bands: midbrain, pons, medulla. Add cranial nerve root chips: I olfactory and II optic above, III-IV midbrain, V-VIII pons and cerebellopontine angle, IX-XII medulla. Highlight exam anchors: CN III palsy in Weber syndrome, CN VII facial palsy, CN VIII vestibular symptoms, lower cranial nerve medullary signs. Use medium line art, readable number chips, glass cards, high contrast blue-violet CORTEX style, and clean spacing.",
+    "negative_prompt": "No full dense anatomy atlas, no tiny nerve labels, no wrong brainstem origins, no photorealistic wet brain, no cluttered skull base holes, no excessive colors, no decorative symbols that obscure nerve numbering.",
+    "priority": "high"
+  },
+  {
+    "asset_id": "head_neck_neuro_comparison",
+    "batch_id": "batch_3_cranial_nerves_head_neck",
+    "domain": "cranial_nerves_head_neck",
+    "title": "Head Neck Neuro Map",
+    "page_targets": [
+      "pages/exam_sets/batch3_pembahasan_mcq_6_3_akt_18_2021.html",
+      "pages/quiz/batch3_pembahasan_mcq_6_3.html"
+    ],
+    "visual_type": "comparison_card",
+    "style_notes": "Mobile-first quick-reference card with consistent icons and concise clinical cues.",
+    "composition_notes": "Use a 2x3 grid: CN III, CN VII, CN VIII, medulla, cerebellum, and skull base.",
+    "color_notes": "Navy-indigo gradient, cyan line icons, violet headers, amber exam-clue badges, white text.",
+    "caption": "A compact map of high-yield head and neck neuroanatomy.",
+    "alt_text": "Six-tile head and neck neuroanatomy card covering CN III eye movement, CN VII facial expression, CN VIII vestibular-hearing function, medullary lower cranial nerve signs, cerebellar signs, and skull-base landmarks.",
+    "prompt": "Create a premium liquid-glass head and neck anatomy comparison card for CORTEX medical learning. Make a clean 2x3 mobile-first grid of glass tiles. Tile 1 CN III eye movement and ptosis or diplopia. Tile 2 CN VII facial expression and Bell palsy. Tile 3 CN VIII vestibular-hearing and Meniere or vertigo. Tile 4 medulla lower cranial nerve signs. Tile 5 cerebellum or posterior fossa with ataxia, dysarthria, and morning vomiting. Tile 6 skull base foramina as a simplified landmark card. Use medium-weight line icons, concise readable labels, high contrast, elegant blue-purple gradient, premium spacing, and no clutter.",
+    "negative_prompt": "No dense textbook chart, no tiny paragraphs, no photorealistic patients, no gore, no inaccurate nerve signs, no excessive skull foramina detail, no decorative clutter, no inconsistent icon style.",
+    "priority": "high"
+  }
+]
