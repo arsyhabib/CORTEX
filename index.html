@@ -11745,6 +11745,8 @@ function CortexLibraryShell() {
     });
     if (lectureHit) {
       setSelectedLectureId(lectureHit.id);
+      setSelectedExamSetId('');
+      setSelectedExamSet(null);
       navigate(9);
       return;
     }
@@ -11754,6 +11756,8 @@ function CortexLibraryShell() {
     });
     if (examHit) {
       setSelectedExamSetId(examHit.id);
+      setSelectedLectureId('');
+      setSelectedLecture(null);
       navigate(17);
       return;
     }
@@ -12098,10 +12102,10 @@ function CortexLibraryShell() {
         onClose:()=>setSidebarOpen(false),
         lectureDomains,
         selectedLectureId,
-        onSelectLecture:setSelectedLectureId,
+        onSelectLecture: (id) => { setSelectedLectureId(id); setSelectedExamSetId(''); setSelectedExamSet(null); },
         examSets,
         selectedExamSetId,
-        onSelectExamSet:setSelectedExamSetId,
+        onSelectExamSet: (id) => { setSelectedExamSetId(id); setSelectedLectureId(''); setSelectedLecture(null); },
         contentIndexStatus,
       })
     ),
@@ -12130,10 +12134,10 @@ function CortexLibraryShell() {
         sidebarMode:'dock',
         lectureDomains,
         selectedLectureId,
-        onSelectLecture:setSelectedLectureId,
+        onSelectLecture: (id) => { setSelectedLectureId(id); setSelectedExamSetId(''); setSelectedExamSet(null); },
         examSets,
         selectedExamSetId,
-        onSelectExamSet:setSelectedExamSetId,
+        onSelectExamSet: (id) => { setSelectedExamSetId(id); setSelectedLectureId(''); setSelectedLecture(null); },
         contentIndexStatus,
       })
     ),
@@ -12146,10 +12150,10 @@ function CortexLibraryShell() {
       page,
       lectureDomains,
       selectedLectureId,
-      onSelectLecture:setSelectedLectureId,
+      onSelectLecture: (id) => { setSelectedLectureId(id); setSelectedExamSetId(''); setSelectedExamSet(null); },
       examSets,
       selectedExamSetId,
-      onSelectExamSet:setSelectedExamSetId,
+      onSelectExamSet: (id) => { setSelectedExamSetId(id); setSelectedLectureId(''); setSelectedLecture(null); },
     }),
     fabPortalTarget
       ? ReactDOM.createPortal(
