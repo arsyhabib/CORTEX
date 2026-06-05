@@ -4695,21 +4695,35 @@ function CortexFabHubPanel({ title, accent, onBack, children }) {
   );
 }
 
-function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme, page }) {
+function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme, page, lectureDomains = [], selectedLectureId, onSelectLecture, examSets = [], selectedExamSetId, onSelectExamSet }) {
   const compact = mode !== 'desktop';
   const allowFabDrag = mode === 'desktop';
   const [fabOpen, setFabOpen] = React.useState(false);
   const [fabPos, setFabPos] = React.useState(null);
-  const [fabGroup, setFabGroup] = React.useState('Foundation');
+  const [fabGroup, setFabGroup] = React.useState('🔍 Tools');
   const [fabActiveHub, setFabActiveHub] = React.useState(null);
   const [fabPortalTarget, setFabPortalTarget] = React.useState(null);
   const fabDragRef = React.useRef({ active:false, moved:false, sx:0, sy:0, ox:0, oy:0 });
   const currentTheme = theme || cortexResolveTheme('neural');
-  const groupedSurfaces = React.useMemo(() => CORTEX_MAIN_SURFACES.reduce((acc, surface) => {
-    (acc[surface.group] ||= []).push(surface);
+
+  /* ── CORTEX Feature Groups for FAB ── */
+  const CORTEX_FEATURE_GROUPS = [
+    { id:'🔍 Tools', surfaces:[6,12,13,14], label:'Find & Explore', sub:'Search, Images, 3D, Glossary' },
+    { id:'📊 Progress', surfaces:[19,8,7], label:'Track & Tune', sub:'Progress, Motion, Settings' },
+    { id:'🤖 AI', surfaces:[20,21], label:'AI Workspace', sub:'Assistant & Provider' },
+    { id:'ℹ️ Help', surfaces:[23], label:'Help', sub:'Privacy, states, about' },
+  ];
+  const FEATURE_SURFACE_IDS = CORTEX_FEATURE_GROUPS.flatMap(g => g.surfaces);
+  const groupedSurfaces = React.useMemo(() => {
+    const acc = {};
+    FEATURE_SURFACE_IDS.forEach(sid => {
+      const group = CORTEX_FEATURE_GROUPS.find(g => g.surfaces.includes(sid));
+      const surface = CORTEX_MAIN_SURFACES.find(s => s.id === sid);
+      if (group && surface) (acc[group.id] ||= []).push(surface);
+    });
     return acc;
-  }, {}), []);
-  const groupOrder = ['Foundation', 'Learn', 'Review', 'Reference', 'Practice', 'Ops', 'Support'];
+  }, []);
+  const groupOrder = ['🔍 Tools', '📊 Progress', '🤖 AI', 'ℹ️ Help'];
   const activeSurface = cortexSurfaceLookup(surfaceId || 2);
   const surfaceMeta = {
     note: { badge:'Calm', title:'Reading-focused', sub:'Quiet hierarchy and open spacing.' },
@@ -4736,6 +4750,22 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
       type:'pages',
       items:group.items,
     })),
+    {
+      id:'Lectures',
+      title:'Lectures',
+      sub:`${lectureDomains.reduce((sum, domain) => sum + Number(domain.moduleCount || (Array.isArray(domain.modules) ? domain.modules.length : 0)), 0)} modules`,
+      kicker:'Content',
+      type:'lectures',
+      items:lectureDomains,
+    },
+    {
+      id:'Exam Sets',
+      title:'Exam Sets',
+      sub:`${examSets.length} sets`,
+      kicker:'Content',
+      type:'exams',
+      items:examSets,
+    },
     {
       id:'Features',
       title:'Features',
@@ -5012,13 +5042,14 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
           display:'flex',
         }
       },
-        React.createElement(CortexFabHubPanel, {
+      React.createElement(CortexFabHubPanel, {
           title:fabActiveHub,
           accent:currentTheme.colors.accent1,
           onBack:()=>setFabActiveHub(null),
         },
-          fabActiveHub === 'Features'
-            ? CORTEX_FAB_FEATURES.map(item => React.createElement(CortexAtomPageButton, {
+          (() => {
+            if (fabActiveHub === 'Features') {
+              return CORTEX_FAB_FEATURES.map(item => React.createElement(CortexAtomPageButton, {
                 key:item.id,
                 page:item.page,
                 title:item.title,
@@ -5038,28 +5069,115 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
                   marginTop:4,
                   padding:'10px 12px',
                 }
-              }))
-            : (groupedSurfaces[fabActiveHub] || []).map(item => React.createElement(CortexAtomPageButton, {
-                key:item.id,
-                page:item.id,
-                title:item.label,
-                sub:null,
-                theme:currentTheme,
-                onClick:()=>{
-                  setFabOpen(false);
-                  setFabActiveHub(null);
-                  onSurfaceChange && onSurfaceChange(item.id);
-                  onNavigate(item.id);
+              }));
+            }
+            if (fabActiveHub === 'Lectures') {
+              return React.createElement('div', { style:{ display:'grid', gap:10 } },
+                React.createElement('div', { style:{ display:'flex', flexDirection:'column', gap:6 } },
+                  React.createElement('div', { style:{ color:currentTheme.colors.accent1, fontSize:10, fontWeight:900, letterSpacing:1.1, textTransform:'uppercase' }}, 'Lecture modules'),
+                  React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.45 }}, `${lectureDomains.reduce((sum, domain) => sum + Number(domain.moduleCount || (Array.isArray(domain.modules) ? domain.modules.length : 0)), 0)} modules are exposed as direct buttons.`)
+                ),
+                lectureDomains.map((domain) => React.createElement('details', {
+                  key:domain.id,
+                  open:true,
+                  style:{
+                    marginBottom:2,
+                    borderRadius:16,
+                    border:`1px solid rgba(255,255,255,0.10)`,
+                    background:'rgba(255,255,255,0.03)',
+                    overflow:'hidden',
+                  }
                 },
-                compact:true,
-                active:item.id === activeSurface.id,
-                showKicker:false,
-                style:{
-                  width:'100%',
-                  marginTop:4,
-                  padding:'10px 12px',
-                }
-              }))
+                  React.createElement('summary', {
+                    style:{
+                      listStyle:'none',
+                      cursor:'pointer',
+                      padding:'10px 11px',
+                      display:'flex',
+                      alignItems:'center',
+                      justifyContent:'space-between',
+                      gap:10,
+                    }
+                  },
+                    React.createElement('div', null,
+                      React.createElement('div', { style:{ color:currentTheme.colors.text, fontSize:12, fontWeight:900 }}, String(domain.title || '').replace(/\.$/, '')),
+                      React.createElement('div', { style:{ color:DL.sub, fontSize:9, lineHeight:1.35, marginTop:3 }}, `${Number(domain.moduleCount || (Array.isArray(domain.modules) ? domain.modules.length : 0))} lecture modules`)
+                    ),
+                    React.createElement(B1Badge, { color:currentTheme.colors.accent2 }, `${Number(domain.moduleCount || (Array.isArray(domain.modules) ? domain.modules.length : 0))}`)
+                  ),
+                  React.createElement('div', { style:{ display:'grid', gap:6, padding:'0 10px 10px' }},
+                    (Array.isArray(domain.modules) ? domain.modules : []).map((module, idx) => React.createElement(CortexAtomPageButton, {
+                      key:module.id,
+                      page:9,
+                      title:module.title || `Module ${idx + 1}`,
+                      sub:module.sourceDocument || 'Lecturer source',
+                      theme:currentTheme,
+                      compact:true,
+                      active:selectedLectureId === module.id,
+                      showKicker:false,
+                      onClick:()=>{
+                        setFabOpen(false);
+                        setFabActiveHub(null);
+                        onSelectLecture && onSelectLecture(module.id);
+                      },
+                      style:{
+                        width:'100%',
+                        padding:'10px 12px',
+                      }
+                    }))
+                  )
+                ))
+              );
+            }
+            if (fabActiveHub === 'Exam Sets') {
+              return React.createElement('div', { style:{ display:'grid', gap:10 } },
+                React.createElement('div', { style:{ display:'flex', flexDirection:'column', gap:6 } },
+                  React.createElement('div', { style:{ color:currentTheme.colors.accent1, fontSize:10, fontWeight:900, letterSpacing:1.1, textTransform:'uppercase' }}, 'Question sets'),
+                  React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.45 }}, `${examSets.length} validated sets are exposed as direct buttons.`)
+                ),
+                examSets.map((set) => React.createElement(CortexAtomPageButton, {
+                  key:set.id,
+                  page:17,
+                  title:set.title,
+                  sub:`${Number(set.questionCount || 0)} questions`,
+                  theme:currentTheme,
+                  compact:true,
+                  active:selectedExamSetId === set.id,
+                  showKicker:false,
+                  onClick:()=>{
+                    setFabOpen(false);
+                    setFabActiveHub(null);
+                    onSelectExamSet && onSelectExamSet(set.id);
+                  },
+                  style:{
+                    width:'100%',
+                    padding:'10px 12px',
+                  }
+                }))
+              );
+            }
+            return (groupedSurfaces[fabActiveHub] || []).map(item => React.createElement(CortexAtomPageButton, {
+              key:item.id,
+              page:item.id,
+              title:item.label,
+              sub:null,
+              theme:currentTheme,
+              onClick:()=>{
+                setFabOpen(false);
+                setFabActiveHub(null);
+                onSurfaceChange && onSurfaceChange(item.id);
+                onNavigate(item.id);
+              },
+              compact:true,
+              active:item.id === activeSurface.id,
+              showKicker:false,
+              style:{
+                width:'100%',
+                marginTop:4,
+                padding:'10px 12px',
+              }
+            }));
+          })()
         )
       )
     )
@@ -7020,20 +7138,116 @@ Object.assign(window, {
   B2Bullet, B2PressHint, B2ImageCard, B2Segmented,
 });
 
+const CORTEX_BUILD_TAG = '2026-06-04-c';
 const CORTEX_RUNTIME_CONTENT_INDEX_PATH = 'app_data/runtime/content_index.generated.json';
 const CORTEX_RUNTIME_VISUAL_MANIFEST_PATH = 'app_data/runtime/visual_asset_manifest.generated.json';
 
+/** Detect if opened via file:// protocol (blocks fetch) */
+function cortexIsLocalFile() {
+  return typeof window !== 'undefined' && window.location && window.location.protocol === 'file:';
+}
+
+function cortexWithCacheBust(path) {
+  const text = String(path || '').trim();
+  if (!text) return text;
+  return text.includes('?') ? `${text}&v=${CORTEX_BUILD_TAG}` : `${text}?v=${CORTEX_BUILD_TAG}`;
+}
+
 function cortexFetchJSON(path) {
-  return fetch(path, { cache:'no-store' }).then((response) => {
+  if (cortexIsLocalFile()) {
+    return Promise.reject(new Error('file:// protocol does not support fetch. Serve via HTTP: npx serve .'));
+  }
+  return fetch(cortexWithCacheBust(path), { cache:'no-store' }).then((response) => {
     if (!response.ok) throw new Error(`Failed to load ${path}: ${response.status}`);
     return response.json();
   });
+}
+
+async function cortexFetchJSONCandidates(paths, validate) {
+  if (cortexIsLocalFile()) {
+    throw new Error('file:// protocol does not support fetch. Serve via HTTP: npx serve .');
+  }
+  let lastError = null;
+  for (const path of paths) {
+    try {
+      const data = await cortexFetchJSON(path);
+      if (typeof validate === 'function' && !validate(data)) {
+        lastError = new Error(`Invalid payload at ${path}`);
+        continue;
+      }
+      return { data, path };
+    } catch (error) {
+      lastError = error;
+    }
+  }
+  throw lastError || new Error('Unable to load JSON candidates');
 }
 
 function cortexSentenceCase(value) {
   const text = String(value || '').replace(/\s+/g, ' ').trim();
   if (!text) return '';
   return text.charAt(0).toUpperCase() + text.slice(1);
+}
+
+function cortexLectureRawText(value) {
+  return String(value || '').replace(/\s+/g, ' ').trim();
+}
+
+function cortexLectureDisplayText(value, moduleTitle = '') {
+  let text = cortexLectureRawText(value);
+  if (!text) return '';
+  text = text.replace(/^Bagian ini menyoroti:\s*/i, '');
+  text = text.replace(/^Fokus belajar:\s*/i, '');
+  if (/^\d+\.?$/.test(text)) return '';
+  if (/^\d{6,}(?:\s+\d{1,4})?\.?$/.test(text)) return '';
+  if (/^\d{1,2}\/\d{1,2}\/\d{4}(?:\s+\d{1,4})?\.?$/.test(text)) return '';
+  if (/^Udah ulang rekaman\b/i.test(text)) return '';
+  if (/^Ga ulang tanya jawab\b/i.test(text)) return '';
+  if (/^S\d+:\s*FK\b/i.test(text)) return '';
+  if (/^Visual dan media placeholder\.?$/i.test(text)) text = 'Galeri visual dan media';
+  if (/^Source slide gallery placeholder:\s*/i.test(text)) {
+    text = text.replace(/^Source slide gallery placeholder:\s*/i, 'Galeri slide sumber: ');
+  }
+  if (/^Modul ini tidak lagi mengandalkan OCR rapuh\.?/i.test(text)) {
+    text = 'Halaman sumber asli dipertahankan sebagai atlas penuh.';
+  }
+  if (/^Fallback atlas dipakai karena/i.test(text)) {
+    text = 'Atlas sumber penuh dipakai sebagai rujukan halaman saat narasi belum stabil.';
+  }
+  if (/^source-preserving extraction\.?$/i.test(text)) return '';
+  if (/^lecturer-derived structured content;.*$/i.test(text)) return '';
+  if (/^placeholder$/i.test(text)) return '';
+  if (/^Materi inti\.?$/i.test(text) && moduleTitle) return cortexSentenceCase(moduleTitle);
+  if (/^Segmen materi \d+\.?$/i.test(text) && moduleTitle) return cortexSentenceCase(moduleTitle);
+  text = text.replace(/\bplaceholder\b/ig, '').replace(/\s+/g, ' ').trim();
+  if (!text) return '';
+  if (moduleTitle && /^materi inti$/i.test(text)) return cortexSentenceCase(moduleTitle);
+  return cortexSentenceCase(text);
+}
+
+function cortexLectureSummaryText(value, moduleTitle = '') {
+  const text = cortexLectureDisplayText(value, moduleTitle);
+  if (!text) return '';
+  const lowered = text.toLowerCase();
+  const generic = new Set([
+    'materi inti',
+    'segmen materi 1',
+    'segmen materi 2',
+    'segmen materi 3',
+    'segmen materi 4',
+    'segmen materi 5',
+    'segmen materi 6',
+    'segmen materi 7',
+    'segmen materi 8',
+    'segmen materi 9',
+    'segmen materi 10',
+    'visual dan media',
+    'galeri visual dan media',
+    'source slide gallery',
+    'galeri slide sumber',
+  ]);
+  if (generic.has(lowered)) return moduleTitle ? cortexSentenceCase(moduleTitle) : '';
+  return text;
 }
 
 function cortexHumanizeTerm(value) {
@@ -7048,18 +7262,19 @@ function cortexHumanizeTerm(value) {
 
 function cortexGetLectureSections(module, limit = 6) {
   const sections = Array.isArray(module && module.sections) ? module.sections : [];
+  const moduleTitle = String(module && module.title || '').trim();
   return sections.map((section, index) => {
     const lines = Array.isArray(section.content)
       ? section.content
-          .map((item) => String(item && item.text || '').replace(/\s+/g, ' ').trim())
+          .map((item) => cortexLectureDisplayText(item && item.text || '', moduleTitle))
           .filter(Boolean)
       : [];
     return {
       id: section.id || `section_${index + 1}`,
-      title: cortexSentenceCase(section.title || `Section ${index + 1}`),
+      title: cortexLectureDisplayText(section.title || `Section ${index + 1}`, moduleTitle) || cortexSentenceCase(section.title || `Section ${index + 1}`),
       kind: section.kind || 'Reading',
       lines,
-      summary: lines.slice(0, 2).join(' '),
+      summary: lines.slice(0, 2).join(' ') || cortexLectureDisplayText(section.summary || '', moduleTitle),
       glossaryRefs: Array.isArray(section.glossary_refs) ? section.glossary_refs : [],
       quizRefs: Array.isArray(section.quiz_refs) ? section.quiz_refs : [],
       visualRefs: Array.isArray(section.visual_refs) ? section.visual_refs : [],
@@ -7081,9 +7296,53 @@ function cortexGetLectureGlossary(module, limit = 12) {
 }
 
 function cortexGetLectureSummary(module, limit = 5) {
+  const moduleTitle = String(module && module.title || '').trim();
   const summary = Array.isArray(module && module.summary) ? module.summary : [];
   const examFocus = Array.isArray(module && module.exam_focus) ? module.exam_focus : [];
-  return [...summary, ...examFocus].map(cortexSentenceCase).filter(Boolean).slice(0, limit);
+  const merged = [...summary, ...examFocus]
+    .map((item) => cortexLectureSummaryText(item, moduleTitle))
+    .filter(Boolean);
+  const unique = [];
+  merged.forEach((item) => {
+    if (!unique.some((existing) => existing.toLowerCase() === item.toLowerCase())) unique.push(item);
+  });
+  if (unique.length < limit) {
+    cortexGetLectureSections(module, 12).forEach((section) => {
+      if (unique.length >= limit) return;
+      const candidates = [
+        cortexLectureSummaryText(section.summary, moduleTitle),
+        cortexLectureSummaryText(section.title, moduleTitle),
+      ].filter(Boolean);
+      candidates.forEach((candidate) => {
+        if (unique.length < limit && !unique.some((existing) => existing.toLowerCase() === candidate.toLowerCase())) {
+          unique.push(candidate);
+        }
+      });
+    });
+  }
+  if (!unique.length && moduleTitle) unique.push(cortexSentenceCase(moduleTitle));
+  return unique.slice(0, limit);
+}
+
+function cortexGetLectureAtlas(module) {
+  const atlas = module && (module.sourceAtlas || module.source_atlas);
+  if (!atlas || typeof atlas !== 'object') return null;
+  const moduleTitle = String(module && module.title || '').trim();
+  const atlasFile = String(atlas.atlasFile || atlas.atlas_file || '').trim();
+  const pageFiles = Array.isArray(atlas.pageFiles || atlas.page_files)
+    ? (atlas.pageFiles || atlas.page_files).map((item) => String(item || '').trim()).filter(Boolean)
+    : [];
+  if (!atlasFile && !pageFiles.length) return null;
+  return {
+    mode:String(atlas.deliveryMode || atlas.delivery_mode || module.delivery_mode || 'full_source_page_atlas').trim(),
+    title:cortexLectureDisplayText(atlas.title || moduleTitle || 'Source atlas', moduleTitle) || cortexSentenceCase(moduleTitle || 'Source atlas'),
+    caption:cortexLectureDisplayText(atlas.caption || atlas.note || '', moduleTitle),
+    pageCount:Number(atlas.pageCount || atlas.page_count || pageFiles.length || 0),
+    atlasFile,
+    pageFiles,
+    sourceKind:String(atlas.sourceKind || atlas.source_kind || module.source_format || '').trim(),
+    sourceFile:String(atlas.sourceFile || atlas.source_file || module.source_filename || module.source_pdf || '').trim(),
+  };
 }
 
 function cortexGetExamQuestions(examSet) {
@@ -7146,13 +7405,13 @@ function cortexResolveVisualAssets(manifest) {
     const id = String(asset.id || asset.asset_id || `visual_${index + 1}`);
     const batchId = String(asset.batchId || asset.batch_id || '');
     const domainId = String(asset.domainId || asset.domain || '');
-    const title = String(asset.title || '').trim();
-    const type = String(asset.type || asset.visual_type || '').trim();
+    const title = cortexLectureDisplayText(asset.title || '', '') || String(asset.title || '').trim();
+    const type = String(asset.type || asset.visual_type || '').replace(/\bplaceholder\b/ig, '').replace(/\s+/g, ' ').trim();
     const pageTargets = Array.isArray(asset.pageTargets || asset.page_targets)
       ? (asset.pageTargets || asset.page_targets).map((target) => String(target || '').trim()).filter(Boolean)
       : [];
-    const caption = String(asset.caption || '').trim();
-    const altText = String(asset.altText || asset.alt_text || asset.alt || '').trim();
+    const caption = cortexLectureDisplayText(asset.caption || '', '') || String(asset.caption || '').trim();
+    const altText = cortexLectureDisplayText(asset.altText || asset.alt_text || asset.alt || '', '') || String(asset.altText || asset.alt_text || asset.alt || '').trim();
     const styleNotes = String(asset.styleNotes || asset.style_notes || '').trim();
     const compositionNotes = String(asset.compositionNotes || asset.composition_notes || '').trim();
     const colorNotes = String(asset.colorNotes || asset.color_notes || '').trim();
@@ -7233,7 +7492,11 @@ function cortexResolveLectureDomains(index) {
 
 function cortexResolveExamSets(index) {
   return (Array.isArray(index && index.examSets) ? index.examSets : [])
-    .filter((set) => set && set.sourceFile && Number(set.questionCount || 0) > 0 && set.title);
+    .filter((set) => set && set.title)
+    .map((set) => Object.assign({}, set, {
+      questionCount: Number(set.questionCount || 0),
+      sourceFile: String(set.sourceFile || '').trim(),
+    }));
 }
 
 /* batch2-screens-a.jsx */
@@ -7247,16 +7510,20 @@ function PageTypographyReading({ onNavigate, lectureModule, lectureDomain }) {
   const [held, setHeld] = React.useState(false);
   const [openSections, setOpenSections] = React.useState([0, 1]);
   const [openSubs, setOpenSubs] = React.useState([0, 1]);
+  const [showAtlasPages, setShowAtlasPages] = React.useState(false);
   const [viewerMode, setViewerMode] = React.useState('poster');
   const [recallAnswers, setRecallAnswers] = React.useState([null, null, null, null, null]);
   const timer = React.useRef(null);
   const sections = React.useMemo(() => cortexGetLectureSections(lectureModule), [lectureModule]);
   const summaryPoints = React.useMemo(() => cortexGetLectureSummary(lectureModule), [lectureModule]);
   const glossaryTerms = React.useMemo(() => cortexGetLectureGlossary(lectureModule, 4), [lectureModule]);
+  const atlasMeta = React.useMemo(() => cortexGetLectureAtlas(lectureModule), [lectureModule]);
   const topicTags = lectureModule && Array.isArray(lectureModule.topicTags) ? lectureModule.topicTags : [];
   const lectureTitle = lectureModule && lectureModule.title ? lectureModule.title : 'Lecture Reader';
   const lectureSubtitle = lectureDomain && lectureDomain.title ? lectureDomain.title.replace(/\.$/, '') : 'Lecture module';
-  const lectureSource = lectureModule && (lectureModule.sourceDocument || lectureModule.source_docx || lectureModule.source_filename || lectureModule.source_pdf);
+  const lectureSource = atlasMeta && atlasMeta.sourceFile
+    ? atlasMeta.sourceFile
+    : lectureModule && (lectureModule.sourceDocument || lectureModule.source_docx || lectureModule.source_filename || lectureModule.source_pdf);
   const lectureTable = React.useMemo(() => {
     const rows = glossaryTerms.map((item, index) => [
       item.term,
@@ -7303,6 +7570,10 @@ function PageTypographyReading({ onNavigate, lectureModule, lectureDomain }) {
     setOpenSubs(prev => prev.includes(idx) ? prev.filter(v => v !== idx) : [...prev, idx]);
   };
 
+  React.useEffect(() => {
+    setShowAtlasPages(false);
+  }, [lectureModule && lectureModule.id]);
+
   return React.createElement(B2PageShell, {
     label:'Typography Reading',
     title:lectureTitle,
@@ -7327,11 +7598,89 @@ function PageTypographyReading({ onNavigate, lectureModule, lectureDomain }) {
       )
     ),
 
+    atlasMeta && React.createElement(B1Card, { glow:true, style:{ marginBottom:14, overflow:'hidden' }},
+      React.createElement(B2Kicker, { color:DL.gold }, 'Full source page atlas'),
+      React.createElement('div', { style:{ display:'grid', gap:14 } },
+        React.createElement('div', { style:{ display:'flex', justifyContent:'space-between', gap:12, alignItems:'flex-start', flexWrap:'wrap' }},
+          React.createElement('div', { style:{ flex:1, minWidth:220 }},
+            React.createElement('div', { style:{ fontSize:21, lineHeight:1.18, fontWeight:900, color:DL.text, textWrap:'balance' }},
+              'Halaman sumber utuh dipreservasi sebagai gambar'),
+            React.createElement('div', { style:{ marginTop:8, color:DL.sub, fontSize:12, lineHeight:1.6, maxWidth:760 }},
+              atlasMeta.caption || 'Atlas sumber penuh dipertahankan agar urutan slide dan isi dosen tetap terbaca utuh.'),
+            React.createElement('div', { style:{ display:'flex', gap:8, flexWrap:'wrap', marginTop:12 }},
+              React.createElement(B1Badge, { color:DL.gold }, `${atlasMeta.pageCount || atlasMeta.pageFiles.length} pages`),
+              React.createElement(B1Badge, { color:DL.teal }, atlasMeta.sourceKind || 'Source atlas'),
+              React.createElement(B1Badge, { color:DL.accent }, 'Viewer fallback active'),
+            ),
+          ),
+          React.createElement('div', { style:{ display:'flex', gap:8, flexWrap:'wrap' }},
+            React.createElement(B1Button, {
+              label:showAtlasPages ? 'Hide pages' : 'Show all pages',
+              icon:showAtlasPages ? '−' : '+',
+              variant:showAtlasPages ? 'ghost' : 'primary',
+              onClick:()=>setShowAtlasPages((value) => !value),
+            }),
+          ),
+        ),
+        atlasMeta.atlasFile && React.createElement('div', {
+          style:{
+            borderRadius:24,
+            overflow:'hidden',
+            border:`1px solid ${DL.glassBorder}`,
+            background:'rgba(255,255,255,0.03)',
+            boxShadow:`inset 0 1px 0 ${DL.glassHighlight}`,
+          }
+        },
+          React.createElement('img', {
+            src:atlasMeta.atlasFile,
+            alt:`Atlas preview for ${lectureTitle}`,
+            loading:'lazy',
+            style:{ display:'block', width:'100%', height:'auto' },
+          }),
+        ),
+        showAtlasPages && Array.isArray(atlasMeta.pageFiles) && atlasMeta.pageFiles.length > 0 && React.createElement('div', {
+          style:{
+            display:'grid',
+            gap:10,
+            maxHeight:480,
+            overflow:'auto',
+            paddingRight:4,
+          }
+        },
+          atlasMeta.pageFiles.map((pagePath, index) => React.createElement(B1Card, {
+            key:`${lectureModule && lectureModule.id || 'atlas'}-page-${index}`,
+            pad:12,
+            style:{ marginBottom:0 }
+          },
+            React.createElement('div', { style:{ display:'flex', justifyContent:'space-between', alignItems:'center', gap:10, marginBottom:10 }},
+              React.createElement('div', { style:{ fontSize:13, fontWeight:850, color:DL.text }}, `Source page ${index + 1}`),
+              React.createElement(B1Badge, { color:index % 2 === 0 ? DL.teal : DL.accent }, `P${index + 1}`),
+            ),
+            React.createElement('div', {
+              style:{
+                borderRadius:18,
+                overflow:'hidden',
+                border:`1px solid ${DL.glassBorder}`,
+                background:'rgba(255,255,255,0.03)',
+              }
+            },
+              React.createElement('img', {
+                src:pagePath,
+                alt:`Source page ${index + 1} for ${lectureTitle}`,
+                loading:'lazy',
+                style:{ display:'block', width:'100%', height:'auto' },
+              })
+            )
+          ))
+        )
+      )
+    ),
+
     React.createElement(B1Card, { pad:16, style:{ marginBottom:14 }},
       React.createElement(B2ReadingBlock, { lead:true },
-        summaryPoints[1] || 'This lecture surface keeps the text calm and readable, then hands the same concepts to glossary, summary, and quiz surfaces without changing the meaning.'),
+        summaryPoints[1] || 'This reading surface keeps the content calm and readable, then hands the same concepts to glossary, summary, and quiz surfaces without changing the meaning.'),
       React.createElement(B2ReadingBlock, null,
-        summaryPoints[2] || 'Instead of decorative sample copy, the page now opens the structured lecturer content directly and preserves the reading rhythm across phone, tablet, and desktop layouts.'),
+        summaryPoints[2] || 'Instead of decorative sample copy, the page opens the structured lecturer content directly and preserves the reading rhythm across phone, tablet, and desktop layouts.'),
       React.createElement('div', {
         onPointerDown:startHold,
         onPointerUp:endHold,
@@ -7357,7 +7706,7 @@ function PageTypographyReading({ onNavigate, lectureModule, lectureDomain }) {
         ),
       ),
       React.createElement(B2ReadingBlock, null,
-        summaryPoints[3] || 'Key vocabulary is now pulled from the same lecture package so the user can move naturally from reading into glossary, quick summary, and quiz practice.')
+        summaryPoints[3] || 'Key vocabulary comes from the same lecture package so the learner can move naturally from reading into glossary, quick summary, and quiz practice.')
     ),
 
     sections.map((section, idx) => React.createElement(B1Card, {
@@ -7556,7 +7905,7 @@ function PageBulletContent({ onNavigate }) {
     label:'Bullet Content',
     title:'Bullets',
     subtitle:'Structured lesson',
-    onBack:()=>onNavigate(9),
+    onBack:()=>onNavigate(0),
     right:React.createElement('span', { style:{ fontSize:16, color:DL.mute }}, '1/4'),
   },
     React.createElement(B1Card, { glow:true, style:{ marginBottom:14 }},
@@ -8601,7 +8950,7 @@ function PageQuickSummary({ onNavigate, lectureModule }) {
         { title:'Simplify', sub:'Plain-language mode', color:DL.gold },
         { title:'Bookmark', sub:'Save summary card', color:DL.green },
       ].map((item, i) => React.createElement(B1Card, {
-        key:i, pad:13, onClick: i === 0 ? ()=>onNavigate(17) : i === 1 ? ()=>onNavigate(18) : i === 2 ? ()=>onNavigate(16) : ()=>window.scrollTo({ top:0, behavior:'smooth' }),
+        key:i, pad:13, onClick: i === 0 ? ()=>onNavigate(0) : i === 1 ? ()=>onNavigate(18) : i === 2 ? ()=>onNavigate(16) : ()=>window.scrollTo({ top:0, behavior:'smooth' }),
       },
         React.createElement('div', { style:{ fontSize:13, fontWeight:850, color:item.color, lineHeight:1.3 }}, item.title),
         React.createElement('div', { style:{ fontSize:10, color:DL.sub, marginTop:4 }}, item.sub),
@@ -8900,7 +9249,7 @@ function PageFlashcard({ onNavigate, lectureModule }) {
     label:'Flashcard',
     title:'Flashcards',
     subtitle:'Review mode',
-    onBack:()=>onNavigate(17),
+    onBack:()=>onNavigate(0),
     right:React.createElement(B1Badge, null, `${glossary.length || 0} cards`),
   },
     React.createElement(B3Hero, {
@@ -9018,7 +9367,8 @@ function PageProgressDashboard({ onNavigate, contentIndex, visualManifest }) {
 
 function PageAIWorkspace({ onNavigate }) {
   const [surface, setSurface] = React.useState('assistant');
-  const [runtimeInfo, setRuntimeInfo] = React.useState({ status:'idle', catalog:null, message:'No proxy checked yet.' });
+  const [runtimeInfo, setRuntimeInfo] = React.useState({ status:'idle', catalog:null, message:'No proxy checked yet.', health:null });
+  const [probeState, setProbeState] = React.useState({ status:'idle', provider:'', message:'Belum ada live probe.' });
   const runtime = React.useMemo(function(){
     let sessionConfig = {};
     try {
@@ -9028,19 +9378,37 @@ function PageAIWorkspace({ onNavigate }) {
     }
     const injected = typeof window !== 'undefined' && window.__CORTEX_AI_LOCAL_CONFIG__ ? window.__CORTEX_AI_LOCAL_CONFIG__ : {};
     return Object.assign({
-      provider:'BytePlus ModelArk',
-      providerLabel:'Secure proxy recommended',
-      publicBaseUrl:'https://ark.ap-southeast.bytepluses.com/api/v3',
-      codingBaseUrl:'https://ark.ap-southeast.bytepluses.com/api/coding/v3',
+      provider:'CORTEX Secure Router',
+      providerLabel:'Featherless text + BytePlus media via local secure proxy',
+      publicBaseUrl:'https://api.featherless.ai/v1',
+      mediaBaseUrl:'https://ark.ap-southeast.bytepluses.com/api/v3',
       proxyUrl:'',
       mode:'planning',
+      providers:{
+        featherless:{ defaultModel:'Qwen/Qwen3-4B' },
+        byteplus:{
+          audioModel:'seed-2-0-lite-260228',
+          imageModel:'bytedance-seedream-5-0-lite',
+          videoModel:'seedance-2-0',
+        },
+      },
     }, sessionConfig, injected);
   }, []);
+  const proxyBase = React.useMemo(function(){
+    return String(runtime.proxyUrl || '').replace(/\/+$/, '');
+  }, [runtime.proxyUrl]);
 
   React.useEffect(function(){
-    if (!runtime.proxyUrl) return;
+    if (!proxyBase) {
+      setRuntimeInfo({
+        status:'idle',
+        catalog:null,
+        health:null,
+        message:'Secure proxy belum terdeteksi.',
+      });
+      return;
+    }
     let cancelled = false;
-    const proxyBase = String(runtime.proxyUrl || '').replace(/\/+$/, '');
 
     Promise.all([
       fetch(`${proxyBase}/health`, { cache:'no-store' }).then(r => r.ok ? r.json() : Promise.reject(new Error(`Health ${r.status}`))),
@@ -9050,47 +9418,253 @@ function PageAIWorkspace({ onNavigate }) {
       setRuntimeInfo({
         status:'connected',
         catalog:results[1] && results[1].catalog ? results[1].catalog : null,
-        message:'Secure proxy detected. The workspace can be wired without exposing a browser secret.',
+        health:results[0] || null,
+        message:'Secure proxy detected. Workspace sekarang punya katalog provider nyata tanpa membocorkan secret ke browser.',
       });
     }).catch(function(error){
       if (cancelled) return;
       setRuntimeInfo({
         status:'error',
         catalog:null,
+        health:null,
         message:error && error.message ? error.message : 'Proxy check failed',
       });
     });
 
     return function(){ cancelled = true; };
-  }, [runtime.proxyUrl]);
+  }, [proxyBase]);
+
+  const defaultCatalog = React.useMemo(function(){
+    return {
+      text:[
+        {
+          id:'Qwen/Qwen3-4B',
+          label:'Qwen3 4B',
+          note:'Balanced utama untuk tutor, Q&A, quiz generation, dan output terstruktur.',
+          provider:'Featherless AI',
+          route:'/providers/featherless/chat/completions',
+        },
+        {
+          id:'1024m/Llama-3.2-3B-Instruct-Base',
+          requestedId:'NathanRoll/Llama-3.2-3B-Instruct-Unablated',
+          label:'Llama 3.2 3B',
+          note:'Route cepat pengganti live untuk varian NathanRoll yang tidak muncul di katalog publik Featherless saat wiring ini dibuat.',
+          provider:'Featherless AI',
+          route:'/providers/featherless/chat/completions',
+        },
+        {
+          id:'TroyDoesAI/Llama-3.1-8B-Instruct',
+          label:'Llama 3.1 8B',
+          note:'Lane akurasi lebih tinggi untuk reasoning medis dan verifikasi jawaban.',
+          provider:'Featherless AI',
+          route:'/providers/featherless/chat/completions',
+        },
+        {
+          id:'google/gemma-3-4b-it',
+          label:'Gemma 3 4B Vision',
+          note:'Baca screenshot slide, diagram, atau kartu gambar lewat lane vision. Pada akun Featherless ini route-nya masih gated dan butuh koneksi HuggingFace.',
+          provider:'Featherless AI',
+          route:'/providers/featherless/chat/completions',
+        },
+        {
+          id:'RafikContractzlab/mike_json_version',
+          label:'Phi 4 3.8B',
+          note:'Compact reasoning lane yang enak untuk output JSON dan struktur rapih.',
+          provider:'Featherless AI',
+          route:'/providers/featherless/chat/completions',
+        },
+      ],
+      visual:[
+        {
+          id:'google/gemma-3-4b-it',
+          label:'Gemma vision lane',
+          note:'Vision understanding untuk screenshot, diagram, dan image-grounded tutoring.',
+          provider:'Featherless AI',
+          route:'/providers/featherless/chat/completions',
+        },
+        {
+          id:'bytedance-seedream-5-0-lite',
+          label:'BytePlus image generation',
+          note:'Poster, ilustrasi, visual pendamping, dan aset shell.',
+          provider:'BytePlus ModelArk',
+          route:'/providers/byteplus/images/generations',
+        },
+        {
+          id:'seedance-2-0',
+          label:'BytePlus video generation',
+          note:'Loop pendek, motion explainer, dan task-based video generation.',
+          provider:'BytePlus ModelArk',
+          route:'/providers/byteplus/contents/generations/tasks',
+        },
+      ],
+      audio:[
+        {
+          id:'seed-2-0-lite-260228',
+          label:'BytePlus responses/audio',
+          note:'Audio understanding, spoken recap, dan multimodal response lane.',
+          provider:'BytePlus ModelArk',
+          route:'/providers/byteplus/responses',
+        },
+        {
+          id:'seed-2-0-lite-260228',
+          label:'BytePlus chat compatibility',
+          note:'Fallback OpenAI-style lane untuk orkestrasi prompt sederhana.',
+          provider:'BytePlus ModelArk',
+          route:'/providers/byteplus/chat/completions',
+        },
+      ],
+      video:[
+        {
+          id:'seedance-2-0',
+          label:'BytePlus video task route',
+          note:'Task create/poll untuk workflow video.',
+          provider:'BytePlus ModelArk',
+          route:'/providers/byteplus/contents/generations/tasks',
+        },
+      ],
+      providers:{
+        featherless:{
+          label:'Featherless AI',
+          defaultTextModel:'Qwen/Qwen3-4B',
+          planNote:'Katalog model memperlihatkan 32768 context pada kelas-kelas ini, tetapi halaman paket publik Featherless Basic masih menulis batas konservatif sampai 16K context dan 2 concurrent connections.',
+        },
+        byteplus:{
+          label:'BytePlus ModelArk',
+          defaultTextModel:'seed-2-0-lite-260228',
+          defaultImageModel:'bytedance-seedream-5-0-lite',
+          defaultVideoModel:'seedance-2-0',
+          defaultAudioModel:'seed-2-0-lite-260228',
+        },
+      },
+      notes:[
+        'Semua live call tetap lewat proxy.',
+        'Featherless dipakai untuk text dan vision.',
+        'BytePlus dipakai untuk audio, image, dan video.',
+      ],
+    };
+  }, []);
+
+  const modelFamilies = runtimeInfo.catalog || defaultCatalog;
+  const providerHealth = runtimeInfo.health && runtimeInfo.health.providers ? runtimeInfo.health.providers : {};
+  const featherlessReady = !!(providerHealth.featherless && providerHealth.featherless.configured);
+  const byteplusReady = !!(providerHealth.byteplus && providerHealth.byteplus.configured);
 
   const assistantBubbles = [
-    { who:'Learner', text:'Compare upper and lower motor neuron lesion findings in one clean bedside table.' },
-    { who:'Router', text:'Planned route: Responses API -> structured answer layout -> quick reference summary -> quiz hook.', tone:'system' },
-    { who:'Cortex AI', text:'This shell is now ready for secure provider wiring. Text, visual, audio, and generation lanes are mapped, but GitHub Pages still stays secret-free.', tone:'assistant' },
+    { who:'Learner', text:'Bandingkan UMN vs LMN dalam tabel bedside yang ringkas, lalu buatkan 3 soal recall.' },
+    { who:'Router', text:'Text lane -> Featherless chat/completions. Audio, image, video lane -> BytePlus secure proxy.', tone:'system' },
+    { who:'Cortex AI', text:'Workspace ini sekarang siap jadi panel orkestrasi nyata: 5 model Featherless terkurasi, lalu BytePlus dipisah khusus untuk audio, gambar, dan video.', tone:'assistant' },
   ];
   const statusCards = [
-    { title:'Shell QA', sub:'25/25 pages passed smoke test locally', badge:'Stable', color:DL.teal },
-    { title:'3D runtime', sub:'Page 13 now reads the final ship manifest', badge:'Live', color:DL.green },
-    { title:'Public app safety', sub:'No provider key embedded in static assets', badge:'Safe', color:DL.accent },
-    { title:'AI path', sub:runtime.proxyUrl ? 'Proxy route detected for local wiring' : 'Secure proxy still required for live calls', badge:runtime.proxyUrl ? 'Proxy' : 'Plan', color:runtime.proxyUrl ? DL.teal : DL.gold },
+    { title:'Featherless text', sub:featherlessReady ? '4 text routes ready + 1 gated vision route' : 'Key belum terbaca di proxy', badge:featherlessReady ? 'Ready' : 'Pending', color:featherlessReady ? DL.teal : DL.gold },
+    { title:'BytePlus media', sub:byteplusReady ? 'Audio, image, video lanes ready' : 'Key belum terbaca di proxy', badge:byteplusReady ? 'Ready' : 'Pending', color:byteplusReady ? DL.accent : DL.gold },
+    { title:'Public shell safety', sub:'Static client tetap bebas secret', badge:'Safe', color:DL.green },
+    { title:'Proxy health', sub:proxyBase ? `Detected at ${proxyBase}` : 'Local proxy belum dihubungkan', badge:proxyBase ? 'Proxy' : 'Plan', color:proxyBase ? DL.teal : DL.gold },
   ];
-  const modelFamilies = runtimeInfo.catalog || {
-    text:[
-      { id:'seed-2-0-lite-260228', label:'Responses API', note:'Reasoning, synthesis, tutoring, structured output.' },
-      { id:'seed-2-0-lite-260228', label:'Chat compatibility', note:'Migration-friendly chat/completions surface.' },
-      { id:'ark-code-latest', label:'Coding-plan tooling route', note:'Documented as a supported tooling model, not a public app key path.' },
-    ],
-    visual:[
-      { id:'bytedance-seedream-5-0-lite', label:'Image generation', note:'Diagram, illustration, poster, and anatomy explainer outputs.' },
-      { id:'seedance-2-0', label:'Video generation', note:'Short concept loops, mechanism explainers, and motion snippets.' },
-      { id:'3d-generation-api', label:'3D generation lane', note:'Future server-side route for 3D output orchestration.' },
-    ],
-    audio:[
-      { id:'seed-2-0-lite-260228', label:'Audio understanding', note:'Speech notes, AST, lecture parsing, and oral recap flows.' },
-      { id:'provider-specific-tts', label:'Speech output lane', note:'TTS can be routed later once the proxy owns the provider secret.' },
-    ],
-  };
+
+  function extractProbeText(payload) {
+    function sanitize(text) {
+      return String(text || '')
+        .replace(/<think>[\s\S]*?<\/think>/gi, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
+    if (!payload) return '';
+    if (payload.output_text) return sanitize(payload.output_text);
+    if (payload.choices && payload.choices[0] && payload.choices[0].message && payload.choices[0].message.content) {
+      return sanitize(payload.choices[0].message.content);
+    }
+    if (payload.output && payload.output[0] && payload.output[0].content && payload.output[0].content[0]) {
+      return sanitize(payload.output[0].content[0].text || '');
+    }
+    return '';
+  }
+
+  function refreshRuntime() {
+    if (!proxyBase) {
+      setRuntimeInfo({
+        status:'idle',
+        catalog:null,
+        health:null,
+        message:'Secure proxy belum terdeteksi.',
+      });
+      return Promise.resolve();
+    }
+    return Promise.all([
+      fetch(`${proxyBase}/health`, { cache:'no-store' }).then(r => r.ok ? r.json() : Promise.reject(new Error(`Health ${r.status}`))),
+      fetch(`${proxyBase}/config/models`, { cache:'no-store' }).then(r => r.ok ? r.json() : Promise.reject(new Error(`Catalog ${r.status}`))),
+    ]).then(function(results){
+      setRuntimeInfo({
+        status:'connected',
+        catalog:results[1] && results[1].catalog ? results[1].catalog : null,
+        health:results[0] || null,
+        message:'Proxy aktif dan katalog provider berhasil dimuat ulang.',
+      });
+    }).catch(function(error){
+      setRuntimeInfo({
+        status:'error',
+        catalog:null,
+        health:null,
+        message:error && error.message ? error.message : 'Proxy check failed',
+      });
+    });
+  }
+
+  async function runFeatherlessProbe() {
+    if (!proxyBase) {
+      setProbeState({ status:'error', provider:'Featherless AI', message:'Proxy URL belum aktif.' });
+      return;
+    }
+    setProbeState({ status:'running', provider:'Featherless AI', message:'Mengirim probe singkat ke Featherless...' });
+    try {
+      const response = await fetch(`${proxyBase}/providers/featherless/chat/completions`, {
+        method:'POST',
+        headers:{ 'Content-Type':'application/json' },
+        body:JSON.stringify({
+          model:(((runtime.providers || {}).featherless || {}).defaultModel) || 'Qwen/Qwen3-4B',
+          temperature:0,
+          max_tokens:24,
+          messages:[
+            { role:'system', content:'Balas singkat, satu baris saja.' },
+            { role:'user', content:'Tulis: SIAP CORTEX' },
+          ],
+        }),
+      });
+      const payload = await response.json();
+      if (!response.ok) throw new Error((payload && payload.error && payload.error.message) || payload.error || `HTTP ${response.status}`);
+      const text = extractProbeText(payload) || 'Probe sukses, tetapi provider tidak mengembalikan teks yang bisa diringkas.';
+      setProbeState({ status:'success', provider:'Featherless AI', message:`Live reply: ${text}` });
+    } catch (error) {
+      setProbeState({ status:'error', provider:'Featherless AI', message:error && error.message ? error.message : 'Featherless probe gagal.' });
+    }
+  }
+
+  async function runBytePlusProbe() {
+    if (!proxyBase) {
+      setProbeState({ status:'error', provider:'BytePlus ModelArk', message:'Proxy URL belum aktif.' });
+      return;
+    }
+    setProbeState({ status:'running', provider:'BytePlus ModelArk', message:'Mengirim probe singkat ke BytePlus...' });
+    try {
+      const response = await fetch(`${proxyBase}/providers/byteplus/chat/completions`, {
+        method:'POST',
+        headers:{ 'Content-Type':'application/json' },
+        body:JSON.stringify({
+          model:((((runtime.providers || {}).byteplus) || {}).audioModel) || 'seed-2-0-lite-260228',
+          temperature:0,
+          max_tokens:16,
+          messages:[
+            { role:'user', content:'Balas dengan kata SIAP saja.' },
+          ],
+        }),
+      });
+      const payload = await response.json();
+      if (!response.ok) throw new Error((payload && payload.error && payload.error.message) || payload.error || `HTTP ${response.status}`);
+      const text = extractProbeText(payload) || 'Probe sukses, tetapi provider tidak mengembalikan teks yang bisa diringkas.';
+      setProbeState({ status:'success', provider:'BytePlus ModelArk', message:`Live reply: ${text}` });
+    } catch (error) {
+      setProbeState({ status:'error', provider:'BytePlus ModelArk', message:error && error.message ? error.message : 'BytePlus probe gagal.' });
+    }
+  }
 
   function SurfaceCard(item, index) {
     return React.createElement('div', {
@@ -9130,17 +9704,25 @@ function PageAIWorkspace({ onNavigate }) {
     );
   }
 
+  function MiniProviderRow(item) {
+    return React.createElement(B3Row, {
+      title:item.title,
+      sub:item.sub,
+      right:React.createElement(B1Badge, { color:item.color }, item.badge),
+    });
+  }
+
   return React.createElement(B2PageShell, {
     label:'P20-AIWorkspace',
     title:'AI Workspace',
-    subtitle:'Secure proxy route',
+    subtitle:'Featherless + BytePlus',
     onBack:()=>onNavigate(19),
-    right:React.createElement(B1Badge, { color:runtime.proxyUrl ? DL.teal : DL.gold }, runtime.proxyUrl ? 'Proxy path' : 'Secret-safe'),
+    right:React.createElement(B1Badge, { color:proxyBase ? DL.teal : DL.gold }, proxyBase ? 'Proxy path' : 'Secret-safe'),
   },
     React.createElement(B3Hero, {
       kicker:'Production AI orchestration',
-      title:'Text, visual, audio, and model routing in one surface',
-      subtitle:'Page 20 now acts as the secure orchestration shell for provider wiring, with public GitHub Pages kept secret-free.',
+      title:'Featherless untuk text, BytePlus untuk media',
+      subtitle:'Page 20 sekarang jadi cockpit nyata untuk 5 model Featherless terkurasi, plus BytePlus khusus audio, image, dan video lewat proxy aman.',
       color:DL.accent,
     }),
 
@@ -9156,7 +9738,7 @@ function PageAIWorkspace({ onNavigate }) {
     }),
 
     React.createElement(B2Callout, { tone:'caution', title:'Critical provider guardrail' },
-      'BytePlus documents separate Coding Plan entitlements from direct API consumption, and this shell is a public static app. We therefore keep provider secrets out of GitHub Pages and route live AI only through a secure proxy or compliant server-side connector.'),
+      'Secret provider tidak pernah dimasukkan ke GitHub Pages. Semua live call harus lewat secure proxy. Catatan penting: satu ID yang kamu minta, NathanRoll/Llama-3.2-3B-Instruct-Unablated, tidak muncul di katalog publik Featherless saat pengecekan 4 Juni 2026, jadi route cepatnya dipetakan ke 1024m/Llama-3.2-3B-Instruct-Base sebagai pengganti live yang paling dekat. Selain itu, Gemma 3 4B Vision memang valid, tetapi pada akun/provider path ini masih gated dan butuh koneksi HuggingFace sebelum benar-benar bisa dipakai.'),
 
     React.createElement('div', { style:{ display:'grid', gridTemplateColumns:'repeat(auto-fit,minmax(146px,1fr))', gap:12, marginTop:14, marginBottom:14 }},
       statusCards.map(SurfaceCard)
@@ -9187,20 +9769,49 @@ function PageAIWorkspace({ onNavigate }) {
     surface === 'assistant' && React.createElement(B1Card, { pad:13, style:{ marginBottom:14 }},
       React.createElement('div', { style:{ display:'grid', gap:10 }},
         React.createElement(B3Row, {
-          title:'Primary route',
-          sub:'Responses API first, chat compatibility second, proxy only for real calls.',
-          right:React.createElement(B1Badge, { color:DL.teal }, 'Structured'),
+          title:'Primary tutor route',
+          sub:'Qwen3 4B sebagai default tutor, lalu Llama 3.1 8B untuk jawaban yang lebih hati-hati.',
+          right:React.createElement(B1Badge, { color:DL.teal }, 'Text core'),
         }),
         React.createElement(B3Row, {
-          title:'Visual handoff',
-          sub:'Generated diagrams, posters, and explainers should land in the visual asset manifest, not inline blobs.',
-          right:React.createElement(B1Badge, { color:DL.accentB }, 'Asset-ready'),
+          title:'Vision lane',
+          sub:'Gemma 3 4B diposisikan sebagai pembaca gambar, bukan generator gambar.',
+          right:React.createElement(B1Badge, { color:DL.accentB }, 'Vision'),
         }),
         React.createElement(B3Row, {
-          title:'Quiz handoff',
-          sub:'Question and answer generation should map back into quiz, flashcard, and quick-reference domains.',
-          right:React.createElement(B1Badge, { color:DL.gold }, 'Domain-linked'),
+          title:'Media lane',
+          sub:'BytePlus diisolasi untuk audio, image, dan video supaya arsitekturnya tetap bersih.',
+          right:React.createElement(B1Badge, { color:DL.gold }, 'Media'),
         }),
+        React.createElement('div', { style:{ display:'flex', gap:10, flexWrap:'wrap', marginTop:2 }},
+          React.createElement(B1Button, {
+            label:probeState.status === 'running' ? 'Probing...' : 'Probe Featherless',
+            onClick:runFeatherlessProbe,
+            style:{ minWidth:154 },
+          }),
+          React.createElement(B1Button, {
+            label:'Probe BytePlus',
+            variant:'secondary',
+            onClick:runBytePlusProbe,
+            style:{ minWidth:146 },
+          }),
+          React.createElement(B1Button, {
+            label:'Refresh catalog',
+            variant:'secondary',
+            onClick:refreshRuntime,
+            style:{ minWidth:146 },
+          }),
+          React.createElement(B1Button, {
+            label:'Provider settings',
+            variant:'secondary',
+            onClick:function(){ onNavigate(21); },
+            style:{ minWidth:150 },
+          }),
+        ),
+        React.createElement(B2Callout, {
+          tone:probeState.status === 'error' ? 'danger' : probeState.status === 'success' ? 'info' : 'evidence',
+          title:probeState.provider || 'Live probe',
+        }, probeState.message),
       ),
     ),
 
@@ -9208,7 +9819,7 @@ function PageAIWorkspace({ onNavigate }) {
       React.createElement(B1Section, { title:'Visual generation lanes', style:{ marginBottom:10 } }),
       modelFamilies.visual.map(ModelRow),
       React.createElement(B2Callout, { tone:'info', title:'Recommended output path' },
-        'Generate SVG when the asset is diagrammatic, use WebP or PNG for posters and previews, and keep the final file referenced through the visual manifest so the shell can adapt aspect ratio safely.')
+        'Gemma dipakai untuk memahami gambar. Generasi gambar dan video dipisah ke BytePlus, lalu hasil finalnya tetap masuk ke manifest visual agar shell bisa mengatur rasio konten dengan aman.')
     ),
 
     surface === 'audio' && React.createElement(B1Card, { pad:14, style:{ marginBottom:14 }},
@@ -9216,48 +9827,42 @@ function PageAIWorkspace({ onNavigate }) {
       modelFamilies.audio.map(ModelRow),
       React.createElement(B3Row, {
         title:'Lecture parsing',
-        sub:'Long-form audio can feed summary, glossary, recall prompts, and spoken recap surfaces once a compliant backend is attached.',
+        sub:'Audio lane BytePlus siap untuk spoken recap, oral drilling, dan transkrip ringkas saat backend multimodalnya dipakai.',
         right:React.createElement(B1Badge, { color:DL.teal }, 'Ready'),
+      }),
+      modelFamilies.video && modelFamilies.video.length > 0 && React.createElement(B3Row, {
+        title:'Video task route',
+        sub:modelFamilies.video[0].route,
+        right:React.createElement(B1Badge, { color:DL.accent }, 'Task-based'),
       }),
     ),
 
     surface === 'connect' && React.createElement(B1Card, { pad:14, style:{ marginBottom:14 }},
       React.createElement(B1Section, { title:'Connection architecture', style:{ marginBottom:10 } }),
-      React.createElement(B3Row, {
-        title:'Public shell',
-        sub:'GitHub Pages must remain secret-free. No provider key should ever ship in the client bundle.',
-        right:React.createElement(B1Badge, { color:DL.green }, 'Protected'),
-      }),
-      React.createElement(B3Row, {
-        title:'Proxy route',
-        sub:runtime.proxyUrl ? `Detected at ${runtime.proxyUrl}` : 'Use ai_proxy/local_modelark_proxy.mjs locally or move the same pattern into your future server runtime.',
-        right:React.createElement(B1Badge, { color:runtime.proxyUrl ? DL.teal : DL.gold }, runtime.proxyUrl ? 'Detected' : 'Needed'),
-      }),
-      React.createElement(B3Row, {
-        title:'Coding plan caution',
-        sub:'Coding Plan quota belongs to supported AI programming tools. Treat public app API calls as a separate integration track.',
-        right:React.createElement(B1Badge, { color:DL.gold }, 'Read docs'),
-      }),
-      React.createElement(B3Row, {
-        title:'Runtime status',
-        sub:runtimeInfo.message,
-        right:React.createElement(B1Badge, { color:runtimeInfo.status === 'connected' ? DL.teal : runtimeInfo.status === 'error' ? DL.red : DL.accent }, runtimeInfo.status),
-      }),
+      [
+        { title:'Public shell', sub:'GitHub Pages tetap secret-free. Tidak ada API key di bundle client.', badge:'Protected', color:DL.green },
+        { title:'Proxy route', sub:proxyBase ? `Detected at ${proxyBase}` : 'Load ai_workspace.local.js lalu jalankan local_modelark_proxy.mjs.', badge:proxyBase ? 'Detected' : 'Needed', color:proxyBase ? DL.teal : DL.gold },
+        { title:'Featherless status', sub:featherlessReady ? 'Curated text + vision lane terdeteksi.' : 'Key Featherless belum terbaca oleh proxy.', badge:featherlessReady ? 'Connected' : 'Missing', color:featherlessReady ? DL.teal : DL.red },
+        { title:'BytePlus status', sub:byteplusReady ? 'Audio, image, dan video lane terdeteksi.' : 'Key BytePlus belum terbaca oleh proxy.', badge:byteplusReady ? 'Connected' : 'Missing', color:byteplusReady ? DL.accent : DL.red },
+        { title:'Runtime status', sub:runtimeInfo.message, badge:runtimeInfo.status, color:runtimeInfo.status === 'connected' ? DL.teal : runtimeInfo.status === 'error' ? DL.red : DL.accent },
+      ].map(MiniProviderRow),
       React.createElement(B2Callout, { tone:'info', title:'Local template' },
-        'Use ai_workspace.local.example.js as the local config template and keep the real ai_workspace.local.js uncommitted. The proxy can expose health and model-catalog routes without ever leaking the provider secret to the browser.')
+        'Gunakan ai_workspace.local.example.js sebagai template, lalu simpan ai_workspace.local.js secara lokal saja. Proxy multi-provider ini memuat katalog model, health route, dan lane mapping tanpa pernah mengekspos secret ke browser.')
     ),
 
     React.createElement(B1Card, { pad:14, style:{ marginBottom:14 }},
       React.createElement(B1Section, { title:'Model catalog snapshot', style:{ marginBottom:10 } }),
       React.createElement('div', { style:{ display:'grid', gap:10 }},
         React.createElement('div', null,
-          React.createElement('div', { style:{ color:DL.text, fontSize:12, fontWeight:900, marginBottom:6 }}, 'Text'),
+          React.createElement('div', { style:{ color:DL.text, fontSize:12, fontWeight:900, marginBottom:6 }}, 'Featherless text shortlist'),
           modelFamilies.text.map(ModelRow)
         ),
         surface !== 'visual' && React.createElement('div', null,
-          React.createElement('div', { style:{ color:DL.text, fontSize:12, fontWeight:900, marginBottom:6 }}, 'Visual'),
+          React.createElement('div', { style:{ color:DL.text, fontSize:12, fontWeight:900, marginBottom:6 }}, 'Media lanes'),
           modelFamilies.visual.slice(0, 2).map(ModelRow)
-        )
+        ),
+        modelFamilies.providers && modelFamilies.providers.featherless && React.createElement(B2Callout, { tone:'evidence', title:'Plan note' },
+          modelFamilies.providers.featherless.planNote)
       )
     )
   );
@@ -9300,8 +9905,8 @@ function PageProviderAdvancedSettings({ onNavigate }) {
   },
     React.createElement(B3Hero, {
       kicker:'Provider architecture',
-      title:'Model Provider and Tactile Controls',
-      subtitle:'Provider wiring now follows a secure-proxy rule: secrets stay off GitHub Pages, while the shell stays ready for compliant runtime attachment.',
+      title:'Provider Router and Tactile Controls',
+      subtitle:'Featherless diutamakan untuk text + vision, sedangkan BytePlus dipisah untuk audio, image, dan video. Secret tetap tinggal di proxy.',
       color:DL.gold,
     }),
 
@@ -9309,22 +9914,24 @@ function PageProviderAdvancedSettings({ onNavigate }) {
     React.createElement(B1Card, { pad:14, style:{ marginBottom:14 }},
       React.createElement(B1Toggle, { value:providerEnabled, onChange:setProviderEnabled, label:'Enable secure proxy route' }),
       React.createElement(B3Row, {
-        title:'Provider slot',
-        sub:'No real API key is stored in the client. Local and production secrets belong behind a proxy or server runtime.',
+        title:'Featherless text core',
+        sub:'Curated shortlist: Qwen3 4B, Llama 3.2 3B live substitute, Llama 3.1 8B, Gemma 3 4B Vision, dan Phi 4 3.8B.',
         right:React.createElement(B1Badge, { color:DL.green }, 'Secret-safe'),
       }),
       React.createElement(B3Row, {
         title:'Capability status',
-        sub:'Public shell: safe. Proxy wiring: ready. Direct Coding Plan app calls: discouraged until replaced by a compliant backend path.',
+        sub:'Public shell: safe. Proxy wiring: ready. Direct client-side API keys: forbidden.',
         active:true,
         color:DL.teal,
         right:React.createElement(B1Badge, { color:DL.teal }, 'Proxy-ready'),
       }),
       React.createElement(B3Row, {
-        title:'Runtime target',
-        sub:'Recommended base route is a proxy in front of ModelArk standard API endpoints. GitHub Pages should never expose the private provider credential.',
+        title:'BytePlus media lanes',
+        sub:'Audio understanding, image generation, dan video task generation di-route khusus lewat BytePlus ModelArk.',
         right:React.createElement(B1Badge, { color:DL.accentB }, 'Compliant'),
       }),
+      React.createElement(B2Callout, { tone:'info', title:'Routing rule' },
+        'Text dan vision request berjalan ke Featherless via /providers/featherless/chat/completions. Audio, image, dan video lane berjalan ke /providers/byteplus/* supaya workspace tetap rapi dan aman.')
     ),
 
     React.createElement(B1Section, { title:'Haptic Settings', style:{ marginBottom:9 } }),
@@ -10437,6 +11044,9 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
 
 function CortexLibraryNav({ page, onNavigate, mode, sidebarMode = 'dock', onClose, lectureDomains = [], selectedLectureId, onSelectLecture, examSets = [], selectedExamSetId, onSelectExamSet, contentIndexStatus = 'ready' }) {
   const docked = sidebarMode === 'dock';
+  const [lecturePanelOpen, setLecturePanelOpen] = React.useState(true);
+  const [examPanelOpen, setExamPanelOpen] = React.useState(true);
+  const lectureModuleCount = React.useMemo(() => lectureDomains.reduce((sum, domain) => sum + Number(domain.moduleCount || (Array.isArray(domain.modules) ? domain.modules.length : 0)), 0), [lectureDomains]);
   const navStyle = docked ? {
     width:292,
     height:'100%',
@@ -10520,14 +11130,41 @@ function CortexLibraryNav({ page, onNavigate, mode, sidebarMode = 'dock', onClos
         border:`1px solid ${DL.glassBorder}`,
         boxShadow:`0 12px 30px ${DL.shadowColor}`,
       }},
-        React.createElement('div', { style:{ color:DL.text, fontSize:11, fontWeight:900, letterSpacing:1.2, textTransform:'uppercase', marginBottom:10 }}, 'Lecture Domains'),
-        React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.45, marginBottom:10 }},
+        React.createElement('button', {
+          type:'button',
+          onClick:()=>setLecturePanelOpen(v => !v),
+          className:'cortex-motion-press',
+          style:{
+            width:'100%',
+            border:'1px solid rgba(255,255,255,0.08)',
+            background:'rgba(255,255,255,0.03)',
+            borderRadius:16,
+            padding:'10px 12px',
+            cursor:'pointer',
+            color:DL.text,
+            display:'flex',
+            alignItems:'center',
+            justifyContent:'space-between',
+            gap:10,
+            marginBottom:10,
+          }
+        },
+          React.createElement('div', null,
+            React.createElement('div', { style:{ color:DL.text, fontSize:12, fontWeight:900 }}, 'Lecture Domains'),
+            React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.4, marginTop:3 }}, lecturePanelOpen ? `${lectureModuleCount} lecture modules` : 'Tap to expand the 38 lecture modules')
+          ),
+          React.createElement(B1Badge, { color:DL.teal }, lecturePanelOpen ? `${lectureModuleCount}` : 'Open')
+        ),
+        lecturePanelOpen && React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.45, marginBottom:10 }},
           contentIndexStatus === 'loading'
             ? 'Loading lecture inventory...'
-            : 'Each button below opens one structured lecturer module. Counts match the ingested package inventory.'),
-        lectureDomains.map((domain) => React.createElement('details', {
+            : contentIndexStatus === 'error'
+              ? '⚠️ Data gagal dimuat. Jalankan via HTTP: npx serve .'
+              : 'Each button below opens one structured lecturer module. Counts match the ingested package inventory.'),
+        lecturePanelOpen && contentIndexStatus === 'error' && React.createElement('div', { style:{ color:DL.red, fontSize:10, lineHeight:1.45, marginBottom:10, padding:'8px 10px', borderRadius:10, background:'rgba(239,68,68,0.08)', border:'1px solid rgba(239,68,68,0.2)' }},
+          'Akses via file:// tidak mendukung fetch API. Jalankan perintah berikut di terminal:\n\nnpx serve .\n\nKemudian buka http://localhost:3000'),
+        lecturePanelOpen && contentIndexStatus !== 'error' && lectureDomains.map((domain) => React.createElement('div', {
           key:domain.id,
-          open:true,
           style:{
             marginBottom:10,
             borderRadius:18,
@@ -10536,22 +11173,34 @@ function CortexLibraryNav({ page, onNavigate, mode, sidebarMode = 'dock', onClos
             overflow:'hidden',
           }
         },
-          React.createElement('summary', {
+          React.createElement('button', {
+            type:'button',
+            onClick:()=> {
+              const modules = Array.isArray(domain.modules) ? domain.modules : [];
+              if (!modules.length) return;
+              const firstModule = modules[0];
+              onSelectLecture && onSelectLecture(firstModule.id);
+            },
+            className:'cortex-motion-press',
             style:{
-              listStyle:'none',
+              width:'100%',
+              border:0,
+              background:'transparent',
               cursor:'pointer',
               padding:'11px 12px',
+              color:DL.text,
               display:'flex',
               alignItems:'center',
               justifyContent:'space-between',
               gap:10,
+              textAlign:'left',
             }
           },
             React.createElement('div', null,
-              React.createElement('div', { style:{ color:DL.text, fontSize:12, fontWeight:900 }}, domain.title.replace(/\.$/, '')),
-              React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.4, marginTop:3 }}, `${domain.moduleCount} lecture modules`),
+              React.createElement('div', { style:{ color:DL.text, fontSize:12, fontWeight:900 }}, String(domain.title || '').replace(/\.$/, '')),
+              React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.4, marginTop:3 }}, `${Number(domain.moduleCount || (Array.isArray(domain.modules) ? domain.modules.length : 0))} lecture modules`),
             ),
-            React.createElement(B1Badge, { color:DL.teal }, `${domain.moduleCount}`)
+            React.createElement(B1Badge, { color:DL.teal }, `${Number(domain.moduleCount || (Array.isArray(domain.modules) ? domain.modules.length : 0))}`)
           ),
           React.createElement('div', { style:{ display:'grid', gap:6, padding:'0 10px 10px' }},
             (domain.modules || []).map((module, idx) => React.createElement('button', {
@@ -10559,7 +11208,6 @@ function CortexLibraryNav({ page, onNavigate, mode, sidebarMode = 'dock', onClos
               type:'button',
               onClick:()=> {
                 onSelectLecture && onSelectLecture(module.id);
-                onNavigate(9);
               },
               className:'cortex-motion-press',
               style:{
@@ -10586,16 +11234,39 @@ function CortexLibraryNav({ page, onNavigate, mode, sidebarMode = 'dock', onClos
         border:`1px solid ${DL.glassBorder}`,
         boxShadow:`0 12px 30px ${DL.shadowColor}`,
       }},
-        React.createElement('div', { style:{ color:DL.text, fontSize:11, fontWeight:900, letterSpacing:1.2, textTransform:'uppercase', marginBottom:10 }}, 'Exam Sets'),
-        React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.45, marginBottom:10 }},
+        React.createElement('button', {
+          type:'button',
+          onClick:()=>setExamPanelOpen(v => !v),
+          className:'cortex-motion-press',
+          style:{
+            width:'100%',
+            border:'1px solid rgba(255,255,255,0.08)',
+            background:'rgba(255,255,255,0.03)',
+            borderRadius:16,
+            padding:'10px 12px',
+            cursor:'pointer',
+            color:DL.text,
+            display:'flex',
+            alignItems:'center',
+            justifyContent:'space-between',
+            gap:10,
+            marginBottom:10,
+          }
+        },
+          React.createElement('div', null,
+            React.createElement('div', { style:{ color:DL.text, fontSize:12, fontWeight:900 }}, 'Exam Sets'),
+            React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.4, marginTop:3 }}, examPanelOpen ? `${examSets.length} validated sets` : 'Tap to expand the question sets')
+          ),
+          React.createElement(B1Badge, { color:DL.gold }, examPanelOpen ? `${examSets.length}` : 'Open')
+        ),
+        examPanelOpen && React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.45, marginBottom:10 }},
           'Each button opens one reconstructed set soal domain. Only validated sets with real question counts appear here.'),
-        React.createElement('div', { style:{ display:'grid', gap:8 }},
+        examPanelOpen && React.createElement('div', { style:{ display:'grid', gap:8 }},
           examSets.map((set) => React.createElement('button', {
             key:set.id,
             type:'button',
             onClick:()=> {
               onSelectExamSet && onSelectExamSet(set.id);
-              onNavigate(17);
             },
             className:'cortex-motion-press',
             style:{
@@ -10657,7 +11328,50 @@ function CortexLibraryNav({ page, onNavigate, mode, sidebarMode = 'dock', onClos
   );
 }
 
+/* Error boundary to prevent full white screen on component crash */
+class CortexErrorBoundary extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false, error: null };
+  }
+  static getDerivedStateFromError(error) {
+    return { hasError: true, error };
+  }
+  render() {
+    if (this.state.hasError) {
+      return React.createElement('div', {
+        style: {
+          padding: 40, fontFamily: '"SF Pro Display","Inter",sans-serif',
+          color: '#e8ecf1', background: '#0a0a1a', minHeight: '100vh',
+          display: 'flex', flexDirection: 'column', alignItems: 'center',
+          justifyContent: 'center', textAlign: 'center', gap: 16
+        }
+      },
+        React.createElement('div', { style: { fontSize: 48, marginBottom: 8 } }, '⚡'),
+        React.createElement('div', { style: { fontSize: 22, fontWeight: 800 } }, 'Terjadi gangguan'),
+        React.createElement('div', { style: { fontSize: 14, opacity: 0.65, maxWidth: 420, lineHeight: 1.6 } },
+          'Komponen halaman mengalami kesalahan. Coba refresh halaman atau kembali ke studio utama.'),
+        React.createElement('button', {
+          onClick: () => { this.setState({ hasError: false, error: null }); window.location.reload(); },
+          style: {
+            marginTop: 12, padding: '10px 24px', borderRadius: 14, border: '1px solid rgba(255,255,255,0.15)',
+            background: 'rgba(255,255,255,0.08)', color: '#e8ecf1', fontSize: 14, cursor: 'pointer'
+          }
+        }, '⟳ Refresh halaman'),
+        React.createElement('details', { style: { marginTop: 16, fontSize: 11, opacity: 0.45, maxWidth: 600 } },
+          React.createElement('summary', null, 'Detail teknis'),
+          String(this.state.error && this.state.error.message || 'Unknown error'),
+        )
+      );
+    }
+    return this.props.children;
+  }
+}
+
 function CortexLibraryShell() {
+  const [moduleLoading, setModuleLoading] = React.useState(false);
+  const [examLoading, setExamLoading] = React.useState(false);
+
   const mode = useCortexLayoutMode();
   const mobileFabDocked = mode !== 'desktop';
   const coarsePointer = typeof window !== 'undefined' &&
@@ -10773,7 +11487,12 @@ function CortexLibraryShell() {
   React.useEffect(() => {
     let cancelled = false;
     setContentIndexStatus('loading');
-    cortexFetchJSON(CORTEX_RUNTIME_CONTENT_INDEX_PATH).then((data) => {
+    cortexFetchJSONCandidates([
+      CORTEX_RUNTIME_CONTENT_INDEX_PATH,
+      'CORTEX_project_history/05_release_artifacts/final_clean_shell/app_data/runtime/content_index.generated.json',
+      'CORTEX_project_history/05_release_artifacts/final_clean_shell/content_index.generated.json',
+      'content_index.generated.json',
+    ], (data) => Array.isArray(data && data.lectureDomains) && Array.isArray(data && data.examSets)).then(({ data }) => {
       if (cancelled) return;
       setContentIndex(data);
       setContentIndexStatus('ready');
@@ -10787,7 +11506,11 @@ function CortexLibraryShell() {
   React.useEffect(() => {
     let cancelled = false;
     setVisualManifestStatus('loading');
-    cortexFetchJSON(CORTEX_RUNTIME_VISUAL_MANIFEST_PATH).then((data) => {
+    cortexFetchJSONCandidates([
+      CORTEX_RUNTIME_VISUAL_MANIFEST_PATH,
+      'CORTEX_project_history/05_release_artifacts/final_clean_shell/app_data/runtime/visual_asset_manifest.generated.json',
+      'visual_asset_manifest.generated.json',
+    ], (data) => Array.isArray(data && data.assets)).then(({ data }) => {
       if (cancelled) return;
       setVisualManifest(data);
       setVisualManifestStatus('ready');
@@ -10814,10 +11537,14 @@ function CortexLibraryShell() {
   React.useEffect(() => {
     if (!selectedLectureMeta || !selectedLectureMeta.sourceFile) return;
     let cancelled = false;
-    cortexFetchJSON(selectedLectureMeta.sourceFile).then((data) => {
-      if (!cancelled) setSelectedLecture(data);
+    setModuleLoading(true);
+    cortexFetchJSONCandidates([
+      selectedLectureMeta.sourceFile,
+      `CORTEX_project_history/05_release_artifacts/final_clean_shell/${selectedLectureMeta.sourceFile}`,
+    ], () => true).then(({ data }) => {
+      if (!cancelled) { setSelectedLecture(data); setModuleLoading(false); }
     }).catch(() => {
-      if (!cancelled) setSelectedLecture(null);
+      if (!cancelled) { setSelectedLecture(null); setModuleLoading(false); }
     });
     return () => { cancelled = true; };
   }, [selectedLectureMeta]);
@@ -10825,10 +11552,14 @@ function CortexLibraryShell() {
   React.useEffect(() => {
     if (!selectedExamSetMeta || !selectedExamSetMeta.sourceFile) return;
     let cancelled = false;
-    cortexFetchJSON(selectedExamSetMeta.sourceFile).then((data) => {
-      if (!cancelled) setSelectedExamSet(data);
+    setExamLoading(true);
+    cortexFetchJSONCandidates([
+      selectedExamSetMeta.sourceFile,
+      `CORTEX_project_history/05_release_artifacts/final_clean_shell/${selectedExamSetMeta.sourceFile}`,
+    ], () => true).then(({ data }) => {
+      if (!cancelled) { setSelectedExamSet(data); setExamLoading(false); }
     }).catch(() => {
-      if (!cancelled) setSelectedExamSet(null);
+      if (!cancelled) { setSelectedExamSet(null); setExamLoading(false); }
     });
     return () => { cancelled = true; };
   }, [selectedExamSetMeta]);
@@ -11259,6 +11990,84 @@ function CortexLibraryShell() {
     };
   }, [goBack]);
 
+  /* ── CORTEX Content Panel ── */
+  const LECTURE_VIEW_TABS = [
+    { id:'read',   label:'📖 Baca',   hint:'Typography reading' },
+    { id:'bullets',label:'📋 Poin',   hint:'Structured bullets' },
+    { id:'pearls', label:'💡 Pearl',  hint:'Clinical pearls' },
+    { id:'summary',label:'📝 Ringkas',hint:'Quick summary' },
+    { id:'simple', label:'🌐 Simple', hint:'Bilingual view' },
+  ];
+  const EXAM_VIEW_TABS = [
+    { id:'quiz',    label:'✏️ Quiz',     hint:'Interactive quiz' },
+    { id:'flashcard',label:'🃏 Flashcard',hint:'Recall cards' },
+  ];
+  const [contentViewTab, setContentViewTab] = React.useState('read');
+  const isContentViewing = !!(selectedLecture || selectedExamSet);
+
+  React.useEffect(() => {
+    setContentViewTab(selectedExamSet ? 'quiz' : 'read');
+  }, [selectedLectureMeta && selectedLectureMeta.id, selectedExamSetMeta && selectedExamSetMeta.id]);
+
+  const renderContentPanel = () => {
+    const tabs = selectedExamSet ? EXAM_VIEW_TABS : LECTURE_VIEW_TABS;
+    const cProps = {
+      onNavigate:navigate, themeId:theme.id, theme, onThemeChange:setThemeId,
+      highlightTone, onHighlightToneChange:setHighlightTone,
+      lectureDomain:selectedLectureDomain, lectureModule:selectedLecture, lectureModuleMeta:selectedLectureMeta,
+      examSet:selectedExamSet, examSetMeta:selectedExamSetMeta,
+      visualManifest, visualManifestStatus,
+      visualAssets, selectedVisualId, onSelectVisual:setSelectedVisualId,
+    };
+    const cMap = selectedExamSet
+      ? { quiz: PageQuiz, flashcard: PageFlashcard }
+      : { read: PageTypographyReading, bullets: PageBulletContent, pearls: PageCalloutClinicalPearl, summary: PageQuickSummary, simple: PageBilingualSimple };
+    const Comp = cMap[contentViewTab] || (selectedExamSet ? PageQuiz : PageTypographyReading);
+    return React.createElement('div', { style:{ display:'flex', flexDirection:'column', height:'100%', overflow:'hidden' }},
+      /* Tab strip */
+      React.createElement('div', {
+        style:{
+          display:'flex', gap:3, padding:'7px 10px', flexShrink:0,
+          borderBottom:`1px solid ${theme.colors.glassBorder}`,
+          background:'rgba(10,10,26,0.5)', backdropFilter:'blur(10px)',
+          WebkitBackdropFilter:'blur(10px)', overflowX:'auto',
+        }
+      },
+        tabs.map(t => React.createElement('button', {
+          key:t.id, type:'button', onClick:()=>setContentViewTab(t.id),
+          className:'cortex-motion-press', title:t.hint,
+          style:{
+            padding:'6px 13px', borderRadius:14, border:0, cursor:'pointer',
+            background:contentViewTab === t.id ? 'rgba(16,185,129,0.15)' : 'transparent',
+            color:contentViewTab === t.id ? '#10b981' : DL.sub,
+            fontSize:11, fontWeight:contentViewTab === t.id ? 800 : 600,
+            whiteSpace:'nowrap', transition:'all 0.2s ease',
+          }
+        }, t.label))
+      ),
+      /* Content */
+      React.createElement('div', { style:{ flex:1, minHeight:0, overflow:'hidden' }},
+        React.createElement(CortexErrorBoundary, { key:`cp_${contentViewTab}` },
+          moduleLoading || examLoading
+            ? React.createElement('div', { style:{ padding:40, textAlign:'center', color:DL.sub, fontSize:13 }}, '⏳ Memuat konten...')
+            : React.createElement(Comp, cProps)
+        )
+      ),
+      /* Back FAB */
+      React.createElement('div', {
+        onClick:()=>{ setSelectedLectureId(null); setSelectedExamSetId(null); navigate(0); },
+        style:{
+          position:'fixed', bottom:24, right:24, width:46, height:46, borderRadius:'50%',
+          background:'linear-gradient(135deg, #10b981, #06b6d4)',
+          color:'#fff', fontSize:20, cursor:'pointer', zIndex:70,
+          boxShadow:'0 4px 18px rgba(16,185,129,0.35)',
+          display:'flex', alignItems:'center', justifyContent:'center',
+          border:'none',
+        }
+      }, '🏠')
+    );
+  };
+
   const renderPage = () => {
     const sharedProps = {
       onNavigate:navigate,
@@ -11280,31 +12089,42 @@ function CortexLibraryShell() {
       visualAssets,
       selectedVisualId,
       onSelectVisual:setSelectedVisualId,
+      moduleLoading,
+      examLoading,
     };
-    if (page === 0) return React.createElement(PageBatch0Kernel, { ...sharedProps, mode, surfaceId, onSurfaceChange:setSurfaceId, showGlobalFab:true });
+    /* ── Content View (lecture/exam selected) ── */
+    if (isContentViewing) return React.createElement(CortexErrorBoundary, { key:'eb_content' }, renderContentPanel());
+    /* ── Page Routing ── */
+    if (page === 0) return React.createElement(CortexErrorBoundary, { key:`eb_${page}` },
+      React.createElement(PageBatch0Kernel, { ...sharedProps, mode, surfaceId, onSurfaceChange:setSurfaceId, showGlobalFab:true })
+    );
     if (page === 1) {
       const Comp = window[current.component];
       if (!Comp) {
-        return React.createElement(B2PageShell, {
+        return React.createElement(CortexErrorBoundary, { key:`eb_${page}` },
+          React.createElement(B2PageShell, {
           label:'MissingPage',
           title:'Missing Page',
           subtitle:current.label,
           onBack:()=>navigate(0),
-        }, React.createElement(B2Callout, { tone:'danger', title:'Component not loaded' }, current.component));
+        }, React.createElement(B2Callout, { tone:'danger', title:'Component not loaded' }, current.component))
+      );
       }
-      return React.createElement(Comp, sharedProps);
+      return React.createElement(CortexErrorBoundary, { key:`eb_${page}` }, React.createElement(Comp, sharedProps));
     }
     const currentSurface = cortexSurfaceLookup(page);
     const SurfaceComp = window[SURFACE_COMPONENT_MAP[currentSurface.id]];
     if (!SurfaceComp) {
-      return React.createElement(B2PageShell, {
-        label:'MissingPage',
-        title:'Missing Page',
-        subtitle:currentSurface.label,
-        onBack:()=>navigate(0),
-      }, React.createElement(B2Callout, { tone:'danger', title:'Component not loaded' }, SURFACE_COMPONENT_MAP[currentSurface.id]));
+      return React.createElement(CortexErrorBoundary, { key:`eb_${page}` },
+        React.createElement(B2PageShell, {
+          label:'MissingPage',
+          title:'Missing Page',
+          subtitle:currentSurface.label,
+          onBack:()=>navigate(0),
+        }, React.createElement(B2Callout, { tone:'danger', title:'Component not loaded' }, SURFACE_COMPONENT_MAP[currentSurface.id]))
+      );
     }
-    return React.createElement(SurfaceComp, sharedProps);
+    return React.createElement(CortexErrorBoundary, { key:`eb_${page}` }, React.createElement(SurfaceComp, sharedProps));
   };
 
   return React.createElement('div', {
@@ -11399,6 +12219,12 @@ function CortexLibraryShell() {
       surfaceId,
       theme,
       page,
+      lectureDomains,
+      selectedLectureId,
+      onSelectLecture:setSelectedLectureId,
+      examSets,
+      selectedExamSetId,
+      onSelectExamSet:setSelectedExamSetId,
     }),
     fabPortalTarget
       ? ReactDOM.createPortal(
@@ -11601,6 +12427,8 @@ function CortexLibraryShell() {
 Object.assign(window, { CORTEX_LIBRARY_PAGES, PageBatch0Kernel, CortexLibraryShell });
 
 </script>
+
+  <script src="./ai_workspace.local.js?v=20260604c" onerror="window.__CORTEX_AI_LOCAL_CONFIG__ = window.__CORTEX_AI_LOCAL_CONFIG__ || {};"></script>
 
   <script type="text/babel">
     ReactDOM.createRoot(document.getElementById('root')).render(
