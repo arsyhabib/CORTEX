@@ -1,0 +1,1358 @@
+{
+  "generatedAt": "2026-06-03T21:29:02.174Z",
+  "lectureDomains": [
+    {
+      "id": "6e",
+      "title": "Neurology / Batch 1 6E.",
+      "summary": "Structured content extracted from 24 lecturer DOCX files for CORTEX medical-learning shell.",
+      "moduleCount": 24,
+      "modules": [
+        {
+          "id": "batch_1_6e_01",
+          "title": "Dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.",
+          "sourceFile": "app_data/lectures/6e/lecture_material/batch_1_6e_01.json",
+          "sourceDocument": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+          "topicTags": [
+            "Vertigo",
+            "Neuro-otology"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted",
+          "domainId": "6e",
+          "order": 1
+        },
+        {
+          "id": "batch_1_6e_02",
+          "title": "Dr.Attiya - Gangguan Gerak.",
+          "sourceFile": "app_data/lectures/6e/lecture_material/batch_1_6e_02.json",
+          "sourceDocument": "26 dr.Attiya - Gangguan Gerak.docx",
+          "topicTags": [
+            "Movement disorder"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted",
+          "domainId": "6e",
+          "order": 2
+        },
+        {
+          "id": "batch_1_6e_03",
+          "title": "EF Infeksi",
+          "sourceFile": "app_data/lectures/6e/lecture_material/batch_1_6e_03.json",
+          "sourceDocument": "6EF Infeksi.docx",
+          "topicTags": [
+            "Infection",
+            "Neuroinfection"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted",
+          "domainId": "6e",
+          "order": 3
+        },
+        {
+          "id": "batch_1_6e_04",
+          "title": "CENTRAL NEVROS SYSTEM INFECTION and Inflammation.",
+          "sourceFile": "app_data/lectures/6e/lecture_material/batch_1_6e_04.json",
+          "sourceDocument": "CENTRAL NEVROS SYSTEM INFECTION and Inflammation.docx",
+          "topicTags": [
+            "Somatic therapy"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted",
+          "domainId": "6e",
+          "order": 4
+        },
+        {
+          "id": "batch_1_6e_05",
+          "title": "CEREBRAL INFARK",
+          "sourceFile": "app_data/lectures/6e/lecture_material/batch_1_6e_05.json",
+          "sourceDocument": "CEREBRAL INFARK.docx",
+          "topicTags": [],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted",
+          "domainId": "6e",
+          "order": 5
+        },
+        {
+          "id": "batch_1_6e_06",
+          "title": "KULIAH BANGKITAN koas",
+          "sourceFile": "app_data/lectures/6e/lecture_material/batch_1_6e_06.json",
+          "sourceDocument": "KULIAH BANGKITAN koas.docx",
+          "topicTags": [],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted",
+          "domainId": "6e",
+          "order": 6
+        },
+        {
+          "id": "batch_1_6e_07",
+          "title": "Kuliah PA Neurologi",
+          "sourceFile": "app_data/lectures/6e/lecture_material/batch_1_6e_07.json",
+          "sourceDocument": "Kuliah PA Neurologi.docx",
+          "topicTags": [],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted",
+          "domainId": "6e",
+          "order": 7
+        },
+        {
+          "id": "batch_1_6e_08",
+          "title": "MIKROORGANISME PENYEBAB INFEKSI",
+          "sourceFile": "app_data/lectures/6e/lecture_material/batch_1_6e_08.json",
+          "sourceDocument": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+          "topicTags": [
+            "Infection",
+            "Neuroinfection"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted",
+          "domainId": "6e",
+          "order": 8
+        },
+        {
+          "id": "batch_1_6e_09",
+          "title": "Manajemen Pensa dan Koma - Koass.",
+          "sourceFile": "app_data/lectures/6e/lecture_material/batch_1_6e_09.json",
+          "sourceDocument": "Manajemen Pensa dan Koma - Koass.docx",
+          "topicTags": [],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted",
+          "domainId": "6e",
+          "order": 9
+        },
+        {
+          "id": "batch_1_6e_10",
+          "title": "NYERI kepala 2",
+          "sourceFile": "app_data/lectures/6e/lecture_material/batch_1_6e_10.json",
+          "sourceDocument": "NYERI kepala 2.docx",
+          "topicTags": [
+            "Headache"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted",
+          "domainId": "6e",
+          "order": 10
+        },
+        {
+          "id": "batch_1_6e_11",
+          "title": "Neuropaty Materi Ngajar Mei 2025 (1).",
+          "sourceFile": "app_data/lectures/6e/lecture_material/batch_1_6e_11.json",
+          "sourceDocument": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+          "topicTags": [],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted",
+          "domainId": "6e",
+          "order": 11
+        },
+        {
+          "id": "batch_1_6e_12",
+          "title": "PPT Diagnosing Vertigo and Dizziness.",
+          "sourceFile": "app_data/lectures/6e/lecture_material/batch_1_6e_12.json",
+          "sourceDocument": "PPT Diagnosing Vertigo and Dizziness.docx",
+          "topicTags": [
+            "Vertigo",
+            "Neuro-otology",
+            "Dizziness"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted",
+          "domainId": "6e",
+          "order": 12
+        },
+        {
+          "id": "batch_1_6e_13",
+          "title": "PPT Gangguan Keseimbangan",
+          "sourceFile": "app_data/lectures/6e/lecture_material/batch_1_6e_13.json",
+          "sourceDocument": "PPT Gangguan Keseimbangan.docx",
+          "topicTags": [],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted",
+          "domainId": "6e",
+          "order": 13
+        },
+        {
+          "id": "batch_1_6e_14",
+          "title": "Parkinson Disease (Aspek Klinis).",
+          "sourceFile": "app_data/lectures/6e/lecture_material/batch_1_6e_14.json",
+          "sourceDocument": "Parkinson Disease (Aspek Klinis).docx",
+          "topicTags": [
+            "Movement disorder",
+            "Parkinsonism"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted",
+          "domainId": "6e",
+          "order": 14
+        },
+        {
+          "id": "batch_1_6e_15",
+          "title": "Patofisiologi stroke gizi",
+          "sourceFile": "app_data/lectures/6e/lecture_material/batch_1_6e_15.json",
+          "sourceDocument": "Patofisiologi stroke_gizi.docx",
+          "topicTags": [
+            "Stroke",
+            "Vascular neurology"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted",
+          "domainId": "6e",
+          "order": 15
+        },
+        {
+          "id": "batch_1_6e_16",
+          "title": "Pemeriksaan klinis neuro 250523 133200.",
+          "sourceFile": "app_data/lectures/6e/lecture_material/batch_1_6e_16.json",
+          "sourceDocument": "Pemeriksaan klinis neuro_250523_133200.docx",
+          "topicTags": [],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted",
+          "domainId": "6e",
+          "order": 16
+        },
+        {
+          "id": "batch_1_6e_17",
+          "title": "Radiologi Tumor Cerebri",
+          "sourceFile": "app_data/lectures/6e/lecture_material/batch_1_6e_17.json",
+          "sourceDocument": "Radiologi Tumor Cerebri.docx",
+          "topicTags": [
+            "Tumor",
+            "Neuro-oncology",
+            "Radiology"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted",
+          "domainId": "6e",
+          "order": 17
+        },
+        {
+          "id": "batch_1_6e_18",
+          "title": "STATUS EPILEPTIKUS koas",
+          "sourceFile": "app_data/lectures/6e/lecture_material/batch_1_6e_18.json",
+          "sourceDocument": "STATUS EPILEPTIKUS koas.docx",
+          "topicTags": [
+            "Epilepsy",
+            "Emergency neurology"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted",
+          "domainId": "6e",
+          "order": 18
+        },
+        {
+          "id": "batch_1_6e_19",
+          "title": "TUMOR SSP KULIAH",
+          "sourceFile": "app_data/lectures/6e/lecture_material/batch_1_6e_19.json",
+          "sourceDocument": "TUMOR SSP KULIAH.docx",
+          "topicTags": [
+            "Tumor",
+            "Neuro-oncology"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted",
+          "domainId": "6e",
+          "order": 19
+        },
+        {
+          "id": "batch_1_6e_20",
+          "title": "Trauma Sistim Saraf",
+          "sourceFile": "app_data/lectures/6e/lecture_material/batch_1_6e_20.json",
+          "sourceDocument": "Trauma Sistim Saraf.docx",
+          "topicTags": [
+            "Neurotrauma"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted",
+          "domainId": "6e",
+          "order": 20
+        },
+        {
+          "id": "batch_1_6e_21",
+          "title": "Tumor Cerebri",
+          "sourceFile": "app_data/lectures/6e/lecture_material/batch_1_6e_21.json",
+          "sourceDocument": "Tumor Cerebri.docx",
+          "topicTags": [
+            "Tumor",
+            "Neuro-oncology"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted",
+          "domainId": "6e",
+          "order": 21
+        },
+        {
+          "id": "batch_1_6e_22",
+          "title": "Dr.Patrick - neurorehab",
+          "sourceFile": "app_data/lectures/6e/lecture_material/batch_1_6e_22.json",
+          "sourceDocument": "dr.Patrick - neurorehab.docx",
+          "topicTags": [
+            "Rehabilitation"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted",
+          "domainId": "6e",
+          "order": 22
+        },
+        {
+          "id": "batch_1_6e_23",
+          "title": "Neuroanatomi 2023",
+          "sourceFile": "app_data/lectures/6e/lecture_material/batch_1_6e_23.json",
+          "sourceDocument": "neuroanatomi 2023.docx",
+          "topicTags": [
+            "Anatomy"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted",
+          "domainId": "6e",
+          "order": 23
+        },
+        {
+          "id": "batch_1_6e_24",
+          "title": "Stroke-dr.Erni Z, SpRad",
+          "sourceFile": "app_data/lectures/6e/lecture_material/batch_1_6e_24.json",
+          "sourceDocument": "stroke-dr.Erni Z, SpRad.docx",
+          "topicTags": [
+            "Stroke",
+            "Vascular neurology"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted",
+          "domainId": "6e",
+          "order": 24
+        }
+      ]
+    },
+    {
+      "id": "6f",
+      "title": "Psikiatri dan Perilaku 6F.",
+      "summary": "Bundle materi psikiatri 6F dari dosen: ansietas, panik, fobia, ECT/psikoterapi, NAPZA, sleep disorders, gangguan makan, delirium, amnesia pascatrauma, somatoform, etik-legal, pemeriksaan psikiatri, dan kepribadian.",
+      "moduleCount": 14,
+      "modules": [
+        {
+          "id": "batch_2_6f_01",
+          "title": "Gangguan Ansietas & Penatalaksanaannya.",
+          "sourceFile": "app_data/lectures/6f/lecture_material/batch_2_6f_01_09_dr_susi_1_gam.json",
+          "sourceDocument": "09 dr.Susi - 1. GAM.docx.",
+          "topicTags": [
+            "Anxiety"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "domainId": "6f",
+          "order": 1
+        },
+        {
+          "id": "batch_2_6f_02",
+          "title": "Gangguan Panik",
+          "sourceFile": "app_data/lectures/6f/lecture_material/batch_2_6f_02_09_dr_susi_2_gangguan_panik_1.json",
+          "sourceDocument": "09 dr.Susi - 2. Gangguan Panik (1).docx.",
+          "topicTags": [
+            "Panic disorder"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "domainId": "6f",
+          "order": 2
+        },
+        {
+          "id": "batch_2_6f_03",
+          "title": "Fobia",
+          "sourceFile": "app_data/lectures/6f/lecture_material/batch_2_6f_03_09_dr_susi_4_fobia.json",
+          "sourceDocument": "09 dr.Susi - 4. Fobia.docx.",
+          "topicTags": [
+            "Anxiety"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "domainId": "6f",
+          "order": 3
+        },
+        {
+          "id": "batch_2_6f_04",
+          "title": "How to Treat Central Vertigo.",
+          "sourceFile": "app_data/lectures/6f/lecture_material/batch_2_6f_04_2_dr_sri_novianty_sp_n_how_to_treat_central_v.json",
+          "sourceDocument": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+          "topicTags": [
+            "Vertigo",
+            "Neuro-otology"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "domainId": "6f",
+          "order": 4
+        },
+        {
+          "id": "batch_2_6f_05",
+          "title": "Electroconvulsive Therapy (ECT) & Psikoterapi.",
+          "sourceFile": "app_data/lectures/6f/lecture_material/batch_2_6f_05_ect_dan_psikoterapi_dr_diva_sp_kj_1.json",
+          "sourceDocument": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx.",
+          "topicTags": [
+            "Psychotherapy",
+            "Somatic therapy"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "domainId": "6f",
+          "order": 5
+        },
+        {
+          "id": "batch_2_6f_06",
+          "title": "Pemeriksaan Laboratorium pada Penyalahgunaan Obat Psikoaktif, NAPZA dan Alkohol.",
+          "sourceFile": "app_data/lectures/6f/lecture_material/batch_2_6f_06_pemeriksaan_laboratorium_pada_penyalahgunaan.json",
+          "sourceDocument": "Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx.",
+          "topicTags": [
+            "Substance use"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "domainId": "6f",
+          "order": 6
+        },
+        {
+          "id": "batch_2_6f_07",
+          "title": "Normal Sleep dan Sleep Disorders.",
+          "sourceFile": "app_data/lectures/6f/lecture_material/batch_2_6f_07_sleep_disorders_dr_diva_spkj.json",
+          "sourceDocument": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+          "topicTags": [
+            "Sleep disorder"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "domainId": "6f",
+          "order": 7
+        },
+        {
+          "id": "batch_2_6f_08",
+          "title": "Gangguan Makan: Anoreksia Nervosa dan Bulimia.",
+          "sourceFile": "app_data/lectures/6f/lecture_material/batch_2_6f_08_anoreksia_dan_bulimia.json",
+          "sourceDocument": "anoreksia dan bulimia.pptx",
+          "topicTags": [
+            "Eating disorder"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Source_atlas_ready",
+          "domainId": "6f",
+          "order": 8,
+          "contentMode": "source_page_atlas",
+          "sourceAtlasAssetId": "source_atlas_batch_2_6f_08",
+          "sourceAtlas": {
+            "title": "Gangguan Makan: Anoreksia Nervosa dan Bulimia.",
+            "sourceFile": "anoreksia dan bulimia.pptx",
+            "sourceKind": "Source_atlas_pptx",
+            "pageCount": 33,
+            "atlasFile": "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/atlas.png",
+            "pageFiles": [
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/01.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/02.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/03.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/04.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/05.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/06.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/07.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/08.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/09.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/10.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/11.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/12.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/13.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/14.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/15.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/16.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/17.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/18.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/19.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/20.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/21.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/22.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/23.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/24.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/25.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/26.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/27.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/28.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/29.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/30.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/31.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/32.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/33.png"
+            ],
+            "caption": "Atlas sumber penuh untuk Gangguan Makan: Anoreksia Nervosa dan Bulimia."
+          }
+        },
+        {
+          "id": "batch_2_6f_09",
+          "title": "Delirium",
+          "sourceFile": "app_data/lectures/6f/lecture_material/batch_2_6f_09_delerium_fkik_unja_1.json",
+          "sourceDocument": "Delerium FKIK UNJA (1).docx.",
+          "topicTags": [
+            "Delirium"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "domainId": "6f",
+          "order": 9
+        },
+        {
+          "id": "batch_2_6f_10",
+          "title": "Amnesia Pasca Trauma (Post-Traumatic Amnesia/PTA).",
+          "sourceFile": "app_data/lectures/6f/lecture_material/batch_2_6f_10_dr_fatmawati_sp_kj_amnesia_pasca_trauma.json",
+          "sourceDocument": "dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.pdf",
+          "topicTags": [
+            "Neurotrauma",
+            "Cognitive disorder"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Source_atlas_ready",
+          "domainId": "6f",
+          "order": 10,
+          "contentMode": "source_page_atlas",
+          "sourceAtlasAssetId": "source_atlas_batch_2_6f_10",
+          "sourceAtlas": {
+            "title": "Amnesia Pasca Trauma (Post-Traumatic Amnesia/PTA).",
+            "sourceFile": "dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.pdf",
+            "sourceKind": "Source_atlas_pdf",
+            "pageCount": 26,
+            "atlasFile": "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/atlas.png",
+            "pageFiles": [
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/01.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/02.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/03.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/04.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/05.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/06.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/07.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/08.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/09.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/10.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/11.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/12.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/13.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/14.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/15.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/16.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/17.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/18.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/19.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/20.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/21.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/22.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/23.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/24.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/25.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/26.png"
+            ],
+            "caption": "Atlas sumber penuh untuk Amnesia Pasca Trauma (Post-Traumatic Amnesia/PTA)."
+          }
+        },
+        {
+          "id": "batch_2_6f_11",
+          "title": "Gangguan Somatoform",
+          "sourceFile": "app_data/lectures/6f/lecture_material/batch_2_6f_11_dr_fatmawati_sp_kj_gangguan_somatoform_1.json",
+          "sourceDocument": "dr.Fatmawati,Sp.KJ-Gangguan Somatoform (1).pdf",
+          "topicTags": [
+            "Somatoform"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Source_atlas_ready",
+          "domainId": "6f",
+          "order": 11,
+          "contentMode": "source_page_atlas",
+          "sourceAtlasAssetId": "source_atlas_batch_2_6f_11",
+          "sourceAtlas": {
+            "title": "Gangguan Somatoform",
+            "sourceFile": "dr.Fatmawati,Sp.KJ-Gangguan Somatoform (1).pdf",
+            "sourceKind": "Source_atlas_pdf",
+            "pageCount": 46,
+            "atlasFile": "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/atlas.png",
+            "pageFiles": [
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/01.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/02.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/03.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/04.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/05.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/06.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/07.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/08.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/09.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/10.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/11.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/12.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/13.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/14.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/15.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/16.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/17.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/18.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/19.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/20.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/21.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/22.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/23.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/24.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/25.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/26.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/27.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/28.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/29.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/30.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/31.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/32.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/33.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/34.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/35.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/36.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/37.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/38.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/39.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/40.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/41.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/42.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/43.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/44.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/45.png",
+              "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/46.png"
+            ],
+            "caption": "Atlas sumber penuh untuk Gangguan Somatoform"
+          }
+        },
+        {
+          "id": "batch_2_6f_12",
+          "title": "Isu Etik dan Legal dalam Kesehatan Jiwa.",
+          "sourceFile": "app_data/lectures/6f/lecture_material/batch_2_6f_12_legal_etik_jiwa.json",
+          "sourceDocument": "Legal-etik-jiwa.docx",
+          "topicTags": [
+            "Ethics"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "domainId": "6f",
+          "order": 12
+        },
+        {
+          "id": "batch_2_6f_13",
+          "title": "Perilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri.",
+          "sourceFile": "app_data/lectures/6f/lecture_material/batch_2_6f_13_prilaku_profesional_dan_pemeriksaan_psikiatri.json",
+          "sourceDocument": "Prilaku profesional dan Pemeriksaan Psikiatri.docx.",
+          "topicTags": [
+            "Psychiatry basics"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "domainId": "6f",
+          "order": 13
+        },
+        {
+          "id": "batch_2_6f_14",
+          "title": "Gangguan Kepribadian dan Perilaku Masa Dewasa.",
+          "sourceFile": "app_data/lectures/6f/lecture_material/batch_2_6f_14_28_4_25_ggn_kepribadian_dan_perilaku_masa_dew.json",
+          "sourceDocument": "✅28_4_25 GGN KEPRIBADIAN DAN PERILAKU MASA DEWASA_compressed.docx.",
+          "topicTags": [
+            "Personality disorder"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "domainId": "6f",
+          "order": 14
+        }
+      ]
+    }
+  ],
+  "lectureModuleCount": 38,
+  "examSets": [
+    {
+      "id": "mcq_6e_2025_original_exam_set",
+      "title": "MCQ 6.E 2025 - Original Exam Set Reconstruction",
+      "batchId": "batch1",
+      "year": 2025,
+      "sourceLabel": "MCQ 6.E 2025.pdf",
+      "questionCount": 40,
+      "confidence": "",
+      "sourceFile": "app_data/exams/batch1/original_exam_sets/mcq_6e_2025.original_exam_set.json",
+      "questionsPreview": [
+        {
+          "id": "mcq_6e_2025_original_exam_set_q01",
+          "stem": "Kontraindikasi mutlak tindakan lumbal pungsi/pemeriksaan LCS adalah ...",
+          "answerText": "Impending herniasi otak"
+        },
+        {
+          "id": "mcq_6e_2025_original_exam_set_q02",
+          "stem": "Karakteristik yang tidak langsung ditemukan dari pemeriksaan LCS adalah ...",
+          "answerText": "Impending herniasi"
+        },
+        {
+          "id": "mcq_6e_2025_original_exam_set_q03",
+          "stem": "Pada algoritme meningitis/ensefalitis, diagnosis yang mungkin pada pasien HIV negatif adalah ...",
+          "answerText": "Ensefalitis HSV (catatan jawaban; opsi asli tidak terbaca)"
+        }
+      ]
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius",
+      "title": "MCQ 6.3 TRAPEZIUS - Reconstructed Original Exam Set",
+      "batchId": "batch_2_mcq_6_3_trapezius",
+      "year": null,
+      "sourceLabel": "MCQ 6.3 TRAPEZIUS.pdf",
+      "questionCount": 51,
+      "confidence": "",
+      "sourceFile": "app_data/exams/batch2/original_exam_sets/orig_exam_batch_2_mcq_6_3_trapezius.json",
+      "questionsPreview": [
+        {
+          "id": "orig_exam_batch_2_mcq_6_3_trapezius_q01",
+          "stem": "Pernyataan tentang gangguan panik.",
+          "answerText": "Serangan panik episodik dengan gejala otonom"
+        },
+        {
+          "id": "orig_exam_batch_2_mcq_6_3_trapezius_q02",
+          "stem": "Yang bukan merupakan pernyataan tentang obsessive-compulsive disorder (OCD).",
+          "answerText": "Obsesi dan/atau kompulsi"
+        },
+        {
+          "id": "orig_exam_batch_2_mcq_6_3_trapezius_q03",
+          "stem": "Cephalosporin generasi ketiga digunakan untuk penyakit apa?",
+          "answerText": "Infeksi bakteri berat, terutama meningitis"
+        }
+      ]
+    },
+    {
+      "id": "batch3_pembahasan_mcq_6_3_akt_18_2021",
+      "title": "Pembahasan MCQ 6.3 Akt 18 Tahun 2021",
+      "batchId": "batch3",
+      "year": 2021,
+      "sourceLabel": "Pembahasan MCQ 6.3 Akt 18 Tahun 2021.docx",
+      "questionCount": 75,
+      "confidence": "",
+      "sourceFile": "app_data/exams/batch3/original_exam_sets/batch3_pembahasan_mcq_6_3_akt_18_2021.exam_set.json",
+      "questionsPreview": [
+        {
+          "id": "batch3_pembahasan_2018_q01",
+          "stem": "Seorang wanita usia 64 tahun dibawa ke RS yang tidak memiliki fasilitas CT Scan dengan keluhan muntah dan nyeri kepala yang diikuti penurunan kesadaran. Pada pemeriksaan dijumpai kesadaran soporous (GCS 10). TD 180/100 mmHg, denyut jantung 96x/menit. Wanita ini sudah menderita hipertensi dan diabetes mellitus sejak 10 tahun yang lalu. Untuk niembantu menegakkan diagnosa, dokter menghitung Siriraj Stroke Score. Berapakah skor nya?",
+          "answerText": ""
+        },
+        {
+          "id": "batch3_pembahasan_2018_q02",
+          "stem": "Seorang perempuan datang ke praktek dokter umum dengan keluhan cemas dan merasa ketakutan. Sebelumnya terjadi perampokan terhadap suaminya sehingga timbul perasaan cemas, keringat dingin dan jantung berdebar-debar. Pasien juga mengatakan gejala ini muncul sejak 2 bulan ini, setelah suaminya menjadi korban perampokan dan dibunuh oleh pelaku. Sejak saat itu pasien juga mengalami keluhan sulittidur dan nafas terasa berat. Cemas dan ketakutan dirasalkan pasien sewaktu-waktu. Serangan ini dirasakan pasien sekitar 10 menit, terkadang bisa lebih lama Terjadi 3- 4x serangan selama setiap bulan. Pasien juga merasa takut mati dan apakah diagnosis pasien di atas?",
+          "answerText": "Gangguan panik"
+        },
+        {
+          "id": "batch3_pembahasan_2018_q03",
+          "stem": "Yang merupakan gejala klinis pada Sindrom Weber adalah...",
+          "answerText": "Paresis nervus III sesisi lesi"
+        }
+      ]
+    },
+    {
+      "id": "batch4_soal_mcq_6_3_akt_19_tahun_2022",
+      "title": "Soal MCQ 6.3 Akt 19 Tahun 2022",
+      "batchId": "batch4",
+      "year": 2022,
+      "sourceLabel": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+      "questionCount": 58,
+      "confidence": "",
+      "sourceFile": "app_data/exams/batch4/original_exam_sets/batch4_soal_mcq_6_3_akt_19_tahun_2022.json",
+      "questionsPreview": [
+        {
+          "id": "batch4_2022_q01",
+          "stem": "Golongan narkotika golongan II adalah...",
+          "answerText": "Morfin, pethidine"
+        },
+        {
+          "id": "batch4_2022_q02",
+          "stem": "Golongan obat yang dapat menyebabkan cheese reaction adalah...",
+          "answerText": "MAOI"
+        },
+        {
+          "id": "batch4_2022_q03",
+          "stem": "Seorang pasien mengalami gejala depresi selama sekitar satu bulan, kemudian menjadi manik setelah mendapat proyek besar. Diagnosis kerja yang paling sesuai adalah...",
+          "answerText": "Gejala bipolar afektif masa kini manik"
+        }
+      ]
+    },
+    {
+      "id": "batch5_family_pair_canonical_exam_set",
+      "title": "Batch 5 / Family Pair Overlap — canonical deduplicated question set",
+      "batchId": "batch5",
+      "year": null,
+      "sourceLabel": "Merged from 388802_Tutorial Jadi Youtuber Bro.docx and 6.3 okeoyeee with dr iksan and willy no -50.docx",
+      "questionCount": 92,
+      "confidence": "",
+      "sourceFile": "app_data/exams/batch5/original_exam_sets/batch_5_family_pair_canonical_exam_set.json",
+      "questionsPreview": [
+        {
+          "id": "batch5_family_pair_q001",
+          "stem": "pernyataan yang benar terkait sindrom horner, kecuali",
+          "answerText": "sering karna ca servix"
+        },
+        {
+          "id": "batch5_family_pair_q002",
+          "stem": "pernyataan tidak tepat untuk hukum material adalah",
+          "answerText": "kumpulan peraturan beracara di pengadilan"
+        },
+        {
+          "id": "batch5_family_pair_q003",
+          "stem": "penempatan elektroda ECT bilateral biasanya menghasilkan",
+          "answerText": "respon terapetik yang lebih cepat"
+        }
+      ]
+    }
+  ],
+  "examSetCount": 5,
+  "examQuestionCount": 316
+}
