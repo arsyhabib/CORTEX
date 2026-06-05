@@ -11458,9 +11458,9 @@ function CortexLibraryShell() {
     (Array.isArray(domain.modules) ? domain.modules : []).map((module) => Object.assign({}, module, { domainId:domain.id, domainTitle:domain.title }))
   ), [lectureDomains]);
   const examSets = React.useMemo(() => cortexResolveExamSets(contentIndex), [contentIndex]);
-  const selectedLectureMeta = React.useMemo(() => lectureModules.find((item) => item.id === selectedLectureId) || lectureModules[0] || null, [lectureModules, selectedLectureId]);
+  const selectedLectureMeta = React.useMemo(() => lectureModules.find((item) => item.id === selectedLectureId) || null, [lectureModules, selectedLectureId]);
   const selectedLectureDomain = React.useMemo(() => lectureDomains.find((domain) => domain.id === (selectedLectureMeta && selectedLectureMeta.domainId)) || null, [lectureDomains, selectedLectureMeta]);
-  const selectedExamSetMeta = React.useMemo(() => examSets.find((item) => item.id === selectedExamSetId) || examSets[0] || null, [examSets, selectedExamSetId]);
+  const selectedExamSetMeta = React.useMemo(() => examSets.find((item) => item.id === selectedExamSetId) || null, [examSets, selectedExamSetId]);
 
   React.useEffect(() => {
     setContentViewTab(selectedExamSet ? 'quiz' : 'read');
