@@ -1,0 +1,73 @@
+{
+  "id": "lecture_6e_neuropati_012",
+  "batch_id": "batch_1_6e",
+  "title": "Neuropati",
+  "subtitle": "Kimi rerun: neuro_peripheral",
+  "source_pdf": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+  "source_docx": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah tentang neuropati yang mencakup basis anatomis dan fungsional gangguan saraf tepi. Berkas sumber melebihi kapasitas pemrosesan - konten utama tidak dapat diekstrak seluruhnya. Berdasarkan nama berkas dan metadata, modul ini mencakup neuropati perifer termasuk klasifikasi, etiologi, gambaran klinis, dan manajemen. Tanggal pengajaran tampaknya Mei 2025.",
+    "Source file exceeded processing capacity",
+    "Filename indicates May 2025 teaching material on neuropathy",
+    "Content likely covers peripheral nerve anatomy, classification, and clinical approach"
+  ],
+  "exam_focus": [],
+  "learning_goals": [
+    "Mengklasifikasikan neuropati perifer berdasarkan tipe dan etiologi",
+    "Mengidentifikasi gambaran klinis gangguan saraf tepi yang umum",
+    "Menerapkan pendekatan diagnosis pada neuropati perifer",
+    "Menatalaksana neuropati perifer dengan terapi yang tepat"
+  ],
+  "key_points": [
+    "Source file exceeded processing capacity",
+    "Filename indicates May 2025 teaching material on neuropathy",
+    "Content likely covers peripheral nerve anatomy, classification, and clinical approach"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Konten Tidak Dapat Diekstrak Penuh",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "The source file 'Neuropaty Materi Ngajar Mei 2025 (1).docx' exceeded the processing capacity and could not be fully read. Based on the filename, this appears to be teaching material on neuropathy from May 2025. The expected content would typically cover: peripheral nerve anatomy, classification of neuropathies (mono-neuropathy, polyneuropathy, radiculopathy), etiology (diabetic, compressive, inflammatory, toxic, hereditary), clinical presentation, diagnostic approach (EMG/NCS), and management.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Source file too large for full extraction - content flagged as fragmentary",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "The source file 'Neuropaty Materi Ngajar Mei 2025 (1).docx' exceeded the processing capacity and could not be fully read. Based on the filename, this appears to be teaching material on neuropathy from May 2025. The expected content would typically cover: peripheral nerve anatomy, classification of neuropathies (mono-neuropathy, polyneuropathy, radiculopathy), etiology (diabetic, compressive, inflammatory, toxic, hereditary), clinical presentation, diagnostic approach (EMG/NCS), and management. Source file too large for full extraction - content flagged as fragmentary",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [],
+  "tables": [],
+  "diagnostic_logic": [],
+  "differential_notes": [],
+  "treatment_notes": [],
+  "red_flags": [],
+  "extraction_notes": [
+    "Source file exceeded maximum processing size",
+    "Filename indicates teaching material from May 2025",
+    "Content could not be extracted - flagged as fragmentary source"
+  ],
+  "confidence_summary": "unextractable",
+  "qc_flags": [
+    "{\"flag_id\": \"qc_frag_source\", \"flag_type\": \"fragmentary_source\", \"severity\": \"critical\", \"module_id\": \"lecture_6e_neuropati_012\", \"section_id\": \"entire_document\", \"note\": \"Source file exceeded processing capacity; content flagged as fragmentary. File needs reprocessing with smaller chunk size or alternative extraction method.\", \"suggested_remediation\": \"Re-process source file in smaller segments to extract content.\", \"auto_resolved\": false}"
+  ]
+}

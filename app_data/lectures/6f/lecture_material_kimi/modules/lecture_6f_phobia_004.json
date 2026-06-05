@@ -1,0 +1,462 @@
+{
+  "id": "lecture_6f_phobia_004",
+  "batch_id": "batch_2_6f",
+  "title": "Fobia",
+  "subtitle": "Kimi rerun: psychiatry_anxiety_disorders",
+  "source_pdf": "09 dr.Susi - 4. Fobia.docx",
+  "source_docx": "09 dr.Susi - 4. Fobia.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah tentang gangguan fobia mencakup etimologi (bahasa Yunani 'phobos'), definisi sebagai ketakutan berlebihan dan tidak masuk akal terhadap objek/situasi tertentu dengan perilaku penghindaran, klasifikasi tiga tipe (spesifik/sosial/kompleks), epidemiologi, etiologi (ketakutan yang dipelajari + kesiapan biologis), ciri klinis (gejala vegetatif), kriteria PPDGJ-III/ICD-10, dan penatalaksanaan (terapi eksposur, pengendalian diri, gaya hidup).",
+    "Phobia from Greek 'phobos' = fear; excessive and unreasonable fear toward specific objects/situations with avoidance",
+    "Classical conditioning: phobia develops because something is conditioned as frightening or dangerous",
+    "Biological: danger signal to amygdala stores fear associated with object/situation"
+  ],
+  "exam_focus": [
+    "Etimologi Yunani 'phobos'",
+    "Classical conditioning etiology",
+    "Amygdala fear memory pathway",
+    "Three types: specific, social, agoraphobia",
+    "Specific phobia examples with Greek prefixes",
+    "Exposure therapy as core treatment",
+    "Social support importance"
+  ],
+  "learning_goals": [
+    "Define phobia from etymological and clinical perspectives",
+    "Explain classical conditioning and biological etiology of phobia",
+    "Recognize autonomic and somatic symptoms of phobic response",
+    "Differentiate three phobia types: specific, social, and complex (agoraphobia)",
+    "Describe management including exposure therapy and supportive measures"
+  ],
+  "key_points": [
+    "Phobia from Greek 'phobos' = fear; excessive and unreasonable fear toward specific objects/situations with avoidance",
+    "Classical conditioning: phobia develops because something is conditioned as frightening or dangerous",
+    "Biological: danger signal to amygdala stores fear associated with object/situation",
+    "The feared object is usually not frightening to most normal people",
+    "Often caused by bitter past experiences that leave deep impression",
+    "Three types: specific phobia, social phobia, complex phobia (agoraphobia)",
+    "Exposure/desensitization is the core behavioral treatment"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Definisi Fobia",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Fobia berasal dari bahasa Yunani 'phobos' yang berarti ketakutan. Fobia adalah rasa takut yang berlebihan dan tidak wajar terhadap suatu benda, situasi, atau kejadian tertentu, yang ditandai dengan keinginan untuk selalu menghindari sesuatu yang ditakuti itu.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sesuatu yang ditakuti oleh penderita fobia biasanya bukanlah obyek yang menakutkan bagi sebagian besar orang normal. Penderita merasa tidak nyaman dan menghindari objek yang ditakutinya. Seringkali fobia terjadi karena pengalaman pahit masa silam yang masih memberi kesan mendalam. Bila cemasnya terlalu berlebihan dapat menghambat aktivitas penderitanya. Pada kecemasan umum, ketakutan tidak rasional dan tidak terfokus.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Fobia berasal dari bahasa Yunani 'phobos' yang berarti ketakutan. Fobia adalah rasa takut yang berlebihan dan tidak wajar terhadap suatu benda, situasi, atau kejadian tertentu, yang ditandai dengan keinginan untuk selalu menghindari sesuatu yang ditakuti itu. Sesuatu yang ditakuti oleh penderita fobia biasanya bukanlah obyek yang menakutkan bagi sebagian besar orang normal. Penderita merasa tidak nyaman dan menghindari objek yang ditakutinya. Seringkali fobia terjadi karena pengalaman pahit masa silam yang masih memberi kesan mendalam. Bila cemasnya terlalu berlebihan dapat menghambat aktivitas penderitanya. Pada kecemasan umum, ketakutan tidak rasional dan tidak terfokus.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Etiologi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Classical conditioning: timbulnya fobia karena memang dikondisikan sesuatu itu menakutkan atau membahayakan",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Biological causes: bahaya memberi signal kepada amygdala, yang kemudian menyimpan ketakutan yang berasosiasi dengan suatu objek atau situasi tertentu",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Phobia complex: perasaan takut terhadap tempat atau situasi ramai dan terbuka (agorafobia), misalnya tempat umum, mall, rumah sakit, kendaraan umum; pada keadaan lebih berat, orang ini takut untuk keluar rumah",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Model etiologi ganda: ketakutan yang dipelajari (kondisioning klasik) + kesiapan biologis (memori ketakutan yang dimediasi amigdala). Agorafobia merupakan tipe kompleks dengan penghindaran situasional yang luas.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Classical conditioning: timbulnya fobia karena memang dikondisikan sesuatu itu menakutkan atau membahayakan Biological causes: bahaya memberi signal kepada amygdala, yang kemudian menyimpan ketakutan yang berasosiasi dengan suatu objek atau situasi tertentu",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Gejala Fobia",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Jantung berdebar kencang",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kesulitan mengatur napas, dada terasa sakit",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Wajah memerah dan berkeringat",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gemetar",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pusing",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mulut terasa kering",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Merasa perlu pergi ke toilet",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Merasa lemas dan akhirnya pingsan",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gejala fobia didominasi oleh gejala autonomik/kardiovaskular yang mirip dengan panik, tetapi secara spesifik dipicu oleh stimulus yang dapat diidentifikasi daripada muncul secara spontan.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Jantung berdebar kencang Kesulitan mengatur napas, dada terasa sakit",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Tipe-Tipe Fobia",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Fobia spesifik: ketakutan terhadap obyek atau aktivitas tertentu (acrophobia: takut ketinggian, ailurophobia: takut kucing, arachnophobia: takut laba-laba, cynophobia: takut anjing, nyctophobia: takut gelap, dll). Fobia ini biasanya muncul sejak anak-anak atau remaja.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Fobia sosial: ketakutan yang berlebihan, ketidaknyamanan, selalu gelisah ketika berada di dalam lingkungan sosial. Selalu dibayangi perasaan takut terhadap penilaian orang lain. Merasa orang-orang menilai dia.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Fobia kompleks (agorafobia): rasa takut berada di tempat terbuka atau pusat keramaian. Situasinya jelas, ada bendanya (spesifik).",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Klasifikasi tiga tipe: Spesifik (fobia bernama dengan objek yang dapat diidentifikasi, onset masa kanak-kanak), Sosial (takut pada penilaian/evaluasi sosial), Kompleks/Agorafobia (takut meninggalkan tempat yang aman). Epidemiologi: fobia spesifik paling umum (7%), fobia sosial 2-3%, agorafobia 2,5%.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Fobia spesifik: ketakutan terhadap obyek atau aktivitas tertentu (acrophobia: takut ketinggian, ailurophobia: takut kucing, arachnophobia: takut laba-laba, cynophobia: takut anjing, nyctophobia: takut gelap, dll). Fobia ini biasanya muncul sejak anak-anak atau remaja. Fobia sosial: ketakutan yang berlebihan, ketidaknyamanan, selalu gelisah ketika berada di dalam lingkungan sosial. Selalu dibayangi perasaan takut terhadap penilaian orang lain. Merasa orang-orang menilai dia.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Penatalaksanaan",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Teknik pengendalian diri dan pola hidup sehat agar lebih efektif",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dekat dengan keluarga: perhatian dan kepedulian orang-orang terdekat sangat membantu (jangan dikucilkan)",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Teknik pemaparan terhadap objek yang menyebabkan ketakutan (Desensitisation/Exposure Therapy)",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Obat-obatan",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Latihan relaksasi, olahraga, makan makanan bergizi",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terapi eksposur (desensitisasi) merupakan perawatan perilaku inti untuk fobia. Dukungan sosial dari keluarga sangat penting - pasien seringkali menghindari situasi yang ditakuti sendirian.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Teknik pengendalian diri dan pola hidup sehat agar lebih efektif Dekat dengan keluarga: perhatian dan kepedulian orang-orang terdekat sangat membantu (jangan dikucilkan)",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Phobos",
+      "meaning": "Dari bahasa Yunani, berarti ketakutan"
+    },
+    {
+      "term": "Classical conditioning",
+      "meaning": "Proses pembelajaran di mana stimulus netral dikaitkan dengan stimulus takut"
+    },
+    {
+      "term": "Desensitisation",
+      "meaning": "Exposure therapy - paparan bertahap terhadap objek takut untuk mengurangi respons cemas"
+    },
+    {
+      "term": "Agorafobia",
+      "meaning": "Takut berada di tempat terbuka atau situasi ramai di mana melarikan diri sulit"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t01",
+      "title": "Tiga Tipe Fobia",
+      "columns": [
+        "Tipe",
+        "Karakteristik",
+        "Contoh"
+      ],
+      "rows": [
+        [
+          "Fobia Spesifik",
+          "Takut pada objek/aktivitas tertentu",
+          "Acrophobia, ailurophobia, arachnophobia, cynophobia, nyctophobia"
+        ],
+        [
+          "Fobia Sosial",
+          "Takut penilaian orang lain di lingkungan sosial",
+          "Takut berpidato, makan di depan umum"
+        ],
+        [
+          "Fobia Kompleks (Agorafobia)",
+          "Takut tempat terbuka/keramaian",
+          "Mall, rumah sakit, kendaraan umum, lift"
+        ]
+      ]
+    },
+    {
+      "id": "t02",
+      "title": "Gejala Somatik Fobia",
+      "columns": [
+        "Sistem",
+        "Gejala"
+      ],
+      "rows": [
+        [
+          "Kardiovaskuler",
+          "Jantung berdebar kencang, dada sakit"
+        ],
+        [
+          "Respiratori",
+          "Kesulitan mengatur napas"
+        ],
+        [
+          "Kulit",
+          "Wajah memerah, berkeringat"
+        ],
+        [
+          "Neuromuskuler",
+          "Gemetar, pusing, lemas"
+        ],
+        [
+          "Otonom",
+          "Mulut kering, perlu BAK"
+        ],
+        [
+          "Umum",
+          "Merasa lemas, bisa pingsan"
+        ]
+      ]
+    }
+  ],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Identifikasi takut berlebihan",
+      "explanation": "Rasa takut yang berlebihan dan tidak wajar terhadap objek/situasi spesifik."
+    },
+    {
+      "step": 2,
+      "title": "Konfirmasi avoidance behavior",
+      "explanation": "Penderita secara aktif menghindari objek yang ditakutinya."
+    },
+    {
+      "step": 3,
+      "title": "Verifikasi gangguan fungsi",
+      "explanation": "Kecemasan berlebihan menghambat aktivitas penderita."
+    },
+    {
+      "step": 4,
+      "title": "Klasifikasi tipe",
+      "explanation": "Specific, social, atau agoraphobia berdasarkan trigger."
+    }
+  ],
+  "differential_notes": [
+    {
+      "item": "Fobia spesifik vs GAM",
+      "how_to_separate": "Specific phobia: fear focused on identifiable trigger; GAM: free-floating worry about many things."
+    },
+    {
+      "item": "Fobia sosial vs GP Menghindar",
+      "how_to_separate": "Social phobia: fear of social judgment/performance; Avoidant PD: broader avoidance of intimate relationships."
+    },
+    {
+      "item": "Agorafobia vs Gangguan panik",
+      "how_to_separate": "Agorafobia: takut pada tempat/situasi; Gangguan panik: takut pada serangan panik itu sendiri. Sering komorbid."
+    }
+  ],
+  "treatment_notes": [
+    {
+      "phase": "non-farmakologi",
+      "content": "Perawatan inti: terapi eksposur/desensitisasi. Teknik pengendalian diri, latihan relaksasi, gaya hidup sehat (olahraga, nutrisi). Dukungan dan edukasi keluarga."
+    },
+    {
+      "phase": "farmakologi",
+      "content": "Kuliah menyebutkan obat-obatan tetapi agen/dosis spesifik tidak dijelaskan detail. Kemungkinan serupa dengan farmakoterapi GAM/panik (SSRI, benzodiazepin untuk episode akut)."
+    }
+  ],
+  "red_flags": [
+    "Agorafobia berat yang mencegah pasien keluar rumah",
+    "Avoidance yang mengganggu fungsi sosial dan pekerjaan",
+    "Depresi sekunder akibat isolasi"
+  ],
+  "extraction_notes": [
+    "Shorter lecture (10 slides) compared to GAM and Panic lectures.",
+    "Lecturer inferred as dr. Susiati from series numbering (09 dr.Susi - 4).",
+    "Informal annotations present (e.g., 'jangan dikucilkan', 'exposure').",
+    "No specific drug dosing provided.",
+    "Two classification tables preserved."
+  ],
+  "confidence_summary": "tinggi",
+  "qc_flags": []
+}

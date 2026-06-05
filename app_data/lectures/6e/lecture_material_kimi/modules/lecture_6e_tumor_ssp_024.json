@@ -1,0 +1,346 @@
+{
+  "id": "lecture_6e_tumor_ssp_024",
+  "batch_id": "batch_1_6e",
+  "title": "Tumor Sistem Saraf Pusat",
+  "subtitle": "Kimi rerun: neuro_oncology",
+  "source_pdf": "TUMOR SSP KULIAH.docx",
+  "source_docx": "TUMOR SSP KULIAH.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah neurologis senior tentang tumor SSP yang mencakup epidemiologi (insiden, distribusi usia, tipe umum), klasifikasi patologis (pembaruan WHO CNS5 2021), gambaran klinis berdasarkan lokalisasi tumor, tipe tumor spesifik (glioma, meningioma, tumor hipofisis, neuroma akustik, metastasis), pendekatan diagnosis (hierarki pencitraan, indikasi biopsi), modalitas terapi (indikasi bedah, radiasi, kemoterapi), dan pertimbangan khusus (tumor otak pediatrik, tumor otak pada kehamilan, pasien imunokompromai). Menyertakan penekanan pada pemeriksaan neurologis untuk lokalisasi dan konsep neuro-onkologi sebagai bidang multidisiplin.",
+    "WHO CNS5 2021 integrates histology and molecular markers for integrated diagnosis",
+    "Adult vs pediatric brain tumors differ in type, location, and prognosis",
+    "Clinical presentation depends on: rate of growth, location, size, edema"
+  ],
+  "exam_focus": [
+    "WHO CNS5 integrated diagnosis concept",
+    "IDH mutation significance",
+    "1p/19q codeletion for oligodendroglioma",
+    "MGMT methylation predictive value",
+    "Stupp protocol for GBM",
+    "Special populations (pregnancy, immunocompromised, pediatric)"
+  ],
+  "learning_goals": [
+    "Memahami pembaruan klasifikasi WHO CNS5 2021",
+    "Melokalisasi tumor otak melalui pemeriksaan klinis",
+    "Mengenali indikasi untuk intervensi bedah gawat",
+    "Menerapkan pendekatan multidisiplin pada manajemen tumor otak"
+  ],
+  "key_points": [
+    "WHO CNS5 2021 integrates histology and molecular markers for integrated diagnosis",
+    "Adult vs pediatric brain tumors differ in type, location, and prognosis",
+    "Clinical presentation depends on: rate of growth, location, size, edema",
+    "Focal deficits + signs of increased ICP in adult = brain tumor until proven otherwise",
+    "Neurosurgical emergency: herniation signs, acute hydrocephalus, posterior fossa tumor with brainstem compression"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Epidemiologi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "CNS tumors account for approximately 1-2% of all cancers. Incidence increases with age, with a secondary peak in childhood. The most common primary brain tumors in adults are gliomas (50-60%), meningiomas (30-35%), and pituitary adenomas (15%). In children, the most common are pilocytic astrocytoma, medulloblastoma, and ependymoma. Metastatic brain tumors are 3-10 times more common than primary brain tumors. Slight male predominance for most malignant tumors; meningiomas more common in females.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "CNS tumors account for approximately 1-2% of all cancers. Incidence increases with age, with a secondary peak in childhood. The most common primary brain tumors in adults are gliomas (50-60%), meningiomas (30-35%), and pituitary adenomas (15%). In children, the most common are pilocytic astrocytoma, medulloblastoma, and ependymoma. Metastatic brain tumors are 3-10 times more common than primary brain tumors. Slight male predominance for most malignant tumors; meningiomas more common in females.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Klasifikasi WHO CNS5 2021",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "WHO CNS5 (2021) represents a paradigm shift from purely histological to INTEGRATED DIAGNOSIS combining histology and molecular markers. Key changes: Diffuse gliomas are now classified by IDH mutation status and 1p/19q codeletion; Astrocytoma, IDH-mutant vs Oligodendroglioma, IDH-mutant and 1p/19q-codeleted vs Glioblastoma, IDH-wildtype. Glioblastoma is now restricted to IDH-wildtype tumors. New entities: Diffuse midline glioma H3 K27-altered (previously DIPG), ATRT (atypical teratoid/rhabdoid tumor), embryonal tumors. Molecular markers: IDH1/2 mutation, 1p/19q codeletion, MGMT methylation (predicts temozolomide response), TERT promoter mutation, EGFR amplification, H3F3A mutation, BRAF V600E. GRADING: CNS5 uses Arabic numerals (CNS Grade 1-4) within tumor types rather than Roman numerals across types. Grading considers histological features AND molecular markers.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Diagnosis terintegrasi: histologi + molekuler",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "IDH mutation status adalah pemisah utama",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "1p/19q codeletion mendefinisikan oligodendroglioma",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "MGMT methylation: prediktor respons temozolomide",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "IDH mutation is the most important molecular marker for diffuse gliomas in WHO CNS5",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "WHO CNS5 (2021) represents a paradigm shift from purely histological to INTEGRATED DIAGNOSIS combining histology and molecular markers. Key changes: Diffuse gliomas are now classified by IDH mutation status and 1p/19q codeletion; Astrocytoma, IDH-mutant vs Oligodendroglioma, IDH-mutant and 1p/19q-codeleted vs Glioblastoma, IDH-wildtype. Glioblastoma is now restricted to IDH-wildtype tumors. New entities: Diffuse midline glioma H3 K27-altered (previously DIPG), ATRT (atypical teratoid/rhabdoid tumor), embryonal tumors. Molecular markers: IDH1/2 mutation, 1p/19q codeletion, MGMT methylation (predicts temozolomide response), TERT promoter mutation, EGFR amplification, H3F3A mutation, BRAF V600E. GRADING: CNS5 uses Arabic numerals (CNS Grade 1-4) within tumor types rather than Roman numerals across types. Grading considers histological features AND molecular markers. Diagnosis terintegrasi: histologi + molekuler",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Gejala Klinis berdasarkan Lokalisasi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "SUPRATENTORIAL TUMORS: Frontal lobe (personality changes, executive dysfunction, contralateral hemiparesis, urinary incontinence, frontal release signs); Temporal lobe (memory impairment, seizures, auditory/visual hallucinations, aphasia if dominant hemisphere); Parietal lobe (contralateral sensory loss, neglect on right, Gerstmann syndrome on left, apraxia, visual field defect); Occipital lobe (contralateral homonymous hemianopia, visual agnosia). INFRATENTORIAL TUMORS: Cerebellum (ataxia, dysmetria, intention tremor, nystagmus, hydrocephalus); Brainstem (cranial nerve palsies, long tract signs, ataxia, respiratory/cardiovascular abnormalities); Fourth ventricle (hydrocephalus, increased ICP). SELLA/SUPRASELLAR: Pituitary dysfunction (endocrine abnormalities), visual field defects (bitemporal hemianopia), headache. MULTIFOCAL/METASTATIC: Multiple lesions with varying symptoms, signs of increased ICP.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "SUPRATENTORIAL TUMORS: Frontal lobe (personality changes, executive dysfunction, contralateral hemiparesis, urinary incontinence, frontal release signs); Temporal lobe (memory impairment, seizures, auditory/visual hallucinations, aphasia if dominant hemisphere); Parietal lobe (contralateral sensory loss, neglect on right, Gerstmann syndrome on left, apraxia, visual field defect); Occipital lobe (contralateral homonymous hemianopia, visual agnosia). INFRATENTORIAL TUMORS: Cerebellum (ataxia, dysmetria, intention tremor, nystagmus, hydrocephalus); Brainstem (cranial nerve palsies, long tract signs, ataxia, respiratory/cardiovascular abnormalities); Fourth ventricle (hydrocephalus, increased ICP). SELLA/SUPRASELLAR: Pituitary dysfunction (endocrine abnormalities), visual field defects (bitemporal hemianopia), headache. MULTIFOCAL/METASTATIC: Multiple lesions with varying symptoms, signs of increased ICP.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Tumor Spesifik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "GLIOBLASTOMA, IDH-WILDTYPE (WHO CNS Grade 4): Most common malignant brain tumor; peak 45-70 years; highly infiltrative; central necrosis, microvascular proliferation, pseudopalisading necrosis; treatment: maximal resection + Stupp protocol (temozolomide + RT); median survival 15 months; MGMT methylation predicts better response. MENINGIOMA (WHO Grade 1-3): Most common benign brain tumor; female predominance; progesterone receptor positive; WHO grade based on mitotic count, brain invasion, specific histological features; Simpson grading for surgical resection extent. PITUITARY ADENOMA: Prolactinoma (medical treatment with dopamine agonists - cabergoline/bromocriptine); GH-secreting (somatostatin analogs, surgery); ACTH-secreting (Cushing disease, transsphenoidal surgery); Non-functioning (surgery if mass effect). ACOUSTIC NEUROMA (VESTIBULAR SCHWANNOMA): CPA mass; bilateral in NF2; treatment based on size and hearing status. MEDULLOBLASTOMA: Most common malignant pediatric brain tumor; posterior fossa midline; radiosensitive; SHH, WNT, Group 3, Group 4 molecular subgroups. METASTASES: Lung, breast, melanoma, kidney, colon; MRI with contrast; treatment based on number/size/primary/KPS.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "MGMT promoter methylation in glioblastoma predicts better response to temozolomide and longer survival",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "GLIOBLASTOMA, IDH-WILDTYPE (WHO CNS Grade 4): Most common malignant brain tumor; peak 45-70 years; highly infiltrative; central necrosis, microvascular proliferation, pseudopalisading necrosis; treatment: maximal resection + Stupp protocol (temozolomide + RT); median survival 15 months; MGMT methylation predicts better response. MENINGIOMA (WHO Grade 1-3): Most common benign brain tumor; female predominance; progesterone receptor positive; WHO grade based on mitotic count, brain invasion, specific histological features; Simpson grading for surgical resection extent. PITUITARY ADENOMA: Prolactinoma (medical treatment with dopamine agonists - cabergoline/bromocriptine); GH-secreting (somatostatin analogs, surgery); ACTH-secreting (Cushing disease, transsphenoidal surgery); Non-functioning (surgery if mass effect). ACOUSTIC NEUROMA (VESTIBULAR SCHWANNOMA): CPA mass; bilateral in NF2; treatment based on size and hearing status. MEDULLOBLASTOMA: Most common malignant pediatric brain tumor; posterior fossa midline; radiosensitive; SHH, WNT, Group 3, Group 4 molecular subgroups. METASTASES: Lung, breast, melanoma, kidney, colon; MRI with contrast; treatment based on number/size/primary/KPS. MGMT promoter methylation in glioblastoma predicts better response to temozolomide and longer survival",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Pendekatan Diagnostik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "IMAGING HIERARCHY: CT head (first-line, exclude hemorrhage, calcification, mass effect); MRI with contrast (gold standard, characterize tumor, assess extent, surgical planning); MRI spectroscopy (elevated choline, reduced NAA, lactate/lipid peak in high-grade tumors); perfusion MRI (elevated rCBV in high-grade); PET (differentiate recurrence from radiation necrosis). INDICATIONS FOR BIOPSY: Uncertain diagnosis, inaccessible location, medical comorbidities precluding surgery, need for molecular markers. STEREOTACTIC BIOPSY: Frame-based or frameless (neuronavigation); CT or MRI guidance; sample from enhancing margin (avoid necrotic center). LUMBAR PUNCTURE: Generally contraindicated if mass effect; useful for leptomeningeal metastasis, lymphoma workup.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "CT: first-line, eksklusi hemoragi",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "MRI dengan kontras: standar emas",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Biopsi: jika diagnosis tidak pasti atau lokasi tidak terjangkau",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "LP: kontraindikasi jika efek massa",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "IMAGING HIERARCHY: CT head (first-line, exclude hemorrhage, calcification, mass effect); MRI with contrast (gold standard, characterize tumor, assess extent, surgical planning); MRI spectroscopy (elevated choline, reduced NAA, lactate/lipid peak in high-grade tumors); perfusion MRI (elevated rCBV in high-grade); PET (differentiate recurrence from radiation necrosis). INDICATIONS FOR BIOPSY: Uncertain diagnosis, inaccessible location, medical comorbidities precluding surgery, need for molecular markers. STEREOTACTIC BIOPSY: Frame-based or frameless (neuronavigation); CT or MRI guidance; sample from enhancing margin (avoid necrotic center). LUMBAR PUNCTURE: Generally contraindicated if mass effect; useful for leptomeningeal metastasis, lymphoma workup. CT: first-line, eksklusi hemoragi",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s06",
+      "title": "Terapi dan Populasi Khusus",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "SURGICAL INDICATIONS: Tissue diagnosis, mass effect reduction, seizure control, hydrocephalus relief. EMERGENCIES: Herniation signs (unequal pupils, Cushing triad), acute hydrocephalus, posterior fossa tumor with brainstem compression. AWAKE CRANIOTOMY: For tumors in eloquent areas (motor, speech); allows intraoperative mapping. RADIATION: Conventional fractionated RT; SRS (Gamma Knife, CyberKnife) for small metastases and residual tumors; Proton beam for pediatric tumors. CHEMOTHERAPY: Temozolomide (oral, crosses BBB, for gliomas); PCV (procarbazine, CCNU, vincristine for oligodendroglioma); Methotrexate (for lymphoma); Bevacizumab (VEGF inhibitor, for recurrent GBM). SPECIAL POPULATIONS: PREGNANCY: Physiologic changes affect tumor behavior (meningiomas may grow); MRI without contrast preferred; delay RT if possible; steroids for edema; most chemotherapies contraindicated. IMMUNOCOMPROMISED: Consider opportunistic infections (toxoplasmosis, PML, fungal abscesses) in differential; primary CNS lymphoma common. PEDIATRIC: Different tumor spectrum; more sensitive to radiation (cognitive effects, secondary malignancies); proton therapy preferred.",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "SURGICAL INDICATIONS: Tissue diagnosis, mass effect reduction, seizure control, hydrocephalus relief. EMERGENCIES: Herniation signs (unequal pupils, Cushing triad), acute hydrocephalus, posterior fossa tumor with brainstem compression. AWAKE CRANIOTOMY: For tumors in eloquent areas (motor, speech); allows intraoperative mapping. RADIATION: Conventional fractionated RT; SRS (Gamma Knife, CyberKnife) for small metastases and residual tumors; Proton beam for pediatric tumors. CHEMOTHERAPY: Temozolomide (oral, crosses BBB, for gliomas); PCV (procarbazine, CCNU, vincristine for oligodendroglioma); Methotrexate (for lymphoma); Bevacizumab (VEGF inhibitor, for recurrent GBM). SPECIAL POPULATIONS: PREGNANCY: Physiologic changes affect tumor behavior (meningiomas may grow); MRI without contrast preferred; delay RT if possible; steroids for edema; most chemotherapies contraindicated. IMMUNOCOMPROMISED: Consider opportunistic infections (toxoplasmosis, PML, fungal abscesses) in differential; primary CNS lymphoma common. PEDIATRIC: Different tumor spectrum; more sensitive to radiation (cognitive effects, secondary malignancies); proton therapy preferred.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "WHO CNS5",
+      "meaning": "WHO Classification of Tumours of the CNS, 5th edition (2021)"
+    },
+    {
+      "term": "Integrated diagnosis",
+      "meaning": "Diagnosis yang menggabungkan histologi dan marker molekuler"
+    },
+    {
+      "term": "MGMT",
+      "meaning": "O-6-methylguanine-DNA methyltransferase, gen repair DNA"
+    },
+    {
+      "term": "Stupp protocol",
+      "meaning": "Protokol kemoradiasi untuk glioblastoma"
+    },
+    {
+      "term": "SRS",
+      "meaning": "Stereotactic Radiosurgery"
+    }
+  ],
+  "tables": [],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Clinical suspicion by localization",
+      "explanation": "Focal deficits + ICP signs suggest mass lesion"
+    },
+    {
+      "step": 2,
+      "title": "MRI with contrast",
+      "explanation": "Characterize number, location, enhancement pattern"
+    },
+    {
+      "step": 3,
+      "title": "Tissue diagnosis",
+      "explanation": "Biopsy or resection for histology and molecular markers"
+    },
+    {
+      "step": 4,
+      "title": "Molecular testing",
+      "explanation": "IDH, 1p/19q, MGMT, TERT for integrated diagnosis"
+    },
+    {
+      "step": 5,
+      "title": "Multidisciplinary treatment planning",
+      "explanation": "Surgery, RT, chemotherapy based on integrated diagnosis"
+    }
+  ],
+  "differential_notes": [
+    {
+      "item": "Tumor vs abscess vs demyelinating lesion",
+      "how_to_separate": "Tumor: irregular enhancement, no diffusion restriction center; Abscess: thin smooth ring, central restricted diffusion; Demyelination: open ring, younger patient"
+    },
+    {
+      "item": "Primary vs metastatic",
+      "how_to_separate": "Single + no known cancer = workup for primary; Multiple + known cancer = likely metastatic"
+    },
+    {
+      "item": "Meningioma vs schwannoma vs pituitary",
+      "how_to_separate": "Location and imaging characteristics"
+    }
+  ],
+  "treatment_notes": [
+    {
+      "phase": "surgery",
+      "content": "Maximal safe resection, biopsy for diagnosis, emergency decompression"
+    },
+    {
+      "phase": "radiation",
+      "content": "Fractionated RT, SRS, proton beam"
+    },
+    {
+      "phase": "chemotherapy",
+      "content": "Temozolomide, PCV, methotrexate, bevacizumab"
+    },
+    {
+      "phase": "supportive",
+      "content": "Dexamethasone for edema, antiepileptics if seizures"
+    }
+  ],
+  "red_flags": [
+    "Signs of herniation (unequal pupils, Cushing triad)",
+    "Acute hydrocephalus",
+    "Seizure in adult with no prior history",
+    "Rapidly progressive neurological deficit",
+    "Brainstem compression signs"
+  ],
+  "extraction_notes": [
+    "Lecturer identified as Prof. Dr. dr. Idris Bahar, Sp.S(K)",
+    "WHO CNS5 2021 classification well-covered with molecular markers",
+    "Integrated diagnosis concept clearly explained",
+    "Special populations section added practical value",
+    "Stupp protocol and MGMT methylation discussed"
+  ],
+  "confidence_summary": "high",
+  "qc_flags": []
+}

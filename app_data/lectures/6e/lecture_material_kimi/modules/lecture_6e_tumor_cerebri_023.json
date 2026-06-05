@@ -1,0 +1,330 @@
+{
+  "id": "lecture_6e_tumor_cerebri_023",
+  "batch_id": "batch_1_6e",
+  "title": "Tumor Cerebri",
+  "subtitle": "Kimi rerun: neuro_oncology",
+  "source_pdf": "Tumor Cerebri.docx",
+  "source_docx": "Tumor Cerebri.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah komprehensif tentang tumor otak yang mencakup klasifikasi (primer vs metastatik, intra-aksial vs ekstra-aksial, grading WHO), presentasi klinis (gejala umum peningkatan ICP, defisit neurologis fokal, kejang), tumor otak primer umum (glioma, meningioma, adenoma hipofisis, schwannoma), tumor otak metastatik, pendekatan diagnosis (neuroimaging dengan MRI sebagai standar emas, biopsi), dan prinsip manajemen (bedah, radioterapi, kemoterapi, manajemen simtomatik termasuk steroid untuk edema dan antiepileptik untuk kontrol kejang).",
+    "Primary CNS tumors: gliomas (astrocytoma, oligodendroglioma, glioblastoma) are most common malignant; meningioma most common benign",
+    "Metastases are the most common brain tumors overall (lung, breast, melanoma, kidney, colon)",
+    "General symptoms: headache (worse in morning, with Valsalva), nausea/vomiting, papilledema, cognitive/personality changes"
+  ],
+  "exam_focus": [
+    "WHO grading system",
+    "Common primary brain tumors and their characteristics",
+    "Metastasis sources and imaging features",
+    "GBM treatment (Stupp protocol)",
+    "Dexamethasone dosing for tumor edema",
+    "No prophylactic antiepileptics"
+  ],
+  "learning_goals": [
+    "Mengklasifikasikan tumor otak berdasarkan asal, lokasi, dan grade",
+    "Mengenali pola presentasi klinis tumor otak",
+    "Menginterpretasi temuan MRI untuk tumor otak yang umum",
+    "Menerapkan pendekatan manajemen multidisiplin"
+  ],
+  "key_points": [
+    "Primary CNS tumors: gliomas (astrocytoma, oligodendroglioma, glioblastoma) are most common malignant; meningioma most common benign",
+    "Metastases are the most common brain tumors overall (lung, breast, melanoma, kidney, colon)",
+    "General symptoms: headache (worse in morning, with Valsalva), nausea/vomiting, papilledema, cognitive/personality changes",
+    "MRI with contrast is gold standard for brain tumor imaging",
+    "Dexamethasone 4-10 mg q6h for vasogenic edema; antiepileptics only if seizures have occurred"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Klasifikasi Tumor Otak",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Brain tumors are classified by: ORIGIN (primary CNS tumors vs metastatic); LOCATION (intra-axial within brain parenchyma vs extra-axial outside brain tissue); HISTOLOGY (WHO classification grades I-IV). PRIMARY CNS TUMORS: Gliomas arise from glial cells - astrocytoma, oligodendroglioma, ependymoma, glioblastoma. Meningiomas from arachnoid cap cells. Pituitary adenomas. Schwannomas (vestibular). Primary CNS lymphoma. METASTATIC BRAIN TUMORS: Most common brain tumors in adults; typically multiple; sources: lung (40-50%), breast (15-20%), melanoma (10%), kidney, colon. WHO GRADING: Grade I (benign, slow-growing, curable with surgery); Grade II (low-grade, infiltrative, may recur); Grade III (anaplastic, malignant); Grade IV (highly malignant, rapid growth, necrosis).",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Brain tumors are classified by: ORIGIN (primary CNS tumors vs metastatic); LOCATION (intra-axial within brain parenchyma vs extra-axial outside brain tissue); HISTOLOGY (WHO classification grades I-IV). PRIMARY CNS TUMORS: Gliomas arise from glial cells - astrocytoma, oligodendroglioma, ependymoma, glioblastoma. Meningiomas from arachnoid cap cells. Pituitary adenomas. Schwannomas (vestibular). Primary CNS lymphoma. METASTATIC BRAIN TUMORS: Most common brain tumors in adults; typically multiple; sources: lung (40-50%), breast (15-20%), melanoma (10%), kidney, colon. WHO GRADING: Grade I (benign, slow-growing, curable with surgery); Grade II (low-grade, infiltrative, may recur); Grade III (anaplastic, malignant); Grade IV (highly malignant, rapid growth, necrosis).",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Presentasi Klinis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "GENERAL SYMPTOMS (increased ICP): Headache (progressive, worse in morning, with coughing/straining/Valsalva), nausea and vomiting (often projectile, worse in morning), papilledema (blurred vision, transient visual obscurations), altered mental status (cognitive slowing, personality changes, somnolence), seizures (may be presenting symptom in 20-40% of brain tumors). FOCAL SYMPTOMS (depend on location): Frontal (personality changes, executive dysfunction, hemiparesis); Temporal (memory deficits, seizures, aphasia); Parietal (sensory loss, neglect, apraxia, Gerstmann syndrome); Occipital (visual field defects); Posterior fossa (ataxia, cranial nerve deficits, hydrocephalus); Brainstem (cranial nerve palsies, long tract signs). PITUITARY/SELLAR: Visual field defects (bitemporal hemianopia), endocrine abnormalities.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gejala umum: nyeri kepala pagi hari, muntah, papiledema",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kejang: gejala awal pada 20-40% tumor otak",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gejala fokal: tergantung lokalisasi",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pituitary: hemianopia bitemporal, gangguan endokrin",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Morning headache that worsens with Valsalva is classic for raised ICP from mass lesion",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "GENERAL SYMPTOMS (increased ICP): Headache (progressive, worse in morning, with coughing/straining/Valsalva), nausea and vomiting (often projectile, worse in morning), papilledema (blurred vision, transient visual obscurations), altered mental status (cognitive slowing, personality changes, somnolence), seizures (may be presenting symptom in 20-40% of brain tumors). FOCAL SYMPTOMS (depend on location): Frontal (personality changes, executive dysfunction, hemiparesis); Temporal (memory deficits, seizures, aphasia); Parietal (sensory loss, neglect, apraxia, Gerstmann syndrome); Occipital (visual field defects); Posterior fossa (ataxia, cranial nerve deficits, hydrocephalus); Brainstem (cranial nerve palsies, long tract signs). PITUITARY/SELLAR: Visual field defects (bitemporal hemianopia), endocrine abnormalities. Gejala umum: nyeri kepala pagi hari, muntah, papiledema",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Tumor Primer",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "GLIOBLASTOMA MULTIFORME (GBM, WHO Grade IV): Most common malignant primary brain tumor in adults; peak age 45-70; highly infiltrative; MRI shows irregular ring-enhancing mass with central necrosis, extensive edema, mass effect, may cross corpus callosum. Treatment: maximal safe resection + concurrent chemoradiation (temozolomide + RT) + adjuvant temozolomide; median survival 15 months. MENINGIOMA (WHO Grade I-III): Most common benign brain tumor; female predominance; extra-axial, dural-based, homogeneous enhancement, dural tail sign; treatment: observation if small/asymptomatic, surgery if symptomatic or growing, radiosurgery for residual/recurrent. PITUITARY ADENOMA: Sellar mass; microadenoma (<10mm) or macroadenoma (>=10mm); visual field defects if suprasellar extension; treatment: medical (prolactinoma - cabergoline/bromocriptine), transsphenoidal surgery, radiation. SCHWANNOMA (VESTIBULAR SCHWANNOMA, ACOUSTIC NEUROMA): CPA mass from vestibular nerve; unilateral hearing loss, tinnitus, imbalance; MRI shows enhancing CPA mass extending into IAC; treatment: observation if small, surgery or radiosurgery if growing/symptomatic. PRIMARY CNS LYMPHOMA: Periventricular, homogeneous enhancement, restricted diffusion; treatment: high-dose methotrexate-based chemotherapy.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "GLIOBLASTOMA MULTIFORME (GBM, WHO Grade IV): Most common malignant primary brain tumor in adults; peak age 45-70; highly infiltrative; MRI shows irregular ring-enhancing mass with central necrosis, extensive edema, mass effect, may cross corpus callosum. Treatment: maximal safe resection + concurrent chemoradiation (temozolomide + RT) + adjuvant temozolomide; median survival 15 months. MENINGIOMA (WHO Grade I-III): Most common benign brain tumor; female predominance; extra-axial, dural-based, homogeneous enhancement, dural tail sign; treatment: observation if small/asymptomatic, surgery if symptomatic or growing, radiosurgery for residual/recurrent. PITUITARY ADENOMA: Sellar mass; microadenoma (<10mm) or macroadenoma (>=10mm); visual field defects if suprasellar extension; treatment: medical (prolactinoma - cabergoline/bromocriptine), transsphenoidal surgery, radiation. SCHWANNOMA (VESTIBULAR SCHWANNOMA, ACOUSTIC NEUROMA): CPA mass from vestibular nerve; unilateral hearing loss, tinnitus, imbalance; MRI shows enhancing CPA mass extending into IAC; treatment: observation if small, surgery or radiosurgery if growing/symptomatic. PRIMARY CNS LYMPHOMA: Periventricular, homogeneous enhancement, restricted diffusion; treatment: high-dose methotrexate-based chemotherapy.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Tumor Metastasis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Metastatic brain tumors are the most common brain tumors in adults. Typically multiple lesions at gray-white matter junction. Common primary sources: lung (40-50%), breast (15-20%), melanoma (10%), renal cell carcinoma, colorectal. MRI: multiple lesions with ring or homogeneous enhancement, disproportionate surrounding edema compared to tumor size. Hemorrhagic metastases: melanoma, renal cell, cholangiocarcinoma, thyroid, lung. WORKUP: Chest CT (most common source), mammography, abdominal CT, tumor markers. TREATMENT: Depends on number, size, location, primary tumor type, KPS score. Single/few accessible: surgical resection or SRS (stereotactic radiosurgery). Multiple: whole brain radiation therapy (WBRT). Systemic therapy for chemosensitive tumors. Prognosis: RPA class I (KPS >=70, age <65, controlled primary, no extracranial mets) = median 7.7 months; Class III (KPS <70) = median 2 months.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Multiple brain lesions at gray-white junction with known primary cancer = metastases until proven otherwise",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Metastatic brain tumors are the most common brain tumors in adults. Typically multiple lesions at gray-white matter junction. Common primary sources: lung (40-50%), breast (15-20%), melanoma (10%), renal cell carcinoma, colorectal. MRI: multiple lesions with ring or homogeneous enhancement, disproportionate surrounding edema compared to tumor size. Hemorrhagic metastases: melanoma, renal cell, cholangiocarcinoma, thyroid, lung. WORKUP: Chest CT (most common source), mammography, abdominal CT, tumor markers. TREATMENT: Depends on number, size, location, primary tumor type, KPS score. Single/few accessible: surgical resection or SRS (stereotactic radiosurgery). Multiple: whole brain radiation therapy (WBRT). Systemic therapy for chemosensitive tumors. Prognosis: RPA class I (KPS >=70, age <65, controlled primary, no extracranial mets) = median 7.7 months; Class III (KPS <70) = median 2 months. Multiple brain lesions at gray-white junction with known primary cancer = metastases until proven otherwise",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Prinsip Manajemen",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "SURGERY: Indications - accessible lesion causing mass effect, need for histological diagnosis, single metastasis, recurrent/residual after other treatment. Goals: maximal safe resection while preserving function (awake craniotomy for eloquent areas). RADIATION THERAPY: Whole brain RT (WBRT) for multiple metastases; Stereotactic radiosurgery (SRS/Gamma Knife) for 1-4 small metastases or residual tumor; Fractionated RT for gliomas; Proton beam for selected cases. CHEMOTHERAPY: Temozolomide for gliomas; Methotrexate for primary CNS lymphoma; Targeted therapy (bevacizumab for GBM). SYMPTOMATIC MANAGEMENT: Corticosteroids (dexamethasone 4-10 mg q6h) for vasogenic edema - taper after definitive treatment; Antiepileptics (levetiracetam, valproate) only if seizures have occurred (not for prophylaxis); PPI for GI protection with steroids; DVT prophylaxis; Pain management.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bedah: reseksi maksimal aman, biopsi",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Radiasi: WBRT, SRS, fraksionasi",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kemoterapi: temozolomide (glioma), MTX (limfoma)",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Simtomatik: deksametason 4-10 mg q6h, antiepileptik jika kejang",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Prophylactic antiepileptics are NOT recommended for brain tumors without seizure history",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "SURGERY: Indications - accessible lesion causing mass effect, need for histological diagnosis, single metastasis, recurrent/residual after other treatment. Goals: maximal safe resection while preserving function (awake craniotomy for eloquent areas). RADIATION THERAPY: Whole brain RT (WBRT) for multiple metastases; Stereotactic radiosurgery (SRS/Gamma Knife) for 1-4 small metastases or residual tumor; Fractionated RT for gliomas; Proton beam for selected cases. CHEMOTHERAPY: Temozolomide for gliomas; Methotrexate for primary CNS lymphoma; Targeted therapy (bevacizumab for GBM). SYMPTOMATIC MANAGEMENT: Corticosteroids (dexamethasone 4-10 mg q6h) for vasogenic edema - taper after definitive treatment; Antiepileptics (levetiracetam, valproate) only if seizures have occurred (not for prophylaxis); PPI for GI protection with steroids; DVT prophylaxis; Pain management. Bedah: reseksi maksimal aman, biopsi",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "GBM",
+      "meaning": "Glioblastoma Multiforme, WHO Grade IV"
+    },
+    {
+      "term": "SRS",
+      "meaning": "Stereotactic Radiosurgery"
+    },
+    {
+      "term": "WBRT",
+      "meaning": "Whole Brain Radiation Therapy"
+    },
+    {
+      "term": "Stupp protocol",
+      "meaning": "Reseksi + kemoradiasi konkuren + adjuvan temozolomide untuk GBM"
+    }
+  ],
+  "tables": [],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Clinical suspicion",
+      "explanation": "Progressive headache, focal deficits, seizures, personality changes"
+    },
+    {
+      "step": 2,
+      "title": "MRI with contrast",
+      "explanation": "Gold standard; assess number, location, enhancement pattern, edema"
+    },
+    {
+      "step": 3,
+      "title": "Tissue diagnosis if needed",
+      "explanation": "Biopsy or resection for histology and molecular markers"
+    },
+    {
+      "step": 4,
+      "title": "Staging for metastases",
+      "explanation": "CT chest/abdomen, mammography, tumor markers to find primary"
+    },
+    {
+      "step": 5,
+      "title": "Multidisciplinary treatment",
+      "explanation": "Surgery, radiation, chemotherapy, symptomatic management"
+    }
+  ],
+  "differential_notes": [
+    {
+      "item": "GBM vs metastasis vs abscess",
+      "how_to_separate": "GBM: single, irregular ring, crosses corpus callosum; Metastasis: multiple, gray-white junction; Abscess: thin smooth ring, restricted diffusion center"
+    },
+    {
+      "item": "Meningioma vs schwannoma",
+      "how_to_separate": "Meningioma: extra-axial, dural tail, broad dural base; Schwannoma: CPA, extends into IAC"
+    },
+    {
+      "item": "Pituitary adenoma vs craniopharyngioma",
+      "how_to_separate": "Adenoma: solid, homogenous; Craniopharyngioma: cystic, calcified, suprasellar"
+    }
+  ],
+  "treatment_notes": [
+    {
+      "phase": "surgery",
+      "content": "Maximal safe resection for accessible tumors; biopsy for diagnosis"
+    },
+    {
+      "phase": "radiation",
+      "content": "WBRT for multiple mets, SRS for 1-4 mets, fractionated RT for gliomas"
+    },
+    {
+      "phase": "chemotherapy",
+      "content": "Temozolomide for gliomas, methotrexate for lymphoma"
+    },
+    {
+      "phase": "symptomatic",
+      "content": "Dexamethasone for edema, antiepileptics if seizures, DVT prophylaxis"
+    }
+  ],
+  "red_flags": [
+    "Morning headache with vomiting",
+    "Papilledema",
+    "Seizure in adult with no prior history",
+    "Rapidly progressive focal neurological deficit",
+    "Multiple brain lesions with known cancer"
+  ],
+  "extraction_notes": [
+    "Comprehensive brain tumor lecture",
+    "WHO grading preserved",
+    "Multiple tumor types with characteristics and treatment",
+    "No prophylactic antiepileptics noted"
+  ],
+  "confidence_summary": "high",
+  "qc_flags": []
+}

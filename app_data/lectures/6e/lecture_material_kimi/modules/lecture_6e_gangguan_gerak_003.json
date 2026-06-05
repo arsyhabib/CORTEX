@@ -1,0 +1,537 @@
+{
+  "id": "lecture_6e_gangguan_gerak_003",
+  "batch_id": "batch_1_6e",
+  "title": "Gangguan Gerak",
+  "subtitle": "Kimi rerun: neuro_movement_disorders",
+  "source_pdf": "26 dr.Attiya - Gangguan Gerak.docx",
+  "source_docx": "26 dr.Attiya - Gangguan Gerak.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah komprehensif tentang gangguan gerak yang mencakup klasifikasi hiperkinetik dan hipokinetik, penyakit Parkinson (definisi, gejala kardinal, stadium, farmakoterapi, komplikasi), tremor, distonia, tik, restless legs syndrome, periodic limb movement disorder, dan spasme hemifasial. Menyertakan lokalisasi spesifik setiap jenis gangguan gerak pada struktur ganglia basalis dan non-ganglia basalis.",
+    "Movement disorders are divided into hyperkinetic and hypokinetic categories",
+    "Specific basal ganglia structures localize to specific movement disorders: substantia nigra (bradykinesia, tremor), subthalamic nucleus (ballism), caudate (chorea), putamen (dystonia)",
+    "TRAP symptoms (Tremor, Rigiditas, Akinesia, Postural instability) define Parkinson disease"
+  ],
+  "exam_focus": [
+    "TRAP symptoms for PD diagnosis",
+    "Hughes criteria levels (Possible/Probable/Definite)",
+    "Hoehn-Yahr staging I-V",
+    "Age-based PD pharmacotherapy algorithm",
+    "Basal ganglia localization table",
+    "Motor vs non-motor PD complications",
+    "MSA red flags and diagnostic criteria"
+  ],
+  "learning_goals": [
+    "Mengklasifikasikan gangguan gerak ke dalam kategori hiperkinetik dan hipokinetik",
+    "Mendiagnosis penyakit Parkinson menggunakan gejala kardinal dan kriteria Hughes",
+    "Menentukan stadium penyakit Parkinson menggunakan klasifikasi Hoehn dan Yahr",
+    "Menerapkan algoritma farmakoterapi berdasarkan usia pasien dan dominasi gejala",
+    "Mengenali dan menatalaksana komplikasi non-motorik dan motorik PD"
+  ],
+  "key_points": [
+    "Movement disorders are divided into hyperkinetic and hypokinetic categories",
+    "Specific basal ganglia structures localize to specific movement disorders: substantia nigra (bradykinesia, tremor), subthalamic nucleus (ballism), caudate (chorea), putamen (dystonia)",
+    "TRAP symptoms (Tremor, Rigiditas, Akinesia, Postural instability) define Parkinson disease",
+    "Hughes criteria: Possible = 1 cardinal symptom; Probable = 2 cardinal symptoms; Definite = 3 cardinal symptoms",
+    "Age-based therapy: <40 years = DA agonist; 40-60 years = L-Dopa or DA agonist; >60 years = L-Dopa"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Pendahuluan dan Definisi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Movement disorders are neurological symptoms presenting as disturbances of voluntary movement and postural dysfunction. These are not caused by weakness due to abnormal muscle tone. The clinical picture is highly complex, variable, and sometimes unusual. Diagnosis can be challenging but is achievable through careful clinical examination.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Movement disorders are neurological symptoms presenting as disturbances of voluntary movement and postural dysfunction. These are not caused by weakness due to abnormal muscle tone. The clinical picture is highly complex, variable, and sometimes unusual. Diagnosis can be challenging but is achievable through careful clinical examination.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Lokalisasi Spesifik Gangguan Gerak",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Each movement disorder type localizes to specific anatomical structures, providing important diagnostic localizing value.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Subthalamic nucleus lesion = contralateral ballism; Caudate lesion = chorea (Huntington)",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Each movement disorder type localizes to specific anatomical structures, providing important diagnostic localizing value. Subthalamic nucleus lesion = contralateral ballism; Caudate lesion = chorea (Huntington)",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Penyakit Parkinson",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Parkinson disease is a form of parkinsonism characterized by degeneration of the substantia nigra pars compacta. Parkinsonism is a syndrome marked by resting tremor, rigidity, bradikinesia, and loss of postural reflexes due to dopamine deficiency.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "The four cardinal symptoms (TRAP) are: Tremor, Rigiditas, Akinesia/Bradikinesia, and Postural reflex impairment. Items 1-3 are called the three cardinal signs. Presentation may be unilateral or bilateral, symmetric or asymmetric.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gejala kardinal: Tremor, Rigiditas, Akinesia/Bradikinesia, Postural reflex berkurang",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Klasifikasi: Parkinsonisme idiopatik (primer), simptomatik (sekunder), Parkinson plus (multiple system degeneration), Heredodegeneratif",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Postural instability typically appears in Hoehn-Yahr stage III and beyond; it is a late feature, not an early sign",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Parkinson disease is a form of parkinsonism characterized by degeneration of the substantia nigra pars compacta. Parkinsonism is a syndrome marked by resting tremor, rigidity, bradikinesia, and loss of postural reflexes due to dopamine deficiency. The four cardinal symptoms (TRAP) are: Tremor, Rigiditas, Akinesia/Bradikinesia, and Postural reflex impairment. Items 1-3 are called the three cardinal signs. Presentation may be unilateral or bilateral, symmetric or asymmetric.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Terapi Farmakologis PD",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Pharmacological therapy is tailored to patient age, disease stage, side effect profile, and cost considerations. Long-term L-dopa use causes motor complications.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Long-term L-dopa causes motoric complications; younger patients may benefit from starting with DA agonists",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Pharmacological therapy is tailored to patient age, disease stage, side effect profile, and cost considerations. Long-term L-dopa use causes motor complications. Long-term L-dopa causes motoric complications; younger patients may benefit from starting with DA agonists",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Komplikasi Non-Motorik dan Motorik PD",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "NON-MOTOR COMPLICATIONS: Neuropsychiatric - depression (TCAs, SSRIs, pramipexole), psychosis (reduce dopaminergic therapy, avoid polypharmacy), anxiety, cognitive impairment/dementia (rivastigmine, cholinesterase inhibitors). Autonomic - orthostatic hypotension (fluids, elastic stockings, ephedrine 15-45mg/day, fludrocortisone 100-300mcg/day, midodrine 2.5-10mg/day), GI dysfunction (dysphagia, constipation, sialorrhea), urinary dysfunction (oxybutynin, desmopressin), sexual dysfunction. Sensory - pain (optimize dopaminergic therapy, botox), hyposmia. Sleep - insomnia, excessive daytime sleepiness.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "MOTOR COMPLICATIONS: Fluctuations - wearing off (short L-dopa effect), on-off phenomena. Dyskinesia - ballismus, dystonia. Management includes L-dopa dose adjustment, COMT inhibitors (entacapone) + L-dopa, pramipexole, ropinirole.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Motor fluctuations and dyskinesias are hallmarks of advanced PD and long-term L-dopa therapy",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "NON-MOTOR COMPLICATIONS: Neuropsychiatric - depression (TCAs, SSRIs, pramipexole), psychosis (reduce dopaminergic therapy, avoid polypharmacy), anxiety, cognitive impairment/dementia (rivastigmine, cholinesterase inhibitors). Autonomic - orthostatic hypotension (fluids, elastic stockings, ephedrine 15-45mg/day, fludrocortisone 100-300mcg/day, midodrine 2.5-10mg/day), GI dysfunction (dysphagia, constipation, sialorrhea), urinary dysfunction (oxybutynin, desmopressin), sexual dysfunction. Sensory - pain (optimize dopaminergic therapy, botox), hyposmia. Sleep - insomnia, excessive daytime sleepiness. MOTOR COMPLICATIONS: Fluctuations - wearing off (short L-dopa effect), on-off phenomena. Dyskinesia - ballismus, dystonia. Management includes L-dopa dose adjustment, COMT inhibitors (entacapone) + L-dopa, pramipexole, ropinirole.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s06",
+      "title": "Parkinsonisme Sekunder dan MSA",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Secondary parkinsonism resembles PD but has known causes including drug exposure, toxins, or structural lesions. Management includes removing the causative agent. Parkinson-plus syndromes include corticobasal degeneration, dementia syndromes, multiple system atrophy (MSA), and progressive supranuclear palsy.",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "MSA is a degenerative disease resembling parkinsonism with cerebellar signs and autonomic dysfunction. MSA-P (parkinsonism-dominant): incontinence, erectile dysfunction. MSA-C (cerebellar-dominant): nystagmus, dysarthria, ataxia. Red flags (MSA features): postural instability, orofacial dystonia, incontinence, myoclonic tremor, stridor and sigh inspiration, pyramidal signs. Probable MSA: age >30, urinary incontinence + orthostatic hypotension, responds to levodopa.",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "MSA-P (dominan parkinsonism): inkontinensia, disfungsi ereksi",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "MSA-C (dominan tanda serebelar): nistagmus, disartria, ataksia",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terapi: Levodopa untuk parkinsonism; hipotensi ortostatik (head up tilt, diet tinggi garam, elastic stocking, efedrin, fludrocortison, midodrine)",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Disfungsi urinary: Oxybutynin dan Desmopresin spray",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Secondary parkinsonism resembles PD but has known causes including drug exposure, toxins, or structural lesions. Management includes removing the causative agent. Parkinson-plus syndromes include corticobasal degeneration, dementia syndromes, multiple system atrophy (MSA), and progressive supranuclear palsy. MSA is a degenerative disease resembling parkinsonism with cerebellar signs and autonomic dysfunction. MSA-P (parkinsonism-dominant): incontinence, erectile dysfunction. MSA-C (cerebellar-dominant): nystagmus, dysarthria, ataxia. Red flags (MSA features): postural instability, orofacial dystonia, incontinence, myoclonic tremor, stridor and sigh inspiration, pyramidal signs. Probable MSA: age >30, urinary incontinence + orthostatic hypotension, responds to levodopa.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s07",
+      "title": "Tremor dan Distonia",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Tremor is defined as rhythmic oscillatory movement from alternating agonist-antagonist muscle contraction. Classification includes resting tremor, action tremor (postural, kinetic, intentional, simple kinetic). Essential tremor is bilateral, affects hands and head, onset in second decade, usually starts unilateral then becomes bilateral.",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tremor treatment: propranolol 60-80mg/day (start 30mg), primidone 62.5-300mg/day, gabapentin 900-1800mg/day, clozapine 12.5-50mg/day, clonazepam 0.5-6mg/day. Cerebellar tremor is typically difficult to treat (carbamazepine, clonazepam, ondansetron may help).",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dystonia shows hypotonia with alternating muscle spasms, twisted postures, and potential body deformity. Classified as primary (idiopathic), secondary, and dystonia-plus. Treatment: levodopa, dopamine agonists, anticholinergics. Botulinum toxin injection 40-400 units for focal dystonias. Blepharospasm (M:F = 1:3) treated with botulinum toxin. Writer's cramp: involuntary finger contractions treated with physiotherapy and trihexyphenidyl.",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tremor esensial: bilateral tangan dan kepala, onset dekade kedua",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Propranolol 60-80mg/hari (dimulai 30mg/hari)",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Distonia: levodopa, agonis dopamin, antikolinergik, toksin botulinum",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Tremor is defined as rhythmic oscillatory movement from alternating agonist-antagonist muscle contraction. Classification includes resting tremor, action tremor (postural, kinetic, intentional, simple kinetic). Essential tremor is bilateral, affects hands and head, onset in second decade, usually starts unilateral then becomes bilateral. Tremor treatment: propranolol 60-80mg/day (start 30mg), primidone 62.5-300mg/day, gabapentin 900-1800mg/day, clozapine 12.5-50mg/day, clonazepam 0.5-6mg/day. Cerebellar tremor is typically difficult to treat (carbamazepine, clonazepam, ondansetron may help).",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s08",
+      "title": "Tics, RLS, PLMD, dan Spasme Hemifasial",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Tics are unconscious, brief, frequent, repetitive movements or sounds. Classification: Tourette syndrome (motor + vocal tics), chronic motor or vocal tic disorder, transient tic disorder (>4 weeks). Etiology involves biochemical imbalance in basal ganglia. Diagnosis uses MRI and EEG to rule out structural lesions. Treatment: non-neuroleptics (fluoxetine, paroxetine, clonidine) and neuroleptics (haloperidol, risperidone, clozapine).",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Restless Legs Syndrome (RLS) is a sensory-motor phenomenon with urge to move legs and unpleasant sensations. Classified as primary (genetic) or secondary (iron deficiency). By symptom pattern: intermittent, daily, or refractory. Clinical features: urge to move legs, worse in evening/night, causes sleep disruption, depression, usually family history, responds to dopaminergic therapy. Treatment goals: symptom reduction and secondary cause treatment. Non-pharmacological: mental activity, physical activity, sleep hygiene. Pharmacological: levodopa, dopamine agonists (pramipexole, ropinirole, pergolide), anticonvulsants, opioids for refractory cases.",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Periodic Limb Movement Disorder (PLMD) involves repetitive leg jerks during sleep every ~40 seconds, 0.5-5 seconds in duration, occurring every 20-40 seconds. Diagnosed by overnight polysomnography. Treatment: benzodiazepines (clonazepam), dopaminergics (pramipexole), anticonvulsants, GABA agonists (baclofen).",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hemifacial spasm involves unilateral tonic or clonic contractions of facial muscles innervated by the facial nerve (CN VII). Treatment aims to reduce muscle contraction: carbamazepine, benzodiazepines, baclofen, gabapentin, botulinum toxin injection, or surgery.",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tourette syndrome: kombinasi tics motorik dan vokal",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "RLS: agonis dopamin (pramipexol, ropinirol, pergalide), levodopa, antikonvulsan, opioid",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "PLMD: klonazepam, pramipexole, antikonvulsan, baklofen",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Spasme hemifasial: karbamazepin, benzodiazepin, baklofen, gabapentin, toksin botulinum, pembedahan",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Tics are unconscious, brief, frequent, repetitive movements or sounds. Classification: Tourette syndrome (motor + vocal tics), chronic motor or vocal tic disorder, transient tic disorder (>4 weeks). Etiology involves biochemical imbalance in basal ganglia. Diagnosis uses MRI and EEG to rule out structural lesions. Treatment: non-neuroleptics (fluoxetine, paroxetine, clonidine) and neuroleptics (haloperidol, risperidone, clozapine). Restless Legs Syndrome (RLS) is a sensory-motor phenomenon with urge to move legs and unpleasant sensations. Classified as primary (genetic) or secondary (iron deficiency). By symptom pattern: intermittent, daily, or refractory. Clinical features: urge to move legs, worse in evening/night, causes sleep disruption, depression, usually family history, responds to dopaminergic therapy. Treatment goals: symptom reduction and secondary cause treatment. Non-pharmacological: mental activity, physical activity, sleep hygiene. Pharmacological: levodopa, dopamine agonists (pramipexole, ropinirole, pergolide), anticonvulsants, opioids for refractory cases.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Bradikinesia",
+      "meaning": "Gerakan lambat, salah satu gejala kardinal PD"
+    },
+    {
+      "term": "Akinesia",
+      "meaning": "Tidak adanya gerakan, lebih berat dari bradikinesia"
+    },
+    {
+      "term": "Rigiditas",
+      "meaning": "Kekakuan otot yang bersifat kaku pada gerakan pasif"
+    },
+    {
+      "term": "Distonia",
+      "meaning": "Kontraksi otot berkepanjangan menyebabkan gerakan kaku dan postur abnormal"
+    },
+    {
+      "term": "Korea",
+      "meaning": "Gerakan cepat, non-stereotip, tidak teratur"
+    },
+    {
+      "term": "Mioklonus",
+      "meaning": "Gerakan singkat dan shock-like akibat kontraksi otot"
+    },
+    {
+      "term": "Akathisia",
+      "meaning": "Rasa tidak nyaman dan dorongan untuk bergerak, umumnya efek obat"
+    }
+  ],
+  "tables": [],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Identify if movement disorder is present",
+      "explanation": "Distinguish from weakness, spasticity, or other motor deficits"
+    },
+    {
+      "step": 2,
+      "title": "Classify as hyperkinetic or hypokinetic",
+      "explanation": "Hyperkinetic = excessive movement (tremor, chorea, dystonia); Hypokinetic = reduced movement (PD, bradykinesia)"
+    },
+    {
+      "step": 3,
+      "title": "Localize to anatomical structure",
+      "explanation": "Substantia nigra = PD; subthalamic nucleus = ballism; caudate = chorea; putamen = dystonia"
+    },
+    {
+      "step": 4,
+      "title": "Apply specific diagnostic criteria",
+      "explanation": "Hughes criteria for PD; clinical features for tremor classification"
+    }
+  ],
+  "differential_notes": [
+    {
+      "item": "Essential tremor vs Parkinson tremor",
+      "how_to_separate": "Essential tremor: action tremor, bilateral, head involvement; PD tremor: resting tremor, pill-rolling, unilateral onset"
+    },
+    {
+      "item": "Primary vs secondary dystonia",
+      "how_to_separate": "Secondary dystonia has identifiable cause (drug, structural lesion); primary has no identified cause"
+    },
+    {
+      "item": "MSA-P vs idiopathic PD",
+      "how_to_separate": "MSA-P has early autonomic dysfunction, poor levodopa response, cerebellar signs"
+    }
+  ],
+  "treatment_notes": [
+    {
+      "phase": "pd_early_young",
+      "content": "DA agonists (pramipexole) first-line for age <40"
+    },
+    {
+      "phase": "pd_early_middle",
+      "content": "L-dopa or DA agonist for age 40-60"
+    },
+    {
+      "phase": "pd_elderly",
+      "content": "L-dopa first-line for age >60, add DA agonist later"
+    },
+    {
+      "phase": "pd_motor_fluctuations",
+      "content": "COMT inhibitors (entacapone), DA agonists, adjust L-dopa timing"
+    },
+    {
+      "phase": "tremor",
+      "content": "Propranolol, primidone, gabapentin; botulinum toxin for dystonic tremor"
+    },
+    {
+      "phase": "dystonia",
+      "content": "Levodopa trial, anticholinergics, botulinum toxin injection"
+    },
+    {
+      "phase": "rls",
+      "content": "Dopamine agonists (pramipexole, ropinirole), levodopa, anticonvulsants, iron replacement if deficient"
+    }
+  ],
+  "red_flags": [
+    "Early postural instability (suggests MSA or PSP, not idiopathic PD)",
+    "Rapid progression with poor levodopa response",
+    "Early autonomic failure (urinary incontinence, orthostatic hypotension)",
+    "Pyramidal signs or cerebellar ataxia with parkinsonism"
+  ],
+  "extraction_notes": [
+    "Sumber diidentifikasi sebagai presentasi POKDI Movement Disorders PERDOSSI, Mukernas Bandung 2013",
+    "Classification table on slide 3 was well-structured and preserved",
+    "Localization slide provided clear basal ganglia-to-disorder mapping",
+    "Treatment algorithm was presented as a figure; key logic extracted",
+    "MSA criteria section had some formatting artifacts but content was extractable"
+  ],
+  "confidence_summary": "high",
+  "qc_flags": []
+}

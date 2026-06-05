@@ -1,0 +1,303 @@
+{
+  "id": "lecture_6e_neuroanatomi_011",
+  "batch_id": "batch_1_6e",
+  "title": "Neuroanatomi 2023",
+  "subtitle": "Kimi rerun: neuro_anatomy",
+  "source_pdf": "neuroanatomi 2023.docx",
+  "source_docx": "neuroanatomi 2023.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah neuroanatomi komprehensif yang mencakup gambaran anatomi SSP, suplai darah otak (arteri serebri anterior, arteri serebri media, arteri serebri posterior, circulus arteriosus Willis), kapsul interna dan suplai vaskularnya, analisis jalan termasuk gait parkinsonian dan gait hemiplegik, anatomi pleksus brakhialis dan korelasinya secara klinis termasuk Erb-Duchenne palsy dan Klumpke palsy, serta diagnosis banding disfagia.",
+    "ACA supplies medial frontal and parietal lobes; MCA supplies lateral hemisphere; PCA supplies occipital and medial temporal lobes",
+    "Internal capsule has anterior limb, genu, posterior limb, retrolenticular, and sublenticular parts - each with specific fiber tracts",
+    "Lacunar infarcts commonly affect internal capsule, basal ganglia, thalamus, and pons"
+  ],
+  "exam_focus": [
+    "ACA vs MCA vs PCA vascular territories",
+    "Internal capsule anatomy and somatotopic organization",
+    "Lacunar infarct syndromes",
+    "Parkinsonian vs hemiplegic gait characteristics",
+    "Erb-Duchenne vs Klumpke palsy",
+    "Brachial plexus trunk anatomy"
+  ],
+  "learning_goals": [
+    "Mengidentifikasi teritori vaskular dari tiga arteri serebri utama",
+    "Memahami anatomi kapsul interna dan signifikansi klinisnya pada infark lakunar",
+    "Membedakan pola jalan termasuk gait parkinsonian dan hemiplegik",
+    "Mendeskripsikan anatomi pleksus brakhialis dan melokalisasi lesi pada truncus superior atau inferior"
+  ],
+  "key_points": [
+    "ACA supplies medial frontal and parietal lobes; MCA supplies lateral hemisphere; PCA supplies occipital and medial temporal lobes",
+    "Internal capsule has anterior limb, genu, posterior limb, retrolenticular, and sublenticular parts - each with specific fiber tracts",
+    "Lacunar infarcts commonly affect internal capsule, basal ganglia, thalamus, and pons",
+    "Parkinsonian gait: shuffling, narrow base, flexed posture, reduced arm swing; Hemiplegic gait: circumduction, foot drop"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Gambaran Anatomik SSP",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "The central nervous system consists of the brain and spinal cord. The brain is divided into cerebrum (two cerebral hemispheres), cerebellum, and brainstem (midbrain, pons, medulla oblongata). Understanding the anatomical relationships and vascular territories is essential for clinical localization.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Otak: serebrum, serebelum, batang otak",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sumsum tulang belakang",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sistem saraf tepi",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "The central nervous system consists of the brain and spinal cord. The brain is divided into cerebrum (two cerebral hemispheres), cerebellum, and brainstem (midbrain, pons, medulla oblongata). Understanding the anatomical relationships and vascular territories is essential for clinical localization. Otak: serebrum, serebelum, batang otak",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Suplai Darah Otak",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "ANTERIOR CEREBRAL ARTERY (ACA): Supplies medial frontal and parietal lobes, anterior corpus callosum, anterior limb of internal capsule, anterior fornix. Clinical deficit: contralateral leg weakness and sensory loss, abulia, urinary incontinence. MIDDLE CEREBRAL ARTERY (MCA): Supplies lateral frontal, parietal, and temporal lobes, posterior limb of internal capsule, basal ganglia. Clinical deficit: contralateral face/arm weakness and sensory loss > leg, aphasia (dominant hemisphere), neglect (non-dominant hemisphere), hemianopia. POSTERIOR CEREBRAL ARTERY (PCA): Supplies occipital lobe, medial temporal lobe, thalamus, midbrain. Clinical deficit: homonymous hemianopia, memory deficits, alexia without agraphia (dominant hemisphere).",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "ACA = leg weakness; MCA = face/arm weakness; PCA = visual field defect",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "ANTERIOR CEREBRAL ARTERY (ACA): Supplies medial frontal and parietal lobes, anterior corpus callosum, anterior limb of internal capsule, anterior fornix. Clinical deficit: contralateral leg weakness and sensory loss, abulia, urinary incontinence. MIDDLE CEREBRAL ARTERY (MCA): Supplies lateral frontal, parietal, and temporal lobes, posterior limb of internal capsule, basal ganglia. Clinical deficit: contralateral face/arm weakness and sensory loss > leg, aphasia (dominant hemisphere), neglect (non-dominant hemisphere), hemianopia. POSTERIOR CEREBRAL ARTERY (PCA): Supplies occipital lobe, medial temporal lobe, thalamus, midbrain. Clinical deficit: homonymous hemianopia, memory deficits, alexia without agraphia (dominant hemisphere). ACA = leg weakness; MCA = face/arm weakness; PCA = visual field defect",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Kapsul Interna dan Suplai Vaskular",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "The internal capsule is a white matter structure containing ascending and descending fiber tracts between the thalamus/caudate and lentiform nucleus. ANTERIOR LIMB: frontopontine fibers, thalamocortical fibers. GENU: corticobulbar fibers (face). POSTERIOR LIMB: corticospinal tract (face, arm, leg in somatotopic order), thalamocortical fibers. RETROLENTICULAR: optic radiations, corticopontine fibers. SUBLENTICULAR: auditory radiations. Vascular supply: lenticulostriate arteries (branches of MCA) supply most of internal capsule. LACUNAR INFARCTS commonly affect the internal capsule, basal ganglia, thalamus, and pons. Pure motor hemiparesis from internal capsule lacune is the most common lacunar syndrome.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lengan anterior: serat frontopontin, talamokortikal",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Genu: serat kortikobulbar (wajah)",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lengan posterior: traktus kortikospinal (wajah, lengan, kaki), talamokortikal",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Retrolentikular: radiasi optik",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sublentikular: radiasi auditorik",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Suplai: arteri lentikulostriata (cabang MCA)",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Internal capsule lacune causes pure motor hemiparesis - face, arm, and leg equally affected",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "The internal capsule is a white matter structure containing ascending and descending fiber tracts between the thalamus/caudate and lentiform nucleus. ANTERIOR LIMB: frontopontine fibers, thalamocortical fibers. GENU: corticobulbar fibers (face). POSTERIOR LIMB: corticospinal tract (face, arm, leg in somatotopic order), thalamocortical fibers. RETROLENTICULAR: optic radiations, corticopontine fibers. SUBLENTICULAR: auditory radiations. Vascular supply: lenticulostriate arteries (branches of MCA) supply most of internal capsule. LACUNAR INFARCTS commonly affect the internal capsule, basal ganglia, thalamus, and pons. Pure motor hemiparesis from internal capsule lacune is the most common lacunar syndrome. Lengan anterior: serat frontopontin, talamokortikal",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Analisis Gait",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "PARKINSONIAN GAIT: Shuffling steps, narrow base, flexed posture (stooped), reduced or absent arm swing, en bloc turning, festination (acceleration), difficulty initiating movement. HEMIPLEGIC GAIT: Circumduction of affected leg (swinging leg outward in arc), foot drop with toe dragging, extended knee on affected side, decreased weight bearing on affected leg, compensatory leaning. ATAXIC GAIT (Cerebellar): Wide-based, unsteady, veering toward affected side, positive Romberg. SPASTIC GAIT: Scissoring (adduction of legs), toe walking. STEPPAGE GAIT: From foot drop, excessive hip/knee flexion to clear foot. WADDLING GAIT: Bilateral hip girdle weakness, excessive trunk sway.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "PARKINSONIAN GAIT: Shuffling steps, narrow base, flexed posture (stooped), reduced or absent arm swing, en bloc turning, festination (acceleration), difficulty initiating movement. HEMIPLEGIC GAIT: Circumduction of affected leg (swinging leg outward in arc), foot drop with toe dragging, extended knee on affected side, decreased weight bearing on affected leg, compensatory leaning. ATAXIC GAIT (Cerebellar): Wide-based, unsteady, veering toward affected side, positive Romberg. SPASTIC GAIT: Scissoring (adduction of legs), toe walking. STEPPAGE GAIT: From foot drop, excessive hip/knee flexion to clear foot. WADDLING GAIT: Bilateral hip girdle weakness, excessive trunk sway.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Pleksus Brakhialis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "The brachial plexus is formed by C5-T1 nerve roots, divided into roots, trunks, divisions, cords, and terminal branches. UPPER TRUNK (C5-C6): injury causes Erb-Duchenne palsy - 'waiter's tip' deformity (adducted shoulder, internally rotated arm, extended elbow, flexed wrist). Common in birth injury (shoulder dystocia) and motorcycle accidents. LOWER TRUNK (C8-T1): injury causes Klumpke palsy - claw hand deformity, weakness of intrinsic hand muscles, possible Horner syndrome (if sympathetic chain involved). LONG THORACIC NERVE (C5-C7): innervates serratus anterior; injury causes winged scapula.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Upper trunk (C5-C6): Erb-Duchenne palsy - waiter's tip deformity",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lower trunk (C8-T1): Klumpke palsy - claw hand, Horner syndrome",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Long thoracic nerve: winged scapula",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Erb-Duchenne (C5-C6): shoulder adduction, internal rotation, elbow extension; Klumpke (C8-T1): claw hand, intrinsic hand muscle weakness",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "The brachial plexus is formed by C5-T1 nerve roots, divided into roots, trunks, divisions, cords, and terminal branches. UPPER TRUNK (C5-C6): injury causes Erb-Duchenne palsy - 'waiter's tip' deformity (adducted shoulder, internally rotated arm, extended elbow, flexed wrist). Common in birth injury (shoulder dystocia) and motorcycle accidents. LOWER TRUNK (C8-T1): injury causes Klumpke palsy - claw hand deformity, weakness of intrinsic hand muscles, possible Horner syndrome (if sympathetic chain involved). LONG THORACIC NERVE (C5-C7): innervates serratus anterior; injury causes winged scapula. Upper trunk (C5-C6): Erb-Duchenne palsy - waiter's tip deformity",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Kapsul interna",
+      "meaning": "Struktur materi putih mengandung serat ascending dan descending"
+    },
+    {
+      "term": "Infark lakunar",
+      "meaning": "Infark kecil (<15mm) pada arteri penetrans, umumnya kapsul interna, ganglia basalis, talamus"
+    },
+    {
+      "term": "Gait festinasi",
+      "meaning": "Akselerasi langkah involunter pada Parkinson"
+    },
+    {
+      "term": "Sirkumduksi",
+      "meaning": "Gerakan melengkung kaki saat berjalan pada hemiplegia"
+    }
+  ],
+  "tables": [],
+  "diagnostic_logic": [],
+  "differential_notes": [],
+  "treatment_notes": [],
+  "red_flags": [],
+  "extraction_notes": [
+    "Lecturer identified as dr. Diana Martha Utama",
+    "Vascular territory content well-structured",
+    "Gait analysis section included multiple gait patterns with localizations",
+    "Brachial plexus anatomy with clinical correlates well-preserved"
+  ],
+  "confidence_summary": "high",
+  "qc_flags": []
+}

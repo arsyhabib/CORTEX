@@ -1,0 +1,241 @@
+{
+  "id": "lecture_6e_mikroorganisme_010",
+  "batch_id": "batch_1_6e",
+  "title": "Mikroorganisme Penyebab Infeksi SSP",
+  "subtitle": "Kimi rerun: neuro_infection",
+  "source_pdf": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+  "source_docx": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah komprehensif tentang mikroorganisme penyebab infeksi SSP, diorganisir berdasarkan tipe patogen: bakteri piogenik (menyebabkan meningitis, abses), Mycobacterium tuberculosis, jamur (Cryptococcus, Aspergillus, Candida), parasit (Plasmodium, Entamoeba, Taenia solium/Naegleria fowleri, Toxoplasma gondii), dan virus (HSV, CMV, VZV, HIV, rabies). Juga mencakup jalur invasi SSP dan diagnosis laboratorium.",
+    "Pyogenic bacteria: Streptococcus pneumoniae, Neisseria meningitidis, Haemophilus influenzae are leading causes of bacterial meningitis",
+    "Mycobacterium tuberculosis causes TB meningitis with characteristic basilar enhancement",
+    "Cryptococcus neoformans is the most common fungal CNS pathogen in immunocompromised patients"
+  ],
+  "exam_focus": [
+    "Three main pyogenic bacteria: S. pneumoniae, N. meningitidis, H. influenzae",
+    "Cryptococcus: India ink, HIV association",
+    "Neurocysticercosis four stages",
+    "HSV temporal lobe encephalitis",
+    "Rabies Negri bodies"
+  ],
+  "learning_goals": [
+    "Mengidentifikasi bakteri piogenik penyebab infeksi SSP",
+    "Mengenali jalur invasi SSP untuk setiap tipe patogen",
+    "Mengasosiasikan patogen spesifik dengan manifestasi penyakit SSP-nya",
+    "Merencanakan diagnosis laboratorium untuk setiap tipe infeksi SSP"
+  ],
+  "key_points": [
+    "Pyogenic bacteria: Streptococcus pneumoniae, Neisseria meningitidis, Haemophilus influenzae are leading causes of bacterial meningitis",
+    "Mycobacterium tuberculosis causes TB meningitis with characteristic basilar enhancement",
+    "Cryptococcus neoformans is the most common fungal CNS pathogen in immunocompromised patients",
+    "Taenia solium causes neurocysticercosis; Naegleria fowleri causes primary amebic meningoencephalitis",
+    "HSV-1 causes temporal lobe encephalitis; CMV causes ventriculoencephalitis in immunocompromised"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Bakteri Piogenik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "The most common pyogenic bacteria causing CNS infection are Streptococcus pneumoniae (most common in adults), Neisseria meningitidis (young adults, epidemics), and Haemophilus influenzae (children, now decreased due to vaccination). Other pathogens include Staphylococcus aureus (post-traumatic, post-neurosurgical), Streptococcus agalactiae (Group B strep, neonates), and Listeria monocytogenes (immunocompromised, elderly, pregnant women).",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "The most common pyogenic bacteria causing CNS infection are Streptococcus pneumoniae (most common in adults), Neisseria meningitidis (young adults, epidemics), and Haemophilus influenzae (children, now decreased due to vaccination). Other pathogens include Staphylococcus aureus (post-traumatic, post-neurosurgical), Streptococcus agalactiae (Group B strep, neonates), and Listeria monocytogenes (immunocompromised, elderly, pregnant women).",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Mycobacterium tuberculosis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Mycobacterium tuberculosis causes TB meningitis, typically through hematogenous spread from pulmonary TB or rupture of subependymal tubercles (Rich foci) into the subarachnoid space. Characteristic basilar meningeal enhancement on imaging. Treatment requires prolonged OAT regimen (9-12 months) with good BBB penetration (pyrazinamide, isoniazid).",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Menyebar hematogen dari TB paru",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Rupture fokus Rich subependymal",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Enhancement basal meningeal khas",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "OAT 9-12 bulan",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Mycobacterium tuberculosis causes TB meningitis, typically through hematogenous spread from pulmonary TB or rupture of subependymal tubercles (Rich foci) into the subarachnoid space. Characteristic basilar meningeal enhancement on imaging. Treatment requires prolonged OAT regimen (9-12 months) with good BBB penetration (pyrazinamide, isoniazid). Menyebar hematogen dari TB paru",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Fungi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "CRYPTOCOCCUS NEOFORMANS: Most common fungal CNS pathogen in immunocompromised (especially HIV/AIDS). Found in pigeon droppings/soil. Thick polysaccharide capsule visible with India ink. AS PERGILLUS: Angioinvasive, causes hemorrhagic infarction. Risk factors: neutropenia, transplant recipients. CANDIDA: Candida albicans most common; causes meningitis, abscess, microabscesses. Risk factors: immunocompromised, long-term catheterization.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "CRYPTOCOCCUS NEOFORMANS: Most common fungal CNS pathogen in immunocompromised (especially HIV/AIDS). Found in pigeon droppings/soil. Thick polysaccharide capsule visible with India ink. AS PERGILLUS: Angioinvasive, causes hemorrhagic infarction. Risk factors: neutropenia, transplant recipients. CANDIDA: Candida albicans most common; causes meningitis, abscess, microabscesses. Risk factors: immunocompromised, long-term catheterization.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Parasit",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "PLASMODIUM FALCIPARUM: Causes cerebral malaria through sequestration of parasitized RBCs in cerebral microvasculature. ENTAMOEBA HISTOLYTICA: Causes brain abscess. TAENIA SOLIUM (PORK TAPEWORM): Causes neurocysticercosis, most common parasitic CNS infection worldwide. Larval cysts in brain parenchyma, subarachnoid space, ventricles. Four stages: vesicular, colloidal, granular, calcified. NAEGLERIA FOWLERI: Free-living amoeba in warm freshwater; causes primary amebic meningoencephalitis (PAM), almost universally fatal. TOXOPLASMA GONDII: Causes toxoplasmosis encephalitis in immunocompromised; ring-enhancing lesions, typically reactivation of latent infection.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Naegleria fowleri PAM has >95% mortality; diagnosis often post-mortem",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "PLASMODIUM FALCIPARUM: Causes cerebral malaria through sequestration of parasitized RBCs in cerebral microvasculature. ENTAMOEBA HISTOLYTICA: Causes brain abscess. TAENIA SOLIUM (PORK TAPEWORM): Causes neurocysticercosis, most common parasitic CNS infection worldwide. Larval cysts in brain parenchyma, subarachnoid space, ventricles. Four stages: vesicular, colloidal, granular, calcified. NAEGLERIA FOWLERI: Free-living amoeba in warm freshwater; causes primary amebic meningoencephalitis (PAM), almost universally fatal. TOXOPLASMA GONDII: Causes toxoplasmosis encephalitis in immunocompromised; ring-enhancing lesions, typically reactivation of latent infection. Naegleria fowleri PAM has >95% mortality; diagnosis often post-mortem",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Virus",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "HSV-1 (Herpes Simplex Virus type 1): Most common cause of sporadic fatal encephalitis in the US. Characteristic temporal lobe involvement. Clinical features: fever, headache, altered mental status, seizures. CSF: lymphocytic pleocytosis, elevated protein, normal glucose. PCR is diagnostic. Treatment: acyclovir 10mg/kg IV q8h for 14-21 days. CMV (Cytomegalovirus): Causes ventriculoencephalitis in immunocompromised (HIV/AIDS, transplant). Periventricular enhancement. VZV (Varicella Zoster Virus): Can cause meningitis, encephalitis, vasculopathy, especially in elderly and immunocompromised. HIV: HIV-associated neurocognitive disorder (HAND), aseptic meningitis, opportunistic infections. RABIES: Negri bodies (eosinophilic cytoplasmic inclusions) in neurons; almost universally fatal once symptomatic.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "HSV encephalitis: temporal lobe involvement on MRI; PCR is gold standard; acyclovir should be started empirically if suspected",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "HSV-1 (Herpes Simplex Virus type 1): Most common cause of sporadic fatal encephalitis in the US. Characteristic temporal lobe involvement. Clinical features: fever, headache, altered mental status, seizures. CSF: lymphocytic pleocytosis, elevated protein, normal glucose. PCR is diagnostic. Treatment: acyclovir 10mg/kg IV q8h for 14-21 days. CMV (Cytomegalovirus): Causes ventriculoencephalitis in immunocompromised (HIV/AIDS, transplant). Periventricular enhancement. VZV (Varicella Zoster Virus): Can cause meningitis, encephalitis, vasculopathy, especially in elderly and immunocompromised. HIV: HIV-associated neurocognitive disorder (HAND), aseptic meningitis, opportunistic infections. RABIES: Negri bodies (eosinophilic cytoplasmic inclusions) in neurons; almost universally fatal once symptomatic. HSV encephalitis: temporal lobe involvement on MRI; PCR is gold standard; acyclovir should be started empirically if suspected",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "SSP",
+      "meaning": "Sistem Saraf Pusat"
+    },
+    {
+      "term": "PAM",
+      "meaning": "Primary Amebic Meningoencephalitis (Naegleria)"
+    },
+    {
+      "term": "Negri bodies",
+      "meaning": "Bodi inkusi eosinofilik sitoplasma neuron khas rabies"
+    },
+    {
+      "term": "Fokus Rich",
+      "meaning": "Lesion TB subependymal yang dapat rupture menyebabkan meningitis TB"
+    }
+  ],
+  "tables": [],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Assess immune status",
+      "explanation": "HIV status changes differential dramatically"
+    },
+    {
+      "step": 2,
+      "title": "Identify likely pathogen category",
+      "explanation": "Bacterial: acute, purulent CSF; Viral: lymphocytic pleocytosis; Fungal: subacute, immunocompromised; Parasitic: travel/exposure history"
+    },
+    {
+      "step": 3,
+      "title": "Confirm with specific testing",
+      "explanation": "Gram stain, culture, PCR, antigen detection, serology"
+    }
+  ],
+  "differential_notes": [],
+  "treatment_notes": [],
+  "red_flags": [
+    "Naegleria fowleri infection (rapidly fatal)",
+    "Rabies (universally fatal once symptomatic)",
+    "HSV encephalitis (requires immediate acyclovir)"
+  ],
+  "extraction_notes": [
+    "Lecturer identified as Mirna Marhami Iskandar",
+    "Well-organized pathogen-by-pathogen structure",
+    "Multiple tables preserved from source"
+  ],
+  "confidence_summary": "high",
+  "qc_flags": []
+}

@@ -1,0 +1,359 @@
+{
+  "id": "lecture_6e_patofisiologi_stroke_015",
+  "batch_id": "batch_1_6e",
+  "title": "Patofisiologi Stroke",
+  "subtitle": "Kimi rerun: neuro_vascular",
+  "source_pdf": "Patofisiologi stroke_gizi.docx",
+  "source_docx": "Patofisiologi stroke_gizi.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah tentang patofisiologi stroke yang mencakup definisi, klasifikasi (iskemik vs hemoragik), faktor risiko (dapat dimodifikasi dan tidak dapat dimodifikasi), patofisiologi iskemia serebral (kaskade iskemik, eksitotoksisitas, konsep penumbra), neuroproteksi, prinsip manajemen akut, serta aspek nutrisi dalam perawatan stroke. Menyertakan kaskade iskemik dari oklusi pembuluh darah hingga kematian neuron dan konsep penumbra iskemik sebagai target intervensi akut.",
+    "Stroke is defined as rapidly developing clinical signs of focal cerebral disturbance lasting >24 hours or leading to death",
+    "Ischemic stroke (85%) results from thrombosis, embolism, or systemic hypoperfusion; Hemorrhagic stroke (15%) from intracerebral hemorrhage or SAH",
+    "Ischemic cascade: energy failure -> ion pump dysfunction -> glutamate release -> calcium influx -> free radical production -> inflammation -> cell death"
+  ],
+  "exam_focus": [
+    "Ischemic cascade steps",
+    "Penumbra concept and therapeutic window",
+    "tPA eligibility and contraindications",
+    "Time windows for IV thrombolysis and mechanical thrombectomy",
+    "DASH diet for stroke prevention"
+  ],
+  "learning_goals": [
+    "Memahami kaskade iskemik dari oklusi pembuluh darah hingga kematian neuron",
+    "Mendefinisikan penumbra iskemik dan signifikansi klinisnya",
+    "Mengidentifikasi faktor risiko stroke yang dapat dan tidak dapat dimodifikasi",
+    "Menerapkan prinsip manajemen stroke akut termasuk jendela waktu"
+  ],
+  "key_points": [
+    "Stroke is defined as rapidly developing clinical signs of focal cerebral disturbance lasting >24 hours or leading to death",
+    "Ischemic stroke (85%) results from thrombosis, embolism, or systemic hypoperfusion; Hemorrhagic stroke (15%) from intracerebral hemorrhage or SAH",
+    "Ischemic cascade: energy failure -> ion pump dysfunction -> glutamate release -> calcium influx -> free radical production -> inflammation -> cell death",
+    "Penumbra = tissue at risk around the infarct core; salvageable with prompt reperfusion",
+    "Golden hour: treatment within 4.5 hours for IV thrombolysis, up to 24 hours for selected mechanical thrombectomy"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Definisi dan Klasifikasi Stroke",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "WHO definition: Rapidly developing clinical signs of focal (or global) disturbance of cerebral function, lasting more than 24 hours or leading to death, with no apparent cause other than of vascular origin. Stroke is classified into: ISCHEMIC STROKE (85% of all strokes) - from thrombosis, embolism, or systemic hypoperfusion; HEMORRHAGIC STROKE (15%) - intracerebral hemorrhage (ICH) or subarachnoid hemorrhage (SAH). TRANSIENT ISCHEMIC ATTACK (TIA): focal neurological deficit resolving within 24 hours (traditional) or without tissue infarction on imaging (tissue-based definition).",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "WHO definition: Rapidly developing clinical signs of focal (or global) disturbance of cerebral function, lasting more than 24 hours or leading to death, with no apparent cause other than of vascular origin. Stroke is classified into: ISCHEMIC STROKE (85% of all strokes) - from thrombosis, embolism, or systemic hypoperfusion; HEMORRHAGIC STROKE (15%) - intracerebral hemorrhage (ICH) or subarachnoid hemorrhage (SAH). TRANSIENT ISCHEMIC ATTACK (TIA): focal neurological deficit resolving within 24 hours (traditional) or without tissue infarction on imaging (tissue-based definition).",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Faktor Risiko",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "NON-MODIFIABLE: Age (risk doubles each decade after 55), sex (men > women, but women have higher mortality), race (African Americans, Hispanics higher risk), family history, prior stroke/TIA. MODIFIABLE: Hypertension (most important modifiable risk factor), diabetes mellitus, atrial fibrillation, smoking, dyslipidemia, obesity, physical inactivity, excessive alcohol, obstructive sleep apnea, metabolic syndrome. NUTRITIONAL RISK FACTORS: High sodium intake, low potassium intake, high saturated fat, low fruit/vegetable consumption, obesity (BMI >25).",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hypertension is the single most important modifiable risk factor for both ischemic and hemorrhagic stroke",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "NON-MODIFIABLE: Age (risk doubles each decade after 55), sex (men > women, but women have higher mortality), race (African Americans, Hispanics higher risk), family history, prior stroke/TIA. MODIFIABLE: Hypertension (most important modifiable risk factor), diabetes mellitus, atrial fibrillation, smoking, dyslipidemia, obesity, physical inactivity, excessive alcohol, obstructive sleep apnea, metabolic syndrome. NUTRITIONAL RISK FACTORS: High sodium intake, low potassium intake, high saturated fat, low fruit/vegetable consumption, obesity (BMI >25). Hypertension is the single most important modifiable risk factor for both ischemic and hemorrhagic stroke",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Kaskade Iskemik dan Konsep Penumbra",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "ISCHEMIC CASCADE: Within seconds of vessel occlusion, the ischemic cascade begins: (1) ENERGY FAILURE - cessation of oxidative phosphorylation, ATP depletion, ion pump dysfunction (Na+/K+-ATPase, Ca2+-ATPase); (2) MEMBRANE DEPOLARIZATION - influx of Na+, Cl-, H2O (cytotoxic edema), efflux of K+; (3) EXCITOTOXICITY - massive release of glutamate into synaptic cleft, overstimulation of NMDA and AMPA receptors, excessive Ca2+ influx; (4) CALCIUM OVERLOAD - activates lipases, proteases, nucleases, NO synthase, leading to free radical production; (5) FREE RADICAL FORMATION - reactive oxygen species (ROS) damage lipids, proteins, DNA; (6) INFLAMMATION - leukocyte infiltration, microglial activation, cytokine release, BBB disruption (vasogenic edema); (7) CELL DEATH - necrosis in the core, apoptosis in the penumbra. PENUMBRA CONCEPT: The ischemic penumbra is tissue surrounding the irreversibly damaged infarct core that is hemodynamically compromised but still viable. Cerebral blood flow (CBF) in the penumbra is approximately 10-20 mL/100g/min (normal 50-60). Penumbra tissue can be salvaged with prompt reperfusion. The goal of acute stroke therapy is to save the penumbra. Penumbra exists for a limited time window - typically 3-6 hours, extendable to 24 hours in selected cases with advanced imaging.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "1. Gagal energi: deplesi ATP",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "2. Depolarisasi membran: edema sitotoksik",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "3. Eksitotoksisitas: pelepasan glutamat berlebihan",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "4. Overload kalsium: aktivasi enzim degradatif",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "5. Formasi radikal bebas: ROS",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "6. Inflamasi: infiltrasi leukosit",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "7. Kematian sel: nekrosis (inti), apoptosis (penumbra)",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penumbra = salvageable tissue around infarct core; the therapeutic target in acute stroke; time-sensitive",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "ISCHEMIC CASCADE: Within seconds of vessel occlusion, the ischemic cascade begins: (1) ENERGY FAILURE - cessation of oxidative phosphorylation, ATP depletion, ion pump dysfunction (Na+/K+-ATPase, Ca2+-ATPase); (2) MEMBRANE DEPOLARIZATION - influx of Na+, Cl-, H2O (cytotoxic edema), efflux of K+; (3) EXCITOTOXICITY - massive release of glutamate into synaptic cleft, overstimulation of NMDA and AMPA receptors, excessive Ca2+ influx; (4) CALCIUM OVERLOAD - activates lipases, proteases, nucleases, NO synthase, leading to free radical production; (5) FREE RADICAL FORMATION - reactive oxygen species (ROS) damage lipids, proteins, DNA; (6) INFLAMMATION - leukocyte infiltration, microglial activation, cytokine release, BBB disruption (vasogenic edema); (7) CELL DEATH - necrosis in the core, apoptosis in the penumbra. PENUMBRA CONCEPT: The ischemic penumbra is tissue surrounding the irreversibly damaged infarct core that is hemodynamically compromised but still viable. Cerebral blood flow (CBF) in the penumbra is approximately 10-20 mL/100g/min (normal 50-60). Penumbra tissue can be salvaged with prompt reperfusion. The goal of acute stroke therapy is to save the penumbra. Penumbra exists for a limited time window - typically 3-6 hours, extendable to 24 hours in selected cases with advanced imaging. 1. Gagal energi: deplesi ATP",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Neuroproteksi dan Manajemen Akut",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "NEUROPROTECTION: Strategies to protect the ischemic penumbra. Despite many candidates in research, no neuroprotective agent has proven effective in clinical trials. Hypothermia shows promise. Maintaining physiological parameters (normoglycemia, normothermia, normotension) is essential. ACUTE MANAGEMENT: TIME IS BRAIN. IV thrombolysis with alteplase (tPA) within 4.5 hours of symptom onset (inclusion: age >=18, measurable deficit, CT excludes hemorrhage; exclusion: recent surgery, active bleeding, INR>1.7, platelets<100k, prior ICH, severe stroke NIHSS>25). Mechanical thrombectomy for large vessel occlusion (ICA, proximal MCA) up to 24 hours in selected patients (DAWN, DEFUSE 3 trials). Blood pressure management: permissive hypertension in ischemic stroke (up to 220/120) unless thrombolysis candidate (lower to <185/110). Supportive care: airway, oxygenation, hydration, temperature control, glycemic control.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "'Time is brain' - every minute of large vessel occlusion costs 1.9 million neurons",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "NEUROPROTECTION: Strategies to protect the ischemic penumbra. Despite many candidates in research, no neuroprotective agent has proven effective in clinical trials. Hypothermia shows promise. Maintaining physiological parameters (normoglycemia, normothermia, normotension) is essential. ACUTE MANAGEMENT: TIME IS BRAIN. IV thrombolysis with alteplase (tPA) within 4.5 hours of symptom onset (inclusion: age >=18, measurable deficit, CT excludes hemorrhage; exclusion: recent surgery, active bleeding, INR>1.7, platelets<100k, prior ICH, severe stroke NIHSS>25). Mechanical thrombectomy for large vessel occlusion (ICA, proximal MCA) up to 24 hours in selected patients (DAWN, DEFUSE 3 trials). Blood pressure management: permissive hypertension in ischemic stroke (up to 220/120) unless thrombolysis candidate (lower to <185/110). Supportive care: airway, oxygenation, hydration, temperature control, glycemic control. 'Time is brain' - every minute of large vessel occlusion costs 1.9 million neurons",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Aspek Gizi dalam Stroke",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "NUTRITIONAL MANAGEMENT: Dysphagia screening is mandatory before any oral intake. If unsafe swallow: NGT feeding within 24-48 hours. Target 25-30 kcal/kg/day and 1-1.5 g protein/kg/day. Monitor for aspiration. PREVENTION: DASH diet (Dietary Approaches to Stop Hypertension) - rich in fruits, vegetables, whole grains, low-fat dairy, lean protein; low in sodium, saturated fat, added sugars. Mediterranean diet also shows protective effect. Key nutrients: potassium, magnesium, omega-3 fatty acids, folate. Weight management: BMI 18.5-24.9 kg/m2. Limit sodium to <2.3 g/day (ideally <1.5 g/day for hypertensives).",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Screening disfagia wajib sebelum asupan oral",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "NGT jika tidak aman menelan: 25-30 kkal/kgBB/hari",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Diet DASH: buah, sayur, gandum utuh, rendah natrium",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "BMI target: 18.5-24.9 kg/m2",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Natrium: <2.3 g/hari",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "NUTRITIONAL MANAGEMENT: Dysphagia screening is mandatory before any oral intake. If unsafe swallow: NGT feeding within 24-48 hours. Target 25-30 kcal/kg/day and 1-1.5 g protein/kg/day. Monitor for aspiration. PREVENTION: DASH diet (Dietary Approaches to Stop Hypertension) - rich in fruits, vegetables, whole grains, low-fat dairy, lean protein; low in sodium, saturated fat, added sugars. Mediterranean diet also shows protective effect. Key nutrients: potassium, magnesium, omega-3 fatty acids, folate. Weight management: BMI 18.5-24.9 kg/m2. Limit sodium to <2.3 g/day (ideally <1.5 g/day for hypertensives). Screening disfagia wajib sebelum asupan oral",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Penumbra",
+      "meaning": "Jaringan iskemik yang masih dapat diselamatkan di sekitar infarkt inti"
+    },
+    {
+      "term": "Eksitotoksisitas",
+      "meaning": "Kerusakan neuron akibat over-stimulasi glutamat dan influx kalsium berlebihan"
+    },
+    {
+      "term": "tPA",
+      "meaning": "Tissue Plasminogen Activator, agen trombolitik"
+    },
+    {
+      "term": "CBF",
+      "meaning": "Cerebral Blood Flow"
+    }
+  ],
+  "tables": [],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Confirm stroke symptoms and onset time",
+      "explanation": "Last known well time is critical for treatment eligibility"
+    },
+    {
+      "step": 2,
+      "title": "Non-contrast CT to exclude hemorrhage",
+      "explanation": "Differentiates ischemic from hemorrhagic stroke"
+    },
+    {
+      "step": 3,
+      "title": "Assess for thrombolysis/thrombectomy eligibility",
+      "explanation": "4.5h for IV tPA, up to 24h for mechanical thrombectomy (selected)"
+    },
+    {
+      "step": 4,
+      "title": "Initiate supportive care and secondary prevention",
+      "explanation": "BP, glucose, temperature management; antiplatelet, statin"
+    }
+  ],
+  "differential_notes": [
+    {
+      "item": "Ischemic vs hemorrhagic stroke",
+      "how_to_separate": "CT: ischemic = hypodense (may be normal early), hemorrhagic = hyperdense"
+    },
+    {
+      "item": "TIA vs minor stroke",
+      "how_to_separate": "TIA: symptoms resolve, no infarct on MRI; Minor stroke: persistent symptoms or DWI positive"
+    },
+    {
+      "item": "Seizure with Todd paralysis vs stroke",
+      "how_to_separate": "Seizure history, positical confusion, symptoms resolve within 24-48h"
+    }
+  ],
+  "treatment_notes": [
+    {
+      "phase": "hyperacute",
+      "content": "IV tPA <4.5h, mechanical thrombectomy <24h (selected)"
+    },
+    {
+      "phase": "acute",
+      "content": "Supportive care, antiplatelet, BP management"
+    },
+    {
+      "phase": "secondary_prevention",
+      "content": "Antiplatelet, statin, BP control, lifestyle modification"
+    },
+    {
+      "phase": "nutrition",
+      "content": "Dysphagia screening, enteral feeding if needed, DASH diet"
+    }
+  ],
+  "red_flags": [
+    "Large vessel occlusion (hyperdense MCA sign)",
+    "Hemorrhagic transformation",
+    "Malignant cerebral edema",
+    "Seizure at onset"
+  ],
+  "extraction_notes": [
+    "Lecture combined stroke pathophysiology with nutritional aspects",
+    "Ischemic cascade described in detail with 7 steps",
+    "Penumbra concept well-explained with CBF values",
+    "Nutritional management included DASH diet recommendations"
+  ],
+  "confidence_summary": "high",
+  "qc_flags": []
+}

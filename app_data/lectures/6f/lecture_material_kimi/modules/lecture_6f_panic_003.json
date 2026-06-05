@@ -1,0 +1,741 @@
+{
+  "id": "lecture_6f_panic_003",
+  "batch_id": "batch_2_6f",
+  "title": "Gangguan Panik",
+  "subtitle": "Kimi rerun: psychiatry_anxiety_disorders",
+  "source_pdf": "09 dr.Susi - 2. Gangguan Panik (1).docx",
+  "source_docx": "09 dr.Susi - 2. Gangguan Panik (1).docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah tentang Gangguan Panik mencakup etimologi, definisi, epidemiologi (prevalensi seumur hidup 1,5-5%), etiologi (biologis, psikososial, genetik), ciri klinis (gejala kardiovaskular, respiratori, GI, SSP, dermatologi, urinari), kriteria diagnosis (DSM-5, PPDGJ-III ICD-10 F41.0), model perkembangan panik 4 tahap, diagnosis banding, serta pengobatan farmakologis dan psikologis.",
+    "Term 'panic' originates from Pan, Greek half-ghost god of mountains",
+    "First described by Sigmund Freud in 1895 in a case of agoraphobia",
+    "Lifetime prevalence 1.5-5%; female:male ratio 2-3:1; peak onset around age 25"
+  ],
+  "exam_focus": [
+    "Etimologi: Pan (dewa Yunani)",
+    "10-minute peak rule",
+    "Prevalensi lifetime 1.5-5%, F:M = 2-3:1",
+    "PPDGJ criteria: minimal 3-4 attacks in ~1 month + anxiety-free periods",
+    "Differentiator from GAM: discrete attacks vs continuous anxiety",
+    "Agoraphobia definition and examples",
+    "CBT as primary psychotherapy",
+    "Comorbidity: 80-90% have comorbid psychiatric disorders",
+    "Good prognosis despite chronic course"
+  ],
+  "learning_goals": [
+    "Define panic disorder and distinguish it from GAM",
+    "Describe the epidemiology including female predominance and peak onset age",
+    "Explain the biological, psychosocial, and genetic etiological factors",
+    "Recognize the clinical presentation of panic attacks with autonomic dominance",
+    "Apply PPDGJ diagnostic criteria for panic disorder",
+    "Identify common comorbidities (GAM, depression, OCD, social phobia, medical conditions)",
+    "Describe pharmacologic and psychotherapeutic treatment approaches",
+    "State the prognosis of panic disorder"
+  ],
+  "key_points": [
+    "Term 'panic' originates from Pan, Greek half-ghost god of mountains",
+    "First described by Sigmund Freud in 1895 in a case of agoraphobia",
+    "Lifetime prevalence 1.5-5%; female:male ratio 2-3:1; peak onset around age 25",
+    "Panic attack peaks within 10 minutes with strong autonomic symptoms, especially cardiovascular and respiratory",
+    "80-90% comorbid with other psychiatric disorders (GAM, depression, OCD, social phobia)",
+    "Agoraphobia = fear of places where escape might be difficult or embarrassing",
+    "Diagnosis PPDGJ: multiple severe anxiety attacks over ~1 month (>=3-4 attacks), with anxiety-free periods between attacks",
+    "CBT is the primary recommended psychotherapy; targets dysfunctional thoughts about physical symptoms",
+    "Prognosis is good despite chronic course"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Pendahuluan dan Definisi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Istilah 'panik' berasal dari kata Pan, dewa Yunani yang setengah hantu, tinggal di pegunungan dan hutan, dengan perilaku yang sulit diduga. Tahun 1895, deskripsi gangguan panik pertama kali dikemukakan oleh Sigmund Freud dalam kasus agorafobia.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gangguan panik ditandai dengan adanya serangan panik yang tidak diduga dan spontan, dengan jumlah serangan bervariasi dari sepanjang hari sampai minimal beberapa serangan selama satu tahun. Sering disertai agorafobia (rasa takut di tempat umum), terutama di tempat yang sulit untuk keluar dengan cepat saat terjadi serangan panik.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Serangan panik = ketakutan akan timbulnya serangan serta diyakini akan segera terjadi",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ada 2 subtipa: gangguan panik dengan agorafobia dan tanpa agorafobia",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Istilah 'panik' berasal dari kata Pan, dewa Yunani yang setengah hantu, tinggal di pegunungan dan hutan, dengan perilaku yang sulit diduga. Tahun 1895, deskripsi gangguan panik pertama kali dikemukakan oleh Sigmund Freud dalam kasus agorafobia. Gangguan panik ditandai dengan adanya serangan panik yang tidak diduga dan spontan, dengan jumlah serangan bervariasi dari sepanjang hari sampai minimal beberapa serangan selama satu tahun. Sering disertai agorafobia (rasa takut di tempat umum), terutama di tempat yang sulit untuk keluar dengan cepat saat terjadi serangan panik.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Epidemiologi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Prevalensi seumur hidup: 1.5% - 5%",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Untuk serangan panik saja: 3-5.6%",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perempuan : Laki-laki = 1 : 2-3 (perempuan lebih banyak karena pengaruh hormonal)",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Biasanya timbul pada usia dewasa muda (sekitar usia 25 tahun)",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dapat terjadi pada anak dan remaja namun masih kurang terdiagnosis pada golongan usia ini",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Faktor sosial: riwayat perceraian, perpisahan yang baru terjadi",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Risiko lebih tinggi mengalami gangguan kardiovaskular, respirasi, gastrointestinal, dan problem medik lainnya dibandingkan populasi umum",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Prevalensi seumur hidup: 1.5% - 5% Untuk serangan panik saja: 3-5.6%",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Etiologi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Faktor Biologik: Berhubungan dengan abnormalitas struktur dan fungsi otak. Neurotransmitter yang terganggu fungsinya: serotonin, GABA, dan norepinefrin.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Faktor Psikososial: Hubungan dengan orang tua yang tidak mendukung; rasa marah yang sulit dikendalikan; menghindari perpisahan yang terlalu menyakitkan.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Faktor Genetik: Pada keturunan pertama penderita gangguan panik dengan agorafobia mempunyai risiko 4-8 kali mendapatkan serangan yang sama.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Trias etiologi: biologis (disregulasi serotonin, GABA, norepinefrin), psikososial (hubungan orang tua, kontrol amarah), genetik (risiko 4-8x pada kerabat derajat pertama).",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Faktor Biologik: Berhubungan dengan abnormalitas struktur dan fungsi otak. Neurotransmitter yang terganggu fungsinya: serotonin, GABA, dan norepinefrin. Faktor Psikososial: Hubungan dengan orang tua yang tidak mendukung; rasa marah yang sulit dikendalikan; menghindari perpisahan yang terlalu menyakitkan.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Tanda dan Gejala",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Serangan panik berulang, terjadi secara spontan dan tidak terduga, disertai gejala otonomik yang kuat terutama kardiovaskuler dan sistem pernafasan (lebih dominan pada kardiovaskuler dan respirasi). Serangan sering dimulai selama 10 menit dan meningkat secara cepat.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Berkeringat",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Nyeri dada",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Takikardi, palpitasi",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Rasa takut hebat akan ancaman kematian atau bencana",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pasien bingung dan sulit konsentrasi",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kesulitan bicara seperti gagap (khas saat panik)",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gangguan memori",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Aturan puncak 10 menit: serangan panik biasanya mencapai puncak dalam 10 menit. Gejala autonomik kardiovaskular dan respiratori mendominasi. Pasien sering datang ke IGD dengan takut serangan jantung.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Serangan panik berulang, terjadi secara spontan dan tidak terduga, disertai gejala otonomik yang kuat terutama kardiovaskuler dan sistem pernafasan (lebih dominan pada kardiovaskuler dan respirasi). Serangan sering dimulai selama 10 menit dan meningkat secara cepat. Berkeringat",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Komorbiditas",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "80-90% gangguan panik ada bersamaan dengan gangguan jiwa lain: GAM, depresi mayor, OCD, sosial fobia",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bisa berdiri sendiri atau bersamaan; kalau keduanya menonjol, kedua diagnosis ditegakkan",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Problem medis: asma, COPD, IBS, hipertensi, disfungsi tiroid (hipo/hiper), gangguan terkait zat",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ibu hamil dengan gangguan panik sering mengalami BBLR dan mengganggu pertumbuhan janin",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kompetensi untuk menegakkan diagnosis tepat akan mempertajam target terapi dan meningkatkan kualitas hidup",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "80-90% gangguan panik ada bersamaan dengan gangguan jiwa lain: GAM, depresi mayor, OCD, sosial fobia Bisa berdiri sendiri atau bersamaan; kalau keduanya menonjol, kedua diagnosis ditegakkan",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s06",
+      "title": "Agorafobia",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Agorafobia adalah rasa tidak nyaman di tempat atau situasi yang akan sulit atau memalukan jika meloloskan diri, atau pertolongan mungkin tidak akan diperoleh, seperti berada di dalam kerumunan atau antrian, tempat umum, sendirian jauh dari rumah, bepergian dengan bis/kereta/mobil, atau dalam lift. Pasien merasa akan mati di dalam lift dll - pengalaman traumatik.",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Agorafobia adalah rasa tidak nyaman di tempat atau situasi yang akan sulit atau memalukan jika meloloskan diri, atau pertolongan mungkin tidak akan diperoleh, seperti berada di dalam kerumunan atau antrian, tempat umum, sendirian jauh dari rumah, bepergian dengan bis/kereta/mobil, atau dalam lift. Pasien merasa akan mati di dalam lift dll - pengalaman traumatik.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s07",
+      "title": "Kriteria Diagnostik PPDGJ",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Tiga kriteria utama PPDGJ untuk gangguan panik:",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Adanya serangan panik yang tidak terduga dan spontan",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Adanya keadaan yang relatif bebas gejala ansietas dalam periode antara serangan-serangan panik",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak terbatas pada situasi yang telah diketahui atau yang dapat diduga sebelumnya (secara obyektif tidak ada bahaya)",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Untuk diagnosis pasti: beberapa kali serangan ansietas berat dalam masa kira-kira satu bulan (minimal 3-4 kali serangan)",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pembeda utama dari GAM: gangguan panik memiliki interval bebas ansietas antar serangan; GAM memiliki ansietas persisten yang berkelanjutan. PPDGJ mensyaratkan tanda objektif (takikardia, tremor, berkeringat).",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Tiga kriteria utama PPDGJ untuk gangguan panik: Adanya serangan panik yang tidak terduga dan spontan",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s08",
+      "title": "Penatalaksanaan",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Farmakologi: SSRI/SNRI, Trisiklik, Tetrasiklik, Benzodiazepin",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "SSRI = Selective Serotonin Reuptake Inhibitor",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "SNRI = Selective Norepinephrine Reuptake Inhibitor",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Psikoterapi utama: Cognitive Behavioural Therapy (CBT)",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terapi relaksasi",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terapi psikososial lain: terapi keluarga",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Farmakologi: SSRI/SNRI, Trisiklik, Tetrasiklik, Benzodiazepin SSRI = Selective Serotonin Reuptake Inhibitor",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s09",
+      "title": "CBT untuk Gangguan Panik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Psikoterapi utama yang direkomendasikan untuk penanganan gangguan panik adalah Cognitive Behavioural Therapy (CBT). CBT digunakan untuk mengatasi pikiran-pikiran disfungsional mengenai gejala fisik yang dialami dan sekaligus mengatasi perilaku menghindar.",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tujuan CBT: membantu pasien menghadapi gejala-gejala kecemasan tanpa mengalami serangan panik, dan mengubah pikiran disfungsional mengenai kecemasan menjadi pikiran bahwa kecemasan adalah respons normal ketika menghadapi ketidakpastian.",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Psikoterapi utama yang direkomendasikan untuk penanganan gangguan panik adalah Cognitive Behavioural Therapy (CBT). CBT digunakan untuk mengatasi pikiran-pikiran disfungsional mengenai gejala fisik yang dialami dan sekaligus mengatasi perilaku menghindar. Tujuan CBT: membantu pasien menghadapi gejala-gejala kecemasan tanpa mengalami serangan panik, dan mengubah pikiran disfungsional mengenai kecemasan menjadi pikiran bahwa kecemasan adalah respons normal ketika menghadapi ketidakpastian.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s10",
+      "title": "Tujuan dan Prognosis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Tujuan utama: menurunkan intensitas, frekuensi, dan durasi serangan panik; mengurangi perilaku menghindar; mencegah relapse; memperbaiki kualitas hidup",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tetap harus ada maintenance therapy",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Walaupun gangguan panik merupakan penyakit kronis, prognosis baik",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Tujuan utama: menurunkan intensitas, frekuensi, dan durasi serangan panik; mengurangi perilaku menghindar; mencegah relapse; memperbaiki kualitas hidup Tetap harus ada maintenance therapy",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Serangan panik",
+      "meaning": "Episode ketakutan hebat yang spontan dan tidak terduga dengan gejala otonomik kuat, memuncak dalam 10 menit"
+    },
+    {
+      "term": "Agorafobia",
+      "meaning": "Rasa takut berada di tempat atau situasi di mana meloloskan diri sulit atau memalukan"
+    },
+    {
+      "term": "Pikiran disfungsional",
+      "meaning": "Distorsi kognitif tentang gejala fisik yang memicu ansietas dalam gangguan panik"
+    },
+    {
+      "term": "Perilaku menghindar",
+      "meaning": "Perilaku penghindaran yang mempertahankan gangguan panik dengan mencegah ekstingsi respons ketakutan"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t01",
+      "title": "Gejala Serangan Panik",
+      "columns": [
+        "Sistem",
+        "Gejala"
+      ],
+      "rows": [
+        [
+          "Kardiovaskuler",
+          "Takikardi, palpitasi, nyeri dada"
+        ],
+        [
+          "Respiratori",
+          "Sesak napas, takipneu"
+        ],
+        [
+          "Neurologik",
+          "Bingung, sulit konsentrasi, pusing"
+        ],
+        [
+          "Verbal",
+          "Gagap, kesulitan bicara"
+        ],
+        [
+          "Psikis",
+          "Takut mati, takut kehilangan kontrol"
+        ],
+        [
+          "Otonom",
+          "Berkeringat"
+        ]
+      ]
+    },
+    {
+      "id": "t02",
+      "title": "Komorbiditas Gangguan Panik",
+      "columns": [
+        "Kategori",
+        "Gangguan/ Kondisi"
+      ],
+      "rows": [
+        [
+          "Psikiatri",
+          "GAM, Depresi Mayor, OCD, Sosial Fobia"
+        ],
+        [
+          "Medis",
+          "Asma, COPD, IBS, Hipertensi"
+        ],
+        [
+          "Endokrin",
+          "Disfungsi tiroid (hipo/hiper)"
+        ],
+        [
+          "Terkait zat",
+          "Gangguan terkait zat"
+        ],
+        [
+          "Obstetri",
+          "BBLR pada ibu hamil dengan panic disorder"
+        ]
+      ]
+    }
+  ],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Identifikasi serangan panik",
+      "explanation": "Serangan takut hebat yang spontan, tidak terduga, dengan gejala otonomik kuat, memuncak dalam 10 menit."
+    },
+    {
+      "step": 2,
+      "title": "Konfirmasi berulang",
+      "explanation": "Minimal 3-4 serangan dalam satu bulan."
+    },
+    {
+      "step": 3,
+      "title": "Verifikasi anxiety-free periods",
+      "explanation": "Ada periode relatif bebas gejala di antara serangan (pembeda dari GAM)."
+    },
+    {
+      "step": 4,
+      "title": "Eksklusi situasional",
+      "explanation": "Tidak terbatas pada situasi tertentu yang sudah diketahui (objektif tidak ada bahaya)."
+    },
+    {
+      "step": 5,
+      "title": "Tentukan presensi agorafobia",
+      "explanation": "Apakah ada penghindaran tempat/situasi karena takut kesulitan melarikan diri."
+    }
+  ],
+  "differential_notes": [
+    {
+      "item": "Gangguan panik vs GAM",
+      "how_to_separate": "Panik: serangan diskret dengan interval bebas ansietas; GAM: kecemasan berkelanjutan."
+    },
+    {
+      "item": "Gangguan panik vs Gangguan ansietas spesifik",
+      "how_to_separate": "Panik: serangan spontan yang tidak terduga; Fobia spesifik: dipicu oleh stimulus yang dapat diidentifikasi."
+    },
+    {
+      "item": "Gangguan panik vs Kondisi medis",
+      "how_to_separate": "Hipertiroidisme, feokromositoma, aritmia kardiovaskular dapat meniru panik; pemeriksaan diperlukan."
+    },
+    {
+      "item": "Gangguan panik vs Gangguan terkait zat",
+      "how_to_separate": "Kafein, stimulan, kanabis, penarikan alkohol dapat memicu gejala mirip panik."
+    }
+  ],
+  "treatment_notes": [
+    {
+      "phase": "farmakologi",
+      "content": "SSRI/SNRI (lini pertama), trisiklik, tetrasiklik, benzodiazepin. Pendekatan farmakoterapi serupa dengan GAM."
+    },
+    {
+      "phase": "psikoterapi",
+      "content": "CBT merupakan psikoterapi yang direkomendasikan utama. Menangani pikiran disfungsional tentang gejala fisik dan perilaku penghindaran. Juga meliputi latihan relaksasi, terapi keluarga, dan edukasi."
+    },
+    {
+      "phase": "maintenance",
+      "content": "Penting untuk mencegah relaps. Tujuan: mengurangi intensitas, frekuensi, durasi serangan; mengurangi perilaku penghindaran; memperbaiki fungsi; meminimalkan efek samping."
+    }
+  ],
+  "red_flags": [
+    "Ancaman bunuh diri",
+    "Agorafobia berat yang mengisolasi pasien",
+    "Presentation ke UGD dengan gejala mirip serangan jantung",
+    "Ko-morbiditas medis yang tidak terdeteksi (tiroid, jantung)",
+    "Penyalahgunaan alkohol/obat untuk self-medicate"
+  ],
+  "extraction_notes": [
+    "17-slide lecture by same lecturer (dr. Susiati) as GAM lecture.",
+    "Title slide contains lecturer name but no explicit date.",
+    "Lecturer annotations reveal clinical teaching emphasis throughout.",
+    "Panic symptom infographic present on slide 7.",
+    "Pharmacotherapy table less detailed than GAM lecture (general classes only)."
+  ],
+  "confidence_summary": "tinggi",
+  "qc_flags": []
+}

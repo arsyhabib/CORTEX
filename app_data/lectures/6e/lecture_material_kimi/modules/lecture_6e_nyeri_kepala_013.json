@@ -1,0 +1,287 @@
+{
+  "id": "lecture_6e_nyeri_kepala_013",
+  "batch_id": "batch_1_6e",
+  "title": "Nyeri Kepala",
+  "subtitle": "Kimi rerun: neuro_headache",
+  "source_pdf": "NYERI kepala 2.docx",
+  "source_docx": "NYERI kepala 2.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah tentang klasifikasi dan manajemen nyeri kepala yang mencakup nyeri kepala primer (migrain, tension-type, cluster), nyeri kepala sekunder (red flags), patofisiologi migrain (sistem trigeminovaskular, CGRP), terapi akut dan preventif, serta sindrom nyeri kepala spesifik. Menyertakan clinical pearls untuk membedakan nyeri kepala sekunder yang berbahaya dari nyeri kepala primer yang jinak.",
+    "SNOOP4 red flags for secondary headache: Systemic symptoms, Neurological signs, Onset sudden, Older age, Pattern change, Precipitated by exertion/cough, Positional, Progressive",
+    "Migraine pathophysiology involves trigeminovascular system activation and CGRP release",
+    "Acute migraine treatment: NSAIDs, triptans, antiemetics; Preventive: beta-blockers, CCBs, antiepileptics, CGRP antagonists"
+  ],
+  "exam_focus": [
+    "SNOOP4 red flags",
+    "ICHD-3 migraine criteria",
+    "Triptan contraindications",
+    "Preventive therapy indications and options",
+    "Thunderclap headache workup"
+  ],
+  "learning_goals": [
+    "Membedakan nyeri kepala primer dari sekunder menggunakan red flags",
+    "Mendiagnosis migrain dengan dan tanpa aura menggunakan kriteria ICHD",
+    "Menerapkan algoritma terapi akut dan preventif migrain",
+    "Mengenali thunderclap headache dan presentasi nyeri kepala gawat darurat lainnya"
+  ],
+  "key_points": [
+    "SNOOP4 red flags for secondary headache: Systemic symptoms, Neurological signs, Onset sudden, Older age, Pattern change, Precipitated by exertion/cough, Positional, Progressive",
+    "Migraine pathophysiology involves trigeminovascular system activation and CGRP release",
+    "Acute migraine treatment: NSAIDs, triptans, antiemetics; Preventive: beta-blockers, CCBs, antiepileptics, CGRP antagonists",
+    "Thunderclap headache = SAH until proven otherwise - requires immediate CT and LP"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Klasifikasi Nyeri Kepala",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Headaches are classified into primary headaches (migraine, tension-type, trigeminal autonomic cephalalgias, other primary headaches) and secondary headaches (symptom of another condition). The ICHD-3 (International Classification of Headache Disorders, 3rd edition) provides standardized diagnostic criteria.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Nyeri kepala primer: migrain, tension-type, cluster",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Nyeri kepala sekunder: gejala kondisi lain",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "ICHD-3 kriteria diagnosis",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Headaches are classified into primary headaches (migraine, tension-type, trigeminal autonomic cephalalgias, other primary headaches) and secondary headaches (symptom of another condition). The ICHD-3 (International Classification of Headache Disorders, 3rd edition) provides standardized diagnostic criteria. Nyeri kepala primer: migrain, tension-type, cluster",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Migrain",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Migraine is characterized by recurrent headache attacks lasting 4-72 hours, typically unilateral, pulsating, moderate to severe intensity, aggravated by routine physical activity, and associated with nausea and/or photophobia and phonophobia. MIGRAINE WITH AURA: Recurrent attacks with fully reversible focal neurological symptoms (visual, sensory, speech) that develop gradually over 5-20 minutes and last less than 60 minutes. Visual aura is most common (scintillating scotoma, fortification spectra). MIGRAINE WITHOUT AURA: Most common type (~70-80%). CHRONIC MIGRAINE: Headache on >=15 days/month for >3 months, with migraine features on >=8 days/month.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "P-O-U-N-D mnemonic for migraine: Pulsating, duration 4-72h, Unilateral, Nausea, Disabling",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Migraine is characterized by recurrent headache attacks lasting 4-72 hours, typically unilateral, pulsating, moderate to severe intensity, aggravated by routine physical activity, and associated with nausea and/or photophobia and phonophobia. MIGRAINE WITH AURA: Recurrent attacks with fully reversible focal neurological symptoms (visual, sensory, speech) that develop gradually over 5-20 minutes and last less than 60 minutes. Visual aura is most common (scintillating scotoma, fortification spectra). MIGRAINE WITHOUT AURA: Most common type (~70-80%). CHRONIC MIGRAINE: Headache on >=15 days/month for >3 months, with migraine features on >=8 days/month. P-O-U-N-D mnemonic for migraine: Pulsating, duration 4-72h, Unilateral, Nausea, Disabling",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Red Flags Nyeri Kepala Sekunder",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "The SNOOP4 mnemonic helps identify dangerous secondary headaches requiring urgent investigation. S - Systemic symptoms (fever, weight loss, malignancy); N - Neurological signs or symptoms (focal deficit, seizure, papilledema); O - Onset sudden (thunderclap headache - SAH until proven otherwise); O - Older age (>50, especially with temporal artery tenderness - consider giant cell arteritis); P - Pattern change (progressive, different from usual); P - Precipitated by exertion/cough/sex; P - Positional (worse upright suggests CSF leak, worse supine suggests raised ICP); P - Progressive (worsening frequency/severity).",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Thunderclap headache = SAH until proven otherwise - immediate CT non-contrast, if negative consider LP for xanthochromia",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "The SNOOP4 mnemonic helps identify dangerous secondary headaches requiring urgent investigation. S - Systemic symptoms (fever, weight loss, malignancy); N - Neurological signs or symptoms (focal deficit, seizure, papilledema); O - Onset sudden (thunderclap headache - SAH until proven otherwise); O - Older age (>50, especially with temporal artery tenderness - consider giant cell arteritis); P - Pattern change (progressive, different from usual); P - Precipitated by exertion/cough/sex; P - Positional (worse upright suggests CSF leak, worse supine suggests raised ICP); P - Progressive (worsening frequency/severity). Thunderclap headache = SAH until proven otherwise - immediate CT non-contrast, if negative consider LP for xanthochromia",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Patofisiologi dan Terapi Akut Migrain",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "PATHOPHYSIOLOGY: The trigeminovascular system is central to migraine pathophysiology. Activation of trigeminal nerve fibers innervating meningeal blood vessels releases CGRP (calcitonin gene-related peptide), substance P, and neurokinin A, causing neurogenic inflammation, vasodilation, and pain signal transmission. The brainstem (periaqueductal gray, locus coeruleus) and hypothalamus play modulatory roles. Cortical spreading depression (CSD) is the substrate for migraine aura.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "ACUTE TREATMENT: Step 1 - NSAIDs/acetaminophen (mild attacks). Step 2 - Triptans (sumatriptan, rizatriptan) - 5-HT1B/1D agonists, first-line for moderate-severe attacks, contraindicated in cardiovascular disease. Step 3 - Anti-emetics (metoclopramide, prochlorperazine) for nausea and enhancing absorption. Step 4 - Rescue medications (dexamethasone to prevent recurrence). ER protocol: IV metoclopramide + fluids.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Triptans are contraindicated in cardiovascular disease, hemiplegic migraine, and basilar migraine",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "PATHOPHYSIOLOGY: The trigeminovascular system is central to migraine pathophysiology. Activation of trigeminal nerve fibers innervating meningeal blood vessels releases CGRP (calcitonin gene-related peptide), substance P, and neurokinin A, causing neurogenic inflammation, vasodilation, and pain signal transmission. The brainstem (periaqueductal gray, locus coeruleus) and hypothalamus play modulatory roles. Cortical spreading depression (CSD) is the substrate for migraine aura. ACUTE TREATMENT: Step 1 - NSAIDs/acetaminophen (mild attacks). Step 2 - Triptans (sumatriptan, rizatriptan) - 5-HT1B/1D agonists, first-line for moderate-severe attacks, contraindicated in cardiovascular disease. Step 3 - Anti-emetics (metoclopramide, prochlorperazine) for nausea and enhancing absorption. Step 4 - Rescue medications (dexamethasone to prevent recurrence). ER protocol: IV metoclopramide + fluids.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Terapi Preventif Migrain",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "INDICATIONS: >=4 migraine days/month, significant disability, frequent use of acute medications (>2 days/week), failure of acute treatment. OPTIONS: Beta-blockers (propranolol, metoprolol); CCBs (flunarizine); Antiepileptics (topiramate, valproate); Tricyclics (amitriptyline); CGRP monoclonal antibodies (erenumab, fremanezumab); Oral CGRP antagonists (rimegepant, atogepant); OnabotulinumtoxinA for chronic migraine.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "INDICATIONS: >=4 migraine days/month, significant disability, frequent use of acute medications (>2 days/week), failure of acute treatment. OPTIONS: Beta-blockers (propranolol, metoprolol); CCBs (flunarizine); Antiepileptics (topiramate, valproate); Tricyclics (amitriptyline); CGRP monoclonal antibodies (erenumab, fremanezumab); Oral CGRP antagonists (rimegepant, atogepant); OnabotulinumtoxinA for chronic migraine.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "CGRP",
+      "meaning": "Calcitonin Gene-Related Peptide, mediator utama migrain"
+    },
+    {
+      "term": "CSD",
+      "meaning": "Cortical Spreading Depression, dasar aura migrain"
+    },
+    {
+      "term": "Thunderclap headache",
+      "meaning": "Nyeri kepala onset mendadak yang sangat berat"
+    },
+    {
+      "term": "Xanthochromia",
+      "meaning": "Warna kuning CSF akibat degradasi hemoglobin, tanda SAH"
+    }
+  ],
+  "tables": [],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Screen for red flags using SNOOP4",
+      "explanation": "Any red flag requires urgent investigation"
+    },
+    {
+      "step": 2,
+      "title": "Classify as primary or secondary",
+      "explanation": "Secondary: red flags, abnormal exam; Primary: no red flags, normal exam"
+    },
+    {
+      "step": 3,
+      "title": "Apply ICHD-3 criteria for primary headaches",
+      "explanation": "Migraine: 4-72h, unilateral, pulsating, nausea/photo-phonophobia"
+    },
+    {
+      "step": 4,
+      "title": "Determine need for preventive therapy",
+      "explanation": ">=4 days/month, disability, frequent acute medication use"
+    }
+  ],
+  "differential_notes": [
+    {
+      "item": "Thunderclap headache",
+      "how_to_separate": "Sudden onset 'worst headache of life' - SAH, dissection, pituitary apoplexy; requires emergent CT"
+    },
+    {
+      "item": "Cluster headache vs migraine",
+      "how_to_separate": "Cluster: unilateral orbital, 15-180 min, autonomic symptoms, restless; Migraine: 4-72h, nausea, photophobia, relief with rest"
+    },
+    {
+      "item": "Tension-type vs migraine",
+      "how_to_separate": "Tension: bilateral, pressing, mild-moderate, no nausea; Migraine: unilateral, pulsating, moderate-severe, with nausea"
+    }
+  ],
+  "treatment_notes": [
+    {
+      "phase": "acute_mild",
+      "content": "NSAIDs, acetaminophen"
+    },
+    {
+      "phase": "acute_moderate_severe",
+      "content": "Triptans, antiemetics"
+    },
+    {
+      "phase": "prevention",
+      "content": "Beta-blockers, topiramate, valproate, CGRP antagonists, onabotulinumtoxinA"
+    },
+    {
+      "phase": "emergency",
+      "content": "IV metoclopramide, fluids, dexamethasone"
+    }
+  ],
+  "red_flags": [
+    "Thunderclap headache (SAH until proven otherwise)",
+    "Fever with neck stiffness (meningitis)",
+    "Focal neurological deficits (stroke, tumor)",
+    "Papilledema (raised ICP)",
+    "Age >50 with new headache (giant cell arteritis)"
+  ],
+  "extraction_notes": [
+    "Well-structured headache lecture",
+    "SNOOP4 mnemonic well-preserved",
+    "ICHD-3 criteria for migraine preserved",
+    "Treatment tables with dosing preserved"
+  ],
+  "confidence_summary": "high",
+  "qc_flags": []
+}

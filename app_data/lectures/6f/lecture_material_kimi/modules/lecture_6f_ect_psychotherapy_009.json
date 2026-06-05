@@ -1,0 +1,1285 @@
+{
+  "id": "lecture_6f_ect_psychotherapy_009",
+  "batch_id": "batch_2_6f",
+  "title": "Electroconvulsive Therapy (ECT) dan Psikoterapi",
+  "subtitle": "Kimi rerun: psychiatry_treatment",
+  "source_pdf": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+  "source_docx": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah komprehensif 54 slide tentang Electroconvulsive Therapy (ECT) dan Psikoterapi oleh dr. Diva Mariska Tarastin. Bagian ECT mencakup sejarah, elektrofisiologi (impedansi, penghantaran muatan), indikasi (depresi berat, mania, psikosis, katatonia), kontraindikasi (tumor otak, stroke baru, peningkatan TIK), prosedur (anestesi, penempatan elektroda, dosis stimulus), efek samping (memori, kardiovaskular), dan parameter sesi. Bagian psikoterapi mencakup definisi, aliansi terapeutik, psikoanalisis, psikoterapi suportif, terapi perilaku dan kognitif, terapi keluarga.",
+    "ECT is the oldest psychiatric treatment still in use; most effective for major depression",
+    "Only 20% of electrical charge enters the skull due to high impedance; modern machines deliver constant current/voltage/energy",
+    "PET studies: seizure increases CBF, glucose, O2 use; post-ictal frontal hypometabolism correlates with response"
+  ],
+  "exam_focus": [
+    "ECT most effective for major depression",
+    "Only 20% charge enters skull due to impedance",
+    "PET: post-ictal frontal hypometabolism correlates with response",
+    "Bilateral vs unilateral trade-off: speed vs cognition",
+    "Treatment numbers by condition",
+    "Avoid lithium during ECT",
+    "Psychotherapy central elements: communication, trust, change",
+    "Supportive psychotherapy techniques: ventilation through hypnosis",
+    "YAVIS client type"
+  ],
+  "learning_goals": [
+    "Explain ECT history, mechanism, and electrophysiology",
+    "List indications and contraindications for ECT",
+    "Describe pre-procedure evaluation and preparation",
+    "Compare bilateral vs unilateral electrode placement",
+    "State treatment frequency and expected number of sessions by condition",
+    "Define psychotherapy and its central elements",
+    "Identify goals of psychotherapy",
+    "Describe types of psychotherapy: supportive, psychodynamic, CBT, humanistic",
+    "Explain therapy contract and factors supporting therapeutic change"
+  ],
+  "key_points": [
+    "ECT is the oldest psychiatric treatment still in use; most effective for major depression",
+    "Only 20% of electrical charge enters the skull due to high impedance; modern machines deliver constant current/voltage/energy",
+    "PET studies: seizure increases CBF, glucose, O2 use; post-ictal frontal hypometabolism correlates with response",
+    "Indications: major depression (most common), mania (equivalent to lithium), schizophrenia (acute positive symptoms), catatonia, special populations (pregnancy, elderly, children)",
+    "Contraindication: space-occupying lesion is relative (experienced practitioner only); lithium increases seizure threshold",
+    "Bilateral = faster therapeutic response; Unilateral = fewer cognitive side effects (non-dominant hemisphere)",
+    "Frequency: 2-3x/week; Depression: 6-12 sessions; Mania: 8-20; Schizophrenia: >15; Catatonia/Delirium: 1-4",
+    "Maximal improvement: when no improvement after 2 consecutive sessions; switch to bilateral/high-density if no response after 6-10",
+    "Psychotherapy = clinical methods and interpersonal attitudes to modify behavior, cognition, emotion",
+    "Supportive therapy: all doctors must be able to perform; includes ventilation, persuasion, suggestion, reassurance, guidance, counseling"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "ECT - Pengantar dan Sejarah",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "ECT adalah pengobatan tertua untuk penyakit jiwa yang masih dipakai. Penggunaan ECT telah berkurang sejak pertengahan abad ke-20, namun tetap digunakan dalam pengobatan modern karena dinilai paling efektif untuk mengobati depresi mayor dan kondisi psikiatrik yang mengancam jiwa. Variabel yang membatasi penggunaannya adalah efek samping kebingungan dan kehilangan memori, namun efek samping tersebut reversibel dan inovasi teknik ECT selama 20 tahun terakhir telah dapat mengurangi efek kognitif.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "ECT adalah pengobatan tertua untuk penyakit jiwa yang masih dipakai. Penggunaan ECT telah berkurang sejak pertengahan abad ke-20, namun tetap digunakan dalam pengobatan modern karena dinilai paling efektif untuk mengobati depresi mayor dan kondisi psikiatrik yang mengancam jiwa. Variabel yang membatasi penggunaannya adalah efek samping kebingungan dan kehilangan memori, namun efek samping tersebut reversibel dan inovasi teknik ECT selama 20 tahun terakhir telah dapat mengurangi efek kognitif.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Elektrofisiologi ECT",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Neuron melewati membran plasma dan mencetuskan potensial aksi. Kualitas elektrisitas yang digunakan pada ECT dapat dijelaskan dengan Hukum Ohm (E = IR, atau I = E/R), di mana E adalah tegangan, I adalah arus listrik, dan R adalah resistensi. Intensitas atau dosis elektrisitas dalam ECT diukur dalam muatan (miliamper-detik atau milicoulombs) atau energi (watt-detik atau joule).",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tengkorak memiliki impedansi tinggi, otak memiliki impedansi rendah",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hanya 20% dari muatan listrik yang masuk ke dalam tengkorak untuk merangsang neuron",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Jaringan scalp merupakan konduktor listrik yang lebih baik daripada tulang",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mesin ECT modern dapat diatur untuk memberikan elektrisitas di bawah kondisi arus listrik, tegangan, atau energi yang konstan",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Konsep kunci: Hanya 20% muatan yang menembus tengkorak karena ketidakcocokan impedansi antara kulit kepala (konduktor baik) dan tulang (konduktor buruk). Mesin ECT modern secara otomatis menyesuaikan hal ini.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Neuron melewati membran plasma dan mencetuskan potensial aksi. Kualitas elektrisitas yang digunakan pada ECT dapat dijelaskan dengan Hukum Ohm (E = IR, atau I = E/R), di mana E adalah tegangan, I adalah arus listrik, dan R adalah resistensi. Intensitas atau dosis elektrisitas dalam ECT diukur dalam muatan (miliamper-detik atau milicoulombs) atau energi (watt-detik atau joule). Tengkorak memiliki impedansi tinggi, otak memiliki impedansi rendah",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Mekanisme Kerja",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Penelitian PET (Positron Emission Tomography) menunjukkan bahwa selama kejang terjadi peningkatan cerebral blood flow, penggunaan glukosa dan oksigen, serta peningkatan permeabilitas sawar darah otak. Setelah kejang, aliran darah dan metabolisme otak menurun, terutama di lobus frontalis. Beberapa penelitian menemukan bahwa derajat penurunan metabolisme otak berkorelasi dengan respon terapi.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Penelitian PET (Positron Emission Tomography) menunjukkan bahwa selama kejang terjadi peningkatan cerebral blood flow, penggunaan glukosa dan oksigen, serta peningkatan permeabilitas sawar darah otak. Setelah kejang, aliran darah dan metabolisme otak menurun, terutama di lobus frontalis. Beberapa penelitian menemukan bahwa derajat penurunan metabolisme otak berkorelasi dengan respon terapi.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Indikasi ECT",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Gangguan Depresif Mayor: indikasi paling umum, tercepat dan paling efektif. Dipertimbangkan untuk pasien gagal medikasi, tidak toleran, gejala psikotik parah, ide bunuh diri/membunuh, agitasi atau stupor. >70% pasien non-respon antidepresan memiliki respon positif terhadap ECT.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Episode Manik: setara dengan litium untuk episode mania akut. Tidak digunakan pada pasien yang mendapat litium karena litium menurunkan ambang kejang.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Skizofrenia: efektif untuk gejala akut dengan gejala positif, katatonia, atau gejala afektif. Efektivitas setara dengan antipsikotik tetapi perbaikan lebih cepat. Tidak untuk skizofrenia kronik.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Indikasi lain: katatonia, psikosis episodik/atipikal, OCD, delirium, SNM, hipopituitarisme, gangguan kejang, penyakit Parkinson.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Populasi khusus: wanita hamil dengan depresi dan ide bunuh diri, lansia dengan penyakit medis, anak/remaja dengan depresi parah.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "ECT merupakan pengobatan PALING EFEKTIF dan PALING CEPAT untuk depresi mayor. JANGAN gunakan bersama litium (menurunkan ambang kejang). Untuk mania, setara dengan litium. Untuk psikosis >15 sesi. Untuk katatonia, 1-4 sesi seringkali cukup.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Gangguan Depresif Mayor: indikasi paling umum, tercepat dan paling efektif. Dipertimbangkan untuk pasien gagal medikasi, tidak toleran, gejala psikotik parah, ide bunuh diri/membunuh, agitasi atau stupor. >70% pasien non-respon antidepresan memiliki respon positif terhadap ECT. Episode Manik: setara dengan litium untuk episode mania akut. Tidak digunakan pada pasien yang mendapat litium karena litium menurunkan ambang kejang.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Petunjuk Klinis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Klinisi harus menjelaskan manfaat, efek samping, dan pendekatan alternatif",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Informed consent harus terdokumentasi dalam rekam medis",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penggunaan ECT involunter jarang dilakukan, hanya pada pasien mendesak dengan penanggung jawab yang menyetujui",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Evaluasi sebelum tindakan: pemeriksaan fisik dan neurologis standar, pemeriksaan pra-anestesi, riwayat medis lengkap",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Evaluasi laboratorium: kimia darah, urin lengkap, rontgen thorax, EKG",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pemeriksaan gigi disarankan untuk lansia dan perawatan gigi tidak baik",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ronsen spinal bila ada kelainan spinal",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "CT-Scan dan MRI bila dugaan kejang atau space-occupying lesion (SOL bukan kontraindikasi absolut, hanya untuk ahli)",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Klinisi harus menjelaskan manfaat, efek samping, dan pendekatan alternatif Informed consent harus terdokumentasi dalam rekam medis",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s06",
+      "title": "Persiapan Prosedur",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Pasien NPO: tidak boleh minum/makan apapun secara oral dalam 6 jam sebelum tindakan",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Cek gigi palsu atau benda asing di mulut",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pasang IV line",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pengganjal untuk digigit dimasukkan untuk melindungi gigi dan lidah selama kejang",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Oksigen 100% 5L/menit selama prosedur hingga pernapasan spontan kembali",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perlengkapan emergensi untuk jalan napas harus segera tersedia",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Pasien NPO: tidak boleh minum/makan apapun secara oral dalam 6 jam sebelum tindakan Cek gigi palsu atau benda asing di mulut",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s07",
+      "title": "Penempatan Elektroda",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Bilateral: respon terapeutik lebih cepat. Elektroda bifrontotemporal, pusat 1 inchi di atas titik tengah garis imajiner tragus ke kantus eksternal.",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Unilateral: efek samping kognitif lebih kecil. Elektroda di frontotemporal non-dominan (hampir selalu hemisfer kanan).",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hemisfer dominan: ditentukan dengan handedness dan footedness.",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Bilateral: respon terapeutik lebih cepat. Elektroda bifrontotemporal, pusat 1 inchi di atas titik tengah garis imajiner tragus ke kantus eksternal. Unilateral: efek samping kognitif lebih kecil. Elektroda di frontotemporal non-dominan (hampir selalu hemisfer kanan).",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s08",
+      "title": "Rangsangan Listrik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Mesin ECT modern menggunakan gelombang getar singkat (1-2 milidetik, 30-100 getaran/detik)",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ambang kejang dapat meningkat 25-200% selama pengobatan",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ambang kejang lebih tinggi pada laki-laki dan usia tua",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Teknik: mulai di bawah ambang kejang, tingkatkan hingga 100% (unilateral) atau 50% (bilateral)",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Mesin ECT modern menggunakan gelombang getar singkat (1-2 milidetik, 30-100 getaran/detik) Ambang kejang dapat meningkat 25-200% selama pengobatan",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s09",
+      "title": "Kejang dan Jadwal",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Fase tonik: ekstensi plantar, berakhir dalam 10-20 detik",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Fase klonik: kontraksi ritmik, frekuensi berkurang, akhirnya hilang",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Frekuensi: 2-3 kali seminggu (2x/minggu lebih sedikit gangguan memori)",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Depresi mayor: 6-12 tindakan; Mania: 8-20; Skizofrenia: >15; Katatonia/Delirium: 1-4",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tindakan dilanjutkan hingga respon terapeutik maksimal",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Titik perbaikan maksimal: ketika tidak membaik setelah 2 tindakan berurutan",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Jika tidak membaik setelah 6-10 sesi: switch ke bilateral/high-density (3x ambang kejang)",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "2x/minggu menyebabkan gangguan memori lebih sedikit dibanding 3x/minggu. Angka sesi kunci: depresi 6-12, mania 8-20, skizofrenia >15, katatonia 1-4. Beralih ke bilateral jika unilateral gagal setelah 6 sesi.",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Fase tonik: ekstensi plantar, berakhir dalam 10-20 detik Fase klonik: kontraksi ritmik, frekuensi berkurang, akhirnya hilang",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s10",
+      "title": "Definisi Psikoterapi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Norcross (1990): pengaplikasian metode klinis dan sikap interpersonal berdasarkan informasi yang cukup, dilakukan secara sengaja, berdasarkan prinsip psikologis yang mapan, untuk membantu orang memodifikasi perilaku, kognisi, emosi, dan karakteristik pribadi ke arah yang diinginkan.",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Watson & Morse: bentuk khusus interaksi antara pasien dan terapis, pasien memulai karena mencari bantuan psikologik, terapis menyusun interaksi menggunakan dasar psikologik untuk membantu pasien meningkatkan kemampuan mengendalikan diri dengan mengubah pikiran, perasaan, dan tindakan.",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Corsini: proses formal interaksi dua pihak untuk memperbaiki distress karena ketidakmampuan pada fungsi kognitif, afektif, atau perilaku, dilakukan oleh terapis profesional.",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Norcross (1990): pengaplikasian metode klinis dan sikap interpersonal berdasarkan informasi yang cukup, dilakukan secara sengaja, berdasarkan prinsip psikologis yang mapan, untuk membantu orang memodifikasi perilaku, kognisi, emosi, dan karakteristik pribadi ke arah yang diinginkan. Watson & Morse: bentuk khusus interaksi antara pasien dan terapis, pasien memulai karena mencari bantuan psikologik, terapis menyusun interaksi menggunakan dasar psikologik untuk membantu pasien meningkatkan kemampuan mengendalikan diri dengan mengubah pikiran, perasaan, dan tindakan.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s11",
+      "title": "Tujuan Psikoterapi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Memperkuat motivasi untuk melakukan hal-hal yang benar",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mengurangi tekanan emosi melalui katarsis",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Membantu klien mengembangkan potensinya",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mengubah kebiasaan",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mengubah struktur kognitif individu",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Meningkatkan pengetahuan dan kapasitas pengambilan keputusan",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Meningkatkan pengetahuan diri/insight (pencerahan)",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Meningkatkan hubungan interpersonal",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mengubah lingkungan sosial individu",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mengubah proses somatik untuk mengurangi rasa sakit dan meningkatkan kesadaran tubuh",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Memperkuat motivasi untuk melakukan hal-hal yang benar Mengurangi tekanan emosi melalui katarsis",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s12",
+      "title": "Aspek Sentral Psikoterapi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Komunikasi: pertukaran informasi verbal dan non-verbal (minimal 2 orang)",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hubungan yang dilandasi kepercayaan dan bersifat rahasia antara helper dan yang ditolong",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tujuannya untuk mengubah perasaan, pikiran, dan tindakan personal ke arah yang diinginkan",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dua individu saling terikat dalam interaksi rahasia",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Interaksi umumnya terbatas pada pertukaran verbal",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Interaksi berlangsung dalam jangka waktu lama",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hubungan bertujuan mengubah perilaku tertentu yang telah disetujui kedua pihak",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Komunikasi: pertukaran informasi verbal dan non-verbal (minimal 2 orang) Hubungan yang dilandasi kepercayaan dan bersifat rahasia antara helper dan yang ditolong",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s13",
+      "title": "Faktor Penunjang Perubahan",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Terapis menciptakan suasana kondusif",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ada penguatan terhadap klien untuk observasi diri",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perkembangan hubungan dua arah yang kuat",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kesempatan untuk katarsis",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penekanan pada komunikasi verbal",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pengurangan kecemasan pada klien",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Harapan terhadap perubahan: klien yakin, prosedur terapis, penekanan perubahan sejak awal",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Aliansi terapeutik merupakan prediktor terkuat hasil psikoterapi di semua modalitas. Faktor umum (aliansi, empati, ekspektasi) menyumbang ~30% varians hasil vs ~15% untuk teknik spesifik.",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Terapis menciptakan suasana kondusif Ada penguatan terhadap klien untuk observasi diri",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s14",
+      "title": "Kontrak Terapi dan Karakteristik Terapis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Kontrak terapi: tertulis atau lisan, berisi tanggung jawab, jadwal, frekuensi, biaya, harapan klien",
+          "provenance": {
+            "source_paragraph_index": 13,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Karakteristik terapis handal: obyektif, sensitif, sabar, kemampuan memahami perasaan, hangat, mampu berempati",
+          "provenance": {
+            "source_paragraph_index": 13,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tipe klien YAVIS: Youthful, Attractive, Verbal, Intelligent, Successful (prognosis lebih baik)",
+          "provenance": {
+            "source_paragraph_index": 13,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Kontrak terapi: tertulis atau lisan, berisi tanggung jawab, jadwal, frekuensi, biaya, harapan klien Karakteristik terapis handal: obyektif, sensitif, sabar, kemampuan memahami perasaan, hangat, mampu berempati",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s15",
+      "title": "Jenis-Jenis Psikoterapi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Terapi Psikodinamika: fokus pada insight, hubungan terapeutik, interpretasi",
+          "provenance": {
+            "source_paragraph_index": 14,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terapi Behavioral dan Kognitif Behavioral: fokus pada perubahan perilaku dan pikiran",
+          "provenance": {
+            "source_paragraph_index": 14,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terapi Humanistik: fokus pada pertumbuhan, self-actualization, kondisi klien",
+          "provenance": {
+            "source_paragraph_index": 14,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Psikoterapi Suportif: semua dokter harus dapat melakukan",
+          "provenance": {
+            "source_paragraph_index": 14,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Terapi Psikodinamika: fokus pada insight, hubungan terapeutik, interpretasi Terapi Behavioral dan Kognitif Behavioral: fokus pada perubahan perilaku dan pikiran",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s16",
+      "title": "Psikoterapi Suportif - Detail",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Psikoterapi suportif adalah bentuk terapi alternatif untuk menolong pasien beradaptasi dengan masalah dan mendapatkan kenyamanan hidup terhadap gangguan psikisnya. Semua dokter harus dapat melakukan psikoterapi suportif.",
+          "provenance": {
+            "source_paragraph_index": 15,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tujuan: meningkatkan fungsi psikologi dan sosial, menyokong harga diri, menyadari realitas dan keterbatasan, mencegah relaps, mencegah ketergantungan dokter",
+          "provenance": {
+            "source_paragraph_index": 15,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Indikasi: keadaan kritis dan kacau, penyakit berat/kronik dengan kerapuhan ego, defisit kognitif, toleransi kecemasan rendah, gangguan hubungan interpersonal, kelemahan kontrol impuls, intelegensia kurang",
+          "provenance": {
+            "source_paragraph_index": 15,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Psikoterapi suportif adalah bentuk terapi alternatif untuk menolong pasien beradaptasi dengan masalah dan mendapatkan kenyamanan hidup terhadap gangguan psikisnya. Semua dokter harus dapat melakukan psikoterapi suportif. Tujuan: meningkatkan fungsi psikologi dan sosial, menyokong harga diri, menyadari realitas dan keterbatasan, mencegah relaps, mencegah ketergantungan dokter",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s17",
+      "title": "Jenis-Jenis Psikoterapi Suportif",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Ventilasi: memberi kesempatan kepada pasien mengemukakan isi hatinya, hasilnya lega dan keluhan berkurang",
+          "provenance": {
+            "source_paragraph_index": 16,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Persuasi: menerangkan secara masuk akal tentang gejala penyakit yang timbul akibat cara berpikir, perasaan, dan sikap",
+          "provenance": {
+            "source_paragraph_index": 16,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sugesti: menanamkan kepercayaan pada pasien bahwa gejala akan hilang",
+          "provenance": {
+            "source_paragraph_index": 16,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Reassurance: meyakinkan kembali kemampuan pasien bahwa ia sanggup berfungsi secara adekuat",
+          "provenance": {
+            "source_paragraph_index": 16,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bimbingan: memberi nasehat praktis dan spesifik",
+          "provenance": {
+            "source_paragraph_index": 16,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penyuluhan (Konseling): membantu pasien mengerti dirinya lebih baik",
+          "provenance": {
+            "source_paragraph_index": 16,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kerja kasus sosial: bantuan untuk pelayanan sosial khusus",
+          "provenance": {
+            "source_paragraph_index": 16,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terapi kerja: latihan kerja tertentu agar terampil",
+          "provenance": {
+            "source_paragraph_index": 16,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hipnosis: membantu mempercepat pengaruh psikoterapi",
+          "provenance": {
+            "source_paragraph_index": 16,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Ventilasi: memberi kesempatan kepada pasien mengemukakan isi hatinya, hasilnya lega dan keluhan berkurang Persuasi: menerangkan secara masuk akal tentang gejala penyakit yang timbul akibat cara berpikir, perasaan, dan sikap",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s18",
+      "title": "Faktor Penentu Keberhasilan",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Masalah yang dihadapi",
+          "provenance": {
+            "source_paragraph_index": 17,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perkembangan diagnosis",
+          "provenance": {
+            "source_paragraph_index": 17,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Umur penderita",
+          "provenance": {
+            "source_paragraph_index": 17,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Inteligensi penderita",
+          "provenance": {
+            "source_paragraph_index": 17,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kematangan emosi",
+          "provenance": {
+            "source_paragraph_index": 17,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Situasi keluarga, sosial, dan finansial",
+          "provenance": {
+            "source_paragraph_index": 17,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Fleksibilitas penderita",
+          "provenance": {
+            "source_paragraph_index": 17,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Masalah yang dihadapi Perkembangan diagnosis",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "ECT",
+      "meaning": "Electroconvulsive Therapy - stimulasi listrik untuk mencetuskan kejang terapeutik"
+    },
+    {
+      "term": "Ambang kejang",
+      "meaning": "Tingkat intensitas listrik minimal untuk menghasilkan kejang"
+    },
+    {
+      "term": "Katarsis",
+      "meaning": "Pelepasan emosi yang mendalam dalam terapi"
+    },
+    {
+      "term": "YAVIS",
+      "meaning": "Youthful, Attractive, Verbal, Intelligent, Successful - tipe klien dengan prognosis lebih baik"
+    },
+    {
+      "term": "Insight",
+      "meaning": "Pencerahan/pengertian diri tentang penyakit dan kondisi diri"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t01",
+      "title": "Indikasi ECT",
+      "columns": [
+        "Kondisi",
+        "Catatan"
+      ],
+      "rows": [
+        [
+          "Depresi Mayor",
+          "Indikasi paling umum, tercepat, paling efektif"
+        ],
+        [
+          "Episode Manik",
+          "Setara litium, lebih cepat"
+        ],
+        [
+          "Skizofrenia (akut)",
+          "Gejala positif, katatonia, afektif"
+        ],
+        [
+          "Katatonia",
+          "1-4 tindakan"
+        ],
+        [
+          "OCD",
+          "Efektif (penelitian kecil)"
+        ],
+        [
+          "Wanita hamil",
+          "Bila depresi dengan ide bunuh diri"
+        ],
+        [
+          "Lansia",
+          "Bila tidak toleran antidepresan"
+        ],
+        [
+          "Anak/Remaja",
+          "Depresi parah dengan ide bunuh diri"
+        ]
+      ]
+    },
+    {
+      "id": "t02",
+      "title": "Frekuensi dan Jumlah Tindakan ECT",
+      "columns": [
+        "Kondisi",
+        "Jumlah Tindakan",
+        "Frekuensi"
+      ],
+      "rows": [
+        [
+          "Depresi Mayor",
+          "6-12",
+          "2-3x/minggu"
+        ],
+        [
+          "Episode Manik",
+          "8-20",
+          "2-3x/minggu"
+        ],
+        [
+          "Skizofrenia",
+          ">15",
+          "2-3x/minggu"
+        ],
+        [
+          "Katatonia/Delirium",
+          "1-4",
+          "2-3x/minggu"
+        ]
+      ]
+    },
+    {
+      "id": "t03",
+      "title": "Bilateral vs Unilateral ECT",
+      "columns": [
+        "Aspek",
+        "Bilateral",
+        "Unilateral"
+      ],
+      "rows": [
+        [
+          "Respons terapeutik",
+          "Lebih cepat",
+          "Lebih lambat"
+        ],
+        [
+          "Efek samping kognitif",
+          "Lebih besar",
+          "Lebih kecil"
+        ],
+        [
+          "Penempatan elektroda",
+          "Bifrontotemporal",
+          "Frontotemporal non-dominan (kanan)"
+        ],
+        [
+          "Intensitas stimulus",
+          "50% di atas ambang",
+          "100% di atas ambang"
+        ]
+      ]
+    }
+  ],
+  "diagnostic_logic": [],
+  "differential_notes": [],
+  "treatment_notes": [
+    {
+      "phase": "ect_procedure",
+      "content": "Puasa 6 jam. Periksa gigi palsu. Akses IV. Bite block. O2 100% 5L/menit. Peralatan jalan napas darurat tersedia. Monitor EKG, O2 sat, BP setiap 5 menit selama 30 menit pasca-prosedur."
+    },
+    {
+      "phase": "ect_electrode",
+      "content": "Bilateral = respons lebih cepat tetapi lebih banyak efek kognitif. Unilateral non-dominan = lebih sedikit efek kognitif. Pilih berdasarkan urgensi klinis vs toleransi kognitif."
+    },
+    {
+      "phase": "ect_schedule",
+      "content": "2-3x/minggu. Depresi 6-12, mania 8-20, skizofrenia >15, katatonia 1-4. Beralih ke bilateral/dosis tinggi jika tidak ada respons setelah 6 sesi unilateral."
+    },
+    {
+      "phase": "psychotherapy_supportive",
+      "content": "Semua dokter harus mampu melakukan. Teknik: ventilasi, persuasi, suggesti, reassurance, generalisasi, konsultasi, restorasi, interpretasi."
+    }
+  ],
+  "red_flags": [
+    "Space-occupying lesion (relative contraindication)",
+    "Patient on lithium (lowered seizure threshold)",
+    "Inadequate airway equipment",
+    "Inadequate informed consent documentation"
+  ],
+  "extraction_notes": [
+    "54-slide comprehensive lecture by dr. Diva Mariska Tarastin, Sp.KJ.",
+    "ECT section (slides 1-24) and Psychotherapy section (slides 25-54) clearly separated.",
+    "Electrode placement diagram mentioned but not extractable as structured content.",
+    "Pharmacotherapy details in ECT section well-structured.",
+    "Psychotherapy section rich with definitions from multiple sources."
+  ],
+  "confidence_summary": "tinggi",
+  "qc_flags": []
+}

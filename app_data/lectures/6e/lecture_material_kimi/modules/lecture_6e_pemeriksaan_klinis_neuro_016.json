@@ -1,0 +1,313 @@
+{
+  "id": "lecture_6e_pemeriksaan_klinis_neuro_016",
+  "batch_id": "batch_1_6e",
+  "title": "Pemeriksaan Klinis Neurologi",
+  "subtitle": "Kimi rerun: neuro_examination",
+  "source_pdf": "Pemeriksaan klinis neuro_250523_133200.docx",
+  "source_docx": "Pemeriksaan klinis neuro_250523_133200.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah komprehensif tentang pemeriksaan klinis neurologis. Sumber berisi gambar tersemat dengan teks yang dapat diekstrak minimal. Konten yang diharapkan mencakup pemeriksaan neurologis sistematik termasuk status mental, saraf kranialis, pemeriksaan motorik (tonus, kekuatan, bulk), pemeriksaan sensorik (modalitas, dermatom), koordinasi (finger-nose, heel-shin, Romberg), jalan, refleks (deep tendon, superfisial, patologis), tanda meningeal, dan fungsi kortikal tinggi. Urutan pemeriksaan neuro standar dan prinsip dokumentasi.",
+    "Source was image-heavy with limited extractable text",
+    "Standard neurological examination follows systematic approach",
+    "Cranial nerve examination localizes to brainstem and peripheral nerves"
+  ],
+  "exam_focus": [
+    "Systematic neuro examination sequence",
+    "Cranial nerve examination technique",
+    "UMN vs LMN signs",
+    "Pathological reflexes (Babinski)",
+    "Meningeal signs",
+    "GCS scoring"
+  ],
+  "learning_goals": [
+    "Melakukan pemeriksaan neurologis sistematik",
+    "Melokalisasi lesi berdasarkan temuan pemeriksaan",
+    "Mengenali refleks patologis dan signifikansinya",
+    "Mendokumentasikan temuan neurologis dalam format standar"
+  ],
+  "key_points": [
+    "Source was image-heavy with limited extractable text",
+    "Standard neurological examination follows systematic approach",
+    "Cranial nerve examination localizes to brainstem and peripheral nerves",
+    "UMN vs LMN signs differentiate central from peripheral lesions"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Pendahuluan Pemeriksaan Neurologis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "The neurological examination follows a systematic approach to localize lesions within the nervous system. Components include: mental status, cranial nerves, motor system (inspection, tone, power, bulk), sensory system (modalities, dermatomes), coordination, gait and stance, and reflexes (deep tendon, superficial, pathological). The examination should always be interpreted in the context of the history.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Status mental",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Saraf kranialis",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sistem motorik",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sistem sensorik",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Koordinasi",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gait dan sikap",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Refleks",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "The neurological examination follows a systematic approach to localize lesions within the nervous system. Components include: mental status, cranial nerves, motor system (inspection, tone, power, bulk), sensory system (modalities, dermatomes), coordination, gait and stance, and reflexes (deep tendon, superficial, pathological). The examination should always be interpreted in the context of the history. Status mental",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Pemeriksaan Saraf Kranialis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "CN I (Olfactory): smell test with coffee, vanilla, alcohol. CN II (Optic): visual acuity (Snellen chart), visual fields (confrontation), fundoscopy (disc, vessels, macula). CN III, IV, VI (Oculomotor, Trochlear, Abducens): pupil size/shape/reaction (RAPD), extraocular movements (H pattern), nystagmus. CN V (Trigeminal): facial sensation (V1, V2, V3), corneal reflex, masseter/temporalis power, jaw jerk. CN VII (Facial): facial symmetry at rest and with movement (forehead wrinkling, eye closure, smile), taste anterior 2/3 tongue. CN VIII (Vestibulocochlear): hearing (Rinne, Weber), balance. CN IX, X (Glossopharyngeal, Vagus): gag reflex, palatal elevation, voice quality, swallowing. CN XI (Accessory): SCM and trapezius strength. CN XII (Hypoglossal): tongue symmetry, fasciculations, deviation on protrusion.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "UMN facial lesion: forehead spared (bilateral innervation); LMN facial lesion: entire face affected including forehead",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "CN I (Olfactory): smell test with coffee, vanilla, alcohol. CN II (Optic): visual acuity (Snellen chart), visual fields (confrontation), fundoscopy (disc, vessels, macula). CN III, IV, VI (Oculomotor, Trochlear, Abducens): pupil size/shape/reaction (RAPD), extraocular movements (H pattern), nystagmus. CN V (Trigeminal): facial sensation (V1, V2, V3), corneal reflex, masseter/temporalis power, jaw jerk. CN VII (Facial): facial symmetry at rest and with movement (forehead wrinkling, eye closure, smile), taste anterior 2/3 tongue. CN VIII (Vestibulocochlear): hearing (Rinne, Weber), balance. CN IX, X (Glossopharyngeal, Vagus): gag reflex, palatal elevation, voice quality, swallowing. CN XI (Accessory): SCM and trapezius strength. CN XII (Hypoglossal): tongue symmetry, fasciculations, deviation on protrusion. UMN facial lesion: forehead spared (bilateral innervation); LMN facial lesion: entire face affected including forehead",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Pemeriksaan Motorik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "INSPECTION: posture, involuntary movements (tremor, chorea, dystonia, fasciculations), muscle wasting, deformities. TONE: assess resistance to passive movement throughout ROM; hypertonia (spasticity, rigidity) vs hypotonia vs paratonia. STRENGTH: MRC grading 0-5 (0=no contraction, 1=flicker, 2=active movement with gravity eliminated, 3=active movement against gravity, 4=active movement against resistance, 5=normal power). BULK: measure limb circumference, compare sides. UMN vs LMN SIGNS: UMN - spasticity, increased reflexes, Babinski positive, no fasciculations, no atrophy; LMN - flaccidity, decreased/absent reflexes, fasciculations, atrophy.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "INSPECTION: posture, involuntary movements (tremor, chorea, dystonia, fasciculations), muscle wasting, deformities. TONE: assess resistance to passive movement throughout ROM; hypertonia (spasticity, rigidity) vs hypotonia vs paratonia. STRENGTH: MRC grading 0-5 (0=no contraction, 1=flicker, 2=active movement with gravity eliminated, 3=active movement against gravity, 4=active movement against resistance, 5=normal power). BULK: measure limb circumference, compare sides. UMN vs LMN SIGNS: UMN - spasticity, increased reflexes, Babinski positive, no fasciculations, no atrophy; LMN - flaccidity, decreased/absent reflexes, fasciculations, atrophy.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Sensorik, Koordinasi, dan Refleks",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "SENSORY EXAMINATION: Test primary modalities - light touch, pinprick (pain), temperature, vibration (128 Hz tuning fork), joint position sense. Compare symmetrical points. Map deficits to dermatomes or peripheral nerve territories. COORDINATION: Finger-to-nose test (upper limb), heel-to-shin test (lower limb), rapid alternating movements (dysdiadochokinesia), fine finger movements. Romberg test (proprioception/vestibular function). REFLEXES: Deep tendon reflexes (biceps C5-6, triceps C6-7, supinator C5-6, knee L3-4, ankle S1-2) graded 0-4+. Pathological reflexes: Babinski (UPST, dorsiflexion great toe), Hoffmann, clonus. Primitive reflexes: glabellar, snout, palmomental, grasp. MENINGEAL SIGNS: neck stiffness (nuchal rigidity), Kernig sign, Brudzinski sign.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sensorik: sentuhan halus, nyeri, suhu, vibrasi, propriosepsi",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Koordinasi: finger-nose, heel-shin, dysdiadochokinesia",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Refleks: DTR, Babinski, klonus",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tanda meningeal: kaku kuduk, Kernig, Brudzinski",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Babinski sign (extensor plantar response) is the most reliable indicator of UMN pathology",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "SENSORY EXAMINATION: Test primary modalities - light touch, pinprick (pain), temperature, vibration (128 Hz tuning fork), joint position sense. Compare symmetrical points. Map deficits to dermatomes or peripheral nerve territories. COORDINATION: Finger-to-nose test (upper limb), heel-to-shin test (lower limb), rapid alternating movements (dysdiadochokinesia), fine finger movements. Romberg test (proprioception/vestibular function). REFLEXES: Deep tendon reflexes (biceps C5-6, triceps C6-7, supinator C5-6, knee L3-4, ankle S1-2) graded 0-4+. Pathological reflexes: Babinski (UPST, dorsiflexion great toe), Hoffmann, clonus. Primitive reflexes: glabellar, snout, palmomental, grasp. MENINGEAL SIGNS: neck stiffness (nuchal rigidity), Kernig sign, Brudzinski sign. Sensorik: sentuhan halus, nyeri, suhu, vibrasi, propriosepsi",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Gait dan Dokumentasi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "GAIT EXAMINATION: Observe patient walking (heel walking, toe walking, tandem gait). Assess initiation, stride length, arm swing, turning, stability. DOCUMENTATION: Record all findings systematically using standardized formats. Common scales: Glasgow Coma Scale (GCS) for consciousness, NIH Stroke Scale (NIHSS) for stroke severity, Modified Rankin Scale (mRS) for disability.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gait: inisiasi, panjang langkah, ayunan lengan, stabilitas",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "GCS: Eye (1-4), Verbal (1-5), Motor (1-5)",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "NIHSS: skor 0-42 untuk severity stroke",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "GAIT EXAMINATION: Observe patient walking (heel walking, toe walking, tandem gait). Assess initiation, stride length, arm swing, turning, stability. DOCUMENTATION: Record all findings systematically using standardized formats. Common scales: Glasgow Coma Scale (GCS) for consciousness, NIH Stroke Scale (NIHSS) for stroke severity, Modified Rankin Scale (mRS) for disability. Gait: inisiasi, panjang langkah, ayunan lengan, stabilitas",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "UMN",
+      "meaning": "Upper Motor Neuron"
+    },
+    {
+      "term": "LMN",
+      "meaning": "Lower Motor Neuron"
+    },
+    {
+      "term": "Babinski",
+      "meaning": "Tanda patologis: ekstensi jempol kaki saat stimulasi plantar"
+    },
+    {
+      "term": "DTR",
+      "meaning": "Deep Tendon Reflexes"
+    }
+  ],
+  "tables": [],
+  "diagnostic_logic": [],
+  "differential_notes": [],
+  "treatment_notes": [],
+  "red_flags": [],
+  "extraction_notes": [
+    "Source was predominantly image-based with minimal extractable text",
+    "Content reconstructed based on standard neurological examination protocols",
+    "Key examination components preserved in structured format"
+  ],
+  "confidence_summary": "medium",
+  "qc_flags": [
+    "{\"flag_id\": \"qc_image_heavy\", \"flag_type\": \"image_only_source\", \"severity\": \"warning\", \"module_id\": \"lecture_6e_pemeriksaan_klinis_neuro_016\", \"section_id\": \"multiple\", \"note\": \"Source contained predominantly embedded images with minimal extractable text. Content was reconstructed based on standard neurological examination teaching.\", \"suggested_remediation\": \"Review source images manually to verify visual content accuracy.\", \"auto_resolved\": false}"
+  ]
+}

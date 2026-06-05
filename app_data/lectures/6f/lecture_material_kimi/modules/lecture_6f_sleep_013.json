@@ -1,0 +1,1076 @@
+{
+  "id": "lecture_6f_sleep_013",
+  "batch_id": "batch_2_6f",
+  "title": "Normal Sleep dan Sleep Disorders",
+  "subtitle": "Kimi rerun: psychiatry_sleep_medicine",
+  "source_pdf": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+  "source_docx": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah komprehensif 35 slide tentang fisiologi tidur normal dan gangguan tidur oleh dr. Diva Mariska Tarastin. Bagian tidur normal mencakup fungsi tidur, tahap NREM/REM (Tahap 1-4, REM), pola EEG (theta, gelombang tidur, kompleks-K, delta, gigi gergaji), arsitektur tidur di berbagai kelompok usia, dan mimpi. Bagian gangguan tidur mencakup insomnia (definisi, tipe, kriteria diagnosis, seleksi obat berdasarkan tipe), hipersomnia/narkolepsi (gejala tetrad, penatalaksanaan), parasomnia (somnambulisme, teror tidur, mimpi buruk, enuresis), dan gangguan ritme sirkadian dengan algoritma pengobatan.",
+    "Humans spend 1/3 of life sleeping; need 6-8 hours/day; infants/children need more",
+    "Sleep is essential for survival; prolonged deprivation causes severe physical/cognitive damage and death",
+    "NREM = 75% of sleep (4 stages); REM = 25%; 4-6 cycles per night"
+  ],
+  "exam_focus": [
+    "NREM stages with EEG frequencies and percentages",
+    "Insomnia criteria: 3x/week x 1 month + functional impairment",
+    "4 causes of insomnia: stress, anxiety/depression, substances, medical conditions",
+    "Somnambulism vs nightmare differentiation",
+    "Drug selection by insomnia subtype",
+    "Contraindications: sleep apnea, CHF, chronic lung disease, pregnancy"
+  ],
+  "learning_goals": [
+    "Explain sleep functions and physiology",
+    "Describe NREM and REM sleep stages with EEG findings",
+    "State diagnostic criteria for non-organic insomnia, hypersomnia, and circadian rhythm disorder",
+    "Identify causes and risk factors for insomnia",
+    "Recognize parasomnias: somnambulism, sleep terror, nightmares, sleeptalking",
+    "Apply non-pharmacological management: sleep hygiene, CBT, relaxation, stimulus control",
+    "Select pharmacotherapy based on insomnia subtype (initial, delayed, broken)"
+  ],
+  "key_points": [
+    "Humans spend 1/3 of life sleeping; need 6-8 hours/day; infants/children need more",
+    "Sleep is essential for survival; prolonged deprivation causes severe physical/cognitive damage and death",
+    "NREM = 75% of sleep (4 stages); REM = 25%; 4-6 cycles per night",
+    "Stage 2 NREM = longest (45%); Stage 3+4 = deep sleep/delta sleep/SWS (25%)",
+    "PPDGJ-III: F51 Non-organic sleep disorders = dissomnias + parasomnias",
+    "Insomnia criteria: difficulty initiating/maintaining sleep + poor quality, min 3x/week for 1 month, with functional impairment",
+    "Causes: stress, anxiety/depression, caffeine/nicotine/alcohol, medical conditions, shift work, learned insomnia",
+    "Risk factors: female, age >60, mental disorders, stress, jet lag",
+    "Pharmacotherapy: select by insomnia type - initial (short-acting BZD), delayed (TCA/tetracyclic), broken (long-acting BZD/phenobarbital)",
+    "Contraindications: sleep apnea, CHF, chronic respiratory disease; teratogenic in first trimester"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Normal Sleep",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Manusia menghabiskan sepertiga hidup untuk tidur, umumnya 6-8 jam/hari (bayi dan anak lebih lama). Tidur esensial untuk bertahan hidup; deprivasi lama menyebabkan gangguan fisik berat, kognitif, dan kematian.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Restorasi fungsi homeostatik",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Termoregulasi normal",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Konservasi energi",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "NREM sleep meningkat setelah olahraga dan kelaparan (mungkin untuk memenuhi kebutuhan metabolik)",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Manusia menghabiskan sepertiga hidup untuk tidur, umumnya 6-8 jam/hari (bayi dan anak lebih lama). Tidur esensial untuk bertahan hidup; deprivasi lama menyebabkan gangguan fisik berat, kognitif, dan kematian. Restorasi fungsi homeostatik",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Fisiologi Tidur",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Makhluk hidup mempunyai irama sirkadian kehidupan sesuai siklus 24 jam. Fase tidur melibatkan substansia retikularis ventral batang otak (pusat tidur/sleep center) yang melakukan sinkronisasi. Bagian rostral batang otak (pusat penggugah/arousal center) menghilangkan sinkronisasi/desinkronisasi.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Makhluk hidup mempunyai irama sirkadian kehidupan sesuai siklus 24 jam. Fase tidur melibatkan substansia retikularis ventral batang otak (pusat tidur/sleep center) yang melakukan sinkronisasi. Bagian rostral batang otak (pusat penggugah/arousal center) menghilangkan sinkronisasi/desinkronisasi.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Pembagian Tidur",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Tidur dibagi menjadi 2 tipe: NREM (Non Rapid Eye Movement) dan REM (Rapid Eye Movement). Fase awal tidur didahului NREM (4 stadium), lalu REM. Siklus bergantian 4-6 kali semalam. NREM = 75% dari waktu tidur; REM = 25%.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Stadium 1 NREM: 5% waktu tidur, paling ringan, gelombang teta 3-7 Hz",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Stadium 2 NREM: 45% waktu tidur (paling lama), gelombang spindle 12-14 Hz + kompleks K, mudah dibangunkan",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Stadium 3 NREM: 12% waktu tidur, gelombang delta 0.5-2.5 Hz, sukar dibangunkan",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Stadium 4 NREM: 13% waktu tidur, gelombang delta, tidur dalam/delta sleep/SWS",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Stadium 3 dan 4 dikenal sebagai Slow Wave Sleep (SWS)",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tahap 2 = paling lama (45%). Tahap 3+4 = SWS/tidur dalam (25%). REM = 25%. Frekuensi EEG kunci: Tahap 1 theta 3-7Hz, Tahap 2 gelombang tidur 12-14Hz + kompleks-K, Tahap 3+4 delta <3,5Hz, REM gigi gergaji 2-6Hz dengan aktivitas tidak tersinkronisasi.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Tidur dibagi menjadi 2 tipe: NREM (Non Rapid Eye Movement) dan REM (Rapid Eye Movement). Fase awal tidur didahului NREM (4 stadium), lalu REM. Siklus bergantian 4-6 kali semalam. NREM = 75% dari waktu tidur; REM = 25%. Stadium 1 NREM: 5% waktu tidur, paling ringan, gelombang teta 3-7 Hz",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Gangguan Tidur",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "PPDGJ III membagi Gangguan Tidur Nonorganik (F51) menjadi 2 bagian:",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dissomnia: kondisi psikogenik primer dengan gangguan utama pada jumlah, kualitas, atau waktu tidur akibat kausa emosional (insomnia, hipersomnia, gangguan jadwal tidur)",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Parasomnia: peristiwa episodik abnormal yang terjadi selama tidur (somnambulisme, teror tidur, mimpi buruk). Pada kanak-kanak berhubungan dengan perkembangan; pada dewasa predominan psikogenik.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "PPDGJ III membagi Gangguan Tidur Nonorganik (F51) menjadi 2 bagian: Dissomnia: kondisi psikogenik primer dengan gangguan utama pada jumlah, kualitas, atau waktu tidur akibat kausa emosional (insomnia, hipersomnia, gangguan jadwal tidur)",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Insomnia Nonorganik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "a) Keluhan sulit masuk tidur, mempertahankan tidur, atau kualitas tidur buruk",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "b) Gangguan tidur minimal 3 kali seminggu selama minimal sebulan",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "c) Adanya preokupasi akan tidak bisa tidur dan kekhawatiran berlebihan perihal akibatnya",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "d) Tidak puas secara kuantitas dan kualitas tidur yang menyebabkan gangguan fungsi sosial atau pekerjaan",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gangguan jiwa lain (depresi, ansietas) tidak menyebabkan diagnosis insomnia diabaikan",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kriteria 'lama tidur' (kuantitas) tidak digunakan karena variasi individual",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Transient insomnia yang tidak memenuhi kriteria: masuk ke reaksi stres akut (F43.0) atau gangguan penyesuaian (F43.2)",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kriteria kunci: 3x/minggu selama 1 bulan + gangguan fungsional + kekhawatiran tentang tidur. Depresi/ansietas TIDAK mengecualikan diagnosis insomnia. Kriteria durasi: transient <1 minggu, jangka pendek 1-3 minggu, kronis >3 minggu (DSM-5: 3x/minggu selama 3 bulan).",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "a) Keluhan sulit masuk tidur, mempertahankan tidur, atau kualitas tidur buruk b) Gangguan tidur minimal 3 kali seminggu selama minimal sebulan",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s06",
+      "title": "Penyebab dan Faktor Risiko Insomnia",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Stres: kekhawatiran tentang pekerjaan, kesehatan, sekolah, keluarga; peristiwa berat (kematian, perceraian, kehilangan pekerjaan)",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kecemasan dan depresi: ketidakseimbangan kimia otak atau kekhawatiran yang menyertai depresi",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Obat-obatan: beberapa antidepresan, obat jantung/HT, obat alergi, stimulan (Ritalin), kortikosteroid",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kafein, nikotin, alkohol: kafein dan nikotin = stimulan; alkohol = penenang yang mencegah tidur dalam dan menyebabkan terbangun malam",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kondisi medis: nyeri kronis, kesulitan bernapas, BAK sering, artritis, kanker, gagal jantung, penyakit paru, GERD, stroke, Parkinson, Alzheimer",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perubahan lingkungan/jadwal kerja: jet lag, shift kerja malam mengganggu irama sirkadian",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "'Belajar' insomnia: khawatir berlebihan tentang tidak bisa tidur; tidur lebih baik di luar lingkungan biasa",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Stres: kekhawatiran tentang pekerjaan, kesehatan, sekolah, keluarga; peristiwa berat (kematian, perceraian, kehilangan pekerjaan) Kecemasan dan depresi: ketidakseimbangan kimia otak atau kekhawatiran yang menyertai depresi",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s07",
+      "title": "Faktor Risiko Insomnia",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Wanita: perubahan hormon menstruasi dan menopause (berkeringat malam, hot flashes)",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Usia >60 tahun: perubahan pola tidur",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gangguan kesehatan mental: depresi, ansietas, bipolar, PTSD",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Stres jangka panjang: kematian, perceraian, kemiskinan, pengangguran",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Jet lag dan perubahan jadwal kerja",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Wanita: perubahan hormon menstruasi dan menopause (berkeringat malam, hot flashes) Usia >60 tahun: perubahan pola tidur",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s08",
+      "title": "Hipersomnia dan Gangguan Jadwal Tidur",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Hipersomnia: tidur siang berlebihan/serangan kantuk hebat siang hari (bukan kurang tidur), perlu waktu lebih lama untuk siaga penuh saat bangun; terjadi setiap hari >1 bulan",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gangguan jadwal tidur: pola tidur berbeda dari jadwal normal masyarakat; insomnia saat orang tidur dan hipersomnia saat orang bangun; minimal 1 bulan",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Hipersomnia: tidur siang berlebihan/serangan kantuk hebat siang hari (bukan kurang tidur), perlu waktu lebih lama untuk siaga penuh saat bangun; terjadi setiap hari >1 bulan Gangguan jadwal tidur: pola tidur berbeda dari jadwal normal masyarakat; insomnia saat orang tidur dan hipersomnia saat orang bangun; minimal 1 bulan",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s09",
+      "title": "Somnambulisme (Tidur Sambil Berjalan)",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Satu/lebih episode bangun dari tempat tidur, biasanya sepertiga awal malam, lalu berjalan",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Selama episode: pandangan kosong, muka menatap ke depan, tak responsif, tak dapat berkomunikasi, susah dibangunkan",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Saat bangun: tidak ingat episode tersebut",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Beberapa menit setelah bangun: tidak ada gangguan aktivitas mental/perilaku (mungkin periode singkat kebingungan/disorientasi)",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak ada bukti gangguan mental organik (demensia) atau gangguan fisik (epilepsi)",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Somnambulisme terjadi selama tidur NREM (gelombang lambat), biasanya sepertiga pertama malam. Pasien memiliki pandangan kosong, tidak responsif, amnesia untuk episode. Sulit dibangunkan. Keselamatan adalah prioritas (lingkungan aman, kamar tidur di lantai dasar, singkirkan benda berbahaya).",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Satu/lebih episode bangun dari tempat tidur, biasanya sepertiga awal malam, lalu berjalan Selama episode: pandangan kosong, muka menatap ke depan, tak responsif, tak dapat berkomunikasi, susah dibangunkan",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s10",
+      "title": "Teror Tidur dan Mimpi Buruk",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Teror tidur: terbangun dengan teriakan panik, ansietas, tubuh bergetar, hiperaktivitas otonomik (takikardi, napas cepat, dilatasi pupil, berkeringat); 1-10 menit; sepertiga awal tidur; tidak bereaksi terhadap upaya orang lain; bila ingat hanya minimal",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mimpi buruk (nightmare): terbangun dari tidur dengan mimpi terperinci, jelas, menakutkan (ancaman hidup, keamanan, harga diri); terbangun kapan saja tetapi biasanya fase akhir tidur; saat terbangun siaga penuh dan orientasi baik; mimpi dan akibatnya menyebabkan tidak enak",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pembeda utama: Teror tidur = arousal parsial dari SWS, kebingungan, amnesia, sepertiga pertama malam. Mimpi buruk = terbangun dari REM, ingatan jelas, kewaspadaan penuh, sepertiga terakhir malam. Enuresis = ngompol pada anak, dapat bersifat primer (perkembangan) atau sekunder (stres psikologis).",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Teror tidur: terbangun dengan teriakan panik, ansietas, tubuh bergetar, hiperaktivitas otonomik (takikardi, napas cepat, dilatasi pupil, berkeringat); 1-10 menit; sepertiga awal tidur; tidak bereaksi terhadap upaya orang lain; bila ingat hanya minimal Mimpi buruk (nightmare): terbangun dari tidur dengan mimpi terperinci, jelas, menakutkan (ancaman hidup, keamanan, harga diri); terbangun kapan saja tetapi biasanya fase akhir tidur; saat terbangun siaga penuh dan orientasi baik; mimpi dan akibatnya menyebabkan tidak enak",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s11",
+      "title": "Sleeptalking (Somniloquy)",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Umum pada anak-anak dan dewasa",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terjadi di semua tahapan tidur",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Biasanya beberapa kata yang sulit dibedakan",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak berkaitan dengan mimpi",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak membutuhkan perawatan",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Umum pada anak-anak dan dewasa Terjadi di semua tahapan tidur",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s12",
+      "title": "Penatalaksanaan Non-Farmakologi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Edukasi kebiasaan tidur yang baik",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Teknik relaksasi",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terapi kognitif",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Restriksi tidur",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kontrol stimulus",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Jadwal tidur konsisten termasuk hari libur",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak berada di tempat tidur ketika tidak tidur",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak memaksakan diri untuk tidur",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tempat tidur hanya untuk tidur",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Relaksasi sebelum tidur (mandi air hangat, membaca, pernapasan, ibadah)",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hindari/batasi tidur siang",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Suasana nyaman kamar tidur",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Olahraga 20-30 menit, 5-6 jam sebelum tidur",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hindari kafein, alkohol, nikotin",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hindari makan besar sebelum tidur",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Cek kesehatan rutin; analgesik untuk nyeri",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Edukasi kebiasaan tidur yang baik Teknik relaksasi",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s13",
+      "title": "Penatalaksanaan Farmakologi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Benzodiazepine: Alprazolam, Lorazepam, Nitrazepam, Triazolam, Estazolam",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Non-benzodiazepine: Chloral-hydrate, Zolpidem",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Initial insomnia (sulit masuk tidur): short-acting BZD (sleep-inducing anti-insomnia) - misalnya pada gangguan ansietas",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Delayed insomnia (tidur terlalu cepat berakhir, sulit masuk kembali): heterosiklik antidepresan (trisiklik/tetrasiklik) - misalnya pada gangguan depresi",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Broken insomnia (siklus tidur terpecah-pecah, multiple awakening): phenobarbital atau long-acting BZD (sleep maintaining anti-insomnia)",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Seleksi obat berdasarkan subtipe insomnia: Awal = BZD waktu paruh pendek; Tengah = TCA/antidepresan tetrasiklik; Terminal = BZD waktu paruh panjang/fenobarbital. Cocokkan waktu paruh obat dengan pola gejala.",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Benzodiazepine: Alprazolam, Lorazepam, Nitrazepam, Triazolam, Estazolam Non-benzodiazepine: Chloral-hydrate, Zolpidem",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s14",
+      "title": "Kontraindikasi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Sleep apnea syndrome",
+          "provenance": {
+            "source_paragraph_index": 13,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Congestive Heart Failure",
+          "provenance": {
+            "source_paragraph_index": 13,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Chronic Respiratory Disease",
+          "provenance": {
+            "source_paragraph_index": 13,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Wanita hamil: risiko teratogenic effect (cleft-palate abnormalities) trimester pertama; diekskresi melalui ASI dengan efek penekanan SSP pada bayi",
+          "provenance": {
+            "source_paragraph_index": 13,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kontraindikasi absolut atau relatif untuk hipnotik: sleep apnea, gagal jantung kongestif, penyakit paru kronis. Kehamilan: risiko teratogenik trimester pertama (celah langit-langit dengan BZD). Lansia: peningkatan risiko jatuh dan gangguan kognitif.",
+          "provenance": {
+            "source_paragraph_index": 13,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Sleep apnea syndrome Congestive Heart Failure",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Sirkadian",
+      "meaning": "Irama biologis 24 jam yang mengatur siklus tidur-bangun"
+    },
+    {
+      "term": "SWS",
+      "meaning": "Slow Wave Sleep = stadium 3 dan 4 NREM (tidur dalam)"
+    },
+    {
+      "term": "Dissomnia",
+      "meaning": "Gangguan pada jumlah, kualitas, atau waktu tidur"
+    },
+    {
+      "term": "Parasomnia",
+      "meaning": "Peristiwa episodik abnormal selama tidur"
+    },
+    {
+      "term": "Somnambulisme",
+      "meaning": "Tidur sambil berjalan"
+    },
+    {
+      "term": "Somniloquy",
+      "meaning": "Bicara saat tidur"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t01",
+      "title": "Stadium Tidur NREM",
+      "columns": [
+        "Stadium",
+        "Durasi",
+        "Karakteristik EEG",
+        "Catatan"
+      ],
+      "rows": [
+        [
+          "1",
+          "5%",
+          "Gelombang teta 3-7 Hz",
+          "Tidur paling ringan"
+        ],
+        [
+          "2",
+          "45%",
+          "Spindle 12-14 Hz + kompleks K",
+          "Paling lama, mudah dibangunkan"
+        ],
+        [
+          "3",
+          "12%",
+          "Delta 0.5-2.5 Hz",
+          "Sukar dibangunkan"
+        ],
+        [
+          "4",
+          "13%",
+          "Delta (kuantitas lebih banyak)",
+          "Deep sleep/SWS"
+        ]
+      ]
+    },
+    {
+      "id": "t02",
+      "title": "Pemilihan Obat berdasar Tipe Insomnia",
+      "columns": [
+        "Tipe Insomnia",
+        "Karakteristik",
+        "Obat Pilihan"
+      ],
+      "rows": [
+        [
+          "Initial",
+          "Sulit masuk tidur",
+          "Short-acting BZD"
+        ],
+        [
+          "Delayed",
+          "Tidur cepat berakhir, sulit kembali tidur",
+          "Heterosiklik antidepresan (TCA/Tetracyclic)"
+        ],
+        [
+          "Broken",
+          "Multiple awakening, siklus tidak utuh",
+          "Long-acting BZD atau Phenobarbital"
+        ]
+      ]
+    }
+  ],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Identifikasi keluhan tidur",
+      "explanation": "Sulit masuk/menjaga tidur, kualitas buruk, atau excessive daytime sleepiness."
+    },
+    {
+      "step": 2,
+      "title": "Verifikasi frekuensi dan durasi",
+      "explanation": "Minimal 3x/minggu selama 1 bulan."
+    },
+    {
+      "step": 3,
+      "title": "Konfirmasi distress/fungsional",
+      "explanation": "Preokupasi tentang tidur + gangguan fungsi sosial/pekerjaan."
+    },
+    {
+      "step": 4,
+      "title": "Klasifikasi tipe",
+      "explanation": "Dissomnia (insomnia, hypersomnia, circadian) atau Parasomnia (somnambulism, terror, nightmare)."
+    },
+    {
+      "step": 5,
+      "title": "Identifikasi penyebab",
+      "explanation": "Stres, ansietas, depresi, obat, kafein, kondisi medis, shift work."
+    },
+    {
+      "step": 6,
+      "title": "Pilih terapi",
+      "explanation": "Non-farmakologi pertama; jika farmakologi: sesuaikan dengan tipe insomnia."
+    }
+  ],
+  "differential_notes": [
+    {
+      "item": "Insomnia vs sleep deprivation",
+      "how_to_separate": "Insomnia = kesempatan memadai tetapi tidak dapat tidur; Kurang tidur = kesempatan tidak memadai."
+    },
+    {
+      "item": "Somnambulism vs nightmare",
+      "how_to_separate": "Somnambulism = NREM, first 1/3 night, blank stare, amnesia. Nightmare = REM, late night, vivid recall, full alertness."
+    },
+    {
+      "item": "Sleep terror vs nightmare",
+      "how_to_separate": "Terror = screaming, confusion, autonomic surge, amnesia. Nightmare = detailed frightening dream, oriented on awakening."
+    }
+  ],
+  "treatment_notes": [
+    {
+      "phase": "non_farmakologi",
+      "content": "Lini pertama: higienitas tidur (jadwal konsisten, tidak tidur siang, tidak kafein/alkohol/nikotin, olahraga 5-6 jam sebelum tidur, rutinitas tidur yang santai, lingkungan nyaman). Jika gagal: farmakoterapi sesuai tipe insomnia."
+    },
+    {
+      "phase": "farmakologi",
+      "content": "Pilih berdasarkan tipe: Insomnia awal = BZD waktu paruh pendek (Triazolam, dll.); Insomnia tengah = TCA/tetrasiklik; Insomnia terminal = BZD waktu paruh panjang atau fenobarbital. Selalu gabungkan dengan tindakan higienitas tidur."
+    },
+    {
+      "phase": "kontraindikasi",
+      "content": "Hindari pada sleep apnea, gagal jantung kongestif, penyakit respiratori kronis. Kehamilan: risiko teratogenik trimester pertama (celah langit-langit dengan BZD). Lansia: risiko jatuh dan gangguan kognitif."
+    }
+  ],
+  "red_flags": [
+    "Sleep apnea (kontraindikasi BZD)",
+    "Severe daytime sleepiness affecting safety (driving)",
+    "Parasomnia causing injury",
+    "Insomnia >1 month with functional impairment"
+  ],
+  "extraction_notes": [
+    "35-slide lecture by dr. Diva Mariska Tarastin, Sp. KJ (Departemen Psikiatri FKIK Universitas Jambi).",
+    "Clear affiliation stated on title slide.",
+    "NREM staging with precise EEG frequencies preserved.",
+    "Drug selection table by insomnia subtype extracted.",
+    "Contraindications clearly stated with teratogenic risk."
+  ],
+  "confidence_summary": "tinggi",
+  "qc_flags": []
+}

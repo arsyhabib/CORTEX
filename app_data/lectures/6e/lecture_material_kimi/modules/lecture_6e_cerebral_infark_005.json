@@ -1,0 +1,272 @@
+{
+  "id": "lecture_6e_cerebral_infark_005",
+  "batch_id": "batch_1_6e",
+  "title": "Cerebral Infark - Stroke Radiology",
+  "subtitle": "Kimi rerun: neuro_radiology",
+  "source_pdf": "CEREBRAL INFARK.docx",
+  "source_docx": "CEREBRAL INFARK.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah radiologi tentang stroke yang mencakup infark dan perdarahan serebri. Meninjau temuan CT dan MRI pada stroke akut, tanda MCA hiperdens, kehilangan diferensiasi abu-abu-putih, perubahan iskemik awal, dan transformasi hemoragik. Menyertakan klasifikasi tipe stroke dan pemeriksaan radiologis.",
+    "Infarct results from circulation deficit due to thrombosis or cerebral emboli",
+    "CT may be normal in very early infarction; becomes apparent after 24 hours",
+    "Early signs: loss of gray-white matter differentiation, hyperdense MCA sign"
+  ],
+  "exam_focus": [
+    "Hyperdense MCA sign significance",
+    "CT early ischemic changes",
+    "GRE for hemorrhage detection",
+    "DWI for acute ischemia"
+  ],
+  "learning_goals": [
+    "Mengenali tanda CT awal infark serebri akut",
+    "Membedakan stroke iskemik dan hemoragik pada CT",
+    "Memahami peran MRI-MRA dalam evaluasi stroke",
+    "Mengidentifikasi tanda MCA hiperdens dan signifikansinya"
+  ],
+  "key_points": [
+    "Infarct results from circulation deficit due to thrombosis or cerebral emboli",
+    "CT may be normal in very early infarction; becomes apparent after 24 hours",
+    "Early signs: loss of gray-white matter differentiation, hyperdense MCA sign",
+    "Hemorrhage appears hyperdense on CT",
+    "MRI-MRA demonstrates occluded regions; GRE shows hemorrhage"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Definisi dan Patofisiologi Infark Serebri",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Cerebral infarction results from circulatory deficit due to thrombosis or cerebral embolism, manifesting as stroke. Predisposing factors include hypertension, diabetes mellitus, family history, and various conditions causing embolic or atherosclerotic disease. Symptoms may present as TIA (transient ischemic attack) with focal neurological deficits recovering within 24 hours, or as stroke with persistent neurological deficit.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Faktor predisposisi: Hipertensi, DM, riwayat keluarga",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gejala: TIA (defisit neurologis fokal recovery dalam 24 jam) atau Stroke (defisit persisten)",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pemeriksaan radiologi: CT, MRI, Carotid artery imaging (MRA/Doppler US), Arteriografi",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Cerebral infarction results from circulatory deficit due to thrombosis or cerebral embolism, manifesting as stroke. Predisposing factors include hypertension, diabetes mellitus, family history, and various conditions causing embolic or atherosclerotic disease. Symptoms may present as TIA (transient ischemic attack) with focal neurological deficits recovering within 24 hours, or as stroke with persistent neurological deficit. Faktor predisposisi: Hipertensi, DM, riwayat keluarga",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Gambaran Radiologi Infark",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "CT FINDINGS: CT may be normal in very early infarction and typically becomes clearly apparent after 24 hours. Early signs include loss of gray-white matter differentiation in the affected area and hypodense lesions in the vascular territory involved. HYPERDENSE MCA SIGN: On non-contrast CT, a hyperdense middle cerebral artery indicates acute thrombus within the vessel, an important early sign of large vessel occlusion. MRI-MRA: Demonstrates the occluded vascular region with greater sensitivity than CT, particularly in early infarction. Diffusion-weighted imaging (DWI) shows restricted diffusion within minutes of ischemia onset.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "CT: dapat normal pada infark sangat awal, baru jelas setelah 24 jam",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Loss of grey-white matter differentiation",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lesi hipodens pada area yang terkena",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hyperdense MCA sign: tanda thrombus akut di arteri",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "MRI-MRA: menunjukkan regio teroklusi dengan sensitivitas lebih tinggi",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hyperdense MCA sign on non-contrast CT is a critical early finding indicating large vessel occlusion and potential candidate for thrombectomy",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "CT FINDINGS: CT may be normal in very early infarction and typically becomes clearly apparent after 24 hours. Early signs include loss of gray-white matter differentiation in the affected area and hypodense lesions in the vascular territory involved. HYPERDENSE MCA SIGN: On non-contrast CT, a hyperdense middle cerebral artery indicates acute thrombus within the vessel, an important early sign of large vessel occlusion. MRI-MRA: Demonstrates the occluded vascular region with greater sensitivity than CT, particularly in early infarction. Diffusion-weighted imaging (DWI) shows restricted diffusion within minutes of ischemia onset. CT: dapat normal pada infark sangat awal, baru jelas setelah 24 jam",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Stroke Hemoragik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Hemorrhagic stroke appears on CT as hyperdense lesions. MRI shows hyperintense lesions with perilesional edema on T2-weighted images. GRE (Gradient Echo) sequences demonstrate hypointense lesions with surrounding edema, sensitive for blood products.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "CT scan: lesi hiperdens",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "MRI T2: lesi hiperintens dengan edema peri-lesi",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "GRE: lesi hipointens dengan edema disekitarnya",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "GRE is sensitive for hemorrhage detection; hypointense signal indicates hemosiderin/ferritin",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Hemorrhagic stroke appears on CT as hyperdense lesions. MRI shows hyperintense lesions with perilesional edema on T2-weighted images. GRE (Gradient Echo) sequences demonstrate hypointense lesions with surrounding edema, sensitive for blood products. CT scan: lesi hiperdens",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Hyperdense MCA sign",
+      "meaning": "Tanda thrombus akut di arteri serebri media pada CT non-kontras"
+    },
+    {
+      "term": "GRE",
+      "meaning": "Gradient Echo sequence, sensitif untuk deteksi perdarahan"
+    },
+    {
+      "term": "DWI",
+      "meaning": "Diffusion Weighted Imaging, menunjukkan restricted diffusion pada iskemia akut"
+    }
+  ],
+  "tables": [],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Non-contrast CT head",
+      "explanation": "First-line imaging to exclude hemorrhage; look for hyperdense MCA sign, early ischemic changes"
+    },
+    {
+      "step": 2,
+      "title": "Differentiate ischemic vs hemorrhagic",
+      "explanation": "Ischemic = hypodense; Hemorrhagic = hyperdense"
+    },
+    {
+      "step": 3,
+      "title": "MRI for further characterization",
+      "explanation": "DWI for acute ischemia, GRE for hemorrhage detection, MRA for vessel occlusion"
+    }
+  ],
+  "differential_notes": [
+    {
+      "item": "Acute infarct vs normal CT",
+      "how_to_separate": "Early CT may be normal; follow ASPECTS scoring for early ischemic changes"
+    },
+    {
+      "item": "Ischemic vs hemorrhagic stroke",
+      "how_to_separate": "CT density: ischemic = hypodense, hemorrhagic = hyperdense"
+    },
+    {
+      "item": "Tumor with hemorrhage vs primary hemorrhage",
+      "how_to_separate": "Look for underlying mass, enhancement pattern, edema distribution"
+    }
+  ],
+  "treatment_notes": [],
+  "red_flags": [
+    "Hyperdense MCA sign indicating large vessel occlusion",
+    "Hemorrhagic transformation of ischemic stroke",
+    "Mass effect with midline shift"
+  ],
+  "extraction_notes": [
+    "Source was relatively concise with image-heavy slides",
+    "Key radiological findings preserved with associated CT/MRI characteristics",
+    "No references cited in source"
+  ],
+  "confidence_summary": "high",
+  "qc_flags": []
+}

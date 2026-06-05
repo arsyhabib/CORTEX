@@ -1,0 +1,379 @@
+{
+  "id": "lecture_6e_status_epileptikus_020",
+  "batch_id": "batch_1_6e",
+  "title": "Status Epileptikus",
+  "subtitle": "Kimi rerun: neuro_epilepsy",
+  "source_pdf": "STATUS EPILEPTIKUS koas.docx",
+  "source_docx": "STATUS EPILEPTIKUS koas.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah komprehensif tentang status epileptikus (SE) yang mencakup definisi (definisi 5-menit dan 30-menit), klasifikasi (konvulsif vs non-konvulsif, generalisasi vs fokal), epidemiologi, etiologi, patofisiologi (eksitotoksisitas, disfungsi autonomik), gambaran klinis, pendekatan diagnosis (laboratorium, EEG, neuroimaging), protokol manajemen bertahap (benzodiazepin, fenytoin/valproat, SE refrakter dengan agen anestesi), komplikasi, dan prognosis. Menekankan algoritma terapi yang bergantung pada waktu di mana keterlambatan memperburuk outcome.",
+    "Operational definition: 5 minutes of continuous seizures OR two or more discrete seizures without full recovery between",
+    "Time-dependent treatment: benzodiazepines (0-5 min), IV antiepileptics (5-20 min), anesthetic agents (20-60 min) for refractory SE",
+    "Mortality increases with duration: ~3% at 10-29 min, 19% at >30 min, 32% at >60 min"
+  ],
+  "exam_focus": [
+    "5-minute operational definition",
+    "Time-dependent treatment algorithm",
+    "First-line benzodiazepines (lorazepam, midazolam)",
+    "Second-line options (phenytoin, valproate, levetiracetam)",
+    "Refractory SE management (midazolam, propofol, pentobarbital)",
+    "Mortality increases with duration"
+  ],
+  "learning_goals": [
+    "Mendefinisikan status epileptikus menggunakan kriteria berbasis waktu",
+    "Mengklasifikasikan SE ke dalam tipe konvulsif dan non-konvulsif",
+    "Menerapkan protokol terapi bertahap untuk SE",
+    "Menatalaksana status epileptikus refrakter dengan agen anestesi"
+  ],
+  "key_points": [
+    "Operational definition: 5 minutes of continuous seizures OR two or more discrete seizures without full recovery between",
+    "Time-dependent treatment: benzodiazepines (0-5 min), IV antiepileptics (5-20 min), anesthetic agents (20-60 min) for refractory SE",
+    "Mortality increases with duration: ~3% at 10-29 min, 19% at >30 min, 32% at >60 min",
+    "Non-convulsive SE (NCSE) requires EEG for diagnosis - maintain high index of suspicion in altered mental status after seizure",
+    "Refractory SE requires continuous EEG monitoring, anesthetic agents (midazolam, propofol, pentobarbital), and ICU-level care"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Definisi dan Klasifikasi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "STATUS EPILEPTICUS (SE) is defined as: (1) 5 minutes or more of continuous clinical and/or electrographic seizure activity; OR (2) recurrent seizure activity without recovery (return to baseline) between seizures. Operational time points: T1 (5 minutes) = time when treatment should begin; T2 (30 minutes) = time when risk of neuronal injury increases significantly. CLASSIFICATION: By motor activity: Convulsive SE (CSE) = tonic-clonic movements; Non-convulsive SE (NCSE) = altered mental status without convulsions; Myoclonic SE. By EEG pattern: Generalized SE; Focal SE. By treatment response: Early SE (0-5 min); Established SE (5-20 min, responds to first-line); Refractory SE (RSE) (20-60 min, fails first and second line); Super-refractory SE (>60 min or recurs after anesthetic withdrawal).",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Do not wait 30 minutes to treat - begin treatment at 5 minutes per operational definition",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "STATUS EPILEPTICUS (SE) is defined as: (1) 5 minutes or more of continuous clinical and/or electrographic seizure activity; OR (2) recurrent seizure activity without recovery (return to baseline) between seizures. Operational time points: T1 (5 minutes) = time when treatment should begin; T2 (30 minutes) = time when risk of neuronal injury increases significantly. CLASSIFICATION: By motor activity: Convulsive SE (CSE) = tonic-clonic movements; Non-convulsive SE (NCSE) = altered mental status without convulsions; Myoclonic SE. By EEG pattern: Generalized SE; Focal SE. By treatment response: Early SE (0-5 min); Established SE (5-20 min, responds to first-line); Refractory SE (RSE) (20-60 min, fails first and second line); Super-refractory SE (>60 min or recurs after anesthetic withdrawal). Do not wait 30 minutes to treat - begin treatment at 5 minutes per operational definition",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Etiologi dan Patofisiologi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "ETIOLOGY: Acute symptomatic (stroke, trauma, infection, metabolic derangement, hypoxia, drug withdrawal); Remote symptomatic (epilepsy with breakthrough seizures, missed medications); Progressive symptomatic (brain tumor, neurodegenerative disease). Common triggers: antiepileptic drug non-adherence (most common in known epileptics), alcohol withdrawal, CNS infection, stroke, metabolic (hypoglycemia, hyponatremia, hypocalcemia, uremia, hepatic encephalopathy). PATHOPHYSIOLOGY: Initially, compensatory mechanisms maintain seizure threshold (increased GABA, enhanced receptor sensitivity). After 30 minutes, these fail: GABA receptors internalize (reduced sensitivity to benzodiazepines), NMDA receptors traffic to surface (enhanced excitotoxicity), autonomic dysfunction (hypertension, tachycardia, hyperthermia, sweating, arrhythmias), excitotoxic neuronal damage (glutamate surge, calcium influx, free radical production).",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penyebab: stroke, trauma, infeksi, metabolic, hipoksia, withdraw obat",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pemicu paling umum: non-adherensi OAE, withdraw alkohol",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Setelah 30 menit: internalisasi reseptor GABA, eksitotoksisitas",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Disfungsi autonomik: hipertensi, takikardi, hipertermi",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "After 30 minutes, GABA receptor internalization makes benzodiazepines less effective - this is why early treatment is critical",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "ETIOLOGY: Acute symptomatic (stroke, trauma, infection, metabolic derangement, hypoxia, drug withdrawal); Remote symptomatic (epilepsy with breakthrough seizures, missed medications); Progressive symptomatic (brain tumor, neurodegenerative disease). Common triggers: antiepileptic drug non-adherence (most common in known epileptics), alcohol withdrawal, CNS infection, stroke, metabolic (hypoglycemia, hyponatremia, hypocalcemia, uremia, hepatic encephalopathy). PATHOPHYSIOLOGY: Initially, compensatory mechanisms maintain seizure threshold (increased GABA, enhanced receptor sensitivity). After 30 minutes, these fail: GABA receptors internalize (reduced sensitivity to benzodiazepines), NMDA receptors traffic to surface (enhanced excitotoxicity), autonomic dysfunction (hypertension, tachycardia, hyperthermia, sweating, arrhythmias), excitotoxic neuronal damage (glutamate surge, calcium influx, free radical production). Penyebab: stroke, trauma, infeksi, metabolic, hipoksia, withdraw obat",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Gambaran Klinis dan Diagnosis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "CONVULSIVE SE: Generalized tonic-clonic activity lasting >5 minutes; may become subtle (decreased motor activity) after 30-60 min despite ongoing EEG seizure activity; coma between seizures without recovery; autonomic instability (tachycardia, hypertension, hyperthermia, diaphoresis, pupillary changes); respiratory compromise. NON-CONVULSIVE SE: Altered mental status (confusion, decreased responsiveness, coma) without convulsive activity; may follow CSE (patient fails to wake up after clinical seizures stop); requires EEG for diagnosis. EEG patterns: spike-wave at 3 Hz (typical absence), focal rhythmic activity, periodic discharges. DIAGNOSTIC WORKUP: Blood glucose (immediately), electrolytes (Na, Ca, Mg), renal function, LFTs, ABG, toxicology screen, antiepileptic drug levels, CBC. CT head to rule out structural cause. LP if infection suspected. EEG as soon as possible (especially if NCSE suspected or RSE management).",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "CSE: aktivitas tonik-klonik >5 menit, disfungsi autonomik",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "NCSE: altered mental status tanpa konvulsi, butuh EEG",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pemeriksaan: gula darah, elektrolit, CT kepala, EEG",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "LP jika dicurigai infeksi",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Always check blood glucose first in any seizure presentation - hypoglycemia is reversible and treatable",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "CONVULSIVE SE: Generalized tonic-clonic activity lasting >5 minutes; may become subtle (decreased motor activity) after 30-60 min despite ongoing EEG seizure activity; coma between seizures without recovery; autonomic instability (tachycardia, hypertension, hyperthermia, diaphoresis, pupillary changes); respiratory compromise. NON-CONVULSIVE SE: Altered mental status (confusion, decreased responsiveness, coma) without convulsive activity; may follow CSE (patient fails to wake up after clinical seizures stop); requires EEG for diagnosis. EEG patterns: spike-wave at 3 Hz (typical absence), focal rhythmic activity, periodic discharges. DIAGNOSTIC WORKUP: Blood glucose (immediately), electrolytes (Na, Ca, Mg), renal function, LFTs, ABG, toxicology screen, antiepileptic drug levels, CBC. CT head to rule out structural cause. LP if infection suspected. EEG as soon as possible (especially if NCSE suspected or RSE management). CSE: aktivitas tonik-klonik >5 menit, disfungsi autonomik",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Protokol Terapi Bertahap",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "PHASE 1 - STABILIZATION (0-5 min): ABCs, vital signs, IV access, blood glucose, labs, position patient to prevent injury, O2 if needed. PHASE 2 - FIRST-LINE (0-10 min): Benzodiazepines (most effective in first 20 min). Options: Lorazepam 0.1 mg/kg IV (max 4 mg), may repeat once; OR Midazolam 0.2 mg/kg IM (if no IV access) or 0.2 mg/kg buccal/IN; OR Diazepam 0.15-0.2 mg/kg IV. PHASE 3 - SECOND-LINE (10-20 min): If seizures continue after benzodiazepines. ONE of: Phenytoin 20 mg/kg IV at max 50 mg/min (monitor BP, ECG); OR Valproate 30-40 mg/kg IV; OR Levetiracetam 60 mg/kg IV (up to 4500 mg); OR Phenobarbital 20 mg/kg IV. PHASE 4 - REFRACTORY SE (20-60 min): If seizures continue after adequate first and second line. Admit to ICU, intubate if needed, continuous EEG. ONE of: Midazolam infusion 0.2 mg/kg bolus then 0.05-2 mg/kg/h; OR Propofol 1-2 mg/kg bolus then 20-100 mcg/kg/min (caution: propofol infusion syndrome >48h); OR Pentobarbital 5-15 mg/kg bolus then 0.5-5 mg/kg/h.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Doses are maximums - always monitor vitals during phenytoin infusion (hypotension, arrhythmia risk)",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "PHASE 1 - STABILIZATION (0-5 min): ABCs, vital signs, IV access, blood glucose, labs, position patient to prevent injury, O2 if needed. PHASE 2 - FIRST-LINE (0-10 min): Benzodiazepines (most effective in first 20 min). Options: Lorazepam 0.1 mg/kg IV (max 4 mg), may repeat once; OR Midazolam 0.2 mg/kg IM (if no IV access) or 0.2 mg/kg buccal/IN; OR Diazepam 0.15-0.2 mg/kg IV. PHASE 3 - SECOND-LINE (10-20 min): If seizures continue after benzodiazepines. ONE of: Phenytoin 20 mg/kg IV at max 50 mg/min (monitor BP, ECG); OR Valproate 30-40 mg/kg IV; OR Levetiracetam 60 mg/kg IV (up to 4500 mg); OR Phenobarbital 20 mg/kg IV. PHASE 4 - REFRACTORY SE (20-60 min): If seizures continue after adequate first and second line. Admit to ICU, intubate if needed, continuous EEG. ONE of: Midazolam infusion 0.2 mg/kg bolus then 0.05-2 mg/kg/h; OR Propofol 1-2 mg/kg bolus then 20-100 mcg/kg/min (caution: propofol infusion syndrome >48h); OR Pentobarbital 5-15 mg/kg bolus then 0.5-5 mg/kg/h. Doses are maximums - always monitor vitals during phenytoin infusion (hypotension, arrhythmia risk)",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "SE Refrakter dan Prognosis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "REFRACTORY SE MANAGEMENT: ICU admission, continuous EEG monitoring (burst suppression or seizure suppression for 24-48h before weaning), supportive care (mechanical ventilation, hemodynamic support, temperature management). Treat underlying cause. Consider alternative diagnoses (pseudoseizures, metabolic coma). COMPLICATIONS: Cardiovascular (arrhythmia, hypotension, cardiac arrest), respiratory (aspiration pneumonia, respiratory failure), neurological (excitotoxic injury, cerebral edema, permanent cognitive deficits), metabolic (rhabdomyolysis, lactic acidosis, hyperthermia, DIC), autonomic storm. PROGNOSIS: Mortality 10-20% for GCSE overall. Factors associated with worse outcome: older age, longer SE duration, acute symptomatic etiology, refractory SE, comorbidities. Good prognostic factors: younger age, idiopathic/cryptogenic etiology, shorter duration, prompt treatment. Mortality by duration: ~3% at 10-29 min, 19% at >30 min, 32% at >60 min.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "RSE: ICU, EEG kontinu, ventilasi mekanik jika diperlukan",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Komplikasi: aritmia, aspirasi, cedera otak, rabdomiolisis",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mortalitas: 10-20% GCSE; meningkat dengan durasi",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Faktor buruk: usia tua, durasi panjang, refrakter",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mortality increases with every minute of untreated SE - aggressive early treatment is the key to improving outcomes",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "REFRACTORY SE MANAGEMENT: ICU admission, continuous EEG monitoring (burst suppression or seizure suppression for 24-48h before weaning), supportive care (mechanical ventilation, hemodynamic support, temperature management). Treat underlying cause. Consider alternative diagnoses (pseudoseizures, metabolic coma). COMPLICATIONS: Cardiovascular (arrhythmia, hypotension, cardiac arrest), respiratory (aspiration pneumonia, respiratory failure), neurological (excitotoxic injury, cerebral edema, permanent cognitive deficits), metabolic (rhabdomyolysis, lactic acidosis, hyperthermia, DIC), autonomic storm. PROGNOSIS: Mortality 10-20% for GCSE overall. Factors associated with worse outcome: older age, longer SE duration, acute symptomatic etiology, refractory SE, comorbidities. Good prognostic factors: younger age, idiopathic/cryptogenic etiology, shorter duration, prompt treatment. Mortality by duration: ~3% at 10-29 min, 19% at >30 min, 32% at >60 min. RSE: ICU, EEG kontinu, ventilasi mekanik jika diperlukan",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "SE",
+      "meaning": "Status Epileptikus"
+    },
+    {
+      "term": "CSE",
+      "meaning": "Convulsive Status Epileptikus"
+    },
+    {
+      "term": "NCSE",
+      "meaning": "Non-Convulsive Status Epileptikus"
+    },
+    {
+      "term": "RSE",
+      "meaning": "Refractory Status Epileptikus"
+    },
+    {
+      "term": "Propofol infusion syndrome",
+      "meaning": "Sindrom letal dengan asidosis laktat, rhabdomiolisis, gagal ginjal setelah infus propofol berkepanjangan"
+    }
+  ],
+  "tables": [],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Recognize SE",
+      "explanation": ">5 min continuous or recurrent seizures without recovery"
+    },
+    {
+      "step": 2,
+      "title": "Stabilize",
+      "explanation": "ABCs, glucose, labs"
+    },
+    {
+      "step": 3,
+      "title": "First-line benzodiazepine",
+      "explanation": "Lorazepam 0.1mg/kg IV"
+    },
+    {
+      "step": 4,
+      "title": "Second-line antiepileptic",
+      "explanation": "Phenytoin, valproate, or levetiracetam"
+    },
+    {
+      "step": 5,
+      "title": "Refractory: ICU, continuous EEG, anesthetic",
+      "explanation": "Midazolam, propofol, or pentobarbital infusion"
+    }
+  ],
+  "differential_notes": [
+    {
+      "item": "NCSE vs metabolic encephalopathy",
+      "how_to_separate": "EEG is definitive; NCSE shows rhythmic epileptiform activity"
+    },
+    {
+      "item": "Convulsive vs non-convulsive SE",
+      "how_to_separate": "Motor activity present vs only altered mental status; EEG required for NCSE"
+    }
+  ],
+  "treatment_notes": [
+    {
+      "phase": "first_line",
+      "content": "Lorazepam 0.1mg/kg IV or midazolam 0.2mg/kg IM"
+    },
+    {
+      "phase": "second_line",
+      "content": "Phenytoin 20mg/kg IV, valproate 30-40mg/kg IV, or levetiracetam 60mg/kg IV"
+    },
+    {
+      "phase": "refractory",
+      "content": "Midazolam infusion, propofol, or pentobarbital with continuous EEG"
+    }
+  ],
+  "red_flags": [
+    "Seizure lasting >5 minutes",
+    "Two or more seizures without recovery between",
+    "Altered mental status after seizure (possible NCSE)",
+    "Autonomic instability with seizures"
+  ],
+  "extraction_notes": [
+    "Comprehensive SE lecture with staged treatment protocol",
+    "Time-dependent mortality data preserved",
+    "Dosing for all treatment phases preserved",
+    "RSE management with anesthetic agents detailed"
+  ],
+  "confidence_summary": "high",
+  "qc_flags": []
+}

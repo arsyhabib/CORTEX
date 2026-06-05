@@ -1,0 +1,272 @@
+{
+  "id": "lecture_6e_bangkitan_epileptik_007",
+  "batch_id": "batch_1_6e",
+  "title": "Bangkitan Epileptik",
+  "subtitle": "Kimi rerun: neuro_epilepsy",
+  "source_pdf": "KULIAH BANGKITAN koas.docx",
+  "source_docx": "KULIAH BANGKITAN koas.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah tentang bangkitan epileptik yang mencakup klasifikasi ILAE 2017, klasifikasi tipe kejang (fokal, generalisasi, onset tidak diketahui), kejang refleks, pemeriksaan penunjang (neuroimaging, laboratorium, LCS, EEG, EKG), serta lokalisasi sindrom epilepsi berdasarkan lobus (frontal, temporal, parietal, oksipital, talamus). Menyertakan tabel lokalisasi berbasis semiologi dan tanda-tanda lateralitiasi.",
+    "Epileptic seizure: transient signs/symptoms from abnormal excessive neuronal activity in the brain (ILAE)",
+    "ILAE 2017 classification divides seizures into focal, generalized, and unknown onset",
+    "Reflex seizures are triggered by specific stimuli (visual, auditory, somatosensory, motor)"
+  ],
+  "exam_focus": [
+    "ILAE 2017 classification levels",
+    "Frontal lobe seizure semiology (motor, SSMA, bizarre automatisms)",
+    "Temporal lobe seizure features (epigastric aura, deja vu, automatisms)",
+    "17 lateralization signs and their values",
+    "Reflex seizure triggers"
+  ],
+  "learning_goals": [
+    "Menerapkan klasifikasi ILAE 2017 untuk bangkitan epileptik",
+    "Melokalisasi asal kejang berdasarkan semiologi klinis",
+    "Menggunakan tanda lateralitiasi untuk menentukan hemisfer fokus kejang",
+    "Merencanakan pemeriksaan penunjang yang tepat untuk evaluasi epilepsi"
+  ],
+  "key_points": [
+    "Epileptic seizure: transient signs/symptoms from abnormal excessive neuronal activity in the brain (ILAE)",
+    "ILAE 2017 classification divides seizures into focal, generalized, and unknown onset",
+    "Reflex seizures are triggered by specific stimuli (visual, auditory, somatosensory, motor)",
+    "Frontal lobe seizures: motor cortex-based (tonic, clonic, myoclonic), supplementary motor area involvement, bizarre gestural automatisms, shorter post-ictal state",
+    "Temporal lobe seizures: visceral aura, psychic phenomena (deja vu, jamais vu), oroalimentary automatism, longer post-ictal confusion"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Definisi dan Klasifikasi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "An epileptic seizure is the transient occurrence of signs and/or symptoms due to abnormal excessive or synchronous neuronal activity in the brain (ILAE). The ILAE 2017 classification organizes epilepsies by seizure type: Focal Onset (seizures originating in one hemisphere, with or without impaired awareness), Generalized Onset (seizures involving both hemispheres from onset, including motor and non-motor types), and Unknown Onset (when onset cannot be determined).",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bangkitan epilepsi: tanda/gejala sesaat akibat aktivitas neuronal abnormal dan berlebihan di otak",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Klasifikasi ILAE 2017: berdasarkan onset (fokal, generalisasi, tidak diketahui)",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Scheffer IE et al. Epilepsia 2017;58(4):512-521",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "An epileptic seizure is the transient occurrence of signs and/or symptoms due to abnormal excessive or synchronous neuronal activity in the brain (ILAE). The ILAE 2017 classification organizes epilepsies by seizure type: Focal Onset (seizures originating in one hemisphere, with or without impaired awareness), Generalized Onset (seizures involving both hemispheres from onset, including motor and non-motor types), and Unknown Onset (when onset cannot be determined). Bangkitan epilepsi: tanda/gejala sesaat akibat aktivitas neuronal abnormal dan berlebihan di otak",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Klasifikasi Tipe Bangkitan",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Seizures are classified by their pattern of onset and clinical manifestations. Focal seizures may spread to become bilateral tonic-clonic. Awareness (previously called consciousness) is a key distinguishing feature within focal seizures. Generalized seizures include tonic-clonic, absence, myoclonic, tonic, and atonic types.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Fokal: dengan atau tanpa gangguan kesadaran, dapat berkembang menjadi bilateral tonik-klonik",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Generalisasi: tonik-klonik, absen, mioklonik, tonik, atonik",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak diketahui onsetnya",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Seizures are classified by their pattern of onset and clinical manifestations. Focal seizures may spread to become bilateral tonic-clonic. Awareness (previously called consciousness) is a key distinguishing feature within focal seizures. Generalized seizures include tonic-clonic, absence, myoclonic, tonic, and atonic types. Fokal: dengan atau tanpa gangguan kesadaran, dapat berkembang menjadi bilateral tonik-klonik",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Bangkitan Refleks dan Pemeriksaan Penunjang",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Reflex seizures are triggered by specific stimuli including visual (flashing lights, patterns), auditory, somatosensory, and somatomotor triggers. Ancillary testing for epilepsy evaluation includes neuroimaging (CT/MRI), laboratory tests, CSF analysis, EEG, and EKG (to rule out cardiac causes of syncope).",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bangkitan refleks: dipicu stimulasi visual, auditorik, somatosensitif, somatomotor",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pemeriksaan penunjang: pencitraan, laboratorium, analisa LCS, EEG, EKG",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Reflex seizures are triggered by specific stimuli including visual (flashing lights, patterns), auditory, somatosensory, and somatomotor triggers. Ancillary testing for epilepsy evaluation includes neuroimaging (CT/MRI), laboratory tests, CSF analysis, EEG, and EKG (to rule out cardiac causes of syncope). Bangkitan refleks: dipicu stimulasi visual, auditorik, somatosensitif, somatomotor",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Sindroma Epilepsi - Lokalisasi Lobus",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Clinical semiology provides critical localizing information for seizure origin. Each lobe produces characteristic features.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ictal vomiting lateralizes to the RIGHT hemisphere; Post-ictal nose rubbing ipsilateral to seizure focus",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Clinical semiology provides critical localizing information for seizure origin. Each lobe produces characteristic features. Ictal vomiting lateralizes to the RIGHT hemisphere; Post-ictal nose rubbing ipsilateral to seizure focus",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Bangkitan epileptik",
+      "meaning": "Kejadian tanda/gejala sementara akibat aktivitas neuronal abnormal berlebihan"
+    },
+    {
+      "term": "Semiology",
+      "meaning": "Studi tanda-tanda klinis untuk lokalisasi fokus kejang"
+    },
+    {
+      "term": "SSMA",
+      "meaning": "Supplementary Sensorimotor Area"
+    },
+    {
+      "term": "Aura",
+      "meaning": "Gejala awal yang dirasakan sebelum kejang penuh"
+    },
+    {
+      "term": "Paralisis Todd",
+      "meaning": "Kelemahan fokal sementara pasca-kejang"
+    },
+    {
+      "term": "Dialeptik",
+      "meaning": "Kejang dengan gangguan kesadaran"
+    }
+  ],
+  "tables": [],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Classify seizure type",
+      "explanation": "Focal vs generalized vs unknown onset per ILAE 2017"
+    },
+    {
+      "step": 2,
+      "title": "Identify localizing semiology",
+      "explanation": "Match clinical features to lobe-specific patterns"
+    },
+    {
+      "step": 3,
+      "title": "Apply lateralization signs",
+      "explanation": "Use specific signs to determine hemisphere of origin"
+    },
+    {
+      "step": 4,
+      "title": "Confirm with ancillary testing",
+      "explanation": "EEG, MRI, and other tests to support localization"
+    }
+  ],
+  "differential_notes": [
+    {
+      "item": "Frontal vs temporal lobe seizures",
+      "how_to_separate": "Frontal: bizarre motor, short post-ictal, preserved awareness; Temporal: automatisms, psychic auras, prolonged post-ictal confusion"
+    },
+    {
+      "item": "Epileptic vs psychogenic non-epileptic seizures",
+      "how_to_separate": "PNES: eyes closed, side-to-side head movement, crying, asynchronous movements, no post-ictal confusion"
+    }
+  ],
+  "treatment_notes": [],
+  "red_flags": [
+    "Status epilepticus",
+    "First seizure in adult >40 years",
+    "Seizure with focal deficit suggesting structural lesion",
+    "Sudden unexplained change in seizure pattern"
+  ],
+  "extraction_notes": [
+    "ILAE 2017 classification citation preserved: Scheffer IE et al. Epilepsia 2017",
+    "Semiology localization table reconstructed from fragmented slide text",
+    "Lateralization signs table had 17 entries preserved in full",
+    "Some slides were image-heavy with minimal extractable text"
+  ],
+  "confidence_summary": "high",
+  "qc_flags": []
+}

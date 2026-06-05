@@ -1,0 +1,647 @@
+{
+  "id": "lecture_6f_professional_012",
+  "batch_id": "batch_2_6f",
+  "title": "Prilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri",
+  "subtitle": "Kimi rerun: psychiatry_clinical_skills",
+  "source_pdf": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+  "source_docx": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah komprehensif tentang perilaku profesional dan pemeriksaan psikiatri oleh dr. Tumpak Saragi mencakup: definisi dan ruang lingkup wawancara psikiatri (primer vs komplementer), format wawancara semi-terstruktur, struktur wawancara 4 fase (pembuka, isi, penutup, dokumentasi), teknik komunikasi (pertanyaan terbuka/tertutup, fasilitasi, refleksi, konfrontasi, interpretasi), sikap klinis (empati, penerimaan tanpa syarat, autentisitas), 5 tingkat wawasandiri, etik, dan teknik pemeriksaan khusus (MSE, neurologis, fisik).",
+    "Psychiatric interview includes anamnesis, MSE, diagnosis/prognosis, and psychotherapy",
+    "Rapport = trust + understanding; essential for patient disclosure",
+    "Open-ended questions first, then closed for specifics; combine both for best results"
+  ],
+  "exam_focus": [
+    "Definition of rapport (trust + understanding)",
+    "Open-ended vs closed questions - when to use each",
+    "3 stages of psychiatric interview",
+    "4 key screening questions for primary care",
+    "Complete MSE components in order",
+    "5 levels of insight",
+    "5-axis DSM diagnosis",
+    "Normal eye contact = 50%"
+  ],
+  "learning_goals": [
+    "Define psychiatric interview and its components",
+    "Build rapport using specific strategies",
+    "Apply open-ended and closed questioning techniques",
+    "Conduct a three-stage psychiatric interview",
+    "Perform comprehensive mental status examination",
+    "Use multi-axial DSM diagnosis",
+    "Identify key questions for detecting mental disorders in primary care"
+  ],
+  "key_points": [
+    "Psychiatric interview includes anamnesis, MSE, diagnosis/prognosis, and psychotherapy",
+    "Rapport = trust + understanding; essential for patient disclosure",
+    "Open-ended questions first, then closed for specifics; combine both for best results",
+    "Three stages: opening (identity, rapport, confidentiality), content (chief complaint, history, MSE), closing (summary, explanation, follow-up)",
+    "MSE covers: appearance, speech, mood/affect, thought (form and content), perception, sensorium/cognition, insight, judgment",
+    "Memory assessment: remote, recent past, recent, immediate retention and recall",
+    "Insight levels: denial, partial awareness, intellectual insight, true emotional insight",
+    "5-axis diagnosis: Axis I (clinical disorders), Axis II (personality/mental retardation), Axis III (medical conditions), Axis IV (psychosocial/environmental), Axis V (GAF)"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Pengertian Wawancara Psikiatrik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Anamnesis",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pemeriksaan status mental",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penetapan diagnosis dan prognosis",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Intervensi non-farmakologis (psikoterapi)",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Anamnesis Pemeriksaan status mental",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Teknik Wawancara",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Rapport adalah interaksi antara pasien dengan pewawancara yang di dalamnya terdapat rasa percaya (trust) dan pengertian (understanding). Pasien sering mengalami rasa khawatir, takut, atau bingung saat pertama menemui pewawancara, sehingga dibutuhkan rasa percaya dan diterima agar pasien mau menceritakan permasalahannya.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Buat suasana nyaman bagi pasien dan pewawancara",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Temukan hal-hal yang menyebabkan penderitaan pasien dan perlihatkan kepedulian",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tunjukkan keahlian dan bangun sikap kepemimpinan",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Buka wawancara dengan percakapan ringan untuk mengenal/dekat dengan pasien",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lingkungan nyaman, tidak bising, tidak banyak intervensi (bunyi HP, orang lalu lalang)",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Menjadi pendengar aktif dan efektif",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Rapport adalah interaksi antara pasien dengan pewawancara yang di dalamnya terdapat rasa percaya (trust) dan pengertian (understanding). Pasien sering mengalami rasa khawatir, takut, atau bingung saat pertama menemui pewawancara, sehingga dibutuhkan rasa percaya dan diterima agar pasien mau menceritakan permasalahannya. Buat suasana nyaman bagi pasien dan pewawancara",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Tahapan Wawancara",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "1. Membuka wawancara: penelusuran identitas pasien, membina rapport, persiapan pasien, jelaskan kerahasiaan",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "2. Isi wawancara: keluhan utama (kapan dan bagaimana awalnya, perjalanan penyakit), gejala fisik, riwayat obat/zat, kepercayaan pasien terhadap penyakit, riwayat gangguan jiwa, penyakit medis, peristiwa kehidupan, sumber dukungan sosial, riwayat perkembangan dan keluarga, pemeriksaan status mental",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "3. Menutup wawancara: simpulan singkat dengan kalimat suportif, penjelasan diagnosis dan rencana terapi, kesempatan pasien bertanya, janji temu berikutnya",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pembuka: bangun kepercayaan, tetapkan kerahasiaan. Isi: biarkan pasien meluapkan bebas pada fase awal, deteksi depresi/ansietas/kemarahan. Penutup: selalu rangkum, bahas kepatuhan obat, jadwalkan tindak lanjut. Dokumentasi: catat temuan secara sistematis.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "1. Membuka wawancara: penelusuran identitas pasien, membina rapport, persiapan pasien, jelaskan kerahasiaan 2. Isi wawancara: keluhan utama (kapan dan bagaimana awalnya, perjalanan penyakit), gejala fisik, riwayat obat/zat, kepercayaan pasien terhadap penyakit, riwayat gangguan jiwa, penyakit medis, peristiwa kehidupan, sumber dukungan sosial, riwayat perkembangan dan keluarga, pemeriksaan status mental",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Pertanyaan Kunci Skrining",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Apakah Anda mengalami kesulitan tidur di malam hari?",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Apakah Anda merasa seolah tidak tertarik untuk melakukan kegiatan yang biasa Anda lakukan?",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Apakah Anda merasa sedih akhir-akhir ini?",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Apakah Anda merasa takut terhadap apapun?",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "4 pertanyaan skrining kunci untuk layanan primer: tidur, minat/anhedonia, mood, ansietas. Jawaban positif memerlukan rujukan psikiatri.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Apakah Anda mengalami kesulitan tidur di malam hari? Apakah Anda merasa seolah tidak tertarik untuk melakukan kegiatan yang biasa Anda lakukan?",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Pemeriksaan Status Mental",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "1. Penampilan: postur, pakaian, perawatan diri, rambut, kuku; tampak sehat/sakit/marah/ketakutan/apatis/bingung; tanda kecemasan (telapak lembab, dahi berkeringat, gelisah, postur tegang); kontak mata (50% normal)",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "2. Perilaku psikomotor: cara melangkah, mannerisme, tics, gerakan memunguti, menyentuh pemeriksa, stereotipi, echopraxia, lemas, gelisah, kaku, lambat, hiperaktif",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "3. Bicara: cepat, lambat, tertahan, ragu-ragu, emosional, monoton, keras, berbisik, cadel, bergumam, gagap, echolalia, intensitas, santai, spontan",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "4. Mood: depresif, putus asa, mudah tersinggung, cemas, takut, marah, expansive, euforia, hampa, bersalah, anhedonia, alexithymia",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "5. Afek: luas, terbatas, tumpul/datar, dangkal; kesulitan memulai, mempertahankan, atau mengakhiri respon emosional",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "1. Penampilan: postur, pakaian, perawatan diri, rambut, kuku; tampak sehat/sakit/marah/ketakutan/apatis/bingung; tanda kecemasan (telapak lembab, dahi berkeringat, gelisah, postur tegang); kontak mata (50% normal) 2. Perilaku psikomotor: cara melangkah, mannerisme, tics, gerakan memunguti, menyentuh pemeriksa, stereotipi, echopraxia, lemas, gelisah, kaku, lambat, hiperaktif",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s06",
+      "title": "Pikiran dan Persepsi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Bentuk pikiran - Produktivitas: ide meluap-luap, kemiskinan ide, flight of ideas, berpikir cepat/lambat",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kontinuitas pikiran: jawaban sesuai/tidak, relevan, asosiasi longgar, tangensial, circumstantial, perseverasi, blocking",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gangguan bahasa: inkoherensi, asosiasi bunyi, neologisme",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Isi pikiran: preokupasi, obsesi, fobia, ide bunuh diri, hipokondria",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Waham: isi, organisasi, keyakinan pasien, pengaruh terhadap kehidupan",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ideas of reference and influence",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Halusinasi dan ilusi",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Depersonalisasi dan derealisasi",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Bentuk pikiran - Produktivitas: ide meluap-luap, kemiskinan ide, flight of ideas, berpikir cepat/lambat Kontinuitas pikiran: jawaban sesuai/tidak, relevan, asosiasi longgar, tangensial, circumstantial, perseverasi, blocking",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s07",
+      "title": "Sensorium dan Kognisi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Kesadaran/alertness: kesadaran terhadap lingkungan, perhatian, berkabut, fluktuasi, somnolen, stupor, letargi, fugue, koma",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Orientasi: waktu (jam, lama dirawat), tempat (di mana), orang (siapa pemeriksa)",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Memori: remote (masa kanak, peristiwa penting), recent past (beberapa bulan), recent (beberapa hari, makanan), immediate (6 angka ke depan/belakang, recall beberapa menit kemudian)",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Wawasan terhadap penyakit: 5 level dari penyangkalan total sampai true emotional insight",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "5 tingkat wawasandiri: (1) Penolakan total, (2) Kesadaran parsial terhadap penyakit, (3) Menyadari penyakit tetapi menyalahkan orang lain, (4) Wawasan intelektual (tahu tetapi tidak menerapkan), (5) Wawasan emosional sejati (menerima dan patuh).",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Kesadaran/alertness: kesadaran terhadap lingkungan, perhatian, berkabut, fluktuasi, somnolen, stupor, letargi, fugue, koma Orientasi: waktu (jam, lama dirawat), tempat (di mana), orang (siapa pemeriksa)",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s08",
+      "title": "Diagnosis Multiaksial",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Aksis I: Gangguan Klinis dan Kondisi Lain yang Menjadi Fokus Perhatian Klinis",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Aksis II: Gangguan Kepribadian dan Retardasi Mental",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Aksis III: Kondisi Medik Umum",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Aksis IV: Masalah Psikososial dan Lingkungan",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Aksis V: Penilaian Fungsi Secara Global (GAF)",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Aksis I: Gangguan Klinis dan Kondisi Lain yang Menjadi Fokus Perhatian Klinis Aksis II: Gangguan Kepribadian dan Retardasi Mental",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s09",
+      "title": "Terapi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Farmakoterapi",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Psikoterapi",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terapi sosial",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terapi okupasional",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lain-lain",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Farmakoterapi Psikoterapi",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Rapport",
+      "meaning": "Interaksi dengan rasa percaya dan pengertian antara pasien dan pewawancara"
+    },
+    {
+      "term": "MSE",
+      "meaning": "Mental Status Examination - pemeriksaan status mental"
+    },
+    {
+      "term": "Flight of ideas",
+      "meaning": "Pindah cepat antar topik pemikiran yang memiliki koneksi"
+    },
+    {
+      "term": "Perseverasi",
+      "meaning": "Pengulangan jawaban atau kata yang tidak sesuai konteks"
+    },
+    {
+      "term": "Alexithymia",
+      "meaning": "Kesulitan mengidentifikasi dan menggambarkan emosi"
+    },
+    {
+      "term": "GAF",
+      "meaning": "Global Assessment of Functioning - skor fungsional 0-100"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t01",
+      "title": "Diagnosis Multiaksial (5 Aksis)",
+      "columns": [
+        "Aksis",
+        "Konten"
+      ],
+      "rows": [
+        [
+          "I",
+          "Gangguan Klinis dan Kondisi Fokus Perhatian Klinis"
+        ],
+        [
+          "II",
+          "Gangguan Kepribadian dan Retardasi Mental"
+        ],
+        [
+          "III",
+          "Kondisi Medik Umum"
+        ],
+        [
+          "IV",
+          "Masalah Psikososial dan Lingkungan"
+        ],
+        [
+          "V",
+          "Penilaian Fungsi Secara Global"
+        ]
+      ]
+    }
+  ],
+  "diagnostic_logic": [],
+  "differential_notes": [],
+  "treatment_notes": [],
+  "red_flags": [],
+  "extraction_notes": [
+    "43-slide comprehensive lecture by Tumpak Saragi, dr., SpKJ.",
+    "MSE content extensive and well-structured.",
+    "5-axis diagnosis clearly presented.",
+    "4 key screening questions for primary care identified."
+  ],
+  "confidence_summary": "tinggi",
+  "qc_flags": []
+}

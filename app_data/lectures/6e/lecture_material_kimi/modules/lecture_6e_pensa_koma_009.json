@@ -1,0 +1,334 @@
+{
+  "id": "lecture_6e_pensa_koma_009",
+  "batch_id": "batch_1_6e",
+  "title": "Manajemen Pasca Stroke dan Koma",
+  "subtitle": "Kimi rerun: neuro_critical_care",
+  "source_pdf": "Manajemen Pensa dan Koma - Koass.docx",
+  "source_docx": "Manajemen Pensa dan Koma - Koass.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah komprehensif tentang manajemen pasca-stroke dan perawatan koma yang mencakup penanganan stroke iskemik vs hemoragik, pencegahan sekunder stroke, perawatan keperawatan (ROM, mobilisasi sendi, pencegahan kontraktur), penilaian disfagia, manajemen usus/kandung kemih, nutrisi, pencegahan komplikasi (DVT, dekubitus, pneumonia aspirasi), dan monitoring ICU untuk pasien neurologis. Manajemen koma mengikuti panduan Brain Trauma Foundation termasuk posisi kepala, monitoring ICP, pemeliharaan CPP, dan protokol sedasi.",
+    "Post-stroke complications include DVT, aspiration pneumonia, pressure sores, contractures, depression, and nutritional deficits",
+    "BP management differs by stroke type: ischemic (permissive hypertension up to 220/120) vs hemorrhagic (aggressive lowering)",
+    "Dysphagia screening must occur before any oral intake"
+  ],
+  "exam_focus": [
+    "BP management differences between ischemic and hemorrhagic stroke",
+    "ICP and CPP targets in coma management",
+    "Dysphagia screening protocol",
+    "BTF guidelines for head positioning"
+  ],
+  "learning_goals": [
+    "Membedakan manajemen pasca-stroke untuk stroke iskemik vs hemoragik",
+    "Menerapkan strategi pencegahan sekunder stroke",
+    "Menatalaksana perawatan keperawatan termasuk ROM, positioning, dan menelan",
+    "Menerapkan manajemen koma sesuai panduan BTF termasuk monitoring ICP"
+  ],
+  "key_points": [
+    "Post-stroke complications include DVT, aspiration pneumonia, pressure sores, contractures, depression, and nutritional deficits",
+    "BP management differs by stroke type: ischemic (permissive hypertension up to 220/120) vs hemorrhagic (aggressive lowering)",
+    "Dysphagia screening must occur before any oral intake",
+    "Coma management: head of bed 30 degrees, ICP <20 mmHg, CPP 60-70 mmHg"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Manajemen Pasca Stroke",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Post-stroke management requires differentiating between ischemic and hemorrhagic stroke as management pathways diverge significantly. Key management domains include blood pressure control, prevention of complications, early mobilization, and secondary prevention.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Manajemen tekanan darah berbeda untuk stroke iskemik vs hemoragik",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pencegahan komplikasi: DVT, pneumonia aspirasi, dekubitus, kontraktur",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mobilisasi dini dan rehabilitasi",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Post-stroke management requires differentiating between ischemic and hemorrhagic stroke as management pathways diverge significantly. Key management domains include blood pressure control, prevention of complications, early mobilization, and secondary prevention. Manajemen tekanan darah berbeda untuk stroke iskemik vs hemoragik",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Stroke Iskemik vs Hemoragik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "ISCHEMIC STROKE: BP management follows permissive hypertension principles unless >220/120 mmHg or specific indications exist. Antiplatelet therapy (aspirin, clopidogrel) for secondary prevention. Statins for atherosclerotic disease. Avoid anticoagulation in acute phase. HEMORRHAGIC STROKE: Aggressive BP lowering (target <140/90). Reverse anticoagulation if present. Neurosurgical consultation for cerebellar hematoma >3cm, hydrocephalus, or clinical deterioration. ICP management with osmotherapy.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "ISCHEMIC STROKE: BP management follows permissive hypertension principles unless >220/120 mmHg or specific indications exist. Antiplatelet therapy (aspirin, clopidogrel) for secondary prevention. Statins for atherosclerotic disease. Avoid anticoagulation in acute phase. HEMORRHAGIC STROKE: Aggressive BP lowering (target <140/90). Reverse anticoagulation if present. Neurosurgical consultation for cerebellar hematoma >3cm, hydrocephalus, or clinical deterioration. ICP management with osmotherapy.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Komplikasi dan Perawatan Keperawatan",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Common post-stroke complications include deep vein thrombosis (DVT), aspiration pneumonia, pressure sores (decubitus), joint contractures, spasticity, depression, shoulder subluxation, and nutritional deficiencies. Nursing care includes proper positioning every 2 hours, range of motion (ROM) exercises, joint mobilization, and contracture prevention. Physical therapy should begin as early as medically feasible.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Reposisi tiap 2 jam",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Latihan ROM aktif dan pasif",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mobilisasi sendi",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pencegahan kontraktur",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Fisioterapi sedini mungkin",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Common post-stroke complications include deep vein thrombosis (DVT), aspiration pneumonia, pressure sores (decubitus), joint contractures, spasticity, depression, shoulder subluxation, and nutritional deficiencies. Nursing care includes proper positioning every 2 hours, range of motion (ROM) exercises, joint mobilization, and contracture prevention. Physical therapy should begin as early as medically feasible. Reposisi tiap 2 jam",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Disfagia, Nutrisi, dan Manajemen Eliminasi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "DYSPHAGIA ASSESSMENT: All stroke patients must have swallowing assessment before any oral intake. Bedside water swallow test: give 1 teaspoon of cold water, observe for coughing, wet voice, or delayed swallow. If failed, NGT feeding is required. NUTRITION: Enteral nutrition via NGT if dysphagia present. Target 25-30 kcal/kg/day. Monitor for aspiration. BOWEL MANAGEMENT: Prevent constipation with adequate hydration, fiber, and regular bowel regimen. BLADDER MANAGEMENT: Assess for urinary retention; intermittent catheterization if needed; avoid indwelling catheter if possible.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Semua pasien stroke harus skrining disfagia sebelum minum/makan",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Nutrisi enteral: 25-30 kkal/kgBB/hari",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pencegahan konstipasi: hidrasi, serat, regimen teratur",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Manajemen kandung kemih: katerisasi intermiten, hindari kater permanen",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Never give oral intake before swallowing assessment - aspiration pneumonia is a leading cause of death in stroke patients",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "DYSPHAGIA ASSESSMENT: All stroke patients must have swallowing assessment before any oral intake. Bedside water swallow test: give 1 teaspoon of cold water, observe for coughing, wet voice, or delayed swallow. If failed, NGT feeding is required. NUTRITION: Enteral nutrition via NGT if dysphagia present. Target 25-30 kcal/kg/day. Monitor for aspiration. BOWEL MANAGEMENT: Prevent constipation with adequate hydration, fiber, and regular bowel regimen. BLADDER MANAGEMENT: Assess for urinary retention; intermittent catheterization if needed; avoid indwelling catheter if possible. Semua pasien stroke harus skrining disfagia sebelum minum/makan",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Manajemen Koma",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Coma management follows Brain Trauma Foundation (BTF) guidelines. HEAD POSITIONING: Elevate head of bed 30 degrees. Keep head midline to optimize cerebral venous drainage. Avoid neck flexion or rotation. ICP MONITORING: Maintain ICP <20 mmHg. CPP (Cerebral Perfusion Pressure) should be maintained at 60-70 mmHg. Calculate as MAP - ICP. SEDATION: Use propofol or midazolam for ICP control. Avoid hypotension. OSMOTHERAPY: Mannitol 0.25-1 g/kg IV or hypertonic saline 3% for elevated ICP. SEIZURE PROPHYLAXIS: Phenytoin or levetiracetam for first 7 days post-TBI. GLUCOSE MANAGEMENT: Maintain normoglycemia (80-180 mg/dL). TEMPERATURE: Prevent fever; treat aggressively if present.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "CPP = MAP - ICP; maintaining CPP 60-70 mmHg is critical to prevent secondary brain injury",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Coma management follows Brain Trauma Foundation (BTF) guidelines. HEAD POSITIONING: Elevate head of bed 30 degrees. Keep head midline to optimize cerebral venous drainage. Avoid neck flexion or rotation. ICP MONITORING: Maintain ICP <20 mmHg. CPP (Cerebral Perfusion Pressure) should be maintained at 60-70 mmHg. Calculate as MAP - ICP. SEDATION: Use propofol or midazolam for ICP control. Avoid hypotension. OSMOTHERAPY: Mannitol 0.25-1 g/kg IV or hypertonic saline 3% for elevated ICP. SEIZURE PROPHYLAXIS: Phenytoin or levetiracetam for first 7 days post-TBI. GLUCOSE MANAGEMENT: Maintain normoglycemia (80-180 mg/dL). TEMPERATURE: Prevent fever; treat aggressively if present. CPP = MAP - ICP; maintaining CPP 60-70 mmHg is critical to prevent secondary brain injury",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "PENSA",
+      "meaning": "Penyakit Saraf (Neurological Disease)"
+    },
+    {
+      "term": "ICP",
+      "meaning": "Intracranial Pressure"
+    },
+    {
+      "term": "CPP",
+      "meaning": "Cerebral Perfusion Pressure = MAP - ICP"
+    },
+    {
+      "term": "BTF",
+      "meaning": "Brain Trauma Foundation"
+    },
+    {
+      "term": "Dekubitus",
+      "meaning": "Pressure sore/ulcer from prolonged immobility"
+    }
+  ],
+  "tables": [],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Differentiate stroke type",
+      "explanation": "CT head to distinguish ischemic (hypodense) from hemorrhagic (hyperdense)"
+    },
+    {
+      "step": 2,
+      "title": "Apply type-specific BP management",
+      "explanation": "Ischemic: permissive; Hemorrhagic: aggressive lowering"
+    },
+    {
+      "step": 3,
+      "title": "Screen for dysphagia",
+      "explanation": "Bedside swallow test before any oral intake"
+    },
+    {
+      "step": 4,
+      "title": "Prevent complications",
+      "explanation": "DVT prophylaxis, repositioning, ROM, nutrition"
+    }
+  ],
+  "differential_notes": [],
+  "treatment_notes": [
+    {
+      "phase": "ischemic_acute",
+      "content": "Permissive hypertension, antiplatelet, statin, thrombolysis if within window"
+    },
+    {
+      "phase": "hemorrhagic_acute",
+      "content": "Aggressive BP lowering, reverse anticoagulation, neurosurgery if indicated"
+    },
+    {
+      "phase": "coma_management",
+      "content": "Head 30 degrees, ICP <20, CPP 60-70, osmotherapy, sedation"
+    }
+  ],
+  "red_flags": [
+    "ICP >20 mmHg refractory to medical management",
+    "Cerebellar hematoma >3cm",
+    "Clinical deterioration in hemorrhagic stroke",
+    "Failed swallowing assessment with aspiration risk"
+  ],
+  "extraction_notes": [
+    "Lecturer identified as dr. Rusdillah, SpS",
+    "BTF guidelines cited for coma management",
+    "Practical nursing protocols well-documented"
+  ],
+  "confidence_summary": "high",
+  "qc_flags": []
+}

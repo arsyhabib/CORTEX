@@ -1,0 +1,379 @@
+{
+  "id": "lecture_6e_vertigo_dizziness_017",
+  "batch_id": "batch_1_6e",
+  "title": "Diagnosing Vertigo and Dizziness",
+  "subtitle": "Kimi rerun: neuro_vestibular",
+  "source_pdf": "PPT Diagnosing Vertigo and Dizziness.docx",
+  "source_docx": "PPT Diagnosing Vertigo and Dizziness.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah tentang pendekatan diagnosis vertigo dan pusing yang mencakup klasifikasi berbasis gejala (vertigo, presinkop, disekuilibrium, pusing non-spesifik), diferensiasi perifer vs sentral, fitur anamnesis kunci, manuver Dix-Hallpike untuk BPPV, pemeriksaan HINTS untuk sindrom vestibular akut, serta gangguan vestibular umum termasuk BPPV, penyakit Meniere, neuritis vestibular, dan migrain vestibular. Menekankan perbedaan kritis antara penyebab sentral yang berbahaya dan penyebab perifer yang jinak.",
+    "Four types of dizziness: vertigo (spinning), presyncope (lightheadedness), disequilibrium (imbalance), nonspecific dizziness",
+    "TIMING is key: seconds = BPPV; minutes-hours = Meniere/TIA; hours-days = vestibular neuritis/migraine; continuous = central",
+    "HINTS examination (Head Impulse, Nystagmus, Test of Skew) is more sensitive than MRI for stroke in acute vestibular syndrome"
+  ],
+  "exam_focus": [
+    "Four dizziness types",
+    "Peripheral vs central features",
+    "HINTS examination components and interpretation",
+    "Dix-Hallpike maneuver",
+    "Timing-based differential diagnosis",
+    "HINTS PLUS for AICA stroke"
+  ],
+  "learning_goals": [
+    "Mengklasifikasikan pusing ke dalam empat kategori gejala",
+    "Membedakan vertigo perifer dari sentral menggunakan fitur klinis",
+    "Melakukan manuver Dix-Hallpike untuk diagnosis BPPV",
+    "Menerapkan pemeriksaan HINTS untuk sindrom vestibular akut",
+    "Mengenali red flags yang memerlukan neuroimaging gawat"
+  ],
+  "key_points": [
+    "Four types of dizziness: vertigo (spinning), presyncope (lightheadedness), disequilibrium (imbalance), nonspecific dizziness",
+    "TIMING is key: seconds = BPPV; minutes-hours = Meniere/TIA; hours-days = vestibular neuritis/migraine; continuous = central",
+    "HINTS examination (Head Impulse, Nystagmus, Test of Skew) is more sensitive than MRI for stroke in acute vestibular syndrome",
+    "Any acute vestibular syndrome with neurological signs or vascular risk factors should be treated as stroke until proven otherwise"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Klasifikasi Pusing",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Dizziness is classified into four symptom categories to guide the diagnostic approach. VERTIGO: Illusion of movement (spinning, tilting, swaying); indicates vestibular system dysfunction. PRESYNCOPE: Lightheadedness, feeling faint; suggests cardiovascular or systemic cause (orthostatic hypotension, arrhythmia, anemia). DISEQUILIBRIUM: Unsteadiness, imbalance; suggests proprioceptive, visual, cerebellar, or motor deficits. NONSPECIFIC DIZZINESS: Vague head sensation; may indicate psychiatric (anxiety, hyperventilation), metabolic, or medication causes.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Vertigo: ilusi gerakan (putar, miring, goyang)",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Presinkop: pusing gelap, mau pingsan",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Disekuilibrium: tidak stabil, kehilangan keseimbangan",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Non-spesifik: sensasi kepala tidak jelas",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Dizziness is classified into four symptom categories to guide the diagnostic approach. VERTIGO: Illusion of movement (spinning, tilting, swaying); indicates vestibular system dysfunction. PRESYNCOPE: Lightheadedness, feeling faint; suggests cardiovascular or systemic cause (orthostatic hypotension, arrhythmia, anemia). DISEQUILIBRIUM: Unsteadiness, imbalance; suggests proprioceptive, visual, cerebellar, or motor deficits. NONSPECIFIC DIZZINESS: Vague head sensation; may indicate psychiatric (anxiety, hyperventilation), metabolic, or medication causes. Vertigo: ilusi gerakan (putar, miring, goyang)",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Vertigo Perifer vs Sentral",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Differentiating peripheral from central vertigo is critical for patient safety. PERIPHERAL VERTIGO: More intense spinning, severe nausea/vomiting, horizontal-rotatory nystagmus with fast phase away from affected ear, fatigable nystagmus, symptoms provoked/worsened by position changes, no neurological deficits, hearing loss may be present (Meniere), direction-fixed nystagmus. CENTRAL VERTIGO: Less intense spinning, mild nausea, vertical/pure vertical nystagmus, non-fatigable, may occur in any position, neurological deficits common (diplopia, dysarthria, dysphagia, weakness, ataxia), no hearing loss, direction-changing nystagmus, severe gait instability.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Vertical nystagmus = central cause until proven otherwise - requires urgent MRI",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Differentiating peripheral from central vertigo is critical for patient safety. PERIPHERAL VERTIGO: More intense spinning, severe nausea/vomiting, horizontal-rotatory nystagmus with fast phase away from affected ear, fatigable nystagmus, symptoms provoked/worsened by position changes, no neurological deficits, hearing loss may be present (Meniere), direction-fixed nystagmus. CENTRAL VERTIGO: Less intense spinning, mild nausea, vertical/pure vertical nystagmus, non-fatigable, may occur in any position, neurological deficits common (diplopia, dysarthria, dysphagia, weakness, ataxia), no hearing loss, direction-changing nystagmus, severe gait instability. Vertical nystagmus = central cause until proven otherwise - requires urgent MRI",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Gangguan Vestibular Umum",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "BPPV (BENIGN PAROXYSMAL POSITIONAL VERTIGO): Brief episodes (<1 minute) of intense spinning triggered by specific head positions; caused by otoconia displacement in posterior semicircular canal; diagnosed with Dix-Hallpike maneuver; treated with Epley canalith repositioning maneuver. MENIERE DISEASE: Episodes lasting 20 minutes to 12 hours, with fluctuating hearing loss, tinnitus, and aural fullness; endolymphatic hydrops; dietary salt restriction, diuretics. VESTIBULAR NEURITIS: Sudden onset severe vertigo lasting days, post-viral, no hearing loss; positive head impulse test toward affected side; treated with steroids, antiemetics, vestibular rehabilitation. VESTIBULAR MIGRAINE: Vertigo episodes 5 minutes to 72 hours, migraine history, photophobia/phonophobia during vertigo; treated with migraine prophylaxis.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "BPPV (BENIGN PAROXYSMAL POSITIONAL VERTIGO): Brief episodes (<1 minute) of intense spinning triggered by specific head positions; caused by otoconia displacement in posterior semicircular canal; diagnosed with Dix-Hallpike maneuver; treated with Epley canalith repositioning maneuver. MENIERE DISEASE: Episodes lasting 20 minutes to 12 hours, with fluctuating hearing loss, tinnitus, and aural fullness; endolymphatic hydrops; dietary salt restriction, diuretics. VESTIBULAR NEURITIS: Sudden onset severe vertigo lasting days, post-viral, no hearing loss; positive head impulse test toward affected side; treated with steroids, antiemetics, vestibular rehabilitation. VESTIBULAR MIGRAINE: Vertigo episodes 5 minutes to 72 hours, migraine history, photophobia/phonophobia during vertigo; treated with migraine prophylaxis.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "HINTS Examination",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "HINTS examination is a three-component bedside test for acute vestibular syndrome (AVS: acute onset continuous vertigo with nystagmus, nausea, imbalance lasting >24 hours). It is MORE SENSITIVE than MRI for detecting stroke in the first 24-48 hours. H - HEAD IMPULSE TEST: Rapid head turn while patient fixates on examiner's nose. Normal (corrective saccade) = peripheral lesion = reassuring. Abnormal (no corrective saccade) = central lesion = dangerous. I - NYSTAGMUS: Direction-changing nystagmus on gaze = central. Direction-fixed = more likely peripheral. Vertical nystagmus = central. N - TEST OF SKEW: Alternate cover test looking for vertical correction movement. Skew deviation present = central lesion. INTERPRETATION: Any one abnormal component = central cause = urgent MRI. All three normal = peripheral cause. HINTS PLUS: Add hearing test (fingers rub); acute hearing loss with AVS suggests AICA stroke (central).",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "H: Head impulse - normal (saccade korektif) = perifer; abnormal = sentral",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "I: Nistagmus - direction-changing = sentral; vertikal = sentral",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "N: Test of skew - skew deviation = sentral",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Salah satu abnormal = sentral (stroke), MRI segera",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "HINTS PLUS: tambah tes pendengaran (AICA stroke)",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "HINTS is MORE sensitive than MRI for stroke in the first 24-48 hours of AVS",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "HINTS examination is a three-component bedside test for acute vestibular syndrome (AVS: acute onset continuous vertigo with nystagmus, nausea, imbalance lasting >24 hours). It is MORE SENSITIVE than MRI for detecting stroke in the first 24-48 hours. H - HEAD IMPULSE TEST: Rapid head turn while patient fixates on examiner's nose. Normal (corrective saccade) = peripheral lesion = reassuring. Abnormal (no corrective saccade) = central lesion = dangerous. I - NYSTAGMUS: Direction-changing nystagmus on gaze = central. Direction-fixed = more likely peripheral. Vertical nystagmus = central. N - TEST OF SKEW: Alternate cover test looking for vertical correction movement. Skew deviation present = central lesion. INTERPRETATION: Any one abnormal component = central cause = urgent MRI. All three normal = peripheral cause. HINTS PLUS: Add hearing test (fingers rub); acute hearing loss with AVS suggests AICA stroke (central). H: Head impulse - normal (saccade korektif) = perifer; abnormal = sentral",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Algoritma Diagnostik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "DIAGNOSTIC APPROACH: Step 1 - Classify symptom type (vertigo vs presyncope vs disequilibrium vs nonspecific). Step 2 - If vertigo: determine timing (seconds/minutes/hours/days/continuous). Step 3 - Apply HINTS if AVS present. Step 4 - Perform Dix-Hallpike if brief positional vertigo. Step 5 - Look for red flags: new headache, neurological deficits, severe gait instability, vertical nystagmus, direction-changing nystagmus, vascular risk factors. RED FLAGS requiring urgent imaging: any central signs on HINTS, associated neurological deficits, severe continuous vertigo in high-risk vascular patient, head trauma, new severe headache.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Klasifikasi tipe pusing",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tentukan timing (detik/menit/jam/hari/kontinu)",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "HINTS untuk AVS",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dix-Hallpike untuk vertigo posisi singkat",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Cari red flags",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "DIAGNOSTIC APPROACH: Step 1 - Classify symptom type (vertigo vs presyncope vs disequilibrium vs nonspecific). Step 2 - If vertigo: determine timing (seconds/minutes/hours/days/continuous). Step 3 - Apply HINTS if AVS present. Step 4 - Perform Dix-Hallpike if brief positional vertigo. Step 5 - Look for red flags: new headache, neurological deficits, severe gait instability, vertical nystagmus, direction-changing nystagmus, vascular risk factors. RED FLAGS requiring urgent imaging: any central signs on HINTS, associated neurological deficits, severe continuous vertigo in high-risk vascular patient, head trauma, new severe headache. Klasifikasi tipe pusing",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "BPPV",
+      "meaning": "Benign Paroxysmal Positional Vertigo"
+    },
+    {
+      "term": "AVS",
+      "meaning": "Acute Vestibular Syndrome"
+    },
+    {
+      "term": "HINTS",
+      "meaning": "Head Impulse, Nystagmus, Test of Skew"
+    },
+    {
+      "term": "Epley maneuver",
+      "meaning": "Reposisi kanalit untuk BPPV"
+    },
+    {
+      "term": "Skew deviation",
+      "meaning": "Deviasi vertikal mata yang menunjukkan lesi sentral"
+    }
+  ],
+  "tables": [],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Classify dizziness type",
+      "explanation": "Vertigo vs presyncope vs disequilibrium vs nonspecific"
+    },
+    {
+      "step": 2,
+      "title": "Determine timing pattern",
+      "explanation": "Seconds=BPPV; minutes-hours=Meniere/TIA; days=neuritis/migraine; continuous=central"
+    },
+    {
+      "step": 3,
+      "title": "Apply HINTS for AVS",
+      "explanation": "More sensitive than early MRI for stroke"
+    },
+    {
+      "step": 4,
+      "title": "Perform Dix-Hallpike for positional vertigo",
+      "explanation": "Diagnoses BPPV; treat with Epley"
+    },
+    {
+      "step": 5,
+      "title": "Assess for red flags",
+      "explanation": "Vertical nystagmus, neuro deficits, severe gait instability = central"
+    }
+  ],
+  "differential_notes": [
+    {
+      "item": "BPPV vs central positional vertigo",
+      "how_to_separate": "BPPV: brief (<1min), fatigable nystagmus, latency, no neuro deficits; Central: non-fatigable, immediate, neurological signs"
+    },
+    {
+      "item": "Vestibular neuritis vs cerebellar stroke",
+      "how_to_separate": "HINTS exam: normal head impulse = peripheral; abnormal = stroke"
+    },
+    {
+      "item": "Meniere vs vestibular migraine",
+      "how_to_separate": "Meniere: hearing loss, tinnitus, fullness; Migraine: headache history, photophobia"
+    }
+  ],
+  "treatment_notes": [
+    {
+      "phase": "bppv",
+      "content": "Epley canalith repositioning maneuver"
+    },
+    {
+      "phase": "vestibular_neuritis",
+      "content": "Steroids (prednisone 1mg/kg x 5 days), antiemetics, vestibular rehabilitation"
+    },
+    {
+      "phase": "meniere",
+      "content": "Salt restriction (<1.5g/day), diuretics, betahistine"
+    },
+    {
+      "phase": "central",
+      "content": "Stroke protocol if cerebrovascular cause"
+    }
+  ],
+  "red_flags": [
+    "Vertical nystagmus",
+    "Direction-changing nystagmus on gaze",
+    "Severe gait instability (unable to walk)",
+    "Associated neurological deficits",
+    "New severe headache",
+    "Vascular risk factors with acute vestibular syndrome"
+  ],
+  "extraction_notes": [
+    "HINTS examination well-described with interpretation",
+    "Timing-based differential was a key teaching point",
+    "Dix-Hallpike and Epley maneuver described"
+  ],
+  "confidence_summary": "high",
+  "qc_flags": []
+}

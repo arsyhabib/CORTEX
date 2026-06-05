@@ -1,0 +1,283 @@
+{
+  "id": "lecture_6e_radiologi_tumor_019",
+  "batch_id": "batch_1_6e",
+  "title": "Radiologi Tumor Cerebri",
+  "subtitle": "Kimi rerun: neuro_radiology",
+  "source_pdf": "Radiologi Tumor Cerebri.docx",
+  "source_docx": "Radiologi Tumor Cerebri.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah radiologi tentang tumor otak yang mencakup karakteristik pencitraan glioma (grade rendah dan tinggi), meningioma, adenoma hipofisis, schwannoma (neuroma akustik), metastasis, dan limfoma. Membahas temuan CT dan MRI termasuk pola penyangatan kontras, karakteristik difusi, fitur spektroskopi, dan diagnosis banding berdasarkan fitur pencitraan. Menyertakan tanda radiologi kunci untuk grading dan lokalisasi tumor.",
+    "High-grade gliomas show irregular ring enhancement, central necrosis, surrounding edema, mass effect",
+    "Meningioma: extra-axial, broad dural base, homogeneous enhancement, dural tail sign",
+    "Acoustic neuroma: CPA mass, extends into internal auditory canal (ice cream cone sign)"
+  ],
+  "exam_focus": [
+    "Glioblastoma: butterfly appearance, ring enhancement, necrosis",
+    "Meningioma: dural tail sign, homogeneous enhancement, extra-axial",
+    "Acoustic neuroma: CPA mass, ice cream cone sign",
+    "Pituitary adenoma: snowman sign, bitemporal hemianopia",
+    "Metastases: multiple, gray-white junction, disproportionate edema",
+    "Lymphoma: periventricular, restricted diffusion"
+  ],
+  "learning_goals": [
+    "Mengidentifikasi tumor otak umum pada CT dan MRI",
+    "Membedakan glioma berdasarkan grade menggunakan fitur pencitraan",
+    "Mengenali temuan pencitraan khas meningioma, adenoma hipofisis, dan schwannoma",
+    "Menerapkan fitur pencitraan untuk membedakan metastasis dari tumor primer"
+  ],
+  "key_points": [
+    "High-grade gliomas show irregular ring enhancement, central necrosis, surrounding edema, mass effect",
+    "Meningioma: extra-axial, broad dural base, homogeneous enhancement, dural tail sign",
+    "Acoustic neuroma: CPA mass, extends into internal auditory canal (ice cream cone sign)",
+    "Pituitary adenoma: sellar mass, may extend suprasellar (snowman sign), cavernous sinus invasion",
+    "Metastases: typically multiple, at gray-white junction, disproportionate edema to size"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Glioma - Grade Rendah dan Tinggi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "GLIOMAS are primary brain tumors arising from glial cells. LOW-GRADE GLIOMA (WHO Grade II): CT shows hypodense or isodense lesion, may have calcification, minimal or no enhancement. MRI T1 shows hypointense, T2/FLAIR shows hyperintense, typically well-defined, minimal surrounding edema, no necrosis. Slow-growing, may transform to high-grade. HIGH-GRADE GLIOMA (WHO Grade III-IV, glioblastoma): CT shows irregular hypodense center (necrosis) with ring-enhancing margins, significant surrounding hypodensity (vasogenic edema), mass effect. MRI T1 shows heterogeneous with ring enhancement, T2/FLAIR shows extensive hyperintense edema beyond tumor margin, central necrosis appears hyperintense on DWI (restricted diffusion in tumor). Glioblastoma shows thick irregular ring enhancement with central necrosis, often crosses corpus callosum (butterfly glioma). Spectroscopy shows elevated choline, reduced NAA, lactate/lipid peak.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Glioblastoma crossing corpus callosum = 'butterfly' appearance; highly characteristic",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "GLIOMAS are primary brain tumors arising from glial cells. LOW-GRADE GLIOMA (WHO Grade II): CT shows hypodense or isodense lesion, may have calcification, minimal or no enhancement. MRI T1 shows hypointense, T2/FLAIR shows hyperintense, typically well-defined, minimal surrounding edema, no necrosis. Slow-growing, may transform to high-grade. HIGH-GRADE GLIOMA (WHO Grade III-IV, glioblastoma): CT shows irregular hypodense center (necrosis) with ring-enhancing margins, significant surrounding hypodensity (vasogenic edema), mass effect. MRI T1 shows heterogeneous with ring enhancement, T2/FLAIR shows extensive hyperintense edema beyond tumor margin, central necrosis appears hyperintense on DWI (restricted diffusion in tumor). Glioblastoma shows thick irregular ring enhancement with central necrosis, often crosses corpus callosum (butterfly glioma). Spectroscopy shows elevated choline, reduced NAA, lactate/lipid peak. Glioblastoma crossing corpus callosum = 'butterfly' appearance; highly characteristic",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Meningioma dan Adenoma Hipofisis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "MENINGIOMA: Extra-axial tumor from meningothelial cells. CT shows hyperdense (isodense to brain), may have calcification (psammomatous), intense homogeneous enhancement, hyperostosis of adjacent bone. MRI T1 isointense to cortex, intense homogeneous enhancement, dural tail sign (tumor extension along dura), CSF cleft sign (cleavage plane between tumor and brain). PITUITARY ADENOMA: Sellar mass. Microadenoma (<10mm): hypointense on T1 compared to normal pituitary, enhances less than surrounding gland on dynamic contrast (appears as non-enhancing focus). Macroadenoma (>=10mm): expands sella, may extend suprasellar (compressing optic chiasm - bitemporal hemianopia), cavernous sinus invasion (encasing ICA), inferior extension into sphenoid sinus. Snowman sign when suprasellar extension is constricted by diaphragma sellae.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Meningioma: ekstra-aksial, dural tail sign, hiperostosis",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Adenoma hipofisis: mikro <10mm, makro >=10mm",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Makroadenoma: ekstensi suprasellar (snowman sign), invasi sinus kavernosus",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dural tail sign = dural enhancement extending from tumor margin; classic for meningioma but not pathognomonic",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "MENINGIOMA: Extra-axial tumor from meningothelial cells. CT shows hyperdense (isodense to brain), may have calcification (psammomatous), intense homogeneous enhancement, hyperostosis of adjacent bone. MRI T1 isointense to cortex, intense homogeneous enhancement, dural tail sign (tumor extension along dura), CSF cleft sign (cleavage plane between tumor and brain). PITUITARY ADENOMA: Sellar mass. Microadenoma (<10mm): hypointense on T1 compared to normal pituitary, enhances less than surrounding gland on dynamic contrast (appears as non-enhancing focus). Macroadenoma (>=10mm): expands sella, may extend suprasellar (compressing optic chiasm - bitemporal hemianopia), cavernous sinus invasion (encasing ICA), inferior extension into sphenoid sinus. Snowman sign when suprasellar extension is constricted by diaphragma sellae. Meningioma: ekstra-aksial, dural tail sign, hiperostosis",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Schwannoma dan Metastasis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "SCHWANNOMA (ACOUSTIC NEUROMA/VESTIBULAR SCHWANNOMA): CPA (cerebellopontine angle) mass originating from vestibular nerve. CT shows widening of internal auditory canal (IAC). MRI T1 shows hypointense to isointense, intense enhancement, extends into IAC creating 'ice cream cone' appearance. Larger tumors may compress brainstem and cerebellum, cause hydrocephalus. Cystic components common in larger tumors. METASTASES: Most common brain tumors in adults. Typically multiple lesions at gray-white matter junction. CT shows hypodense (may be hyperdense if hemorrhagic). MRI T1 hypointense with ring or homogeneous enhancement, T2/FLAIR shows disproportionate surrounding edema compared to size of enhancing lesion. Common primary sources: lung, breast, melanoma, kidney, colon. Hemorrhagic metastases: melanoma, renal cell, choriocarcinoma, thyroid, lung.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "CPA mass extending into IAC = vestibular schwannoma until proven otherwise",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "SCHWANNOMA (ACOUSTIC NEUROMA/VESTIBULAR SCHWANNOMA): CPA (cerebellopontine angle) mass originating from vestibular nerve. CT shows widening of internal auditory canal (IAC). MRI T1 shows hypointense to isointense, intense enhancement, extends into IAC creating 'ice cream cone' appearance. Larger tumors may compress brainstem and cerebellum, cause hydrocephalus. Cystic components common in larger tumors. METASTASES: Most common brain tumors in adults. Typically multiple lesions at gray-white matter junction. CT shows hypodense (may be hyperdense if hemorrhagic). MRI T1 hypointense with ring or homogeneous enhancement, T2/FLAIR shows disproportionate surrounding edema compared to size of enhancing lesion. Common primary sources: lung, breast, melanoma, kidney, colon. Hemorrhagic metastases: melanoma, renal cell, choriocarcinoma, thyroid, lung. CPA mass extending into IAC = vestibular schwannoma until proven otherwise",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Limfoma dan Diagnosis Banding",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "PRIMARY CNS LYMPHOMA: Typically B-cell non-Hodgkin lymphoma. Immunocompetent: solitary or few periventricular lesions, homogeneous enhancement (disrupted BBB), hyperdense on CT (high cellularity), restricted diffusion on DWI (high nuclear-to-cytoplasmic ratio), extends along ependymal or meningeal surfaces. Immunocompromised (HIV): ring-enhancing lesions, may be indistinguishable from toxoplasmosis; EBV PCR in CSF is diagnostic. DIFFERENTIAL DIAGNOSIS APPROACH: Location (intra-axial vs extra-axial), single vs multiple, age, enhancement pattern, associated findings (edema, calcification, hemorrhage, bone changes). Key differentiators: Glioblastoma (ring-enhancing, necrosis, crosses corpus callosum); Abscess (thin smooth ring, restricted diffusion in center); Metastasis (multiple, gray-white junction, known primary); Lymphoma (periventricular, homogeneous enhancement, restricted diffusion).",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Limfoma CNS primer: periventrikular, enhancement homogen, restricted diffusion",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Limfoma immunokompromai: ring-enhancing, sulit dibedakan dari toksoplasmosis",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Diagnosis banding: lokasi, jumlah, pola enhancement",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Primary CNS lymphoma: periventricular, homogeneous enhancement, marked restricted diffusion (high cellularity)",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "PRIMARY CNS LYMPHOMA: Typically B-cell non-Hodgkin lymphoma. Immunocompetent: solitary or few periventricular lesions, homogeneous enhancement (disrupted BBB), hyperdense on CT (high cellularity), restricted diffusion on DWI (high nuclear-to-cytoplasmic ratio), extends along ependymal or meningeal surfaces. Immunocompromised (HIV): ring-enhancing lesions, may be indistinguishable from toxoplasmosis; EBV PCR in CSF is diagnostic. DIFFERENTIAL DIAGNOSIS APPROACH: Location (intra-axial vs extra-axial), single vs multiple, age, enhancement pattern, associated findings (edema, calcification, hemorrhage, bone changes). Key differentiators: Glioblastoma (ring-enhancing, necrosis, crosses corpus callosum); Abscess (thin smooth ring, restricted diffusion in center); Metastasis (multiple, gray-white junction, known primary); Lymphoma (periventricular, homogeneous enhancement, restricted diffusion). Limfoma CNS primer: periventrikular, enhancement homogen, restricted diffusion",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Dural tail sign",
+      "meaning": "Penebalan dura di sekitar tumor, khas meningioma"
+    },
+    {
+      "term": "Ice cream cone sign",
+      "meaning": "Schwannoma CPA yang memanjang ke IAC"
+    },
+    {
+      "term": "Snowman sign",
+      "meaning": "Adenoma hipofisis dengan ekstensi suprasellar yang terkonstriksi diaphragma sellae"
+    },
+    {
+      "term": "Butterfly glioma",
+      "meaning": "Glioblastoma yang menyeberangi corpus callosum"
+    }
+  ],
+  "tables": [],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Determine location",
+      "explanation": "Intra-axial vs extra-axial; supratentorial vs infratentorial"
+    },
+    {
+      "step": 2,
+      "title": "Assess number of lesions",
+      "explanation": "Single vs multiple narrows differential"
+    },
+    {
+      "step": 3,
+      "title": "Characterize enhancement pattern",
+      "explanation": "Homogeneous, ring, none; with necrosis?"
+    },
+    {
+      "step": 4,
+      "title": "Evaluate associated findings",
+      "explanation": "Edema, mass effect, calcification, bone changes, hemorrhage"
+    },
+    {
+      "step": 5,
+      "title": "Consider patient age and history",
+      "explanation": "Known primary cancer, immunocompromise, age group"
+    }
+  ],
+  "differential_notes": [
+    {
+      "item": "Glioblastoma vs abscess vs metastasis",
+      "how_to_separate": "GBM: irregular thick ring, crosses corpus callosum; Abscess: thin smooth ring, central restricted diffusion; Metastasis: multiple, gray-white junction"
+    },
+    {
+      "item": "Meningioma vs schwannoma",
+      "how_to_separate": "Meningioma: extra-axial, dural tail, broad dural base; Schwannoma: CPA, extends into IAC"
+    },
+    {
+      "item": "Lymphoma vs toxoplasmosis (HIV)",
+      "how_to_separate": "Lymphoma: periventricular, homogeneous; Toxoplasmosis: multiple, ring-enhancing, basal ganglia"
+    }
+  ],
+  "treatment_notes": [],
+  "red_flags": [
+    "Ring-enhancing lesion with mass effect",
+    "Multiple lesions suggesting metastases",
+    "Hydrocephalus from posterior fossa tumor",
+    "Visual field defect from pituitary mass"
+  ],
+  "extraction_notes": [
+    "Lecturer identified as Dr Erni Zainuddin SpRad K-RA",
+    "Multiple imaging signs preserved (dural tail, ice cream cone, snowman, butterfly)",
+    "Differential diagnosis tables well-structured",
+    "CT and MRI characteristics preserved for each tumor type"
+  ],
+  "confidence_summary": "high",
+  "qc_flags": []
+}

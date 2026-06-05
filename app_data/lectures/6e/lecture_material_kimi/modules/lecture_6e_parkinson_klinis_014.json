@@ -1,0 +1,406 @@
+{
+  "id": "lecture_6e_parkinson_klinis_014",
+  "batch_id": "batch_1_6e",
+  "title": "Parkinson Disease - Aspek Klinis",
+  "subtitle": "Kimi rerun: neuro_movement_disorders",
+  "source_pdf": "Parkinson Disease (Aspek Klinis).docx",
+  "source_docx": "Parkinson Disease (Aspek Klinis).docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah aspek klinis penyakit Parkinson yang mencakup epidemiologi, etiologi dan faktor risiko, patofisiologi (degenerasi jalur nigrostriatal dopaminergik, bodi Lewy), gambaran klinis (gejala TRAP), kriteria diagnosis (kriteria UK Brain Bank), diagnosis banding (tremor esensial, parkinsonisme sekunder, parkinsonisme atipikal), stadium Hoehn-Yahr, serta manajemen farmakologis dan non-farmakologis termasuk levodopa, agonis dopamin, inhibitor MAO-B, inhibitor COMT, dan deep brain stimulation.",
+    "Degeneration of dopaminergic neurons in substantia nigra pars compacta causes striatal dopamine deficiency",
+    "Lewy bodies (alpha-synuclein aggregates) are pathological hallmark",
+    "TRAP symptoms: Tremor, Rigidity, Akinesia/bradykinesia, Postural Instability"
+  ],
+  "exam_focus": [
+    "TRAP symptoms",
+    "UK Brain Bank criteria",
+    "Hoehn-Yahr staging",
+    "Levodopa as gold standard",
+    "DBS candidate selection",
+    "Differentiating PD from essential tremor and atypical parkinsonism"
+  ],
+  "learning_goals": [
+    "Memahami degenerasi jalur dopaminergik pada PD",
+    "Menerapkan kriteria diagnosis UK Brain Bank",
+    "Membedakan PD dari tremor esensial dan parkinsonisme atipikal",
+    "Menentukan stadium PD menggunakan Hoehn-Yahr dan menerapkan terapi yang tepat"
+  ],
+  "key_points": [
+    "Degeneration of dopaminergic neurons in substantia nigra pars compacta causes striatal dopamine deficiency",
+    "Lewy bodies (alpha-synuclein aggregates) are pathological hallmark",
+    "TRAP symptoms: Tremor, Rigidity, Akinesia/bradykinesia, Postural Instability",
+    "UK Brain Bank criteria: Bradykinesia + at least one of rigidity, rest tremor, postural instability",
+    "Levodopa remains gold standard; motor complications (wearing-off, dyskinesia) develop with long-term use"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Epidemiologi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Parkinson disease is the second most common neurodegenerative disease after Alzheimer disease. Incidence increases with age, with peak onset between 55-65 years. Prevalence is approximately 1% of population over 60 years, rising to 4% over 80 years. Slightly more common in males than females. Mean age of onset is 60 years; onset before 40 years is considered young-onset PD; before 20 years is juvenile PD.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penyakit neurodegeneratif kedua tersering setelah Alzheimer",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Prevalensi: 1% populasi >60 tahun, 4% >80 tahun",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Puncak onset: 55-65 tahun",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sedikit lebih sering pada laki-laki",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Parkinson disease is the second most common neurodegenerative disease after Alzheimer disease. Incidence increases with age, with peak onset between 55-65 years. Prevalence is approximately 1% of population over 60 years, rising to 4% over 80 years. Slightly more common in males than females. Mean age of onset is 60 years; onset before 40 years is considered young-onset PD; before 20 years is juvenile PD. Penyakit neurodegeneratif kedua tersering setelah Alzheimer",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Etiologi dan Patofisiologi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "ETIOLOGY: Multifactorial - combination of genetic predisposition and environmental factors. Genetic: 10-15% familial; mutations in SNCA (alpha-synuclein), LRRK2, PARK2 (parkin), PINK1, DJ-1. Environmental: pesticides, herbicides, solvents, head trauma, protective factors (smoking, coffee, uric acid). PATHOPHYSIOLOGY: Degeneration of dopaminergic neurons in substantia nigra pars compacta (pars ventralis, lateral > medial) leads to dopamine deficiency in striatum. Disrupts direct (D1, excitatory) and indirect (D2, inhibitory) pathways, resulting in increased thalamic inhibition and reduced cortical excitation. By the time motor symptoms appear, 60-80% of nigral neurons and 80% of striatal dopamine are lost. LEWY BODIES: Intracytoplasmic eosinophilic inclusions containing aggregated alpha-synuclein; pathological hallmark. Found not only in substantia nigra but also cortex, autonomic ganglia, and peripheral nervous system. Braak staging describes spread: Stage 1-2 (dorsal motor nucleus of vagus), Stage 3-4 (substantia nigra), Stage 5-6 (cortex).",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Degenerasi neuron dopaminergik substantia nigra pars compacta",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "60-80% neuron hilang saat gejala motorik muncul",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lewy bodies: alpha-synuclein aggregates",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Braak staging: medulla -> substantia nigra -> korteks",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "80% striatal dopamine loss before symptoms appear - enormous functional reserve",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "ETIOLOGY: Multifactorial - combination of genetic predisposition and environmental factors. Genetic: 10-15% familial; mutations in SNCA (alpha-synuclein), LRRK2, PARK2 (parkin), PINK1, DJ-1. Environmental: pesticides, herbicides, solvents, head trauma, protective factors (smoking, coffee, uric acid). PATHOPHYSIOLOGY: Degeneration of dopaminergic neurons in substantia nigra pars compacta (pars ventralis, lateral > medial) leads to dopamine deficiency in striatum. Disrupts direct (D1, excitatory) and indirect (D2, inhibitory) pathways, resulting in increased thalamic inhibition and reduced cortical excitation. By the time motor symptoms appear, 60-80% of nigral neurons and 80% of striatal dopamine are lost. LEWY BODIES: Intracytoplasmic eosinophilic inclusions containing aggregated alpha-synuclein; pathological hallmark. Found not only in substantia nigra but also cortex, autonomic ganglia, and peripheral nervous system. Braak staging describes spread: Stage 1-2 (dorsal motor nucleus of vagus), Stage 3-4 (substantia nigra), Stage 5-6 (cortex). Degenerasi neuron dopaminergik substantia nigra pars compacta",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Gejala Klinis - TRAP",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "The four cardinal motor symptoms (TRAP) are: TREMOR AT REST: Most common initial symptom (70%); starts unilateral, typically in one hand; pill-rolling motion (4-6 Hz); decreases with action, increases with stress and walking; may involve jaw, tongue, legs. RIGIDITY: Increased resistance to passive movement throughout range; cogwheel (with tremor) or lead-pipe (without tremor); affects all limbs and axial muscles. BRADYKINESIA/AKINESIA: Slowness of movement and decrement in amplitude; difficulty initiating movement; reduced facial expression (masked facies/hypomimia), micrographia, decreased blink rate. POSTURAL INSTABILITY: Loss of postural reflexes; appears later (Hoehn-Yahr Stage 3+); not present in early PD - if present early, consider atypical parkinsonism. NON-MOTOR SYMPTOMS: Cognitive impairment/dementia (30-40%), depression (40%), anxiety, apathy, autonomic dysfunction (orthostatic hypotension, constipation, urinary dysfunction), REM sleep behavior disorder, hyposmia, constipation (often precedes motor symptoms by years).",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Postural instability is a LATE feature - if present early, think atypical parkinsonism (MSA, PSP)",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "The four cardinal motor symptoms (TRAP) are: TREMOR AT REST: Most common initial symptom (70%); starts unilateral, typically in one hand; pill-rolling motion (4-6 Hz); decreases with action, increases with stress and walking; may involve jaw, tongue, legs. RIGIDITY: Increased resistance to passive movement throughout range; cogwheel (with tremor) or lead-pipe (without tremor); affects all limbs and axial muscles. BRADYKINESIA/AKINESIA: Slowness of movement and decrement in amplitude; difficulty initiating movement; reduced facial expression (masked facies/hypomimia), micrographia, decreased blink rate. POSTURAL INSTABILITY: Loss of postural reflexes; appears later (Hoehn-Yahr Stage 3+); not present in early PD - if present early, consider atypical parkinsonism. NON-MOTOR SYMPTOMS: Cognitive impairment/dementia (30-40%), depression (40%), anxiety, apathy, autonomic dysfunction (orthostatic hypotension, constipation, urinary dysfunction), REM sleep behavior disorder, hyposmia, constipation (often precedes motor symptoms by years). Postural instability is a LATE feature - if present early, think atypical parkinsonism (MSA, PSP)",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Kriteria Diagnosis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "UK BRAIN BANK CRITERIA: Step 1 - Diagnosis of Parkinson syndrome: Bradykinesia (slowness of initiation + reduced amplitude/speed) AND at least one of: muscular rigidity, 4-6 Hz rest tremor, postural instability (not caused by visual, vestibular, cerebellar, or proprioceptive dysfunction). Step 2 - Exclusion criteria (absence of features suggesting alternative diagnoses): history of repeated strokes, repeated head injury, encephalitis, neuroleptic use, more than one affected relative, strictly unilateral features after 3 years, supranuclear gaze palsy, cerebellar signs, early severe autonomic involvement, early severe dementia, Babinski sign, CT evidence of tumor or hydrocephalus. Step 3 - Supportive prospective positive criteria (three or more required for definite PD): unilateral onset, rest tremor, progressive disorder, persistent asymmetry, excellent response to levodopa, severe levodopa-induced chorea, clinical course >10 years. DIFFERENTIAL DIAGNOSIS: Essential tremor (bilateral, action tremor, head involvement, no rigidity/bradykinesia); Drug-induced parkinsonism (neuroleptics, metoclopramide, reserpine); Vascular parkinsonism (lower body, stepwise progression, pyramidal signs); MSA (early autonomic failure, cerebellar signs, poor levodopa response); PSP (early falls, vertical gaze palsy, axial rigidity); Corticobasal degeneration (asymmetric, cortical signs, alien limb); Dementia with Lewy bodies (early dementia, visual hallucinations, fluctuating cognition).",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Excellent response to levodopa is a strong supportive criterion for idiopathic PD",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "UK BRAIN BANK CRITERIA: Step 1 - Diagnosis of Parkinson syndrome: Bradykinesia (slowness of initiation + reduced amplitude/speed) AND at least one of: muscular rigidity, 4-6 Hz rest tremor, postural instability (not caused by visual, vestibular, cerebellar, or proprioceptive dysfunction). Step 2 - Exclusion criteria (absence of features suggesting alternative diagnoses): history of repeated strokes, repeated head injury, encephalitis, neuroleptic use, more than one affected relative, strictly unilateral features after 3 years, supranuclear gaze palsy, cerebellar signs, early severe autonomic involvement, early severe dementia, Babinski sign, CT evidence of tumor or hydrocephalus. Step 3 - Supportive prospective positive criteria (three or more required for definite PD): unilateral onset, rest tremor, progressive disorder, persistent asymmetry, excellent response to levodopa, severe levodopa-induced chorea, clinical course >10 years. DIFFERENTIAL DIAGNOSIS: Essential tremor (bilateral, action tremor, head involvement, no rigidity/bradykinesia); Drug-induced parkinsonism (neuroleptics, metoclopramide, reserpine); Vascular parkinsonism (lower body, stepwise progression, pyramidal signs); MSA (early autonomic failure, cerebellar signs, poor levodopa response); PSP (early falls, vertical gaze palsy, axial rigidity); Corticobasal degeneration (asymmetric, cortical signs, alien limb); Dementia with Lewy bodies (early dementia, visual hallucinations, fluctuating cognition). Excellent response to levodopa is a strong supportive criterion for idiopathic PD",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Stadium dan Manajemen Farmakologis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "HOEHN-YAHR STAGING: Stage 1 - Unilateral involvement, minimal/no functional impairment; Stage 2 - Bilateral involvement, no balance impairment; Stage 3 - Bilateral, mild to moderate postural instability, physically independent; Stage 4 - Severe disability, still able to walk/stand unassisted; Stage 5 - Wheelchair-bound or bedridden unless aided. PHARMACOLOGICAL MANAGEMENT: LEVODOPA (gold standard): combined with carbidopa or benserazide to prevent peripheral conversion; started at low dose, titrated up; best for symptomatic relief; motor complications (wearing-off, dyskinesia) develop with long-term use. DOPAMINE AGONISTS (pramipexole, ropinirole, rotigotine): directly stimulate dopamine receptors; can be used as monotherapy in early disease or adjunct to levodopa; benefit: fewer motor complications; risk: impulse control disorders, somnolence, peripheral edema. MAO-B INHIBITORS (selegiline, rasagiline, safinamide): reduce dopamine metabolism; mild symptomatic benefit; may have neuroprotective properties. COMT INHIBITORS (entacapone, tolcapone, opicapone): extend levodopa half-life; used as adjunct to reduce wearing-off. ANTICHOLINERGICS (trihexyphenidyl, benztropine): useful for tremor-predominant young patients; avoid in elderly (cognitive side effects). AMANTADINE: mild antiparkinsonian effect; useful for dyskinesia.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Levodopa remains gold standard; DA agonists as first-line in young to delay motor complications",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "HOEHN-YAHR STAGING: Stage 1 - Unilateral involvement, minimal/no functional impairment; Stage 2 - Bilateral involvement, no balance impairment; Stage 3 - Bilateral, mild to moderate postural instability, physically independent; Stage 4 - Severe disability, still able to walk/stand unassisted; Stage 5 - Wheelchair-bound or bedridden unless aided. PHARMACOLOGICAL MANAGEMENT: LEVODOPA (gold standard): combined with carbidopa or benserazide to prevent peripheral conversion; started at low dose, titrated up; best for symptomatic relief; motor complications (wearing-off, dyskinesia) develop with long-term use. DOPAMINE AGONISTS (pramipexole, ropinirole, rotigotine): directly stimulate dopamine receptors; can be used as monotherapy in early disease or adjunct to levodopa; benefit: fewer motor complications; risk: impulse control disorders, somnolence, peripheral edema. MAO-B INHIBITORS (selegiline, rasagiline, safinamide): reduce dopamine metabolism; mild symptomatic benefit; may have neuroprotective properties. COMT INHIBITORS (entacapone, tolcapone, opicapone): extend levodopa half-life; used as adjunct to reduce wearing-off. ANTICHOLINERGICS (trihexyphenidyl, benztropine): useful for tremor-predominant young patients; avoid in elderly (cognitive side effects). AMANTADINE: mild antiparkinsonian effect; useful for dyskinesia. Levodopa remains gold standard; DA agonists as first-line in young to delay motor complications",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s06",
+      "title": "Manajemen Non-Farmakologis dan DBS",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "NON-PHARMACOLOGICAL: Physiotherapy (gait training, balance exercises, ROM); Occupational therapy (ADL adaptation); Speech therapy (dysarthria, dysphagia); Exercise programs (tai chi, dance, cycling); Nutritional management (protein redistribution diet to optimize levodopa absorption). DEEP BRAIN STIMULATION (DBS): Indications - motor fluctuations despite optimal medical therapy, dyskinesia limiting levodopa dose, tremor refractory to medication. Targets: STN (subthalamic nucleus) - allows medication reduction; GPi (globus pallidus interna) - directly reduces dyskinesia. Contraindications: dementia, severe depression, atypical parkinsonism, severe cerebrovascular disease. BEST CANDIDATES: Responsive to levodopa (>=30% improvement), no cognitive impairment, no active psychiatric disease, medically optimized.",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "DBS indikasi: fluktuasi motorik, diskinisia, tremor refrakter",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Target: STN (reduksi obat), GPi (reduksi diskinisia)",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kontraindikasi: demensia, depresi berat, parkinsonisme atipikal",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kandidat terbaik: respons L-dopa >=30%, tidak ada gangguan kognitif",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Best DBS candidates have clear levodopa responsiveness (>30% improvement) and no dementia",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "NON-PHARMACOLOGICAL: Physiotherapy (gait training, balance exercises, ROM); Occupational therapy (ADL adaptation); Speech therapy (dysarthria, dysphagia); Exercise programs (tai chi, dance, cycling); Nutritional management (protein redistribution diet to optimize levodopa absorption). DEEP BRAIN STIMULATION (DBS): Indications - motor fluctuations despite optimal medical therapy, dyskinesia limiting levodopa dose, tremor refractory to medication. Targets: STN (subthalamic nucleus) - allows medication reduction; GPi (globus pallidus interna) - directly reduces dyskinesia. Contraindications: dementia, severe depression, atypical parkinsonism, severe cerebrovascular disease. BEST CANDIDATES: Responsive to levodopa (>=30% improvement), no cognitive impairment, no active psychiatric disease, medically optimized. DBS indikasi: fluktuasi motorik, diskinisia, tremor refrakter",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Lewy bodies",
+      "meaning": "Bodi inkusi eosinofilik berisi agregat alpha-synuclein, tanda patologi PD"
+    },
+    {
+      "term": "Braak staging",
+      "meaning": "Sistem staging yang menggambarkan penyebaran Lewy bodies dari medulla ke korteks"
+    },
+    {
+      "term": "Wearing-off",
+      "meaning": "Pendeknya durasi efek levodopa seiring berjalannya waktu"
+    },
+    {
+      "term": "Diskinesia",
+      "meaning": "Gerakan involunter akibat terapi levodopa jangka panjang"
+    },
+    {
+      "term": "DBS",
+      "meaning": "Deep Brain Stimulation, stimulasi elektrik pada STN atau GPi"
+    }
+  ],
+  "tables": [],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Identify parkinsonism",
+      "explanation": "Bradykinesia + rigidity/tremor/postural instability"
+    },
+    {
+      "step": 2,
+      "title": "Apply UK Brain Bank criteria",
+      "explanation": "Exclude red flags for atypical parkinsonism"
+    },
+    {
+      "step": 3,
+      "title": "Assess levodopa response",
+      "explanation": ">=30% improvement supports idiopathic PD"
+    },
+    {
+      "step": 4,
+      "title": "Stage with Hoehn-Yahr",
+      "explanation": "Guides treatment intensity"
+    }
+  ],
+  "differential_notes": [
+    {
+      "item": "Essential tremor",
+      "how_to_separate": "Bilateral action tremor, head involvement, no rigidity/bradykinesia, family history"
+    },
+    {
+      "item": "MSA",
+      "how_to_separate": "Early autonomic failure, cerebellar signs, poor levodopa response, pyramidal signs"
+    },
+    {
+      "item": "PSP",
+      "how_to_separate": "Early falls, vertical gaze palsy, axial rigidity, poor levodopa response"
+    },
+    {
+      "item": "Drug-induced",
+      "how_to_separate": "History of neuroleptic/metoclopramide use, bilateral, reversible"
+    }
+  ],
+  "treatment_notes": [
+    {
+      "phase": "early_young",
+      "content": "DA agonists or MAO-B inhibitors to delay levodopa motor complications"
+    },
+    {
+      "phase": "early_old",
+      "content": "Levodopa as first-line for symptom control"
+    },
+    {
+      "phase": "advanced",
+      "content": "Levodopa + COMT inhibitors/agonists; consider DBS if criteria met"
+    },
+    {
+      "phase": "dbs",
+      "content": "STN or GPi stimulation for motor fluctuations/dyskinesia"
+    }
+  ],
+  "red_flags": [
+    "Early postural instability (suggests atypical parkinsonism)",
+    "Poor levodopa response (suggests MSA, PSP, vascular)",
+    "Early dementia with visual hallucinations (suggests DLB)",
+    "Rapid progression (suggests atypical parkinsonism)"
+  ],
+  "extraction_notes": [
+    "Well-structured clinical PD lecture",
+    "UK Brain Bank criteria preserved in detail",
+    "Pharmacological management with mechanisms preserved",
+    "DBS section with indications and targets"
+  ],
+  "confidence_summary": "high",
+  "qc_flags": []
+}

@@ -1,0 +1,385 @@
+{
+  "id": "lecture_6e_cns_infection_radiology_004",
+  "batch_id": "batch_1_6e",
+  "title": "Central Nervous System Infection and Inflammation",
+  "subtitle": "Kimi rerun: neuro_radiology",
+  "source_pdf": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+  "source_docx": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah radiologi tentang infeksi dan inflamasi SSP yang mencakup stadium cerebritis dan formasi kapsul, pola pencitraan ensefalitis, meningitis, empiema, manifestasi TB SSP, dan toksoplasmosis. Berfokus pada temuan CT dan MRI dengan penekanan pada pola penyangatan kontras, karakteristik difusi, dan evolusi temporal lesi infeksius.",
+    "CNS infection progresses through cerebritis (7-10 days) to capsule formation (10-14 days)",
+    "MRI is more sensitive than CT for early encephalitis detection",
+    "DWI/ADC shows restricted diffusion in encephalitis though less intense than infarction"
+  ],
+  "exam_focus": [
+    "Cerebritis to capsule formation timeline",
+    "MRI sequences for encephalitis (T1, T2, DWI, GRE)",
+    "TB CNS two main manifestations (meningeal 70-80%, tuberculoma 20-30%)",
+    "Toxoplasmosis: multiple ring-enhancing lesions"
+  ],
+  "learning_goals": [
+    "Mengenali stadium cerebritis dan formasi kapsul abses pada pencitraan",
+    "Membedakan pola ensefalitis pada CT dan MRI",
+    "Mengidentifikasi temuan pencitraan meningitis dan empiema",
+    "Mendeskripsikan fitur radiologis TB SSP dan toksoplasmosis"
+  ],
+  "key_points": [
+    "CNS infection progresses through cerebritis (7-10 days) to capsule formation (10-14 days)",
+    "MRI is more sensitive than CT for early encephalitis detection",
+    "DWI/ADC shows restricted diffusion in encephalitis though less intense than infarction",
+    "GRE/SWI can detect hemorrhage in encephalitis",
+    "TB CNS manifests as meningeal inflammation (70-80%) or tuberculoma (20-30%)"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "CNS Protection and Routes of Infection",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "The CNS is protected by multiple physical and physiological barriers: the bony skull and vertebral column, the dura mater, and the blood-brain barrier (BBB). Notably, the brain lacks a conventional lymphatic drainage system. Pathogens can reach the CNS through hematogenous spread (most common), direct extension from adjacent infected structures (sinus, mastoid), or penetrating trauma. When infection establishes, it can involve brain parenchyma (cerebritis, abscess, encephalitis), extra-axial spaces (subdural empyema, epidural abscess), or meninges (meningitis).",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hematogen (paling sering)",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ekstensi langsung dari sinus/mastoid",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Trauma penetrasi",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "The CNS is protected by multiple physical and physiological barriers: the bony skull and vertebral column, the dura mater, and the blood-brain barrier (BBB). Notably, the brain lacks a conventional lymphatic drainage system. Pathogens can reach the CNS through hematogenous spread (most common), direct extension from adjacent infected structures (sinus, mastoid), or penetrating trauma. When infection establishes, it can involve brain parenchyma (cerebritis, abscess, encephalitis), extra-axial spaces (subdural empyema, epidural abscess), or meninges (meningitis). Hematogen (paling sering)",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Cerebritis dan Formasi Kapsul",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "CEREBRITIS (7-10 days): The initial stage of pyogenic infection marked by edema with flattened gyri. Lesions may be bilateral in temporal and frontal regions depending on the area affected. CAPSULE FORMATION (10-14 days): As the infection matures, necrosis, debris, and pus accumulate in a central cavity. Granulation tissue and fibrocollagenous thickening form the abscess wall. Reactive astrocytosis, neovascularity, and vasogenic edema develop around the abscess. Blood supply becomes 3-5 times greater in gray matter compared to white matter in the affected area. Otogenic abscesses typically occur in the temporal lobe; rhinogenic abscesses in the frontal lobe.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Cerebritis: stadium awal infeksi piogenik (7-10 hari), edema, gyri mendatar",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Capsul formasi: 10-14 hari setelah inokulasi, nekrosis, debris, pus",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Granulasi dan penebalan dinding fibrokologen",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Otogenik abses: lobus temporal; Rinogenik abses: lobus frontal",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Temporal evolution is key: cerebritis 7-10 days, capsule formation begins at 10-14 days",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "CEREBRITIS (7-10 days): The initial stage of pyogenic infection marked by edema with flattened gyri. Lesions may be bilateral in temporal and frontal regions depending on the area affected. CAPSULE FORMATION (10-14 days): As the infection matures, necrosis, debris, and pus accumulate in a central cavity. Granulation tissue and fibrocollagenous thickening form the abscess wall. Reactive astrocytosis, neovascularity, and vasogenic edema develop around the abscess. Blood supply becomes 3-5 times greater in gray matter compared to white matter in the affected area. Otogenic abscesses typically occur in the temporal lobe; rhinogenic abscesses in the frontal lobe. Cerebritis: stadium awal infeksi piogenik (7-10 hari), edema, gyri mendatar",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Ensefalitis - CT dan MRI",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Encephalitis is typically viral, causing acute, subacute, or chronic parenchymal inflammation. CT findings include vasogenic edema, mass effect, and heterogeneous enhancement with variable degrees. In later phases, mild hemorrhage may be visible. MRI is the modality of choice. T1W shows edema in affected areas; if complex with subacute hemorrhage, hyperintense areas may be seen. T1 C+ (gadolinium): enhancement is typically absent in early cases; in advanced cases, patterns include gyral enhancement, leptomeningeal enhancement, ring enhancement, and diffuse enhancement. T2W shows hyperintensity in white matter and cortex; hemorrhagic components appear hyperintense. DWI/ADC is more sensitive than T2WI - restricted diffusion occurs due to cytotoxic edema but is less intense than infarction. T2 shine-through can occur from vasogenic edema. GRE/SWI can demonstrate active hemorrhage (rare in neonates, common in older patients).",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "CT: vasogenic edema, efek massa, penyangatan heterogen",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "MRI T1: edema area terkena; T1 C+: gyral, leptomeningeal, ring, atau diffuse enhancement",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "MRI T2: hyperintensity white matter dan cortex",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "DWI/ADC: restricted diffusion (cytotoxic edema), lebih sensitif dari T2WI",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "GRE/SWI: dapat menunjukkan perdarahan aktif",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "DWI is more sensitive than T2 for early encephalitis; restricted diffusion from cytotoxic edema",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Encephalitis is typically viral, causing acute, subacute, or chronic parenchymal inflammation. CT findings include vasogenic edema, mass effect, and heterogeneous enhancement with variable degrees. In later phases, mild hemorrhage may be visible. MRI is the modality of choice. T1W shows edema in affected areas; if complex with subacute hemorrhage, hyperintense areas may be seen. T1 C+ (gadolinium): enhancement is typically absent in early cases; in advanced cases, patterns include gyral enhancement, leptomeningeal enhancement, ring enhancement, and diffuse enhancement. T2W shows hyperintensity in white matter and cortex; hemorrhagic components appear hyperintense. DWI/ADC is more sensitive than T2WI - restricted diffusion occurs due to cytotoxic edema but is less intense than infarction. T2 shine-through can occur from vasogenic edema. GRE/SWI can demonstrate active hemorrhage (rare in neonates, common in older patients). CT: vasogenic edema, efek massa, penyangatan heterogen",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Meningitis dan Empyema",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "MENINGITIS: Acute purulent meningitis shows exudate in the subarachnoid space, congested subarachnoid vessels, and brain swelling. Chronic forms are often due to TB or Cryptococcus. Complications include communicating hydrocephalus, ventriculitis, and dural vein thrombosis leading to infarction. EMPYEMA: Accumulation of inflammatory debris in the subdural space (rarely epidural).",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Meningitis akut: eksudat di subarachnoid space, pembuluh darah kongesti, otak membengkak",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kronik: sering TB atau Kriptokokus",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Komplikasi: hidrosefalus komunikan, ventrikulitis, trombosis vena dural",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Empyema: akumulasi debris inflamasi di subdural",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "MENINGITIS: Acute purulent meningitis shows exudate in the subarachnoid space, congested subarachnoid vessels, and brain swelling. Chronic forms are often due to TB or Cryptococcus. Complications include communicating hydrocephalus, ventriculitis, and dural vein thrombosis leading to infarction. EMPYEMA: Accumulation of inflammatory debris in the subdural space (rarely epidural). Meningitis akut: eksudat di subarachnoid space, pembuluh darah kongesti, otak membengkak",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "TB CNS dan Toksoplasmosis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "TB CNS manifests in two forms: meningeal inflammation (70-80% of cases) and tuberculoma formation (20-30%). Tuberculomas may present as abscesses, though this is rare. TOXOPLASMOSIS: CT shows multiple hypodense lesions with calcifications. With contrast: nodules and ring enhancement. MRI shows multiple ring-enhancing lesions on T2W.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "TB CNS: proses inflamasi meningeal 70-80%, tuberkuloma 20-30%",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Toksoplasmosis: multiple ring-enhancing lesions",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "TB CNS manifests in two forms: meningeal inflammation (70-80% of cases) and tuberculoma formation (20-30%). Tuberculomas may present as abscesses, though this is rare. TOXOPLASMOSIS: CT shows multiple hypodense lesions with calcifications. With contrast: nodules and ring enhancement. MRI shows multiple ring-enhancing lesions on T2W. TB CNS: proses inflamasi meningeal 70-80%, tuberkuloma 20-30%",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Cerebritis",
+      "meaning": "Stadium awal infeksi otak piogenik sebelum pembentukan kapsul abses"
+    },
+    {
+      "term": "Vasogenic edema",
+      "meaning": "Edema akibat gangguan BBB dengan akumulasi cairan di ruang ekstraseluler"
+    },
+    {
+      "term": "Cytotoxic edema",
+      "meaning": "Edema akibat kerusakan pompa Na-K sehingga cairan masuk ke dalam sel"
+    },
+    {
+      "term": "T2 shine-through",
+      "meaning": "Efek T2 pada DWI yang bukan true restricted diffusion"
+    }
+  ],
+  "tables": [],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Identify anatomical compartment",
+      "explanation": "Parenchyma vs meninges vs extra-axial space"
+    },
+    {
+      "step": 2,
+      "title": "Assess temporal evolution",
+      "explanation": "Cerebritis (7-10d) vs capsule formation (10-14d+)"
+    },
+    {
+      "step": 3,
+      "title": "Characterize enhancement pattern",
+      "explanation": "Gyral, leptomeningeal, ring, or diffuse enhancement provides diagnostic clues"
+    },
+    {
+      "step": 4,
+      "title": "Use advanced MRI sequences",
+      "explanation": "DWI for cytotoxic edema, GRE/SWI for hemorrhage"
+    }
+  ],
+  "differential_notes": [
+    {
+      "item": "Cerebritis vs infarction",
+      "how_to_separate": "DWI: both show restricted diffusion but encephalitis less intense; clinical context differs"
+    },
+    {
+      "item": "Tuberculoma vs toxoplasmosis",
+      "how_to_separate": "Tuberculoma: often single, basal location; Toxoplasmosis: multiple, ring-enhancing, immunocompromised patient"
+    },
+    {
+      "item": "Viral vs bacterial meningitis",
+      "how_to_separate": "Bacterial: purulent exudate, more pronounced enhancement; Viral: milder meningeal changes"
+    }
+  ],
+  "treatment_notes": [],
+  "red_flags": [
+    "Dural vein thrombosis complicating meningitis",
+    "Ventriculitis as meningitis complication",
+    "Abscess with mass effect or ventricular proximity"
+  ],
+  "extraction_notes": [
+    "Lecturer identified as Dr Erni Zainuddin SpRad K-RA",
+    "Sumber memiliki beberapa gambar tersemat yang direferensikan dengan base64; teaching point diekstrak dari teks terkait",
+    "Deskripsi sekuens MRI terstruktur dengan baik dan dipertahankan",
+    "Some slides were image-heavy with minimal text"
+  ],
+  "confidence_summary": "medium_high",
+  "qc_flags": []
+}

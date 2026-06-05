@@ -1,0 +1,1286 @@
+{
+  "id": "lecture_6f_personality_001",
+  "batch_id": "batch_2_6f",
+  "title": "Gangguan Kepribadian dan Perilaku Masa Dewasa",
+  "subtitle": "Kimi rerun: psychiatry_personality_disorders",
+  "source_pdf": "✅28_4_25 GGN KEPRIBADIAN DAN PERILAKU MASA DEWASA_compressed.docx",
+  "source_docx": "✅28_4_25 GGN KEPRIBADIAN DAN PERILAKU MASA DEWASA_compressed.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah tentang gangguan kepribadian pada dewasa berdasarkan klasifikasi DSM-5 dan PPDGJ-III. Disusun menurut tiga klaster (A: aneh/eksentrik, B: dramatis/emosional/erratik, C: cemas/takut), dengan data epidemiologi, kriteria diagnosis untuk setiap tipe gangguan kepribadian, dan ciri klinis pembeda utama. Kuliah menggunakan kode ICD-10 F60-F62 secara konsisten.",
+    "Kepribadian (dari bahasa Latin 'persona' = topeng) mencakup aspek karakter internal dan eksternal yang bersifat unik, relatif stabil, dan memengaruhi perilaku dalam berbagai situasi",
+    "Gangguan kepribadian = pola pikiran, perasaan, dan perilaku yang menetap dan maladaptif bagi individu serta masyarakat; individu seringkali tidak menyadari adanya masalah",
+    "Klaster A (Aneh/Eksentrik): Paranoid, Skizoid, Skizotipal"
+  ],
+  "exam_focus": [
+    "Klasifikasi 3 klaster A/B/C",
+    "Membedakan tiap tipe GP berdasarkan ciri khas",
+    "Koding ICD-10 F60-F62",
+    "Perbedaan GP OCK dengan OCD",
+    "Epidemiologi: antisosial lebih sering pada laki-laki, histrionik lebih sering pada perempuan",
+    "Borderline PD sebagai perbatasan neurosis-psikosis"
+  ],
+  "learning_goals": [
+    "Menjelaskan pengertian kepribadian dan membedakannya dari gangguan kepribadian",
+    "Mengklasifikasikan gangguan kepribadian ke dalam Klaster A, B, dan C menggunakan DSM-5",
+    "Mengidentifikasi kriteria diagnosis untuk setiap tipe gangguan kepribadian tertentu",
+    "Mengenali pola epidemiologi di berbagai tipe gangguan kepribadian",
+    "Membedakan pendekatan PPDGJ-III dan DSM-5 terhadap gangguan kepribadian"
+  ],
+  "key_points": [
+    "Kepribadian (dari bahasa Latin 'persona' = topeng) mencakup aspek karakter internal dan eksternal yang bersifat unik, relatif stabil, dan memengaruhi perilaku dalam berbagai situasi",
+    "Gangguan kepribadian = pola pikiran, perasaan, dan perilaku yang menetap dan maladaptif bagi individu serta masyarakat; individu seringkali tidak menyadari adanya masalah",
+    "Klaster A (Aneh/Eksentrik): Paranoid, Skizoid, Skizotipal",
+    "Klaster B (Dramatis/Emosional/Erratik): Antisosial, Borderline, Histrionik, Narsisistik",
+    "Klaster C (Cemas/Takut): Menghindar, Dependen, Obsesif-Kompulsif",
+    "Gangguan kepribadian antisosial lebih umum pada laki-laki (3% vs 1%); gangguan kepribadian dependen menunjukkan rentang prevalensi yang lebar (2,5%-25%)",
+    "Gangguan kepribadian borderline terletak di perbatasan antara neurosis dan psikosis"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Definisi Kepribadian",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Kepribadian (personality) berasal dari bahasa Latin 'persona' yang berarti topeng. Persona dikaitkan dengan penampilan luar atau tampang umum yang kita perlihatkan pada orang di sekitar kita, berupa karakteristik eksternal yang juga mencakup sifat sosial dan emosional yang subjektif dan tidak kasat mata.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kepribadian adalah aspek internal dan eksternal dari karakter seseorang yang bersifat unik dan relatif menetap, yang mempengaruhi perilaku dalam situasi-situasi berbeda.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Kepribadian (personality) berasal dari bahasa Latin 'persona' yang berarti topeng. Persona dikaitkan dengan penampilan luar atau tampang umum yang kita perlihatkan pada orang di sekitar kita, berupa karakteristik eksternal yang juga mencakup sifat sosial dan emosional yang subjektif dan tidak kasat mata. Kepribadian adalah aspek internal dan eksternal dari karakter seseorang yang bersifat unik dan relatif menetap, yang mempengaruhi perilaku dalam situasi-situasi berbeda.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Definisi Gangguan Kepribadian",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Gangguan kepribadian adalah suatu proses perkembangan yang terus menerus yang timbul pada masa kanak-kanak dan remaja dan berlanjut pada masa dewasa.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gangguan kepribadian merupakan suatu pola perilaku, pikiran, dan perasaan yang telah berlangsung lama yang bersifat maladaptif bagi individu dan masyarakat di sekitarnya. Bagi orang tersebut sendiri sering tidak merasa ada masalah; yang bermasalah adalah dunia di sekitarnya.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Key insight: Pasien dengan gangguan kepribadian umumnya tidak menyadari adanya masalah pada dirinya (lack of insight). Yang mengeluh biasanya orang di sekitarnya.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Gangguan kepribadian adalah suatu proses perkembangan yang terus menerus yang timbul pada masa kanak-kanak dan remaja dan berlanjut pada masa dewasa. Gangguan kepribadian merupakan suatu pola perilaku, pikiran, dan perasaan yang telah berlangsung lama yang bersifat maladaptif bagi individu dan masyarakat di sekitarnya. Bagi orang tersebut sendiri sering tidak merasa ada masalah; yang bermasalah adalah dunia di sekitarnya.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Klasifikasi Gangguan Kepribadian",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Berdasarkan DSM-5, gangguan kepribadian dikelompokkan menjadi tiga klaster:",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Klaster A - Aneh/Eksentrik: GP Paranoid, GP Skizoid, GP Skizotipal",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Klaster B - Dramatik, Emosional, Tidak Menentu (Erratic): GP Antisosial, GP Borderline, GP Histrionik, GP Narsisistik",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Klaster C - Cemas dan Ketakutan: GP Menghindar, GP Dependen, GP Obsesif-Kompulsif",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Berdasarkan DSM-5, gangguan kepribadian dikelompokkan menjadi tiga klaster: Klaster A - Aneh/Eksentrik: GP Paranoid, GP Skizoid, GP Skizotipal",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03b",
+      "title": "Koding PPDGJ-III / ICD-10",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "F60.0: GP Paranoid",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "F60.1: GP Skizoid",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "F60.2: GP Dissosial (Antisosial)",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "F60.3: GP Emosional tak stabil (Borderline)",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "F60.4: GP Histrionik",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "F60.5: GP Anankastik (Obsesif-Kompulsif)",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "F60.6: GP Cemas/Menghindar",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "F60.7: GP Dependen",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "F60.8: GP Khas Lainnya",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "F60.9: GP YTT",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "F61.0: GP Campuran",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "F62.0: Perubahan kepribadian setelah katastrofa",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "F62.1: Perubahan kepribadian setelah gangguan jiwa",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "F60.0: GP Paranoid F60.1: GP Skizoid",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Epidemiologi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Paranoid: 0.5% - 2.5% pada populasi umum",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Skizoid: uncommon (jarang)",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Skizotipal: 3%",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Antisosial: laki-laki 3%, perempuan 1% (meningkat pada penyalahguna zat dan di penjara)",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Borderline: 2%",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Histrionik: 2% - 3%",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Narsisistik: <1%",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Menghindar: 0.5% - 1%",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dependen: 2.5% - 25% (rentang sangat luas)",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Obsesif-Kompulsif: 1%",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dependent personality memiliki rentang prevalensi terluas (2.5%-25%) karena kesulitan diagnostik dan tumpang-tindih dengan gangguan ansietas.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Paranoid: 0.5% - 2.5% pada populasi umum Skizoid: uncommon (jarang)",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "GP Paranoid",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Diagnosis memerlukan minimal 3 gejala berikut:",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sangat peka terhadap kegagalan dan penolakan",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kecenderungan menyimpan dendam, sulit memaafkan walau masalah kecil",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Curiga terhadap sikap netral orang lain, merasa sebagai sikap bermusuhan atau penghinaan",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perasaan bermusuhan dan ngotot mempertahankan hak pribadi tanpa memperhatikan situasi",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Curiga berulang tanpa dasar tentang kesetiaan seksual pasangan",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kecenderungan merasa dirinya penting secara berlebihan",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Merasa ada persekongkolan terhadap dirinya",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Diagnosis memerlukan minimal 3 gejala berikut: Sangat peka terhadap kegagalan dan penolakan",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s06",
+      "title": "GP Skizoid",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Tidak ada atau hanya sedikit aktivitas yang menimbulkan rasa bahagia",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Emosi dingin, afek datar atau tidak peduli",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kurang mampu mengekspresikan kehangatan, kelembutan, atau kemarahan terhadap orang lain",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Nyata ketidakpedulian terhadap kecaman atau pujian",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak tertarik menjalin pengalaman seksual dengan orang lain",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Selalu memilih aktivitas menyendiri",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dirundung fantasi dan introspeksi yang berlebihan",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak mempunyai teman akrab/dekat",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak sensitif terhadap norma kebiasaan sosial yang berlaku",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Tidak ada atau hanya sedikit aktivitas yang menimbulkan rasa bahagia Emosi dingin, afek datar atau tidak peduli",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s07",
+      "title": "GP Skizotipal",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Keanehan dalam berpikir, perilaku, dan penampilan (eksentrik)",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gagasan yang menyangkut diri sendiri (ideas of reference)",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Keyakinan aneh dan pikiran magis",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pikiran paranoid atau curiga",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak memiliki teman akrab atau orang yang dipercaya kecuali keluarga setingkat",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Afek tidak sesuai atau terbatas",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ada ilusi perseptual berupa mikropsia atau melihat orang seperti kayu atau jadi-jadian",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "GP Skizotipal berada pada spektrum antara gangguan kepribadian dan skizofrenia. Ideas of reference (bukan delusi) dan ilusi perseptual adalah pembeda dari paranoid PD.",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Keanehan dalam berpikir, perilaku, dan penampilan (eksentrik) Gagasan yang menyangkut diri sendiri (ideas of reference)",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s08",
+      "title": "GP Antisosial (Dissosial)",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Gagal mematuhi norma sosial yang sesuai hukum secara berulang (sering dipenjara)",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak jujur, sering bohong, menggunakan nama samaran, menipu untuk kesenangan pribadi",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Impulsif, tanpa rencana untuk masa depan",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mengabaikan keselamatan diri sendiri dan orang lain (sembrono)",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perilaku tidak bertanggung jawab",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak ada penyesalan, acuh tak acuh, mencari alasan telah disakiti atau dianiaya",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "GP Antisosial harus dibedakan dari perilaku kriminal sekunder. Yang khas adalah lack of remorse dan manipulatif sejak usia dini. Lebih sering pada laki-laki.",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Gagal mematuhi norma sosial yang sesuai hukum secara berulang (sering dipenjara) Tidak jujur, sering bohong, menggunakan nama samaran, menipu untuk kesenangan pribadi",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s09",
+      "title": "GP Borderline (Ambang)",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Gangguan ini berada pada perbatasan antara neurosis dan psikosis. Afek, mood, perilaku, hubungan interpersonal, dan citra diri sangat tidak stabil.",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Impulsif terhadap berbelanja, seks, penyalahgunaan zat, ngebut, pesta-pesta",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perilaku isyarat atau ancaman bunuh diri yang berulang, mutilasi diri",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Marah yang timbul tidak pada tempatnya",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ada ide paranoid",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perilaku sangat tidak dapat diramalkan",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Borderline PD adalah salah satu gangguan kepribadian yang paling sering dijumpai di praktik klinis. Self-harm, mood instability, dan stormy interpersonal relationships adalah triad khas.",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Gangguan ini berada pada perbatasan antara neurosis dan psikosis. Afek, mood, perilaku, hubungan interpersonal, dan citra diri sangat tidak stabil. Impulsif terhadap berbelanja, seks, penyalahgunaan zat, ngebut, pesta-pesta",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s10",
+      "title": "GP Histrionik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Insiden pada wanita lebih besar daripada laki-laki.",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perilaku bermacam-macam, dramatik, ekstrovert, dan emosional",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perilaku mencari perhatian yang tinggi, membuat segalanya terdengar lebih penting dibanding kenyataannya",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak merasa nyaman kalau tidak menjadi pusat perhatian",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mudah disugesti atau mudah dipengaruhi oleh orang lain",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mekanisme pertahanan ego utama: represi dan disosiasi",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Insiden pada wanita lebih besar daripada laki-laki. Perilaku bermacam-macam, dramatik, ekstrovert, dan emosional",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s11",
+      "title": "GP Narsisistik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Ditandai dengan meningkatnya rasa kepentingan diri dan perasaan kebesaran yang unik",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Menganggap dirinya khusus, tidak mampu untuk dikritik atau tidak peduli terhadap kritik",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak mampu menunjukkan empati, hanya berpura-pura simpati hanya untuk mencapai kepentingan mereka sendiri",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Selalu memanfaatkan orang lain, harga diri yang rapuh dan rentan terhadap depresi",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "GP ambang, histrionik, dan antisosial sering bersama-sama dengan GP narsisistik",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Ditandai dengan meningkatnya rasa kepentingan diri dan perasaan kebesaran yang unik Menganggap dirinya khusus, tidak mampu untuk dikritik atau tidak peduli terhadap kritik",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s12",
+      "title": "GP Menghindar",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Individu menunjukkan kepekaan ekstrem terhadap penolakan yang dapat menyebabkan penarikan diri dari kehidupan sosial",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ingin berteman tetapi malu, memerlukan jaminan untuk penerimaan tanpa kritikan",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Menunjukkan keterbatasan dalam hubungan intim karena rasa takut dipermalukan atau ditertawakan",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Memandang diri sendiri rendah, tidak menarik, dan lebih rendah dari orang lain",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak berani mengambil risiko",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Individu menunjukkan kepekaan ekstrem terhadap penolakan yang dapat menyebabkan penarikan diri dari kehidupan sosial Ingin berteman tetapi malu, memerlukan jaminan untuk penerimaan tanpa kritikan",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s13",
+      "title": "GP Dependen",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Individu menempatkan kebutuhan mereka sendiri di bawah kebutuhan orang lain",
+          "provenance": {
+            "source_paragraph_index": 13,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Meminta orang lain untuk mengambil tanggung jawab untuk masalah besar dalam hidupnya",
+          "provenance": {
+            "source_paragraph_index": 13,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak punya percaya diri",
+          "provenance": {
+            "source_paragraph_index": 13,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ada perilaku ketergantungan dan sikap patuh yang berlebihan",
+          "provenance": {
+            "source_paragraph_index": 13,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Menjadi cemas jika diminta untuk memegang peran kepemimpinan",
+          "provenance": {
+            "source_paragraph_index": 13,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak senang sendirian, mencari orang lain untuk bergantung",
+          "provenance": {
+            "source_paragraph_index": 13,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Individu menempatkan kebutuhan mereka sendiri di bawah kebutuhan orang lain Meminta orang lain untuk mengambil tanggung jawab untuk masalah besar dalam hidupnya",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s14",
+      "title": "GP Obsesif-Kompulsif (Anankastik)",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Insiden pada laki-laki lebih besar daripada wanita.",
+          "provenance": {
+            "source_paragraph_index": 14,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ditandai dengan penyempitan emosi, ketertiban, kekerasan hati, sikap keras kepala, dan kebimbangan",
+          "provenance": {
+            "source_paragraph_index": 14,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Selalu ingin terlihat sempurna: orangnya menjadi serius, resmi, dan tidak mempunyai rasa humor",
+          "provenance": {
+            "source_paragraph_index": 14,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Memaksakan aturan supaya diikuti secara kaku dan tidak mampu mentolerir apa yang dirasakan sebagai pelanggaran",
+          "provenance": {
+            "source_paragraph_index": 14,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kikir, menimbun uang untuk bencana di masa depan",
+          "provenance": {
+            "source_paragraph_index": 14,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pembeda penting: GP Obsesif-Kompulsif berbeda dari OCD. Pada GP-OCK, perilaku ketertiban dan perfeksionisme adalah bagian dari kepribadian (ego-syntonic), sedangkan pada OCD perilaku kompulsif mengganggu dan tidak diinginkan (ego-dystonic).",
+          "provenance": {
+            "source_paragraph_index": 14,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Insiden pada laki-laki lebih besar daripada wanita. Ditandai dengan penyempitan emosi, ketertiban, kekerasan hati, sikap keras kepala, dan kebimbangan",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Persona",
+      "meaning": "Dari bahasa Latin 'topeng'; penampilan luar yang ditunjukkan kepada orang lain"
+    },
+    {
+      "term": "Maladaptif",
+      "meaning": "Pola perilaku yang tidak membantu individu beradaptasi dengan tuntutan kehidupan"
+    },
+    {
+      "term": "Ideas of reference",
+      "meaning": "Kepercayaan bahwa peristiwa umum memiliki makna pribadi yang khusus"
+    },
+    {
+      "term": "Ego-sintonic",
+      "meaning": "Pola perilaku yang selaras dengan pandangan diri (pasien tidak melihatnya sebagai masalah)"
+    },
+    {
+      "term": "Ego-distonik",
+      "meaning": "Pola perilaku yang bertentangan dengan pandangan diri (pasien mengalami distress)"
+    },
+    {
+      "term": "Anankastik",
+      "meaning": "Istilah ICD-10 untuk Obsessive-Compulsive Personality Disorder"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t01",
+      "title": "Klasifikasi Gangguan Kepribadian (DSM-5)",
+      "columns": [
+        "Klaster",
+        "Karakteristik Umum",
+        "Jenis Gangguan"
+      ],
+      "rows": [
+        [
+          "A",
+          "Aneh/Eksentrik",
+          "Paranoid, Skizoid, Skizotipal"
+        ],
+        [
+          "B",
+          "Dramatik/Emosional/Erratic",
+          "Antisosial, Borderline, Histrionik, Narsisistik"
+        ],
+        [
+          "C",
+          "Cemas/Ketakutan",
+          "Menghindar, Dependen, Obsesif-Kompulsif"
+        ]
+      ]
+    },
+    {
+      "id": "t02",
+      "title": "Epidemiologi Gangguan Kepribadian",
+      "columns": [
+        "Gangguan",
+        "Prevalensi",
+        "Catatan"
+      ],
+      "rows": [
+        [
+          "Paranoid",
+          "0.5% - 2.5%",
+          "Populasi umum"
+        ],
+        [
+          "Skizoid",
+          "Uncommon",
+          "Jarang dijumpai"
+        ],
+        [
+          "Skizotipal",
+          "3%",
+          ""
+        ],
+        [
+          "Antisosial",
+          "Laki-laki 3%, Perempuan 1%",
+          "Meningkat di penjara dan penyalahguna zat"
+        ],
+        [
+          "Borderline",
+          "2%",
+          ""
+        ],
+        [
+          "Histrionik",
+          "2% - 3%",
+          ""
+        ],
+        [
+          "Narsisistik",
+          "<1%",
+          ""
+        ],
+        [
+          "Menghindar",
+          "0.5% - 1%",
+          ""
+        ],
+        [
+          "Dependen",
+          "2.5% - 25%",
+          "Rentang sangat luas"
+        ],
+        [
+          "Obsesif-Kompulsif",
+          "1%",
+          "Lebih sering pada laki-laki"
+        ]
+      ]
+    }
+  ],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Identifikasi pola perilaku menetap",
+      "explanation": "Pola pikiran, perasaan, dan perilaku yang menetap sejak masa remaja/dewasa muda, yang menyimpang dari ekspektasi budaya."
+    },
+    {
+      "step": 2,
+      "title": "Tentukan klaster",
+      "explanation": "Berdasarkan karakteristik dominan: A (eksentrik), B (dramatik/emosional), C (cemas)."
+    },
+    {
+      "step": 3,
+      "title": "Verifikasi kriteria spesifik",
+      "explanation": "Minimal 3-4 kriteria untuk masing-masing tipe personality disorder sesuai PPDGJ-III."
+    },
+    {
+      "step": 4,
+      "title": "Eksklusi",
+      "explanation": "Pastikan tidak disebabkan oleh gangguan medis, zat, atau perkembangan normal."
+    }
+  ],
+  "differential_notes": [
+    {
+      "item": "GP Paranoid vs Paranoid Schizophrenia",
+      "how_to_separate": "Paranoid PD tidak memiliki halusinasi atau delusi formal, hanya curiga berlebihan."
+    },
+    {
+      "item": "GP Skizotipal vs GP Skizoid",
+      "how_to_separate": "Skizotipal memiliki ideas of reference dan keanehan kognitif/perseptual; skizoid tidak."
+    },
+    {
+      "item": "GP Borderline vs Gangguan Bipolar",
+      "how_to_separate": "Borderline: perubahan mood dalam hitungan jam. Bipolar: episode berlangsung hari hingga minggu."
+    },
+    {
+      "item": "GP OCK vs OCD",
+      "how_to_separate": "OCK: perfeksionisme bersifat ego-sintonic (bagian dari diri). OCD: kompulsi bersifat ego-distonik (tidak diinginkan)."
+    },
+    {
+      "item": "GP Menghindar vs Fobia Sosial",
+      "how_to_separate": "GP Menghindar: penghindaran hubungan intim secara luas. Fobia sosial: takut pada situasi sosial/performansi tertentu."
+    }
+  ],
+  "treatment_notes": [
+    {
+      "phase": "general",
+      "content": "Kuliah tidak memuat protokol perawatan spesifik. Gangguan kepribadian umumnya ditangani dengan psikoterapi jangka panjang (CBT, DBT untuk borderline), tanpa farmakoterapi spesifik kecuali ada kondisi komorbid."
+    }
+  ],
+  "red_flags": [
+    "Ancaman bunuh diri (khususnya pada borderline)",
+    "Perilaku self-harm berulang",
+    "Perilaku kriminal berulang (antisosial)",
+    "Penyalahgunaan zat ko-morbid"
+  ],
+  "extraction_notes": [
+    "Opening slide contained title only; lecturer name not explicitly stated.",
+    "Slides 8-27 each covered one personality disorder type with 2 slides per type.",
+    "Lecture used informal annotations and shorthand extensively.",
+    "Two classification tables preserved (DSM-5 clusters and epidemiology).",
+    "No treatment algorithms or figures were present in the source."
+  ],
+  "confidence_summary": "tinggi",
+  "qc_flags": []
+}

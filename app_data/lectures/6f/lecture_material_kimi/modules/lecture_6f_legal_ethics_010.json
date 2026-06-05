@@ -1,0 +1,871 @@
+{
+  "id": "lecture_6f_legal_ethics_010",
+  "batch_id": "batch_2_6f",
+  "title": "Isu Etik dan Legal dalam Kesehatan Jiwa",
+  "subtitle": "Kimi rerun: psychiatry_ethics_law",
+  "source_pdf": "legal-etik-jiwa.docx",
+  "source_docx": "legal-etik-jiwa.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah tentang isu etik dan legal dalam praktik kesehatan jiwa mencakup dasar etik kesehatan (Florence Nightingale), hak pasien berdasarkan UU No. 44/2009, persetujuan tindakan, kontrak terapeutik, alternatif paling tidak restriktif, regulasi pembatasan, isolasi, dilema etik, pengobatan tanpa persetujuan, pertanggungjawaban pidana (aturan M'Naghten), peran forensik, kewajiban pasien, dan batasan profesional.",
+    "Florence Nightingale pledge: 4 domains - help the sick achieve health, help the healthy maintain health, help the incurable realize potential, help the dying live optimally",
+    "UU No.29/2004 Pasal 52: patient rights include full explanation, second opinion, appropriate service, refusal of treatment, access to medical records",
+    "Restraint = direct application of physical force to restrict movement; Seclusion = involuntary confinement in specially constructed room"
+  ],
+  "exam_focus": [
+    "4 pilar Florence Nightingale",
+    "5 hak pasien UU No.29/2004 Pasal 52",
+    "Definisi restraint dan seclusion",
+    "5 prinsip moral: autonomy, beneficence, non-maleficence, justice, honesty",
+    "6 langkah pengambilan keputusan etis",
+    "M'Naghten rule untuk pertanggungjawaban pidana",
+    "VER (Visum et Repertum Psikiatrikum)",
+    "8 jenis liabilitas dalam keperawatan jiwa",
+    "Strategi meminimalkan liabilitas"
+  ],
+  "learning_goals": [
+    "State the 4 domains of Florence Nightingale's health ethics pledge",
+    "List patient rights under UU No.29/2004 and Stuart & Laraia framework",
+    "Define restraint and seclusion",
+    "Explain the 5 moral principles in health practice",
+    "Apply the 6-step ethical decision-making method",
+    "Identify legal liabilities in psychiatric practice",
+    "Explain criminal responsibility assessment (M'Naghten rule, VER)",
+    "Describe strategies to minimize liability"
+  ],
+  "key_points": [
+    "Florence Nightingale pledge: 4 domains - help the sick achieve health, help the healthy maintain health, help the incurable realize potential, help the dying live optimally",
+    "UU No.29/2004 Pasal 52: patient rights include full explanation, second opinion, appropriate service, refusal of treatment, access to medical records",
+    "Restraint = direct application of physical force to restrict movement; Seclusion = involuntary confinement in specially constructed room",
+    "5 moral principles: autonomy, beneficence, non-maleficence, justice, honesty/confidentiality/fidelity",
+    "6-step ethical decision method: show good intent, identify key people, gather relevant information, identify ethical principles, propose alternatives, take action",
+    "M'Naghten rule: defendant not guilty if unable to control actions or distinguish right from wrong due to mental disorder",
+    "VER (Visum et Repertum Psikiatrikum) = psychiatric expert examination for criminal cases",
+    "Minimize liability: follow standards, competent practice, empathy, complete documentation, immediate care"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Etik Kesehatan",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Etik kesehatan adalah sudut pandang pada apa yang baik dan benar untuk kesehatan dan kehidupan manusia, yang mengarahkan bagaimana seorang tenaga kesehatan harus bertindak dan berinteraksi dengan orang lain.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bersumber dari pernyataan Florence Nightingale = Ikrar Profesi",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "1. Membantu yang sakit untuk mencapai keadaan sehat",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "2. Membantu yang sehat mempertahankan kesehatannya",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "3. Membantu mereka yang tidak dapat disembuhkan untuk menyadari potensinya",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "4. Membantu seseorang yang menghadapi kematian untuk hidup seoptimal mungkin sampai menjelang kematian",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Etik kesehatan adalah sudut pandang pada apa yang baik dan benar untuk kesehatan dan kehidupan manusia, yang mengarahkan bagaimana seorang tenaga kesehatan harus bertindak dan berinteraksi dengan orang lain. Bersumber dari pernyataan Florence Nightingale = Ikrar Profesi",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Hak Pasien (UU No.29/2004)",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Mendapatkan penjelasan secara lengkap tentang tindakan medis",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Meminta pendapat dokter atau dokter gigi lain",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mendapatkan pelayanan sesuai dengan kebutuhan medis",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Menolak tindakan",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mendapatkan isi rekaman medis",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Mendapatkan penjelasan secara lengkap tentang tindakan medis Meminta pendapat dokter atau dokter gigi lain",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Hak Pasien Jiwa (Stuart & Laraia, 2001)",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Hak berkomunikasi dengan orang lain (korespondensi, telepon, kunjungan)",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hak berpakaian, beribadah, dipekerjakan",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hak menyimpan dan membuang barang",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hak melaksanakan keinginannya, memiliki hubungan kontraktual",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hak membeli barang, pendidikan, habeas corpus",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hak pemeriksaan jiwa atas inisiatif pasien",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hak pelayanan sipil, mempertahankan lisensi (supir, profesi)",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hak memuntut dan dituntut, menikah dan bercerai",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hak tidak mendapatkan restrain mekanik yang tidak perlu",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hak review status secara periodik, perwalian hukum, privasi",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hak informed consent, hak menolak perawatan",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Hak berkomunikasi dengan orang lain (korespondensi, telepon, kunjungan) Hak berpakaian, beribadah, dipekerjakan",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Alasan Masuk RS Jiwa",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Berbahaya untuk diri sendiri dan orang lain",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Membutuhkan perawatan",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak dapat memenuhi kebutuhan dasar secara mandiri",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Berbahaya untuk diri sendiri dan orang lain Membutuhkan perawatan",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Restrain dan Seclusion",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Restraints adalah aplikasi langsung kekuatan fisik pada seseorang, tanpa atau dengan izin, untuk membatasi kebebasan bergerak. Seclusion (pengasingan) adalah pengurungan seseorang bukan keinginan sendiri dalam konstruksi khusus, ruangan terkunci dengan jendela keamanan atau kamera untuk monitoring visual langsung (JCAHO, 2000).",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hirarki pembatasan (paling restriktif ke kurang restriktif):",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ekstimitas tubuh",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Batasan ruang gerak (kamar isolasi)",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Batasan dalam aktivitas sehari-hari (acara TV, waktu merokok, komunikasi)",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Aktivitas yang bermakna (akses rekreasi)",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pilihan perawatan",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kontrol sumber keuangan",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ekspresi verbal dan emosional",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Prinsip alternatif paling tidak restriktif: selalu pilih intervensi yang paling tidak restriktif. Ekspresi verbal/emosional adalah yang paling tidak restriktif; pembatasan anggota tubuh lebih restriktif; isolasi lebih restriktif lagi; pengobatan tanpa persetujuan paling restriktif kecuali darurat.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Restraints adalah aplikasi langsung kekuatan fisik pada seseorang, tanpa atau dengan izin, untuk membatasi kebebasan bergerak. Seclusion (pengasingan) adalah pengurungan seseorang bukan keinginan sendiri dalam konstruksi khusus, ruangan terkunci dengan jendela keamanan atau kamera untuk monitoring visual langsung (JCAHO, 2000). Hirarki pembatasan (paling restriktif ke kurang restriktif):",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s06",
+      "title": "Prinsip Moral dalam Praktek Kesehatan",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "1. Autonomi: setiap orang punya kebebasan memilih rencana kehidupan; menghargai harkat dan martabat manusia; melibatkan pasien dalam keputusan",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "2. Beneficence: melakukan yang baik dan tidak merugikan; membantu orang melakukan sesuatu yang menguntungkan",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "3. Non Maleficience dan Kemaslahatan: kontinum dari tidak berbahaya sampai menguntungkan; menghindari yang membahayakan pasien",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "4. Keadilan: berlaku adil terhadap semua pasien sesuai kebutuhan",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "5. Kejujuran, Kerahasiaan, dan Kesetiaan: kewajiban mengungkapkan yang sebenarnya, melindungi informasi rahasia, menepati janji",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "1. Autonomi: setiap orang punya kebebasan memilih rencana kehidupan; menghargai harkat dan martabat manusia; melibatkan pasien dalam keputusan 2. Beneficence: melakukan yang baik dan tidak merugikan; membantu orang melakukan sesuatu yang menguntungkan",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s07",
+      "title": "Metode Pengambilan Keputusan Etis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "1. Menunjukkan maksud baik",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "2. Mengidentifikasi semua orang penting",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "3. Mengumpulkan informasi yang relevan",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "4. Mengidentifikasi prinsip etis yang penting",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "5. Mengusulkan tindakan alternatif",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "6. Melakukan tindakan",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "1. Menunjukkan maksud baik 2. Mengidentifikasi semua orang penting",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s08",
+      "title": "Pengaruh Hukum dalam Praktek Kep.Jiwa",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Nakes memiliki peran ganda: sebagai warga negara, pemberi pelayanan, pegawai, dan pelindung hak-hak pasien. Masalah legal dapat terjadi bila tidak tersedia tenaga yang memadai, tidak tersedia standar praktek, dan tidak ada kontrak kerja.",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pedoman legal: Undang-undang praktek, peraturan Kep Menkes No 1239, dan Hukum adat",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Liabilitas dalam keperawatan jiwa: pasien bunuh diri, gagal mendiagnosa, masalah ECT, penyalahgunaan obat psikoaktif, melanggar kerahasiaan, gagal merujuk, gagal melaporkan penganiayaan, tidak ada informed consent",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Nakes memiliki peran ganda: sebagai warga negara, pemberi pelayanan, pegawai, dan pelindung hak-hak pasien. Masalah legal dapat terjadi bila tidak tersedia tenaga yang memadai, tidak tersedia standar praktek, dan tidak ada kontrak kerja. Pedoman legal: Undang-undang praktek, peraturan Kep Menkes No 1239, dan Hukum adat",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s09",
+      "title": "Pertanggungjawaban Pidana",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Tindakan kriminal oleh seseorang yang diduga memiliki kelainan jiwa perlu penyelidikan dari ahli kesehatan jiwa melalui Visum et Repertum Psikiatrikum (VER).",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Peraturan M'Naghten: orang yang didakwa dianggap tidak bersalah jika tidak bisa mengontrol perbuatannya atau tidak mengerti perbedaan benar dan salah",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bila memenuhi kriteria, dapat dinyatakan tidak bersalah karena gangguan jiwa",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Aturan M'Naghten: Terdakwa tidak bertanggung jawab secara pidana jika, karena gangguan mental, mereka (1) tidak mengetahui sifat/kualitas perbuatan, ATAU (2) tidak mengetahui perbuatan itu salah. Dimodifikasi di beberapa yurisdiksi dengan doktrin dorongan tak tertahankan.",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Tindakan kriminal oleh seseorang yang diduga memiliki kelainan jiwa perlu penyelidikan dari ahli kesehatan jiwa melalui Visum et Repertum Psikiatrikum (VER). Peraturan M'Naghten: orang yang didakwa dianggap tidak bersalah jika tidak bisa mengontrol perbuatannya atau tidak mengerti perbedaan benar dan salah",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s10",
+      "title": "Minimalkan Liabilitas",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "1. Ikuti standar praktek",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "2. Berikan pelayanan sesuai kompetensi",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "3. Hubungan empati, hormat, dan belas rasa",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "4. Dokumentasi lengkap, objektif, tepat waktu",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "5. Pertolongan segera",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "1. Ikuti standar praktek 2. Berikan pelayanan sesuai kompetensi",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s11",
+      "title": "Standar Praktek",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Standar: pedoman praktek yang aman dan tepat",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tanggung jawab: pelaksanaan tugas sesuai peran Nakes",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tanggung gugat: dapat memberikan alasan atas tindakan yang diberikan kepada pasien, profesi, atasan, dan masyarakat",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Standar: pedoman praktek yang aman dan tepat Tanggung jawab: pelaksanaan tugas sesuai peran Nakes",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Restrain",
+      "meaning": "Aplikasi langsung kekuatan fisik untuk membatasi kebebasan bergerak"
+    },
+    {
+      "term": "Seclusion",
+      "meaning": "Pengurungan involunter dalam ruangan terkunci dengan monitoring visual"
+    },
+    {
+      "term": "M'Naghten rule",
+      "meaning": "Aturan bahwa terdakwa tidak bertanggung jawab jika gangguan jiwa mencegahnya membedakan benar dan salah"
+    },
+    {
+      "term": "VER",
+      "meaning": "Visum et Repertum Psikiatrikum - pemeriksaan ahli kesehatan jiwa untuk kasus pidana"
+    },
+    {
+      "term": "Tanggung gugat",
+      "meaning": "Dapat memberikan alasan atas tindakan yang diberikan kepada pasien dan pihak terkait"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t01",
+      "title": "5 Prinsip Moral",
+      "columns": [
+        "Prinsip",
+        "Definisi"
+      ],
+      "rows": [
+        [
+          "Autonomi",
+          "Kebebasan memilih; menghargai martabat manusia"
+        ],
+        [
+          "Beneficence",
+          "Melakukan yang baik; membantu yang menguntungkan"
+        ],
+        [
+          "Non-Maleficience",
+          "Tidak membahayakan pasien"
+        ],
+        [
+          "Keadilan",
+          "Berlaku adil sesuai kebutuhan"
+        ],
+        [
+          "Kejujuran/Kerahasiaan",
+          "Ungkap yang sebenarnya; lindungi informasi rahasia"
+        ]
+      ]
+    },
+    {
+      "id": "t02",
+      "title": "Hirarki Pembatasan Pasien",
+      "columns": [
+        "Level",
+        "Tipe Pembatasan"
+      ],
+      "rows": [
+        [
+          "1 (Paling restriktif)",
+          "Restraint ekstimitas tubuh"
+        ],
+        [
+          "2",
+          "Kamar isolasi (seclusion)"
+        ],
+        [
+          "3",
+          "Batasan aktivitas sehari-hari"
+        ],
+        [
+          "4",
+          "Batasan akses rekreasi"
+        ],
+        [
+          "5",
+          "Batasan pilihan perawatan"
+        ],
+        [
+          "6",
+          "Batasan kontrol keuangan"
+        ],
+        [
+          "7 (Tidak restriktif)",
+          "Batasan ekspresi verbal/emosional"
+        ]
+      ]
+    },
+    {
+      "id": "t03",
+      "title": "Liabilitas dalam Keperawatan Jiwa",
+      "columns": [
+        "No",
+        "Jenis Liabilitas"
+      ],
+      "rows": [
+        [
+          "1",
+          "Pasien bunuh diri"
+        ],
+        [
+          "2",
+          "Gagal mendiagnosa"
+        ],
+        [
+          "3",
+          "Masalah terkait ECT"
+        ],
+        [
+          "4",
+          "Penyalahgunaan obat-obat psikoaktif"
+        ],
+        [
+          "5",
+          "Melanggar kerahasiaan"
+        ],
+        [
+          "6",
+          "Gagal merujuk pasien"
+        ],
+        [
+          "7",
+          "Gagal melaporkan penganiayaan"
+        ],
+        [
+          "8",
+          "Tidak adanya informed consent"
+        ]
+      ]
+    }
+  ],
+  "diagnostic_logic": [],
+  "differential_notes": [],
+  "treatment_notes": [],
+  "red_flags": [
+    "Pasien berbahaya untuk diri sendiri/orang lain",
+    "Penggunaan restraint/seclusion yang tidak sesuai indikasi",
+    "Pelanggaran informed consent",
+    "Pelanggaran kerahasiaan pasien",
+    "Dokumentasi tidak lengkap"
+  ],
+  "extraction_notes": [
+    "20-slide lecture, lecturer name not explicitly stated on title slide.",
+    "Legal framework references UU No.29/2004 and Stuart & Laraia (2001).",
+    "M'Naghten rule and VER clearly explained for criminal responsibility.",
+    "5 moral principles presented with clear definitions.",
+    "Hierarchy of restriction table preserved."
+  ],
+  "confidence_summary": "tinggi",
+  "qc_flags": []
+}

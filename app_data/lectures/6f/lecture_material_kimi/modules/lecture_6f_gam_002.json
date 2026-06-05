@@ -1,0 +1,683 @@
+{
+  "id": "lecture_6f_gam_002",
+  "batch_id": "batch_2_6f",
+  "title": "Gangguan Ansietas dan Penatalaksanaannya - GAM",
+  "subtitle": "Kimi rerun: psychiatry_anxiety_disorders",
+  "source_pdf": "09 dr.Susi - 1. GAM.docx",
+  "source_docx": "09 dr.Susi - 1. GAM.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah tentang Gangguan Ansietas Menyeluruh (GAM) mencakup definisi, neurobiologi, ciri klinis, kriteria diagnosis (PPDGJ dan DSM-5), diagnosis banding, farmakoterapi (lini pertama/kedua/ketiga dengan dosis), serta pendekatan psikoterapi. Cakupan komprehensif dengan tujuan pengobatan dan diagnosis banding.",
+    "Anxiety = disguised fear with autonomic symptoms; normal adaptive response to threat (fight or flight)",
+    "GAM = chronic anxiety disorder with excessive, uncontrollable, pervasive worry lasting months, accompanied by somatic and psychic symptoms",
+    "Neuroanatomy involves amygdala (emotional response), medial prefrontal cortex (modulation/decision-making), and hippocampus (memory encoding)"
+  ],
+  "exam_focus": [
+    "Definisi ansietas normal vs patologis",
+    "Tiga gejala utama PPDGJ untuk GAM",
+    "Durasi diagnostik: PPDGJ (beberapa minggu) vs DSM-5 (6 bulan)",
+    "First-line pharmacotherapy: Escitalopram, Sertralin, Venlafaksin-XR",
+    "Neuroanatomi triple-brain: amygdala, PFC, hippocampus",
+    "Perbedaan GAM dengan gangguan panik (free-floating vs serangan spontan)",
+    "Role CBT dan psikoedukasi"
+  ],
+  "learning_goals": [
+    "Define anxiety as both normal adaptive response and pathological state",
+    "Identify the clinical features of Generalized Anxiety Disorder",
+    "Apply PPDGJ-III diagnostic criteria for GAM",
+    "Differentiate GAM from panic disorder, OCD, and anxiety due to medical conditions",
+    "List first-line, second-line, and third-line pharmacotherapy options with dosing",
+    "Describe psychotherapy modalities: supportive, psychoeducation, and CBT"
+  ],
+  "key_points": [
+    "Anxiety = disguised fear with autonomic symptoms; normal adaptive response to threat (fight or flight)",
+    "GAM = chronic anxiety disorder with excessive, uncontrollable, pervasive worry lasting months, accompanied by somatic and psychic symptoms",
+    "Neuroanatomy involves amygdala (emotional response), medial prefrontal cortex (modulation/decision-making), and hippocampus (memory encoding)",
+    "PPDGJ requires anxiety almost daily for several weeks to months; DSM-5 requires 6 months",
+    "3 core symptom domains: (1) worry about future, (2) motor tension, (3) autonomic overactivity",
+    "First-line: Escitalopram, Sertralin, Venlafaksin-XR; Second-line: benzodiazepines, buspirone, imipramine, pregabalin; Third-line: mirtazapine, adjunctive antipsychotics",
+    "CBT targets irrational beliefs and maladaptive behaviors causing anxiety"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Pendahuluan dan Definisi Ansietas",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Ansietas (kecemasan) adalah rasa takut yang tersamar, tidak menyenangkan, menyebar, dan konfliktual, sering disertai gejala-gejala otonomik seperti dada berdebar-debar, berkeringat, sesak napas, ketegangan otot, sakit kepala, serta tampak disertai dengan kegelisahan individual.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ansietas juga dapat didefinisikan sebagai suatu respons yang normal dan adaptif terhadap ancaman yang menyiapkan organisme untuk fight atau flight (menghadapi atau menghindar). Anxiety menjadi pathologis ketika menimbulkan distres klinis signifikan dan mengganggu fungsi penting kehidupan individu.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Ansietas (kecemasan) adalah rasa takut yang tersamar, tidak menyenangkan, menyebar, dan konfliktual, sering disertai gejala-gejala otonomik seperti dada berdebar-debar, berkeringat, sesak napas, ketegangan otot, sakit kepala, serta tampak disertai dengan kegelisahan individual. Ansietas juga dapat didefinisikan sebagai suatu respons yang normal dan adaptif terhadap ancaman yang menyiapkan organisme untuk fight atau flight (menghadapi atau menghindar). Anxiety menjadi pathologis ketika menimbulkan distres klinis signifikan dan mengganggu fungsi penting kehidupan individu.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Definisi Gangguan Ansietas",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Gangguan ansietas adalah gangguan mental di mana gejala utama (dominan) adalah adanya ansietas yang psikopatologik (menimbulkan distres signifikan secara klinis dan mengganggu fungsi-fungsi penting kehidupan individu), termasuk gangguan sosialisasi, akademis, dan aktivitas sehari-hari.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Gangguan ansietas adalah gangguan mental di mana gejala utama (dominan) adalah adanya ansietas yang psikopatologik (menimbulkan distres signifikan secara klinis dan mengganggu fungsi-fungsi penting kehidupan individu), termasuk gangguan sosialisasi, akademis, dan aktivitas sehari-hari.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Neurobiologi Kecemasan",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Reaksi kecemasan melibatkan berbagai struktur di otak:",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Amygdala: terlibat dengan pengolahan rangsangan emosional yang menonjol (respons emosional)",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Medial prefrontal cortex (termasuk korteks anterior cingulate, korteks subcallosal, dan gyrus frontal medial): terlibat dalam modulasi, penghambatan respons emosional, pengambilan keputusan, dan pengendalian diri",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hippocampus: terlibat dalam pengkodean dan penyimpanan memori",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Model triple-brain ansietas: Amigdala (pembangkit ketakutan), Korteks Prefrontal (regulasi ketakutan), Hipokampus (memori kontekstual). Disfungsi pada salah satu cabang berkontribusi pada gangguan ansietas.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Reaksi kecemasan melibatkan berbagai struktur di otak: Amygdala: terlibat dengan pengolahan rangsangan emosional yang menonjol (respons emosional)",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Klasifikasi Berdasarkan Keparahan",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Gangguan ansietas berdasarkan tingkat keparahan: akut seperti fobia (misalnya takut serangga, ketinggian, dll) sedangkan yang kronis seperti gangguan panik dan gangguan obsesif-kompulsif.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Diagnosis ansietas dibuat sesuai dengan manifestasi gejala-gejala khusus yang dijumpai dari masing-masing gangguan. Harus ada gejala khusus agar diagnosis bisa ditegakkan. Seseorang yang memiliki kekhawatiran dalam segala hal kemungkinan besar diklasifikasikan memiliki Gangguan Ansietas Menyeluruh (GAM).",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Gangguan ansietas berdasarkan tingkat keparahan: akut seperti fobia (misalnya takut serangga, ketinggian, dll) sedangkan yang kronis seperti gangguan panik dan gangguan obsesif-kompulsif. Diagnosis ansietas dibuat sesuai dengan manifestasi gejala-gejala khusus yang dijumpai dari masing-masing gangguan. Harus ada gejala khusus agar diagnosis bisa ditegakkan. Seseorang yang memiliki kekhawatiran dalam segala hal kemungkinan besar diklasifikasikan memiliki Gangguan Ansietas Menyeluruh (GAM).",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Gambaran Klinis GAM",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Gejala utama GAM meliputi ansietas, ketegangan motorik (kedutan otot atau rasa gemetar; otot tegang/kaku/pegal linu; tidak bisa diam; mudah menjadi lelah), dan hiperaktivitas otonom (napas pendek/terasa berat; jantung berdebar-debar; telapak tangan basah-dingin; mulut kering; kepala pusing/rasa melayang; mual, mencret, perut tak enak; muka panas/badan menggigil; BAK lebih sering; sukar menelan/rasa tersumbat).",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terdapat juga kesiagaan yang berlebihan (perasaan menjadi peka/sensitif seperti mudah terkejut, mudah tersinggung, sukar tidur) dan gangguan kognitif (konsentrasi bisa berkurang). Ansietas pada GAM berlebihan dan mengganggu aspek-aspek kehidupan.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kegelisahan",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kelelahan",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kekhawatiran berlebih",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Nyeri otot",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Konsentrasi terganggu",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Irritabilitas",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gangguan tidur",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Gejala utama GAM meliputi ansietas, ketegangan motorik (kedutan otot atau rasa gemetar; otot tegang/kaku/pegal linu; tidak bisa diam; mudah menjadi lelah), dan hiperaktivitas otonom (napas pendek/terasa berat; jantung berdebar-debar; telapak tangan basah-dingin; mulut kering; kepala pusing/rasa melayang; mual, mencret, perut tak enak; muka panas/badan menggigil; BAK lebih sering; sukar menelan/rasa tersumbat). Terdapat juga kesiagaan yang berlebihan (perasaan menjadi peka/sensitif seperti mudah terkejut, mudah tersinggung, sukar tidur) dan gangguan kognitif (konsentrasi bisa berkurang). Ansietas pada GAM berlebihan dan mengganggu aspek-aspek kehidupan.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s06",
+      "title": "Pedoman Diagnostik GAM",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Gambaran esensial dari gangguan ini adalah adanya ansietas yang menyeluruh dan menetap (bertahan lama), tetapi tidak terbatas atau hanya menonjol pada setiap keadaan lingkungan tertentu saja (sifat 'mengambang' atau 'free floating'). Ketakutan bahwa dirinya atau anggota keluarganya akan menderita sakit atau mengalami kecelakaan dalam waktu dekat merupakan keluhan yang sering diungkapkan, bersamaan dengan berbagai kekhawatiran dan 'firasat' lain.",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "PPDGJ-III: Penderita harus menunjukkan gejala primer ansietas yang berlangsung hampir setiap hari selama beberapa minggu, bahkan biasanya sampai beberapa bulan. Tiga gejala utama yang harus ada:",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kecemasan tentang masa depan (khawatir akan nasib buruk, perasaan gelisah seperti di ujung tanduk, sulit berkonsentrasi, dll)",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ketegangan motorik (gelisah, sakit kepala, gemetaran, tidak dapat santai)",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Overaktivitas otonomik (kepala terasa ringan, berkeringat, takikardi, takipneu, keluhan epigastrik, pusing kepala, mulut kering, dll)",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perbedaan durasi: PPDGJ = beberapa minggu sampai 6 bulan; DSM-5 = minimal 6 bulan. Di RSJ umumnya menggunakan PPDGJ.",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Gambaran esensial dari gangguan ini adalah adanya ansietas yang menyeluruh dan menetap (bertahan lama), tetapi tidak terbatas atau hanya menonjol pada setiap keadaan lingkungan tertentu saja (sifat 'mengambang' atau 'free floating'). Ketakutan bahwa dirinya atau anggota keluarganya akan menderita sakit atau mengalami kecelakaan dalam waktu dekat merupakan keluhan yang sering diungkapkan, bersamaan dengan berbagai kekhawatiran dan 'firasat' lain. PPDGJ-III: Penderita harus menunjukkan gejala primer ansietas yang berlangsung hampir setiap hari selama beberapa minggu, bahkan biasanya sampai beberapa bulan. Tiga gejala utama yang harus ada:",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s07",
+      "title": "Diagnosis Banding",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Gangguan ansietas karena kondisi medis umum",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gangguan panik",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gangguan obsesif-kompulsif",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gangguan stres pasca trauma",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Semua gangguan ansietas dapat menyebakan gejala cemas. Kunci diagnosis adalah gejala khusus: panic attacks untuk gangguan panik, obsessions/compulsions untuk OCD, trauma history untuk PTSD, dan free-floating worry untuk GAM.",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Gangguan ansietas karena kondisi medis umum Gangguan panik",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s09",
+      "title": "Tujuan Terapi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Terapi akut: menurunkan keparahan gejala, mencapai remisi, memperbaiki status fungsi, meminimalkan efek samping obat",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terapi maintenance: mencegah kekambuhan, memperbaiki kualitas hidup, meminimalkan efek samping obat",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Terapi akut: menurunkan keparahan gejala, mencapai remisi, memperbaiki status fungsi, meminimalkan efek samping obat Terapi maintenance: mencegah kekambuhan, memperbaiki kualitas hidup, meminimalkan efek samping obat",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s10",
+      "title": "Psikoterapi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Psikoterapi adalah pengobatan terhadap masalah emosional oleh seseorang yang terlatih (profesional): dokter, psikiater, psikolog, atau perawat kesehatan jiwa. Tujuannya: menghilangkan, mengubah atau menghambat gejala-gejala yang ada, mengoreksi perilaku yang terganggu, menguatkan daya tahan mental pasien, mengembangkan mekanisme daya tahan mental baru, dan meningkatkan kemampuan adaptasi terhadap lingkungan.",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terapi suportif: menolong pasien beradaptasi dengan baik terhadap masalah, mendapatkan kenyamanan hidup terhadap gangguan psikisnya, mengembangkan daya tahan mental, mengembalikan keseimbangan adaptif, menaikkan fungsi psikologi dan sosial",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Psikoedukasi: edukasi gejala dan penanganan gangguan ansietas dalam bahasa yang mudah dimengerti, edukasi tentang pengaruh penyakit terhadap fungsi (termasuk keluarga), klarifikasi kesalahan persepsi tentang obat antiansietas (misalnya adiktif), promosi perilaku sehat (olahraga, higiene tidur, nutrisi, penggunaan tembakau, alkohol, zat berbahaya)",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terapi perilaku kognitif (CBT): menggabungkan psikoterapi kognitif dengan terapi perilaku, menjelaskan bahwa keyakinan irasional dan perilaku menyimpang terhadap diri, lingkungan, dan masa depan dapat menimbulkan ansietas. Tujuannya: mengurangi gejala ansietas dengan mengubah keyakinan dan perilaku maladaptif.",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Psikoterapi adalah pengobatan terhadap masalah emosional oleh seseorang yang terlatih (profesional): dokter, psikiater, psikolog, atau perawat kesehatan jiwa. Tujuannya: menghilangkan, mengubah atau menghambat gejala-gejala yang ada, mengoreksi perilaku yang terganggu, menguatkan daya tahan mental pasien, mengembangkan mekanisme daya tahan mental baru, dan meningkatkan kemampuan adaptasi terhadap lingkungan. Terapi suportif: menolong pasien beradaptasi dengan baik terhadap masalah, mendapatkan kenyamanan hidup terhadap gangguan psikisnya, mengembangkan daya tahan mental, mengembalikan keseimbangan adaptif, menaikkan fungsi psikologi dan sosial",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Ansietas",
+      "meaning": "Rasa takut yang tersamar, tidak menyenangkan, menyebar, dan konfliktual dengan gejala otonomik"
+    },
+    {
+      "term": "Ansietas free-floating",
+      "meaning": "Ansietas yang menyeluruh dan menetap, tidak terbatas pada keadaan lingkungan tertentu"
+    },
+    {
+      "term": "Fight or flight",
+      "meaning": "Respons adaptif normal terhadap ancaman yang menyiapkan organisme untuk menghadapi atau menghindar"
+    },
+    {
+      "term": "Ketegangan motorik",
+      "meaning": "Gejala GAM berupa gelisah, sakit kepala, gemetaran, tidak dapat santai"
+    },
+    {
+      "term": "Overaktivitas otonomik",
+      "meaning": "Gejala GAM berupa berkeringat, takikardi, takipneu, mulut kering, pusing"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t01",
+      "title": "Farmakoterapi GAM - Semua Lini",
+      "columns": [
+        "Lini",
+        "Kelas",
+        "Obat",
+        "Dosis mg/hari"
+      ],
+      "rows": [
+        [
+          "Pertama",
+          "Antidepresan",
+          "Escitalopram",
+          "10-20"
+        ],
+        [
+          "Pertama",
+          "Antidepresan",
+          "Sertralin",
+          "25-50"
+        ],
+        [
+          "Pertama",
+          "Antidepresan",
+          "Venlafaksin-XR",
+          "75-150"
+        ],
+        [
+          "Kedua",
+          "Benzodiazepin",
+          "Alprazolam",
+          "0.25-4"
+        ],
+        [
+          "Kedua",
+          "Benzodiazepin",
+          "Bromazepam",
+          "3-18"
+        ],
+        [
+          "Kedua",
+          "Benzodiazepin",
+          "Klobazam",
+          "20-30"
+        ],
+        [
+          "Kedua",
+          "Benzodiazepin",
+          "Lorazepam",
+          "2-6"
+        ],
+        [
+          "Kedua",
+          "Benzodiazepin",
+          "Diazepam",
+          "2.5-40"
+        ],
+        [
+          "Kedua",
+          "Non-benzodiazepin",
+          "Buspiron",
+          "10-60"
+        ],
+        [
+          "Kedua",
+          "Trisiklik",
+          "Imipramin",
+          "50-300"
+        ],
+        [
+          "Kedua",
+          "Antikonvulsan",
+          "Pregabalin",
+          "25-600"
+        ],
+        [
+          "Ketiga",
+          "NaSSA",
+          "Mirtazapin",
+          "15-45"
+        ],
+        [
+          "Ketiga",
+          "Antipsikotik",
+          "Olanzapine (adjunctive)",
+          "5-12.5"
+        ],
+        [
+          "Ketiga",
+          "Antipsikotik",
+          "Risperidone (adjunctive)",
+          "0.5-1"
+        ]
+      ]
+    },
+    {
+      "id": "t02",
+      "title": "Diagnosis Banding GAM",
+      "columns": [
+        "Gangguan",
+        "Pembeda Utama"
+      ],
+      "rows": [
+        [
+          "Gangguan ansietas karena kondisi medis",
+          "Ada penyakit medis yang mendasari"
+        ],
+        [
+          "Gangguan panik",
+          "Serangan panik spontan, tidak free-floating"
+        ],
+        [
+          "Gangguan obsesif-kompulsif",
+          "Obsesi dan kompulsi dominan"
+        ],
+        [
+          "Gangguan stres pasca trauma",
+          "Riwayat trauma spesifik"
+        ]
+      ]
+    }
+  ],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Identifikasi gejala ansietas dominan",
+      "explanation": "Pasien dengan kekhawatiran dalam segala hal kemungkinan besar GAM."
+    },
+    {
+      "step": 2,
+      "title": "Verifikasi durasi",
+      "explanation": "PPDGJ: hampir setiap hari selama beberapa minggu; DSM-5: minimal 6 bulan."
+    },
+    {
+      "step": 3,
+      "title": "Konfirmasi 3 gejala utama PPDGJ",
+      "explanation": "(1) Kecemasan masa depan, (2) Ketegangan motorik, (3) Overaktivitas otonomik."
+    },
+    {
+      "step": 4,
+      "title": "Eksklusi",
+      "explanation": "Bukan disebabkan oleh penggunaan zat atau kondisi medis umum, dan tidak terjadi selama gangguan mood."
+    },
+    {
+      "step": 5,
+      "title": "Diagnosis banding",
+      "explanation": "Bedakan dari gangguan panik (serangan spontan), OCD (obsesi/kompulsi), PTSD (riwayat trauma)."
+    }
+  ],
+  "differential_notes": [
+    {
+      "item": "GAM vs Gangguan Panik",
+      "how_to_separate": "GAM: kekhawatiran free-floating, terus menerus. Panik: serangan spontan terpisah dengan periode bebas gejala."
+    },
+    {
+      "item": "GAM vs Gangguan Ansietas karena Kondisi Medis",
+      "how_to_separate": "Kehilangan diagnosis GAM jika sepenuhnya dijelaskan oleh kondisi medis umum."
+    },
+    {
+      "item": "GAM vs Gangguan Mood",
+      "how_to_separate": "GAM tidak terjadi selama gangguan mood (jika ansietas hanya ada selama depresi, diagnosis GAM tidak ditegakkan)."
+    }
+  ],
+  "treatment_notes": [
+    {
+      "phase": "akut",
+      "content": "Menurunkan keparahan gejala, mencapai remisi, memperbaiki status fungsional, meminimalkan efek samping obat. Lini pertama: Escitalopram 10-20 mg, Sertralin 50-200 mg, Paroxetin CR 25-62,5 mg. Lini kedua: BZD (Alprazolam 0,5-6 mg) + non-BZD (Pregabalin 75-600 mg). Lini ketiga: augmentasi antipsikotik."
+    },
+    {
+      "phase": "maintenance",
+      "content": "Mencegah kekambuhan, memperbaiki kualitas hidup, meminimalkan efek samping obat."
+    },
+    {
+      "phase": "psikoterapi",
+      "content": "CBT adalah psikoterapi pilihan. Menggabungkan kognitif dan perilaku untuk mengubah keyakinan irasional dan perilaku maladaptif. Psikoedukasi untuk keluarga penting."
+    }
+  ],
+  "red_flags": [
+    "Kekhawatiran berlebihan mengganggu fungsi sosial dan pekerjaan",
+    "Gejala somatik berkelanjutan yang tidak dijelaskan oleh kondisi medis",
+    "Pasien dengan GAM sering datang ke dokter umum dengan keluhan somatik",
+    "Risiko depresi ko-morbid dan penyalahgunaan zat"
+  ],
+  "extraction_notes": [
+    "Title slide contains lecturer name (dr. Susiati, M.Ked, Sp.K.J) and date 10/05/2022.",
+    "Slide content includes rich informal annotations that reveal teaching emphasis.",
+    "Lecturer emphasized that at RSJ, PPDGJ criteria are used rather than DSM-5.",
+    "Pharmacotherapy table fully extracted with dosing ranges.",
+    "Neurobiology section on slide 4 was fragmented; reconstructed from source text.",
+    "No figures or images had extractable educational content beyond the GAM symptom infographic."
+  ],
+  "confidence_summary": "tinggi",
+  "qc_flags": []
+}

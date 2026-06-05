@@ -1,0 +1,307 @@
+{
+  "id": "lecture_6e_trauma_ssp_022",
+  "batch_id": "batch_1_6e",
+  "title": "Trauma Sistem Saraf",
+  "subtitle": "Kimi rerun: neuro_trauma",
+  "source_pdf": "Trauma Sistim Saraf.docx",
+  "source_docx": "Trauma Sistim Saraf.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah komprehensif tentang trauma sistem saraf yang mencakup klasifikasi trauma kepala (tertutup vs penetrasi, cedera primer vs sekunder), beratnya TBI (ringan, sedang, berat menggunakan GCS), konkusio, kontusio serebri, diffuse axonal injury (DAI), hematoma epidural, hematoma subdural, perdarahan subaraknoid traumatis, fraktur tengkorak, cedera saraf tulang belakang (lengkap vs tidak lengkap), dan kegawatan neurobedah. Menyertakan temuan pencitraan pada CT dan MRI, prinsip manajemen mengikuti panduan ATLS dan Brain Trauma Foundation.",
+    "GCS classifies TBI: mild (13-15), moderate (9-12), severe (3-8)",
+    "Epidural hematoma: lens-shaped (biconvex), arterial (middle meningeal artery), does not cross sutures",
+    "Subdural hematoma: crescent-shaped, venous (bridging veins), crosses suture lines but not dural attachments"
+  ],
+  "exam_focus": [
+    "GCS classification of TBI severity",
+    "EDH vs SDH CT characteristics",
+    "DAI MRI findings (GRE/SWI)",
+    "Basilar skull fracture signs",
+    "Incomplete spinal cord syndromes",
+    "ICP monitoring indications (BTF)",
+    "Surgical indications for traumatic lesions"
+  ],
+  "learning_goals": [
+    "Mengklasifikasikan beratnya TBI menggunakan GCS",
+    "Membedakan hematoma epidural dari subdural pada CT",
+    "Mengenali diffuse axonal injury pada MRI",
+    "Menerapkan panduan ATLS dan BTF untuk manajemen TBI"
+  ],
+  "key_points": [
+    "GCS classifies TBI: mild (13-15), moderate (9-12), severe (3-8)",
+    "Epidural hematoma: lens-shaped (biconvex), arterial (middle meningeal artery), does not cross sutures",
+    "Subdural hematoma: crescent-shaped, venous (bridging veins), crosses suture lines but not dural attachments",
+    "DAI: small punctate hemorrhages at gray-white junction, corpus callosum, brainstem; best seen on GRE/SWI MRI",
+    "Secondary brain injury (hypotension, hypoxia, hyperthermia) is preventable and must be aggressively managed"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Klasifikasi Trauma Kepala",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Head trauma is classified by mechanism: CLOSED (non-penetrating, most common) vs OPEN/PENETRATING (skull fracture with dural breach). By injury timing: PRIMARY (direct mechanical damage at moment of impact - contusion, hematoma, laceration, DAI) vs SECONDARY (subsequent physiological insults - hypoxia, hypotension, edema, increased ICP, excitotoxicity). Secondary injury is preventable and is the main target of neurocritical care. TBI SEVERITY by GCS: MILD (GCS 13-15, brief loss of consciousness <30 min, no structural lesion on CT); MODERATE (GCS 9-12, LOC 30 min - 24h, abnormal CT findings); SEVERE (GCS 3-8, LOC >24h, significant CT abnormalities).",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Preventing secondary brain injury (hypotension, hypoxia) is the key to improving TBI outcomes",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Head trauma is classified by mechanism: CLOSED (non-penetrating, most common) vs OPEN/PENETRATING (skull fracture with dural breach). By injury timing: PRIMARY (direct mechanical damage at moment of impact - contusion, hematoma, laceration, DAI) vs SECONDARY (subsequent physiological insults - hypoxia, hypotension, edema, increased ICP, excitotoxicity). Secondary injury is preventable and is the main target of neurocritical care. TBI SEVERITY by GCS: MILD (GCS 13-15, brief loss of consciousness <30 min, no structural lesion on CT); MODERATE (GCS 9-12, LOC 30 min - 24h, abnormal CT findings); SEVERE (GCS 3-8, LOC >24h, significant CT abnormalities). Preventing secondary brain injury (hypotension, hypoxia) is the key to improving TBI outcomes",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Cedera Primer vs Sekunder",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "PRIMARY INJURY (irreversible): Direct mechanical damage to brain tissue at moment of impact. Includes: cerebral contusion (bruising of brain surface, coup-contrecoup pattern), diffuse axonal injury (shearing of axons from rotational acceleration/deceleration), hematomas (EDH, SDH, ICH), skull fractures, brain laceration. SECONDARY INJURY (preventable): Cascading physiological and biochemical events following primary injury. Main causes: HYPOTENSION (SBP <90 mmHg is the most important predictor of poor outcome), HYPOXIA (SpO2 <90%, PaO2 <60 mmHg), HYPER/HYPOCAPNIA, HYPERGLYCEMIA, HYPERTHERMIA (fever worsens outcome), increased ICP, excitotoxicity, free radical production, inflammation. Management targets: maintain SBP >90 mmHg (adults) or age-appropriate MAP in children, SpO2 >94%, PaCO2 35-40 mmHg, normoglycemia (80-180 mg/dL), normothermia, ICP <22 mmHg, CPP 60-70 mmHg.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Primer: kontusio, DAI, hematoma, fraktur (irreversible)",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sekunder: hipotensi, hipoksia, hipertermi (PREVENTABLE)",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Target: SBP >90, SpO2 >94%, normotermia, ICP <22",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Single episode of SBP <90 mmHg in TBI doubles mortality",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "PRIMARY INJURY (irreversible): Direct mechanical damage to brain tissue at moment of impact. Includes: cerebral contusion (bruising of brain surface, coup-contrecoup pattern), diffuse axonal injury (shearing of axons from rotational acceleration/deceleration), hematomas (EDH, SDH, ICH), skull fractures, brain laceration. SECONDARY INJURY (preventable): Cascading physiological and biochemical events following primary injury. Main causes: HYPOTENSION (SBP <90 mmHg is the most important predictor of poor outcome), HYPOXIA (SpO2 <90%, PaO2 <60 mmHg), HYPER/HYPOCAPNIA, HYPERGLYCEMIA, HYPERTHERMIA (fever worsens outcome), increased ICP, excitotoxicity, free radical production, inflammation. Management targets: maintain SBP >90 mmHg (adults) or age-appropriate MAP in children, SpO2 >94%, PaCO2 35-40 mmHg, normoglycemia (80-180 mg/dL), normothermia, ICP <22 mmHg, CPP 60-70 mmHg. Primer: kontusio, DAI, hematoma, fraktur (irreversible)",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Lesion Traumatik Spesifik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "EPIDURAL HEMATOMA (EDH): Arterial origin (middle meningeal artery in 85%). CT: lens-shaped (biconvex/lenticular), hyperdense, well-defined margins, does NOT cross suture lines. Classic presentation: lucid interval (conscious after injury, then deteriorates). Neurosurgical emergency - evacuation within 1-2 hours of deterioration has excellent outcome. SUBDURAL HEMATOMA (SDH): Venous origin (torn bridging veins). CT: crescent-shaped, crosses suture lines, may be bilateral. Acute (<3 days): hyperdense; Subacute (3-21 days): isodense; Chronic (>21 days): hypodense. Higher mortality than EDH due to associated parenchymal injury. CEREBRAL CONTUSION: Bruising of brain parenchyma, typically frontal and temporal lobes (coup site and contrecoup). CT: patchy hemorrhagic areas, surrounding edema. May expand over 24-48 hours - repeat CT indicated. DIFFUSE AXONAL INJURY (DAI): Shearing injury from rotational acceleration/deceleration. CT often normal or shows small petechial hemorrhages. MRI: T2/FLAIR hyperintense foci at gray-white junction, corpus callosum, brainstem; GRE/SWI shows small hemorrhages. Grade 1 (mild): cerebral hemispheres; Grade 2 (moderate): plus corpus callosum; Grade 3 (severe): plus brainstem. Poor prognosis correlates with grade.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "EDH = lens-shaped, arterial, lucid interval, does not cross sutures; SDH = crescent-shaped, venous, crosses sutures",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "EPIDURAL HEMATOMA (EDH): Arterial origin (middle meningeal artery in 85%). CT: lens-shaped (biconvex/lenticular), hyperdense, well-defined margins, does NOT cross suture lines. Classic presentation: lucid interval (conscious after injury, then deteriorates). Neurosurgical emergency - evacuation within 1-2 hours of deterioration has excellent outcome. SUBDURAL HEMATOMA (SDH): Venous origin (torn bridging veins). CT: crescent-shaped, crosses suture lines, may be bilateral. Acute (<3 days): hyperdense; Subacute (3-21 days): isodense; Chronic (>21 days): hypodense. Higher mortality than EDH due to associated parenchymal injury. CEREBRAL CONTUSION: Bruising of brain parenchyma, typically frontal and temporal lobes (coup site and contrecoup). CT: patchy hemorrhagic areas, surrounding edema. May expand over 24-48 hours - repeat CT indicated. DIFFUSE AXONAL INJURY (DAI): Shearing injury from rotational acceleration/deceleration. CT often normal or shows small petechial hemorrhages. MRI: T2/FLAIR hyperintense foci at gray-white junction, corpus callosum, brainstem; GRE/SWI shows small hemorrhages. Grade 1 (mild): cerebral hemispheres; Grade 2 (moderate): plus corpus callosum; Grade 3 (severe): plus brainstem. Poor prognosis correlates with grade. EDH = lens-shaped, arterial, lucid interval, does not cross sutures; SDH = crescent-shaped, venous, crosses sutures",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Fraktur Tengkorak dan Cedera Saraf Tulang Belakang",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "SKULL FRACTURES: Linear (most common, usually benign), depressed (surgical elevation if depth >thickness of skull), basilar (battle sign - mastoid ecchymosis, raccoon eyes - periorbital ecchymosis, CSF rhinorrhea/otorrhea, hemotympanum), compound/open (surgical emergency), diastatic (suture separation in children). Indications for surgery: depressed fracture >thickness of adjacent skull, open/compound fracture, CSF leak, cosmetic deformity, signs of infection. SPINAL CORD INJURY: Complete (no motor/sensory function below level including sacral segments S4-S5) vs Incomplete (some preserved function below level). Key incomplete syndromes: Central cord syndrome (upper limbs > lower limbs, cervical hyperextension injury); Anterior cord syndrome (motor and pain/temperature loss preserved proprioception/vibration, anterior spinal artery territory); Brown-Sequard syndrome (ipsilateral motor/proprioception loss, contralateral pain/temperature loss, hemisection); Posterior cord syndrome (loss of proprioception/vibration, preserved motor/pain/temperature). Spinal shock: flaccid paralysis, areflexia below level for days to weeks after injury; resolves with return of reflexes (may become spastic). Neurogenic shock: hypotension with bradycardia due to loss of sympathetic tone (T6 and above).",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Basilar skull fracture signs: Battle sign (mastoid ecchymosis), raccoon eyes (periorbital ecchymosis), CSF rhinorrhea/otorrhea",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "SKULL FRACTURES: Linear (most common, usually benign), depressed (surgical elevation if depth >thickness of skull), basilar (battle sign - mastoid ecchymosis, raccoon eyes - periorbital ecchymosis, CSF rhinorrhea/otorrhea, hemotympanum), compound/open (surgical emergency), diastatic (suture separation in children). Indications for surgery: depressed fracture >thickness of adjacent skull, open/compound fracture, CSF leak, cosmetic deformity, signs of infection. SPINAL CORD INJURY: Complete (no motor/sensory function below level including sacral segments S4-S5) vs Incomplete (some preserved function below level). Key incomplete syndromes: Central cord syndrome (upper limbs > lower limbs, cervical hyperextension injury); Anterior cord syndrome (motor and pain/temperature loss preserved proprioception/vibration, anterior spinal artery territory); Brown-Sequard syndrome (ipsilateral motor/proprioception loss, contralateral pain/temperature loss, hemisection); Posterior cord syndrome (loss of proprioception/vibration, preserved motor/pain/temperature). Spinal shock: flaccid paralysis, areflexia below level for days to weeks after injury; resolves with return of reflexes (may become spastic). Neurogenic shock: hypotension with bradycardia due to loss of sympathetic tone (T6 and above). Basilar skull fracture signs: Battle sign (mastoid ecchymosis), raccoon eyes (periorbital ecchymosis), CSF rhinorrhea/otorrhea",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Manajemen Trauma Kepala",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "INITIAL MANAGEMENT (ATLS): Primary survey (ABCDE), immobilize C-spine, GCS assessment, pupil examination, FAST exam. INDICATIONS FOR CT HEAD (NICE/SCAN guidelines): GCS <13 at any time, GCS 13-15 with risk factors (LOC, amnesia, vomiting, seizure, focal deficit, coagulopathy, age >65, dangerous mechanism), skull fracture signs, penetrating injury. ICP MANAGEMENT (BTF guidelines): Indications for ICP monitoring: severe TBI (GCS <=8) with abnormal CT, or severe TBI with normal CT plus 2 of: age >40, unilateral/bilateral motor posturing, SBP <90. ICP target <22 mmHg. CPP target 60-70 mmHg (adults). OSMOTHERAPY: Mannitol 0.25-1 g/kg IV (draws water from brain, also improves blood rheology); Hypertonic saline 3% (preferred if hypotensive); serum osmolarity <320 mOsm/L. SURGICAL INDICATIONS: EDH >30 mL regardless of GCS; Acute SDH with thickness >10 mm or midline shift >5 mm; Contusion with volume >50 mL or significant mass effect; Depressed skull fracture >thickness of skull; Open/compound fracture.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "EDH evacuation within 1-2 hours of deterioration can result in excellent neurological recovery",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "INITIAL MANAGEMENT (ATLS): Primary survey (ABCDE), immobilize C-spine, GCS assessment, pupil examination, FAST exam. INDICATIONS FOR CT HEAD (NICE/SCAN guidelines): GCS <13 at any time, GCS 13-15 with risk factors (LOC, amnesia, vomiting, seizure, focal deficit, coagulopathy, age >65, dangerous mechanism), skull fracture signs, penetrating injury. ICP MANAGEMENT (BTF guidelines): Indications for ICP monitoring: severe TBI (GCS <=8) with abnormal CT, or severe TBI with normal CT plus 2 of: age >40, unilateral/bilateral motor posturing, SBP <90. ICP target <22 mmHg. CPP target 60-70 mmHg (adults). OSMOTHERAPY: Mannitol 0.25-1 g/kg IV (draws water from brain, also improves blood rheology); Hypertonic saline 3% (preferred if hypotensive); serum osmolarity <320 mOsm/L. SURGICAL INDICATIONS: EDH >30 mL regardless of GCS; Acute SDH with thickness >10 mm or midline shift >5 mm; Contusion with volume >50 mL or significant mass effect; Depressed skull fracture >thickness of skull; Open/compound fracture. EDH evacuation within 1-2 hours of deterioration can result in excellent neurological recovery",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "DAI",
+      "meaning": "Diffuse Axonal Injury - cedera shearing akibat akselerasi/dekelerasi rotasional"
+    },
+    {
+      "term": "EDH",
+      "meaning": "Epidural Hematoma"
+    },
+    {
+      "term": "SDH",
+      "meaning": "Subdural Hematoma"
+    },
+    {
+      "term": "Lucid interval",
+      "meaning": "Periode sadar setelah trauma sebelum deteriorasi, khas EDH"
+    },
+    {
+      "term": "Neurogenic shock",
+      "meaning": "Hipotensi dengan bradikardi akibat kehilangan tonus simpatis pada SCI T6+"
+    },
+    {
+      "term": "Spinal shock",
+      "meaning": "Flasiditas dan arefleksia sementara pasca-SCI"
+    }
+  ],
+  "tables": [],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Primary survey (ATLS)",
+      "explanation": "ABCs, C-spine immobilization, GCS, pupils"
+    },
+    {
+      "step": 2,
+      "title": "CT head for all moderate-severe TBI",
+      "explanation": "GCS <13 or GCS 13-15 with risk factors"
+    },
+    {
+      "step": 3,
+      "title": "Assess for surgical lesion",
+      "explanation": "EDH, SDH, contusion, depressed skull fracture"
+    },
+    {
+      "step": 4,
+      "title": "ICP monitoring if GCS <=8",
+      "explanation": "BTF guidelines for severe TBI"
+    },
+    {
+      "step": 5,
+      "title": "Prevent secondary injury",
+      "explanation": "SBP >90, SpO2 >94%, normothermia, normoglycemia"
+    }
+  ],
+  "differential_notes": [
+    {
+      "item": "EDH vs SDH vs subgaleal hematoma",
+      "how_to_separate": "EDH: lens-shaped, arterial, suture-limited; SDH: crescent, venous, crosses sutures; Subgaleal: outside skull, crosses suture lines"
+    },
+    {
+      "item": "DAI vs concussion",
+      "how_to_separate": "Concussion: transient, no structural abnormality; DAI: MRI abnormalities, prolonged unconsciousness"
+    },
+    {
+      "item": "Complete vs incomplete SCI",
+      "how_to_separate": "Complete: no sacral sparing; Incomplete: some preserved function below level"
+    }
+  ],
+  "treatment_notes": [
+    {
+      "phase": "initial",
+      "content": "ATLS primary survey, C-spine immobilization"
+    },
+    {
+      "phase": "medical",
+      "content": "ICP <22, CPP 60-70, mannitol or hypertonic saline"
+    },
+    {
+      "phase": "surgical",
+      "content": "Evacuate EDH >30mL, SDH >10mm, contusion >50mL, depressed fracture"
+    }
+  ],
+  "red_flags": [
+    "GCS declining after lucid interval (EDH)",
+    "Unilateral dilated pupil (uncal herniation)",
+    "Cushing triad (hypertension, bradycardia, irregular respiration)",
+    "Neurogenic shock (hypotension + bradycardia in SCI)"
+  ],
+  "extraction_notes": [
+    "Comprehensive TBI lecture with ATLS and BTF guidelines",
+    "EDH vs SDH comparison table well-preserved",
+    "Incomplete SCI syndromes clearly described",
+    "Surgical indications preserved with specific thresholds"
+  ],
+  "confidence_summary": "high",
+  "qc_flags": []
+}

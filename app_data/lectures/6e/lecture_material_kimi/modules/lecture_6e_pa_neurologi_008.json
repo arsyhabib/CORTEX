@@ -1,0 +1,377 @@
+{
+  "id": "lecture_6e_pa_neurologi_008",
+  "batch_id": "batch_1_6e",
+  "title": "Patologi Anatomi Neurologi",
+  "subtitle": "Kimi rerun: neuro_pathology",
+  "source_pdf": "Kuliah PA Neurologi.docx",
+  "source_docx": "Kuliah PA Neurologi.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah anatomi patologi dalam neurologi yang mencakup anomali kongenital (koristoma, kista), penyakit serebrovaskular (infark, aneurisma, malformasi vaskular, hematoma), penyakit infeksi (penyakit demielinisasi, infeksi bakteri/jamur/parasit/virus), dan tumor (tumor glial primer termasuk grading astrositoma WHO, oligodendroglioma, ependimoma, meningioma dengan klasifikasi WHO, dan tumor metastatik).",
+    "CNS pathology divided into congenital, cerebrovascular, infectious, and neoplastic categories",
+    "Astrocytoma grading: WHO I (pilocytic) to WHO IV (glioblastoma multiforme)",
+    "Oligodendroglioma: fried egg appearance, chicken-wire vessels, microcalcifications"
+  ],
+  "exam_focus": [
+    "Astrocytoma WHO grading I-IV",
+    "Oligodendroglioma histological triad",
+    "Meningioma WHO 2016 three-tier classification",
+    "NF2 association with meningioma"
+  ],
+  "learning_goals": [
+    "Classify CNS pathological conditions by category",
+    "Recognize astrocytoma WHO grading system",
+    "Identify characteristic histological features of oligodendroglioma and meningioma",
+    "Understand primary vs metastatic CNS tumors"
+  ],
+  "key_points": [
+    "CNS pathology divided into congenital, cerebrovascular, infectious, and neoplastic categories",
+    "Astrocytoma grading: WHO I (pilocytic) to WHO IV (glioblastoma multiforme)",
+    "Oligodendroglioma: fried egg appearance, chicken-wire vessels, microcalcifications",
+    "Meningioma: WHO 2016 three-tier grading (benign, atypical, anaplastic); progesterone receptor expression"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Kelainan Kongenital",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "CHORISTOMA: Normal tissue growing in an abnormal location. Can be found throughout the body. Example: Leptomeningeal rhabdomyomatosis - striated muscle elements in the cerebellopontine angle region. CYST: Lesion formed as a sac from membranous tissue containing fluid, air, semisolid material, or other substances. CNS cysts include: Colloid cyst (contains colloid fluid), Epidermoid cyst (lined by flattened squamous cells, may contain keratin mass), Arachnoid cyst (contains CSF accumulation).",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Choristoma: jaringan normal di lokasi abnormal",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kista Koloid: berisi cairan koloid",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kista Epidermoid: dilapisi sel gepeng, berisi masa keratin",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kista Araknoid: berisi akumulasi cairan CSF",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "CHORISTOMA: Normal tissue growing in an abnormal location. Can be found throughout the body. Example: Leptomeningeal rhabdomyomatosis - striated muscle elements in the cerebellopontine angle region. CYST: Lesion formed as a sac from membranous tissue containing fluid, air, semisolid material, or other substances. CNS cysts include: Colloid cyst (contains colloid fluid), Epidermoid cyst (lined by flattened squamous cells, may contain keratin mass), Arachnoid cyst (contains CSF accumulation). Choristoma: jaringan normal di lokasi abnormal",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Penyakit Serebrovaskular",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "INFARK SEREBRI: Brain tissue death caused by disrupted blood flow. Lesions are irreversible; brain cells undergo necrosis. ANEURYSMA INTRAKRANIAL: Dilation or protrusion of cerebral blood vessels due to weakened vessel wall, also called saccular or berry aneurysm. Predominantly located at the Circle of Willis. MALFORMASI VASKULAR: Abnormal vascular connections. EPIDURAL HEMATOMA: Blood collection between skull and dura. SUBDURAL HEMATOMA: Blood collection between dura and arachnoid.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Infark serebri: kematian jaringan otak akibat gangguan aliran darah, irreversible",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Aneurysma intracranial: pelebaran pembuluh darah otak, predominant di Circle of Willis",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Epidural hematoma: di antara tulang dan duramater",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Subdural hematoma: di antara duramater dan arakhnoid",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "INFARK SEREBRI: Brain tissue death caused by disrupted blood flow. Lesions are irreversible; brain cells undergo necrosis. ANEURYSMA INTRAKRANIAL: Dilation or protrusion of cerebral blood vessels due to weakened vessel wall, also called saccular or berry aneurysm. Predominantly located at the Circle of Willis. MALFORMASI VASKULAR: Abnormal vascular connections. EPIDURAL HEMATOMA: Blood collection between skull and dura. SUBDURAL HEMATOMA: Blood collection between dura and arachnoid. Infark serebri: kematian jaringan otak akibat gangguan aliran darah, irreversible",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Penyakit Infeksi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "DEMYELINATING DISEASE: Loss of myelin sheath causing nerve signal disruption; can form demyelinating pseudotumor lesions. BACTERIAL INFECTION: Brain abscess - microscopically shows purulent necrotic mass bordered by brain parenchyma; etiology includes Streptococcus, Staphylococcus, Clostridium, Mycobacterium tuberculosis. FUNGAL INFECTION (Mycoses): Cryptococcoma; etiology includes Aspergillus, Candida, Histoplasma. PARASITIC INFECTION: Neurocysticercosis (Taenia solium larva in pork); Toxoplasmosis (Toxoplasma gondii from cat feces) - microscopically shows minute basophilic structures containing parasites with surrounding lymphocytes, plasma cells, and macrophages. VIRAL INFECTION: Herpes Simplex encephalitis, Varicella-zoster virus, HIV.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Abses otak: Streptococcus, Staphylococcus, Clostridium, Mycobacterium tuberculosis",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Neurosistiserkosis: Taenia solium, larva pada daging babi",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Toksoplasmosis: Toxoplasma gondii, ditemukan pada tinja kucing",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "DEMYELINATING DISEASE: Loss of myelin sheath causing nerve signal disruption; can form demyelinating pseudotumor lesions. BACTERIAL INFECTION: Brain abscess - microscopically shows purulent necrotic mass bordered by brain parenchyma; etiology includes Streptococcus, Staphylococcus, Clostridium, Mycobacterium tuberculosis. FUNGAL INFECTION (Mycoses): Cryptococcoma; etiology includes Aspergillus, Candida, Histoplasma. PARASITIC INFECTION: Neurocysticercosis (Taenia solium larva in pork); Toxoplasmosis (Toxoplasma gondii from cat feces) - microscopically shows minute basophilic structures containing parasites with surrounding lymphocytes, plasma cells, and macrophages. VIRAL INFECTION: Herpes Simplex encephalitis, Varicella-zoster virus, HIV. Abses otak: Streptococcus, Staphylococcus, Clostridium, Mycobacterium tuberculosis",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Tumor - Astrositoma",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Astrocytoma is a brain tumor arising from astrocytes. Highly variable depending on location in the CNS, potentially invasive and progressive. Most cases are intracranial; only ~3% are intraspinal. Can occur at all ages, average 35-40 years. Well-differentiated astrocytomas tend to occur in younger patients; anaplastic types more common in middle age. In adults, slightly more common in males. Cerebral hemisphere predilection; in children more commonly in cerebellum. Clinical features depend on location and growth rate. Combination of increased intracranial pressure, progressive neurological deficits, seizures, and cognitive decline is commonly seen. WHO CLASSIFICATION: Grade I (pilocytic astrocytoma, subependymal giant cell astrocytoma); Grade II (diffuse astrocytoma, pleomorphic xanthoastrocytoma, pilomyxoid astrocytoma); Grade III (anaplastic astrocytoma); Grade IV (glioblastoma multiforme). Grade is still best determined by mitotic count.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "WHO Grade I: Pilocytic astrocytoma, subependymal giant cell astrocytoma",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "WHO Grade II: Diffuse astrocytoma, pleomorphic xanthoastrocytoma, pilomyxoid astrocytoma",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "WHO Grade III: Anaplastic astrocytoma",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "WHO Grade IV: Glioblastoma multiforme",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Grade terbaik tetap berdasarkan jumlah mitosis",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Glioblastoma multiforme = WHO Grade IV, most malignant astrocytic tumor",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Astrocytoma is a brain tumor arising from astrocytes. Highly variable depending on location in the CNS, potentially invasive and progressive. Most cases are intracranial; only ~3% are intraspinal. Can occur at all ages, average 35-40 years. Well-differentiated astrocytomas tend to occur in younger patients; anaplastic types more common in middle age. In adults, slightly more common in males. Cerebral hemisphere predilection; in children more commonly in cerebellum. Clinical features depend on location and growth rate. Combination of increased intracranial pressure, progressive neurological deficits, seizures, and cognitive decline is commonly seen. WHO CLASSIFICATION: Grade I (pilocytic astrocytoma, subependymal giant cell astrocytoma); Grade II (diffuse astrocytoma, pleomorphic xanthoastrocytoma, pilomyxoid astrocytoma); Grade III (anaplastic astrocytoma); Grade IV (glioblastoma multiforme). Grade is still best determined by mitotic count. WHO Grade I: Pilocytic astrocytoma, subependymal giant cell astrocytoma",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Oligodendroglioma dan Meningioma",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "OLIGODENDROGLIOMA: Arises from oligodendrocytes. Can be low-grade (WHO Grade II) or high-grade (WHO Grade III/anaplastic). Commonly found in frontal and temporal lobes. Grossly soft, grayish-pink. Contains mineral deposits (calcifications), hemorrhage, and/or cysts. Histology: small round monotonous nuclei, perinuclear halos ('fried egg' appearance), branching thin-walled vessels ('chicken-wire' vessels), microcalcifications (calcospherites). Typically slow-growing, present for years before diagnosis.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "MENINGIOMA: Arises from meningothelial cells of the protective meninges. Most common benign brain tumor, slow-growing, usually intracranial but can occur in spinal cord. More common in females, especially adults. Hormonal influence: progesterone receptor expression; tumor size changes during luteal phase and pregnancy. 40-80% have abnormal chromosome 22 at NF2 locus. NF2 is a tumor suppressor gene at 22q12. WHO 2016 classification: Grade I (benign), Grade II (atypical), Grade III (anaplastic). Key histological types: meningepithelial (syncytial), fibroblastic, transitional, psammomatous.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Oligodendroglioma: fried egg appearance, chicken-wire vessels, calcospherites",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Meningioma: WHO Grade I (benign), II (atypical), III (anaplastic)",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Meningioma: female predominance, progesterone receptor, NF2 association",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Oligodendroglioma classic triad: fried egg cells + chicken-wire vessels + calcifications",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "OLIGODENDROGLIOMA: Arises from oligodendrocytes. Can be low-grade (WHO Grade II) or high-grade (WHO Grade III/anaplastic). Commonly found in frontal and temporal lobes. Grossly soft, grayish-pink. Contains mineral deposits (calcifications), hemorrhage, and/or cysts. Histology: small round monotonous nuclei, perinuclear halos ('fried egg' appearance), branching thin-walled vessels ('chicken-wire' vessels), microcalcifications (calcospherites). Typically slow-growing, present for years before diagnosis. MENINGIOMA: Arises from meningothelial cells of the protective meninges. Most common benign brain tumor, slow-growing, usually intracranial but can occur in spinal cord. More common in females, especially adults. Hormonal influence: progesterone receptor expression; tumor size changes during luteal phase and pregnancy. 40-80% have abnormal chromosome 22 at NF2 locus. NF2 is a tumor suppressor gene at 22q12. WHO 2016 classification: Grade I (benign), Grade II (atypical), Grade III (anaplastic). Key histological types: meningepithelial (syncytial), fibroblastic, transitional, psammomatous.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Astrositoma",
+      "meaning": "Tumor otak dari sel astrosit"
+    },
+    {
+      "term": "Fried egg appearance",
+      "meaning": "Penampakan sel oligodendroglioma dengan halo perinuklear"
+    },
+    {
+      "term": "Psammoma bodies",
+      "meaning": "Bodi kalsifikasi konspherik khas meningioma"
+    },
+    {
+      "term": "NF2",
+      "meaning": "Neurofibromatosis type 2, gen supresor tumor di kromosom 22q12"
+    }
+  ],
+  "tables": [],
+  "diagnostic_logic": [],
+  "differential_notes": [
+    {
+      "item": "Astrocytoma vs oligodendroglioma",
+      "how_to_separate": "Astrocytoma: fibrillary background, no calcifications; Oligodendroglioma: fried egg cells, chicken-wire vessels, calcifications"
+    },
+    {
+      "item": "Meningioma vs schwannoma",
+      "how_to_separate": "Meningioma: whorls, psammoma bodies, EMA+; Schwannoma: Antoni A/B areas, Verocay bodies, S100+"
+    }
+  ],
+  "treatment_notes": [],
+  "red_flags": [
+    "Rapidly progressive neurological deficits suggesting high-grade tumor",
+    "New-onset seizures in adults suggesting neoplasm",
+    "Signs of increased intracranial pressure with papilledema"
+  ],
+  "extraction_notes": [
+    "Lecturer identified as Fairuz Quzwain from KJF Histoptologi FKIK UNJA",
+    "WHO grading information preserved with exact grade assignments",
+    "Histological descriptions were detailed and well-preserved",
+    "Meningioma section included WHO 2016 classification and hormonal associations"
+  ],
+  "confidence_summary": "high",
+  "qc_flags": []
+}

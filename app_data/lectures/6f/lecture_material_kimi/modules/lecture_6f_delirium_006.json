@@ -1,0 +1,1105 @@
+{
+  "id": "lecture_6f_delirium_006",
+  "batch_id": "batch_2_6f",
+  "title": "Delirium",
+  "subtitle": "Kimi rerun: psychiatry_neuropsychiatry",
+  "source_pdf": "delerium FKIK UNJA (1).docx",
+  "source_docx": "delerium FKIK UNJA (1).docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah komprehensif tentang delirium oleh dr. Tumpak Saragi mencakup definisi, sinonim, epidemiologi di berbagai setting rawat inap, etiologi (intrakranial vs ekstrakranial), ciri klinis (hipoaktif/hiperaktif/kampuran), kriteria diagnosis (PPDGJ-III, CAM), dan penatalaksanaan (non-farmakologis terlebih dahulu, farmakologis untuk hiperaktif/agitasi).",
+    "Delirium = acute confusional state with decreased attention, cognitive dysfunction, sleep-wake disturbance, and altered psychomotor activity; onset is acute and fluctuating",
+    "Synonyms include: Acute Brain Syndrome, Acute Confusional State, Toxic Psychosis, Metabolic Encephalopathy, Altered Mental Status, Dysergastic State",
+    "Epidemiology: 10-15% general surgical, 15-25% general medical, 30% surgical/cardiac ICU, 40-50% hip fracture surgery, 20% major burns, ~30% hospitalized AIDS"
+  ],
+  "exam_focus": [
+    "Definisi delirium: onset akut + fluktuatif + clouding of consciousness",
+    "14 sinonim delirium",
+    "Epidemiologi: 40-50% pasca patah pinggang, 30% ICU",
+    "PPDGJ 5-domain criteria (A-through-E)",
+    "3 tipe: hiperaktif, hipoaktif, campuran",
+    "CAM: sensitif 90%, spesifik 98%, 4-8 menit",
+    "Haloperidol dosing: 0.5mg q4-6h, max 10mg dewasa/3mg lansia",
+    "Hindari benzodiazepin",
+    "Delirium vs Demensia comparison table"
+  ],
+  "learning_goals": [
+    "Define delirium and recognize its multiple synonyms",
+    "Describe epidemiology across surgical, medical, and ICU settings",
+    "List intracranial and extracranial causes of delirium",
+    "Identify clinical features including prodromal symptoms and full-blown presentation",
+    "Apply PPDGJ-III diagnostic criteria",
+    "Distinguish predisposing and precipitating risk factors",
+    "Differentiate hyperactive, hypoactive, and mixed subtypes",
+    "Use CAM for evaluation and differentiate from dementia",
+    "Manage with non-pharmacological and pharmacological approaches"
+  ],
+  "key_points": [
+    "Delirium = acute confusional state with decreased attention, cognitive dysfunction, sleep-wake disturbance, and altered psychomotor activity; onset is acute and fluctuating",
+    "Synonyms include: Acute Brain Syndrome, Acute Confusional State, Toxic Psychosis, Metabolic Encephalopathy, Altered Mental Status, Dysergastic State",
+    "Epidemiology: 10-15% general surgical, 15-25% general medical, 30% surgical/cardiac ICU, 40-50% hip fracture surgery, 20% major burns, ~30% hospitalized AIDS",
+    "Etiology: any condition disrupting brain metabolism - intracranial (epilepsy, trauma, infection, SAH) and extracranial (drugs, endocrine dysfunction, organ failure)",
+    "PPDGJ criteria: (A) impaired consciousness/attention, (B) global cognitive disturbance (perception, thought, memory, orientation), (C) psychomotor disturbance, (D) sleep-wake disturbance, (E) emotional disturbance",
+    "CAM: 4-8 min, sensitivity 90%, specificity 98%",
+    "Hyperactive delirium: agitated, hypervigilant; Hypoactive: lethargic, sedated; Mixed: rapid fluctuation",
+    "First-line pharmacotherapy: Haloperidol 0.5mg q4-6h (max 10mg/day adult, 3mg/day elderly); Risperidone 2x0.5mg (max 4mg adult, 1mg elderly)",
+    "Avoid benzodiazepines except lorazepam injection in specific situations"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Definisi Delirium",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Delirium adalah suatu reaksi organik akut dengan gangguan utama adanya kesadaran berkabut (clouding of consciousness), yang disertai dengan gangguan atensi, orientasi, memori, persepsi, delusi, kegelisahan, dan agitasi. Delirium juga dapat didefinisikan sebagai suatu kelompok gangguan jiwa yang disebabkan oleh adanya gangguan pada jaringan otak atau pada organ lain di luar otak yang mempengaruhi fungsi otak.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penurunan kemampuan untuk memusatkan, mempertahankan, dan mengalihkan perhatian",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hendaya fungsi kognitif (orientasi, memori, bahasa)",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gangguan siklus tidur-bangun",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Peningkatan atau penurunan aktivitas psikomotor",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Onset akut dan fluktuatif",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Biasanya dipicu oleh suatu kondisi medis akut",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Delirium adalah suatu reaksi organik akut dengan gangguan utama adanya kesadaran berkabut (clouding of consciousness), yang disertai dengan gangguan atensi, orientasi, memori, persepsi, delusi, kegelisahan, dan agitasi. Delirium juga dapat didefinisikan sebagai suatu kelompok gangguan jiwa yang disebabkan oleh adanya gangguan pada jaringan otak atau pada organ lain di luar otak yang mempengaruhi fungsi otak. Penurunan kemampuan untuk memusatkan, mempertahankan, dan mengalihkan perhatian",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Sinonim Delirium",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Acute Brain Syndrome",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Acute Exogenous Reaction Type",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Acute Confusional State",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Toxic Psychosis",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Metabolic Encephalopathy",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Altered Mental Status",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Acute Organic Brain Syndrome",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Global Confusional State",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Acute Organic Psychosis",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Acute Psycho-Organic Syndrome",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Acute Organic Reaction",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Exogenous Metabolic Brain Disease",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Cerebral Insufficiency Syndrome",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dysergastic State",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Acute Brain Syndrome Acute Exogenous Reaction Type",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Epidemiologi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Sekitar 10-15% pasien di bangsal bedah umum",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sekitar 15-25% pasien di bangsal medik umum",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sekitar 30% pada pasien yang dirawat di unit perawatan intensif bedah dan jantung",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sekitar 40-50% pasien yang menerima perawatan bedah untuk fraktur di pinggang",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sekitar 20% pasien luka bakar berat",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kira-kira 30% pasien AIDS yang diopname",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Setting risiko tertinggi: pasca-operasi fraktur pinggul (40-50%), ICU bedah/kardiovaskular (30%), luka bakar besar (20%). Delirium sangat umum terjadi pada lansia yang dirawat di rumah sakit.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Sekitar 10-15% pasien di bangsal bedah umum Sekitar 15-25% pasien di bangsal medik umum",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Etiologi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "I. Kausa Intra Kranial: epilepsi; trauma kapitis; infeksi; perdarahan subarachnoid",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "II. Kausa Ekstra Kranial (lebih sering): pemakaian dan penghentian tiba-tiba obat tertentu; disfungsi endokrin (hipo atau hiper); penyakit non-endokrin (hati, ginjal, jantung, pulmo, penyakit sistemik)",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "I. Kausa Intra Kranial: epilepsi; trauma kapitis; infeksi; perdarahan subarachnoid II. Kausa Ekstra Kranial (lebih sering): pemakaian dan penghentian tiba-tiba obat tertentu; disfungsi endokrin (hipo atau hiper); penyakit non-endokrin (hati, ginjal, jantung, pulmo, penyakit sistemik)",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Gambaran Klinik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Onset akut, gejala berfluktuasi, durasi sekitar 1 minggu. Terjadinya gejala ini oleh karena adanya gangguan biokimia, elektris, dan mekanik.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gejala prodromal: gelisah, ansietas, hipersensitif terhadap cahaya dan suara, insomnia",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gejala full-blown: gangguan kesadaran (clouding of consciousness); gangguan persepsi (ilusi, halusinasi - terutama visual); gangguan orientasi (mulai waktu); gangguan proses pikir dan pembicaraan (gangguan konsentrasi, flight of ideas, inkoherensi, perseverasi, delusi); gangguan memori; gangguan afek; gangguan psikomotor; disfungsi otonomik; gangguan siklus tidur-bangun",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Halusinasi visual merupakan ciri khas delirium (dibandingkan halusinasi auditori dalam skizofrenia). Gejala prodromal: ansietas, hipersensitivitas terhadap cahaya/suara, insomnia, mimpi buruk. Perjalanan fluktuatif merupakan ciri khas.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Onset akut, gejala berfluktuasi, durasi sekitar 1 minggu. Terjadinya gejala ini oleh karena adanya gangguan biokimia, elektris, dan mekanik. Gejala prodromal: gelisah, ansietas, hipersensitif terhadap cahaya dan suara, insomnia",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s06",
+      "title": "Kriteria Diagnostik PPDGJ III",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "A. Hendaya kesadaran dan perhatian: kesadaran berkabut hingga koma; penurunan kemampuan mengarahkan, memusatkan, mempertahankan, dan mengalihkan perhatian",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "B. Gangguan daya kognitif secara umum: distorsi persepsi, ilusi, halusinasi (terutama visual); hendaya daya pikir dan pengertian abstrak; bisa dengan atau tanpa waham; inkoherentia; gangguan memori (segera dan jangka pendek); disorientasi (terutama waktu)",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "C. Gangguan psikomotor: hipoaktivitas atau hiperaktivitas; pengalihan aktivitas tak terduga; waktu bereaksi lebih panjang; arus pembicaraan bertambah/berkurang; reaksi terperanjat meningkat",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "D. Gangguan siklus tidur: insomnia atau pada kasus berat tidak dapat tidur sama sekali, atau terbaliknya siklus tidur (mengantuk siang); gejala memburuk pada malam hari (sundowning); mimpi mengganggu/mimpi buruk yang dapat berlanjut menjadi halusinasi setelah bangun",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "E. Gangguan emosional: depresi, ansietas, takut, lekas marah, euforia, apatis, rasa kehilangan akal",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "PPDGJ menggunakan penilaian 5-domain (A sampai E) daripada kriteria DSM-5. Ciri khas: pengaburan kesadaran, halusinasi visual, disorientasi, gangguan memori. DSM-5 mewajibkan gangguan perhatian dan kesadaran yang berubah-ubah.",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "A. Hendaya kesadaran dan perhatian: kesadaran berkabut hingga koma; penurunan kemampuan mengarahkan, memusatkan, mempertahankan, dan mengalihkan perhatian B. Gangguan daya kognitif secara umum: distorsi persepsi, ilusi, halusinasi (terutama visual); hendaya daya pikir dan pengertian abstrak; bisa dengan atau tanpa waham; inkoherentia; gangguan memori (segera dan jangka pendek); disorientasi (terutama waktu)",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s07",
+      "title": "Faktor Risiko Delirium",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Predisposisi: usia lanjut, demensia/gangguan kognitif, depresi, polifarmasi, dehidrasi, gangguan ginjal kronik, gangguan neurologis, gangguan fungsional, gangguan penglihatan/pendengaran, riwayat delirium sebelumnya",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Presipitasi: efek samping obat (antikolinergik), intoksikasi/withdrawal NAPZA, infeksi, trauma kepala, gangguan metabolik (dehidrasi, elektrolit, malnutrisi, ensefalopati hepatikum/uremikum), gangguan vaskular (stroke, gagal jantung, hipovolemia, aritmia), gangguan endokrin, nyeri",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Predisposisi: usia lanjut, demensia/gangguan kognitif, depresi, polifarmasi, dehidrasi, gangguan ginjal kronik, gangguan neurologis, gangguan fungsional, gangguan penglihatan/pendengaran, riwayat delirium sebelumnya Presipitasi: efek samping obat (antikolinergik), intoksikasi/withdrawal NAPZA, infeksi, trauma kepala, gangguan metabolik (dehidrasi, elektrolit, malnutrisi, ensefalopati hepatikum/uremikum), gangguan vaskular (stroke, gagal jantung, hipovolemia, aritmia), gangguan endokrin, nyeri",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s08",
+      "title": "Patofisiologi dan Patologi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Delirium adalah hasil kerusakan difus metabolisme jaringan saraf. Terlihat dari studi EEG dan aliran darah di otak.",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "EEG: perlambatan ritme EEG, amplitudo rendah",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Studi aliran darah: penurunan penggunaan O2",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Patologi makroskopis: otak membengkak dengan pelebaran ruang perivaskular dan perineuronal (bersifat bilateral, simetris, difus keseluruhan hemisfer)",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Patologi mikroskopis: pembengkakan neuron pada korteks serebri dan hipokampus; hiperemia perivaskular; warna sel lebih pucat",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Delirium adalah hasil kerusakan difus metabolisme jaringan saraf. Terlihat dari studi EEG dan aliran darah di otak. EEG: perlambatan ritme EEG, amplitudo rendah",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s09",
+      "title": "Tipe Delirium",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Hiperaktif: gelisah, agitasi, hipervigilans, tidak kooperatif, terkadang disertai halusinasi dan waham",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hipoaktif: letargi, sedasi, penurunan aktivitas psikomotor",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Campuran: campuran gambaran hiperaktif dan hipoaktif, fluktuasi cepat",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Delirium hipoaktif paling sering terlewatkan dalam praktik klinis karena pasien tenang dan menarik diri daripada gelisah. Tipe campuran dengan fluktuasi cepat paling umum secara keseluruhan (45%).",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Hiperaktif: gelisah, agitasi, hipervigilans, tidak kooperatif, terkadang disertai halusinasi dan waham Hipoaktif: letargi, sedasi, penurunan aktivitas psikomotor",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s10",
+      "title": "Evaluasi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Langkah 1: Tegakkan diagnosis delirium menggunakan CAM (Confusion Assessment Method)",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "CAM: 4-8 menit (rata-rata 6 menit), spesifik 98%, sensitif 90%",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Langkah 2: Tentukan potensial kausa/kondisi medis umum yang mendasari dan singkirkan kondisi mengancam nyawa",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Langkah 3: Manajemen gejala dengan target gejala yang jelas dan terukur (misal: agitasi psikomotor)",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Wawancara: sejak kapan dan usia saat awitan, perburukan gejala, awitan mendadak atau bertahap, terkait cedera kepala/pingsan/stroke, gejala memburuk di malam hari, adakah perubahan kesadaran",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pemeriksaan AMT/MMSE dan ADL/IADL",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Langkah 1: Tegakkan diagnosis delirium menggunakan CAM (Confusion Assessment Method) CAM: 4-8 menit (rata-rata 6 menit), spesifik 98%, sensitif 90%",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s11",
+      "title": "Diagnosis Banding",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Skizofrenia",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Histeria",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Demensia",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lain-lain",
+          "provenance": {
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Skizofrenia Histeria",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s12",
+      "title": "Tatalaksana Non-Farmakologis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Komunikasi singkat dan jelas (satu instruksi/pertanyaan dalam satu waktu)",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Fasilitasi re-orientasi dengan menyediakan akses ke jendela, jam, kalender, tanda lokasi",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Libatkan keluarga untuk menjaga pasien dan bawakan benda yang familiar",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hindari over/under stimulasi (cahaya, suara, suhu)",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hindari perpindahan ruang terlalu sering; bila terjadi lakukan re-orientasi",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Koreksi hendaya sensorik (penglihatan, pendengaran)",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pastikan kebutuhan dasar terpenuhi (makan, minum, eliminasi)",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "HINDARI FIKSASI (restraint) - bisa memicu gaduh gelisah",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Reorientasi (jam, kalender, jendela), keterlibatan keluarga, koreksi sensorik, dan menghindari pembatasan merupakan tindakan non-farmakologis kunci. Pembatasan harus menjadi pilihan terakhir karena risiko cedera.",
+          "provenance": {
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Komunikasi singkat dan jelas (satu instruksi/pertanyaan dalam satu waktu) Fasilitasi re-orientasi dengan menyediakan akses ke jendela, jam, kalender, tanda lokasi",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s13",
+      "title": "Tatalaksana Farmakologis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Hanya diberikan pada delirium tipe hiperaktif yang membahayakan diri/orang lain atau mengganggu jalannya perawatan, setelah strategi non-farmakologi dicoba dan tidak berhasil. Dimulai dengan obat antipsikotik dosis rendah per oral.",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Haloperidol: 0.5 mg tiap 4-6 jam, dapat ditingkatkan sampai maksimal 10 mg/hari (dewasa), dosis maksimal lansia 3 mg/hari",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Risperidon: 2 x 0.5 mg, dosis maksimal dewasa 4 mg, lansia 1 mg",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Agitasi berat atau tidak memungkinkan per oral: Haloperidol 2.5 mg IM, dapat diulang setelah 30 menit. Maksimal dewasa 10 mg/hari, lansia 5 mg/hari",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hindari benzodiazepin (kecuali lorazepam injeksi)",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pemberian obat harus dengan informed consent",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Catat rencana pengobatan: jenis obat, dosis, dosis maksimal harian, frekuensi titrasi, evaluasi tingkat agitasi, total dosis 48 jam terakhir, efek samping",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Haloperidol merupakan lini pertama untuk delirium hiperaktif. Mulai dosis rendah (0,5 mg), naikkan secara perlahan. Maksimal 10 mg/hari untuk dewasa, 3 mg/hari untuk lansia. Hindari benzodiazepin karena dapat memperburuk delirium.",
+          "provenance": {
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Hanya diberikan pada delirium tipe hiperaktif yang membahayakan diri/orang lain atau mengganggu jalannya perawatan, setelah strategi non-farmakologi dicoba dan tidak berhasil. Dimulai dengan obat antipsikotik dosis rendah per oral. Haloperidol: 0.5 mg tiap 4-6 jam, dapat ditingkatkan sampai maksimal 10 mg/hari (dewasa), dosis maksimal lansia 3 mg/hari",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Clouding of consciousness",
+      "meaning": "Kesadaran berkabut - ciri utama delirium"
+    },
+    {
+      "term": "Sundowning",
+      "meaning": "Gejala delirium yang memburuk di malam hari"
+    },
+    {
+      "term": "CAM",
+      "meaning": "Confusion Assessment Method - instrumen skrining delirium"
+    },
+    {
+      "term": "Dysergastic State",
+      "meaning": "Salah satu sinonim delirium"
+    },
+    {
+      "term": "Perseverasi",
+      "meaning": "Pengulangan jawaban atau perilaku yang tidak sesuai konteks"
+    },
+    {
+      "term": "Flight of ideas",
+      "meaning": "Pindah-pindah antar topik pemikiran dengan cepat"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t01",
+      "title": "Epidemiologi Delirium",
+      "columns": [
+        "Setting",
+        "Prevalensi"
+      ],
+      "rows": [
+        [
+          "Bangsal bedah umum",
+          "10-15%"
+        ],
+        [
+          "Bangsal medik umum",
+          "15-25%"
+        ],
+        [
+          "ICU bedah dan jantung",
+          "~30%"
+        ],
+        [
+          "Pasca bedah fraktur pinggang",
+          "40-50%"
+        ],
+        [
+          "Luka bakar berat",
+          "~20%"
+        ],
+        [
+          "Pasien AIDS diopname",
+          "~30%"
+        ]
+      ]
+    },
+    {
+      "id": "t02",
+      "title": "Tipe Delirium",
+      "columns": [
+        "Tipe",
+        "Ciri"
+      ],
+      "rows": [
+        [
+          "Hiperaktif",
+          "Gelisah, agitasi, hipervigilans, tidak kooperatif, halusinasi/waham"
+        ],
+        [
+          "Hipoaktif",
+          "Letargi, sedasi, penurunan aktivitas psikomotor"
+        ],
+        [
+          "Campuran",
+          "Fluktuasi cepat antara hiperaktif dan hipoaktif"
+        ]
+      ]
+    },
+    {
+      "id": "t03",
+      "title": "Farmakoterapi Delirium",
+      "columns": [
+        "Obat",
+        "Dosis",
+        "Catatan"
+      ],
+      "rows": [
+        [
+          "Haloperidol PO",
+          "0.5 mg q4-6 jam, max 10 mg/hari (dewasa), max 3 mg/hari (lansia)",
+          "First-line"
+        ],
+        [
+          "Haloperidol IM",
+          "2.5 mg, ulang setelah 30 menit, max 10 mg/hari (dewasa), max 5 mg/hari (lansia)",
+          "Agitasi berat/NPO"
+        ],
+        [
+          "Risperidon PO",
+          "2 x 0.5 mg, max 4 mg/hari (dewasa), max 1 mg/hari (lansia)",
+          "Alternatif"
+        ],
+        [
+          "Lorazepam IM",
+          "Dosis tidak disebutkan",
+          "Hanya bila perlu, hindari BZD umumnya"
+        ]
+      ]
+    },
+    {
+      "id": "t04",
+      "title": "Faktor Risiko Delirium",
+      "columns": [
+        "Kategori",
+        "Faktor"
+      ],
+      "rows": [
+        [
+          "Predisposisi",
+          "Usia lanjut, demensia, depresi, polifarmasi, dehidrasi, gangguan ginjal, gangguan neurologis, gangguan fungsional, gangguan penglihatan/pendengaran, riwayat delirium"
+        ],
+        [
+          "Presipitasi",
+          "Obat (antikolinergik), intoksikasi/withdrawal NAPZA, infeksi, trauma kepala, gangguan metabolik, gangguan vaskular, gangguan endokrin, nyeri"
+        ]
+      ]
+    }
+  ],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Screening dengan CAM",
+      "explanation": "4-8 menit, sensitif 90%, spesifik 98%."
+    },
+    {
+      "step": 2,
+      "title": "Identifikasi onset",
+      "explanation": "Onset akut (berbeda dari demensia yang lambat laun)."
+    },
+    {
+      "step": 3,
+      "title": "Verifikasi fluktuasi",
+      "explanation": "Gejala naik turun sepanjang hari, memburuk di malam hari (sundowning)."
+    },
+    {
+      "step": 4,
+      "title": "Evaluasi 5 domain PPDGJ",
+      "explanation": "Kesadaran/perhatian (A), kognitif (B), psikomotor (C), tidur (D), emosi (E)."
+    },
+    {
+      "step": 5,
+      "title": "Identifikasi kausa",
+      "explanation": "Cari kondisi medis yang mendasari (infeksi, dehidrasi, obat, metabolik)."
+    },
+    {
+      "step": 6,
+      "title": "Bedakan dari demensia",
+      "explanation": "Delirium: onset cepat, fluktuatif, kesadaran naik turun, visual hallucinations. Demensia: onset lambat, progresif, orientasi intak awalnya."
+    }
+  ],
+  "differential_notes": [
+    {
+      "item": "Delirium vs Demensia",
+      "how_to_separate": "Delirium: onset akut, fluktuatif, kesadaran berubah, halusinasi visual. Demensia: onset gradual, progresif, kesadaran jernih, tidak ada halusinasi, perhatian utuh di awal."
+    },
+    {
+      "item": "Delirium vs Skizofrenia",
+      "how_to_separate": "Delirium: visual hallucinations, clouded consciousness, acute onset. Schizophrenia: auditory hallucinations, clear consciousness, chronic onset."
+    },
+    {
+      "item": "Delirium vs Histeria",
+      "how_to_separate": "Hysteria: no clouding of consciousness, symptom production has gain, no organic cause."
+    }
+  ],
+  "treatment_notes": [
+    {
+      "phase": "non_farmakologi",
+      "content": "Lini pertama: reorientasi, keterlibatan keluarga, alat bantu sensorik, hindari pembatasan, lingkungan konsisten. Farmakologi: Haloperidol 0,5 mg (dewasa), 0,25 mg (lansia) setiap 4-6 jam."
+    },
+    {
+      "phase": "farmakologi",
+      "content": "Hanya untuk delirium hiperaktif yang membahayakan diri sendiri/orang lain setelah non-farmakologi gagal. Haloperidol 0,5 mg per oral setiap 4-6 jam (maks 10 mg dewasa, 3 mg lansia). Risperidon 0,5-1 mg/hari jika Haloperidol kontraindikasi. Benzodiazepin KONTRAINDIKASI."
+    },
+    {
+      "phase": "monitoring",
+      "content": "Dokumentasikan rencana obat, dosis maksimal harian, frekuensi titrasi, skor agitasi, dosis total 48 jam, efek samping. Reevaluasi setiap 24-48 jam."
+    }
+  ],
+  "red_flags": [
+    "Agitasi berat yang membahayakan diri/orang lain",
+    "Tanda vital tidak stabil",
+    "Gagal identifikasi kausa medis yang mengancam nyawa",
+    "Sundowning yang memburuk",
+    "Restraint dapat memperparah agitasi - hindari"
+  ],
+  "extraction_notes": [
+    "Lecturer CV included on first slide: dr. Tumpak Saragi, Sp.KJ, Psikiater RSJ Jambi, Staf Pengajar Psikiatri FK Universitas Jambi.",
+    "30-slide lecture with excellent text extraction quality.",
+    "PPDGJ-III diagnostic criteria presented in structured 5-domain format.",
+    "Delirium-Dementia comparison table fully extracted.",
+    "Pharmacotherapy dosing precisely specified with elderly adjustments.",
+    "Strong emphasis on avoiding restraints and using non-pharmacological approaches first."
+  ],
+  "confidence_summary": "tinggi",
+  "qc_flags": []
+}

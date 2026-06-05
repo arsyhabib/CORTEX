@@ -1,0 +1,664 @@
+{
+  "id": "lecture_6f_napza_lab_011",
+  "batch_id": "batch_2_6f",
+  "title": "Pemeriksaan Laboratorium pada Penyalahgunaan Obat Psikoaktif, NAPZA dan Alkohol",
+  "subtitle": "Kimi rerun: psychiatry_addiction",
+  "source_pdf": "Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx",
+  "source_docx": "Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah tentang pemeriksaan laboratorium untuk penyalahgunaan zat psikoaktif (NAPZA) dan alkohol oleh Dr. Hiratna SpPK(K). Mencakup klasifikasi zat (narkotika, psikotropika, alkohol, zat volatil, tembakau/kafein), metode skrining (urin, darah, rambut, saliva), teknik konfirmasi (GC-MS, HPLC), pemeriksaan spesifik (CDT untuk alkohol, kanabinoid urin, amfetamin, opioid, kokain, benzodiazepin), pertimbangan pre-analitik, interpretasi hasil (positif/negatif palsu), dan aplikasi medikolegal.",
+    "Narkotika: heroin (putauw), cannabis (cimeng), cocaine, morphine, codeine",
+    "Psychotropics: sabu (amphetamine/methamphetamine), sedatives (diazepam, etc.)",
+    "Psychoactive substance = substance affecting CNS causing mental, emotional, and behavioral changes"
+  ],
+  "exam_focus": [
+    "THC detectable up to 1 week (urine), 7-30 days (heavy use)",
+    "Benzodiazepines longest window: 3-6 weeks in urine",
+    "LSD shortest blood detection: 2-3 hours",
+    "Hair analysis: 90-day history",
+    "Peak prevalence age: 18-25 years",
+    "Sedative-hypnotic classes: benzodiazepines, barbiturates, bromides",
+    "Definition of psychoactive substance, abuse, and dependence"
+  ],
+  "learning_goals": [
+    "Classify types of psychoactive substances",
+    "Define psychoactive substance, substance abuse, and dependence syndrome",
+    "Describe substance-specific characteristics and effects",
+    "Explain toxicology testing methods (urine, blood, hair)",
+    "State detection windows for major substances in urine and blood",
+    "Identify factors affecting substance persistence in the body"
+  ],
+  "key_points": [
+    "Narkotika: heroin (putauw), cannabis (cimeng), cocaine, morphine, codeine",
+    "Psychotropics: sabu (amphetamine/methamphetamine), sedatives (diazepam, etc.)",
+    "Psychoactive substance = substance affecting CNS causing mental, emotional, and behavioral changes",
+    "Dependence syndrome = strong desire to use substance with characteristic withdrawal",
+    "Peak prevalence age 18-25 years; male > female; unemployed > employed",
+    "THC detectable in urine up to 1 week after last use",
+    "Benzodiazepines detectable in urine 3-6 weeks",
+    "Hair analysis can reveal 90-day history of substance use",
+    "Detection varies by: test type, dose, tolerance, metabolism, medical conditions"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Klasifikasi Zat",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Narkotika: Heroin (Putauw), Ganja (Cimeng), Kokain, Morfin, Kodein",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Alkohol: Bir, Vodka, dll",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Psikotropika: Sabu (Amfetamin, Metamfetamin)",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Obat sedatif/hipnotik: Valium, Diazepam, Lexo, Mogadon, Double L",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Zat adiktif: bensin, cat, tiner, lem, dll",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Narkotika: Heroin (Putauw), Ganja (Cimeng), Kokain, Morfin, Kodein Alkohol: Bir, Vodka, dll",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Definisi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Zat psikoaktif: zat yang masuk ke tubuh mempengaruhi SSP, menyebabkan perubahan aktivitas mental, emosional, dan perilaku, sering menyebabkan ketergantungan",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penyalahgunaan obat: pemakaian obat atas inisiatif sendiri bukan untuk tujuan pengobatan",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sindroma ketergantungan: keinginan amat kuat untuk menggunakan obat/zat",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Zat psikoaktif: zat yang masuk ke tubuh mempengaruhi SSP, menyebabkan perubahan aktivitas mental, emosional, dan perilaku, sering menyebabkan ketergantungan Penyalahgunaan obat: pemakaian obat atas inisiatif sendiri bukan untuk tujuan pengobatan",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Epidemiologi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "USA: terutama golongan sosial-ekonomi rendah",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Laki-laki > Perempuan",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kelompok penganggur > kelompok bekerja",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pengguna medical professional > populasi umum",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Prevalensi paling tinggi: usia 18-25 tahun",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Trend Indonesia relatif stabil: alkohol, sedatif-hipnotik, ganja, campuran, sedikit morfin/heroin dan amfetamin",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "USA: terutama golongan sosial-ekonomi rendah Laki-laki > Perempuan",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Karakteristik Zat Spesifik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Opioid: khasiat seperti morfin (analgesik, hipnotik, euforia)",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Alkohol: minuman beretanol. Bir 2-5%, anggur 10-14%, wiski/vodka/brandy 40-50%",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ganja: dari tanaman kanabis mengandung THC. THC terdeteksi dalam urine sampai 1 minggu setelah penggunaan terakhir. Efek merokok: 20-30 menit, bertahan 2-4 jam.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sedatif-hipnotik: penekan SSP. Dosis kecil = ansietas, dosis besar = tidur. Golongan: benzodiazepin, barbiturat, bromida, karbamat, kloralhidrat, paraldehide. Yang sering disalahgunakan: nitrazepam, bromazepam, flunitrazepam, klonazepam.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Amfetamin: senyawa sintetik perangsang SSP. Derivat: MDMA (ekstasi), metamfetamin (sabu-sabu).",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Halusinogenika: menimbulkan halusinasi, ilusi, delusi. LSD, psilosibin, meskalin.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Inhalansia: pelarut mudah menguap (toluen, trikhloretilen, aseton, haloten, nitrit alifatis). Terdapat dalam penghapus cat kuku, thinner, aerosol.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kokain: stimulansia SSP. Cara: snorting, suntik, merokok, absorpsi mukosa.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Nikotin: stimulansia SSP. Efek: pandangan lebih awas, kecepatan proses informasi meningkat, daya ingat meningkat.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Opioid: khasiat seperti morfin (analgesik, hipnotik, euforia) Alkohol: minuman beretanol. Bir 2-5%, anggur 10-14%, wiski/vodka/brandy 40-50%",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Tes Toksikologi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Tes toksikologi (skrining toksikologi) dilakukan untuk mengecek adanya kandungan obat-obatan atau bahan kimia dalam urin, darah, dan air liur. Dapat mengenali hingga 30 jenis obat berbeda dalam satu kali tes, termasuk obat resep, aspirin, vitamin, suplemen, dan alkohol.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Obat masuk tubuh: ditelan, dihirup, disuntik, diserap kulit",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Juga bisa pada isi lambung dan keringat (jarang)",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Jenis tes: tes urin atau tes darah",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Tes toksikologi (skrining toksikologi) dilakukan untuk mengecek adanya kandungan obat-obatan atau bahan kimia dalam urin, darah, dan air liur. Dapat mengenali hingga 30 jenis obat berbeda dalam satu kali tes, termasuk obat resep, aspirin, vitamin, suplemen, dan alkohol. Obat masuk tubuh: ditelan, dihirup, disuntik, diserap kulit",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s06",
+      "title": "Jendela Deteksi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Alkohol: urin 3-5 hari, darah 10-12 jam",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Amfetamin: urin 1-3 hari, darah 12 jam",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Barbiturat: urin 2-4 hari, darah 1-2 hari",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Benzodiazepin: urin 3-6 minggu, darah 2-3 hari",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ganja: urin 7-30 hari, darah 5 hari-2 minggu",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kokain: urin 3-4 hari, darah 1-2 hari",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kodein: urin 1 hari, darah 12 jam",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Heroin: urin 3-4 hari, darah 12 jam",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "LSD: urin 1-3 hari, darah 2-3 jam",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ekstasi/MDMA: urin 3-4 hari, darah 1-2 hari",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Metamfetamin: urin 3-6 hari, darah 2-3 hari",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Metadon: urin 3-4 hari, darah 24-36 jam",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Morfin: urin 2-3 hari, darah 6-8 jam",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Deteksi terlama: Kanabis dalam urin 7-30 hari, Benzodiazepin 3-6 minggu. Terpendek: LSD dalam darah 2-4 jam. Deteksi jangka panjang dalam rambut hingga 90 hari.",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Alkohol: urin 3-5 hari, darah 10-12 jam Amfetamin: urin 1-3 hari, darah 12 jam",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s07",
+      "title": "Faktor yang Mempengaruhi Deteksi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Tipe tes yang dilakukan",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Besar dosis yang dikonsumsi",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Toleransi tubuh terhadap zat",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Metabolisme tubuh",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Adanya kondisi medis tertentu",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Tipe tes yang dilakukan Besar dosis yang dikonsumsi",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s08",
+      "title": "Analisa Rambut",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Jenis tes paling akurat untuk mendeteksi residu narkoba adalah analisa rambut, yang dapat membeberkan detil riwayat penggunaan alkohol, amfetamin, heroin, ganja, dan morfin dalam 90 hari terakhir.",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Jenis tes paling akurat untuk mendeteksi residu narkoba adalah analisa rambut, yang dapat membeberkan detil riwayat penggunaan alkohol, amfetamin, heroin, ganja, dan morfin dalam 90 hari terakhir.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "NAPZA",
+      "meaning": "Narkotika, Alkohol, Psikotropika, dan Zat Adiktif"
+    },
+    {
+      "term": "THC",
+      "meaning": "Delta-9-tetrahidrokanabinol - zat psikoaktif utama dalam ganja"
+    },
+    {
+      "term": "Tes toksikologi",
+      "meaning": "Pemeriksaan untuk mendeteksi kandungan obat atau bahan kimia dalam biological specimens"
+    },
+    {
+      "term": "Sindroma ketergantungan",
+      "meaning": "Keinginan kuat untuk menggunakan zat dengan karakteristik withdrawal"
+    }
+  ],
+  "tables": [
+    {
+      "id": "t01",
+      "title": "Jendela Deteksi Zat dalam Urin dan Darah",
+      "columns": [
+        "Zat",
+        "Urin",
+        "Darah"
+      ],
+      "rows": [
+        [
+          "Alkohol",
+          "3-5 hari",
+          "10-12 jam"
+        ],
+        [
+          "Amfetamin",
+          "1-3 hari",
+          "12 jam"
+        ],
+        [
+          "Barbiturat",
+          "2-4 hari",
+          "1-2 hari"
+        ],
+        [
+          "Benzodiazepin",
+          "3-6 minggu",
+          "2-3 hari"
+        ],
+        [
+          "Ganja",
+          "7-30 hari",
+          "5 hari-2 minggu"
+        ],
+        [
+          "Kokain",
+          "3-4 hari",
+          "1-2 hari"
+        ],
+        [
+          "Kodein",
+          "1 hari",
+          "12 jam"
+        ],
+        [
+          "Heroin",
+          "3-4 hari",
+          "12 jam"
+        ],
+        [
+          "LSD",
+          "1-3 hari",
+          "2-3 jam"
+        ],
+        [
+          "Ekstasi/MDMA",
+          "3-4 hari",
+          "1-2 hari"
+        ],
+        [
+          "Metamfetamin",
+          "3-6 hari",
+          "2-3 hari"
+        ],
+        [
+          "Metadon",
+          "3-4 hari",
+          "24-36 jam"
+        ],
+        [
+          "Morfin",
+          "2-3 hari",
+          "6-8 jam"
+        ]
+      ]
+    }
+  ],
+  "diagnostic_logic": [],
+  "differential_notes": [],
+  "treatment_notes": [],
+  "red_flags": [],
+  "extraction_notes": [
+    "18-slide lecture by Dr. Hiratna SpPK(K).",
+    "Detection window table fully extracted.",
+    "Substance classification clearly presented.",
+    "No case vignettes or references."
+  ],
+  "confidence_summary": "tinggi",
+  "qc_flags": []
+}

@@ -1,0 +1,346 @@
+{
+  "id": "lecture_6e_stroke_radiology_021",
+  "batch_id": "batch_1_6e",
+  "title": "Stroke Radiology",
+  "subtitle": "Kimi rerun: neuro_radiology",
+  "source_pdf": "stroke-dr.Erni Z, SpRad.docx",
+  "source_docx": "stroke-dr.Erni Z, SpRad.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah radiologi tentang pencitraan stroke yang mencakup temuan CT pada stroke iskemik akut (tanda awal, skor ASPECTS), karakteristik CT stroke hemoragik, sekuens MRI untuk evaluasi stroke (DWI, FLAIR, GRE/SWI, MRA), pencitraan vaskular (CTA, MRA, DSA), dan tindak lanjut pencitraan pasca-terapi. Menekankan tanda CT awal yang mengindikasikan oklusi vaskular besar dan peran pencitraan lanjut dalam memperpanjang jendela terapi.",
+    "Non-contrast CT is first-line to exclude hemorrhage in acute stroke",
+    "ASPECTS score (0-10) quantifies early ischemic changes; score <7 suggests large infarct with poor thrombolysis outcome",
+    "Hyperdense MCA sign indicates thrombus in the vessel - key sign for thrombectomy candidacy"
+  ],
+  "exam_focus": [
+    "ASPECTS scoring regions",
+    "Early CT signs of ischemia",
+    "Hyperdense MCA sign significance",
+    "DWI-FLAIR mismatch",
+    "Hemorrhagic transformation classification (HI-1/2, PH-1/2)"
+  ],
+  "learning_goals": [
+    "Recognize early CT signs of acute ischemic stroke",
+    "Menerapkan skoring ASPECTS untuk stroke sirkulasi anterior",
+    "Membedakan stroke iskemik dan hemoragik pada CT",
+    "Menginterpretasi DWI dan MRA untuk evaluasi stroke"
+  ],
+  "key_points": [
+    "Non-contrast CT is first-line to exclude hemorrhage in acute stroke",
+    "ASPECTS score (0-10) quantifies early ischemic changes; score <7 suggests large infarct with poor thrombolysis outcome",
+    "Hyperdense MCA sign indicates thrombus in the vessel - key sign for thrombectomy candidacy",
+    "DWI shows restricted diffusion within minutes of ischemia onset; FLAIR may be normal in first 3-6 hours",
+    "DWI-FLAIR mismatch can identify patients within 4.5-hour window for thrombolysis"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Pendekatan Pencitraan Stroke",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "The imaging workup for acute stroke follows a structured protocol. Step 1: Non-contrast CT head to exclude hemorrhage (first-line, immediate). Step 2: If no hemorrhage and within treatment window, assess for early ischemic changes and large vessel occlusion signs. Step 3: CT angiography (CTA) from aortic arch to vertex to identify large vessel occlusion. Step 4: CT perfusion (CTP) or MRI (DWI, FLAIR, MRA) for advanced assessment in extended window candidates. Step 5: Post-treatment imaging to assess for hemorrhagic transformation and reperfusion.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "CT non-kontras: pertama untuk eksklusi perdarahan",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "CTA: deteksi okulsi vaskular besar",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "CTP/MRI: untuk jendela waktu yang diperpanjang",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pasca-terapi: evaluasi transformasi hemoragik",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "The imaging workup for acute stroke follows a structured protocol. Step 1: Non-contrast CT head to exclude hemorrhage (first-line, immediate). Step 2: If no hemorrhage and within treatment window, assess for early ischemic changes and large vessel occlusion signs. Step 3: CT angiography (CTA) from aortic arch to vertex to identify large vessel occlusion. Step 4: CT perfusion (CTP) or MRI (DWI, FLAIR, MRA) for advanced assessment in extended window candidates. Step 5: Post-treatment imaging to assess for hemorrhagic transformation and reperfusion. CT non-kontras: pertama untuk eksklusi perdarahan",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "CT pada Stroke Akut",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "EARLY CT SIGNS OF ISCHEMIA (<6 hours): Loss of insular ribbon, loss of lentiform nucleus definition (basal ganglia obscuration), hemispheric sulcal effacement, hyperdense MCA sign (thrombus density within vessel), hypodensity in MCA territory. These signs indicate established ischemia and potential large vessel occlusion. ASPECTS SCORE (Alberta Stroke Program Early CT Score): 10-point scoring system assessing MCA territory regions. Regions: caudate (C), lentiform nucleus (L), internal capsule (IC), insular ribbon (I), anterior MCA cortex (M1), MCA cortex lateral to insula (M2), posterior MCA cortex (M3), anterior MCA cortex superior (M4), lateral MCA cortex superior (M5), posterior MCA cortex superior (M6). Normal = 10 points; each region with early ischemic change loses 1 point. Score 7-10: favorable for thrombolysis. Score 0-6: large infarct, higher hemorrhage risk with thrombolysis.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "ASPECTS <7 suggests large core infarct; higher risk of hemorrhagic transformation with thrombolysis",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "EARLY CT SIGNS OF ISCHEMIA (<6 hours): Loss of insular ribbon, loss of lentiform nucleus definition (basal ganglia obscuration), hemispheric sulcal effacement, hyperdense MCA sign (thrombus density within vessel), hypodensity in MCA territory. These signs indicate established ischemia and potential large vessel occlusion. ASPECTS SCORE (Alberta Stroke Program Early CT Score): 10-point scoring system assessing MCA territory regions. Regions: caudate (C), lentiform nucleus (L), internal capsule (IC), insular ribbon (I), anterior MCA cortex (M1), MCA cortex lateral to insula (M2), posterior MCA cortex (M3), anterior MCA cortex superior (M4), lateral MCA cortex superior (M5), posterior MCA cortex superior (M6). Normal = 10 points; each region with early ischemic change loses 1 point. Score 7-10: favorable for thrombolysis. Score 0-6: large infarct, higher hemorrhage risk with thrombolysis. ASPECTS <7 suggests large core infarct; higher risk of hemorrhagic transformation with thrombolysis",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "MRI untuk Evaluasi Stroke",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "DWI (DIFFUSION-WEIGHTED IMAGING): Most sensitive sequence for acute ischemia; shows restricted diffusion (bright on DWI, dark on ADC) within minutes of onset; remains abnormal for 7-10 days (pseudonormalization occurs around day 10-14). FLAIR: Hyperintensity indicates vasogenic edema; may be normal in first 3-6 hours (DWI-FLAIR mismatch). T2*: GRE/SWI shows hemorrhage as hypointense (blooming artifact); sensitive for microbleeds and hemorrhagic transformation. MRA: Non-invasive vascular imaging; shows vessel occlusion, stenosis, aneurysm. DWI-FLAIR MISMATCH: DWI positive but FLAIR negative indicates stroke onset <4.5-6 hours; used to select patients for thrombolysis when onset time is unknown (WAKE-UP trial).",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "DWI-FLAIR mismatch = onset <4.5-6 hours; can guide thrombolysis in unknown onset stroke",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "DWI (DIFFUSION-WEIGHTED IMAGING): Most sensitive sequence for acute ischemia; shows restricted diffusion (bright on DWI, dark on ADC) within minutes of onset; remains abnormal for 7-10 days (pseudonormalization occurs around day 10-14). FLAIR: Hyperintensity indicates vasogenic edema; may be normal in first 3-6 hours (DWI-FLAIR mismatch). T2*: GRE/SWI shows hemorrhage as hypointense (blooming artifact); sensitive for microbleeds and hemorrhagic transformation. MRA: Non-invasive vascular imaging; shows vessel occlusion, stenosis, aneurysm. DWI-FLAIR MISMATCH: DWI positive but FLAIR negative indicates stroke onset <4.5-6 hours; used to select patients for thrombolysis when onset time is unknown (WAKE-UP trial). DWI-FLAIR mismatch = onset <4.5-6 hours; can guide thrombolysis in unknown onset stroke",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Pencitraan Vaskular",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "CTA (CT ANGIOGRAPHY): Fast, widely available; requires iodinated contrast; shows vessel occlusion, stenosis, dissection; source images and MIP reconstructions. MRA (MR ANGIOGRAPHY): Non-contrast (time-of-flight) or contrast-enhanced; no radiation; longer acquisition time; sensitive for intracranial and extracranial vessel assessment. DSA (DIGITAL SUBTRACTION ANGIOGRAPHY): Gold standard for vascular imaging; invasive; used for pre-thrombectomy assessment and for diagnosis when CTA/MRA is inconclusive; catheter-based with direct contrast injection. Carotid Doppler ultrasound: Non-invasive screening for carotid stenosis; assesses plaque morphology and hemodynamic significance.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "CTA: cepat, kontras yodium, okulsi/stenosis",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "MRA: tanpa radiasi, ToF atau kontras",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "DSA: standar emas, invasif, pra-trombektomi",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Doppler karotis: skrining stenosis non-invasif",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "CTA (CT ANGIOGRAPHY): Fast, widely available; requires iodinated contrast; shows vessel occlusion, stenosis, dissection; source images and MIP reconstructions. MRA (MR ANGIOGRAPHY): Non-contrast (time-of-flight) or contrast-enhanced; no radiation; longer acquisition time; sensitive for intracranial and extracranial vessel assessment. DSA (DIGITAL SUBTRACTION ANGIOGRAPHY): Gold standard for vascular imaging; invasive; used for pre-thrombectomy assessment and for diagnosis when CTA/MRA is inconclusive; catheter-based with direct contrast injection. Carotid Doppler ultrasound: Non-invasive screening for carotid stenosis; assesses plaque morphology and hemodynamic significance. CTA: cepat, kontras yodium, okulsi/stenosis",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Stroke Hemoragik dan Pasca-Terapi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "HEMORRHAGIC STROKE ON CT: Acute blood appears hyperdense (60-80 HU) due to hemoglobin; density decreases over time (7-10 days becomes isodense, >2-3 weeks hypodense). Location suggests etiology: basal ganglia/thalamus (hypertension), lobar (amyloid angiopathy in elderly, AVM in young), cerebellar/pontine (hypertension). IVH (intraventricular hemorrhage) suggests extension from parenchymal bleed. SAH: blood in sulci, cisterns, ventricles; aneurysm is most common cause. HEMORRHAGIC TRANSFORMATION (HT): Conversion of ischemic infarct to hemorrhage; classified as HI-1 (petechiae around infarct), HI-2 (confluent petechiae without mass effect), PH-1 (hematoma <30% of infarct with mild mass effect), PH-2 (hematoma >30% or significant mass effect). Risk factors: large infarct, reperfusion therapy, uncontrolled hypertension, anticoagulation. PH-2 associated with worse outcome.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Darah akut: hiperdens 60-80 HU",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Basal ganglia/talamus: hipertensi; Lobar: amiloid/AVM",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "HT: HI-1/2 (petekie), PH-1/2 (hematoma)",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "PH-2: outcome lebih buruk",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hyperdense MCA sign + ASPECTS >=7 = good thrombectomy candidate",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "HEMORRHAGIC STROKE ON CT: Acute blood appears hyperdense (60-80 HU) due to hemoglobin; density decreases over time (7-10 days becomes isodense, >2-3 weeks hypodense). Location suggests etiology: basal ganglia/thalamus (hypertension), lobar (amyloid angiopathy in elderly, AVM in young), cerebellar/pontine (hypertension). IVH (intraventricular hemorrhage) suggests extension from parenchymal bleed. SAH: blood in sulci, cisterns, ventricles; aneurysm is most common cause. HEMORRHAGIC TRANSFORMATION (HT): Conversion of ischemic infarct to hemorrhage; classified as HI-1 (petechiae around infarct), HI-2 (confluent petechiae without mass effect), PH-1 (hematoma <30% of infarct with mild mass effect), PH-2 (hematoma >30% or significant mass effect). Risk factors: large infarct, reperfusion therapy, uncontrolled hypertension, anticoagulation. PH-2 associated with worse outcome. Darah akut: hiperdens 60-80 HU",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "ASPECTS",
+      "meaning": "Alberta Stroke Program Early CT Score"
+    },
+    {
+      "term": "LVO",
+      "meaning": "Large Vessel Occlusion"
+    },
+    {
+      "term": "DWI-FLAIR mismatch",
+      "meaning": "DWI positif tapi FLAIR negatif, menunjukkan onset <4.5-6 jam"
+    },
+    {
+      "term": "PH-2",
+      "meaning": "Parenchymal hematoma type 2 (>30% infarkt atau efek massa signifikan)"
+    },
+    {
+      "term": "HU",
+      "meaning": "Hounsfield Unit"
+    }
+  ],
+  "tables": [],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Non-contrast CT",
+      "explanation": "Exclude hemorrhage; assess early ischemic changes; ASPECTS scoring"
+    },
+    {
+      "step": 2,
+      "title": "CTA for large vessel occlusion",
+      "explanation": "If LVO suspected, CTA from arch to vertex"
+    },
+    {
+      "step": 3,
+      "title": "Advanced imaging for extended window",
+      "explanation": "CTP or MRI DWI-FLAIR mismatch for 6-24h candidates"
+    },
+    {
+      "step": 4,
+      "title": "Post-treatment imaging",
+      "explanation": "24h CT for hemorrhagic transformation; follow-up MRI for final infarct"
+    }
+  ],
+  "differential_notes": [
+    {
+      "item": "Acute hemorrhage vs calcification",
+      "how_to_separate": "Hemorrhage: 60-80 HU, typically round/irregular; Calcification: >100 HU, follows anatomical distribution"
+    },
+    {
+      "item": "Tumor hemorrhage vs primary ICH",
+      "how_to_separate": "Tumor: underlying mass, enhancement, atypical location; Primary ICH: typical location (basal ganglia), no underlying mass"
+    },
+    {
+      "item": "SAH from aneurysm vs trauma",
+      "how_to_separate": "Aneurysm: blood in basal cisterns, circle of Willis; Trauma: convexity SAH, contusions, skull fractures"
+    }
+  ],
+  "treatment_notes": [],
+  "red_flags": [
+    "Hyperdense MCA sign (large vessel occlusion)",
+    "ASPECTS <7 (large infarct, poor thrombolysis candidate)",
+    "PH-2 hemorrhagic transformation",
+    "Cerebellar hematoma >3cm with hydrocephalus"
+  ],
+  "extraction_notes": [
+    "Lecturer identified as dr. Erni Zainuddin, SpRad",
+    "ASPECTS scoring well-explained with all 10 regions",
+    "MRI sequences for stroke clearly described",
+    "Hemorrhagic transformation classification preserved"
+  ],
+  "confidence_summary": "high",
+  "qc_flags": []
+}

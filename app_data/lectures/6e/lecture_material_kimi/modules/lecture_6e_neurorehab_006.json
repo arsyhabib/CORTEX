@@ -1,0 +1,489 @@
+{
+  "id": "lecture_6e_neurorehab_006",
+  "batch_id": "batch_1_6e",
+  "title": "Rehabilitation of Neurological Disorders",
+  "subtitle": "Kimi rerun: neuro_rehabilitation",
+  "source_pdf": "dr.Patrick - neurorehab.docx",
+  "source_docx": "dr.Patrick - neurorehab.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah komprehensif tentang rehabilitasi neurologis yang mencakup definisi, prinsip, tujuan, jenis-jenis rehabilitasi, tim neurorehabilitasi, positioning, teknik transfer, modalitas fisioterapi (panas, dingin, stimulasi listrik, traksi, pijat, biofeedback), latihan range of motion, pendekatan Bobath/NDT, penilaian menelan, manajemen kandung kemih dan usus, serta rehabilitasi spesifik untuk stroke, cedera otak, cedera saraf tulang belakang, dan parkinsonisme.",
+    "Rehabilitation aims to restore optimal physical, emotional, psychological, social, and vocational potential",
+    "Four types: medical, vocational, social, psychological rehabilitation",
+    "Positioning prevents contractures, pressure ulcers, and musculoskeletal deformities"
+  ],
+  "exam_focus": [
+    "Rehabilitation team composition",
+    "Positioning principles (every 2 hours for unconscious patients)",
+    "Bedside dysphagia assessment steps",
+    "Bladder training components",
+    "Three phases of stroke rehabilitation",
+    "Bobath NDT principles"
+  ],
+  "learning_goals": [
+    "Mendefinisikan rehabilitasi dan pendekatan tim multidisiplinnya",
+    "Menerapkan positioning dan teknik transfer yang tepat",
+    "Melakukan latihan range of motion dan teknik Bobath NDT",
+    "Menatalaksana disfungsi menelan, kandung kemih, dan usus pada pasien neurologis",
+    "Merancang program rehabilitasi untuk stroke, TBI, SCI, dan parkinsonisme"
+  ],
+  "key_points": [
+    "Rehabilitation aims to restore optimal physical, emotional, psychological, social, and vocational potential",
+    "Four types: medical, vocational, social, psychological rehabilitation",
+    "Positioning prevents contractures, pressure ulcers, and musculoskeletal deformities",
+    "ROM exercises: passive, active, active-assisted, resisted, isometric",
+    "Bladder training includes scheduled voiding, prompted voiding, and pelvic muscle exercises"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Definisi dan Prinsip Rehabilitasi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Rehabilitation is a dynamic process to help a person achieve optimal physical, emotional, psychological, social, and vocational potential while maintaining dignity and self-respect. Neurorehabilitation specifically aims to aid recovery from nervous system injury and minimize or compensate for functional alterations. Rehabilitation should begin at initial patient contact.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "GOALS: Restore patient to independence or regain pre-illness status; maximize independence within disability limits; realize goals based on individual assessment; active patient participation; facilitate activities of daily living (ADL); motivate patient toward social independence.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "TYPES: Medical rehabilitation (restoration of structure and function); Vocational rehabilitation (restoration of earning capacity); Social rehabilitation (restoration of family and social relationships); Psychological rehabilitation (restoration of personal dignity and confidence). APPROACHES: Institution-based, outreach-based, community-based (Rehabilitasi Berbasis Masyarakat).",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Physical independence",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mobility",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Social integration",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Occupational integration",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Rehabilitation is a dynamic process to help a person achieve optimal physical, emotional, psychological, social, and vocational potential while maintaining dignity and self-respect. Neurorehabilitation specifically aims to aid recovery from nervous system injury and minimize or compensate for functional alterations. Rehabilitation should begin at initial patient contact. GOALS: Restore patient to independence or regain pre-illness status; maximize independence within disability limits; realize goals based on individual assessment; active patient participation; facilitate activities of daily living (ADL); motivate patient toward social independence.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Tim Rehabilitasi Neuro",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "The neurorehabilitation team is multidisciplinary. Physicians include physiatrist, orthopedic surgeon, neurologist, neurosurgeon, psychiatrist, and pediatrician. Paramedical members include physiotherapist, occupational therapist, speech pathologist, rehabilitation nurse, psychologist, social worker, and vocational counselor.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Medical team: Physiatrist, Orthopaedic surgeon, Neurologist, Neurosurgeon, Plastic surgeon, Psychiatrist, Paediatrician",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Paramedical: Physiotherapist, Occupational therapist, Rehabilitation nurse, Speech pathologist, Psychologist, Social worker",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Others: Prosthetist, Recreation therapist, Vocational counsellor, Family members, Community, NGO",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "The neurorehabilitation team is multidisciplinary. Physicians include physiatrist, orthopedic surgeon, neurologist, neurosurgeon, psychiatrist, and pediatrician. Paramedical members include physiotherapist, occupational therapist, speech pathologist, rehabilitation nurse, psychologist, social worker, and vocational counselor. Medical team: Physiatrist, Orthopaedic surgeon, Neurologist, Neurosurgeon, Plastic surgeon, Psychiatrist, Paediatrician",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Positioning dan Transfer",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "POSITIONING prevents musculoskeletal deformities, contractures, ankylosis, pressure ulcers, decreased vascular supply, thrombosis, and edema. The unconscious patient should be repositioned every 2 hours. Spastic patients require frequent repositioning. Use pillows for body alignment, trochanter rolls, and positioning devices. For weak or paralyzed arms, position to approximate glenoid cavity; use axillary pillow to prevent adduction. For feet, use high-top sneakers or splints to prevent foot drop and pressure ulcers.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "TRANSFER TYPES: Two-person lift (no active patient participation); Mechanical lift (lifting device); Contact guard (verbal cues + minimal physical support); Supervision (verbal cues only). Key principles: transfer toward unaffected side; properly fitted flat shoes; never pull on paretic arm; stand on affected side if balance is unsteady; use knee-to-knee block if knees buckle.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "HEMIPLEGIC BED-TO-SIT TRANSFER: Move to side of bed; slip unaffected leg under affected leg as transfer cradle; place affected arm on abdomen; push off mattress with unaffected elbow while turning hips; swing unaffected leg over bed edge; push up with unaffected hand; lean on unaffected hand to maintain erect position.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Reposisi pasien tak sadar tiap 2 jam",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Transfer ke sisi tak terkena",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Jangan menarik lengan paretil",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Walker atau four-point cane untuk support",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Never pull on the paretic arm during transfers - this causes shoulder subluxation and pain",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "POSITIONING prevents musculoskeletal deformities, contractures, ankylosis, pressure ulcers, decreased vascular supply, thrombosis, and edema. The unconscious patient should be repositioned every 2 hours. Spastic patients require frequent repositioning. Use pillows for body alignment, trochanter rolls, and positioning devices. For weak or paralyzed arms, position to approximate glenoid cavity; use axillary pillow to prevent adduction. For feet, use high-top sneakers or splints to prevent foot drop and pressure ulcers. TRANSFER TYPES: Two-person lift (no active patient participation); Mechanical lift (lifting device); Contact guard (verbal cues + minimal physical support); Supervision (verbal cues only). Key principles: transfer toward unaffected side; properly fitted flat shoes; never pull on paretic arm; stand on affected side if balance is unsteady; use knee-to-knee block if knees buckle.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Fisioterapi Modalitas",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "HEAT THERAPY: Increases blood flow and connective tissue extensibility; decreases joint stiffness, pain, and muscle spasm; reduces inflammation. Types: hot pack, infrared ray, paraffin bath (49 degrees C), hydrotherapy (warm water), diathermy. INDICATIONS: sprains, myositis, arthralgia, neuralgia, muscle spasm, strains. COLD THERAPY: Reduces inflammation, edema, and exudates. ELECTRICAL STIMULATION: For denervated or involuntarily innervated muscle to prevent disuse atrophy and spasticity. TENS (Transcutaneous Electrical Nerve Stimulation) for chronic low back pain, neuralgia, contusion. TRACTION: For extrinsic muscle spasm, HNP, cervical/lumbar traction. MASSAGE and BIOFEEDBACK (EMG, galvanic skin response).",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Heat: hot pack, infrared, paraffin bath 49C, hydrotherapy, diathermy",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Cold: reduce inflammation and edema",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "TENS: chronic low back pain, neuralgia, contusion",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Traction: cervical, lumbar for HNP",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "HEAT THERAPY: Increases blood flow and connective tissue extensibility; decreases joint stiffness, pain, and muscle spasm; reduces inflammation. Types: hot pack, infrared ray, paraffin bath (49 degrees C), hydrotherapy (warm water), diathermy. INDICATIONS: sprains, myositis, arthralgia, neuralgia, muscle spasm, strains. COLD THERAPY: Reduces inflammation, edema, and exudates. ELECTRICAL STIMULATION: For denervated or involuntarily innervated muscle to prevent disuse atrophy and spasticity. TENS (Transcutaneous Electrical Nerve Stimulation) for chronic low back pain, neuralgia, contusion. TRACTION: For extrinsic muscle spasm, HNP, cervical/lumbar traction. MASSAGE and BIOFEEDBACK (EMG, galvanic skin response). Heat: hot pack, infrared, paraffin bath 49C, hydrotherapy, diathermy",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Bobath NDT dan Disfagia",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "BOBATH/NDT APPROACH: Used for hemiplegia from stroke, brain injury, and cerebral palsy. Major goal is normalization of muscle tone, posture, movement, and function. Reintegration of both body sides. Proximal-to-distal positioning, weight bearing on affected side, symmetric midline starting position, movement toward affected side encouraged. Straighten trunk and neck to promote symmetry and normalize tone. Position hemiplegic patients opposite to spastic patterns: avoid flexion/adduction in upper extremity and extension in lower extremity.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "DYSPHAGIA ASSESSMENT (Simple bedside test): Position patient upright; give 1 teaspoon (5ml) cold water with head slightly flexed; check lip closure during swallow; palpate larynx for elevation; monitor for delayed or incomplete swallow; have patient vocalize 'aaaa' - monitor for wet/hoarse voice; have patient cough and repeat vocalization. If patient cannot swallow or voice becomes wet -> NGT insertion required. Feeding position: upright 90 degrees, head flexed forward, chin tucked, small bites, thorough chewing.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bobath: normalisasi tonus otot, postur, gerak, fungsi",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Disfagia: beri 1 sdt air dingin, palpasi elevasi laring, suara 'aaaa'",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Posisi makan: tegak 90 derajat, dagu tuck, suapan kecil",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Wet voice after swallowing indicates aspiration - NGT may be needed",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "BOBATH/NDT APPROACH: Used for hemiplegia from stroke, brain injury, and cerebral palsy. Major goal is normalization of muscle tone, posture, movement, and function. Reintegration of both body sides. Proximal-to-distal positioning, weight bearing on affected side, symmetric midline starting position, movement toward affected side encouraged. Straighten trunk and neck to promote symmetry and normalize tone. Position hemiplegic patients opposite to spastic patterns: avoid flexion/adduction in upper extremity and extension in lower extremity. DYSPHAGIA ASSESSMENT (Simple bedside test): Position patient upright; give 1 teaspoon (5ml) cold water with head slightly flexed; check lip closure during swallow; palpate larynx for elevation; monitor for delayed or incomplete swallow; have patient vocalize 'aaaa' - monitor for wet/hoarse voice; have patient cough and repeat vocalization. If patient cannot swallow or voice becomes wet -> NGT insertion required. Feeding position: upright 90 degrees, head flexed forward, chin tucked, small bites, thorough chewing.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s06",
+      "title": "Manajemen Bladder dan Bowel",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "BLADDER MANAGEMENT: Four categories of urinary incontinence: urge (abrupt strong desire to void), stress (loss with coughing/sneezing), overflow (overdistension), functional (factors outside lower urinary tract). Bladder training: education, scheduled voiding (initial interval 2-3 hours), positive reinforcement. Prompted voiding for cognitively impaired: regular monitoring, prompting to use bathroom, praising continence. Pelvic muscle (Kegel) exercises: contract to count of 10, relax to count of 10, 50-100 daily, improvement in 4-6 weeks. Bladder-triggering techniques: suprapubic stimulation, Valsalva maneuver, Crede maneuver.",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "BOWEL MANAGEMENT: Constipation causes: fluid restriction, immobility, decreased bulk, constipating drugs (codeine), spinal compression, paralytic ileus. Bowel training: ensure lower bowel empty (enema if needed), establish regular timing based on previous pattern, high roughage diet, increase fluid to 2000-2500 mL/day, suppository on first day, seated position for defecation.",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bladder training: scheduled voiding tiap 2-3 jam",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kegel: kontraksi 10 detik, relaksasi 10 detik, 50-100x/hari",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bowel training: serat tinggi, cairan 2000-2500 ml/hari",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "BLADDER MANAGEMENT: Four categories of urinary incontinence: urge (abrupt strong desire to void), stress (loss with coughing/sneezing), overflow (overdistension), functional (factors outside lower urinary tract). Bladder training: education, scheduled voiding (initial interval 2-3 hours), positive reinforcement. Prompted voiding for cognitively impaired: regular monitoring, prompting to use bathroom, praising continence. Pelvic muscle (Kegel) exercises: contract to count of 10, relax to count of 10, 50-100 daily, improvement in 4-6 weeks. Bladder-triggering techniques: suprapubic stimulation, Valsalva maneuver, Crede maneuver. BOWEL MANAGEMENT: Constipation causes: fluid restriction, immobility, decreased bulk, constipating drugs (codeine), spinal compression, paralytic ileus. Bowel training: ensure lower bowel empty (enema if needed), establish regular timing based on previous pattern, high roughage diet, increase fluid to 2000-2500 mL/day, suppository on first day, seated position for defecation.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s07",
+      "title": "Rehabilitasi Spesifik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "STROKE REHABILITATION: Goals - optimize recovery, modify residual symptoms, achieve independent functional activity, environmental adaptation, quality of life. Three phases: Acute (first 2 weeks, hemodynamic stabilization, prevent complications); Subacute (2 weeks-6 months, restore ADL, walking, life roles); Chronic (>6 months, endurance and muscle strengthening). Principles: maximize movement, functional movement goals, sitting and standing stability, 45-60 minute sessions, cognitive function support. Complications of prolonged bed rest: cardiovascular (DVT risk, orthostatic hypotension), respiratory (retention, pneumonia), musculoskeletal (weakness, contracture, osteoporosis), metabolic (decreased glucose tolerance), integumentary (pressure ulcers), GI (constipation), GU (urinary incontinence), CNS (decreased cognition).",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "BRAIN INJURY: Positioning, supportive eating and standing, motor control rehabilitation, bowel/bladder care, pain management, balance training, memory aids. SPINAL CORD INJURY: Safe transportation, traction, positioning, active/passive ROM, mat work, orthoses, gait training, mobility training. PARKINSONISM: Reduce rigidity and maintain flexibility, balance training, coordination exercises, breathing and chest expansion exercises.",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "STROKE REHABILITATION: Goals - optimize recovery, modify residual symptoms, achieve independent functional activity, environmental adaptation, quality of life. Three phases: Acute (first 2 weeks, hemodynamic stabilization, prevent complications); Subacute (2 weeks-6 months, restore ADL, walking, life roles); Chronic (>6 months, endurance and muscle strengthening). Principles: maximize movement, functional movement goals, sitting and standing stability, 45-60 minute sessions, cognitive function support. Complications of prolonged bed rest: cardiovascular (DVT risk, orthostatic hypotension), respiratory (retention, pneumonia), musculoskeletal (weakness, contracture, osteoporosis), metabolic (decreased glucose tolerance), integumentary (pressure ulcers), GI (constipation), GU (urinary incontinence), CNS (decreased cognition). BRAIN INJURY: Positioning, supportive eating and standing, motor control rehabilitation, bowel/bladder care, pain management, balance training, memory aids. SPINAL CORD INJURY: Safe transportation, traction, positioning, active/passive ROM, mat work, orthoses, gait training, mobility training. PARKINSONISM: Reduce rigidity and maintain flexibility, balance training, coordination exercises, breathing and chest expansion exercises.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "ADL",
+      "meaning": "Activities of Daily Living"
+    },
+    {
+      "term": "NDT",
+      "meaning": "Neurodevelopmental Treatment (Bobath approach)"
+    },
+    {
+      "term": "TENS",
+      "meaning": "Transcutaneous Electrical Nerve Stimulation"
+    },
+    {
+      "term": "HNP",
+      "meaning": "Hernia Nukleus Pulposus"
+    },
+    {
+      "term": "Kegel exercise",
+      "meaning": "Latihan penguatan otot pubococcygeus untuk kontrol urin"
+    }
+  ],
+  "tables": [],
+  "diagnostic_logic": [],
+  "differential_notes": [],
+  "treatment_notes": [],
+  "red_flags": [
+    "Shoulder subluxation during transfers",
+    "Aspiration signs on swallowing assessment (wet voice)",
+    "Pressure ulcers in immobilized patients",
+    "DVT in prolonged bed rest"
+  ],
+  "extraction_notes": [
+    "Lecturer identified as dr. Patrick W. Gading SpKFR",
+    "Well-structured source with clear section progression",
+    "Practical techniques well-described (transfers, positioning, swallowing assessment)",
+    "Bladder and bowel management detailed with specific protocols"
+  ],
+  "confidence_summary": "high",
+  "qc_flags": []
+}

@@ -7113,7 +7113,7 @@ Object.assign(window, {
 });
 
 const CORTEX_BUILD_TAG = '2026-06-04-c';
-const CORTEX_RUNTIME_CONTENT_INDEX_PATH = 'app_data/runtime/content_index.generated.json';
+const CORTEX_RUNTIME_CONTENT_INDEX_PATH = 'app_data/runtime/content_index.kimi.json';
 const CORTEX_RUNTIME_VISUAL_MANIFEST_PATH = 'app_data/runtime/visual_asset_manifest.generated.json';
 
 /** Detect if opened via file:// protocol (blocks fetch) */
@@ -11483,8 +11483,9 @@ function CortexLibraryShell() {
     setContentIndexStatus('loading');
     cortexFetchJSONCandidates([
       CORTEX_RUNTIME_CONTENT_INDEX_PATH,
-      'CORTEX_project_history/05_release_artifacts/final_clean_shell/app_data/runtime/content_index.generated.json',
-      'CORTEX_project_history/05_release_artifacts/final_clean_shell/content_index.generated.json',
+      'app_data/runtime/content_index.kimi.json',
+      'app_data/runtime/content_index.generated.json',
+      'content_index.kimi.json',
       'content_index.generated.json',
     ], (data) => Array.isArray(data && data.lectureDomains) && Array.isArray(data && data.examSets)).then(({ data }) => {
       if (cancelled) return;

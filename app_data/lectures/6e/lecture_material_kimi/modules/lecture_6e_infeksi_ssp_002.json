@@ -1,0 +1,700 @@
+{
+  "id": "lecture_6e_infeksi_ssp_002",
+  "batch_id": "batch_1_6e",
+  "title": "Infeksi Sistem Saraf Pusat",
+  "subtitle": "Kimi rerun: neuro_infection",
+  "source_pdf": "6EF Infeksi.docx",
+  "source_docx": "6EF Infeksi.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah komprehensif tentang infeksi SSP yang mencakup meningitis, ensefalitis, abses otak, dan mielitis. Menyajikan pendekatan diagnosis dengan lumbal pungsi, analisis LCS, temuan pencitraan, serta protokol terapi spesifik untuk toksoplasmosis, meningitis TB, meningitis kriptokokus, meningitis bakterialis, ensefalitis viral, dan abses otak. Menekankan prinsip lokalisasi infeksi, penentuan etiologi, dan terapi yang sesuai dengan lokasi.",
+    "Two fundamental principles: Where is the infection? What is the etiology?",
+    "HIV status critically changes the differential diagnosis of brain infections",
+    "Thwaites score helps differentiate bacterial from TB meningitis"
+  ],
+  "exam_focus": [
+    "Two fundamental principles of CNS infection approach",
+    "HIV-based differential diagnosis table",
+    "Thwaites score components and interpretation",
+    "MRC grading for TB meningitis",
+    "OAT BBB penetration hierarchy (P>I>R>E>S)",
+    "Four stages of brain abscess evolution",
+    "Cryptococcal meningitis treatment phases",
+    "Absolute and relative contraindications for LP"
+  ],
+  "learning_goals": [
+    "Menerapkan prinsip lokalisasi infeksi SSP dan identifikasi etiologi",
+    "Menginterpretasi temuan LCS untuk berbagai infeksi SSP",
+    "Menatalaksana meningitis TB dengan regimen OAT yang tepat dan deksametason",
+    "Mengobati meningitis kriptokokus dengan amfoterisin B dan flukonazol",
+    "Mengenali stadium abses otak dan indikasi intervensi bedah"
+  ],
+  "key_points": [
+    "Two fundamental principles: Where is the infection? What is the etiology?",
+    "HIV status critically changes the differential diagnosis of brain infections",
+    "Thwaites score helps differentiate bacterial from TB meningitis",
+    "MRC grading system classifies TB meningitis severity",
+    "Brain abscess evolves through four stages: early cerebritis, late cerebritis, early capsule formation, late capsule formation"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Prinsip Pendekatan Penyakit Infeksi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "The approach to CNS infections is guided by two fundamental questions: Where is the infection located? And what is the causative organism? Therapy must reach the infection site and must be appropriate to the specific pathogen identified or suspected.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Di manakah infeksinya?",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Apakah etiologi infeksinya?",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terapi harus langsung di situs infeksi atau mencapai situs infeksi",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terapi harus sesuai etiologi",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "The approach to CNS infections is guided by two fundamental questions: Where is the infection located? And what is the causative organism? Therapy must reach the infection site and must be appropriate to the specific pathogen identified or suspected. Di manakah infeksinya?",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Tersangka Infeksi Otak",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Key clinical indicators suggesting brain infection include fever (not always high; may be low-grade in bacterial/TB or sudden high in viral), acute or subacute-chronic onset, clear focal neurological deficits, progressive drowsiness or altered mental status indicating decreasing consciousness, headache, and vomiting suggesting increased intracranial pressure.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Demam (bacterial/TB: tidak tinggi; viral: mendadak tinggi)",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Onset: akut (viral, bacterial), subakut-kronis (TB, abses)",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Defisit fokal yang jelas",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Makin mengantuk/meracau (kesadaran menurun)",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Nyeri kepala, muntah (tekanan intrakranial meningkat)",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Fever pattern and onset timing provide important diagnostic clues",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Key clinical indicators suggesting brain infection include fever (not always high; may be low-grade in bacterial/TB or sudden high in viral), acute or subacute-chronic onset, clear focal neurological deficits, progressive drowsiness or altered mental status indicating decreasing consciousness, headache, and vomiting suggesting increased intracranial pressure. Demam (bacterial/TB: tidak tinggi; viral: mendadak tinggi)",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Tersangka Infeksi SSP - HIV Stratification",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "The differential diagnosis for suspected brain infection must be stratified by HIV status and presence of focal neurological deficits.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "In HIV+ with focal deficits: think toxoplasmosis first; without focal deficits: think cryptococcal or TB meningitis",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "The differential diagnosis for suspected brain infection must be stratified by HIV status and presence of focal neurological deficits. In HIV+ with focal deficits: think toxoplasmosis first; without focal deficits: think cryptococcal or TB meningitis",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Lumbal Pungsi dan Karakteristik LCS",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Lumbar puncture is the primary diagnostic procedure for CNS infection diagnosis. Key considerations include indications (therapeutic for cryptococcal meningitis intrathecal therapy; diagnostic for suspected CNS infection and neuroimmunological conditions like MS, NMO, GBS), and contraindications (absolute: impending brain herniation; relative: thrombocytopenia <50,000, local infection at puncture site, spinal cord mass).",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Never perform LP if brain herniation is imminent - this is an absolute contraindication",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Lumbar puncture is the primary diagnostic procedure for CNS infection diagnosis. Key considerations include indications (therapeutic for cryptococcal meningitis intrathecal therapy; diagnostic for suspected CNS infection and neuroimmunological conditions like MS, NMO, GBS), and contraindications (absolute: impending brain herniation; relative: thrombocytopenia <50,000, local infection at puncture site, spinal cord mass). Never perform LP if brain herniation is imminent - this is an absolute contraindication",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Toksoplasma Ensefalitis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Toxoplasma encephalitis is the most common opportunistic CNS infection in immunocompromised patients in Indonesia. It results from reactivation of latent Toxoplasma gondii infection. Diagnosis is predominantly presumptive based on clinical probability and response to empirical therapy. Definitive diagnosis requires tissue biopsy and pathology. PCR for Toxoplasma in CSF has low sensitivity (~50%) and is not recommended as routine.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Evaluasi ulang klinis dan radiologis setelah 2 minggu",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pyrimethamine + clindamycin is first-line; folinic acid protects against bone marrow suppression",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Toxoplasma encephalitis is the most common opportunistic CNS infection in immunocompromised patients in Indonesia. It results from reactivation of latent Toxoplasma gondii infection. Diagnosis is predominantly presumptive based on clinical probability and response to empirical therapy. Definitive diagnosis requires tissue biopsy and pathology. PCR for Toxoplasma in CSF has low sensitivity (~50%) and is not recommended as routine. Evaluasi ulang klinis dan radiologis setelah 2 minggu",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s06",
+      "title": "Meningitis Tuberkulosis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "TB meningitis is difficult to diagnose because clinical symptoms are non-specific, BTA count in CSF is very low, and molecular diagnostics are not yet standard. Diagnosis requires a high index of suspicion in any patient with subacute fever, headache, and neurological symptoms.",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "The Thwaites score (Lancet 2002) helps differentiate bacterial from TB meningitis: Age >36 years (score 2), CSF WBC <900 cells/mm3 (score 3), peripheral WBC <15,000 (score 4), CSF neutrophils <75% (score 4), symptom duration >6 days (score -5). Total score >4 suggests bacterial meningitis; score <4 suggests TB meningitis.",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "MRC Grading: Grade I - fully conscious, no focal deficits; Grade IIa - GCS 15 with focal deficit; Grade IIb - GCS 10-14 with/without focal deficit; Grade III - GCS <10 with/without focal deficit.",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Treatment: OAT for 9-12 months. First two weeks are 'life-saving.' Dexamethasone 0.4 mg/kg/day for 6-8 weeks is beneficial for HIV-negative patients (per meta-analysis). Vitamin B6 3x10mg po protects against OAT neurotoxicity. All patients with hydrocephalus or brain-spinal tuberculoma should be considered for surgical intervention.",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Diagnosis definitif: PCR TB, GeneXpert, MGIT, BTA LCS positif",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Diagnosis probabel: sel LCS >5 DAN Glucose ratio <0.5",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "B6 3x10mg po untuk melindungi dari neurotoksisitas OAT",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Deksametason: 0.4 mg/kgBB/hr untuk 6-8 minggu",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Thwaites GE et al. Lancet 2002;360:1287-92. Dexamethasone for TB meningitis. NEJM 2004;351(17):1741-51.",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penetration order: Pyrazinamid > Isoniazid > Rifampisin > Ethambutol > Streptomisin",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "TB meningitis is difficult to diagnose because clinical symptoms are non-specific, BTA count in CSF is very low, and molecular diagnostics are not yet standard. Diagnosis requires a high index of suspicion in any patient with subacute fever, headache, and neurological symptoms. The Thwaites score (Lancet 2002) helps differentiate bacterial from TB meningitis: Age >36 years (score 2), CSF WBC <900 cells/mm3 (score 3), peripheral WBC <15,000 (score 4), CSF neutrophils <75% (score 4), symptom duration >6 days (score -5). Total score >4 suggests bacterial meningitis; score <4 suggests TB meningitis.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s07",
+      "title": "Meningitis Kriptokokus",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Cryptococcal meningitis is generally opportunistic. Clinical presentation is subacute over 2-4 weeks with fever, headache, and high intracranial pressure. The presentation is often subtle with not all symptoms appearing as textbook descriptions. CT/MRI head typically shows no focal lesions.",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Diagnosis options include: (1) Routine CSF analysis with India ink staining (rapid and inexpensive); (2) CSF and blood culture; (3) Blood serology; (4) Specimens from other sites such as skin lesions.",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Acute phase therapy (Weeks 1-2): Amphotericin B 0.7-1 mg/kg per day IV drip over 4-6 hours in 250-500 ml D5% + Fluconazole 800 mg per day orally. Weeks 3-10: Fluconazole 800 mg/day orally. If amphotericin B is unavailable, fluconazole alone 800-2000 mg/day for 12 weeks. Maintenance phase: Fluconazole 200 mg/day until CD4 >200.",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "India ink is a rapid, cheap diagnostic tool; amphotericin B requires slow IV infusion in D5%",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Cryptococcal meningitis is generally opportunistic. Clinical presentation is subacute over 2-4 weeks with fever, headache, and high intracranial pressure. The presentation is often subtle with not all symptoms appearing as textbook descriptions. CT/MRI head typically shows no focal lesions. Diagnosis options include: (1) Routine CSF analysis with India ink staining (rapid and inexpensive); (2) CSF and blood culture; (3) Blood serology; (4) Specimens from other sites such as skin lesions.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s08",
+      "title": "Abses Serebri",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Brain abscess clinically resembles other intracranial space-occupying lesions. The evolution progresses through four stages. Early cerebritis (days 1-3): hypodense area with surrounding partial contrast enhancement. Late cerebritis (days 4-9): ring enhancement around the hypodense center becoming more complete. Early capsule formation (days 10-13): necrotic center shrinks, capsule thickens. Late capsule formation (after day 14): capsule becomes increasingly well-defined and thick.",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Once an abscess has formed, surgical excision or drainage combined with prolonged antibiotics (usually 4-8 weeks) remains the treatment of choice. Definitive therapy targets the cultured organism from biopsy or primary infection focus.",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Early cerebritis: hari 1-3",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Late cerebritis: hari 4-9",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Early capsule formation: hari 10-13",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Late capsule formation: setelah hari 14",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Surgical indication: diameter >2.5cm, significant mass effect, ventricular proximity, or neurological deterioration",
+          "provenance": {
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Brain abscess clinically resembles other intracranial space-occupying lesions. The evolution progresses through four stages. Early cerebritis (days 1-3): hypodense area with surrounding partial contrast enhancement. Late cerebritis (days 4-9): ring enhancement around the hypodense center becoming more complete. Early capsule formation (days 10-13): necrotic center shrinks, capsule thickens. Late capsule formation (after day 14): capsule becomes increasingly well-defined and thick. Once an abscess has formed, surgical excision or drainage combined with prolonged antibiotics (usually 4-8 weeks) remains the treatment of choice. Definitive therapy targets the cultured organism from biopsy or primary infection focus.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s09",
+      "title": "Meningitis Bakterialis dan Ensefalitis Viral",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Bacterial meningitis presents with the classic triad: fever, neck stiffness, and altered consciousness. Empirical antibiotic therapy should be broad-spectrum and initiated immediately after microbiological sampling. Definitive therapy is guided by culture results showing the identified organism and its antibiotic sensitivity/resistance patterns.",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Viral encephalitis requires differentiated management based on immune status. In immunocompromised patients, look for CMV retinitis and perform LP PCR for HSV and VZV. In immunocompetent patients, perform LP PCR for CMV and examine skin/genital lesions. HSV typically involves the temporal lobes (limbic system); VZV affects the basal ganglia.",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Trias meningitis: demam, kaku kuduk, penurunan kesadaran",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terapi empiris: antibiotik broad-spectrum dimulai sambil menunggu diagnosis pasti",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terapi definitif menunggu hasil kultur LCS",
+          "provenance": {
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Bacterial meningitis presents with the classic triad: fever, neck stiffness, and altered consciousness. Empirical antibiotic therapy should be broad-spectrum and initiated immediately after microbiological sampling. Definitive therapy is guided by culture results showing the identified organism and its antibiotic sensitivity/resistance patterns. Viral encephalitis requires differentiated management based on immune status. In immunocompromised patients, look for CMV retinitis and perform LP PCR for HSV and VZV. In immunocompetent patients, perform LP PCR for CMV and examine skin/genital lesions. HSV typically involves the temporal lobes (limbic system); VZV affects the basal ganglia.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s10",
+      "title": "Prinsip Penatalaksanaan Infeksi SSP",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "The general management of CNS infections follows a structured approach: (1) Handle emergencies including increased ICP with antiedema therapy, vital signs management with antipyretics and oxygenation, and metabolic correction via NGT; (2) Identify the causative microorganism through empirical clinical diagnosis and definitive testing including CSF analysis, neuroimaging, and other supportive investigations.",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Menangani kegawatan: peningkatan TIK -> antiedema, tanda-tanda vital -> antipiretik, oksigenasi",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mencari mikroorganisme etiologi: empiris dari klinis, definitif dari pemeriksaan cairan otak, neuro-imaging, penunjang lain",
+          "provenance": {
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "The general management of CNS infections follows a structured approach: (1) Handle emergencies including increased ICP with antiedema therapy, vital signs management with antipyretics and oxygenation, and metabolic correction via NGT; (2) Identify the causative microorganism through empirical clinical diagnosis and definitive testing including CSF analysis, neuroimaging, and other supportive investigations. Menangani kegawatan: peningkatan TIK -> antiedema, tanda-tanda vital -> antipiretik, oksigenasi",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "SSP",
+      "meaning": "Sistem Saraf Pusat (Central Nervous System)"
+    },
+    {
+      "term": "LCS",
+      "meaning": "Liquor Cerebrospinalis (Cerebrospinal Fluid)"
+    },
+    {
+      "term": "TIK",
+      "meaning": "Tekanan Intra Kranial (Intracranial Pressure)"
+    },
+    {
+      "term": "OAT",
+      "meaning": "Obat Anti Tuberkulosis"
+    },
+    {
+      "term": "CPA",
+      "meaning": "Cerebellopontine Angle"
+    },
+    {
+      "term": "BBB",
+      "meaning": "Blood Brain Barrier"
+    },
+    {
+      "term": "MRC",
+      "meaning": "Medical Research Council grading for TB meningitis"
+    }
+  ],
+  "tables": [],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Localize the infection",
+      "explanation": "Determine if infection is in brain parenchyma, meninges, spinal cord, or extra-axial spaces"
+    },
+    {
+      "step": 2,
+      "title": "Assess HIV status",
+      "explanation": "HIV status dramatically changes the differential diagnosis"
+    },
+    {
+      "step": 3,
+      "title": "Identify focal vs diffuse pattern",
+      "explanation": "Focal deficits suggest toxoplasmosis, TB, or abscess; diffuse suggests meningitis or encephalitis"
+    },
+    {
+      "step": 4,
+      "title": "Perform LP and neuroimaging",
+      "explanation": "CSF analysis and CT/MRI provide definitive diagnostic information"
+    },
+    {
+      "step": 5,
+      "title": "Apply specific treatment protocols",
+      "explanation": "Each pathogen has specific antimicrobial regimen and duration"
+    }
+  ],
+  "differential_notes": [
+    {
+      "item": "Toxoplasma encephalitis",
+      "how_to_separate": "Multiple ring-enhancing lesions in immunocompromised; empirical trial of therapy confirms diagnosis"
+    },
+    {
+      "item": "TB meningitis",
+      "how_to_separate": "Subacute course, Thwaites score <4, basal meningeal enhancement, requires prolonged OAT"
+    },
+    {
+      "item": "Cryptococcal meningitis",
+      "how_to_separate": "High ICP, India ink positive, subacute in immunocompromised"
+    },
+    {
+      "item": "Bacterial abscess",
+      "how_to_separate": "Focal lesion with capsule, four evolutionary stages on imaging"
+    },
+    {
+      "item": "Viral encephalitis (HSV)",
+      "how_to_separate": "Temporal lobe involvement, PCR diagnostic"
+    }
+  ],
+  "treatment_notes": [
+    {
+      "phase": "toxoplasmosis_acute",
+      "content": "Pyrimethamine 200mg loading then 25-75mg/day + clindamycin 2400mg/day for 3-6 weeks"
+    },
+    {
+      "phase": "toxoplasmosis_maintenance",
+      "content": "Half acute dose until CD4 >200"
+    },
+    {
+      "phase": "tb_meningitis",
+      "content": "OAT 9-12 months + dexamethasone 0.4mg/kg/day for 6-8 weeks + B6 protection"
+    },
+    {
+      "phase": "cryptococcal",
+      "content": "Amphotericin B 0.7-1mg/kg + fluconazole 800mg for 2 weeks, then fluconazole 800mg for 8 weeks, then 200mg maintenance until CD4 >200"
+    },
+    {
+      "phase": "brain_abscess",
+      "content": "Surgical drainage if >2.5cm or mass effect + 4-8 weeks antibiotics"
+    }
+  ],
+  "red_flags": [
+    "Imminent brain herniation (absolute contraindication to LP)",
+    "GCS <10 in TB meningitis (MRC Grade III - poor prognosis)",
+    "Abscess near ventricle or enlarging despite therapy",
+    "Cryptococcal meningitis with very high ICP"
+  ],
+  "extraction_notes": [
+    "Slide pembuka mengidentifikasi pengajar sebagai Mirna Marhami Iskandar dari FKIK Universitas Jambi",
+    "Beberapa tabel dipertahankan dalam bentuk terstruktur (diferensial HIV, indikasi/kontraindikasi LP, skor Thwaites, penetrasi OAT BBB, indikasi bedah abses)",
+    "Tabel terapi kriptokokus memiliki beberapa fragmentasi OCR tetapi dosis dipertahankan",
+    "Dua kutipan literatur diidentifikasi: Thwaites GE Lancet 2002; Scheld WM 2004",
+    "Referensi deksametason: Thwaites GE NEJM 2004"
+  ],
+  "confidence_summary": "high",
+  "qc_flags": []
+}

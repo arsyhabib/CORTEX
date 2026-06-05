@@ -1,0 +1,519 @@
+{
+  "id": "lecture_6e_central_vertigo_001",
+  "batch_id": "batch_1_6e",
+  "title": "How To Treat Central Vertigo",
+  "subtitle": "Kimi rerun: neuro_vestibular",
+  "source_pdf": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+  "source_docx": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah tentang prinsip penanganan vertigo sentral, mencakup pendekatan diagnosis, manifestasi berdasarkan etiologi, terapi simtomatik dan kausal, rehabilitasi, serta indikasi rujukan. Disampaikan pada acara Neuro Siginjai, Rumah Kito, Jambi.",
+    "Central vertigo arises from lesions along the vestibular pathway from nucleus vestibularis in the brainstem to thalamus and cerebral cortex",
+    "Key etiologies include vascular (stroke, TIA), inflammatory (MS), tumor (CPA tumors), epilepsy, trauma, and migraine",
+    "Symptomatic treatment uses vestibular suppressants: anticholinergics, antihistamines, benzodiazepines"
+  ],
+  "exam_focus": [
+    "Differentiate central from peripheral vertigo",
+    "Identify onset pattern (acute vs subacute/chronic/episodic)",
+    "Know the three groups of vestibular suppressants",
+    "Know referral indications for central vertigo",
+    "Understand VRT goals and timing"
+  ],
+  "learning_goals": [
+    "Membedakan vertigo sentral dan perifer secara klinis",
+    "Memahami pendekatan diagnosis etiologi vertigo sentral",
+    "Menerapkan prinsip terapi kausal dan simtomatik untuk vertigo sentral",
+    "Mengidentifikasi indikasi rujukan dan rehabilitasi"
+  ],
+  "key_points": [
+    "Central vertigo arises from lesions along the vestibular pathway from nucleus vestibularis in the brainstem to thalamus and cerebral cortex",
+    "Key etiologies include vascular (stroke, TIA), inflammatory (MS), tumor (CPA tumors), epilepsy, trauma, and migraine",
+    "Symptomatic treatment uses vestibular suppressants: anticholinergics, antihistamines, benzodiazepines",
+    "Vestibular Rehabilitation Therapy (VRT) is highly effective for functional deficits"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Prinsip Penanganan",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "The management of central vertigo follows a structured approach: first, clinically confirm that the vertigo is central rather than peripheral; second, pursue a diagnostic workup to identify etiology; third, apply causal therapy targeting the underlying disease; and fourth, provide symptomatic and supportive therapy to relieve patient discomfort.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Klinis: tentukan memang vertigo sentral, bukan perifer",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pendekatan Diagnosis Etiologi",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terapi kausal",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terapi simtomatik dan suportif",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "The management of central vertigo follows a structured approach: first, clinically confirm that the vertigo is central rather than peripheral; second, pursue a diagnostic workup to identify etiology; third, apply causal therapy targeting the underlying disease; and fourth, provide symptomatic and supportive therapy to relieve patient discomfort. Klinis: tentukan memang vertigo sentral, bukan perifer",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Anatomi Sistem Vestibularis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "The vestibular system has peripheral and central components. Peripheral structures include the vestibular apparatus and vestibular nerve (cranial nerve VIII). Central structures include the brainstem (vestibular nuclei), thalamus, cerebral cortex, and cerebellum. Central vertigo specifically localizes to lesions along the central vestibular pathway from the nucleus vestibularis in the brainstem through the thalamus to the cerebral cortex.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perifer: Aparatus vestibularis, Nervus Vestibularis",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sentral: Batang Otak, Talamus, Korteks, Cerebellum",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "The vestibular system has peripheral and central components. Peripheral structures include the vestibular apparatus and vestibular nerve (cranial nerve VIII). Central structures include the brainstem (vestibular nuclei), thalamus, cerebral cortex, and cerebellum. Central vertigo specifically localizes to lesions along the central vestibular pathway from the nucleus vestibularis in the brainstem through the thalamus to the cerebral cortex. Perifer: Aparatus vestibularis, Nervus Vestibularis",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Etiologi dan Manifestasi Klinis Vertigo Sentral",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Central vertigo is not an independent disease but a symptom of underlying pathology affecting the central vestibular system. The etiology determines the clinical presentation and guides management.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "ACUTE ONSET ETIOLOGIES: Vascular causes (stroke, TIA) and post-traumatic diffuse axonal injury are the most common acute presentations, requiring immediate neuroimaging and stroke protocol evaluation.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "SUBACUTE/CHRONIC/EPISODIC ETIOLOGIES: Multiple sclerosis presents with spinning dizziness, decreased visual acuity with painful eye movements, internuclear ophthalmoplegia, blurred vision, diplopia, balance disturbance, and CN VIII involvement. Treatment involves corticosteroids and interferon for relapsing-remitting disease. CPA tumors (most commonly vestibular schwannoma) present with unilateral hearing loss, vestibular symptoms, trigeminal nerve dysfunction (facial numbness, pain), headache, vision decline, ataxia, and hemiparesis. Primary treatment is surgical, with options including observation, radiotherapy/stereotactic radiosurgery, and microsurgery. Prognosis depends on tumor size and severity of neurological deficits at diagnosis. Epilepsy vestibular type arises from focal lesions in the superior temporal gyrus or parietal association cortex receiving ipsilateral thalamic vestibular projections. Symptoms include episodic floating/rotating sensations, either as seizure aura or psychomotor seizure manifestation. Management focuses on seizure control with antiepileptic drugs. Traumatic central vertigo is a common sequela of head and neck trauma including diffuse axonal injury, presenting as central vestibular syndrome from brainstem dysfunction. Management includes pharmacological and non-pharmacological approaches, with surgical intervention when indicated.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Onset classification helps narrow differential: acute = vascular/trauma; subacute-chronic = inflammatory, neoplastic, or degenerative",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Central vertigo is not an independent disease but a symptom of underlying pathology affecting the central vestibular system. The etiology determines the clinical presentation and guides management. ACUTE ONSET ETIOLOGIES: Vascular causes (stroke, TIA) and post-traumatic diffuse axonal injury are the most common acute presentations, requiring immediate neuroimaging and stroke protocol evaluation.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Pendekatan Diagnosis Etiologi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "The diagnostic workup for central vertigo should systematically evaluate for the underlying cause. Key questions include: Is central vertigo clinically confirmed? Has supportive diagnostic testing been performed? Are there differential diagnoses to consider? Once the diagnosis is established, treatment targets the specific etiology: acute stroke management, head trauma protocols, intracranial pressure reduction for infection or tumor, and other cause-specific interventions.",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Klinis: vertigo sentral?",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Apakah diagnosis kerja sudah diikuti pemeriksaan penunjang?",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Apakah ada diagnosis banding?",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Diagnosis tegak -> atasi etiologi: tatalaksana stroke akut, tatalaksana trauma kepala, penurunan tekanan intrakranial pada infeksi atau tumor",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "The diagnostic workup for central vertigo should systematically evaluate for the underlying cause. Key questions include: Is central vertigo clinically confirmed? Has supportive diagnostic testing been performed? Are there differential diagnoses to consider? Once the diagnosis is established, treatment targets the specific etiology: acute stroke management, head trauma protocols, intracranial pressure reduction for infection or tumor, and other cause-specific interventions. Klinis: vertigo sentral?",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Tatalaksana Vertigo Sentral",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Symptomatic treatment aims to reduce the two main symptom clusters: the vertigo sensation (spinning, floating) and autonomic symptoms (nausea, vomiting). Vestibular suppressants are divided into three pharmacological groups.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Antikolinergik: scopolamine",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Antihistamin: dimenhydrinate, cinnarizine",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Benzodiazepine: diazepam, lorazepam",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Antiemetik: metoclopramide, ondansetron",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Rehidrasi: infus, NGT jika diperlukan",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Three groups of vestibular suppressants: anticholinergics, antihistamines, benzodiazepines",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Symptomatic treatment aims to reduce the two main symptom clusters: the vertigo sensation (spinning, floating) and autonomic symptoms (nausea, vomiting). Vestibular suppressants are divided into three pharmacological groups. Antikolinergik: scopolamine",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s06",
+      "title": "Tatalaksana Lanjutan dan Indikasi Rujuk",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Central vestibular vertigo requires definitive diagnosis of the underlying etiology and appropriate definitive treatment. Referral is indicated when: (1) Facilities for diagnostic confirmation and etiology-specific management are needed (e.g., suspected stroke requiring non-contrast CT head and neurology specialist consultation); (2) No improvement is seen after pharmacological and non-pharmacological treatment.",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penegakan diagnosis untuk etiologi vertigo diperlukan",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tatalaksana definitif untuk etiologi diperlukan",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Indikasi rujuk: butuh fasilitas diagnosis dan tatalaksana etiologi (contoh: curiga stroke, butuh CT-scan kepala nonkontras dan SpN)",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak terdapat perbaikan setelah terapi farmakologik maupun non-farmakologik",
+          "provenance": {
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Central vestibular vertigo requires definitive diagnosis of the underlying etiology and appropriate definitive treatment. Referral is indicated when: (1) Facilities for diagnostic confirmation and etiology-specific management are needed (e.g., suspected stroke requiring non-contrast CT head and neurology specialist consultation); (2) No improvement is seen after pharmacological and non-pharmacological treatment. Penegakan diagnosis untuk etiologi vertigo diperlukan",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s07",
+      "title": "Rehabilitasi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Rehabilitation is performed after the underlying disease has been managed and no longer poses acute health concerns requiring immediate therapy. The goals of rehabilitation are: to improve gaze stability, enhance postural body stability, prevent recurrent vertigo, and improve the patient's ability to perform daily activities independently. Vestibular Rehabilitation Therapy (VRT) is a highly effective modality for improving functional deficits and subjective complaints resulting from unilateral or bilateral vestibular hypofunction and central balance disorders in both adults and children.",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Meningkatkan stabilitas gaze",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Meningkatkan stabilitas postur tubuh",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mencegah vertigo berulang",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Memperbaiki kemampuan pasien dalam melakukan aktivitas harian secara mandiri",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "VRT should only begin after the acute underlying pathology has been stabilized",
+          "provenance": {
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Rehabilitation is performed after the underlying disease has been managed and no longer poses acute health concerns requiring immediate therapy. The goals of rehabilitation are: to improve gaze stability, enhance postural body stability, prevent recurrent vertigo, and improve the patient's ability to perform daily activities independently. Vestibular Rehabilitation Therapy (VRT) is a highly effective modality for improving functional deficits and subjective complaints resulting from unilateral or bilateral vestibular hypofunction and central balance disorders in both adults and children. Meningkatkan stabilitas gaze",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Vertigo sentral",
+      "meaning": "Sensasi berputar akibat lesi pada jalur vestibular sentral dari nucleus vestibularis di batang otak sampai korteks serebri"
+    },
+    {
+      "term": "CPA (Cerebellopontine Angle)",
+      "meaning": "Sudut serebelopontin, lokasi umum tumor seperti vestibular schwannoma"
+    },
+    {
+      "term": "VRT",
+      "meaning": "Vestibular Rehabilitation Therapy, modalitas rehabilitasi untuk defisit vestibular"
+    },
+    {
+      "term": "Diffuse axonal injury",
+      "meaning": "Cedera aksonal difus, penyebab trauma umum vertigo sentral"
+    }
+  ],
+  "tables": [],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Confirm central vs peripheral vertigo",
+      "explanation": "Central vertigo localizes to brainstem, thalamus, cortex, or cerebellum; peripheral involves vestibular apparatus or vestibular nerve"
+    },
+    {
+      "step": 2,
+      "title": "Determine onset pattern",
+      "explanation": "Acute onset suggests vascular or traumatic cause; subacute/chronic/episodic suggests inflammatory, neoplastic, or migrainous etiology"
+    },
+    {
+      "step": 3,
+      "title": "Apply neuroimaging and appropriate workup",
+      "explanation": "CT head for acute presentations, MRI for detailed CNS evaluation, additional testing as indicated by suspected etiology"
+    },
+    {
+      "step": 4,
+      "title": "Initiate cause-specific treatment",
+      "explanation": "Stroke protocol for vascular causes, corticosteroids for MS, surgery for CPA tumors, antiepileptics for seizure-related vertigo"
+    }
+  ],
+  "differential_notes": [
+    {
+      "item": "Multiple Sclerosis",
+      "how_to_separate": "Subacute onset with internuclear ophthalmoplegia, visual changes, and CN VIII involvement; requires MRI and clinical observation over time"
+    },
+    {
+      "item": "CPA Tumor (Vestibular Schwannoma)",
+      "how_to_separate": "Progressive unilateral hearing loss with trigeminal signs, ataxia; MRI with contrast is diagnostic"
+    },
+    {
+      "item": "Vascular (Stroke/TIA)",
+      "how_to_separate": "Acute onset with vascular risk factors; neuroimaging confirms"
+    },
+    {
+      "item": "Traumatic",
+      "how_to_separate": "History of head/neck trauma, often diffuse axonal injury pattern"
+    },
+    {
+      "item": "Epileptic",
+      "how_to_separate": "Brief episodic vertigo as aura or psychomotor seizure component; EEG and temporal lobe imaging"
+    }
+  ],
+  "treatment_notes": [
+    {
+      "phase": "causal",
+      "content": "Treat underlying etiology: stroke management, trauma protocols, ICP reduction for infection/tumor, corticosteroids and interferon for MS relapses"
+    },
+    {
+      "phase": "symptomatic",
+      "content": "Vestibular suppressants (anticholinergics, antihistamines, benzodiazepines), antiemetics (metoclopramide, ondansetron), rehydration"
+    },
+    {
+      "phase": "rehabilitation",
+      "content": "VRT for gaze stability, postural stability, and functional recovery after acute disease control"
+    }
+  ],
+  "red_flags": [
+    "Acute onset with stroke signs",
+    "Progressive neurological deficits suggesting CPA tumor",
+    "No improvement after adequate pharmacological treatment",
+    "Need for urgent neuroimaging facilities"
+  ],
+  "extraction_notes": [
+    "Opening slide contained lecturer name dr. Sri Noviyanty Yusuf, Sp.N, event name Neuro Siginjai, location Rumah Kito, date 20 January 2024",
+    "Sumber memiliki fragmentasi teks bold yang berat di seluruh dokumen; surgical translation diterapkan untuk normalisasi",
+    "Slide algoritma terapi sebagian OCR-fragmentari tetapi logika inti dipertahankan",
+    "Bagian VRT terstruktur dengan baik dan bersih"
+  ],
+  "confidence_summary": "high",
+  "qc_flags": []
+}

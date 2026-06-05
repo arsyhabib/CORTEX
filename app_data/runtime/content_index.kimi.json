@@ -1,0 +1,1231 @@
+{
+  "generatedAt": "2026-06-05T19:30:26.635Z",
+  "lectureDomains": [
+    {
+      "id": "6e",
+      "title": "Neurology / Batch 1 6E (Kimi Rerun)",
+      "summary": "Enhanced structured content from Kimi rerun for 24 neurology lecturer modules.",
+      "moduleCount": 24,
+      "modules": [
+        {
+          "id": "lecture_6e_central_vertigo_001",
+          "title": "How To Treat Central Vertigo",
+          "sourceFile": "app_data/lectures/6e/lecture_material_kimi/modules/lecture_6e_central_vertigo_001.json",
+          "sourceDocument": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+          "topicTags": [
+            "Central vertigo arises from lesions along the vestibular pathway from nucleus vestibularis in the brainstem to thalamus and cerebral cortex",
+            "Key etiologies include vascular (stroke, TIA), inflammatory (MS), tumor (CPA tumors), epilepsy, trauma, and migraine",
+            "Symptomatic treatment uses vestibular suppressants: anticholinergics, antihistamines, benzodiazepines"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6e",
+          "order": 1
+        },
+        {
+          "id": "lecture_6e_infeksi_ssp_002",
+          "title": "Infeksi Sistem Saraf Pusat",
+          "sourceFile": "app_data/lectures/6e/lecture_material_kimi/modules/lecture_6e_infeksi_ssp_002.json",
+          "sourceDocument": "6EF Infeksi.docx",
+          "topicTags": [
+            "Two fundamental principles: Where is the infection? What is the etiology?",
+            "HIV status critically changes the differential diagnosis of brain infections",
+            "Thwaites score helps differentiate bacterial from TB meningitis"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6e",
+          "order": 2
+        },
+        {
+          "id": "lecture_6e_gangguan_gerak_003",
+          "title": "Gangguan Gerak",
+          "sourceFile": "app_data/lectures/6e/lecture_material_kimi/modules/lecture_6e_gangguan_gerak_003.json",
+          "sourceDocument": "26 dr.Attiya - Gangguan Gerak.docx",
+          "topicTags": [
+            "Movement disorders are divided into hyperkinetic and hypokinetic categories",
+            "Specific basal ganglia structures localize to specific movement disorders: substantia nigra (bradykinesia, tremor), subthalamic nucleus (ballism), caudate (chorea), putamen (dystonia)",
+            "TRAP symptoms (Tremor, Rigiditas, Akinesia, Postural instability) define Parkinson disease"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6e",
+          "order": 3
+        },
+        {
+          "id": "lecture_6e_cns_infection_radiology_004",
+          "title": "Central Nervous System Infection and Inflammation",
+          "sourceFile": "app_data/lectures/6e/lecture_material_kimi/modules/lecture_6e_cns_infection_radiology_004.json",
+          "sourceDocument": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+          "topicTags": [
+            "CNS infection progresses through cerebritis (7-10 days) to capsule formation (10-14 days)",
+            "MRI is more sensitive than CT for early encephalitis detection",
+            "DWI/ADC shows restricted diffusion in encephalitis though less intense than infarction"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6e",
+          "order": 4
+        },
+        {
+          "id": "lecture_6e_cerebral_infark_005",
+          "title": "Cerebral Infark - Stroke Radiology",
+          "sourceFile": "app_data/lectures/6e/lecture_material_kimi/modules/lecture_6e_cerebral_infark_005.json",
+          "sourceDocument": "CEREBRAL INFARK.docx",
+          "topicTags": [
+            "Infarct results from circulation deficit due to thrombosis or cerebral emboli",
+            "CT may be normal in very early infarction; becomes apparent after 24 hours",
+            "Early signs: loss of gray-white matter differentiation, hyperdense MCA sign"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6e",
+          "order": 5
+        },
+        {
+          "id": "lecture_6e_neurorehab_006",
+          "title": "Rehabilitation of Neurological Disorders",
+          "sourceFile": "app_data/lectures/6e/lecture_material_kimi/modules/lecture_6e_neurorehab_006.json",
+          "sourceDocument": "dr.Patrick - neurorehab.docx",
+          "topicTags": [
+            "Rehabilitation aims to restore optimal physical, emotional, psychological, social, and vocational potential",
+            "Four types: medical, vocational, social, psychological rehabilitation",
+            "Positioning prevents contractures, pressure ulcers, and musculoskeletal deformities"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6e",
+          "order": 6
+        },
+        {
+          "id": "lecture_6e_bangkitan_epileptik_007",
+          "title": "Bangkitan Epileptik",
+          "sourceFile": "app_data/lectures/6e/lecture_material_kimi/modules/lecture_6e_bangkitan_epileptik_007.json",
+          "sourceDocument": "KULIAH BANGKITAN koas.docx",
+          "topicTags": [
+            "Epileptic seizure: transient signs/symptoms from abnormal excessive neuronal activity in the brain (ILAE)",
+            "ILAE 2017 classification divides seizures into focal, generalized, and unknown onset",
+            "Reflex seizures are triggered by specific stimuli (visual, auditory, somatosensory, motor)"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6e",
+          "order": 7
+        },
+        {
+          "id": "lecture_6e_pa_neurologi_008",
+          "title": "Patologi Anatomi Neurologi",
+          "sourceFile": "app_data/lectures/6e/lecture_material_kimi/modules/lecture_6e_pa_neurologi_008.json",
+          "sourceDocument": "Kuliah PA Neurologi.docx",
+          "topicTags": [
+            "CNS pathology divided into congenital, cerebrovascular, infectious, and neoplastic categories",
+            "Astrocytoma grading: WHO I (pilocytic) to WHO IV (glioblastoma multiforme)",
+            "Oligodendroglioma: fried egg appearance, chicken-wire vessels, microcalcifications"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6e",
+          "order": 8
+        },
+        {
+          "id": "lecture_6e_pensa_koma_009",
+          "title": "Manajemen Pasca Stroke dan Koma",
+          "sourceFile": "app_data/lectures/6e/lecture_material_kimi/modules/lecture_6e_pensa_koma_009.json",
+          "sourceDocument": "Manajemen Pensa dan Koma - Koass.docx",
+          "topicTags": [
+            "Post-stroke complications include DVT, aspiration pneumonia, pressure sores, contractures, depression, and nutritional deficits",
+            "BP management differs by stroke type: ischemic (permissive hypertension up to 220/120) vs hemorrhagic (aggressive lowering)",
+            "Dysphagia screening must occur before any oral intake"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6e",
+          "order": 9
+        },
+        {
+          "id": "lecture_6e_mikroorganisme_010",
+          "title": "Mikroorganisme Penyebab Infeksi SSP",
+          "sourceFile": "app_data/lectures/6e/lecture_material_kimi/modules/lecture_6e_mikroorganisme_010.json",
+          "sourceDocument": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+          "topicTags": [
+            "Pyogenic bacteria: Streptococcus pneumoniae, Neisseria meningitidis, Haemophilus influenzae are leading causes of bacterial meningitis",
+            "Mycobacterium tuberculosis causes TB meningitis with characteristic basilar enhancement",
+            "Cryptococcus neoformans is the most common fungal CNS pathogen in immunocompromised patients"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6e",
+          "order": 10
+        },
+        {
+          "id": "lecture_6e_neuroanatomi_011",
+          "title": "Neuroanatomi 2023",
+          "sourceFile": "app_data/lectures/6e/lecture_material_kimi/modules/lecture_6e_neuroanatomi_011.json",
+          "sourceDocument": "neuroanatomi 2023.docx",
+          "topicTags": [
+            "ACA supplies medial frontal and parietal lobes; MCA supplies lateral hemisphere; PCA supplies occipital and medial temporal lobes",
+            "Internal capsule has anterior limb, genu, posterior limb, retrolenticular, and sublenticular parts - each with specific fiber tracts",
+            "Lacunar infarcts commonly affect internal capsule, basal ganglia, thalamus, and pons"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6e",
+          "order": 11
+        },
+        {
+          "id": "lecture_6e_neuropati_012",
+          "title": "Neuropati",
+          "sourceFile": "app_data/lectures/6e/lecture_material_kimi/modules/lecture_6e_neuropati_012.json",
+          "sourceDocument": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+          "topicTags": [
+            "Source file exceeded processing capacity",
+            "Filename indicates May 2025 teaching material on neuropathy",
+            "Content likely covers peripheral nerve anatomy, classification, and clinical approach"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6e",
+          "order": 12
+        },
+        {
+          "id": "lecture_6e_nyeri_kepala_013",
+          "title": "Nyeri Kepala",
+          "sourceFile": "app_data/lectures/6e/lecture_material_kimi/modules/lecture_6e_nyeri_kepala_013.json",
+          "sourceDocument": "NYERI kepala 2.docx",
+          "topicTags": [
+            "SNOOP4 red flags for secondary headache: Systemic symptoms, Neurological signs, Onset sudden, Older age, Pattern change, Precipitated by exertion/cough, Positional, Progressive",
+            "Migraine pathophysiology involves trigeminovascular system activation and CGRP release",
+            "Acute migraine treatment: NSAIDs, triptans, antiemetics; Preventive: beta-blockers, CCBs, antiepileptics, CGRP antagonists"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6e",
+          "order": 13
+        },
+        {
+          "id": "lecture_6e_parkinson_klinis_014",
+          "title": "Parkinson Disease - Aspek Klinis",
+          "sourceFile": "app_data/lectures/6e/lecture_material_kimi/modules/lecture_6e_parkinson_klinis_014.json",
+          "sourceDocument": "Parkinson Disease (Aspek Klinis).docx",
+          "topicTags": [
+            "Degeneration of dopaminergic neurons in substantia nigra pars compacta causes striatal dopamine deficiency",
+            "Lewy bodies (alpha-synuclein aggregates) are pathological hallmark",
+            "TRAP symptoms: Tremor, Rigidity, Akinesia/bradykinesia, Postural Instability"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6e",
+          "order": 14
+        },
+        {
+          "id": "lecture_6e_patofisiologi_stroke_015",
+          "title": "Patofisiologi Stroke",
+          "sourceFile": "app_data/lectures/6e/lecture_material_kimi/modules/lecture_6e_patofisiologi_stroke_015.json",
+          "sourceDocument": "Patofisiologi stroke_gizi.docx",
+          "topicTags": [
+            "Stroke is defined as rapidly developing clinical signs of focal cerebral disturbance lasting >24 hours or leading to death",
+            "Ischemic stroke (85%) results from thrombosis, embolism, or systemic hypoperfusion; Hemorrhagic stroke (15%) from intracerebral hemorrhage or SAH",
+            "Ischemic cascade: energy failure -> ion pump dysfunction -> glutamate release -> calcium influx -> free radical production -> inflammation -> cell death"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6e",
+          "order": 15
+        },
+        {
+          "id": "lecture_6e_pemeriksaan_klinis_neuro_016",
+          "title": "Pemeriksaan Klinis Neurologi",
+          "sourceFile": "app_data/lectures/6e/lecture_material_kimi/modules/lecture_6e_pemeriksaan_klinis_neuro_016.json",
+          "sourceDocument": "Pemeriksaan klinis neuro_250523_133200.docx",
+          "topicTags": [
+            "Source was image-heavy with limited extractable text",
+            "Standard neurological examination follows systematic approach",
+            "Cranial nerve examination localizes to brainstem and peripheral nerves"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6e",
+          "order": 16
+        },
+        {
+          "id": "lecture_6e_vertigo_dizziness_017",
+          "title": "Diagnosing Vertigo and Dizziness",
+          "sourceFile": "app_data/lectures/6e/lecture_material_kimi/modules/lecture_6e_vertigo_dizziness_017.json",
+          "sourceDocument": "PPT Diagnosing Vertigo and Dizziness.docx",
+          "topicTags": [
+            "Four types of dizziness: vertigo (spinning), presyncope (lightheadedness), disequilibrium (imbalance), nonspecific dizziness",
+            "TIMING is key: seconds = BPPV; minutes-hours = Meniere/TIA; hours-days = vestibular neuritis/migraine; continuous = central",
+            "HINTS examination (Head Impulse, Nystagmus, Test of Skew) is more sensitive than MRI for stroke in acute vestibular syndrome"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6e",
+          "order": 17
+        },
+        {
+          "id": "lecture_6e_gangguan_keseimbangan_018",
+          "title": "Gangguan Keseimbangan",
+          "sourceFile": "app_data/lectures/6e/lecture_material_kimi/modules/lecture_6e_gangguan_keseimbangan_018.json",
+          "sourceDocument": "PPT Gangguan Keseimbangan.docx",
+          "topicTags": [
+            "Balance depends on integration of vestibular (inner ear), visual, and proprioceptive (somatosensory) systems processed by the cerebellum and brainstem",
+            "Romberg test evaluates proprioception; sharpened Romberg adds challenge",
+            "Fukuda stepping test: >30 degrees rotation or >50cm displacement suggests vestibular asymmetry"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6e",
+          "order": 18
+        },
+        {
+          "id": "lecture_6e_radiologi_tumor_019",
+          "title": "Radiologi Tumor Cerebri",
+          "sourceFile": "app_data/lectures/6e/lecture_material_kimi/modules/lecture_6e_radiologi_tumor_019.json",
+          "sourceDocument": "Radiologi Tumor Cerebri.docx",
+          "topicTags": [
+            "High-grade gliomas show irregular ring enhancement, central necrosis, surrounding edema, mass effect",
+            "Meningioma: extra-axial, broad dural base, homogeneous enhancement, dural tail sign",
+            "Acoustic neuroma: CPA mass, extends into internal auditory canal (ice cream cone sign)"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6e",
+          "order": 19
+        },
+        {
+          "id": "lecture_6e_status_epileptikus_020",
+          "title": "Status Epileptikus",
+          "sourceFile": "app_data/lectures/6e/lecture_material_kimi/modules/lecture_6e_status_epileptikus_020.json",
+          "sourceDocument": "STATUS EPILEPTIKUS koas.docx",
+          "topicTags": [
+            "Operational definition: 5 minutes of continuous seizures OR two or more discrete seizures without full recovery between",
+            "Time-dependent treatment: benzodiazepines (0-5 min), IV antiepileptics (5-20 min), anesthetic agents (20-60 min) for refractory SE",
+            "Mortality increases with duration: ~3% at 10-29 min, 19% at >30 min, 32% at >60 min"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6e",
+          "order": 20
+        },
+        {
+          "id": "lecture_6e_stroke_radiology_021",
+          "title": "Stroke Radiology",
+          "sourceFile": "app_data/lectures/6e/lecture_material_kimi/modules/lecture_6e_stroke_radiology_021.json",
+          "sourceDocument": "stroke-dr.Erni Z, SpRad.docx",
+          "topicTags": [
+            "Non-contrast CT is first-line to exclude hemorrhage in acute stroke",
+            "ASPECTS score (0-10) quantifies early ischemic changes; score <7 suggests large infarct with poor thrombolysis outcome",
+            "Hyperdense MCA sign indicates thrombus in the vessel - key sign for thrombectomy candidacy"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6e",
+          "order": 21
+        },
+        {
+          "id": "lecture_6e_trauma_ssp_022",
+          "title": "Trauma Sistem Saraf",
+          "sourceFile": "app_data/lectures/6e/lecture_material_kimi/modules/lecture_6e_trauma_ssp_022.json",
+          "sourceDocument": "Trauma Sistim Saraf.docx",
+          "topicTags": [
+            "GCS classifies TBI: mild (13-15), moderate (9-12), severe (3-8)",
+            "Epidural hematoma: lens-shaped (biconvex), arterial (middle meningeal artery), does not cross sutures",
+            "Subdural hematoma: crescent-shaped, venous (bridging veins), crosses suture lines but not dural attachments"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6e",
+          "order": 22
+        },
+        {
+          "id": "lecture_6e_tumor_cerebri_023",
+          "title": "Tumor Cerebri",
+          "sourceFile": "app_data/lectures/6e/lecture_material_kimi/modules/lecture_6e_tumor_cerebri_023.json",
+          "sourceDocument": "Tumor Cerebri.docx",
+          "topicTags": [
+            "Primary CNS tumors: gliomas (astrocytoma, oligodendroglioma, glioblastoma) are most common malignant; meningioma most common benign",
+            "Metastases are the most common brain tumors overall (lung, breast, melanoma, kidney, colon)",
+            "General symptoms: headache (worse in morning, with Valsalva), nausea/vomiting, papilledema, cognitive/personality changes"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6e",
+          "order": 23
+        },
+        {
+          "id": "lecture_6e_tumor_ssp_024",
+          "title": "Tumor Sistem Saraf Pusat",
+          "sourceFile": "app_data/lectures/6e/lecture_material_kimi/modules/lecture_6e_tumor_ssp_024.json",
+          "sourceDocument": "TUMOR SSP KULIAH.docx",
+          "topicTags": [
+            "WHO CNS5 2021 integrates histology and molecular markers for integrated diagnosis",
+            "Adult vs pediatric brain tumors differ in type, location, and prognosis",
+            "Clinical presentation depends on: rate of growth, location, size, edema"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6e",
+          "order": 24
+        }
+      ]
+    },
+    {
+      "id": "6f",
+      "title": "Psychiatry & Behavior / Batch 2 6F (Kimi Rerun)",
+      "summary": "Enhanced structured content from Kimi rerun for 14 psychiatry lecturer modules.",
+      "moduleCount": 13,
+      "modules": [
+        {
+          "id": "lecture_6f_personality_001",
+          "title": "Gangguan Kepribadian dan Perilaku Masa Dewasa",
+          "sourceFile": "app_data/lectures/6f/lecture_material_kimi/modules/lecture_6f_personality_001.json",
+          "sourceDocument": "✅28_4_25 GGN KEPRIBADIAN DAN PERILAKU MASA DEWASA_compressed.docx",
+          "topicTags": [
+            "Kepribadian (dari bahasa Latin 'persona' = topeng) mencakup aspek karakter internal dan eksternal yang bersifat unik, relatif stabil, dan memengaruhi perilaku dalam berbagai situasi",
+            "Gangguan kepribadian = pola pikiran, perasaan, dan perilaku yang menetap dan maladaptif bagi individu serta masyarakat; individu seringkali tidak menyadari adanya masalah",
+            "Klaster A (Aneh/Eksentrik): Paranoid, Skizoid, Skizotipal"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6f",
+          "order": 1
+        },
+        {
+          "id": "lecture_6f_gam_002",
+          "title": "Gangguan Ansietas dan Penatalaksanaannya - GAM",
+          "sourceFile": "app_data/lectures/6f/lecture_material_kimi/modules/lecture_6f_gam_002.json",
+          "sourceDocument": "09 dr.Susi - 1. GAM.docx",
+          "topicTags": [
+            "Anxiety = disguised fear with autonomic symptoms; normal adaptive response to threat (fight or flight)",
+            "GAM = chronic anxiety disorder with excessive, uncontrollable, pervasive worry lasting months, accompanied by somatic and psychic symptoms",
+            "Neuroanatomy involves amygdala (emotional response), medial prefrontal cortex (modulation/decision-making), and hippocampus (memory encoding)"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6f",
+          "order": 2
+        },
+        {
+          "id": "lecture_6f_panic_003",
+          "title": "Gangguan Panik",
+          "sourceFile": "app_data/lectures/6f/lecture_material_kimi/modules/lecture_6f_panic_003.json",
+          "sourceDocument": "09 dr.Susi - 2. Gangguan Panik (1).docx",
+          "topicTags": [
+            "Term 'panic' originates from Pan, Greek half-ghost god of mountains",
+            "First described by Sigmund Freud in 1895 in a case of agoraphobia",
+            "Lifetime prevalence 1.5-5%; female:male ratio 2-3:1; peak onset around age 25"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6f",
+          "order": 3
+        },
+        {
+          "id": "lecture_6f_phobia_004",
+          "title": "Fobia",
+          "sourceFile": "app_data/lectures/6f/lecture_material_kimi/modules/lecture_6f_phobia_004.json",
+          "sourceDocument": "09 dr.Susi - 4. Fobia.docx",
+          "topicTags": [
+            "Phobia from Greek 'phobos' = fear; excessive and unreasonable fear toward specific objects/situations with avoidance",
+            "Classical conditioning: phobia develops because something is conditioned as frightening or dangerous",
+            "Biological: danger signal to amygdala stores fear associated with object/situation"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6f",
+          "order": 4
+        },
+        {
+          "id": "lecture_6f_eating_005",
+          "title": "Gangguan Makan: Bulimia dan Anorexia Nervosa",
+          "sourceFile": "app_data/lectures/6f/lecture_material_kimi/modules/lecture_6f_eating_005.json",
+          "sourceDocument": "anoreksia dan bulimia.docx",
+          "topicTags": [
+            "Lecture covers two main eating disorders: Bulimia and Anorexia Nervosa",
+            "Lecturer: Dr. Tumpak Saragi, SpKJ",
+            "Source contains 33 slides with predominantly image-based content"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6f",
+          "order": 5
+        },
+        {
+          "id": "lecture_6f_delirium_006",
+          "title": "Delirium",
+          "sourceFile": "app_data/lectures/6f/lecture_material_kimi/modules/lecture_6f_delirium_006.json",
+          "sourceDocument": "delerium FKIK UNJA (1).docx",
+          "topicTags": [
+            "Delirium = acute confusional state with decreased attention, cognitive dysfunction, sleep-wake disturbance, and altered psychomotor activity; onset is acute and fluctuating",
+            "Synonyms include: Acute Brain Syndrome, Acute Confusional State, Toxic Psychosis, Metabolic Encephalopathy, Altered Mental Status, Dysergastic State",
+            "Epidemiology: 10-15% general surgical, 15-25% general medical, 30% surgical/cardiac ICU, 40-50% hip fracture surgery, 20% major burns, ~30% hospitalized AIDS"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6f",
+          "order": 6
+        },
+        {
+          "id": "lecture_6f_amnesia_007",
+          "title": "Amnesia Pasca Trauma",
+          "sourceFile": "app_data/lectures/6f/lecture_material_kimi/modules/lecture_6f_amnesia_007.json",
+          "sourceDocument": "dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.docx",
+          "topicTags": [
+            "Lecturer: dr. Fatmawati, Sp.KJ",
+            "Topic: Amnesia Pasca Trauma (Post-Traumatic/Dissociative Amnesia)",
+            "26 slides total, all image-based"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6f",
+          "order": 7
+        },
+        {
+          "id": "lecture_6f_somatoform_008",
+          "title": "Gangguan Somatoform",
+          "sourceFile": "app_data/lectures/6f/lecture_material_kimi/modules/lecture_6f_somatoform_008.json",
+          "sourceDocument": "dr.Fatmawati,Sp.KJ-Gangguan Somatoform (1).docx",
+          "topicTags": [
+            "Lecturer: dr. Fatmawati, Sp.KJ",
+            "Topic: Gangguan Somatoform (Somatoform Disorders)",
+            "42 slides total, all image-based"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6f",
+          "order": 8
+        },
+        {
+          "id": "lecture_6f_ect_psychotherapy_009",
+          "title": "Electroconvulsive Therapy (ECT) dan Psikoterapi",
+          "sourceFile": "app_data/lectures/6f/lecture_material_kimi/modules/lecture_6f_ect_psychotherapy_009.json",
+          "sourceDocument": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+          "topicTags": [
+            "ECT is the oldest psychiatric treatment still in use; most effective for major depression",
+            "Only 20% of electrical charge enters the skull due to high impedance; modern machines deliver constant current/voltage/energy",
+            "PET studies: seizure increases CBF, glucose, O2 use; post-ictal frontal hypometabolism correlates with response"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6f",
+          "order": 9
+        },
+        {
+          "id": "lecture_6f_legal_ethics_010",
+          "title": "Isu Etik dan Legal dalam Kesehatan Jiwa",
+          "sourceFile": "app_data/lectures/6f/lecture_material_kimi/modules/lecture_6f_legal_ethics_010.json",
+          "sourceDocument": "legal-etik-jiwa.docx",
+          "topicTags": [
+            "Florence Nightingale pledge: 4 domains - help the sick achieve health, help the healthy maintain health, help the incurable realize potential, help the dying live optimally",
+            "UU No.29/2004 Pasal 52: patient rights include full explanation, second opinion, appropriate service, refusal of treatment, access to medical records",
+            "Restraint = direct application of physical force to restrict movement; Seclusion = involuntary confinement in specially constructed room"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6f",
+          "order": 10
+        },
+        {
+          "id": "lecture_6f_napza_lab_011",
+          "title": "Pemeriksaan Laboratorium pada Penyalahgunaan Obat Psikoaktif, NAPZA dan Alkohol",
+          "sourceFile": "app_data/lectures/6f/lecture_material_kimi/modules/lecture_6f_napza_lab_011.json",
+          "sourceDocument": "Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx",
+          "topicTags": [
+            "Narkotika: heroin (putauw), cannabis (cimeng), cocaine, morphine, codeine",
+            "Psychotropics: sabu (amphetamine/methamphetamine), sedatives (diazepam, etc.)",
+            "Psychoactive substance = substance affecting CNS causing mental, emotional, and behavioral changes"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6f",
+          "order": 11
+        },
+        {
+          "id": "lecture_6f_professional_012",
+          "title": "Prilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri",
+          "sourceFile": "app_data/lectures/6f/lecture_material_kimi/modules/lecture_6f_professional_012.json",
+          "sourceDocument": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+          "topicTags": [
+            "Psychiatric interview includes anamnesis, MSE, diagnosis/prognosis, and psychotherapy",
+            "Rapport = trust + understanding; essential for patient disclosure",
+            "Open-ended questions first, then closed for specifics; combine both for best results"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6f",
+          "order": 12
+        },
+        {
+          "id": "lecture_6f_sleep_013",
+          "title": "Normal Sleep dan Sleep Disorders",
+          "sourceFile": "app_data/lectures/6f/lecture_material_kimi/modules/lecture_6f_sleep_013.json",
+          "sourceDocument": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+          "topicTags": [
+            "Humans spend 1/3 of life sleeping; need 6-8 hours/day; infants/children need more",
+            "Sleep is essential for survival; prolonged deprivation causes severe physical/cognitive damage and death",
+            "NREM = 75% of sleep (4 stages); REM = 25%; 4-6 cycles per night"
+          ],
+          "pageTargets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "finalized_kimi",
+          "domainId": "6f",
+          "order": 13
+        }
+      ]
+    }
+  ],
+  "examSets": [
+    {
+      "id": "mcq_6e_2025_original_exam_set",
+      "title": "MCQ 6.E 2025 - Original Exam Set Reconstruction",
+      "batchId": "batch1",
+      "year": 2025,
+      "sourceLabel": "MCQ 6.E 2025.pdf",
+      "questionCount": 40,
+      "confidence": "",
+      "sourceFile": "app_data/exams/batch1/original_exam_sets/mcq_6e_2025.original_exam_set.json",
+      "questionsPreview": [
+        {
+          "id": "mcq_6e_2025_original_exam_set_q01",
+          "stem": "Kontraindikasi mutlak tindakan lumbal pungsi/pemeriksaan LCS adalah ...",
+          "answerText": "Impending herniasi otak"
+        },
+        {
+          "id": "mcq_6e_2025_original_exam_set_q02",
+          "stem": "Karakteristik yang tidak langsung ditemukan dari pemeriksaan LCS adalah ...",
+          "answerText": "Impending herniasi"
+        },
+        {
+          "id": "mcq_6e_2025_original_exam_set_q03",
+          "stem": "Pada algoritme meningitis/ensefalitis, diagnosis yang mungkin pada pasien HIV negatif adalah ...",
+          "answerText": "Ensefalitis HSV (catatan jawaban; opsi asli tidak terbaca)"
+        }
+      ]
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius",
+      "title": "MCQ 6.3 TRAPEZIUS - Reconstructed Original Exam Set",
+      "batchId": "batch_2_mcq_6_3_trapezius",
+      "year": null,
+      "sourceLabel": "MCQ 6.3 TRAPEZIUS.pdf",
+      "questionCount": 51,
+      "confidence": "",
+      "sourceFile": "app_data/exams/batch2/original_exam_sets/orig_exam_batch_2_mcq_6_3_trapezius.json",
+      "questionsPreview": [
+        {
+          "id": "orig_exam_batch_2_mcq_6_3_trapezius_q01",
+          "stem": "Pernyataan tentang gangguan panik.",
+          "answerText": "Serangan panik episodik dengan gejala otonom"
+        },
+        {
+          "id": "orig_exam_batch_2_mcq_6_3_trapezius_q02",
+          "stem": "Yang bukan merupakan pernyataan tentang obsessive-compulsive disorder (OCD).",
+          "answerText": "Obsesi dan/atau kompulsi"
+        },
+        {
+          "id": "orig_exam_batch_2_mcq_6_3_trapezius_q03",
+          "stem": "Cephalosporin generasi ketiga digunakan untuk penyakit apa?",
+          "answerText": "Infeksi bakteri berat, terutama meningitis"
+        }
+      ]
+    },
+    {
+      "id": "batch3_pembahasan_mcq_6_3_akt_18_2021",
+      "title": "Pembahasan MCQ 6.3 Akt 18 Tahun 2021",
+      "batchId": "batch3",
+      "year": 2021,
+      "sourceLabel": "Pembahasan MCQ 6.3 Akt 18 Tahun 2021.docx",
+      "questionCount": 75,
+      "confidence": "",
+      "sourceFile": "app_data/exams/batch3/original_exam_sets/batch3_pembahasan_mcq_6_3_akt_18_2021.exam_set.json",
+      "questionsPreview": [
+        {
+          "id": "batch3_pembahasan_2018_q01",
+          "stem": "Seorang wanita usia 64 tahun dibawa ke RS yang tidak memiliki fasilitas CT Scan dengan keluhan muntah dan nyeri kepala yang diikuti penurunan kesadaran. Pada pemeriksaan dijumpai kesadaran soporous (GCS 10). TD 180/100 mmHg, denyut jantung 96x/menit. Wanita ini sudah menderita hipertensi dan diabetes mellitus sejak 10 tahun yang lalu. Untuk niembantu menegakkan diagnosa, dokter menghitung Siriraj Stroke Score. Berapakah skor nya?",
+          "answerText": ""
+        },
+        {
+          "id": "batch3_pembahasan_2018_q02",
+          "stem": "Seorang perempuan datang ke praktek dokter umum dengan keluhan cemas dan merasa ketakutan. Sebelumnya terjadi perampokan terhadap suaminya sehingga timbul perasaan cemas, keringat dingin dan jantung berdebar-debar. Pasien juga mengatakan gejala ini muncul sejak 2 bulan ini, setelah suaminya menjadi korban perampokan dan dibunuh oleh pelaku. Sejak saat itu pasien juga mengalami keluhan sulittidur dan nafas terasa berat. Cemas dan ketakutan dirasalkan pasien sewaktu-waktu. Serangan ini dirasakan pasien sekitar 10 menit, terkadang bisa lebih lama Terjadi 3- 4x serangan selama setiap bulan. Pasien juga merasa takut mati dan apakah diagnosis pasien di atas?",
+          "answerText": "Gangguan panik"
+        },
+        {
+          "id": "batch3_pembahasan_2018_q03",
+          "stem": "Yang merupakan gejala klinis pada Sindrom Weber adalah...",
+          "answerText": "Paresis nervus III sesisi lesi"
+        }
+      ]
+    },
+    {
+      "id": "batch4_soal_mcq_6_3_akt_19_tahun_2022",
+      "title": "Soal MCQ 6.3 Akt 19 Tahun 2022",
+      "batchId": "batch4",
+      "year": 2022,
+      "sourceLabel": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+      "questionCount": 58,
+      "confidence": "",
+      "sourceFile": "app_data/exams/batch4/original_exam_sets/batch4_soal_mcq_6_3_akt_19_tahun_2022.json",
+      "questionsPreview": [
+        {
+          "id": "batch4_2022_q01",
+          "stem": "Golongan narkotika golongan II adalah...",
+          "answerText": "Morfin, pethidine"
+        },
+        {
+          "id": "batch4_2022_q02",
+          "stem": "Golongan obat yang dapat menyebabkan cheese reaction adalah...",
+          "answerText": "MAOI"
+        },
+        {
+          "id": "batch4_2022_q03",
+          "stem": "Seorang pasien mengalami gejala depresi selama sekitar satu bulan, kemudian menjadi manik setelah mendapat proyek besar. Diagnosis kerja yang paling sesuai adalah...",
+          "answerText": "Gejala bipolar afektif masa kini manik"
+        }
+      ]
+    },
+    {
+      "id": "batch5_family_pair_canonical_exam_set",
+      "title": "Batch 5 / Family Pair Overlap — canonical deduplicated question set",
+      "batchId": "batch5",
+      "year": null,
+      "sourceLabel": "Merged from 388802_Tutorial Jadi Youtuber Bro.docx and 6.3 okeoyeee with dr iksan and willy no -50.docx",
+      "questionCount": 92,
+      "confidence": "",
+      "sourceFile": "app_data/exams/batch5/original_exam_sets/batch_5_family_pair_canonical_exam_set.json",
+      "questionsPreview": [
+        {
+          "id": "batch5_family_pair_q001",
+          "stem": "pernyataan yang benar terkait sindrom horner, kecuali",
+          "answerText": "sering karna ca servix"
+        },
+        {
+          "id": "batch5_family_pair_q002",
+          "stem": "pernyataan tidak tepat untuk hukum material adalah",
+          "answerText": "kumpulan peraturan beracara di pengadilan"
+        },
+        {
+          "id": "batch5_family_pair_q003",
+          "stem": "penempatan elektroda ECT bilateral biasanya menghasilkan",
+          "answerText": "respon terapetik yang lebih cepat"
+        }
+      ]
+    }
+  ]
+}

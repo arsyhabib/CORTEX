@@ -1,0 +1,218 @@
+{
+  "id": "lecture_6f_eating_005",
+  "batch_id": "batch_2_6f",
+  "title": "Gangguan Makan: Bulimia dan Anorexia Nervosa",
+  "subtitle": "Kimi rerun: psychiatry_eating_disorders",
+  "source_pdf": "anoreksia dan bulimia.docx",
+  "source_docx": "anoreksia dan bulimia.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah tentang gangguan makan mencakup Bulimia dan Anoreksia Nervosa oleh Dr. Tumpak Saragi. Dokumen sumber berisi 33 slide yang didominasi gambar dengan teks yang dapat diekstrak minimal.",
+    "Lecture covers two main eating disorders: Bulimia and Anorexia Nervosa",
+    "Lecturer: Dr. Tumpak Saragi, SpKJ",
+    "Source contains 33 slides with predominantly image-based content"
+  ],
+  "exam_focus": [
+    "Source text heavily limited - exam focus cannot be determined from extractable content",
+    "Expected topics based on lecture title: DSM-5 criteria for anorexia and bulimia, distinguishing features, medical complications, Maudsley family therapy for adolescents"
+  ],
+  "learning_goals": [
+    "Define bulimia nervosa and anorexia nervosa",
+    "Identify diagnostic criteria for both eating disorders",
+    "Recognize medical complications of eating disorders",
+    "Describe treatment approaches for eating disorders"
+  ],
+  "key_points": [
+    "Lecture covers two main eating disorders: Bulimia and Anorexia Nervosa",
+    "Lecturer: Dr. Tumpak Saragi, SpKJ",
+    "Source contains 33 slides with predominantly image-based content",
+    "Limited extractable text due to slide design (images without OCR text layer)"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Judul dan Pengantar",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Lecture ini membahas Gangguan Makan, khususnya Bulimia Nervosa dan Anorexia Nervosa. Disampaikan oleh Dr. Tumpak Saragi, SpKJ.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Topik: Bulimia Nervosa dan Anorexia Nervosa",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dokumen sumber berisi 33 slide yang didominasi gambar. Konten teks minimal dapat diekstrak. Konten visual kemungkinan mencakup tabel kriteria diagnosis, bagan perbandingan antara bulimia dan anoreksia, ilustrasi kasus, dan protokol pengobatan.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Lecture ini membahas Gangguan Makan, khususnya Bulimia Nervosa dan Anorexia Nervosa. Disampaikan oleh Dr. Tumpak Saragi, SpKJ. Topik: Bulimia Nervosa dan Anorexia Nervosa",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Konten Visual",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Slide 2 hingga 32 berisi konten visual berupa gambar, diagram, dan chart yang tidak memiliki layer teks yang dapat diekstrak. Berdasarkan topik lecture, konten visual ini kemungkinan besar mencakup:",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kriteria diagnostik DSM-5/PPDGJ untuk Anorexia Nervosa",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kriteria diagnostik DSM-5/PPDGJ untuk Bulimia Nervosa",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tabel perbandingan Anorexia vs Bulimia",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Komplikasi medis gangguan makan",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Algoritma penatalaksanaan",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Farmakoterapi dan psikoterapi",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gambaran klinis dan tanda vital",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "BATASAN SUMBER UTAMA: 31 dari 33 slide hanya berisi konten gambar tanpa teks yang dapat diekstrak OCR. Modul tidak dapat merekonstruksi konten pengajaran dengan setia. Materi visual kemungkinan mencakup tabel kriteria diagnosis, bagan perbandingan, studi kasus, dan protokol pengobatan yang tidak dapat diakses.",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Slide 2 hingga 32 berisi konten visual berupa gambar, diagram, dan chart yang tidak memiliki layer teks yang dapat diekstrak. Berdasarkan topik lecture, konten visual ini kemungkinan besar mencakup: Kriteria diagnostik DSM-5/PPDGJ untuk Anorexia Nervosa",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Anorexia Nervosa",
+      "meaning": "Gangguan makan dengan restriksi intake, berat badan sangat rendah, ketakutan gemuk, dan gangguan citra tubuh"
+    },
+    {
+      "term": "Bulimia Nervosa",
+      "meaning": "Gangguan makan dengan episode makan berlebihan dan perilaku kompensatori berulang"
+    },
+    {
+      "term": "Binge eating",
+      "meaning": "Mengonsumsi jumlah makanan yang besar dalam periode waktu singkat dengan perasaan kehilangan kontrol"
+    }
+  ],
+  "tables": [],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Source limitation notice",
+      "explanation": "Logika diagnosis tidak dapat diekstrak dari sumber karena konten slide hanya gambar. Pendekatan umum: nilai berat badan/BMI, perilaku makan, distorsi citra tubuh, amenore, frekuensi makan berlebihan/muntah, status elektrolit, singkirkan penyebab medis."
+    }
+  ],
+  "differential_notes": [
+    {
+      "item": "Anorexia Nervosa vs Bulimia Nervosa",
+      "how_to_separate": "Source text insufficient. General knowledge: Anorexia = low BMI + restriction; Bulimia = normal BMI + binge-purge cycles. Both have body image disturbance."
+    }
+  ],
+  "treatment_notes": [
+    {
+      "phase": "general",
+      "content": "Teks sumber tidak mencukupi untuk detail pengobatan. Pendekatan umum: rehabilitasi nutrisi, CBT, terapi keluarga, SSRI (terutama fluoksetin untuk bulimia). Pantau risiko bunuh diri dan gangguan elektrolit."
+    }
+  ],
+  "red_flags": [
+    "Berat badan sangat rendah (BMI < 18.5, atau < 17 untuk anorexia)",
+    "Electrolyte imbalance (hypokalemia dari purge)",
+    "Bradikardia, hipotensi, hipotermia",
+    "Ide bunuh diri",
+    "Erosion gigi (bulimia)",
+    "Amenoreoa"
+  ],
+  "extraction_notes": [
+    "Title slide clearly identifies topic (Gangguan Makan: Bulimia, Anorexia Nervosa) and lecturer (Dr. Tumpak Saragi, SpKJ).",
+    "Slide 2-32 contain only image content with no extractable text layer.",
+    "Closing slide (33) is a 'Terima Kasih' slide.",
+    "This is a high-fragmentary source that cannot be faithfully reconstructed without visual extraction.",
+    "Source was likely a visually rich presentation with diagnostic criteria tables, comparison charts, and clinical images."
+  ],
+  "confidence_summary": "sangat_rendah",
+  "qc_flags": [
+    "source_fragmentary",
+    "image_only_slides",
+    "major_content_gap"
+  ]
+}

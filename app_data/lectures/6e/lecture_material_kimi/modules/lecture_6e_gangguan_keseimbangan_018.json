@@ -1,0 +1,302 @@
+{
+  "id": "lecture_6e_gangguan_keseimbangan_018",
+  "batch_id": "batch_1_6e",
+  "title": "Gangguan Keseimbangan",
+  "subtitle": "Kimi rerun: neuro_vestibular",
+  "source_pdf": "PPT Gangguan Keseimbangan.docx",
+  "source_docx": "PPT Gangguan Keseimbangan.docx",
+  "source_pages": [],
+  "summary": [
+    "Kuliah komprehensif tentang gangguan keseimbangan yang mencakup anatomi sistem keseimbangan (vestibular, visual, proprioseptif), patofisiologi vertigo dan ketidakseimbangan, pendekatan klinis (anamnesis, pemeriksaan termasuk Romberg, Fukuda, Unterberger, analisis jalan), tes diagnostik (audiometri, VNG, tes kalorik, posturografi), serta kondisi umum termasuk BPPV, penyakit Meniere, neuritis vestibular, neuroma akustik, vestibulopati bilateral, dan PPPD (Persistent Postural-Perceptual Dizziness).",
+    "Balance depends on integration of vestibular (inner ear), visual, and proprioceptive (somatosensory) systems processed by the cerebellum and brainstem",
+    "Romberg test evaluates proprioception; sharpened Romberg adds challenge",
+    "Fukuda stepping test: >30 degrees rotation or >50cm displacement suggests vestibular asymmetry"
+  ],
+  "exam_focus": [
+    "Three balance systems (vestibular, visual, proprioceptive)",
+    "Fukuda and Unterberger test interpretation",
+    "Caloric test as gold standard",
+    "PPPD diagnostic criteria",
+    "Epley maneuver for BPPV"
+  ],
+  "learning_goals": [
+    "Memahami tiga sistem yang memelihara keseimbangan",
+    "Melakukan pemeriksaan keseimbangan termasuk tes Romberg, Fukuda, dan Unterberger",
+    "Menginterpretasi temuan VNG dan tes kalorik",
+    "Mendiagnosis dan menatalaksana gangguan keseimbangan yang umum"
+  ],
+  "key_points": [
+    "Balance depends on integration of vestibular (inner ear), visual, and proprioceptive (somatosensory) systems processed by the cerebellum and brainstem",
+    "Romberg test evaluates proprioception; sharpened Romberg adds challenge",
+    "Fukuda stepping test: >30 degrees rotation or >50cm displacement suggests vestibular asymmetry",
+    "Unterberger test: rotation toward affected side suggests unilateral vestibular hypofunction",
+    "PPPD is a chronic functional dizziness syndrome lasting >3 months"
+  ],
+  "sections": [
+    {
+      "id": "s01",
+      "title": "Anatomi Sistem Keseimbangan",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Balance is maintained by integration of three sensory systems: VESTIBULAR SYSTEM (inner ear - semicircular canals for angular acceleration, otolith organs for linear acceleration/gravity); VISUAL SYSTEM (provides spatial orientation and reference); and PROPRIoCEPTIVE/SOMATOSENSORY SYSTEM (joint position sense, muscle spindle input from feet and legs). These inputs are integrated in the CEREBELLUM and BRAINSTEM vestibular nuclei, with output to oculomotor system (VOR) and postural muscles. Dysfunction in any system or the integrator can cause imbalance.",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sistem vestibular: kanal semisirkular, organ otolit",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sistem visual: orientasi spasial",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sistem proprioseptif: posisi sendi, sensor kaki",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Integrasi: serebelum, nukleus vestibular batang otak",
+          "provenance": {
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "Balance is maintained by integration of three sensory systems: VESTIBULAR SYSTEM (inner ear - semicircular canals for angular acceleration, otolith organs for linear acceleration/gravity); VISUAL SYSTEM (provides spatial orientation and reference); and PROPRIoCEPTIVE/SOMATOSENSORY SYSTEM (joint position sense, muscle spindle input from feet and legs). These inputs are integrated in the CEREBELLUM and BRAINSTEM vestibular nuclei, with output to oculomotor system (VOR) and postural muscles. Dysfunction in any system or the integrator can cause imbalance. Sistem vestibular: kanal semisirkular, organ otolit",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s02",
+      "title": "Pendekatan Klinis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "HISTORY: Characterize the dizziness (spinning vs lightheaded vs imbalance), duration (seconds/minutes/hours/days), triggers (position change, head movement, standing), associated symptoms (hearing loss, tinnitus, nausea, neurological symptoms), and medical history (hypertension, diabetes, medications). KEY QUESTIONS: Is it true vertigo or non-vertiginous dizziness? Is it constant or episodic? What triggers it? Are there auditory symptoms? Are there neurological symptoms?",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Karakter: vertigo vs pusing vs tidak stabil",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Durasi: detik/menit/jam/hari",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pemicu: perubahan posisi, gerakan kepala, berdiri",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gejala penyerta: gangguan dengar, tinitus, mual, defisit neurologis",
+          "provenance": {
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "HISTORY: Characterize the dizziness (spinning vs lightheaded vs imbalance), duration (seconds/minutes/hours/days), triggers (position change, head movement, standing), associated symptoms (hearing loss, tinnitus, nausea, neurological symptoms), and medical history (hypertension, diabetes, medications). KEY QUESTIONS: Is it true vertigo or non-vertiginous dizziness? Is it constant or episodic? What triggers it? Are there auditory symptoms? Are there neurological symptoms? Karakter: vertigo vs pusing vs tidak stabil",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s03",
+      "title": "Pemeriksaan Fisik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "ROMBERG TEST: Stand feet together, eyes closed; positive if sway/fall increases with eyes closed (indicates proprioceptive or vestibular loss). SHARPENED ROMBERG: Tandem stance (heel-to-toe), eyes closed. FUKUDA STEPPING TEST: March in place with eyes closed for 50 steps; rotation >30 degrees or forward/backward displacement >50cm suggests unilateral vestibular hypofunction. UNTERBERGER TEST: March in place with eyes closed and arms raised; rotation toward affected side indicates unilateral vestibular lesion. HEAD IMPULSE TEST: Rapid head turn while fixating; catch-up saccade indicates reduced VOR on that side. DIX-HALLPIKE: For BPPV diagnosis - head hanging precipitates rotatory nystagmus. GAIT EXAMINATION: Observe initiation, stride, arm swing, turning, tandem walking.",
+          "provenance": {
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "ROMBERG TEST: Stand feet together, eyes closed; positive if sway/fall increases with eyes closed (indicates proprioceptive or vestibular loss). SHARPENED ROMBERG: Tandem stance (heel-to-toe), eyes closed. FUKUDA STEPPING TEST: March in place with eyes closed for 50 steps; rotation >30 degrees or forward/backward displacement >50cm suggests unilateral vestibular hypofunction. UNTERBERGER TEST: March in place with eyes closed and arms raised; rotation toward affected side indicates unilateral vestibular lesion. HEAD IMPULSE TEST: Rapid head turn while fixating; catch-up saccade indicates reduced VOR on that side. DIX-HALLPIKE: For BPPV diagnosis - head hanging precipitates rotatory nystagmus. GAIT EXAMINATION: Observe initiation, stride, arm swing, turning, tandem walking.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s04",
+      "title": "Pemeriksaan Penunjang",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "AUDIOGRAM: Pure tone audiometry, speech audiometry, tympanometry. Sensorineural hearing loss with low-frequency component suggests Meniere; asymmetric hearing loss suggests acoustic neuroma. VNG (VIDEO NYSTAGMOGRAPHY): Records eye movements to assess vestibular function. Includes spontaneous nystagmus, gaze testing, smooth pursuit, saccades, optokinetic nystagmus, positional testing, and caloric testing. CALORIC TEST: Gold standard for assessing individual horizontal semicircular canal function. Warm (44C) and cool (30C) water irrigation. Normal response: nystagmus toward irrigated ear with warm, away with cool. Canal paresis: reduced response on one side. Directional preponderance: stronger response in one direction. POSTUROGRAPHY: Computerized platform measuring postural sway under various conditions (eyes open/closed, platform stable/moving).",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Audiogram: SNHL low-freq = Meniere; asimetris = neuroma akustik",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "VNG: nistagmus spontan, smooth pursuit, saccade, kalorik",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tes kalorik: standar emas fungsi kanal horizontal",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Posturografi: ukur sway postural",
+          "provenance": {
+            "source_paragraph_index": 3,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "AUDIOGRAM: Pure tone audiometry, speech audiometry, tympanometry. Sensorineural hearing loss with low-frequency component suggests Meniere; asymmetric hearing loss suggests acoustic neuroma. VNG (VIDEO NYSTAGMOGRAPHY): Records eye movements to assess vestibular function. Includes spontaneous nystagmus, gaze testing, smooth pursuit, saccades, optokinetic nystagmus, positional testing, and caloric testing. CALORIC TEST: Gold standard for assessing individual horizontal semicircular canal function. Warm (44C) and cool (30C) water irrigation. Normal response: nystagmus toward irrigated ear with warm, away with cool. Canal paresis: reduced response on one side. Directional preponderance: stronger response in one direction. POSTUROGRAPHY: Computerized platform measuring postural sway under various conditions (eyes open/closed, platform stable/moving). Audiogram: SNHL low-freq = Meniere; asimetris = neuroma akustik",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    },
+    {
+      "id": "s05",
+      "title": "Gangguan Umum dan Manajemen",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "BPPV: Epley maneuver for posterior canal; Brandt-Daroff exercises; rare cases require surgery. MENIERE: Low-salt diet, diuretics, betahistine; intratympanic gentamicin or steroids for refractory; endolymphatic sac surgery. VESTIBULAR NEURITIS: Corticosteroids (methylprednisolone) within 72 hours, antiemetics, early vestibular rehabilitation. ACOUSTIC NEUROMA (Vestibular Schwannoma): MRI with contrast; management options include observation, stereotactic radiosurgery, or microsurgical removal depending on size and symptoms. BILATERAL VESTIBULOPATHY: From ototoxic drugs (aminoglycosides), meningitis, autoimmune disorders; vestibular rehabilitation is mainstay. PPPD (Persistent Postural-Perceptual Dizziness): Chronic non-spinning dizziness >3 months, worse with upright posture and complex visual stimuli; treated with SSRIs (sertraline), CBT, and desensitization exercises.",
+          "provenance": {
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "summary": "BPPV: Epley maneuver for posterior canal; Brandt-Daroff exercises; rare cases require surgery. MENIERE: Low-salt diet, diuretics, betahistine; intratympanic gentamicin or steroids for refractory; endolymphatic sac surgery. VESTIBULAR NEURITIS: Corticosteroids (methylprednisolone) within 72 hours, antiemetics, early vestibular rehabilitation. ACOUSTIC NEUROMA (Vestibular Schwannoma): MRI with contrast; management options include observation, stereotactic radiosurgery, or microsurgical removal depending on size and symptoms. BILATERAL VESTIBULOPATHY: From ototoxic drugs (aminoglycosides), meningitis, autoimmune disorders; vestibular rehabilitation is mainstay. PPPD (Persistent Postural-Perceptual Dizziness): Chronic non-spinning dizziness >3 months, worse with upright posture and complex visual stimuli; treated with SSRIs (sertraline), CBT, and desensitization exercises.",
+      "visual_refs": [],
+      "quiz_refs": [],
+      "glossary_refs": []
+    }
+  ],
+  "glossary": [
+    {
+      "term": "VOR",
+      "meaning": "Vestibulo-Ocular Reflex"
+    },
+    {
+      "term": "VNG",
+      "meaning": "Video Nystagmography"
+    },
+    {
+      "term": "PPPD",
+      "meaning": "Persistent Postural-Perceptual Dizziness"
+    },
+    {
+      "term": "Canal paresis",
+      "meaning": "Respons berkurang pada satu sisi tes kalorik"
+    }
+  ],
+  "tables": [],
+  "diagnostic_logic": [
+    {
+      "step": 1,
+      "title": "Take detailed history",
+      "explanation": "Character, duration, triggers, associated symptoms"
+    },
+    {
+      "step": 2,
+      "title": "Perform bedside tests",
+      "explanation": "Romberg, Fukuda, Unterberger, head impulse, Dix-Hallpike"
+    },
+    {
+      "step": 3,
+      "title": "Order targeted diagnostics",
+      "explanation": "Audiogram, VNG, caloric test, MRI if indicated"
+    },
+    {
+      "step": 4,
+      "title": "Implement condition-specific treatment",
+      "explanation": "Epley for BPPV, salt restriction for Meniere, steroids for neuritis, SSRIs for PPPD"
+    }
+  ],
+  "differential_notes": [],
+  "treatment_notes": [],
+  "red_flags": [
+    "New neurological deficits with vertigo",
+    "Vertical nystagmus",
+    "Severe continuous vertigo in high vascular risk patient",
+    "Asymmetric hearing loss with retrocochlear features"
+  ],
+  "extraction_notes": [
+    "Lecturer identified as Prof. dr. M. Bakri, Sp.S(K)., FINS",
+    "Physical examination tests well-described",
+    "Diagnostic test descriptions preserved",
+    "Multiple balance disorder management options covered"
+  ],
+  "confidence_summary": "high",
+  "qc_flags": []
+}
