@@ -4741,40 +4741,14 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
     group,
     items:groupedSurfaces[group] || [],
   })).filter(group => group.items.length);
-  const hubGroups = [
-    ...surfaceGroups.map(group => ({
-      id:group.group,
-      title:group.group,
-      sub:`${group.items.length} pages`,
-      kicker:'Pages',
-      type:'pages',
-      items:group.items,
-    })),
-    {
-      id:'Lectures',
-      title:'Lectures',
-      sub:`${lectureDomains.reduce((sum, domain) => sum + Number(domain.moduleCount || (Array.isArray(domain.modules) ? domain.modules.length : 0)), 0)} modules`,
-      kicker:'Content',
-      type:'lectures',
-      items:lectureDomains,
-    },
-    {
-      id:'Exam Sets',
-      title:'Exam Sets',
-      sub:`${examSets.length} sets`,
-      kicker:'Content',
-      type:'exams',
-      items:examSets,
-    },
-    {
-      id:'Features',
-      title:'Features',
-      sub:'App controls and tools',
-      kicker:'Tools',
-      type:'features',
-      items:CORTEX_FAB_FEATURES,
-    },
-  ];
+  const hubGroups = surfaceGroups.map(group => ({
+    id:group.group,
+    title:group.group,
+    sub:`${group.items.length} fitur`,
+    kicker:'Fitur',
+    type:'pages',
+    items:group.items,
+  }));
   const activeGroupItems = groupedSurfaces[fabGroup] || [];
   const getFabBasePosition = React.useCallback(() => ({
     x: Math.max(16, window.innerWidth - (compact ? 158 : 176)),
@@ -10599,9 +10573,53 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
   const allowFabDrag = mode === 'desktop';
   const [fabOpen, setFabOpen] = React.useState(false);
   const [fabPos, setFabPos] = React.useState(null);
-  const [fabGroup, setFabGroup] = React.useState('Foundation');
+  const [fabGroup, setFabGroup] = React.useState('🔍 Tools');
   const [fabActiveHub, setFabActiveHub] = React.useState(null);
   const fabDragRef = React.useRef({ active:false, moved:false, sx:0, sy:0, ox:0, oy:0 });
+
+  const HOME_FEATURE_GROUPS = [
+    { id:'🔍 Tools', surfaces:[6,12,13,14], label:'Find & Explore', sub:'Search, Images, 3D, Glossary' },
+    { id:'📊 Progress', surfaces:[19,8,7], label:'Track & Tune', sub:'Progress, Motion, Settings' },
+    { id:'🤖 AI', surfaces:[20,21], label:'AI Workspace', sub:'Assistant & Provider' },
+    { id:'ℹ️ Help', surfaces:[23], label:'Help', sub:'Privacy, states, about' },
+  ];
+  const HOME_FEATURE_IDS = HOME_FEATURE_GROUPS.flatMap(g => g.surfaces);
+  const groupedSurfaces = React.useMemo(() => {
+    const acc = {};
+    HOME_FEATURE_IDS.forEach(sid => {
+      const group = HOME_FEATURE_GROUPS.find(g => g.surfaces.includes(sid));
+      const surface = CORTEX_MAIN_SURFACES.find(s => s.id === sid);
+      if (group && surface) (acc[group.id] ||= []).push(surface);
+    });
+    return acc;
+  }, []);
+  const groupOrder = ['🔍 Tools', '📊 Progress', '🤖 AI', 'ℹ️ Help'];
+  const activeSurface = cortexSurfaceLookup(surfaceId || 2);
+  const surfaceMeta = {
+    note: { badge:'Calm', title:'Reading-focused', sub:'Quiet hierarchy and open spacing.' },
+    success: { badge:'Scan', title:'Fast recall', sub:'Structured and efficient.' },
+    warning: { badge:'Reference', title:'Reusable reference', sub:'Prepared for lookup and support.' },
+    danger: { badge:'Practice', title:'Interactive review', sub:'Warm feedback and progress.' },
+    info: { badge:'Ops', title:'Production surface', sub:'Ready for content injection.' },
+  }[activeSurface.tone] || { badge:'Surface', title:'Balanced', sub:'Ready for content.' };
+  const previewRows = [
+    { title:'Layout', sub:activeSurface.hint },
+    { title:'Purpose', sub:activeSurface.summary },
+    { title:'Action', sub:`Use this surface as a production-ready slot for ${activeSurface.label.toLowerCase()}.` },
+  ];
+  const surfaceGroups = groupOrder.map(group => ({
+    group,
+    items:groupedSurfaces[group] || [],
+  })).filter(group => group.items.length);
+  const hubGroups = surfaceGroups.map(group => ({
+    id:group.group,
+    title:group.group,
+    sub:`${group.items.length} fitur`,
+    kicker:'Fitur',
+    type:'pages',
+    items:group.items,
+  }));
+  const activeGroupItems = groupedSurfaces[fabGroup] || [];
   const getFabBasePosition = React.useCallback(() => ({
     x: Math.max(16, window.innerWidth - (compact ? 158 : 176)),
     y: Math.max(16, window.innerHeight - (compact ? 98 : 110)),
@@ -10622,48 +10640,6 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
     { id:'bloom', name:'Sunset Bloom', note:'Warm playful alternate visual route.' },
     { id:'monochrome', name:'Monochrome', note:'Minimal luxury grayscale route.' },
   ];
-  const groupedSurfaces = CORTEX_MAIN_SURFACES.reduce((acc, surface) => {
-    (acc[surface.group] ||= []).push(surface);
-    return acc;
-  }, {});
-  const groupOrder = ['Foundation', 'Learn', 'Review', 'Reference', 'Practice', 'Ops', 'Support'];
-  const activeSurface = cortexSurfaceLookup(surfaceId || 2);
-  const surfaceMeta = {
-    note: { badge:'Calm', title:'Reading-focused', sub:'Quiet hierarchy and open spacing.' },
-    success: { badge:'Scan', title:'Fast recall', sub:'Structured and efficient.' },
-    warning: { badge:'Reference', title:'Reusable reference', sub:'Prepared for lookup and support.' },
-    danger: { badge:'Practice', title:'Interactive review', sub:'Warm feedback and progress.' },
-    info: { badge:'Ops', title:'Production surface', sub:'Ready for content injection.' },
-  }[activeSurface.tone] || { badge:'Surface', title:'Balanced', sub:'Ready for content.' };
-
-  const previewRows = [
-    { title:'Layout', sub:activeSurface.hint },
-    { title:'Purpose', sub:activeSurface.summary },
-    { title:'Action', sub:`Use this surface as a production-ready slot for ${activeSurface.label.toLowerCase()}.` },
-  ];
-  const surfaceGroups = groupOrder.map(group => ({
-    group,
-    items:groupedSurfaces[group] || [],
-  })).filter(group => group.items.length);
-  const hubGroups = [
-    ...surfaceGroups.map(group => ({
-      id:group.group,
-      title:group.group,
-      sub:`${group.items.length} pages`,
-      kicker:'Pages',
-      type:'pages',
-      items:group.items,
-    })),
-    {
-      id:'Features',
-      title:'Features',
-      sub:'App controls and tools',
-      kicker:'Tools',
-      type:'features',
-      items:CORTEX_FAB_FEATURES,
-    },
-  ];
-  const activeGroupItems = groupedSurfaces[fabGroup] || [];
   const fabButtonPos = !allowFabDrag ? {
     right: 14,
     bottom: `calc(14px + env(safe-area-inset-bottom))`,
