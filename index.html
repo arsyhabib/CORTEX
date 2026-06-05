@@ -4721,7 +4721,7 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
     });
     return acc;
   }, []);
-  const groupOrder = ['Search', 'Progress', 'AI', 'Help'];`
+  const groupOrder = ['Search', 'Progress', 'AI', 'Help'];
   const activeSurface = cortexSurfaceLookup(surfaceId || 2);
   const surfaceMeta = {
     note: { badge:'Calm', title:'Reading-focused', sub:'Quiet hierarchy and open spacing.' },
@@ -7117,10 +7117,6 @@ const CORTEX_RUNTIME_CONTENT_INDEX_PATH = 'app_data/runtime/content_index.genera
 const CORTEX_RUNTIME_VISUAL_MANIFEST_PATH = 'app_data/runtime/visual_asset_manifest.generated.json';
 
 /** Detect if opened via file:// protocol (blocks fetch) */
-function cortexIsLocalFile() {
-  return typeof window !== 'undefined' && window.location && window.location.protocol === 'file:';
-}
-
 function cortexIsLocalFile() {
   return typeof window !== 'undefined' && window.location && window.location.protocol === 'file:';
 }
@@ -10584,7 +10580,15 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
     x: Math.max(16, window.innerWidth - (compact ? 158 : 176)),
     y: Math.max(16, window.innerHeight - (compact ? 98 : 110)),
   }), [compact]);
-  const fabMenuSide = React.useMemo(() => {});
+  const fabMenuSide = React.useMemo(() => {
+    const pos = fabPos || getFabBasePosition();
+    const width = compact ? 252 : 304;
+    const height = fabActiveHub ? (compact ? 468 : 520) : (compact ? 352 : 390);
+    return {
+      anchorRight: pos.x + width + 24 > window.innerWidth,
+      anchorBottom: pos.y + height + 92 > window.innerHeight,
+    };
+  }, [fabActiveHub, fabPos, getFabBasePosition, compact]);
   const themeRows = [
     { id:'neural', name:'Neural Pulse', note:'Core Claude DNA, synaptic purple-blue glass.' },
     { id:'aurora', name:'Aurora Prism', note:'Ethereal cyan/prism exploratory shell.' },
@@ -11339,39 +11343,15 @@ class CortexErrorBoundary extends React.Component {
   }
 }
 
-class CortexErrorBoundary extends React.Component {
-  constructor(props) { super(props); this.state = { hasError: false, error: null }; }
-  static getDerivedStateFromError(error) { return { hasError: true, error: error }; }
-  render() {
-    if (this.state.hasError) {
-      return React.createElement('div', { style: { padding: 40, fontFamily: '"SF Pro Display","Inter",sans-serif', color: '#e8ecf1', background: '#0a0a1a', minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center', gap: 16 } },
-        React.createElement('div', { style: { fontSize: 48, marginBottom: 8 } }, '⚡'),
-        React.createElement('div', { style: { fontSize: 22, fontWeight: 800 } }, 'Terjadi gangguan'),
-        React.createElement('div', { style: { fontSize: 14, opacity: 0.65, maxWidth: 420, lineHeight: 1.6 } }, 'Komponen halaman mengalami kesalahan. Coba refresh atau kembali ke studio utama.'),
-        React.createElement('button', { onClick: function() { window.location.reload(); }, style: { marginTop: 12, padding: '10px 24px', borderRadius: 14, border: '1px solid rgba(255,255,255,0.15)', background: 'rgba(255,255,255,0.08)', color: '#e8ecf1', fontSize: 14, cursor: 'pointer' } }, '⟳ Refresh halaman')
-      );
-    }
-    return this.props.children;
-  }
-}
-
 function CortexLibraryShell() {
   const [moduleLoading, setModuleLoading] = React.useState(false);
   const [examLoading, setExamLoading] = React.useState(false);
-
-  const [moduleLoading, setModuleLoading] = React.useState(false);
-  const [examLoading, setExamLoading] = React.useState(false);
   const [contentViewTab, setContentViewTab] = React.useState('read');
-  const isContentViewing = !!(selectedLecture || selectedExamSet);
-
-  React.useEffect(() => {
-    setContentViewTab(selectedExamSet ? 'quiz' : 'read');
-  }, [selectedLectureMeta && selectedLectureMeta.id, selectedExamSetMeta && selectedExamSetMeta.id]);
 
   const renderContentPanel = () => {
     const tabs = selectedExamSet
-      ? [{ id:'quiz', label:'✏️ Quiz', hint:'Interactive quiz' }, { id:'flashcard', label:'U0001f0cf Flashcard', hint:'Recall cards' }]
-      : [{ id:'read', label:'U0001f4d6 Baca', hint:'Typography reading' }, { id:'bullets', label:'U0001f4cb Poin', hint:'Structured bullets' }, { id:'pearls', label:'U0001f4a1 Pearl', hint:'Clinical pearls' }, { id:'summary', label:'U0001f4dd Ringkas', hint:'Quick summary' }, { id:'simple', label:'U0001f310 Simple', hint:'Bilingual view' }];
+      ? [{ id:'quiz', label:'\u270f\ufe0f Quiz', hint:'Interactive quiz' }, { id:'flashcard', label:'\ud83c\udccf Flashcard', hint:'Recall cards' }]
+      : [{ id:'read', label:'\ud83d\udcd6 Baca', hint:'Typography reading' }, { id:'bullets', label:'\ud83d\udccb Poin', hint:'Structured bullets' }, { id:'pearls', label:'\ud83d\udca1 Pearl', hint:'Clinical pearls' }, { id:'summary', label:'\ud83d\udcdd Ringkas', hint:'Quick summary' }, { id:'simple', label:'\ud83d\udd10 Simple', hint:'Bilingual view' }];
     const cProps = { onNavigate:navigate, themeId:theme.id, theme, onThemeChange:setThemeId, highlightTone, onHighlightToneChange:setHighlightTone, lectureDomain:selectedLectureDomain, lectureModule:selectedLecture, lectureModuleMeta:selectedLectureMeta, examSet:selectedExamSet, examSetMeta:selectedExamSetMeta, visualManifest:visualManifest, visualManifestStatus:visualManifestStatus, visualAssets:visualAssets, selectedVisualId:selectedVisualId, onSelectVisual:setSelectedVisualId };
     const cMap = selectedExamSet
       ? { quiz: window.PageQuiz, flashcard: window.PageFlashcard }
@@ -11387,7 +11367,7 @@ function CortexLibraryShell() {
           ? React.createElement('div', { style:{ padding:40, textAlign:'center', color:DL.sub, fontSize:13 }}, '⏳ Memuat konten...')
           : React.createElement(Comp, cProps)
       ),
-      React.createElement('button', { onClick:function(){ setSelectedLectureId(null); setSelectedExamSetId(null); navigate(0); }, style:{ position:'fixed', bottom:24, right:24, width:46, height:46, borderRadius:'50%', background:'linear-gradient(135deg, #10b981, #06b6d4)', color:'#fff', fontSize:20, cursor:'pointer', zIndex:70, boxShadow:'0 4px 18px rgba(16,185,129,0.35)', display:'flex', alignItems:'center', justifyContent:'center', border:'none' } }, 'U0001f3e0')
+      React.createElement('button', { onClick:function(){ setSelectedLectureId(null); setSelectedExamSetId(null); navigate(0); }, style:{ position:'fixed', bottom:24, right:24, width:46, height:46, borderRadius:'50%', background:'linear-gradient(135deg, #10b981, #06b6d4)', color:'#fff', fontSize:20, cursor:'pointer', zIndex:70, boxShadow:'0 4px 18px rgba(16,185,129,0.35)', display:'flex', alignItems:'center', justifyContent:'center', border:'none' } }, '\u{1f3e0}')
     );
   };
 
@@ -11435,6 +11415,7 @@ function CortexLibraryShell() {
   });
   const [selectedLecture, setSelectedLecture] = React.useState(null);
   const [selectedExamSet, setSelectedExamSet] = React.useState(null);
+  const isContentViewing = !!(selectedLecture || selectedExamSet);
   const [selectedVisual, setSelectedVisual] = React.useState(null);
   const [sidebarOpen, setSidebarOpen] = React.useState(false);
   const [sidebarPinnedHidden, setSidebarPinnedHidden] = React.useState(false);
@@ -11480,6 +11461,11 @@ function CortexLibraryShell() {
   const selectedLectureMeta = React.useMemo(() => lectureModules.find((item) => item.id === selectedLectureId) || lectureModules[0] || null, [lectureModules, selectedLectureId]);
   const selectedLectureDomain = React.useMemo(() => lectureDomains.find((domain) => domain.id === (selectedLectureMeta && selectedLectureMeta.domainId)) || null, [lectureDomains, selectedLectureMeta]);
   const selectedExamSetMeta = React.useMemo(() => examSets.find((item) => item.id === selectedExamSetId) || examSets[0] || null, [examSets, selectedExamSetId]);
+
+  React.useEffect(() => {
+    setContentViewTab(selectedExamSet ? 'quiz' : 'read');
+  }, [selectedLectureMeta?.id, selectedExamSetMeta?.id, selectedExamSet]);
+
   const highlightColor = React.useMemo(() => {
     return highlightTone === 'stabilo'
       ? '#ffd84f'
@@ -11491,17 +11477,6 @@ function CortexLibraryShell() {
     x: fabViewportLeft,
     y: Math.max(14, window.innerHeight - 116),
   }), [fabViewportLeft]);
-  const currentTopbarTitle = page === 9 && selectedLectureMeta
-    ? selectedLectureMeta.title
-    : page === 12 && selectedVisualMeta
-      ? selectedVisualMeta.title
-      : page === 13 && selectedVisualMeta
-        ? `${selectedVisualMeta.title} · 3D`
-    : page === 17 && selectedExamSetMeta
-      ? selectedExamSetMeta.title
-      : page === 0
-        ? `Main Studio / ${cortexSurfaceLookup(surfaceId).label}`
-        : current.label;
 
   React.useEffect(() => {
     let cancelled = false;
@@ -11588,6 +11563,17 @@ function CortexLibraryShell() {
     if (!visualAssets.length) return null;
     return visualAssets.find((item) => item.id === selectedVisualId) || visualAssets[0] || null;
   }, [selectedVisualId, visualAssets]);
+  const currentTopbarTitle = page === 9 && selectedLectureMeta
+    ? selectedLectureMeta.title
+    : page === 12 && selectedVisualMeta
+      ? selectedVisualMeta.title
+      : page === 13 && selectedVisualMeta
+        ? `${selectedVisualMeta.title} · 3D`
+    : page === 17 && selectedExamSetMeta
+      ? selectedExamSetMeta.title
+      : page === 0
+        ? `Main Studio / ${cortexSurfaceLookup(surfaceId).label}`
+        : current.label;
 
   React.useEffect(() => {
     if (selectedVisualMeta && selectedVisualId !== selectedVisualMeta.id) {
@@ -12363,7 +12349,7 @@ function CortexLibraryShell() {
   );
 }
 
-Object.assign(window, { CORTEX_LIBRARY_PAGES, PageBatch0Kernel, CortexLibraryShell });
+Object.assign(window, { CORTEX_LIBRARY_PAGES, PageBatch0Kernel, CortexLibraryShell, CortexErrorBoundary });
 
 </script>
 
@@ -12371,7 +12357,9 @@ Object.assign(window, { CORTEX_LIBRARY_PAGES, PageBatch0Kernel, CortexLibraryShe
 
   <script type="text/babel">
     ReactDOM.createRoot(document.getElementById('root')).render(
-      React.createElement(CortexLibraryShell)
+      React.createElement(CortexErrorBoundary, null,
+        React.createElement(CortexLibraryShell)
+      )
     );
   </script>
 </body>
