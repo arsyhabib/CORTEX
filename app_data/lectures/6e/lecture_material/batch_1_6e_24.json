@@ -1,0 +1,1578 @@
+{
+  "id": "batch_1_6e_24",
+  "batch_id": "batch_1_6E",
+  "batch_label": "Batch 1 / 6E",
+  "block": "5e",
+  "title": "Stroke-dr.Erni Z, SpRad",
+  "subtitle": "Neurology lecturer-derived structured content; source-preserving extraction.",
+  "source_pdf": "source_docs/6E/stroke-dr.Erni Z, SpRad.docx",
+  "source_docx": "stroke-dr.Erni Z, SpRad.docx",
+  "source_pages": [],
+  "summary": [
+    "Modul stroke-dr.Erni Z, SpRad disusun ulang sebagai materi terstruktur untuk neurologi batch 1/6e, dengan jejak sumber tetap dipertahankan.",
+    "Fokus inti yang ditarik dari sumber: GAMBARAN RADIOLOGI HIPERTENSI STROKE HEMORAGIK.",
+    "Fokus inti yang ditarik dari sumber: Faktor Resiko.",
+    "Fokus inti yang ditarik dari sumber: Typical locations: .",
+    "Contoh pesan inti dari sumber: GAMBARAN RADIOLOGI HIPERTENSI STROKE HEMORAGIK."
+  ],
+  "exam_focus": [
+    "Stroke adalah suatu keadaan darurat yang dapat menyebabkan kerusakan saraf yang permanen, komplikasi dan bahkan kematian.",
+    "Management dan prognosis.",
+    "Merupakan manifestasi kompleks.",
+    "Perubahan serial gambaran hematoma pada CT dan MR dapat ditetapkan shg diagnosis yang acutrat dapat ditegakan."
+  ],
+  "sections": [
+    {
+      "id": "batch_1_6e_24_s01",
+      "title": "GAMBARAN RADIOLOGI HIPERTENSI STROKE HEMORAGIK.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Dr.Erni Zainuddin SpRad.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Stroke adalah suatu keadaan darurat yang dapat menyebabkan kerusakan saraf yang permanen, komplikasi dan bahkan kematian.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 6,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Di Eropa dan US merupakan penyebab.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 7,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kematian ke 2.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_24_01",
+        "Visual_batch_1_6e_24_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_24_01",
+        "Quiz_batch_1_6e_24_02",
+        "Quiz_batch_1_6e_24_03"
+      ],
+      "glossary_refs": [
+        "Term_hipertensi",
+        "Term_hypertensi",
+        "Term_stroke",
+        "Term_acut",
+        "Term_clot_formation_and_retraction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx",
+        "section_start_paragraph": 1,
+        "section_end_paragraph": 8
+      }
+    },
+    {
+      "id": "batch_1_6e_24_s02",
+      "title": "Faktor Resiko",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Hipertensi merupakan faktor resiko terpenting untuk terjadinya stroke.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 17,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Hipertensi kronis menyebabkan degenerasi pembuluh darah kecil terjadi mikroaneurisma (tiny lipohyalinotic aneurysma), fibroid necrosis ruptur.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 22,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perdarahan intraparenkim.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 23,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_24_01",
+        "Visual_batch_1_6e_24_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_24_01",
+        "Quiz_batch_1_6e_24_02",
+        "Quiz_batch_1_6e_24_03"
+      ],
+      "glossary_refs": [
+        "Term_hipertensi",
+        "Term_hypertensi",
+        "Term_stroke",
+        "Term_acut",
+        "Term_clot_formation_and_retraction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx",
+        "section_start_paragraph": 17,
+        "section_end_paragraph": 23
+      }
+    },
+    {
+      "id": "batch_1_6e_24_s03",
+      "title": "Typical locations:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Ganglia basal, thalamus, cerebellum dan brain stem (pons).",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 25,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "ICH karena hypertensi sering karena ruptur yang berukuran 50-200milimikron dari a lenticulostriata cabang arteri cerebri media ke putamen, nucleus caudatus.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 28,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Dapat juga ruptur dari cababg a Basilaris ke.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 29,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pontine atau thalamus.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 30,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "GOAL of Imaging Hemorrhagic.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 35,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Mengetahuai adanya perdarahan.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 36,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Lokasi perdarahan: Intra vs ekstra aksial,.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 37,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Singel vs multipel.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 38,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Ekstra aksial: subarahnoid, subdural, epidural.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 39,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Intra aksial: spesifik neuroanatomy.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 40,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Usia perdarahan.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 41,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Etiology perdarahan.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 42,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_24_01",
+        "Visual_batch_1_6e_24_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_24_01",
+        "Quiz_batch_1_6e_24_02",
+        "Quiz_batch_1_6e_24_03"
+      ],
+      "glossary_refs": [
+        "Term_hipertensi",
+        "Term_hypertensi",
+        "Term_stroke",
+        "Term_acut",
+        "Term_clot_formation_and_retraction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx",
+        "section_start_paragraph": 25,
+        "section_end_paragraph": 42
+      }
+    },
+    {
+      "id": "batch_1_6e_24_s04",
+      "title": "Gambaran CT",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Berdasarkan atenuasi X ray terhadap protein HB (relatif mendekati konsentrasi plasma).",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 49,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hiperacut.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 54,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Beberapa saat setelah ruptur pembuluh darah, hematom terdiri dari erytrocit, leucocyt, protein dalam sel dan platelet memberikan gambaran yang heterogen atenuasi 30- 60HU, tergantung plasma yang terlepas.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 55,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Atenuasi hampir sama dengan atenuasi corteks (kadang sulit dibedakan).",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 56,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Acut.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 61,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Beberapa menit hingga jam terbentuk fibrin.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 62,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Atenuasi 60-80 HU.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 63,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Subacut.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 64,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terjadi clot retraksi dan lepasnya serum.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 65,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Atenuasi 80-100 HU ditengah hematom.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 66,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Vasogenik edema terjadi disekitar hematom terjadi beberapa jam dan berlanjut bertambah sampai hingga 2 minggu setelah onset.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 71,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Setelah beberapa hari sel2 dan protein pecah dan di bersihkan o/ makrophag, lambat laun atenuasi berkurang secara gradual mulai dari perifer hematom menuju sentral.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 72,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "+/- 9 hari atenuasi menurun spt corteks, 2-3.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 73,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Minggu spt white matter.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 74,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_24_01",
+        "Visual_batch_1_6e_24_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_24_01",
+        "Quiz_batch_1_6e_24_02",
+        "Quiz_batch_1_6e_24_03"
+      ],
+      "glossary_refs": [
+        "Term_hipertensi",
+        "Term_hypertensi",
+        "Term_stroke",
+        "Term_acut",
+        "Term_clot_formation_and_retraction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx",
+        "section_start_paragraph": 49,
+        "section_end_paragraph": 74
+      }
+    },
+    {
+      "id": "batch_1_6e_24_s05",
+      "title": "Factors Influencing Magnetic Resonance Appearance of.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Hematomas.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 90,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Pulse sequence.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 91,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Field strength.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 92,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_24_01",
+        "Visual_batch_1_6e_24_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_24_01",
+        "Quiz_batch_1_6e_24_02",
+        "Quiz_batch_1_6e_24_03"
+      ],
+      "glossary_refs": [
+        "Term_hipertensi",
+        "Term_hypertensi",
+        "Term_stroke",
+        "Term_acut",
+        "Term_clot_formation_and_retraction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx",
+        "section_start_paragraph": 90,
+        "section_end_paragraph": 92
+      }
+    },
+    {
+      "id": "batch_1_6e_24_s06",
+      "title": "Clot formation and retraction.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Age, size, hematocrit of hemorrhage.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 94,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "State of oxygenation.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 95,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Blood-brain barrier integrity.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 96,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Presence of underlying lesion.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 97,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_24_01",
+        "Visual_batch_1_6e_24_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_24_01",
+        "Quiz_batch_1_6e_24_02",
+        "Quiz_batch_1_6e_24_03"
+      ],
+      "glossary_refs": [
+        "Term_hipertensi",
+        "Term_hypertensi",
+        "Term_stroke",
+        "Term_acut",
+        "Term_clot_formation_and_retraction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx",
+        "section_start_paragraph": 94,
+        "section_end_paragraph": 97
+      }
+    },
+    {
+      "id": "batch_1_6e_24_s07",
+      "title": "Merupakan manifestasi kompleks",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Pembentukan secara serial substansi zat.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 104,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Yang potensial magnetik.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 105,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Dari terbentuknya oxyhemoglobin.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 106,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Deoxyhemoglobin, methemoglobin,.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 107,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ferritin, and hemosiderin.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 108,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Status magnetik sebagai produk hemoglobin yang pecah.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 113,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Diamagnetik (oxy-HB).",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 114,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Paramagnetik (deoxy HB, Met HB).",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 115,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Superparamagnetik (Ferritin, Hemosiderin).",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 116,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Iron Metabolic States in Cerebral Hemorrhage and Magnetic Resonance Relaxation Effect.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 121,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_24_01",
+        "Visual_batch_1_6e_24_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_24_01",
+        "Quiz_batch_1_6e_24_02",
+        "Quiz_batch_1_6e_24_03"
+      ],
+      "glossary_refs": [
+        "Term_hipertensi",
+        "Term_hypertensi",
+        "Term_stroke",
+        "Term_acut",
+        "Term_clot_formation_and_retraction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx",
+        "section_start_paragraph": 104,
+        "section_end_paragraph": 121
+      }
+    },
+    {
+      "id": "batch_1_6e_24_s08",
+      "title": "HIPER ACUT",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "T1W relatif iso intens.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 134,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "T2W hiperintens.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 135,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "(ec vasogenic edema sekitar hematom).",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 136,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Adanya rim hipointens diperifer ok deoksi HB.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 137,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_24_01",
+        "Visual_batch_1_6e_24_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_24_01",
+        "Quiz_batch_1_6e_24_02",
+        "Quiz_batch_1_6e_24_03"
+      ],
+      "glossary_refs": [
+        "Term_hipertensi",
+        "Term_hypertensi",
+        "Term_stroke",
+        "Term_acut",
+        "Term_clot_formation_and_retraction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx",
+        "section_start_paragraph": 134,
+        "section_end_paragraph": 137
+      }
+    },
+    {
+      "id": "batch_1_6e_24_s09",
+      "title": "ACUT",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "T1W isointens.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 139,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "T2W Hipointens (deoksi Hb).",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 140,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_24_01",
+        "Visual_batch_1_6e_24_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_24_01",
+        "Quiz_batch_1_6e_24_02",
+        "Quiz_batch_1_6e_24_03"
+      ],
+      "glossary_refs": [
+        "Term_hipertensi",
+        "Term_hypertensi",
+        "Term_stroke",
+        "Term_acut",
+        "Term_clot_formation_and_retraction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx",
+        "section_start_paragraph": 139,
+        "section_end_paragraph": 140
+      }
+    },
+    {
+      "id": "batch_1_6e_24_s10",
+      "title": "EARLY SUBACUT",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "T1 W Hiperintens (oksi-deoksi HB ke metHB).",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 149,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "T2W Hipointens.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 150,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_24_01",
+        "Visual_batch_1_6e_24_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_24_01",
+        "Quiz_batch_1_6e_24_02",
+        "Quiz_batch_1_6e_24_03"
+      ],
+      "glossary_refs": [
+        "Term_hipertensi",
+        "Term_hypertensi",
+        "Term_stroke",
+        "Term_acut",
+        "Term_clot_formation_and_retraction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx",
+        "section_start_paragraph": 149,
+        "section_end_paragraph": 150
+      }
+    },
+    {
+      "id": "batch_1_6e_24_s11",
+      "title": "LATE SUBACUT",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "T1W Hipointens agak hiperintens.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 152,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "T2 W Hiperintens ok degradasi membaran sel darah merah dan vasogenik edema.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 153,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_24_01",
+        "Visual_batch_1_6e_24_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_24_01",
+        "Quiz_batch_1_6e_24_02",
+        "Quiz_batch_1_6e_24_03"
+      ],
+      "glossary_refs": [
+        "Term_hipertensi",
+        "Term_hypertensi",
+        "Term_stroke",
+        "Term_acut",
+        "Term_clot_formation_and_retraction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx",
+        "section_start_paragraph": 152,
+        "section_end_paragraph": 153
+      }
+    },
+    {
+      "id": "batch_1_6e_24_s12",
+      "title": "KRONIS",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "T2W, Hematom telah diserap, gambaran berupa Slit Like Cavity(celah) dengan rim yang hipointens ok hemosiderin deposisi.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 157,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "T1W iso- hipointens.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 158,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Efe k lokasi penyebab ICH.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 167,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Dibagi menjadi LOBAR dan NonLOBAR.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 168,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Lobar superficial brain.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 169,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perbatasan Cortico - subcortical.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 170,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Non Lobar Deep ICH, di putmen, head of nucleus.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 171,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Caudatus, thalamus.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 172,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Bila perdarahan massive sulit menentukan asal perdarahan, beberapa kasus bila ada keduanya biasanya ok deep ICH.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 173,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Beberapa study membandingkan Lobar dan.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 178,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Non lobar.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 179,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_24_01",
+        "Visual_batch_1_6e_24_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_24_01",
+        "Quiz_batch_1_6e_24_02",
+        "Quiz_batch_1_6e_24_03"
+      ],
+      "glossary_refs": [
+        "Term_hipertensi",
+        "Term_hypertensi",
+        "Term_stroke",
+        "Term_acut",
+        "Term_clot_formation_and_retraction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx",
+        "section_start_paragraph": 157,
+        "section_end_paragraph": 179
+      }
+    },
+    {
+      "id": "batch_1_6e_24_s13",
+      "title": "Hypertensi merupakan faktor resiko tertinggi.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Untuk ICH non Lobar.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 181,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Banyak kasus Hypertensi vasculopathy.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 182,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dengan usia tua non loobar.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 183,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Banyak kasus dengan ICH dg usia tua ok.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 184,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Cerebral Amyloid angiopathy (CAA) lobar.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 185,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Kecilnya hubungan antara lobar dan non lobar disimpulkan bahwa antara lobar dan non lobar mempunyai penyebab yang berbeda.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 186,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_24_01",
+        "Visual_batch_1_6e_24_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_24_01",
+        "Quiz_batch_1_6e_24_02",
+        "Quiz_batch_1_6e_24_03"
+      ],
+      "glossary_refs": [
+        "Term_hipertensi",
+        "Term_hypertensi",
+        "Term_stroke",
+        "Term_acut",
+        "Term_clot_formation_and_retraction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx",
+        "section_start_paragraph": 181,
+        "section_end_paragraph": 186
+      }
+    },
+    {
+      "id": "batch_1_6e_24_s14",
+      "title": "Imaging Evaluation for Hemorrhage in the acut stroke setting.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Tidak ada gambaran klinis yang pasti u memprediksi adanya stroke hemoragik diperlukan pem Radiologi.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 192,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "CT: Cepat, murah, dipakai luas, baik u pasien kontraindikasi MRI (metalic inplant, claustrophobia, pacemakers, MR.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 193,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Incompatible prostetic hert valve.).",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 194,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "MRI lebih sensitf daripada CT scan u perdarahan hyperacut, ok adanya deoxy -HB yang ada di perifer, hipointens dengan T2W dan GRE.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 199,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "MRI lebih sensitif dari CT u deteksi transformasi perdarahan dan deteksi cronic microbleeds.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 200,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_24_01",
+        "Visual_batch_1_6e_24_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_24_01",
+        "Quiz_batch_1_6e_24_02",
+        "Quiz_batch_1_6e_24_03"
+      ],
+      "glossary_refs": [
+        "Term_hipertensi",
+        "Term_hypertensi",
+        "Term_stroke",
+        "Term_acut",
+        "Term_clot_formation_and_retraction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx",
+        "section_start_paragraph": 192,
+        "section_end_paragraph": 200
+      }
+    },
+    {
+      "id": "batch_1_6e_24_s15",
+      "title": "GRE MRI sensitf tetapi tidak spesifik untuk.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Acut ICH.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 202,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kesimpulan.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "source_paragraph_index": 210,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Perubahan serial gambaran hematoma pada CT dan MR dapat ditetapkan shg diagnosis yang acutrat dapat ditegakan.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 211,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Penggunaan MRI, adekuat u identifikasi perdarahan acut, GRE MRI superior dari CT dan konvensional MRI.",
+              "children": [],
+              "provenance": {
+                "source_document": "stroke-dr.Erni Z, SpRad.docx",
+                "source_paragraph_index": 212,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "stroke-dr.Erni Z, SpRad.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_24_01",
+        "Visual_batch_1_6e_24_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_24_01",
+        "Quiz_batch_1_6e_24_02",
+        "Quiz_batch_1_6e_24_03"
+      ],
+      "glossary_refs": [
+        "Term_hipertensi",
+        "Term_hypertensi",
+        "Term_stroke",
+        "Term_acut",
+        "Term_clot_formation_and_retraction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx",
+        "section_start_paragraph": 202,
+        "section_end_paragraph": 212
+      }
+    },
+    {
+      "id": "batch_1_6e_24_s16",
+      "title": "Embedded visual material requiring downstream asset review.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Visual_asset_note",
+          "text": "Source DOCX contains 33 embedded image(s). Text extraction does not guarantee all visual labels/captions were captured; downstream Codex/asset pipeline should inspect embedded media before final compile.",
+          "embedded_image_count": 33,
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_24_embedded_review"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_24_01",
+        "Quiz_batch_1_6e_24_02",
+        "Quiz_batch_1_6e_24_03"
+      ],
+      "glossary_refs": [
+        "Term_hipertensi",
+        "Term_hypertensi",
+        "Term_stroke",
+        "Term_acut",
+        "Term_clot_formation_and_retraction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx",
+        "embedded_image_count": 33
+      }
+    },
+    {
+      "id": "batch_1_6e_24_s17",
+      "title": "Penjelasan sederhana / simpler bilingual bridge.",
+      "kind": "Bilingual",
+      "content": [
+        {
+          "type": "Simplified_id",
+          "text": "Versi sederhana: materi ini terutama membahas stroke-dr.erni z, sprad dengan fokus pada konsep klinis, diagnosis, tanda penting, dan tata laksana yang tampak di bahan dosen.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        },
+        {
+          "type": "Simplified_en",
+          "text": "Simple English bridge: this lecture centers on stroke-dr.erni z, sprad, emphasizing clinical concepts, diagnosis, key signs, and management points extracted from the lecturer file.",
+          "provenance": {
+            "source_document": "stroke-dr.Erni Z, SpRad.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_24_01",
+        "Visual_batch_1_6e_24_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_24_01",
+        "Quiz_batch_1_6e_24_02",
+        "Quiz_batch_1_6e_24_03"
+      ],
+      "glossary_refs": [
+        "Term_hipertensi",
+        "Term_hypertensi",
+        "Term_stroke",
+        "Term_acut",
+        "Term_clot_formation_and_retraction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx",
+        "generated_section": true
+      }
+    }
+  ],
+  "related_exam_set_ids": [],
+  "provenance": {
+    "source_document": "stroke-dr.Erni Z, SpRad.docx",
+    "manifest_document_id": "batch_1_6e_24",
+    "topic_tags": [
+      "Stroke",
+      "Vascular neurology"
+    ],
+    "extraction_method": "python-docx paragraph/table extraction; embedded images counted but not OCRed",
+    "paragraph_count": 108,
+    "table_count": 0,
+    "embedded_image_count": 33
+  }
+}

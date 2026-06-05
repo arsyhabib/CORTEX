@@ -1,0 +1,28 @@
+{
+  "results": [
+    {
+      "file": "original_exam_sets/mcq_6e_2025.original_exam_set.json",
+      "schema": "contract/schemas/original_exam_set.schema.json",
+      "status": "pass",
+      "error": ""
+    },
+    {
+      "file": "quiz_bank/mcq_6e_2025.quiz_bank.json",
+      "schema": "contract/schemas/quiz_bank.schema.json",
+      "status": "pass",
+      "error": ""
+    },
+    {
+      "file": "glossary/batch_1_mcq_6e_2025.glossary.json",
+      "schema": "contract/schemas/glossary.schema.json",
+      "status": "pass",
+      "error": ""
+    },
+    {
+      "file": "content_link_map/content_link_map.generated.json",
+      "schema": "contract/schemas/content_link_map.schema.json",
+      "status": "pass",
+      "error": ""
+    }
+  ]
+}

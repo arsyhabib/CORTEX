@@ -1,0 +1,226 @@
+{
+  "terms": [
+    {
+      "id": "gls_ppdgj",
+      "term": "PPDGJ III",
+      "domain": "psikiatri",
+      "definition": "Pedoman Penggolongan dan Diagnosis Gangguan Jiwa di Indonesia edisi III; digunakan untuk klasifikasi gangguan jiwa."
+    },
+    {
+      "id": "gls_dissomnia",
+      "term": "Dissomnia",
+      "domain": "psikiatri tidur",
+      "definition": "Gangguan primer jumlah, kualitas, atau waktu tidur, misalnya insomnia atau hipersomnia."
+    },
+    {
+      "id": "gls_parasomnia",
+      "term": "Parasomnia",
+      "domain": "psikiatri tidur",
+      "definition": "Peristiwa, perilaku, atau pengalaman abnormal yang muncul selama tidur, transisi tidur, atau saat bangun."
+    },
+    {
+      "id": "gls_tia",
+      "term": "TIA",
+      "domain": "neurologi vaskular",
+      "definition": "Transient ischemic attack; defisit neurologis fokal sementara yang pulih cepat tanpa infark menetap secara klasik."
+    },
+    {
+      "id": "gls_stroke_hemoragik",
+      "term": "Stroke hemoragik",
+      "domain": "neurologi vaskular",
+      "definition": "Stroke akibat perdarahan intrakranial, sering disertai nyeri kepala, muntah, atau penurunan kesadaran."
+    },
+    {
+      "id": "gls_stroke_iskemik",
+      "term": "Stroke non-hemoragik",
+      "domain": "neurologi vaskular",
+      "definition": "Stroke akibat oklusi pembuluh darah otak/iskemia tanpa perdarahan primer."
+    },
+    {
+      "id": "gls_bipolar",
+      "term": "Gangguan afektif bipolar",
+      "domain": "psikiatri",
+      "definition": "Gangguan mood episodik yang mencakup episode manik/hipomanik dan depresi."
+    },
+    {
+      "id": "gls_manik",
+      "term": "Episode manik",
+      "domain": "psikiatri",
+      "definition": "Episode mood meningkat atau iritabel dengan peningkatan energi, logore, flight of ideas, berkurangnya kebutuhan tidur, dan perilaku impulsif."
+    },
+    {
+      "id": "gls_mood_stabilizer",
+      "term": "Mood stabilizer",
+      "domain": "farmakologi psikiatri",
+      "definition": "Obat untuk menstabilkan episode mood, misalnya lithium, valproate, carbamazepine, dan lamotrigine."
+    },
+    {
+      "id": "gls_ssri",
+      "term": "SSRI",
+      "domain": "farmakologi psikiatri",
+      "definition": "Selective serotonin reuptake inhibitor; antidepresan yang meningkatkan neurotransmisi serotonin."
+    },
+    {
+      "id": "gls_tca",
+      "term": "Antidepresan trisiklik",
+      "domain": "farmakologi psikiatri",
+      "definition": "Golongan antidepresan seperti amitriptilin yang dapat menimbulkan efek antikolinergik."
+    },
+    {
+      "id": "gls_ect",
+      "term": "ECT",
+      "domain": "psikiatri",
+      "definition": "Electroconvulsive therapy; terapi kejang listrik terapeutik untuk kondisi psikiatri tertentu."
+    },
+    {
+      "id": "gls_um_n",
+      "term": "Upper motor neuron",
+      "domain": "neurologi",
+      "definition": "Neuron motorik pusat; lesinya menimbulkan spastisitas, hiperrefleksia, dan refleks patologis."
+    },
+    {
+      "id": "gls_lmn",
+      "term": "Lower motor neuron",
+      "domain": "neurologi",
+      "definition": "Neuron motorik perifer; lesinya menimbulkan kelemahan flaksid, atrofi, fasikulasi, dan hiporefleksia."
+    },
+    {
+      "id": "gls_bbb",
+      "term": "Blood-brain barrier",
+      "domain": "neuroanatomi",
+      "definition": "Sawar darah otak yang membatasi masuknya substansi dari darah ke jaringan otak."
+    },
+    {
+      "id": "gls_myelin",
+      "term": "Mielin",
+      "domain": "neuroanatomi",
+      "definition": "Selubung isolator akson yang mempercepat hantaran impuls saraf."
+    },
+    {
+      "id": "gls_sinus_kavernosus",
+      "term": "Sindrom sinus kavernosus",
+      "domain": "neurologi",
+      "definition": "Sindrom akibat lesi sinus kavernosus yang dapat melibatkan N. III, IV, VI, V1/V2, dan arteri karotis interna."
+    },
+    {
+      "id": "gls_horner",
+      "term": "Sindrom Horner",
+      "domain": "neurologi",
+      "definition": "Trias ptosis, miosis, dan anhidrosis akibat gangguan jalur simpatis okuloservikal."
+    },
+    {
+      "id": "gls_cpa",
+      "term": "Cerebellopontine angle",
+      "domain": "neurologi",
+      "definition": "Area sudut serebelopontin yang sering berkaitan dengan lesi N. VIII seperti schwannoma vestibular."
+    },
+    {
+      "id": "gls_epidural",
+      "term": "Hematoma epidural",
+      "domain": "neurotrauma",
+      "definition": "Perdarahan antara tulang tengkorak dan dura; CT klasik hiperdens bikonveks."
+    },
+    {
+      "id": "gls_mannitol",
+      "term": "Manitol",
+      "domain": "farmakologi neurologi",
+      "definition": "Diuretik osmotik yang digunakan untuk menurunkan tekanan intrakranial pada kondisi tertentu."
+    },
+    {
+      "id": "gls_pyridoxine",
+      "term": "Piridoksin",
+      "domain": "farmakologi",
+      "definition": "Vitamin B6 yang diberikan untuk mencegah neuropati perifer akibat isoniazid."
+    },
+    {
+      "id": "gls_ptsd",
+      "term": "PTSD",
+      "domain": "psikiatri",
+      "definition": "Gangguan stres pascatrauma dengan re-experiencing, avoidance, dan hiper-arousal setelah trauma berat."
+    },
+    {
+      "id": "gls_panic",
+      "term": "Gangguan panik",
+      "domain": "psikiatri",
+      "definition": "Serangan panik berulang dengan ketakutan hebat dan gejala otonom, disertai kekhawatiran akan serangan berikutnya."
+    },
+    {
+      "id": "gls_gad",
+      "term": "Gangguan ansietas menyeluruh",
+      "domain": "psikiatri",
+      "definition": "Kecemasan berlebihan dan menetap pada banyak hal, disertai gejala fisik/otonom."
+    },
+    {
+      "id": "gls_conversion",
+      "term": "Gangguan konversi",
+      "domain": "psikiatri",
+      "definition": "Gejala neurologis yang tidak sesuai atau tidak dapat dijelaskan oleh penyakit neurologis/medis yang diketahui."
+    },
+    {
+      "id": "gls_hypochondriasis",
+      "term": "Hipokondriasis",
+      "domain": "psikiatri",
+      "definition": "Preokupasi atau ketakutan memiliki penyakit serius meski evaluasi medis tidak mendukung."
+    },
+    {
+      "id": "gls_body_dysmorphic",
+      "term": "Body dysmorphic disorder",
+      "domain": "psikiatri",
+      "definition": "Preokupasi terhadap cacat penampilan yang sebenarnya tidak ada atau minimal."
+    },
+    {
+      "id": "gls_voyeurism",
+      "term": "Voyeurisme",
+      "domain": "psikiatri",
+      "definition": "Parafilia berupa dorongan atau perilaku mengamati orang lain dalam situasi intim/seksual."
+    },
+    {
+      "id": "gls_absence",
+      "term": "Kejang absence",
+      "domain": "neurologi",
+      "definition": "Kejang generalisata singkat dengan blank stare/bengong dan gangguan kesadaran singkat."
+    },
+    {
+      "id": "gls_paroxysmal",
+      "term": "Paroksismal",
+      "domain": "neurologi",
+      "definition": "Muncul mendadak, berlangsung episodik, lalu menghilang mendadak."
+    },
+    {
+      "id": "gls_stereotypic",
+      "term": "Stereotipik",
+      "domain": "neurologi",
+      "definition": "Pola serangan atau perilaku yang berulang dengan bentuk yang sama dan konsisten."
+    },
+    {
+      "id": "gls_toxoplasmosis",
+      "term": "Toksoplasmosis serebri",
+      "domain": "infeksi neurologi",
+      "definition": "Infeksi oportunistik pada otak, terutama pada HIV/imunosupresi, sering berupa lesi fokal."
+    },
+    {
+      "id": "gls_pituitary_adenoma",
+      "term": "Adenoma hipofisis",
+      "domain": "neuro-oftalmologi",
+      "definition": "Tumor hipofisis yang dapat menekan kiasma optikum dan menyebabkan hemianopsia bitemporal."
+    },
+    {
+      "id": "gls_dandy_walker",
+      "term": "Malformasi Dandy-Walker",
+      "domain": "neuropediatri",
+      "definition": "Malformasi fossa posterior dengan kelainan vermis serebeli dan kista, dapat disertai hidrosefalus."
+    },
+    {
+      "id": "gls_mnghten",
+      "term": "Aturan M’Naghten",
+      "domain": "psikiatri forensik",
+      "definition": "Doktrin pertanggungjawaban pidana terkait kemampuan memahami benar-salah pada gangguan jiwa."
+    },
+    {
+      "id": "gls_ver_psikiatrikum",
+      "term": "Visum et repertum psikiatrikum",
+      "domain": "psikiatri forensik",
+      "definition": "Laporan tertulis ahli psikiatri forensik untuk kepentingan hukum/peradilan."
+    }
+  ]
+}

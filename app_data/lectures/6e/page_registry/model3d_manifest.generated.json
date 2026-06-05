@@ -1,0 +1,906 @@
+{
+  "models": [
+    {
+      "id": "model_batch_1_6e_01_01",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D CNS anatomy explorer.",
+      "src": "Assets/models/neurology/model_batch_1_6e_01_01.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_01_01.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_01_01.webp",
+      "caption": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_01_01_h01",
+          "label": "Primary structure",
+          "description": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_01"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_01_02",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D vestibular pathway placeholder.",
+      "src": "Assets/models/neurology/model_batch_1_6e_01_02.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_01_02.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_01_02.webp",
+      "caption": "Inner ear, vestibular nerve, brainstem nuclei, cerebellum hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_01_02_h01",
+          "label": "Primary structure",
+          "description": "Inner ear, vestibular nerve, brainstem nuclei, cerebellum hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_01"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_02_01",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D CNS anatomy explorer.",
+      "src": "Assets/models/neurology/model_batch_1_6e_02_01.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_02_01.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_02_01.webp",
+      "caption": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_02_01_h01",
+          "label": "Primary structure",
+          "description": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_02"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "26 dr.Attiya - Gangguan Gerak.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_02_02",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D cerebral vascular territory placeholder.",
+      "src": "Assets/models/neurology/model_batch_1_6e_02_02.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_02_02.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_02_02.webp",
+      "caption": "MCA, ACA, PCA, basal ganglia, thalamus vascular hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_02_02_h01",
+          "label": "Primary structure",
+          "description": "MCA, ACA, PCA, basal ganglia, thalamus vascular hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_02"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "26 dr.Attiya - Gangguan Gerak.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_03_01",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D CNS anatomy explorer.",
+      "src": "Assets/models/neurology/model_batch_1_6e_03_01.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_03_01.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_03_01.webp",
+      "caption": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_03_01_h01",
+          "label": "Primary structure",
+          "description": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_03"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "6EF Infeksi.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_03_02",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D cerebral vascular territory placeholder.",
+      "src": "Assets/models/neurology/model_batch_1_6e_03_02.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_03_02.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_03_02.webp",
+      "caption": "MCA, ACA, PCA, basal ganglia, thalamus vascular hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_03_02_h01",
+          "label": "Primary structure",
+          "description": "MCA, ACA, PCA, basal ganglia, thalamus vascular hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_03"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "6EF Infeksi.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_04_01",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D cerebral vascular territory placeholder.",
+      "src": "Assets/models/neurology/model_batch_1_6e_04_01.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_04_01.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_04_01.webp",
+      "caption": "MCA, ACA, PCA, basal ganglia, thalamus vascular hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_04_01_h01",
+          "label": "Primary structure",
+          "description": "MCA, ACA, PCA, basal ganglia, thalamus vascular hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_04"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_05_01",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D cerebral vascular territory placeholder.",
+      "src": "Assets/models/neurology/model_batch_1_6e_05_01.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_05_01.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_05_01.webp",
+      "caption": "MCA, ACA, PCA, basal ganglia, thalamus vascular hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_05_01_h01",
+          "label": "Primary structure",
+          "description": "MCA, ACA, PCA, basal ganglia, thalamus vascular hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_05"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "CEREBRAL INFARK.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_07_01",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D CNS anatomy explorer.",
+      "src": "Assets/models/neurology/model_batch_1_6e_07_01.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_07_01.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_07_01.webp",
+      "caption": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_07_01_h01",
+          "label": "Primary structure",
+          "description": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_07"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "Kuliah PA Neurologi.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_07_02",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D cerebral vascular territory placeholder.",
+      "src": "Assets/models/neurology/model_batch_1_6e_07_02.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_07_02.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_07_02.webp",
+      "caption": "MCA, ACA, PCA, basal ganglia, thalamus vascular hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_07_02_h01",
+          "label": "Primary structure",
+          "description": "MCA, ACA, PCA, basal ganglia, thalamus vascular hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_07"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "Kuliah PA Neurologi.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_08_01",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D CNS anatomy explorer.",
+      "src": "Assets/models/neurology/model_batch_1_6e_08_01.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_08_01.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_08_01.webp",
+      "caption": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_08_01_h01",
+          "label": "Primary structure",
+          "description": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_08"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_08_02",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D peripheral nerve / spinal root placeholder.",
+      "src": "Assets/models/neurology/model_batch_1_6e_08_02.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_08_02.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_08_02.webp",
+      "caption": "Spinal cord, nerve roots, plexus, peripheral nerve hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_08_02_h01",
+          "label": "Primary structure",
+          "description": "Spinal cord, nerve roots, plexus, peripheral nerve hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_08"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_09_01",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D peripheral nerve / spinal root placeholder.",
+      "src": "Assets/models/neurology/model_batch_1_6e_09_01.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_09_01.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_09_01.webp",
+      "caption": "Spinal cord, nerve roots, plexus, peripheral nerve hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_09_01_h01",
+          "label": "Primary structure",
+          "description": "Spinal cord, nerve roots, plexus, peripheral nerve hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_09"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "Manajemen Pensa dan Koma - Koass.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_10_01",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D CNS anatomy explorer.",
+      "src": "Assets/models/neurology/model_batch_1_6e_10_01.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_10_01.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_10_01.webp",
+      "caption": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_10_01_h01",
+          "label": "Primary structure",
+          "description": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_10"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_10_02",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D cerebral vascular territory placeholder.",
+      "src": "Assets/models/neurology/model_batch_1_6e_10_02.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_10_02.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_10_02.webp",
+      "caption": "MCA, ACA, PCA, basal ganglia, thalamus vascular hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_10_02_h01",
+          "label": "Primary structure",
+          "description": "MCA, ACA, PCA, basal ganglia, thalamus vascular hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_10"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_11_01",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D peripheral nerve / spinal root placeholder.",
+      "src": "Assets/models/neurology/model_batch_1_6e_11_01.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_11_01.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_11_01.webp",
+      "caption": "Spinal cord, nerve roots, plexus, peripheral nerve hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_11_01_h01",
+          "label": "Primary structure",
+          "description": "Spinal cord, nerve roots, plexus, peripheral nerve hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_11"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_12_01",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D vestibular pathway placeholder.",
+      "src": "Assets/models/neurology/model_batch_1_6e_12_01.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_12_01.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_12_01.webp",
+      "caption": "Inner ear, vestibular nerve, brainstem nuclei, cerebellum hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_12_01_h01",
+          "label": "Primary structure",
+          "description": "Inner ear, vestibular nerve, brainstem nuclei, cerebellum hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_12"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_12_02",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D cerebral vascular territory placeholder.",
+      "src": "Assets/models/neurology/model_batch_1_6e_12_02.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_12_02.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_12_02.webp",
+      "caption": "MCA, ACA, PCA, basal ganglia, thalamus vascular hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_12_02_h01",
+          "label": "Primary structure",
+          "description": "MCA, ACA, PCA, basal ganglia, thalamus vascular hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_12"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_13_01",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D CNS anatomy explorer.",
+      "src": "Assets/models/neurology/model_batch_1_6e_13_01.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_13_01.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_13_01.webp",
+      "caption": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_13_01_h01",
+          "label": "Primary structure",
+          "description": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_13"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_13_02",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D vestibular pathway placeholder.",
+      "src": "Assets/models/neurology/model_batch_1_6e_13_02.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_13_02.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_13_02.webp",
+      "caption": "Inner ear, vestibular nerve, brainstem nuclei, cerebellum hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_13_02_h01",
+          "label": "Primary structure",
+          "description": "Inner ear, vestibular nerve, brainstem nuclei, cerebellum hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_13"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_14_01",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D cerebral vascular territory placeholder.",
+      "src": "Assets/models/neurology/model_batch_1_6e_14_01.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_14_01.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_14_01.webp",
+      "caption": "MCA, ACA, PCA, basal ganglia, thalamus vascular hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_14_01_h01",
+          "label": "Primary structure",
+          "description": "MCA, ACA, PCA, basal ganglia, thalamus vascular hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_14"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_14_02",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D peripheral nerve / spinal root placeholder.",
+      "src": "Assets/models/neurology/model_batch_1_6e_14_02.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_14_02.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_14_02.webp",
+      "caption": "Spinal cord, nerve roots, plexus, peripheral nerve hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_14_02_h01",
+          "label": "Primary structure",
+          "description": "Spinal cord, nerve roots, plexus, peripheral nerve hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_14"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_15_01",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D CNS anatomy explorer.",
+      "src": "Assets/models/neurology/model_batch_1_6e_15_01.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_15_01.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_15_01.webp",
+      "caption": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_15_01_h01",
+          "label": "Primary structure",
+          "description": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_15"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_15_02",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D cerebral vascular territory placeholder.",
+      "src": "Assets/models/neurology/model_batch_1_6e_15_02.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_15_02.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_15_02.webp",
+      "caption": "MCA, ACA, PCA, basal ganglia, thalamus vascular hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_15_02_h01",
+          "label": "Primary structure",
+          "description": "MCA, ACA, PCA, basal ganglia, thalamus vascular hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_15"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_17_01",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D CNS anatomy explorer.",
+      "src": "Assets/models/neurology/model_batch_1_6e_17_01.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_17_01.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_17_01.webp",
+      "caption": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_17_01_h01",
+          "label": "Primary structure",
+          "description": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_17"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_17_02",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D intracranial mass location placeholder.",
+      "src": "Assets/models/neurology/model_batch_1_6e_17_02.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_17_02.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_17_02.webp",
+      "caption": "Supratentorial, infratentorial, extra-axial, intra-axial hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_17_02_h01",
+          "label": "Primary structure",
+          "description": "Supratentorial, infratentorial, extra-axial, intra-axial hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_17"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_19_01",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D CNS anatomy explorer.",
+      "src": "Assets/models/neurology/model_batch_1_6e_19_01.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_19_01.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_19_01.webp",
+      "caption": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_19_01_h01",
+          "label": "Primary structure",
+          "description": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_19"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "TUMOR SSP KULIAH.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_19_02",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D peripheral nerve / spinal root placeholder.",
+      "src": "Assets/models/neurology/model_batch_1_6e_19_02.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_19_02.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_19_02.webp",
+      "caption": "Spinal cord, nerve roots, plexus, peripheral nerve hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_19_02_h01",
+          "label": "Primary structure",
+          "description": "Spinal cord, nerve roots, plexus, peripheral nerve hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_19"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "TUMOR SSP KULIAH.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_20_01",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D CNS anatomy explorer.",
+      "src": "Assets/models/neurology/model_batch_1_6e_20_01.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_20_01.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_20_01.webp",
+      "caption": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_20_01_h01",
+          "label": "Primary structure",
+          "description": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_20"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_21_01",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D CNS anatomy explorer.",
+      "src": "Assets/models/neurology/model_batch_1_6e_21_01.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_21_01.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_21_01.webp",
+      "caption": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_21_01_h01",
+          "label": "Primary structure",
+          "description": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_21"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_21_02",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D intracranial mass location placeholder.",
+      "src": "Assets/models/neurology/model_batch_1_6e_21_02.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_21_02.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_21_02.webp",
+      "caption": "Supratentorial, infratentorial, extra-axial, intra-axial hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_21_02_h01",
+          "label": "Primary structure",
+          "description": "Supratentorial, infratentorial, extra-axial, intra-axial hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_21"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_22_01",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D cerebral vascular territory placeholder.",
+      "src": "Assets/models/neurology/model_batch_1_6e_22_01.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_22_01.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_22_01.webp",
+      "caption": "MCA, ACA, PCA, basal ganglia, thalamus vascular hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_22_01_h01",
+          "label": "Primary structure",
+          "description": "MCA, ACA, PCA, basal ganglia, thalamus vascular hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_22"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "dr.Patrick - neurorehab.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_23_01",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D CNS anatomy explorer.",
+      "src": "Assets/models/neurology/model_batch_1_6e_23_01.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_23_01.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_23_01.webp",
+      "caption": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_23_01_h01",
+          "label": "Primary structure",
+          "description": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_23"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_23_02",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D vestibular pathway placeholder.",
+      "src": "Assets/models/neurology/model_batch_1_6e_23_02.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_23_02.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_23_02.webp",
+      "caption": "Inner ear, vestibular nerve, brainstem nuclei, cerebellum hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_23_02_h01",
+          "label": "Primary structure",
+          "description": "Inner ear, vestibular nerve, brainstem nuclei, cerebellum hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_23"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_24_01",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D CNS anatomy explorer.",
+      "src": "Assets/models/neurology/model_batch_1_6e_24_01.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_24_01.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_24_01.webp",
+      "caption": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_24_01_h01",
+          "label": "Primary structure",
+          "description": "Brain, brainstem, cerebellum, basal ganglia, thalamus hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_24"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx"
+      }
+    },
+    {
+      "id": "model_batch_1_6e_24_02",
+      "type": "3d",
+      "domain": "neurology",
+      "title": "3D cerebral vascular territory placeholder.",
+      "src": "Assets/models/neurology/model_batch_1_6e_24_02.glb",
+      "ios_src": "Assets/models/neurology/model_batch_1_6e_24_02.usdz",
+      "poster": "Assets/posters/neurology/model_batch_1_6e_24_02.webp",
+      "caption": "MCA, ACA, PCA, basal ganglia, thalamus vascular hotspots.",
+      "hotspots": [
+        {
+          "id": "model_batch_1_6e_24_02_h01",
+          "label": "Primary structure",
+          "description": "MCA, ACA, PCA, basal ganglia, thalamus vascular hotspots."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_24"
+      ],
+      "lazy": true,
+      "status": "Placeholder_target_requires_asset_creation",
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx"
+      }
+    }
+  ],
+  "batch_id": "batch_1_6E",
+  "domain": "neurology"
+}

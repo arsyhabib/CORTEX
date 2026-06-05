@@ -1,0 +1,244 @@
+{
+  "terms": [
+    {
+      "id": "gls_gangguan_panik",
+      "term": "Gangguan panik",
+      "domain": "Psikiatri",
+      "definition": "Episode cemas berat yang muncul mendadak, disertai gejala otonom seperti berdebar, sesak, berkeringat, tremor, atau takut mati/kehilangan kontrol."
+    },
+    {
+      "id": "gls_ocd",
+      "term": "Obsessive-compulsive disorder (OCD)",
+      "domain": "Psikiatri",
+      "definition": "Gangguan dengan obsesi berulang dan/atau kompulsi yang dilakukan untuk menurunkan kecemasan atau mencegah konsekuensi yang ditakuti."
+    },
+    {
+      "id": "gls_hipokondriasis",
+      "term": "Hipokondriasis/gangguan hipokondrik",
+      "domain": "Psikiatri",
+      "definition": "Preokupasi menetap bahwa diri memiliki penyakit serius meski evaluasi medis tidak mendukung."
+    },
+    {
+      "id": "gls_amnesia_anterograde",
+      "term": "Amnesia anterograde",
+      "domain": "Neurologi",
+      "definition": "Gangguan membentuk atau menyimpan memori baru setelah suatu kejadian/cedera."
+    },
+    {
+      "id": "gls_napza_golongan_2",
+      "term": "NAPZA golongan 2",
+      "domain": "Adiksi/Forensik",
+      "definition": "Kelompok zat narkotika yang masih dapat digunakan terbatas untuk pengobatan/penelitian dan memiliki potensi ketergantungan tinggi."
+    },
+    {
+      "id": "gls_meningitis_tb",
+      "term": "Meningitis TB",
+      "domain": "Neurologi/Infeksi",
+      "definition": "Infeksi meninges oleh Mycobacterium tuberculosis; dapat memberikan LCS xantokrom dengan protein tinggi."
+    },
+    {
+      "id": "gls_status_epileptikus",
+      "term": "Status epileptikus",
+      "domain": "Neurologi",
+      "definition": "Kejang yang berlangsung lama atau berulang tanpa pemulihan kesadaran di antaranya, termasuk keadaan gawat darurat neurologis."
+    },
+    {
+      "id": "gls_fobia_sosial",
+      "term": "Fobia sosial",
+      "domain": "Psikiatri",
+      "definition": "Ketakutan menetap terhadap situasi sosial/performa yang dapat menimbulkan evaluasi negatif."
+    },
+    {
+      "id": "gls_sundowning",
+      "term": "Sundowning/sundowner syndrome",
+      "domain": "Psikiatri/Geriatri",
+      "definition": "Perburukan kebingungan, agitasi, atau gangguan perilaku pada sore/malam hari, sering pada demensia atau delirium."
+    },
+    {
+      "id": "gls_lobus_frontalis",
+      "term": "Lobus frontalis",
+      "domain": "Neuroanatomi",
+      "definition": "Bagian otak yang berperan dalam fungsi eksekutif, perilaku, inhibisi, perencanaan, dan kepribadian."
+    },
+    {
+      "id": "gls_propranolol",
+      "term": "Propranolol",
+      "domain": "Farmakologi/Neurologi",
+      "definition": "Beta-blocker nonselektif yang antara lain digunakan untuk tremor esensial/tremor aksi."
+    },
+    {
+      "id": "gls_mioklonus",
+      "term": "Mioklonus",
+      "domain": "Neurologi",
+      "definition": "Sentakan otot singkat, cepat, dan mendadak yang dapat terjadi pada kejang mioklonik."
+    },
+    {
+      "id": "gls_miller_fisher",
+      "term": "Miller Fisher syndrome",
+      "domain": "Neurologi",
+      "definition": "Varian Guillain-Barre syndrome yang klasiknya terkait oftalmoplegia, ataksia, dan arefleksia."
+    },
+    {
+      "id": "gls_anti_kolinesterase",
+      "term": "Anti-kolinesterase inhibitor",
+      "domain": "Farmakologi/Neurologi",
+      "definition": "Obat yang menghambat pemecahan asetilkolin, digunakan pada kondisi seperti myasthenia gravis dan beberapa demensia."
+    },
+    {
+      "id": "gls_meningioma",
+      "term": "Meningioma",
+      "domain": "Neuropatologi",
+      "definition": "Tumor yang berasal dari meninges dan umumnya bersifat ekstra-aksial."
+    },
+    {
+      "id": "gls_amitriptilin",
+      "term": "Amitriptilin",
+      "domain": "Farmakologi/Psikiatri",
+      "definition": "Antidepresan trisiklik dengan efek serotonergik/noradrenergik dan sifat antikolinergik."
+    },
+    {
+      "id": "gls_demensia_vaskular",
+      "term": "Demensia vaskular",
+      "domain": "Neurologi/Psikiatri",
+      "definition": "Gangguan kognitif mayor yang berkaitan dengan penyakit serebrovaskular atau riwayat stroke."
+    },
+    {
+      "id": "gls_delirium",
+      "term": "Delirium",
+      "domain": "Psikiatri/Neurologi",
+      "definition": "Gangguan akut dan fluktuatif pada perhatian, kesadaran, dan kognisi yang sering dipicu kondisi medis/obat."
+    },
+    {
+      "id": "gls_bppv",
+      "term": "BPPV",
+      "domain": "Neurologi/THT",
+      "definition": "Benign paroxysmal positional vertigo, vertigo posisi akibat gangguan otolit pada kanalis semisirkularis."
+    },
+    {
+      "id": "gls_epley_maneuver",
+      "term": "Epley maneuver",
+      "domain": "Neurologi/THT",
+      "definition": "Manuver reposisi kanalit yang digunakan sebagai terapi BPPV, terutama kanal posterior."
+    },
+    {
+      "id": "gls_maoi",
+      "term": "MAOI",
+      "domain": "Farmakologi/Psikiatri",
+      "definition": "Monoamine oxidase inhibitor; antidepresan yang dapat berinteraksi dengan tiramin dan menimbulkan cheese reaction."
+    },
+    {
+      "id": "gls_internet_gaming_disorder",
+      "term": "Internet gaming disorder",
+      "domain": "Psikiatri",
+      "definition": "Pola penggunaan game yang persisten/berulang hingga mengganggu fungsi dan kontrol perilaku."
+    },
+    {
+      "id": "gls_bipolar",
+      "term": "Gangguan afektif bipolar",
+      "domain": "Psikiatri",
+      "definition": "Gangguan mood dengan episode mania/hipomania dan/atau depresi."
+    },
+    {
+      "id": "gls_flight_of_ideas",
+      "term": "Flight of ideas",
+      "domain": "Psikopatologi",
+      "definition": "Alur pikir cepat berpindah dari satu gagasan ke gagasan lain, sering pada mania."
+    },
+    {
+      "id": "gls_sirkumstansial",
+      "term": "Sirkumstansialitas",
+      "domain": "Psikopatologi",
+      "definition": "Gangguan bentuk pikir berupa jawaban bertele-tele dengan detail tidak perlu, tetapi akhirnya mencapai tujuan."
+    },
+    {
+      "id": "gls_fdia",
+      "term": "FDIA",
+      "domain": "Psikiatri",
+      "definition": "Akronim yang biasanya merujuk factitious disorder imposed on another; perlu verifikasi konteks karena sumber hanya memberi singkatan."
+    },
+    {
+      "id": "gls_romberg",
+      "term": "Tes Romberg",
+      "domain": "Neurologi",
+      "definition": "Pemeriksaan keseimbangan/propriosepsi; interpretasi bergantung pada jatuh saat mata tertutup atau juga saat terbuka."
+    },
+    {
+      "id": "gls_perdarahan_epidural",
+      "term": "Perdarahan epidural",
+      "domain": "Neurologi/Bedah Saraf",
+      "definition": "Perdarahan antara tulang tengkorak dan dura, klasik terkait hematoma bikonveks dan dapat disertai lucid interval."
+    },
+    {
+      "id": "gls_claustrophobia",
+      "term": "Claustrophobia",
+      "domain": "Psikiatri",
+      "definition": "Fobia spesifik terhadap ruang tertutup atau sempit."
+    },
+    {
+      "id": "gls_gaf",
+      "term": "GAF",
+      "domain": "Psikiatri",
+      "definition": "Global Assessment of Functioning, skala fungsi psikologis, sosial, dan pekerjaan."
+    },
+    {
+      "id": "gls_anoreksia_nervosa",
+      "term": "Anoreksia nervosa",
+      "domain": "Psikiatri",
+      "definition": "Gangguan makan dengan pembatasan asupan, berat badan sangat rendah, takut gemuk, dan distorsi citra tubuh."
+    },
+    {
+      "id": "gls_hoehn_yahr",
+      "term": "Hoehn and Yahr scale",
+      "domain": "Neurologi",
+      "definition": "Skala klinis untuk menggambarkan stadium penyakit Parkinson."
+    },
+    {
+      "id": "gls_ppdgj",
+      "term": "PPDGJ III",
+      "domain": "Psikiatri",
+      "definition": "Pedoman Penggolongan dan Diagnosis Gangguan Jiwa edisi III yang digunakan dalam konteks psikiatri Indonesia."
+    },
+    {
+      "id": "gls_schwannoma",
+      "term": "Schwannoma",
+      "domain": "Neuropatologi",
+      "definition": "Tumor selubung saraf dari sel Schwann, dapat menampilkan Verocay bodies."
+    },
+    {
+      "id": "gls_verocay_bodies",
+      "term": "Verocay bodies",
+      "domain": "Neuropatologi",
+      "definition": "Palisading nuclei khas pada schwannoma."
+    },
+    {
+      "id": "gls_skizofrenia_katatonik",
+      "term": "Skizofrenia katatonik",
+      "domain": "Psikiatri",
+      "definition": "Subtipe/manifestasi skizofrenia dengan dominasi gejala psikomotor seperti stupor, mutisme, rigiditas, atau posturing."
+    },
+    {
+      "id": "gls_rivastigmine",
+      "term": "Rivastigmine",
+      "domain": "Farmakologi/Neurologi",
+      "definition": "Inhibitor kolinesterase yang digunakan untuk terapi simptomatik demensia Alzheimer/Parkinson tertentu."
+    },
+    {
+      "id": "gls_skizofrenia_paranoid",
+      "term": "Skizofrenia paranoid",
+      "domain": "Psikiatri",
+      "definition": "Gambaran skizofrenia dengan dominasi waham paranoid/persekutorik dan/atau halusinasi."
+    },
+    {
+      "id": "gls_ct_tanpa_kontras",
+      "term": "CT scan tanpa kontras",
+      "domain": "Neurologi/Radiologi",
+      "definition": "Pemeriksaan pencitraan awal pada stroke akut untuk menilai perdarahan intrakranial."
+    },
+    {
+      "id": "gls_sopor",
+      "term": "Sopor",
+      "domain": "Neurologi",
+      "definition": "Penurunan kesadaran berat; pasien biasanya hanya bereaksi terhadap rangsang kuat/nyeri."
+    }
+  ]
+}

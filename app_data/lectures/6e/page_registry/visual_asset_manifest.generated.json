@@ -1,0 +1,1386 @@
+{
+  "assets": [
+    {
+      "id": "visual_batch_1_6e_01_01",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Vestibular pathway diagram",
+      "src": "Assets/images/neurology/batch_1_6e_01_visual_01.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_01_visual_01_thumb.webp",
+      "alt": "Suggested educational visual for dr. Sri Novianty, Sp.N - How To Treat Central Vertigo: vestibular pathway diagram; central vs peripheral vertigo comparison card; HINTS exam schematic.",
+      "caption": "Vestibular pathway diagram; central vs peripheral vertigo comparison card; HINTS exam schematic.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_01"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "embedded_image_count": 34
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_01_02",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Basal ganglia loop diagram.",
+      "src": "Assets/images/neurology/batch_1_6e_01_visual_02.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_01_visual_02_thumb.webp",
+      "alt": "Suggested educational visual for dr. Sri Novianty, Sp.N - How To Treat Central Vertigo: basal ganglia loop diagram; hyperkinetic vs hypokinetic movement video placeholder.",
+      "caption": "Basal ganglia loop diagram; hyperkinetic vs hypokinetic movement video placeholder.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_01"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "embedded_image_count": 34
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_01_03",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Meningitis/encephalitis anatomic spread diagram.",
+      "src": "Assets/images/neurology/batch_1_6e_01_visual_03.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_01_visual_03_thumb.webp",
+      "alt": "Suggested educational visual for dr. Sri Novianty, Sp.N - How To Treat Central Vertigo: meningitis/encephalitis anatomic spread diagram; CSF interpretation quick card.",
+      "caption": "Meningitis/encephalitis anatomic spread diagram; CSF interpretation quick card.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_01"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "embedded_image_count": 34
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_02_01",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Basal ganglia loop diagram.",
+      "src": "Assets/images/neurology/batch_1_6e_02_visual_01.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_02_visual_01_thumb.webp",
+      "alt": "Suggested educational visual for dr.Attiya - Gangguan Gerak: basal ganglia loop diagram; hyperkinetic vs hypokinetic movement video placeholder.",
+      "caption": "Basal ganglia loop diagram; hyperkinetic vs hypokinetic movement video placeholder.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_02"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+        "embedded_image_count": 38
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_02_02",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Nigrostriatal dopamine pathway",
+      "src": "Assets/images/neurology/batch_1_6e_02_visual_02.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_02_visual_02_thumb.webp",
+      "alt": "Suggested educational visual for dr.Attiya - Gangguan Gerak: nigrostriatal dopamine pathway; cardinal motor signs flash animation.",
+      "caption": "Nigrostriatal dopamine pathway; cardinal motor signs flash animation.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_02"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+        "embedded_image_count": 38
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_02_03",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Peripheral nerve anatomy",
+      "src": "Assets/images/neurology/batch_1_6e_02_visual_03.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_02_visual_03_thumb.webp",
+      "alt": "Suggested educational visual for dr.Attiya - Gangguan Gerak: peripheral nerve anatomy; dermatome/myotome image card.",
+      "caption": "Peripheral nerve anatomy; dermatome/myotome image card.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_02"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+        "embedded_image_count": 38
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_03_01",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Basal ganglia loop diagram.",
+      "src": "Assets/images/neurology/batch_1_6e_03_visual_01.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_03_visual_01_thumb.webp",
+      "alt": "Suggested educational visual for EF Infeksi: basal ganglia loop diagram; hyperkinetic vs hypokinetic movement video placeholder.",
+      "caption": "Basal ganglia loop diagram; hyperkinetic vs hypokinetic movement video placeholder.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_03"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "embedded_image_count": 54
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_03_02",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Meningitis/encephalitis anatomic spread diagram.",
+      "src": "Assets/images/neurology/batch_1_6e_03_visual_02.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_03_visual_02_thumb.webp",
+      "alt": "Suggested educational visual for EF Infeksi: meningitis/encephalitis anatomic spread diagram; CSF interpretation quick card.",
+      "caption": "Meningitis/encephalitis anatomic spread diagram; CSF interpretation quick card.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_03"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "embedded_image_count": 54
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_03_03",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Headache red flags snoop/snnoop card.",
+      "src": "Assets/images/neurology/batch_1_6e_03_visual_03.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_03_visual_03_thumb.webp",
+      "alt": "Suggested educational visual for EF Infeksi: headache red flags SNOOP/SNNOOP card; migraine pathway diagram.",
+      "caption": "Headache red flags SNOOP/SNNOOP card; migraine pathway diagram.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_03"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "embedded_image_count": 54
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_04_01",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Meningitis/encephalitis anatomic spread diagram.",
+      "src": "Assets/images/neurology/batch_1_6e_04_visual_01.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_04_visual_01_thumb.webp",
+      "alt": "Suggested educational visual for CENTRAL NEVROS SYSTEM INFECTION and Inflammation: meningitis/encephalitis anatomic spread diagram; CSF interpretation quick card.",
+      "caption": "Meningitis/encephalitis anatomic spread diagram; CSF interpretation quick card.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_04"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+        "embedded_image_count": 23
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_04_02",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Tbi injury mechanism diagram.",
+      "src": "Assets/images/neurology/batch_1_6e_04_visual_02.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_04_visual_02_thumb.webp",
+      "alt": "Suggested educational visual for CENTRAL NEVROS SYSTEM INFECTION and Inflammation: TBI injury mechanism diagram; epidural/subdural/intracerebral comparison.",
+      "caption": "TBI injury mechanism diagram; epidural/subdural/intracerebral comparison.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_04"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+        "embedded_image_count": 23
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_05_01",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Ischemic vs hemorrhagic stroke ct/mri image cards.",
+      "src": "Assets/images/neurology/batch_1_6e_05_visual_01.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_05_visual_01_thumb.webp",
+      "alt": "Suggested educational visual for CEREBRAL INFARK: ischemic vs hemorrhagic stroke CT/MRI image cards; vascular territory map.",
+      "caption": "Ischemic vs hemorrhagic stroke CT/MRI image cards; vascular territory map.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_05"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "CEREBRAL INFARK.docx",
+        "embedded_image_count": 10
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_05_02",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Radiology viewer card with ct/mri phase comparison.",
+      "src": "Assets/images/neurology/batch_1_6e_05_visual_02.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_05_visual_02_thumb.webp",
+      "alt": "Suggested educational visual for CEREBRAL INFARK: radiology viewer card with CT/MRI phase comparison.",
+      "caption": "Radiology viewer card with CT/MRI phase comparison.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_05"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "CEREBRAL INFARK.docx",
+        "embedded_image_count": 10
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_06_01",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Status epilepticus algorithm timeline.",
+      "src": "Assets/images/neurology/batch_1_6e_06_visual_01.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_06_visual_01_thumb.webp",
+      "alt": "Suggested educational visual for KULIAH BANGKITAN koas: status epilepticus algorithm timeline; seizure classification flowchart.",
+      "caption": "Status epilepticus algorithm timeline; seizure classification flowchart.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_06"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "KULIAH BANGKITAN koas.docx",
+        "embedded_image_count": 48
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_07_01",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Meningitis/encephalitis anatomic spread diagram.",
+      "src": "Assets/images/neurology/batch_1_6e_07_visual_01.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_07_visual_01_thumb.webp",
+      "alt": "Suggested educational visual for Kuliah PA Neurologi: meningitis/encephalitis anatomic spread diagram; CSF interpretation quick card.",
+      "caption": "Meningitis/encephalitis anatomic spread diagram; CSF interpretation quick card.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_07"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "Kuliah PA Neurologi.docx",
+        "embedded_image_count": 47
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_07_02",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Brain tumor location grid.",
+      "src": "Assets/images/neurology/batch_1_6e_07_visual_02.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_07_visual_02_thumb.webp",
+      "alt": "Suggested educational visual for Kuliah PA Neurologi: brain tumor location grid; MRI pattern image cards.",
+      "caption": "Brain tumor location grid; MRI pattern image cards.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_07"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "Kuliah PA Neurologi.docx",
+        "embedded_image_count": 47
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_08_01",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Meningitis/encephalitis anatomic spread diagram.",
+      "src": "Assets/images/neurology/batch_1_6e_08_visual_01.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_08_visual_01_thumb.webp",
+      "alt": "Suggested educational visual for MIKROORGANISME PENYEBAB INFEKSI: meningitis/encephalitis anatomic spread diagram; CSF interpretation quick card.",
+      "caption": "Meningitis/encephalitis anatomic spread diagram; CSF interpretation quick card.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_08"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "embedded_image_count": 6
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_08_02",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Tbi injury mechanism diagram.",
+      "src": "Assets/images/neurology/batch_1_6e_08_visual_02.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_08_visual_02_thumb.webp",
+      "alt": "Suggested educational visual for MIKROORGANISME PENYEBAB INFEKSI: TBI injury mechanism diagram; epidural/subdural/intracerebral comparison.",
+      "caption": "TBI injury mechanism diagram; epidural/subdural/intracerebral comparison.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_08"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "embedded_image_count": 6
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_09_01",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Basal ganglia loop diagram.",
+      "src": "Assets/images/neurology/batch_1_6e_09_visual_01.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_09_visual_01_thumb.webp",
+      "alt": "Suggested educational visual for Manajemen Pensa dan Koma - Koass: basal ganglia loop diagram; hyperkinetic vs hypokinetic movement video placeholder.",
+      "caption": "Basal ganglia loop diagram; hyperkinetic vs hypokinetic movement video placeholder.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_09"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+        "embedded_image_count": 81
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_09_02",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Peripheral nerve anatomy",
+      "src": "Assets/images/neurology/batch_1_6e_09_visual_02.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_09_visual_02_thumb.webp",
+      "alt": "Suggested educational visual for Manajemen Pensa dan Koma - Koass: peripheral nerve anatomy; dermatome/myotome image card.",
+      "caption": "Peripheral nerve anatomy; dermatome/myotome image card.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_09"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+        "embedded_image_count": 81
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_09_03",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Brain tumor location grid.",
+      "src": "Assets/images/neurology/batch_1_6e_09_visual_03.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_09_visual_03_thumb.webp",
+      "alt": "Suggested educational visual for Manajemen Pensa dan Koma - Koass: brain tumor location grid; MRI pattern image cards.",
+      "caption": "Brain tumor location grid; MRI pattern image cards.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_09"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+        "embedded_image_count": 81
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_10_01",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Headache red flags snoop/snnoop card.",
+      "src": "Assets/images/neurology/batch_1_6e_10_visual_01.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_10_visual_01_thumb.webp",
+      "alt": "Suggested educational visual for NYERI kepala 2: headache red flags SNOOP/SNNOOP card; migraine pathway diagram.",
+      "caption": "Headache red flags SNOOP/SNNOOP card; migraine pathway diagram.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_10"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "embedded_image_count": 54
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_10_02",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Peripheral nerve anatomy",
+      "src": "Assets/images/neurology/batch_1_6e_10_visual_02.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_10_visual_02_thumb.webp",
+      "alt": "Suggested educational visual for NYERI kepala 2: peripheral nerve anatomy; dermatome/myotome image card.",
+      "caption": "Peripheral nerve anatomy; dermatome/myotome image card.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_10"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "embedded_image_count": 54
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_11_01",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Meningitis/encephalitis anatomic spread diagram.",
+      "src": "Assets/images/neurology/batch_1_6e_11_visual_01.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_11_visual_01_thumb.webp",
+      "alt": "Suggested educational visual for Neuropaty Materi Ngajar Mei 2025 (1): meningitis/encephalitis anatomic spread diagram; CSF interpretation quick card.",
+      "caption": "Meningitis/encephalitis anatomic spread diagram; CSF interpretation quick card.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_11"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+        "embedded_image_count": 121
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_11_02",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Peripheral nerve anatomy",
+      "src": "Assets/images/neurology/batch_1_6e_11_visual_02.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_11_visual_02_thumb.webp",
+      "alt": "Suggested educational visual for Neuropaty Materi Ngajar Mei 2025 (1): peripheral nerve anatomy; dermatome/myotome image card.",
+      "caption": "Peripheral nerve anatomy; dermatome/myotome image card.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_11"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+        "embedded_image_count": 121
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_11_03",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Brain tumor location grid.",
+      "src": "Assets/images/neurology/batch_1_6e_11_visual_03.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_11_visual_03_thumb.webp",
+      "alt": "Suggested educational visual for Neuropaty Materi Ngajar Mei 2025 (1): brain tumor location grid; MRI pattern image cards.",
+      "caption": "Brain tumor location grid; MRI pattern image cards.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_11"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+        "embedded_image_count": 121
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_12_01",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Vestibular pathway diagram",
+      "src": "Assets/images/neurology/batch_1_6e_12_visual_01.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_12_visual_01_thumb.webp",
+      "alt": "Suggested educational visual for PPT Diagnosing Vertigo and Dizziness: vestibular pathway diagram; central vs peripheral vertigo comparison card; HINTS exam schematic.",
+      "caption": "Vestibular pathway diagram; central vs peripheral vertigo comparison card; HINTS exam schematic.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_12"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "embedded_image_count": 16
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_12_02",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Basal ganglia loop diagram.",
+      "src": "Assets/images/neurology/batch_1_6e_12_visual_02.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_12_visual_02_thumb.webp",
+      "alt": "Suggested educational visual for PPT Diagnosing Vertigo and Dizziness: basal ganglia loop diagram; hyperkinetic vs hypokinetic movement video placeholder.",
+      "caption": "Basal ganglia loop diagram; hyperkinetic vs hypokinetic movement video placeholder.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_12"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "embedded_image_count": 16
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_12_03",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Meningitis/encephalitis anatomic spread diagram.",
+      "src": "Assets/images/neurology/batch_1_6e_12_visual_03.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_12_visual_03_thumb.webp",
+      "alt": "Suggested educational visual for PPT Diagnosing Vertigo and Dizziness: meningitis/encephalitis anatomic spread diagram; CSF interpretation quick card.",
+      "caption": "Meningitis/encephalitis anatomic spread diagram; CSF interpretation quick card.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_12"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "embedded_image_count": 16
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_13_01",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Vestibular pathway diagram",
+      "src": "Assets/images/neurology/batch_1_6e_13_visual_01.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_13_visual_01_thumb.webp",
+      "alt": "Suggested educational visual for PPT Gangguan Keseimbangan: vestibular pathway diagram; central vs peripheral vertigo comparison card; HINTS exam schematic.",
+      "caption": "Vestibular pathway diagram; central vs peripheral vertigo comparison card; HINTS exam schematic.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_13"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "embedded_image_count": 95
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_13_02",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Basal ganglia loop diagram.",
+      "src": "Assets/images/neurology/batch_1_6e_13_visual_02.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_13_visual_02_thumb.webp",
+      "alt": "Suggested educational visual for PPT Gangguan Keseimbangan: basal ganglia loop diagram; hyperkinetic vs hypokinetic movement video placeholder.",
+      "caption": "Basal ganglia loop diagram; hyperkinetic vs hypokinetic movement video placeholder.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_13"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "embedded_image_count": 95
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_13_03",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Meningitis/encephalitis anatomic spread diagram.",
+      "src": "Assets/images/neurology/batch_1_6e_13_visual_03.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_13_visual_03_thumb.webp",
+      "alt": "Suggested educational visual for PPT Gangguan Keseimbangan: meningitis/encephalitis anatomic spread diagram; CSF interpretation quick card.",
+      "caption": "Meningitis/encephalitis anatomic spread diagram; CSF interpretation quick card.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_13"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "embedded_image_count": 95
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_14_01",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Nigrostriatal dopamine pathway",
+      "src": "Assets/images/neurology/batch_1_6e_14_visual_01.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_14_visual_01_thumb.webp",
+      "alt": "Suggested educational visual for Parkinson Disease (Aspek Klinis): nigrostriatal dopamine pathway; cardinal motor signs flash animation.",
+      "caption": "Nigrostriatal dopamine pathway; cardinal motor signs flash animation.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_14"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "embedded_image_count": 29
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_14_02",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Meningitis/encephalitis anatomic spread diagram.",
+      "src": "Assets/images/neurology/batch_1_6e_14_visual_02.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_14_visual_02_thumb.webp",
+      "alt": "Suggested educational visual for Parkinson Disease (Aspek Klinis): meningitis/encephalitis anatomic spread diagram; CSF interpretation quick card.",
+      "caption": "Meningitis/encephalitis anatomic spread diagram; CSF interpretation quick card.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_14"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "embedded_image_count": 29
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_14_03",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Brain tumor location grid.",
+      "src": "Assets/images/neurology/batch_1_6e_14_visual_03.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_14_visual_03_thumb.webp",
+      "alt": "Suggested educational visual for Parkinson Disease (Aspek Klinis): brain tumor location grid; MRI pattern image cards.",
+      "caption": "Brain tumor location grid; MRI pattern image cards.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_14"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "embedded_image_count": 29
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_15_01",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Ischemic vs hemorrhagic stroke ct/mri image cards.",
+      "src": "Assets/images/neurology/batch_1_6e_15_visual_01.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_15_visual_01_thumb.webp",
+      "alt": "Suggested educational visual for Patofisiologi stroke gizi: ischemic vs hemorrhagic stroke CT/MRI image cards; vascular territory map.",
+      "caption": "Ischemic vs hemorrhagic stroke CT/MRI image cards; vascular territory map.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_15"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "embedded_image_count": 96
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_15_02",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Peripheral nerve anatomy",
+      "src": "Assets/images/neurology/batch_1_6e_15_visual_02.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_15_visual_02_thumb.webp",
+      "alt": "Suggested educational visual for Patofisiologi stroke gizi: peripheral nerve anatomy; dermatome/myotome image card.",
+      "caption": "Peripheral nerve anatomy; dermatome/myotome image card.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_15"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "embedded_image_count": 96
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_15_03",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Icf impairment-disability-handicap flow",
+      "src": "Assets/images/neurology/batch_1_6e_15_visual_03.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_15_visual_03_thumb.webp",
+      "alt": "Suggested educational visual for Patofisiologi stroke gizi: ICF impairment-disability-handicap flow; transfer training sequence cards.",
+      "caption": "ICF impairment-disability-handicap flow; transfer training sequence cards.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_15"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "embedded_image_count": 96
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_16_01",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Review embedded images for reusable lecture diagrams, screenshot cards, and media viewer placeholders.",
+      "src": "Assets/images/neurology/batch_1_6e_16_visual_01.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_16_visual_01_thumb.webp",
+      "alt": "Suggested educational visual for Pemeriksaan klinis neuro 250523 133200: review embedded images for reusable lecture diagrams, screenshot cards, and media viewer placeholders.",
+      "caption": "Review embedded images for reusable lecture diagrams, screenshot cards, and media viewer placeholders.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_16"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "Pemeriksaan klinis neuro_250523_133200.docx",
+        "embedded_image_count": 12
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_17_01",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Meningitis/encephalitis anatomic spread diagram.",
+      "src": "Assets/images/neurology/batch_1_6e_17_visual_01.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_17_visual_01_thumb.webp",
+      "alt": "Suggested educational visual for Radiologi Tumor Cerebri: meningitis/encephalitis anatomic spread diagram; CSF interpretation quick card.",
+      "caption": "Meningitis/encephalitis anatomic spread diagram; CSF interpretation quick card.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_17"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "embedded_image_count": 22
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_17_02",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Brain tumor location grid.",
+      "src": "Assets/images/neurology/batch_1_6e_17_visual_02.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_17_visual_02_thumb.webp",
+      "alt": "Suggested educational visual for Radiologi Tumor Cerebri: brain tumor location grid; MRI pattern image cards.",
+      "caption": "Brain tumor location grid; MRI pattern image cards.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_17"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "embedded_image_count": 22
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_17_03",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Tbi injury mechanism diagram.",
+      "src": "Assets/images/neurology/batch_1_6e_17_visual_03.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_17_visual_03_thumb.webp",
+      "alt": "Suggested educational visual for Radiologi Tumor Cerebri: TBI injury mechanism diagram; epidural/subdural/intracerebral comparison.",
+      "caption": "TBI injury mechanism diagram; epidural/subdural/intracerebral comparison.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_17"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "embedded_image_count": 22
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_18_01",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Status epilepticus algorithm timeline.",
+      "src": "Assets/images/neurology/batch_1_6e_18_visual_01.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_18_visual_01_thumb.webp",
+      "alt": "Suggested educational visual for STATUS EPILEPTIKUS koas: status epilepticus algorithm timeline; seizure classification flowchart.",
+      "caption": "Status epilepticus algorithm timeline; seizure classification flowchart.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_18"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "STATUS EPILEPTIKUS koas.docx",
+        "embedded_image_count": 28
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_19_01",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Meningitis/encephalitis anatomic spread diagram.",
+      "src": "Assets/images/neurology/batch_1_6e_19_visual_01.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_19_visual_01_thumb.webp",
+      "alt": "Suggested educational visual for TUMOR SSP KULIAH: meningitis/encephalitis anatomic spread diagram; CSF interpretation quick card.",
+      "caption": "Meningitis/encephalitis anatomic spread diagram; CSF interpretation quick card.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_19"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "TUMOR SSP KULIAH.docx",
+        "embedded_image_count": 72
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_19_02",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Peripheral nerve anatomy",
+      "src": "Assets/images/neurology/batch_1_6e_19_visual_02.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_19_visual_02_thumb.webp",
+      "alt": "Suggested educational visual for TUMOR SSP KULIAH: peripheral nerve anatomy; dermatome/myotome image card.",
+      "caption": "Peripheral nerve anatomy; dermatome/myotome image card.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_19"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "TUMOR SSP KULIAH.docx",
+        "embedded_image_count": 72
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_19_03",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Brain tumor location grid.",
+      "src": "Assets/images/neurology/batch_1_6e_19_visual_03.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_19_visual_03_thumb.webp",
+      "alt": "Suggested educational visual for TUMOR SSP KULIAH: brain tumor location grid; MRI pattern image cards.",
+      "caption": "Brain tumor location grid; MRI pattern image cards.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_19"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "TUMOR SSP KULIAH.docx",
+        "embedded_image_count": 72
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_20_01",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Headache red flags snoop/snnoop card.",
+      "src": "Assets/images/neurology/batch_1_6e_20_visual_01.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_20_visual_01_thumb.webp",
+      "alt": "Suggested educational visual for Trauma Sistim Saraf: headache red flags SNOOP/SNNOOP card; migraine pathway diagram.",
+      "caption": "Headache red flags SNOOP/SNNOOP card; migraine pathway diagram.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_20"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "embedded_image_count": 13
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_20_02",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Tbi injury mechanism diagram.",
+      "src": "Assets/images/neurology/batch_1_6e_20_visual_02.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_20_visual_02_thumb.webp",
+      "alt": "Suggested educational visual for Trauma Sistim Saraf: TBI injury mechanism diagram; epidural/subdural/intracerebral comparison.",
+      "caption": "TBI injury mechanism diagram; epidural/subdural/intracerebral comparison.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_20"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "embedded_image_count": 13
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_20_03",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Radiology viewer card with ct/mri phase comparison.",
+      "src": "Assets/images/neurology/batch_1_6e_20_visual_03.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_20_visual_03_thumb.webp",
+      "alt": "Suggested educational visual for Trauma Sistim Saraf: radiology viewer card with CT/MRI phase comparison.",
+      "caption": "Radiology viewer card with CT/MRI phase comparison.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_20"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "embedded_image_count": 13
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_21_01",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Meningitis/encephalitis anatomic spread diagram.",
+      "src": "Assets/images/neurology/batch_1_6e_21_visual_01.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_21_visual_01_thumb.webp",
+      "alt": "Suggested educational visual for Tumor Cerebri: meningitis/encephalitis anatomic spread diagram; CSF interpretation quick card.",
+      "caption": "Meningitis/encephalitis anatomic spread diagram; CSF interpretation quick card.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_21"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "embedded_image_count": 14
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_21_02",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Brain tumor location grid.",
+      "src": "Assets/images/neurology/batch_1_6e_21_visual_02.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_21_visual_02_thumb.webp",
+      "alt": "Suggested educational visual for Tumor Cerebri: brain tumor location grid; MRI pattern image cards.",
+      "caption": "Brain tumor location grid; MRI pattern image cards.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_21"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "embedded_image_count": 14
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_21_03",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Tbi injury mechanism diagram.",
+      "src": "Assets/images/neurology/batch_1_6e_21_visual_03.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_21_visual_03_thumb.webp",
+      "alt": "Suggested educational visual for Tumor Cerebri: TBI injury mechanism diagram; epidural/subdural/intracerebral comparison.",
+      "caption": "TBI injury mechanism diagram; epidural/subdural/intracerebral comparison.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_21"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "embedded_image_count": 14
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_22_01",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Nigrostriatal dopamine pathway",
+      "src": "Assets/images/neurology/batch_1_6e_22_visual_01.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_22_visual_01_thumb.webp",
+      "alt": "Suggested educational visual for dr.Patrick - neurorehab: nigrostriatal dopamine pathway; cardinal motor signs flash animation.",
+      "caption": "Nigrostriatal dopamine pathway; cardinal motor signs flash animation.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_22"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "dr.Patrick - neurorehab.docx",
+        "embedded_image_count": 169
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_22_02",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Ischemic vs hemorrhagic stroke ct/mri image cards.",
+      "src": "Assets/images/neurology/batch_1_6e_22_visual_02.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_22_visual_02_thumb.webp",
+      "alt": "Suggested educational visual for dr.Patrick - neurorehab: ischemic vs hemorrhagic stroke CT/MRI image cards; vascular territory map.",
+      "caption": "Ischemic vs hemorrhagic stroke CT/MRI image cards; vascular territory map.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_22"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "dr.Patrick - neurorehab.docx",
+        "embedded_image_count": 169
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_22_03",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Icf impairment-disability-handicap flow",
+      "src": "Assets/images/neurology/batch_1_6e_22_visual_03.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_22_visual_03_thumb.webp",
+      "alt": "Suggested educational visual for dr.Patrick - neurorehab: ICF impairment-disability-handicap flow; transfer training sequence cards.",
+      "caption": "ICF impairment-disability-handicap flow; transfer training sequence cards.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_22"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "dr.Patrick - neurorehab.docx",
+        "embedded_image_count": 169
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_23_01",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Basal ganglia loop diagram.",
+      "src": "Assets/images/neurology/batch_1_6e_23_visual_01.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_23_visual_01_thumb.webp",
+      "alt": "Suggested educational visual for neuroanatomi 2023: basal ganglia loop diagram; hyperkinetic vs hypokinetic movement video placeholder.",
+      "caption": "Basal ganglia loop diagram; hyperkinetic vs hypokinetic movement video placeholder.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_23"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "embedded_image_count": 52
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_23_02",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Headache red flags snoop/snnoop card.",
+      "src": "Assets/images/neurology/batch_1_6e_23_visual_02.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_23_visual_02_thumb.webp",
+      "alt": "Suggested educational visual for neuroanatomi 2023: headache red flags SNOOP/SNNOOP card; migraine pathway diagram.",
+      "caption": "Headache red flags SNOOP/SNNOOP card; migraine pathway diagram.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_23"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "embedded_image_count": 52
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_23_03",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "3d brainstem/cerebellum/cerebrum viewer",
+      "src": "Assets/images/neurology/batch_1_6e_23_visual_03.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_23_visual_03_thumb.webp",
+      "alt": "Suggested educational visual for neuroanatomi 2023: 3D brainstem/cerebellum/cerebrum viewer; cranial nerve pathway hotspots.",
+      "caption": "3D brainstem/cerebellum/cerebrum viewer; cranial nerve pathway hotspots.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_23"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "embedded_image_count": 52
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_24_01",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Ischemic vs hemorrhagic stroke ct/mri image cards.",
+      "src": "Assets/images/neurology/batch_1_6e_24_visual_01.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_24_visual_01_thumb.webp",
+      "alt": "Suggested educational visual for stroke-dr.Erni Z, SpRad: ischemic vs hemorrhagic stroke CT/MRI image cards; vascular territory map.",
+      "caption": "Ischemic vs hemorrhagic stroke CT/MRI image cards; vascular territory map.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_24"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx",
+        "embedded_image_count": 33
+      }
+    },
+    {
+      "id": "visual_batch_1_6e_24_02",
+      "type": "Image",
+      "domain": "neurology",
+      "title": "Radiology viewer card with ct/mri phase comparison.",
+      "src": "Assets/images/neurology/batch_1_6e_24_visual_02.webp",
+      "poster": "Assets/images/neurology/batch_1_6e_24_visual_02_thumb.webp",
+      "alt": "Suggested educational visual for stroke-dr.Erni Z, SpRad: radiology viewer card with CT/MRI phase comparison.",
+      "caption": "Radiology viewer card with CT/MRI phase comparison.",
+      "usage": "Placeholder_suggestion",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_1_6e_24"
+      ],
+      "license_note": "Placeholder only; downstream asset team must source or draw original cleared asset.",
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx",
+        "embedded_image_count": 33
+      }
+    }
+  ],
+  "batch_id": "batch_1_6E",
+  "domain": "neurology"
+}

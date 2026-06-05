@@ -1,0 +1,947 @@
+{
+  "id": "batch_1_6e_06",
+  "batch_id": "batch_1_6E",
+  "batch_label": "Batch 1 / 6E",
+  "block": "5e",
+  "title": "KULIAH BANGKITAN koas",
+  "subtitle": "Neurology lecturer-derived structured content; source-preserving extraction.",
+  "source_pdf": "source_docs/6E/KULIAH BANGKITAN koas.docx",
+  "source_docx": "KULIAH BANGKITAN koas.docx",
+  "source_pages": [],
+  "summary": [
+    "Modul KULIAH BANGKITAN koas disusun ulang sebagai materi terstruktur untuk neurologi batch 1/6e, dengan jejak sumber tetap dipertahankan.",
+    "Fokus inti yang ditarik dari sumber: BANGKITAN EPILEPTIK.",
+    "Fokus inti yang ditarik dari sumber: BANGKITAN EPILEPSI (epileptic seizure).",
+    "Fokus inti yang ditarik dari sumber: ILAE 2017.",
+    "Contoh pesan inti dari sumber: BANGKITAN EPILEPSI (epileptic seizure)."
+  ],
+  "exam_focus": [
+    ": terjadinya tanda/gejala yang bersifat sesaat akibat aktivitas neuronal yang abnormal dan berlebihan di otak.",
+    "KLASIFIKASI TIPE BANGKITAN.",
+    "PEMERIKSAAN PENUNJANG.",
+    "Aktivitas motorik bilateral terapi sada supplementary motor area atau SSMA."
+  ],
+  "sections": [
+    {
+      "id": "batch_1_6e_06_s01",
+      "title": "BANGKITAN EPILEPSI (epileptic seizure).",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": ": terjadinya tanda/gejala yang bersifat sesaat akibat aktivitas neuronal yang abnormal dan berlebihan di otak.",
+          "provenance": {
+            "source_document": "KULIAH BANGKITAN koas.docx",
+            "source_paragraph_index": 39,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_06_01"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_06_01",
+        "Quiz_batch_1_6e_06_02",
+        "Quiz_batch_1_6e_06_03"
+      ],
+      "glossary_refs": [
+        "Term_bangkitan_refleks",
+        "Term_bangkitan_epilepsi_epileptic_seizure",
+        "Term_bangkitan_epileptik",
+        "Term_classification_of_epilepsies"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "KULIAH BANGKITAN koas.docx",
+        "section_start_paragraph": 39,
+        "section_end_paragraph": 39
+      }
+    },
+    {
+      "id": "batch_1_6e_06_s02",
+      "title": "Classification of epilepsies",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Image: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) free to use.",
+          "provenance": {
+            "source_document": "KULIAH BANGKITAN koas.docx",
+            "source_paragraph_index": 48,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_06_01"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_06_01",
+        "Quiz_batch_1_6e_06_02",
+        "Quiz_batch_1_6e_06_03"
+      ],
+      "glossary_refs": [
+        "Term_bangkitan_refleks",
+        "Term_bangkitan_epilepsi_epileptic_seizure",
+        "Term_bangkitan_epileptik",
+        "Term_classification_of_epilepsies"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "KULIAH BANGKITAN koas.docx",
+        "section_start_paragraph": 48,
+        "section_end_paragraph": 48
+      }
+    },
+    {
+      "id": "batch_1_6e_06_s03",
+      "title": "KLASIFIKASI TIPE BANGKITAN",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Bangkitan refleks adalah bangkitan yang muncul akibat oleh faktor pencetus sppesifik seperti stimulasi visual, auditorik, somatosensitif dan somatomotor.",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 73,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "KULIAH BANGKITAN koas.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_06_01"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_06_01",
+        "Quiz_batch_1_6e_06_02",
+        "Quiz_batch_1_6e_06_03"
+      ],
+      "glossary_refs": [
+        "Term_bangkitan_refleks",
+        "Term_bangkitan_epilepsi_epileptic_seizure",
+        "Term_bangkitan_epileptik",
+        "Term_classification_of_epilepsies"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "KULIAH BANGKITAN koas.docx",
+        "section_start_paragraph": 73,
+        "section_end_paragraph": 73
+      }
+    },
+    {
+      "id": "batch_1_6e_06_s04",
+      "title": "PEMERIKSAAN PENUNJANG",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Pencitraan.",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 81,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Laboratorium.",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 82,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Analisa LCS.",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 83,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "KULIAH BANGKITAN koas.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_06_01"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_06_01",
+        "Quiz_batch_1_6e_06_02",
+        "Quiz_batch_1_6e_06_03"
+      ],
+      "glossary_refs": [
+        "Term_bangkitan_refleks",
+        "Term_bangkitan_epilepsi_epileptic_seizure",
+        "Term_bangkitan_epileptik",
+        "Term_classification_of_epilepsies"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "KULIAH BANGKITAN koas.docx",
+        "section_start_paragraph": 81,
+        "section_end_paragraph": 83
+      }
+    },
+    {
+      "id": "batch_1_6e_06_s05",
+      "title": "SINDROMA EPILEPS",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Lobus Semiologi.",
+          "provenance": {
+            "source_document": "KULIAH BANGKITAN koas.docx",
+            "source_paragraph_index": 96,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Frontal.",
+          "provenance": {
+            "source_document": "KULIAH BANGKITAN koas.docx",
+            "source_paragraph_index": 99,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_06_01"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_06_01",
+        "Quiz_batch_1_6e_06_02",
+        "Quiz_batch_1_6e_06_03"
+      ],
+      "glossary_refs": [
+        "Term_bangkitan_refleks",
+        "Term_bangkitan_epilepsi_epileptic_seizure",
+        "Term_bangkitan_epileptik",
+        "Term_classification_of_epilepsies"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "KULIAH BANGKITAN koas.docx",
+        "section_start_paragraph": 96,
+        "section_end_paragraph": 99
+      }
+    },
+    {
+      "id": "batch_1_6e_06_s06",
+      "title": "Motorik sesuai dengan homunculus:",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Tonik unilateral -> area motorik prime kontralateral.",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 101,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Klonik -> area motorik primer kontrala SSMA, RAS.",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 102,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Mioklonik -> area motorik primer kontralateral, ARAS.",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 103,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Aktivitas motorik bilateral terapi sada supplementary motor area atau SSMA.",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 104,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Hipermotor -> frontal atau ACC.",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 105,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "KULIAH BANGKITAN koas.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_06_01"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_06_01",
+        "Quiz_batch_1_6e_06_02",
+        "Quiz_batch_1_6e_06_03"
+      ],
+      "glossary_refs": [
+        "Term_bangkitan_refleks",
+        "Term_bangkitan_epilepsi_epileptic_seizure",
+        "Term_bangkitan_epileptik",
+        "Term_classification_of_epilepsies"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "KULIAH BANGKITAN koas.docx",
+        "section_start_paragraph": 101,
+        "section_end_paragraph": 105
+      }
+    },
+    {
+      "id": "batch_1_6e_06_s07",
+      "title": "Rasa takut yang objektif (tampak pada wa pasien).",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Figure of 4 -> kontralateral dari lengan ya ekstensi.",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 107,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Fencing posture -> kontralateral dari leng elevasi.",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 108,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Aura sefalik.",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 109,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Bizzare gestural automatism.",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 110,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Aura epigastrik (jarang).",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 111,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Dialeptik dengan durasi yang lebih singkat.",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 112,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Versive head turn yang terjadi pada awal i.",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 113,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Akinetik -> frontal mesial, girus frontal inf.",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 114,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "KULIAH BANGKITAN koas.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Temporal 1. Sensasi visceral -> rising epigastric aura -> temporal mesial, insula atau area superior silvii, frontal.",
+          "provenance": {
+            "source_document": "KULIAH BANGKITAN koas.docx",
+            "source_paragraph_index": 118,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Aura psikis -> jamais vu, déjà vu -> tempo.",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 119,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "KULIAH BANGKITAN koas.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_06_01"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_06_01",
+        "Quiz_batch_1_6e_06_02",
+        "Quiz_batch_1_6e_06_03"
+      ],
+      "glossary_refs": [
+        "Term_bangkitan_refleks",
+        "Term_bangkitan_epilepsi_epileptic_seizure",
+        "Term_bangkitan_epileptik",
+        "Term_classification_of_epilepsies"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "KULIAH BANGKITAN koas.docx",
+        "section_start_paragraph": 107,
+        "section_end_paragraph": 119
+      }
+    },
+    {
+      "id": "batch_1_6e_06_s08",
+      "title": "Subjective fear -> amigdala.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Halusinasi penciuman -> amigdala, tidak a lateralisasi.",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 121,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Oroalimentary automatism.",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 122,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Spitting and drinking -> right temporal.",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 123,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "KULIAH BANGKITAN koas.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_06_01"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_06_01",
+        "Quiz_batch_1_6e_06_02",
+        "Quiz_batch_1_6e_06_03"
+      ],
+      "glossary_refs": [
+        "Term_bangkitan_refleks",
+        "Term_bangkitan_epilepsi_epileptic_seizure",
+        "Term_bangkitan_epileptik",
+        "Term_classification_of_epilepsies"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "KULIAH BANGKITAN koas.docx",
+        "section_start_paragraph": 121,
+        "section_end_paragraph": 123
+      }
+    },
+    {
+      "id": "batch_1_6e_06_s09",
+      "title": "Ictal jargon",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Halusinasi auditorik (positif atau negatif) temporal lateral (girus Hescl, walaupun te di salah satu sisi belum tentu mempunyai lateralisasi).",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 125,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Halusinasi gustatorik -> insula, area senso sekunder (parietal).",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 126,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Halusinasi multisensorik.",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 127,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Aura otonom (palpitasi, goosebumps, ber.",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 128,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "KULIAH BANGKITAN koas.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "-> temporal mesial, insula.",
+          "provenance": {
+            "source_document": "KULIAH BANGKITAN koas.docx",
+            "source_paragraph_index": 129,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Aura autoskopik -> konveksitas temporal, perbatasan antara temporal posterior den lobus parietal atau oksipital, temporal me.",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 130,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "KULIAH BANGKITAN koas.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_06_01"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_06_01",
+        "Quiz_batch_1_6e_06_02",
+        "Quiz_batch_1_6e_06_03"
+      ],
+      "glossary_refs": [
+        "Term_bangkitan_refleks",
+        "Term_bangkitan_epilepsi_epileptic_seizure",
+        "Term_bangkitan_epileptik",
+        "Term_classification_of_epilepsies"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "KULIAH BANGKITAN koas.docx",
+        "section_start_paragraph": 125,
+        "section_end_paragraph": 130
+      }
+    },
+    {
+      "id": "batch_1_6e_06_s10",
+      "title": "Ictal hypersalivation -> temporal mesial.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Dialeptik dengan durasi yang lebih lama.",
+              "children": [],
+              "provenance": {
+                "source_document": "KULIAH BANGKITAN koas.docx",
+                "source_paragraph_index": 134,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "KULIAH BANGKITAN koas.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_06_01"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_06_01",
+        "Quiz_batch_1_6e_06_02",
+        "Quiz_batch_1_6e_06_03"
+      ],
+      "glossary_refs": [
+        "Term_bangkitan_refleks",
+        "Term_bangkitan_epilepsi_epileptic_seizure",
+        "Term_bangkitan_epileptik",
+        "Term_classification_of_epilepsies"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "KULIAH BANGKITAN koas.docx",
+        "section_start_paragraph": 134,
+        "section_end_paragraph": 134
+      }
+    },
+    {
+      "id": "batch_1_6e_06_s11",
+      "title": "Extracted table 1",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "Parieatal 1. Aura sensorik unilateral -> area somatose primer kontralateral Aura sensorik di kedua sisi tubuh -> supplementary sensorymotor area (SSMA area sensorik sekunder (lobus parietal di s fisura silvii atau posterior insula) Vertigo -> parietal, oksipital, temporo-oks Halusinasi visual kompleks -> POT junction (korteks visual asosiasi kontralateral).",
+              "Parieatal 1. Aura sensorik unilateral -> area somatose primer kontralateral Aura sensorik di kedua sisi tubuh -> supplementary sensorymotor area (SSMA area sensorik sekunder (lobus parietal di s fisura silvii atau posterior insula) Vertigo -> parietal, oksipital, temporo-oks Halusinasi visual kompleks -> POT junction (korteks visual asosiasi kontralateral)."
+            ],
+            [
+              "Oksipital",
+              "Halusinasi visual elementer -> korteks visual prime kontralateral (area broadmann 17 dan 18)."
+            ],
+            [
+              "Thalamus",
+              "Tertawa (gelatik)"
+            ],
+            [
+              "Lain - lain",
+              "Spasm epileptic -> bisa pada epilepsy umum atau Bila fokal -> berasal dari area parietooksipital."
+            ]
+          ],
+          "provenance": {
+            "source_document": "KULIAH BANGKITAN koas.docx",
+            "table_index": 0
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_06_01"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_06_01",
+        "Quiz_batch_1_6e_06_02",
+        "Quiz_batch_1_6e_06_03"
+      ],
+      "glossary_refs": [
+        "Term_bangkitan_refleks",
+        "Term_bangkitan_epilepsi_epileptic_seizure",
+        "Term_bangkitan_epileptik",
+        "Term_classification_of_epilepsies"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "KULIAH BANGKITAN koas.docx",
+        "table_index": 0
+      }
+    },
+    {
+      "id": "batch_1_6e_06_s12",
+      "title": "Extracted table 2",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "No Semiologi Nilai lateralisasi.",
+              "No Semiologi Nilai lateralisasi.",
+              "No Semiologi Nilai lateralisasi."
+            ],
+            [
+              "1.",
+              "Forced head turn",
+              "Kontralateral"
+            ],
+            [
+              "2.",
+              "Unforced head turn",
+              "Ipsilateral"
+            ],
+            [
+              "3.",
+              "Automatisme ekstremitas",
+              "Ipsilateral"
+            ],
+            [
+              "4.",
+              "Postur distonik",
+              "Kontralateral"
+            ],
+            [
+              "5.",
+              "Menggosok hidung pascaiktal",
+              "Ipsilateral"
+            ],
+            [
+              "6.",
+              "Batuk pascaiktal",
+              "Hemisfer nondominan"
+            ],
+            [
+              "7.",
+              "Inkontinensia urin pascaiktal",
+              "Hemisfer nondominan"
+            ],
+            [
+              "8.",
+              "Disfasia (iktal atau pascaiktal).",
+              "Hemisfer dominan"
+            ],
+            [
+              "9.",
+              "Preservasi Bahasa",
+              "Hemisfer nondominan"
+            ],
+            [
+              "10",
+              "Paralisis Todd",
+              "Kontralateral"
+            ],
+            [
+              "11",
+              "Kedipan mata unilateral",
+              "Ipsilateral"
+            ],
+            [
+              "12",
+              "Klonik unilateral",
+              "Kontralateral"
+            ],
+            [
+              "13",
+              "Ictal vomiting",
+              "Hemisfer kanan"
+            ],
+            [
+              "14",
+              "Aura sensorik unilateral",
+              "Kontralateral"
+            ],
+            [
+              "15",
+              "Peri-ictal water drinking",
+              "Hemisfer nondominan"
+            ],
+            [
+              "16",
+              "Nistagmus iktal",
+              "Komponen cepat nystagmus -> kontralateral dari fokus."
+            ],
+            [
+              "17",
+              "Unilateral chills and goosebumps.",
+              "Ipsilateral"
+            ]
+          ],
+          "provenance": {
+            "source_document": "KULIAH BANGKITAN koas.docx",
+            "table_index": 1
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_06_01"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_06_01",
+        "Quiz_batch_1_6e_06_02",
+        "Quiz_batch_1_6e_06_03"
+      ],
+      "glossary_refs": [
+        "Term_bangkitan_refleks",
+        "Term_bangkitan_epilepsi_epileptic_seizure",
+        "Term_bangkitan_epileptik",
+        "Term_classification_of_epilepsies"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "KULIAH BANGKITAN koas.docx",
+        "table_index": 1
+      }
+    },
+    {
+      "id": "batch_1_6e_06_s13",
+      "title": "Embedded visual material requiring downstream asset review.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Visual_asset_note",
+          "text": "Source DOCX contains 48 embedded image(s). Text extraction does not guarantee all visual labels/captions were captured; downstream Codex/asset pipeline should inspect embedded media before final compile.",
+          "embedded_image_count": 48,
+          "provenance": {
+            "source_document": "KULIAH BANGKITAN koas.docx"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_06_embedded_review"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_06_01",
+        "Quiz_batch_1_6e_06_02",
+        "Quiz_batch_1_6e_06_03"
+      ],
+      "glossary_refs": [
+        "Term_bangkitan_refleks",
+        "Term_bangkitan_epilepsi_epileptic_seizure",
+        "Term_bangkitan_epileptik",
+        "Term_classification_of_epilepsies"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "KULIAH BANGKITAN koas.docx",
+        "embedded_image_count": 48
+      }
+    },
+    {
+      "id": "batch_1_6e_06_s14",
+      "title": "Penjelasan sederhana / simpler bilingual bridge.",
+      "kind": "Bilingual",
+      "content": [
+        {
+          "type": "Simplified_id",
+          "text": "Versi sederhana: materi ini terutama membahas kuliah bangkitan koas dengan fokus pada konsep klinis, diagnosis, tanda penting, dan tata laksana yang tampak di bahan dosen.",
+          "provenance": {
+            "source_document": "KULIAH BANGKITAN koas.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        },
+        {
+          "type": "Simplified_en",
+          "text": "Simple English bridge: this lecture centers on kuliah bangkitan koas, emphasizing clinical concepts, diagnosis, key signs, and management points extracted from the lecturer file.",
+          "provenance": {
+            "source_document": "KULIAH BANGKITAN koas.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_06_01"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_06_01",
+        "Quiz_batch_1_6e_06_02",
+        "Quiz_batch_1_6e_06_03"
+      ],
+      "glossary_refs": [
+        "Term_bangkitan_refleks",
+        "Term_bangkitan_epilepsi_epileptic_seizure",
+        "Term_bangkitan_epileptik",
+        "Term_classification_of_epilepsies"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "KULIAH BANGKITAN koas.docx",
+        "generated_section": true
+      }
+    }
+  ],
+  "related_exam_set_ids": [],
+  "provenance": {
+    "source_document": "KULIAH BANGKITAN koas.docx",
+    "manifest_document_id": "batch_1_6e_06",
+    "topic_tags": [],
+    "extraction_method": "python-docx paragraph/table extraction; embedded images counted but not OCRed",
+    "paragraph_count": 51,
+    "table_count": 2,
+    "embedded_image_count": 48
+  }
+}

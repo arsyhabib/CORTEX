@@ -1,0 +1,42 @@
+{
+  "course_id": "cortex_question_domain_batch5",
+  "title": "CORTEX Question Domain — Batch 5 Family Pair Overlap",
+  "language": "id",
+  "batch_id": "batch_5_family_pair",
+  "source_count": 2,
+  "sources": [
+    {
+      "source_filename": "388802_Tutorial Jadi Youtuber Bro.docx",
+      "source_relative_path": "SOAL 6E 6F/388802_Tutorial Jadi Youtuber Bro.docx",
+      "source_type": "docx",
+      "sha256": "c64f9bc5ad555c8e4e47780a5ca3ceb8bd5c424dc71a6efc752527b4e3427a71"
+    },
+    {
+      "source_filename": "6.3 okeoyeee with dr iksan and willy no -50.docx",
+      "source_relative_path": "SOAL 6E 6F/6.3 okeoyeee with dr iksan and willy no -50.docx",
+      "source_type": "docx",
+      "sha256": "f2b756383cf1edf20b17b481c3fe3bf48837f1b727bfe6211f7fe28be1d410ac"
+    }
+  ],
+  "outputs": {
+    "original_exam_set": "original_exam_sets/batch_5_family_pair_canonical_exam_set.json",
+    "variant_table": "original_exam_sets/batch_5_family_pair_variant_table.generated.json",
+    "quiz_bank": "quiz_bank/batch_5_family_pair_quiz_bank.json",
+    "glossary": "glossary/batch_5_family_pair_glossary.json",
+    "content_link_map": "content_link_map/content_link_map.generated.json",
+    "page_registry": "page_registry/page_registry.generated.json"
+  },
+  "statistics": {
+    "canonical_question_count": 92,
+    "quiz_item_count": 90,
+    "glossary_term_count": 37,
+    "variant_count": 183,
+    "placeholder_or_gap_count": 7,
+    "source_line_count_total": 1179
+  },
+  "quality_policy": {
+    "answer_confidence": "high/medium/low is explicit per item; low confidence items require human validation before high-stakes exam use.",
+    "deduplication": "Near duplicates are merged at canonical ID level while variants are retained.",
+    "scope": "Only the two Batch 5 source files are represented."
+  }
+}

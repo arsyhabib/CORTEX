@@ -1,0 +1,2738 @@
+{
+  "id": "batch_2_6f_13",
+  "block": "5f",
+  "title": "Perilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri.",
+  "subtitle": "Batch 2 / 6F psychiatry basics.",
+  "source_pdf": "source_docs/6F/prilaku profesional dan Pemeriksaan Psikiatri.docx",
+  "source_format": "Docx",
+  "source_filename": "Prilaku profesional dan Pemeriksaan Psikiatri.docx.",
+  "document_index": 13,
+  "summary": [
+    "Perilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri.",
+    "Pokok Bahasan.",
+    "A. Pengertian Wawancara.",
+    "Pertanyaan yang membantu di antaranya adalah: .",
+    "Dikombinasikan dengan beberapa pertanyaan tertutup (close-ended questions) untuk menelusuri kata kunci atau menanyakan hal yang spesifik, detil-detil yang dibutuhkan untuk diagnosis.",
+    "Pendekatan yang baik adalah dengan mengkombinasikan keduanya dari pertanyaan luas ke pertanyaan yang terfokus dan tajam."
+  ],
+  "exam_focus": [
+    "E: Anamnesa dan Pemeriksaan Psikiatri.",
+    "Penetapan diagnosis dan prognosis.",
+    "Intervensi non-farmakologis (psikoterapi).",
+    "Sampaikan pada pasien bahwa terapis familiar dengan masalah ini - tunjukkan pengetahuan yang dimiliki.",
+    "Dikombinasikan dengan beberapa pertanyaan tertutup (close-ended questions) untuk menelusuri kata kunci atau menanyakan hal yang spesifik, detil-detil yang dibutuhkan untuk diagnosis.",
+    "Pemeriksaan status mental untuk memastikan dan.",
+    "Mengonfirmasi gejala pada pasien.",
+    "Penjelasan tentang diagnosis & rencana terapi.",
+    "Gejala, tingkat ketidakmampuan, pengobatan yang diberikan, jumlah perawatan di rumah sakit, nama rumah sakit, lama sakit, dan efek dan efek samping dari pengobatan.",
+    "Penyalahgunaan alkohol dan zat lainnya, faktor risiko untuk."
+  ],
+  "sections": [
+    {
+      "id": "batch_2_6f_13_s01",
+      "title": "Perilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Tumpak Saragi, dr., SpKJ.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 1
+          }
+        }
+      ],
+      "provenance": {},
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "visual_refs": [
+        "Batch_2_6f_13_visual_concept_map"
+      ],
+      "glossary_refs": [
+        "Term_perilaku_profesional_anamnesa_dan_pemeriksaan_psik",
+        "Term_psychiatry_basics",
+        "Term_dapat_digunakan_pertanyaan_pertanyaan_seperti",
+        "Term_respon_terapis_bisa_berupa",
+        "Term_teknik_pertanyaan_terbuka",
+        "Term_pertanyaan_yang_membantu_di_antaranya",
+        "Term_dikombinasikan_dengan_beberapa_pertanyaan_tertutup",
+        "Term_pendekatan_yang_baik"
+      ],
+      "quiz_refs": [
+        "Batch_2_6f_13_quiz_01",
+        "Batch_2_6f_13_quiz_02",
+        "Batch_2_6f_13_quiz_03"
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s02",
+      "title": "Pokok Bahasan",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "A: Pengertian Wawancara Psikiatrik.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 3
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "B: Teknik Wawancara Psikiatrik.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 4
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "C: Tahapan Wawancara Psikiatrik.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 5
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "D: Wawancara pada Kondisi Khusus.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 6
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "E: Anamnesa dan Pemeriksaan Psikiatri.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 7
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 2
+      },
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "glossary_refs": [
+        "Term_perilaku_profesional_anamnesa_dan_pemeriksaan_psik",
+        "Term_psychiatry_basics",
+        "Term_dapat_digunakan_pertanyaan_pertanyaan_seperti",
+        "Term_respon_terapis_bisa_berupa",
+        "Term_teknik_pertanyaan_terbuka",
+        "Term_pertanyaan_yang_membantu_di_antaranya",
+        "Term_dikombinasikan_dengan_beberapa_pertanyaan_tertutup",
+        "Term_pendekatan_yang_baik"
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s03",
+      "title": "A. Pengertian Wawancara",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Psikiatrik.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 9
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Wawancara yang dilakukan oleh dokter kepada.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 10
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pasien dengan gangguan jiwa. Mencakup: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 11
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 8
+      },
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "glossary_refs": [
+        "Term_perilaku_profesional_anamnesa_dan_pemeriksaan_psik",
+        "Term_psychiatry_basics",
+        "Term_dapat_digunakan_pertanyaan_pertanyaan_seperti",
+        "Term_respon_terapis_bisa_berupa",
+        "Term_teknik_pertanyaan_terbuka",
+        "Term_pertanyaan_yang_membantu_di_antaranya",
+        "Term_dikombinasikan_dengan_beberapa_pertanyaan_tertutup",
+        "Term_pendekatan_yang_baik"
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s04",
+      "title": "Pemeriksaan status mental",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Penetapan diagnosis dan prognosis.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 14
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Intervensi non-farmakologis (psikoterapi).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 15
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 13
+      },
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "glossary_refs": [
+        "Term_perilaku_profesional_anamnesa_dan_pemeriksaan_psik",
+        "Term_psychiatry_basics",
+        "Term_dapat_digunakan_pertanyaan_pertanyaan_seperti",
+        "Term_respon_terapis_bisa_berupa",
+        "Term_teknik_pertanyaan_terbuka",
+        "Term_pertanyaan_yang_membantu_di_antaranya",
+        "Term_dikombinasikan_dengan_beberapa_pertanyaan_tertutup",
+        "Term_pendekatan_yang_baik"
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s05",
+      "title": "B: Teknik Wawancara",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Psikiatrik.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 17
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Membina rapport.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 18
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Merespons dengan empati.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 19
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Observasi perilaku nonverbal.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 20
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Strategi mendapatkan informasi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 21
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 16
+      },
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "glossary_refs": [
+        "Term_perilaku_profesional_anamnesa_dan_pemeriksaan_psik",
+        "Term_psychiatry_basics",
+        "Term_dapat_digunakan_pertanyaan_pertanyaan_seperti",
+        "Term_respon_terapis_bisa_berupa",
+        "Term_teknik_pertanyaan_terbuka",
+        "Term_pertanyaan_yang_membantu_di_antaranya",
+        "Term_dikombinasikan_dengan_beberapa_pertanyaan_tertutup",
+        "Term_pendekatan_yang_baik"
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s06",
+      "title": "Membina rapport",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Apakah rapport itu?",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 23
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mengapa rapport sangat.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 24
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 22
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s07",
+      "title": "Penting?",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Definisi Rapport: interaksi antara pasien dengan pewawancara yang di dalamnya terdapat rasa percaya (trust) dan pengertian (understanding).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 26
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Saat pertama menemui pewawancara, pasien sering mengalami rasa khawatir, takut, bahkan bingung - sulit mengungkapkan permasalahan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 27
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Dibutuhkan rasa percaya, dimengerti, ‘diterima’.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 28
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Agar pasien mau menceritakan permasalahan,.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 29
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sehingga.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 30
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pewawancara memahami dan dapat membantunya.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 31
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 25
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s08",
+      "title": "Strategi Membina Rapport:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Buat suasana nyaman bagi pasien dan pewawancara.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 33
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Temukan hal-hal yang menyebabkan penderitaan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 34
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pasien, dan perlihatkan kepedulian terhadap hal tsb.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 35
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tunjukkan keahlian dan bangun sikap kepemimpinan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 36
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Buat suasana nyaman bagi pasien dan pewawancara.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 37
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Buka wawancara dengan percakapan dasar dan ringan, bertujuan lebih mengenal/dekat dengan pasien.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 38
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lingkungan nyaman, tidak bising dan tidak banyak intervensi (bunyi HP, orang lalu lalang dll).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 39
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Menjadi pendengar yang aktif dan efektif.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 40
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 32
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s09",
+      "title": "Teknik awal membuat rasa nyaman.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Beri salam, bersalaman, sambil tersenyum.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 42
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perkenalkan diri.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 43
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tanyakan nama pasien serta bagaimana sebaiknya memanggil pasien.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 44
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lanjutkan dengan pertanyaan ringan (cth: bagaimana perjalanan pasien sampai ke tempat pewawancara).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 45
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Menjelaskan secara singkat tujuan wawancara dan minta kesediaan pasien untuk memberikan informasi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 46
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Teknik Mendengar yang Efektif.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 47
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Duduk berhadapan dan agak membungkuk ke arah pasien.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 48
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Membuat kontak mata.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 49
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Rileks dan sikap terbuka, hangat & empatik.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 50
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Memberi perhatian sepenuhnya.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 51
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Suara lembut.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 52
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak memotong pembicaraan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 53
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak menghakimi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 54
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak memberi penilaian.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 55
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Temukan hal-hal yang menyebabkan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 56
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penderitaan pasien, dan perlihatkan kepedulian.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 57
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dapat digunakan pertanyaan-pertanyaan, seperti: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 58
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Apa yang sedang mengganggu anda?",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 59
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Apa yang saat ini anda rasakan?",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 60
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Apa yang bisa saya bantu? Dapatkah anda menceritakan.?",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 61
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Fase awal wawancara seringkali penting untuk membiarkan pasien ventilasi terhadap keluhannya dengan bebas. Deteksi kemungkinan adanya depresi, kecemasan, atau kemarahan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 62
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Jika pasien terlihat cemas, berikan dukungan kepada pasien, cth: “saya mengerti bahwa hal ini mungkin sangat sulit diceritakan.terutama jika anda baru bertemu pertama kali…”.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 63
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 41
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s10",
+      "title": "Tunjukkan keahlian & bangun sikap.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Kepemimpinan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 65
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Buat pasien memahami bahwa tidak hanya pasien.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 66
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sendiri yang menghadapi masalah seperti sekarang.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 67
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sampaikan pada pasien bahwa terapis familiar dengan masalah ini - tunjukkan pengetahuan yang dimiliki.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 68
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bicarakan hal-hal yang diragukan oleh pasien bersama dengan keluarga atau teman yang mengantar pasien secara profesional.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 69
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bangkitkan semangat pasien akan masa depannya.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 70
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tunjukkan ketertarikan untuk membantu kesembuhan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 71
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pasien.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 72
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Respons dengan empati.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 73
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Empati -- dapat memahami apa yang dirasakan oleh pasien. Bagaimana jika berada dalam posisi orang lain tsb, namun tetap sebagai pihak yang berdiri di luar masalah.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 74
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dapat jatuh dalam simpati, bila terlarut dalam situasi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 75
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Yang dihadapi orang tsb, lalu gagal bersikap objektif.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 76
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Empati berkaitan dengan kepedulian, pemahaman,.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 77
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Serta sikap menghargai/menghormati.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 78
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 64
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s11",
+      "title": "Respon terapis bisa berupa:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Memperlihatkan kepedulian kita melalui bahasa tubuh.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 80
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Cth: memandang matanya, sesekali mengangguk, menampilkan ekspresi yang sesuai, dll.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 81
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ekspresi-ekspresi verbal singkat dapat memperlihatkan bahwa kita menghargai dan memahami.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 82
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Cth: “oh ya…, mmm…, saya mengerti…”.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 83
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "“saya dapat melihat bagaimana hal tersebut mengganggu anda.”; “hal tersebut pasti.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 84
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Membuat.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 85
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Anda tidak nyaman.”.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 86
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 79
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s12",
+      "title": "KESALAHAN YANG SERING DILAKUKAN.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Mendengar sambil menulis atau kerja lain.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 88
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pandangan menerawang.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 89
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak sabar, menyela/interupsi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 90
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Berargumentasi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 91
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Banyak bicara atau menasihati.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 92
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Berbasa-basi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 93
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terlalu cepat menyimpulkan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 94
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 87
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s13",
+      "title": "Observasi Perilaku Nonverbal",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Ekspresi wajah: tatapan mata, kerut dahi, alis, hidung dan kesesuaian ekspresi wajah.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 96
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Suara: nada, intonasi, jeda kata, cara bicara.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 97
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sikap tubuh: cara bersikap, gerakan tubuh, tangan, kaki.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 98
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Reaksi fisiologis: wajah merah/pucat, berkeringat, napas tersengal, pupil mata melebar.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 99
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penampilan: cara berpakaian, sikap dlm duduk dan berdiri.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 100
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 95
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s14",
+      "title": "Strategi Mendapatkan Informasi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Teknik pertanyaan terbuka (open-ended questions) di awal wawancara akan membuat pasien menceritakan masalahnya dengan kata-kata pasien sendiri. Pertanyaan yang membantu di antaranya adalah: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 102
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "“Bagaimana saya dapat membantu anda?” “Apa yang bisa saya bantu?”.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 103
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "“Masalah apa yang membawa anda ke sini?”.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 104
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "“Darimana sebaiknya kita mulai?”.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 105
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dikombinasikan dengan beberapa pertanyaan tertutup (close-ended questions) untuk menelusuri kata kunci atau menanyakan hal yang spesifik, detil-detil yang dibutuhkan untuk diagnosis.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 106
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Contoh: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 107
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "D: Sudah berapa lama anda mengalami keluhan sulit tidur?",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 108
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "P: 2 minggu.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 109
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "D: Berapa lama waktu yang anda butuhkan untuk.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 110
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bisa tertidur.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 111
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Belakangan ini?",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 112
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "P: Kadang-kadang satu jam, kadang 3 jam, kadang saya tidak.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 113
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bisa tidur sama sekali sepanjang malam.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 114
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "D: Apakah anda pernah terbangun sangat awal dan tidak bisa.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 115
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidur lagi?",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 116
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pendekatan yang baik adalah dengan mengkombinasikan keduanya dari pertanyaan luas ke pertanyaan yang terfokus dan tajam.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 117
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Memulai topik baru dengan pertanyaan terbuka yang luas; lanjutkan dengan memfokuskan pada satu topik target; akhiri dengan serial pertanyaan yang semakin menyempit, sesekali tertutup - tipe ya/tidak.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 118
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Jika ingin menghindari pertanyaan tertutup, gunakan pertanyaan terbuka yang tajam dan fokus.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 119
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Contoh: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 120
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "“Apakah anda mengalami sulit tidur?” (jawaban yang muncul adalah: ya atau tidak).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 121
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lebih baik bertanya: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 122
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "“Apa yang terjadi saat anda mencoba tidur?”.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 123
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 101
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s15",
+      "title": "Teknik Klarifikasi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "“anda merasa sedih. Kapan waktu anda merasa paling sedih?”.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 125
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 124
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s16",
+      "title": "Teknik Fasilitasi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "“lalu.” “apa yang terjadi kemudian?”.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 127
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 126
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s17",
+      "title": "Teknik Silence",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Terkadang pasien membutuhkan waktu untuk menangis, membutuhkan waktu untuk bercerita dalam kondisi yang mendukung.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 129
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 128
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s18",
+      "title": "Teknik Dukungan Positif",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "“Saya sangat menghargai anda menceritakan kepada saya bahwa anda berhenti meminum obat. Dapatkah anda memberitahukan kepada saya, apa masalahnya?",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 131
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 130
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s19",
+      "title": "Tahapan Wawancara Psikiatrik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Secara umum, wawancara psikiatrik dibagi menjadi tiga tahapan: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 133
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Membuka wawancara.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 134
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Isi wawancara.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 135
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Menutup wawancara.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 136
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 132
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s20",
+      "title": "Membuka Wawancara",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Fase awal sebuah wawancara psikiatrik.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 138
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Di fase ini dilakukan penelusuran identitas pasien, membina rapport dan mempersiapkan pasien untuk wawancara yang sesungguhnya.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 139
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sampaikan juga kepada pasien bahwa semua hal yang dibicarakan dalam sesi ini bersifat rahasia sehingga pasien dapat bebas menceritakan apapun.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 140
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Isi Wawancara.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 141
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Keluhan utama: kapan dan bagaimana awalnya, perjalanan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 142
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penyakit dan hal-hal yang memperparah atau meringankan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 143
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Apakah pasien banyak mengeluhkan masalah fisik (lebih dari tiga) yang tidak cocok dengan pola penyakit apapun.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 144
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Apakah ada riwayat penggunaan obat atau zat lain.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 145
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bagaimana kepercayaan pasien terhadap penyakitnya, adakah kecurigaan ke arah supranatural atau keyakinan kultural tertentu.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 146
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Riwayat gangguan jiwa sebelumnya, riwayat penyakit medis, serta peristiwa kehidupan, misalnya berduka, pengangguran, pindah rumah, masalah dalam perkawinan atau pekerjaan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 147
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Daftar sumber dukungan sosial bagi pasien; keluarga, teman,.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 148
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lingkungan, agama, dll.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 149
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Riwayat perkembangan, kehidupan sosial dan sistem keluarga: Semua peristiwa kehidupan yang bermakna pada pasien perlu ditelusuri, termasuk tahap-tahap perkembangan (mulai bicara, berdiri, berjalan, apakah ada kecemasan perpisahan saat pertama masuk sekolah, pergaulan di sekolah, dll).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 150
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 137
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s21",
+      "title": "Pemeriksaan status mental untuk memastikan dan.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Mengonfirmasi gejala pada pasien.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 152
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Apabila pasien mengatakan mendengar suara-suara, kita perlu memastikan apakah suara tersebut tanpa sumber, apakah hanya pasien sendiri yang dapat mendengar, kapan biasanya suara-suara tersebut muncul, dan apa reaksi pasien terhadap suara-suara tersebut.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 153
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bila pasien memiliki keyakinan tertentu, untuk memastikan apakah itu suatu waham kita bisa minta pasien menjelaskan lebih lanjut mengenai keyakinannya tersebut.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 154
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pertanyaan kunci untuk mendeteksi gangguan jiwa di fasilitas kesehatan primer: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 155
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Apakah Anda mengalami kesulitan tidur di malam hari?",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 156
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Apakah Anda merasa seolah tidak tertarik untuk melakukan kegiatan yang biasa Anda lakukan?",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 157
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Apakah Anda merasa sedih akhir-akhir ini?",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 158
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Apakah Anda merasa takut terhadap apapun?",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 159
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 151
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s22",
+      "title": "Menutup wawancara",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Simpulan singkat - selipkan kalimat suportif.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 161
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penjelasan tentang diagnosis & rencana terapi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 162
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Beri pasien kesempatan untuk bertanya.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 163
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Buat janji temu untuk pertemuan berikutnya.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 164
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 160
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s23",
+      "title": "Gangguan mental emosional:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Gejala, tingkat ketidakmampuan, pengobatan yang diberikan, jumlah perawatan di rumah sakit, nama rumah sakit, lama sakit, dan efek dan efek samping dari pengobatan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 168
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 167
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s24",
+      "title": "Gangguan psikosomatik Gangguan kondisi fisik medis.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Penyalahgunaan alkohol dan zat lainnya, faktor risiko untuk.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 170
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tertular HIV dan hasil tes HIV.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 171
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gangguan neurologis: sakit kepala, trauma kepala, kehilangan kesadaran, gangguan penglihatan, gangguan pendengaran, kejang, atau tumor otak.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 172
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Free PowerPoint Template from www.brainybetty.com 28.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 173
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 169
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s25",
+      "title": "STATUS MENTAL",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Seluruh hasil pengamatan dan kesan pemeriksa saat wawancara.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 175
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penampilan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 176
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dentifikasi pribadi: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 177
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Deskripsi singkat tentang penampilan dan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 178
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perilaku pasien. Sikap terhadap pemeriksa: koperatif, penuh perhatian, penuh minat, jujur, menggoda, defensif, bermusuhan, menyenangkan, manis, menghindar, atau berhati-hati.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 179
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Cara melangkah, manerisma, tics, gerakan memunguti (picking).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 180
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gerakan, menyentuh.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 181
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perilaku dan aktivitas psikomotor: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 182
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pemeriksa, stereotipi, echopraxia, canggung, cekatan, lemas, gelisah, kaku, lambat, hiperaktif, agresif, atau serea fleksibilitas.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 183
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Free PowerPoint Template from www.brainybetty.com 29.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 184
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gambaran umum: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 185
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Postur, pakaian, perawatan diri, rambut, kuku; tampak sehat, tampak sakit, marah, ketakutan, apatis, bingung, merendahkan, tampak lebih tua/muda dibanding usianya, feminin, maskulin; tanda-tanda kecemasan- telapak tangan lembab, dahi berkeringat, gelisah, postur tegang, suara tertahan, mata lebar, perubahan derajat kecemasan selama wawancara atau terkait topik tertentu; kontak mata (50 persen adalah normal).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 186
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Free PowerPoint Template from www.brainybetty.com 30.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 187
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bicara.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 188
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Cepat, lambat, tertahan, ragu-ragu, emosional, monoton, keras, berbisik, cadel, bergumam, gagap, echolalia, intensitas (rendah, tinggi, melengking), santai, spontan, produktif, sopan santun, waktu reaksi, kosa kata, alunan suara.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 189
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Free PowerPoint Template from www.brainybetty.com 31.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 190
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mood dan Afek.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 191
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mood: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 192
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bagaimana pasien menyatakan perasaannya, kedalamannya, intensitasnya, durasi, dan fluktuasi dari mood -depresif, putus asa, mudah tersinggung, cemas, takut, marah, meluap-luap (expansive), euforia, hampa, merasa bersalah, anhedonia, alexithymia-.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 193
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Afek: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 194
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bagaimana pemeriksa menilai afek pasien - luas, terbatas, tumpul atau datar, dangkal; kesulitan memulai, mempertahankan, atau mengakhiri respon emosional, apakah ekspresi emosi sesuai dengan isi pikiran, budaya, dan situasi saat pemeriksaan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 195
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Free PowerPoint Template from www.brainybetty.com 32.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 196
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pikiran dan persepsi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 197
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 174
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s26",
+      "title": "Pikiran",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Bentuk pikiran.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 199
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Produktivitas: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 200
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ide meluap-luap, kemiskinan ide, flight of ideas, berpikir cepat, berpikir lambat, apakah pasien berbicara secara spontan atau hanya menjawab ketika pertanyaan diajukan, arus pikiran.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 201
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kontinuitas pikiran: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 202
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Apakah jawaban pasien sesuai dengan pertanyaan, apakah jawaban terarah, relevan atau tidak relevan, asosiasi longgar, kurangnya hubungan sebab akibat dalam menjelaskan sesuatu, tidak logis, tangensial, circumstantial, bertele-tele, perseverasi, blocking.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 203
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 198
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s27",
+      "title": "Gangguan Bahasa:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Inkoherensi (gado-gado kata), asosiasi bunyi, neologisme.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 205
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Free PowerPoint Template from www.brainybetty.com 33.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 206
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Isi Pikiran.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 207
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Preokupasi: tentang penyakitnya, masalah di lingkungan sekeliling, pikiran obsesif, fobia, terobsesi atau rencana bunuh diri, atau membunuh, gejala hipokondrik, dorongan atau impuls antisosial.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 208
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 204
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s28",
+      "title": "Gangguan Pikiran",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Waham: isi waham, organisasinya, keyakinan pasien terhadap kebenarannya, pengaruhnya terhadap kehidupan pasien.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 210
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ideas of reference and ideas of influence: bagaimana ide tersebut terbentuk, isinya, dan maknanya bagi pasien.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 211
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pikiran autistik.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 212
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Free PowerPoint Template from www.brainybetty.com 34.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 213
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 209
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s29",
+      "title": "Gangguan Persepsi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Halusinasi ilusi: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 215
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Depersonalisasi dan derealisasi: perasaan terlepas dari diri sendiri atau dari lingkungan sekeliling yang ekstrim.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 216
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mimpi dan fantasi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 217
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mimpi: mimpi yang sangat berkesan, mimpi buruk.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 218
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Fantasi: lamunan yang berulangkali, yang disukai, yang tidak tergoyahkan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 219
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Free PowerPoint Template from www.brainybetty.com 35.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 220
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sensorium dan Kognisi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 221
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kesadaran/alertness: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 222
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kesadaran terhadap lingkungan sekitar, perhatian, kesadaran berkabut, fluktuasi tingkat kesadaran, somnolen, stupor, letargi, fugue, koma.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 223
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Orientasi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 224
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Waktu: apakah pasien dapat mengidentifikasi perkiraan waktu (jam) dengan benar; jika pasien sedang dirawat di rumah sakit, apakah pasien tahu berapa lama dia telah berada di sana; apakah perilaku pasien berorientasi pada masa kini.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 225
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tempat: apakah pasien tahu di mana dia sedang berada Orang: apakah pasien tahu siapa pemeriksa, dan peran atau nama orang yang ada di sekitar pasien.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 226
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Free PowerPoint Template from www.brainybetty.com 36.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 227
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Memori.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 228
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gangguan memori, upaya yang dilakukan pasien untuk mengatasi gangguan memori tersebut - denial, konfabulasi, ledakan kemarahan, dan circumstantiality, biasa digunakan untuk menyembunyikan ketidakmampuan pasien- apakah gangguan terletak pada proses registrasi, retensi, atau mengingat kembali.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 229
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Remote Memory: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 230
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Data masa kanak-kanak, peristiwa penting yang diketahui terjadi ketika pasien berusia lebih muda atau sebelum sakit, hal-hal yang bersifat pribadi, hal-hal yang bersifat netral.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 231
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Recent Past Memory: beberapa bulan lalu.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 232
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Recent Memory: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 233
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Beberapa hari yang lalu, apa yang pasien lakukan kemarin dan hari-hari sebelumnya, apa yang pasien makan untuk sarapan, makan siang, dan makan malam.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 234
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Immediate Retention and Recall: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 235
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kemampuan menyebutkan kembali enam angka segera setelah dibacakan pemeriksa -berurutan ke depan, berurutan ke belakang, dan kemudian disebutkan lagi beberapa menit kemudian.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 236
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pengaruh gangguan memori pada pasien dan cara pasien mengatasi gangguan memorinya tersebut.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 237
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Free PowerPoint Template from www.brainybetty.com 37.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 238
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Wawasan terhadap Penyakit: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 239
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tingkat kesadaran pribadi dan pemahaman tentang penyakit yang.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 240
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dideritanya: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 241
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penyangkalan total.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 242
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sedikit menyadari bahwa sedang sakit.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 243
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Menyadari sakit tetapi menyalahkan pihak lain.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 244
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Intellectual insight: mengakui dirinya sakit, dan mengetahui bahwa permasalahan yang ia alami disebabkan karena penyakitnya, tanpa menerapkan pengetahuan tersebut pada pengalaman di masa depan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 245
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "True emotional insight: secara emosional menyadari dirinya sakit,.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 246
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Membuka diri untuk perubahan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 247
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Free PowerPoint Template from www.brainybetty.com 38.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 248
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 214
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s30",
+      "title": "Garis besar pemeriksaan status mental.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Gambaran umum.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 250
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mood dan afek.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 251
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pembicaraan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 252
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 249
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s31",
+      "title": "Gangguan persepsi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Pikiran.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 254
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sensorium dan kognitif.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 255
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Wawasan terhadap penyakit.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 256
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penilaian.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 257
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 253
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s32",
+      "title": "Pemeriksaan:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": " Fisik diagnostic.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 260
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": " Status mentalis.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 261
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": " Laboratorium.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 262
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": " Radiologik.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 263
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": " Evaluasi psikologik.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 264
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": " Lain-lain.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 265
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 259
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s33",
+      "title": "Diagnosis multiaksial terdiri dari 5 aksis:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "Aksis",
+              "I:",
+              "Gangguan Klinis"
+            ],
+            [
+              "Kondisi Lain Yg Menjadi Fokus Perhatian Klinis."
+            ],
+            [
+              "Aksis",
+              "II:",
+              "Gangguan Kepribadian"
+            ],
+            [
+              "Retardasi Mental"
+            ],
+            [
+              "Aksis",
+              "III:",
+              "Kondisi Medik Umum"
+            ],
+            [
+              "Aksis",
+              "IV:",
+              "Masalah Psikososial dan Lingkungan."
+            ],
+            [
+              "Aksis",
+              "V:",
+              "Penilaian Fungsi Secara Global."
+            ]
+          ],
+          "provenance": {
+            "source_kind": "Docx_table",
+            "table_index": 267
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 266
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_s34",
+      "title": "Terapi:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": " Farmako terapi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 269
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": " Psikoterapi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 270
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": " Terapi social.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 271
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": " Terapi okupasional.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 272
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": " Lain-lain.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 273
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Free PowerPoint Template from www.brainybetty.com 43.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 274
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 268
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_13_high_yield",
+      "title": "High-yield / titik ujian dari sumber.",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "E: Anamnesa dan Pemeriksaan Psikiatri."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Penetapan diagnosis dan prognosis."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Intervensi non-farmakologis (psikoterapi)."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Sampaikan pada pasien bahwa terapis familiar dengan masalah ini - tunjukkan pengetahuan yang dimiliki."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Dikombinasikan dengan beberapa pertanyaan tertutup (close-ended questions) untuk menelusuri kata kunci atau menanyakan hal yang spesifik, detil-detil yang dibutuhkan untuk diagnosis."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Pemeriksaan status mental untuk memastikan dan."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Mengonfirmasi gejala pada pasien."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Penjelasan tentang diagnosis & rencana terapi."
+        }
+      ],
+      "recommended_pages": [
+        11,
+        22
+      ],
+      "provenance": {
+        "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+        "derivation": "Source_keyword_extraction"
+      }
+    },
+    {
+      "id": "batch_2_6f_13_summary",
+      "title": "Ringkasan cepat",
+      "kind": "Summary",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Perilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri.",
+              "children": []
+            },
+            {
+              "text": "Pokok Bahasan.",
+              "children": []
+            },
+            {
+              "text": "A. Pengertian Wawancara.",
+              "children": []
+            },
+            {
+              "text": "Pertanyaan yang membantu di antaranya adalah: .",
+              "children": []
+            },
+            {
+              "text": "Dikombinasikan dengan beberapa pertanyaan tertutup (close-ended questions) untuk menelusuri kata kunci atau menanyakan hal yang spesifik, detil-detil yang dibutuhkan untuk diagnosis.",
+              "children": []
+            },
+            {
+              "text": "Pendekatan yang baik adalah dengan mengkombinasikan keduanya dari pertanyaan luas ke pertanyaan yang terfokus dan tajam.",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "recommended_pages": [
+        15,
+        22
+      ],
+      "provenance": {
+        "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+        "derivation": "Source_derived_summary"
+      }
+    },
+    {
+      "id": "batch_2_6f_13_bilingual_simplified",
+      "title": "Penjelasan sederhana bilingual",
+      "kind": "Bilingual",
+      "content": [
+        {
+          "type": "Bilingual_simplification",
+          "language": "Id-en",
+          "simple_indonesian": "Secara sederhana, topik ini membahas Perilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri. Fokuskan belajar pada definisi, gambaran klinis, pemeriksaan/diagnosis bila ada, dan penatalaksanaan yang tertulis dalam materi dosen.",
+          "english_bridge": "In simple terms, this source is a structured learning page for Perilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri. Review definitions, clinical features, assessment/diagnosis when available, and management points from the lecturer material.",
+          "confidence": "high_for_scope_low_for_unsourced_extra_claims"
+        }
+      ],
+      "recommended_pages": [
+        16
+      ],
+      "provenance": {
+        "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+        "derivation": "App_shell_simplification"
+      }
+    },
+    {
+      "id": "batch_2_6f_13_visual_plan",
+      "title": "Perilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Image_plan",
+          "visual_id": "Batch_2_6f_13_visual_concept_map",
+          "title": "Concept map: Perilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri.",
+          "caption": "Visual ringkas berbasis struktur materi dosen dari prilaku profesional dan Pemeriksaan Psikiatri.docx.",
+          "recommended_pages": [
+            12,
+            13
+          ],
+          "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx"
+        },
+        {
+          "type": "Image_plan",
+          "visual_id": "Batch_2_6f_13_source_slide_gallery_placeholder",
+          "title": "Galeri slide sumber: Perilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri.",
+          "caption": "Dokumen mengandung 18 media; perlu clearance sebelum gambar asli dimasukkan.",
+          "recommended_pages": [
+            13,
+            24
+          ],
+          "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Batch_2_6f_13_visual_concept_map",
+        "Batch_2_6f_13_source_slide_gallery_placeholder"
+      ],
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "provenance": {
+        "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+        "derivation": "Visual_asset_planning"
+      }
+    }
+  ],
+  "related_exam_set_ids": [],
+  "extraction_metadata": {
+    "text_chars": 15587,
+    "media_count": 18,
+    "ocr_used": false,
+    "ocr_slide_count": 0
+  },
+  "app_feature_targets": [
+    3,
+    4,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    20,
+    22,
+    24
+  ],
+  "provenance": {
+    "batch_id": "batch_2_6F",
+    "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+    "source_path": "Source_docs/6F/prilaku profesional dan Pemeriksaan Psikiatri.docx."
+  }
+}

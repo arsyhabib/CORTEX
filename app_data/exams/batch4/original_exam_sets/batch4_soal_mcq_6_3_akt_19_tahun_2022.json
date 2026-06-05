@@ -1,0 +1,2241 @@
+{
+  "id": "batch4_soal_mcq_6_3_akt_19_tahun_2022",
+  "title": "Soal MCQ 6.3 Akt 19 Tahun 2022",
+  "block": "mixed",
+  "year": 2022,
+  "year_label": "2022",
+  "source_label": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+  "page_route": "pages/original_exam_sets/batch4_soal_mcq_6_3_akt_19_tahun_2022.html",
+  "question_count": 58,
+  "reconstruction_level": "reconstructed",
+  "source_metadata": {
+    "source_filename": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+    "source_relative_path": "SOAL 6E 6F/Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+    "source_type": "docx",
+    "sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+    "line_count": 200,
+    "table_count": 0
+  },
+  "questions": [
+    {
+      "id": "batch4_2022_q01",
+      "number": 1,
+      "stem": "Golongan narkotika golongan II adalah...",
+      "stem_original": "Golongan narkotika golongan 2…",
+      "options": [
+        "Morfin, pethidine",
+        "Ganja (satu)",
+        "Kodein (tiga)"
+      ],
+      "explanation": "Sumber menempatkan morfin dan pethidine segera setelah pertanyaan golongan narkotika golongan II; ganja dan kodein dicatat sebagai golongan lain.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 2-5",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 2,
+        "line_end": 5,
+        "source_excerpt": "Golongan narkotika golongan 2…\nMorfin, pethidine\nGanja (satu)\nKodein (tiga)"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "farmakologi",
+        "narkotika",
+        "psikotropika"
+      ],
+      "linked_glossary_ids": [
+        "gls_narkotika_golongan_ii"
+      ],
+      "answer_hint_confidence": "medium",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Morfin, pethidine",
+      "answer_index": 0,
+      "answer_text": "Morfin, pethidine"
+    },
+    {
+      "id": "batch4_2022_q02",
+      "number": 2,
+      "stem": "Golongan obat yang dapat menyebabkan cheese reaction adalah...",
+      "stem_original": "golongan obat yang menyebabkan cheese reaction…",
+      "options": [
+        "SSRI",
+        "SNRI",
+        "TCA",
+        "MAOI"
+      ],
+      "explanation": "Cheese reaction secara klasik dikaitkan dengan MAOI karena interaksi tiramin yang dapat memicu krisis hipertensi.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 6-10",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 6,
+        "line_end": 10,
+        "source_excerpt": "golongan obat yang menyebabkan cheese reaction…\nSSRI\nSNRI\nTCA\nMAOI"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "farmakologi",
+        "antidepresan"
+      ],
+      "linked_glossary_ids": [
+        "gls_maoi",
+        "gls_cheese_reaction"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "MAOI",
+      "answer_index": 3,
+      "answer_text": "MAOI"
+    },
+    {
+      "id": "batch4_2022_q03",
+      "number": 3,
+      "stem": "Seorang pasien mengalami gejala depresi selama sekitar satu bulan, kemudian menjadi manik setelah mendapat proyek besar. Diagnosis kerja yang paling sesuai adalah...",
+      "stem_original": "ibunya perpustakaan kerjaan nya sebulan ini depresi, tapi begitu dapat proyek macam setya novanto langsung manik yang ditanya diagnosis kerjannya apa (ppt dr victor ggn mood)",
+      "options": [
+        "Gejala bipolar afektif masa kini depresi",
+        "Gejala bipolar afektif masa kini manik",
+        "Skizofrenia tipe 1",
+        "Tipe2",
+        "Tipe 3"
+      ],
+      "explanation": "Sumber memberi skenario perubahan dari depresi menuju manik dan opsi “bipolar afektif masa kini manik”.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 11-16",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 11,
+        "line_end": 16,
+        "source_excerpt": "ibunya perpustakaan kerjaan nya sebulan ini depresi, tapi begitu dapat proyek macam setya novanto langsung manik yang ditanya diagnosis kerjannya apa (ppt dr victor ggn mood)\nGejala bipolar afektif masa kini depresi\nGejala bipolar afektif masa kini manik\nSkizofrenia tipe 1\nTipe2\nTipe 3"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "psikiatri",
+        "gangguan_mood",
+        "bipolar"
+      ],
+      "linked_glossary_ids": [
+        "gls_bipolar",
+        "gls_manik"
+      ],
+      "answer_hint_confidence": "medium",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Gejala bipolar afektif masa kini manik",
+      "answer_index": 1,
+      "answer_text": "Gejala bipolar afektif masa kini manik"
+    },
+    {
+      "id": "batch4_2022_q04",
+      "number": 4,
+      "stem": "Sirkumstansialitas merupakan gangguan psikiatri yang termasuk aspek...",
+      "stem_original": "Sirkumtansial merupakan gangguan psikiatri yang bersifat apa? (buku diagnosis psikiatri)",
+      "options": [
+        "Proses Pikir(tema besarnya ini)",
+        "Isi pikiran",
+        "Bentuk pikiran(spesifiknya ini)",
+        "tilikan"
+      ],
+      "explanation": "Sumber menandai proses pikir sebagai tema besar dan bentuk pikiran sebagai kategori spesifik untuk sirkumstansialitas.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 17-21",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 17,
+        "line_end": 21,
+        "source_excerpt": "Sirkumtansial merupakan gangguan psikiatri yang bersifat apa? (buku diagnosis psikiatri)\nProses Pikir(tema besarnya ini)\nIsi pikiran\nBentuk pikiran(spesifiknya ini)\ntilikan"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "psikiatri",
+        "status_mental",
+        "proses_pikir"
+      ],
+      "linked_glossary_ids": [
+        "gls_sirkumstansialitas",
+        "gls_bentuk_pikir"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Bentuk pikiran",
+      "answer_index": 2,
+      "answer_text": "Bentuk pikiran(spesifiknya ini)"
+    },
+    {
+      "id": "batch4_2022_q05",
+      "number": 5,
+      "stem": "Contoh obat antidepresan golongan trisiklik/TCA adalah...",
+      "stem_original": "Obat anti depresen golongan trisiklik(TCA)? Amitriptilin, (amoxapine, desiramine, doxepine, imipramine, maprotiline)",
+      "options": [
+        "Amitriptilin",
+        "Amoxapine",
+        "Desipramine",
+        "Doxepine",
+        "Imipramine",
+        "Maprotiline"
+      ],
+      "explanation": "Sumber secara eksplisit menyebut amitriptilin dan beberapa contoh TCA lain.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 22-22",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 22,
+        "line_end": 22,
+        "source_excerpt": "Obat anti depresen golongan trisiklik(TCA)? Amitriptilin, (amoxapine, desiramine, doxepine, imipramine, maprotiline)"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "farmakologi",
+        "antidepresan",
+        "TCA"
+      ],
+      "linked_glossary_ids": [
+        "gls_tca",
+        "gls_amitriptilin"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Amitriptilin",
+      "answer_index": 0,
+      "answer_text": "Amitriptilin"
+    },
+    {
+      "id": "batch4_2022_q06",
+      "number": 6,
+      "stem": "Yang merupakan gejala manik adalah...",
+      "stem_original": "Yang merupakan gejala manik?",
+      "options": [
+        "Harga diri yang membumbung atau rasa kebesaran",
+        "Berkurangnya kebutuhan tidur",
+        "Lebih banyak berbicara dari biasanya",
+        "Flight of idea",
+        "Perhatian mudah teralih",
+        "Meningkatnya aktivitas bertujuan atau secara seksual atau agitasi psikomotor",
+        "Keterlibatan yang berlebihan dalam aktivitas yang menyenangkan dan berpotensi tinggi memiliki akibat menyakitkan",
+        "Semua pilihan yang tercatat benar"
+      ],
+      "explanation": "Seluruh butir yang dicatat pada sumber adalah gejala khas episode manik; opsi “semua” ditambahkan sebagai rekonstruksi agar format MCQ valid.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 23-30",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 23,
+        "line_end": 30,
+        "source_excerpt": "Yang merupakan gejala manik?\nHarga diri yang membumbung atau rasa kebesaran\nBerkurangnya kebutuhan tidur\nLebih banyak berbicara dari biasanya\nFlight of idea\nPerhatian mudah teralih\nMeningkatnya aktivitas bertujuan atau secara seksual atau agitasi psikomotor\nKeterlibatan yang berlebihan dalam aktivitas yang menyenangkan dan berpotensi tinggi memiliki akibat menyakitkan"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "psikiatri",
+        "gangguan_mood",
+        "manik"
+      ],
+      "linked_glossary_ids": [
+        "gls_manik"
+      ],
+      "answer_hint_confidence": "medium",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Semua pilihan yang tercatat benar",
+      "answer_index": 7,
+      "answer_text": "Semua pilihan yang tercatat benar"
+    },
+    {
+      "id": "batch4_2022_q07",
+      "number": 7,
+      "stem": "SSRI yang sering digunakan untuk mengatasi fobia sosial termasuk...",
+      "stem_original": "SSRI yang sering untuk mengatasi fobia sosial?\ncitalopram, escitalopram, fluoxetine,\nfluvoxamine, paroxetine, and sertraline. (ini golongan ssri)",
+      "options": [
+        "Citalopram",
+        "Escitalopram",
+        "Fluoxetine",
+        "Fluvoxamine",
+        "Paroxetine",
+        "Sertraline",
+        "Semua pilihan yang tercatat termasuk SSRI"
+      ],
+      "explanation": "Sumber mencantumkan beberapa SSRI; tidak ada satu jawaban tunggal yang ditandai.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 31-33",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 31,
+        "line_end": 33,
+        "source_excerpt": "SSRI yang sering untuk mengatasi fobia sosial?\ncitalopram, escitalopram, fluoxetine,\nfluvoxamine, paroxetine, and sertraline. (ini golongan ssri)"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "farmakologi",
+        "SSRI",
+        "fobia_sosial"
+      ],
+      "linked_glossary_ids": [
+        "gls_ssri",
+        "gls_fobia_sosial"
+      ],
+      "answer_hint_confidence": "medium",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Semua pilihan yang tercatat termasuk SSRI",
+      "answer_index": 6,
+      "answer_text": "Semua pilihan yang tercatat termasuk SSRI"
+    },
+    {
+      "id": "batch4_2022_q08",
+      "number": 8,
+      "stem": "Yang merupakan bagian dari aparatus vestibularis adalah...",
+      "stem_original": "Yang merupakan aparatus vestibularis?",
+      "options": [
+        "Kanalis semisirkularis yang terhubung dengan n. Vestibularis",
+        "Vestibulum yang terhubung dengan neuro reseptor epitel",
+        "Ampula kanalis semisirkularis yang terhubung dengan neuro reseptor epitel",
+        "limfae(?)"
+      ],
+      "explanation": "Catatan sumber menjelaskan aparatus vestibularis terdiri dari kanalis semisirkularis dan organ otolit. Opsi terdekat adalah kanalis semisirkularis.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 34-39",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 34,
+        "line_end": 39,
+        "source_excerpt": "Yang merupakan aparatus vestibularis?\nKanalis semisirkularis yang terhubung dengan n. Vestibularis\nVestibulum yang terhubung dengan neuro reseptor epitel\nAmpula kanalis semisirkularis yang terhubung dengan neuro reseptor epitel\nlimfae(?)\nkomponen-komponen vestibularis masing-masing mengandung sel rambut yang berespons terhadap deformasi mekanis yang dipicu oleh gerakan spesifik endolimfe. Aparatus vestibularis terdiri dari dua set struktur di dalam bagian terowongan tulang temporal dekat koklea, yaitu kanalis semisirkularis dan organ otolit, yaitu utrikulus dan sakulus"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neuroanatomi",
+        "vestibular"
+      ],
+      "linked_glossary_ids": [
+        "gls_aparatus_vestibularis",
+        "gls_kanalis_semisirkularis"
+      ],
+      "answer_hint_confidence": "medium",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Kanalis semisirkularis yang terhubung dengan n. Vestibularis",
+      "answer_index": 0,
+      "answer_text": "Kanalis semisirkularis yang terhubung dengan n. Vestibularis"
+    },
+    {
+      "id": "batch4_2022_q09",
+      "number": 9,
+      "stem": "Karakteristik tension-type headache adalah...",
+      "stem_original": "Yang merupakan karakteristik tension type headache (nyeri kepala tegang)…",
+      "options": [
+        "Berlangsung 24-72 jam",
+        "Unilateral",
+        "Meningkat dengan aktivitas fisik rutin dan naik turun tangga",
+        "Gejala ringan-sedang"
+      ],
+      "explanation": "Tension-type headache umumnya berintensitas ringan-sedang dan tidak khas unilateral maupun memburuk dengan aktivitas rutin.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 40-44",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 40,
+        "line_end": 44,
+        "source_excerpt": "Yang merupakan karakteristik tension type headache (nyeri kepala tegang)…\nBerlangsung 24-72 jam\nUnilateral\nMeningkat dengan aktivitas fisik rutin dan naik turun tangga\nGejala ringan-sedang"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "nyeri_kepala"
+      ],
+      "linked_glossary_ids": [
+        "gls_tension_type_headache"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Gejala ringan-sedang",
+      "answer_index": 3,
+      "answer_text": "Gejala ringan-sedang"
+    },
+    {
+      "id": "batch4_2022_q10",
+      "number": 10,
+      "stem": "Jaras yang berperan dalam mekanisme halusinasi dan waham/gejala positif pada skizofrenia adalah...",
+      "stem_original": "Jaras dalam mekanisme halusinasi dan waham(gejala positif) pada skizofrenia…",
+      "options": [
+        "Sistem limbik (emosi)",
+        "Sistem mesolimbik (gejala positif)",
+        "Sistem nigrostriatal (gejala negatif)",
+        "Sistem mesokortikal",
+        "Sistem tuberoinfundibular"
+      ],
+      "explanation": "Sumber secara langsung memberi keterangan bahwa sistem mesolimbik berkaitan dengan gejala positif.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 45-50",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 45,
+        "line_end": 50,
+        "source_excerpt": "Jaras dalam mekanisme halusinasi dan waham(gejala positif) pada skizofrenia…\nSistem limbik (emosi)\nSistem mesolimbik (gejala positif)\nSistem nigrostriatal (gejala negatif)\nSistem mesokortikal\nSistem tuberoinfundibular"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "psikiatri",
+        "skizofrenia",
+        "neurobiologi"
+      ],
+      "linked_glossary_ids": [
+        "gls_mesolimbik",
+        "gls_gejala_positif_skizofrenia"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Sistem mesolimbik (gejala positif)",
+      "answer_index": 1,
+      "answer_text": "Sistem mesolimbik (gejala positif)"
+    },
+    {
+      "id": "batch4_2022_q11",
+      "number": 11,
+      "stem": "Efek ekstrapiramidal yang dapat muncul pada penggunaan antipsikotik tipikal adalah...",
+      "stem_original": "Anti depresan golongan tipikal memiliki efek samping efek ekstrapiramidal yaitu…",
+      "options": [
+        "Tremor",
+        "Distonia",
+        "Keduanya benar"
+      ],
+      "explanation": "Tremor dan distonia sama-sama termasuk manifestasi efek ekstrapiramidal. Sumber menyebut “anti depresan” tetapi konteksnya lebih sesuai antipsikotik tipikal.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 51-53",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 51,
+        "line_end": 53,
+        "source_excerpt": "Anti depresan golongan tipikal memiliki efek samping efek ekstrapiramidal yaitu…\nTremor\nDistonia"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "farmakologi",
+        "antipsikotik",
+        "efek_ekstrapiramidal"
+      ],
+      "linked_glossary_ids": [
+        "gls_antipsikotik_tipikal",
+        "gls_efek_ekstrapiramidal"
+      ],
+      "answer_hint_confidence": "medium",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Keduanya benar",
+      "answer_index": 2,
+      "answer_text": "Keduanya benar"
+    },
+    {
+      "id": "batch4_2022_q12",
+      "number": 12,
+      "stem": "Karakteristik skizofrenia katataunik meliputi...",
+      "stem_original": "Karakteristik gejala skizofrenia (?) katatonik…",
+      "options": [
+        "(1)STUPOR ATAU MUTISME",
+        "(2)GADUH GELISAH",
+        "(3)MEMATUNG",
+        "(4)NEGATIVISME",
+        "(5)RIGIDITAS",
+        "(6)FLEKSIBILITAS SEREA",
+        "(7)OTOMATISME PERINTAH",
+        "Semua pilihan yang tercatat benar"
+      ],
+      "explanation": "Sumber mencantumkan stupor/mutisme, gaduh gelisah, mematung, negativisme, rigiditas, fleksibilitas serea, dan automatisme perintah sebagai karakteristik.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 54-61",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 54,
+        "line_end": 61,
+        "source_excerpt": "Karakteristik gejala skizofrenia (?) katatonik…\n(1)STUPOR ATAU MUTISME\n(2)GADUH GELISAH\n(3)MEMATUNG\n(4)NEGATIVISME\n(5)RIGIDITAS\n(6)FLEKSIBILITAS SEREA\n(7)OTOMATISME PERINTAH"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "psikiatri",
+        "skizofrenia",
+        "katatonik"
+      ],
+      "linked_glossary_ids": [
+        "gls_skizofrenia_katatonik"
+      ],
+      "answer_hint_confidence": "medium",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Semua pilihan yang tercatat benar",
+      "answer_index": 7,
+      "answer_text": "Semua pilihan yang tercatat benar"
+    },
+    {
+      "id": "batch4_2022_q13",
+      "number": 13,
+      "stem": "Obat untuk absence seizure adalah...",
+      "stem_original": "Obat untuk absence seizure…(epilepsi yang bengong itu)\nSodium valproate(asam)",
+      "options": [
+        "Sodium valproate / asam valproat",
+        "Opsi lain tidak tercatat dalam sumber",
+        "Distraktor asli tidak tersedia pada transkrip"
+      ],
+      "explanation": "Sumber secara eksplisit mencatat sodium valproate/asam valproat sebagai jawaban.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 62-63",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 62,
+        "line_end": 63,
+        "source_excerpt": "Obat untuk absence seizure…(epilepsi yang bengong itu)\nSodium valproate(asam)"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "epilepsi",
+        "farmakologi"
+      ],
+      "linked_glossary_ids": [
+        "gls_absence_seizure",
+        "gls_asam_valproat"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "answer_hint_only",
+      "source_answer_hint": "Sodium valproate / asam valproat",
+      "answer_index": 0,
+      "answer_text": "Sodium valproate / asam valproat"
+    },
+    {
+      "id": "batch4_2022_q14",
+      "number": 14,
+      "stem": "Yang merupakan obat untuk skizofrenia adalah...",
+      "stem_original": "Yang merupakan obat untuk skizofrenia ….. anti depresan…",
+      "options": [
+        "Fluoxetin",
+        "Haloperidol (antipsikotik generasi/golongan 1)",
+        "Diazepam ( mood stabilizer)",
+        "Olanzapine (antipsikotik gol 2)",
+        "Risperidon (antipsikotik gol 2)"
+      ],
+      "explanation": "Sumber mengklasifikasikan haloperidol sebagai antipsikotik golongan 1 serta olanzapine dan risperidone sebagai antipsikotik golongan 2; fluoxetine dan diazepam bukan terapi utama skizofrenia.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 64-69",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 64,
+        "line_end": 69,
+        "source_excerpt": "Yang merupakan obat untuk skizofrenia ….. anti depresan…\nFluoxetin\nHaloperidol (antipsikotik gol 1)\nDiazepam ( mood stabilazier)\nOlanzapine (antipsikotik gol 2)\nRisperidon (antipsikotik gol 2)"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "psikiatri",
+        "skizofrenia",
+        "antipsikotik"
+      ],
+      "linked_glossary_ids": [
+        "gls_haloperidol",
+        "gls_antipsikotik"
+      ],
+      "answer_hint_confidence": "medium",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Haloperidol (antipsikotik generasi/golongan 1)",
+      "answer_index": 1,
+      "answer_text": "Haloperidol (antipsikotik generasi/golongan 1)"
+    },
+    {
+      "id": "batch4_2022_q15",
+      "number": 15,
+      "stem": "Pasien merasa dirinya sangat penting dan berpura-pura empati kepada orang lain untuk mencapai keinginannya. Gangguan kepribadian yang paling sesuai adalah...",
+      "stem_original": "Merasa dirinya sendiri sangat penting, dan berpura empati pada orang lain untuk mencapai keinginannya, gangguan pribadi…",
+      "options": [
+        "Narsistik",
+        "Histrionik (pusat perhatian)",
+        "Skizoid (introvert)",
+        "Borderline (ambang) (afek mood tidak stabil, impulsif belanja...)",
+        "Skizotipal (percaya magis, eksentrik)"
+      ],
+      "explanation": "Grandiositas dan empati yang dangkal/instrumental paling sesuai dengan gangguan kepribadian narsistik.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 70-75",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 70,
+        "line_end": 75,
+        "source_excerpt": "Merasa dirinya sendiri sangat penting, dan berpura empati pada orang lain untuk mencapai keinginannya, gangguan pribadi…\nNarsistik\nHistrionik (pusat perhatian)\nSkizoid (introvert)\nBorderline (ambang) (afek mood tidak stabil, impulsif belanja…)\nSkizotipal (percaya magis, eksentrik)"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "psikiatri",
+        "gangguan_kepribadian"
+      ],
+      "linked_glossary_ids": [
+        "gls_kepribadian_narsistik"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Narsistik",
+      "answer_index": 0,
+      "answer_text": "Narsistik"
+    },
+    {
+      "id": "batch4_2022_q16",
+      "number": 16,
+      "stem": "Nyeri pinggang yang merambat ke betis paling sesuai melibatkan nervus...",
+      "stem_original": "Nyeri pinggang merambat ke betis..",
+      "options": [
+        "Nervus peroneus profunds",
+        "N. Femoral",
+        "N. Ischiadicus (sela” tulang belakang)",
+        "N. Tibialis"
+      ],
+      "explanation": "Nyeri pinggang menjalar ke tungkai/betis paling sesuai dengan distribusi skiatika/nervus ischiadicus.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 76-80",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 76,
+        "line_end": 80,
+        "source_excerpt": "Nyeri pinggang merambat ke betis..\nNervus peroneus profunds\nN. Femoral\nN. Ischiadicus (sela” tulang belakang)\nN. Tibialis"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "nyeri_radikular",
+        "saraf_perifer"
+      ],
+      "linked_glossary_ids": [
+        "gls_nervus_ischiadicus"
+      ],
+      "answer_hint_confidence": "medium",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "N. Ischiadicus",
+      "answer_index": 2,
+      "answer_text": "N. Ischiadicus (sela” tulang belakang)"
+    },
+    {
+      "id": "batch4_2022_q17",
+      "number": 17,
+      "stem": "Ny. Nina mengeluh kebas kedua tangan terutama malam hari, bekerja menjual gado-gado dan sering menggiling bumbu. Edukasi yang paling tepat adalah...",
+      "stem_original": "Ny. Nina berusia … tahun, menegluh kebas kedua tangan terutama malam hari. Pekerjaannya menjual gado², sering menggiling bumbu. Hobi mengonsumsi gulai pakis dan goreng²an. TD 140/90. Edukasi yang tepat…",
+      "options": [
+        "Kurangi konsumsi gorengan & pakis",
+        "Menghentikan kerja menggiling bumbu gado²",
+        "Diet tinggi sodium",
+        "Turunkan tensi dengan obat tekanan darah",
+        "Menghentikan kerja menggiling bumbu gado-gado"
+      ],
+      "explanation": "Keluhan kebas malam hari dengan aktivitas repetitif pergelangan tangan mengarah ke carpal tunnel syndrome; edukasi terkait mengurangi/istirahat dari aktivitas repetitif paling relevan.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 81-85",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 81,
+        "line_end": 85,
+        "source_excerpt": "Ny. Nina berusia … tahun, menegluh kebas kedua tangan terutama malam hari. Pekerjaannya menjual gado², sering menggiling bumbu. Hobi mengonsumsi gulai pakis dan goreng²an. TD 140/90. Edukasi yang tepat…\nKurangi konsumsi gorengan & pakis\nMenghentikan kerja menggiling bumbu gado²\nDiet tinggi sodium\nTurunkan tensi dengan obat td"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "carpal_tunnel_syndrome",
+        "edukasi"
+      ],
+      "linked_glossary_ids": [
+        "gls_carpal_tunnel_syndrome"
+      ],
+      "answer_hint_confidence": "medium",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Menghentikan kerja menggiling bumbu gado-gado",
+      "answer_index": 4,
+      "answer_text": "Menghentikan kerja menggiling bumbu gado-gado"
+    },
+    {
+      "id": "batch4_2022_q18",
+      "number": 18,
+      "stem": "Pada kasus Ny. Nina dengan kebas kedua tangan terutama malam hari, pemeriksaan fisik spesifik yang harus dilakukan adalah...",
+      "stem_original": "Ny. Nina berusia … tahun, menegluh kebas kedua tangan terutama malam hari. Pekerjaannya menjual gado², sering menggiling bumbu. Pemeriksaan yang harus dilakukan…",
+      "options": [
+        "Tinnel sign (dimana pemeriksa akan memukul pergelangan tangan dengan jari-jarinya dengan lembut untuk memeriksa timbulnya kelainan) (pemeriksaan fisik spesifik)",
+        "Lasegue sign (kaki di pinggul)(nyeri di bokong)",
+        "Romberg sign ( berdiri tegak dengan kedua kaki bersama tidak menekan dengan kuat atau rileks, tanpa alsa kaki, tangan diangkat ke depan, horisontal, sejajar dengan lantai dan telapak tangan menghadap ke atas)",
+        "Bennedict sign ( pemeriksaan ulnar)",
+        "Tinel sign"
+      ],
+      "explanation": "Sumber memberi keterangan Tinel sign sebagai pemeriksaan fisik spesifik untuk keluhan ini.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 86-90",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 86,
+        "line_end": 90,
+        "source_excerpt": "Ny. Nina berusia … tahun, menegluh kebas kedua tangan terutama malam hari. Pekerjaannya menjual gado², sering menggiling bumbu. Pemeriksaan yang harus dilakukan…\nTinnel sign (dimana pemeriksa akan memukul pergelangan tangan dengan jari-jarinya dengan lembut untuk memeriksa timbulnya kelainan) (p.fisik spesifik)\nLasegue sign (kaki di pinggul)(nyeri di bokong)\nRomberg sign ( berdiri tegak dengan kedua kaki bersama tidak menekan dengan kuat atau rileks, tanpa alsa kaki, tangan diangkat ke depan, horisontal, sejajar dengan lantai dan telapak tangan menghadap ke atas)\nBennedict sign ( pemeriksaan ulnar)"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "carpal_tunnel_syndrome",
+        "pemeriksaan_fisik"
+      ],
+      "linked_glossary_ids": [
+        "gls_tinel_sign",
+        "gls_carpal_tunnel_syndrome"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Tinel sign",
+      "answer_index": 4,
+      "answer_text": "Tinel sign"
+    },
+    {
+      "id": "batch4_2022_q19",
+      "number": 19,
+      "stem": "Tn. Z, sopir bus dengan riwayat hipertensi, mengalami keluhan menyerupai TIA yang kemudian hilang. Edukasi yang tepat adalah...",
+      "stem_original": "Tn. Z, supir bus, ada riwayat hipertensi, sepertinya TIA, ke RS kemudian keluhan hilang. Edukasi…",
+      "options": [
+        "Keluhan bisa muncul lagi setelah 24 jam, kembali ke RS",
+        "Minum obat antihipertensi ketika tekanan darah naik",
+        "Boleh konsumsi tinggi sodium",
+        "Kurangi konsumsi purin",
+        "Keluhan bisa muncul lagi; bila muncul kembali segera ke RS"
+      ],
+      "explanation": "Sumber menempatkan anjuran kembali ke RS bila keluhan muncul lagi sebagai opsi edukasi paling tepat.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 91-95",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 91,
+        "line_end": 95,
+        "source_excerpt": "Tn. Z, supir bus, ada riwayat hipertensi, sepertinya TIA, ke RS kemudian keluhan hilang. Edukasi…\nKeluhan bisa muncul lagi setelah 24 jam, kembali ke RS\nMinum obat antihipertensi ketika tekanan darah naik\nBoleh konsumsi tinggi sodium\nKurangi konsumsi purin"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "TIA",
+        "edukasi"
+      ],
+      "linked_glossary_ids": [
+        "gls_tia"
+      ],
+      "answer_hint_confidence": "medium",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Keluhan bisa muncul lagi; bila muncul kembali segera ke RS",
+      "answer_index": 4,
+      "answer_text": "Keluhan bisa muncul lagi; bila muncul kembali segera ke RS"
+    },
+    {
+      "id": "batch4_2022_q20",
+      "number": 20,
+      "stem": "Tumor otak berikut berasal dari intra-aksial, kecuali...",
+      "stem_original": "Yang merupakan tumor otak yang berasal intra aksial, kecuali…",
+      "options": [
+        "Astrositoma",
+        "Ependimoma",
+        "Oligodendroglioma",
+        "Meningioma (neurinoma akus tikus, adenoma hipofise, kranio paringioma, tumor epider moid)",
+        "Meduloblastoma"
+      ],
+      "explanation": "Astrositoma, ependimoma, oligodendroglioma, dan meduloblastoma berasal dari jaringan intra-aksial; meningioma merupakan tumor ekstra-aksial.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 96-101",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 96,
+        "line_end": 101,
+        "source_excerpt": "Yang merupakan tumor otak yang berasal intra aksial, kecuali…\nAstrositoma\nEpendimoma\nOligodendroglioma\nMeningioma (neurinoma akus tikus, adenoma hipofise, kranio paringioma, tumor epider moid)\nMeduloblastoma"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "neuroonkologi"
+      ],
+      "linked_glossary_ids": [
+        "gls_intra_aksial",
+        "gls_meningioma"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Meningioma",
+      "answer_index": 3,
+      "answer_text": "Meningioma (neurinoma akus tikus, adenoma hipofise, kranio paringioma, tumor epider moid)"
+    },
+    {
+      "id": "batch4_2022_q21",
+      "number": 21,
+      "stem": "Golongan obat untuk vertigo, kecuali...",
+      "stem_original": "Golongan obat untuk vertigo, kecuali",
+      "options": [
+        "Antihistamin",
+        "Analog histamin",
+        "Antiemetik (obat muall)",
+        "Kortikosteroid"
+      ],
+      "explanation": "Antihistamin, analog histamin, dan antiemetik lazim digunakan sebagai terapi simptomatik vertigo; kortikosteroid tidak dicatat sebagai golongan utama pada sumber.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 102-106",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 102,
+        "line_end": 106,
+        "source_excerpt": "Golongan obat untuk vertigo, kecuali\nAntihistamin\nAnalog histamin\nAntiemetik (obat muall)\nKortikosteroid"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "vertigo",
+        "farmakologi"
+      ],
+      "linked_glossary_ids": [
+        "gls_vertigo"
+      ],
+      "answer_hint_confidence": "medium",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Kortikosteroid",
+      "answer_index": 3,
+      "answer_text": "Kortikosteroid"
+    },
+    {
+      "id": "batch4_2022_q22",
+      "number": 22,
+      "stem": "Seseorang sedang berdiri dan menjaga keseimbangan dengan melebarkan kedua tangannya. Sistem yang terutama bekerja adalah...",
+      "stem_original": "Dia lagi berdiri, menjaga keseimbangan dgn melebarkan kedua tangannya, sistem apa yang bekerja?",
+      "options": [
+        "Cerebellum",
+        "Korteks sensorik",
+        "Korteks motorik",
+        "Batang otak (pusat kesadaran aras)",
+        "Ganglia basalis (kalo ada gangguan bisa tremor)"
+      ],
+      "explanation": "Cerebellum berperan penting dalam koordinasi postur dan keseimbangan.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 107-112",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 107,
+        "line_end": 112,
+        "source_excerpt": "Dia lagi berdiri, menjaga keseimbangan dgn melebarkan kedua tangannya, sistem apa yang bekerja?\nCerebellum\nKorteks sensorik\nKorteks motorik\nBatang otak (pusat kesadaran aras)\nGanglia basalis (kalo ada gangguan bisa tremor)"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "keseimbangan",
+        "neuroanatomi"
+      ],
+      "linked_glossary_ids": [
+        "gls_cerebellum"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Cerebellum",
+      "answer_index": 0,
+      "answer_text": "Cerebellum"
+    },
+    {
+      "id": "batch4_2022_q23",
+      "number": 23,
+      "stem": "Kriteria diagnostik illness anxiety disorder menurut DSM-5 meliputi...",
+      "stem_original": "Kriteria diagnostik illness anxiety disorder menurut DSM-V",
+      "options": [
+        "Preokupasi bahwa ia menderita penyakit serius.",
+        "Gejala somatik tidak ada atau jika ada, intensitasnya ringan. preokupasi jelas berlebihan atau tidak proporsional.",
+        "Kecemasan yang tinggi terhadap kesehatan dan individu mudah khawatir tentang status kesehatan pribadi.",
+        "Melakukan perilaku yang berlebihan terhadap kesehatan atau menunjukkan penghindaran maladaptif.",
+        "Preokupasi telah hadir ± 6 bulan, tetapi penyakit spesifik yang ditakuti dapat berubah selama periode waktu.",
+        "Preokupasi yang berhubungan dengan penyakit tidak dapat dijelaskan oleh gangguan mental lainnya, seperti gangguan gejala somatik, gangguan panik, gangguan kecemasan umum, gangguan dysmorphic tubuh, gangguan kompulsif-obsesif, atau gangguan delusi, tipe somatik.",
+        "Semua pilihan yang tercatat benar"
+      ],
+      "explanation": "Sumber mencantumkan kriteria DSM-5 secara berurutan; opsi “semua” ditambahkan agar format MCQ valid.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 113-119",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 113,
+        "line_end": 119,
+        "source_excerpt": "Kriteria diagnostik illness anxiety disorder menurut DSM-V\nPreokupasi bahwa ia menderita penyakit serius.\nGejala somatik tidak ada atau jika ada, intensitasnya ringan. preokupasi jelas berlebihan atau tidak proporsional.\nKecemasan yang tinggi terhadap kesehatan dan individu mudah khawatir tentang status kesehatan pribadi.\nMelakukan perilaku yang berlebihan terhadap kesehatan atau menunjukkan penghindaran maladaptif.\nPreokupasi telah hadir ± 6 bulan, tetapi penyakit spesifik yang ditakuti dapat berubah selama periode waktu.\nPreokupasi yang berhubungan dengan penyakit tidak dapat dijelaskan oleh gangguan mental lainnya, seperti gangguan gejala somatik, gangguan panik, gangguan kecemasan umum, gangguan dysmorphic tubuh, gangguan kompulsif-obsesif, atau gangguan delusi, tipe somatik."
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "psikiatri",
+        "illness_anxiety_disorder",
+        "DSM5"
+      ],
+      "linked_glossary_ids": [
+        "gls_illness_anxiety_disorder"
+      ],
+      "answer_hint_confidence": "medium",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Semua pilihan yang tercatat benar",
+      "answer_index": 6,
+      "answer_text": "Semua pilihan yang tercatat benar"
+    },
+    {
+      "id": "batch4_2022_q24",
+      "number": 24,
+      "stem": "Diagnosis banding demensia Alzheimer adalah...",
+      "stem_original": "Diagnosis banding Demensia Alzheimer? Delirium",
+      "options": [
+        "Delirium",
+        "Opsi lain tidak tercatat dalam sumber",
+        "Distraktor asli tidak tersedia pada transkrip"
+      ],
+      "explanation": "Sumber secara eksplisit menulis “Diagnosis banding Demensia Alzheimer? Delirium”.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 120-120",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 120,
+        "line_end": 120,
+        "source_excerpt": "Diagnosis banding Demensia Alzheimer? Delirium"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "psikiatri",
+        "neurologi",
+        "demensia"
+      ],
+      "linked_glossary_ids": [
+        "gls_demenzia_alzheimer",
+        "gls_delirium"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "answer_hint_only",
+      "source_answer_hint": "Delirium",
+      "answer_index": 0,
+      "answer_text": "Delirium"
+    },
+    {
+      "id": "batch4_2022_q25",
+      "number": 25,
+      "stem": "Teknik wawancara yang benar adalah...",
+      "stem_original": "Teknik wawancara yang benar? Menjadi pendengar yang efektif",
+      "options": [
+        "Menjadi pendengar yang efektif",
+        "Opsi lain tidak tercatat dalam sumber",
+        "Distraktor asli tidak tersedia pada transkrip"
+      ],
+      "explanation": "Sumber secara langsung memberi jawaban “menjadi pendengar yang efektif”.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 121-121",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 121,
+        "line_end": 121,
+        "source_excerpt": "Teknik wawancara yang benar? Menjadi pendengar yang efektif"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "psikiatri",
+        "komunikasi_klinis",
+        "wawancara"
+      ],
+      "linked_glossary_ids": [
+        "gls_wawancara_psikiatri"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "answer_hint_only",
+      "source_answer_hint": "Menjadi pendengar yang efektif",
+      "answer_index": 0,
+      "answer_text": "Menjadi pendengar yang efektif"
+    },
+    {
+      "id": "batch4_2022_q26",
+      "number": 26,
+      "stem": "Terapi untuk gangguan afektif bipolar episode depresi berat adalah...",
+      "stem_original": "Terapi gangguan afektif bipolar episode depresi berat?",
+      "options": [
+        "ECT",
+        "Risperidon injeksi dengan jangka panjang",
+        "Quetiapin"
+      ],
+      "explanation": "Sumber menempatkan ECT sebagai opsi pertama untuk episode depresi berat; quetiapine juga terapi bipolar depression, sehingga confidence ditandai medium.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 122-125",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 122,
+        "line_end": 125,
+        "source_excerpt": "Terapi gangguan afektif bipolar episode depresi berat?\nECT\nRisperidon injeksi dengan jangka panjang\nQuetiapin"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "psikiatri",
+        "gangguan_mood",
+        "terapi"
+      ],
+      "linked_glossary_ids": [
+        "gls_ect",
+        "gls_bipolar"
+      ],
+      "answer_hint_confidence": "medium",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "ECT",
+      "answer_index": 0,
+      "answer_text": "ECT"
+    },
+    {
+      "id": "batch4_2022_q27",
+      "number": 27,
+      "stem": "Tn. X sangat mencemaskan kehidupannya selama 6 bulan, mulai dari biaya sekolah anak hingga masalah ekonomi dunia. Diagnosis yang paling sesuai adalah...",
+      "stem_original": "Tn.X sangat mencemaskan kehidupannya sejak 6 bulan ini, mulai dari biaya anaknya sekolah, masalah ekonomi dunia, dsb, apa diagnosis penyakitnya? Gangguan ansietas menyeluruh",
+      "options": [
+        "Gangguan ansietas menyeluruh",
+        "Opsi lain tidak tercatat dalam sumber",
+        "Distraktor asli tidak tersedia pada transkrip"
+      ],
+      "explanation": "Kekhawatiran berlebihan terhadap banyak aspek kehidupan selama 6 bulan sesuai dengan gangguan ansietas menyeluruh.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 126-126",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 126,
+        "line_end": 126,
+        "source_excerpt": "Tn.X sangat mencemaskan kehidupannya sejak 6 bulan ini, mulai dari biaya anaknya sekolah, masalah ekonomi dunia, dsb, apa diagnosis penyakitnya? Gangguan ansietas menyeluruh"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "psikiatri",
+        "ansietas"
+      ],
+      "linked_glossary_ids": [
+        "gls_gangguan_ansietas_menyeluruh"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "answer_hint_only",
+      "source_answer_hint": "Gangguan ansietas menyeluruh",
+      "answer_index": 0,
+      "answer_text": "Gangguan ansietas menyeluruh"
+    },
+    {
+      "id": "batch4_2022_q28",
+      "number": 28,
+      "stem": "Durasi minimal gejala untuk diagnosis depresi adalah...",
+      "stem_original": "Minimal kriteria diagnosis depresi? Lebih/Kurang 2 Minggu",
+      "options": [
+        "Lebih/kurang 2 minggu",
+        "Kurang dari 1 hari",
+        "Lebih dari 6 bulan"
+      ],
+      "explanation": "Sumber memberi jawaban “lebih/kurang 2 minggu”; dalam rekonstruksi dinormalisasi sebagai sekitar/minimal 2 minggu.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 127-127",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 127,
+        "line_end": 127,
+        "source_excerpt": "Minimal kriteria diagnosis depresi? Lebih/Kurang 2 Minggu"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "psikiatri",
+        "depresi"
+      ],
+      "linked_glossary_ids": [
+        "gls_depresi"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Lebih/kurang 2 minggu",
+      "answer_index": 0,
+      "answer_text": "Lebih/kurang 2 minggu"
+    },
+    {
+      "id": "batch4_2022_q29",
+      "number": 29,
+      "stem": "Tn. X usia 20 tahun menuduh dosennya mencuri uang kuliah dan menganggap kampusnya sebagai kedok organisasi kejahatan. Diagnosis yang paling sesuai adalah...",
+      "stem_original": "Ceritanya si Tn. X 20 tahun, menuduh dosennya mencuri uang kuliahnya, lalu dia pikir tempatnya kuliah hanya kedok untuk organisasi kejahatan, apa jenis gangguan Tn.X? Skizofrenia paranoid",
+      "options": [
+        "Skizofrenia paranoid",
+        "Opsi lain tidak tercatat dalam sumber",
+        "Distraktor asli tidak tersedia pada transkrip"
+      ],
+      "explanation": "Sumber secara eksplisit memberi jawaban skizofrenia paranoid.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 128-128",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 128,
+        "line_end": 128,
+        "source_excerpt": "Ceritanya si Tn. X 20 tahun, menuduh dosennya mencuri uang kuliahnya, lalu dia pikir tempatnya kuliah hanya kedok untuk organisasi kejahatan, apa jenis gangguan Tn.X? Skizofrenia paranoid"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "psikiatri",
+        "skizofrenia",
+        "waham"
+      ],
+      "linked_glossary_ids": [
+        "gls_skizofrenia_paranoid",
+        "gls_waham"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "answer_hint_only",
+      "source_answer_hint": "Skizofrenia paranoid",
+      "answer_index": 0,
+      "answer_text": "Skizofrenia paranoid"
+    },
+    {
+      "id": "batch4_2022_q30",
+      "number": 30,
+      "stem": "Pencitraan paling efektif untuk gangguan tulang belakang adalah...",
+      "stem_original": "Pencitraan paling efektif untuk gangguan tulang belakang? Myelografi",
+      "options": [
+        "Myelografi",
+        "Opsi lain tidak tercatat dalam sumber",
+        "Distraktor asli tidak tersedia pada transkrip"
+      ],
+      "explanation": "Sumber memberi jawaban myelografi. Karena distraktor tidak tersedia, item dipertahankan sebagai answer-hint.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 129-129",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 129,
+        "line_end": 129,
+        "source_excerpt": "Pencitraan paling efektif untuk gangguan tulang belakang? Myelografi"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "pencitraan",
+        "tulang_belakang"
+      ],
+      "linked_glossary_ids": [
+        "gls_myelografi"
+      ],
+      "answer_hint_confidence": "medium",
+      "reconstruction_status": "answer_hint_only",
+      "source_answer_hint": "Myelografi",
+      "answer_index": 0,
+      "answer_text": "Myelografi"
+    },
+    {
+      "id": "batch4_2022_q31",
+      "number": 31,
+      "stem": "Struktur forebrain/otak depan meliputi...",
+      "stem_original": "Struktur forebrain(depan)? Cerebrum, thalamus, hipothalamus",
+      "options": [
+        "Cerebrum, thalamus, hipothalamus",
+        "Opsi lain tidak tercatat dalam sumber",
+        "Distraktor asli tidak tersedia pada transkrip"
+      ],
+      "explanation": "Sumber secara eksplisit menyebut cerebrum, thalamus, dan hipothalamus sebagai struktur forebrain.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 130-130",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 130,
+        "line_end": 130,
+        "source_excerpt": "Struktur forebrain(depan)? Cerebrum, thalamus, hipothalamus"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neuroanatomi",
+        "forebrain"
+      ],
+      "linked_glossary_ids": [
+        "gls_forebrain"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "answer_hint_only",
+      "source_answer_hint": "Cerebrum, thalamus, hipothalamus",
+      "answer_index": 0,
+      "answer_text": "Cerebrum, thalamus, hipothalamus"
+    },
+    {
+      "id": "batch4_2022_q32",
+      "number": 32,
+      "stem": "Ciri cairan serebrospinal/LP pada meningitis bakteri adalah...",
+      "stem_original": "Ciri LP dari meningitis bakteri? Meningkat sel pmn",
+      "options": [
+        "Meningkatnya sel PMN",
+        "Opsi lain tidak tercatat dalam sumber",
+        "Distraktor asli tidak tersedia pada transkrip"
+      ],
+      "explanation": "Meningitis bakteri biasanya menunjukkan pleositosis dominan PMN; sumber mencatat “meningkat sel PMN”.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 131-131",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 131,
+        "line_end": 131,
+        "source_excerpt": "Ciri LP dari meningitis bakteri? Meningkat sel pmn"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "infeksi",
+        "meningitis"
+      ],
+      "linked_glossary_ids": [
+        "gls_meningitis_bakteri",
+        "gls_pmn"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "answer_hint_only",
+      "source_answer_hint": "Meningkatnya sel PMN",
+      "answer_index": 0,
+      "answer_text": "Meningkatnya sel PMN"
+    },
+    {
+      "id": "batch4_2022_q33",
+      "number": 33,
+      "stem": "Gerakan tubuh melambat, tremor, dan gangguan keseimbangan pada Parkinson disease menurut Hoehn and Yahr paling sesuai dengan stadium...",
+      "stem_original": "Gerakan tubuhnya melambat, tremor, stadium parkinson disease menurut hoen and yahr? Stadium III",
+      "options": [
+        "stadium 1: Gejala pada satu sisi, ringan, tremor",
+        "Stadium 2: Gejala bilateral, kecacatan minimal, cara berjalan terganggu",
+        "Stadium 3: Gerak tubuh melambat, keseimbangan terganggu, disfungsi umum sedang",
+        "Stadium 4: gejala berat, berjalan jarak tertentu, rigiditas bradikinesia, tidak mampu berdiri",
+        "Stadium 5: Stadium kahektik, kecacatan total, tidak mampu berdiri"
+      ],
+      "explanation": "Sumber langsung menulis stadium III dan mendeskripsikan stadium 3 sebagai gerak tubuh melambat serta keseimbangan terganggu.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 132-137",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 132,
+        "line_end": 137,
+        "source_excerpt": "Gerakan tubuhnya melambat, tremor, stadium parkinson disease menurut hoen and yahr? Stadium III\nstadium 1: Gejala pada satu sisi, ringan, tremor\nStadium 2: Gejala bilateral, kecacatan minimal, cara berjalan terganggu\nStadium 3: Gerak tubuh melambat, keseimbangan terganggu, disfungsi umum sedang\nStadium 4: gejala berat, berjalan jarak tertentu, rigiditas bradikinesia, tidak mampu berdiri\nStadium 5: Stadium kahektik, kecacatan total, tidak mampu berdiri"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "parkinson",
+        "skala_hoehn_yahr"
+      ],
+      "linked_glossary_ids": [
+        "gls_parkinson",
+        "gls_hoehn_yahr"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Stadium 3",
+      "answer_index": 2,
+      "answer_text": "Stadium 3: Gerak tubuh melambat, keseimbangan terganggu, disfungsi umum sedang"
+    },
+    {
+      "id": "batch4_2022_q34",
+      "number": 34,
+      "stem": "Parkinsonisme pasca-stroke paling sesuai disebut...",
+      "stem_original": "Dia pasca stroke, parkinson apa? Parkinson vaskular",
+      "options": [
+        "Parkinson vaskular",
+        "Opsi lain tidak tercatat dalam sumber",
+        "Distraktor asli tidak tersedia pada transkrip"
+      ],
+      "explanation": "Sumber secara eksplisit memberi jawaban Parkinson vaskular.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 138-138",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 138,
+        "line_end": 138,
+        "source_excerpt": "Dia pasca stroke, parkinson apa? Parkinson vaskular"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "parkinson",
+        "stroke"
+      ],
+      "linked_glossary_ids": [
+        "gls_parkinson_vaskular"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "answer_hint_only",
+      "source_answer_hint": "Parkinson vaskular",
+      "answer_index": 0,
+      "answer_text": "Parkinson vaskular"
+    },
+    {
+      "id": "batch4_2022_q35",
+      "number": 35,
+      "stem": "Gold standard pemeriksaan untuk kejang/epilepsi adalah...",
+      "stem_original": "Gold standard untuk kejang/epilepsi? EEG (ppt dr nidia, epilepsi)",
+      "options": [
+        "EEG",
+        "Opsi lain tidak tercatat dalam sumber",
+        "Distraktor asli tidak tersedia pada transkrip"
+      ],
+      "explanation": "Sumber mencatat EEG sebagai gold standard untuk kejang/epilepsi.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 139-139",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 139,
+        "line_end": 139,
+        "source_excerpt": "Gold standard untuk kejang/epilepsi? EEG (ppt dr nidia, epilepsi)"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "epilepsi",
+        "pemeriksaan"
+      ],
+      "linked_glossary_ids": [
+        "gls_eeg",
+        "gls_epilepsi"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "answer_hint_only",
+      "source_answer_hint": "EEG",
+      "answer_index": 0,
+      "answer_text": "EEG"
+    },
+    {
+      "id": "batch4_2022_q36",
+      "number": 36,
+      "stem": "Pada pemeriksaan keseimbangan, bila pasien jatuh hanya saat mata terpejam maka organ yang terganggu adalah vestibular perifer; bila jatuh saat mata terbuka dan terpejam maka mengarah ke vestibular sentral. Pilihan yang sesuai adalah...",
+      "stem_original": "Intinya dia melakukan pemeriksaan keseimbangan, (lupa) antara dia saat memejam saja yg terjatuh ato saat terbuka ataupun terpejam juga jatuh, yg mengalami gangguan organ apa? Kalo hanya saat terpejam -> Vestibularis perifer; kalo saat terpejam dan membuka mata terjatuh -> Vestibularis sentral",
+      "options": [
+        "Organ vestibularis",
+        "Organ non vestibularis",
+        "Vestibular sentral",
+        "perifer",
+        "Disequilebirium"
+      ],
+      "explanation": "Sumber menyimpan jawaban kondisional tetapi stem asli tidak lengkap, sehingga answer-hint dipertahankan dengan confidence rendah.",
+      "confidence": "low",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 140-145",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 140,
+        "line_end": 145,
+        "source_excerpt": "Intinya dia melakukan pemeriksaan keseimbangan, (lupa) antara dia saat memejam saja yg terjatuh ato saat terbuka ataupun terpejam juga jatuh, yg mengalami gangguan organ apa? Kalo hanya saat terpejam -> Vestibularis perifer; kalo saat terpejam dan membuka mata terjatuh -> Vestibularis sentral\nOrgan vestibularis\nOrgan non vestibularis\nVestibular sentral\nperifer\nDisequilebirium"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "vestibular",
+        "pemeriksaan_keseimbangan"
+      ],
+      "linked_glossary_ids": [
+        "gls_vestibular_perifer",
+        "gls_vestibular_sentral"
+      ],
+      "answer_hint_confidence": "low",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Vestibular sentral atau perifer sesuai pola pemeriksaan",
+      "answer_index": 2,
+      "answer_text": "Vestibular sentral"
+    },
+    {
+      "id": "batch4_2022_q37",
+      "number": 37,
+      "stem": "Jaras yang menghantarkan nyeri dan suhu adalah...",
+      "stem_original": "Jaras yg mengatur nyeri dan suhu apa? Lateral spinothalamic tract (ppt dr attiya clinical neuroanatomi)",
+      "options": [
+        "Lateral spinothalamic tract",
+        "Opsi lain tidak tercatat dalam sumber",
+        "Distraktor asli tidak tersedia pada transkrip"
+      ],
+      "explanation": "Sumber langsung memberi jawaban lateral spinothalamic tract.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 146-146",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 146,
+        "line_end": 146,
+        "source_excerpt": "Jaras yg mengatur nyeri dan suhu apa? Lateral spinothalamic tract (ppt dr attiya clinical neuroanatomi)"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neuroanatomi",
+        "tractus",
+        "sensorik"
+      ],
+      "linked_glossary_ids": [
+        "gls_lateral_spinothalamic_tract"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "answer_hint_only",
+      "source_answer_hint": "Lateral spinothalamic tract",
+      "answer_index": 0,
+      "answer_text": "Lateral spinothalamic tract"
+    },
+    {
+      "id": "batch4_2022_q38",
+      "number": 38,
+      "stem": "Pasien mengalami keluhan saraf tepi dengan riwayat batuk dan demam sebelumnya. Diagnosis yang paling sesuai adalah...",
+      "stem_original": "Intinya dia tu sakit saraf tepi, ada riwayat batuk dan demam—> diagnosis SGB, awal infeksi atau kehamilan",
+      "options": [
+        "Sindrom Guillain-Barré / SGB",
+        "Opsi lain tidak tercatat dalam sumber",
+        "Distraktor asli tidak tersedia pada transkrip"
+      ],
+      "explanation": "Sumber menyebut diagnosis SGB dengan pencetus awal infeksi; detail stem masih ringkas sehingga confidence medium.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 147-147",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 147,
+        "line_end": 147,
+        "source_excerpt": "Intinya dia tu sakit saraf tepi, ada riwayat batuk dan demam—> diagnosis SGB, awal infeksi atau kehamilan"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "saraf_perifer",
+        "autoimun"
+      ],
+      "linked_glossary_ids": [
+        "gls_sindrom_guillain_barre"
+      ],
+      "answer_hint_confidence": "medium",
+      "reconstruction_status": "answer_hint_only",
+      "source_answer_hint": "Sindrom Guillain-Barré / SGB",
+      "answer_index": 0,
+      "answer_text": "Sindrom Guillain-Barré / SGB"
+    },
+    {
+      "id": "batch4_2022_q39",
+      "number": 39,
+      "stem": "Pada lanjutan kasus SGB, jenis gangguan/penyakitnya adalah...",
+      "stem_original": "lanjutan no 38, dia jenis gangguannya apa? Penyakit autoimun",
+      "options": [
+        "Penyakit autoimun",
+        "Opsi lain tidak tercatat dalam sumber",
+        "Distraktor asli tidak tersedia pada transkrip"
+      ],
+      "explanation": "Sumber secara eksplisit memberi jawaban penyakit autoimun.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 148-148",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 148,
+        "line_end": 148,
+        "source_excerpt": "lanjutan no 38, dia jenis gangguannya apa? Penyakit autoimun"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "autoimun",
+        "SGB"
+      ],
+      "linked_glossary_ids": [
+        "gls_penyakit_autoimun",
+        "gls_sindrom_guillain_barre"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "answer_hint_only",
+      "source_answer_hint": "Penyakit autoimun",
+      "answer_index": 0,
+      "answer_text": "Penyakit autoimun"
+    },
+    {
+      "id": "batch4_2022_q40",
+      "number": 40,
+      "stem": "Pada pasien stroke dengan bicara pelo dan kelemahan sesisi tubuh, gold standard pemeriksaan awal adalah...",
+      "stem_original": "Soalnya dia itu lagi stroke (ada bicara pelo, kelemahan sesisi tubuh dsb), gold standard pemeriksaan? CT scan tanpa kontras",
+      "options": [
+        "CT scan tanpa kontras",
+        "Opsi lain tidak tercatat dalam sumber",
+        "Distraktor asli tidak tersedia pada transkrip"
+      ],
+      "explanation": "Sumber secara eksplisit memberi jawaban CT scan tanpa kontras.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 149-149",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 149,
+        "line_end": 149,
+        "source_excerpt": "Soalnya dia itu lagi stroke (ada bicara pelo, kelemahan sesisi tubuh dsb), gold standard pemeriksaan? CT scan tanpa kontras"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "stroke",
+        "pencitraan"
+      ],
+      "linked_glossary_ids": [
+        "gls_ct_scan_tanpa_kontras",
+        "gls_stroke"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "answer_hint_only",
+      "source_answer_hint": "CT scan tanpa kontras",
+      "answer_index": 0,
+      "answer_text": "CT scan tanpa kontras"
+    },
+    {
+      "id": "batch4_2022_q41",
+      "number": 41,
+      "stem": "Pada trauma kepala dengan pupil anisokor, gold standard pemeriksaan menurut sumber adalah...",
+      "stem_original": "Dia ada trauma kepala (pupil anisokor, dsb) gold standard pemeriksaan? MRI",
+      "options": [
+        "MRI",
+        "Opsi lain tidak tercatat dalam sumber",
+        "Distraktor asli tidak tersedia pada transkrip"
+      ],
+      "explanation": "Sumber memberi jawaban MRI, tetapi stem dan konteks tidak lengkap serta berpotensi perlu validasi ulang dengan materi kuliah.",
+      "confidence": "low",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 150-150",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 150,
+        "line_end": 150,
+        "source_excerpt": "Dia ada trauma kepala (pupil anisokor, dsb) gold standard pemeriksaan? MRI"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "trauma_kepala",
+        "pencitraan"
+      ],
+      "linked_glossary_ids": [
+        "gls_mri",
+        "gls_trauma_kepala"
+      ],
+      "answer_hint_confidence": "low",
+      "reconstruction_status": "answer_hint_only",
+      "source_answer_hint": "MRI",
+      "answer_index": 0,
+      "answer_text": "MRI"
+    },
+    {
+      "id": "batch4_2022_q42",
+      "number": 42,
+      "stem": "Anak muda mengalami kecelakaan, sempat sadar dan berdiri lalu jatuh tidak sadar lagi. CT-scan tanpa kontras menunjukkan lesi hiperdens bikonveks. Diagnosisnya adalah...",
+      "stem_original": "Anak muda 20 tahunan mengalami kecelakaan. Saksi yang melihat korban sempat sadar dan berdiri kemudian jatuh dan tidak sadarkan diri lagi. Saat di ct-scan tanpa kontras ada lesi hiperdens bikonveks. Diagnosis…",
+      "options": [
+        "Hematauma epidural",
+        "Hematauma subdural",
+        "Kontusio serebri"
+      ],
+      "explanation": "Lucid interval dan lesi hiperdens bikonveks/lentiform khas untuk hematoma epidural.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 151-154",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 151,
+        "line_end": 154,
+        "source_excerpt": "Anak muda 20 tahunan mengalami kecelakaan. Saksi yang melihat korban sempat sadar dan berdiri kemudian jatuh dan tidak sadarkan diri lagi. Saat di ct-scan tanpa kontras ada lesi hiperdens bikonveks. Diagnosis…\nHematoma epidural\nHematoma subdural\nKontusio serebri"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "trauma_kepala",
+        "perdarahan_intrakranial"
+      ],
+      "linked_glossary_ids": [
+        "gls_hematoma_epidural"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Hematoma epidural",
+      "answer_index": 0,
+      "answer_text": "Hematauma epidural"
+    },
+    {
+      "id": "batch4_2022_q43",
+      "number": 43,
+      "stem": "Wanita 30 tahun mudah lelah, diplopia, kelopak mata turun setelah diminta melihat ke atas, membaik setelah tidur, dan pemeriksaan darah normal. Diagnosis atau pemeriksaan yang sesuai adalah...",
+      "stem_original": "Seorang wanita 30 tahun datang ke poliklinik RS dengan keluhan mudah lelah. Pasien merupakan seorang karyawan perusahaan swasta, saat pulang kerja pasien merasa sangat lelah, sampai kesulitan membuka mata dan pandangan terasa ganda. Setelah tidur pasien bangun di pagi hari tanpa keluhan. Pasien sudah mencoba Dokter kemudian meminta pasien melihat ke atas selama 1 menit. Tampak kelopak mata pasien mengalami ke dokter dan disarankan melakukan pemeriksaan darah. Pemeriksaan menunjukkan hasil yang normal. Pemeriksaan fisik dalam batas normal. Konjungtiva tidak anemis. Pemeriksaan neurologis dalam batas normal. Yang ditanya entah diagnosis atau nama pemeriksaannya? Dx → miastenia gravis. Pemeriksaan yg harus dilakukan:",
+      "options": [
+        "Tes warternberg: minta pasien melihat ke atas 30 detik, kalau ptosis berarti (+)",
+        "Tes tensilon: setelah minum obat edrofonium klorida, kekuatan otot meningkat kembali (gold standar)",
+        "Diplopia stress stres: minta pasien lihat kesamping 30-60 dtk, kalau muncul diplopia berarti (+)",
+        "Ice pack/ ice test",
+        "Miastenia gravis"
+      ],
+      "explanation": "Sumber sendiri menyatakan pertanyaan mungkin diagnosis atau nama pemeriksaan; diagnosis tercatat sebagai miastenia gravis, tetapi bentuk pertanyaan asli ambigu.",
+      "confidence": "low",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 155-159",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 155,
+        "line_end": 159,
+        "source_excerpt": "Seorang wanita 30 tahun datang ke poliklinik RS dengan keluhan mudah lelah. Pasien merupakan seorang karyawan perusahaan swasta, saat pulang kerja pasien merasa sangat lelah, sampai kesulitan membuka mata dan pandangan terasa ganda. Setelah tidur pasien bangun di pagi hari tanpa keluhan. Pasien sudah mencoba Dokter kemudian meminta pasien melihat ke atas selama 1 menit. Tampak kelopak mata pasien mengalami ke dokter dan disarankan melakukan pemeriksaan darah. Pemeriksaan menunjukkan hasil yang normal. Pemeriksaan fisik dalam batas normal. Konjungtiva tidak anemis. Pemeriksaan neurologis dalam batas normal. Yang ditanya entah diagnosis atau nama pemeriksaannya? Dx → miastenia gravis. Pemeriksaan yg harus dilakukan:\nTes warternberg: minta pasien melihat ke atas 30 detik, kalau ptosis berarti (+)\nTes tensilon: setelah minum obat edrofonium klorida, kekuatan otot meningkat kembali (gold standar)\nDiplopia stress stres: minta pasien lihat kesamping 30-60 dtk, kalau muncul diplopia berarti (+)\nIce pack/ ice test"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "neuromuskular",
+        "miastenia_gravis"
+      ],
+      "linked_glossary_ids": [
+        "gls_miastenia_gravis",
+        "gls_tensilon_test"
+      ],
+      "answer_hint_confidence": "low",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Miastenia gravis",
+      "answer_index": 4,
+      "answer_text": "Miastenia gravis"
+    },
+    {
+      "id": "batch4_2022_q44",
+      "number": 44,
+      "stem": "Ciri perdarahan epidural adalah...",
+      "stem_original": "Ciri perdarahan epidural",
+      "options": [
+        "Lentiform",
+        "Bisa melewati sutura line tapi jarang melewati sutura line",
+        "Berkaitan dengan fraktur kepala",
+        "a dan b benar",
+        "benar semua"
+      ],
+      "explanation": "Sumber mencantumkan lentiform dan berkaitan dengan fraktur kepala, tetapi ada pernyataan tentang sutura line yang kontradiktif/berisik sehingga confidence rendah.",
+      "confidence": "low",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 160-165",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 160,
+        "line_end": 165,
+        "source_excerpt": "Ciri perdarahan epidural\nLentiform\nBisa melewati sutura line tapi jarang melewati sutura line\nBerkaitan dengan fraktur kepala\na dan b benar\nbenar semua"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "trauma_kepala",
+        "perdarahan_epidural"
+      ],
+      "linked_glossary_ids": [
+        "gls_hematoma_epidural"
+      ],
+      "answer_hint_confidence": "low",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Lentiform dan berkaitan dengan fraktur kepala",
+      "answer_index": 0,
+      "answer_text": "Lentiform"
+    },
+    {
+      "id": "batch4_2022_q45",
+      "number": 45,
+      "stem": "Ciri gangguan panik adalah...",
+      "stem_original": "45. Ciri gangguan panik\nA.free floating\nB.\nC.",
+      "options": [
+        "Free floating",
+        "Opsi B kosong pada sumber",
+        "Opsi C kosong pada sumber"
+      ],
+      "explanation": "Serangan panik ditandai episode akut dengan gejala otonom dan rasa takut mati. Opsi sumber tidak lengkap.",
+      "confidence": "low",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 166-169",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 166,
+        "line_end": 169,
+        "source_excerpt": "45. Ciri gangguan panik\nA.free floating\nB.\nC."
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "psikiatri",
+        "gangguan_panik"
+      ],
+      "linked_glossary_ids": [
+        "gls_gangguan_panik"
+      ],
+      "answer_hint_confidence": "low",
+      "reconstruction_status": "unresolved",
+      "source_answer_hint": null,
+      "answer_text": "Serangan panik episodik dengan gejala otonom",
+      "answer_source_status": "conceptually_inferred",
+      "reconstruction_notes": "Ciri gangguan panik adalah serangan episodik dengan gejala otonom; sumber opsi tidak lengkap."
+    },
+    {
+      "id": "batch4_2022_q46",
+      "number": 46,
+      "stem": "Yang merupakan hal benar untuk upper motor neuron/UMN adalah...",
+      "stem_original": "46. Yang merupakan hal benar untuk UMN adalah",
+      "options": [
+        "Opsi tidak tercatat dalam sumber",
+        "Distraktor tidak tercatat dalam sumber"
+      ],
+      "explanation": "Ciri upper motor neuron (UMN) adalah spastisitas/hipertonia, hiperrefleksia, dan Babinski positif. Sumber hanya memuat stem.",
+      "confidence": "low",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 170-170",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 170,
+        "line_end": 170,
+        "source_excerpt": "46. Yang merupakan hal benar untuk UMN adalah"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "UMN"
+      ],
+      "linked_glossary_ids": [
+        "gls_upper_motor_neuron"
+      ],
+      "answer_hint_confidence": "low",
+      "reconstruction_status": "unresolved",
+      "source_answer_hint": null,
+      "answer_text": "Spastisitas, hiperrefleksia, dan Babinski positif",
+      "answer_source_status": "conceptually_inferred",
+      "reconstruction_notes": "Ciri UMN adalah spastisitas, hiperrefleksia, dan Babinski positif; sumber opsi tidak lengkap."
+    },
+    {
+      "id": "batch4_2022_q47",
+      "number": 47,
+      "stem": "Nyeri kepala berdenyut disertai pandangan/visual phenomenon paling sesuai dengan...",
+      "stem_original": "47. Nyeri kepala, muncul pandangan, berdenyut adalah migrain dengan aura",
+      "options": [
+        "Migrain dengan aura",
+        "Opsi lain tidak tercatat dalam sumber",
+        "Distraktor asli tidak tersedia pada transkrip"
+      ],
+      "explanation": "Sumber secara eksplisit menyebut migrain dengan aura.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 171-171",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 171,
+        "line_end": 171,
+        "source_excerpt": "47. Nyeri kepala, muncul pandangan, berdenyut adalah migrain dengan aura"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "nyeri_kepala",
+        "migrain"
+      ],
+      "linked_glossary_ids": [
+        "gls_migrain_dengan_aura"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "answer_hint_only",
+      "source_answer_hint": "Migrain dengan aura",
+      "answer_index": 0,
+      "answer_text": "Migrain dengan aura"
+    },
+    {
+      "id": "batch4_2022_q48",
+      "number": 48,
+      "stem": "Kelemahan gerak sisi kiri tubuh menunjukkan lesi terutama pada...",
+      "stem_original": "48. Lemah dengan gerak kiri..",
+      "options": [
+        "Hemisfer kanan",
+        "Hemisfer kiri",
+        "Kortek cerebri"
+      ],
+      "explanation": "Defisit motorik tubuh bersifat kontralateral terhadap lesi hemisfer serebri; kelemahan kiri menunjuk hemisfer kanan.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 172-175",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 172,
+        "line_end": 175,
+        "source_excerpt": "48. Lemah dengan gerak kiri..\nHemisfer kanan\nHemisfer kiri\nKortek cerebri"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "neuroanatomi",
+        "stroke"
+      ],
+      "linked_glossary_ids": [
+        "gls_hemisfer_kanan"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Hemisfer kanan",
+      "answer_index": 0,
+      "answer_text": "Hemisfer kanan"
+    },
+    {
+      "id": "batch4_2022_q49",
+      "number": 49,
+      "stem": "Nervus yang berperan pada refleks pupil adalah...",
+      "stem_original": "49. Nervus untuk refleks pupil",
+      "options": [
+        "N 4 dan N6",
+        "N2 dan N6",
+        "N2 dan N3",
+        "N7 dan N9"
+      ],
+      "explanation": "Refleks cahaya pupil melibatkan nervus optikus (CN II) sebagai aferen dan nervus okulomotorius (CN III) sebagai eferen.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 176-180",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 176,
+        "line_end": 180,
+        "source_excerpt": "49. Nervus untuk refleks pupil\nN 4 dan N6\nN2 dan N6\nN2 dan N3\nN7 dan N9"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neuroanatomi",
+        "saraf_kranialis",
+        "refleks_pupil"
+      ],
+      "linked_glossary_ids": [
+        "gls_refleks_pupil",
+        "gls_nervus_optikus",
+        "gls_nervus_okulomotorius"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "N2 dan N3",
+      "answer_index": 2,
+      "answer_text": "N2 dan N3"
+    },
+    {
+      "id": "batch4_2022_q50",
+      "number": 50,
+      "stem": "Neuralgia trigeminal mengenai nervus kranialis ke berapa?",
+      "stem_original": "50. neuralgia trigeminal Mengenai nervus keberapa?",
+      "options": [
+        "5",
+        "10",
+        "9",
+        "6",
+        "4"
+      ],
+      "explanation": "Neuralgia trigeminal mengenai nervus trigeminus, yaitu nervus kranialis V.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 181-186",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 181,
+        "line_end": 186,
+        "source_excerpt": "50. neuralgia trigeminal Mengenai nervus keberapa?\n5\n10\n9\n6\n4"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "saraf_kranialis",
+        "neuralgia"
+      ],
+      "linked_glossary_ids": [
+        "gls_neuralgia_trigeminal",
+        "gls_nervus_trigeminus"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "5",
+      "answer_index": 0,
+      "answer_text": "5"
+    },
+    {
+      "id": "batch4_2022_q51",
+      "number": 51,
+      "stem": "Kepribadian dengan ciri eksentrik dan aneh menurut sumber adalah...",
+      "stem_original": "51. Kepribadian dengan eksentrik dan aneh adalah..Ggn kepribadian paranoid",
+      "options": [
+        "Gangguan kepribadian paranoid",
+        "Opsi lain tidak tercatat dalam sumber",
+        "Distraktor asli tidak tersedia pada transkrip"
+      ],
+      "explanation": "Sumber memberi jawaban “gangguan kepribadian paranoid”, tetapi frasa eksentrik/aneh berpotensi tumpang tindih dengan gangguan kepribadian skizotipal sehingga perlu validasi.",
+      "confidence": "low",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 187-187",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 187,
+        "line_end": 187,
+        "source_excerpt": "51. Kepribadian dengan eksentrik dan aneh adalah..Ggn kepribadian paranoid"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "psikiatri",
+        "gangguan_kepribadian"
+      ],
+      "linked_glossary_ids": [
+        "gls_kepribadian_paranoid"
+      ],
+      "answer_hint_confidence": "low",
+      "reconstruction_status": "answer_hint_only",
+      "source_answer_hint": "Gangguan kepribadian paranoid",
+      "answer_index": 0,
+      "answer_text": "Gangguan kepribadian paranoid"
+    },
+    {
+      "id": "batch4_2022_q52",
+      "number": 52,
+      "stem": "Pasien tidak bereaksi saat dipanggil, membuka mata saat rangsang nyeri, dapat melokalisir nyeri dan menepis, serta hanya mengerang. Skor GCS 9. Tingkat kesadaran yang sesuai adalah...",
+      "stem_original": "52. Gcs bila dipanggil penderita ini tidak bereaksi tetapi bila dirangsang nyerii penderita membuka mata dan dapat melokalisir nyeri dan menepis, tetapi hanya dapat mengerang arrrhkk skor 9",
+      "options": [
+        "a. somnolen",
+        "b. delerium",
+        "c. sopor",
+        "d. compos mentis",
+        "e.koma"
+      ],
+      "explanation": "GCS 9 dengan respons verbal mengerang dan respons motorik lokalisasi nyeri paling sesuai dengan penurunan kesadaran tingkat sopor; sumber mencatat skor 9.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 188-193",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 188,
+        "line_end": 193,
+        "source_excerpt": "52. Gcs bila dipanggil penderita ini tidak bereaksi tetapi bila dirangsang nyerii penderita membuka mata dan dapat melokalisir nyeri dan menepis, tetapi hanya dapat mengerang arrrhkk skor 9\na. somnolen\nb. delerium\nc. sopor\nd. compesmentis\ne.koma"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "GCS",
+        "kesadaran"
+      ],
+      "linked_glossary_ids": [
+        "gls_gcs",
+        "gls_sopor"
+      ],
+      "answer_hint_confidence": "medium",
+      "reconstruction_status": "reconstructed_mcq",
+      "source_answer_hint": "Sopor",
+      "answer_index": 2,
+      "answer_text": "c. sopor"
+    },
+    {
+      "id": "batch4_2022_q53",
+      "number": 53,
+      "stem": "Antipsikotik untuk gejala dominan positif adalah...",
+      "stem_original": "53. Antipsikotik untuk gejala dominan positif… gol 1 (haloperodol, clorpomazepin dll)",
+      "options": [
+        "Antipsikotik generasi/golongan 1 seperti haloperidol atau klorpromazin",
+        "Opsi lain tidak tercatat dalam sumber",
+        "Distraktor asli tidak tersedia pada transkrip"
+      ],
+      "explanation": "Sumber secara eksplisit menyebut antipsikotik golongan 1 untuk gejala dominan positif.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 194-194",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 194,
+        "line_end": 194,
+        "source_excerpt": "53. Antipsikotik untuk gejala dominan positif… gol 1 (haloperodol, clorpomazepin dll)"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "psikiatri",
+        "skizofrenia",
+        "antipsikotik"
+      ],
+      "linked_glossary_ids": [
+        "gls_antipsikotik_tipikal",
+        "gls_gejala_positif_skizofrenia"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "answer_hint_only",
+      "source_answer_hint": "Antipsikotik generasi/golongan 1 seperti haloperidol atau klorpromazin",
+      "answer_index": 0,
+      "answer_text": "Antipsikotik generasi/golongan 1 seperti haloperidol atau klorpromazin"
+    },
+    {
+      "id": "batch4_2022_q54",
+      "number": 54,
+      "stem": "Tes untuk diagnosis BPPV, kecuali...",
+      "stem_original": "54. Tes untuk diagnosis BPPV, kecuali… epley test",
+      "options": [
+        "Epley test",
+        "Opsi lain tidak tercatat dalam sumber",
+        "Distraktor asli tidak tersedia pada transkrip"
+      ],
+      "explanation": "Sumber memberi jawaban Epley test. Epley lebih dikenal sebagai manuver terapi/reposisi, bukan tes diagnostik utama.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 195-195",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 195,
+        "line_end": 195,
+        "source_excerpt": "54. Tes untuk diagnosis BPPV, kecuali… epley test"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "vertigo",
+        "BPPV"
+      ],
+      "linked_glossary_ids": [
+        "gls_bppv",
+        "gls_epley_maneuver"
+      ],
+      "answer_hint_confidence": "medium",
+      "reconstruction_status": "answer_hint_only",
+      "source_answer_hint": "Epley test",
+      "answer_index": 0,
+      "answer_text": "Epley test"
+    },
+    {
+      "id": "batch4_2022_q55",
+      "number": 55,
+      "stem": "Jalur descending adalah jalur...",
+      "stem_original": "55. Jalur descending adalah…\nOtak → spinal",
+      "options": [
+        "Otak → spinal",
+        "Opsi lain tidak tercatat dalam sumber",
+        "Distraktor asli tidak tersedia pada transkrip"
+      ],
+      "explanation": "Sumber secara langsung memberi jawaban otak menuju spinal.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 196-197",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 196,
+        "line_end": 197,
+        "source_excerpt": "55. Jalur descending adalah…\nOtak → spinal"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neuroanatomi",
+        "tractus",
+        "motorik"
+      ],
+      "linked_glossary_ids": [
+        "gls_jalur_descending"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "answer_hint_only",
+      "source_answer_hint": "Otak → spinal",
+      "answer_index": 0,
+      "answer_text": "Otak → spinal"
+    },
+    {
+      "id": "batch4_2022_q56",
+      "number": 56,
+      "stem": "Ketakutan terhadap ruangan sempit disebut...",
+      "stem_original": "56. Ruangan sempit … fobia",
+      "options": [
+        "Fobia / klaustrofobia",
+        "Opsi lain tidak tercatat dalam sumber",
+        "Distraktor asli tidak tersedia pada transkrip"
+      ],
+      "explanation": "Sumber hanya menulis “ruangan sempit ... fobia”; secara terminologi spesifik ini adalah klaustrofobia.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 198-198",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 198,
+        "line_end": 198,
+        "source_excerpt": "56. Ruangan sempit … fobia"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "psikiatri",
+        "fobia"
+      ],
+      "linked_glossary_ids": [
+        "gls_klaustrofobia"
+      ],
+      "answer_hint_confidence": "medium",
+      "reconstruction_status": "answer_hint_only",
+      "source_answer_hint": "Fobia / klaustrofobia",
+      "answer_index": 0,
+      "answer_text": "Fobia / klaustrofobia"
+    },
+    {
+      "id": "batch4_2022_q57",
+      "number": 57,
+      "stem": "Pasien takut mati, tidak bisa tidur, suaminya dibunuh/dirampok, episode berlangsung sekitar 10 menit dan terjadi 3–4 kali sebulan. Diagnosis yang paling sesuai adalah...",
+      "stem_original": "57. Takut mati, tidak bisa tidur, suami dibunuh dan dirampok, waktu 10 menit, 3 sampai 4 kali dalam sebulan….. gangguan panik",
+      "options": [
+        "Gangguan panik",
+        "Opsi lain tidak tercatat dalam sumber",
+        "Distraktor asli tidak tersedia pada transkrip"
+      ],
+      "explanation": "Episode ketakutan intens mendadak berulang dengan durasi pendek dan rasa takut mati sesuai gangguan panik; sumber memberi jawaban gangguan panik.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 199-199",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 199,
+        "line_end": 199,
+        "source_excerpt": "57. Takut mati, tidak bisa tidur, suami dibunuh dan dirampok, waktu 10 menit, 3 sampai 4 kali dalam sebulan….. gangguan panik"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "psikiatri",
+        "gangguan_panik"
+      ],
+      "linked_glossary_ids": [
+        "gls_gangguan_panik"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "answer_hint_only",
+      "source_answer_hint": "Gangguan panik",
+      "answer_index": 0,
+      "answer_text": "Gangguan panik"
+    },
+    {
+      "id": "batch4_2022_q58",
+      "number": 58,
+      "stem": "Pasien tidak mengenali sendok. Gangguan yang terjadi adalah...",
+      "stem_original": "58. Dia tidak mengenali sendok …. agnosia",
+      "options": [
+        "Agnosia",
+        "Opsi lain tidak tercatat dalam sumber",
+        "Distraktor asli tidak tersedia pada transkrip"
+      ],
+      "explanation": "Tidak mampu mengenali objek meski objek tampak dikenali secara sensorik sesuai agnosia; sumber memberi jawaban agnosia.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "source_text lines 200-200",
+        "is_reconstructed": true,
+        "source_file": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+        "source_sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9",
+        "line_start": 200,
+        "line_end": 200,
+        "source_excerpt": "58. Dia tidak mengenali sendok …. agnosia"
+      },
+      "linked_material_ids": [],
+      "topic_tags": [
+        "neurologi",
+        "fungsi_kortikal"
+      ],
+      "linked_glossary_ids": [
+        "gls_agnosia"
+      ],
+      "answer_hint_confidence": "high",
+      "reconstruction_status": "answer_hint_only",
+      "source_answer_hint": "Agnosia",
+      "answer_index": 0,
+      "answer_text": "Agnosia"
+    }
+  ]
+}

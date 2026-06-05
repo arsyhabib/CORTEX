@@ -1,0 +1,615 @@
+{
+  "app": "CORTEX Education",
+  "version": "0.1-batch-1-6e",
+  "generated_at": "2026-06-03T16: 35: 14.926674+00: 00",
+  "batch_id": "batch_1_6E",
+  "domains": [
+    {
+      "id": "neurology",
+      "title": "Neurology / Batch 1 6E.",
+      "order": 1,
+      "summary": "Structured content extracted from 24 lecturer DOCX files for CORTEX medical-learning shell.",
+      "modules": [
+        {
+          "id": "batch_1_6e_01",
+          "title": "Dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.",
+          "source_file": "lecture_material/batch_1_6e_01.json",
+          "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+          "topic_tags": [
+            "Vertigo",
+            "Neuro-otology"
+          ],
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted"
+        },
+        {
+          "id": "batch_1_6e_02",
+          "title": "Dr.Attiya - Gangguan Gerak.",
+          "source_file": "lecture_material/batch_1_6e_02.json",
+          "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+          "topic_tags": [
+            "Movement disorder"
+          ],
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted"
+        },
+        {
+          "id": "batch_1_6e_03",
+          "title": "EF Infeksi",
+          "source_file": "lecture_material/batch_1_6e_03.json",
+          "source_document": "6EF Infeksi.docx",
+          "topic_tags": [
+            "Infection",
+            "Neuroinfection"
+          ],
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted"
+        },
+        {
+          "id": "batch_1_6e_04",
+          "title": "CENTRAL NEVROS SYSTEM INFECTION and Inflammation.",
+          "source_file": "lecture_material/batch_1_6e_04.json",
+          "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+          "topic_tags": [
+            "Somatic therapy"
+          ],
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted"
+        },
+        {
+          "id": "batch_1_6e_05",
+          "title": "CEREBRAL INFARK",
+          "source_file": "lecture_material/batch_1_6e_05.json",
+          "source_document": "CEREBRAL INFARK.docx",
+          "topic_tags": [],
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted"
+        },
+        {
+          "id": "batch_1_6e_06",
+          "title": "KULIAH BANGKITAN koas",
+          "source_file": "lecture_material/batch_1_6e_06.json",
+          "source_document": "KULIAH BANGKITAN koas.docx",
+          "topic_tags": [],
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted"
+        },
+        {
+          "id": "batch_1_6e_07",
+          "title": "Kuliah PA Neurologi",
+          "source_file": "lecture_material/batch_1_6e_07.json",
+          "source_document": "Kuliah PA Neurologi.docx",
+          "topic_tags": [],
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted"
+        },
+        {
+          "id": "batch_1_6e_08",
+          "title": "MIKROORGANISME PENYEBAB INFEKSI",
+          "source_file": "lecture_material/batch_1_6e_08.json",
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+          "topic_tags": [
+            "Infection",
+            "Neuroinfection"
+          ],
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted"
+        },
+        {
+          "id": "batch_1_6e_09",
+          "title": "Manajemen Pensa dan Koma - Koass.",
+          "source_file": "lecture_material/batch_1_6e_09.json",
+          "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+          "topic_tags": [],
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted"
+        },
+        {
+          "id": "batch_1_6e_10",
+          "title": "NYERI kepala 2",
+          "source_file": "lecture_material/batch_1_6e_10.json",
+          "source_document": "NYERI kepala 2.docx",
+          "topic_tags": [
+            "Headache"
+          ],
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted"
+        },
+        {
+          "id": "batch_1_6e_11",
+          "title": "Neuropaty Materi Ngajar Mei 2025 (1).",
+          "source_file": "lecture_material/batch_1_6e_11.json",
+          "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+          "topic_tags": [],
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted"
+        },
+        {
+          "id": "batch_1_6e_12",
+          "title": "PPT Diagnosing Vertigo and Dizziness.",
+          "source_file": "lecture_material/batch_1_6e_12.json",
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+          "topic_tags": [
+            "Vertigo",
+            "Neuro-otology",
+            "Dizziness"
+          ],
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted"
+        },
+        {
+          "id": "batch_1_6e_13",
+          "title": "PPT Gangguan Keseimbangan",
+          "source_file": "lecture_material/batch_1_6e_13.json",
+          "source_document": "PPT Gangguan Keseimbangan.docx",
+          "topic_tags": [],
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted"
+        },
+        {
+          "id": "batch_1_6e_14",
+          "title": "Parkinson Disease (Aspek Klinis).",
+          "source_file": "lecture_material/batch_1_6e_14.json",
+          "source_document": "Parkinson Disease (Aspek Klinis).docx",
+          "topic_tags": [
+            "Movement disorder",
+            "Parkinsonism"
+          ],
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted"
+        },
+        {
+          "id": "batch_1_6e_15",
+          "title": "Patofisiologi stroke gizi",
+          "source_file": "lecture_material/batch_1_6e_15.json",
+          "source_document": "Patofisiologi stroke_gizi.docx",
+          "topic_tags": [
+            "Stroke",
+            "Vascular neurology"
+          ],
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted"
+        },
+        {
+          "id": "batch_1_6e_16",
+          "title": "Pemeriksaan klinis neuro 250523 133200.",
+          "source_file": "lecture_material/batch_1_6e_16.json",
+          "source_document": "Pemeriksaan klinis neuro_250523_133200.docx",
+          "topic_tags": [],
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted"
+        },
+        {
+          "id": "batch_1_6e_17",
+          "title": "Radiologi Tumor Cerebri",
+          "source_file": "lecture_material/batch_1_6e_17.json",
+          "source_document": "Radiologi Tumor Cerebri.docx",
+          "topic_tags": [
+            "Tumor",
+            "Neuro-oncology",
+            "Radiology"
+          ],
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted"
+        },
+        {
+          "id": "batch_1_6e_18",
+          "title": "STATUS EPILEPTIKUS koas",
+          "source_file": "lecture_material/batch_1_6e_18.json",
+          "source_document": "STATUS EPILEPTIKUS koas.docx",
+          "topic_tags": [
+            "Epilepsy",
+            "Emergency neurology"
+          ],
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted"
+        },
+        {
+          "id": "batch_1_6e_19",
+          "title": "TUMOR SSP KULIAH",
+          "source_file": "lecture_material/batch_1_6e_19.json",
+          "source_document": "TUMOR SSP KULIAH.docx",
+          "topic_tags": [
+            "Tumor",
+            "Neuro-oncology"
+          ],
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted"
+        },
+        {
+          "id": "batch_1_6e_20",
+          "title": "Trauma Sistim Saraf",
+          "source_file": "lecture_material/batch_1_6e_20.json",
+          "source_document": "Trauma Sistim Saraf.docx",
+          "topic_tags": [
+            "Neurotrauma"
+          ],
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted"
+        },
+        {
+          "id": "batch_1_6e_21",
+          "title": "Tumor Cerebri",
+          "source_file": "lecture_material/batch_1_6e_21.json",
+          "source_document": "Tumor Cerebri.docx",
+          "topic_tags": [
+            "Tumor",
+            "Neuro-oncology"
+          ],
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted"
+        },
+        {
+          "id": "batch_1_6e_22",
+          "title": "Dr.Patrick - neurorehab",
+          "source_file": "lecture_material/batch_1_6e_22.json",
+          "source_document": "dr.Patrick - neurorehab.docx",
+          "topic_tags": [
+            "Rehabilitation"
+          ],
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted"
+        },
+        {
+          "id": "batch_1_6e_23",
+          "title": "Neuroanatomi 2023",
+          "source_file": "lecture_material/batch_1_6e_23.json",
+          "source_document": "neuroanatomi 2023.docx",
+          "topic_tags": [
+            "Anatomy"
+          ],
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted"
+        },
+        {
+          "id": "batch_1_6e_24",
+          "title": "Stroke-dr.Erni Z, SpRad",
+          "source_file": "lecture_material/batch_1_6e_24.json",
+          "source_document": "stroke-dr.Erni Z, SpRad.docx",
+          "topic_tags": [
+            "Stroke",
+            "Vascular neurology"
+          ],
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22
+          ],
+          "status": "Draft_extracted"
+        }
+      ]
+    }
+  ]
+}

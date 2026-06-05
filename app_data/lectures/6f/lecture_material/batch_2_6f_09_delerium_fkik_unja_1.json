@@ -1,0 +1,2536 @@
+{
+  "id": "batch_2_6f_09",
+  "block": "5f",
+  "title": "Delirium",
+  "subtitle": "Batch 2 / 6F delirium.",
+  "source_pdf": "source_docs/6F/delerium FKIK UNJA (1).docx",
+  "source_format": "Docx",
+  "source_filename": "Delerium FKIK UNJA (1).docx.",
+  "document_index": 9,
+  "summary": [
+    "Delirium",
+    "Delirium.",
+    "Gbran ini tidak merupakan gbran patognomonik spesifik.",
+    "Tentukan target gejala-jelas & ter ukur, mis: ."
+  ],
+  "exam_focus": [
+    "◻ Ter jadinya gejala2 ini oleh karena adanya ggn.",
+    "◻ Gejala2 prodromal: gelisah; ansietas; hipersensitif.",
+    "Kriteria Diagnostik berdasarkan.",
+    "Tegakkan diagnosis delirium CAM.",
+    "Apakah gejala memburuk di malam hari?",
+    "Lakukan pemeriksaan AMT/MMSE & ADL/.",
+    "Tentukan target gejala-jelas & ter ukur, mis: ."
+  ],
+  "sections": [
+    {
+      "id": "batch_2_6f_09_s01",
+      "title": "Delirium",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "CURRICULUM VITAE.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 1
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Nama: dr. Tumpak Saragi, Sp.KJ Tempat/Tgl lahir: Medan, 16 juni 1977 Pekerjaan: - Psikiater di RSJ Jambi - Staf Pengajar di Bagian Psikiatri FK Universitas Jambi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 2
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pendidikan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 3
+          }
+        }
+      ],
+      "provenance": {},
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "visual_refs": [
+        "Batch_2_6f_09_visual_concept_map"
+      ],
+      "glossary_refs": [
+        "Term_delirium",
+        "Term_tempat_tgl_lahir",
+        "Term_gambaran_klinik",
+        "Term_ggn_kesadaran",
+        "Term_ggn_orientasi",
+        "Term_distorsi_persepsi_ilusi_halusinasi_tu",
+        "Term_disorientasi_tu",
+        "Term_patofisiologi"
+      ],
+      "quiz_refs": [
+        "Batch_2_6f_09_quiz_01",
+        "Batch_2_6f_09_quiz_02",
+        "Batch_2_6f_09_quiz_03"
+      ]
+    },
+    {
+      "id": "batch_2_6f_09_s02",
+      "title": "Spesialis: FK Universitas Padjadjaran Bandung.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Spesialis: FK Universitas Padjadjaran Bandung.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 5
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 4
+      },
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "glossary_refs": [
+        "Term_delirium",
+        "Term_tempat_tgl_lahir",
+        "Term_gambaran_klinik",
+        "Term_ggn_kesadaran",
+        "Term_ggn_orientasi",
+        "Term_distorsi_persepsi_ilusi_halusinasi_tu",
+        "Term_disorientasi_tu",
+        "Term_patofisiologi"
+      ]
+    },
+    {
+      "id": "batch_2_6f_09_s03",
+      "title": "Delirium",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "◻ penurunan (kemampuan untuk memusatkan,.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 7
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mempertahankan dan mengalihkan) perhatian.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 8
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ hendaya fungsi kognitif (orientasi, memori, bahasa).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 9
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ gangguan siklus tidur-bangun dan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 10
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ peningkatan atau penurunan aktivitas psikomotor.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 11
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "…akut dan fluktuatif.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 12
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "…Biasanya dipicu oleh suatu kondisi medis akut.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 13
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 6
+      },
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "glossary_refs": [
+        "Term_delirium",
+        "Term_tempat_tgl_lahir",
+        "Term_gambaran_klinik",
+        "Term_ggn_kesadaran",
+        "Term_ggn_orientasi",
+        "Term_distorsi_persepsi_ilusi_halusinasi_tu",
+        "Term_disorientasi_tu",
+        "Term_patofisiologi"
+      ]
+    },
+    {
+      "id": "batch_2_6f_09_s04",
+      "title": "Definisi Lanj…",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "◻ Suatu reaksi organik akut dengan ggn utama.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 16
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Adanya kesadaran berkabut (clouding of.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 17
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Consciousness), yg disertai dengan ggn atensi,.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 18
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Orientasi, memori, persepsi, delusi, kegelisahan &.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 19
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Agitasi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 20
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Suatu kelompok ggn jiwa yg disebabkan oleh.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 21
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Adanya ggn pd jaringan otak atau pd organ.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 22
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lain diluar otak tapi mempengaruhi fungsi otak.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 23
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sinonim.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 24
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Acute Brain Syndrome.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 26
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Acute Exogenous Reaction Type.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 27
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Acute Confusional State.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 28
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Toxic Psyc hosis.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 29
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Metabolic Encephalopathy.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 30
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Altered Mental Status.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 31
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Acute Organic Brain Sydrome.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 32
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sinonim (lanj).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 33
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Global Confusional State.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 35
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Acute Organic Psyc hosis.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 36
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Acute Psycho-Organic Syndrome.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 37
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Acute Organic Reaction.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 38
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Exogenous Metabolic Brain Disease.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 39
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Cerebral Insuficiency Syndrome.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 40
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Dysergastic State.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 41
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 14
+      },
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "glossary_refs": [
+        "Term_delirium",
+        "Term_tempat_tgl_lahir",
+        "Term_gambaran_klinik",
+        "Term_ggn_kesadaran",
+        "Term_ggn_orientasi",
+        "Term_distorsi_persepsi_ilusi_halusinasi_tu",
+        "Term_disorientasi_tu",
+        "Term_patofisiologi"
+      ]
+    },
+    {
+      "id": "batch_2_6f_09_s05",
+      "title": "Epidemiologi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "◻ Sekitar 10-15% dari pasien di bangsal bedah.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 44
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Umum.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 45
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Sekitar 15-25% dari pasien di bangsal medik.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 46
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Umum.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 47
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Sekitar 30% pd pasien yg dirawat di unit.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 48
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perawatan intensif bedah & jantung.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 49
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Sekitar 40-50% dari pasien2 yg menerima.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 50
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perawatan bedah utk fraktur di pinggang.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 51
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Sekitar 20% dari pasien luka bakar berat.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 52
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Kira2 30% dari pasien AIDS yg diopname.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 53
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 42
+      },
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "glossary_refs": [
+        "Term_delirium",
+        "Term_tempat_tgl_lahir",
+        "Term_gambaran_klinik",
+        "Term_ggn_kesadaran",
+        "Term_ggn_orientasi",
+        "Term_distorsi_persepsi_ilusi_halusinasi_tu",
+        "Term_disorientasi_tu",
+        "Term_patofisiologi"
+      ]
+    },
+    {
+      "id": "batch_2_6f_09_s06",
+      "title": "Etiologi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "◻ Sebagai reaksi dari setiap keadaan yg dpt mengganggu.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 56
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Metabolisme otak.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 57
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Kausa Intra Kranial.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 58
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Epilepsi; trauma kapitis; infeksi; perdarahan subarachnoid.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 59
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Kausa Ekstra Kranial >>.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 60
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Pemakaian dan penghentian tiba2 obat tertentu.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 61
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Disfungsi endokrin (hipo atau hiper).",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 62
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Penyakit non-endokrin.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 63
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hati; ginjal; jantung; pulmo; penyakit2 sistemik.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 64
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gambaran Klinik.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 65
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Onset akut.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 67
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Gejala2nya berfluktuasi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 68
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Durasinya ± 1 minggu.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 69
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Ter jadinya gejala2 ini oleh karena adanya ggn.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 70
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Biokimia, elektris dan mekanik.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 71
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Gejala2 prodromal: gelisah; ansietas; hipersensitif.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 72
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Thdp cahaya dan suara; insomnia.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 73
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gambaran Klinik (lanj).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 74
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gejala2 “Full Blown”: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 76
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Ggn kesadaran (clouding of consciousness).",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 77
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Ggn persepsi: ilusi; halusinasi.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 78
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Ggn orientasi: mula2 terjadi disorientasi waktu.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 79
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Ggn proses pikir & pembicaraan: .",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 80
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Ggn konsentrasi - Perseverasi.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 81
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Flight of ideas - Inkoherensi.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 82
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Inkoherensi - Delusi.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 83
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Dll.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 84
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gambaran Klinik (lanj).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 85
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Ggn memori.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 87
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Ggn Afek.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 88
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Ggn psikomotor.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 89
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Disfungsi otonomik.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 90
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Ggn siklus tidur bangun.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 91
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 54
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_09_s07",
+      "title": "Kriteria Diagnostik berdasarkan",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "PPDGJ III PPDGJ III (1993)."
+            ]
+          ],
+          "provenance": {
+            "source_kind": "Docx_table",
+            "table_index": 93
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Hendaya kesdaran dan perhatian.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 94
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Kesadaran berkabut koma.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 95
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Penurunan kemampuan untuk mengarahkan,.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 96
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Memusatkan, mempertahankan dan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 97
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mengalihkan perhatian.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 98
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 92
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_09_s08",
+      "title": "PPDGJ III (lanj)",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Ggn secara umum daya kognitif.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 101
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Distorsi persepsi, ilusi, halusinasi (tu: visual).",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 102
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Hendaya daya pikir dan pengertian abstrak.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 103
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Bisa atau tanpa waham.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 104
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Inkoherentia, ggn memori (segera, dan.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 105
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Jangka pendek).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 106
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Disorientasi (tu: waktu).",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 107
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 99
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_09_s09",
+      "title": "PPDGJ III (lanj)",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Ggn Psikomotor.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 110
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Hipoaktivitas atau hiperaktivitas.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 111
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Pengalihan aktivitas yg tak terduga.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 112
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Waktu bereaksi yg lebih panjang.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 113
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Arus pembicaraan yg bertambah/.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 114
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Berkurang.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 115
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Reaksi terperanjat meningkat.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 116
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 108
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_09_s10",
+      "title": "PPDGJ III (lanj)",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "D. Ggn siklus tidur.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 119
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Insomnia, atau pd kasus yg berat tdk dapat tidur sama.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 120
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sekali, atau terbaliknya siklus tidur dimana mengantuk siang.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 121
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hari.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 122
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Gejala memburuk pd malam hari.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 123
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Mimpi yg mengganggu atau mimpi buruk yg dpt berlanjut.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 124
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Menjadi halusinasi setelah bangun tidur.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 125
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Ggn emosional.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 126
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Depresi, ansietas, takut, lekas marah, euforia, apatis, rasa.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 127
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kehiliangan akal.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 128
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Faktor Risiko Delirium.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 129
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 117
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_09_s11",
+      "title": "Predisposisi:",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "Predisposisi:",
+              "Predisposisi:",
+              "Predisposisi:",
+              "Predisposisi:",
+              "Presipitasi"
+            ],
+            [
+              "◻ Usia lanjut ◻ Demensia/ggn kognitif ◻ Depresi ◻ Polifarmasi ◻ Dehidrasi ◻ Gangguan ginjal kronik ◻ Gangguan neurologis ◻ Gangguan fungsional ◻ Gangguan penglihatan/ pendengaran ◻ Riwayat delirium sblmnya.",
+              "◻ ES Obat (antikolinergik) ◻ Intoksikasi /withdrawal Napza ◻ Infeksi ◻ Trauma kepala ◻ Gangguan metabolik: dehidrasi, gangguan elektrolit, malnutrisi, ensefalopati hepatikum/uremikum ◻ Gangguan vaskular: stroke, gagal jantung, hipovolemia, aritmia ◻ Gangguan endokrin ◻ Nyeri.",
+              "◻ ES Obat (antikolinergik) ◻ Intoksikasi /withdrawal Napza ◻ Infeksi ◻ Trauma kepala ◻ Gangguan metabolik: dehidrasi, gangguan elektrolit, malnutrisi, ensefalopati hepatikum/uremikum ◻ Gangguan vaskular: stroke, gagal jantung, hipovolemia, aritmia ◻ Gangguan endokrin ◻ Nyeri.",
+              "◻ ES Obat (antikolinergik) ◻ Intoksikasi /withdrawal Napza ◻ Infeksi ◻ Trauma kepala ◻ Gangguan metabolik: dehidrasi, gangguan elektrolit, malnutrisi, ensefalopati hepatikum/uremikum ◻ Gangguan vaskular: stroke, gagal jantung, hipovolemia, aritmia ◻ Gangguan endokrin ◻ Nyeri.",
+              "◻ ES Obat (antikolinergik) ◻ Intoksikasi /withdrawal Napza ◻ Infeksi ◻ Trauma kepala ◻ Gangguan metabolik: dehidrasi, gangguan elektrolit, malnutrisi, ensefalopati hepatikum/uremikum ◻ Gangguan vaskular: stroke, gagal jantung, hipovolemia, aritmia ◻ Gangguan endokrin ◻ Nyeri."
+            ]
+          ],
+          "provenance": {
+            "source_kind": "Docx_table",
+            "table_index": 130
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Patofisiologi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 131
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Delirium adalah sbg hasil kerusakan difus.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 133
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Metabolisme jaringan saraf.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 134
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Hal ini dapat terlihat dari: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 135
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Studi EEG.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 136
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Aliran darah di otak.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 137
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Patofisiologi (lanj).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 138
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_table",
+        "table_index": 130
+      },
+      "recommended_pages": [
+        10
+      ]
+    },
+    {
+      "id": "batch_2_6f_09_s12",
+      "title": "* EEG",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Perlambatan ritme EEG.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 141
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Melambatnya amplitudo rendah.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 142
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Studi aliran darah.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 143
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Penurunan penggunaan O2.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 144
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Patologi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 145
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gbran ini tidak merupakan gbran patognomonik spesifik.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 147
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gbran ini (makro dan mikro) bersifat bilateral, simetris,.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 148
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Difus keseluruhan hemisfer.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 149
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Makroskopis: otak membengkak dengan pelebaran ruang.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 150
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perivaskular & perineuronal.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 151
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mikroskopis: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 152
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Pembengkakan neuron pd korteks serebri &.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 153
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hipokampus.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 154
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Hiperemia perivaskular.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 155
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "War na sel lebih pucat.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 156
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tipe Delirium.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 157
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Hiperaktif-gelisah, agitasi, hipervigilans, tidak.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 158
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kooperatif, terkadang disertai halusinasi&waham.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 159
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Hipoaktif-letargi, sedasi, penurunan aktivitas.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 160
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Psikomotor.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 161
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Campuran-campuran gambaran hiperaktif dan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 162
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hipoaktif, fluktuasi cepat.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 163
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Evaluasi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 164
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "3 langkah: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 165
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Tegakkan diagnosis delirium CAM.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 166
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Tentukan potensial kausa/kondisi medis umum yang.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 167
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mendasari dan singkirkan kondisi yang mengancam.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 168
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Nyawa.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 169
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Manajemen gejala.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 170
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "CAM: 4 - 8 menit (rata-rata 6 menit,.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 171
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Spesifik 98 %, sensitif 90%).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 172
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Masalah daya ingat, orientasi, berbicara, berbahasa, kesulitan melakukan aktivitas.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 173
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tanyakan pada individu/pelaku rawat: Sejak kapan & usia saat awitan? Perburukan gejala&hendaya? Awitan mendadak atau bertahap?",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 174
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Apakah awitan terkait dengan cedera kepala, pingsan atau stroke? Apakah gejala memburuk di malam hari?",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 175
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Adakah rasa mengantuk atau perubahan kesadaran?",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 176
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lakukan pemeriksaan AMT/MMSE & ADL/ IADL.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 177
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 140
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_09_s13",
+      "title": "Jika terdapat hendaya dalam tes kognitif & fungsional Telah berlangsung 6 b….",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "Jika terdapat hendaya dalam tes kognitif dan fungsional Telah berlangsung 6 bulan.",
+              "Jika terdapat hendaya dalam tes kognitif dan fungsional Telah berlangsung 6 bulan.",
+              "Jika awitan mendadak dan durasi singkat Jika gangguan lebih sering di malam hari ada perubahan kesadaran ada disorientasi.",
+              "Jika awitan mendadak dan durasi singkat Jika gangguan lebih sering di malam hari ada perubahan kesadaran ada disorientasi.",
+              "Jika awitan mendadak dan durasi singkat Jika gangguan lebih sering di malam hari ada perubahan kesadaran ada disorientasi.",
+              "Gambaran atipikal: Awitan <60 tahun Hipotiroidisme Penyakit kardiovaskular Riwayat ISK / HIV Riwayat cedera kepala / stroke.",
+              "Gambaran atipikal: Awitan <60 tahun Hipotiroidisme Penyakit kardiovaskular Riwayat ISK / HIV Riwayat cedera kepala / stroke.",
+              "Gambaran atipikal: Awitan <60 tahun Hipotiroidisme Penyakit kardiovaskular Riwayat ISK / HIV Riwayat cedera kepala / stroke.",
+              "Gambaran atipikal: Awitan <60 tahun Hipotiroidisme Penyakit kardiovaskular Riwayat ISK / HIV Riwayat cedera kepala / stroke."
+            ],
+            [
+              "DEMENSIA",
+              "DEMENSIA",
+              "DEMENSIA",
+              "DELIRIUM",
+              "DELIRIUM",
+              "DELIRIUM",
+              "RUJUK"
+            ]
+          ],
+          "provenance": {
+            "source_kind": "Docx_table",
+            "table_index": 178
+          }
+        },
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "Diagnosis banding Banding"
+            ]
+          ],
+          "provenance": {
+            "source_kind": "Docx_table",
+            "table_index": 179
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Skizofrenia.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 181
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Histeria.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 182
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Dementia.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 183
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Dll.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 184
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_table",
+        "table_index": 178
+      },
+      "recommended_pages": [
+        10
+      ]
+    },
+    {
+      "id": "batch_2_6f_09_s14",
+      "title": "Tatalaksana Delirium",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "◻ Non-farmakologis.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 186
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Farmakologis.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 187
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tentukan target gejala-jelas & ter ukur, mis: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 188
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Agitasi psikomotor.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 189
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 185
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_09_s15",
+      "title": "Terapi non-farmakologis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Komunikasi singkat dan jelas (satu instruksi/pertanyaan dalam satu.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 191
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Waktu).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 192
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Fasilitasi re-orientasi dengan menyediakan akses ke jendela, jam,.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 193
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kalender, tanda lokasi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 194
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Libatkan keluarga untuk menjaga pasien dan bawakan benda yang.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 195
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Familiar.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 196
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hindari over/under stimulasi (cahaya, suara, suhu).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 197
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hindari perpindahan ruang terlalu sering, bila terjadi lakukan re-.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 198
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Orientasi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 199
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Koreksi hendaya sensorik (penglihatan, pendengaran).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 200
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pastikan kebutuhan dasar terpenuhi (makan, minum, eliminasi).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 201
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "HINDARI FIKSASI! bisa memicu gaduh gelisah.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 202
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 190
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_09_s16",
+      "title": "Terapi Farmakologis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Hanya diberikan pada delirium tipe hiperaktif yang.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 204
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Membahayakan diri/orang lain atau mengganggu.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 205
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Jalannya perawatan, setelah strategi non farmakologi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 206
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dicoba dan tidak berhasil.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 207
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dimulai dengan obat antipsikotik dosis rendah per.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 208
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Oral, yaitu: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 209
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Haloperidol 0, 5 mg tiap 4 - 6 jam, dapat ditingkatkan sampai.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 210
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Maksimal 10 mg per hari. Pada lansia dosis maksimal 3 mg.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 211
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Per hari.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 212
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Risperidon 2 x 0, 5 mg, dosis maksimal dewasa 4 mg, lansia 1.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 213
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mg.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 214
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 203
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_09_s17",
+      "title": "Terapi Farmakologis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "◻ Pada agitasi berat atau kondisi yang tidak memungkinkan pemberian.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 216
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Per oral dapat diberikan injeksi Haloperidol 2, 5 mg IM, dapat.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 217
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Diulang setelah 30 menit. Dosis maksimal dewasa 10 mg per hari.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 218
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dosis maksimal lansia 5 mg per hari.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 219
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Hindari Benzodiazepin (kec. Lorazepam injeksi).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 220
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "◻ Pemberian obat harus dilakukan dengan informed consent kepada.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 221
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pasien dan/atau keluarganya. Catat dengan jelas rencana.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 222
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pengobatan (jenis obat, dosis, dosis maksimal harian, frekuensi titrasi,.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 223
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Frekuensi serta komponen evaluasi: tingkat agitasi, total dosis dalam.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 224
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "48 jam terakhir, efek samping).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 225
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gambaran Delirium Demensia.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 226
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Riwayat Penyakit akut Penyakit kronik.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 227
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Awal Cepat Lambat laun.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 228
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 215
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_09_s18",
+      "title": "Sebab Terdapat penyakit lain (infeksi, dehidrasi, guna/putus obat.",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "Sebab Terdapat penyakit lain (infeksi, dehidrasi, guna/putus obat.",
+              "Biasanya penyakit otak kronik (spt Alzheimer, demensia vaskular)."
+            ]
+          ],
+          "provenance": {
+            "source_kind": "Docx_table",
+            "table_index": 229
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lamanya Ber-hari/-minggu Ber-bulan/-tahun.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 230
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perjalanan sakit Naik turun Kronik progresif.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 231
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Taraf kesadaran Naik turun.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 232
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Orientasi Terganggu, periodik Intak pada awalnya.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 233
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Afek Cemas dan iritabel Labil tapi tak cemas.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 234
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Alam pikiran Sering terganggu Turun jumlahnya.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 235
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bahasa Lamban, inkoheren, inadekuat Sulit menemukan istilah tepat.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 236
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Daya ingat Jangka pendek terganggu nyata Jangka pendek & panjang.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 237
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terganggu.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 238
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Persepsi Halusinasi (visual) Halusinasi jarang kecuali.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 239
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sundowning.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 240
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Psikomotor Retardasi, agitasi, campuran.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 241
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidur Terganggu siklusnya Sedikit terganggu siklus tidurnya.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 242
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_table",
+        "table_index": 229
+      },
+      "recommended_pages": [
+        10
+      ]
+    },
+    {
+      "id": "batch_2_6f_09_high_yield",
+      "title": "High-yield / titik ujian dari sumber.",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "◻ Ter jadinya gejala2 ini oleh karena adanya ggn."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "◻ Gejala2 prodromal: gelisah; ansietas; hipersensitif."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Kriteria Diagnostik berdasarkan."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Tegakkan diagnosis delirium CAM."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Apakah gejala memburuk di malam hari?"
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Lakukan pemeriksaan AMT/MMSE & ADL/."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Tentukan target gejala-jelas & ter ukur, mis: ."
+        }
+      ],
+      "recommended_pages": [
+        11,
+        22
+      ],
+      "provenance": {
+        "source_file": "delerium FKIK UNJA (1).docx",
+        "derivation": "Source_keyword_extraction"
+      }
+    },
+    {
+      "id": "batch_2_6f_09_summary",
+      "title": "Ringkasan cepat",
+      "kind": "Summary",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Delirium",
+              "children": []
+            },
+            {
+              "text": "Delirium.",
+              "children": []
+            },
+            {
+              "text": "Gbran ini tidak merupakan gbran patognomonik spesifik.",
+              "children": []
+            },
+            {
+              "text": "Tentukan target gejala-jelas & ter ukur, mis: .",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "recommended_pages": [
+        15,
+        22
+      ],
+      "provenance": {
+        "source_file": "delerium FKIK UNJA (1).docx",
+        "derivation": "Source_derived_summary"
+      }
+    },
+    {
+      "id": "batch_2_6f_09_bilingual_simplified",
+      "title": "Penjelasan sederhana bilingual",
+      "kind": "Bilingual",
+      "content": [
+        {
+          "type": "Bilingual_simplification",
+          "language": "Id-en",
+          "simple_indonesian": "Secara sederhana, topik ini membahas Delirium. Fokuskan belajar pada definisi, gambaran klinis, pemeriksaan/diagnosis bila ada, dan penatalaksanaan yang tertulis dalam materi dosen.",
+          "english_bridge": "In simple terms, this source is a structured learning page for Delirium. Review definitions, clinical features, assessment/diagnosis when available, and management points from the lecturer material.",
+          "confidence": "high_for_scope_low_for_unsourced_extra_claims"
+        }
+      ],
+      "recommended_pages": [
+        16
+      ],
+      "provenance": {
+        "source_file": "delerium FKIK UNJA (1).docx",
+        "derivation": "App_shell_simplification"
+      }
+    },
+    {
+      "id": "batch_2_6f_09_visual_plan",
+      "title": "Delirium",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Image_plan",
+          "visual_id": "Batch_2_6f_09_visual_concept_map",
+          "title": "Concept map: Delirium",
+          "caption": "Visual ringkas berbasis struktur materi dosen dari delerium FKIK UNJA (1).docx.",
+          "recommended_pages": [
+            12,
+            13
+          ],
+          "source_file": "delerium FKIK UNJA (1).docx"
+        },
+        {
+          "type": "Image_plan",
+          "visual_id": "Batch_2_6f_09_source_slide_gallery_placeholder",
+          "title": "Galeri slide sumber: Delirium.",
+          "caption": "Dokumen mengandung 30 media; perlu clearance sebelum gambar asli dimasukkan.",
+          "recommended_pages": [
+            13,
+            24
+          ],
+          "source_file": "delerium FKIK UNJA (1).docx"
+        }
+      ],
+      "visual_refs": [
+        "Batch_2_6f_09_visual_concept_map",
+        "Batch_2_6f_09_source_slide_gallery_placeholder"
+      ],
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "provenance": {
+        "source_file": "delerium FKIK UNJA (1).docx",
+        "derivation": "Visual_asset_planning"
+      }
+    }
+  ],
+  "related_exam_set_ids": [],
+  "extraction_metadata": {
+    "text_chars": 10196,
+    "media_count": 30,
+    "ocr_used": false,
+    "ocr_slide_count": 0
+  },
+  "app_feature_targets": [
+    3,
+    4,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    20,
+    22,
+    24
+  ],
+  "provenance": {
+    "batch_id": "batch_2_6F",
+    "source_file": "delerium FKIK UNJA (1).docx",
+    "source_path": "Source_docs/6F/delerium FKIK UNJA (1).docx."
+  }
+}

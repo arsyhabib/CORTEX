@@ -1,0 +1,172 @@
+{
+  "prompts": [
+    {
+      "id": "batch_2_6f_01_ask_slide_default",
+      "linked_content_id": "batch_2_6f_01",
+      "page": 20,
+      "prompt": "Jelaskan materi 'Gangguan Ansietas & Penatalaksanaannya' dari sumber dosen secara bertahap: definisi, gejala/tanda, diagnosis atau pemeriksaan bila ada, tatalaksana bila ada, dan high-yield points. Jangan menambah klaim di luar sumber kecuali diberi label pengetahuan umum."
+    },
+    {
+      "id": "batch_2_6f_01_exam_reasoning",
+      "linked_content_id": "batch_2_6f_01",
+      "page": 20,
+      "prompt": "Buatkan simulasi reasoning klinis dari materi 'Gangguan Ansietas & Penatalaksanaannya' menggunakan hanya poin yang tersedia di konten sumber, lalu tandai bagian yang masih perlu validasi dosen."
+    },
+    {
+      "id": "batch_2_6f_02_ask_slide_default",
+      "linked_content_id": "batch_2_6f_02",
+      "page": 20,
+      "prompt": "Jelaskan materi 'Gangguan Panik' dari sumber dosen secara bertahap: definisi, gejala/tanda, diagnosis atau pemeriksaan bila ada, tatalaksana bila ada, dan high-yield points. Jangan menambah klaim di luar sumber kecuali diberi label pengetahuan umum."
+    },
+    {
+      "id": "batch_2_6f_02_exam_reasoning",
+      "linked_content_id": "batch_2_6f_02",
+      "page": 20,
+      "prompt": "Buatkan simulasi reasoning klinis dari materi 'Gangguan Panik' menggunakan hanya poin yang tersedia di konten sumber, lalu tandai bagian yang masih perlu validasi dosen."
+    },
+    {
+      "id": "batch_2_6f_03_ask_slide_default",
+      "linked_content_id": "batch_2_6f_03",
+      "page": 20,
+      "prompt": "Jelaskan materi 'Fobia' dari sumber dosen secara bertahap: definisi, gejala/tanda, diagnosis atau pemeriksaan bila ada, tatalaksana bila ada, dan high-yield points. Jangan menambah klaim di luar sumber kecuali diberi label pengetahuan umum."
+    },
+    {
+      "id": "batch_2_6f_03_exam_reasoning",
+      "linked_content_id": "batch_2_6f_03",
+      "page": 20,
+      "prompt": "Buatkan simulasi reasoning klinis dari materi 'Fobia' menggunakan hanya poin yang tersedia di konten sumber, lalu tandai bagian yang masih perlu validasi dosen."
+    },
+    {
+      "id": "batch_2_6f_04_ask_slide_default",
+      "linked_content_id": "batch_2_6f_04",
+      "page": 20,
+      "prompt": "Jelaskan materi 'How to Treat Central Vertigo' dari sumber dosen secara bertahap: definisi, gejala/tanda, diagnosis atau pemeriksaan bila ada, tatalaksana bila ada, dan high-yield points. Jangan menambah klaim di luar sumber kecuali diberi label pengetahuan umum."
+    },
+    {
+      "id": "batch_2_6f_04_exam_reasoning",
+      "linked_content_id": "batch_2_6f_04",
+      "page": 20,
+      "prompt": "Buatkan simulasi reasoning klinis dari materi 'How to Treat Central Vertigo' menggunakan hanya poin yang tersedia di konten sumber, lalu tandai bagian yang masih perlu validasi dosen."
+    },
+    {
+      "id": "batch_2_6f_05_ask_slide_default",
+      "linked_content_id": "batch_2_6f_05",
+      "page": 20,
+      "prompt": "Jelaskan materi 'Electroconvulsive Therapy (ECT) & Psikoterapi' dari sumber dosen secara bertahap: definisi, gejala/tanda, diagnosis atau pemeriksaan bila ada, tatalaksana bila ada, dan high-yield points. Jangan menambah klaim di luar sumber kecuali diberi label pengetahuan umum."
+    },
+    {
+      "id": "batch_2_6f_05_exam_reasoning",
+      "linked_content_id": "batch_2_6f_05",
+      "page": 20,
+      "prompt": "Buatkan simulasi reasoning klinis dari materi 'Electroconvulsive Therapy (ECT) & Psikoterapi' menggunakan hanya poin yang tersedia di konten sumber, lalu tandai bagian yang masih perlu validasi dosen."
+    },
+    {
+      "id": "batch_2_6f_06_ask_slide_default",
+      "linked_content_id": "batch_2_6f_06",
+      "page": 20,
+      "prompt": "Jelaskan materi 'Pemeriksaan Laboratorium pada Penyalahgunaan Obat Psikoaktif, NAPZA dan Alkohol' dari sumber dosen secara bertahap: definisi, gejala/tanda, diagnosis atau pemeriksaan bila ada, tatalaksana bila ada, dan high-yield points. Jangan menambah klaim di luar sumber kecuali diberi label pengetahuan umum."
+    },
+    {
+      "id": "batch_2_6f_06_exam_reasoning",
+      "linked_content_id": "batch_2_6f_06",
+      "page": 20,
+      "prompt": "Buatkan simulasi reasoning klinis dari materi 'Pemeriksaan Laboratorium pada Penyalahgunaan Obat Psikoaktif, NAPZA dan Alkohol' menggunakan hanya poin yang tersedia di konten sumber, lalu tandai bagian yang masih perlu validasi dosen."
+    },
+    {
+      "id": "batch_2_6f_07_ask_slide_default",
+      "linked_content_id": "batch_2_6f_07",
+      "page": 20,
+      "prompt": "Jelaskan materi 'Normal Sleep dan Sleep Disorders' dari sumber dosen secara bertahap: definisi, gejala/tanda, diagnosis atau pemeriksaan bila ada, tatalaksana bila ada, dan high-yield points. Jangan menambah klaim di luar sumber kecuali diberi label pengetahuan umum."
+    },
+    {
+      "id": "batch_2_6f_07_exam_reasoning",
+      "linked_content_id": "batch_2_6f_07",
+      "page": 20,
+      "prompt": "Buatkan simulasi reasoning klinis dari materi 'Normal Sleep dan Sleep Disorders' menggunakan hanya poin yang tersedia di konten sumber, lalu tandai bagian yang masih perlu validasi dosen."
+    },
+    {
+      "id": "batch_2_6f_08_ask_slide_default",
+      "linked_content_id": "batch_2_6f_08",
+      "page": 20,
+      "prompt": "Jelaskan materi 'Gangguan Makan: Anoreksia Nervosa dan Bulimia' dari sumber dosen secara bertahap: definisi, gejala/tanda, diagnosis atau pemeriksaan bila ada, tatalaksana bila ada, dan high-yield points. Jangan menambah klaim di luar sumber kecuali diberi label pengetahuan umum."
+    },
+    {
+      "id": "batch_2_6f_08_exam_reasoning",
+      "linked_content_id": "batch_2_6f_08",
+      "page": 20,
+      "prompt": "Buatkan simulasi reasoning klinis dari materi 'Gangguan Makan: Anoreksia Nervosa dan Bulimia' menggunakan hanya poin yang tersedia di konten sumber, lalu tandai bagian yang masih perlu validasi dosen."
+    },
+    {
+      "id": "batch_2_6f_09_ask_slide_default",
+      "linked_content_id": "batch_2_6f_09",
+      "page": 20,
+      "prompt": "Jelaskan materi 'Delirium' dari sumber dosen secara bertahap: definisi, gejala/tanda, diagnosis atau pemeriksaan bila ada, tatalaksana bila ada, dan high-yield points. Jangan menambah klaim di luar sumber kecuali diberi label pengetahuan umum."
+    },
+    {
+      "id": "batch_2_6f_09_exam_reasoning",
+      "linked_content_id": "batch_2_6f_09",
+      "page": 20,
+      "prompt": "Buatkan simulasi reasoning klinis dari materi 'Delirium' menggunakan hanya poin yang tersedia di konten sumber, lalu tandai bagian yang masih perlu validasi dosen."
+    },
+    {
+      "id": "batch_2_6f_10_ask_slide_default",
+      "linked_content_id": "batch_2_6f_10",
+      "page": 20,
+      "prompt": "Jelaskan materi 'Amnesia Pasca Trauma (Post-Traumatic Amnesia/PTA)' dari sumber dosen secara bertahap: definisi, gejala/tanda, diagnosis atau pemeriksaan bila ada, tatalaksana bila ada, dan high-yield points. Jangan menambah klaim di luar sumber kecuali diberi label pengetahuan umum."
+    },
+    {
+      "id": "batch_2_6f_10_exam_reasoning",
+      "linked_content_id": "batch_2_6f_10",
+      "page": 20,
+      "prompt": "Buatkan simulasi reasoning klinis dari materi 'Amnesia Pasca Trauma (Post-Traumatic Amnesia/PTA)' menggunakan hanya poin yang tersedia di konten sumber, lalu tandai bagian yang masih perlu validasi dosen."
+    },
+    {
+      "id": "batch_2_6f_11_ask_slide_default",
+      "linked_content_id": "batch_2_6f_11",
+      "page": 20,
+      "prompt": "Jelaskan materi 'Gangguan Somatoform' dari sumber dosen secara bertahap: definisi, gejala/tanda, diagnosis atau pemeriksaan bila ada, tatalaksana bila ada, dan high-yield points. Jangan menambah klaim di luar sumber kecuali diberi label pengetahuan umum."
+    },
+    {
+      "id": "batch_2_6f_11_exam_reasoning",
+      "linked_content_id": "batch_2_6f_11",
+      "page": 20,
+      "prompt": "Buatkan simulasi reasoning klinis dari materi 'Gangguan Somatoform' menggunakan hanya poin yang tersedia di konten sumber, lalu tandai bagian yang masih perlu validasi dosen."
+    },
+    {
+      "id": "batch_2_6f_12_ask_slide_default",
+      "linked_content_id": "batch_2_6f_12",
+      "page": 20,
+      "prompt": "Jelaskan materi 'Isu Etik dan Legal dalam Kesehatan Jiwa' dari sumber dosen secara bertahap: definisi, gejala/tanda, diagnosis atau pemeriksaan bila ada, tatalaksana bila ada, dan high-yield points. Jangan menambah klaim di luar sumber kecuali diberi label pengetahuan umum."
+    },
+    {
+      "id": "batch_2_6f_12_exam_reasoning",
+      "linked_content_id": "batch_2_6f_12",
+      "page": 20,
+      "prompt": "Buatkan simulasi reasoning klinis dari materi 'Isu Etik dan Legal dalam Kesehatan Jiwa' menggunakan hanya poin yang tersedia di konten sumber, lalu tandai bagian yang masih perlu validasi dosen."
+    },
+    {
+      "id": "batch_2_6f_13_ask_slide_default",
+      "linked_content_id": "batch_2_6f_13",
+      "page": 20,
+      "prompt": "Jelaskan materi 'Perilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri' dari sumber dosen secara bertahap: definisi, gejala/tanda, diagnosis atau pemeriksaan bila ada, tatalaksana bila ada, dan high-yield points. Jangan menambah klaim di luar sumber kecuali diberi label pengetahuan umum."
+    },
+    {
+      "id": "batch_2_6f_13_exam_reasoning",
+      "linked_content_id": "batch_2_6f_13",
+      "page": 20,
+      "prompt": "Buatkan simulasi reasoning klinis dari materi 'Perilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri' menggunakan hanya poin yang tersedia di konten sumber, lalu tandai bagian yang masih perlu validasi dosen."
+    },
+    {
+      "id": "batch_2_6f_14_ask_slide_default",
+      "linked_content_id": "batch_2_6f_14",
+      "page": 20,
+      "prompt": "Jelaskan materi 'Gangguan Kepribadian dan Perilaku Masa Dewasa' dari sumber dosen secara bertahap: definisi, gejala/tanda, diagnosis atau pemeriksaan bila ada, tatalaksana bila ada, dan high-yield points. Jangan menambah klaim di luar sumber kecuali diberi label pengetahuan umum."
+    },
+    {
+      "id": "batch_2_6f_14_exam_reasoning",
+      "linked_content_id": "batch_2_6f_14",
+      "page": 20,
+      "prompt": "Buatkan simulasi reasoning klinis dari materi 'Gangguan Kepribadian dan Perilaku Masa Dewasa' menggunakan hanya poin yang tersedia di konten sumber, lalu tandai bagian yang masih perlu validasi dosen."
+    }
+  ]
+}

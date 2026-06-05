@@ -1,0 +1,7 @@
+{
+  "generated_at": "2026-06-03T16: 35: 14.928239+00: 00",
+  "source_package": "gpt_thinking_master_package",
+  "selected_batch": "batch_1_6E",
+  "ignored_batch": "batch_2_6F",
+  "notes": "No web/external medical sources used; paragraph/table extraction via python-docx. Post-generation polish pass applied to wording-heavy fields while preserving provenance and reconstruction flags.\n\nPost-generation surface polish applied to wording-heavy generated fields while preserving provenance and reconstruction flags."
+}

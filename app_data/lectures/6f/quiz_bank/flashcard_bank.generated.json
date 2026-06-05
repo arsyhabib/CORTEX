@@ -1,0 +1,1039 @@
+{
+  "flashcards": [
+    {
+      "id": "batch_2_6f_01_flashcard_01",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Gangguan Ansietas & Penatalaksanaannya?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Gangguan Ansietas & Penatalaksanaannya. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Anxiety",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_01"
+      ],
+      "source_file": "09 dr.Susi - 1. GAM.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_01_flashcard_02",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari anxiety?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Gangguan Ansietas & Penatalaksanaannya. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Anxiety",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_01"
+      ],
+      "source_file": "09 dr.Susi - 1. GAM.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_01_flashcard_03",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari gejala yang utama (dominan)?",
+      "back": "Gejala utama (dominan) adalah.",
+      "tags": [
+        "Anxiety",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_01"
+      ],
+      "source_file": "09 dr.Susi - 1. GAM.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_01_flashcard_04",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari GANGGUAN ANSIETAS MENYELURUH?",
+      "back": "GANGGUAN ANSIETAS MENYELURUH (GAM).",
+      "tags": [
+        "Anxiety",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_01"
+      ],
+      "source_file": "09 dr.Susi - 1. GAM.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_01_flashcard_05",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari GAM juga?",
+      "back": "GAM juga merupakan kondisi gangguan yang.",
+      "tags": [
+        "Anxiety",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_01"
+      ],
+      "source_file": "09 dr.Susi - 1. GAM.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_02_flashcard_01",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Gangguan Panik?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Gangguan Panik. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Panic disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_02"
+      ],
+      "source_file": "09 dr.Susi - 2. Gangguan Panik (1).docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_02_flashcard_02",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari panic disorder?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Gangguan Panik. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Panic disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_02"
+      ],
+      "source_file": "09 dr.Susi - 2. Gangguan Panik (1).docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_02_flashcard_03",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Serangan panik?",
+      "back": "Serangan panik merupakan ketakutan akan timbulnya serangan serta diyakini akan segera terjadi.",
+      "tags": [
+        "Panic disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_02"
+      ],
+      "source_file": "09 dr.Susi - 2. Gangguan Panik (1).docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_02_flashcard_04",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Psikoterapi utama yang direkomendasikan untuk penanganan gangguan panik?",
+      "back": "Psikoterapi utama yang direkomendasikan untuk penanganan gangguan panik adalah Cognitive Behavioura….",
+      "tags": [
+        "Panic disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_02"
+      ],
+      "source_file": "09 dr.Susi - 2. Gangguan Panik (1).docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_02_flashcard_05",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Tujuan utama penatalaksanaan?",
+      "back": "Tujuan utama penatalaksanaan adalah untuk menurunkan intensitas, frekuensi, dan durasi serangan panik; mengurangi perilaku menghindar, mencegah relapse, dan memperbaiki kualitas hidup.",
+      "tags": [
+        "Panic disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_02"
+      ],
+      "source_file": "09 dr.Susi - 2. Gangguan Panik (1).docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_03_flashcard_01",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Fobia?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Fobia. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Anxiety",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_03"
+      ],
+      "source_file": "09 dr.Susi - 4. Fobia.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_03_flashcard_02",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari anxiety?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Fobia. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Anxiety",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_03"
+      ],
+      "source_file": "09 dr.Susi - 4. Fobia.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_03_flashcard_03",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Berdasarkan sifatnya fobia dibagi 3 yaitu?",
+      "back": "Berdasarkan sifatnya fobia dibagi 3 yaitu: | .",
+      "tags": [
+        "Anxiety",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_03"
+      ],
+      "source_file": "09 dr.Susi - 4. Fobia.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_03_flashcard_04",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Phobia khusus?",
+      "back": "Phobia khusus yaitu ketakutan.",
+      "tags": [
+        "Anxiety",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_03"
+      ],
+      "source_file": "09 dr.Susi - 4. Fobia.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_04_flashcard_01",
+      "domain": "neuro_otology_6f",
+      "front": "Apa inti utama dari How to Treat Central Vertigo?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: How to Treat Central Vertigo. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Vertigo",
+        "Neuro-otology",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_04"
+      ],
+      "source_file": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_04_flashcard_02",
+      "domain": "neuro_otology_6f",
+      "front": "Apa inti utama dari vertigo?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: How to Treat Central Vertigo. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Vertigo",
+        "Neuro-otology",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_04"
+      ],
+      "source_file": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_04_flashcard_03",
+      "domain": "neuro_otology_6f",
+      "front": "Apa inti utama dari neuro-otology?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: How to Treat Central Vertigo. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Vertigo",
+        "Neuro-otology",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_04"
+      ],
+      "source_file": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_04_flashcard_04",
+      "domain": "neuro_otology_6f",
+      "front": "Apa inti utama dari BuSkaingminerjuapiakan penyakit tersendiri, tetapi?",
+      "back": "BuSkaingminerjuapiakan penyakit tersendiri, tetapi merupakan gejala dari etiologi lain yang.",
+      "tags": [
+        "Vertigo",
+        "Neuro-otology",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_04"
+      ],
+      "source_file": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_04_flashcard_05",
+      "domain": "neuro_otology_6f",
+      "front": "Apa inti utama dari Infiamasi/ Infeksi?",
+      "back": "Infiamasi/ Infeksi: multiple sklerosis.",
+      "tags": [
+        "Vertigo",
+        "Neuro-otology",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_04"
+      ],
+      "source_file": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_05_flashcard_01",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Electroconvulsive Therapy (ECT) & Psikoterapi?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Electroconvulsive Therapy (ECT) & Psikoterapi. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Psychotherapy",
+        "Somatic therapy",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_05"
+      ],
+      "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_05_flashcard_02",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari psychotherapy?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Electroconvulsive Therapy (ECT) & Psikoterapi. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Psychotherapy",
+        "Somatic therapy",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_05"
+      ],
+      "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_05_flashcard_03",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari somatic therapy?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Electroconvulsive Therapy (ECT) & Psikoterapi. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Psychotherapy",
+        "Somatic therapy",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_05"
+      ],
+      "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_05_flashcard_04",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Variabel yang membatasi penggunaannya?",
+      "back": "Variabel yang membatasi penggunaannya adalah efek samping kebingungan dan kehilangan memori.",
+      "tags": [
+        "Psychotherapy",
+        "Somatic therapy",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_05"
+      ],
+      "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_05_flashcard_05",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Karena jaringan scalp?",
+      "back": "Karena jaringan scalp merupakan konduktor listrik yang lebih baik daripada tulang, hanya 20% dari muatan listrik yang masuk ke dalam tengkorak untuk merangsang neuron.",
+      "tags": [
+        "Psychotherapy",
+        "Somatic therapy",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_05"
+      ],
+      "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_06_flashcard_01",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Pemeriksaan Laboratorium pada Penyalahgunaan Obat Psikoaktif, NAPZA dan Alkohol?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Pemeriksaan Laboratorium pada Penyalahgunaan Obat Psikoaktif, NAPZA dan Alkohol. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Substance use",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_06"
+      ],
+      "source_file": "Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_06_flashcard_02",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari substance use?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Pemeriksaan Laboratorium pada Penyalahgunaan Obat Psikoaktif, NAPZA dan Alkohol. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Substance use",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_06"
+      ],
+      "source_file": "Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_06_flashcard_03",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Ganja?",
+      "back": "Ganja (Cimeng) Kokain.",
+      "tags": [
+        "Substance use",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_06"
+      ],
+      "source_file": "Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_06_flashcard_04",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Obat sedatif/Hipnotik?",
+      "back": "Obat sedatif/Hipnotik: Valium, Diazepam, Lexo, Mogadon, Double L.",
+      "tags": [
+        "Substance use",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_06"
+      ],
+      "source_file": "Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_06_flashcard_05",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Zat adiktif?",
+      "back": "Zat adiktif: bensin, cat, tiner, lem, dll.",
+      "tags": [
+        "Substance use",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_06"
+      ],
+      "source_file": "Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_07_flashcard_01",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Normal Sleep dan Sleep Disorders?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Normal Sleep dan Sleep Disorders. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Sleep disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_07"
+      ],
+      "source_file": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_07_flashcard_02",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari sleep disorder?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Normal Sleep dan Sleep Disorders. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Sleep disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_07"
+      ],
+      "source_file": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_07_flashcard_03",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Tidur Dibagi Menjadi 2 Tipe?",
+      "back": "Tidur Dibagi Menjadi 2 Tipe Yaitu: .",
+      "tags": [
+        "Sleep disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_07"
+      ],
+      "source_file": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_07_flashcard_04",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Tipe Rapid Eye Movement?",
+      "back": "Tipe Rapid Eye Movement (REM).",
+      "tags": [
+        "Sleep disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_07"
+      ],
+      "source_file": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_07_flashcard_05",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Tipe Non Rapid Eye Movement?",
+      "back": "Tipe Non Rapid Eye Movement (NREM).",
+      "tags": [
+        "Sleep disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_07"
+      ],
+      "source_file": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_08_flashcard_01",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Gangguan Makan: Anoreksia Nervosa dan Bulimia?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Gangguan Makan: Anoreksia Nervosa dan Bulimia. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Eating disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_08"
+      ],
+      "source_file": "anoreksia dan bulimia.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_08_flashcard_02",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari eating disorder?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Gangguan Makan: Anoreksia Nervosa dan Bulimia. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Eating disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_08"
+      ],
+      "source_file": "anoreksia dan bulimia.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_08_flashcard_03",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari e Ada dua tipe utama?",
+      "back": "E Ada dua tipe utama yaitu anorexia nervosa dan.",
+      "tags": [
+        "Eating disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_08"
+      ],
+      "source_file": "anoreksia dan bulimia.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_08_flashcard_04",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Tipe ketiga?",
+      "back": "Tipe ketiga adalah gangguan makan lain.",
+      "tags": [
+        "Eating disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_08"
+      ],
+      "source_file": "anoreksia dan bulimia.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_08_flashcard_05",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Tapi lebih?",
+      "back": "Tapi lebih merupakan.",
+      "tags": [
+        "Eating disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_08"
+      ],
+      "source_file": "anoreksia dan bulimia.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_09_flashcard_01",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Delirium?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Delirium. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Delirium",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_09"
+      ],
+      "source_file": "delerium FKIK UNJA (1).docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_09_flashcard_02",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Tempat/Tgl lahir?",
+      "back": "Tempat/Tgl lahir: Medan, 16 juni 1977.",
+      "tags": [
+        "Delirium",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_09"
+      ],
+      "source_file": "delerium FKIK UNJA (1).docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_09_flashcard_03",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Gambaran Klinik?",
+      "back": "Gambaran Klinik (lanj).",
+      "tags": [
+        "Delirium",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_09"
+      ],
+      "source_file": "delerium FKIK UNJA (1).docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_09_flashcard_04",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Ggn kesadaran?",
+      "back": "Ggn kesadaran (clouding of consciousness).",
+      "tags": [
+        "Delirium",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_09"
+      ],
+      "source_file": "delerium FKIK UNJA (1).docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_09_flashcard_05",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Ggn orientasi?",
+      "back": "Ggn orientasi: mula2 terjadi disorientasi waktu.",
+      "tags": [
+        "Delirium",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_09"
+      ],
+      "source_file": "delerium FKIK UNJA (1).docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_10_flashcard_01",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Amnesia Pasca Trauma (Post-Traumatic Amnesia/PTA)?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Amnesia Pasca Trauma (Post-Traumatic Amnesia/PTA). Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Neurotrauma",
+        "Cognitive disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_10"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_10_flashcard_02",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari neurotrauma?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Amnesia Pasca Trauma (Post-Traumatic Amnesia/PTA). Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Neurotrauma",
+        "Cognitive disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_10"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_10_flashcard_03",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari cognitive disorder?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Amnesia Pasca Trauma (Post-Traumatic Amnesia/PTA). Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Neurotrauma",
+        "Cognitive disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_10"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_10_flashcard_04",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Amnesia Lakunar?",
+      "back": "Amnesia Lakunar (tidak bisa mengingat suatu kejadian tertentu).",
+      "tags": [
+        "Neurotrauma",
+        "Cognitive disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_10"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_10_flashcard_05",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Trauma kepala adalah?",
+      "back": "Trauma kepala adalah adalah trauma.",
+      "tags": [
+        "Neurotrauma",
+        "Cognitive disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_10"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_11_flashcard_01",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Gangguan Somatoform?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Gangguan Somatoform. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Somatoform",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_11"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Gangguan Somatoform (1).docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_11_flashcard_02",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari somatoform?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Gangguan Somatoform. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Somatoform",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_11"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Gangguan Somatoform (1).docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_11_flashcard_03",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Berdasarkan PPDGJ III?",
+      "back": "Berdasarkan PPDGJ III: .",
+      "tags": [
+        "Somatoform",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_11"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Gangguan Somatoform (1).docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_11_flashcard_04",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Hipokondriasis?",
+      "back": "Hipokondriasis (hypochondriasis).",
+      "tags": [
+        "Somatoform",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_11"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Gangguan Somatoform (1).docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_11_flashcard_05",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Body Dysmorphic Disorder?",
+      "back": "Body Dysmorphic Disorder (BDD).",
+      "tags": [
+        "Somatoform",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_11"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Gangguan Somatoform (1).docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_12_flashcard_01",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Isu Etik dan Legal dalam Kesehatan Jiwa?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Isu Etik dan Legal dalam Kesehatan Jiwa. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Ethics",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_12"
+      ],
+      "source_file": "legal-etik-jiwa.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_12_flashcard_02",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari ethics?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Isu Etik dan Legal dalam Kesehatan Jiwa. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Ethics",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_12"
+      ],
+      "source_file": "legal-etik-jiwa.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_12_flashcard_03",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari kedokteran, mempunyai hak?",
+      "back": "Kedokteran, mempunyai hak: .",
+      "tags": [
+        "Ethics",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_12"
+      ],
+      "source_file": "legal-etik-jiwa.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_12_flashcard_04",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Batasan ruang gerak?",
+      "back": "Batasan ruang gerak (kamar isolasi).",
+      "tags": [
+        "Ethics",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_12"
+      ],
+      "source_file": "legal-etik-jiwa.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_13_flashcard_01",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Perilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Perilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Psychiatry basics",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_13"
+      ],
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_13_flashcard_02",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari psychiatry basics?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Perilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Psychiatry basics",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_13"
+      ],
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_13_flashcard_03",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Dapat digunakan pertanyaan-pertanyaan, seperti?",
+      "back": "Dapat digunakan pertanyaan-pertanyaan, seperti: .",
+      "tags": [
+        "Psychiatry basics",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_13"
+      ],
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_13_flashcard_04",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Respon terapis bisa berupa?",
+      "back": "Respon terapis bisa berupa: .",
+      "tags": [
+        "Psychiatry basics",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_13"
+      ],
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_13_flashcard_05",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Teknik pertanyaan terbuka?",
+      "back": "Teknik pertanyaan terbuka (open-ended questions) di awal wawancara akan membuat pasien menceritakan masalahnya dengan kata-kata pasien sendiri.",
+      "tags": [
+        "Psychiatry basics",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_13"
+      ],
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_14_flashcard_01",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Gangguan Kepribadian dan Perilaku Masa Dewasa?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Gangguan Kepribadian dan Perilaku Masa Dewasa. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Personality disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_14"
+      ],
+      "source_file": "✅28_4_25 GGN KEPRIBADIAN DAN PERILAKU MASA DEWASA_compressed.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_14_flashcard_02",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari personality disorder?",
+      "back": "Inti yang perlu diingat dari sumber ini adalah: Gangguan Kepribadian dan Perilaku Masa Dewasa. Definisi perlu dibaca bersama bagian materi terkait.",
+      "tags": [
+        "Personality disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_14"
+      ],
+      "source_file": "✅28_4_25 GGN KEPRIBADIAN DAN PERILAKU MASA DEWASA_compressed.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_14_flashcard_03",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Kepribadian?",
+      "back": "Kepribadian (Personality).",
+      "tags": [
+        "Personality disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_14"
+      ],
+      "source_file": "✅28_4_25 GGN KEPRIBADIAN DAN PERILAKU MASA DEWASA_compressed.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_14_flashcard_04",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Jadi kepribadian?",
+      "back": "Jadi kepribadian adalah aspek internal dan eksternal dari karakter seseorang yg bersifat unik, relatif menetap, yg mempengaruhi perilaku dalam situasi2 berbeda.",
+      "tags": [
+        "Personality disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_14"
+      ],
+      "source_file": "✅28_4_25 GGN KEPRIBADIAN DAN PERILAKU MASA DEWASA_compressed.docx",
+      "confidence": "source_derived"
+    },
+    {
+      "id": "batch_2_6f_14_flashcard_05",
+      "domain": "psychiatry_6f",
+      "front": "Apa inti utama dari Ggn kepribadian?",
+      "back": "Ggn kepribadian adalah suatu proses perkembangan yg terus menerus yg timbul pd masa kanak dan remaja dan berlanjut pada masa dewasa.",
+      "tags": [
+        "Personality disorder",
+        "Batch_2_6f"
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_14"
+      ],
+      "source_file": "✅28_4_25 GGN KEPRIBADIAN DAN PERILAKU MASA DEWASA_compressed.docx",
+      "confidence": "source_derived"
+    }
+  ]
+}

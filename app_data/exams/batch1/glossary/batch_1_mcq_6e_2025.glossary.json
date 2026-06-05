@@ -1,0 +1,394 @@
+{
+  "terms": [
+    {
+      "id": "term_lcs",
+      "term": "LCS / Liquor cerebrospinalis",
+      "domain": "neurology",
+      "definition": "Cairan serebrospinal yang mengisi ruang subarachnoid dan ventrikel; dianalisis pada kecurigaan infeksi, perdarahan, atau kondisi neurologis tertentu."
+    },
+    {
+      "id": "term_lumbal_pungsi",
+      "term": "Lumbal pungsi",
+      "domain": "neurology",
+      "definition": "Prosedur mengambil LCS melalui ruang intervertebral lumbal; perlu memperhatikan kontraindikasi seperti tanda herniasi otak atau infeksi di lokasi tusukan."
+    },
+    {
+      "id": "term_herniasi_otak",
+      "term": "Herniasi otak",
+      "domain": "neurology",
+      "definition": "Perpindahan jaringan otak akibat peningkatan tekanan intrakranial; merupakan kondisi gawat dan kontraindikasi penting sebelum lumbal pungsi."
+    },
+    {
+      "id": "term_opening_pressure",
+      "term": "Opening pressure",
+      "domain": "neurology",
+      "definition": "Tekanan awal LCS saat lumbal pungsi yang dapat membantu menilai peningkatan tekanan intrakranial atau infeksi tertentu."
+    },
+    {
+      "id": "term_meningitis",
+      "term": "Meningitis",
+      "domain": "infection-neurology",
+      "definition": "Inflamasi meningen, biasanya karena infeksi bakteri, virus, jamur, atau etiologi lain."
+    },
+    {
+      "id": "term_ensefalitis_hsv",
+      "term": "Ensefalitis HSV",
+      "domain": "infection-neurology",
+      "definition": "Infeksi jaringan otak oleh herpes simplex virus; sering dipertimbangkan pada ensefalitis akut."
+    },
+    {
+      "id": "term_hiv",
+      "term": "HIV",
+      "domain": "infection",
+      "definition": "Human immunodeficiency virus; status imun pasien memengaruhi spektrum diagnosis infeksi SSP."
+    },
+    {
+      "id": "term_abses_otak",
+      "term": "Abses otak",
+      "domain": "infection-neurology",
+      "definition": "Kumpulan pus fokal di parenkim otak akibat infeksi, biasanya memerlukan antibiotik spektrum luas dan tata laksana sumber infeksi."
+    },
+    {
+      "id": "term_amfoterisin_b",
+      "term": "Amfoterisin B",
+      "domain": "pharmacology",
+      "definition": "Obat antijamur sistemik; bukan antibiotik empiris rutin untuk abses otak bakteri kecuali dicurigai etiologi jamur."
+    },
+    {
+      "id": "term_metronidazole",
+      "term": "Metronidazole",
+      "domain": "pharmacology",
+      "definition": "Antibiotik dengan aktivitas anaerob yang sering dipakai dalam kombinasi untuk infeksi abses tertentu."
+    },
+    {
+      "id": "term_ceftriaxone",
+      "term": "Ceftriaxone",
+      "domain": "pharmacology",
+      "definition": "Sefalosporin generasi ketiga yang sering digunakan pada infeksi bakteri berat termasuk infeksi SSP tertentu."
+    },
+    {
+      "id": "term_kultur_lcs",
+      "term": "Kultur LCS",
+      "domain": "diagnostics",
+      "definition": "Pemeriksaan mikrobiologi LCS untuk mengidentifikasi organisme penyebab dan membantu terapi definitif berdasarkan sensitivitas."
+    },
+    {
+      "id": "term_tekanan_intrakranial",
+      "term": "Tekanan intrakranial meningkat",
+      "domain": "neurology",
+      "definition": "Keadaan meningkatnya tekanan di dalam rongga kranium; dapat menimbulkan nyeri kepala, muntah, dan penurunan kesadaran."
+    },
+    {
+      "id": "term_ct_scan",
+      "term": "CT scan kepala",
+      "domain": "diagnostics",
+      "definition": "Pemeriksaan pencitraan cepat untuk mengevaluasi perdarahan, massa, edema, atau kelainan intrakranial lain."
+    },
+    {
+      "id": "term_neisseria_meningitidis",
+      "term": "Neisseria meningitidis",
+      "domain": "microbiology",
+      "definition": "Bakteri diplokokus Gram-negatif penyebab meningitis meningokokus dan meningokoksemia."
+    },
+    {
+      "id": "term_diplokokus_gram_negatif",
+      "term": "Diplokokus Gram-negatif",
+      "domain": "microbiology",
+      "definition": "Bakteri berbentuk kokus berpasangan yang tidak mempertahankan pewarnaan Gram; contoh penting adalah Neisseria."
+    },
+    {
+      "id": "term_clostridium_tetani",
+      "term": "Clostridium tetani",
+      "domain": "microbiology",
+      "definition": "Basil Gram-positif anaerob pembentuk spora yang banyak ditemukan di tanah dan dapat menyebabkan tetanus."
+    },
+    {
+      "id": "term_tetanospasmin",
+      "term": "Tetanospasmin",
+      "domain": "microbiology",
+      "definition": "Neurotoksin utama Clostridium tetani yang menyebabkan spasme otot dan manifestasi tetanus."
+    },
+    {
+      "id": "term_cerebellum",
+      "term": "Cerebellum",
+      "domain": "neuroanatomy",
+      "definition": "Bagian otak yang berperan dalam koordinasi gerak, keseimbangan, dan ketepatan motorik."
+    },
+    {
+      "id": "term_disartria",
+      "term": "Disartria",
+      "domain": "neurology",
+      "definition": "Gangguan artikulasi bicara akibat gangguan motorik, dapat timbul pada lesi cerebellum atau jalur motorik."
+    },
+    {
+      "id": "term_korteks_serebri",
+      "term": "Korteks serebri",
+      "domain": "neuroanatomy",
+      "definition": "Lapisan luar hemisfer serebri yang berperan pada fungsi sensorik, motorik, kognitif, bahasa, dan kesadaran."
+    },
+    {
+      "id": "term_kesadaran",
+      "term": "Kesadaran",
+      "domain": "neurophysiology",
+      "definition": "Keadaan sadar melibatkan arousal dan awareness yang bergantung pada jaringan batang otak, thalamus, dan korteks."
+    },
+    {
+      "id": "term_ensefalopati_hipoksia",
+      "term": "Ensefalopati hipoksia",
+      "domain": "neurology",
+      "definition": "Disfungsi otak akibat kekurangan oksigen; dapat terjadi pada paparan karbon monoksida atau hipoksia sistemik."
+    },
+    {
+      "id": "term_karbon_monoksida",
+      "term": "Karbon monoksida",
+      "domain": "toxicology",
+      "definition": "Gas tidak berwarna dan tidak berbau dari pembakaran tidak sempurna; dapat menyebabkan hipoksia jaringan melalui ikatan kuat pada hemoglobin."
+    },
+    {
+      "id": "term_afasia",
+      "term": "Afasia",
+      "domain": "neurology",
+      "definition": "Gangguan bahasa akibat lesi hemisfer dominan, memengaruhi produksi atau pemahaman bahasa."
+    },
+    {
+      "id": "term_ilae_2017",
+      "term": "ILAE 2017",
+      "domain": "epilepsy",
+      "definition": "Klasifikasi International League Against Epilepsy tahun 2017 untuk tipe kejang dan epilepsi."
+    },
+    {
+      "id": "term_generalized_motor_seizure",
+      "term": "Generalized motor seizure",
+      "domain": "epilepsy",
+      "definition": "Kejang onset generalisata dengan manifestasi motorik bilateral sejak awal."
+    },
+    {
+      "id": "term_penyakit_parkinson",
+      "term": "Penyakit Parkinson",
+      "domain": "movement-disorder",
+      "definition": "Gangguan neurodegeneratif dengan bradikinesia, rigiditas, tremor istirahat, dan gangguan postural."
+    },
+    {
+      "id": "term_entacapone",
+      "term": "Entacapone",
+      "domain": "pharmacology",
+      "definition": "Inhibitor COMT yang memperpanjang efek levodopa pada terapi Parkinson."
+    },
+    {
+      "id": "term_levodopa",
+      "term": "Levodopa",
+      "domain": "pharmacology",
+      "definition": "Prekursor dopamin yang menjadi terapi utama simptomatik penyakit Parkinson."
+    },
+    {
+      "id": "term_pramipexole",
+      "term": "Pramipexole",
+      "domain": "pharmacology",
+      "definition": "Agonis dopamin yang dapat digunakan pada penyakit Parkinson, terutama pada pasien tertentu sesuai pertimbangan klinis."
+    },
+    {
+      "id": "term_migren",
+      "term": "Migren",
+      "domain": "headache",
+      "definition": "Nyeri kepala primer berulang, sering unilateral dan berdenyut, dapat disertai mual, fotofobia, fonofobia, atau aura."
+    },
+    {
+      "id": "term_propranolol",
+      "term": "Propranolol",
+      "domain": "pharmacology",
+      "definition": "Beta blocker yang dapat digunakan sebagai profilaksis migren."
+    },
+    {
+      "id": "term_sumatriptan",
+      "term": "Sumatriptan",
+      "domain": "pharmacology",
+      "definition": "Agonis reseptor serotonin 5-HT1B/1D yang digunakan untuk terapi abortif serangan migren."
+    },
+    {
+      "id": "term_aura",
+      "term": "Aura",
+      "domain": "headache",
+      "definition": "Gejala neurologis sementara sebelum atau selama migren, misalnya visual, sensorik, atau bahasa."
+    },
+    {
+      "id": "term_bppv",
+      "term": "BPPV",
+      "domain": "vestibular",
+      "definition": "Benign paroxysmal positional vertigo; vertigo singkat yang dipicu perubahan posisi kepala akibat gangguan otokonia."
+    },
+    {
+      "id": "term_meniere",
+      "term": "Meniere disease",
+      "domain": "vestibular",
+      "definition": "Gangguan telinga dalam dengan vertigo episodik, tinnitus, rasa penuh telinga, dan penurunan pendengaran fluktuatif."
+    },
+    {
+      "id": "term_myoclonic_seizure",
+      "term": "Myoclonic seizure",
+      "domain": "epilepsy",
+      "definition": "Kejang berupa sentakan otot singkat dan mendadak yang dapat menyebabkan benda terlepas dari tangan."
+    },
+    {
+      "id": "term_meningioma",
+      "term": "Meningioma",
+      "domain": "neuro-oncology",
+      "definition": "Tumor yang berasal dari sel arachnoid cap/meninges; umumnya ekstra-aksial."
+    },
+    {
+      "id": "term_tumor_intrakranial",
+      "term": "Tumor intrakranial",
+      "domain": "neuro-oncology",
+      "definition": "Neoplasma di dalam rongga kranium, dapat intra-aksial atau ekstra-aksial."
+    },
+    {
+      "id": "term_nyeri_kepala",
+      "term": "Nyeri kepala",
+      "domain": "headache",
+      "definition": "Keluhan nyeri di kepala/leher yang dapat berasal dari struktur peka nyeri intrakranial maupun ekstrakranial."
+    },
+    {
+      "id": "term_agnosia",
+      "term": "Agnosia",
+      "domain": "neurology",
+      "definition": "Gangguan mengenali objek, suara, atau stimulus meskipun fungsi sensorik primer relatif baik."
+    },
+    {
+      "id": "term_perdarahan_subarachnoid",
+      "term": "Perdarahan subarachnoid",
+      "domain": "stroke-neuroimaging",
+      "definition": "Perdarahan di ruang subarachnoid, sering tampak mengikuti sulkus/fisura pada CT kepala."
+    },
+    {
+      "id": "term_hematoma_epidural",
+      "term": "Hematoma epidural",
+      "domain": "trauma-neuroimaging",
+      "definition": "Perdarahan antara tengkorak dan dura; pada CT sering tampak lentiform/bikonveks."
+    },
+    {
+      "id": "term_radikulopati",
+      "term": "Radikulopati",
+      "domain": "neurology",
+      "definition": "Gangguan akar saraf yang menimbulkan nyeri menjalar sesuai dermatom, parestesia, atau kelemahan."
+    },
+    {
+      "id": "term_eeg",
+      "term": "EEG",
+      "domain": "diagnostics",
+      "definition": "Electroencephalography; pemeriksaan aktivitas listrik otak, penting dalam evaluasi kejang/epilepsi."
+    },
+    {
+      "id": "term_kejang",
+      "term": "Kejang",
+      "domain": "epilepsy",
+      "definition": "Manifestasi klinis akibat aktivitas listrik neuron yang abnormal dan berlebihan."
+    },
+    {
+      "id": "term_tes_romberg",
+      "term": "Tes Romberg",
+      "domain": "neurological-exam",
+      "definition": "Pemeriksaan keseimbangan dengan kaki rapat dan mata terbuka/tertutup untuk menilai propriosepsi dan kontrol postural."
+    },
+    {
+      "id": "term_vertigo_sentral",
+      "term": "Vertigo sentral",
+      "domain": "vestibular",
+      "definition": "Vertigo akibat lesi pada sistem vestibular sentral, misalnya batang otak atau cerebellum."
+    },
+    {
+      "id": "term_medulla_spinalis",
+      "term": "Medulla spinalis",
+      "domain": "neuroanatomy",
+      "definition": "Struktur SSP di kanalis vertebralis yang menghantarkan jalur motorik, sensorik, dan otonom."
+    },
+    {
+      "id": "term_myasthenia_gravis",
+      "term": "Myasthenia gravis",
+      "domain": "neuromuscular",
+      "definition": "Penyakit autoimun neuromuscular junction dengan kelemahan fluktuatif, sering mengenai otot okular."
+    },
+    {
+      "id": "term_reseptor_asetilkolin",
+      "term": "Reseptor asetilkolin",
+      "domain": "neuromuscular",
+      "definition": "Reseptor postsinaptik pada neuromuscular junction yang menjadi target antibodi pada banyak kasus myasthenia gravis."
+    },
+    {
+      "id": "term_neuromuscular_junction",
+      "term": "Neuromuscular junction",
+      "domain": "neuromuscular",
+      "definition": "Sinaps antara saraf motorik dan serabut otot tempat transmisi asetilkolin memicu kontraksi otot."
+    },
+    {
+      "id": "term_antihistamin",
+      "term": "Antihistamin",
+      "domain": "pharmacology",
+      "definition": "Kelompok obat yang dapat digunakan sebagai vestibular suppressant atau antiemetik pada beberapa keluhan vertigo."
+    },
+    {
+      "id": "term_betahistine",
+      "term": "Betahistine",
+      "domain": "pharmacology",
+      "definition": "Analog histamin yang sering digunakan pada vertigo, terutama dalam konteks penyakit Meniere di banyak praktik klinis."
+    },
+    {
+      "id": "term_defisit_kontralateral",
+      "term": "Defisit kontralateral",
+      "domain": "neurology",
+      "definition": "Defisit neurologis pada sisi tubuh berlawanan dengan sisi lesi, khas jalur motorik supranuklear tertentu."
+    },
+    {
+      "id": "term_lesi_desak_ruang",
+      "term": "Lesi desak ruang",
+      "domain": "neurology",
+      "definition": "Lesi intrakranial yang menimbulkan efek massa, peningkatan tekanan, atau penekanan struktur otak."
+    },
+    {
+      "id": "term_trauma_kepala",
+      "term": "Trauma kepala",
+      "domain": "trauma",
+      "definition": "Cedera pada kepala yang dapat menyebabkan fraktur, perdarahan intrakranial, kontusio, atau penurunan kesadaran."
+    },
+    {
+      "id": "term_ptosis",
+      "term": "Ptosis",
+      "domain": "neurology",
+      "definition": "Kelopak mata atas turun; dapat ditemukan pada gangguan neuromuscular junction atau saraf okulomotor."
+    },
+    {
+      "id": "term_tia",
+      "term": "TIA",
+      "domain": "stroke",
+      "definition": "Transient ischemic attack; defisit neurologis sementara akibat iskemia tanpa infark menetap."
+    },
+    {
+      "id": "term_rind",
+      "term": "RIND",
+      "domain": "stroke",
+      "definition": "Reversible ischemic neurologic deficit; istilah lama untuk defisit iskemik yang reversibel dalam periode lebih lama daripada TIA klasik."
+    },
+    {
+      "id": "term_emboli_serebri",
+      "term": "Emboli cerebri",
+      "domain": "stroke",
+      "definition": "Sumbatan pembuluh darah otak akibat embolus, sering berasal dari jantung pada kondisi aritmia tertentu."
+    },
+    {
+      "id": "term_distonia",
+      "term": "Distonia",
+      "domain": "movement-disorder",
+      "definition": "Gangguan gerak dengan kontraksi otot berkelanjutan atau intermiten yang menyebabkan postur/meliuk abnormal."
+    },
+    {
+      "id": "term_umn",
+      "term": "Lesi UMN",
+      "domain": "neurology",
+      "definition": "Lesi upper motor neuron yang dapat menyebabkan spastisitas, hiperrefleksia, dan refleks patologis."
+    },
+    {
+      "id": "term_refleks_patologis",
+      "term": "Refleks patologis",
+      "domain": "neurological-exam",
+      "definition": "Refleks yang tidak normal pada dewasa, misalnya Babinski, yang dapat menunjukkan lesi upper motor neuron."
+    }
+  ]
+}

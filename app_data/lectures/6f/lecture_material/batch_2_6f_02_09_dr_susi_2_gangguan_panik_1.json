@@ -1,0 +1,777 @@
+{
+  "id": "batch_2_6f_02",
+  "block": "5f",
+  "title": "Gangguan Panik",
+  "subtitle": "Batch 2 / 6F panic disorder.",
+  "source_pdf": "source_docs/6F/09 dr.Susi - 2. Gangguan Panik (1).docx",
+  "source_format": "Docx",
+  "source_filename": "09 dr.Susi - 2. Gangguan Panik (1).docx.",
+  "document_index": 2,
+  "summary": [
+    "PENDAHULUAN.",
+    "DEFINISI.",
+    "EPIDEMIOLOGI.",
+    "Serangan panik merupakan ketakutan akan timbulnya serangan serta diyakini akan segera terjadi.",
+    "Panik ditandai, takut yang hebat, agorafobia.",
+    "Disertai gejala otonomik yang kuat, terutama pada sistem kardiovaskular dan pernapasan."
+  ],
+  "exam_focus": [
+    "Panik ditandai, takut yang hebat, agorafobia.",
+    "Disertai gejala otonomik yang kuat, terutama pada sistem kardiovaskular dan pernapasan.",
+    "Kemampuan menegakkan diagnosis secara tepat akan mempertajam target terapi dan membantu meningkatkan kualitas hidup pasien.",
+    "Adanya keadaan yang relatif bebas gejala ansietas dalam periode antara.",
+    "Psikoterapi utama yang direkomendasikan untuk penanganan gangguan panik adalah Cognitive Behavioura….",
+    "CBT digunakan untuk mengatasi pikiran-pikiran disfungsional mengenai gejala fisik yang dialami dan sekaligus mengatasi perilaku menghindar yang dialami oleh pasien.",
+    ".Tujuan dari CBT adalah membantu pasien untuk menghadapi gejala-gejala kecemasan tanpa mengalami serangan panik.",
+    "Tujuan utama penatalaksanaan adalah untuk menurunkan intensitas, frekuensi, dan durasi serangan panik; mengurangi perilaku menghindar, mencegah relapse, dan memperbaiki kualitas hidup."
+  ],
+  "sections": [
+    {
+      "id": "batch_2_6f_02_s01",
+      "title": "PENDAHULUAN",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Istilah “panik” berasal dari kata Pan, dewa yunani yang setengah hantu, tinggal dipegunungan dan hutan, serta perilakunya sangat sulit diduga.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 3
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tahun 1895 deskripsi gangguan panik pertama kali dikemukakan oleh Sigmund Freud dalam kasus agorafobia.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 4
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Serangan panik merupakan ketakutan akan timbulnya serangan serta diyakini akan segera terjadi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 5
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 2
+      },
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "visual_refs": [
+        "Batch_2_6f_02_visual_concept_map"
+      ],
+      "glossary_refs": [
+        "Term_gangguan_panik",
+        "Term_panic_disorder",
+        "Term_serangan_panik",
+        "Term_psikoterapi_utama_yang_direkomendasikan_untuk_pena",
+        "Term_tujuan_utama_penatalaksanaan",
+        "Term_walaupun_gangguan_panik"
+      ],
+      "quiz_refs": [
+        "Batch_2_6f_02_quiz_01",
+        "Batch_2_6f_02_quiz_02",
+        "Batch_2_6f_02_quiz_03"
+      ]
+    },
+    {
+      "id": "batch_2_6f_02_s02",
+      "title": "DEFINISI",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "✘ Gangguan",
+              "✘",
+              "Terdiri dari rasa",
+              "✘",
+              "Sering disertai"
+            ],
+            [
+              "Panik ditandai",
+              "Takut yang hebat,",
+              "Agorafobia"
+            ],
+            [
+              "Dengan",
+              "Jumlah serangan",
+              "(rasa takut dit4"
+            ],
+            [
+              "Adanya",
+              "Bervariasi. Mulai",
+              "Umum),"
+            ],
+            [
+              "Serangan",
+              "Dari sepanjang",
+              "Terutama di t4"
+            ],
+            [
+              "Panik yang",
+              "Hari sampai paling",
+              "Yang sulit"
+            ],
+            [
+              "Tidak diduga",
+              "Sedikit serangan",
+              "Untuk keluar"
+            ],
+            [
+              "Dan spontan",
+              "Selama satu tahun.",
+              "Dengan cepat saat terjadi."
+            ],
+            [
+              "Serangan"
+            ],
+            [
+              "Panik."
+            ]
+          ],
+          "provenance": {
+            "source_kind": "Docx_table",
+            "table_index": 8
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 7
+      },
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "glossary_refs": [
+        "Term_gangguan_panik",
+        "Term_panic_disorder",
+        "Term_serangan_panik",
+        "Term_psikoterapi_utama_yang_direkomendasikan_untuk_pena",
+        "Term_tujuan_utama_penatalaksanaan",
+        "Term_walaupun_gangguan_panik"
+      ]
+    },
+    {
+      "id": "batch_2_6f_02_s03",
+      "title": "EPIDEMIOLOGI",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "OPrevalensi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 11
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Seumur hidup.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 12
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "1, 5%-5%.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 13
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Untuk serangan panik 3-5, 6%. Laki2: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 14
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perempuan=.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 15
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "1: 2-3.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 16
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 10
+      },
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "glossary_refs": [
+        "Term_gangguan_panik",
+        "Term_panic_disorder",
+        "Term_serangan_panik",
+        "Term_psikoterapi_utama_yang_direkomendasikan_untuk_pena",
+        "Term_tujuan_utama_penatalaksanaan",
+        "Term_walaupun_gangguan_panik"
+      ]
+    },
+    {
+      "id": "batch_2_6f_02_s04",
+      "title": "ETIOLOGI",
+      "kind": "Reading",
+      "content": [],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 18
+      },
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "glossary_refs": [
+        "Term_gangguan_panik",
+        "Term_panic_disorder",
+        "Term_serangan_panik",
+        "Term_psikoterapi_utama_yang_direkomendasikan_untuk_pena",
+        "Term_tujuan_utama_penatalaksanaan",
+        "Term_walaupun_gangguan_panik"
+      ]
+    },
+    {
+      "id": "batch_2_6f_02_s05",
+      "title": "TANDA dan GEJALA",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Serangan panik yang berulang, terjadi secara spontan dan tidak terduga. Disertai gejala otonomik yang kuat, terutama pada sistem kardiovaskular dan pernapasan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 21
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Serangan sering dimulai selama 10 menit dan meningkat secara cepat.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 22
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pasien bisa merasa bingung dan sulit konsentrasi, takikardi, palpitasi, berkeringat, rasa takut yang hebat akan ancaman kematian atau bencana.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 23
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kesulitan bicara seperti gagap dan gangguan memori.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 24
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 20
+      },
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "glossary_refs": [
+        "Term_gangguan_panik",
+        "Term_panic_disorder",
+        "Term_serangan_panik",
+        "Term_psikoterapi_utama_yang_direkomendasikan_untuk_pena",
+        "Term_tujuan_utama_penatalaksanaan",
+        "Term_walaupun_gangguan_panik"
+      ]
+    },
+    {
+      "id": "batch_2_6f_02_s06",
+      "title": "Gambar",
+      "kind": "Reading",
+      "content": [],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 26
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_02_s07",
+      "title": "KOMORBIDITAS",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Sekitar 80-90% Gangguan panik ada bersamaan dengan gangguan jiwa lain, seperti GAM dan gangguan panik atau Gangguan panik dan depresi mayor, OCD, sosial fobia.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 29
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Juga bisa dengan problem medis lain seperti Asma, COPD, IBS, HT, Disfungsi tiroid (hipo/hiper) dll serta Gangguan terkait zat.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 30
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ibu hamil dengan gangguan panik, sering mengalami.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 31
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kondisi bayi dengan BBLR.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 32
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kemampuan menegakkan diagnosis secara tepat akan mempertajam target terapi dan membantu meningkatkan kualitas hidup pasien.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 33
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "“Agorafobia: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 35
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Merasa tidak nyaman ditempat atau situasi yang akan sulit atau memalukan jika meloloskan diri, atau pertolongan mungkin tidak akan diperoleh, seperti: .",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 36
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Berada di dalam kerumunan atau antrian, berada ditempat umum, berada seorang diri jauh dari rumah, bepergian dengan bis, kereta api, atau mobil atau dalam suasana lain seperti lift.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 37
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pada keadaan2 yang.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 39
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 28
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_02_s08",
+      "title": "KRITERIA DIAGNOSTIK",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Adanya keadaan yang relatif bebas gejala ansietas dalam periode antara.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 42
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 40
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_02_s09",
+      "title": "Sebenarnya secara obyektif tidak ada bahaya.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "01 02.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 44
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Serangan-.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 45
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Serangan panik.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 46
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 43
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_02_s10",
+      "title": "FARMAKOLOGI",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "SSRI/ SNRI Trisiklik Tetrasiklik Benzodiazepin.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 51
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 50
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_02_s11",
+      "title": "PSIKOTERAPI",
+      "kind": "Reading",
+      "content": [],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 53
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_02_s12",
+      "title": "Psikoterapi utama yang direkomendasikan untuk penanganan gangguan panik adalah Cognitive Behavioura….",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "CBT digunakan untuk mengatasi pikiran-pikiran disfungsional mengenai gejala fisik yang dialami dan sekaligus mengatasi perilaku menghindar yang dialami oleh pasien.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 56
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": ".Tujuan dari CBT adalah membantu pasien untuk menghadapi gejala-gejala kecemasan tanpa mengalami serangan panik. CBT juga bertujuan mengubah pikiran disfungsional mengenai kecemasan menjadi pikiran bahwa kecemasan adalah respon normal ketika menghadapi ketidakpastian.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 57
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "“.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 59
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tujuan utama penatalaksanaan adalah untuk menurunkan intensitas, frekuensi, dan durasi serangan panik; mengurangi perilaku menghindar, mencegah relapse, dan memperbaiki kualitas hidup.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 60
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 55
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_02_s13",
+      "title": "Walaupun gangguan panik merupakan penyakit kronis, namun prognosis ini baik.",
+      "kind": "Reading",
+      "content": [],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 63
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_02_high_yield",
+      "title": "High-yield / titik ujian dari sumber.",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Panik ditandai, takut yang hebat, agorafobia."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Disertai gejala otonomik yang kuat, terutama pada sistem kardiovaskular dan pernapasan."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Kemampuan menegakkan diagnosis secara tepat akan mempertajam target terapi dan membantu meningkatkan kualitas hidup pasien."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Adanya keadaan yang relatif bebas gejala ansietas dalam periode antara."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Psikoterapi utama yang direkomendasikan untuk penanganan gangguan panik adalah Cognitive Behavioura…."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "CBT digunakan untuk mengatasi pikiran-pikiran disfungsional mengenai gejala fisik yang dialami dan sekaligus mengatasi perilaku menghindar yang dialami oleh pasien."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": ".Tujuan dari CBT adalah membantu pasien untuk menghadapi gejala-gejala kecemasan tanpa mengalami serangan panik."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Tujuan utama penatalaksanaan adalah untuk menurunkan intensitas, frekuensi, dan durasi serangan panik; mengurangi perilaku menghindar, mencegah relapse, dan memperbaiki kualitas hidup."
+        }
+      ],
+      "recommended_pages": [
+        11,
+        22
+      ],
+      "provenance": {
+        "source_file": "09 dr.Susi - 2. Gangguan Panik (1).docx",
+        "derivation": "Source_keyword_extraction"
+      }
+    },
+    {
+      "id": "batch_2_6f_02_summary",
+      "title": "Ringkasan cepat",
+      "kind": "Summary",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "PENDAHULUAN.",
+              "children": []
+            },
+            {
+              "text": "DEFINISI.",
+              "children": []
+            },
+            {
+              "text": "EPIDEMIOLOGI.",
+              "children": []
+            },
+            {
+              "text": "Serangan panik merupakan ketakutan akan timbulnya serangan serta diyakini akan segera terjadi.",
+              "children": []
+            },
+            {
+              "text": "Panik ditandai, takut yang hebat, agorafobia.",
+              "children": []
+            },
+            {
+              "text": "Disertai gejala otonomik yang kuat, terutama pada sistem kardiovaskular dan pernapasan.",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "recommended_pages": [
+        15,
+        22
+      ],
+      "provenance": {
+        "source_file": "09 dr.Susi - 2. Gangguan Panik (1).docx",
+        "derivation": "Source_derived_summary"
+      }
+    },
+    {
+      "id": "batch_2_6f_02_bilingual_simplified",
+      "title": "Penjelasan sederhana bilingual",
+      "kind": "Bilingual",
+      "content": [
+        {
+          "type": "Bilingual_simplification",
+          "language": "Id-en",
+          "simple_indonesian": "Secara sederhana, topik ini membahas Gangguan Panik. Fokuskan belajar pada definisi, gambaran klinis, pemeriksaan/diagnosis bila ada, dan penatalaksanaan yang tertulis dalam materi dosen.",
+          "english_bridge": "In simple terms, this source is a structured learning page for Gangguan Panik. Review definitions, clinical features, assessment/diagnosis when available, and management points from the lecturer material.",
+          "confidence": "high_for_scope_low_for_unsourced_extra_claims"
+        }
+      ],
+      "recommended_pages": [
+        16
+      ],
+      "provenance": {
+        "source_file": "09 dr.Susi - 2. Gangguan Panik (1).docx",
+        "derivation": "App_shell_simplification"
+      }
+    },
+    {
+      "id": "batch_2_6f_02_visual_plan",
+      "title": "Gangguan Panik",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Image_plan",
+          "visual_id": "Batch_2_6f_02_visual_concept_map",
+          "title": "Concept map: Gangguan Panik.",
+          "caption": "Visual ringkas berbasis struktur materi dosen dari 09 dr.Susi - 2. Gangguan Panik (1).docx.",
+          "recommended_pages": [
+            12,
+            13
+          ],
+          "source_file": "09 dr.Susi - 2. Gangguan Panik (1).docx"
+        },
+        {
+          "type": "Image_plan",
+          "visual_id": "Batch_2_6f_02_source_slide_gallery_placeholder",
+          "title": "Galeri slide sumber: Gangguan Panik.",
+          "caption": "Dokumen mengandung 77 media; perlu clearance sebelum gambar asli dimasukkan.",
+          "recommended_pages": [
+            13,
+            24
+          ],
+          "source_file": "09 dr.Susi - 2. Gangguan Panik (1).docx"
+        }
+      ],
+      "visual_refs": [
+        "Batch_2_6f_02_visual_concept_map",
+        "Batch_2_6f_02_source_slide_gallery_placeholder"
+      ],
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "provenance": {
+        "source_file": "09 dr.Susi - 2. Gangguan Panik (1).docx",
+        "derivation": "Visual_asset_planning"
+      }
+    }
+  ],
+  "related_exam_set_ids": [],
+  "extraction_metadata": {
+    "text_chars": 3253,
+    "media_count": 77,
+    "ocr_used": false,
+    "ocr_slide_count": 0
+  },
+  "app_feature_targets": [
+    3,
+    4,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    20,
+    22,
+    24
+  ],
+  "provenance": {
+    "batch_id": "batch_2_6F",
+    "source_file": "09 dr.Susi - 2. Gangguan Panik (1).docx",
+    "source_path": "Source_docs/6F/09 dr.Susi - 2. Gangguan Panik (1).docx."
+  }
+}

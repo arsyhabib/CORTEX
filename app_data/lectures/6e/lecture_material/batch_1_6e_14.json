@@ -1,0 +1,3497 @@
+{
+  "id": "batch_1_6e_14",
+  "batch_id": "batch_1_6E",
+  "batch_label": "Batch 1 / 6E",
+  "block": "5e",
+  "title": "Parkinson Disease (Aspek Klinis).",
+  "subtitle": "Neurology lecturer-derived structured content; source-preserving extraction.",
+  "source_pdf": "source_docs/6E/Parkinson Disease (Aspek Klinis).docx",
+  "source_docx": "Parkinson Disease (Aspek Klinis).docx",
+  "source_pages": [],
+  "summary": [
+    "Modul Parkinson Disease (Aspek Klinis) disusun ulang sebagai materi terstruktur untuk neurologi batch 1/6e, dengan jejak sumber tetap dipertahankan.",
+    "Fokus inti yang ditarik dari sumber: Aspek Klinis Penyakit Parkinson.",
+    "Fokus inti yang ditarik dari sumber: Outline Presentasi.",
+    "Fokus inti yang ditarik dari sumber: Pendahuluan.",
+    "Contoh pesan inti dari sumber: Aspek Klinis Penyakit Parkinson."
+  ],
+  "exam_focus": [
+    "Klasifikasi Parkinsonism.",
+    "Etiologi: Belum diketahui pasti.",
+    "Secara patologis ditandai dengan degenerasi neuron berpigmen neuromelamin di pars kompakta substansia Nigra yang disertai adanya Lewi bodies.",
+    "Gejala prodormal Gejala utama.",
+    "Degenerasi neuron 1 dekade sebelum gejala kardinal muncul.",
+    "Lelah, letih, gangguan kepribadian sebelum muncul gejala motorik."
+  ],
+  "sections": [
+    {
+      "id": "batch_1_6e_14_s01",
+      "title": "Aspek Klinis Penyakit Parkinson.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "POKDI Movement Disorders PERDOSSI.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 7,
+        "section_end_paragraph": 7
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s02",
+      "title": "Gejala klinis PD",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Stadium PD.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 14,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Penanganan PD.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 15,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 14,
+        "section_end_paragraph": 15
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s03",
+      "title": "James Parkinson 1817 memakai istilah “shaking palsy”.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Penyakit Parkinson (PD): tremor, rigiditas, bradikinesia, ketidakstabilan postur dan gait.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 19,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Salah satu penyebab utama kecacatan di bidang neurologi.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 20,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 19,
+        "section_end_paragraph": 20
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s04",
+      "title": "Etiologi: Belum diketahui pasti.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Toksin MPTP (1metil-4fenil-1, 2, 3, 6 tetrahidropiridin).",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 24,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Di substansia Nigra dan locus coerules.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 26,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Defisiensi kompleks I rantai respirasi mitokondria.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 27,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Penurunan aktivitas Glutathione, Glutathione peroksida.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 28,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 24,
+        "section_end_paragraph": 28
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s05",
+      "title": "Patologi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Berkurangnya sel-sel berpigment di Substansia Nigra dan locus coerules.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 33,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Lewi bodies.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 35,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pathologi.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 37,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Kiri: Sel berpigmen normal substantia nigra.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 39,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Kanan: Sel pigmen pucat pada Pasien PD.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 40,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Potongan Midbrain.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 42,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Kiri: normal.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 43,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Kanan: pucat pada substansia nigra.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 44,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Patologi.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 46,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lewi bodies.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 47,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "H&E stain Imunoperoxidase ubiquitin.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 49,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 33,
+        "section_end_paragraph": 49
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s06",
+      "title": "Pendahuluan",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Insiden.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 52,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Pria: wanita= 3: 2.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 53,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "4, 5-21 / 100.000 penduduk / tahun.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 54,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "1% penduduk usia > 55 tahun.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 55,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "5% pasien young onset PD: usia awitan <40 tahun.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 56,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Penyakit progresif lambat 10-20 tahun.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 57,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 52,
+        "section_end_paragraph": 57
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s07",
+      "title": "Parkinsonism:",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Sindroma klinis yang terdiri dari Tremor, Rigiditas, Akinesia dan Ketidakstabilan postur yang dapat disebabkan oleh berbagai macam penyakit.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 61,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 61,
+        "section_end_paragraph": 61
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s08",
+      "title": "Salah satu jenis parkinsonism yang penyebabnya idiopatik.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Secara patologis ditandai dengan degenerasi neuron berpigmen neuromelamin di pars kompakta substansia Nigra yang disertai adanya Lewi bodies.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 67,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 67,
+        "section_end_paragraph": 67
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s09",
+      "title": "Primer (idiopatik): Penyakit Parkinson.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Sekunder (simptomatik).",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 73,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Drug induced.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 74,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 73,
+        "section_end_paragraph": 74
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s10",
+      "title": "Infeksi (postensefalitis, sifilis)",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Metabolik.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 76,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 76,
+        "section_end_paragraph": 76
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s11",
+      "title": "Struktural (tumor otak, hydrosefalus, trauma).",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Toksin (CO, CS2, CN, Mangan, MPTP).",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 78,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Vaskular (multiinfark).",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 79,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 78,
+        "section_end_paragraph": 79
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s12",
+      "title": "Sindroma Parkinsonism-plus",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Degenerasi kortiko-basal ganglionikl.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 83,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 83,
+        "section_end_paragraph": 83
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s13",
+      "title": "Hemiparkinsonism-hemioatrofi",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Syndroma dementia: Penyakit Alzheimer, Diffuse Lewi body disease.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 85,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Atrofi multipel-system.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 86,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 85,
+        "section_end_paragraph": 86
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s14",
+      "title": "Parkinsonism-dementia-ALS complex of Guam (Lytico-bodig).",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Progressive supranuclear palsy.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 88,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Penyakit herediter degeneratif.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 89,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 88,
+        "section_end_paragraph": 89
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s15",
+      "title": "Gejala prodormal Gejala utama.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Tremor.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 93,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Rigiditas.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 94,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Akinesia.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 95,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Ketidakstabilan postur dan gait.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 96,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 93,
+        "section_end_paragraph": 96
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s16",
+      "title": "Gejala tambahan",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Motorik: freezing, mask face, mikrografia, disfagia.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 98,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Otonom: hiperhidrosis, konstipasi, polakisuria.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 99,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Mental: depresi, demensia.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 100,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Lain-lain: seborea, muka berminyak, dll.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 101,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 98,
+        "section_end_paragraph": 101
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s17",
+      "title": "Gejala Prodormal",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Awitan insidious, umur 50-70 tahun.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 104,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 104,
+        "section_end_paragraph": 104
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s18",
+      "title": "Degenerasi neuron 1 dekade sebelum gejala kardinal muncul.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Tidak khas.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 106,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 106,
+        "section_end_paragraph": 106
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s19",
+      "title": "Lelah, letih, gangguan kepribadian sebelum muncul gejala motorik.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Motorik: kelemahan, gangguan kordinasi ringan.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 108,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "□ “permainan tenis jadi jelek”.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 109,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 108,
+        "section_end_paragraph": 109
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s20",
+      "title": "Gejala Prodormal",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Sering karena kekakuan salah satu tangan pasien berobat ke Ortopedi.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 113,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gejala parkinsonism ringan seperti tremor intermiten pada 1 atau beberapa jari + rigiditas asimetris □ curigai gejala prodormal Parkinson.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 114,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 113,
+        "section_end_paragraph": 114
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s21",
+      "title": "Gejala Utama",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Tremor (T).",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 117,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Rigiditas (R).",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 118,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Akinesia/Bradikinesia (A).",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 119,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Ketidakstabilan postur dan gait (P).",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 120,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 117,
+        "section_end_paragraph": 120
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s22",
+      "title": "Gejala bisa tunggal atau >1, a/simetris, uni/bilateral.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Tremor.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 124,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Dimulai unilateral, bagian distal ekstremitas.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 125,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Timbul saat istirahat, hilang saat beraksi.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 126,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Ritmik “Pill rolling” 3-5 x/menit.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 127,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Bbrp tahun kmd □ ke proksimal □ tungkai.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 128,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "□ sisi kontralateral: wajah, lidah dan dagu (jarang).",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 129,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 124,
+        "section_end_paragraph": 129
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s23",
+      "title": "Rigiditas",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Kekakuan pada otot.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 167,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Pada gerakan pasif: tahanan dari otot seperti lead pipe atau juga cogwheel phenomen.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 168,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Asimetris, dimulai unilateral.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 169,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Bila tungkai terlibat □jalan diseret.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 170,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Dipengaruhi oleh mood, stress, obat.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 171,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 167,
+        "section_end_paragraph": 171
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s24",
+      "title": "Akinesia / Bradikinesia",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Awalnya hipokinesia □ bradikinesia □ akinesia.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 210,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Mikrografia.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 211,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Gangguan motorik sekuensial: pronasi / supinasi, mengancing, mandi, makan, naik tangga.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 212,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Sulit bangun dari kursi, wajah topeng, hipofonia, drooling, sulit jalan.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 213,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 210,
+        "section_end_paragraph": 213
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s25",
+      "title": "Dalam keadaan normal:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Tubuh melakukan koreksi postur secara cepat dan otomatis sebagai penyesuaian thd perubahan posisi tubuh dengan rfx postur dan rfx righting □ keseimbangan terjaga.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 255,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dalam keadaan normal.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 257,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Rfx Postur & Rfx Righting.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 258,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Rfx postur: reaksi otomatis orientasi tubuh thd gaya gravitasi baik saat diam maupun gerak.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 260,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Rfx righting: orientasi tubuh dalam ruang dan hubungan kepala dengan badan.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 261,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Bergantung pada fungsi vestibuloserebellar, impuls proprioseptif, kortek dan kordinasi formasio retikularis bulbar dan mesensefalon.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 262,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Refleks postur dan righting Pasien PD terganggu.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 264,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Ketidakstabilan postur: kurangnya keseimbangan atau perasaan unsteadiness pasien saat berdiri atau berubah posisi badan.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 265,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Sering bersamaan gangguan gait.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 266,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Sulit diatasi dan ditemukan pada stadium lanjut (stadium III keatas Hoehn & Yahr).",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 267,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 255,
+        "section_end_paragraph": 267
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s26",
+      "title": "Ketidakstabilan postur PD",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Awalnya isteri/suami mengamati pasien kesulitan menjaga keseimbangan saat putar badan cepat, kedorong atau kesandung ringan.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 270,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Lanjut: sikap bungkuk, fleksi leher dan trunkal □ titik gravitasi ke depan □ mudah jatuh ke depan (propulsi) atau kebelakang (retropulsi).",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 271,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Pull test: mundur lebih 2 langkah atau jatuh.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 273,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 270,
+        "section_end_paragraph": 273
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s27",
+      "title": "Gangguan gait",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Lenggang tangan unilateral berkurang.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 276,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Langkah kecil-kecil, cepat dan diseret (festinating gait).",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 277,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Freezing (motor en block): berhenti saat akan mulai, sedang jalan atau mendekati tempat sempit atau tempat ramai.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 278,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 276,
+        "section_end_paragraph": 278
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s28",
+      "title": "Diagnosis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Kriteria Klinis Hughes.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 351,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Possible.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 352,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Bila terdapat salah satu gejala TRAP (tremor, rigiditas, akinesia, postur tak stabil).",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 353,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Probable.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 354,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Kombinasi 2 gejala utama (termasuk postur tak stabil) atau 1 dari 3 gejala kardinal yang asimetris.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 355,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Definite.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 356,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Kombinasi 3 dari 4 gejala utama atau 2 gejala dengan satu gejala lain yang asimetris (3 tanda kardinal).",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 357,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 351,
+        "section_end_paragraph": 357
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s29",
+      "title": "Diagnosis Banding",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Tremor.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 360,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hipertiroid, ansietas, kelelahan, alkoholism, obat2an, kelaian serebelar, familial (esensial tremor).",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 361,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 360,
+        "section_end_paragraph": 361
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s30",
+      "title": "Tremor parkinson: muncul saat istirahat, hilang saat beraksi.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Tremor sebab lain: muncul saat beraksi.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 363,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 363,
+        "section_end_paragraph": 363
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s31",
+      "title": "Diagnosis Banding",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Rigiditas.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 366,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Harus dibedakan dengan spastisitas.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 367,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Akinesia.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 369,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Harus dibedakan dari gait apraksia karena normal pressure hydrocephalus (NPH).",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 370,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 366,
+        "section_end_paragraph": 370
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s32",
+      "title": "Stadium PD (Hoehn & Yahr).",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Stadium I.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 373,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Unilateral, ekspresi wajah berkurang, tremor, fleksi dan ayunan lengan berkurang.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 374,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Stadium II.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 375,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Bilateral, postur bungkuk, jalan lambat dengan langkah kecil, sukar balik badan.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 376,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Stadium III.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 377,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Gangguan jalan menonjol, postur tak stabil tapi jarang jatuh.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 378,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 373,
+        "section_end_paragraph": 378
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s33",
+      "title": "Stadium PD (Hoehn & Yahr).",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Stadium IV.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 381,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Disabilitas jelas.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 382,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Berjalan terbatas tetapi tanpa bantuan.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 383,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Cenderung jatuh.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 384,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Stadium V.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 386,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Hanya berbaring atau duduk di kursi.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 387,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Tidak mampu berdiri/ jalan walau dibantu.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 388,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Bicara tak jelas, wajah tanpa ekspresi, jarang kedip.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 389,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 381,
+        "section_end_paragraph": 389
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s34",
+      "title": "Penanganan",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Penanganan Suportif.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 428,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Penerangan pada pasien, dorongan emosi dan konseling profesional hukum, finansial, pekerjaan.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 429,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 428,
+        "section_end_paragraph": 429
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s35",
+      "title": "Terapi rehabilitasi: fisik, okupasi, wicara, psikoterapi,.",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Kelompok support.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 433,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 433,
+        "section_end_paragraph": 433
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s36",
+      "title": "Algoritma Penatalaksanaan Penyakit Parkinson.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Gangguan Fungsional.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 437,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ya Tidak.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 438,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 437,
+        "section_end_paragraph": 438
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s37",
+      "title": "Terapi Neuroprotektif",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Tremor dominan?",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 444,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ya Tidak.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 445,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Usia < 60 tahun Usia > 60 tahun.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 447,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dopamin agonis/ Pramipexole.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 450,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dopamine agonis+levodopa dosis rendah Dosis levodopa optimal.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 451,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Levodopa.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 452,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Respon terhadap pengobatan.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 455,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Baik.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 460,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak respon Wearing off Diskinesia.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 461,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 444,
+        "section_end_paragraph": 461
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s38",
+      "title": "Terapi Medikamentosa",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Masih tetap merupakan pilihan utama.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 466,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Pilihan obat adalah berdasarkan stadium, munculan klinis, usia, profil efek samping obat.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 467,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Dengan terapi yang tepat saat ini + 50% pasien Parkinson dapat hidup tanpa disabilitas yang berat selama 10 tahun.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 468,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 466,
+        "section_end_paragraph": 468
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s39",
+      "title": "Terapi Operatif",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Dipertimbangkan jika terapi medikamentosa tidak memberikan perbaikan yang memuaskan.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 471,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Sebaiknya pasien yang masih muda <50 tahun.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 472,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Masih dapat berjalan tanpa bantuan, berespon terhadap antiparkinson tetapi sering timbul komplikasi pengobatan.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 473,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Fungsi luhur yang masih intak.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 474,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Tidak ada gangguan sistemik yang berat.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 475,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 471,
+        "section_end_paragraph": 475
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s40",
+      "title": "Terapi Operatif",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Jenis tindakan operasi.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 478,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Transplantasi jaringan fetus ke striatum otak.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 480,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Thalamotomy.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 481,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Palidotomy.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 482,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Deep Brain Stimulation.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 483,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 478,
+        "section_end_paragraph": 483
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s41",
+      "title": "Terapi Rehabilitatif",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Sesuai dengan kebutuhan pasien.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "source_paragraph_index": 486,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 486,
+        "section_end_paragraph": 486
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s42",
+      "title": "Kelompok Supportif",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Pasien Parkinson kumpul bersama-sama dan membagi pengalaman mengatasi kesulitan-kesulitan akibat penyakit.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 494,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 494,
+        "section_end_paragraph": 494
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s43",
+      "title": "Gejala prodormal tidak khas dan awitannya perlahan.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Gejala klinis Penyakit Parkinson ditandai dengan TRAP (Tremor, Rigiditas, Akinesia, Ketidakstabilan postur).",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 499,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 499,
+        "section_end_paragraph": 499
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s44",
+      "title": "Kesimpulan",
+      "kind": "Summary",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Ketidakstabilan postur PD biasanya timbul pada stadium lanjut (stadium > III) karena terganggunya refleks postur dan righting.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 503,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Ketidakstabilan postur yang sering diiringi dengan gangguan gait menyebabkan gangguan keseimbangan pada pasien PD.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 504,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 503,
+        "section_end_paragraph": 504
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s45",
+      "title": "Kesimpulan",
+      "kind": "Summary",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Pengenalan dini klinis akan memberikan peluang penatalaksanaan PD yang lebih baik.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 507,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 507,
+        "section_end_paragraph": 507
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s46",
+      "title": "Penatalaksanaan PD bertujuan untuk:",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Terapi simptomatik gejala dan penyulit akibat penyakit atau terapi medikamentosa.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 509,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Memberikan proteksi terhadap sel-sel neuron yang masih tersisa.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 510,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Serta upaya restoratif tersedianya sel-sel neuron baru.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 511,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 509,
+        "section_end_paragraph": 511
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s47",
+      "title": "Kesimpulan",
+      "kind": "Summary",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Kerjasama dan penanganan terpadu multidisiplin akan sangat membantu pasien dalam mempertahankan kualitas hidup yang optimal.",
+              "children": [],
+              "provenance": {
+                "source_document": "Parkinson Disease (Aspek Klinis).docx",
+                "source_paragraph_index": 514,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Parkinson Disease (Aspek Klinis).docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "section_start_paragraph": 514,
+        "section_end_paragraph": 514
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s48",
+      "title": "Embedded visual material requiring downstream asset review.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Visual_asset_note",
+          "text": "Source DOCX contains 29 embedded image(s). Text extraction does not guarantee all visual labels/captions were captured; downstream Codex/asset pipeline should inspect embedded media before final compile.",
+          "embedded_image_count": 29,
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_embedded_review"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "embedded_image_count": 29
+      }
+    },
+    {
+      "id": "batch_1_6e_14_s49",
+      "title": "Penjelasan sederhana / simpler bilingual bridge.",
+      "kind": "Bilingual",
+      "content": [
+        {
+          "type": "Simplified_id",
+          "text": "Versi sederhana: materi ini terutama membahas parkinson disease (aspek klinis) dengan fokus pada konsep klinis, diagnosis, tanda penting, dan tata laksana yang tampak di bahan dosen.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        },
+        {
+          "type": "Simplified_en",
+          "text": "Simple English bridge: this lecture centers on parkinson disease (aspek klinis), emphasizing clinical concepts, diagnosis, key signs, and management points extracted from the lecturer file.",
+          "provenance": {
+            "source_document": "Parkinson Disease (Aspek Klinis).docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_14_01",
+        "Visual_batch_1_6e_14_02",
+        "Visual_batch_1_6e_14_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_14_01",
+        "Quiz_batch_1_6e_14_02",
+        "Quiz_batch_1_6e_14_03"
+      ],
+      "glossary_refs": [
+        "Term_gejala_klinis_penyakit_parkinson",
+        "Term_masih_tetap",
+        "Term_pilihan_obat",
+        "Term_secara_patologis",
+        "Term_1_2_3_disebut_gejala_kardinal",
+        "Term_akinesia_bradikinesia",
+        "Term_aspek_klinis_penyakit_parkinson",
+        "Term_dalam_keadaan_normal"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "generated_section": true
+      }
+    }
+  ],
+  "related_exam_set_ids": [
+    "exam_recall_batch_1_6e_14"
+  ],
+  "provenance": {
+    "source_document": "Parkinson Disease (Aspek Klinis).docx",
+    "manifest_document_id": "batch_1_6e_14",
+    "topic_tags": [
+      "Movement disorder",
+      "Parkinsonism"
+    ],
+    "extraction_method": "python-docx paragraph/table extraction; embedded images counted but not OCRed",
+    "paragraph_count": 224,
+    "table_count": 0,
+    "embedded_image_count": 29
+  }
+}

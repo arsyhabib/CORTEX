@@ -1,0 +1,1210 @@
+{
+  "id": "batch_1_6e_09",
+  "batch_id": "batch_1_6E",
+  "batch_label": "Batch 1 / 6E",
+  "block": "5e",
+  "title": "Manajemen Pensa dan Koma - Koass.",
+  "subtitle": "Neurology lecturer-derived structured content; source-preserving extraction.",
+  "source_pdf": "source_docs/6E/Manajemen Pensa dan Koma - Koass.docx",
+  "source_docx": "Manajemen Pensa dan Koma - Koass.docx",
+  "source_pages": [],
+  "summary": [
+    "Modul Manajemen Pensa dan Koma - Koass disusun ulang sebagai materi terstruktur untuk neurologi batch 1/6e, dengan jejak sumber tetap dipertahankan.",
+    "Fokus inti yang ditarik dari sumber: Manajemen Penurunan Kesadaran & Koma.",
+    "Fokus inti yang ditarik dari sumber: Point View: .",
+    "Fokus inti yang ditarik dari sumber: DEFINISI&PEMBAGIAN.",
+    "Contoh pesan inti dari sumber: Manajemen Penurunan Kesadaran & Koma."
+  ],
+  "exam_focus": [
+    "Definisi dan Pembagian 2.Etiologi Patofisiologi 3.Diagnostik 4.Tatalaksana di IGD."
+  ],
+  "sections": [
+    {
+      "id": "batch_1_6e_09_s01",
+      "title": "Manajemen Penurunan Kesadaran & Koma.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Dr. Sri Noviyanty Yusuf, Sp.N.",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bagian Neurologi.",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "RSUD Raden Mattaher Jambi.",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_09_01",
+        "Visual_batch_1_6e_09_02",
+        "Visual_batch_1_6e_09_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_09_01",
+        "Quiz_batch_1_6e_09_02",
+        "Quiz_batch_1_6e_09_03"
+      ],
+      "glossary_refs": [
+        "Term_dan_pembagian_2_etiologi_patofisiologi_3_diagnostik",
+        "Term_kesadaran",
+        "Term_aras_ascending_reticular_activating_system",
+        "Term_brain_stem_infarction_or_hemorrhage",
+        "Term_cerebral_infarct_with_oedema_and_shift",
+        "Term_definisi_pembagian"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+        "section_start_paragraph": 8,
+        "section_end_paragraph": 11
+      }
+    },
+    {
+      "id": "batch_1_6e_09_s02",
+      "title": "Point View:",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Definisi dan Pembagian 2.Etiologi Patofisiologi 3.Diagnostik 4.Tatalaksana di IGD.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 20,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Manajemen Pensa dan Koma - Koass.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_09_01",
+        "Visual_batch_1_6e_09_02",
+        "Visual_batch_1_6e_09_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_09_01",
+        "Quiz_batch_1_6e_09_02",
+        "Quiz_batch_1_6e_09_03"
+      ],
+      "glossary_refs": [
+        "Term_dan_pembagian_2_etiologi_patofisiologi_3_diagnostik",
+        "Term_kesadaran",
+        "Term_aras_ascending_reticular_activating_system",
+        "Term_brain_stem_infarction_or_hemorrhage",
+        "Term_cerebral_infarct_with_oedema_and_shift",
+        "Term_definisi_pembagian"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+        "section_start_paragraph": 20,
+        "section_end_paragraph": 20
+      }
+    },
+    {
+      "id": "batch_1_6e_09_s03",
+      "title": "GANGGUAN KESADARAN",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Kesadaran adalah: kondisi waspada dengan kesiagaan terus.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 64,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Manajemen Pensa dan Koma - Koass.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Menerus terhadap diri dan lingkungannya.",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 65,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_09_01",
+        "Visual_batch_1_6e_09_02",
+        "Visual_batch_1_6e_09_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_09_01",
+        "Quiz_batch_1_6e_09_02",
+        "Quiz_batch_1_6e_09_03"
+      ],
+      "glossary_refs": [
+        "Term_dan_pembagian_2_etiologi_patofisiologi_3_diagnostik",
+        "Term_kesadaran",
+        "Term_aras_ascending_reticular_activating_system",
+        "Term_brain_stem_infarction_or_hemorrhage",
+        "Term_cerebral_infarct_with_oedema_and_shift",
+        "Term_definisi_pembagian"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+        "section_start_paragraph": 64,
+        "section_end_paragraph": 65
+      }
+    },
+    {
+      "id": "batch_1_6e_09_s04",
+      "title": "Komponen Kesadaran ada 2:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Merupakan integrasi fungsi luhur manusia yang berasal dari berbagai input sensorik untuk dapat menyadari keberadaan diri dan lingkungannya.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 85,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Komponen yang berkaitan dengan suatu jaras multisinaptik yang disebut ARAS (Ascending Reticular Activating System).",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 92,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Manajemen Pensa dan Koma - Koass.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hemisphere.",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 111,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Formatio Reticularis.",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 133,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_09_01",
+        "Visual_batch_1_6e_09_02",
+        "Visual_batch_1_6e_09_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_09_01",
+        "Quiz_batch_1_6e_09_02",
+        "Quiz_batch_1_6e_09_03"
+      ],
+      "glossary_refs": [
+        "Term_dan_pembagian_2_etiologi_patofisiologi_3_diagnostik",
+        "Term_kesadaran",
+        "Term_aras_ascending_reticular_activating_system",
+        "Term_brain_stem_infarction_or_hemorrhage",
+        "Term_cerebral_infarct_with_oedema_and_shift",
+        "Term_definisi_pembagian"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+        "section_start_paragraph": 85,
+        "section_end_paragraph": 133
+      }
+    },
+    {
+      "id": "batch_1_6e_09_s05",
+      "title": "ARAS (Ascending reticular activating system).",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Merupakan suatu rangkaian atau network sistem dari serabut- serabut aferen dalam formatio retikularis (dari kaudal berasal dari medula spinalis menuju rostral yaitu diensefalon melalui brain stem).",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 138,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Manajemen Pensa dan Koma - Koass.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_09_01",
+        "Visual_batch_1_6e_09_02",
+        "Visual_batch_1_6e_09_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_09_01",
+        "Quiz_batch_1_6e_09_02",
+        "Quiz_batch_1_6e_09_03"
+      ],
+      "glossary_refs": [
+        "Term_dan_pembagian_2_etiologi_patofisiologi_3_diagnostik",
+        "Term_kesadaran",
+        "Term_aras_ascending_reticular_activating_system",
+        "Term_brain_stem_infarction_or_hemorrhage",
+        "Term_cerebral_infarct_with_oedema_and_shift",
+        "Term_definisi_pembagian"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+        "section_start_paragraph": 138,
+        "section_end_paragraph": 138
+      }
+    },
+    {
+      "id": "batch_1_6e_09_s06",
+      "title": "Reticular Activating System",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Receives multiple sensory inputs.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 144,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Mediates wakefulness.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 148,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Manajemen Pensa dan Koma - Koass.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Rangsangan (input).",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 171,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lintasan Spesifik aferen.",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 172,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "TALAMUS Non Spesifik (inti Intra Laminares).",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 173,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_09_01",
+        "Visual_batch_1_6e_09_02",
+        "Visual_batch_1_6e_09_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_09_01",
+        "Quiz_batch_1_6e_09_02",
+        "Quiz_batch_1_6e_09_03"
+      ],
+      "glossary_refs": [
+        "Term_dan_pembagian_2_etiologi_patofisiologi_3_diagnostik",
+        "Term_kesadaran",
+        "Term_aras_ascending_reticular_activating_system",
+        "Term_brain_stem_infarction_or_hemorrhage",
+        "Term_cerebral_infarct_with_oedema_and_shift",
+        "Term_definisi_pembagian"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+        "section_start_paragraph": 144,
+        "section_end_paragraph": 173
+      }
+    },
+    {
+      "id": "batch_1_6e_09_s07",
+      "title": "PATOFISIOLOGI",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Input spesifik ฀ impuls protopatik, propioseptif, dan perasaan pancaindera.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 218,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Manajemen Pensa dan Koma - Koass.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "฀ korteks ฀ terwujudlah suatu kesadaran.",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 219,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Contoh: perasaan nyeri di kaki atau di wajah atau suatu penglihatan, penghidu atau pendengaran tertentu.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 220,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Input non-spesifik: terdiri dari serangkaian neuron-neuron di substansia retikularis medula spinalis dan batang otak yang menyalurkan impuls aferen ke talamus, yaitu ke intralaminer ฀ menggalakkan inti untuk memancarkan impuls yang menggiatkan seluruh korteks secara difus dan bilateral.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 225,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Lintasan = diffuse ascending reticular system.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 226,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Manajemen Pensa dan Koma - Koass.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_09_01",
+        "Visual_batch_1_6e_09_02",
+        "Visual_batch_1_6e_09_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_09_01",
+        "Quiz_batch_1_6e_09_02",
+        "Quiz_batch_1_6e_09_03"
+      ],
+      "glossary_refs": [
+        "Term_dan_pembagian_2_etiologi_patofisiologi_3_diagnostik",
+        "Term_kesadaran",
+        "Term_aras_ascending_reticular_activating_system",
+        "Term_brain_stem_infarction_or_hemorrhage",
+        "Term_cerebral_infarct_with_oedema_and_shift",
+        "Term_definisi_pembagian"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+        "section_start_paragraph": 218,
+        "section_end_paragraph": 226
+      }
+    },
+    {
+      "id": "batch_1_6e_09_s08",
+      "title": "KOMA",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Koma: suatu keadaan tidak sadar total terhadap diri sendiri / lingkungan meskipun distimulasi dengan kuat.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 254,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Diantara keadaan sadar dan koma terdapat berbagai variasi keadaan/status gangguan kesadaran.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 256,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Manajemen Pensa dan Koma - Koass.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_09_01",
+        "Visual_batch_1_6e_09_02",
+        "Visual_batch_1_6e_09_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_09_01",
+        "Quiz_batch_1_6e_09_02",
+        "Quiz_batch_1_6e_09_03"
+      ],
+      "glossary_refs": [
+        "Term_dan_pembagian_2_etiologi_patofisiologi_3_diagnostik",
+        "Term_kesadaran",
+        "Term_aras_ascending_reticular_activating_system",
+        "Term_brain_stem_infarction_or_hemorrhage",
+        "Term_cerebral_infarct_with_oedema_and_shift",
+        "Term_definisi_pembagian"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+        "section_start_paragraph": 254,
+        "section_end_paragraph": 256
+      }
+    },
+    {
+      "id": "batch_1_6e_09_s09",
+      "title": "PENILAIAN PENURUNAN KESADARAN",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Spontan.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 262,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Bicara.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 263,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Nyeri.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 264,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "None.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 265,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Ikut Perintah.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 266,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Manajemen Pensa dan Koma - Koass.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "5.Nyeri lokal 4.Menolak 3.Fleksi 2.Ekstensi.",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 267,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "None.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 268,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Orientasi baik.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 269,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Bingung.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 270,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Kata kata.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 271,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Suara.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 272,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "None.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 273,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Manajemen Pensa dan Koma - Koass.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_09_01",
+        "Visual_batch_1_6e_09_02",
+        "Visual_batch_1_6e_09_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_09_01",
+        "Quiz_batch_1_6e_09_02",
+        "Quiz_batch_1_6e_09_03"
+      ],
+      "glossary_refs": [
+        "Term_dan_pembagian_2_etiologi_patofisiologi_3_diagnostik",
+        "Term_kesadaran",
+        "Term_aras_ascending_reticular_activating_system",
+        "Term_brain_stem_infarction_or_hemorrhage",
+        "Term_cerebral_infarct_with_oedema_and_shift",
+        "Term_definisi_pembagian"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+        "section_start_paragraph": 262,
+        "section_end_paragraph": 273
+      }
+    },
+    {
+      "id": "batch_1_6e_09_s10",
+      "title": "Trauma",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Diffuse white matter injury.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 291,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Hematoma: EDH, SDH, “burst lobe”.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 292,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Vascular.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 294,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Subarachnoid hemmorhage.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 295,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Spontaneous intracerebral haematoma.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 296,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Manajemen Pensa dan Koma - Koass.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_09_01",
+        "Visual_batch_1_6e_09_02",
+        "Visual_batch_1_6e_09_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_09_01",
+        "Quiz_batch_1_6e_09_02",
+        "Quiz_batch_1_6e_09_03"
+      ],
+      "glossary_refs": [
+        "Term_dan_pembagian_2_etiologi_patofisiologi_3_diagnostik",
+        "Term_kesadaran",
+        "Term_aras_ascending_reticular_activating_system",
+        "Term_brain_stem_infarction_or_hemorrhage",
+        "Term_cerebral_infarct_with_oedema_and_shift",
+        "Term_definisi_pembagian"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+        "section_start_paragraph": 291,
+        "section_end_paragraph": 296
+      }
+    },
+    {
+      "id": "batch_1_6e_09_s11",
+      "title": "Koma Bihemisferik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "(Lesi pada ke dua hemisfer).",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 318,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_09_01",
+        "Visual_batch_1_6e_09_02",
+        "Visual_batch_1_6e_09_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_09_01",
+        "Quiz_batch_1_6e_09_02",
+        "Quiz_batch_1_6e_09_03"
+      ],
+      "glossary_refs": [
+        "Term_dan_pembagian_2_etiologi_patofisiologi_3_diagnostik",
+        "Term_kesadaran",
+        "Term_aras_ascending_reticular_activating_system",
+        "Term_brain_stem_infarction_or_hemorrhage",
+        "Term_cerebral_infarct_with_oedema_and_shift",
+        "Term_definisi_pembagian"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+        "section_start_paragraph": 318,
+        "section_end_paragraph": 318
+      }
+    },
+    {
+      "id": "batch_1_6e_09_s12",
+      "title": "Koma Diensefalik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "(Lesi pada batang otak).",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 324,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Supra Tentorial.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 325,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Infra Tentorial.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 326,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Manajemen Pensa dan Koma - Koass.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_09_01",
+        "Visual_batch_1_6e_09_02",
+        "Visual_batch_1_6e_09_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_09_01",
+        "Quiz_batch_1_6e_09_02",
+        "Quiz_batch_1_6e_09_03"
+      ],
+      "glossary_refs": [
+        "Term_dan_pembagian_2_etiologi_patofisiologi_3_diagnostik",
+        "Term_kesadaran",
+        "Term_aras_ascending_reticular_activating_system",
+        "Term_brain_stem_infarction_or_hemorrhage",
+        "Term_cerebral_infarct_with_oedema_and_shift",
+        "Term_definisi_pembagian"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+        "section_start_paragraph": 324,
+        "section_end_paragraph": 326
+      }
+    },
+    {
+      "id": "batch_1_6e_09_s13",
+      "title": "Klasifikasi Koma",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Sidharta, 2009. Neurologi Klinis Dasar. Jakarta Timur: Dian Rakyat.",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 331,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Neuron penggalak kewaspadaan tidak berdaya untuk mengaktifkan neuron pengemban kewaspadaan.",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 334,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Neuron penggalak kewaspadaan tidak berdaya untuk mengaktifkan neuronpengemban kewaspadaan.",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 350,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Koma yang terjadi karena neuron pengemban kewaspadaan terganggu fungsinya.",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 351,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Metode menimbulkan.",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 354,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Respons pasien tidak sadar.",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 355,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Supra orbital.",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 359,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sternum.",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 364,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kuku jari.",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 365,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sendi.",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 367,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Temporo mandibular.",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 368,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_09_01",
+        "Visual_batch_1_6e_09_02",
+        "Visual_batch_1_6e_09_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_09_01",
+        "Quiz_batch_1_6e_09_02",
+        "Quiz_batch_1_6e_09_03"
+      ],
+      "glossary_refs": [
+        "Term_dan_pembagian_2_etiologi_patofisiologi_3_diagnostik",
+        "Term_kesadaran",
+        "Term_aras_ascending_reticular_activating_system",
+        "Term_brain_stem_infarction_or_hemorrhage",
+        "Term_cerebral_infarct_with_oedema_and_shift",
+        "Term_definisi_pembagian"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+        "section_start_paragraph": 331,
+        "section_end_paragraph": 368
+      }
+    },
+    {
+      "id": "batch_1_6e_09_s14",
+      "title": "Tingkat kesadaran",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Derajat kesadaran ditentukan oleh banyaknya neuron pengerak atau neuron pengemban kewaspadaan yang aktif.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 375,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Tinggi atau rendah tingkat kesadaran bergantung pada seberapa banyak jumlah neuron yang aktif dan didukung oleh proses biokimia untuk menjaga kelangsungan kehidupan neuron tersebut.",
+              "children": [],
+              "provenance": {
+                "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+                "source_paragraph_index": 377,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Manajemen Pensa dan Koma - Koass.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terima kasih.",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "source_paragraph_index": 397,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_09_01",
+        "Visual_batch_1_6e_09_02",
+        "Visual_batch_1_6e_09_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_09_01",
+        "Quiz_batch_1_6e_09_02",
+        "Quiz_batch_1_6e_09_03"
+      ],
+      "glossary_refs": [
+        "Term_dan_pembagian_2_etiologi_patofisiologi_3_diagnostik",
+        "Term_kesadaran",
+        "Term_aras_ascending_reticular_activating_system",
+        "Term_brain_stem_infarction_or_hemorrhage",
+        "Term_cerebral_infarct_with_oedema_and_shift",
+        "Term_definisi_pembagian"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+        "section_start_paragraph": 375,
+        "section_end_paragraph": 397
+      }
+    },
+    {
+      "id": "batch_1_6e_09_s15",
+      "title": "Embedded visual material requiring downstream asset review.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Visual_asset_note",
+          "text": "Source DOCX contains 81 embedded image(s). Text extraction does not guarantee all visual labels/captions were captured; downstream Codex/asset pipeline should inspect embedded media before final compile.",
+          "embedded_image_count": 81,
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_09_embedded_review"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_09_01",
+        "Quiz_batch_1_6e_09_02",
+        "Quiz_batch_1_6e_09_03"
+      ],
+      "glossary_refs": [
+        "Term_dan_pembagian_2_etiologi_patofisiologi_3_diagnostik",
+        "Term_kesadaran",
+        "Term_aras_ascending_reticular_activating_system",
+        "Term_brain_stem_infarction_or_hemorrhage",
+        "Term_cerebral_infarct_with_oedema_and_shift",
+        "Term_definisi_pembagian"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+        "embedded_image_count": 81
+      }
+    },
+    {
+      "id": "batch_1_6e_09_s16",
+      "title": "Penjelasan sederhana / simpler bilingual bridge.",
+      "kind": "Bilingual",
+      "content": [
+        {
+          "type": "Simplified_id",
+          "text": "Versi sederhana: materi ini terutama membahas manajemen pensa dan koma - koass dengan fokus pada konsep klinis, diagnosis, tanda penting, dan tata laksana yang tampak di bahan dosen.",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        },
+        {
+          "type": "Simplified_en",
+          "text": "Simple English bridge: this lecture centers on manajemen pensa dan koma - koass, emphasizing clinical concepts, diagnosis, key signs, and management points extracted from the lecturer file.",
+          "provenance": {
+            "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_09_01",
+        "Visual_batch_1_6e_09_02",
+        "Visual_batch_1_6e_09_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_09_01",
+        "Quiz_batch_1_6e_09_02",
+        "Quiz_batch_1_6e_09_03"
+      ],
+      "glossary_refs": [
+        "Term_dan_pembagian_2_etiologi_patofisiologi_3_diagnostik",
+        "Term_kesadaran",
+        "Term_aras_ascending_reticular_activating_system",
+        "Term_brain_stem_infarction_or_hemorrhage",
+        "Term_cerebral_infarct_with_oedema_and_shift",
+        "Term_definisi_pembagian"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+        "generated_section": true
+      }
+    }
+  ],
+  "related_exam_set_ids": [],
+  "provenance": {
+    "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+    "manifest_document_id": "batch_1_6e_09",
+    "topic_tags": [],
+    "extraction_method": "python-docx paragraph/table extraction; embedded images counted but not OCRed",
+    "paragraph_count": 81,
+    "table_count": 0,
+    "embedded_image_count": 81
+  }
+}

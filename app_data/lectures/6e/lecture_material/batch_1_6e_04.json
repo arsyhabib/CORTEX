@@ -1,0 +1,1320 @@
+{
+  "id": "batch_1_6e_04",
+  "batch_id": "batch_1_6E",
+  "batch_label": "Batch 1 / 6E",
+  "block": "5e",
+  "title": "CENTRAL NEVROS SYSTEM INFECTION and Inflammation.",
+  "subtitle": "Neurology lecturer-derived structured content; source-preserving extraction.",
+  "source_pdf": "source_docs/6E/CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+  "source_docx": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+  "source_pages": [],
+  "summary": [
+    "Modul CENTRAL NEVROS SYSTEM INFECTION and Inflammation disusun ulang sebagai materi terstruktur untuk neurologi batch 1/6e, dengan jejak sumber tetap dipertahankan.",
+    "Fokus inti yang ditarik dari sumber: CENTRAL NERVUS SYSTEM INFEKSI DAN INFLAMASI.",
+    "Fokus inti yang ditarik dari sumber: INFEKSI.",
+    "Fokus inti yang ditarik dari sumber: Infeksi dapat mengenai multipel.",
+    "Contoh pesan inti dari sumber: CENTRAL NERVUS SYSTEM INFEKSI DAN INFLAMASI."
+  ],
+  "exam_focus": [
+    "Compartement di CNS misalnya parenkim otak, ekstraaksial space atau meninges, bila terapi tak adequat, proses infeksi meluas ke compertement sekitarnya.",
+    "Yang ditandai dengan edema yang tampak berupa gyri yang mendatar, dengan lesi pada bilateral temporal dan frontal tergantung area yang dikenai."
+  ],
+  "sections": [
+    {
+      "id": "batch_1_6e_04_s01",
+      "title": "CENTRAL NERVUS SYSTEM INFEKSI DAN INFLAMASI.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Dr Erni Zainuddin SpRad K-RA.",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_04_01",
+        "Visual_batch_1_6e_04_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_04_01",
+        "Quiz_batch_1_6e_04_02",
+        "Quiz_batch_1_6e_04_03"
+      ],
+      "glossary_refs": [
+        "Term_cerebritis",
+        "Term_yang",
+        "Term_cara_yaitu",
+        "Term_central_nervus_system_infeksi_dan_inflamasi",
+        "Term_ct_dan_mri_tb_cns",
+        "Term_dibandingkan_infarction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+        "section_start_paragraph": 1,
+        "section_end_paragraph": 1
+      }
+    },
+    {
+      "id": "batch_1_6e_04_s02",
+      "title": "INFEKSI",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Otak dilindungi oleh tulang, duramater, dan system sirkulasi darah ol eh Blood Brain Barrier (BBB).",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 7,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Uniknya otak tidak mempunyai saluran.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 8,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lymphatik.",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Organisma: Bakteri, virus, Fungi, parasit dapt.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 10,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "MengenaI Central Nervus System (CNS).",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Organisme masuk secara hematogen atau ekstensi langsung dari sinus atau mastoid atau trauma penetrasi.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 12,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_04_01",
+        "Visual_batch_1_6e_04_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_04_01",
+        "Quiz_batch_1_6e_04_02",
+        "Quiz_batch_1_6e_04_03"
+      ],
+      "glossary_refs": [
+        "Term_cerebritis",
+        "Term_yang",
+        "Term_cara_yaitu",
+        "Term_central_nervus_system_infeksi_dan_inflamasi",
+        "Term_ct_dan_mri_tb_cns",
+        "Term_dibandingkan_infarction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+        "section_start_paragraph": 7,
+        "section_end_paragraph": 12
+      }
+    },
+    {
+      "id": "batch_1_6e_04_s03",
+      "title": "Infeksi dapat mengenai multipel.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Compartement di CNS misalnya parenkim otak, ekstraaksial space atau meninges, bila terapi tak adequat, proses infeksi meluas ke compertement sekitarnya.",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 18,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Respon parenkim otak terhadap infeksi umumnya ada 2 tahapan: Cerebritis dan Formasi capsul.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 19,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Cerebritis.",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 24,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Cerebritis merupakan stadium awal dari.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 25,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_04_01",
+        "Visual_batch_1_6e_04_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_04_01",
+        "Quiz_batch_1_6e_04_02",
+        "Quiz_batch_1_6e_04_03"
+      ],
+      "glossary_refs": [
+        "Term_cerebritis",
+        "Term_yang",
+        "Term_cara_yaitu",
+        "Term_central_nervus_system_infeksi_dan_inflamasi",
+        "Term_ct_dan_mri_tb_cns",
+        "Term_dibandingkan_infarction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+        "section_start_paragraph": 18,
+        "section_end_paragraph": 25
+      }
+    },
+    {
+      "id": "batch_1_6e_04_s04",
+      "title": "Infeksi pyogenic (7-10 hari).",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Yang ditandai dengan edema yang tampak berupa gyri yang mendatar, dengan lesi pada bilateral temporal dan frontal tergantung area yang dikenai.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 27,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Capsul formasi.",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 30,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "14 hari setelah inokulasi.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 31,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Seperti halnya infeksi yang matur, necrosis, debris dan pus terdapat dalam central cavity abses.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 32,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Granulasi dan penebalan dinding.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 33,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "(fibrocolagenous).",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 34,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Sekitar abses terjadi reaktif astrocytosis, neovascularitas dan vasogenic edema, blood suply menjadi 3-5 x lebih banyak diarea gray matter dr pada whyte matter.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 35,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Otogenic abses dari temporal lobe.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 40,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Rinogenic abses terjadi di lobus frontal.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 41,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_04_01",
+        "Visual_batch_1_6e_04_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_04_01",
+        "Quiz_batch_1_6e_04_02",
+        "Quiz_batch_1_6e_04_03"
+      ],
+      "glossary_refs": [
+        "Term_cerebritis",
+        "Term_yang",
+        "Term_cara_yaitu",
+        "Term_central_nervus_system_infeksi_dan_inflamasi",
+        "Term_ct_dan_mri_tb_cns",
+        "Term_dibandingkan_infarction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+        "section_start_paragraph": 27,
+        "section_end_paragraph": 41
+      }
+    },
+    {
+      "id": "batch_1_6e_04_s05",
+      "title": "MRI. T1W MRI T2W.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Enchephalitis.",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 54,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Umumnya ec Virus, dapat menginduksi.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 55,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terjadinya peradangan parenkim otak yang.",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 56,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Acut, sub acut, kronis.",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 57,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Virus dapat ke CNS secara hematogen.",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 58,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Meskipun otak tampak normal, tetapi secara gross examination, terjadi inflamasi yang diffuse atai focal yang terjadi di grey matter, white matter dan Vicror robin space.",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 59,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "CT scan proses, terdiri dari vasogenic edema, efek massa dan penyangatan yang heterogen inflamasi dengan derajat yang bervariasi.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 64,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_04_01",
+        "Visual_batch_1_6e_04_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_04_01",
+        "Quiz_batch_1_6e_04_02",
+        "Quiz_batch_1_6e_04_03"
+      ],
+      "glossary_refs": [
+        "Term_cerebritis",
+        "Term_yang",
+        "Term_cara_yaitu",
+        "Term_central_nervus_system_infeksi_dan_inflamasi",
+        "Term_ct_dan_mri_tb_cns",
+        "Term_dibandingkan_infarction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+        "section_start_paragraph": 54,
+        "section_end_paragraph": 64
+      }
+    },
+    {
+      "id": "batch_1_6e_04_s06",
+      "title": "Jika di CT pada fase lanjut, sering tampak.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Adanya perdarahan ringan.",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 66,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_04_01",
+        "Visual_batch_1_6e_04_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_04_01",
+        "Quiz_batch_1_6e_04_02",
+        "Quiz_batch_1_6e_04_03"
+      ],
+      "glossary_refs": [
+        "Term_cerebritis",
+        "Term_yang",
+        "Term_cara_yaitu",
+        "Term_central_nervus_system_infeksi_dan_inflamasi",
+        "Term_ct_dan_mri_tb_cns",
+        "Term_dibandingkan_infarction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+        "section_start_paragraph": 66,
+        "section_end_paragraph": 66
+      }
+    },
+    {
+      "id": "batch_1_6e_04_s07",
+      "title": "MRI",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Area yang terkena menunjukkan sinyal yang karakteristik serupa: T1.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 73,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Edema area yang terkena.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 74,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Jika agak kompleks disertai perdarahan subakut dengan area yang.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 75,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hyperintens.",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 76,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_04_01",
+        "Visual_batch_1_6e_04_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_04_01",
+        "Quiz_batch_1_6e_04_02",
+        "Quiz_batch_1_6e_04_03"
+      ],
+      "glossary_refs": [
+        "Term_cerebritis",
+        "Term_yang",
+        "Term_cara_yaitu",
+        "Term_central_nervus_system_infeksi_dan_inflamasi",
+        "Term_ct_dan_mri_tb_cns",
+        "Term_dibandingkan_infarction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+        "section_start_paragraph": 73,
+        "section_end_paragraph": 76
+      }
+    },
+    {
+      "id": "batch_1_6e_04_s08",
+      "title": "T1 C+ (Gd)",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Penyangatan biasanya tidak ada pada kasus dini.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 78,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Penyangatan terjadi pada kasus lanjut dengan pola yang bervariasi.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 79,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Gyral enhancement.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 80,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Leptomeningeal enhancement ring enhancement.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 81,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Diffuse enhancement.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 82,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_04_01",
+        "Visual_batch_1_6e_04_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_04_01",
+        "Quiz_batch_1_6e_04_02",
+        "Quiz_batch_1_6e_04_03"
+      ],
+      "glossary_refs": [
+        "Term_cerebritis",
+        "Term_yang",
+        "Term_cara_yaitu",
+        "Term_central_nervus_system_infeksi_dan_inflamasi",
+        "Term_ct_dan_mri_tb_cns",
+        "Term_dibandingkan_infarction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+        "section_start_paragraph": 78,
+        "section_end_paragraph": 82
+      }
+    },
+    {
+      "id": "batch_1_6e_04_s09",
+      "title": "T2",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Hyperintensity pada white matter dan cortex - Komponen perdarahan hyperintens.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 87,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_04_01",
+        "Visual_batch_1_6e_04_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_04_01",
+        "Quiz_batch_1_6e_04_02",
+        "Quiz_batch_1_6e_04_03"
+      ],
+      "glossary_refs": [
+        "Term_cerebritis",
+        "Term_yang",
+        "Term_cara_yaitu",
+        "Term_central_nervus_system_infeksi_dan_inflamasi",
+        "Term_ct_dan_mri_tb_cns",
+        "Term_dibandingkan_infarction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+        "section_start_paragraph": 87,
+        "section_end_paragraph": 87
+      }
+    },
+    {
+      "id": "batch_1_6e_04_s10",
+      "title": "DWI/ADC",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Lebih sensitif dari pada T2 weighted images (T2WI) - restricted diffusion terjadi karena cytotoxic edema.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 89,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_04_01",
+        "Visual_batch_1_6e_04_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_04_01",
+        "Quiz_batch_1_6e_04_02",
+        "Quiz_batch_1_6e_04_03"
+      ],
+      "glossary_refs": [
+        "Term_cerebritis",
+        "Term_yang",
+        "Term_cara_yaitu",
+        "Term_central_nervus_system_infeksi_dan_inflamasi",
+        "Term_ct_dan_mri_tb_cns",
+        "Term_dibandingkan_infarction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+        "section_start_paragraph": 89,
+        "section_end_paragraph": 89
+      }
+    },
+    {
+      "id": "batch_1_6e_04_s11",
+      "title": "Dibandingkan infarction",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Perhatikan T2 shine through terjadi karena vasogenic.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 92,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Edema.",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 93,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "GRE/SWI: dapat menunjukkan perdarahan aktif.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 94,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "(jarang pada neonates, common in older patients).",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 95,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_04_01",
+        "Visual_batch_1_6e_04_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_04_01",
+        "Quiz_batch_1_6e_04_02",
+        "Quiz_batch_1_6e_04_03"
+      ],
+      "glossary_refs": [
+        "Term_cerebritis",
+        "Term_yang",
+        "Term_cara_yaitu",
+        "Term_central_nervus_system_infeksi_dan_inflamasi",
+        "Term_ct_dan_mri_tb_cns",
+        "Term_dibandingkan_infarction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+        "section_start_paragraph": 92,
+        "section_end_paragraph": 95
+      }
+    },
+    {
+      "id": "batch_1_6e_04_s12",
+      "title": "Meningitis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Acut biasanya purulent dg exudat di subarachnoid space, pembuluh darah di sub arach noid congesti, dan otak tampak membengkak.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 114,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Cronik sering ec Tb atau Cyptococcus.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 115,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Mengenai sub arachnoid sering tampak.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 116,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Berupa comunicating hydrochepalus Ventriculitis.",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 117,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Dural vein trombosis, shg terjadi infark.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 118,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Empyema.",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 126,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Akumulasi debris inflamasi terjadi di sub.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 127,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dural, jarang di epidural compartemen.",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 128,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Empyema.",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 133,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tuberculosis.",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 138,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_04_01",
+        "Visual_batch_1_6e_04_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_04_01",
+        "Quiz_batch_1_6e_04_02",
+        "Quiz_batch_1_6e_04_03"
+      ],
+      "glossary_refs": [
+        "Term_cerebritis",
+        "Term_yang",
+        "Term_cara_yaitu",
+        "Term_central_nervus_system_infeksi_dan_inflamasi",
+        "Term_ct_dan_mri_tb_cns",
+        "Term_dibandingkan_infarction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+        "section_start_paragraph": 114,
+        "section_end_paragraph": 138
+      }
+    },
+    {
+      "id": "batch_1_6e_04_s13",
+      "title": "Cara yaitu:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Proses Inflamasi meningeal (70-80% kasus).",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 141,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Proses pembentukan multiple caseating.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 142,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Granuloma (tuberculoma) (20-30% kasus).",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 143,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Tuberculoma dapat hadir dalam bentuk.",
+              "children": [],
+              "provenance": {
+                "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+                "source_paragraph_index": 144,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Abses, tetapi jarang.",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 145,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_04_01",
+        "Visual_batch_1_6e_04_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_04_01",
+        "Quiz_batch_1_6e_04_02",
+        "Quiz_batch_1_6e_04_03"
+      ],
+      "glossary_refs": [
+        "Term_cerebritis",
+        "Term_yang",
+        "Term_cara_yaitu",
+        "Term_central_nervus_system_infeksi_dan_inflamasi",
+        "Term_ct_dan_mri_tb_cns",
+        "Term_dibandingkan_infarction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+        "section_start_paragraph": 141,
+        "section_end_paragraph": 145
+      }
+    },
+    {
+      "id": "batch_1_6e_04_s14",
+      "title": "CT dan MRI TB CNS.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Toxoplasma.",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 155,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Toxoplasmosis.",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 158,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Multiple rings enhacemetnt T2 W.",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "source_paragraph_index": 159,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_04_01",
+        "Visual_batch_1_6e_04_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_04_01",
+        "Quiz_batch_1_6e_04_02",
+        "Quiz_batch_1_6e_04_03"
+      ],
+      "glossary_refs": [
+        "Term_cerebritis",
+        "Term_yang",
+        "Term_cara_yaitu",
+        "Term_central_nervus_system_infeksi_dan_inflamasi",
+        "Term_ct_dan_mri_tb_cns",
+        "Term_dibandingkan_infarction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+        "section_start_paragraph": 155,
+        "section_end_paragraph": 159
+      }
+    },
+    {
+      "id": "batch_1_6e_04_s15",
+      "title": "Extracted table 1",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "CT.Multiple hypodens dan kalsifikasi.",
+              "",
+              "Kontras: Nodul dan ring enhacement."
+            ]
+          ],
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "table_index": 0
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_04_01",
+        "Visual_batch_1_6e_04_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_04_01",
+        "Quiz_batch_1_6e_04_02",
+        "Quiz_batch_1_6e_04_03"
+      ],
+      "glossary_refs": [
+        "Term_cerebritis",
+        "Term_yang",
+        "Term_cara_yaitu",
+        "Term_central_nervus_system_infeksi_dan_inflamasi",
+        "Term_ct_dan_mri_tb_cns",
+        "Term_dibandingkan_infarction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+        "table_index": 0
+      }
+    },
+    {
+      "id": "batch_1_6e_04_s16",
+      "title": "Embedded visual material requiring downstream asset review.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Visual_asset_note",
+          "text": "Source DOCX contains 23 embedded image(s). Text extraction does not guarantee all visual labels/captions were captured; downstream Codex/asset pipeline should inspect embedded media before final compile.",
+          "embedded_image_count": 23,
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_04_embedded_review"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_04_01",
+        "Quiz_batch_1_6e_04_02",
+        "Quiz_batch_1_6e_04_03"
+      ],
+      "glossary_refs": [
+        "Term_cerebritis",
+        "Term_yang",
+        "Term_cara_yaitu",
+        "Term_central_nervus_system_infeksi_dan_inflamasi",
+        "Term_ct_dan_mri_tb_cns",
+        "Term_dibandingkan_infarction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+        "embedded_image_count": 23
+      }
+    },
+    {
+      "id": "batch_1_6e_04_s17",
+      "title": "Penjelasan sederhana / simpler bilingual bridge.",
+      "kind": "Bilingual",
+      "content": [
+        {
+          "type": "Simplified_id",
+          "text": "Versi sederhana: materi ini terutama membahas central nevros system infection and inflammation dengan fokus pada konsep klinis, diagnosis, tanda penting, dan tata laksana yang tampak di bahan dosen.",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        },
+        {
+          "type": "Simplified_en",
+          "text": "Simple English bridge: this lecture centers on central nevros system infection and inflammation, emphasizing clinical concepts, diagnosis, key signs, and management points extracted from the lecturer file.",
+          "provenance": {
+            "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_04_01",
+        "Visual_batch_1_6e_04_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_04_01",
+        "Quiz_batch_1_6e_04_02",
+        "Quiz_batch_1_6e_04_03"
+      ],
+      "glossary_refs": [
+        "Term_cerebritis",
+        "Term_yang",
+        "Term_cara_yaitu",
+        "Term_central_nervus_system_infeksi_dan_inflamasi",
+        "Term_ct_dan_mri_tb_cns",
+        "Term_dibandingkan_infarction"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+        "generated_section": true
+      }
+    }
+  ],
+  "related_exam_set_ids": [],
+  "provenance": {
+    "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+    "manifest_document_id": "batch_1_6e_04",
+    "topic_tags": [
+      "Somatic therapy"
+    ],
+    "extraction_method": "python-docx paragraph/table extraction; embedded images counted but not OCRed",
+    "paragraph_count": 81,
+    "table_count": 1,
+    "embedded_image_count": 23
+  }
+}

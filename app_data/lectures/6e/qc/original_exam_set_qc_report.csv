@@ -1,0 +1,8 @@
+exam_set_id,block,year,title,question_count,reconstruction_level,has_answer_key,has_explanations,qc_status,notes
+exam_recall_batch_1_6e_01,5e,0,"Question-like recall prompts: dr. Sri Novianty, Sp.N - How To Treat Central Vertigo",5,reconstructed,false,true,needs_manual_review,"Question-like prompts detected, but no original MCQ options or answer key supplied."
+exam_recall_batch_1_6e_03,5e,0,Question-like recall prompts: EF Infeksi,13,reconstructed,false,true,needs_manual_review,"Question-like prompts detected, but no original MCQ options or answer key supplied."
+exam_recall_batch_1_6e_11,5e,0,Question-like recall prompts: Neuropaty Materi Ngajar Mei 2025 (1),1,reconstructed,false,true,needs_manual_review,"Question-like prompts detected, but no original MCQ options or answer key supplied."
+exam_recall_batch_1_6e_12,5e,0,Question-like recall prompts: PPT Diagnosing Vertigo and Dizziness,4,reconstructed,false,true,needs_manual_review,"Question-like prompts detected, but no original MCQ options or answer key supplied."
+exam_recall_batch_1_6e_13,5e,0,Question-like recall prompts: PPT Gangguan Keseimbangan,1,reconstructed,false,true,needs_manual_review,"Question-like prompts detected, but no original MCQ options or answer key supplied."
+exam_recall_batch_1_6e_14,5e,0,Question-like recall prompts: Parkinson Disease (Aspek Klinis),1,reconstructed,false,true,needs_manual_review,"Question-like prompts detected, but no original MCQ options or answer key supplied."
+exam_recall_batch_1_6e_22,5e,0,Question-like recall prompts: dr.Patrick - neurorehab,4,reconstructed,false,true,needs_manual_review,"Question-like prompts detected, but no original MCQ options or answer key supplied."

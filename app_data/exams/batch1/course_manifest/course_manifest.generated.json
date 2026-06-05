@@ -1,0 +1,58 @@
+{
+  "id": "course_manifest_batch_1_mcq_6e_2025",
+  "title": "CORTEX Batch 1 - MCQ 6.E 2025 Question Domain",
+  "batch_id": "batch_1_mcq_6e_2025",
+  "generated_at_utc": "2026-06-03T18:12:04.429414+00:00",
+  "source_files": [
+    {
+      "filename": "MCQ 6.E 2025.pdf",
+      "type": "pdf",
+      "sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "page_count": 4
+    }
+  ],
+  "domains": [
+    {
+      "id": "original_exam_sets",
+      "file": "original_exam_sets/mcq_6e_2025.original_exam_set.json",
+      "count": 1
+    },
+    {
+      "id": "quiz_bank",
+      "file": "quiz_bank/mcq_6e_2025.quiz_bank.json",
+      "quiz_count": 30
+    },
+    {
+      "id": "glossary",
+      "file": "glossary/batch_1_mcq_6e_2025.glossary.json",
+      "term_count": 65
+    },
+    {
+      "id": "content_link_map",
+      "file": "content_link_map/content_link_map.generated.json",
+      "link_count": 84
+    },
+    {
+      "id": "page_registry",
+      "file": "page_registry/page_registry.generated.json",
+      "page_count": 4
+    }
+  ],
+  "question_count": 40,
+  "quiz_active_item_count": 30,
+  "original_exam_set_ids": [
+    "mcq_6e_2025_original_exam_set"
+  ],
+  "routes": [
+    "pages/original_exam_sets/index.html",
+    "pages/original_exam_sets/mcq_6e_2025.html",
+    "pages/quiz_bank/mcq_6e_2025.html",
+    "pages/glossary/batch_1_mcq_6e_2025.html"
+  ],
+  "compiler_notes": [
+    "Use original_exam_sets as source of truth for all reconstructed exam items.",
+    "Use quiz_bank only for items with complete options and usable answer keys.",
+    "Some source options are missing due OCR/visual source limitations; these are explicitly marked in original_exam_sets.",
+    "Schema block enum lacks 6E; block uses mixed and block_label stores 6E."
+  ]
+}

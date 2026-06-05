@@ -1,0 +1,181 @@
+{
+  "id": "batch_1_6e_18",
+  "batch_id": "batch_1_6E",
+  "batch_label": "Batch 1 / 6E",
+  "block": "5e",
+  "title": "STATUS EPILEPTIKUS koas",
+  "subtitle": "Neurology lecturer-derived structured content; source-preserving extraction.",
+  "source_pdf": "source_docs/6E/STATUS EPILEPTIKUS koas.docx",
+  "source_docx": "STATUS EPILEPTIKUS koas.docx",
+  "source_pages": [],
+  "summary": [
+    "Modul STATUS EPILEPTIKUS koas disusun ulang sebagai materi terstruktur untuk neurologi batch 1/6e, dengan jejak sumber tetap dipertahankan.",
+    "Fokus inti yang ditarik dari sumber: Status Epileptikus.",
+    "Fokus inti yang ditarik dari sumber: AIM: .",
+    "Fokus inti yang ditarik dari sumber: memahami definisi SE.",
+    "Contoh pesan inti dari sumber: Insidens SE di Amerika Serikat berkisar 41 per 100.000 individu setiap tahun,."
+  ],
+  "exam_focus": [
+    "2. Dapat mendiagnosis SE.",
+    "3. Dapat melakukan tatalaksana SE.",
+    "4. Menentukan prognosis SE."
+  ],
+  "sections": [
+    {
+      "id": "batch_1_6e_18_s01",
+      "title": "Status Epileptikus",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Insidens SE di Amerika Serikat berkisar 41 per 100.000 individu setiap tahun,.",
+          "provenance": {
+            "source_document": "STATUS EPILEPTIKUS koas.docx",
+            "source_paragraph_index": 23,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sekitar 27 pEepr 1id00e.m00i0oluongtui k dewasa muda dan 86 per 100.000 untuk usia lanjut.",
+          "provenance": {
+            "source_document": "STATUS EPILEPTIKUS koas.docx",
+            "source_paragraph_index": 24,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dua penelitian restropektif di Jerman mendapatkan insidens 17, 1 per 100.000 per tahun.",
+          "provenance": {
+            "source_document": "STATUS EPILEPTIKUS koas.docx",
+            "source_paragraph_index": 31,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mortalitas SE (kematian dalam 30 hari) pada penelitian Richmond berkisar 22%. Kematian pada anak hanya 3%, sedangkan pada dewasa 26%. Populasi yang lebih tua mempunyai mortalitas hingga 38%.",
+          "provenance": {
+            "source_document": "STATUS EPILEPTIKUS koas.docx",
+            "source_paragraph_index": 37,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_18_01"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_18_01",
+        "Quiz_batch_1_6e_18_02",
+        "Quiz_batch_1_6e_18_03"
+      ],
+      "glossary_refs": [
+        "Term_aim",
+        "Term_dapat_melakukan_tatalaksana_se",
+        "Term_dapat_mendiagnosis_se"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "STATUS EPILEPTIKUS koas.docx",
+        "section_start_paragraph": 23,
+        "section_end_paragraph": 37
+      }
+    },
+    {
+      "id": "batch_1_6e_18_s03",
+      "title": "Embedded visual material requiring downstream asset review.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Visual_asset_note",
+          "text": "Source DOCX contains 28 embedded image(s). Text extraction does not guarantee all visual labels/captions were captured; downstream Codex/asset pipeline should inspect embedded media before final compile.",
+          "embedded_image_count": 28,
+          "provenance": {
+            "source_document": "STATUS EPILEPTIKUS koas.docx"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_18_embedded_review"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_18_01",
+        "Quiz_batch_1_6e_18_02",
+        "Quiz_batch_1_6e_18_03"
+      ],
+      "glossary_refs": [
+        "Term_aim",
+        "Term_dapat_melakukan_tatalaksana_se",
+        "Term_dapat_mendiagnosis_se"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "STATUS EPILEPTIKUS koas.docx",
+        "embedded_image_count": 28
+      }
+    },
+    {
+      "id": "batch_1_6e_18_s04",
+      "title": "Penjelasan sederhana / simpler bilingual bridge.",
+      "kind": "Bilingual",
+      "content": [
+        {
+          "type": "Simplified_id",
+          "text": "Versi sederhana: materi ini terutama membahas status epileptikus koas dengan fokus pada konsep klinis, diagnosis, tanda penting, dan tata laksana yang tampak di bahan dosen.",
+          "provenance": {
+            "source_document": "STATUS EPILEPTIKUS koas.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        },
+        {
+          "type": "Simplified_en",
+          "text": "Simple English bridge: this lecture centers on status epileptikus koas, emphasizing clinical concepts, diagnosis, key signs, and management points extracted from the lecturer file.",
+          "provenance": {
+            "source_document": "STATUS EPILEPTIKUS koas.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_18_01"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_18_01",
+        "Quiz_batch_1_6e_18_02",
+        "Quiz_batch_1_6e_18_03"
+      ],
+      "glossary_refs": [
+        "Term_aim",
+        "Term_dapat_melakukan_tatalaksana_se",
+        "Term_dapat_mendiagnosis_se"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "STATUS EPILEPTIKUS koas.docx",
+        "generated_section": true
+      }
+    }
+  ],
+  "related_exam_set_ids": [],
+  "provenance": {
+    "source_document": "STATUS EPILEPTIKUS koas.docx",
+    "manifest_document_id": "batch_1_6e_18",
+    "topic_tags": [
+      "Epilepsy",
+      "Emergency neurology"
+    ],
+    "extraction_method": "python-docx paragraph/table extraction; embedded images counted but not OCRed",
+    "paragraph_count": 11,
+    "table_count": 0,
+    "embedded_image_count": 28
+  }
+}

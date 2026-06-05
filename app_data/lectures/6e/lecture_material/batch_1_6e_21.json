@@ -1,0 +1,1082 @@
+{
+  "id": "batch_1_6e_21",
+  "batch_id": "batch_1_6E",
+  "batch_label": "Batch 1 / 6E",
+  "block": "5e",
+  "title": "Tumor Cerebri",
+  "subtitle": "Neurology lecturer-derived structured content; source-preserving extraction.",
+  "source_pdf": "source_docs/6E/Tumor Cerebri.docx",
+  "source_docx": "Tumor Cerebri.docx",
+  "source_pages": [],
+  "summary": [
+    "Modul Tumor Cerebri disusun ulang sebagai materi terstruktur untuk neurologi batch 1/6e, dengan jejak sumber tetap dipertahankan.",
+    "Fokus inti yang ditarik dari sumber: Tumor Cerebri.",
+    "Fokus inti yang ditarik dari sumber: Neuroradiologi investigation.",
+    "Fokus inti yang ditarik dari sumber: CT Scan.",
+    "Contoh pesan inti dari sumber: Dr. Erni Zainuddin SpRad K-RA."
+  ],
+  "exam_focus": [
+    "Tumor primer memberi gejala neurologi karena adanya distorsi jaringan otak, adanya peningkatan tekanan intrakranial, adanya herniasi struktur otak ke sekitranya, bahkan tumor jinak sekalipun sperti meningioma menyebabkan defisit neurologi karean efek ekspasi.",
+    "Foto Polos tidak berkontribusi, hanya adanya gambaran kalsifikasi, peningkatan tekanan intra kranial ditandai dengan adanya erosi dorsum sella, adanya pelebaran sutura pada anak2."
+  ],
+  "sections": [
+    {
+      "id": "batch_1_6e_21_s01",
+      "title": "Tumor Cerebri",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Dr. Erni Zainuddin SpRad K-RA.",
+          "provenance": {
+            "source_document": "Tumor Cerebri.docx",
+            "source_paragraph_index": 15,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_21_01",
+        "Visual_batch_1_6e_21_02",
+        "Visual_batch_1_6e_21_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_21_01",
+        "Quiz_batch_1_6e_21_02",
+        "Quiz_batch_1_6e_21_03"
+      ],
+      "glossary_refs": [
+        "Term_50_tumor_otak",
+        "Term_acoustic_neuronoma",
+        "Term_bronchus_tumor_payudara_dan_gastrointersinal",
+        "Term_cerebral_metastase"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "section_start_paragraph": 15,
+        "section_end_paragraph": 15
+      }
+    },
+    {
+      "id": "batch_1_6e_21_s02",
+      "title": "Neuroradiologi investigation",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Plain Film.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 18,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Tumor Cerebri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_21_01",
+        "Visual_batch_1_6e_21_02",
+        "Visual_batch_1_6e_21_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_21_01",
+        "Quiz_batch_1_6e_21_02",
+        "Quiz_batch_1_6e_21_03"
+      ],
+      "glossary_refs": [
+        "Term_50_tumor_otak",
+        "Term_acoustic_neuronoma",
+        "Term_bronchus_tumor_payudara_dan_gastrointersinal",
+        "Term_cerebral_metastase"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "section_start_paragraph": 18,
+        "section_end_paragraph": 18
+      }
+    },
+    {
+      "id": "batch_1_6e_21_s03",
+      "title": "MRI",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Arteriography.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 22,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Myelography.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 23,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Tumor Cerebri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_21_01",
+        "Visual_batch_1_6e_21_02",
+        "Visual_batch_1_6e_21_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_21_01",
+        "Quiz_batch_1_6e_21_02",
+        "Quiz_batch_1_6e_21_03"
+      ],
+      "glossary_refs": [
+        "Term_50_tumor_otak",
+        "Term_acoustic_neuronoma",
+        "Term_bronchus_tumor_payudara_dan_gastrointersinal",
+        "Term_cerebral_metastase"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "section_start_paragraph": 22,
+        "section_end_paragraph": 23
+      }
+    },
+    {
+      "id": "batch_1_6e_21_s04",
+      "title": "Primary intracranial neoplasma",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Tumor primer memberi gejala neurologi karena adanya distorsi jaringan otak, adanya peningkatan tekanan intrakranial, adanya herniasi struktur otak ke sekitranya, bahkan tumor jinak sekalipun sperti meningioma menyebabkan defisit neurologi karean efek ekspasi tumor di ruang yang terbatas.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 26,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Tumor Cerebri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_21_01",
+        "Visual_batch_1_6e_21_02",
+        "Visual_batch_1_6e_21_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_21_01",
+        "Quiz_batch_1_6e_21_02",
+        "Quiz_batch_1_6e_21_03"
+      ],
+      "glossary_refs": [
+        "Term_50_tumor_otak",
+        "Term_acoustic_neuronoma",
+        "Term_bronchus_tumor_payudara_dan_gastrointersinal",
+        "Term_cerebral_metastase"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "section_start_paragraph": 26,
+        "section_end_paragraph": 26
+      }
+    },
+    {
+      "id": "batch_1_6e_21_s05",
+      "title": "Gambaran Radiologi",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Foto Polos tidak berkontribusi, hanya adanya gambaran kalsifikasi, peningkatan tekanan intra kranial ditandai dengan adanya erosi dorsum sella, adanya pelebaran sutura pada anak2.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 29,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Tumor Cerebri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_21_01",
+        "Visual_batch_1_6e_21_02",
+        "Visual_batch_1_6e_21_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_21_01",
+        "Quiz_batch_1_6e_21_02",
+        "Quiz_batch_1_6e_21_03"
+      ],
+      "glossary_refs": [
+        "Term_50_tumor_otak",
+        "Term_acoustic_neuronoma",
+        "Term_bronchus_tumor_payudara_dan_gastrointersinal",
+        "Term_cerebral_metastase"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "section_start_paragraph": 29,
+        "section_end_paragraph": 29
+      }
+    },
+    {
+      "id": "batch_1_6e_21_s06",
+      "title": "Type of Primary neoplasmas.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Glioma.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 34,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Merupakan tumpr tersering, sering menyebakan kalsifikasi.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 35,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "> 50% tumor otak adalah glioma spt: Astrocytoma, GBM, oligodendroglioma dan ependymoma.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 36,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "CT Scan: tumor tampak berupa area dengan densitas berubah dengan edema disekitarny disertai efek massa.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 37,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Penyangatan yang signifikan setelah diberi kontras.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 38,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Tumor Cerebri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_21_01",
+        "Visual_batch_1_6e_21_02",
+        "Visual_batch_1_6e_21_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_21_01",
+        "Quiz_batch_1_6e_21_02",
+        "Quiz_batch_1_6e_21_03"
+      ],
+      "glossary_refs": [
+        "Term_50_tumor_otak",
+        "Term_acoustic_neuronoma",
+        "Term_bronchus_tumor_payudara_dan_gastrointersinal",
+        "Term_cerebral_metastase"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "section_start_paragraph": 34,
+        "section_end_paragraph": 38
+      }
+    },
+    {
+      "id": "batch_1_6e_21_s07",
+      "title": "20% tumor primer otak.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Jinak berbatas tegas, berasal dari lapisan mening yang meliputi otak.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 58,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Tempat tersering di Falks, parasagital region, sphenoid wing, dan conveksitas hemisphere.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 59,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "CT-MRI: lesi yang berbatas tegas yang menyangat kuat pada pemberian kontras.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 60,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Tumor Cerebri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_21_01",
+        "Visual_batch_1_6e_21_02",
+        "Visual_batch_1_6e_21_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_21_01",
+        "Quiz_batch_1_6e_21_02",
+        "Quiz_batch_1_6e_21_03"
+      ],
+      "glossary_refs": [
+        "Term_50_tumor_otak",
+        "Term_acoustic_neuronoma",
+        "Term_bronchus_tumor_payudara_dan_gastrointersinal",
+        "Term_cerebral_metastase"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "section_start_paragraph": 58,
+        "section_end_paragraph": 60
+      }
+    },
+    {
+      "id": "batch_1_6e_21_s08",
+      "title": "Acoustic Neuronoma",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Berasal dari canalis auditory interna yang dapat menyebabkan pelebaran dan erosi dari canal tersebut.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 81,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Tumor Cerebri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_21_01",
+        "Visual_batch_1_6e_21_02",
+        "Visual_batch_1_6e_21_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_21_01",
+        "Quiz_batch_1_6e_21_02",
+        "Quiz_batch_1_6e_21_03"
+      ],
+      "glossary_refs": [
+        "Term_50_tumor_otak",
+        "Term_acoustic_neuronoma",
+        "Term_bronchus_tumor_payudara_dan_gastrointersinal",
+        "Term_cerebral_metastase"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "section_start_paragraph": 81,
+        "section_end_paragraph": 81
+      }
+    },
+    {
+      "id": "batch_1_6e_21_s09",
+      "title": "Tumor Pituitary",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Foto polos: tampak fossa pituitary melebar dan atau erosi.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 102,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Tumor Cerebri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_21_01",
+        "Visual_batch_1_6e_21_02",
+        "Visual_batch_1_6e_21_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_21_01",
+        "Quiz_batch_1_6e_21_02",
+        "Quiz_batch_1_6e_21_03"
+      ],
+      "glossary_refs": [
+        "Term_50_tumor_otak",
+        "Term_acoustic_neuronoma",
+        "Term_bronchus_tumor_payudara_dan_gastrointersinal",
+        "Term_cerebral_metastase"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "section_start_paragraph": 102,
+        "section_end_paragraph": 102
+      }
+    },
+    {
+      "id": "batch_1_6e_21_s10",
+      "title": "CEREBELAR TUMOR",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Mayoritas terjadi pada anak2 di bawah tentorium cerebelli seperti meduloblastoma (tersering) selanjutnya ependymoma.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 128,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Tumor Cerebri.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Meduloblastoma.",
+          "provenance": {
+            "source_document": "Tumor Cerebri.docx",
+            "source_paragraph_index": 137,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_21_01",
+        "Visual_batch_1_6e_21_02",
+        "Visual_batch_1_6e_21_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_21_01",
+        "Quiz_batch_1_6e_21_02",
+        "Quiz_batch_1_6e_21_03"
+      ],
+      "glossary_refs": [
+        "Term_50_tumor_otak",
+        "Term_acoustic_neuronoma",
+        "Term_bronchus_tumor_payudara_dan_gastrointersinal",
+        "Term_cerebral_metastase"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "section_start_paragraph": 128,
+        "section_end_paragraph": 137
+      }
+    },
+    {
+      "id": "batch_1_6e_21_s11",
+      "title": "Cerebral metastase",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "CT -MRI tak dapat membedakan antar tumor primer -sekunder, tetpi klis dapat membantu menerangkannya.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 141,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Sering berupa lesi yang multipel.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 142,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Tumor Cerebri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_21_01",
+        "Visual_batch_1_6e_21_02",
+        "Visual_batch_1_6e_21_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_21_01",
+        "Quiz_batch_1_6e_21_02",
+        "Quiz_batch_1_6e_21_03"
+      ],
+      "glossary_refs": [
+        "Term_50_tumor_otak",
+        "Term_acoustic_neuronoma",
+        "Term_bronchus_tumor_payudara_dan_gastrointersinal",
+        "Term_cerebral_metastase"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "section_start_paragraph": 141,
+        "section_end_paragraph": 142
+      }
+    },
+    {
+      "id": "batch_1_6e_21_s12",
+      "title": "Gambaran radiologi:",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Dapat berupa kistik, kalsifikasi, perdarahan atau lesi cavitas dengan edema disekitarnya.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 153,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Pemberian kontras tampak menyangat karena rusaknya BBB.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 154,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Tumor Cerebri.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Metastase dari Ca Payudara.",
+          "provenance": {
+            "source_document": "Tumor Cerebri.docx",
+            "source_paragraph_index": 163,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_21_01",
+        "Visual_batch_1_6e_21_02",
+        "Visual_batch_1_6e_21_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_21_01",
+        "Quiz_batch_1_6e_21_02",
+        "Quiz_batch_1_6e_21_03"
+      ],
+      "glossary_refs": [
+        "Term_50_tumor_otak",
+        "Term_acoustic_neuronoma",
+        "Term_bronchus_tumor_payudara_dan_gastrointersinal",
+        "Term_cerebral_metastase"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "section_start_paragraph": 153,
+        "section_end_paragraph": 163
+      }
+    },
+    {
+      "id": "batch_1_6e_21_s13",
+      "title": "CEREBRAL ATROPHY",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Atrophy cerebri biasanya idiophatic, penyebabnya termasuk: .",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 169,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Proses degeneratif.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 170,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Tumor Cerebri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_21_01",
+        "Visual_batch_1_6e_21_02",
+        "Visual_batch_1_6e_21_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_21_01",
+        "Quiz_batch_1_6e_21_02",
+        "Quiz_batch_1_6e_21_03"
+      ],
+      "glossary_refs": [
+        "Term_50_tumor_otak",
+        "Term_acoustic_neuronoma",
+        "Term_bronchus_tumor_payudara_dan_gastrointersinal",
+        "Term_cerebral_metastase"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "section_start_paragraph": 169,
+        "section_end_paragraph": 170
+      }
+    },
+    {
+      "id": "batch_1_6e_21_s14",
+      "title": "Trauma",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Obat obatan.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 172,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Tumor Cerebri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_21_01",
+        "Visual_batch_1_6e_21_02",
+        "Visual_batch_1_6e_21_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_21_01",
+        "Quiz_batch_1_6e_21_02",
+        "Quiz_batch_1_6e_21_03"
+      ],
+      "glossary_refs": [
+        "Term_50_tumor_otak",
+        "Term_acoustic_neuronoma",
+        "Term_bronchus_tumor_payudara_dan_gastrointersinal",
+        "Term_cerebral_metastase"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "section_start_paragraph": 172,
+        "section_end_paragraph": 172
+      }
+    },
+    {
+      "id": "batch_1_6e_21_s15",
+      "title": "Infeksi",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Kongenital.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 174,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Korelasi atropi cerebri dan klinis sering tak jelas.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 175,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Tumor Cerebri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_21_01",
+        "Visual_batch_1_6e_21_02",
+        "Visual_batch_1_6e_21_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_21_01",
+        "Quiz_batch_1_6e_21_02",
+        "Quiz_batch_1_6e_21_03"
+      ],
+      "glossary_refs": [
+        "Term_50_tumor_otak",
+        "Term_acoustic_neuronoma",
+        "Term_bronchus_tumor_payudara_dan_gastrointersinal",
+        "Term_cerebral_metastase"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "section_start_paragraph": 174,
+        "section_end_paragraph": 175
+      }
+    },
+    {
+      "id": "batch_1_6e_21_s16",
+      "title": "Gambaran Radiologi",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Loss brain substansi menyebabkan pelebaran Cerebro Spinal Space (CSF) seperti ventrikel melebar, Cysterna basal, cerebral-cerebelar sulci.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 178,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Ventricular dilatasi → Hydrocephalus dengan tekanan normal.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 179,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Tumor Cerebri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_21_01",
+        "Visual_batch_1_6e_21_02",
+        "Visual_batch_1_6e_21_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_21_01",
+        "Quiz_batch_1_6e_21_02",
+        "Quiz_batch_1_6e_21_03"
+      ],
+      "glossary_refs": [
+        "Term_50_tumor_otak",
+        "Term_acoustic_neuronoma",
+        "Term_bronchus_tumor_payudara_dan_gastrointersinal",
+        "Term_cerebral_metastase"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "section_start_paragraph": 178,
+        "section_end_paragraph": 179
+      }
+    },
+    {
+      "id": "batch_1_6e_21_s17",
+      "title": "Alzheimer disease:",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Biasanya atrophy diffuse dengan sparing cerebellum, sering mengenai lobus temporal.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 181,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Tumor Cerebri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_21_01",
+        "Visual_batch_1_6e_21_02",
+        "Visual_batch_1_6e_21_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_21_01",
+        "Quiz_batch_1_6e_21_02",
+        "Quiz_batch_1_6e_21_03"
+      ],
+      "glossary_refs": [
+        "Term_50_tumor_otak",
+        "Term_acoustic_neuronoma",
+        "Term_bronchus_tumor_payudara_dan_gastrointersinal",
+        "Term_cerebral_metastase"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "section_start_paragraph": 181,
+        "section_end_paragraph": 181
+      }
+    },
+    {
+      "id": "batch_1_6e_21_s18",
+      "title": "Pick ‘s disease:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Circumscribe lobar atrophy.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 190,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Dementia lainnya: biasanya non spesifik diffuse atrophy seperti Alzheimer’s disease.",
+              "children": [],
+              "provenance": {
+                "source_document": "Tumor Cerebri.docx",
+                "source_paragraph_index": 191,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Tumor Cerebri.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Nieman pick’s disease.",
+          "provenance": {
+            "source_document": "Tumor Cerebri.docx",
+            "source_paragraph_index": 200,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_21_01",
+        "Visual_batch_1_6e_21_02",
+        "Visual_batch_1_6e_21_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_21_01",
+        "Quiz_batch_1_6e_21_02",
+        "Quiz_batch_1_6e_21_03"
+      ],
+      "glossary_refs": [
+        "Term_50_tumor_otak",
+        "Term_acoustic_neuronoma",
+        "Term_bronchus_tumor_payudara_dan_gastrointersinal",
+        "Term_cerebral_metastase"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "section_start_paragraph": 190,
+        "section_end_paragraph": 200
+      }
+    },
+    {
+      "id": "batch_1_6e_21_s19",
+      "title": "Embedded visual material requiring downstream asset review.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Visual_asset_note",
+          "text": "Source DOCX contains 14 embedded image(s). Text extraction does not guarantee all visual labels/captions were captured; downstream Codex/asset pipeline should inspect embedded media before final compile.",
+          "embedded_image_count": 14,
+          "provenance": {
+            "source_document": "Tumor Cerebri.docx"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_21_embedded_review"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_21_01",
+        "Quiz_batch_1_6e_21_02",
+        "Quiz_batch_1_6e_21_03"
+      ],
+      "glossary_refs": [
+        "Term_50_tumor_otak",
+        "Term_acoustic_neuronoma",
+        "Term_bronchus_tumor_payudara_dan_gastrointersinal",
+        "Term_cerebral_metastase"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "embedded_image_count": 14
+      }
+    },
+    {
+      "id": "batch_1_6e_21_s20",
+      "title": "Penjelasan sederhana / simpler bilingual bridge.",
+      "kind": "Bilingual",
+      "content": [
+        {
+          "type": "Simplified_id",
+          "text": "Versi sederhana: materi ini terutama membahas tumor cerebri dengan fokus pada konsep klinis, diagnosis, tanda penting, dan tata laksana yang tampak di bahan dosen.",
+          "provenance": {
+            "source_document": "Tumor Cerebri.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        },
+        {
+          "type": "Simplified_en",
+          "text": "Simple English bridge: this lecture centers on tumor cerebri, emphasizing clinical concepts, diagnosis, key signs, and management points extracted from the lecturer file.",
+          "provenance": {
+            "source_document": "Tumor Cerebri.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_21_01",
+        "Visual_batch_1_6e_21_02",
+        "Visual_batch_1_6e_21_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_21_01",
+        "Quiz_batch_1_6e_21_02",
+        "Quiz_batch_1_6e_21_03"
+      ],
+      "glossary_refs": [
+        "Term_50_tumor_otak",
+        "Term_acoustic_neuronoma",
+        "Term_bronchus_tumor_payudara_dan_gastrointersinal",
+        "Term_cerebral_metastase"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "generated_section": true
+      }
+    }
+  ],
+  "related_exam_set_ids": [],
+  "provenance": {
+    "source_document": "Tumor Cerebri.docx",
+    "manifest_document_id": "batch_1_6e_21",
+    "topic_tags": [
+      "Tumor",
+      "Neuro-oncology"
+    ],
+    "extraction_method": "python-docx paragraph/table extraction; embedded images counted but not OCRed",
+    "paragraph_count": 65,
+    "table_count": 0,
+    "embedded_image_count": 14
+  }
+}

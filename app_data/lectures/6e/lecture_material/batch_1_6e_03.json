@@ -1,0 +1,4660 @@
+{
+  "id": "batch_1_6e_03",
+  "batch_id": "batch_1_6E",
+  "batch_label": "Batch 1 / 6E",
+  "block": "5e",
+  "title": "EF Infeksi",
+  "subtitle": "Neurology lecturer-derived structured content; source-preserving extraction.",
+  "source_pdf": "source_docs/6E/6EF Infeksi.docx",
+  "source_docx": "6EF Infeksi.docx",
+  "source_pages": [],
+  "summary": [
+    "Modul EF Infeksi disusun ulang sebagai materi terstruktur untuk neurologi batch 1/6e, dengan jejak sumber tetap dipertahankan.",
+    "Fokus inti yang ditarik dari sumber: 3 Infeksi Sistem.",
+    "Fokus inti yang ditarik dari sumber: Prinsip Pendekatan Penyakit Infeksi.",
+    "Fokus inti yang ditarik dari sumber: Di manakah infeksinya?.",
+    "Contoh pesan inti dari sumber: Mir na Marhami Iskandar."
+  ],
+  "exam_focus": [
+    "Pertanyaan kuncinya adalah etiologi infeksi.",
+    "Terapi harus disesuaikan dengan etiologi penyebab.",
+    "Ditatalaksana sebagai salah satu jenis infeksi otak yang paling mungkin.",
+    "Dibantu, bukan ditegakkan, diagnosisnya dengan pemeriksaan penunjang.",
+    "Tatalaksana awal: menurunkan TIK.",
+    "Tatalaksana selanjutnya: sebisanya dengan bukti2 dari pemeriksaan.",
+    "Manifestasi Klinis Infeksi SSP.",
+    "Perubahan status mental, gejala fokal, kejang."
+  ],
+  "sections": [
+    {
+      "id": "batch_1_6e_03_s01",
+      "title": "3 Infeksi Sistem",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Saraf Pusat.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mir na Marhami Iskandar.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Universitas Jambi.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 1,
+        "section_end_paragraph": 4
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s02",
+      "title": "Demam, tidak ting gi (bacterial, TB) atau mendadak.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Ting gi (viral).",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 29,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 29,
+        "section_end_paragraph": 29
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s03",
+      "title": "Onset: akut (viral, bacterial), subakut sampai kronis.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "(T B, abses).",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 31,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Defisit fokal yang jelas.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 32,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Makin mengantuk/meracau? - kesadaran makin menurun.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 33,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 31,
+        "section_end_paragraph": 33
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s04",
+      "title": "(SSP)",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Otak telah dijelaskan.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 41,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 41,
+        "section_end_paragraph": 41
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s05",
+      "title": "Spine:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Fungsi medulla spinalis terganggu, hanya medulla saja: .",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 43,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Myelitis.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 44,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Ter masuk dura dan tulang sekitarnya (paravertebral): .",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 45,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Spondylitis.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 46,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 43,
+        "section_end_paragraph": 46
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s06",
+      "title": "Radang tanpa infeksi?",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Dapat terjadi: inflamasi SSP autoimun.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 48,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Defisit Fokal SSP?",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 53,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Di otak: sesuai topisnya.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 54,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Gangguan motorik satu sisi tubuh.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 55,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Gangguan nervi cranialis.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 56,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Teka nan intrakranial meningkat.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 57,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 48,
+        "section_end_paragraph": 57
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s07",
+      "title": "Kejang",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Ta nda rangsang meningeal muncul.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 59,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 59,
+        "section_end_paragraph": 59
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s08",
+      "title": "Di medulla spinalis:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Bisa mencakup sebagian atau semua: motorik, sensorik, dan.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 61,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Otonom.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 62,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pe nan ganan.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 65,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 61,
+        "section_end_paragraph": 65
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s09",
+      "title": "Pemeriksaan fisik",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Ditatalaksana sebagai salah satu jenis infeksi otak yang paling mungkin.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 69,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Klinisnya.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 70,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Dengan lesi fokal?",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 71,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 69,
+        "section_end_paragraph": 71
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s10",
+      "title": "Meningitis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Demam, sakit kepala, kaku kuduk.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 81,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 81,
+        "section_end_paragraph": 81
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s11",
+      "title": "Perubahan status mental, gejala fokal, kejang.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Abses (SOL).",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 84,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 84,
+        "section_end_paragraph": 84
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s12",
+      "title": "Klinis seperti ensefalitis, peningkatan TIK.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Mielitis.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 86,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kelemahan kedua tungkai, atau lengan dan tungkai, yang simetris bilateral; baal/rabarasa terasa menurun pada ang gota gerak sesuai dermatome; BAB/BA K bisa terganggu; nyeri apabila spondilitis.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 87,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tersan gka.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 92,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 86,
+        "section_end_paragraph": 92
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s13",
+      "title": "Infeksi Otak",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "HIV Positif HIV Negatif.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 94,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lumbal Pungsi.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 99,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tindakan aspirasi liquor cerebrospinal (LCS) untuk.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 100,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 94,
+        "section_end_paragraph": 100
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s14",
+      "title": "Penegakan diagnosis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Indikasi dan Kontraindikasi.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 109,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Indikasi Kontraindikasi.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 110,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Karakteristik LCS.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 115,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 109,
+        "section_end_paragraph": 115
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s15",
+      "title": "Infeksi Intrakranial",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Sesuai dengan epidemiologi terbanyak yang ada di.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 122,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Indonesia.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 123,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Toksoplasma.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 128,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 122,
+        "section_end_paragraph": 128
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s16",
+      "title": "Ensefalitis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Umumnya oportunistik.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 130,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Patogenesis.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 135,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 130,
+        "section_end_paragraph": 135
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s17",
+      "title": "Infeksi primer: asimtomatik (imunokompeten).",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Imunosupresi.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 137,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 137,
+        "section_end_paragraph": 137
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s18",
+      "title": "Reaktivasi infeksi laten",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Toxoplas ma encephalitis.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 139,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Workup.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 144,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Penyebab: Toxoplasma gondii.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 145,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 139,
+        "section_end_paragraph": 145
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s19",
+      "title": "Reaktivasi infeksi laten",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Tera pi empirik.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 147,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 147,
+        "section_end_paragraph": 147
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s20",
+      "title": "Diagnosis “presumptive” → diterapi sesuai.",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Kemungkinan terbesar.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 149,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Treating Opportunistic Infections Among HIV-Infected Adults and Adolescents. Recommendations from CDC, NIH, & the HIV Medicine Association/Infectious Diseases Society of America.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 150,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 149,
+        "section_end_paragraph": 150
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s21",
+      "title": "Diagnosis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Sebagian besar D/ presumtif.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 156,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Re sp on perbaikan klinis & neuroimaging pasca Th/.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 157,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Empirik.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 158,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "D/ definitif ~ hanya pd kasus tertentu.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 159,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Biopsi jaringan & PA.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 160,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "PCR Toxo pada LCS: sensitivitas rendah (50%) →.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 161,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak dianjurkan.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 162,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Imaging.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 167,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lesi fokal: abses.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 168,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Efek desak ruang.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 169,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Menyangat kontras.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 170,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 156,
+        "section_end_paragraph": 170
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s22",
+      "title": "Terapi Empirik",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": " Pengobatan fase akut (3-6 minggu).",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 176,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Pirimetamin loading 200 mg.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 177,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " BB < 50 kg: 2 X 25 mg per hari po.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 178,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " BB > 50 kg: 3 X 25 mg per hari po.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 179,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Klindamisin 4 X 600 mg per hari po.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 180,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pilihan ke 2: kotrimoksazol 2x960mg.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 181,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Fase Rumatan.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 182,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Pirimetamin & klindamisin dosis ½ fase akut; atau.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 183,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Kotrimoksazol 2 X 480 mg.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 184,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Fase rumatan dilanjutkan s/d CD4 >200.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 185,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Asam folinat 10-20mg /hari.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 186,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 176,
+        "section_end_paragraph": 186
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s23",
+      "title": "Meningitis TB",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Semua status imunitas.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 193,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 193,
+        "section_end_paragraph": 193
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s24",
+      "title": "Meningitis - Tuberkuloma",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Tuberkuloma Abses.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 199,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 199,
+        "section_end_paragraph": 199
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s25",
+      "title": "Meningitis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Presentasi Klinis.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 205,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 205,
+        "section_end_paragraph": 205
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s26",
+      "title": "Diferensial diagnosis",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Space occupying lesions (SOL): neoplasma, abses, TE.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 212,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 212,
+        "section_end_paragraph": 212
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s27",
+      "title": "Diagnosis Meningitis TB",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Tdk Mudah.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 219,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 219,
+        "section_end_paragraph": 219
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s28",
+      "title": "Gejala klinis tidak spesifik.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Jumlah BTA cairan otak <<<.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 221,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 221,
+        "section_end_paragraph": 221
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s29",
+      "title": "Penegakan diagnosis TB diluar SSP juga sulit dan.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Membutuhkan waktu.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 224,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Perlu index kecurigaan yg tinggi pd setiap.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 225,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pasien dgn demam, sakit kepala dan simptom neurologi yg subakut.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 226,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 224,
+        "section_end_paragraph": 226
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s30",
+      "title": "Diagnosis of adult tuberculous meningitis by use of clinical and.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Laboratory features: G E Thwaites et al: Lancet 2002; 360: 1287-92.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 232,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Umur (tahun) Score.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 233,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "> 36 2.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 234,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "< 36 0.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 235,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "> 15.000 4.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 236,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "< 15.000 0.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 237,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Netrofil cairan otak (%).",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 238,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "➢75 4.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 239,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "< 75 0.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 240,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Durasi sakit (hari).",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 241,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "> 6 hr -5.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 242,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "< 6 hr 0.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 243,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Total score > 4 M Bakterialis Total score < 4 M TB.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 244,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 232,
+        "section_end_paragraph": 244
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s31",
+      "title": "MENINGITIS",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Hidrosefalus.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 251,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Eksudat di basal otak.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 252,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Yg menyangat kontras.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 253,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Infark.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 254,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "TUBERCULOMA tanpa Meningitis Tidak dpt dibedakan dgn lesi lain yang memberikan gambaran penyangatan kontras berbentuk cincin (abses bakterial, neoplasma, toksoplasma ensefalitis).",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 255,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 251,
+        "section_end_paragraph": 255
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s32",
+      "title": "Diagnosis METB",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Definit.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 262,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bila PCR TB, GeneXpert, MGI T, BTA LCS posi ti f.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 263,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Probabel.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 264,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bila jumlah sel LCS >5 DAN Glucose ratio<0.5.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 265,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Possibel/unlikely.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 266,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 262,
+        "section_end_paragraph": 266
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s33",
+      "title": "Grading Meningitis TB (MRC,.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Medical research council).",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 273,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Grade I.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 274,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Sadar penuh, tanpa defisit neurologis fokal.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 275,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Grade II.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 276,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Grade 2a: GCS 15 dengan defisit neurologi fokal.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 277,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Grade 2b: GCS 10 - 14 dengan atau tanpa defisit.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 278,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Grade III.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 279,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "GCS < 10 dengan atau tanpa defisit neurofokal.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 280,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tatalaks ana.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 285,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Obat Anti Tube rkulo si s.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 286,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "12 bulan.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 287,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Dua ming gu pertama “live saving” Kortikosteroid.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 288,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Metaanalisis: bermanfaat utk HIV negatif.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 289,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Dexamethasone: 0.4 mg/kgBB/hr utk 6-8 ming gu.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 290,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Tindakan operatif: semua pasien dgn hidrosefalus, tuberkuloma otak-medula spinalis dipertimbangkan utk tindakan pembedahan.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 291,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "B6 3x10mg po untuk melindungi dari neurotoksisitas OAT.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 292,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 273,
+        "section_end_paragraph": 292
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s34",
+      "title": "Infection of CNS. Scheld WM. 2004.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Deksametason.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 302,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Thwaites GE, Nguyen DB, Nguyen HD, Hoang TQ, Do TT, Nguyen TC, et al. Dexamethasone for the treatment of tuberculous meningitis in adolescents and adults.The New England journal of medicine. 2004 Oct 21; 351(17): 1741-51.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 303,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 302,
+        "section_end_paragraph": 303
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s35",
+      "title": "Grading Meningitis TB",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Berdasarkan Medical Research Council (MRC).",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 309,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Grade I.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 310,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Sadar penuh, tanpa defisit neurologis fokal.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 311,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Grade II.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 312,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Grade 2a: GCS 15 dengan defisit neurologi fokal.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 313,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Grade 2b: GCS 10 - 14 denganatautanpadefisit.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 314,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Grade III.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 315,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "GCS < 10 dengan atau tanpa defisit neurofokal.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 316,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 309,
+        "section_end_paragraph": 316
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s36",
+      "title": "Meningitis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Kriptokokus.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 322,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Umumnya oportunistik.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 323,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 322,
+        "section_end_paragraph": 323
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s37",
+      "title": "Klinis Meningitis Kriptokokus",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Subakut 2 - 4 ming gu.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 329,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Demam.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 330,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Sakit kepala - Tekanan intrakranial tingg i.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 331,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 329,
+        "section_end_paragraph": 331
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s38",
+      "title": "TIDAK KHAS - Subtle - tidak semua gejala muncul.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Sesuai teori.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 333,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 333,
+        "section_end_paragraph": 333
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s39",
+      "title": "Analisis r utin LCS; pemeriksaan tinta india (cepat dan murah).",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Kultur LCS dan darah.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 341,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Serologi darah.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 342,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 341,
+        "section_end_paragraph": 342
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s40",
+      "title": "Terapi Fase Akut",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Minggu 1- 2 1. Amfoterisin-B 0.7-1 mg/kg per hari drip 4-.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 348,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "6 jam dlm 250-500 ml D5%.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 349,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Flukonazol 800 mg per hr po.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 350,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Minggu 3-10 Flukonazol 800 mg per hr po.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 351,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Bila tidak ada amfoterisin-B dapat digunakan flukonazol saja.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 352,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dengan dosis 800 - 2000 mg per hari selama 12minggu.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 353,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 348,
+        "section_end_paragraph": 353
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s41",
+      "title": "Fase rumatan:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Flukonazol 200 mg/hr hingga CD4> 200.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 359,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Minggu ke-12.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 360,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Temu an Pada Analisis Cairan Otak.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 365,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Liquor Cerebrospinal (LCS).",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 366,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Abses serebri.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 371,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Klinis dari infeksi intrakranial yang dapat menyerupai lesi desak ruang.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 372,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tahap.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 377,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Early cerebritis (hari 1-3).",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 378,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Daerah hipodens sebagai pusat nekrosis dan sekelilingnya yang sebagian menyangat kontras.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 379,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Late cerebritis (hari 4-9).",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 380,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penyangatan kontras disekeliling daerah hipodens yang semakin sempurna, seringkali seperti membentuk gambaran cincin.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 381,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Early capsule formation (hari 10-13).",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 382,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pusat nekrosis menjadi lebih kecil dan daerah kapsul menjadi lebih tebal.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 383,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Late Capsule formation (setelah hari ke 14).",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 384,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gambaran kapsul abses ini semakin lama akan semakin jelas dan tebal sehing ga menjadi fase late capsule formation.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 385,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 359,
+        "section_end_paragraph": 385
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s42",
+      "title": "Terapi",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Empirik.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 391,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Once an abscess has formed, surgical excision or drainage combined with prolonged antibiotics (usually 4-8 wk) remains the treatment of choice.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 392,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ter api definit: kultur dari hasil biopsi abses otak atau kultur dari fokus infeksi mis abses odontogenik atau cairan dari OMSK.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 393,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Indikasi Tindakan Bedah.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 398,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Setelah terapi 2minggu abses membesar atau setelah terapi 4 minggu abses tak mengecil.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 399,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 391,
+        "section_end_paragraph": 399
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s43",
+      "title": "Suspek Meningitis Bakterialis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Keterangan (Algoritma Sebelumnya).",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 415,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Immunocompromise: HIV(+).",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 416,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 415,
+        "section_end_paragraph": 416
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s44",
+      "title": "Yang dinilai dari pemeriksaan oftalmoskopi.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "STAT= cito =harus dikerjakan segera.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 419,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Empirical: antibiotic dipilih yang bersifat broad-.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 420,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 419,
+        "section_end_paragraph": 420
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s45",
+      "title": "Spectrum dan dimulai sambil menung gu diagnosis.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Pasti.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 422,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 422,
+        "section_end_paragraph": 422
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s46",
+      "title": "Terapi definit:",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Menunggu hasil kultur.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 428,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 428,
+        "section_end_paragraph": 428
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s47",
+      "title": "LCS",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Apa bakteri yang.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 430,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Teridentifikasi?",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 431,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Sensitif terhadap.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 432,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Antibiotik apa?",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 433,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Resisten terhadap.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 434,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Antibiotik apa?",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 435,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 430,
+        "section_end_paragraph": 435
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s48",
+      "title": "Ensefalitis Viral",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Gambaran.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 444,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Algoritme.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 449,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Viral encephalitis.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 454,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "HS V: lebih sering pada temporal (sistem limbik) dan frontal.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 455,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "VZV: basal ganglia.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 456,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 444,
+        "section_end_paragraph": 456
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s49",
+      "title": "Prinsip Penatalaksanaan Infeksi SSP.",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Menangani kegawatan.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 466,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Peningkatan TIK → antiedema.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 467,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 466,
+        "section_end_paragraph": 467
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s50",
+      "title": "Tanda-tanda vital → antipiretik, oksigenasi.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Intake → N GT, koreksi gangguan metabolic.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 469,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 469,
+        "section_end_paragraph": 469
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s51",
+      "title": "Mencaritahu mikroorganisme etiologi",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Secara empiris: dari klinis.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 471,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Secara definitive.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 472,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 471,
+        "section_end_paragraph": 472
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s52",
+      "title": "Dari pemeriksaan cairan otak.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Neuro-imaging.",
+              "children": [],
+              "provenance": {
+                "source_document": "6EF Infeksi.docx",
+                "source_paragraph_index": 474,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "6EF Infeksi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 474,
+        "section_end_paragraph": 474
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s53",
+      "title": "Penunjang lain",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Terima K asih.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "source_paragraph_index": 480,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "section_start_paragraph": 480,
+        "section_end_paragraph": 480
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s54",
+      "title": "Extracted table 1",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "INFEKSI Demam Prodromal",
+              "",
+              "OTAK Kelumpuhan saraf kranial Hemiparesis Gangguan kognitif Kejang dll."
+            ]
+          ],
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "table_index": 0
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "table_index": 0
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s55",
+      "title": "Extracted table 2",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "",
+              "",
+              "Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/.",
+              "Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/.",
+              "Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/.",
+              "Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/.",
+              "Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/.",
+              "Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/.",
+              "Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/.",
+              "Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/.",
+              "Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/.",
+              "Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/.",
+              "Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/.",
+              "Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/.",
+              "Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/.",
+              "Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/.",
+              "Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/.",
+              "Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/.",
+              "Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/.",
+              "Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/ Lesi fokal otak/."
+            ],
+            [
+              "",
+              "Defisit neurologis fokal Positif.",
+              "Defisit neurologis fokal Positif.",
+              "Defisit neurologis fokal Positif.",
+              "Defisit neurologis fokal Positif.",
+              "",
+              "Defisit neurologis fokal Negatif.",
+              "Defisit neurologis fokal Negatif.",
+              "Defisit neurologis fokal Negatif.",
+              "Defisit neurologis fokal Negatif.",
+              "Defisit neurologis fokal Negatif.",
+              "",
+              "Defisit neurologis fokal Positif.",
+              "Defisit neurologis fokal Positif.",
+              "Defisit neurologis fokal Positif.",
+              "",
+              "Defisit neurologis fokal Negatif.",
+              "Defisit neurologis fokal Negatif.",
+              "Defisit neurologis fokal Negatif.",
+              "Defisit neurologis fokal Negatif.",
+              "Defisit neurologis fokal Negatif.",
+              "Defisit neurologis fokal Negatif."
+            ],
+            [
+              "Ensefalitis Toksoplasma Tuberkuloma",
+              "Ensefalitis Toksoplasma Tuberkuloma",
+              "Ensefalitis Toksoplasma Tuberkuloma",
+              "",
+              "Klinis Meningitis",
+              "Klinis Meningitis",
+              "Klinis Meningitis",
+              "",
+              "Klinis ensefalitis",
+              "",
+              "Abses serebri Tuberkuloma",
+              "Abses serebri Tuberkuloma",
+              "Abses serebri Tuberkuloma",
+              "",
+              "Klinis Meningitis",
+              "Klinis Meningitis",
+              "Klinis Meningitis",
+              "",
+              "Klinis ensefalitis",
+              "Klinis ensefalitis",
+              "Klinis ensefalitis"
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "Meningitis Tuberkulosis Meningitis Kriptokokus Meningitis Bakterialis.",
+              "Meningitis Tuberkulosis Meningitis Kriptokokus Meningitis Bakterialis.",
+              "Meningitis Tuberkulosis Meningitis Kriptokokus Meningitis Bakterialis.",
+              "",
+              "Ensefalitis CMV Ensefalitis HSV.",
+              "Ensefalitis CMV Ensefalitis HSV.",
+              "Ensefalitis CMV Ensefalitis HSV.",
+              "Ensefalitis CMV Ensefalitis HSV.",
+              "Ensefalitis CMV Ensefalitis HSV.",
+              "",
+              "Meningitis Tuberkulosis Meningitis Bakterialis.",
+              "Meningitis Tuberkulosis Meningitis Bakterialis.",
+              "Meningitis Tuberkulosis Meningitis Bakterialis.",
+              "",
+              "Ensefalitis HSV"
+            ]
+          ],
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "table_index": 1
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "table_index": 1
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s56",
+      "title": "Extracted table 3",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "Terapi -Pada M Kriptokokus - Terapi intratekal.",
+              "",
+              "Mutlak impending herniasi otak."
+            ],
+            [
+              "Diagnosis -Pasien terduga infeksi SSP - pasien dengan neuroimunologi mis MS, NM O, GBS.",
+              "",
+              "Relatif Trombositopeni (<50.000) Infeksi lokal di tempat penusukan Masa di medula spinalis.",
+              "Relatif Trombositopeni (<50.000) Infeksi lokal di tempat penusukan Masa di medula spinalis."
+            ]
+          ],
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "table_index": 2
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "table_index": 2
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s57",
+      "title": "Extracted table 4",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "23445",
+              "",
+              "Lekosit cairan otak (103/ml) ➢900 3 < 900 0 Lekosit darah tepi (/ml)."
+            ]
+          ],
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "table_index": 3
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "table_index": 3
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s58",
+      "title": "Extracted table 5",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "Penetrasi OAT ke BBB Agents Daily dose serum CSF normal (mg/kg/hari) meninges.",
+              "Penetrasi OAT ke BBB Agents Daily dose serum CSF normal (mg/kg/hari) meninges.",
+              "Penetrasi OAT ke BBB Agents Daily dose serum CSF normal (mg/kg/hari) meninges.",
+              "Penetrasi OAT ke BBB Agents Daily dose serum CSF normal (mg/kg/hari) meninges.",
+              "Penetrasi OAT ke BBB Agents Daily dose serum CSF normal (mg/kg/hari) meninges.",
+              "",
+              "CSF, inflammed meninges",
+              "CSF, inflammed meninges",
+              "CSF, inflammed meninges",
+              "CSF, inflammed meninges"
+            ],
+            [
+              "Isoniazid 5-10 (300mg)",
+              "Isoniazid 5-10 (300mg)",
+              "Isoniazid 5-10 (300mg)",
+              "",
+              "3.5-5 0.6-1.6 (15-25%)",
+              "",
+              "2-3.2 (90%)",
+              "2-3.2 (90%)"
+            ],
+            [
+              "Rifampisin 10-20 (600mg)",
+              "Rifampisin 10-20 (600mg)",
+              "Rifampisin 10-20 (600mg)",
+              "",
+              "0.4-12 0 0.4-1 (poor but exceed MIC).",
+              "0.4-12 0 0.4-1 (poor but exceed MIC).",
+              "0.4-12 0 0.4-1 (poor but exceed MIC).",
+              "0.4-12 0 0.4-1 (poor but exceed MIC).",
+              "0.4-12 0 0.4-1 (poor but exceed MIC)."
+            ],
+            [
+              "Ethambutol 15-25 (1gr) Pyrazinamid 15-30 (1gr).",
+              "",
+              "1-7.7 0 0.5-2.5 P>I>R>ES (good, 10-50%) 30-50 (excellent).",
+              "1-7.7 0 0.5-2.5 P>I>R>ES (good, 10-50%) 30-50 (excellent).",
+              "1-7.7 0 0.5-2.5 P>I>R>ES (good, 10-50%) 30-50 (excellent).",
+              "1-7.7 0 0.5-2.5 P>I>R>ES (good, 10-50%) 30-50 (excellent).",
+              "1-7.7 0 0.5-2.5 P>I>R>ES (good, 10-50%) 30-50 (excellent).",
+              "1-7.7 0 0.5-2.5 P>I>R>ES (good, 10-50%) 30-50 (excellent).",
+              "1-7.7 0 0.5-2.5 P>I>R>ES (good, 10-50%) 30-50 (excellent).",
+              "1-7.7 0 0.5-2.5 P>I>R>ES (good, 10-50%) 30-50 (excellent).",
+              "1-7.7 0 0.5-2.5 P>I>R>ES (good, 10-50%) 30-50 (excellent)."
+            ],
+            [
+              "Streptomisin 15-30 (1gr)",
+              "Streptomisin 15-30 (1gr)",
+              "Streptomisin 15-30 (1gr)",
+              "",
+              "25-50 trace 2-9 (25%).",
+              "25-50 trace 2-9 (25%).",
+              "25-50 trace 2-9 (25%)."
+            ]
+          ],
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "table_index": 4
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "table_index": 4
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s59",
+      "title": "Extracted table 6",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "4. Spesimen dari tempat lain, misalnya pada kulit.",
+              "",
+              "Departemen Neurologi RSCM"
+            ]
+          ],
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "table_index": 5
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "table_index": 5
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s60",
+      "title": "Extracted table 7",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "",
+              "Minggu ke-2",
+              "",
+              "Minggu ke-10",
+              "Minggu ke-10",
+              "",
+              "CD4 >200"
+            ],
+            [
+              "Fluco + Amfo Fluco 800 Fluco 200.",
+              "Fluco + Amfo Fluco 800 Fluco 200.",
+              "Fluco + Amfo Fluco 800 Fluco 200.",
+              "Fluco + Amfo Fluco 800 Fluco 200."
+            ]
+          ],
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "table_index": 6
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "table_index": 6
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s61",
+      "title": "Extracted table 8",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "",
+              "Fluco 800-2000",
+              "",
+              "Fluco 200"
+            ]
+          ],
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "table_index": 7
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "table_index": 7
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s62",
+      "title": "Extracted table 9",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "Operasi Medikamentosa",
+              "Operasi Medikamentosa",
+              "Operasi Medikamentosa"
+            ],
+            [
+              "Diameter > 2.5 cm Efek masa signifikan Lesi dekat ventrikel Kondisi neurologis memburuk.",
+              "",
+              "Abses tunggal Diameter <2cm Abses multipel atau lokasi sulit dijangkau Kondisi kri ti s.",
+              "Abses tunggal Diameter <2cm Abses multipel atau lokasi sulit dijangkau Kondisi kri ti s."
+            ]
+          ],
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "table_index": 8
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "table_index": 8
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s63",
+      "title": "Extracted table 10",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "Imunokompromise Imunokompetent"
+            ],
+            [
+              "Cari tanda Retinitis CMV LP PCR HSV dan VZV.",
+              "Cari tanda Retinitis CMV LP PCR HSV dan VZV."
+            ],
+            [
+              "LP PCR CMV Cari lesi dikulit atau genital.",
+              "LP PCR CMV Cari lesi dikulit atau genital.",
+              "LP PCR CMV Cari lesi dikulit atau genital."
+            ]
+          ],
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "table_index": 9
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "table_index": 9
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s64",
+      "title": "Embedded visual material requiring downstream asset review.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Visual_asset_note",
+          "text": "Source DOCX contains 54 embedded image(s). Text extraction does not guarantee all visual labels/captions were captured; downstream Codex/asset pipeline should inspect embedded media before final compile.",
+          "embedded_image_count": 54,
+          "provenance": {
+            "source_document": "6EF Infeksi.docx"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_embedded_review"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "embedded_image_count": 54
+      }
+    },
+    {
+      "id": "batch_1_6e_03_s65",
+      "title": "Penjelasan sederhana / simpler bilingual bridge.",
+      "kind": "Bilingual",
+      "content": [
+        {
+          "type": "Simplified_id",
+          "text": "Versi sederhana: materi ini terutama membahas ef infeksi dengan fokus pada konsep klinis, diagnosis, tanda penting, dan tata laksana yang tampak di bahan dosen.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        },
+        {
+          "type": "Simplified_en",
+          "text": "Simple English bridge: this lecture centers on ef infeksi, emphasizing clinical concepts, diagnosis, key signs, and management points extracted from the lecturer file.",
+          "provenance": {
+            "source_document": "6EF Infeksi.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_03_01",
+        "Visual_batch_1_6e_03_02",
+        "Visual_batch_1_6e_03_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_03_01",
+        "Quiz_batch_1_6e_03_02",
+        "Quiz_batch_1_6e_03_03"
+      ],
+      "glossary_refs": [
+        "Term_ssp",
+        "Term_3_infeksi_sistem",
+        "Term_abses_otak",
+        "Term_apakah_etiologi_infeksinya",
+        "Term_beberapa_diagnosis",
+        "Term_beberapa_pilihan_untuk_penegakan_diagnosis",
+        "Term_ct_scan_dan_mri_otak",
+        "Term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "generated_section": true
+      }
+    }
+  ],
+  "related_exam_set_ids": [
+    "exam_recall_batch_1_6e_03"
+  ],
+  "provenance": {
+    "source_document": "6EF Infeksi.docx",
+    "manifest_document_id": "batch_1_6e_03",
+    "topic_tags": [
+      "Infection",
+      "Neuroinfection"
+    ],
+    "extraction_method": "python-docx paragraph/table extraction; embedded images counted but not OCRed",
+    "paragraph_count": 280,
+    "table_count": 10,
+    "embedded_image_count": 54
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "links": [
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius",
+      "to_id": "page_exam_batch_2_mcq_6_3_trapezius",
+      "link_type": "set_to_page",
+      "strength": "strong",
+      "notes": "Original reconstructed exam set page route."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q01",
+      "to_id": "gls_gangguan_panik",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q02",
+      "to_id": "gls_ocd",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q04",
+      "to_id": "gls_hipokondriasis",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q06",
+      "to_id": "gls_amnesia_anterograde",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q07",
+      "to_id": "gls_napza_golongan_2",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q08",
+      "to_id": "gls_meningitis_tb",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q10",
+      "to_id": "gls_status_epileptikus",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q11",
+      "to_id": "gls_fobia_sosial",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q13",
+      "to_id": "gls_sundowning",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q14",
+      "to_id": "gls_lobus_frontalis",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q15",
+      "to_id": "gls_propranolol",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q16",
+      "to_id": "gls_mioklonus",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q18",
+      "to_id": "gls_miller_fisher",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q19",
+      "to_id": "gls_anti_kolinesterase",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q20",
+      "to_id": "gls_meningioma",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q21",
+      "to_id": "gls_amitriptilin",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q22",
+      "to_id": "gls_demensia_vaskular",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q23",
+      "to_id": "gls_delirium",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q24",
+      "to_id": "gls_bppv",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q24",
+      "to_id": "gls_epley_maneuver",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q25",
+      "to_id": "gls_bppv",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q26",
+      "to_id": "gls_maoi",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q27",
+      "to_id": "gls_internet_gaming_disorder",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q28",
+      "to_id": "gls_bipolar",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q29",
+      "to_id": "gls_bipolar",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q30",
+      "to_id": "gls_flight_of_ideas",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q31",
+      "to_id": "gls_sirkumstansial",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q32",
+      "to_id": "gls_fdia",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q33",
+      "to_id": "gls_romberg",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q34",
+      "to_id": "gls_delirium",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q35",
+      "to_id": "gls_delirium",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q36",
+      "to_id": "gls_perdarahan_epidural",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q37",
+      "to_id": "gls_claustrophobia",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q38",
+      "to_id": "gls_internet_gaming_disorder",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q39",
+      "to_id": "gls_gaf",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q40",
+      "to_id": "gls_anoreksia_nervosa",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q41",
+      "to_id": "gls_hoehn_yahr",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q44",
+      "to_id": "gls_ppdgj",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q46",
+      "to_id": "gls_schwannoma",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q46",
+      "to_id": "gls_verocay_bodies",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q47",
+      "to_id": "gls_skizofrenia_katatonik",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q48",
+      "to_id": "gls_rivastigmine",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q49",
+      "to_id": "gls_skizofrenia_paranoid",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q50",
+      "to_id": "gls_ct_tanpa_kontras",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "orig_exam_batch_2_mcq_6_3_trapezius_q51",
+      "to_id": "gls_sopor",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    }
+  ]
+}

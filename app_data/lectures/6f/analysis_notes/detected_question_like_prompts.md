@@ -1,0 +1,59 @@
+# Detected Question-like Prompts
+
+- `batch_2_6f_01_prompt_001` (09 dr.Susi - 1. GAM.docx, medium): nanti ketergantungan obat keluarga kami, dok..? --> edukasi ya,
+- `batch_2_6f_04_prompt_001` (2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx, medium): Klinis: vertigo sentral?
+- `batch_2_6f_04_prompt_002` (2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx, medium): Apakah diagnosis kerja sudah diikut pemeriksaan penunjang?
+- `batch_2_6f_04_prompt_003` (2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx, medium): Apakah ada diagnosis banding?
+- `batch_2_6f_04_prompt_004` (2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx, medium): Rehidrasi: infus? NGT?
+- `batch_2_6f_04_prompt_005` (2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx, medium): Dibutuhkan fasilitas untuk penegakan diagnosis dan pemberian tatalaksana untuk etiologi. Contoh: curiga disebabkan stroke. Butuh CT-scan kepala nonkontras? Butuh SpN?
+- `batch_2_6f_05_prompt_001` (ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx, low): ECT juga merupakan terapi pilihan untuk:
+- `batch_2_6f_05_prompt_002` (ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx, low): Informed consent harus terdokumentasi dalam rekam medis px dan memasukkan diskusi tentang penyakit, perjalanannya, dan pilihan untuk tidak menerima pengobatan.
+- `batch_2_6f_05_prompt_003` (ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx, medium): faktor biologis, sosial psikologis?
+- `batch_2_6f_05_prompt_004` (ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx, medium): masa lalu vs masa kini?
+- `batch_2_6f_05_prompt_005` (ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx, medium): pikiran vs perasaan atau tindakan?
+- `batch_2_6f_05_prompt_006` (ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx, medium): Aktif – pasif?
+- `batch_2_6f_05_prompt_007` (ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx, medium): Prosedurnya fixed – fleksibel?
+- `batch_2_6f_09_prompt_001` (delerium FKIK UNJA (1).docx, medium): Tanyakan pada individu/pelaku rawat: Sejak kapan & usia saat awitan? Perburukan gejala&hendaya? Awitan mendadak atau bertahap?
+- `batch_2_6f_09_prompt_002` (delerium FKIK UNJA (1).docx, medium): Apakah awitan terkait dengan cedera kepala, pingsan atau stroke? Apakah gejala memburuk di malam hari?
+- `batch_2_6f_09_prompt_003` (delerium FKIK UNJA (1).docx, medium): Adakah rasa mengantuk atau perubahan kesadaran?
+- `batch_2_6f_09_prompt_004` (delerium FKIK UNJA (1).docx, low): komunikasi singkat dan jelas (satu instruksi/pertanyaan dalam satu
+- `batch_2_6f_10_prompt_001` (dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.docx, medium): MER em S| [can yougive some detain [IS (mustgverewantoetai ”—”—”| tersebuty (diulangWsetiapMharin campet/ Aer > 73 kendewnj [wnat time isitnow? 1S [itor each nattnour error ete. oe [wnatcayormeweekisn? [73 | ttoreacnaayerrorete | tercapai [wnat day ote mons tre taste) | 18 ¥Yoreach day ero. ete + [wnatisttemonn? «dt 18 Storeachmoninerer——*d
+- `batch_2_6f_10_prompt_002` (dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.docx, medium): 1 & 1 ? d
+- `batch_2_6f_11_prompt_001` (dr.Fatmawati,Sp.KJ-Gangguan Somatoform (1).docx, low): Psikoterapi, — ¥ i = SL + Merupakan pilihan terapi gan gangguan pasien dibantu berad jalanya, mengekspresikan emosi yang mendasar un strategi alternatif untuk | + Psikoterapi bentuk lainnya, misalnya yang berorientasi pada . pandangan per individu, terapi tingkah laku, terapi kognitif, dan hipnotis dapat membantu. Tn
+- `batch_2_6f_12_prompt_001` (legal-etik-jiwa.docx, low): Pilihan perawatan
+- `batch_2_6f_13_prompt_001` (prilaku profesional dan Pemeriksaan Psikiatri.docx, medium): Apakah rapport itu?
+- `batch_2_6f_13_prompt_002` (prilaku profesional dan Pemeriksaan Psikiatri.docx, low): Tanyakan nama pasien serta bagaimana sebaiknya memanggil pasien.
+- `batch_2_6f_13_prompt_003` (prilaku profesional dan Pemeriksaan Psikiatri.docx, low): Lanjutkan dengan pertanyaan ringan (cth: bagaimana perjalanan pasien sampai ke tempat pewawancara)
+- `batch_2_6f_13_prompt_004` (prilaku profesional dan Pemeriksaan Psikiatri.docx, low): Dapat digunakan pertanyaan-pertanyaan, seperti :
+- `batch_2_6f_13_prompt_005` (prilaku profesional dan Pemeriksaan Psikiatri.docx, medium): apa yang sedang mengganggu anda?
+- `batch_2_6f_13_prompt_006` (prilaku profesional dan Pemeriksaan Psikiatri.docx, medium): apa yang saat ini anda rasakan?
+- `batch_2_6f_13_prompt_007` (prilaku profesional dan Pemeriksaan Psikiatri.docx, medium): apa yang bisa saya bantu? Dapatkah anda menceritakan..?
+- `batch_2_6f_13_prompt_008` (prilaku profesional dan Pemeriksaan Psikiatri.docx, low): Teknik pertanyaan terbuka (open-ended questions) di awal wawancara akan membuat pasien menceritakan masalahnya dengan kata-kata pasien sendiri. Pertanyaan yang membantu di antaranya adalah:
+- `batch_2_6f_13_prompt_009` (prilaku profesional dan Pemeriksaan Psikiatri.docx, medium): “Bagaimana saya dapat membantu anda?” “Apa yang bisa saya bantu?”
+- `batch_2_6f_13_prompt_010` (prilaku profesional dan Pemeriksaan Psikiatri.docx, medium): “Masalah apa yang membawa anda ke sini?”
+- `batch_2_6f_13_prompt_011` (prilaku profesional dan Pemeriksaan Psikiatri.docx, medium): “Darimana sebaiknya kita mulai?”
+- `batch_2_6f_13_prompt_012` (prilaku profesional dan Pemeriksaan Psikiatri.docx, low): Dikombinasikan dengan beberapa pertanyaan tertutup (close-ended questions) untuk menelusuri kata kunci atau menanyakan hal yang spesifik, detil-detil yang dibutuhkan untuk diagnosis
+- `batch_2_6f_13_prompt_013` (prilaku profesional dan Pemeriksaan Psikiatri.docx, medium): D : Sudah berapa lama anda mengalami keluhan sulit tidur?
+- `batch_2_6f_13_prompt_014` (prilaku profesional dan Pemeriksaan Psikiatri.docx, medium): belakangan ini?
+- `batch_2_6f_13_prompt_015` (prilaku profesional dan Pemeriksaan Psikiatri.docx, medium): tidur lagi?
+- `batch_2_6f_13_prompt_016` (prilaku profesional dan Pemeriksaan Psikiatri.docx, low): Pendekatan yang baik adalah dengan mengkombinasikan keduanya dari pertanyaan luas ke pertanyaan yang terfokus dan tajam.
+- `batch_2_6f_13_prompt_017` (prilaku profesional dan Pemeriksaan Psikiatri.docx, low): Memulai topik baru dengan pertanyaan terbuka yang luas; lanjutkan dengan memfokuskan pada satu topik target; akhiri dengan serial pertanyaan yang semakin menyempit, sesekali tertutup – tipe ya/tidak.
+- `batch_2_6f_13_prompt_018` (prilaku profesional dan Pemeriksaan Psikiatri.docx, low): Jika ingin menghindari pertanyaan tertutup, gunakan pertanyaan terbuka yang tajam dan fokus.
+- `batch_2_6f_13_prompt_019` (prilaku profesional dan Pemeriksaan Psikiatri.docx, medium): “Apakah anda mengalami sulit tidur?” (jawaban yang muncul adalah: ya atau tidak)
+- `batch_2_6f_13_prompt_020` (prilaku profesional dan Pemeriksaan Psikiatri.docx, medium): “Apa yang terjadi saat anda mencoba tidur?”
+- `batch_2_6f_13_prompt_021` (prilaku profesional dan Pemeriksaan Psikiatri.docx, medium): “anda merasa sedih. Kapan waktu anda merasa paling sedih?”
+- `batch_2_6f_13_prompt_022` (prilaku profesional dan Pemeriksaan Psikiatri.docx, medium): “lalu..” “apa yang terjadi kemudian?”
+- `batch_2_6f_13_prompt_023` (prilaku profesional dan Pemeriksaan Psikiatri.docx, medium): “Saya sangat menghargai anda menceritakan kepada saya bahwa anda berhenti meminum obat. Dapatkah anda memberitahukan kepada saya, apa masalahnya?
+- `batch_2_6f_13_prompt_024` (prilaku profesional dan Pemeriksaan Psikiatri.docx, low): Pertanyaan kunci untuk mendeteksi gangguan jiwa di fasilitas kesehatan primer:
+- `batch_2_6f_13_prompt_025` (prilaku profesional dan Pemeriksaan Psikiatri.docx, medium): Apakah Anda mengalami kesulitan tidur di malam hari?
+- `batch_2_6f_13_prompt_026` (prilaku profesional dan Pemeriksaan Psikiatri.docx, medium): Apakah Anda merasa seolah tidak tertarik untuk melakukan kegiatan yang biasa Anda lakukan?
+- `batch_2_6f_13_prompt_027` (prilaku profesional dan Pemeriksaan Psikiatri.docx, medium): Apakah Anda merasa sedih akhir-akhir ini?
+- `batch_2_6f_13_prompt_028` (prilaku profesional dan Pemeriksaan Psikiatri.docx, medium): Apakah Anda merasa takut terhadap apapun?
+- `batch_2_6f_13_prompt_029` (prilaku profesional dan Pemeriksaan Psikiatri.docx, low): ide meluap-luap, kemiskinan ide, flight of ideas, berpikir cepat, berpikir lambat, apakah pasien berbicara secara spontan atau hanya menjawab ketika pertanyaan diajukan, arus pikiran.
+- `batch_2_6f_13_prompt_030` (prilaku profesional dan Pemeriksaan Psikiatri.docx, low): apakah jawaban pasien sesuai dengan pertanyaan, apakah jawaban terarah, relevan atau tidak relevan, asosiasi longgar, kurangnya hubungan sebab akibat dalam menjelaskan sesuatu, tidak logis, tangensial, circumstantial, bertele-tele, perseverasi , blocking.
+- `batch_2_6f_13_prompt_031` (prilaku profesional dan Pemeriksaan Psikiatri.docx, low): Pertanyaan yang membantu di antaranya adalah:
+- `batch_2_6f_13_prompt_032` (prilaku profesional dan Pemeriksaan Psikiatri.docx, low): Dikombinasikan dengan beberapa pertanyaan tertutup (close-ended questions) untuk menelusuri kata kunci atau menanyakan hal yang spesifik, detil-detil yang dibutuhkan untuk diagnosis
+- `batch_2_6f_13_prompt_033` (prilaku profesional dan Pemeriksaan Psikiatri.docx, low): Pendekatan yang baik adalah dengan mengkombinasikan keduanya dari pertanyaan luas ke pertanyaan yang terfokus dan tajam.
+- `batch_2_6f_14_prompt_001` (✅28_4_25 GGN KEPRIBADIAN DAN PERILAKU MASA DEWASA_compressed.docx, medium): suka liat yg arch ?
+
+Post-generation surface polish applied: wording-heavy generated fields were rewritten to read more naturally while provenance and reconstruction flags were preserved.

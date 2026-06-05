@@ -1,0 +1,33 @@
+{
+  "validated_at": "2026-06-03T18:11:24.537636",
+  "results": [
+    {
+      "name": "original_exam_set",
+      "file": "original_exam_sets/orig_exam_batch_2_mcq_6_3_trapezius.json",
+      "schema": "original_exam_set.schema.json",
+      "status": "pass",
+      "error": null
+    },
+    {
+      "name": "quiz_bank",
+      "file": "quiz_bank/batch_2_mcq_6_3_trapezius.quiz_bank.json",
+      "schema": "quiz_bank.schema.json",
+      "status": "pass",
+      "error": null
+    },
+    {
+      "name": "glossary",
+      "file": "glossary/batch_2_mcq_6_3_trapezius.glossary.json",
+      "schema": "glossary.schema.json",
+      "status": "pass",
+      "error": null
+    },
+    {
+      "name": "content_link_map",
+      "file": "content_link_map/content_link_map.generated.json",
+      "schema": "content_link_map.schema.json",
+      "status": "pass",
+      "error": null
+    }
+  ]
+}

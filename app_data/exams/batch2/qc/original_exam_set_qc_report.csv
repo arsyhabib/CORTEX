@@ -1,0 +1,2 @@
+exam_set_id,block,year,title,question_count,reconstruction_level,has_answer_key,has_explanations,qc_status,notes
+orig_exam_batch_2_mcq_6_3_trapezius,mixed,0,MCQ 6.3 TRAPEZIUS - Reconstructed Original Exam Set,51,reconstructed,partial,yes,pass_with_manual_review,51 numbered items preserved; 0 blank answers; unresolved items explicitly labeled with concept or manual-review placeholders.

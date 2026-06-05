@@ -1,0 +1,5141 @@
+{
+  "id": "batch_1_6e_08",
+  "batch_id": "batch_1_6E",
+  "batch_label": "Batch 1 / 6E",
+  "block": "5e",
+  "title": "MIKROORGANISME PENYEBAB INFEKSI",
+  "subtitle": "Neurology lecturer-derived structured content; source-preserving extraction.",
+  "source_pdf": "source_docs/6E/MIKROORGANISME PENYEBAB INFEKSI.docx",
+  "source_docx": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+  "source_pages": [],
+  "summary": [
+    "Modul MIKROORGANISME PENYEBAB INFEKSI disusun ulang sebagai materi terstruktur untuk neurologi batch 1/6e, dengan jejak sumber tetap dipertahankan.",
+    "Fokus inti yang ditarik dari sumber: MIKROORGANISME PENYEBAB INFEKSI PADA SSP.",
+    "Fokus inti yang ditarik dari sumber: Etiologi dan Faktor risiko.",
+    "Fokus inti yang ditarik dari sumber: Diagnosis Mikrobiologi.",
+    "Contoh pesan inti dari sumber: MIKROORGANISME PENYEBAB INFEKSI PADA SSP."
+  ],
+  "exam_focus": [
+    "Etiologi dan Faktor risiko.",
+    "Diagnosis Mikrobiologi.",
+    "Kuman mungkin dapat ditemukan pada kerokan (scrapping) lesi kulit yang mengalami ulserasi → diagnosis mikrobiologi.",
+    "Terapi antibiotic sebelum kultur → gagal tumbuh pada media, sering tumbuh pada zone.",
+    "Diagnosis mikrobiologi meningitis bakterial akut.",
+    "Punksi LCS → minimal 3 tabung, 1. hematologi/seluler, 2. pemeriksaan mikrobiologi (harus steril, volume minimal 2cc tetapi lebih banyak lebih baik), 3. kimia dan hematologic.",
+    "Prinsip terapi antibiotik pada meningitis bakterial akut.",
+    "Terapi empirik segera setelah pengambilan sampel mikrobiologi."
+  ],
+  "sections": [
+    {
+      "id": "batch_1_6e_08_s01",
+      "title": "MIKROORGANISME PENYEBAB INFEKSI PADA SSP.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Hanina FKIK UNJA.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 6,
+        "section_end_paragraph": 6
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s02",
+      "title": "Etiologi dan Faktor risiko.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Tujuan Pembelajaran.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 19,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Patogenesis dan imunologi.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 20,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 19,
+        "section_end_paragraph": 20
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s03",
+      "title": "Infeksi SSP dan SST jarang, tetapi seringkali fatal (kematian.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": ">>, kecacatan>>).",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 29,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 29,
+        "section_end_paragraph": 29
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s04",
+      "title": "Faktor risiko:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Usia: neonatus, bayi, lansia.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 32,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Penyakit yang mendasari (DM, imunokompromis).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 33,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Lingkungan yang padat.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 34,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Traveler (distribusi geografi dan musim).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 35,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "20XX presentation title 3.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 42,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 32,
+        "section_end_paragraph": 42
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s05",
+      "title": "Etiologi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Flora normal: tidak ada.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 45,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Meningitis bakterial akut: S. pneumoniae, H. influenzae, N. meningitidis.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 46,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 45,
+        "section_end_paragraph": 46
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s06",
+      "title": "Ensefalitis/ meningoensefalitis: herpes virus, Japanese.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Encephalitis B, rabies).",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 48,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Abses otak: mixed flora aerobik dan anaerobik.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 49,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Infeksi SSP subkronik, kronik: meningitis tuberkulosa, oportunistik pada immunocompromised (Cryptococcosis), unconventional agents: prion.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 50,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 48,
+        "section_end_paragraph": 50
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s07",
+      "title": "Infeksi medulla spinalis (poliomyelitis): tetanus.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "20XX presentation title 4.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 62,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 62,
+        "section_end_paragraph": 62
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s08",
+      "title": "Mikroba dapat mencapai SSP/ SST melalui cara:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Hematogen → paling banyak (mis. polio, meningokokus).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 67,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Asenderen melalui saraf tepi (rabies, herpes simpleks, varicella zoster).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 68,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Asenderen melalui traktus olfaktorius (amoeba).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 69,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Invasi lokal dari fokus infeksi di telinga/ sinus, trauma kepala atau defek seperti spina bifida,.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 70,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Meningokel.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 71,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 67,
+        "section_end_paragraph": 71
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s09",
+      "title": "Mekanisme imunitas terhadap infeksi.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Kranium dan meningens: protektif melindungi otak scr umum (fisik).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 78,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Sel mikroglia: melakukan fagositosis sel yang menyerang SSP.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 79,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Sawar otak (blood brain barrier).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 80,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Barrier t.d. dinding kapiler, pleksus koroid dan arakhnoid → hambat masuknya patogen di dalam.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 81,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Darah ke dalam SSP.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 82,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Pada bayi belum terbentuk sempurna → bakteremia mudah meluas menjadi infeksi SSP.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 83,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Menahan difusi makromolekul (complement, IgM, IgA, IgG) → LCS miskin substansi antiinfeksi.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 84,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Sistem limfatik: tidak ada. Rekrutmen lekosit terjadi melalui darah.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 85,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "20XX presentation title 6.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 98,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 78,
+        "section_end_paragraph": 98
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s10",
+      "title": "KARAKTERISTIK",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Mikroskopis: Diplokokus Gram (-), bentuk spt ginjal, berkapsul, sering intrasel PMN.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 102,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Faktor virulensi: kapsul polisakarida (antifagositosis), endotoksin, protease IgA.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 103,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Fastidious, CO2 10% (kapnofilik).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 104,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Kultur: media coklat agar Thayer Martin.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 105,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 102,
+        "section_end_paragraph": 105
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s11",
+      "title": "EPIDEMIOLOGI",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Resiko infeksi meningkat pada bayi usia lebih dari 2 thn (Ig ibu sudah negative).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 108,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 108,
+        "section_end_paragraph": 108
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s12",
+      "title": "PATOGENESIS",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Penyakit: meningitis, asimtomatik pd nasofaring → infeksi terjadi krn meningokoksemia translokasi bakteri ke darah → menuju SSP (hematogen).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 110,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Infeksi sering didahului ISPA viral: - integritas mukosa rusak → translokasi ↑ - sekresi pernapasan.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 111,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "↑ → transmisi (droplet)↑.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 112,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 110,
+        "section_end_paragraph": 112
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s13",
+      "title": "GAMBARAN KLINIS",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Haemorragic skin rash pada daerah ekstensor penderita meningokoksemia.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 116,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Bagian tengah lesi dapat menjadi purulen, nekrotik, dan ulserasi.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 117,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Kuman mungkin dapat ditemukan pada kerokan (scrapping) lesi kulit yang mengalami ulserasi → diagnosis mikrobiologi.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 118,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Perdarahan dan nekrosis adrenal.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 119,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Hipoglikemia berat (sindroma Waterhouse- Friederichsen).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 120,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 116,
+        "section_end_paragraph": 120
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s14",
+      "title": "PENCEGAHAN",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Vaksinasi: vaksin polisakarida tetravalent (A, C, Y, W-135).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 123,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Kemoprofilaksis pada kontak erat penderita dalam 7 hari terakhir dengan rifampin,.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 124,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ceftriakson, ciprofloxacin.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 125,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 123,
+        "section_end_paragraph": 125
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s15",
+      "title": "KARAKTERISTIK",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Mikroskopis: diplokokus Gram (+), berkapsul.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 129,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Kultur: - media agar darah → hemolysis α - produksi autolisin → koloni pada kultur menipis dan mati > 48 jam.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 130,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Faktor virulensi: kapsul polisakarida, pneumolisin, adhesin.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 131,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Antigen bakteri dapat ditemukan pada urin, LCS, efusi pleura → diagnostik.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 132,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Dikenal > 90 serotipe → pathogen +/- 30 serotipe.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 133,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 129,
+        "section_end_paragraph": 133
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s16",
+      "title": "EPIDEMIOLOGI",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada: .",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 135,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Bayi usia 6 bln-2 thn (Ig ibu sudah (-), belum membentuk Ig sendiri) → pentingnya.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 136,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Imunisasi pada usia 2, 4, 6, 18 bln.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 137,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Lansia > 65 tahun.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 138,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 135,
+        "section_end_paragraph": 138
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s17",
+      "title": "Infeksi terjadi krn translokasi bakteri ke darah → SSP (hematogen).",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Infeksi sering didahului ISPA viral: integritas mukosa rusak → translokasi ↑ sekresi pernapasan ↑ → transmisi (droplet)↑.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 143,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Invasive pneumococcal diseases: meningitis, bacteremia, sepsis, osteomyelitis, septic.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 144,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Arthritis, endocarditis, peritonitis, pericarditis, abses otak.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 145,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Non-invasive pneumococcal diseases: bronchitis, rhinitis, acute sinusitis, otitis media, conjunctivitis, cellulitis.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 146,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 143,
+        "section_end_paragraph": 146
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s18",
+      "title": "PENCEGAHAN",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Vaksinasi: target: usia < 2th, > 65th, dan usia 2-64 tahun dengan imunodefisiensi.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 149,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Vaksin konjugat 13 valen (semua umur, masa proteksi panjang, serotipe terbatas).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 150,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Vaksin polisakarida 23 valen (umur > 2th, masa proteksi pendek serotipe > lengkap.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 151,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Kemoprofilaksis: hanya pada pasien imunodefisiensi, dg penisilin oral.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 152,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 149,
+        "section_end_paragraph": 152
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s19",
+      "title": "KARAKTERISTIK",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Mikroskopis: non-motil, Gram-negatif coccobacil.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 156,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 156,
+        "section_end_paragraph": 156
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s20",
+      "title": "Kultur: fastidious ฀ coklat agar (factor X dan V), CO2 5%.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Sensitivitas diagnostik rendah.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 158,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Terapi antibiotic sebelum kultur → gagal tumbuh pada media, sering tumbuh pada zone.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 159,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hemolysis S. aureus (satellite phenomenon).",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 160,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Serotipe: Strain berkapsul → serotipe a, b, c, d, e, f.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 161,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Strain tak berkapsul → nontypable H.influenzae (NTHi).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 162,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 158,
+        "section_end_paragraph": 162
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s21",
+      "title": "EPIDEMIOLOGI",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "5-20 % populasi: carrier H. influenzae asimtomatik pd nasofaring.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 164,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Resiko infeksi meningkat pada bayi usia 6 bln - 2 thn (Ig ibu sudah negatif).",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 165,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 164,
+        "section_end_paragraph": 165
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s22",
+      "title": "PATOGENESIS",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Carrier H. influenzae asimtomatik pd nasofaring → infeksi terjadi krn translokasi bakteri ke darah → SSP (hematogen).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 169,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Infeksi sering didahului ISPA viral: - integritas mukosa rusak → translokasi ↑ - sekresi.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 170,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pernapasan ↑ → transmisi (droplet)↑.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 171,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Faktor virulensi: kapsul polisakarida, lipooligosakarida (LOS).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 172,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Serotipe b (Hib): meningitis, epiglotitis, sepsis terutama pd bayi /anak balita.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 173,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Serotipe a, c, d, e, f: meningitis, sepsis, pneumonia pada orang dewasa (struktur kapsul mirip Hib, tetapi sebaran geografis tertentu).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 174,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Non-typeable (NTHi): otitis media, sinusitis, trakeobronkhitis, pneumonia.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 175,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 169,
+        "section_end_paragraph": 175
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s23",
+      "title": "PENCEGAHAN",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Vaksinasi: < 2th - vaksin konjugat Hib (umur < 2thn).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 177,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 177,
+        "section_end_paragraph": 177
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s24",
+      "title": "Vaksin konjugat NTHi → tidak protektif untuk meningitis.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Kemoprofilaksis: kontak erat dg penderita dlm 7 hari terakhir: rifamipicin 10-20 mg/kgBB (4.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 179,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hari).",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 180,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 179,
+        "section_end_paragraph": 180
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s25",
+      "title": "Diagnosis mikrobiologi meningitis bakterial akut.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Material: LCS (utama), darah, scrapping lesi purulent (jika curiga meningococcus).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 188,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Punksi LCS → minimal 3 tabung, 1. hematologi/seluler, 2. pemeriksaan mikrobiologi (harus steril, volume minimal 2cc tetapi lebih banyak lebih baik), 3. kimia dan hematologic.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 189,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 188,
+        "section_end_paragraph": 189
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s26",
+      "title": "Pemeriksaan:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Pengecatan Gram.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 191,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Kultur pada 3 media: agar darah, coklat agar, dan macconkey inkubasi mikroaerofilik/ kapnofilik.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 192,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Harus disebutkan pada lembar permintaan kultur, karena meningococcus dan H. influenzae.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 193,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Membutuhkan media dan perlakuan khusus.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 194,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 191,
+        "section_end_paragraph": 194
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s27",
+      "title": "Prinsip terapi antibiotik pada meningitis bakterial akut.",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Upaya diagnostik (pengecatan, kultur, dll.) diambil sebelum pemberian antibiotik.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 202,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 202,
+        "section_end_paragraph": 202
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s28",
+      "title": "Terapi empirik segera setelah pengambilan sampel mikrobiologi.",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Setelah preliminary report (co., pengecatan Gram, BTA, hematologi LCS) → terapi pre-emptive.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 204,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Terapi definitif diberikan setelah ada hasil identifikasi (ID) dan uji kepekaan antibiotik (AST).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 205,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 204,
+        "section_end_paragraph": 205
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s29",
+      "title": "Blood brain barrier (BBB):",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Konsentrasi antibiotik dalam LCS <<< dibanding dalam darah.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 207,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Hanya AB yang hidrofobik (lipofilik) dapat mencapai LCS.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 208,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "20XX presentation title 14.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 222,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 207,
+        "section_end_paragraph": 222
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s30",
+      "title": "Strictly aerobic",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Dinding sel unik (lemak tinggi (mycolic acids) + 60%) → basil tahan asam.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 227,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Bukan gram-positif atau gram-negatif (tidak tercat baik dengan Gram).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 228,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Doubling time 18 jam → kultur butuh waktu lama.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 229,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Relatif resistant dengan asam dan alkali dan terhadap pengeringan.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 230,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 227,
+        "section_end_paragraph": 230
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s31",
+      "title": "DIAGNOSIS MIKROBIOLOGI",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Material: LCS.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 234,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Kimia dan seluler.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 235,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Pengecatan BTA.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 236,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Kultur TB kultur >5 cc.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 237,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "PCR (co., Gene Xpert).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 238,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 234,
+        "section_end_paragraph": 238
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s32",
+      "title": "Virus penyebab infeksi system saraf.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Sebagian besar infeksi yang disebabkan virus dimulai di perifer ฀ menginduksi respon imun thd virus ฀ interferon (innate), T cell & antibodi (adaptif).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 246,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Infeksi virus yang bisa “escape” dikarenakan replikasi besar2an atau respon imun berlebih.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 247,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Jika terjadi di otak: meningitis, encephalitis, meningoencephalitis atau bahkan kematian.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 248,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Zoonosis: Rabies virus, West nile virus, Nipah virus.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 249,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Virus manusia: Epstein-Barr virus, human cytomegalovirus, JC virus, Herpes simplex virus, varicella zoster virus.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 250,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "20XX presentation title 16.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 266,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 246,
+        "section_end_paragraph": 266
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s33",
+      "title": "KLASIFIKASI",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Ensefalitis primer: virus langsung menyerang otak → infeksi dpt terbatas pd satu area atau meluas ke seluruh otak, Dapat terjadi akibat reaktivasi dari infeksi virus yg telah menjadi inaktif (laten) dari infeksi sblmnya.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 270,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Ensefalitis sekunder: Terjadi 2-3 minggu s.d bertahun-tahun stlh infeksi inisial, Akibat sistem imun menyerang neuron sendiri.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 271,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Faktor risiko: bayi/ anak kecil dan lansia (Kecuali Ensefalitis krn herpes simpleks lebih banyak pada usia 20-40 th), Defisiensi imun seluler, Regio geografis: vektor dan musim.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 272,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 270,
+        "section_end_paragraph": 272
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s34",
+      "title": "PENYEBAB",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Herpes simplex virus (HSV), Epstein-Barr virus, varicella-zoster virus.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 274,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Mosquito-born viruses (arbovirus): Japanese encephalitis B virus, West Nile dsb.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 275,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Enteroviruses.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 276,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Rabies.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 277,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Tick-borne viruses: Powassan virus.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 278,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Virus penyebab infeksi lazim pada anak: Campak, rubella, gondong (ensefalitis sekunder).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 279,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 274,
+        "section_end_paragraph": 279
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s35",
+      "title": "HSV-1",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Terutama lesi oral.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 284,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 284,
+        "section_end_paragraph": 284
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s36",
+      "title": "Penyebab 10% ensefalitis herpes virus.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Terutama lesi genital.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 289,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 289,
+        "section_end_paragraph": 289
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s37",
+      "title": "INSIDENSI",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Herpesvirus lain (virus varicella zoster, CMV, Epstein-Barr) dapat menyebabkan ensfalitis (insidens lebih kecil).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 292,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Insidensi ensefalitis herpesvirus: 1/5 juta penduduk/ tahun, 6/100 ribu kelahiran.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 293,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 292,
+        "section_end_paragraph": 293
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s38",
+      "title": "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 295,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 295,
+        "section_end_paragraph": 295
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s39",
+      "title": "PATOGENESIS",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Virus asendern melalui Kulit sekitar mulut/ saraf perifer sensorik genital menuju ganglion radiks Kornea - keratitis dorsalis (replikasi, Vagina, serviks, latensi) urethra.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 299,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Retrogard ke kulit dan mukosa melalui akson saraf sensoris dapat mencapai otak.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 300,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 299,
+        "section_end_paragraph": 300
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s40",
+      "title": "(ensefalitis) dg cara melalui akson (asendern), vasa limfatik, darah.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Reaktivasi dapat terjadi dipicu oleh stress, menstruasi, paparan sinar ultraviolet.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 302,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Pada pasien imunokompromis, manifestasi lebih berat (ensefalitis, pneumonia, esophagitis, hepatitis, colitis, dan disseminated cutaneous disease).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 303,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 302,
+        "section_end_paragraph": 303
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s41",
+      "title": "DIAGNOSIS MIKROBIOLOGI",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Material: LCS, serum.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 306,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 306,
+        "section_end_paragraph": 306
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s42",
+      "title": "PENCEGAHAN",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Imunisasi aktif (Vaksinasi): hanya tersedia vaksin utk virus varicella zoster utk bayi usia > 12 bln (vaksin HSV (-)).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 311,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Imunisasi pasif: dengan serum hiperimun, terapi immunoglobulin, antibodi-monoclonal.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 312,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pada pasien imunokompromis yang terpapar lesi herpes.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 313,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Persalinan per abdominal bila ibu memiliki lesi herpes genital aktif.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 314,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Kemoprofilaksis: asiklovir profilaksis pada persalinan ibu dengan riwayat herpes genitalis.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 315,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 311,
+        "section_end_paragraph": 315
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s43",
+      "title": "PENGOBATAN",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Asiklovir, falasiklovir, famsiklovir.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 318,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Imunoglobulin, antibody-monoklonal.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 319,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 318,
+        "section_end_paragraph": 319
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s44",
+      "title": "KARAKTERISTIK",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Kelompok Rhabdoviridae.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 323,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Bentuk spt peluru.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 324,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Ss RNA virus → mengkode 5 protein o enveloped.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 325,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 323,
+        "section_end_paragraph": 325
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s45",
+      "title": "PATOGENESIS",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Virus ada di saliva binatang yang terinfeksi rabies dan ditularkan melalui gigitan.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 327,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 327,
+        "section_end_paragraph": 327
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s46",
+      "title": "Virus bereplikasi pada tempat gigitan, tanpa gejala (fase inkubasi).",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Rabies berpindah ke ganglion spinalis dan medulla spinalis secara axoplasmik retrograde melalui nervus perifer (beberapa minggu/bulan) (fase prodromal).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 329,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Ketika virus sudah mencapai medulla spinalis, otak menjadi cepat terinfeksi.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 330,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Infeksi di otak menyebabkan gejala klasik rabies, koma, dan kematian (fase neurologik).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 331,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Selama fase neurologik, virus menyebar ke mata, kelenjar salivarius, kulit, dan organ lainnya.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 332,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Respon antibodi baru muncul setelah virus menyebar dari SSP ke organ lain.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 333,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 329,
+        "section_end_paragraph": 333
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s47",
+      "title": "DIAGNOSIS MIKROBIOLOGI",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Diagnosis laboratorik dini: sulit (korban tergigit sering seronegative hingga akhir perjalanan penyakit).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 337,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Diagnosis dibuat berdasarkan riwayat gigitan binatang dan informasi epidemiologi.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 338,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Isolasi virus dari saliva.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 339,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Deteksi genom dengan RT-PCR.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 340,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 337,
+        "section_end_paragraph": 340
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s48",
+      "title": "TERAPI",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Masa inkubasi lama → Human rabies immunoglobulin (IgG anti rabies) + vaksinasi → harus.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 344,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Diberikan pada masa inkubasi → jika tidak, hampir selalu fatal.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 345,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Ada satu laporan kasus yang berhasil dengan terapi ribavirin paska paparan.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 346,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Supportif.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 347,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 344,
+        "section_end_paragraph": 347
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s49",
+      "title": "PENCEGAHAN",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Vaksinasi hewan peliharaan yg rentan.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 351,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 351,
+        "section_end_paragraph": 351
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s50",
+      "title": "Kewaspadaan pasca gigitan setiap hewan mamalia:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Cuci dg air sabun untuk menghilangkan sisa saliva + povidone iodine.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 353,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Post-exposure vaccination.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 354,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Isolasi dan pengamatan hewan yang menggigit.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 355,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "O Pre-exposure vaccination (utk traveler, orang yang akan bekerja dg hewan mamalia).",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 356,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "If bitten, scratched or licked (on broken skin) by an animal: (THIS CAN BE LIFE SAVING) 1.Cleanse the wound with soap and water and a povidone- iodine solution if available. 2.Seek medical help for thorough deep-wound cleansing.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 358,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "3.Injections of rabies immune globulin and vaccines as prescribed. 4.Tetanus prophylaxis and antibacterial treatment when required. 5.No sutures (stitches) for wound closure, unless unavoidable.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 359,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Follow-up for completion of vaccine program and wound care.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 360,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Notify local health authorities immediately to assess the need for rabies post-exposure.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 361,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Vaccination, even if you have had pre- exposure vaccination.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 362,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 353,
+        "section_end_paragraph": 362
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s51",
+      "title": "Virus lain penyebab ensefalitis.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Banyak virus dapat menyebabkan meningoensefalitis → umumnya tidak seberat/sefatal.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 365,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 365,
+        "section_end_paragraph": 365
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s52",
+      "title": "Ensefalitis karena herpes simplex virus dan arbovirus.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Enterovirus, Echovirus, Coxackie virus, Lymphocytic chorio-meningitis virus, Togavirus,.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 367,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "HIV, dll.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 368,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Gejala klinik mungkin tidak dapat dibedakan dari infeksi SS karena penyebab lain.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 369,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 367,
+        "section_end_paragraph": 369
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s53",
+      "title": "DIAGNOSIS",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Hitung sel dan protein LCS.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 373,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 373,
+        "section_end_paragraph": 373
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s54",
+      "title": "PCR",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Serologi (tidak selalu tersedia alat diagnostic komersial.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 375,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 375,
+        "section_end_paragraph": 375
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s55",
+      "title": "KARAKTERISTIK",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Dulu: Japanese B encephalitis (kasus I di Jepang, 1871).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 380,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Merupakan salah satu penyebab terpenting ensefalitis pada anak dewasa di Asia dan Pasifik Barat (pedesaan).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 381,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Termasuk anggota flavivirus, (+) ss-RNA.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 382,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 380,
+        "section_end_paragraph": 382
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s56",
+      "title": "PATOGENESIS",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Transmisi melalui gigitan Culex (C. tritaeniorhynchus).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 385,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Bertelur di sawah yang diirigasi dan badan air terbuka.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 386,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Babi dan burung air → principal vertebrate amplifying hosts (hospes reservoir).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 387,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "< 1% gigitan nyamuk menimbulkan ensefalitis → 20-30% meninggal, 50% cacat neurologis berat.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 388,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Menyebar dari SSP ke organ lain.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 389,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 385,
+        "section_end_paragraph": 389
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s57",
+      "title": "MANIFESTASI KLINIK",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Inkubasi: 5-15 hari.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 393,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": ">>> asimtomatik, hanya 1: 250 simtomatik.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 394,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Demam, sakit kepala, muntah, perubahan status mental, disusul dengan gejala neurologis.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 395,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 393,
+        "section_end_paragraph": 395
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s58",
+      "title": "PENCEGAHAN DAN TERAPI",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Vaksin JE (umur >12 bln).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 399,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 399,
+        "section_end_paragraph": 399
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s59",
+      "title": "KARAKTERISTIK",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Picornaviridae (pico+RNA): virus berukuran kecil, +ss RNA, icosahedral, non-enveloped.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 404,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "3 tipe, 85% kasus paralisis oleh polio disebabkan oleh virus polio tipe 1.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 405,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Resistant to pH 3 to pH 9, detergents, mild sewage treatment, and heat.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 406,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 404,
+        "section_end_paragraph": 406
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s60",
+      "title": "PATOGENESIS",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Replikasi virus di orofaring dan mukosa usus → limfonodi → viremia → cornu anterior.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 409,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Medulla spinalis dan/atau korteks motorik otak.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 410,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 409,
+        "section_end_paragraph": 410
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s61",
+      "title": "MANIFESTASI KLINIK",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Paralisis flaksid asimetris.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 412,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Tidak ada kelainan sensorik.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 413,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 412,
+        "section_end_paragraph": 413
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s62",
+      "title": "DIAGNOSIS MIKROBIOLOGI",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Kultur virus.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 417,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Serologi.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 418,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 417,
+        "section_end_paragraph": 418
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s63",
+      "title": "Inactivated polio vaccine/ IPV.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Oral polio vaccine/ OPV (live- attenuated).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 424,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 424,
+        "section_end_paragraph": 424
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s64",
+      "title": "Etiologi:",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Jamur: Nocardia Cladosporium, Candida, Aspegillus.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 431,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Amoeba: Entamoeba histolytica.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 432,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "62% flora campuran, 25% kriptogenik.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 433,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 431,
+        "section_end_paragraph": 433
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s65",
+      "title": "Gejala utama: sakit kepala, demam yang tidak terlalu tinggi.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Gejala lain: mual, muntah, kaku kuduk, kejang, gangguan kepribadian, hemiparese.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 437,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 437,
+        "section_end_paragraph": 437
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s66",
+      "title": "Terapi: Antibiotik dan supportif (antikonvulsan).",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "20XX presentation title 29.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 444,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 444,
+        "section_end_paragraph": 444
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s67",
+      "title": "Meningitis granulomatosa → Coccidioides immitis.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Abses otak.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 453,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Granuloma otak.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 454,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 453,
+        "section_end_paragraph": 454
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s68",
+      "title": "Ensefalitis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "20XX presentation title 30.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 468,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 468,
+        "section_end_paragraph": 468
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s69",
+      "title": "KARAKTERISTIK",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "2 var: var. neoformans (Serotype A and D) dan var. gatti (Serotype B and C).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 472,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Distribusi worldwide - penyebab terbanyak cryptococcosis, 90% pada C. neoformans -.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 473,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 472,
+        "section_end_paragraph": 473
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s70",
+      "title": "Pasien imunokompromis (AIDS) → insidens berkurang dengan terapi ART.",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Neoformans var. gatti (Serotype B and C) - Sering pada pasien non-imunokompromis →.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 475,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 475,
+        "section_end_paragraph": 475
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s71",
+      "title": "Menyebabkan meningitis dan massa pseudotumor (cryptococcoma).",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Memiliki kapsul tebal → tahan terhadap panas, antiseptic, tahan pd lingkungan luar > 24 jam.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 477,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 477,
+        "section_end_paragraph": 477
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s72",
+      "title": "TERAPI",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Amphotericin B + flusitosin.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 483,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Flukonazole.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 484,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 483,
+        "section_end_paragraph": 484
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s73",
+      "title": "KARAKTERISTIK",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Gram-positif berspora terminal, anaerob.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 488,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Strain yg toksigenik menghasilkan eksotoksin tetanospasmin.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 489,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 488,
+        "section_end_paragraph": 489
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s74",
+      "title": "PATOGENESIS",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Spora banyak terdapat di tanah, khususnya tanah yg dipupuk.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 493,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Tetani terdapat pada usus manusia, kuda, dan mamallia lain.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 494,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Infeksi terjadi melalui kontaminasi luka kotor, dalam, dengan jaringan nekrotik (kondisi anaerob) ฀ pertumbuhan vegetatif dan produksi tetanospasmin ฀ spasme otot seran lintang dan otonom 63.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 495,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 493,
+        "section_end_paragraph": 495
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s75",
+      "title": "DIAGNOSIS MIKROBIOLOGI",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Pengecatan Gram dari apusan luka.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 499,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 499,
+        "section_end_paragraph": 499
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s76",
+      "title": "PENCEGAHAN",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Vaksinasi TT.",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 504,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Antitetanus serum (IgG anti tetanus).",
+              "children": [],
+              "provenance": {
+                "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+                "source_paragraph_index": 505,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Thank you.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "source_paragraph_index": 524,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "section_start_paragraph": 504,
+        "section_end_paragraph": 524
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s77",
+      "title": "Embedded visual material requiring downstream asset review.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Visual_asset_note",
+          "text": "Source DOCX contains 6 embedded image(s). Text extraction does not guarantee all visual labels/captions were captured; downstream Codex/asset pipeline should inspect embedded media before final compile.",
+          "embedded_image_count": 6,
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_embedded_review"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "embedded_image_count": 6
+      }
+    },
+    {
+      "id": "batch_1_6e_08_s78",
+      "title": "Penjelasan sederhana / simpler bilingual bridge.",
+      "kind": "Bilingual",
+      "content": [
+        {
+          "type": "Simplified_id",
+          "text": "Versi sederhana: materi ini terutama membahas mikroorganisme penyebab infeksi dengan fokus pada konsep klinis, diagnosis, tanda penting, dan tata laksana yang tampak di bahan dosen.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        },
+        {
+          "type": "Simplified_en",
+          "text": "Simple English bridge: this lecture centers on mikroorganisme penyebab infeksi, emphasizing clinical concepts, diagnosis, key signs, and management points extracted from the lecturer file.",
+          "provenance": {
+            "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_08_01",
+        "Visual_batch_1_6e_08_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_08_01",
+        "Quiz_batch_1_6e_08_02",
+        "Quiz_batch_1_6e_08_03"
+      ],
+      "glossary_refs": [
+        "Term_1_3_kasus",
+        "Term_2_3_kasus",
+        "Term_40_populasi",
+        "Term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn",
+        "Term_blood_brain_barrier_bbb",
+        "Term_clostridium_tetani",
+        "Term_cryptococcus_neoformans",
+        "Term_dan_kejang"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "generated_section": true
+      }
+    }
+  ],
+  "related_exam_set_ids": [],
+  "provenance": {
+    "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+    "manifest_document_id": "batch_1_6e_08",
+    "topic_tags": [
+      "Infection",
+      "Neuroinfection"
+    ],
+    "extraction_method": "python-docx paragraph/table extraction; embedded images counted but not OCRed",
+    "paragraph_count": 338,
+    "table_count": 0,
+    "embedded_image_count": 6
+  }
+}

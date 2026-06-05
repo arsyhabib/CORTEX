@@ -1,0 +1,10 @@
+check_id,domain,status,details
+source_accounted,source,pass,MCQ 6.E 2025.pdf accounted for with SHA-256 563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918
+required_folders,package,pass,All required top-level folders created.
+question_count,original_exam_sets,pass,40 main questions reconstructed.
+quiz_bank_scope,quiz_bank,pass,30 complete-option items included; incomplete items excluded.
+page4_recovery,original_exam_sets,pass,Q39 and Q40 recovered through visual inspection; page 4 OCR gap documented.
+deduplication,analysis_notes,pass,No duplicate source file; internal OCR merge Q22/Q23 handled.
+schema_block_enum,original_exam_sets,warning,Block set to mixed because schema enum does not include 6e; block_label stores 6E.
+placeholder_options,original_exam_sets,warning,Some archival items contain explicit missing-option placeholders and should not be used as active timed quiz items.
+excluded_artifact,analysis_notes,warning,Embedded Q75 page 4 excluded from main exam set identity; logged in excluded_reference_artifacts.md.

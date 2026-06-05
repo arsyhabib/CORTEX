@@ -1,0 +1,44 @@
+{
+  "id": "exam_recall_batch_1_6e_11",
+  "title": "Question-like recall prompts: Neuropaty Materi Ngajar Mei 2025 (1).",
+  "block": "5e",
+  "year": 0,
+  "year_label": "not stated in source; extracted from Batch 1/6E lecturer material",
+  "source_label": "Neuropaty Materi Ngajar Mei 2025 (1).docx.",
+  "page_route": "pages/exam_sets/exam_recall_batch_1_6e_11.html",
+  "question_count": 1,
+  "reconstruction_level": "Reconstructed",
+  "questions": [
+    {
+      "id": "exam_recall_batch_1_6e_11_q01",
+      "number": 1,
+      "stem": "? Pembedahan hasil tdk baik setelah 3-6 bln?",
+      "stem_original": "? Pembedahan hasil tdk baik setelah 3-6 bln.",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah 'Neuropaty Materi Ngajar Mei 2025 (1).docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 1091",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_11"
+      ],
+      "provenance": {
+        "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+        "source_paragraph_index": 1091,
+        "style": "List Paragraph"
+      }
+    }
+  ],
+  "provenance": {
+    "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+    "detection_method": "Question mark/interrogative phrase detection; not a validated original exam set."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "course_id": "cortex_question_domain_batch3",
+  "batch_id": "batch_3_pembahasan_2018",
+  "batch_label": "Batch 3 / Pembahasan MCQ 6.3 Akt 18 Tahun 2021",
+  "title": "CORTEX Question Domain Batch 3",
+  "source_files": [
+    {
+      "filename": "Pembahasan MCQ 6.3 Akt 18 Tahun 2021.docx",
+      "relative_path": "SOAL 6E 6F/Pembahasan MCQ 6.3 Akt 18 Tahun 2021.docx",
+      "sha256": "555f4af130be5ae260e5f34712c5253d717ed56d6867876f653e3cd3fb59cc2b",
+      "type": "docx"
+    }
+  ],
+  "output_domains": [
+    "original_exam_sets",
+    "quiz_bank",
+    "glossary",
+    "content_link_map",
+    "page_registry",
+    "course_manifest",
+    "analysis_notes",
+    "qc",
+    "visual_assets"
+  ],
+  "counts": {
+    "exam_sets": 1,
+    "questions": 75,
+    "quiz_items": 75,
+    "glossary_terms": 66,
+    "visual_assets": 2
+  },
+  "routes": {
+    "exam_set": "pages/exam_sets/batch3_pembahasan_mcq_6_3_akt_18_2021.html",
+    "quiz": "pages/quiz/batch3_pembahasan_mcq_6_3.html",
+    "glossary": "pages/glossary/batch3_pembahasan_mcq_6_3.html"
+  },
+  "compile_notes": "This package is source-driven and preserves line-level provenance for every reconstructed question."
+}

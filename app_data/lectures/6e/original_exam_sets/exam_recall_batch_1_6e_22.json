@@ -1,0 +1,125 @@
+{
+  "id": "exam_recall_batch_1_6e_22",
+  "title": "Question-like recall prompts: dr.Patrick - neurorehab.",
+  "block": "5e",
+  "year": 0,
+  "year_label": "not stated in source; extracted from Batch 1/6E lecturer material",
+  "source_label": "Dr.Patrick - neurorehab.docx",
+  "page_route": "pages/exam_sets/exam_recall_batch_1_6e_22.html",
+  "question_count": 4,
+  "reconstruction_level": "Reconstructed",
+  "questions": [
+    {
+      "id": "exam_recall_batch_1_6e_22_q01",
+      "number": 1,
+      "stem": "Apakah pasien mampu menutup bibir saat mencoba menelan.",
+      "stem_original": "•Apakah pasien mampu menutup bibir saat mencoba menelan.",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah 'dr.Patrick - neurorehab.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 847",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_22"
+      ],
+      "provenance": {
+        "source_document": "dr.Patrick - neurorehab.docx",
+        "source_paragraph_index": 847,
+        "style": "Normal"
+      }
+    },
+    {
+      "id": "exam_recall_batch_1_6e_22_q02",
+      "number": 2,
+      "stem": "Lihat atau palpasi dengan meletakkan jari pada laring, rasakan apakah terjadi elevasi laring yang menunjukan terjadinya proses menelan.  Monitor ada keterlambatan atau terjadi proses menelan yang inkomplit.",
+      "stem_original": "•Lihat atau palpasi dengan meletakkan jari pada laring, rasakan apakah terjadi elevasi laring yang menunjukan terjadinya proses menelan.  Monitor ada keterlambatan atau terjadi proses menelan yang inkomplit.",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah 'dr.Patrick - neurorehab.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 848",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_22"
+      ],
+      "provenance": {
+        "source_document": "dr.Patrick - neurorehab.docx",
+        "source_paragraph_index": 848,
+        "style": "Normal"
+      }
+    },
+    {
+      "id": "exam_recall_batch_1_6e_22_q03",
+      "number": 3,
+      "stem": "Minta pasien untuk menyuarakan huruf “aaaa.”  Monitor apakah?",
+      "stem_original": "•Minta pasien untuk menyuarakan huruf “aaaa.”  Monitor apakah.",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah 'dr.Patrick - neurorehab.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 849",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_22"
+      ],
+      "provenance": {
+        "source_document": "dr.Patrick - neurorehab.docx",
+        "source_paragraph_index": 849,
+        "style": "Normal"
+      }
+    },
+    {
+      "id": "exam_recall_batch_1_6e_22_q04",
+      "number": 4,
+      "stem": "Minta pasien berusaha membatukkan lendir, ulangi menyuarakan huruf aaa.  Monitor bagaimana suara yang terdengar. Mampukah pasien membersihkan jalan nafas dari air.",
+      "stem_original": "•Minta pasien berusaha membatukkan lendir, ulangi menyuarakan huruf aaa.  Monitor bagaimana suara yang terdengar. Mampukah pasien membersihkan jalan nafas dari air.",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah 'dr.Patrick - neurorehab.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 851",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_22"
+      ],
+      "provenance": {
+        "source_document": "dr.Patrick - neurorehab.docx",
+        "source_paragraph_index": 851,
+        "style": "Normal"
+      }
+    }
+  ],
+  "provenance": {
+    "source_document": "dr.Patrick - neurorehab.docx",
+    "detection_method": "Question mark/interrogative phrase detection; not a validated original exam set."
+  }
+}

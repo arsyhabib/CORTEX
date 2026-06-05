@@ -1,0 +1,53 @@
+{
+  "id": "batch_1_6e_16",
+  "batch_id": "batch_1_6E",
+  "batch_label": "Batch 1 / 6E",
+  "block": "5e",
+  "title": "Pemeriksaan klinis neuro 250523 133200.",
+  "subtitle": "Neurology lecturer-derived structured content; source-preserving extraction.",
+  "source_pdf": "source_docs/6E/Pemeriksaan klinis neuro_250523_133200.docx",
+  "source_docx": "Pemeriksaan klinis neuro_250523_133200.docx",
+  "source_pages": [],
+  "summary": [
+    "Modul Pemeriksaan klinis neuro 250523 133200 disusun ulang sebagai materi terstruktur untuk neurologi batch 1/6e, dengan jejak sumber tetap dipertahankan."
+  ],
+  "exam_focus": [],
+  "sections": [
+    {
+      "id": "batch_1_6e_16_s01",
+      "title": "Embedded visual material requiring downstream asset review.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Visual_asset_note",
+          "text": "Source DOCX contains 12 embedded image(s). Text extraction does not guarantee all visual labels/captions were captured; downstream Codex/asset pipeline should inspect embedded media before final compile.",
+          "embedded_image_count": 12,
+          "provenance": {
+            "source_document": "Pemeriksaan klinis neuro_250523_133200.docx"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_16_embedded_review"
+      ],
+      "quiz_refs": [],
+      "glossary_refs": [],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Pemeriksaan klinis neuro_250523_133200.docx",
+        "embedded_image_count": 12
+      }
+    }
+  ],
+  "related_exam_set_ids": [],
+  "provenance": {
+    "source_document": "Pemeriksaan klinis neuro_250523_133200.docx",
+    "manifest_document_id": "batch_1_6e_16",
+    "topic_tags": [],
+    "extraction_method": "python-docx paragraph/table extraction; embedded images counted but not OCRed",
+    "paragraph_count": 0,
+    "table_count": 0,
+    "embedded_image_count": 12
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pages": [
+    {
+      "page_id": 401,
+      "page_key": "page_exam_set_batch4_2022",
+      "page_type": "original_exam_set_detail",
+      "source": "original_exam_sets/batch4_soal_mcq_6_3_akt_19_tahun_2022.json",
+      "renderer": "exam_set_detail_renderer",
+      "route": "pages/original_exam_sets/batch4_soal_mcq_6_3_akt_19_tahun_2022.html"
+    },
+    {
+      "page_id": 402,
+      "page_key": "page_quiz_bank_batch4_2022",
+      "page_type": "quiz_bank",
+      "source": "quiz_bank/batch4_quiz_bank.generated.json",
+      "renderer": "quiz_bank_renderer",
+      "route": "pages/quiz_bank/batch4_2022.html"
+    },
+    {
+      "page_id": 403,
+      "page_key": "page_glossary_batch4_2022",
+      "page_type": "glossary",
+      "source": "glossary/batch4_glossary.generated.json",
+      "renderer": "glossary_renderer",
+      "route": "pages/glossary/batch4_2022.html"
+    },
+    {
+      "page_id": 404,
+      "page_key": "page_qc_batch4_2022",
+      "page_type": "qc_report",
+      "source": "analysis_notes/*.md",
+      "renderer": "markdown_report_renderer",
+      "route": "pages/qc/batch4_2022.html"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "pages": [
+    {
+      "page_id": "page_exam_index_batch_1",
+      "page_type": "original_exam_set_index",
+      "source": "original_exam_sets/*.json",
+      "renderer": "exam_set_index_renderer",
+      "route": "pages/original_exam_sets/index.html"
+    },
+    {
+      "page_id": "page_exam_mcq_6e_2025",
+      "page_type": "original_exam_set_detail",
+      "source": "original_exam_sets/mcq_6e_2025.original_exam_set.json",
+      "renderer": "exam_set_detail_renderer",
+      "route": "pages/original_exam_sets/mcq_6e_2025.html"
+    },
+    {
+      "page_id": "page_quiz_mcq_6e_2025",
+      "page_type": "quiz_bank_detail",
+      "source": "quiz_bank/mcq_6e_2025.quiz_bank.json",
+      "renderer": "quiz_bank_renderer",
+      "route": "pages/quiz_bank/mcq_6e_2025.html"
+    },
+    {
+      "page_id": "page_glossary_batch_1",
+      "page_type": "glossary_index",
+      "source": "glossary/batch_1_mcq_6e_2025.glossary.json",
+      "renderer": "glossary_renderer",
+      "route": "pages/glossary/batch_1_mcq_6e_2025.html"
+    }
+  ],
+  "registry_notes": "Page IDs are string-based because the return-package contract does not provide a strict page_registry schema."
+}

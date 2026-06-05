@@ -1,0 +1,318 @@
+{
+  "prompts": [
+    {
+      "id": "ai_prompt_batch_1_6e_01_01",
+      "domain": "neurology",
+      "title": "Ask this slide/topic: dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.",
+      "prompt": "Jelaskan materi 'dr. Sri Novianty, Sp.N - How To Treat Central Vertigo' dari dokumen 2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx secara bertahap: definisi, mekanisme, gejala/tanda, diagnosis banding, pemeriksaan, tatalaksana, komplikasi, dan high-yield point. Bedakan mana yang eksplisit di sumber dan mana yang inferensi.",
+      "linked_content_ids": [
+        "batch_1_6e_01"
+      ],
+      "recommended_page": 20,
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+      }
+    },
+    {
+      "id": "ai_prompt_batch_1_6e_02_01",
+      "domain": "neurology",
+      "title": "Ask this slide/topic: dr.Attiya - Gangguan Gerak.",
+      "prompt": "Jelaskan materi 'dr.Attiya - Gangguan Gerak' dari dokumen 26 dr.Attiya - Gangguan Gerak.docx secara bertahap: definisi, mekanisme, gejala/tanda, diagnosis banding, pemeriksaan, tatalaksana, komplikasi, dan high-yield point. Bedakan mana yang eksplisit di sumber dan mana yang inferensi.",
+      "linked_content_ids": [
+        "batch_1_6e_02"
+      ],
+      "recommended_page": 20,
+      "provenance": {
+        "source_document": "26 dr.Attiya - Gangguan Gerak.docx"
+      }
+    },
+    {
+      "id": "ai_prompt_batch_1_6e_03_01",
+      "domain": "neurology",
+      "title": "Ask this slide/topic: EF Infeksi.",
+      "prompt": "Jelaskan materi 'EF Infeksi' dari dokumen 6EF Infeksi.docx secara bertahap: definisi, mekanisme, gejala/tanda, diagnosis banding, pemeriksaan, tatalaksana, komplikasi, dan high-yield point. Bedakan mana yang eksplisit di sumber dan mana yang inferensi.",
+      "linked_content_ids": [
+        "batch_1_6e_03"
+      ],
+      "recommended_page": 20,
+      "provenance": {
+        "source_document": "6EF Infeksi.docx"
+      }
+    },
+    {
+      "id": "ai_prompt_batch_1_6e_04_01",
+      "domain": "neurology",
+      "title": "Ask this slide/topic: CENTRAL NEVROS SYSTEM INFECTION and Inflammation.",
+      "prompt": "Jelaskan materi 'CENTRAL NEVROS SYSTEM INFECTION and Inflammation' dari dokumen CENTRAL NEVROS SYSTEM INFECTION and Inflammation.docx secara bertahap: definisi, mekanisme, gejala/tanda, diagnosis banding, pemeriksaan, tatalaksana, komplikasi, dan high-yield point. Bedakan mana yang eksplisit di sumber dan mana yang inferensi.",
+      "linked_content_ids": [
+        "batch_1_6e_04"
+      ],
+      "recommended_page": 20,
+      "provenance": {
+        "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx"
+      }
+    },
+    {
+      "id": "ai_prompt_batch_1_6e_05_01",
+      "domain": "neurology",
+      "title": "Ask this slide/topic: CEREBRAL INFARK.",
+      "prompt": "Jelaskan materi 'CEREBRAL INFARK' dari dokumen CEREBRAL INFARK.docx secara bertahap: definisi, mekanisme, gejala/tanda, diagnosis banding, pemeriksaan, tatalaksana, komplikasi, dan high-yield point. Bedakan mana yang eksplisit di sumber dan mana yang inferensi.",
+      "linked_content_ids": [
+        "batch_1_6e_05"
+      ],
+      "recommended_page": 20,
+      "provenance": {
+        "source_document": "CEREBRAL INFARK.docx"
+      }
+    },
+    {
+      "id": "ai_prompt_batch_1_6e_06_01",
+      "domain": "neurology",
+      "title": "Ask this slide/topic: KULIAH BANGKITAN koas.",
+      "prompt": "Jelaskan materi 'KULIAH BANGKITAN koas' dari dokumen KULIAH BANGKITAN koas.docx secara bertahap: definisi, mekanisme, gejala/tanda, diagnosis banding, pemeriksaan, tatalaksana, komplikasi, dan high-yield point. Bedakan mana yang eksplisit di sumber dan mana yang inferensi.",
+      "linked_content_ids": [
+        "batch_1_6e_06"
+      ],
+      "recommended_page": 20,
+      "provenance": {
+        "source_document": "KULIAH BANGKITAN koas.docx"
+      }
+    },
+    {
+      "id": "ai_prompt_batch_1_6e_07_01",
+      "domain": "neurology",
+      "title": "Ask this slide/topic: Kuliah PA Neurologi.",
+      "prompt": "Jelaskan materi 'Kuliah PA Neurologi' dari dokumen Kuliah PA Neurologi.docx secara bertahap: definisi, mekanisme, gejala/tanda, diagnosis banding, pemeriksaan, tatalaksana, komplikasi, dan high-yield point. Bedakan mana yang eksplisit di sumber dan mana yang inferensi.",
+      "linked_content_ids": [
+        "batch_1_6e_07"
+      ],
+      "recommended_page": 20,
+      "provenance": {
+        "source_document": "Kuliah PA Neurologi.docx"
+      }
+    },
+    {
+      "id": "ai_prompt_batch_1_6e_08_01",
+      "domain": "neurology",
+      "title": "Ask this slide/topic: MIKROORGANISME PENYEBAB INFEKSI.",
+      "prompt": "Jelaskan materi 'MIKROORGANISME PENYEBAB INFEKSI' dari dokumen MIKROORGANISME PENYEBAB INFEKSI.docx secara bertahap: definisi, mekanisme, gejala/tanda, diagnosis banding, pemeriksaan, tatalaksana, komplikasi, dan high-yield point. Bedakan mana yang eksplisit di sumber dan mana yang inferensi.",
+      "linked_content_ids": [
+        "batch_1_6e_08"
+      ],
+      "recommended_page": 20,
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx"
+      }
+    },
+    {
+      "id": "ai_prompt_batch_1_6e_09_01",
+      "domain": "neurology",
+      "title": "Ask this slide/topic: Manajemen Pensa dan Koma - Koass.",
+      "prompt": "Jelaskan materi 'Manajemen Pensa dan Koma - Koass' dari dokumen Manajemen Pensa dan Koma - Koass.docx secara bertahap: definisi, mekanisme, gejala/tanda, diagnosis banding, pemeriksaan, tatalaksana, komplikasi, dan high-yield point. Bedakan mana yang eksplisit di sumber dan mana yang inferensi.",
+      "linked_content_ids": [
+        "batch_1_6e_09"
+      ],
+      "recommended_page": 20,
+      "provenance": {
+        "source_document": "Manajemen Pensa dan Koma - Koass.docx"
+      }
+    },
+    {
+      "id": "ai_prompt_batch_1_6e_10_01",
+      "domain": "neurology",
+      "title": "Ask this slide/topic: NYERI kepala 2.",
+      "prompt": "Jelaskan materi 'NYERI kepala 2' dari dokumen NYERI kepala 2.docx secara bertahap: definisi, mekanisme, gejala/tanda, diagnosis banding, pemeriksaan, tatalaksana, komplikasi, dan high-yield point. Bedakan mana yang eksplisit di sumber dan mana yang inferensi.",
+      "linked_content_ids": [
+        "batch_1_6e_10"
+      ],
+      "recommended_page": 20,
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx"
+      }
+    },
+    {
+      "id": "ai_prompt_batch_1_6e_11_01",
+      "domain": "neurology",
+      "title": "Ask this slide/topic: Neuropaty Materi Ngajar Mei 2025 (1).",
+      "prompt": "Jelaskan materi 'Neuropaty Materi Ngajar Mei 2025 (1)' dari dokumen Neuropaty Materi Ngajar Mei 2025 (1).docx secara bertahap: definisi, mekanisme, gejala/tanda, diagnosis banding, pemeriksaan, tatalaksana, komplikasi, dan high-yield point. Bedakan mana yang eksplisit di sumber dan mana yang inferensi.",
+      "linked_content_ids": [
+        "batch_1_6e_11"
+      ],
+      "recommended_page": 20,
+      "provenance": {
+        "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx"
+      }
+    },
+    {
+      "id": "ai_prompt_batch_1_6e_12_01",
+      "domain": "neurology",
+      "title": "Ask this slide/topic: PPT Diagnosing Vertigo and Dizziness.",
+      "prompt": "Jelaskan materi 'PPT Diagnosing Vertigo and Dizziness' dari dokumen PPT Diagnosing Vertigo and Dizziness.docx secara bertahap: definisi, mekanisme, gejala/tanda, diagnosis banding, pemeriksaan, tatalaksana, komplikasi, dan high-yield point. Bedakan mana yang eksplisit di sumber dan mana yang inferensi.",
+      "linked_content_ids": [
+        "batch_1_6e_12"
+      ],
+      "recommended_page": 20,
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+      }
+    },
+    {
+      "id": "ai_prompt_batch_1_6e_13_01",
+      "domain": "neurology",
+      "title": "Ask this slide/topic: PPT Gangguan Keseimbangan.",
+      "prompt": "Jelaskan materi 'PPT Gangguan Keseimbangan' dari dokumen PPT Gangguan Keseimbangan.docx secara bertahap: definisi, mekanisme, gejala/tanda, diagnosis banding, pemeriksaan, tatalaksana, komplikasi, dan high-yield point. Bedakan mana yang eksplisit di sumber dan mana yang inferensi.",
+      "linked_content_ids": [
+        "batch_1_6e_13"
+      ],
+      "recommended_page": 20,
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx"
+      }
+    },
+    {
+      "id": "ai_prompt_batch_1_6e_14_01",
+      "domain": "neurology",
+      "title": "Ask this slide/topic: Parkinson Disease (Aspek Klinis).",
+      "prompt": "Jelaskan materi 'Parkinson Disease (Aspek Klinis)' dari dokumen Parkinson Disease (Aspek Klinis).docx secara bertahap: definisi, mekanisme, gejala/tanda, diagnosis banding, pemeriksaan, tatalaksana, komplikasi, dan high-yield point. Bedakan mana yang eksplisit di sumber dan mana yang inferensi.",
+      "linked_content_ids": [
+        "batch_1_6e_14"
+      ],
+      "recommended_page": 20,
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx"
+      }
+    },
+    {
+      "id": "ai_prompt_batch_1_6e_15_01",
+      "domain": "neurology",
+      "title": "Ask this slide/topic: Patofisiologi stroke gizi.",
+      "prompt": "Jelaskan materi 'Patofisiologi stroke gizi' dari dokumen Patofisiologi stroke_gizi.docx secara bertahap: definisi, mekanisme, gejala/tanda, diagnosis banding, pemeriksaan, tatalaksana, komplikasi, dan high-yield point. Bedakan mana yang eksplisit di sumber dan mana yang inferensi.",
+      "linked_content_ids": [
+        "batch_1_6e_15"
+      ],
+      "recommended_page": 20,
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx"
+      }
+    },
+    {
+      "id": "ai_prompt_batch_1_6e_16_01",
+      "domain": "neurology",
+      "title": "Ask this slide/topic: Pemeriksaan klinis neuro 250523 133200.",
+      "prompt": "Jelaskan materi 'Pemeriksaan klinis neuro 250523 133200' dari dokumen Pemeriksaan klinis neuro_250523_133200.docx secara bertahap: definisi, mekanisme, gejala/tanda, diagnosis banding, pemeriksaan, tatalaksana, komplikasi, dan high-yield point. Bedakan mana yang eksplisit di sumber dan mana yang inferensi.",
+      "linked_content_ids": [
+        "batch_1_6e_16"
+      ],
+      "recommended_page": 20,
+      "provenance": {
+        "source_document": "Pemeriksaan klinis neuro_250523_133200.docx"
+      }
+    },
+    {
+      "id": "ai_prompt_batch_1_6e_17_01",
+      "domain": "neurology",
+      "title": "Ask this slide/topic: Radiologi Tumor Cerebri.",
+      "prompt": "Jelaskan materi 'Radiologi Tumor Cerebri' dari dokumen Radiologi Tumor Cerebri.docx secara bertahap: definisi, mekanisme, gejala/tanda, diagnosis banding, pemeriksaan, tatalaksana, komplikasi, dan high-yield point. Bedakan mana yang eksplisit di sumber dan mana yang inferensi.",
+      "linked_content_ids": [
+        "batch_1_6e_17"
+      ],
+      "recommended_page": 20,
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx"
+      }
+    },
+    {
+      "id": "ai_prompt_batch_1_6e_18_01",
+      "domain": "neurology",
+      "title": "Ask this slide/topic: STATUS EPILEPTIKUS koas.",
+      "prompt": "Jelaskan materi 'STATUS EPILEPTIKUS koas' dari dokumen STATUS EPILEPTIKUS koas.docx secara bertahap: definisi, mekanisme, gejala/tanda, diagnosis banding, pemeriksaan, tatalaksana, komplikasi, dan high-yield point. Bedakan mana yang eksplisit di sumber dan mana yang inferensi.",
+      "linked_content_ids": [
+        "batch_1_6e_18"
+      ],
+      "recommended_page": 20,
+      "provenance": {
+        "source_document": "STATUS EPILEPTIKUS koas.docx"
+      }
+    },
+    {
+      "id": "ai_prompt_batch_1_6e_19_01",
+      "domain": "neurology",
+      "title": "Ask this slide/topic: TUMOR SSP KULIAH.",
+      "prompt": "Jelaskan materi 'TUMOR SSP KULIAH' dari dokumen TUMOR SSP KULIAH.docx secara bertahap: definisi, mekanisme, gejala/tanda, diagnosis banding, pemeriksaan, tatalaksana, komplikasi, dan high-yield point. Bedakan mana yang eksplisit di sumber dan mana yang inferensi.",
+      "linked_content_ids": [
+        "batch_1_6e_19"
+      ],
+      "recommended_page": 20,
+      "provenance": {
+        "source_document": "TUMOR SSP KULIAH.docx"
+      }
+    },
+    {
+      "id": "ai_prompt_batch_1_6e_20_01",
+      "domain": "neurology",
+      "title": "Ask this slide/topic: Trauma Sistim Saraf.",
+      "prompt": "Jelaskan materi 'Trauma Sistim Saraf' dari dokumen Trauma Sistim Saraf.docx secara bertahap: definisi, mekanisme, gejala/tanda, diagnosis banding, pemeriksaan, tatalaksana, komplikasi, dan high-yield point. Bedakan mana yang eksplisit di sumber dan mana yang inferensi.",
+      "linked_content_ids": [
+        "batch_1_6e_20"
+      ],
+      "recommended_page": 20,
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx"
+      }
+    },
+    {
+      "id": "ai_prompt_batch_1_6e_21_01",
+      "domain": "neurology",
+      "title": "Ask this slide/topic: Tumor Cerebri.",
+      "prompt": "Jelaskan materi 'Tumor Cerebri' dari dokumen Tumor Cerebri.docx secara bertahap: definisi, mekanisme, gejala/tanda, diagnosis banding, pemeriksaan, tatalaksana, komplikasi, dan high-yield point. Bedakan mana yang eksplisit di sumber dan mana yang inferensi.",
+      "linked_content_ids": [
+        "batch_1_6e_21"
+      ],
+      "recommended_page": 20,
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx"
+      }
+    },
+    {
+      "id": "ai_prompt_batch_1_6e_22_01",
+      "domain": "neurology",
+      "title": "Ask this slide/topic: dr.Patrick - neurorehab.",
+      "prompt": "Jelaskan materi 'dr.Patrick - neurorehab' dari dokumen dr.Patrick - neurorehab.docx secara bertahap: definisi, mekanisme, gejala/tanda, diagnosis banding, pemeriksaan, tatalaksana, komplikasi, dan high-yield point. Bedakan mana yang eksplisit di sumber dan mana yang inferensi.",
+      "linked_content_ids": [
+        "batch_1_6e_22"
+      ],
+      "recommended_page": 20,
+      "provenance": {
+        "source_document": "dr.Patrick - neurorehab.docx"
+      }
+    },
+    {
+      "id": "ai_prompt_batch_1_6e_23_01",
+      "domain": "neurology",
+      "title": "Ask this slide/topic: neuroanatomi 2023.",
+      "prompt": "Jelaskan materi 'neuroanatomi 2023' dari dokumen neuroanatomi 2023.docx secara bertahap: definisi, mekanisme, gejala/tanda, diagnosis banding, pemeriksaan, tatalaksana, komplikasi, dan high-yield point. Bedakan mana yang eksplisit di sumber dan mana yang inferensi.",
+      "linked_content_ids": [
+        "batch_1_6e_23"
+      ],
+      "recommended_page": 20,
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx"
+      }
+    },
+    {
+      "id": "ai_prompt_batch_1_6e_24_01",
+      "domain": "neurology",
+      "title": "Ask this slide/topic: stroke-dr.Erni Z, SpRad.",
+      "prompt": "Jelaskan materi 'stroke-dr.Erni Z, SpRad' dari dokumen stroke-dr.Erni Z, SpRad.docx secara bertahap: definisi, mekanisme, gejala/tanda, diagnosis banding, pemeriksaan, tatalaksana, komplikasi, dan high-yield point. Bedakan mana yang eksplisit di sumber dan mana yang inferensi.",
+      "linked_content_ids": [
+        "batch_1_6e_24"
+      ],
+      "recommended_page": 20,
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx"
+      }
+    }
+  ],
+  "batch_id": "batch_1_6E",
+  "domain": "neurology"
+}

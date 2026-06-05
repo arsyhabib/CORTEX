@@ -1,0 +1,354 @@
+{
+  "links": [
+    {
+      "from_id": "batch5_family_pair_canonical_exam_set",
+      "to_id": "page_batch5_exam_set",
+      "link_type": "set_to_page",
+      "strength": "strong",
+      "notes": "Canonical exam set page for merged family-pair batch."
+    },
+    {
+      "from_id": "batch5_family_pair_q001",
+      "to_id": "gls_horner",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q003",
+      "to_id": "gls_ect",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q004",
+      "to_id": "gls_mannitol",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q008",
+      "to_id": "gls_ssri",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q013",
+      "to_id": "gls_tia",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q016",
+      "to_id": "gls_gad",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q018",
+      "to_id": "gls_absence",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q019",
+      "to_id": "gls_ect",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q020",
+      "to_id": "gls_tia",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q022",
+      "to_id": "gls_conversion",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q024",
+      "to_id": "gls_mnghten",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q025",
+      "to_id": "gls_toxoplasmosis",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q026",
+      "to_id": "gls_parasomnia",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q027",
+      "to_id": "gls_absence",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q028",
+      "to_id": "gls_epidural",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q030",
+      "to_id": "gls_ppdgj",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q031",
+      "to_id": "gls_cpa",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q034",
+      "to_id": "gls_myelin",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q037",
+      "to_id": "gls_tia",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q038",
+      "to_id": "gls_stroke_hemoragik",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q039",
+      "to_id": "gls_stroke_hemoragik",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q041",
+      "to_id": "gls_tia",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q042",
+      "to_id": "gls_manik",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q043",
+      "to_id": "gls_bipolar",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q045",
+      "to_id": "gls_mood_stabilizer",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q047",
+      "to_id": "gls_mood_stabilizer",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q050",
+      "to_id": "gls_mood_stabilizer",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q051",
+      "to_id": "gls_gad",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q055",
+      "to_id": "gls_panic",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q056",
+      "to_id": "gls_ptsd",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q057",
+      "to_id": "gls_voyeurism",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q058",
+      "to_id": "gls_ssri",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q068",
+      "to_id": "gls_dandy_walker",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q071",
+      "to_id": "gls_um_n",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q073",
+      "to_id": "gls_dissomnia",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q074",
+      "to_id": "gls_um_n",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q075",
+      "to_id": "gls_pyridoxine",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q079",
+      "to_id": "gls_ver_psikiatrikum",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q080",
+      "to_id": "gls_sinus_kavernosus",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q081",
+      "to_id": "gls_gad",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q084",
+      "to_id": "gls_dissomnia",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q085",
+      "to_id": "gls_ect",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q086",
+      "to_id": "gls_paroxysmal",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q087",
+      "to_id": "gls_bbb",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q088",
+      "to_id": "gls_paroxysmal",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q092",
+      "to_id": "gls_ect",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q099",
+      "to_id": "gls_pituitary_adenoma",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q101",
+      "to_id": "gls_toxoplasmosis",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    },
+    {
+      "from_id": "batch5_family_pair_q106",
+      "to_id": "gls_um_n",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Automatic keyword link from canonical stem/options to glossary term."
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+content_id,domain,title,word_count,has_summary,has_visual,has_quiz,has_glossary,readability_status,source_status,qc_status,notes
+batch5_family_pair_canonical_exam_set,question_domain,Batch 5 / Family Pair Overlap — canonical deduplicated question set,2154,yes,no,yes,yes,cleaned_indonesian,provenance_preserved,pass_with_cautions,"Family-pair deduplicated; malformed split fragments filtered; q9 now carries a reconstructed answer key, while one low-confidence key remains unresolved."

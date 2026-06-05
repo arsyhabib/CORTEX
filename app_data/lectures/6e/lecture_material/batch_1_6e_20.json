@@ -1,0 +1,1736 @@
+{
+  "id": "batch_1_6e_20",
+  "batch_id": "batch_1_6E",
+  "batch_label": "Batch 1 / 6E",
+  "block": "5e",
+  "title": "Trauma Sistim Saraf",
+  "subtitle": "Neurology lecturer-derived structured content; source-preserving extraction.",
+  "source_pdf": "source_docs/6E/Trauma Sistim Saraf.docx",
+  "source_docx": "Trauma Sistim Saraf.docx",
+  "source_pages": [],
+  "summary": [
+    "Modul Trauma Sistim Saraf disusun ulang sebagai materi terstruktur untuk neurologi batch 1/6e, dengan jejak sumber tetap dipertahankan.",
+    "Fokus inti yang ditarik dari sumber: Trauma Sistim Saraf.",
+    "Fokus inti yang ditarik dari sumber: 🠶 Trauma Kapitis.",
+    "Fokus inti yang ditarik dari sumber: 🠶 Trauma Medula Spinalis.",
+    "Contoh pesan inti dari sumber: dr. Hendra Irawan, Sp.S, FINA."
+  ],
+  "exam_focus": [
+    "Pemeriksaan Penunjang.",
+    "Klasifikasi Trauma medula spinalis.",
+    "Klasifikasi Trauma medula spinalis ASIA/IMSOP.",
+    "Klasifikasi tingkat dan keparahan trauma medula spinalis ditegakkan pada saat 72jam sampai 7 hari setelah trauma."
+  ],
+  "sections": [
+    {
+      "id": "batch_1_6e_20_s01",
+      "title": "Trauma Sistim Saraf",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Dr. Hendra Irawan, Sp.S, FINA.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 5,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "section_start_paragraph": 5,
+        "section_end_paragraph": 5
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s02",
+      "title": "🠶 Trauma kapitis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "🠶 Cedera kepala.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 17,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Head injury.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 18,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Truma kranioserebral.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 19,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "section_start_paragraph": 17,
+        "section_end_paragraph": 19
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s03",
+      "title": "Klasifikasi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "🠶 Patologi.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 23,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Komosio Serebri.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 24,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Kontusio Serebri.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 25,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Laserasio Serebri.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 26,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Lokasi Lesi.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 27,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Diffus.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 28,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Kerusakan Vaskular otak.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 29,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Fokal.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 30,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Kontusio dan laserasi serebri.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 31,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Hematoma intrakranial.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 32,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Ekstradural.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 33,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Subdural.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 34,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Intraparenkimal.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 35,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Subarachnoid.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 36,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Intraserebral.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 37,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 intraserebellar.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 38,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Derajat Kesadaran.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 39,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Komosio Serebri.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 45,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak ada jaringan otak yang rusakhanya kehilangan fungsi otak sesaat berupa pingsankurang dari 15 menit atau amnesia pasca trauma.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 46,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Kontusio Serebri.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 47,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kerusakan jaringan otak dengandefisit neurologi yang timbul setara dengan kerusakanotak tersebut, minimal pingsan lebih dari 15 menit danatau lesi neurologis yang jelas.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 48,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Laserasi Otak.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 49,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kerusakan otak yang luas dan jaringanotak robek yang umumnya disertai fraktur tengkorakterbuka.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 50,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "section_start_paragraph": 23,
+        "section_end_paragraph": 50
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s04",
+      "title": "Mekanisme trauma kepala",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "🠶 Akselerasi.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 63,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Deselerasi.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 64,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "section_start_paragraph": 63,
+        "section_end_paragraph": 64
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s05",
+      "title": "Hematom epidural",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "🠶 Perdarahan yang terjadi diantara tabula interna - duramater.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 69,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Pecahnya a.meningea media atau sinus.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 70,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Venosus.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 71,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "section_start_paragraph": 69,
+        "section_end_paragraph": 71
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s06",
+      "title": "🠶 Gejala:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "🠶 Lucid interval.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 74,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Penurunan kesadaran.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 75,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Hemiparese (late).",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 76,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Pupil anisokor.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 77,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Refleks patologis (+).",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 78,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Fraktur di daerah temporal.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 79,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "section_start_paragraph": 74,
+        "section_end_paragraph": 79
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s07",
+      "title": "Hematoma Subdural",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "🠶 Perdarahan yang terjadi diantara duramater - arachnoid.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 84,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Robeknya “bridging vein”.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 85,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "section_start_paragraph": 84,
+        "section_end_paragraph": 85
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s08",
+      "title": "🠶 Gejala:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "🠶 Lucid interval.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 89,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Penurunan kesadaran.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 90,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Hemiparese (late).",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 91,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Pupil anisokor.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 92,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Refleks patologis (+).",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 93,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "section_start_paragraph": 89,
+        "section_end_paragraph": 93
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s09",
+      "title": "Hematoma Intraserebral",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "🠶 Perdarahan di parenkim otak.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 96,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Pecahnya arteri-arteri intraserebral.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 97,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "section_start_paragraph": 96,
+        "section_end_paragraph": 97
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s10",
+      "title": "Hematoma subarakhnoid",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "🠶 Perdarahan yang teradi antara arakhnoid dan piamater.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 100,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "section_start_paragraph": 100,
+        "section_end_paragraph": 100
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s11",
+      "title": "🠶 Gejala klinis:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "🠶 Kaku kuduk.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 104,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "section_start_paragraph": 104,
+        "section_end_paragraph": 104
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s12",
+      "title": "🠶 Nyeri kepala",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "🠶 Penurunan kesadaran.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 106,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "section_start_paragraph": 106,
+        "section_end_paragraph": 106
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s13",
+      "title": "Primery Survey",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Air way control dan servical spine control Breathing support.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 112,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Circulation support and control haemorrargik Disability.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 113,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Expossure + Kontrol Suhu.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 114,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "section_start_paragraph": 112,
+        "section_end_paragraph": 114
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s14",
+      "title": "Secundary survey",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Anamnesis (Hystory and Trauma mecanisme) Physical Examination Head to toe.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 116,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Laboratory and radiology.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 117,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "section_start_paragraph": 116,
+        "section_end_paragraph": 117
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s15",
+      "title": "🠶 Radiologi",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "🠶 Ronsen Kepala AP/Lateral.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 121,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Ronsen Servikal.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 122,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "section_start_paragraph": 121,
+        "section_end_paragraph": 122
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s16",
+      "title": "🠶 MRI (Magnetic Resonance Imaging).",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "🠶 Angiografi.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 125,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Laboratorium.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 126,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Darah Rutin.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 127,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Gula drah sewaktu.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 128,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Elektrolit.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 129,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Fungsi Ginjal.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 130,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "section_start_paragraph": 125,
+        "section_end_paragraph": 130
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s17",
+      "title": "Trauma Medula Spinalis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "🠶 Trauma paa tulang belakang yang menyebabkan lesi di medula spinalis sehingga menimbulkan defisit neurologis.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 135,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Sementara / menetap.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 136,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Kegawatdaruratan neurlogi.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 137,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Level tersering C5, C4, C6, T12, L1, T10.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 138,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "section_start_paragraph": 135,
+        "section_end_paragraph": 138
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s18",
+      "title": "Klasifikasi Trauma medula spinalis.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "🠶 ASIA/IMSOP (American Spinal Injury Association / International Medical Society of Paraplegial).",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 143,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "section_start_paragraph": 143,
+        "section_end_paragraph": 143
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s19",
+      "title": "🠶 Trauma Medula spinalis komplit.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "🠶 Unilevel.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 146,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Multilevel.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 147,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "section_start_paragraph": 146,
+        "section_end_paragraph": 147
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s20",
+      "title": "🠶 Trauma Medula spinalis inkomplit.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "🠶 Cervico medullary syndrome.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 149,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Central cord syndrome.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 150,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Anterior cord syndrome.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 151,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Posterior cord syndrome.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 152,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Brown sequard syndrome.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 153,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "🠶 Conus medullary syndrome.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 154,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "section_start_paragraph": 149,
+        "section_end_paragraph": 154
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s21",
+      "title": "Klasifikasi Trauma medula spinalis ASIA/IMSOP.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "(American Spinal Injury Association / International Medical Society of Paraplegial).",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 159,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Klasifikasi tingkat dan keparahan trauma medula spinalis ditegakkan pada saat 72jam sampai 7 hari setelah trauma.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 163,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "section_start_paragraph": 159,
+        "section_end_paragraph": 163
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s22",
+      "title": "Primery Survey",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Air way control dan servical spine control Breathing support.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 169,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Circulation support and control haemorrargik Disability.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 170,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Expossure + Kontrol Suhu.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 171,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "section_start_paragraph": 169,
+        "section_end_paragraph": 171
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s23",
+      "title": "Secundary survey",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Anamnesis (Hystory and Trauma mecanisme) Physical Examination Head to toe.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 173,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Laboratory and radiology.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 174,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terima kasih.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "source_paragraph_index": 179,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "section_start_paragraph": 173,
+        "section_end_paragraph": 179
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s24",
+      "title": "Extracted table 1",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "Kategori",
+              "SKG",
+              "Klinis",
+              "CTscan kepala"
+            ],
+            [
+              "Minimal",
+              "15",
+              "Pingsan(-) Def Neurologis (-).",
+              "Normal"
+            ],
+            [
+              "Ringan",
+              "13-15",
+              "Pingsan<10menit Def Neurologis (-).",
+              "Normal"
+            ],
+            [
+              "Sedang",
+              "9-12",
+              "Pingsan>10menit - 6jam Def Neurologis (+).",
+              "Abnormal"
+            ],
+            [
+              "Berat",
+              "3-6",
+              "Pingsan> 6jam Def Neurologis (+).",
+              "Abnormal"
+            ]
+          ],
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "table_index": 0
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "table_index": 0
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s25",
+      "title": "Extracted table 2",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "Nilai",
+              ""
+            ],
+            [
+              "Mata",
+              ""
+            ],
+            [
+              "4",
+              "Spontan"
+            ],
+            [
+              "3",
+              "Dengan perintah verbal"
+            ],
+            [
+              "2",
+              "Dengan rangsang nyeri"
+            ],
+            [
+              "1",
+              "Tidak ada respon"
+            ],
+            [
+              "Motorik",
+              ""
+            ],
+            [
+              "6",
+              "Dengan perintah verbal"
+            ],
+            [
+              "5",
+              "Melokalisir nyeri"
+            ],
+            [
+              "4",
+              "Fleksi terhadap nyeri"
+            ],
+            [
+              "3",
+              "Dekortikasi"
+            ],
+            [
+              "2",
+              "Deserebrasi"
+            ],
+            [
+              "1",
+              "Tidak ada respon"
+            ],
+            [
+              "Verbal",
+              ""
+            ],
+            [
+              "5",
+              "Orientasi Baik"
+            ],
+            [
+              "4",
+              "Disorientasi"
+            ],
+            [
+              "3",
+              "Kata-kata yang tidak tepat, berteriak."
+            ],
+            [
+              "2",
+              "Suara tidak berarti, merintih."
+            ],
+            [
+              "1",
+              "Tidak ada respon"
+            ]
+          ],
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "table_index": 1
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "table_index": 1
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s26",
+      "title": "Extracted table 3",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "Grade",
+              "Tipe",
+              "Klinis"
+            ],
+            [
+              "A",
+              "Komplt",
+              "Defisit fungsi motorik dan sensorik sampai S4-5."
+            ],
+            [
+              "B",
+              "Inkomplit",
+              "Fungsi sensorik baik Fungsi motorik teganggu sampai segmen S4-5."
+            ],
+            [
+              "C",
+              "Inkomplit",
+              "Fungsi motorik teganggu dibawah level, tetapi otot-otot motorik kekuatan <3."
+            ],
+            [
+              "D",
+              "Inkomplit",
+              "Fungsi motorik teganggu dibawah level, tetapi otot-otot motorik kekuatan >3."
+            ],
+            [
+              "E",
+              "Normal",
+              "Fungsi sensorik dan motorik Normal."
+            ]
+          ],
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "table_index": 2
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "table_index": 2
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s27",
+      "title": "Embedded visual material requiring downstream asset review.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Visual_asset_note",
+          "text": "Source DOCX contains 13 embedded image(s). Text extraction does not guarantee all visual labels/captions were captured; downstream Codex/asset pipeline should inspect embedded media before final compile.",
+          "embedded_image_count": 13,
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_embedded_review"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "embedded_image_count": 13
+      }
+    },
+    {
+      "id": "batch_1_6e_20_s28",
+      "title": "Penjelasan sederhana / simpler bilingual bridge.",
+      "kind": "Bilingual",
+      "content": [
+        {
+          "type": "Simplified_id",
+          "text": "Versi sederhana: materi ini terutama membahas trauma sistim saraf dengan fokus pada konsep klinis, diagnosis, tanda penting, dan tata laksana yang tampak di bahan dosen.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        },
+        {
+          "type": "Simplified_en",
+          "text": "Simple English bridge: this lecture centers on trauma sistim saraf, emphasizing clinical concepts, diagnosis, key signs, and management points extracted from the lecturer file.",
+          "provenance": {
+            "source_document": "Trauma Sistim Saraf.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_20_01",
+        "Visual_batch_1_6e_20_02",
+        "Visual_batch_1_6e_20_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_20_01"
+      ],
+      "glossary_refs": [
+        "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "generated_section": true
+      }
+    }
+  ],
+  "related_exam_set_ids": [],
+  "provenance": {
+    "source_document": "Trauma Sistim Saraf.docx",
+    "manifest_document_id": "batch_1_6e_20",
+    "topic_tags": [
+      "Neurotrauma"
+    ],
+    "extraction_method": "python-docx paragraph/table extraction; embedded images counted but not OCRed",
+    "paragraph_count": 120,
+    "table_count": 3,
+    "embedded_image_count": 13
+  }
+}

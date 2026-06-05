@@ -1,0 +1,15 @@
+source_filename,document_id,status,lecture_file,extraction_method,sections,content_items,media_count,ocr_used,notes
+09 dr.Susi - 1. GAM.docx,batch_2_6f_01,processed,batch_2_6f_01_09_dr_susi_1_gam.json,docx_text+tables,25,129,25,False,
+09 dr.Susi - 2. Gangguan Panik (1).docx,batch_2_6f_02,processed,batch_2_6f_02_09_dr_susi_2_gangguan_panik_1.json,docx_text+tables,17,60,77,False,
+09 dr.Susi - 4. Fobia.docx,batch_2_6f_03,processed,batch_2_6f_03_09_dr_susi_4_fobia.json,docx_text+tables,7,34,9,False,
+"2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx",batch_2_6f_04,processed,batch_2_6f_04_2_dr_sri_novianty_sp_n_how_to_treat_central_v.json,docx_text+tables,37,135,45,False,
+"ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",batch_2_6f_05,processed,batch_2_6f_05_ect_dan_psikoterapi_dr_diva_sp_kj_1.json,docx_text+tables,38,241,12,False,
+"Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx",batch_2_6f_06,processed,batch_2_6f_06_pemeriksaan_laboratorium_pada_penyalahgunaan.json,docx_text+tables,14,116,20,False,
+"SLEEP DISORDERS dr.Diva,SpKJ.docx",batch_2_6f_07,processed,batch_2_6f_07_sleep_disorders_dr_diva_spkj.json,docx_text+tables,20,172,35,False,
+anoreksia dan bulimia.docx,batch_2_6f_08,processed,batch_2_6f_08_anoreksia_dan_bulimia.json,docx_text+tables+ocr,37,101,35,True,OCR slide count 33
+delerium FKIK UNJA (1).docx,batch_2_6f_09,processed,batch_2_6f_09_delerium_fkik_unja_1.json,docx_text+tables,22,240,30,False,
+"dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.docx",batch_2_6f_10,processed,batch_2_6f_10_dr_fatmawati_sp_kj_amnesia_pasca_trauma.json,docx_text+tables+ocr,30,135,26,True,OCR slide count 26
+"dr.Fatmawati,Sp.KJ-Gangguan Somatoform (1).docx",batch_2_6f_11,processed,batch_2_6f_11_dr_fatmawati_sp_kj_gangguan_somatoform_1.json,docx_text+tables+ocr,49,223,46,True,OCR slide count 45
+legal-etik-jiwa.docx,batch_2_6f_12,processed,batch_2_6f_12_legal_etik_jiwa.json,docx_text+tables,14,130,23,False,
+prilaku profesional dan Pemeriksaan Psikiatri.docx,batch_2_6f_13,processed,batch_2_6f_13_prilaku_profesional_dan_pemeriksaan_psikiatri.json,docx_text+tables,38,249,18,False,
+✅28_4_25 GGN KEPRIBADIAN DAN PERILAKU MASA DEWASA_compressed.docx,batch_2_6f_14,processed,batch_2_6f_14_28_4_25_ggn_kepribadian_dan_perilaku_masa_dew.json,docx_text+tables,21,133,0,False,

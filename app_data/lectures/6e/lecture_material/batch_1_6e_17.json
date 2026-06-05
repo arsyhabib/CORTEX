@@ -1,0 +1,1383 @@
+{
+  "id": "batch_1_6e_17",
+  "batch_id": "batch_1_6E",
+  "batch_label": "Batch 1 / 6E",
+  "block": "5e",
+  "title": "Radiologi Tumor Cerebri",
+  "subtitle": "Neurology lecturer-derived structured content; source-preserving extraction.",
+  "source_pdf": "source_docs/6E/Radiologi Tumor Cerebri.docx",
+  "source_docx": "Radiologi Tumor Cerebri.docx",
+  "source_pages": [],
+  "summary": [
+    "Modul Radiologi Tumor Cerebri disusun ulang sebagai materi terstruktur untuk neurologi batch 1/6e, dengan jejak sumber tetap dipertahankan.",
+    "Fokus inti yang ditarik dari sumber: TumorꢀCerebriꢀ.",
+    "Fokus inti yang ditarik dari sumber: Neuroradiologiꢀinvestigation.",
+    "Fokus inti yang ditarik dari sumber: USG.",
+    "Contoh pesan inti dari sumber: Drꢀ.ꢀErniꢀZainuddinꢀSpRadꢀꢀK-RA."
+  ],
+  "exam_focus": [
+    "Tumorꢀprimerꢀmemberiꢀgejalaꢀꢀneurologiꢀ karenaꢀadanyaꢀdistorsiꢀjaringanꢀotak,ꢀadanyaꢀ peningkatanꢀtekananꢀꢀꢀintrakranial,ꢀadanyaꢀꢀ herniasiꢀstrukturꢀotakꢀkeꢀꢀsekitranyaꢀ,ꢀbahkanꢀ tumorꢀjinakꢀsekalipunꢀspertiꢀmeningiomaꢀꢀ menyebabkanꢀdefisitꢀneurologiꢀꢀkarean.",
+    "FotoꢀPolosꢀtidakꢀberkontribusi,ꢀhanyaꢀadanyaꢀ gambaranꢀkalsifikasi,ꢀꢀpeningkatanꢀtekananꢀꢀ intraꢀkranialꢀꢀditandaiꢀdenganꢀadanyaꢀerosiꢀ dorsumꢀsellaꢀ,ꢀꢀadanyaꢀpelebaranꢀsuturaꢀpadaꢀꢀ anak2ꢀ."
+  ],
+  "sections": [
+    {
+      "id": "batch_1_6e_17_s01",
+      "title": "TumorꢀCerebriꢀ",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Drꢀ.ꢀErniꢀZainuddinꢀSpRadꢀꢀK-RA.",
+          "provenance": {
+            "source_document": "Radiologi Tumor Cerebri.docx",
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_17_01",
+        "Visual_batch_1_6e_17_02",
+        "Visual_batch_1_6e_17_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_17_01",
+        "Quiz_batch_1_6e_17_02",
+        "Quiz_batch_1_6e_17_03"
+      ],
+      "glossary_refs": [
+        "Term_20_tumor_primer_otak",
+        "Term_50_tumor_otak_adalah_glioma_spt_astrocytoma",
+        "Term_alzheimer_disease",
+        "Term_bronchus_tumor_payudara_dan",
+        "Term_cerebelar_tumor",
+        "Term_cerebral_atrophy",
+        "Term_ct_atau_mri"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "section_start_paragraph": 1,
+        "section_end_paragraph": 1
+      }
+    },
+    {
+      "id": "batch_1_6e_17_s02",
+      "title": "Neuroradiologiꢀinvestigation",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "PlainꢀFilm.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 7,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Radiologi Tumor Cerebri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_17_01",
+        "Visual_batch_1_6e_17_02",
+        "Visual_batch_1_6e_17_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_17_01",
+        "Quiz_batch_1_6e_17_02",
+        "Quiz_batch_1_6e_17_03"
+      ],
+      "glossary_refs": [
+        "Term_20_tumor_primer_otak",
+        "Term_50_tumor_otak_adalah_glioma_spt_astrocytoma",
+        "Term_alzheimer_disease",
+        "Term_bronchus_tumor_payudara_dan",
+        "Term_cerebelar_tumor",
+        "Term_cerebral_atrophy",
+        "Term_ct_atau_mri"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "section_start_paragraph": 7,
+        "section_end_paragraph": 7
+      }
+    },
+    {
+      "id": "batch_1_6e_17_s03",
+      "title": "MRI",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Arteriography.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 11,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Myelography.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 12,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Radiologi Tumor Cerebri.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Primaryꢀintracranialꢀneoplasmaꢀ.",
+          "provenance": {
+            "source_document": "Radiologi Tumor Cerebri.docx",
+            "source_paragraph_index": 15,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Tumorꢀprimerꢀmemberiꢀgejalaꢀꢀneurologiꢀ karenaꢀadanyaꢀdistorsiꢀjaringanꢀotak,ꢀadanyaꢀ peningkatanꢀtekananꢀꢀꢀintrakranial,ꢀadanyaꢀꢀ herniasiꢀstrukturꢀotakꢀkeꢀꢀsekitranyaꢀ,ꢀbahkanꢀ tumorꢀjinakꢀsekalipunꢀspertiꢀmeningiomaꢀꢀ menyebabkanꢀdefisitꢀneurologiꢀꢀkareanꢀefekꢀꢀ ekspasiꢀtumorꢀdiꢀruangꢀyangꢀterbatasꢀ.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 16,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Radiologi Tumor Cerebri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_17_01",
+        "Visual_batch_1_6e_17_02",
+        "Visual_batch_1_6e_17_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_17_01",
+        "Quiz_batch_1_6e_17_02",
+        "Quiz_batch_1_6e_17_03"
+      ],
+      "glossary_refs": [
+        "Term_20_tumor_primer_otak",
+        "Term_50_tumor_otak_adalah_glioma_spt_astrocytoma",
+        "Term_alzheimer_disease",
+        "Term_bronchus_tumor_payudara_dan",
+        "Term_cerebelar_tumor",
+        "Term_cerebral_atrophy",
+        "Term_ct_atau_mri"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "section_start_paragraph": 11,
+        "section_end_paragraph": 16
+      }
+    },
+    {
+      "id": "batch_1_6e_17_s04",
+      "title": "GambaranꢀRadiologi",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "FotoꢀPolosꢀtidakꢀberkontribusi,ꢀhanyaꢀadanyaꢀ gambaranꢀkalsifikasi,ꢀꢀpeningkatanꢀtekananꢀꢀ intraꢀkranialꢀꢀditandaiꢀdenganꢀadanyaꢀerosiꢀ dorsumꢀsellaꢀ,ꢀꢀadanyaꢀpelebaranꢀsuturaꢀpadaꢀꢀ anak2ꢀ.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 20,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Radiologi Tumor Cerebri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_17_01",
+        "Visual_batch_1_6e_17_02",
+        "Visual_batch_1_6e_17_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_17_01",
+        "Quiz_batch_1_6e_17_02",
+        "Quiz_batch_1_6e_17_03"
+      ],
+      "glossary_refs": [
+        "Term_20_tumor_primer_otak",
+        "Term_50_tumor_otak_adalah_glioma_spt_astrocytoma",
+        "Term_alzheimer_disease",
+        "Term_bronchus_tumor_payudara_dan",
+        "Term_cerebelar_tumor",
+        "Term_cerebral_atrophy",
+        "Term_ct_atau_mri"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "section_start_paragraph": 20,
+        "section_end_paragraph": 20
+      }
+    },
+    {
+      "id": "batch_1_6e_17_s05",
+      "title": "CT",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "TypeꢀofꢀPrimaryꢀneoplasmasꢀ.",
+          "provenance": {
+            "source_document": "Radiologi Tumor Cerebri.docx",
+            "source_paragraph_index": 25,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Glioma.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 26,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Merupakanꢀtumprꢀterseringꢀ,ꢀseringꢀmenyebakanꢀ.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 27,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Radiologi Tumor Cerebri.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kalsifikasiꢀ.",
+          "provenance": {
+            "source_document": "Radiologi Tumor Cerebri.docx",
+            "source_paragraph_index": 28,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_17_01",
+        "Visual_batch_1_6e_17_02",
+        "Visual_batch_1_6e_17_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_17_01",
+        "Quiz_batch_1_6e_17_02",
+        "Quiz_batch_1_6e_17_03"
+      ],
+      "glossary_refs": [
+        "Term_20_tumor_primer_otak",
+        "Term_50_tumor_otak_adalah_glioma_spt_astrocytoma",
+        "Term_alzheimer_disease",
+        "Term_bronchus_tumor_payudara_dan",
+        "Term_cerebelar_tumor",
+        "Term_cerebral_atrophy",
+        "Term_ct_atau_mri"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "section_start_paragraph": 25,
+        "section_end_paragraph": 28
+      }
+    },
+    {
+      "id": "batch_1_6e_17_s06",
+      "title": ">ꢀ50%ꢀtumorꢀotakꢀadalahꢀgliomaꢀꢀsptꢀ: ꢀꢀAstrocytomaꢀ,ꢀ",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "GBMꢀ,ꢀoligodendrogliomaꢀꢀdanꢀependymomaꢀ.",
+          "provenance": {
+            "source_document": "Radiologi Tumor Cerebri.docx",
+            "source_paragraph_index": 30,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "CTꢀScanꢀ: ꢀtumorꢀtampakꢀꢀꢀberupaꢀareaꢀdenganꢀdensitasꢀꢀ berubahꢀꢀdenganꢀedemaꢀdisekitarnyꢀꢀdisertaiꢀefekꢀ massaꢀ.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 31,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Penyangatanꢀꢀyangꢀsignifikanꢀsetelahꢀdiberiꢀkontras.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 32,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Meningioma.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 40,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Radiologi Tumor Cerebri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_17_01",
+        "Visual_batch_1_6e_17_02",
+        "Visual_batch_1_6e_17_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_17_01",
+        "Quiz_batch_1_6e_17_02",
+        "Quiz_batch_1_6e_17_03"
+      ],
+      "glossary_refs": [
+        "Term_20_tumor_primer_otak",
+        "Term_50_tumor_otak_adalah_glioma_spt_astrocytoma",
+        "Term_alzheimer_disease",
+        "Term_bronchus_tumor_payudara_dan",
+        "Term_cerebelar_tumor",
+        "Term_cerebral_atrophy",
+        "Term_ct_atau_mri"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "section_start_paragraph": 30,
+        "section_end_paragraph": 40
+      }
+    },
+    {
+      "id": "batch_1_6e_17_s07",
+      "title": "20%ꢀtumorꢀprimerꢀotakꢀ",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Jinakꢀꢀberbatasꢀtegasꢀ,ꢀberasalꢀdariꢀlapisanꢀ.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 42,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Radiologi Tumor Cerebri.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Meningꢀyangꢀꢀmeliputiꢀotak.",
+          "provenance": {
+            "source_document": "Radiologi Tumor Cerebri.docx",
+            "source_paragraph_index": 43,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "TempatꢀterseringꢀdiꢀFalksꢀ,ꢀparasagitalꢀregion,ꢀ.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 44,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Radiologi Tumor Cerebri.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sphenoidꢀwing,ꢀdanꢀconveksitasꢀhemisphereꢀ CT-MRIꢀ: ꢀꢀlesiꢀyangꢀberbatasꢀtegasꢀꢀyangꢀ.",
+          "provenance": {
+            "source_document": "Radiologi Tumor Cerebri.docx",
+            "source_paragraph_index": 45,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Menyangatꢀkuatꢀpadaꢀpemberianꢀkontrasꢀ.",
+          "provenance": {
+            "source_document": "Radiologi Tumor Cerebri.docx",
+            "source_paragraph_index": 46,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "AcousticꢀꢀNeuronomaꢀ.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 54,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Berasalꢀdariꢀcanalisꢀauditoryꢀinternaꢀꢀyangꢀ dapatꢀꢀmenyebabkanꢀpelebaranꢀꢀdanꢀerosiꢀdariꢀ canalꢀtersebutꢀ.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 55,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Radiologi Tumor Cerebri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_17_01",
+        "Visual_batch_1_6e_17_02",
+        "Visual_batch_1_6e_17_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_17_01",
+        "Quiz_batch_1_6e_17_02",
+        "Quiz_batch_1_6e_17_03"
+      ],
+      "glossary_refs": [
+        "Term_20_tumor_primer_otak",
+        "Term_50_tumor_otak_adalah_glioma_spt_astrocytoma",
+        "Term_alzheimer_disease",
+        "Term_bronchus_tumor_payudara_dan",
+        "Term_cerebelar_tumor",
+        "Term_cerebral_atrophy",
+        "Term_ct_atau_mri"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "section_start_paragraph": 42,
+        "section_end_paragraph": 55
+      }
+    },
+    {
+      "id": "batch_1_6e_17_s08",
+      "title": "TumorꢀPituitaryꢀ",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Fotoꢀpolosꢀ: ꢀtampakꢀfossaꢀpituitaryꢀmelebarꢀꢀ.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 65,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Radiologi Tumor Cerebri.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Danꢀatauꢀꢀerosiꢀ.",
+          "provenance": {
+            "source_document": "Radiologi Tumor Cerebri.docx",
+            "source_paragraph_index": 66,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_17_01",
+        "Visual_batch_1_6e_17_02",
+        "Visual_batch_1_6e_17_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_17_01",
+        "Quiz_batch_1_6e_17_02",
+        "Quiz_batch_1_6e_17_03"
+      ],
+      "glossary_refs": [
+        "Term_20_tumor_primer_otak",
+        "Term_50_tumor_otak_adalah_glioma_spt_astrocytoma",
+        "Term_alzheimer_disease",
+        "Term_bronchus_tumor_payudara_dan",
+        "Term_cerebelar_tumor",
+        "Term_cerebral_atrophy",
+        "Term_ct_atau_mri"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "section_start_paragraph": 65,
+        "section_end_paragraph": 66
+      }
+    },
+    {
+      "id": "batch_1_6e_17_s09",
+      "title": "Tumorꢀyangꢀmeproduksiꢀprolaktinꢀbiasanyaꢀ",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Ukurannyaꢀ<1cmꢀ.",
+          "provenance": {
+            "source_document": "Radiologi Tumor Cerebri.docx",
+            "source_paragraph_index": 68,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_17_01",
+        "Visual_batch_1_6e_17_02",
+        "Visual_batch_1_6e_17_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_17_01",
+        "Quiz_batch_1_6e_17_02",
+        "Quiz_batch_1_6e_17_03"
+      ],
+      "glossary_refs": [
+        "Term_20_tumor_primer_otak",
+        "Term_50_tumor_otak_adalah_glioma_spt_astrocytoma",
+        "Term_alzheimer_disease",
+        "Term_bronchus_tumor_payudara_dan",
+        "Term_cerebelar_tumor",
+        "Term_cerebral_atrophy",
+        "Term_ct_atau_mri"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "section_start_paragraph": 68,
+        "section_end_paragraph": 68
+      }
+    },
+    {
+      "id": "batch_1_6e_17_s10",
+      "title": "CEREBELARꢀTUMORꢀ",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Mayoritasꢀꢀterjadiꢀpadaꢀanak2ꢀꢀdiꢀbawahꢀ tentoriumꢀcerebelliꢀꢀsepertiꢀmeduloblastomaꢀꢀ (tersering)ꢀselanjutnyaꢀependymomaꢀ.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 79,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Radiologi Tumor Cerebri.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Meduloblastoma.",
+          "provenance": {
+            "source_document": "Radiologi Tumor Cerebri.docx",
+            "source_paragraph_index": 84,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Cerebralꢀmetastaseꢀ.",
+          "provenance": {
+            "source_document": "Radiologi Tumor Cerebri.docx",
+            "source_paragraph_index": 89,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "CTꢀ-MRIꢀtakꢀdapatꢀꢀmembedakanꢀꢀantarꢀtumorꢀ primerꢀ-sekunderꢀ,ꢀtetpiꢀklisꢀdapatꢀmembantuꢀ menerangkannyaꢀ.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 90,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Seringꢀberupaꢀlesiꢀyangꢀmultipelꢀ.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 91,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Radiologi Tumor Cerebri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_17_01",
+        "Visual_batch_1_6e_17_02",
+        "Visual_batch_1_6e_17_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_17_01",
+        "Quiz_batch_1_6e_17_02",
+        "Quiz_batch_1_6e_17_03"
+      ],
+      "glossary_refs": [
+        "Term_20_tumor_primer_otak",
+        "Term_50_tumor_otak_adalah_glioma_spt_astrocytoma",
+        "Term_alzheimer_disease",
+        "Term_bronchus_tumor_payudara_dan",
+        "Term_cerebelar_tumor",
+        "Term_cerebral_atrophy",
+        "Term_ct_atau_mri"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "section_start_paragraph": 79,
+        "section_end_paragraph": 91
+      }
+    },
+    {
+      "id": "batch_1_6e_17_s11",
+      "title": "Bronchusꢀtumorꢀ,ꢀpayudaraꢀꢀdanꢀ",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Gastrointersinalꢀ.",
+          "provenance": {
+            "source_document": "Radiologi Tumor Cerebri.docx",
+            "source_paragraph_index": 94,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_17_01",
+        "Visual_batch_1_6e_17_02",
+        "Visual_batch_1_6e_17_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_17_01",
+        "Quiz_batch_1_6e_17_02",
+        "Quiz_batch_1_6e_17_03"
+      ],
+      "glossary_refs": [
+        "Term_20_tumor_primer_otak",
+        "Term_50_tumor_otak_adalah_glioma_spt_astrocytoma",
+        "Term_alzheimer_disease",
+        "Term_bronchus_tumor_payudara_dan",
+        "Term_cerebelar_tumor",
+        "Term_cerebral_atrophy",
+        "Term_ct_atau_mri"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "section_start_paragraph": 94,
+        "section_end_paragraph": 94
+      }
+    },
+    {
+      "id": "batch_1_6e_17_s12",
+      "title": "Gambaranꢀradiologiꢀ:",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Dapatꢀberupaꢀꢀkistik,ꢀkalsifikasiꢀ,ꢀperdarahanꢀꢀ.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 100,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Radiologi Tumor Cerebri.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Atauꢀꢀlesiꢀcavitasꢀdenganꢀedemaꢀdisekitarnyaꢀ.",
+          "provenance": {
+            "source_document": "Radiologi Tumor Cerebri.docx",
+            "source_paragraph_index": 101,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Pemberianꢀkontrasꢀtampakꢀmenyangatꢀꢀ.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 102,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Radiologi Tumor Cerebri.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "KarenaꢀrusaknyaꢀBBB.",
+          "provenance": {
+            "source_document": "Radiologi Tumor Cerebri.docx",
+            "source_paragraph_index": 103,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "MetastaseꢀdariꢀCaꢀPayudaraꢀ.",
+          "provenance": {
+            "source_document": "Radiologi Tumor Cerebri.docx",
+            "source_paragraph_index": 108,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_17_01",
+        "Visual_batch_1_6e_17_02",
+        "Visual_batch_1_6e_17_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_17_01",
+        "Quiz_batch_1_6e_17_02",
+        "Quiz_batch_1_6e_17_03"
+      ],
+      "glossary_refs": [
+        "Term_20_tumor_primer_otak",
+        "Term_50_tumor_otak_adalah_glioma_spt_astrocytoma",
+        "Term_alzheimer_disease",
+        "Term_bronchus_tumor_payudara_dan",
+        "Term_cerebelar_tumor",
+        "Term_cerebral_atrophy",
+        "Term_ct_atau_mri"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "section_start_paragraph": 100,
+        "section_end_paragraph": 108
+      }
+    },
+    {
+      "id": "batch_1_6e_17_s13",
+      "title": "CEREBRALꢀATROPHYꢀ",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Atrophyꢀcerebriꢀbiasanyaꢀidiophaticꢀ.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 114,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Radiologi Tumor Cerebri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_17_01",
+        "Visual_batch_1_6e_17_02",
+        "Visual_batch_1_6e_17_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_17_01",
+        "Quiz_batch_1_6e_17_02",
+        "Quiz_batch_1_6e_17_03"
+      ],
+      "glossary_refs": [
+        "Term_20_tumor_primer_otak",
+        "Term_50_tumor_otak_adalah_glioma_spt_astrocytoma",
+        "Term_alzheimer_disease",
+        "Term_bronchus_tumor_payudara_dan",
+        "Term_cerebelar_tumor",
+        "Term_cerebral_atrophy",
+        "Term_ct_atau_mri"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "section_start_paragraph": 114,
+        "section_end_paragraph": 114
+      }
+    },
+    {
+      "id": "batch_1_6e_17_s14",
+      "title": ", penyebabnyaꢀtermasukꢀꢀ:",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Prosesꢀdegenaratifꢀ.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 116,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Radiologi Tumor Cerebri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_17_01",
+        "Visual_batch_1_6e_17_02",
+        "Visual_batch_1_6e_17_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_17_01",
+        "Quiz_batch_1_6e_17_02",
+        "Quiz_batch_1_6e_17_03"
+      ],
+      "glossary_refs": [
+        "Term_20_tumor_primer_otak",
+        "Term_50_tumor_otak_adalah_glioma_spt_astrocytoma",
+        "Term_alzheimer_disease",
+        "Term_bronchus_tumor_payudara_dan",
+        "Term_cerebelar_tumor",
+        "Term_cerebral_atrophy",
+        "Term_ct_atau_mri"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "section_start_paragraph": 116,
+        "section_end_paragraph": 116
+      }
+    },
+    {
+      "id": "batch_1_6e_17_s15",
+      "title": "Trauma",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Obatꢀobatanꢀ.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 118,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Radiologi Tumor Cerebri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_17_01",
+        "Visual_batch_1_6e_17_02",
+        "Visual_batch_1_6e_17_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_17_01",
+        "Quiz_batch_1_6e_17_02",
+        "Quiz_batch_1_6e_17_03"
+      ],
+      "glossary_refs": [
+        "Term_20_tumor_primer_otak",
+        "Term_50_tumor_otak_adalah_glioma_spt_astrocytoma",
+        "Term_alzheimer_disease",
+        "Term_bronchus_tumor_payudara_dan",
+        "Term_cerebelar_tumor",
+        "Term_cerebral_atrophy",
+        "Term_ct_atau_mri"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "section_start_paragraph": 118,
+        "section_end_paragraph": 118
+      }
+    },
+    {
+      "id": "batch_1_6e_17_s16",
+      "title": "Infeksiꢀ",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Kongenital.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 120,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Korelasiꢀatropiꢀcerebriꢀdanꢀklinisꢀseringꢀtakꢀjelasꢀ.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 121,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Radiologi Tumor Cerebri.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_17_01",
+        "Visual_batch_1_6e_17_02",
+        "Visual_batch_1_6e_17_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_17_01",
+        "Quiz_batch_1_6e_17_02",
+        "Quiz_batch_1_6e_17_03"
+      ],
+      "glossary_refs": [
+        "Term_20_tumor_primer_otak",
+        "Term_50_tumor_otak_adalah_glioma_spt_astrocytoma",
+        "Term_alzheimer_disease",
+        "Term_bronchus_tumor_payudara_dan",
+        "Term_cerebelar_tumor",
+        "Term_cerebral_atrophy",
+        "Term_ct_atau_mri"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "section_start_paragraph": 120,
+        "section_end_paragraph": 121
+      }
+    },
+    {
+      "id": "batch_1_6e_17_s17",
+      "title": "GambaranꢀRadiologiꢀ",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Lossꢀbrainꢀsubstansiꢀmenyebabkanꢀꢀpelebaranꢀ CerebroꢀSpinalꢀSpaceꢀꢀ(ꢀCSFꢀ)ꢀsepertiꢀꢀventrikelꢀ melebarꢀ,ꢀCysternaꢀbasalꢀ,ꢀcerebral-cerebelarꢀ sulciꢀ.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 125,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Ventricularꢀdilatasiꢀ Hydrocephalusꢀꢀdenganꢀ.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 126,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Radiologi Tumor Cerebri.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tekananꢀnormalꢀ.",
+          "provenance": {
+            "source_document": "Radiologi Tumor Cerebri.docx",
+            "source_paragraph_index": 127,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_17_01",
+        "Visual_batch_1_6e_17_02",
+        "Visual_batch_1_6e_17_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_17_01",
+        "Quiz_batch_1_6e_17_02",
+        "Quiz_batch_1_6e_17_03"
+      ],
+      "glossary_refs": [
+        "Term_20_tumor_primer_otak",
+        "Term_50_tumor_otak_adalah_glioma_spt_astrocytoma",
+        "Term_alzheimer_disease",
+        "Term_bronchus_tumor_payudara_dan",
+        "Term_cerebelar_tumor",
+        "Term_cerebral_atrophy",
+        "Term_ct_atau_mri"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "section_start_paragraph": 125,
+        "section_end_paragraph": 127
+      }
+    },
+    {
+      "id": "batch_1_6e_17_s18",
+      "title": "Alzheimerꢀdiseaseꢀ:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Biasanyaꢀꢀatrophyꢀdiffuseꢀꢀdenganꢀsparingꢀ.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 129,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Radiologi Tumor Cerebri.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Cerebellum,ꢀseringꢀmengenaiꢀlobusꢀtemporalꢀ.",
+          "provenance": {
+            "source_document": "Radiologi Tumor Cerebri.docx",
+            "source_paragraph_index": 130,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Pickꢀ‘sꢀdiseaseꢀ: ꢀ.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 135,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Circumscribeꢀlobarꢀatrophyꢀ.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 136,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Dementiaꢀlainnyaꢀ: ꢀbiasanyaꢀnonꢀspesifikꢀ.",
+              "children": [],
+              "provenance": {
+                "source_document": "Radiologi Tumor Cerebri.docx",
+                "source_paragraph_index": 137,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Radiologi Tumor Cerebri.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "DiffuseꢀatrophyꢀsepertiꢀAlzheimer’sꢀdiseaseꢀ.",
+          "provenance": {
+            "source_document": "Radiologi Tumor Cerebri.docx",
+            "source_paragraph_index": 138,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Niemanꢀpick’sꢀdisease.",
+          "provenance": {
+            "source_document": "Radiologi Tumor Cerebri.docx",
+            "source_paragraph_index": 143,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_17_01",
+        "Visual_batch_1_6e_17_02",
+        "Visual_batch_1_6e_17_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_17_01",
+        "Quiz_batch_1_6e_17_02",
+        "Quiz_batch_1_6e_17_03"
+      ],
+      "glossary_refs": [
+        "Term_20_tumor_primer_otak",
+        "Term_50_tumor_otak_adalah_glioma_spt_astrocytoma",
+        "Term_alzheimer_disease",
+        "Term_bronchus_tumor_payudara_dan",
+        "Term_cerebelar_tumor",
+        "Term_cerebral_atrophy",
+        "Term_ct_atau_mri"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "section_start_paragraph": 129,
+        "section_end_paragraph": 143
+      }
+    },
+    {
+      "id": "batch_1_6e_17_s19",
+      "title": "Extracted table 1",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "CTꢀScan",
+              "",
+              "MRIꢀMikroꢀꢀdanꢀMakroꢀadenomaꢀ hypofisaꢀ"
+            ]
+          ],
+          "provenance": {
+            "source_document": "Radiologi Tumor Cerebri.docx",
+            "table_index": 0
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_17_01",
+        "Visual_batch_1_6e_17_02",
+        "Visual_batch_1_6e_17_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_17_01",
+        "Quiz_batch_1_6e_17_02",
+        "Quiz_batch_1_6e_17_03"
+      ],
+      "glossary_refs": [
+        "Term_20_tumor_primer_otak",
+        "Term_50_tumor_otak_adalah_glioma_spt_astrocytoma",
+        "Term_alzheimer_disease",
+        "Term_bronchus_tumor_payudara_dan",
+        "Term_cerebelar_tumor",
+        "Term_cerebral_atrophy",
+        "Term_ct_atau_mri"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "table_index": 0
+      }
+    },
+    {
+      "id": "batch_1_6e_17_s20",
+      "title": "Embedded visual material requiring downstream asset review.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Visual_asset_note",
+          "text": "Source DOCX contains 22 embedded image(s). Text extraction does not guarantee all visual labels/captions were captured; downstream Codex/asset pipeline should inspect embedded media before final compile.",
+          "embedded_image_count": 22,
+          "provenance": {
+            "source_document": "Radiologi Tumor Cerebri.docx"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_17_embedded_review"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_17_01",
+        "Quiz_batch_1_6e_17_02",
+        "Quiz_batch_1_6e_17_03"
+      ],
+      "glossary_refs": [
+        "Term_20_tumor_primer_otak",
+        "Term_50_tumor_otak_adalah_glioma_spt_astrocytoma",
+        "Term_alzheimer_disease",
+        "Term_bronchus_tumor_payudara_dan",
+        "Term_cerebelar_tumor",
+        "Term_cerebral_atrophy",
+        "Term_ct_atau_mri"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "embedded_image_count": 22
+      }
+    },
+    {
+      "id": "batch_1_6e_17_s21",
+      "title": "Penjelasan sederhana / simpler bilingual bridge.",
+      "kind": "Bilingual",
+      "content": [
+        {
+          "type": "Simplified_id",
+          "text": "Versi sederhana: materi ini terutama membahas radiologi tumor cerebri dengan fokus pada konsep klinis, diagnosis, tanda penting, dan tata laksana yang tampak di bahan dosen.",
+          "provenance": {
+            "source_document": "Radiologi Tumor Cerebri.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        },
+        {
+          "type": "Simplified_en",
+          "text": "Simple English bridge: this lecture centers on radiologi tumor cerebri, emphasizing clinical concepts, diagnosis, key signs, and management points extracted from the lecturer file.",
+          "provenance": {
+            "source_document": "Radiologi Tumor Cerebri.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_17_01",
+        "Visual_batch_1_6e_17_02",
+        "Visual_batch_1_6e_17_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_17_01",
+        "Quiz_batch_1_6e_17_02",
+        "Quiz_batch_1_6e_17_03"
+      ],
+      "glossary_refs": [
+        "Term_20_tumor_primer_otak",
+        "Term_50_tumor_otak_adalah_glioma_spt_astrocytoma",
+        "Term_alzheimer_disease",
+        "Term_bronchus_tumor_payudara_dan",
+        "Term_cerebelar_tumor",
+        "Term_cerebral_atrophy",
+        "Term_ct_atau_mri"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "generated_section": true
+      }
+    }
+  ],
+  "related_exam_set_ids": [],
+  "provenance": {
+    "source_document": "Radiologi Tumor Cerebri.docx",
+    "manifest_document_id": "batch_1_6e_17",
+    "topic_tags": [
+      "Tumor",
+      "Neuro-oncology",
+      "Radiology"
+    ],
+    "extraction_method": "python-docx paragraph/table extraction; embedded images counted but not OCRed",
+    "paragraph_count": 76,
+    "table_count": 1,
+    "embedded_image_count": 22
+  }
+}

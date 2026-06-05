@@ -1,0 +1,291 @@
+{
+  "links": [
+    {
+      "from_id": "Batch_2_6f_01",
+      "to_id": "Batch_2_6f_01_visual_concept_map",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: 09 dr.Susi - 1. GAM.docx."
+    },
+    {
+      "from_id": "Batch_2_6f_01",
+      "to_id": "Batch_2_6f_01_source_slide_gallery_placeholder",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: 09 dr.Susi - 1. GAM.docx."
+    },
+    {
+      "from_id": "Batch_2_6f_01",
+      "to_id": "Page_4_batch_2_6f_01",
+      "link_type": "Set_to_page",
+      "strength": "Strong",
+      "notes": "Lecture material should render on slide detail/reading pages."
+    },
+    {
+      "from_id": "Batch_2_6f_02",
+      "to_id": "Batch_2_6f_02_visual_concept_map",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: 09 dr.Susi - 2. Gangguan Panik (1).docx."
+    },
+    {
+      "from_id": "Batch_2_6f_02",
+      "to_id": "Batch_2_6f_02_source_slide_gallery_placeholder",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: 09 dr.Susi - 2. Gangguan Panik (1).docx."
+    },
+    {
+      "from_id": "Batch_2_6f_02",
+      "to_id": "Page_4_batch_2_6f_02",
+      "link_type": "Set_to_page",
+      "strength": "Strong",
+      "notes": "Lecture material should render on slide detail/reading pages."
+    },
+    {
+      "from_id": "Batch_2_6f_03",
+      "to_id": "Batch_2_6f_03_visual_concept_map",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: 09 dr.Susi - 4. Fobia.docx."
+    },
+    {
+      "from_id": "Batch_2_6f_03",
+      "to_id": "Batch_2_6f_03_source_slide_gallery_placeholder",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: 09 dr.Susi - 4. Fobia.docx."
+    },
+    {
+      "from_id": "Batch_2_6f_03",
+      "to_id": "Page_4_batch_2_6f_03",
+      "link_type": "Set_to_page",
+      "strength": "Strong",
+      "notes": "Lecture material should render on slide detail/reading pages."
+    },
+    {
+      "from_id": "Batch_2_6f_04",
+      "to_id": "Batch_2_6f_04_visual_concept_map",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: 2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx."
+    },
+    {
+      "from_id": "Batch_2_6f_04",
+      "to_id": "Batch_2_6f_04_source_slide_gallery_placeholder",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: 2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx."
+    },
+    {
+      "from_id": "Batch_2_6f_04",
+      "to_id": "Page_4_batch_2_6f_04",
+      "link_type": "Set_to_page",
+      "strength": "Strong",
+      "notes": "Lecture material should render on slide detail/reading pages."
+    },
+    {
+      "from_id": "Batch_2_6f_05",
+      "to_id": "Batch_2_6f_05_visual_concept_map",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: ECT dan psikoterapi dr.Diva, Sp.KJ (1).docx."
+    },
+    {
+      "from_id": "Batch_2_6f_05",
+      "to_id": "Batch_2_6f_05_source_slide_gallery_placeholder",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: ECT dan psikoterapi dr.Diva, Sp.KJ (1).docx."
+    },
+    {
+      "from_id": "Batch_2_6f_05",
+      "to_id": "Page_4_batch_2_6f_05",
+      "link_type": "Set_to_page",
+      "strength": "Strong",
+      "notes": "Lecture material should render on slide detail/reading pages."
+    },
+    {
+      "from_id": "Batch_2_6f_06",
+      "to_id": "Batch_2_6f_06_visual_concept_map",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx."
+    },
+    {
+      "from_id": "Batch_2_6f_06",
+      "to_id": "Batch_2_6f_06_source_slide_gallery_placeholder",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx."
+    },
+    {
+      "from_id": "Batch_2_6f_06",
+      "to_id": "Page_4_batch_2_6f_06",
+      "link_type": "Set_to_page",
+      "strength": "Strong",
+      "notes": "Lecture material should render on slide detail/reading pages."
+    },
+    {
+      "from_id": "Batch_2_6f_07",
+      "to_id": "Batch_2_6f_07_visual_concept_map",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: SLEEP DISORDERS dr.Diva, SpKJ.docx."
+    },
+    {
+      "from_id": "Batch_2_6f_07",
+      "to_id": "Batch_2_6f_07_source_slide_gallery_placeholder",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: SLEEP DISORDERS dr.Diva, SpKJ.docx."
+    },
+    {
+      "from_id": "Batch_2_6f_07",
+      "to_id": "Page_4_batch_2_6f_07",
+      "link_type": "Set_to_page",
+      "strength": "Strong",
+      "notes": "Lecture material should render on slide detail/reading pages."
+    },
+    {
+      "from_id": "Batch_2_6f_08",
+      "to_id": "Batch_2_6f_08_visual_concept_map",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: anoreksia dan bulimia.docx."
+    },
+    {
+      "from_id": "Batch_2_6f_08",
+      "to_id": "Batch_2_6f_08_source_slide_gallery_placeholder",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: anoreksia dan bulimia.docx."
+    },
+    {
+      "from_id": "Batch_2_6f_08",
+      "to_id": "Page_4_batch_2_6f_08",
+      "link_type": "Set_to_page",
+      "strength": "Strong",
+      "notes": "Lecture material should render on slide detail/reading pages."
+    },
+    {
+      "from_id": "Batch_2_6f_09",
+      "to_id": "Batch_2_6f_09_visual_concept_map",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: delerium FKIK UNJA (1).docx."
+    },
+    {
+      "from_id": "Batch_2_6f_09",
+      "to_id": "Batch_2_6f_09_source_slide_gallery_placeholder",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: delerium FKIK UNJA (1).docx."
+    },
+    {
+      "from_id": "Batch_2_6f_09",
+      "to_id": "Page_4_batch_2_6f_09",
+      "link_type": "Set_to_page",
+      "strength": "Strong",
+      "notes": "Lecture material should render on slide detail/reading pages."
+    },
+    {
+      "from_id": "Batch_2_6f_10",
+      "to_id": "Batch_2_6f_10_visual_concept_map",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: dr.Fatmawati, Sp.KJ-Amnesia Pasca Trauma.docx."
+    },
+    {
+      "from_id": "Batch_2_6f_10",
+      "to_id": "Batch_2_6f_10_source_slide_gallery_placeholder",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: dr.Fatmawati, Sp.KJ-Amnesia Pasca Trauma.docx."
+    },
+    {
+      "from_id": "Batch_2_6f_10",
+      "to_id": "Page_4_batch_2_6f_10",
+      "link_type": "Set_to_page",
+      "strength": "Strong",
+      "notes": "Lecture material should render on slide detail/reading pages."
+    },
+    {
+      "from_id": "Batch_2_6f_11",
+      "to_id": "Batch_2_6f_11_visual_concept_map",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: dr.Fatmawati, Sp.KJ-Gangguan Somatoform (1).docx."
+    },
+    {
+      "from_id": "Batch_2_6f_11",
+      "to_id": "Batch_2_6f_11_source_slide_gallery_placeholder",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: dr.Fatmawati, Sp.KJ-Gangguan Somatoform (1).docx."
+    },
+    {
+      "from_id": "Batch_2_6f_11",
+      "to_id": "Page_4_batch_2_6f_11",
+      "link_type": "Set_to_page",
+      "strength": "Strong",
+      "notes": "Lecture material should render on slide detail/reading pages."
+    },
+    {
+      "from_id": "Batch_2_6f_12",
+      "to_id": "Batch_2_6f_12_visual_concept_map",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: legal-etik-jiwa.docx."
+    },
+    {
+      "from_id": "Batch_2_6f_12",
+      "to_id": "Batch_2_6f_12_source_slide_gallery_placeholder",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: legal-etik-jiwa.docx."
+    },
+    {
+      "from_id": "Batch_2_6f_12",
+      "to_id": "Page_4_batch_2_6f_12",
+      "link_type": "Set_to_page",
+      "strength": "Strong",
+      "notes": "Lecture material should render on slide detail/reading pages."
+    },
+    {
+      "from_id": "Batch_2_6f_13",
+      "to_id": "Batch_2_6f_13_visual_concept_map",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: prilaku profesional dan Pemeriksaan Psikiatri.docx."
+    },
+    {
+      "from_id": "Batch_2_6f_13",
+      "to_id": "Batch_2_6f_13_source_slide_gallery_placeholder",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: prilaku profesional dan Pemeriksaan Psikiatri.docx."
+    },
+    {
+      "from_id": "Batch_2_6f_13",
+      "to_id": "Page_4_batch_2_6f_13",
+      "link_type": "Set_to_page",
+      "strength": "Strong",
+      "notes": "Lecture material should render on slide detail/reading pages."
+    },
+    {
+      "from_id": "Batch_2_6f_14",
+      "to_id": "Batch_2_6f_14_visual_concept_map",
+      "link_type": "Material_to_visual",
+      "strength": "Medium",
+      "notes": "Visual placeholder planned from source media and topic: ✅28_4_25 GGN KEPRIBADIAN DAN PERILAKU MASA DEWASA_compressed.docx."
+    },
+    {
+      "from_id": "Batch_2_6f_14",
+      "to_id": "Page_4_batch_2_6f_14",
+      "link_type": "Set_to_page",
+      "strength": "Strong",
+      "notes": "Lecture material should render on slide detail/reading pages."
+    }
+  ]
+}

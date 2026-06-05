@@ -1,0 +1,2237 @@
+{
+  "id": "batch_2_6f_05",
+  "block": "5f",
+  "title": "Electroconvulsive Therapy (ECT) & Psikoterapi.",
+  "subtitle": "Batch 2 / 6F psychotherapy, somatic therapy.",
+  "source_pdf": "source_docs/6F/ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+  "source_format": "Docx",
+  "source_filename": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx.",
+  "document_index": 5,
+  "summary": [
+    "Electroconvulsive Therapy (ECT) & Psikoterapi.",
+    "(ECT) & Psikoterapi.",
+    "(ECT).",
+    "ECT adalah pengobatan tertua untuk penyakit jiwa yang masih dipakai.",
+    "Variabel yang membatasi penggunaannya adalah efek samping kebingungan dan kehilangan memori.",
+    "Kualitas elektrisitas yang digunakan pada ECT dapat dijelaskan dengan Hukum Ohm, E = IR, atau I = E/R, dimana E adalah tegangan, I adalah arus listrik, dan R adalah resistensi."
+  ],
+  "exam_focus": [
+    "Beberapa penelitian menemukan bahwa derajat penurunan metabolisme otak berkorelasi dengan respon terapi.",
+    "Indikasi ECT yang paling umum adalah gangguan depresif mayor, dimana ECT merupakan terapi yang tercepat dan paling efektif.",
+    "ECT harus dipertimbangkan untuk pasien yang gagal mencoba pengobatan, tidak toleran terhadap medikasi, terdapat gejala psikotik yang parah, adanya ide bunuh diri dan membunuh orang lain, atau terdapat gejala agitasi ata….",
+    "Walaupun efektif untuk mengobati gejala skizofrenia akut, ECT tidak digunakan untuk px skizofrenia kronik.",
+    "Px skizofrenia dengan gejala positif, katatonia, atau gejala afektif lebih respon terhadap ECT.",
+    "Penelitian kecil menemukan ECT efektif untuk pengobatan katatonia, gejala yang berhubungan dengan gangguan mood, skizofrenia, serta gangguan medis dan neurologis.",
+    "ECT juga merupakan terapi pilihan untuk: .",
+    "Klinisi harus menjelaskan manfaat dan efek samping serta pendekatan alternatif terapi.",
+    "Sebelum tindakan harus dilakukan pemeriksaan fisik dan neurologis standar, pemeriksaan pra anestesi, dan riwayat medis yang lengkap.",
+    "Pemeriksaan gigi disarankan pada px usia lanjut dan pada px yang perawatan giginya tidak baik."
+  ],
+  "sections": [
+    {
+      "id": "batch_2_6f_05_s01",
+      "title": "Electroconvulsive Therapy (ECT) & Psikoterapi.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Electroconvulsive Therapy.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 1
+          }
+        }
+      ],
+      "provenance": {},
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "visual_refs": [
+        "Batch_2_6f_05_visual_concept_map"
+      ],
+      "glossary_refs": [
+        "Term_electroconvulsive_therapy_ect_psikoterapi",
+        "Term_psychotherapy",
+        "Term_somatic_therapy",
+        "Term_variabel_yang_membatasi_penggunaannya",
+        "Term_karena_jaringan_scalp",
+        "Term_penelitian_positron_emission_tomography",
+        "Term_indikasi_ect_yang_paling_umum",
+        "Term_ect_juga"
+      ],
+      "quiz_refs": [
+        "Batch_2_6f_05_quiz_01",
+        "Batch_2_6f_05_quiz_02",
+        "Batch_2_6f_05_quiz_03"
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s02",
+      "title": "(ECT) & Psikoterapi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Oleh: dr. Diva Mariska Tarastin, Sp.KJ.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 3
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Electroconvulsive Therapy.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 5
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 2
+      },
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "glossary_refs": [
+        "Term_electroconvulsive_therapy_ect_psikoterapi",
+        "Term_psychotherapy",
+        "Term_somatic_therapy",
+        "Term_variabel_yang_membatasi_penggunaannya",
+        "Term_karena_jaringan_scalp",
+        "Term_penelitian_positron_emission_tomography",
+        "Term_indikasi_ect_yang_paling_umum",
+        "Term_ect_juga"
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s03",
+      "title": "(ECT)",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "ECT adalah pengobatan tertua untuk penyakit jiwa yang masih dipakai.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 8
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penggunaan ECT telah berkurang sejak pertengahan abad ke-20, walau bagaimanapun ECT tetap digunakan dalam pengobatan moderen karena dinilai paling efektif untuk mengobati depresi mayor dan kondisi psikiatrik yang mengancam jiwa.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 9
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Variabel yang membatasi penggunaannya adalah efek samping kebingungan dan kehilangan memori. Walau bagaimanapun, efek samping tersebut reversibel dan inovasi teknik ECT selama 20 tahun terakhir telah dapat mengurangi efek kognitif.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 10
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 6
+      },
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "glossary_refs": [
+        "Term_electroconvulsive_therapy_ect_psikoterapi",
+        "Term_psychotherapy",
+        "Term_somatic_therapy",
+        "Term_variabel_yang_membatasi_penggunaannya",
+        "Term_karena_jaringan_scalp",
+        "Term_penelitian_positron_emission_tomography",
+        "Term_indikasi_ect_yang_paling_umum",
+        "Term_ect_juga"
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s04",
+      "title": "ELEKTROFISIOLOGI PADA ECT",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Neuron melewati membran plasma dan mencetuskan potensial aksi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 13
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kualitas elektrisitas yang digunakan pada ECT dapat dijelaskan dengan Hukum Ohm, E = IR, atau I = E/R, dimana E adalah tegangan, I adalah arus listrik, dan R adalah resistensi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 14
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Intensitas atau dosis elektrisitas dalam ECT diukur dalam hal muatan (charge)(miliamper- detik atau milicoulombs) atau energi (watt- detik atau joule).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 15
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tengkorak memiliki impedansi yang tinggi, otak memiliki impedansi yang rendah. Karena jaringan scalp merupakan konduktor listrik yang lebih baik daripada tulang, hanya 20% dari muatan listrik yang masuk ke dalam tengkorak untuk merangsang neuron.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 17
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mesin ECT yang sekarang digunakan secara luas dapat diatur untuk memberikan elektrisitas di bawah kondisi arus listrik, tegangan, atau energi yang konstan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 18
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 12
+      },
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "glossary_refs": [
+        "Term_electroconvulsive_therapy_ect_psikoterapi",
+        "Term_psychotherapy",
+        "Term_somatic_therapy",
+        "Term_variabel_yang_membatasi_penggunaannya",
+        "Term_karena_jaringan_scalp",
+        "Term_penelitian_positron_emission_tomography",
+        "Term_indikasi_ect_yang_paling_umum",
+        "Term_ect_juga"
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s05",
+      "title": "MEKANISME KERJA",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Penelitian Positron emission tomography (PET) menunjukkan bahwa selama kejang terjadi peningkatan cerebral blood flow, penggunaan glukosa dan oksigen, serta peningkatan permeabilitas sawar darah otak.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 21
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Setelah kejang, aliran darah dan metabolisme otak menurun, terutama di lobus frontalis. Beberapa penelitian menemukan bahwa derajat penurunan metabolisme otak berkorelasi dengan respon terapi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 22
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 20
+      },
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "glossary_refs": [
+        "Term_electroconvulsive_therapy_ect_psikoterapi",
+        "Term_psychotherapy",
+        "Term_somatic_therapy",
+        "Term_variabel_yang_membatasi_penggunaannya",
+        "Term_karena_jaringan_scalp",
+        "Term_penelitian_positron_emission_tomography",
+        "Term_indikasi_ect_yang_paling_umum",
+        "Term_ect_juga"
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s06",
+      "title": "Gangguan Depresif Mayor",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Indikasi ECT yang paling umum adalah gangguan depresif mayor, dimana ECT merupakan terapi yang tercepat dan paling efektif.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 26
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "ECT harus dipertimbangkan untuk pasien yang gagal mencoba pengobatan, tidak toleran terhadap medikasi, terdapat gejala psikotik yang parah, adanya ide bunuh diri dan membunuh orang lain, atau terdapat gejala agitasi atau stupor.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 27
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pada penelitian terkontrol, didapatkan bahwa lebih dari 70% pasien yang tidak respon terhadap antidepresan ternyata memiliki respon positif terhadap ECT.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 28
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 25
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s07",
+      "title": "Episode Manik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "ECT setara dengan litium pada pengobatan episode mania akut.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 31
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Cepatnya respon terhadap ECT membuat ECT dapat digunakan pada perilaku manik yang menimbulkan bahaya kelelahan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 32
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "ECT tidak digunakan pada px yang mendapat litium, karena litium dapat menurunkan ambang kejang dan menyebabkan kejang yang memanjang.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 33
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 30
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s08",
+      "title": "Skizofrenia",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Walaupun efektif untuk mengobati gejala skizofrenia akut, ECT tidak digunakan untuk px skizofrenia kronik.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 36
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Px skizofrenia dengan gejala positif, katatonia, atau gejala afektif lebih respon terhadap ECT. Pd px ini, efektivitas ECT setara dengan anti psikotik, tetapi perbaikannya lebih cepat.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 37
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 35
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s09",
+      "title": "Indikasi Lainnya",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Penelitian kecil menemukan ECT efektif untuk pengobatan katatonia, gejala yang berhubungan dengan gangguan mood, skizofrenia, serta gangguan medis dan neurologis.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 40
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "ECT juga dilaporkan bermanfaat untuk mengobati psikosis episodik, psikosis atipikal, gangguan obsesif kompulsif, delirium, kondisi medis seperti SNM, hipopituitarisme, gangguan kejang, dan penyakit Parkinson.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 41
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "ECT juga merupakan terapi pilihan untuk: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 43
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Wanita hamil yang depresi dengan ide bunuh diri yang membutuhkan pengobatan dan tidak dapat minum obat.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 44
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pasien lanjut usia dan pasien dengan penyakit medis yang tidak dapat minum anti depresan dengan aman.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 45
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pasien anak dan remaja dengan depresi yang parah dan ide bunuh diri, dimana mereka kurang merespon anti depresan dibandingkan orang dewasa.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 46
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 39
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s10",
+      "title": "PETUNJUK KLINIS",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Klinisi harus menjelaskan manfaat dan efek samping serta pendekatan alternatif terapi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 49
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Informed consent harus terdokumentasi dalam rekam medis px dan memasukkan diskusi tentang penyakit, perjalanannya, dan pilihan untuk tidak menerima pengobatan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 50
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Literatur tertulis dan video rekaman tentang ECT mungkin bermanfaat untuk mendapatkan informed consent yang sebenarnya.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 51
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penggunaan ECT secara involunter jarang dilakukan saat ini dan hanya dilakukan pada px yang membutuhkan pengobatan secara mendesak dan px yang memiliki penanggung jawab yang menyetujui dilakukannya ECT.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 53
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 48
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s11",
+      "title": "Evaluasi Sebelum Tindakan",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Sebelum tindakan harus dilakukan pemeriksaan fisik dan neurologis standar, pemeriksaan pra anestesi, dan riwayat medis yang lengkap.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 55
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Evaluasi laboratorium harus meliputi kimia darah, urin lengkap, Rontgen thorax, dan EKG.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 57
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pemeriksaan gigi disarankan pada px usia lanjut dan pada px yang perawatan giginya tidak baik.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 58
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Rongen spinal diperlukan bila terlihat ada kelainan spinal.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 59
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "CT-Scan dan MRI dilakukan bila terdapat dugaan adanya kejang atau space occupying lesion. Pakar ECT tidak lagi menganggap space occupying lesion sebagai kontraindikasi absolut, tetapi prosedur ECT pada px tersebut harus dilakukan hanya oleh ahlinya.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 60
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 54
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s12",
+      "title": "Persiapan",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Px tidak boleh diberikan apapun secara oral dalam 6 jam sebelum tindakan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 63
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sesaat sebelum tindakan, harus dicek adakah gigi palsu atau benda asing di dalam mulut, dan selanjutnya dipasang IV line.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 64
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pengganjal untuk digigit harus dimasukkan ke dalam mulut sesaat sebelum tindakan untuk melindungi gigi dan lidah px selama kejang.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 66
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Oksigen 100% 5L per menit harus diberikan selama prosedur hingga pernafasan kembali spontan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 67
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perlengkapan emergensi untuk mempertahankan jalan nafas harus segera tersedia apabila diperlukan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 68
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 62
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s13",
+      "title": "Penempatan Elektroda",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "ECT dapat dilaksanakan dengan elektroda bilateral atau unilateral.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 72
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penempatan bilateral biasanya menghasilkan respon terapetik yang lebih cepat, dan penempatan unilateral menghasilkan efek samping kognitif yang lebih kecil.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 73
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pada ECT bilateral tradisional, elektroda diletakkan bifrontotemporal dengan pusat setiap elektroda sekitar 1 inchi di atas titik tengah garis imajinasi, yang ditarik dari tragus sampai kantus eksternal.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 75
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pada ECT unilateral, elektroda diletakkan di daerah frontotemporal non dominan, hampir selalu di hemisfer kanan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 76
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hemisfer yang dominan dapat ditentukan dengan melakukan beberapa tes sederhana (mis: handedness dan footedness).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 77
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 71
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s14",
+      "title": "Unilateral",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Bilateral.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 80
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 79
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s15",
+      "title": "Rangsangan Listrik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Rangsangan listrik harus cukup kuat untuk mencapai ambang kejang (tingkat intensitas yang diperlukan untuk menghasilkan kejang).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 83
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Rangsangan listrik diberikan dalam siklus, dan setiap siklus mengandung gelombang positif dan negatif.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 84
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mesin ECT moderen menggunakan gelombang getar singkat yang menghasilkan rangsangan listrik, biasanya dalam 1-2 milidetik dengan rata-rata 30-100 getaran per detik.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 85
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Selama pengobatan dengan ECT, ambang kejang px dapat meningkat hingga 25-200%.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 87
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ambang kejang lebih tinggi pada laki2 daripada perempuan, dan usia tua daripada usia muda.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 88
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Teknik yang umum adalah dengan memulai tindakan pada rangsangan listrik di bawah ambang kejang dan kemudian intensitasnya ditingkatkan hingga 100% pada penempatan unilateral dan 50% pada penempatan bilateral sampai ambang kejang tercapai.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 89
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 82
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s16",
+      "title": "Kejang yang Ditimbulkan",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Tanda kejang yang pertama adalah ekstensi plantar yang berakhir dalam 10-20 detik dan menandai fase tonik.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 92
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Fase tonik lalu diikuti kontraksi ritmik (klonik) yang berkurang frekuensinya dan akhirnya hilang.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 93
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 91
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s17",
+      "title": "Jumlah dan Jarak Antar Tindakan.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "ECT biasanya dilakukan 2-3 kali seminggu, tindakan 2 kali seminggu lebih sedikit mengakibatkan gangguan memori dibandingkan tindakan 3 kali seminggu.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 96
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pada umumnya, pengobatan gangguan depresif mayor memerlukan 6-12 tindakan, episode manik memerlukan 8-20 tindakan, skizofrenia memerlukan lebih dari 15 tindakan, dan katatonia serta delirium memerlukan 1-4 tindakan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 97
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tindakan harus dilanjutkan hingga tercapai respon terapetik yang maksimal.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 99
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pengobatan lebih jauh tidak menghasilkan banyak manfaat terapetik, tetapi meningkatkan keparahan dan durasi efek samping.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 100
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Titik perbaikan maksimal timbul ketika px tidak membaik setelah 2 tindakan yang berurutan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 101
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Jika px tidak membaik setelah 6-10 sesi, ECT bilateral dan ECT densitas tinggi (3x ambang kejang) harus dilakukan sebelum diputuskan tidak dilakukan lagi ECT.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 102
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 95
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s18",
+      "title": "PSIKOTERAPI",
+      "kind": "Reading",
+      "content": [],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 104
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s19",
+      "title": "Definisi Psikoterapi (Norcross, 1990).",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "□ pengaplikasian berbagai metode klinis dan sikap interpersonal yang didasari oleh informasi yang cukup,.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 107
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dilakukan secara sengaja,.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 108
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Berdasarkan prinsip-prinsip psikologis yang sudah mapan,.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 109
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dengan maksud untuk membantu orang dalam memodifikasi perilaku, kognisi, emosi dan/atau karakteristik pribadi lainnya ke arah yang diinginkan partisipannya.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 110
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Menurut Watson & Morse, psikoterapi dirumuskan sebagai: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 112
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "“Bentuk khusus dari interaksi antara dua orang, pasien dan terapis, dimana pasien memulai interaksi karena ia mencari bantuan psikologik dan terapis menyusun interaksi dengan menggunakan dasar psikologik untuk membantu pasien meningkatkan kemampuan mengendalikan diri dalam kehidupannya dengan mengubah pikiran, perasaan dan tindakannya”.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 113
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 106
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s20",
+      "title": "DEFINISI PSIKOTERAPI",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Corsini merumuskannya sebagai: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 116
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Proses formal dari interaksi dua pihak, setiap pihak biasanya terdiri dari satu orang, tetapi ada kemungkinan lebih dari itu pada kedua pihak, dengan tujuan memperbaiki keadaan yang tidak menyenangkan (distress) pada salah satu pihak karena ketidak mampuan atau malfungsi pada: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 117
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Fungsi kognitif (fungsi berpikir),.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 118
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Fungsi afektif (emosi), atau.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 119
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Fungsi perilaku.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 120
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dimana dilakukan oleh terapis untuk mempertahankan dan mengubah, dengan beberapa metode perawatan yang mempunyai dasar teori dan profesinya diakui resmi untuk.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 121
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bertindak sebagai terapis.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 122
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 115
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s21",
+      "title": "Tujuan Psikoterapi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Memperkuat motivasi untuk melakukan hal-hal yang benar. Tujuan ini biasanya dilakukan melalui terapi bersifat direktif dan suportif. Persuasi dengan cara diberi nasehat sederhana sampai pada hypnosis digunakan untuk menolong orang bertindak dengan cara yang tepat.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 125
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mengurangi tekanan emosi melalui kesempatan untuk.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 126
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mengekspresikan perasaan yang mendalam. Fokus disini adalah adanya katarsis.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 127
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Membantu klien mengembangkan potensinya. Ia akan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 128
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mampu melepaskan diri dari fiksasi yang dialaminya. Klien akan menemukan bahwa dirinya mampu untuk berkembang ke arah yang lebih positif.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 129
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 124
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s22",
+      "title": "Tujuan Psikoterapi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Mengubah kebiasaan. Tugas perapis adalah menyiapkan situasi belajar baru yang dapat digunakan untuk mengganti kebiasaan-kebiasaan yang kurang adaptif.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 132
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mengubah struktur kognitif individu.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 133
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Meningkatkan pengetahuan dan kapasitas untuk.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 134
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mengambil keputusan dengan tepat.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 135
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Meningkatkan pengetahuan diri atau insight (pencerahan).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 136
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Meningkatkan hubungan interpersonal. Terapi kelompok merupakan dapat memberikan kesempatan bagi individu untuk meningkatkan hubungan interpersonal ini.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 137
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mengubah lingkungan sosial individu. Terutama terapi yang diperuntukan untuk anak-anak.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 139
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mengubah proses somatik supaya mengurangi rasa sakit dan meningkatkan kesadaran tubuh. Latihan fisik dapat dilakukan untuk meningkatkan kesadaran.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 140
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Individu.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 141
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Aspek Sentral Psikoterapi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 143
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Komunikasi: pertukaran informasi verbal maupun non verbal di antara orang-orang (minimal 2 orang).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 144
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hubungan yang dilandasi keprcayaan dan bersifat rahasia antara penolong (helper) dan yang ditolong.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 145
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tujuannya untuk mengubah perasaan, pikiran, dan tindakan personal ke arah yang diinginkan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 146
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Unsur-Unsur Psikoterapi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 148
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dua individu saling terikat dalam interaksi yang bersifat rahasia, dimana klien akan dibukakan jalan untuk menjadi tahu.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 149
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Interaksi umumnya terbatas pada pertukaran verbal.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 150
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Interaksi berlangsung dalam jangka waktu lama.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 151
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hubungan bertujuan untuk mengubah perilaku tertentu pada klien, yang telah disetujui oleh kedua pihak.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 152
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tugas Terapis.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 154
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Membangun hubungan yang profesional dan bersifat membantu, dimana klien sebagai pihak yang menginginkan terjadinya perubahan, mempelajari perilaku baru, membentuk perilaku coping yang baru, dan mengurangi/ memodifikasi/ menghilangkan perilaku/emosi yang tidak diinginkan atau maladaptif.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 155
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Faktor Penunjang Perubahan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 157
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terapis menciptakan suasana yang kondusif untuk melakukan perubahan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 158
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ada penguatan terhadap klien untuk melakukan observasi diri.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 159
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perkembangan hubungan dua arah yang kuat antara terapis dan klien.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 160
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kesempatan untuk katarsis.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 161
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penekanan pada komunikasi, khususnya komunikasi verbal.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 162
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terjadi pengurangan kecemasan pada klien.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 163
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kerahasiaan penting dijaga!",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 164
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Harapan terhadap perubahan: klien yakin, prosedur terapis, penekanan perubahan mendatang sejak awal.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 165
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kontrak Terapi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 167
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Menjaga efektivitas terapi. Terapis dan klien membangun hubungan kerja yang positif di mana kedua belah pihak memiliki komitmen terhadap proses terapi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 168
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bisa tertulis maupun lisan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 169
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Berisi tanggung jawab dan pengaturan waktu yang dijalankan oleh kedua pihak jadwal dan frekuensi pertemuan, biaya, waktu pertemuan, harapan klien, persetujuan klien untuk mengerjakan tugas (mis: laporan mimpi).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 170
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Karakteristik Terapis Handal.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 172
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Obyektif.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 173
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sensitif.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 174
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sabar.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 175
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kemampuan untuk memahami perasaan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 176
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hangat.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 177
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mampu berempati.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 178
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 131
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s23",
+      "title": "Tipe-Tipe Klien",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "YAVIS (Youthful, Attractive, Verbal, Intelligent, Successful).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 181
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tua, sos-ek lemah, pendidikan rendah (SMU), bahasa verbal lemah, kurang menarik.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 182
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Usia menengah, sos-ek rata-rata, pendidikan diploma.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 183
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 180
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s24",
+      "title": "Terapi Humanistik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Pendekatan Terapeutik Lainnya.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 189
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Teori psikoterapi tergantung pada penekanannya: apakah penyebab perilaku dikarenakan oleh: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 191
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Faktor biologis, sosial psikologis?",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 192
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Masa lalu vs masa kini?",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 193
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pikiran vs perasaan atau tindakan?",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 194
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Teknik psikoterapi: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 195
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Aktif - pasif?",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 196
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Prosedurnya fixed - fleksibel?",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 197
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 188
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s25",
+      "title": "Psikoterapi Suportif",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "□ Semua dokter harus dapat.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 200
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Melakukan psikoterapi suportif.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 201
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 199
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s26",
+      "title": "Definisi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "□ suatu bentuk terapi alternatif yang mempunyai tujuan untuk menolong pasien beradaptasi dengan baik terhadap suatu masalah yang dihadapi dan untuk mendapatkan suatu kenyamanan hidup terhadap gangguan psikisnya.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 204
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 203
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s27",
+      "title": "Tujuan",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Meningkatkan fungsi psikologi dan sosial.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 207
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Menyokong harga dirinya dan keyakinan dirinya sebanyak mungkin.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 208
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Menyadari realitas, keterbatasannya, agar dapat diterima.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 209
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mencegah terjadinya relaps.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 210
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bertujuan agar penyesuaian baik.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 211
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mencegah ketergantungan pada dokter.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 212
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Memindahkan dukungan profesional kepada keluarga.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 213
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 206
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s28",
+      "title": "Indikasi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Seseorang yang dalam keadaan kritis dan kacau serta tidak mempunyai kemampuan untuk menyelesaikan suatu masalah, yang menghasilkan kecemasan berat dan kebingungan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 216
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pasien dengan penyakit yang berat dan kronik disertai dengan kerapuhan ataupun kelemahan fungsi ego.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 217
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pasien dengan defisit kognitif dan gejala-gejala fisik yang membuat mereka menjadi lemah dan tidak cocok dilakukan pendekatan insight-oriented.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 218
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pasien dengan toleransi kecemasan yang rendah dan kesulitan mengendalikan frustrasi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 219
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 215
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s29",
+      "title": "Indikasi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Pasien dengan masalah psikologi yang sesuai dengan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 222
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Fungsi kognitifnya.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 223
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mereka yang kesulitan membedakan kenyataan luar dengan dari dalam dirinya.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 224
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pasien yang mengalami gangguan berat dalam hubungan interpersonal.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 225
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mereka yang mengalami kelemahan dalam mengontrol impuls dan akhirnya mereka melakukan tindakan yang buruk.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 226
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pasien dengan intelegensia yang kurang dan kapasitas yang lemah terhadap pengamatan dirinya sendiri.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 227
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Memiliki keterbatasan yang berat untuk mengadakan hubungan terapeutik dengan terapis.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 228
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 221
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s30",
+      "title": "Jenis Psikoterapi Suportif",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Ventilasi: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 231
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Bentuk psikoterapi yang memberi kesempatan seluas-luasnya kepada pasien untuk mengemukakan isi hatinya dan sebagai hasilnya ia akan merasa lega serta keluhannya akan berkurang.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 232
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Persuasi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 233
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Psikoterapi suportif yang dilakukan dengan menerangkan secara masuk akal tentang gejala- gejala penyakitnya yang timbul akibat cara berpikir, perasaan, dan sikapnya terhadap masalah yang dihadapinya.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 234
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sugesti: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 236
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Psikoterapi yang berusaha menanamkan kepercayaan pada pasien bahwa gejala gangguannya akan hilang.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 237
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Reassurance.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 238
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Psikoterapi yang berusaha meyakinkan kembali kemampuan pasien bahwa ia sanggup berfungsi secara adekuat.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 239
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bimbingan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 240
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Psikoterapi yang memberi nasehat yang praktis dan spesifik yang berhubungan dengan masalah pasien.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 241
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penyuluhan (Konseling).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 243
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Psikoterapi yang membantu pasien mengerti dirinya sendiri secara lebih baik, agar ia dapat mengatasi permasalahannya dan dapat menyesuaikan diri.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 244
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kerja kasus sosial.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 245
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Suatu proses bantuan oleh seseorang yang terlatih kepada seorang pasien yang memerlukan satu atau lebih pelayanan sosial khusus. Tidak diadakan usaha mengubah pola dasar kepribadian pasien ataupun hanya hendak menangani masalah situasi pada tingkat realistik.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 246
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 230
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s31",
+      "title": "Terapi kerja",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Berupa sekedar memberi kesibukan kepada pasien ataupun berupa latihan kerja tertentu agar ia terampil dalam hal itu dan berguna baginya untuk mencari nafkah kelak.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 249
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hipnosis.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 251
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Membantu psikoterapi akan tetapi apa yang dapat dicapai dengan hipnosis dalam psikoterapi dapat juga dicapai dengan cara lain tanpa hipnosis. Hipnosis hanya dapat mempercepat pengaruh psikoterapi.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 252
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 248
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s32",
+      "title": "PSIKOTERAPI KELOMPOK",
+      "kind": "Reading",
+      "content": [],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 254
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s33",
+      "title": "Faktor penentu keberhasilan psikoterapi.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Masalah.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 257
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perkembangan diagnosis.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 258
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Umur penderita.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 259
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Inteligensia penderita.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 260
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kematangan emosi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 261
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Situasi keluarga, sosial, dan finansial.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 262
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Fleksibilitas penderita.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 263
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 256
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_s34",
+      "title": "TERIMA KASIH",
+      "kind": "Reading",
+      "content": [],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 265
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_05_high_yield",
+      "title": "High-yield / titik ujian dari sumber.",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Beberapa penelitian menemukan bahwa derajat penurunan metabolisme otak berkorelasi dengan respon terapi."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Indikasi ECT yang paling umum adalah gangguan depresif mayor, dimana ECT merupakan terapi yang tercepat dan paling efektif."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "ECT harus dipertimbangkan untuk pasien yang gagal mencoba pengobatan, tidak toleran terhadap medikasi, terdapat gejala psikotik yang parah, adanya ide bunuh diri dan membunuh orang lain, atau terdapat gejala agitasi ata…."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Walaupun efektif untuk mengobati gejala skizofrenia akut, ECT tidak digunakan untuk px skizofrenia kronik."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Px skizofrenia dengan gejala positif, katatonia, atau gejala afektif lebih respon terhadap ECT."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Penelitian kecil menemukan ECT efektif untuk pengobatan katatonia, gejala yang berhubungan dengan gangguan mood, skizofrenia, serta gangguan medis dan neurologis."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "ECT juga merupakan terapi pilihan untuk: ."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Klinisi harus menjelaskan manfaat dan efek samping serta pendekatan alternatif terapi."
+        }
+      ],
+      "recommended_pages": [
+        11,
+        22
+      ],
+      "provenance": {
+        "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+        "derivation": "Source_keyword_extraction"
+      }
+    },
+    {
+      "id": "batch_2_6f_05_summary",
+      "title": "Ringkasan cepat",
+      "kind": "Summary",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Electroconvulsive Therapy (ECT) & Psikoterapi.",
+              "children": []
+            },
+            {
+              "text": "(ECT) & Psikoterapi.",
+              "children": []
+            },
+            {
+              "text": "(ECT).",
+              "children": []
+            },
+            {
+              "text": "ECT adalah pengobatan tertua untuk penyakit jiwa yang masih dipakai.",
+              "children": []
+            },
+            {
+              "text": "Variabel yang membatasi penggunaannya adalah efek samping kebingungan dan kehilangan memori.",
+              "children": []
+            },
+            {
+              "text": "Kualitas elektrisitas yang digunakan pada ECT dapat dijelaskan dengan Hukum Ohm, E = IR, atau I = E/R, dimana E adalah tegangan, I adalah arus listrik, dan R adalah resistensi.",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "recommended_pages": [
+        15,
+        22
+      ],
+      "provenance": {
+        "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+        "derivation": "Source_derived_summary"
+      }
+    },
+    {
+      "id": "batch_2_6f_05_bilingual_simplified",
+      "title": "Penjelasan sederhana bilingual",
+      "kind": "Bilingual",
+      "content": [
+        {
+          "type": "Bilingual_simplification",
+          "language": "Id-en",
+          "simple_indonesian": "Secara sederhana, topik ini membahas Electroconvulsive Therapy (ECT) & Psikoterapi. Fokuskan belajar pada definisi, gambaran klinis, pemeriksaan/diagnosis bila ada, dan penatalaksanaan yang tertulis dalam materi dosen.",
+          "english_bridge": "In simple terms, this source is a structured learning page for Electroconvulsive Therapy (ECT) & Psikoterapi. Review definitions, clinical features, assessment/diagnosis when available, and management points from the lecturer material.",
+          "confidence": "high_for_scope_low_for_unsourced_extra_claims"
+        }
+      ],
+      "recommended_pages": [
+        16
+      ],
+      "provenance": {
+        "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+        "derivation": "App_shell_simplification"
+      }
+    },
+    {
+      "id": "batch_2_6f_05_visual_plan",
+      "title": "Electroconvulsive Therapy (ECT) & Psikoterapi.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Image_plan",
+          "visual_id": "Batch_2_6f_05_visual_concept_map",
+          "title": "Concept map: Electroconvulsive Therapy (ECT) & Psikoterapi.",
+          "caption": "Visual ringkas berbasis struktur materi dosen dari ECT dan psikoterapi dr.Diva, Sp.KJ (1).docx.",
+          "recommended_pages": [
+            12,
+            13
+          ],
+          "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx"
+        },
+        {
+          "type": "Image_plan",
+          "visual_id": "Batch_2_6f_05_source_slide_gallery_placeholder",
+          "title": "Galeri slide sumber: Electroconvulsive Therapy (ECT) & Psikoterapi.",
+          "caption": "Dokumen mengandung 12 media; perlu clearance sebelum gambar asli dimasukkan.",
+          "recommended_pages": [
+            13,
+            24
+          ],
+          "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx"
+        }
+      ],
+      "visual_refs": [
+        "Batch_2_6f_05_visual_concept_map",
+        "Batch_2_6f_05_source_slide_gallery_placeholder"
+      ],
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "provenance": {
+        "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+        "derivation": "Visual_asset_planning"
+      }
+    }
+  ],
+  "related_exam_set_ids": [],
+  "extraction_metadata": {
+    "text_chars": 16784,
+    "media_count": 12,
+    "ocr_used": false,
+    "ocr_slide_count": 0
+  },
+  "app_feature_targets": [
+    3,
+    4,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    20,
+    22,
+    24
+  ],
+  "provenance": {
+    "batch_id": "batch_2_6F",
+    "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+    "source_path": "Source_docs/6F/ECT dan psikoterapi dr.Diva, Sp.KJ (1).docx."
+  }
+}

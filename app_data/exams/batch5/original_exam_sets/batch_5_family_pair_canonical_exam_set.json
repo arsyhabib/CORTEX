@@ -1,0 +1,3104 @@
+{
+  "id": "batch5_family_pair_canonical_exam_set",
+  "title": "Batch 5 / Family Pair Overlap — canonical deduplicated question set",
+  "block": "mixed",
+  "year": 0,
+  "year_label": "source_year_unknown",
+  "source_label": "Merged from 388802_Tutorial Jadi Youtuber Bro.docx and 6.3 okeoyeee with dr iksan and willy no -50.docx",
+  "page_route": "pages/original_exam_sets/batch5_family_pair_canonical_exam_set.html",
+  "question_count": 92,
+  "reconstruction_level": "reconstructed",
+  "questions": [
+    {
+      "id": "batch5_family_pair_q001",
+      "number": 1,
+      "stem": "pernyataan yang benar terkait sindrom horner, kecuali",
+      "stem_original": "pernyataan yang benar terkait sindrom horner, kecuali",
+      "options": [
+        "Ptosis",
+        "Enophtalmus",
+        "kehilangan kemampuan berkeringat disatu sisi",
+        "myosis",
+        "sering karna ca servix"
+      ],
+      "explanation": "Sindrom Horner klasik meliputi ptosis, miosis, anhidrosis; kausa “ca cervix” bukan ciri sindrom.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "B:132-138",
+        "is_reconstructed": true,
+        "source_files": [
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          21
+        ],
+        "line_refs": [
+          "B:132-138"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 4,
+      "answer_text": "sering karna ca servix"
+    },
+    {
+      "id": "batch5_family_pair_q002",
+      "number": 2,
+      "stem": "pernyataan tidak tepat untuk hukum material adalah",
+      "stem_original": "pernyataan tidak tepat untuk hukum material adalah",
+      "options": [
+        "kumpulan KUH perdata",
+        "kumpulan KUH pidana",
+        "kumpulan hukum kesehatan",
+        "kumpulan peraturan beracara di pengadilan",
+        "kumpulan peraturan pemerintah, peraturan menteri, peraturan daerah"
+      ],
+      "explanation": "Peraturan beracara di pengadilan termasuk hukum formal/prosedural, bukan hukum material.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:13-18; B:139-144",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          22
+        ],
+        "line_refs": [
+          "A:13-18",
+          "B:139-144"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 3,
+      "answer_text": "kumpulan peraturan beracara di pengadilan"
+    },
+    {
+      "id": "batch5_family_pair_q003",
+      "number": 3,
+      "stem": "penempatan elektroda ECT bilateral biasanya menghasilkan",
+      "stem_original": "penempatan elektroda ECT bilateral biasanya menghasilkan",
+      "options": [
+        "efek samping kognitif yang lebih kecil",
+        "respon terapetik yang lebih lambat",
+        "ambang kejang yang lebih rendah",
+        "respon terapetik yang lebih cepat",
+        "ambang kejang yang lebih tinggi"
+      ],
+      "explanation": "ECT bilateral umumnya memberikan respons lebih cepat tetapi efek samping kognitif lebih besar.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "B:145-150",
+        "is_reconstructed": true,
+        "source_files": [
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          23
+        ],
+        "line_refs": [
+          "B:145-150"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 3,
+      "answer_text": "respon terapetik yang lebih cepat"
+    },
+    {
+      "id": "batch5_family_pair_q004",
+      "number": 4,
+      "stem": "hal hal di bawah ini adalah benar, kecuali, ppt trauma",
+      "stem_original": "hal hal di bawah ini adalah benar, kecuali, ppt trauma",
+      "options": [
+        "manitol dipakai pada edema akibat cedera kepala",
+        "manitol bersifat diuretik non osmotik",
+        "dosis manitol adalah 0,25 g-1g /kg BB",
+        "kontraindikasi di berikan pada gangguan hati",
+        "tidak efektif diberikan pada udem vasogenik"
+      ],
+      "explanation": "Manitol adalah diuretik osmotik; pernyataan non-osmotik merupakan opsi yang salah pada soal kecuali.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:116-121; B:151-157",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          24
+        ],
+        "line_refs": [
+          "A:116-121",
+          "B:151-157"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 1,
+      "answer_text": "manitol bersifat diuretik non osmotik"
+    },
+    {
+      "id": "batch5_family_pair_q005",
+      "number": 5,
+      "stem": "etiologi dari seizure dapat dibedakan menjadi etiologi epileptic dan non epileptic. Etiologi yang terbanyak dari golongan epileptik adalah",
+      "stem_original": "etiologi dari seizure dapat dibedakan menjadi etiologi epileptic dan non epileptic. Etiologi yang terbanyak dari golongan epileptik adalah",
+      "options": [
+        "Idiopatik",
+        "cerebral damage",
+        "infeksi kongenital",
+        "cerebral tumor",
+        "metabolic, ex; dm, hipotiroid, hipertiroid"
+      ],
+      "explanation": "Epilepsi idiopatik sering menjadi kategori etiologi terbesar dalam klasifikasi lama.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "A:306-311; B:158-164",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          25
+        ],
+        "line_refs": [
+          "A:306-311",
+          "B:158-164"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 0,
+      "answer_text": "Idiopatik"
+    },
+    {
+      "id": "batch5_family_pair_q006",
+      "number": 6,
+      "stem": "kontrol terhadap perilaku atau behaviour control adanya pada",
+      "stem_original": "kontrol terhadap perilaku atau behaviour control adanya pada",
+      "options": [
+        "dorsolateral prefrontal cortex",
+        "orbitofrontal cortex",
+        "prefrontal cortex",
+        "precentral cortex",
+        "primary motor cortex"
+      ],
+      "explanation": "Korteks orbitofrontal berperan penting dalam kontrol perilaku sosial dan inhibisi.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "A:531-536; B:165-171",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          26
+        ],
+        "line_refs": [
+          "A:531-536",
+          "B:165-171"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 1,
+      "answer_text": "orbitofrontal cortex"
+    },
+    {
+      "id": "batch5_family_pair_q007",
+      "number": 7,
+      "stem": "yang bukan merupakan alat ukur yang dapat di pakai untuk penampisan gangguan kognisi adalah",
+      "stem_original": "yang bukan merupakan alat ukur yang dapat di pakai untuk penampisan gangguan kognisi adalah",
+      "options": [
+        "MMSE",
+        "CDT",
+        "IADL",
+        "GDS",
+        "ADL"
+      ],
+      "explanation": "GDS adalah Geriatric Depression Scale/gula darah sewaktu pada catatan sumber, bukan alat skrining kognisi utama.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "A:288-293; B:172-177",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          27
+        ],
+        "line_refs": [
+          "A:288-293",
+          "B:172-177"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 3,
+      "answer_text": "GDS"
+    },
+    {
+      "id": "batch5_family_pair_q008",
+      "number": 8,
+      "stem": "seorang pasien, wanita, 45 tahun, ibu rumah tangga, mengeluh mudah lelah dan merasa tidak bahagia, aktivitas dan konsentrasi menurun serta nafsu makan berkurang. Hal tersebut sudah dirasakan selama 3 bulan. Terakhir pasien merasa pekerjaannya sedikit terbengkalai. Dokter meresepkan obat antidepresan. Setelah mengkonsumsi obat tersebut pasien mengeluh mulut kering dan susah BAB. Obat anti deprean yang menyebabkan efek samping tersebut adalah",
+      "stem_original": "seorang pasien, wanita, 45 tahun, ibu rumah tangga, mengeluh mudah lelah dan merasa tidak bahagia, aktivitas dan konsentrasi menurun serta nafsu makan berkurang. Hal tersebut sudah dirasakan selama 3 bulan. Terakhir pasien merasa pekerjaannya sedikit terbengkalai. Dokter meresepkan obat antidepresan. Setelah mengkonsumsi obat tersebut pasien mengeluh mulut kering dan susah BAB. Obat anti deprean yang menyebabkan efek samping tersebut adalah",
+      "options": [
+        "Amitriptilin",
+        "Fluoxetine",
+        "Sertraline",
+        "Paroxetine",
+        "Citalopram"
+      ],
+      "explanation": "Amitriptilin adalah antidepresan trisiklik dengan efek antikolinergik seperti mulut kering dan konstipasi.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:69-74; B:178-183",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          28
+        ],
+        "line_refs": [
+          "A:69-74",
+          "B:178-183"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 0,
+      "answer_text": "Amitriptilin"
+    },
+    {
+      "id": "batch5_family_pair_q009",
+      "number": 9,
+      "stem": "Tn M. 50 tahun, seorang pengusaha sukses di jambi. Dirawat dibagian saraf rumah sakit raden mataher karena tidak bisa berjalan yang disebabkan 1 jam sebelum masuk rumah sakit, saat penderita sedang BAB tiba tiba penderita mengalami kelemahan pada lengan kiri dan tungkai kiri. Hal ini terjadi untuk yang pertama kali. Pada saat serangan penderita tampak selalu mengantuk dan susah di ajak komunikasi. Disertai sakit kepala, mual dan muntah. Tanpa disertai kejang dan gangguan rasa pada sisi yang lemah. Kelemahan lengan kiri dan tungkai kiri sama berat. Saat mengobrol bicaranya pelo dan lidah deviasi kekiri saat di julurkan, tidak ada atropi papil lidah dan vasikulasi (-). Saat mengerutkan dahi simetrik, kedua kelopak mata dapat menutup sempurna, namun saat meringis sisi mulut kiri tertinggal. Sehari-hari penderita bekerja dengan tangan kanan. Penderita masih dapat mengungkapkan isi pikirannya secara lisan, tulisan dan isyarat. Penderita juga dapat mengerti isi pikiran orang lain yang diungkapkan secara lisan, tulisan dan isyarat. Reflek dan tonus pada sisi yang lemah meningkat Diagnosis topik yang mungkin pada kasus diatas adalah",
+      "stem_original": "Tn M. 50 tahun, seorang pengusaha sukses di jambi. Dirawat dibagian saraf rumah sakit raden mataher karena tidak bisa berjalan yang disebabkan 1 jam sebelum masuk rumah sakit, saat penderita sedang BAB tiba tiba penderita mengalami kelemahan pada lengan kiri dan tungkai kiri. Hal ini terjadi untuk yang pertama kali. Pada saat serangan penderita tampak selalu mengantuk dan susah di ajak komunikasi. Disertai sakit kepala, mual dan muntah. Tanpa disertai kejang dan gangguan rasa pada sisi yang lemah. Kelemahan lengan kiri dan tungkai kiri sama berat. Saat mengobrol bicaranya pelo dan lidah deviasi kekiri saat di julurkan, tidak ada atropi papil lidah dan vasikulasi (-). Saat mengerutkan dahi simetrik, kedua kelopak mata dapat menutup sempurna, namun saat meringis sisi mulut kiri tertinggal. Sehari-hari penderita bekerja dengan tangan kanan. Penderita masih dapat mengungkapkan isi pikirannya secara lisan, tulisan dan isyarat. Penderita juga dapat mengerti isi pikiran orang lain yang diungkapkan secara lisan, tulisan dan isyarat. Reflek dan tonus pada sisi yang lemah meningkat Diagnosis topik yang mungkin pada kasus diatas adalah",
+      "options": [
+        "Korteks cerebri",
+        "Subkorteks cerebri",
+        "Kapsula interna",
+        "Batang otak, lebih ke pons"
+      ],
+      "explanation": "Pola defisit motor murni yang mengenai wajah, lengan, dan tungkai secara seimbang dengan bahasa tetap utuh paling cocok untuk lesi kapsula interna.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "A:34-38; A:329-333; B:184-189",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          29
+        ],
+        "line_refs": [
+          "A:34-38",
+          "A:329-333",
+          "B:184-189"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_text": "Kapsula interna",
+      "answer_index": 2,
+      "answer_source_status": "clinically_inferred",
+      "reconstruction_notes": "Pure motor hemiparesis dengan kelemahan wajah-lengan-tungkai seimbang, bahasa tetap utuh, dan tanpa tanda kortikal paling sesuai dengan kapsula interna."
+    },
+    {
+      "id": "batch5_family_pair_q011",
+      "number": 10,
+      "stem": "identitas jenis kelamin atau preferensi seksual tidak diragukan, tetapi individu mengharapkan yang lain disebakan oleh gangguan psikologis dan perilaku, serta mencari pengobatan untuk mengubahnya, di sebut..",
+      "stem_original": "identitas jenis kelamin atau preferensi seksual tidak diragukan, tetapi individu mengharapkan yang lain disebakan oleh gangguan psikologis dan perilaku, serta mencari pengobatan untuk mengubahnya, di sebut..",
+      "options": [
+        "Gangguan maturitas seksual",
+        "Orientasi seksual egodistonik",
+        "Gangguan jalinan seksual",
+        "Gangguan identitas jenis kelamin",
+        "Gangguan referensi seksual"
+      ],
+      "explanation": "Orientasi seksual egodistonik adalah ketidaknyamanan psikologis terhadap orientasi seksual sendiri dan keinginan mengubahnya.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "B:196-201",
+        "is_reconstructed": true,
+        "source_files": [
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          31
+        ],
+        "line_refs": [
+          "B:196-201"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 1,
+      "answer_text": "Orientasi seksual egodistonik"
+    },
+    {
+      "id": "batch5_family_pair_q012",
+      "number": 11,
+      "stem": "pemberian terapi medika mentosa mulai dipertimbangkan pada ulkus dekubitus",
+      "stem_original": "pemberian terapi medika mentosa mulai dipertimbangkan pada ulkus dekubitus",
+      "options": [
+        "Ulkus dekubitus grade 1",
+        "Ulkus dekubitus grade 2",
+        "Ulkus dekubitus grade 3",
+        "Ulkus dekubitus grade 4",
+        "Bukan salah satu diatas"
+      ],
+      "explanation": "Butir ini ambigu; grade 3 dipertahankan sebagai rekonstruksi konservatif dari sumber tanpa kunci eksplisit.",
+      "confidence": "low",
+      "origin": {
+        "page": 1,
+        "page_label": "A:489-494; B:202-207",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          32
+        ],
+        "line_refs": [
+          "A:489-494",
+          "B:202-207"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 2,
+      "answer_text": "Ulkus dekubitus grade 3"
+    },
+    {
+      "id": "batch5_family_pair_q013",
+      "number": 12,
+      "stem": "seorang pasien mengeluh sering merasa cemas yang berlangsung hampir setiap hari sehingga sering merasa berdebar debar, berkeringat, dan pusing. Gejala yang dirasakan termasuk gejala berat dan disertai serangan panik. Farmakoterapi yang tepat untuk pasien tersebut adalah",
+      "stem_original": "seorang pasien mengeluh sering merasa cemas yang berlangsung hampir setiap hari sehingga sering merasa berdebar debar, berkeringat, dan pusing. Gejala yang dirasakan termasuk gejala berat dan disertai serangan panik. Farmakoterapi yang tepat untuk pasien tersebut adalah",
+      "options": [
+        "Buspiron",
+        "Alprazolam",
+        "Triazolam",
+        "Esitazolam",
+        "Zolpidem"
+      ],
+      "explanation": "Gejala ansietas berat dengan serangan panik membutuhkan benzodiazepin kerja cepat; dari opsi yang ada alprazolam paling sesuai.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "A:241-246; A:549-554; B:208-214",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          33
+        ],
+        "line_refs": [
+          "A:241-246",
+          "A:549-554",
+          "B:208-214"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 1,
+      "answer_text": "Alprazolam"
+    },
+    {
+      "id": "batch5_family_pair_q014",
+      "number": 13,
+      "stem": "mekanisme obat anti kejang belum diketahui secara pasti. Dibawah ini merupakan mekanisme kerja suatu obat memiliki efek anti kejang, kecuali",
+      "stem_original": "mekanisme obat anti kejang belum diketahui secara pasti. Dibawah ini merupakan mekanisme kerja suatu obat memiliki efek anti kejang, kecuali",
+      "options": [
+        "Meningkatkan gaba",
+        "Meningkatkan transmisi GABAergik",
+        "Meningkatkan transmisi glutamatergik",
+        "Memodifikasi konduksi ion",
+        "Menurunkan transmisi glutamatergik"
+      ],
+      "explanation": "Antikejang umumnya meningkatkan inhibisi GABA atau menurunkan eksitasi glutamat, bukan meningkatkan transmisi glutamatergik.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:81-85; B:215-220",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          34
+        ],
+        "line_refs": [
+          "A:81-85",
+          "B:215-220"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 2,
+      "answer_text": "Meningkatkan transmisi glutamatergik"
+    },
+    {
+      "id": "batch5_family_pair_q015",
+      "number": 14,
+      "stem": "berikut ini merupakan gangguan tidur yang dapat terjadi pada pasien delirium, kecuali",
+      "stem_original": "berikut ini merupakan gangguan tidur yang dapat terjadi pada pasien delirium, kecuali",
+      "options": [
+        "Insomnia, atau pada kasus yang berat tidak dapat tidur sama sekali, atau terbaliknya siklus tidur mengantuk siang hari",
+        "Gejala memburuk pada malam hari",
+        "Mimpi yang menggangu",
+        "Mimpi buruk yang dapat berlanjut menjadi halusinasi setelah bangun tidur",
+        "Sulit masuk waktu tidur, tetapi bila sudah tidur, pasien dapat tidur dengan nyenyak"
+      ],
+      "explanation": "Sulit masuk tidur tetapi tidur nyenyak setelahnya lebih sesuai insomnia awal/Alzheimer note, bukan pola delirium khas.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "B:227-232",
+        "is_reconstructed": true,
+        "source_files": [
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          36
+        ],
+        "line_refs": [
+          "B:227-232"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 4,
+      "answer_text": "Sulit masuk waktu tidur, tetapi bila sudah tidur, pasien dapat tidur dengan nyenyak"
+    },
+    {
+      "id": "batch5_family_pair_q016",
+      "number": 15,
+      "stem": "seorang laki-laki, 45 tahun, dirawat di ICCU dengan diagnosis krisis tiroid dan saat ini disertai dengan keluhan mengamuk, tidak mengenal keluarganya dan tidak mengetahui dimana dia berada. Pola tidur pasien menjadi terbalik, dan pasien sering berteriak-teriak melihat setan. Dan melihat bayangan keluarganya yang telah meninggal dunia. Diagnosis gangguan jiwa pada pasien ini adalah",
+      "stem_original": "seorang laki-laki, 45 tahun, dirawat di ICCU dengan diagnosis krisis tiroid dan saat ini disertai dengan keluhan mengamuk, tidak mengenal keluarganya dan tidak mengetahui dimana dia berada. Pola tidur pasien menjadi terbalik, dan pasien sering berteriak-teriak melihat setan. Dan melihat bayangan keluarganya yang telah meninggal dunia. Diagnosis gangguan jiwa pada pasien ini adalah",
+      "options": [
+        "Halusinasi organik",
+        "Sindroma amnesia organik",
+        "Delirium",
+        "Gangguan katatonik organik",
+        "Cemas organik"
+      ],
+      "explanation": "Krisis tiroid dengan disorientasi akut, halusinasi visual, dan siklus tidur terbalik mengarah ke delirium organik.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:519-522; B:233-238",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          37
+        ],
+        "line_refs": [
+          "A:519-522",
+          "B:233-238"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 2,
+      "answer_text": "Delirium"
+    },
+    {
+      "id": "batch5_family_pair_q017",
+      "number": 16,
+      "stem": "golongan obat yang merupakan first line untuk terapi migrain adalah",
+      "stem_original": "golongan obat yang merupakan first line untuk terapi migrain adalah",
+      "options": [
+        "Triptan",
+        "Ergot",
+        "Barbiturat",
+        "Asetaminofen"
+      ],
+      "explanation": "Dalam opsi yang tersedia, triptan adalah pilihan antimigrain spesifik lini awal untuk serangan migrain sedang-berat.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "A:369-373; B:239-249",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          38
+        ],
+        "line_refs": [
+          "A:369-373",
+          "B:239-249"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 0,
+      "answer_text": "Triptan"
+    },
+    {
+      "id": "batch5_family_pair_q018",
+      "number": 17,
+      "stem": "anamnesis bentuk bangkitan yang baik, disertai pemeriksaan fisik dan penunjang yang sesuai, dapat membedakan antara bangkitan yang parsial (focal) dengan bangkitan umum (generalized). Ciri yang dapat mengarahkan bentuk bankitan focal yaitu apabila bentuk kejangnya adalah",
+      "stem_original": "anamnesis bentuk bangkitan yang baik, disertai pemeriksaan fisik dan penunjang yang sesuai, dapat membedakan antara bangkitan yang parsial (focal) dengan bangkitan umum (generalized). Ciri yang dapat mengarahkan bentuk bankitan focal yaitu apabila bentuk kejangnya adalah",
+      "options": [
+        "Langsung pingsan (drop attack)",
+        "Kompulsif tonik klonik",
+        "Absence",
+        "Conversion disorder atau malingering",
+        "Didahului automatism"
+      ],
+      "explanation": "Automatisme/aura lebih mengarah ke bangkitan fokal dibanding drop attack, absence, atau tonik-klonik umum.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "A:579-584; B:257-262",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          41
+        ],
+        "line_refs": [
+          "A:579-584",
+          "B:257-262"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 4,
+      "answer_text": "Didahului automatism"
+    },
+    {
+      "id": "batch5_family_pair_q019",
+      "number": 18,
+      "stem": "setelah kejang akibat ECT, metabolisme otak menurun, terutama di",
+      "stem_original": "setelah kejang akibat ECT, metabolisme otak menurun, terutama di",
+      "options": [
+        "Lobus temporalis",
+        "Lobus frontalis",
+        "Lobus parietalis",
+        "Lobus occipitalis",
+        "Pons"
+      ],
+      "explanation": "Materi psikiatri sering menekankan penurunan metabolisme frontal pasca ECT.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "B:263-268",
+        "is_reconstructed": true,
+        "source_files": [
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          42
+        ],
+        "line_refs": [
+          "B:263-268"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 1,
+      "answer_text": "Lobus frontalis"
+    },
+    {
+      "id": "batch5_family_pair_q020",
+      "number": 19,
+      "stem": "antipsikosis generasi pertama yang pemberiannya dihindari pada penderita penyakit jantung karena dapat menyebabkan depresan miokard secara langsung adalah",
+      "stem_original": "antipsikosis generasi pertama yang pemberiannya dihindari pada penderita penyakit jantung karena dapat menyebabkan depresan miokard secara langsung adalah",
+      "options": [
+        "Phenotiazine",
+        "Thioridazine",
+        "Mesoridazine",
+        "Thiotixene"
+      ],
+      "explanation": "Thioridazine dikenal relatif bermasalah pada jantung/QT dan perlu dihindari pada risiko kardiak.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "A:29-33; B:269-273",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          43
+        ],
+        "line_refs": [
+          "A:29-33",
+          "B:269-273"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 1,
+      "answer_text": "Thioridazine"
+    },
+    {
+      "id": "batch5_family_pair_q021",
+      "number": 20,
+      "stem": "dibawah ini merupakan obat yang dapat digunakan sebagai preventif terjadinya migrain, kecuali",
+      "stem_original": "dibawah ini merupakan obat yang dapat digunakan sebagai preventif terjadinya migrain, kecuali",
+      "options": [
+        "Propanolol",
+        "Timolol",
+        "Dipalproate",
+        "Bisoprolol"
+      ],
+      "explanation": "Propranolol, timolol, dan divalproate dikenal untuk profilaksis migrain; bisoprolol bukan pilihan klasik utama.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:265-269; B:274-278",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          44
+        ],
+        "line_refs": [
+          "A:265-269",
+          "B:274-278"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 3,
+      "answer_text": "Bisoprolol"
+    },
+    {
+      "id": "batch5_family_pair_q022",
+      "number": 21,
+      "stem": "seorang pasien wanita 30 tahun, belum menikah, di konsul dari bedah plastik dengan keluhan merasa penampilannya buruk, tidak menarik dan bahkan menjijikan. Padahal jika dilihat penampilannya normal. Diagnosis pada pasien ini adalah",
+      "stem_original": "seorang pasien wanita 30 tahun, belum menikah, di konsul dari bedah plastik dengan keluhan merasa penampilannya buruk, tidak menarik dan bahkan menjijikan. Padahal jika dilihat penampilannya normal. Diagnosis pada pasien ini adalah",
+      "options": [
+        "Gangguan nyeri",
+        "Somatisasi",
+        "Hipokondriasis",
+        "Body dismorfik disorder",
+        "Gangguan konversi"
+      ],
+      "explanation": "Preokupasi terhadap cacat penampilan yang tidak nyata mengarah ke body dysmorphic disorder.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "B:279-284",
+        "is_reconstructed": true,
+        "source_files": [
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          45
+        ],
+        "line_refs": [
+          "B:279-284"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 3,
+      "answer_text": "Body dismorfik disorder"
+    },
+    {
+      "id": "batch5_family_pair_q023",
+      "number": 22,
+      "stem": "fungsi kontrol emosi, menghasilkan perasaan dan menginterpretasi impuls sensorif berada pada",
+      "stem_original": "fungsi kontrol emosi, menghasilkan perasaan dan menginterpretasi impuls sensorif berada pada",
+      "options": [
+        "Diencephalon",
+        "Mesencephalon",
+        "Metencephalon",
+        "Myelencephalon",
+        "Telencephalon"
+      ],
+      "explanation": "Butir ini ambigu; fungsi emosi dan integrasi sensorik melibatkan struktur telensefalon/limbik.",
+      "confidence": "low",
+      "origin": {
+        "page": 1,
+        "page_label": "A:294-299; B:285-290",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          46
+        ],
+        "line_refs": [
+          "A:294-299",
+          "B:285-290"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 4,
+      "answer_text": "Telencephalon"
+    },
+    {
+      "id": "batch5_family_pair_q024",
+      "number": 23,
+      "stem": "argumen yang menyebutkan bahwa seseorang yang didakwa melakukan tindakan kriminal dianggap tidak bersalah karena orang tersebut tidak bisa mengontrol perbuatannya atau tidak mengerti perbedan antara benar dan salah yang di kenal sebagai",
+      "stem_original": "argumen yang menyebutkan bahwa seseorang yang didakwa melakukan tindakan kriminal dianggap tidak bersalah karena orang tersebut tidak bisa mengontrol perbuatannya atau tidak mengerti perbedan antara benar dan salah yang di kenal sebagai",
+      "options": [
+        "Keinginan",
+        "Fakta meringankan",
+        "Peraturan M’naghten",
+        "Peraturan yang meringankan",
+        "Semua salah"
+      ],
+      "explanation": "Aturan M’Naghten digunakan dalam konteks pertanggungjawaban pidana dan kemampuan membedakan benar-salah.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:513-518; B:291-296",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          47
+        ],
+        "line_refs": [
+          "A:513-518",
+          "B:291-296"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 2,
+      "answer_text": "Peraturan M’naghten"
+    },
+    {
+      "id": "batch5_family_pair_q025",
+      "number": 24,
+      "stem": "infeksi otak yang menimbulkan lesi focal otak dan menyebabkan defisit neurologis, sering terjadi pada pasien dengan status HIV + adalah",
+      "stem_original": "infeksi otak yang menimbulkan lesi focal otak dan menyebabkan defisit neurologis, sering terjadi pada pasien dengan status HIV + adalah",
+      "options": [
+        "Meningitis",
+        "SOL",
+        "Toxoplasmosis",
+        "Ensefalitis",
+        "Varisela intrakaranial"
+      ],
+      "explanation": "Toksoplasmosis serebri pada HIV sering menyebabkan lesi fokal dan defisit neurologis.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:483-488; B:297-302",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          48
+        ],
+        "line_refs": [
+          "A:483-488",
+          "B:297-302"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 2,
+      "answer_text": "Toxoplasmosis"
+    },
+    {
+      "id": "batch5_family_pair_q026",
+      "number": 25,
+      "stem": "adanya insomnia pada waktu orang tidur dan hipersomnia waktu kebanyakan orang bangun, berlangsung sekurangnya 1 bulan atau secara berulang dengan periode yang lebih singkat, merupakan kriteria diagnostik dari",
+      "stem_original": "adanya insomnia pada waktu orang tidur dan hipersomnia waktu kebanyakan orang bangun, berlangsung sekurangnya 1 bulan atau secara berulang dengan periode yang lebih singkat, merupakan kriteria diagnostik dari",
+      "options": [
+        "Gangguan jadwal tidur",
+        "Parasomnia",
+        "Somnabulisme",
+        "Insomnia non organik",
+        "Hipersomnia"
+      ],
+      "explanation": "Pola tidur terbalik sesuai gangguan jadwal tidur-bangun.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "B:303-308",
+        "is_reconstructed": true,
+        "source_files": [
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          49
+        ],
+        "line_refs": [
+          "B:303-308"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 0,
+      "answer_text": "Gangguan jadwal tidur"
+    },
+    {
+      "id": "batch5_family_pair_q027",
+      "number": 26,
+      "stem": "laki-laki 17 tahun datang ke poli neurologi dengan keluhan merasa lupa sesaat saat sedang belajar. Teman sekolahnya memberitahukan bahwa dia tampak sering bengong dan tidak berespon saat di kelas. Keadaan tsb berlangsung sebentar, tidak lebih dari 1 menit namun sering berulang. Dokter mendiagnosa pasien dengan kejang absence. Sesuai keadaan pasien diatas, kejang absence termasuk dalam kejang?",
+      "stem_original": "laki-laki 17 tahun datang ke poli neurologi dengan keluhan merasa lupa sesaat saat sedang belajar. Teman sekolahnya memberitahukan bahwa dia tampak sering bengong dan tidak berespon saat di kelas. Keadaan tsb berlangsung sebentar, tidak lebih dari 1 menit namun sering berulang. Dokter mendiagnosa pasien dengan kejang absence. Sesuai keadaan pasien diatas, kejang absence termasuk dalam kejang?",
+      "options": [
+        "Kejang parsial",
+        "Kejang general",
+        "Drop attack",
+        "Pseudo seizure"
+      ],
+      "explanation": "Absence seizure termasuk kejang generalisata.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:438-442; B:309-313",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          50
+        ],
+        "line_refs": [
+          "A:438-442",
+          "B:309-313"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 1,
+      "answer_text": "Kejang general"
+    },
+    {
+      "id": "batch5_family_pair_q028",
+      "number": 27,
+      "stem": "seorang laki-laki berusia 30 tahun dibawa ke IGD RS setelah kecelakaan lalu lintas tidak menggunakan helm dan menabrak pohon, terdapat luka dikepala dan tangan, pasien sempat pingsan saat perjalanan pasien sadar dan lupa kejadian, saat di RS pasien membuka mata saat di panggil, mengerang, serta refleks pleksi saat di cubit, terdapat hematoma temporoparietal. Gambaran CT Scan yang paling mungkin pada kelainan no 10 berupa",
+      "stem_original": "seorang laki-laki berusia 30 tahun dibawa ke IGD RS setelah kecelakaan lalu lintas tidak menggunakan helm dan menabrak pohon, terdapat luka dikepala dan tangan, pasien sempat pingsan saat perjalanan pasien sadar dan lupa kejadian, saat di RS pasien membuka mata saat di panggil, mengerang, serta refleks pleksi saat di cubit, terdapat hematoma temporoparietal. Gambaran CT Scan yang paling mungkin pada kelainan no 10 berupa",
+      "options": [
+        "Gambaran hiperdens intra serebral",
+        "Gambaran hiperdens bikonvek",
+        "Gambaran hiperdens seperti bulan sabit",
+        "Gambaran hiperdens intra ventrikularis",
+        "Gambaran salt and pepper"
+      ],
+      "explanation": "Hematoma epidural secara klasik tampak hiperdens bikonveks/lentiform pada CT scan.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:75-80; B:320-325",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          57
+        ],
+        "line_refs": [
+          "A:75-80",
+          "B:320-325"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 1,
+      "answer_text": "Gambaran hiperdens bikonvek"
+    },
+    {
+      "id": "batch5_family_pair_q029",
+      "number": 28,
+      "stem": "gangguan ingatan pada pasien depresi di sebut dengan",
+      "stem_original": "gangguan ingatan pada pasien depresi di sebut dengan",
+      "options": [
+        "Demensia",
+        "Pseudomensia",
+        "Amnesia retrogart",
+        "Pikun",
+        "Semua benar"
+      ],
+      "explanation": "Gangguan memori yang menyerupai demensia pada depresi disebut pseudodemensia.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:312-317; B:326-331",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          58
+        ],
+        "line_refs": [
+          "A:312-317",
+          "B:326-331"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 1,
+      "answer_text": "Pseudomensia"
+    },
+    {
+      "id": "batch5_family_pair_q030",
+      "number": 29,
+      "stem": "Urutan yang benar dari hirarki blok diagnosis gangguan jiwa berdasarkan PPDGJ III adalah?",
+      "stem_original": "Urutan yang benar dari hirarki blok diagnosis gangguan jiwa berdasarkan PPDGJ III adalah?",
+      "options": [
+        "Gangguan mental organik - gangguan mental dan perilaku akibat zat psikoaktif - skizofrenia - gangguan suasana perasaan",
+        "Gangguan mental organik - skizofrenia - gangguan mental dan perilaku akibat zat psikoaktif",
+        "Gangguan mental organik - gangguan mental dan perilaku akibat zat psikoaktif - gangguan suasana perasaan - skizofrenia",
+        "Skizofrenia - gangguan mental organik - gangguan mental dan perilaku akibat zat psikoaktif - gangguan suasana perasaan",
+        "Perilaku akibat zat psikoaktif - skizofrenia - gangguan suasana perasaan - gangguan mental organik"
+      ],
+      "explanation": "Urutan awal klasifikasi PPDGJ/ICD dimulai dari gangguan mental organik, gangguan akibat zat psikoaktif, lalu skizofrenia dan gangguan suasana perasaan.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "B:332-337",
+        "is_reconstructed": true,
+        "source_files": [
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          59
+        ],
+        "line_refs": [
+          "B:332-337"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 0,
+      "answer_text": "Gangguan mental organik - gangguan mental dan perilaku akibat zat psikoaktif - skizofrenia - gangguan suasana perasaan"
+    },
+    {
+      "id": "batch5_family_pair_q031",
+      "number": 30,
+      "stem": "lesi didaerah cerebelopontine angle, sering mengakibatkan gangguan pada",
+      "stem_original": "lesi didaerah cerebelopontine angle, sering mengakibatkan gangguan pada",
+      "options": [
+        "Nervi IV",
+        "Nervi V",
+        "Nervi VI",
+        "Nervi VIII",
+        "Nervi IX"
+      ],
+      "explanation": "Lesi cerebellopontine angle paling sering mengenai nervus vestibulokoklearis/N. VIII.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:206-211; B:338-343",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          60
+        ],
+        "line_refs": [
+          "A:206-211",
+          "B:338-343"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 3,
+      "answer_text": "Nervi VIII"
+    },
+    {
+      "id": "batch5_family_pair_q032",
+      "number": 31,
+      "stem": "Dibawah ini yang benar tentang Neuritis Vestibularis, Kecuali…",
+      "stem_original": "Dibawah ini yang benar tentang Neuritis Vestibularis, Kecuali…",
+      "options": [
+        "Onset mendadak",
+        "Tidak terjadi hilang pendengaran",
+        "Terjadi peradangan pada N. Vestibularis",
+        "Disebabkan oleh virus",
+        "Terdapat gangguan pendengaran"
+      ],
+      "explanation": "Neuritis vestibularis tidak disertai gangguan pendengaran; bila ada pikirkan labirintitis/Meniere.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:340-345; B:344-349",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          61
+        ],
+        "line_refs": [
+          "A:340-345",
+          "B:344-349"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 4,
+      "answer_text": "Terdapat gangguan pendengaran"
+    },
+    {
+      "id": "batch5_family_pair_q033",
+      "number": 32,
+      "stem": "Psikoterapi suportif yang dilakukan dengan menerangkan secara masuk akal tentang gejala-gejala penyakitnya yang timbul akibat cara berpikir, perasaan, dan sikapnya terhadap masalah yang dihadapinya, disebut sebagai…",
+      "stem_original": "Psikoterapi suportif yang dilakukan dengan menerangkan secara masuk akal tentang gejala-gejala penyakitnya yang timbul akibat cara berpikir, perasaan, dan sikapnya terhadap masalah yang dihadapinya, disebut sebagai…",
+      "options": [
+        "Ventilasi",
+        "Persuasi",
+        "Sugesti",
+        "Reassurance",
+        "Penyuluhan (konseling)"
+      ],
+      "explanation": "Persuasi adalah teknik memberi penjelasan rasional agar pasien memahami gejala dan masalahnya.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:164-169; B:350-355",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          62
+        ],
+        "line_refs": [
+          "A:164-169",
+          "B:350-355"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 1,
+      "answer_text": "Persuasi"
+    },
+    {
+      "id": "batch5_family_pair_q034",
+      "number": 33,
+      "stem": "Selubung myelin yang melapisi sistem saraf memiliki fungsi sebagai:",
+      "stem_original": "Selubung myelin yang melapisi sistem saraf memiliki fungsi sebagai:",
+      "options": [
+        "Kontraktilitas otot",
+        "Insulator listrik",
+        "Metabolism sistem saraf",
+        "Pasokan energy untuk neuron",
+        "Pencegahan dalam peradangan atau infeksi"
+      ],
+      "explanation": "Mielin berfungsi sebagai isolator listrik dan mempercepat konduksi impuls.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:188-193; B:356-361",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          63
+        ],
+        "line_refs": [
+          "A:188-193",
+          "B:356-361"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 1,
+      "answer_text": "Insulator listrik"
+    },
+    {
+      "id": "batch5_family_pair_q035",
+      "number": 34,
+      "stem": "Fenomena psikopatologi yang muncul dari keluhan pasien dan bersifat subyektif disebut…",
+      "stem_original": "Fenomena psikopatologi yang muncul dari keluhan pasien dan bersifat subyektif disebut…",
+      "options": [
+        "Tanda klinis gangguan jiwa,",
+        "Gejala klinis gangguan jiwa, yang dirasakan objektif",
+        "Sindroma klinis gangguan jiwa,",
+        "Semua benar",
+        "Semua salah"
+      ],
+      "explanation": "Keluhan subjektif disebut gejala; temuan objektif disebut tanda.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "B:362-367",
+        "is_reconstructed": true,
+        "source_files": [
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          64
+        ],
+        "line_refs": [
+          "B:362-367"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 1,
+      "answer_text": "Gejala klinis gangguan jiwa, yang dirasakan objektif"
+    },
+    {
+      "id": "batch5_family_pair_q036",
+      "number": 35,
+      "stem": "Seseorang datang ke UGD, bicara pelo, kelemahan anggota gerak sebelah kiri timbul mendadak tadi pagi saat bangun tidur. Dimanakah terjadi kerusakan?",
+      "stem_original": "Seseorang datang ke UGD, bicara pelo, kelemahan anggota gerak sebelah kiri timbul mendadak tadi pagi saat bangun tidur. Dimanakah terjadi kerusakan?",
+      "options": [
+        "Arteri cerebri anterior dan posterior",
+        "Arteri cerebri media",
+        "Arteri carotis komunis",
+        "Arteri basilaris",
+        "Arteri cerebelaris"
+      ],
+      "explanation": "Defisit wajah/lengan dan bicara pelo paling konsisten dengan teritori arteri cerebri media.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:230-235; B:368-373",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          65
+        ],
+        "line_refs": [
+          "A:230-235",
+          "B:368-373"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 1,
+      "answer_text": "Arteri cerebri media"
+    },
+    {
+      "id": "batch5_family_pair_q037",
+      "number": 36,
+      "stem": "Pernyataan tentang Tumor Otak dibawah ini adalah benar, kecuali…",
+      "stem_original": "Pernyataan tentang Tumor Otak dibawah ini adalah benar, kecuali…",
+      "options": [
+        "Laki-laki > wanita",
+        "Dapat berasal dari semua komponen sel otak",
+        "Semua tumor otak memerlukan tindakan operasi, Khemoterapi dan Radiasi",
+        "Meliputi tumor intracranial, spinal, dan metastase",
+        "Insiden yang bertambah setiap tahunnya"
+      ],
+      "explanation": "Tidak semua tumor otak memerlukan kombinasi operasi, kemoterapi, dan radiasi.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "B:374-379",
+        "is_reconstructed": true,
+        "source_files": [
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          66
+        ],
+        "line_refs": [
+          "B:374-379"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 2,
+      "answer_text": "Semua tumor otak memerlukan tindakan operasi, Khemoterapi dan Radiasi"
+    },
+    {
+      "id": "batch5_family_pair_q038",
+      "number": 37,
+      "stem": "Tn. M, 50 tahun Seorang pengusaha sukses di jambi dirawat di bagian syaraf RS. Raden Mattaher karena tidak bisa berjalan yang disebabkan 1 jam sebelum masuk RS, saat penderita sedang BAB tiba-tiba penderita mengalami kelemahan pada lengan kiri ddan tungkai kiri. Hal ini terjadi untuk yang pertama kali. Pada saat serangan penderita tampak selalu mengantuk dan susah diajak komunikasi. Disertai sakit kepala, mual dan muntah. Tanpa disertai kejang dan gangguan rasa pada sisi yang lemah. Kelemahan lengan kiri dan tungkai kiri sama berat. Saat mengobrol bicaranya pelo dan lidah deviasi ke kiri saat dijulurkan, tidak ada atropi papil lidah dan fasikulasi (-). Saat mengerutkan sahi simetris, kedua kelopak mata dapat menutup sempurna, namun saat meringis sisi mulut kiri tertinggal. Sehari-hari pederita bekerja dengan tangan kanan. Penderita masih dapat mengungkapkan isi pikirannya secara lisan, tulisan dan isyarat. Penderita juga masih dapat mengerti isi pikiran orang lain yang diungkapkan secara lisan, tulisan dan isyarat. Reflex dan tonus pada sisi yang lemah meningkat. Diagnosis klinis pada kasus diatas adalah…",
+      "stem_original": "Tn. M, 50 tahun Seorang pengusaha sukses di jambi dirawat di bagian syaraf RS. Raden Mattaher karena tidak bisa berjalan yang disebabkan 1 jam sebelum masuk RS, saat penderita sedang BAB tiba-tiba penderita mengalami kelemahan pada lengan kiri ddan tungkai kiri. Hal ini terjadi untuk yang pertama kali. Pada saat serangan penderita tampak selalu mengantuk dan susah diajak komunikasi. Disertai sakit kepala, mual dan muntah. Tanpa disertai kejang dan gangguan rasa pada sisi yang lemah. Kelemahan lengan kiri dan tungkai kiri sama berat. Saat mengobrol bicaranya pelo dan lidah deviasi ke kiri saat dijulurkan, tidak ada atropi papil lidah dan fasikulasi (-). Saat mengerutkan sahi simetris, kedua kelopak mata dapat menutup sempurna, namun saat meringis sisi mulut kiri tertinggal. Sehari-hari pederita bekerja dengan tangan kanan. Penderita masih dapat mengungkapkan isi pikirannya secara lisan, tulisan dan isyarat. Penderita juga masih dapat mengerti isi pikiran orang lain yang diungkapkan secara lisan, tulisan dan isyarat. Reflex dan tonus pada sisi yang lemah meningkat. Diagnosis klinis pada kasus diatas adalah…",
+      "options": [
+        "Hemiparese sinistra tipe flaksid",
+        "Hemiparese sinistra tipe stastic",
+        "Stroke non hemoragik",
+        "Stroke hemoragik"
+      ],
+      "explanation": "Penurunan kesadaran, nyeri kepala, mual/muntah, dan onset saat mengejan lebih mendukung stroke hemoragik dalam konteks soal.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "A:39-43; B:380-385",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          67
+        ],
+        "line_refs": [
+          "A:39-43",
+          "B:380-385"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 3,
+      "answer_text": "Stroke hemoragik"
+    },
+    {
+      "id": "batch5_family_pair_q039",
+      "number": 38,
+      "stem": "Seorang pria 60 tahun dibawa ke IGD karena merasakan kelemahan yang tiba-tiba di anggota gerak atas dan bawah bagian kanan. Kelemahan tersebut dirasakan seusai pasien shalat subuh. Setelah pasien merasa lemah, pasien masih bisa beralih ke tempat tidur dan meminta tolong kepada keluarga. Saat tiba di IGD, pasien sudah tidak bisa menggerakkan tangan dan kaki bagian kanan. Pasien diketahui memiliki riwayat diabetes dan penyakit gout. Pemeriksaan di IGD kesadaran komposmentis, tekanan darah pada 180/100 mmHg. Diagnosis pasien ini adalah…",
+      "stem_original": "Seorang pria 60 tahun dibawa ke IGD karena merasakan kelemahan yang tiba-tiba di anggota gerak atas dan bawah bagian kanan. Kelemahan tersebut dirasakan seusai pasien shalat subuh. Setelah pasien merasa lemah, pasien masih bisa beralih ke tempat tidur dan meminta tolong kepada keluarga. Saat tiba di IGD, pasien sudah tidak bisa menggerakkan tangan dan kaki bagian kanan. Pasien diketahui memiliki riwayat diabetes dan penyakit gout. Pemeriksaan di IGD kesadaran komposmentis, tekanan darah pada 180/100 mmHg. Diagnosis pasien ini adalah…",
+      "options": [
+        "Stroke hemoragik",
+        "Stroke non hemoragik",
+        "Gout eksaserbasi akut",
+        "Paraplegi",
+        "Sindrom cauda equine"
+      ],
+      "explanation": "Onset saat istirahat/bangun tidur dengan faktor risiko vaskular lebih mendukung stroke iskemik/non-hemoragik dalam pola soal.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "A:134-139; B:386-391",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          68
+        ],
+        "line_refs": [
+          "A:134-139",
+          "B:386-391"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 1,
+      "answer_text": "Stroke non hemoragik"
+    },
+    {
+      "id": "batch5_family_pair_q040",
+      "number": 39,
+      "stem": "Beberapa hal dibawah ini termasuk gejala dan tanda dari nyeri kepala tipe migren, kecuali..",
+      "stem_original": "Beberapa hal dibawah ini termasuk gejala dan tanda dari nyeri kepala tipe migren, kecuali..",
+      "options": [
+        "Serangan selalu diawali dengan adanya aura",
+        "Lokasinya sering unilateral",
+        "Nyeri kepala bisa bifrontal",
+        "Nyeri kepala tidak disertai adanya gangguan organik lain",
+        "Nyeri kepala berkurang dengan tiduran"
+      ],
+      "explanation": "Migrain tidak selalu didahului aura; aura hanya ada pada sebagian kasus.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:346-348; B:392-397",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          69
+        ],
+        "line_refs": [
+          "A:346-348",
+          "B:392-397"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 0,
+      "answer_text": "Serangan selalu diawali dengan adanya aura"
+    },
+    {
+      "id": "batch5_family_pair_q041",
+      "number": 40,
+      "stem": "Seorang wanita berusia 38 tahun mengeluh hampir setiap hari selama beberapa minggu ini merasa khawatir. Perasaan khawatir tersebut disertai dengan keluhan firasat-firasat buruk, gelisah, keluhanepigastik serta sulit untuk tidur. Ia selalu cemas jangan-jangan akan terjadi sesuatu terhadap keluarganya. Diagnosis yang paling memungkinkan adalah…",
+      "stem_original": "Seorang wanita berusia 38 tahun mengeluh hampir setiap hari selama beberapa minggu ini merasa khawatir. Perasaan khawatir tersebut disertai dengan keluhan firasat-firasat buruk, gelisah, keluhanepigastik serta sulit untuk tidur. Ia selalu cemas jangan-jangan akan terjadi sesuatu terhadap keluarganya. Diagnosis yang paling memungkinkan adalah…",
+      "options": [
+        "Reaksi stress akut",
+        "Inisial insomnia",
+        "Gangguan penyesuaian, deprsesi ke cemas",
+        "Gangguan ansietas menyeluruh",
+        "Gangguan ansietas fobik, pencetus"
+      ],
+      "explanation": "Kekhawatiran menetap dengan gejala otonom dan insomnia mengarah ke gangguan ansietas menyeluruh.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:507-509; B:398-403",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          70
+        ],
+        "line_refs": [
+          "A:507-509",
+          "B:398-403"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 3,
+      "answer_text": "Gangguan ansietas menyeluruh"
+    },
+    {
+      "id": "batch5_family_pair_q042",
+      "number": 41,
+      "stem": "berikut ini merupakan gejala-gejala manic, kecuali…",
+      "stem_original": "berikut ini merupakan gejala-gejala manic, kecuali…",
+      "options": [
+        "Logore,",
+        "Flight of idea",
+        "Distraktibilitas",
+        "Insomnia",
+        "Kebutuhan tidur berkurang"
+      ],
+      "explanation": "Pada mania istilah khas adalah berkurangnya kebutuhan tidur; insomnia sebagai keluhan sulit tidur bukan gejala inti yang paling tepat.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "A:122-127; B:404-409",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          71
+        ],
+        "line_refs": [
+          "A:122-127",
+          "B:404-409"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 3,
+      "answer_text": "Insomnia"
+    },
+    {
+      "id": "batch5_family_pair_q043",
+      "number": 42,
+      "stem": "Mekanisme terjadinya bipolar diduga karena oleh beberapa teori, yang termasuk hipotensi kolinergik adalah …",
+      "stem_original": "Mekanisme terjadinya bipolar diduga karena oleh beberapa teori, yang termasuk hipotensi kolinergik adalah …",
+      "options": [
+        "Kelebihan Ach menyebabkan ketidakseimbangan kolinergik dopaminergik meningkatkan resiko manic",
+        "Agen yang menyebabkan pengingkatan Ach menurunkan gejala manic",
+        "Kelebihan katekolamin menyebabkan mania",
+        "Deficit neurotransmitter (NE,Serotonin) menyebabkan depresi"
+      ],
+      "explanation": "Hipotesis kolinergik menyatakan peningkatan aktivitas kolinergik dapat menekan gejala manik.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "A:478-482; B:410-414",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          72
+        ],
+        "line_refs": [
+          "A:478-482",
+          "B:410-414"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 1,
+      "answer_text": "Agen yang menyebabkan pengingkatan Ach menurunkan gejala manic"
+    },
+    {
+      "id": "batch5_family_pair_q044",
+      "number": 43,
+      "stem": "Berdasarkan UU no. 35 tahun 2009 tentang narkotika, opium termasuk narkotika golongan I, dimana semua bagian dari opium berbahaya, kecuali..",
+      "stem_original": "Berdasarkan UU no. 35 tahun 2009 tentang narkotika, opium termasuk narkotika golongan I, dimana semua bagian dari opium berbahaya, kecuali..",
+      "options": [
+        "Bunga",
+        "Daun",
+        "Batang",
+        "Biji"
+      ],
+      "explanation": "Dalam definisi narkotika, bagian tanaman opium dikecualikan pada biji.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:19-23; B:415-419",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          73
+        ],
+        "line_refs": [
+          "A:19-23",
+          "B:415-419"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 3,
+      "answer_text": "Biji"
+    },
+    {
+      "id": "batch5_family_pair_q045",
+      "number": 44,
+      "stem": "Anti convulsant yang dapat digunakan sebagai mood stabilizer adalah..contohmanitol",
+      "stem_original": "Anti convulsant yang dapat digunakan sebagai mood stabilizer adalah..contohmanitol",
+      "options": [
+        "Fenitoin",
+        "Lamotrigine",
+        "Gabapentin",
+        "Phenobarbital"
+      ],
+      "explanation": "Lamotrigine adalah antikonvulsan yang digunakan sebagai mood stabilizer.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:318-322; B:420-424",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          74
+        ],
+        "line_refs": [
+          "A:318-322",
+          "B:420-424"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 1,
+      "answer_text": "Lamotrigine"
+    },
+    {
+      "id": "batch5_family_pair_q046",
+      "number": 45,
+      "stem": "Semua Nervi Craniales keluar dari batang otak, kecuali…",
+      "stem_original": "Semua Nervi Craniales keluar dari batang otak, kecuali…",
+      "options": [
+        "N. I",
+        "N. II",
+        "N. III",
+        "N. I dan N. II",
+        "N. I, II, dan III"
+      ],
+      "explanation": "Nervus olfaktorius dan optikus tidak keluar dari batang otak; N. III berasal dari mesensefalon sehingga masih masuk batang otak.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:323-328; B:425-430",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          75
+        ],
+        "line_refs": [
+          "A:323-328",
+          "B:425-430"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 3,
+      "answer_text": "N. I dan N. II"
+    },
+    {
+      "id": "batch5_family_pair_q047",
+      "number": 46,
+      "stem": "Seorang wanita berusia 39 tahun, dibawa ke fasilitas kesehatan karena dijumpai keganjilan terhadap penderita. Penderita sering berbelanja hal-hal yang tidak penting, perilaku boros, sering mebagi-bagikan barang-barang kepada orang-orang. Penderita juga keliatan banyak bicara, bicara menggebu-gebu, hiperaktif dan terkesan tidak butuh tidur. Penderita juga sering mengatakan bahwa ia adalah orang yang paling sukses dan sangat kaya sehingga sering mengatakan jika ada yang butuh bantuan dia pasti sanggup membantu. Padahal beberapa bulan yang lalu, penderita mengalami kebangkrutan dalam menjalankan usahanya. Karena kebangkrutan tersebut penderita sering menyendiri, sedih, tidak bersemangat, sulit tidur, pesimis, dan perasaan bersalah. Pengobatan yang tepat untuk gangguan diatas adalah…",
+      "stem_original": "Seorang wanita berusia 39 tahun, dibawa ke fasilitas kesehatan karena dijumpai keganjilan terhadap penderita. Penderita sering berbelanja hal-hal yang tidak penting, perilaku boros, sering mebagi-bagikan barang-barang kepada orang-orang. Penderita juga keliatan banyak bicara, bicara menggebu-gebu, hiperaktif dan terkesan tidak butuh tidur. Penderita juga sering mengatakan bahwa ia adalah orang yang paling sukses dan sangat kaya sehingga sering mengatakan jika ada yang butuh bantuan dia pasti sanggup membantu. Padahal beberapa bulan yang lalu, penderita mengalami kebangkrutan dalam menjalankan usahanya. Karena kebangkrutan tersebut penderita sering menyendiri, sedih, tidak bersemangat, sulit tidur, pesimis, dan perasaan bersalah. Pengobatan yang tepat untuk gangguan diatas adalah…",
+      "options": [
+        "Anti psikotik",
+        "Mood stabilizer",
+        "Mood stabilizer + anti psikotik",
+        "Anti depresi",
+        "Mood stabilizer + anti depresi"
+      ],
+      "explanation": "Episode manik dengan gejala psikotik/grandiositas memerlukan mood stabilizer ditambah antipsikotik.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:50-55; B:431-437",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          76
+        ],
+        "line_refs": [
+          "A:50-55",
+          "B:431-437"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 2,
+      "answer_text": "Mood stabilizer + anti psikotik"
+    },
+    {
+      "id": "batch5_family_pair_q048",
+      "number": 47,
+      "stem": "Gejala-gejala dibawah ini mengarah kepada Tumor Otak pada Lobus Frontal, Kecuali..",
+      "stem_original": "Gejala-gejala dibawah ini mengarah kepada Tumor Otak pada Lobus Frontal, Kecuali..",
+      "options": [
+        "Inappropriate behavior",
+        "Personality changes",
+        "Motorik disfunction",
+        "Headache",
+        "Hemianopsia visual"
+      ],
+      "explanation": "Hemianopsia visual lebih terkait jalur visual/lobus oksipital, bukan gejala khas lobus frontal.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:224-229; B:438-443",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          77
+        ],
+        "line_refs": [
+          "A:224-229",
+          "B:438-443"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 4,
+      "answer_text": "Hemianopsia visual"
+    },
+    {
+      "id": "batch5_family_pair_q049",
+      "number": 48,
+      "stem": "Nyeri kepala karena peningkatan tekanan intracranial oleh karena tumor otak dapat disebabkan oleh, kecuali…",
+      "stem_original": "Nyeri kepala karena peningkatan tekanan intracranial oleh karena tumor otak dapat disebabkan oleh, kecuali…",
+      "options": [
+        "Efek massa dari tumor itu sendiri",
+        "Adanya perubahan bentuk tulang otak",
+        "Hidrocephalus",
+        "Efek massa karena adanya perdarahan",
+        "Efek massa karena edema otak"
+      ],
+      "explanation": "Peningkatan TIK pada tumor terutama karena efek massa, edema, perdarahan, atau hidrosefalus; perubahan bentuk tulang bukan mekanisme utama.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "B:444-449",
+        "is_reconstructed": true,
+        "source_files": [
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          78
+        ],
+        "line_refs": [
+          "B:444-449"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 1,
+      "answer_text": "Adanya perubahan bentuk tulang otak"
+    },
+    {
+      "id": "batch5_family_pair_q050",
+      "number": 49,
+      "stem": "Seorang wanita berusia 37 tahun datang dengan keluhan sering sedih dan tidak bersemangat. Gejala tersebut disertai dengan sulit konsentrasi, sulit tidur, rasa tidak berharga dan berkurangnya nafsu makan. Hal tersebut dialami selama beberapa bulan. Kira-kira 6 bulan sebelumnya pasien mengalami gejala banyak bicara, gampang marah, dan berperilaku boros. Pengobatan yang tepat untuk kasus tersebut adalah..ggn cemas menyeluruh",
+      "stem_original": "Seorang wanita berusia 37 tahun datang dengan keluhan sering sedih dan tidak bersemangat. Gejala tersebut disertai dengan sulit konsentrasi, sulit tidur, rasa tidak berharga dan berkurangnya nafsu makan. Hal tersebut dialami selama beberapa bulan. Kira-kira 6 bulan sebelumnya pasien mengalami gejala banyak bicara, gampang marah, dan berperilaku boros. Pengobatan yang tepat untuk kasus tersebut adalah..ggn cemas menyeluruh",
+      "options": [
+        "Obat anti depresi, benziizin",
+        "Obat ansietas",
+        "Mood stabilizer",
+        "Obat antipsikotik",
+        "Terapi kejang listrik"
+      ],
+      "explanation": "Riwayat episode manik/hipomanik sebelumnya membuat antidepresan tunggal tidak aman; pilihan dasar adalah mood stabilizer.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:152-156; B:450-455",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          79
+        ],
+        "line_refs": [
+          "A:152-156",
+          "B:450-455"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 2,
+      "answer_text": "Mood stabilizer"
+    },
+    {
+      "id": "batch5_family_pair_q051",
+      "number": 50,
+      "stem": "berikut ini merupakan penyakit yang dapat menyebabkan gangguan memori, kecuali…",
+      "stem_original": "berikut ini merupakan penyakit yang dapat menyebabkan gangguan memori, kecuali…",
+      "options": [
+        "Depresi",
+        "Demensia",
+        "Delirium",
+        "Cemas",
+        "Skizoprenia"
+      ],
+      "explanation": "Sumber tidak eksplisit; cemas dipilih sebagai opsi paling kurang khas dibanding depresi, demensia, delirium, dan skizofrenia.",
+      "confidence": "low",
+      "origin": {
+        "page": 1,
+        "page_label": "A:182-186; A:466-471; B:456-461",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          80
+        ],
+        "line_refs": [
+          "A:182-186",
+          "A:466-471",
+          "B:456-461"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 3,
+      "answer_text": "Cemas"
+    },
+    {
+      "id": "batch5_family_pair_q052",
+      "number": 51,
+      "stem": "Dibawah ini yang merupakan karakteristik dari antipsikosis atipikal (second generation antipsycosis) adalah",
+      "stem_original": "Dibawah ini yang merupakan karakteristik dari antipsikosis atipikal (second generation antipsycosis) adalah",
+      "options": [
+        "bekerja dengan menghambat serotonin dan D4",
+        "menyebabkan hiperprolaktinema, ektrapiramidal apg1",
+        "menimbulkan efek ekstrapiramidal yang hebat, apg1",
+        "efektif mengatasi gejala positif, apg1"
+      ],
+      "explanation": "Antipsikotik atipikal bekerja terutama melalui antagonisme serotonin dan dopamin.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:455-459; B:462-466",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          81
+        ],
+        "line_refs": [
+          "A:455-459",
+          "B:462-466"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 0,
+      "answer_text": "bekerja dengan menghambat serotonin dan D4"
+    },
+    {
+      "id": "batch5_family_pair_q053",
+      "number": 52,
+      "stem": "Tujuan pengobatan demensia adalah KECUALI",
+      "stem_original": "Tujuan pengobatan demensia adalah KECUALI",
+      "options": [
+        "mempertahankan kualitas hidup",
+        "mengobati gangguan secara total",
+        "memperlambat progresivitas",
+        "mengobati penyakit penyerta",
+        "membantu keluarga, memberi informasi cara-cara penanganan yang manfaat"
+      ],
+      "explanation": "Terapi demensia bertujuan mempertahankan fungsi/kualitas hidup dan memperlambat progresivitas, bukan menyembuhkan total.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:146-151; B:467-472",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          82
+        ],
+        "line_refs": [
+          "A:146-151",
+          "B:467-472"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 1,
+      "answer_text": "mengobati gangguan secara total"
+    },
+    {
+      "id": "batch5_family_pair_q054",
+      "number": 53,
+      "stem": "Ketidaksesuaian antara pengalaman gerakan yang sudah tersimpan di otak dengan gerakan yang sedang di hadapi sehingga menimbulkan gerakan aneh yang kemudian akan mengaktifasi sistema saraf otonom sehingga terjadi vertigo, disebut teori",
+      "stem_original": "Ketidaksesuaian antara pengalaman gerakan yang sudah tersimpan di otak dengan gerakan yang sedang di hadapi sehingga menimbulkan gerakan aneh yang kemudian akan mengaktifasi sistema saraf otonom sehingga terjadi vertigo, disebut teori",
+      "options": [
+        "teori konflik sensoris",
+        "teori rangsang berlebihan",
+        "teori otonomik",
+        "teori neural mismatch",
+        "teori neuro-humoral"
+      ],
+      "explanation": "Teori neural mismatch menjelaskan vertigo akibat ketidakcocokan pola gerakan tersimpan dengan input saat ini.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:170-175; B:473-478",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          83
+        ],
+        "line_refs": [
+          "A:170-175",
+          "B:473-478"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 3,
+      "answer_text": "teori neural mismatch"
+    },
+    {
+      "id": "batch5_family_pair_q055",
+      "number": 54,
+      "stem": "Ny. Wati, 40 tahun, datang ke RS untuk menjalani pemeriksaan karena ada sesuatu yang mengganjal ditenggorokannya. Namun hasil pemeriksaan menunjukkan tidak ditemukan kelainan apapun padanya. Ia mengaku sudah merasakan adanya sesuatu yang mengganjal ditenggorokannya sejak 3 bulan berakhir. Ny. Wali menduga ia terkena kanker atau penyakit lainnya. Namun dari hasil pemeriksaan semuanya negatif. Apa diagnosis kasus diatas?",
+      "stem_original": "Ny. Wati, 40 tahun, datang ke RS untuk menjalani pemeriksaan karena ada sesuatu yang mengganjal ditenggorokannya. Namun hasil pemeriksaan menunjukkan tidak ditemukan kelainan apapun padanya. Ia mengaku sudah merasakan adanya sesuatu yang mengganjal ditenggorokannya sejak 3 bulan berakhir. Ny. Wali menduga ia terkena kanker atau penyakit lainnya. Namun dari hasil pemeriksaan semuanya negatif. Apa diagnosis kasus diatas?",
+      "options": [
+        "Gangguan cemas menyeluruh",
+        "Fobia sosial",
+        "Hipokondriasis",
+        "Gangguan panik",
+        "Gangguan somatisasi"
+      ],
+      "explanation": "Ketakutan menderita kanker/penyakit serius meski pemeriksaan negatif mengarah ke hipokondriasis.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "B:485-490",
+        "is_reconstructed": true,
+        "source_files": [
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          85
+        ],
+        "line_refs": [
+          "B:485-490"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 2,
+      "answer_text": "hipokondriasis"
+    },
+    {
+      "id": "batch5_family_pair_q056",
+      "number": 55,
+      "stem": "Seorang wanita, umur 36 tahun mengalami suatu peristiwa trauma hebat karena mengalami kecelakaan berat kira-kira 2 bulan yang lalu. Mengalami mimpi-mimpi mengenai kejadian tersebut dan bayangan bayangan kejadian trauma tersebut. Ketakutan yang hebat dan menghindari tempat kejadian trauma tersebut. Diagnosis yang tepat adalah",
+      "stem_original": "Seorang wanita, umur 36 tahun mengalami suatu peristiwa trauma hebat karena mengalami kecelakaan berat kira-kira 2 bulan yang lalu. Mengalami mimpi-mimpi mengenai kejadian tersebut dan bayangan bayangan kejadian trauma tersebut. Ketakutan yang hebat dan menghindari tempat kejadian trauma tersebut. Diagnosis yang tepat adalah",
+      "options": [
+        "gangguan panik",
+        "serangan panik",
+        "reaksi stres akut, bencana kematuian, 3 – 4 hari 1 bulan",
+        "gangguan stres pasca trauma",
+        "gangguan penyesuaian, contoh pindah kerja,"
+      ],
+      "explanation": "Gejala re-experiencing, avoidance, dan ketakutan setelah trauma berat selama lebih dari 1 bulan mengarah ke PTSD.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "B:491-496",
+        "is_reconstructed": true,
+        "source_files": [
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          86
+        ],
+        "line_refs": [
+          "B:491-496"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 3,
+      "answer_text": "gangguan stres pasca trauma"
+    },
+    {
+      "id": "batch5_family_pair_q057",
+      "number": 56,
+      "stem": "Kecenderungan yang berulang atau menetap untuk melihat orang yang sedang berhubungan seksual atau berprilaku intim seperti sedang menanggalkan pakaian, disebut",
+      "stem_original": "Kecenderungan yang berulang atau menetap untuk melihat orang yang sedang berhubungan seksual atau berprilaku intim seperti sedang menanggalkan pakaian, disebut",
+      "options": [
+        "frotteurisme",
+        "pedofilia",
+        "masokisme seksual",
+        "eksibisionisme",
+        "voyeurisme"
+      ],
+      "explanation": "Voyeurisme adalah dorongan/aktivitas mengamati orang lain dalam keadaan seksual atau intim.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:86-91; B:497-502",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          87
+        ],
+        "line_refs": [
+          "A:86-91",
+          "B:497-502"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 4,
+      "answer_text": "voyeurisme"
+    },
+    {
+      "id": "batch5_family_pair_q058",
+      "number": 57,
+      "stem": "Seorang pasien, laki-laki, 55 tahun mengeluhkan kehilangan minat dan kegembiraan, mudah lelah, aktifitas dan konsentrasi menurun serta nafsu makan berkurang. Hal tersebut sudah dirasakan selama 1 bulan terakhir. Pasien merasakan bahwa tidak mampu menjalankan pekerjaan dan urusan rumah tangganya seperti biasanya lagi. Dokter meresepkan obat antidepresan golongan SSRIs. Obat yang tepat diberikan oleh dokter adalah",
+      "stem_original": "Seorang pasien, laki-laki, 55 tahun mengeluhkan kehilangan minat dan kegembiraan, mudah lelah, aktifitas dan konsentrasi menurun serta nafsu makan berkurang. Hal tersebut sudah dirasakan selama 1 bulan terakhir. Pasien merasakan bahwa tidak mampu menjalankan pekerjaan dan urusan rumah tangganya seperti biasanya lagi. Dokter meresepkan obat antidepresan golongan SSRIs. Obat yang tepat diberikan oleh dokter adalah",
+      "options": [
+        "Fluoxetine",
+        "Amitriptilin",
+        "Reboxetine",
+        "Clomipramine",
+        "Selegiline"
+      ],
+      "explanation": "Fluoxetine adalah SSRI; opsi lain bukan SSRI utama dalam daftar.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:495-500; B:503-508",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          88
+        ],
+        "line_refs": [
+          "A:495-500",
+          "B:503-508"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 0,
+      "answer_text": "Fluoxetine"
+    },
+    {
+      "id": "batch5_family_pair_q059",
+      "number": 58,
+      "stem": "Zat yang terkandung dalam ganja yang bersifat lipofilik adalah",
+      "stem_original": "Zat yang terkandung dalam ganja yang bersifat lipofilik adalah",
+      "options": [
+        "tetrahidro cannabinol (THC)",
+        "dihidro-cannabinol",
+        "cannabinol (CBN)",
+        "cannabinol"
+      ],
+      "explanation": "THC adalah komponen utama ganja yang lipofilik.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:403-407; B:509-513",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          89
+        ],
+        "line_refs": [
+          "A:403-407",
+          "B:509-513"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 0,
+      "answer_text": "tetrahidro cannabinol (THC)"
+    },
+    {
+      "id": "batch5_family_pair_q060",
+      "number": 59,
+      "stem": "Seorang pasien laki-laki, pegawai pabrik, 45 tahun, mengeluh sulit untuk jatuh tertidur sehingga seringkali menjelang fajar baru dapat tidur. Farmakoterapi yang tepat untuk tipe insomnia pasien tersebut tanpa merasakan kantuk pada pagi harinya adalah sulit mulai tdiur early sleep",
+      "stem_original": "Seorang pasien laki-laki, pegawai pabrik, 45 tahun, mengeluh sulit untuk jatuh tertidur sehingga seringkali menjelang fajar baru dapat tidur. Farmakoterapi yang tepat untuk tipe insomnia pasien tersebut tanpa merasakan kantuk pada pagi harinya adalah sulit mulai tdiur early sleep",
+      "options": [
+        "triazolam",
+        "flurazepam",
+        "clonazepam",
+        "clorazepam",
+        "barbiturat"
+      ],
+      "explanation": "Triazolam adalah benzodiazepin kerja pendek untuk insomnia awal dengan lebih sedikit hangover dibanding kerja panjang.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "A:270-275; B:514-520",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          90
+        ],
+        "line_refs": [
+          "A:270-275",
+          "B:514-520"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 0,
+      "answer_text": "triazolam"
+    },
+    {
+      "id": "batch5_family_pair_q061",
+      "number": 60,
+      "stem": "Dibawah ini termasuk disfungsi seksual, kecuali",
+      "stem_original": "Dibawah ini termasuk disfungsi seksual, kecuali",
+      "options": [
+        "gangguan jalinan seksual",
+        "frigiditas",
+        "penolakan dan kurangnya kenikmatan seksual",
+        "disfungsi ereksi",
+        "ejakulasi dini"
+      ],
+      "explanation": "Gangguan jalinan seksual lebih mengarah ke relasi/psikoseksual, bukan disfungsi seksual fisiologis klasik.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "B:521-526",
+        "is_reconstructed": true,
+        "source_files": [
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          91
+        ],
+        "line_refs": [
+          "B:521-526"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 0,
+      "answer_text": "gangguan jalinan seksual"
+    },
+    {
+      "id": "batch5_family_pair_q062",
+      "number": 61,
+      "stem": "Prognosis amnesia tergantung pada",
+      "stem_original": "Prognosis amnesia tergantung pada",
+      "options": [
+        "etiologi",
+        "usia",
+        "penatalaksanaan",
+        "semua benar",
+        "etiologi dan penatalaksanaan"
+      ],
+      "explanation": "Prognosis amnesia dipengaruhi etiologi, usia, dan penatalaksanaan.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:212-216; B:527-532",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          92
+        ],
+        "line_refs": [
+          "A:212-216",
+          "B:527-532"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 3,
+      "answer_text": "semua benar"
+    },
+    {
+      "id": "batch5_family_pair_q063",
+      "number": 62,
+      "stem": "Dibawah ini yang termasuk tiga jenis reseptor alat keseimbangan tubuh yang benar adalah",
+      "stem_original": "Dibawah ini yang termasuk tiga jenis reseptor alat keseimbangan tubuh yang benar adalah",
+      "options": [
+        "sel rambut dari krista dan otolit (vestibulum), sel cone dan rod retina (mata), sel raba kulit-sendi-tendon (propioseptik)",
+        "sel rambut dan krista dan otolit (vestibulum), sel cone dan rod retina (mata), motorik",
+        "cerebellum, sel cone dan rod retina (mata), sel raba kulit-sendi-tendon (proprioseptik)",
+        "sel rambut dari krista dan otolit (vestibulum), lobus frontal, sel raba kulit-sendi-tendon (propioseptik)",
+        "sel rambut dari krista dan otolit (vestibulum), sel cone dan rod retina (mata), N. Glosopharyngeus"
+      ],
+      "explanation": "Keseimbangan memakai input vestibular, visual, dan proprioseptif.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:426-431; B:533-538",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          93
+        ],
+        "line_refs": [
+          "A:426-431",
+          "B:533-538"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 0,
+      "answer_text": "sel rambut dari krista dan otolit (vestibulum), sel cone dan rod retina (mata), sel raba kulit-sendi-tendon (propioseptik)"
+    },
+    {
+      "id": "batch5_family_pair_q064",
+      "number": 63,
+      "stem": "Yang termasuk struktur peka nyeri intrakranial dibawah ini adalah",
+      "stem_original": "Yang termasuk struktur peka nyeri intrakranial dibawah ini adalah",
+      "options": [
+        "artei ekstrakranial",
+        "nervus servikal 1,2 dan 3",
+        "nervus kranialis IV, VI, VIII",
+        "telinga luar dan tengah",
+        "mucosa sinus parasanal"
+      ],
+      "explanation": "Struktur peka nyeri intrakranial berkaitan dengan pembuluh/dura dan aferen trigeminal serta servikal atas.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "A:460-465; B:539-544",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          94
+        ],
+        "line_refs": [
+          "A:460-465",
+          "B:539-544"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 1,
+      "answer_text": "nervus servikal 1,2 dan 3"
+    },
+    {
+      "id": "batch5_family_pair_q065",
+      "number": 64,
+      "stem": "Yang tidak sesuai dengan gangguan nyeri adalah",
+      "stem_original": "Yang tidak sesuai dengan gangguan nyeri adalah",
+      "options": [
+        "keluhan yang predominan adalah nyeri berat, menyiksa dan menetap",
+        "keluhan, manifestasi sesuai dengan penyebaran anatomik saraf",
+        "ada faktor psikologik yang dinilai berkaitan secara etiologik dengan keluhan nyeri",
+        "biasanya mulai secara tiba-tiba dan bertambah intensitasnya dalam beberapa minggu atau bulan",
+        "diberikan antidepresan"
+      ],
+      "explanation": "Gangguan nyeri somatoform tidak harus mengikuti distribusi anatomis saraf.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "B:545-550",
+        "is_reconstructed": true,
+        "source_files": [
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          95
+        ],
+        "line_refs": [
+          "B:545-550"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 1,
+      "answer_text": "keluhan, manifestasi sesuai dengan penyebaran anatomik saraf"
+    },
+    {
+      "id": "batch5_family_pair_q066",
+      "number": 65,
+      "stem": "Indikasi rawat pada cedera kepala ringan (CKR) adalah, KECUALI",
+      "stem_original": "Indikasi rawat pada cedera kepala ringan (CKR) adalah, KECUALI",
+      "options": [
+        "tinggal jauh dari RS",
+        "GCS < 15",
+        "CT scan tidak ada",
+        "intoksikasi alcohol",
+        "riwayat hilang kesadaran"
+      ],
+      "explanation": "Butir ini ambigu; opsi CT scan tidak ada dipilih sebagai rekonstruksi low-confidence.",
+      "confidence": "low",
+      "origin": {
+        "page": 1,
+        "page_label": "A:543-548; B:551-556",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          96
+        ],
+        "line_refs": [
+          "A:543-548",
+          "B:551-556"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 2,
+      "answer_text": "CT scan tidak ada"
+    },
+    {
+      "id": "batch5_family_pair_q067",
+      "number": 66,
+      "stem": "Latihan fleksibilitas, latihan penguatan otot dapat dilakukan untuk mencegah keadaan",
+      "stem_original": "Latihan fleksibilitas, latihan penguatan otot dapat dilakukan untuk mencegah keadaan",
+      "options": [
+        "spastisitas berat",
+        "disuse atrofi",
+        "hipotensi postural",
+        "inkontinensia urine",
+        "bukan salah satu diatas"
+      ],
+      "explanation": "Latihan rentang gerak dan penguatan mencegah atrofi karena tidak digunakan.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:259-264; B:557-562",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          97
+        ],
+        "line_refs": [
+          "A:259-264",
+          "B:557-562"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 1,
+      "answer_text": "disuse atrofi"
+    },
+    {
+      "id": "batch5_family_pair_q068",
+      "number": 67,
+      "stem": "gejala-gejala klinis pada dandy walker, KECUALI",
+      "stem_original": "gejala-gejala klinis pada dandy walker, KECUALI",
+      "options": [
+        "Hidrocefalus",
+        "kejang",
+        "agenesis corpus callosum",
+        "nistagmus",
+        "stroke haemorrage"
+      ],
+      "explanation": "Dandy-Walker berkaitan dengan malformasi fossa posterior/hidrosefalus, bukan stroke hemoragik sebagai gejala klinis khas.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:380-385; B:563-568",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          98
+        ],
+        "line_refs": [
+          "A:380-385",
+          "B:563-568"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 4,
+      "answer_text": "stroke haemorrage"
+    },
+    {
+      "id": "batch5_family_pair_q069",
+      "number": 68,
+      "stem": "yang termasuk red flag dari nyeri kepala adalah, KECUALI",
+      "stem_original": "yang termasuk red flag dari nyeri kepala adalah, KECUALI",
+      "options": [
+        "nyeri kepala yang terjadi setelah umur 50 tahun",
+        "nyeri kepala yang terjadi mendadak",
+        "nyeri kepala yang semakin dirasakan memberat",
+        "nyeri kepala yang disertai pandangan kabur pada satu mata",
+        "nyeri kepala yang berkaitan dengan trauma kepala"
+      ],
+      "explanation": "Pilihan lain merupakan red flag klasik; pandangan kabur unilateral lebih tidak spesifik sebagai red flag nyeri kepala umum.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "B:569-574",
+        "is_reconstructed": true,
+        "source_files": [
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          99
+        ],
+        "line_refs": [
+          "B:569-574"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 3,
+      "answer_text": "nyeri kepala yang disertai pandangan kabur pada satu mata"
+    },
+    {
+      "id": "batch5_family_pair_q070",
+      "number": 69,
+      "stem": "Cairan serebrospinal yang mengalir disistem saraf pusat yang berfungsi sebagai penahan goncangan disekresikan oleh bagian",
+      "stem_original": "Cairan serebrospinal yang mengalir disistem saraf pusat yang berfungsi sebagai penahan goncangan disekresikan oleh bagian",
+      "options": [
+        "pleksus khoroideus",
+        "ventrikel lateral",
+        "lobus temporal",
+        "dura mater",
+        "meninges"
+      ],
+      "explanation": "Cairan serebrospinal terutama diproduksi pleksus koroideus.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:501-506; B:575-595",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [
+          100
+        ],
+        "line_refs": [
+          "A:501-506",
+          "B:575-595"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 0,
+      "answer_text": "pleksus khoroideus"
+    },
+    {
+      "id": "batch5_family_pair_q071",
+      "number": 70,
+      "stem": "Sakit kepala akibat tekanan intrakranial yang tinggi merupakan tanda khas dari infeksi otak: harusnya tumor",
+      "stem_original": "Sakit kepala akibat tekanan intrakranial yang tinggi merupakan tanda khas dari infeksi otak: harusnya tumor",
+      "options": [
+        "Abses serebri,",
+        "Meningitis TB, kaku kuduk, kronis 2 minggu lebih",
+        "Toxoplasmosis, gangguan umn",
+        "Ensefalitis, kejang",
+        "Meningitis kriptokokus,kaku kuduk"
+      ],
+      "explanation": "Abses serebri dapat menimbulkan lesi massa, hipertensi intrakranial, dan defisit fokal.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "A:218-223; B:1-6",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [],
+        "line_refs": [
+          "A:218-223",
+          "B:1-6"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 0,
+      "answer_text": "Abses serebri,"
+    },
+    {
+      "id": "batch5_family_pair_q073",
+      "number": 71,
+      "stem": "Kondisi psikogenik primer dengan cirri gangguan utama pada jumlah kualitas atau waktu tidur akibat kausal emosional disebut?",
+      "stem_original": "Kondisi psikogenik primer dengan cirri gangguan utama pada jumlah kualitas atau waktu tidur akibat kausal emosional disebut?",
+      "options": [
+        "Dissomnia",
+        "Parasomnia: gejala tidak mengenakkan",
+        "Somnabulisme: ggn tidur berjalan",
+        "Terror tidur",
+        "Nightmare"
+      ],
+      "explanation": "Dissomnia adalah gangguan jumlah, kualitas, atau waktu tidur; parasomnia adalah kejadian abnormal selama tidur.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:7-12",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx"
+        ],
+        "source_numbers": [],
+        "line_refs": [
+          "A:7-12"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 0,
+      "answer_text": "Dissomnia"
+    },
+    {
+      "id": "batch5_family_pair_q074",
+      "number": 72,
+      "stem": "Kelainan seperti hiperrefleksia, dan timbulnya refleks patologis dalam pemeriksaan neurologi menandakan keadaan klinis berupa:",
+      "stem_original": "Kelainan seperti hiperrefleksia, dan timbulnya refleks patologis dalam pemeriksaan neurologi menandakan keadaan klinis berupa:",
+      "options": [
+        "Kelumpuhan UMN",
+        "Kelumpuhan sistem saraf motorik",
+        "Kelumpuhan sistem saraf otonomik",
+        "Keluhan sistem saraf kranial",
+        "Kelumpuhan LMN"
+      ],
+      "explanation": "Hiperrefleksia dan refleks patologis adalah tanda lesi upper motor neuron.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:449-454; B:7-12",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [],
+        "line_refs": [
+          "A:449-454",
+          "B:7-12"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 0,
+      "answer_text": "Kelumpuhan UMN"
+    },
+    {
+      "id": "batch5_family_pair_q075",
+      "number": 73,
+      "stem": "Pemberian piridoksin dalam penatalaksanaan meningitis TB digunakan untuk mencegah:",
+      "stem_original": "Pemberian piridoksin dalam penatalaksanaan meningitis TB digunakan untuk mencegah:",
+      "options": [
+        "Neuritis opticus akibat pemberian etambutol",
+        "Ototoksik akibat pemberian streptomisin",
+        "Gangguan fungsi hepar akibat pemberian pirazinamid",
+        "Neuropati perifer akibat pemberian isoniazid",
+        "BAK merah"
+      ],
+      "explanation": "Piridoksin diberikan bersama isoniazid untuk mencegah neuropati perifer.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:98-100; B:13-15",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [],
+        "line_refs": [
+          "A:98-100",
+          "B:13-15"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 3,
+      "answer_text": "Neuropati perifer akibat pemberian isoniazid"
+    },
+    {
+      "id": "batch5_family_pair_q077",
+      "number": 74,
+      "stem": "Berikut ini merupakan diagnosa banding dari delirium, Kecuali",
+      "stem_original": "Berikut ini merupakan diagnosa banding dari delirium, Kecuali",
+      "options": [
+        "Demensia",
+        "Skizoprenia",
+        "Histeria",
+        "Depresi",
+        "Semua salah"
+      ],
+      "explanation": "Sumber tidak memberikan kunci eksplisit; pilihan lain dapat menjadi diagnosis banding sehingga opsi semua salah dipertahankan dengan confidence rendah.",
+      "confidence": "low",
+      "origin": {
+        "page": 1,
+        "page_label": "A:334-339; B:19-24",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [],
+        "line_refs": [
+          "A:334-339",
+          "B:19-24"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 4,
+      "answer_text": "Semua salah"
+    },
+    {
+      "id": "batch5_family_pair_q078",
+      "number": 75,
+      "stem": "Mekanisme antihistamin sebagai anti vertigo belum jelas. Antihistamin yang mempunyai anti vertigo juga memiliki aktivitas anti-kolinergik di susunan saraf pusat, dibawah ini yang merupakan antihistamin juga anti vertigo adalah (Dimenhydrinate, promethazine / diphenhydramine - sedative; prochlorperazine / miclizine– antiemetic)",
+      "stem_original": "Mekanisme antihistamin sebagai anti vertigo belum jelas. Antihistamin yang mempunyai anti vertigo juga memiliki aktivitas anti-kolinergik di susunan saraf pusat, dibawah ini yang merupakan antihistamin juga anti vertigo adalah (Dimenhydrinate, promethazine / diphenhydramine - sedative; prochlorperazine / miclizine– antiemetic)",
+      "options": [
+        "Dimenhydrinate, promethazine",
+        "Dimenhydrinate, miclizine",
+        "Diphenhydramin, chlorpheniramin",
+        "Diphenhydramin, prochlorperazine"
+      ],
+      "explanation": "Dimenhydrinate dan meclizine umum digunakan sebagai antihistamin dengan efek antivertigo/antiemetik.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "A:24-28; B:60-64",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [],
+        "line_refs": [
+          "A:24-28",
+          "B:60-64"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 1,
+      "answer_text": "Dimenhydrinate, miclizine"
+    },
+    {
+      "id": "batch5_family_pair_q079",
+      "number": 76,
+      "stem": "Tindakan kriminal yang dilakukan oleh seseorang yang diduga memiliki kelainan jiwa perlu mendapatkan penyelidikan dari seorang ahli kesehatan jiwa, berupa",
+      "stem_original": "Tindakan kriminal yang dilakukan oleh seseorang yang diduga memiliki kelainan jiwa perlu mendapatkan penyelidikan dari seorang ahli kesehatan jiwa, berupa",
+      "options": [
+        "VER",
+        "Visum et repertum psikiatrikum",
+        "Surat keterangan sakit",
+        "Surat keterangan",
+        "Semua salah"
+      ],
+      "explanation": "Pemeriksaan ahli jiwa forensik dituangkan dalam visum et repertum psikiatrikum.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:386-391; B:25-30",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [],
+        "line_refs": [
+          "A:386-391",
+          "B:25-30"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 1,
+      "answer_text": "Visum et repertum psikiatrikum"
+    },
+    {
+      "id": "batch5_family_pair_q080",
+      "number": 77,
+      "stem": "Pernyataan yang benar terkait sindrom cavernosus, kecuali harus nya 3,4,6,cbng5 v1 v",
+      "stem_original": "Pernyataan yang benar terkait sindrom cavernosus, kecuali harus nya 3,4,6,cbng5 v1 v",
+      "options": [
+        "Melibatkan n.III",
+        "Melibatkan n.IV",
+        "Melibatkan n.VI",
+        "Melibatkan semua cabang n.V",
+        "Melibatkan arteri carotis interna"
+      ],
+      "explanation": "Sindrom sinus kavernosus melibatkan III, IV, VI dan cabang V1/V2, bukan semua cabang nervus V.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:128-133; B:31-36",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [],
+        "line_refs": [
+          "A:128-133",
+          "B:31-36"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 3,
+      "answer_text": "Melibatkan semua cabang n.V"
+    },
+    {
+      "id": "batch5_family_pair_q081",
+      "number": 78,
+      "stem": "Penderita Amnesia paling banyak disebabkan oleh",
+      "stem_original": "Penderita Amnesia paling banyak disebabkan oleh",
+      "options": [
+        "Penggunaan alkohol dan obat obatan",
+        "Skizoprenia",
+        "Trauma kepala",
+        "Cemas",
+        "Depresi"
+      ],
+      "explanation": "Dalam konteks neurologi umum, trauma kepala merupakan penyebab amnesia yang sering dijumpai.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "B:37-53",
+        "is_reconstructed": true,
+        "source_files": [
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [],
+        "line_refs": [
+          "B:37-53"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 2,
+      "answer_text": "Trauma kepala"
+    },
+    {
+      "id": "batch5_family_pair_q082",
+      "number": 79,
+      "stem": "Tenaga kesehatan berhak mendapatkan imbalan dan perlindungan hukum dalam melaksanakan tugas sesuai dengan profesinya, terdapat dalam",
+      "stem_original": "Tenaga kesehatan berhak mendapatkan imbalan dan perlindungan hukum dalam melaksanakan tugas sesuai dengan profesinya, terdapat dalam",
+      "options": [
+        "Pasal 25 undang-undang nomon 36 tahun 2009",
+        "Pasal 26 undang-undang nomon 36 tahun 2009",
+        "Pasal 27 undang-undang nomon 36 tahun 2009",
+        "Pasal 28 undang-undang nomon 36 tahun 2009",
+        "Pasal 29 undang-undang nomon 36 tahun 2009"
+      ],
+      "explanation": "Hak tenaga kesehatan atas imbalan dan perlindungan hukum tercantum pada Pasal 27 UU No. 36 Tahun 2009.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:44-49; B:54-59",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [],
+        "line_refs": [
+          "A:44-49",
+          "B:54-59"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 2,
+      "answer_text": "Pasal 27 undang-undang nomon 36 tahun 2009"
+    },
+    {
+      "id": "batch5_family_pair_q083",
+      "number": 80,
+      "stem": "Tujuan rehabilitasi pada ulkus decubitus adalah?",
+      "stem_original": "Tujuan rehabilitasi pada ulkus decubitus adalah?",
+      "options": [
+        "Mengkatkan lingkup gerak sendi",
+        "Mencegah menjadi lebih parah",
+        "Memperbaiki sirkulasi darah kejaringan",
+        "Mencegah thrombosis ______",
+        "Meredakan gejala ortostatik"
+      ],
+      "explanation": "Rehabilitasi ulkus dekubitus menekankan perbaikan sirkulasi jaringan dan pencegahan perburukan.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "A:63-68",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx"
+        ],
+        "source_numbers": [],
+        "line_refs": [
+          "A:63-68"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 2,
+      "answer_text": "Memperbaiki sirkulasi darah kejaringan"
+    },
+    {
+      "id": "batch5_family_pair_q084",
+      "number": 81,
+      "stem": "Peristiwa episodik abnormal yang terjadi selama tidur, disebut",
+      "stem_original": "Peristiwa episodik abnormal yang terjadi selama tidur, disebut",
+      "options": [
+        "Dissomnia",
+        "Parasomnia",
+        "Somnambulisme",
+        "Teror tidur",
+        "Nightmare"
+      ],
+      "explanation": "Parasomnia adalah peristiwa atau perilaku abnormal episodik yang terjadi saat tidur.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:104-109; B:65-70",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [],
+        "line_refs": [
+          "A:104-109",
+          "B:65-70"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 1,
+      "answer_text": "Parasomnia"
+    },
+    {
+      "id": "batch5_family_pair_q085",
+      "number": 82,
+      "stem": "Evaluasi yang dilakukan sebelum tindakan ECT adalah",
+      "stem_original": "Evaluasi yang dilakukan sebelum tindakan ECT adalah",
+      "options": [
+        "Kimia darah, urin lengkap, MRI, dan EEG",
+        "Kimia darah, urin lengkap, CT-Scan, dan EKG",
+        "Kimia darah, urin lengkap, rontgen thorax, dan EKG",
+        "Kimia darah, urin lengkap, CT-Scan dan EEG",
+        "Kimia darah, urin lengkap, rontgen thorax, dan EEG"
+      ],
+      "explanation": "Evaluasi pra-ECT mencakup pemeriksaan laboratorium dasar, urin, rontgen toraks, dan EKG.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:276-281; B:71-76",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [],
+        "line_refs": [
+          "A:276-281",
+          "B:71-76"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 2,
+      "answer_text": "Kimia darah, urin lengkap, rontgen thorax, dan EKG"
+    },
+    {
+      "id": "batch5_family_pair_q086",
+      "number": 83,
+      "stem": "Salah satu karakteristik dari seizure atau bangkitan adalah muncul mendadak secara tiba-tiba tanpa pemicu atau provokasi, dan juga hilang secara tiba-tiba. Terminologi yang menjelaskan cara ini adalah",
+      "stem_original": "Salah satu karakteristik dari seizure atau bangkitan adalah muncul mendadak secara tiba-tiba tanpa pemicu atau provokasi, dan juga hilang secara tiba-tiba. Terminologi yang menjelaskan cara ini adalah",
+      "options": [
+        "Stereotipik",
+        "Automatisme",
+        "Myoklonik",
+        "Paroksismal",
+        "Oversynchronized"
+      ],
+      "explanation": "Paroksismal berarti muncul mendadak dan menghilang mendadak.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:414-419; B:77-82",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [],
+        "line_refs": [
+          "A:414-419",
+          "B:77-82"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 3,
+      "answer_text": "Paroksismal"
+    },
+    {
+      "id": "batch5_family_pair_q087",
+      "number": 84,
+      "stem": "Blood-Brain Barrier merupakan sistem otak yang melapisi dinding pembuluh darah otak yang berfungsi sebagai?",
+      "stem_original": "Blood-Brain Barrier merupakan sistem otak yang melapisi dinding pembuluh darah otak yang berfungsi sebagai?",
+      "options": [
+        "Perlindungan otak dari kandungan darah di sirkulasi",
+        "Perlindungan otak dari LCS",
+        "Menghasilkan LCS",
+        "Mengalirkan LCS",
+        "Perlindungan dan pertumbuhan sel abnormal"
+      ],
+      "explanation": "Blood-brain barrier melindungi otak dengan membatasi zat dalam sirkulasi darah masuk ke jaringan otak.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:140-145; B:83-93",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [],
+        "line_refs": [
+          "A:140-145",
+          "B:83-93"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 0,
+      "answer_text": "Perlindungan otak dari kandungan darah di sirkulasi"
+    },
+    {
+      "id": "batch5_family_pair_q088",
+      "number": 85,
+      "stem": "Salah satu karakterstik dari seizure atau bangkitan adalah muncul berulang dengan pola yang sama dan konsisten. Terminologi yang memperjelas ciri ini adalah",
+      "stem_original": "Salah satu karakterstik dari seizure atau bangkitan adalah muncul berulang dengan pola yang sama dan konsisten. Terminologi yang memperjelas ciri ini adalah",
+      "options": [
+        "Stereopik",
+        "Automatisme",
+        "Myoklonik",
+        "Paroksismal",
+        "Oversynchronized"
+      ],
+      "explanation": "Stereotipik berarti serangan berulang dengan pola yang sama dan konsisten.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:300-305; B:94-99",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [],
+        "line_refs": [
+          "A:300-305",
+          "B:94-99"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 0,
+      "answer_text": "Stereopik"
+    },
+    {
+      "id": "batch5_family_pair_q089",
+      "number": 86,
+      "stem": "Pernyataan yang salah dibawah ini terkait Nervi opticus, adalah",
+      "stem_original": "Pernyataan yang salah dibawah ini terkait Nervi opticus, adalah",
+      "options": [
+        "Terdapat bagian yang terbungkus oleh selaput otak",
+        "Mendapatkan vaskularisasi dari arteri dan vena centralis retina",
+        "Saraf ini keluar dari mesencephalon",
+        "Kerusakan pada area 17/18 Brodman akan menimbulkan buta sentral"
+      ],
+      "explanation": "Nervus optikus bukan saraf yang keluar dari mesensefalon; N. III/IV terkait mesensefalon.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:358-362; B:107-112",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [],
+        "line_refs": [
+          "A:358-362",
+          "B:107-112"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 2,
+      "answer_text": "Saraf ini keluar dari mesencephalon"
+    },
+    {
+      "id": "batch5_family_pair_q091",
+      "number": 87,
+      "stem": "Golongan opoid sintetik yang digunakan untuk terapi penyalahgunaan heroin adalah",
+      "stem_original": "Golongan opoid sintetik yang digunakan untuk terapi penyalahgunaan heroin adalah",
+      "options": [
+        "Pethidin",
+        "Meperidin",
+        "Metadon",
+        "Kodein"
+      ],
+      "explanation": "Metadon adalah opioid sintetik yang dipakai dalam terapi substitusi ketergantungan heroin.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:236-240; B:113-117",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [],
+        "line_refs": [
+          "A:236-240",
+          "B:113-117"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 2,
+      "answer_text": "Metadon"
+    },
+    {
+      "id": "batch5_family_pair_q092",
+      "number": 88,
+      "stem": "Anti psikosis disebut juga sebagai neuroleptik karena kemampuannya menghasilkan neurolepsis. Berikut ini yang dimaksud neurolepsis, kecuali",
+      "stem_original": "Anti psikosis disebut juga sebagai neuroleptik karena kemampuannya menghasilkan neurolepsis. Berikut ini yang dimaksud neurolepsis, kecuali",
+      "options": [
+        "Psychomotor slowing",
+        "Emotional queting",
+        "Affective indefference",
+        "Mood swing"
+      ],
+      "explanation": "Neurolepsis mencakup perlambatan psikomotor, ketenangan emosional, dan indiferensi afektif; mood swing bukan komponennya.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:392-396; B:118-124",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx",
+          "6.3 okeoyeee with dr iksan and willy no -50.docx"
+        ],
+        "source_numbers": [],
+        "line_refs": [
+          "A:392-396",
+          "B:118-124"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 3,
+      "answer_text": "Mood swing"
+    },
+    {
+      "id": "batch5_family_pair_q097",
+      "number": 89,
+      "stem": "pernyataan yang tidak benar dibawah ini adalah?",
+      "stem_original": "pernyataan yang tidak benar dibawah ini adalah?",
+      "options": [
+        "Fraktur basis cranii fossa anterior ditandai adanya real haematom",
+        "Fraktur basis fossa anterior dapat menyebabkan putusnya nervusol faktorius",
+        "Fraktur basis fossa media ditandaiadanya battle Sign",
+        "Fraktur fossa media dapatmenyebabkan paresis nervusfacialis",
+        "Fraktur fossa posterior dapat menyebabkan paralisis nervushypoglosus"
+      ],
+      "explanation": "Opsi-opsi tampak klinis benar atau ambigu; sumber tidak memberi kunci eksplisit sehingga jawaban tidak dipaksakan.",
+      "confidence": "low",
+      "origin": {
+        "page": 1,
+        "page_label": "A:200-205",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx"
+        ],
+        "source_numbers": [],
+        "line_refs": [
+          "A:200-205"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_text": "Belum dapat dipastikan dari sumber",
+      "answer_source_status": "missing_in_source",
+      "reconstruction_notes": "Opsi tampak ambigu dan sumber tidak cukup untuk memastikan kunci tanpa spekulasi."
+    },
+    {
+      "id": "batch5_family_pair_q099",
+      "number": 90,
+      "stem": "Seorang pasien wanita datang ke poliklinik bedah saraf rujukan dari bagian penyakit mata dengan D/ SOL intracranial, keluhan nyeri kepala hebat, muntah dan hasil pemeriksaan funduscopy dan campemetri menunjukkan adanya pupil edem ringan dan hermianopsia bitemporal.Dari hasil pemeriksaan tsb dapat diduga diagnosa yg paling mungkin adalah",
+      "stem_original": "Seorang pasien wanita datang ke poliklinik bedah saraf rujukan dari bagian penyakit mata dengan D/ SOL intracranial, keluhan nyeri kepala hebat, muntah dan hasil pemeriksaan funduscopy dan campemetri menunjukkan adanya pupil edem ringan dan hermianopsia bitemporal.Dari hasil pemeriksaan tsb dapat diduga diagnosa yg paling mungkin adalah",
+      "options": [
+        "Astrocytoma occipital",
+        "Tumor cerebellum",
+        "Adenoma hypofise",
+        "Meningioma frontal",
+        "Glioma opticus"
+      ],
+      "explanation": "Nyeri kepala, papiledema, dan hemianopsia bitemporal mengarah ke lesi sellar yang menekan kiasma optikum, paling sesuai adenoma hipofisis.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:352-357",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx"
+        ],
+        "source_numbers": [],
+        "line_refs": [
+          "A:352-357"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 2,
+      "answer_text": "Adenoma hypofise"
+    },
+    {
+      "id": "batch5_family_pair_q101",
+      "number": 91,
+      "stem": "Terapi empiric yang tepat pada kasus toksoplasmosis pada fase akut adalah?",
+      "stem_original": "Terapi empiric yang tepat pada kasus toksoplasmosis pada fase akut adalah?",
+      "options": [
+        "Pirimetamin loading dose 200 mg",
+        "Cotrimoksazole 2x 960 mg",
+        "Pirimetamine 100 mg",
+        "Cotrimoksazole 2x 480 mg",
+        "Asamfolinat 10-20 mg"
+      ],
+      "explanation": "Regimen klasik toksoplasmosis akut mencakup pirimetamin loading dose dengan terapi pendamping; sumber opsi hanya memuat komponennya.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "A:397-402",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx"
+        ],
+        "source_numbers": [],
+        "line_refs": [
+          "A:397-402"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 0,
+      "answer_text": "Pirimetamin loading dose 200 mg"
+    },
+    {
+      "id": "batch5_family_pair_q106",
+      "number": 92,
+      "stem": "Dibawah ini merupakan garis besar pemeriksaan status mental kecuali",
+      "stem_original": "Dibawah ini merupakan garis besar pemeriksaan status mental kecuali",
+      "options": [
+        "Gambaran umum",
+        "Mood dan afek",
+        "Fikiran",
+        "RTA",
+        "Riwayat gangguan jiwa sebelumnya"
+      ],
+      "explanation": "Pemeriksaan status mental mencakup tampilan, mood-afek, pikir, persepsi/orientasi; riwayat merupakan anamnesis, bukan status mental.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "A:472-477",
+        "is_reconstructed": true,
+        "source_files": [
+          "388802_Tutorial Jadi Youtuber Bro.docx"
+        ],
+        "source_numbers": [],
+        "line_refs": [
+          "A:472-477"
+        ]
+      },
+      "linked_material_ids": [],
+      "answer_index": 4,
+      "answer_text": "Riwayat gangguan jiwa sebelumnya"
+    }
+  ],
+  "provenance_summary": {
+    "batch_id": "batch_5_family_pair",
+    "source_files": [
+      "388802_Tutorial Jadi Youtuber Bro.docx",
+      "6.3 okeoyeee with dr iksan and willy no -50.docx"
+    ],
+    "source_sha256": [
+      "c64f9bc5ad555c8e4e47780a5ca3ceb8bd5c424dc71a6efc752527b4e3427a71",
+      "f2b756383cf1edf20b17b481c3fe3bf48837f1b727bfe6211f7fe28be1d410ac"
+    ],
+    "dedup_strategy": "fuzzy stem clustering; canonical item chosen by option completeness and stem richness; all variants retained in variant_table.generated.json/csv",
+    "placeholders_or_gaps": [
+      {
+        "source_file": "6.3 okeoyeee with dr iksan and willy no -50.docx",
+        "source_number": 40,
+        "line_start": 256,
+        "line_end": 256,
+        "text": "40. tidak ada foto soal"
+      },
+      {
+        "source_file": "6.3 okeoyeee with dr iksan and willy no -50.docx",
+        "source_number": 51,
+        "line_start": 314,
+        "line_end": 314,
+        "text": "51."
+      },
+      {
+        "source_file": "6.3 okeoyeee with dr iksan and willy no -50.docx",
+        "source_number": 52,
+        "line_start": 315,
+        "line_end": 315,
+        "text": "52."
+      },
+      {
+        "source_file": "6.3 okeoyeee with dr iksan and willy no -50.docx",
+        "source_number": 53,
+        "line_start": 316,
+        "line_end": 316,
+        "text": "53."
+      },
+      {
+        "source_file": "6.3 okeoyeee with dr iksan and willy no -50.docx",
+        "source_number": 54,
+        "line_start": 317,
+        "line_end": 317,
+        "text": "54."
+      },
+      {
+        "source_file": "6.3 okeoyeee with dr iksan and willy no -50.docx",
+        "source_number": 55,
+        "line_start": 318,
+        "line_end": 318,
+        "text": "55."
+      },
+      {
+        "source_file": "6.3 okeoyeee with dr iksan and willy no -50.docx",
+        "source_number": 56,
+        "line_start": 319,
+        "line_end": 319,
+        "text": "56."
+      }
+    ],
+    "postprocess_note": "Filtered malformed option-fragment records and patched known split items after schema-valid generation."
+  }
+}

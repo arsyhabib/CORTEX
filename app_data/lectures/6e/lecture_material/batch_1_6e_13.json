@@ -1,0 +1,1765 @@
+{
+  "id": "batch_1_6e_13",
+  "batch_id": "batch_1_6E",
+  "batch_label": "Batch 1 / 6E",
+  "block": "5e",
+  "title": "PPT Gangguan Keseimbangan",
+  "subtitle": "Neurology lecturer-derived structured content; source-preserving extraction.",
+  "source_pdf": "source_docs/6E/PPT Gangguan Keseimbangan.docx",
+  "source_docx": "PPT Gangguan Keseimbangan.docx",
+  "source_pages": [],
+  "summary": [
+    "Modul PPT Gangguan Keseimbangan disusun ulang sebagai materi terstruktur untuk neurologi batch 1/6e, dengan jejak sumber tetap dipertahankan.",
+    "Fokus inti yang ditarik dari sumber: Terdapat 3 sistem pengaturan keseimbangan tubuh: .",
+    "Fokus inti yang ditarik dari sumber: Sistem Vestibular + 54%.",
+    "Fokus inti yang ditarik dari sumber: ANATOMI & FISIOLOGI KESEIMBANGAN.",
+    "Contoh pesan inti dari sumber: Gangguan keseimbangan."
+  ],
+  "exam_focus": [
+    "Etiologi Gangguan keseimbangan.",
+    "Ditandai dengan vertigo yang intermiten diikuti dengan keluhan pendengaran. Gangguan pendengaran berupa tinnitus (nada rendah), dan tuli sensoris pada fluktuasi frekuensi yang rendah, dan sensasi penuh pada telinga.",
+    "Labirintis terjadi dengan komplek gejala yang sama disertai dengan tinnitus atau penurunan pendengaran.",
+    "Pemeriksaan neurologis.",
+    "Terapi Fisik Brand-Darrof.",
+    "Medikasi umum terapi vertigo: ."
+  ],
+  "sections": [
+    {
+      "id": "batch_1_6e_13_s01",
+      "title": "Core lecturer content",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Gangguan keseimbangan.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 4,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_01",
+        "Visual_batch_1_6e_13_02",
+        "Visual_batch_1_6e_13_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "section_start_paragraph": 4,
+        "section_end_paragraph": 4
+      }
+    },
+    {
+      "id": "batch_1_6e_13_s02",
+      "title": "Sistem Vestibular + 54%.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "(Aparatus vestibularis, Nervus Vestibularis, Vestibular Sentra).",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 18,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Sistem Proprioseptik (gerakan, posisi, getaran).",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 19,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Sistem Optik (penglihatan).",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 20,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Gangguan Keseimbangan.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_01",
+        "Visual_batch_1_6e_13_02",
+        "Visual_batch_1_6e_13_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "section_start_paragraph": 18,
+        "section_end_paragraph": 20
+      }
+    },
+    {
+      "id": "batch_1_6e_13_s03",
+      "title": "ORGAN STATUS: LABIRIN VESTIBULER.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Terdiri dari.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 27,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Utrikulus ฀ Makula Utrikularis.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 28,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Sakulus ฀ Makula Sakularis.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 29,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Gangguan Keseimbangan.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_01",
+        "Visual_batch_1_6e_13_02",
+        "Visual_batch_1_6e_13_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "section_start_paragraph": 27,
+        "section_end_paragraph": 29
+      }
+    },
+    {
+      "id": "batch_1_6e_13_s04",
+      "title": "3 Kanalis Semisirkularis:",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Horisontal,.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 31,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Vertikalis ant,.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 33,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Vertikalis Post.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 34,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Gangguan Keseimbangan.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_01",
+        "Visual_batch_1_6e_13_02",
+        "Visual_batch_1_6e_13_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "section_start_paragraph": 31,
+        "section_end_paragraph": 34
+      }
+    },
+    {
+      "id": "batch_1_6e_13_s05",
+      "title": "Reseptor:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Krista Ampularis.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 36,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Makula Utrikulus/Sakulus ฀ gerak lurus/linier.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 38,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Krista Ampularis ฀ gerak berputar/sentrifugal.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 39,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Gangguan Keseimbangan.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_01",
+        "Visual_batch_1_6e_13_02",
+        "Visual_batch_1_6e_13_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "section_start_paragraph": 36,
+        "section_end_paragraph": 39
+      }
+    },
+    {
+      "id": "batch_1_6e_13_s06",
+      "title": "VESTIBULER I LABIRIN:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Tentang bagaimana po1sisi: terhadap ru, angan di 5, ekit,.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 42,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_01",
+        "Visual_batch_1_6e_13_02",
+        "Visual_batch_1_6e_13_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "section_start_paragraph": 42,
+        "section_end_paragraph": 42
+      }
+    },
+    {
+      "id": "batch_1_6e_13_s07",
+      "title": ", epal",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Sem1icirclJlar.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 47,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Cania, ls contaiiining endolymph.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 48,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Figure 2: The \\leetibuIar Sy stem- sermicircular canals and otolith ofgans.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 70,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sistem keseimbangan (Aparatus Vestibular) terdapat di rongga telinga bagian dalam terdiri dari: .",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 73,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Canalis semicircularis anterior.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 77,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Canalis semicircularis Posterior.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 78,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Canalis semicircularis Lateris.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 79,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Organ Otolith yaitu sacculus dan utriculus.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 80,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Gangguan Keseimbangan.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Fisiologi keseimbangan.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 82,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gerakan kepala dan tubuh.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 87,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pusat keseimbangan otak (area 41-42).",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 92,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perpindahan cairan endolimfa di labirin.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 93,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Impuls sensorik melalui saraf aferen.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 100,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Silia sel rambut menekuk.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 102,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Merangsang pelepasan neurotransmiter eksitator.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 109,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perubahan permeabilitas membran sel.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 110,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Depolarisasi.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 115,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Otolit sakulus dan utrikulus; bergerak oleh perubahan posisi kepala.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 135,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Rangsangan ditransmisikan sepanjang serat saraf nervus kranialis kedelapan (auditorius) pars vestibularis ke otak tengah, medulla oblongata, serebelum, dan medulla spinalis.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 136,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Rangsangan ini memulai perubahan refleks pada otot-otot leher, mata, badan, dan ekstremitas untuk mempertahankan keseimbangan dan postur dan mata dapat difiksasi pada objek yang bergerak.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 137,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Gangguan Keseimbangan.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_01",
+        "Visual_batch_1_6e_13_02",
+        "Visual_batch_1_6e_13_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "section_start_paragraph": 47,
+        "section_end_paragraph": 137
+      }
+    },
+    {
+      "id": "batch_1_6e_13_s08",
+      "title": "FISIOLOGI",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Informasi keseimbangan tubuh akan ditangkap oleh reseptor vestibuler, visual dan propioseptik.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 145,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Dari ketiga jenis reseptor tersebut, reseptor vestibuler yang punya kontribusi paling besar (>50%) disusul kemudian reseptor visual dan yang paling kecil konstibusinya adalah propioseptik.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 146,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Bila ada gerakan atau perubahan dari kepala atau tubuh ฀ perpindahan cairan endolimfe di labirin ฀ hair cells menekuk.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 147,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Tekukan hair sel ฀ menyebabkan permeabilitas membran sel berubah sehingga ion Kalsium menerobos masuk kedalam sel (influx).",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 148,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Gangguan Keseimbangan.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Influx Ca ฀ menyebabkan depolarisasi dan juga merangsang pelepasan NT eksitator (glutamat) ฀ saraf aferen (vestibularis) ฀ pusat-pusat keseimbangan di otak.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 159,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pusat Integrasi alat keseimbangan tubuh pertama di inti vestibularis (menerima impuls aferen dari propioseptik, visual dan vestibuler).",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 160,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Serebellum merupakan pusat integrasi kedua juga pusat komparasi informasi yang sedang berlangsung dengan informasi gerakan yang sudah lewat.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 163,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Informasi tentang gerakan juga tersimpan di pusat memori prefrontal korteks serebri.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 166,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_01",
+        "Visual_batch_1_6e_13_02",
+        "Visual_batch_1_6e_13_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "section_start_paragraph": 145,
+        "section_end_paragraph": 166
+      }
+    },
+    {
+      "id": "batch_1_6e_13_s09",
+      "title": "Etiologi Gangguan keseimbangan",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Otological causes.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 184,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_01",
+        "Visual_batch_1_6e_13_02",
+        "Visual_batch_1_6e_13_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "section_start_paragraph": 184,
+        "section_end_paragraph": 184
+      }
+    },
+    {
+      "id": "batch_1_6e_13_s10",
+      "title": "Meniere Disease",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Ditandai dengan vertigo yang intermiten diikuti dengan keluhan pendengaran. Gangguan pendengaran berupa tinnitus (nada rendah), dan tuli sensoris pada fluktuasi frekuensi yang rendah, dan sensasi penuh pada telinga.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 203,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Merupakan akibat dari hipertensi endolimfatik. Hal ini terjadi karena dilatasi dari membrane labirin bersamaan dengan kanalis semisirularis telinga dalam dengan peningkatan volume endolimfe.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 204,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dapat terjadi idiopatik atau sekunder akibat infeksi virus atau bakteri telinga.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 205,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Atau gangguan metabolik.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 206,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Vestibular Neuritis.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 217,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_01",
+        "Visual_batch_1_6e_13_02",
+        "Visual_batch_1_6e_13_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "section_start_paragraph": 203,
+        "section_end_paragraph": 217
+      }
+    },
+    {
+      "id": "batch_1_6e_13_s11",
+      "title": "Berhubungan dengan infeksi virus pada nervus vestibularis.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Labirintis terjadi dengan komplek gejala yang sama disertai dengan tinnitus atau penurunan pendengaran.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 219,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_01",
+        "Visual_batch_1_6e_13_02",
+        "Visual_batch_1_6e_13_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "section_start_paragraph": 219,
+        "section_end_paragraph": 219
+      }
+    },
+    {
+      "id": "batch_1_6e_13_s12",
+      "title": "Vertigo",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Vertigo ialah adanya sensasi gerakan atau rasa gerak dari tubuh seperti rotasi (memutar) tanpa sensasi perputaran.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 235,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Yang sebenarnya.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 236,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dapat sekelilingnya terasa berputar (vertigo objektif) badan yang berputar (vertigo subjektif).",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 237,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_01",
+        "Visual_batch_1_6e_13_02",
+        "Visual_batch_1_6e_13_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "section_start_paragraph": 235,
+        "section_end_paragraph": 237
+      }
+    },
+    {
+      "id": "batch_1_6e_13_s13",
+      "title": "Pembagian vertigo",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Kalori.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 258,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Posisi.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 265,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Spo.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 269,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Vertigo Sentral diakibatkan oleh kelainan pada batang batang otak atau cerebellum.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 279,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Vertigo Perifer disebabkan oleh kelainan pada telinga dalam atau nervus cranialis vestibulocochlear (N. VIII).",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 280,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Gangguan Keseimbangan.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_01",
+        "Visual_batch_1_6e_13_02",
+        "Visual_batch_1_6e_13_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "section_start_paragraph": 258,
+        "section_end_paragraph": 280
+      }
+    },
+    {
+      "id": "batch_1_6e_13_s14",
+      "title": "Gejala Primer:",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Rasa Pusing berputar-putar.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 289,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Impulsion (sensasi berpindah, terdorong/diangkat).",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 290,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Oscilopia (ilusi pergerakan dunia yg diprovokasi dengan pergerakan.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 291,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Gangguan Keseimbangan.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kepala).",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 292,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Ataxia (ketidakstabilan berjalan).",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 293,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Gangguan pendengaran, tinnitus.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 294,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Kadang disertai nistagmus.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 295,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Gangguan Keseimbangan.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_01",
+        "Visual_batch_1_6e_13_02",
+        "Visual_batch_1_6e_13_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "section_start_paragraph": 289,
+        "section_end_paragraph": 295
+      }
+    },
+    {
+      "id": "batch_1_6e_13_s15",
+      "title": "Patofisiologi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Tinitus.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 307,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_01",
+        "Visual_batch_1_6e_13_02",
+        "Visual_batch_1_6e_13_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "section_start_paragraph": 307,
+        "section_end_paragraph": 307
+      }
+    },
+    {
+      "id": "batch_1_6e_13_s16",
+      "title": "Pemeriksaan neurologis",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Tes Romberg.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 320,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_01",
+        "Visual_batch_1_6e_13_02",
+        "Visual_batch_1_6e_13_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "section_start_paragraph": 320,
+        "section_end_paragraph": 320
+      }
+    },
+    {
+      "id": "batch_1_6e_13_s17",
+      "title": "MATA TERBUKA: BADAN PENDERITA TETAP TEGAK.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "KELAINAN SEREBELER BADAN PENDERITA AKAN BERGOYANG BAIK PADA MATA TERBUKA MAUPUN PADA MATA TERTUTUP.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 335,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_01",
+        "Visual_batch_1_6e_13_02",
+        "Visual_batch_1_6e_13_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "section_start_paragraph": 335,
+        "section_end_paragraph": 335
+      }
+    },
+    {
+      "id": "batch_1_6e_13_s18",
+      "title": "TERTUTUTP SEBANYAK 50 LANGKAH.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "KELAINAN VESTIBULAR: BILA PENDERITA LEBIH DARI 1 METER DARI TEMPAT SEMULA ATAU BADANNYA BERPUTAR LEBIH DARI 30 DERAJAT.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 350,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Gangguan Keseimbangan.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_01",
+        "Visual_batch_1_6e_13_02",
+        "Visual_batch_1_6e_13_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "section_start_paragraph": 350,
+        "section_end_paragraph": 350
+      }
+    },
+    {
+      "id": "batch_1_6e_13_s19",
+      "title": "Directional preponderance",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Lesi sentral.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 375,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Gangguan Keseimbangan.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_01",
+        "Visual_batch_1_6e_13_02",
+        "Visual_batch_1_6e_13_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "section_start_paragraph": 375,
+        "section_end_paragraph": 375
+      }
+    },
+    {
+      "id": "batch_1_6e_13_s20",
+      "title": "Terapi Fisik Brand-Darrof",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Ambil posisi duduk.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 382,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Arahkan kepala ke kiri, jatuhkan badan ke posisi kanan, kemudian balik posisi duduk.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 383,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Arahkan kepala ke kanan lalu jatuhkan badan ke sisi kiri. Masing-masing gerakan lamanya sekitar satu menit, dapat dilakukan berulang kali.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 384,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Untuk awal cukup 1-2 kali kiri kanan, makin lama makin bertambah.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 385,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Gangguan Keseimbangan.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "E� ide.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "source_paragraph_index": 419,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_01",
+        "Visual_batch_1_6e_13_02",
+        "Visual_batch_1_6e_13_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "section_start_paragraph": 382,
+        "section_end_paragraph": 419
+      }
+    },
+    {
+      "id": "batch_1_6e_13_s21",
+      "title": "Medikasi umum terapi vertigo:",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Antihistamin (Betahistin, Dimenhidrinat, Benadryl).",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 462,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Antagonis Kalsium (Cinnarizine/Stugeron, Flunarizine/Sibelium).",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 464,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Fenotiazine (Promethazine, Khlorpromazine).",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 466,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Obat Simpatomimetik (Efedrin).",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 468,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Obat Penenang Minor (Lorazepam, Diazepam).",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 470,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Obat Anti Kholinergik (Skopolamin).",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Gangguan Keseimbangan.docx",
+                "source_paragraph_index": 472,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Gangguan Keseimbangan.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_01",
+        "Visual_batch_1_6e_13_02",
+        "Visual_batch_1_6e_13_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "section_start_paragraph": 462,
+        "section_end_paragraph": 472
+      }
+    },
+    {
+      "id": "batch_1_6e_13_s22",
+      "title": "Extracted table 1",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "",
+              "Perifer",
+              "Sentral"
+            ],
+            [
+              "Bangkitan vertigo",
+              "Mendadak",
+              "Lambat"
+            ],
+            [
+              "Derajat vertigo",
+              "Berat",
+              "Ringan"
+            ],
+            [
+              "Pengaruh gerakan",
+              "(+)",
+              "(-)"
+            ],
+            [
+              "Kepala",
+              "",
+              ""
+            ],
+            [
+              "Gejala otonom",
+              "(++)",
+              "(-)"
+            ],
+            [
+              "Gangguan pendengaran",
+              "(+)",
+              "(-)"
+            ]
+          ],
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "table_index": 0
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_01",
+        "Visual_batch_1_6e_13_02",
+        "Visual_batch_1_6e_13_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "table_index": 0
+      }
+    },
+    {
+      "id": "batch_1_6e_13_s23",
+      "title": "Extracted table 2",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "Ciri-ciri Lesi",
+              "Vertigo Perifer Sistem vestibuler (telinga dalam, saraf perifer).",
+              "Vertigo Sentral Sistem vertebrobasiler dan gangguan vaskular (otak, batang otak, serebelum)."
+            ],
+            [
+              "Penyebab",
+              "Vertigo posisional paroksismal jinak (BPPV), penyakit maniere, neuronitis vestibuler, labirintis, neuroma akustik, trauma.",
+              "Iskemik batang otak, vertebrobasiler insufisiensi, neoplasma, migren basiler."
+            ],
+            [
+              "Gejala gangguan SSP",
+              "Tidak ada",
+              "Diantaranya: diplopia, parestesi, gangguan sensibilitas dan fungsi motorik, disartria, gangguan serebelar."
+            ],
+            [
+              "Masa laten",
+              "3-40 detik",
+              "Tidak ada"
+            ],
+            [
+              "Habituasi",
+              "Ya",
+              "Tidak"
+            ],
+            [
+              "Intensitas vertigo",
+              "Berat",
+              "Ringan"
+            ],
+            [
+              "Telinga berdenging dan atau tuli.",
+              "Kadang-kadang",
+              "Tidak ada"
+            ],
+            [
+              "Nistagmus spontan",
+              "+",
+              "-"
+            ]
+          ],
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "table_index": 1
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_01",
+        "Visual_batch_1_6e_13_02",
+        "Visual_batch_1_6e_13_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "table_index": 1
+      }
+    },
+    {
+      "id": "batch_1_6e_13_s24",
+      "title": "Embedded visual material requiring downstream asset review.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Visual_asset_note",
+          "text": "Source DOCX contains 95 embedded image(s). Text extraction does not guarantee all visual labels/captions were captured; downstream Codex/asset pipeline should inspect embedded media before final compile.",
+          "embedded_image_count": 95,
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_embedded_review"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "embedded_image_count": 95
+      }
+    },
+    {
+      "id": "batch_1_6e_13_s25",
+      "title": "Penjelasan sederhana / simpler bilingual bridge.",
+      "kind": "Bilingual",
+      "content": [
+        {
+          "type": "Simplified_id",
+          "text": "Versi sederhana: materi ini terutama membahas ppt gangguan keseimbangan dengan fokus pada konsep klinis, diagnosis, tanda penting, dan tata laksana yang tampak di bahan dosen.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        },
+        {
+          "type": "Simplified_en",
+          "text": "Simple English bridge: this lecture centers on ppt gangguan keseimbangan, emphasizing clinical concepts, diagnosis, key signs, and management points extracted from the lecturer file.",
+          "provenance": {
+            "source_document": "PPT Gangguan Keseimbangan.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_13_01",
+        "Visual_batch_1_6e_13_02",
+        "Visual_batch_1_6e_13_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_13_01",
+        "Quiz_batch_1_6e_13_02",
+        "Quiz_batch_1_6e_13_03"
+      ],
+      "glossary_refs": [
+        "Term_serebellum",
+        "Term_3_kanalis_semisirkularis",
+        "Term_anatomi_fisiologi_keseimbangan",
+        "Term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "generated_section": true
+      }
+    }
+  ],
+  "related_exam_set_ids": [
+    "exam_recall_batch_1_6e_13"
+  ],
+  "provenance": {
+    "source_document": "PPT Gangguan Keseimbangan.docx",
+    "manifest_document_id": "batch_1_6e_13",
+    "topic_tags": [],
+    "extraction_method": "python-docx paragraph/table extraction; embedded images counted but not OCRed",
+    "paragraph_count": 107,
+    "table_count": 2,
+    "embedded_image_count": 95
+  }
+}

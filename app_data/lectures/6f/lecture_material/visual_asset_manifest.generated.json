@@ -1,0 +1,715 @@
+{
+  "assets": [
+    {
+      "id": "batch_2_6f_01_visual_concept_map",
+      "type": "Image",
+      "domain": "psychiatry",
+      "title": "Concept map: Gangguan Ansietas & Penatalaksanaannya",
+      "src": "Assets/images/batch_2_6f/batch_2_6f_01_concept_map.webp",
+      "poster": "Assets/images/batch_2_6f/batch_2_6f_01_concept_map_thumb.webp",
+      "alt": "Peta konsep edukatif untuk materi Gangguan Ansietas & Penatalaksanaannya",
+      "caption": "Visual ringkas berbasis struktur materi dosen dari 09 dr.Susi - 1. GAM.docx",
+      "usage": "Generated from lecture",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_01"
+      ],
+      "license_note": "Generate later from user-provided/cleared source; do not embed lecturer slide images automatically."
+    },
+    {
+      "id": "batch_2_6f_01_source_slide_gallery_placeholder",
+      "type": "Media gallery",
+      "domain": "psychiatry",
+      "title": "Galeri slide sumber: Gangguan Ansietas & Penatalaksanaannya",
+      "src": "Assets/media_placeholders/batch_2_6f/batch_2_6f_01_gallery.json",
+      "poster": "Assets/posters/batch_2_6f/batch_2_6f_01_gallery.webp",
+      "alt": "galeri visual untuk 25 media dari dokumen sumber",
+      "caption": "Dokumen mengandung 25 media; perlu clearance sebelum gambar asli dimasukkan",
+      "usage": "Media viewer",
+      "recommended_pages": [
+        13,
+        24
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_01"
+      ],
+      "license_note": "Internal planning only; asset rights must be cleared."
+    },
+    {
+      "id": "batch_2_6f_02_visual_concept_map",
+      "type": "Image",
+      "domain": "psychiatry",
+      "title": "Concept map: Gangguan Panik",
+      "src": "Assets/images/batch_2_6f/batch_2_6f_02_concept_map.webp",
+      "poster": "Assets/images/batch_2_6f/batch_2_6f_02_concept_map_thumb.webp",
+      "alt": "Peta konsep edukatif untuk materi Gangguan Panik",
+      "caption": "Visual ringkas berbasis struktur materi dosen dari 09 dr.Susi - 2. Gangguan Panik (1).docx",
+      "usage": "Generated from lecture",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_02"
+      ],
+      "license_note": "Generate later from user-provided/cleared source; do not embed lecturer slide images automatically."
+    },
+    {
+      "id": "batch_2_6f_02_source_slide_gallery_placeholder",
+      "type": "Media gallery",
+      "domain": "psychiatry",
+      "title": "Galeri slide sumber: Gangguan Panik",
+      "src": "Assets/media_placeholders/batch_2_6f/batch_2_6f_02_gallery.json",
+      "poster": "Assets/posters/batch_2_6f/batch_2_6f_02_gallery.webp",
+      "alt": "galeri visual untuk 77 media dari dokumen sumber",
+      "caption": "Dokumen mengandung 77 media; perlu clearance sebelum gambar asli dimasukkan",
+      "usage": "Media viewer",
+      "recommended_pages": [
+        13,
+        24
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_02"
+      ],
+      "license_note": "Internal planning only; asset rights must be cleared."
+    },
+    {
+      "id": "batch_2_6f_03_visual_concept_map",
+      "type": "Image",
+      "domain": "psychiatry",
+      "title": "Concept map: Fobia",
+      "src": "Assets/images/batch_2_6f/batch_2_6f_03_concept_map.webp",
+      "poster": "Assets/images/batch_2_6f/batch_2_6f_03_concept_map_thumb.webp",
+      "alt": "Peta konsep edukatif untuk materi Fobia",
+      "caption": "Visual ringkas berbasis struktur materi dosen dari 09 dr.Susi - 4. Fobia.docx",
+      "usage": "Generated from lecture",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_03"
+      ],
+      "license_note": "Generate later from user-provided/cleared source; do not embed lecturer slide images automatically."
+    },
+    {
+      "id": "batch_2_6f_03_source_slide_gallery_placeholder",
+      "type": "Media gallery",
+      "domain": "psychiatry",
+      "title": "Galeri slide sumber: Fobia",
+      "src": "Assets/media_placeholders/batch_2_6f/batch_2_6f_03_gallery.json",
+      "poster": "Assets/posters/batch_2_6f/batch_2_6f_03_gallery.webp",
+      "alt": "galeri visual untuk 9 media dari dokumen sumber",
+      "caption": "Dokumen mengandung 9 media; perlu clearance sebelum gambar asli dimasukkan",
+      "usage": "Media viewer",
+      "recommended_pages": [
+        13,
+        24
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_03"
+      ],
+      "license_note": "Internal planning only; asset rights must be cleared."
+    },
+    {
+      "id": "batch_2_6f_04_visual_concept_map",
+      "type": "Image",
+      "domain": "neuro_otology",
+      "title": "Concept map: How to Treat Central Vertigo",
+      "src": "Assets/images/batch_2_6f/batch_2_6f_04_concept_map.webp",
+      "poster": "Assets/images/batch_2_6f/batch_2_6f_04_concept_map_thumb.webp",
+      "alt": "Peta konsep edukatif untuk materi How to Treat Central Vertigo",
+      "caption": "Visual ringkas berbasis struktur materi dosen dari 2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx",
+      "usage": "Generated from lecture",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_04"
+      ],
+      "license_note": "Generate later from user-provided/cleared source; do not embed lecturer slide images automatically."
+    },
+    {
+      "id": "batch_2_6f_04_source_slide_gallery_placeholder",
+      "type": "Media gallery",
+      "domain": "neuro_otology",
+      "title": "Galeri slide sumber: How to Treat Central Vertigo",
+      "src": "Assets/media_placeholders/batch_2_6f/batch_2_6f_04_gallery.json",
+      "poster": "Assets/posters/batch_2_6f/batch_2_6f_04_gallery.webp",
+      "alt": "galeri visual untuk 45 media dari dokumen sumber",
+      "caption": "Dokumen mengandung 45 media; perlu clearance sebelum gambar asli dimasukkan",
+      "usage": "Media viewer",
+      "recommended_pages": [
+        13,
+        24
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_04"
+      ],
+      "license_note": "Internal planning only; asset rights must be cleared."
+    },
+    {
+      "id": "batch_2_6f_05_visual_concept_map",
+      "type": "Image",
+      "domain": "psychiatry",
+      "title": "Concept map: Electroconvulsive Therapy (ECT) & Psikoterapi",
+      "src": "Assets/images/batch_2_6f/batch_2_6f_05_concept_map.webp",
+      "poster": "Assets/images/batch_2_6f/batch_2_6f_05_concept_map_thumb.webp",
+      "alt": "Peta konsep edukatif untuk materi Electroconvulsive Therapy (ECT) & Psikoterapi",
+      "caption": "Visual ringkas berbasis struktur materi dosen dari ECT dan psikoterapi dr.Diva, Sp.KJ (1).docx",
+      "usage": "Generated from lecture",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_05"
+      ],
+      "license_note": "Generate later from user-provided/cleared source; do not embed lecturer slide images automatically."
+    },
+    {
+      "id": "batch_2_6f_05_source_slide_gallery_placeholder",
+      "type": "Media gallery",
+      "domain": "psychiatry",
+      "title": "Galeri slide sumber: Electroconvulsive Therapy (ECT) & Psikoterapi",
+      "src": "Assets/media_placeholders/batch_2_6f/batch_2_6f_05_gallery.json",
+      "poster": "Assets/posters/batch_2_6f/batch_2_6f_05_gallery.webp",
+      "alt": "galeri visual untuk 12 media dari dokumen sumber",
+      "caption": "Dokumen mengandung 12 media; perlu clearance sebelum gambar asli dimasukkan",
+      "usage": "Media viewer",
+      "recommended_pages": [
+        13,
+        24
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_05"
+      ],
+      "license_note": "Internal planning only; asset rights must be cleared."
+    },
+    {
+      "id": "batch_2_6f_06_visual_concept_map",
+      "type": "Image",
+      "domain": "psychiatry",
+      "title": "Concept map: Pemeriksaan Laboratorium pada Penyalahgunaan Obat Psikoaktif, NAPZA dan Alkohol",
+      "src": "Assets/images/batch_2_6f/batch_2_6f_06_concept_map.webp",
+      "poster": "Assets/images/batch_2_6f/batch_2_6f_06_concept_map_thumb.webp",
+      "alt": "Peta konsep edukatif untuk materi Pemeriksaan Laboratorium pada Penyalahgunaan Obat Psikoaktif, NAPZA dan Alkohol",
+      "caption": "Visual ringkas berbasis struktur materi dosen dari Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx",
+      "usage": "Generated from lecture",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_06"
+      ],
+      "license_note": "Generate later from user-provided/cleared source; do not embed lecturer slide images automatically."
+    },
+    {
+      "id": "batch_2_6f_06_source_slide_gallery_placeholder",
+      "type": "Media gallery",
+      "domain": "psychiatry",
+      "title": "Galeri slide sumber: Pemeriksaan Laboratorium pada Penyalahgunaan Obat Psikoaktif, NAPZA dan Alkohol",
+      "src": "Assets/media_placeholders/batch_2_6f/batch_2_6f_06_gallery.json",
+      "poster": "Assets/posters/batch_2_6f/batch_2_6f_06_gallery.webp",
+      "alt": "galeri visual untuk 20 media dari dokumen sumber",
+      "caption": "Dokumen mengandung 20 media; perlu clearance sebelum gambar asli dimasukkan",
+      "usage": "Media viewer",
+      "recommended_pages": [
+        13,
+        24
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_06"
+      ],
+      "license_note": "Internal planning only; asset rights must be cleared."
+    },
+    {
+      "id": "batch_2_6f_07_visual_concept_map",
+      "type": "Image",
+      "domain": "psychiatry",
+      "title": "Concept map: Normal Sleep dan Sleep Disorders",
+      "src": "Assets/images/batch_2_6f/batch_2_6f_07_concept_map.webp",
+      "poster": "Assets/images/batch_2_6f/batch_2_6f_07_concept_map_thumb.webp",
+      "alt": "Peta konsep edukatif untuk materi Normal Sleep dan Sleep Disorders",
+      "caption": "Visual ringkas berbasis struktur materi dosen dari SLEEP DISORDERS dr.Diva, SpKJ.docx",
+      "usage": "Generated from lecture",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_07"
+      ],
+      "license_note": "Generate later from user-provided/cleared source; do not embed lecturer slide images automatically."
+    },
+    {
+      "id": "batch_2_6f_07_source_slide_gallery_placeholder",
+      "type": "Media gallery",
+      "domain": "psychiatry",
+      "title": "Galeri slide sumber: Normal Sleep dan Sleep Disorders",
+      "src": "Assets/media_placeholders/batch_2_6f/batch_2_6f_07_gallery.json",
+      "poster": "Assets/posters/batch_2_6f/batch_2_6f_07_gallery.webp",
+      "alt": "galeri visual untuk 35 media dari dokumen sumber",
+      "caption": "Dokumen mengandung 35 media; perlu clearance sebelum gambar asli dimasukkan",
+      "usage": "Media viewer",
+      "recommended_pages": [
+        13,
+        24
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_07"
+      ],
+      "license_note": "Internal planning only; asset rights must be cleared."
+    },
+    {
+      "id": "batch_2_6f_08_visual_concept_map",
+      "type": "Image",
+      "domain": "psychiatry",
+      "title": "Concept map: Gangguan Makan: Anoreksia Nervosa dan Bulimia",
+      "src": "Assets/images/batch_2_6f/batch_2_6f_08_concept_map.webp",
+      "poster": "Assets/images/batch_2_6f/batch_2_6f_08_concept_map_thumb.webp",
+      "alt": "Peta konsep edukatif untuk materi Gangguan Makan: Anoreksia Nervosa dan Bulimia",
+      "caption": "Visual ringkas berbasis struktur materi dosen dari anoreksia dan bulimia.docx",
+      "usage": "Generated from lecture",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_08"
+      ],
+      "license_note": "Generate later from user-provided/cleared source; do not embed lecturer slide images automatically."
+    },
+    {
+      "id": "batch_2_6f_08_source_slide_gallery_placeholder",
+      "type": "Media gallery",
+      "domain": "psychiatry",
+      "title": "Galeri slide sumber: Gangguan Makan: Anoreksia Nervosa dan Bulimia",
+      "src": "Assets/media_placeholders/batch_2_6f/batch_2_6f_08_gallery.json",
+      "poster": "Assets/posters/batch_2_6f/batch_2_6f_08_gallery.webp",
+      "alt": "galeri visual untuk 35 media dari dokumen sumber",
+      "caption": "Dokumen mengandung 35 media; perlu clearance sebelum gambar asli dimasukkan",
+      "usage": "Media viewer",
+      "recommended_pages": [
+        13,
+        24
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_08"
+      ],
+      "license_note": "Internal planning only; asset rights must be cleared."
+    },
+    {
+      "id": "batch_2_6f_09_visual_concept_map",
+      "type": "Image",
+      "domain": "psychiatry",
+      "title": "Concept map: Delirium",
+      "src": "Assets/images/batch_2_6f/batch_2_6f_09_concept_map.webp",
+      "poster": "Assets/images/batch_2_6f/batch_2_6f_09_concept_map_thumb.webp",
+      "alt": "Peta konsep edukatif untuk materi Delirium",
+      "caption": "Visual ringkas berbasis struktur materi dosen dari delerium FKIK UNJA (1).docx",
+      "usage": "Generated from lecture",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_09"
+      ],
+      "license_note": "Generate later from user-provided/cleared source; do not embed lecturer slide images automatically."
+    },
+    {
+      "id": "batch_2_6f_09_source_slide_gallery_placeholder",
+      "type": "Media gallery",
+      "domain": "psychiatry",
+      "title": "Galeri slide sumber: Delirium",
+      "src": "Assets/media_placeholders/batch_2_6f/batch_2_6f_09_gallery.json",
+      "poster": "Assets/posters/batch_2_6f/batch_2_6f_09_gallery.webp",
+      "alt": "galeri visual untuk 30 media dari dokumen sumber",
+      "caption": "Dokumen mengandung 30 media; perlu clearance sebelum gambar asli dimasukkan",
+      "usage": "Media viewer",
+      "recommended_pages": [
+        13,
+        24
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_09"
+      ],
+      "license_note": "Internal planning only; asset rights must be cleared."
+    },
+    {
+      "id": "batch_2_6f_10_visual_concept_map",
+      "type": "Image",
+      "domain": "psychiatry",
+      "title": "Concept map: Amnesia Pasca Trauma (Post-Traumatic Amnesia/PTA)",
+      "src": "Assets/images/batch_2_6f/batch_2_6f_10_concept_map.webp",
+      "poster": "Assets/images/batch_2_6f/batch_2_6f_10_concept_map_thumb.webp",
+      "alt": "Peta konsep edukatif untuk materi Amnesia Pasca Trauma (Post-Traumatic Amnesia/PTA)",
+      "caption": "Visual ringkas berbasis struktur materi dosen dari dr.Fatmawati, Sp.KJ-Amnesia Pasca Trauma.docx",
+      "usage": "Generated from lecture",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_10"
+      ],
+      "license_note": "Generate later from user-provided/cleared source; do not embed lecturer slide images automatically."
+    },
+    {
+      "id": "batch_2_6f_10_source_slide_gallery_placeholder",
+      "type": "Media gallery",
+      "domain": "psychiatry",
+      "title": "Galeri slide sumber: Amnesia Pasca Trauma (Post-Traumatic Amnesia/PTA)",
+      "src": "Assets/media_placeholders/batch_2_6f/batch_2_6f_10_gallery.json",
+      "poster": "Assets/posters/batch_2_6f/batch_2_6f_10_gallery.webp",
+      "alt": "galeri visual untuk 26 media dari dokumen sumber",
+      "caption": "Dokumen mengandung 26 media; perlu clearance sebelum gambar asli dimasukkan",
+      "usage": "Media viewer",
+      "recommended_pages": [
+        13,
+        24
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_10"
+      ],
+      "license_note": "Internal planning only; asset rights must be cleared."
+    },
+    {
+      "id": "batch_2_6f_11_visual_concept_map",
+      "type": "Image",
+      "domain": "psychiatry",
+      "title": "Concept map: Gangguan Somatoform",
+      "src": "Assets/images/batch_2_6f/batch_2_6f_11_concept_map.webp",
+      "poster": "Assets/images/batch_2_6f/batch_2_6f_11_concept_map_thumb.webp",
+      "alt": "Peta konsep edukatif untuk materi Gangguan Somatoform",
+      "caption": "Visual ringkas berbasis struktur materi dosen dari dr.Fatmawati, Sp.KJ-Gangguan Somatoform (1).docx",
+      "usage": "Generated from lecture",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_11"
+      ],
+      "license_note": "Generate later from user-provided/cleared source; do not embed lecturer slide images automatically."
+    },
+    {
+      "id": "batch_2_6f_11_source_slide_gallery_placeholder",
+      "type": "Media gallery",
+      "domain": "psychiatry",
+      "title": "Galeri slide sumber: Gangguan Somatoform",
+      "src": "Assets/media_placeholders/batch_2_6f/batch_2_6f_11_gallery.json",
+      "poster": "Assets/posters/batch_2_6f/batch_2_6f_11_gallery.webp",
+      "alt": "galeri visual untuk 46 media dari dokumen sumber",
+      "caption": "Dokumen mengandung 46 media; perlu clearance sebelum gambar asli dimasukkan",
+      "usage": "Media viewer",
+      "recommended_pages": [
+        13,
+        24
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_11"
+      ],
+      "license_note": "Internal planning only; asset rights must be cleared."
+    },
+    {
+      "id": "batch_2_6f_12_visual_concept_map",
+      "type": "Image",
+      "domain": "psychiatry",
+      "title": "Concept map: Isu Etik dan Legal dalam Kesehatan Jiwa",
+      "src": "Assets/images/batch_2_6f/batch_2_6f_12_concept_map.webp",
+      "poster": "Assets/images/batch_2_6f/batch_2_6f_12_concept_map_thumb.webp",
+      "alt": "Peta konsep edukatif untuk materi Isu Etik dan Legal dalam Kesehatan Jiwa",
+      "caption": "Visual ringkas berbasis struktur materi dosen dari legal-etik-jiwa.docx",
+      "usage": "Generated from lecture",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_12"
+      ],
+      "license_note": "Generate later from user-provided/cleared source; do not embed lecturer slide images automatically."
+    },
+    {
+      "id": "batch_2_6f_12_source_slide_gallery_placeholder",
+      "type": "Media gallery",
+      "domain": "psychiatry",
+      "title": "Galeri slide sumber: Isu Etik dan Legal dalam Kesehatan Jiwa",
+      "src": "Assets/media_placeholders/batch_2_6f/batch_2_6f_12_gallery.json",
+      "poster": "Assets/posters/batch_2_6f/batch_2_6f_12_gallery.webp",
+      "alt": "galeri visual untuk 23 media dari dokumen sumber",
+      "caption": "Dokumen mengandung 23 media; perlu clearance sebelum gambar asli dimasukkan",
+      "usage": "Media viewer",
+      "recommended_pages": [
+        13,
+        24
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_12"
+      ],
+      "license_note": "Internal planning only; asset rights must be cleared."
+    },
+    {
+      "id": "batch_2_6f_13_visual_concept_map",
+      "type": "Image",
+      "domain": "psychiatry",
+      "title": "Concept map: Perilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri",
+      "src": "Assets/images/batch_2_6f/batch_2_6f_13_concept_map.webp",
+      "poster": "Assets/images/batch_2_6f/batch_2_6f_13_concept_map_thumb.webp",
+      "alt": "Peta konsep edukatif untuk materi Perilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri",
+      "caption": "Visual ringkas berbasis struktur materi dosen dari prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "usage": "Generated from lecture",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_13"
+      ],
+      "license_note": "Generate later from user-provided/cleared source; do not embed lecturer slide images automatically."
+    },
+    {
+      "id": "batch_2_6f_13_source_slide_gallery_placeholder",
+      "type": "Media gallery",
+      "domain": "psychiatry",
+      "title": "Galeri slide sumber: Perilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri",
+      "src": "Assets/media_placeholders/batch_2_6f/batch_2_6f_13_gallery.json",
+      "poster": "Assets/posters/batch_2_6f/batch_2_6f_13_gallery.webp",
+      "alt": "galeri visual untuk 18 media dari dokumen sumber",
+      "caption": "Dokumen mengandung 18 media; perlu clearance sebelum gambar asli dimasukkan",
+      "usage": "Media viewer",
+      "recommended_pages": [
+        13,
+        24
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_13"
+      ],
+      "license_note": "Internal planning only; asset rights must be cleared."
+    },
+    {
+      "id": "batch_2_6f_14_visual_concept_map",
+      "type": "Image",
+      "domain": "psychiatry",
+      "title": "Concept map: Gangguan Kepribadian dan Perilaku Masa Dewasa",
+      "src": "Assets/images/batch_2_6f/batch_2_6f_14_concept_map.webp",
+      "poster": "Assets/images/batch_2_6f/batch_2_6f_14_concept_map_thumb.webp",
+      "alt": "Peta konsep edukatif untuk materi Gangguan Kepribadian dan Perilaku Masa Dewasa",
+      "caption": "Visual ringkas berbasis struktur materi dosen dari ✅28_4_25 GGN KEPRIBADIAN DAN PERILAKU MASA DEWASA_compressed.docx",
+      "usage": "Generated from lecture",
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_14"
+      ],
+      "license_note": "Generate later from user-provided/cleared source; do not embed lecturer slide images automatically."
+    },
+    {
+      "id": "source_atlas_batch_2_6f_08",
+      "type": "Source atlas",
+      "domain": "psychiatry",
+      "title": "Atlas Sumber Penuh: Gangguan Makan: Anoreksia Nervosa dan Bulimia",
+      "src": "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/atlas.png",
+      "poster": "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/atlas.png",
+      "alt": "Atlas gambar penuh untuk modul Gangguan Makan: Anoreksia Nervosa dan Bulimia",
+      "caption": "Seluruh 33 halaman sumber dipreservasi utuh sebagai atlas gambar",
+      "usage": "Source page atlas",
+      "recommended_pages": [
+        9,
+        12,
+        13,
+        15
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_08"
+      ],
+      "license_note": "Derived from user-provided lecturer source preserved as full-page atlas.",
+      "source_atlas": {
+        "title": "Gangguan Makan: Anoreksia Nervosa dan Bulimia.",
+        "sourceFile": "anoreksia dan bulimia.pptx",
+        "sourceKind": "Source_atlas_pptx",
+        "pageCount": 33,
+        "atlasFile": "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/atlas.png",
+        "pageFiles": [
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/01.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/02.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/03.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/04.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/05.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/06.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/07.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/08.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/09.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/10.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/11.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/12.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/13.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/14.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/15.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/16.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/17.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/18.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/19.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/20.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/21.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/22.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/23.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/24.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/25.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/26.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/27.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/28.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/29.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/30.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/31.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/32.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_eating_005/pages/33.png"
+        ],
+        "caption": "Atlas sumber penuh untuk Gangguan Makan: Anoreksia Nervosa dan Bulimia."
+      }
+    },
+    {
+      "id": "source_atlas_batch_2_6f_10",
+      "type": "Source atlas",
+      "domain": "psychiatry",
+      "title": "Atlas Sumber Penuh: Amnesia Pasca Trauma (Post-Traumatic Amnesia/PTA)",
+      "src": "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/atlas.png",
+      "poster": "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/atlas.png",
+      "alt": "Atlas gambar penuh untuk modul Amnesia Pasca Trauma (Post-Traumatic Amnesia/PTA)",
+      "caption": "Seluruh 26 halaman sumber dipreservasi utuh sebagai atlas gambar",
+      "usage": "Source page atlas",
+      "recommended_pages": [
+        9,
+        12,
+        13,
+        15
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_10"
+      ],
+      "license_note": "Derived from user-provided lecturer source preserved as full-page atlas.",
+      "source_atlas": {
+        "title": "Amnesia Pasca Trauma (Post-Traumatic Amnesia/PTA).",
+        "sourceFile": "dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.pdf",
+        "sourceKind": "Source_atlas_pdf",
+        "pageCount": 26,
+        "atlasFile": "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/atlas.png",
+        "pageFiles": [
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/01.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/02.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/03.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/04.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/05.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/06.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/07.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/08.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/09.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/10.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/11.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/12.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/13.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/14.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/15.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/16.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/17.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/18.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/19.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/20.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/21.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/22.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/23.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/24.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/25.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_amnesia_007/pages/26.png"
+        ],
+        "caption": "Atlas sumber penuh untuk Amnesia Pasca Trauma (Post-Traumatic Amnesia/PTA)."
+      }
+    },
+    {
+      "id": "source_atlas_batch_2_6f_11",
+      "type": "Source atlas",
+      "domain": "psychiatry",
+      "title": "Atlas Sumber Penuh: Gangguan Somatoform",
+      "src": "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/atlas.png",
+      "poster": "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/atlas.png",
+      "alt": "Atlas gambar penuh untuk modul Gangguan Somatoform",
+      "caption": "Seluruh 46 halaman sumber dipreservasi utuh sebagai atlas gambar",
+      "usage": "Source page atlas",
+      "recommended_pages": [
+        9,
+        12,
+        13,
+        15
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_11"
+      ],
+      "license_note": "Derived from user-provided lecturer source preserved as full-page atlas.",
+      "source_atlas": {
+        "title": "Gangguan Somatoform",
+        "sourceFile": "dr.Fatmawati,Sp.KJ-Gangguan Somatoform (1).pdf",
+        "sourceKind": "Source_atlas_pdf",
+        "pageCount": 46,
+        "atlasFile": "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/atlas.png",
+        "pageFiles": [
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/01.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/02.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/03.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/04.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/05.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/06.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/07.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/08.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/09.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/10.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/11.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/12.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/13.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/14.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/15.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/16.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/17.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/18.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/19.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/20.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/21.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/22.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/23.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/24.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/25.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/26.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/27.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/28.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/29.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/30.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/31.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/32.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/33.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/34.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/35.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/36.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/37.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/38.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/39.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/40.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/41.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/42.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/43.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/44.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/45.png",
+          "CORTEX_project_history/07_visual_final_assets/batch_5_psikiatri_dan_medis/source_atlases/lecture_6f_somatoform_008/pages/46.png"
+        ],
+        "caption": "Atlas sumber penuh untuk Gangguan Somatoform"
+      }
+    }
+  ]
+}

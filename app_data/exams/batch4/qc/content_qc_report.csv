@@ -1,0 +1,7 @@
+artifact,record_count,status,notes
+original_exam_sets/batch4_soal_mcq_6_3_akt_19_tahun_2022.json,58,pass_with_flags,Contains all source items; low-confidence and source-fragment items preserved with explicit labels.
+quiz_bank/batch4_quiz_bank.generated.json,56,pass_with_flags,Excludes unresolved items without answer_index; review_only items retained with confidence labels.
+glossary/batch4_glossary.generated.json,79,pass,Terms generated from recurring source concepts.
+content_link_map/content_link_map.generated.json,88,pass,Question-to-glossary links created.
+page_registry/page_registry.generated.json,4,pass,Four app pages registered.
+course_manifest/course_manifest.generated.json,1,pass,Batch metadata and artifact routing available.

@@ -1,0 +1,41 @@
+question_id,number,page_label,option_count,has_answer_index,answer_text,confidence,quiz_bank_included,issues
+mcq_6e_2025_original_exam_set_q01,1,Page 1,4,True,Impending herniasi otak,high,True,
+mcq_6e_2025_original_exam_set_q02,2,Page 1,5,True,Impending herniasi,high,True,
+mcq_6e_2025_original_exam_set_q03,3,Page 1,2,True,Ensefalitis HSV (catatan jawaban; opsi asli tidak terbaca),medium,False,missing_options
+mcq_6e_2025_original_exam_set_q04,4,Page 1,5,True,Amfoterisin B,high,True,
+mcq_6e_2025_original_exam_set_q05,5,Page 1,3,True,HIV positif,high,True,
+mcq_6e_2025_original_exam_set_q06,6,Page 1,2,True,Hasil kultur LCS sudah keluar,high,False,missing_options
+mcq_6e_2025_original_exam_set_q07,7,Page 1,2,False,Gangguan propriosepsi/kontrol postural,low,False,missing_options;missing_answer_index;low_confidence
+mcq_6e_2025_original_exam_set_q08,8,Page 1,2,True,CT scan tanpa kontras,high,True,
+mcq_6e_2025_original_exam_set_q09,9,Page 1,3,True,Neisseria meningitidis,high,True,
+mcq_6e_2025_original_exam_set_q10,10,Page 1,2,True,Tetanospasmin,high,True,
+mcq_6e_2025_original_exam_set_q11,11,Page 1,2,True,Cerebellum,high,True,
+mcq_6e_2025_original_exam_set_q12,12,Page 1,4,True,Cortex,high,True,
+mcq_6e_2025_original_exam_set_q13,13,Page 1,2,True,Ensefalopati hipoksia,medium,True,
+mcq_6e_2025_original_exam_set_q14,14,Page 2,3,True,Afasia,high,True,
+mcq_6e_2025_original_exam_set_q15,15,Page 2,3,True,Generalized motor seizure,high,True,
+mcq_6e_2025_original_exam_set_q16,16,Page 2,2,False,Tidak dapat dipastikan dari sumber; catatan samping menyebut dopamine agonist/pramipexole untuk <60 tahun dan levodopa untuk >60 tahun.,low,False,missing_options;missing_answer_index;low_confidence
+mcq_6e_2025_original_exam_set_q17,17,Page 2,2,True,Propranolol,high,True,
+mcq_6e_2025_original_exam_set_q18,18,Page 2,2,True,Sumatriptan,high,False,missing_options
+mcq_6e_2025_original_exam_set_q19,19,Page 2,3,True,Serangan minimal 2 kali,high,True,
+mcq_6e_2025_original_exam_set_q20,20,Page 2,2,True,BPPV,high,True,
+mcq_6e_2025_original_exam_set_q21,21,Page 2,2,True,Myoclonic seizure,high,True,
+mcq_6e_2025_original_exam_set_q22,22,Page 2,4,True,Meningioma,high,False,missing_options
+mcq_6e_2025_original_exam_set_q23,23,Page 2,2,True,Otot kepala dan leher,medium,True,
+mcq_6e_2025_original_exam_set_q24,24,Page 2,3,True,Agnosia,high,True,
+mcq_6e_2025_original_exam_set_q25,25,Page 2,2,True,Perdarahan subarachnoid,high,False,missing_options
+mcq_6e_2025_original_exam_set_q26,26,Page 2,2,True,Perdarahan subepidural/epidural,high,False,missing_options
+mcq_6e_2025_original_exam_set_q27,27,Page 2,3,True,Radikulopati,high,True,
+mcq_6e_2025_original_exam_set_q28,28,Page 2-3,2,True,EEG,high,True,
+mcq_6e_2025_original_exam_set_q29,29,Page 3,2,True,Vertigo vestibular sentral,high,True,
+mcq_6e_2025_original_exam_set_q30,30,Page 3,2,True,"Paresis, gangguan miksi, dan disfungsi seksual",high,False,missing_options
+mcq_6e_2025_original_exam_set_q31,31,Page 3,2,True,Reseptor asetilkolin,high,True,
+mcq_6e_2025_original_exam_set_q32,32,Page 3,2,True,Analog histamin,medium,True,
+mcq_6e_2025_original_exam_set_q33,33,Page 3,2,True,Cerebri kanan,high,True,
+mcq_6e_2025_original_exam_set_q34,34,Page 3,3,True,Lesi desak ruang,high,True,
+mcq_6e_2025_original_exam_set_q35,35,Page 3,3,True,Neuromuscular junction,high,True,
+mcq_6e_2025_original_exam_set_q36,36,Page 3,2,True,Betahistine,high,False,missing_options
+mcq_6e_2025_original_exam_set_q37,37,Page 3,2,True,TIA,high,True,
+mcq_6e_2025_original_exam_set_q38,38,Page 3,2,True,Emboli cerebri,high,True,
+mcq_6e_2025_original_exam_set_q39,39,Page 4,2,True,Distonia,high,True,visual_recovered_no_ocr_lines
+mcq_6e_2025_original_exam_set_q40,40,Page 4,3,True,Refleks patologis ada,high,True,visual_recovered_no_ocr_lines

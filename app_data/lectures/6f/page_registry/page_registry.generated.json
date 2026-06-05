@@ -1,0 +1,276 @@
+{
+  "pages": [
+    {
+      "page_id": 3,
+      "page_type": "Lecture_index",
+      "source": "Course_manifest/course_manifest.generated.json",
+      "renderer": "Learning_index_renderer"
+    },
+    {
+      "page_id": 14,
+      "page_type": "Glossary",
+      "source": "Glossary/glossary.generated.json",
+      "renderer": "Glossary_renderer"
+    },
+    {
+      "page_id": 17,
+      "page_type": "Quiz",
+      "source": "Quiz_bank/quiz_bank.generated.json",
+      "renderer": "Quiz_renderer"
+    },
+    {
+      "page_id": 18,
+      "page_type": "Flashcard",
+      "source": "Quiz_bank/flashcard_bank.generated.json",
+      "renderer": "Flashcard_renderer"
+    },
+    {
+      "page_id": 12,
+      "page_type": "Image_card",
+      "source": "Lecture_material/visual_asset_manifest.generated.json",
+      "renderer": "Image_card_renderer"
+    },
+    {
+      "page_id": 13,
+      "page_type": "Media_viewer",
+      "source": "Lecture_material/visual_asset_manifest.generated.json",
+      "renderer": "Media_viewer_renderer"
+    },
+    {
+      "page_id": 20,
+      "page_type": "Ai_workspace",
+      "source": "Course_manifest/ai_workspace_prompts.generated.json",
+      "renderer": "Ai_workspace_renderer"
+    },
+    {
+      "page_id": 24,
+      "page_type": "State_and_qc",
+      "source": "Analysis_notes/source_gaps.md",
+      "renderer": "State_renderer"
+    },
+    {
+      "page_id": 4,
+      "page_type": "Lecture_detail",
+      "source": "Lecture_material/batch_2_6f_01_09_dr_susi_1_gam.json",
+      "renderer": "Section_detail_renderer",
+      "content_id": "Batch_2_6f_01",
+      "title": "Gangguan Ansietas & Penatalaksanaannya."
+    },
+    {
+      "page_id": 22,
+      "page_type": "Quick_reference",
+      "source": "Lecture_material/quick_reference.generated.json",
+      "renderer": "Quick_reference_renderer",
+      "content_id": "Batch_2_6f_01_quickref",
+      "title": "Ringkasan cepat: Gangguan Ansietas & Penatalaksanaannya."
+    },
+    {
+      "page_id": 4,
+      "page_type": "Lecture_detail",
+      "source": "Lecture_material/batch_2_6f_02_09_dr_susi_2_gangguan_panik_1.json",
+      "renderer": "Section_detail_renderer",
+      "content_id": "Batch_2_6f_02",
+      "title": "Gangguan Panik"
+    },
+    {
+      "page_id": 22,
+      "page_type": "Quick_reference",
+      "source": "Lecture_material/quick_reference.generated.json",
+      "renderer": "Quick_reference_renderer",
+      "content_id": "Batch_2_6f_02_quickref",
+      "title": "Ringkasan cepat: Gangguan Panik."
+    },
+    {
+      "page_id": 4,
+      "page_type": "Lecture_detail",
+      "source": "Lecture_material/batch_2_6f_03_09_dr_susi_4_fobia.json",
+      "renderer": "Section_detail_renderer",
+      "content_id": "Batch_2_6f_03",
+      "title": "Fobia"
+    },
+    {
+      "page_id": 22,
+      "page_type": "Quick_reference",
+      "source": "Lecture_material/quick_reference.generated.json",
+      "renderer": "Quick_reference_renderer",
+      "content_id": "Batch_2_6f_03_quickref",
+      "title": "Ringkasan cepat: Fobia"
+    },
+    {
+      "page_id": 4,
+      "page_type": "Lecture_detail",
+      "source": "Lecture_material/batch_2_6f_04_2_dr_sri_novianty_sp_n_how_to_treat_central_v.json",
+      "renderer": "Section_detail_renderer",
+      "content_id": "Batch_2_6f_04",
+      "title": "How to Treat Central Vertigo."
+    },
+    {
+      "page_id": 22,
+      "page_type": "Quick_reference",
+      "source": "Lecture_material/quick_reference.generated.json",
+      "renderer": "Quick_reference_renderer",
+      "content_id": "Batch_2_6f_04_quickref",
+      "title": "Ringkasan cepat: How to Treat Central Vertigo."
+    },
+    {
+      "page_id": 4,
+      "page_type": "Lecture_detail",
+      "source": "Lecture_material/batch_2_6f_05_ect_dan_psikoterapi_dr_diva_sp_kj_1.json",
+      "renderer": "Section_detail_renderer",
+      "content_id": "Batch_2_6f_05",
+      "title": "Electroconvulsive Therapy (ECT) & Psikoterapi."
+    },
+    {
+      "page_id": 22,
+      "page_type": "Quick_reference",
+      "source": "Lecture_material/quick_reference.generated.json",
+      "renderer": "Quick_reference_renderer",
+      "content_id": "Batch_2_6f_05_quickref",
+      "title": "Ringkasan cepat: Electroconvulsive Therapy (ECT) & Psikoterapi."
+    },
+    {
+      "page_id": 4,
+      "page_type": "Lecture_detail",
+      "source": "Lecture_material/batch_2_6f_06_pemeriksaan_laboratorium_pada_penyalahgunaan.json",
+      "renderer": "Section_detail_renderer",
+      "content_id": "Batch_2_6f_06",
+      "title": "Pemeriksaan Laboratorium pada Penyalahgunaan Obat Psikoaktif, NAPZA dan Alkohol."
+    },
+    {
+      "page_id": 22,
+      "page_type": "Quick_reference",
+      "source": "Lecture_material/quick_reference.generated.json",
+      "renderer": "Quick_reference_renderer",
+      "content_id": "Batch_2_6f_06_quickref",
+      "title": "Ringkasan cepat: Pemeriksaan Laboratorium pada Penyalahgunaan Obat Psikoaktif, NAPZA dan Alkohol."
+    },
+    {
+      "page_id": 4,
+      "page_type": "Lecture_detail",
+      "source": "Lecture_material/batch_2_6f_07_sleep_disorders_dr_diva_spkj.json",
+      "renderer": "Section_detail_renderer",
+      "content_id": "Batch_2_6f_07",
+      "title": "Normal Sleep dan Sleep Disorders."
+    },
+    {
+      "page_id": 22,
+      "page_type": "Quick_reference",
+      "source": "Lecture_material/quick_reference.generated.json",
+      "renderer": "Quick_reference_renderer",
+      "content_id": "Batch_2_6f_07_quickref",
+      "title": "Ringkasan cepat: Normal Sleep dan Sleep Disorders."
+    },
+    {
+      "page_id": 4,
+      "page_type": "Lecture_detail",
+      "source": "Lecture_material/batch_2_6f_08_anoreksia_dan_bulimia.json",
+      "renderer": "Section_detail_renderer",
+      "content_id": "Batch_2_6f_08",
+      "title": "Gangguan Makan: Anoreksia Nervosa dan Bulimia."
+    },
+    {
+      "page_id": 22,
+      "page_type": "Quick_reference",
+      "source": "Lecture_material/quick_reference.generated.json",
+      "renderer": "Quick_reference_renderer",
+      "content_id": "Batch_2_6f_08_quickref",
+      "title": "Ringkasan cepat: Gangguan Makan: Anoreksia Nervosa dan Bulimia."
+    },
+    {
+      "page_id": 4,
+      "page_type": "Lecture_detail",
+      "source": "Lecture_material/batch_2_6f_09_delerium_fkik_unja_1.json",
+      "renderer": "Section_detail_renderer",
+      "content_id": "Batch_2_6f_09",
+      "title": "Delirium"
+    },
+    {
+      "page_id": 22,
+      "page_type": "Quick_reference",
+      "source": "Lecture_material/quick_reference.generated.json",
+      "renderer": "Quick_reference_renderer",
+      "content_id": "Batch_2_6f_09_quickref",
+      "title": "Ringkasan cepat: Delirium"
+    },
+    {
+      "page_id": 4,
+      "page_type": "Lecture_detail",
+      "source": "Lecture_material/batch_2_6f_10_dr_fatmawati_sp_kj_amnesia_pasca_trauma.json",
+      "renderer": "Section_detail_renderer",
+      "content_id": "Batch_2_6f_10",
+      "title": "Amnesia Pasca Trauma (Post-Traumatic Amnesia/PTA)."
+    },
+    {
+      "page_id": 22,
+      "page_type": "Quick_reference",
+      "source": "Lecture_material/quick_reference.generated.json",
+      "renderer": "Quick_reference_renderer",
+      "content_id": "Batch_2_6f_10_quickref",
+      "title": "Ringkasan cepat: Amnesia Pasca Trauma (Post-Traumatic Amnesia/PTA)."
+    },
+    {
+      "page_id": 4,
+      "page_type": "Lecture_detail",
+      "source": "Lecture_material/batch_2_6f_11_dr_fatmawati_sp_kj_gangguan_somatoform_1.json",
+      "renderer": "Section_detail_renderer",
+      "content_id": "Batch_2_6f_11",
+      "title": "Gangguan Somatoform"
+    },
+    {
+      "page_id": 22,
+      "page_type": "Quick_reference",
+      "source": "Lecture_material/quick_reference.generated.json",
+      "renderer": "Quick_reference_renderer",
+      "content_id": "Batch_2_6f_11_quickref",
+      "title": "Ringkasan cepat: Gangguan Somatoform."
+    },
+    {
+      "page_id": 4,
+      "page_type": "Lecture_detail",
+      "source": "Lecture_material/batch_2_6f_12_legal_etik_jiwa.json",
+      "renderer": "Section_detail_renderer",
+      "content_id": "Batch_2_6f_12",
+      "title": "Isu Etik dan Legal dalam Kesehatan Jiwa."
+    },
+    {
+      "page_id": 22,
+      "page_type": "Quick_reference",
+      "source": "Lecture_material/quick_reference.generated.json",
+      "renderer": "Quick_reference_renderer",
+      "content_id": "Batch_2_6f_12_quickref",
+      "title": "Ringkasan cepat: Isu Etik dan Legal dalam Kesehatan Jiwa."
+    },
+    {
+      "page_id": 4,
+      "page_type": "Lecture_detail",
+      "source": "Lecture_material/batch_2_6f_13_prilaku_profesional_dan_pemeriksaan_psikiatri.json",
+      "renderer": "Section_detail_renderer",
+      "content_id": "Batch_2_6f_13",
+      "title": "Perilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri."
+    },
+    {
+      "page_id": 22,
+      "page_type": "Quick_reference",
+      "source": "Lecture_material/quick_reference.generated.json",
+      "renderer": "Quick_reference_renderer",
+      "content_id": "Batch_2_6f_13_quickref",
+      "title": "Ringkasan cepat: Perilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri."
+    },
+    {
+      "page_id": 4,
+      "page_type": "Lecture_detail",
+      "source": "Lecture_material/batch_2_6f_14_28_4_25_ggn_kepribadian_dan_perilaku_masa_dew.json",
+      "renderer": "Section_detail_renderer",
+      "content_id": "Batch_2_6f_14",
+      "title": "Gangguan Kepribadian dan Perilaku Masa Dewasa."
+    },
+    {
+      "page_id": 22,
+      "page_type": "Quick_reference",
+      "source": "Lecture_material/quick_reference.generated.json",
+      "renderer": "Quick_reference_renderer",
+      "content_id": "Batch_2_6f_14_quickref",
+      "title": "Ringkasan cepat: Gangguan Kepribadian dan Perilaku Masa Dewasa."
+    }
+  ]
+}

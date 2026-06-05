@@ -1,0 +1,28 @@
+{
+  "pages": [
+    {
+      "page_id": "page_exam_batch_2_mcq_6_3_trapezius",
+      "page_type": "original_exam_set_detail",
+      "source": "original_exam_sets/orig_exam_batch_2_mcq_6_3_trapezius.json",
+      "renderer": "exam_set_detail_renderer",
+      "route": "pages/original_exam_sets/batch_2_mcq_6_3_trapezius.html",
+      "title": "MCQ 6.3 TRAPEZIUS"
+    },
+    {
+      "page_id": "page_quiz_batch_2_mcq_6_3_trapezius",
+      "page_type": "quiz_bank",
+      "source": "quiz_bank/batch_2_mcq_6_3_trapezius.quiz_bank.json",
+      "renderer": "quiz_bank_renderer",
+      "route": "pages/quiz_bank/batch_2_mcq_6_3_trapezius.html",
+      "title": "Batch 2 Reinforcement Quiz"
+    },
+    {
+      "page_id": "page_glossary_batch_2_mcq_6_3_trapezius",
+      "page_type": "glossary",
+      "source": "glossary/batch_2_mcq_6_3_trapezius.glossary.json",
+      "renderer": "glossary_renderer",
+      "route": "pages/glossary/batch_2_mcq_6_3_trapezius.html",
+      "title": "Batch 2 Glossary"
+    }
+  ]
+}

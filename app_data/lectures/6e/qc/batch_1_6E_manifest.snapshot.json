@@ -1,0 +1,417 @@
+{
+  "batch_id": "batch_1_6E",
+  "batch_label": "Batch 1 / 6E",
+  "primary_domain": "Neurology",
+  "source_folder": "6E/BAHAN UNTUK AI AGENT.",
+  "source_document_count": 24,
+  "processing_goal": "Create structured content outputs for the CORTEX shell using lecture_material and original_exam_sets domains.",
+  "documents": [
+    {
+      "index": 1,
+      "source_filename": "2. Dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx.",
+      "source_relative_path": "6E/BAHAN UNTUK AI AGENT/2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx.",
+      "document_id": "Batch_1_6e_01",
+      "suggested_domain": "Lecture_material",
+      "secondary_domain_if_questions_detected": "Original_exam_sets",
+      "topic_tags": [
+        "Vertigo",
+        "Neuro-otology"
+      ],
+      "required_outputs": [
+        "Lecture_material entry",
+        "Glossary extraction candidates",
+        "Quiz extraction candidates",
+        "Page mapping recommendations"
+      ]
+    },
+    {
+      "index": 2,
+      "source_filename": "26 dr.Attiya - Gangguan Gerak.docx.",
+      "source_relative_path": "6E/BAHAN UNTUK AI AGENT/26 dr.Attiya - Gangguan Gerak.docx.",
+      "document_id": "Batch_1_6e_02",
+      "suggested_domain": "Lecture_material",
+      "secondary_domain_if_questions_detected": "Original_exam_sets",
+      "topic_tags": [
+        "Movement disorder"
+      ],
+      "required_outputs": [
+        "Lecture_material entry",
+        "Glossary extraction candidates",
+        "Quiz extraction candidates",
+        "Page mapping recommendations"
+      ]
+    },
+    {
+      "index": 3,
+      "source_filename": "6EF Infeksi.docx",
+      "source_relative_path": "6E/BAHAN UNTUK AI AGENT/6EF Infeksi.docx.",
+      "document_id": "Batch_1_6e_03",
+      "suggested_domain": "Lecture_material",
+      "secondary_domain_if_questions_detected": "Original_exam_sets",
+      "topic_tags": [
+        "Infection",
+        "Neuroinfection"
+      ],
+      "required_outputs": [
+        "Lecture_material entry",
+        "Glossary extraction candidates",
+        "Quiz extraction candidates",
+        "Page mapping recommendations"
+      ]
+    },
+    {
+      "index": 4,
+      "source_filename": "CENTRAL NEVROS SYSTEM INFECTION and Inflammation.docx.",
+      "source_relative_path": "6E/BAHAN UNTUK AI AGENT/CENTRAL NEVROS SYSTEM INFECTION and Inflammation.docx.",
+      "document_id": "Batch_1_6e_04",
+      "suggested_domain": "Lecture_material",
+      "secondary_domain_if_questions_detected": "Original_exam_sets",
+      "topic_tags": [
+        "Somatic therapy"
+      ],
+      "required_outputs": [
+        "Lecture_material entry",
+        "Glossary extraction candidates",
+        "Quiz extraction candidates",
+        "Page mapping recommendations"
+      ]
+    },
+    {
+      "index": 5,
+      "source_filename": "CEREBRAL INFARK.docx",
+      "source_relative_path": "6E/BAHAN UNTUK AI AGENT/CEREBRAL INFARK.docx.",
+      "document_id": "Batch_1_6e_05",
+      "suggested_domain": "Lecture_material",
+      "secondary_domain_if_questions_detected": "Original_exam_sets",
+      "topic_tags": [],
+      "required_outputs": [
+        "Lecture_material entry",
+        "Glossary extraction candidates",
+        "Quiz extraction candidates",
+        "Page mapping recommendations"
+      ]
+    },
+    {
+      "index": 6,
+      "source_filename": "KULIAH BANGKITAN koas.docx",
+      "source_relative_path": "6E/BAHAN UNTUK AI AGENT/KULIAH BANGKITAN koas.docx.",
+      "document_id": "Batch_1_6e_06",
+      "suggested_domain": "Lecture_material",
+      "secondary_domain_if_questions_detected": "Original_exam_sets",
+      "topic_tags": [],
+      "required_outputs": [
+        "Lecture_material entry",
+        "Glossary extraction candidates",
+        "Quiz extraction candidates",
+        "Page mapping recommendations"
+      ]
+    },
+    {
+      "index": 7,
+      "source_filename": "Kuliah PA Neurologi.docx",
+      "source_relative_path": "6E/BAHAN UNTUK AI AGENT/Kuliah PA Neurologi.docx.",
+      "document_id": "Batch_1_6e_07",
+      "suggested_domain": "Lecture_material",
+      "secondary_domain_if_questions_detected": "Original_exam_sets",
+      "topic_tags": [],
+      "required_outputs": [
+        "Lecture_material entry",
+        "Glossary extraction candidates",
+        "Quiz extraction candidates",
+        "Page mapping recommendations"
+      ]
+    },
+    {
+      "index": 8,
+      "source_filename": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+      "source_relative_path": "6E/BAHAN UNTUK AI AGENT/MIKROORGANISME PENYEBAB INFEKSI.docx.",
+      "document_id": "Batch_1_6e_08",
+      "suggested_domain": "Lecture_material",
+      "secondary_domain_if_questions_detected": "Original_exam_sets",
+      "topic_tags": [
+        "Infection",
+        "Neuroinfection"
+      ],
+      "required_outputs": [
+        "Lecture_material entry",
+        "Glossary extraction candidates",
+        "Quiz extraction candidates",
+        "Page mapping recommendations"
+      ]
+    },
+    {
+      "index": 9,
+      "source_filename": "Manajemen Pensa dan Koma - Koass.docx.",
+      "source_relative_path": "6E/BAHAN UNTUK AI AGENT/Manajemen Pensa dan Koma - Koass.docx.",
+      "document_id": "Batch_1_6e_09",
+      "suggested_domain": "Lecture_material",
+      "secondary_domain_if_questions_detected": "Original_exam_sets",
+      "topic_tags": [],
+      "required_outputs": [
+        "Lecture_material entry",
+        "Glossary extraction candidates",
+        "Quiz extraction candidates",
+        "Page mapping recommendations"
+      ]
+    },
+    {
+      "index": 10,
+      "source_filename": "NYERI kepala 2.docx",
+      "source_relative_path": "6E/BAHAN UNTUK AI AGENT/NYERI kepala 2.docx.",
+      "document_id": "Batch_1_6e_10",
+      "suggested_domain": "Lecture_material",
+      "secondary_domain_if_questions_detected": "Original_exam_sets",
+      "topic_tags": [
+        "Headache"
+      ],
+      "required_outputs": [
+        "Lecture_material entry",
+        "Glossary extraction candidates",
+        "Quiz extraction candidates",
+        "Page mapping recommendations"
+      ]
+    },
+    {
+      "index": 11,
+      "source_filename": "Neuropaty Materi Ngajar Mei 2025 (1).docx.",
+      "source_relative_path": "6E/BAHAN UNTUK AI AGENT/Neuropaty Materi Ngajar Mei 2025 (1).docx.",
+      "document_id": "Batch_1_6e_11",
+      "suggested_domain": "Lecture_material",
+      "secondary_domain_if_questions_detected": "Original_exam_sets",
+      "topic_tags": [],
+      "required_outputs": [
+        "Lecture_material entry",
+        "Glossary extraction candidates",
+        "Quiz extraction candidates",
+        "Page mapping recommendations"
+      ]
+    },
+    {
+      "index": 12,
+      "source_filename": "PPT Diagnosing Vertigo and Dizziness.docx.",
+      "source_relative_path": "6E/BAHAN UNTUK AI AGENT/PPT Diagnosing Vertigo and Dizziness.docx.",
+      "document_id": "Batch_1_6e_12",
+      "suggested_domain": "Lecture_material",
+      "secondary_domain_if_questions_detected": "Original_exam_sets",
+      "topic_tags": [
+        "Vertigo",
+        "Neuro-otology",
+        "Dizziness"
+      ],
+      "required_outputs": [
+        "Lecture_material entry",
+        "Glossary extraction candidates",
+        "Quiz extraction candidates",
+        "Page mapping recommendations"
+      ]
+    },
+    {
+      "index": 13,
+      "source_filename": "PPT Gangguan Keseimbangan.docx",
+      "source_relative_path": "6E/BAHAN UNTUK AI AGENT/PPT Gangguan Keseimbangan.docx.",
+      "document_id": "Batch_1_6e_13",
+      "suggested_domain": "Lecture_material",
+      "secondary_domain_if_questions_detected": "Original_exam_sets",
+      "topic_tags": [],
+      "required_outputs": [
+        "Lecture_material entry",
+        "Glossary extraction candidates",
+        "Quiz extraction candidates",
+        "Page mapping recommendations"
+      ]
+    },
+    {
+      "index": 14,
+      "source_filename": "Parkinson Disease (Aspek Klinis).docx.",
+      "source_relative_path": "6E/BAHAN UNTUK AI AGENT/Parkinson Disease (Aspek Klinis).docx.",
+      "document_id": "Batch_1_6e_14",
+      "suggested_domain": "Lecture_material",
+      "secondary_domain_if_questions_detected": "Original_exam_sets",
+      "topic_tags": [
+        "Movement disorder",
+        "Parkinsonism"
+      ],
+      "required_outputs": [
+        "Lecture_material entry",
+        "Glossary extraction candidates",
+        "Quiz extraction candidates",
+        "Page mapping recommendations"
+      ]
+    },
+    {
+      "index": 15,
+      "source_filename": "Patofisiologi stroke_gizi.docx",
+      "source_relative_path": "6E/BAHAN UNTUK AI AGENT/Patofisiologi stroke_gizi.docx.",
+      "document_id": "Batch_1_6e_15",
+      "suggested_domain": "Lecture_material",
+      "secondary_domain_if_questions_detected": "Original_exam_sets",
+      "topic_tags": [
+        "Stroke",
+        "Vascular neurology"
+      ],
+      "required_outputs": [
+        "Lecture_material entry",
+        "Glossary extraction candidates",
+        "Quiz extraction candidates",
+        "Page mapping recommendations"
+      ]
+    },
+    {
+      "index": 16,
+      "source_filename": "Pemeriksaan klinis neuro_250523_133200.docx",
+      "source_relative_path": "6E/BAHAN UNTUK AI AGENT/Pemeriksaan klinis neuro_250523_133200.docx.",
+      "document_id": "Batch_1_6e_16",
+      "suggested_domain": "Lecture_material",
+      "secondary_domain_if_questions_detected": "Original_exam_sets",
+      "topic_tags": [],
+      "required_outputs": [
+        "Lecture_material entry",
+        "Glossary extraction candidates",
+        "Quiz extraction candidates",
+        "Page mapping recommendations"
+      ]
+    },
+    {
+      "index": 17,
+      "source_filename": "Radiologi Tumor Cerebri.docx",
+      "source_relative_path": "6E/BAHAN UNTUK AI AGENT/Radiologi Tumor Cerebri.docx.",
+      "document_id": "Batch_1_6e_17",
+      "suggested_domain": "Lecture_material",
+      "secondary_domain_if_questions_detected": "Original_exam_sets",
+      "topic_tags": [
+        "Tumor",
+        "Neuro-oncology",
+        "Radiology"
+      ],
+      "required_outputs": [
+        "Lecture_material entry",
+        "Glossary extraction candidates",
+        "Quiz extraction candidates",
+        "Page mapping recommendations"
+      ]
+    },
+    {
+      "index": 18,
+      "source_filename": "STATUS EPILEPTIKUS koas.docx",
+      "source_relative_path": "6E/BAHAN UNTUK AI AGENT/STATUS EPILEPTIKUS koas.docx.",
+      "document_id": "Batch_1_6e_18",
+      "suggested_domain": "Lecture_material",
+      "secondary_domain_if_questions_detected": "Original_exam_sets",
+      "topic_tags": [
+        "Epilepsy",
+        "Emergency neurology"
+      ],
+      "required_outputs": [
+        "Lecture_material entry",
+        "Glossary extraction candidates",
+        "Quiz extraction candidates",
+        "Page mapping recommendations"
+      ]
+    },
+    {
+      "index": 19,
+      "source_filename": "TUMOR SSP KULIAH.docx",
+      "source_relative_path": "6E/BAHAN UNTUK AI AGENT/TUMOR SSP KULIAH.docx.",
+      "document_id": "Batch_1_6e_19",
+      "suggested_domain": "Lecture_material",
+      "secondary_domain_if_questions_detected": "Original_exam_sets",
+      "topic_tags": [
+        "Tumor",
+        "Neuro-oncology"
+      ],
+      "required_outputs": [
+        "Lecture_material entry",
+        "Glossary extraction candidates",
+        "Quiz extraction candidates",
+        "Page mapping recommendations"
+      ]
+    },
+    {
+      "index": 20,
+      "source_filename": "Trauma Sistim Saraf.docx",
+      "source_relative_path": "6E/BAHAN UNTUK AI AGENT/Trauma Sistim Saraf.docx.",
+      "document_id": "Batch_1_6e_20",
+      "suggested_domain": "Lecture_material",
+      "secondary_domain_if_questions_detected": "Original_exam_sets",
+      "topic_tags": [
+        "Neurotrauma"
+      ],
+      "required_outputs": [
+        "Lecture_material entry",
+        "Glossary extraction candidates",
+        "Quiz extraction candidates",
+        "Page mapping recommendations"
+      ]
+    },
+    {
+      "index": 21,
+      "source_filename": "Tumor Cerebri.docx",
+      "source_relative_path": "6E/BAHAN UNTUK AI AGENT/Tumor Cerebri.docx.",
+      "document_id": "Batch_1_6e_21",
+      "suggested_domain": "Lecture_material",
+      "secondary_domain_if_questions_detected": "Original_exam_sets",
+      "topic_tags": [
+        "Tumor",
+        "Neuro-oncology"
+      ],
+      "required_outputs": [
+        "Lecture_material entry",
+        "Glossary extraction candidates",
+        "Quiz extraction candidates",
+        "Page mapping recommendations"
+      ]
+    },
+    {
+      "index": 22,
+      "source_filename": "Dr.Patrick - neurorehab.docx",
+      "source_relative_path": "6E/BAHAN UNTUK AI AGENT/dr.Patrick - neurorehab.docx.",
+      "document_id": "Batch_1_6e_22",
+      "suggested_domain": "Lecture_material",
+      "secondary_domain_if_questions_detected": "Original_exam_sets",
+      "topic_tags": [
+        "Rehabilitation"
+      ],
+      "required_outputs": [
+        "Lecture_material entry",
+        "Glossary extraction candidates",
+        "Quiz extraction candidates",
+        "Page mapping recommendations"
+      ]
+    },
+    {
+      "index": 23,
+      "source_filename": "Neuroanatomi 2023.docx",
+      "source_relative_path": "6E/BAHAN UNTUK AI AGENT/neuroanatomi 2023.docx.",
+      "document_id": "Batch_1_6e_23",
+      "suggested_domain": "Lecture_material",
+      "secondary_domain_if_questions_detected": "Original_exam_sets",
+      "topic_tags": [
+        "Anatomy"
+      ],
+      "required_outputs": [
+        "Lecture_material entry",
+        "Glossary extraction candidates",
+        "Quiz extraction candidates",
+        "Page mapping recommendations"
+      ]
+    },
+    {
+      "index": 24,
+      "source_filename": "Stroke-dr.Erni Z, SpRad.docx",
+      "source_relative_path": "6E/BAHAN UNTUK AI AGENT/stroke-dr.Erni Z, SpRad.docx.",
+      "document_id": "Batch_1_6e_24",
+      "suggested_domain": "Lecture_material",
+      "secondary_domain_if_questions_detected": "Original_exam_sets",
+      "topic_tags": [
+        "Stroke",
+        "Vascular neurology"
+      ],
+      "required_outputs": [
+        "Lecture_material entry",
+        "Glossary extraction candidates",
+        "Quiz extraction candidates",
+        "Page mapping recommendations"
+      ]
+    }
+  ]
+}

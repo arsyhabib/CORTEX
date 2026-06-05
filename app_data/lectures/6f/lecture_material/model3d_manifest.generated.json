@@ -1,0 +1,82 @@
+{
+  "models": [
+    {
+      "id": "batch_2_6f_04_vestibular_pathway_model",
+      "type": "3d",
+      "domain": "neuro_otology",
+      "title": "Vestibular pathway / central vertigo model",
+      "src": "Assets/models/batch_2_6f/batch_2_6f_04_vestibular_pathway.glb",
+      "ios_src": "Assets/models/batch_2_6f/batch_2_6f_04_vestibular_pathway.usdz",
+      "poster": "Assets/posters/batch_2_6f/batch_2_6f_04_vestibular_pathway.webp",
+      "caption": "3D untuk jalur vestibular sentral; dibuat jika visual anatomi tersedia",
+      "hotspots": [
+        {
+          "id": "brainstem",
+          "label": "Brainstem",
+          "description": "Lokasi penting untuk vertigo sentral."
+        },
+        {
+          "id": "cerebellum",
+          "label": "Cerebellum",
+          "description": "Struktur yang sering dikaitkan dengan vertigo sentral."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_04"
+      ],
+      "lazy": true
+    },
+    {
+      "id": "batch_2_6f_06_toxicology_lab_flow_model",
+      "type": "3d",
+      "domain": "substance_use",
+      "title": "Toxicology laboratory workflow",
+      "src": "Assets/models/batch_2_6f/batch_2_6f_06_tox_workflow.glb",
+      "ios_src": "Assets/models/batch_2_6f/batch_2_6f_06_tox_workflow.usdz",
+      "poster": "Assets/posters/batch_2_6f/batch_2_6f_06_tox_workflow.webp",
+      "caption": "alur pemeriksaan laboratorium NAPZA",
+      "hotspots": [
+        {
+          "id": "sample",
+          "label": "Sample",
+          "description": "Titik pengambilan sampel."
+        },
+        {
+          "id": "screening",
+          "label": "Screening",
+          "description": "Tahap skrining toksikologi."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_06"
+      ],
+      "lazy": true
+    },
+    {
+      "id": "batch_2_6f_07_sleep_cycle_model",
+      "type": "3d",
+      "domain": "psychiatry_sleep",
+      "title": "Sleep cycle / sleep architecture",
+      "src": "Assets/models/batch_2_6f/batch_2_6f_07_sleep_cycle.glb",
+      "ios_src": "Assets/models/batch_2_6f/batch_2_6f_07_sleep_cycle.usdz",
+      "poster": "Assets/posters/batch_2_6f/batch_2_6f_07_sleep_cycle.webp",
+      "caption": "visual interaktif arsitektur tidur",
+      "hotspots": [
+        {
+          "id": "rem",
+          "label": "REM",
+          "description": "Fase tidur REM."
+        },
+        {
+          "id": "non_rem",
+          "label": "NREM",
+          "description": "Fase tidur non-REM."
+        }
+      ],
+      "linked_content_ids": [
+        "batch_2_6f_07"
+      ],
+      "lazy": true
+    }
+  ]
+}

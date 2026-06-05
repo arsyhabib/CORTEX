@@ -1,0 +1,17 @@
+path,bytes
+analysis_notes/coverage_report.md,989
+analysis_notes/deduplication_report.md,930
+analysis_notes/inference_log.md,5462
+analysis_notes/provenance_index.csv,7871
+analysis_notes/source_gaps.md,1425
+content_link_map/content_link_map.generated.json,18382
+course_manifest/course_manifest.generated.json,1585
+glossary/batch4_glossary.generated.json,17801
+original_exam_sets/batch4_soal_mcq_6_3_akt_19_tahun_2022.json,95626
+page_registry/page_registry.generated.json,1122
+qc/content_qc_report.csv,750
+qc/original_exam_set_qc_report.csv,452
+qc/output_file_manifest.csv,671
+qc/repair_summary.md,230
+qc/schema_validation_report.md,261
+quiz_bank/batch4_quiz_bank.generated.json,45975

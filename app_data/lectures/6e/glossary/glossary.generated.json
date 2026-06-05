@@ -1,0 +1,4331 @@
+{
+  "terms": [
+    {
+      "term": "1/3 kasus",
+      "definition": "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+      "source_paragraph_index": 294,
+      "related_content_ids": [
+        "Batch_1_6e_08"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_1_3_kasus"
+    },
+    {
+      "term": "2/3 kasus",
+      "definition": "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+      "source_paragraph_index": 295,
+      "related_content_ids": [
+        "Batch_1_6e_08"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_2_3_kasus"
+    },
+    {
+      "term": "40% populasi",
+      "definition": "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+      "source_paragraph_index": 135,
+      "related_content_ids": [
+        "Batch_1_6e_08"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_40_populasi"
+    },
+    {
+      "term": "> 50% tumor otak.",
+      "definition": "> 50% tumor otak adalah glioma spt: Astrocytoma, GBM, oligodendroglioma dan ependymoma.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "Tumor Cerebri.docx",
+      "source_paragraph_index": 36,
+      "related_content_ids": [
+        "Batch_1_6e_21"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_50_tumor_otak"
+    },
+    {
+      "term": "Astrositoma",
+      "definition": "• Astrositoma merupakan tumor otak yang berasal dari sel astrosit.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "Kuliah PA Neurologi.docx",
+      "source_paragraph_index": 139,
+      "related_content_ids": [
+        "Batch_1_6e_07"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_astrositoma",
+      "source_documents": [
+        "Kuliah PA Neurologi.docx",
+        "TUMOR SSP KULIAH.docx"
+      ]
+    },
+    {
+      "term": "Bangkitan refleks",
+      "definition": "Bangkitan refleks adalah bangkitan yang muncul akibat oleh faktor pencetus sppesifik seperti stimulasi visual, auditorik, somatosensitif dan somatomotor.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "KULIAH BANGKITAN koas.docx",
+      "source_paragraph_index": 73,
+      "related_content_ids": [
+        "Batch_1_6e_06"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_bangkitan_refleks"
+    },
+    {
+      "term": "Bangunan-bangunan intrakranial",
+      "definition": "Bangunan-bangunan intrakranial adalah nyeri, kecuali sensasi yang dihasilkan oleh stimulasi pada parenkhim otak dan saraf.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "NYERI kepala 2.docx",
+      "source_paragraph_index": 213,
+      "related_content_ids": [
+        "Batch_1_6e_10"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_bangunan_bangunan_intrakranial"
+    },
+    {
+      "term": "Bukan",
+      "definition": "Bukan merupakan penyakit tersendiri, tetapi merupakan gejala dari etiologi lain yang terkait sistem vestibuler sentral yang dapat mengenai otak:",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+      "source_paragraph_index": 95,
+      "related_content_ids": [
+        "Batch_1_6e_01"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_bukan"
+    },
+    {
+      "term": "Cerebritis",
+      "definition": "• Cerebritis merupakan stadium awal dari.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+      "source_paragraph_index": 25,
+      "related_content_ids": [
+        "Batch_1_6e_04"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_cerebritis"
+    },
+    {
+      "term": "Dan Pembagian 2.Etiologi Patofisiologi 3.Diagnostik.",
+      "definition": "4.Tatalaksana di IGD",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+      "source_paragraph_index": 20,
+      "related_content_ids": [
+        "Batch_1_6e_09"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_dan_pembagian_2_etiologi_patofisiologi_3_diagnostik"
+    },
+    {
+      "term": "Derajat WHO",
+      "definition": "Derajat WHO merupakan prediktor morfologi yang paling berguna untuk rekurensi.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "Kuliah PA Neurologi.docx",
+      "source_paragraph_index": 306,
+      "related_content_ids": [
+        "Batch_1_6e_07"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_derajat_who"
+    },
+    {
+      "term": "Ependimoma",
+      "definition": "• Ependimoma merupakan tumor yang berasal dari sel ependim.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "Kuliah PA Neurologi.docx",
+      "source_paragraph_index": 214,
+      "related_content_ids": [
+        "Batch_1_6e_07"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_ependimoma",
+      "source_documents": [
+        "Kuliah PA Neurologi.docx",
+        "TUMOR SSP KULIAH.docx"
+      ]
+    },
+    {
+      "term": "Fenomena sensorik dengan gerakan yang khas,.",
+      "definition": "Fenomena sensorik dengan gerakan yang khas, ditandai dorongan atau.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+      "source_paragraph_index": 416,
+      "related_content_ids": [
+        "Batch_1_6e_02"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_fenomena_sensorik_dengan_gerakan_yang_khas"
+    },
+    {
+      "term": "Gangguan gerak",
+      "definition": "⚫ Gangguan gerak adalah gejala neurologi berupa gangguan gerakan yang.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+      "source_paragraph_index": 6,
+      "related_content_ids": [
+        "Batch_1_6e_02"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_gangguan_gerak"
+    },
+    {
+      "term": "Gejala klinis Penyakit Parkinson.",
+      "definition": "Gejala klinis Penyakit Parkinson ditandai dengan TRAP (Tremor, Rigiditas, Akinesia, Ketidakstabilan postur).",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "Parkinson Disease (Aspek Klinis).docx",
+      "source_paragraph_index": 499,
+      "related_content_ids": [
+        "Batch_1_6e_14"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_gejala_klinis_penyakit_parkinson"
+    },
+    {
+      "term": "Gejala klinis utama",
+      "definition": "Gejala klinis utama adalah nyeri kepala.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "NYERI kepala 2.docx",
+      "source_paragraph_index": 239,
+      "related_content_ids": [
+        "Batch_1_6e_10"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_gejala_klinis_utama"
+    },
+    {
+      "term": "Gerak yang dilakukan",
+      "definition": "Gerak yang dilakukan adalah gerak fungsional bertujuan.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 1223,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_gerak_yang_dilakukan"
+    },
+    {
+      "term": "Hipertensi",
+      "definition": "• Hipertensi merupakan faktor resiko terpenting untuk terjadinya stroke.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "stroke-dr.Erni Z, SpRad.docx",
+      "source_paragraph_index": 17,
+      "related_content_ids": [
+        "Batch_1_6e_24"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_hipertensi"
+    },
+    {
+      "term": "Hypertensi",
+      "definition": "• Hypertensi merupakan faktor resiko tertinggi.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "stroke-dr.Erni Z, SpRad.docx",
+      "source_paragraph_index": 180,
+      "related_content_ids": [
+        "Batch_1_6e_24"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_hypertensi"
+    },
+    {
+      "term": "Infark",
+      "definition": "• Infark merupakan hasil dari defisit sirkulasi karena adanya trombosis atau emboli cerebral, bermanifestasi sebagai stroke.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "CEREBRAL INFARK.docx",
+      "source_paragraph_index": 7,
+      "related_content_ids": [
+        "Batch_1_6e_05"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_infark"
+    },
+    {
+      "term": "Kedua hemisfer",
+      "definition": " Kedua hemisfer merupakan bagian terbesar otak.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "neuroanatomi 2023.docx",
+      "source_paragraph_index": 133,
+      "related_content_ids": [
+        "Batch_1_6e_23"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_kedua_hemisfer"
+    },
+    {
+      "term": "Kesadaran",
+      "definition": "Kesadaran adalah: kondisi waspada dengan kesiagaan terus.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+      "source_paragraph_index": 64,
+      "related_content_ids": [
+        "Batch_1_6e_09"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_kesadaran",
+      "source_documents": [
+        "6EF Infeksi.docx",
+        "Manajemen Pensa dan Koma - Koass.docx.",
+        "Manajemen Pensa dan Koma - Koass.docx.",
+        "NYERI kepala 2.docx",
+        "TUMOR SSP KULIAH.docx",
+        "Trauma Sistim Saraf.docx"
+      ]
+    },
+    {
+      "term": "Kombinasi gejala yang sering ditemukan.",
+      "definition": "• Kombinasi gejala yang sering ditemukan adalah peningkatan tekanan intrakranial,.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "Kuliah PA Neurologi.docx",
+      "source_paragraph_index": 163,
+      "related_content_ids": [
+        "Batch_1_6e_07"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_kombinasi_gejala_yang_sering_ditemukan"
+    },
+    {
+      "term": "Lokasi ◻ sella tursica yang.",
+      "definition": "Lokasi ◻ sella tursica yang merupakan bagian dari os sphenoid, dibungkus oleh lipatan dura dan berhubungan dengan hipotalamus melalui infundibulum / tangkai pituitari.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 455,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_lokasi_sella_tursica_yang"
+    },
+    {
+      "term": "Masih tetap",
+      "definition": "Masih tetap merupakan pilihan utama.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "Parkinson Disease (Aspek Klinis).docx",
+      "source_paragraph_index": 466,
+      "related_content_ids": [
+        "Batch_1_6e_14"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_masih_tetap"
+    },
+    {
+      "term": "Mempunyai prognosis yang jelek.  kewajiban seorang dokter.",
+      "definition": "Mempunyai prognosis yang jelek.  kewajiban seorang dokter adalah mengenal keadaan peninggian tekanan intrakranial sebelum adanya tanda herniasi tentorial.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "NYERI kepala 2.docx",
+      "source_paragraph_index": 576,
+      "related_content_ids": [
+        "Batch_1_6e_10"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter"
+    },
+    {
+      "term": "Meningioma ini",
+      "definition": "Meningioma ini adalah salah satu tumor otak yang tumbuh dari membran protektif,.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "Kuliah PA Neurologi.docx",
+      "source_paragraph_index": 252,
+      "related_content_ids": [
+        "Batch_1_6e_07"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_meningioma_ini"
+    },
+    {
+      "term": "NF2",
+      "definition": "• NF2 merupakan gen supresor tumor pada 22Q12, ditemukan tidak aktif pada 40%.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "Kuliah PA Neurologi.docx",
+      "source_paragraph_index": 275,
+      "related_content_ids": [
+        "Batch_1_6e_07"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_nf2"
+    },
+    {
+      "term": "Parkinsonism",
+      "definition": "• Parkinsonism adalah sindroma ditandai dengan tremor istirahat,.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+      "source_paragraph_index": 61,
+      "related_content_ids": [
+        "Batch_1_6e_02"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_parkinsonism",
+      "source_documents": [
+        "26 dr.Attiya - Gangguan Gerak.docx.",
+        "Parkinson Disease (Aspek Klinis).docx."
+      ]
+    },
+    {
+      "term": "Penelitian menemukan meningioma",
+      "definition": "Penelitian menemukan meningioma adalah tumor jinak, dengan pertumbuhan tumor yang.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "Kuliah PA Neurologi.docx",
+      "source_paragraph_index": 254,
+      "related_content_ids": [
+        "Batch_1_6e_07"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_penelitian_menemukan_meningioma"
+    },
+    {
+      "term": "Pengendalian kejang",
+      "definition": "Pengendalian kejang merupakan tatalaksana utama berupa penggunaan OAE.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+      "source_paragraph_index": 153,
+      "related_content_ids": [
+        "Batch_1_6e_01"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_pengendalian_kejang"
+    },
+    {
+      "term": "Penyakit Parkinson",
+      "definition": "• Penyakit Parkinson adalah bagian dari parkinsonism yang ditandai.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+      "source_paragraph_index": 59,
+      "related_content_ids": [
+        "Batch_1_6e_02"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_penyakit_parkinson",
+      "source_documents": [
+        "26 dr.Attiya - Gangguan Gerak.docx.",
+        "Parkinson Disease (Aspek Klinis).docx."
+      ]
+    },
+    {
+      "term": "Pilihan obat",
+      "definition": "Pilihan obat adalah berdasarkan stadium, munculan klinis, usia, profil efek samping obat.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "Parkinson Disease (Aspek Klinis).docx",
+      "source_paragraph_index": 467,
+      "related_content_ids": [
+        "Batch_1_6e_14"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_pilihan_obat"
+    },
+    {
+      "term": "Pleksus khoroideus",
+      "definition": "–pleksus khoroideus adalah tidak peka terhadap nyeri.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "NYERI kepala 2.docx",
+      "source_paragraph_index": 211,
+      "related_content_ids": [
+        "Batch_1_6e_10"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_pleksus_khoroideus"
+    },
+    {
+      "term": "PLMD",
+      "definition": "⚫ PLMD merupakan kram (jerk) tungkai berulang selama tidur,.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+      "source_paragraph_index": 449,
+      "related_content_ids": [
+        "Batch_1_6e_02"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_plmd"
+    },
+    {
+      "term": "Reflek: reflek tendon achilles menurun.",
+      "definition": "Reflek: reflek tendon achilles menurun Merupakan neuropati yang paling banyak.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 367,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_reflek_reflek_tendon_achilles_menurun"
+    },
+    {
+      "term": "Secara patologis",
+      "definition": "Secara patologis ditandai dengan degenerasi neuron berpigmen neuromelamin di pars kompakta substansia Nigra yang disertai adanya Lewi bodies.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "Parkinson Disease (Aspek Klinis).docx",
+      "source_paragraph_index": 67,
+      "related_content_ids": [
+        "Batch_1_6e_14"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_secara_patologis"
+    },
+    {
+      "term": "Sel otak nekrosis dan.",
+      "definition": "• Sel otak nekrosis dan merupakan jaringan mati.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "Kuliah PA Neurologi.docx",
+      "source_paragraph_index": 56,
+      "related_content_ids": [
+        "Batch_1_6e_07"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_sel_otak_nekrosis_dan"
+    },
+    {
+      "term": "Serebellum",
+      "definition": "Serebellum merupakan pusat integrasi kedua juga pusat komparasi informasi yang sedang berlangsung dengan informasi gerakan yang sudah lewat.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "PPT Gangguan Keseimbangan.docx",
+      "source_paragraph_index": 163,
+      "related_content_ids": [
+        "Batch_1_6e_13"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_serebellum"
+    },
+    {
+      "term": "Spasme hemifasial",
+      "definition": "⚫ Spasme hemifasial ialah gangguan gerak wajah yang.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+      "source_paragraph_index": 473,
+      "related_content_ids": [
+        "Batch_1_6e_02"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_spasme_hemifasial"
+    },
+    {
+      "term": "Stroke",
+      "definition": "• Stroke adalah suatu keadaan darurat yang dapat menyebabkan kerusakan saraf yang permanen, komplikasi dan bahkan kematian.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "stroke-dr.Erni Z, SpRad.docx",
+      "source_paragraph_index": 6,
+      "related_content_ids": [
+        "Batch_1_6e_24"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_stroke",
+      "source_documents": [
+        "2. Dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx.",
+        "26 dr.Attiya - Gangguan Gerak.docx.",
+        "CEREBRAL INFARK.docx",
+        "NYERI kepala 2.docx",
+        "PPT Diagnosing Vertigo and Dizziness.docx.",
+        "Patofisiologi stroke_gizi.docx",
+        "Dr.Patrick - neurorehab.docx",
+        "Stroke-dr.Erni Z, SpRad.docx",
+        "Stroke-dr.Erni Z, SpRad.docx"
+      ]
+    },
+    {
+      "term": "Temporal",
+      "definition": "Temporal adalah lokasi yang paling umum.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "Kuliah PA Neurologi.docx",
+      "source_paragraph_index": 192,
+      "related_content_ids": [
+        "Batch_1_6e_07"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_temporal"
+    },
+    {
+      "term": "Terapi rehabilitasi vestibuler",
+      "definition": "Terapi rehabilitasi vestibuler merupakan modalitas yang sangat efektif untuk memperbaiki defisit fungsional dan keluhan subyektif akibat hipofungsi vestibular perifer yang unilateral atau bilateral dan gangguan keseimbangan sentral pada orang dewasa dan anak-anak.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+      "source_paragraph_index": 279,
+      "related_content_ids": [
+        "Batch_1_6e_01"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_terapi_rehabilitasi_vestibuler"
+    },
+    {
+      "term": "Terapi tatalaksana utama tumor CPA.",
+      "definition": "Terapi tatalaksana utama tumor CPA adalah pembedahan. Bisa dilakukan dalam tiga kategori yaitu observasi/konservatif, radioterapi/stereotatic radiosurgery dan bedah mikro.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+      "source_paragraph_index": 137,
+      "related_content_ids": [
+        "Batch_1_6e_01"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_terapi_tatalaksana_utama_tumor_cpa"
+    },
+    {
+      "term": "Tujuannya",
+      "definition": "Tujuannya adalah dekompresi, mere duksi efek massa, penyelamatan jiwa.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 709,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_tujuannya"
+    },
+    {
+      "term": "Tumor otak",
+      "definition": "Tumor otak adalah pertumbuhan jinak atau ganas dari jaringan otak/ selaputnya, yang menyebabkan proses desak ruang, dan menyebabkan perubahan patologis.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 23,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_tumor_otak"
+    },
+    {
+      "term": "Vertigo",
+      "definition": "Vertigo adalah perasaan penderita merasa dirinya atau dunia berputar.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+      "source_paragraph_index": 50,
+      "related_content_ids": [
+        "Batch_1_6e_12"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_vertigo",
+      "source_documents": [
+        "PPT Diagnosing Vertigo and Dizziness.docx.",
+        "PPT Gangguan Keseimbangan.docx"
+      ]
+    },
+    {
+      "term": "Yang",
+      "definition": "• Yang ditandai dengan edema yang tampak berupa gyri yang mendatar, dengan lesi pada bilateral temporal dan frontal tergantung area yang dikenai.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+      "source_paragraph_index": 27,
+      "related_content_ids": [
+        "Batch_1_6e_04"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_yang"
+    },
+    {
+      "term": " Lokasi serangannya",
+      "definition": " Lokasi serangannya adalah unilateral didaerah orbital,.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "NYERI kepala 2.docx",
+      "source_paragraph_index": 280,
+      "related_content_ids": [
+        "Batch_1_6e_10"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_lokasi_serangannya"
+    },
+    {
+      "term": " Tergolong sebagai obat profilaksis anti migren.",
+      "definition": " Tergolong sebagai obat profilaksis anti migren adalah: methiser gide,.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "NYERI kepala 2.docx",
+      "source_paragraph_index": 552,
+      "related_content_ids": [
+        "Batch_1_6e_10"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_tergolong_sebagai_obat_profilaksis_anti_migren"
+    },
+    {
+      "term": " umumnya",
+      "definition": " umumnya merupakan nyeri kepala yang khronik, misalnya migren.",
+      "domain": "neurology",
+      "confidence": "high",
+      "source_document": "NYERI kepala 2.docx",
+      "source_paragraph_index": 496,
+      "related_content_ids": [
+        "Batch_1_6e_10"
+      ],
+      "tags": [
+        "Source_definitional"
+      ],
+      "id": "term_umumnya"
+    },
+    {
+      "term": "-Pronasi Tangan",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: LAeBnDga+nEbxwt.hRo: tasFilex +.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 1017,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_pronasi_tangan"
+    },
+    {
+      "term": "Klinis gejala & tanda dan managemen.",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: Lesi Motor Neuron: ALS.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 21,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_klinis_gejala_tanda_dan_managemen"
+    },
+    {
+      "term": "\"IOI.IJ.'i",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: Diseases of Motor-Sensory Unit:",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 562,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_ioi_ij_i"
+    },
+    {
+      "term": "(DIENCEPHALON)",
+      "definition": "Istilah/topik ini muncul dalam materi neuroanatomi 2023; konteks sumber:  The major sub division of the dienchepalon are the thalamus and.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "neuroanatomi 2023.docx",
+      "source_paragraph_index": 158,
+      "related_content_ids": [
+        "Batch_1_6e_23"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_diencephalon"
+    },
+    {
+      "term": "(Hyperactive tendon reﬂexes and.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: exaggerated response to minimal stimuli.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 605,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_hyperactive_tendon_re_exes_and"
+    },
+    {
+      "term": "(preventif)",
+      "definition": "Istilah/topik ini muncul dalam materi Patofisiologi stroke gizi; konteks sumber: Patofisiologi: Stroke Ischemic.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Patofisiologi stroke_gizi.docx",
+      "source_paragraph_index": 105,
+      "related_content_ids": [
+        "Batch_1_6e_15"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_preventif"
+    },
+    {
+      "term": "(Rehabilitasi Berbasis Masyarakat",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: rehabilitation are available.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 182,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_rehabilitasi_berbasis_masyarakat"
+    },
+    {
+      "term": "(SCI) we extracted information on time from injury.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: to rehabilitation admission, rehabilitation LOS,.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 1293,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_sci_we_extracted_information_on_time_from_injury"
+    },
+    {
+      "term": "(SSP)",
+      "definition": "Istilah/topik ini muncul dalam materi EF Infeksi; konteks sumber: • Otak telah dijelaskan.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "6EF Infeksi.docx",
+      "source_paragraph_index": 40,
+      "related_content_ids": [
+        "Batch_1_6e_03"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_ssp"
+    },
+    {
+      "term": ")TERAPI PEMBEDAHAN",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: Tujuannya adalah dekompresi, mere duksi efek massa, penyelamatan jiwa.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 708,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_terapi_pembedahan"
+    },
+    {
+      "term": "000 tumor otak metastasis.",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: Tumor otak adalah pertumbuhan jinak atau ganas dari jaringan otak/ selaputnya, yang menyebabkan proses desak ruang, dan menyebabkan perubahan patologis.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 20,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_000_tumor_otak_metastasis"
+    },
+    {
+      "term": "1, 2, 3 disebut gejala kardinal.",
+      "definition": "Istilah/topik ini muncul dalam materi Parkinson Disease (Aspek Klinis); konteks sumber: Gejala bisa tunggal atau >1, a/simetris, uni/bilateral.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Parkinson Disease (Aspek Klinis).docx",
+      "source_paragraph_index": 121,
+      "related_content_ids": [
+        "Batch_1_6e_14"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_1_2_3_disebut_gejala_kardinal"
+    },
+    {
+      "term": "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+      "definition": "Istilah/topik ini muncul dalam materi MIKROORGANISME PENYEBAB INFEKSI; konteks sumber: 2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+      "source_paragraph_index": 294,
+      "related_content_ids": [
+        "Batch_1_6e_08"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_1_3_kasus_merupakan_infeksi_primer_hsv_1_usia_18_23thn"
+    },
+    {
+      "term": "20%ꢀtumorꢀprimerꢀotakꢀ",
+      "definition": "Istilah/topik ini muncul dalam materi Radiologi Tumor Cerebri; konteks sumber: • Jinakꢀꢀberbatasꢀtegasꢀ,ꢀberasalꢀdariꢀlapisanꢀ.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Radiologi Tumor Cerebri.docx",
+      "source_paragraph_index": 41,
+      "related_content_ids": [
+        "Batch_1_6e_17"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_20_tumor_primer_otak",
+      "source_documents": [
+        "Radiologi Tumor Cerebri.docx",
+        "Tumor Cerebri.docx"
+      ]
+    },
+    {
+      "term": "3 FUNGSI SISTEM SARAF.",
+      "definition": "Istilah/topik ini muncul dalam materi neuroanatomi 2023; konteks sumber: Membantu mengetahui perubahan-perubahan yang terjadi di sekitar untuk disampaikan ke alat indera. Pada alat indera terdapat saraf sensorik yang befungsi khusus sebagai penginput data.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "neuroanatomi 2023.docx",
+      "source_paragraph_index": 35,
+      "related_content_ids": [
+        "Batch_1_6e_23"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_3_fungsi_sistem_saraf"
+    },
+    {
+      "term": "3 Infeksi Sistem",
+      "definition": "Istilah/topik ini muncul dalam materi EF Infeksi; konteks sumber: Mir na Marhami Iskandar.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "6EF Infeksi.docx",
+      "source_paragraph_index": 0,
+      "related_content_ids": [
+        "Batch_1_6e_03"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_3_infeksi_sistem"
+    },
+    {
+      "term": "3 Kanalis Semisirkularis",
+      "definition": "Istilah/topik ini muncul dalam materi PPT Gangguan Keseimbangan; konteks sumber: Makula Utrikulus/Sakulus ฀ gerak lurus/linier.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "PPT Gangguan Keseimbangan.docx",
+      "source_paragraph_index": 30,
+      "related_content_ids": [
+        "Batch_1_6e_13"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_3_kanalis_semisirkularis"
+    },
+    {
+      "term": "= BENIGN ASTROSITOMA",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: 25-30 % of Astrositomas.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 122,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_benign_astrositoma"
+    },
+    {
+      "term": "= MALIGNANT ASTROSITOMA",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: Incidence: 25-30% of.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 162,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_malignant_astrositoma"
+    },
+    {
+      "term": ">ꢀ50%ꢀtumorꢀotakꢀadalahꢀgliomaꢀꢀsptꢀ: ꢀꢀAstrocytomaꢀ,ꢀ",
+      "definition": "Istilah/topik ini muncul dalam materi Radiologi Tumor Cerebri; konteks sumber: GBMꢀ,ꢀoligodendrogliomaꢀꢀdanꢀependymomaꢀ.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Radiologi Tumor Cerebri.docx",
+      "source_paragraph_index": 29,
+      "related_content_ids": [
+        "Batch_1_6e_17"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_50_tumor_otak_adalah_glioma_spt_astrocytoma"
+    },
+    {
+      "term": "@ Trauma lahir",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: - Pd pres-kep ฀ Traksi Kepala.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 1108,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_trauma_lahir"
+    },
+    {
+      "term": "A A",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: Trauma: Erb / Klumpke.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 407,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_a_a"
+    },
+    {
+      "term": "A given function",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: ◼ As muscle strength increases, resistance.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 554,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_a_given_function"
+    },
+    {
+      "term": "A QUARTER OF PATIENTS WITH INCREASED ICP.",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: NOT SO SEVERE, GENERALLY OCCURS IN THE MORNING: EARLY MORNING HEDACHE.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 70,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_a_quarter_of_patients_with_increased_icp"
+    },
+    {
+      "term": "Abses otak",
+      "definition": "Istilah ini tercantum dalam sumber; konteks dosen: Ter api definit: kultur dari hasil biopsi abses otak atau kultur dari fokus infeksi mis abses odontogenik atau cairan dari OMSK.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "6EF Infeksi.docx",
+      "source_paragraph_index": 393,
+      "related_content_ids": [
+        "Batch_1_6e_03"
+      ],
+      "tags": [
+        "Curated_term_present"
+      ],
+      "id": "term_abses_otak",
+      "source_documents": [
+        "6EF Infeksi.docx",
+        "Kuliah PA Neurologi.docx",
+        "MIKROORGANISME PENYEBAB INFEKSI.docx"
+      ]
+    },
+    {
+      "term": "Acoustic Neuronoma",
+      "definition": "Istilah/topik ini muncul dalam materi Tumor Cerebri; konteks sumber: Berasal dari canalis auditory interna yang dapat menyebabkan pelebaran dan erosi dari canal tersebut.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Tumor Cerebri.docx",
+      "source_paragraph_index": 80,
+      "related_content_ids": [
+        "Batch_1_6e_21"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_acoustic_neuronoma"
+    },
+    {
+      "term": "ACTH",
+      "definition": "Istilah/topik ini muncul dalam materi PPT Diagnosing Vertigo and Dizziness; konteks sumber: Multiple Physiological Responses/Pathology.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+      "source_paragraph_index": 306,
+      "related_content_ids": [
+        "Batch_1_6e_12"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_acth"
+    },
+    {
+      "term": "ACTH: Adreno Corticotropic Hormon.",
+      "definition": "Istilah/topik ini muncul dalam materi PPT Diagnosing Vertigo and Dizziness; konteks sumber: ADR. Cortex: Adrenal Cortex.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+      "source_paragraph_index": 339,
+      "related_content_ids": [
+        "Batch_1_6e_12"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_acth_adreno_corticotropic_hormon"
+    },
+    {
+      "term": "Activates the sacral-lumbar dermatomes by manually tapping.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: the suprapubic area, pulling pubic hairs, or stroking the.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 1019,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_activates_the_sacral_lumbar_dermatomes_by_manually_tapping"
+    },
+    {
+      "term": "Active and passive ROM.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: ◼ Orthoses (spinal corsets,.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 1268,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_active_and_passive_rom"
+    },
+    {
+      "term": "Active assistive exercises",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: Manual resisted exercises.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 451,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_active_assistive_exercises"
+    },
+    {
+      "term": "Active assited",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: ◼ The activities, which are performed.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 507,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_active_assited"
+    },
+    {
+      "term": "Active exercise",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: ◼ Exercises which are performed by the.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 495,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_active_exercise"
+    },
+    {
+      "term": "Active exercise of the pubococcygeus muscle to.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: improve urethral resistance and.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 988,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_active_exercise_of_the_pubococcygeus_muscle_to"
+    },
+    {
+      "term": "Active exercises",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: ◼ Active assistive exercises.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 450,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_active_exercises"
+    },
+    {
+      "term": "Activities of daily living (ADL) are facilitated.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: ◼ Motivate the patient and helps him/her to attain social independence.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 119,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_activities_of_daily_living_adl_are_facilitated"
+    },
+    {
+      "term": "Activity, such as holding the arm or.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: waist during ambulation.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 344,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_activity_such_as_holding_the_arm_or"
+    },
+    {
+      "term": "Acupuncture",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: ◼ Sensory perceptual deficit.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 42,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_acupuncture"
+    },
+    {
+      "term": "ACUT",
+      "definition": "Istilah/topik ini muncul dalam materi stroke-dr.Erni Z, SpRad; konteks sumber: • T2W Hipointens (deoksi Hb).",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "stroke-dr.Erni Z, SpRad.docx",
+      "source_paragraph_index": 138,
+      "related_content_ids": [
+        "Batch_1_6e_24"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_acut"
+    },
+    {
+      "term": "Ada vertigo sentral & perifer.",
+      "definition": "Istilah/topik ini muncul dalam materi PPT Diagnosing Vertigo and Dizziness; konteks sumber: Vertigo sentral lebih sering di orang tua, tidak terlalu parah (sudah ada kompensasi).",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+      "source_paragraph_index": 51,
+      "related_content_ids": [
+        "Batch_1_6e_12"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_ada_vertigo_sentral_perifer"
+    },
+    {
+      "term": "Adenohipofisis ◻ 7 hormon.",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: Growth Hormon (GH) = hormon pertumbuhan = Somatotropin.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 469,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_adenohipofisis_7_hormon"
+    },
+    {
+      "term": "Adrenocorticotropic Hormon (ACTH) = Corticotropin.",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: Follicle Stimulating Hormon (FSH).",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 473,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_adrenocorticotropic_hormon_acth_corticotropin"
+    },
+    {
+      "term": "AFEREN PRIMER",
+      "definition": "Istilah/topik ini muncul dalam materi NYERI kepala 2; konteks sumber: Pengubahan berbagai stimuli oleh reseptor menjadi impuls listrik yang mampu timbulkan pot.aksi.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "NYERI kepala 2.docx",
+      "source_paragraph_index": 89,
+      "related_content_ids": [
+        "Batch_1_6e_10"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_aferen_primer"
+    },
+    {
+      "term": "Affected",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: • Neuromatous or causalgia pain.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 1386,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_affected"
+    },
+    {
+      "term": "Affected and unaffected sides.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: ◼ Movement toward the affected side is encouraged.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 635,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_affected_and_unaffected_sides"
+    },
+    {
+      "term": "Agar penyandang stroke mampu melakukan.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: aktivitas fungsional secara mandiri,.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 1176,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_agar_penyandang_stroke_mampu_melakukan"
+    },
+    {
+      "term": "Age: 5th-7th decades Worse prognosis.",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: Patholgy: Characterized by necrosis and hemorrhage.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 219,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_age_5th_7th_decades_worse_prognosis"
+    },
+    {
+      "term": "AIM",
+      "definition": "Istilah/topik ini muncul dalam materi STATUS EPILEPTIKUS koas; konteks sumber: 1. memahami definisi SE.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "STATUS EPILEPTIKUS koas.docx",
+      "source_paragraph_index": 56,
+      "related_content_ids": [
+        "Batch_1_6e_18"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_aim"
+    },
+    {
+      "term": "Akinesia / Bradikinesia",
+      "definition": "Istilah/topik ini muncul dalam materi Parkinson Disease (Aspek Klinis); konteks sumber: Awalnya hipokinesia □ bradikinesia □ akinesia.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Parkinson Disease (Aspek Klinis).docx",
+      "source_paragraph_index": 209,
+      "related_content_ids": [
+        "Batch_1_6e_14"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_akinesia_bradikinesia"
+    },
+    {
+      "term": "Akut",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: Acute predominant motor neuropathy.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 313,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_akut",
+      "source_documents": [
+        "Neuropaty Materi Ngajar Mei 2025 (1).docx.",
+        "TUMOR SSP KULIAH.docx"
+      ]
+    },
+    {
+      "term": "Akut, Asending Polineuropati Motor > sensoris.",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: Sub Akut Sensori Motor Neuropati.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 107,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_akut_asending_polineuropati_motor_sensoris"
+    },
+    {
+      "term": "Algoritma Penatalaksanaan Penyakit Parkinson.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Attiya - Gangguan Gerak; konteks sumber: Komplikasi Non Motorik.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+      "source_paragraph_index": 111,
+      "related_content_ids": [
+        "Batch_1_6e_02"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_algoritma_penatalaksanaan_penyakit_parkinson",
+      "source_documents": [
+        "26 dr.Attiya - Gangguan Gerak.docx.",
+        "Parkinson Disease (Aspek Klinis).docx."
+      ]
+    },
+    {
+      "term": "Alzheimerꢀdiseaseꢀ",
+      "definition": "Istilah/topik ini muncul dalam materi Radiologi Tumor Cerebri; konteks sumber: • Biasanyaꢀꢀatrophyꢀdiffuseꢀꢀdenganꢀsparingꢀ.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Radiologi Tumor Cerebri.docx",
+      "source_paragraph_index": 128,
+      "related_content_ids": [
+        "Batch_1_6e_17"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_alzheimer_disease",
+      "source_documents": [
+        "Radiologi Tumor Cerebri.docx",
+        "Tumor Cerebri.docx"
+      ]
+    },
+    {
+      "term": "Anamnesis",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Attiya - Gangguan Gerak; konteks sumber: • Pemeriksaan penunjang.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+      "source_paragraph_index": 49,
+      "related_content_ids": [
+        "Batch_1_6e_02"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_anamnesis",
+      "source_documents": [
+        "26 dr.Attiya - Gangguan Gerak.docx.",
+        "TUMOR SSP KULIAH.docx"
+      ]
+    },
+    {
+      "term": "ANAPLASTIC ASTROCYTOMA MALIGNANT ASTROCYTOMA.",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: The cells are pleomorphic, wide variations in the.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 181,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_anaplastic_astrocytoma_malignant_astrocytoma"
+    },
+    {
+      "term": "ANAPLASTIC ASTROSITOMA",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: = MALIGNANT ASTROSITOMA.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 161,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_anaplastic_astrositoma"
+    },
+    {
+      "term": "ANATOMI & FISIOLOGI KESEIMBANGAN.",
+      "definition": "Istilah/topik ini muncul dalam materi PPT Gangguan Keseimbangan; konteks sumber: ORGAN STATUS: LABIRIN VESTIBULER.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "PPT Gangguan Keseimbangan.docx",
+      "source_paragraph_index": 23,
+      "related_content_ids": [
+        "Batch_1_6e_13"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_anatomi_fisiologi_keseimbangan"
+    },
+    {
+      "term": "ANATOMI NYERI",
+      "definition": "Istilah/topik ini muncul dalam materi NYERI kepala 2; konteks sumber: TIGA JENIS SERABUT SARAF.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "NYERI kepala 2.docx",
+      "source_paragraph_index": 80,
+      "related_content_ids": [
+        "Batch_1_6e_10"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_anatomi_nyeri"
+    },
+    {
+      "term": "Anatomi pergelangan tangan",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: Entrapment n. medianus di pergelangan tangan.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 1215,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_anatomi_pergelangan_tangan"
+    },
+    {
+      "term": "Anatomi Saraf Perifer",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: Klasifikasi Neuropati.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 12,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_anatomi_saraf_perifer"
+    },
+    {
+      "term": "Anatomical",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: movements performed by the therapist.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 485,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_anatomical"
+    },
+    {
+      "term": "And function",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: capacity to earn a useful.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 147,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_and_function"
+    },
+    {
+      "term": "And functional independence",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: Authors: Mahmoud H, Qannam H, Zbogar D.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 1280,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_and_functional_independence"
+    },
+    {
+      "term": "Angan",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: TERAPI KELUMPUHAN ERB.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 1029,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_angan"
+    },
+    {
+      "term": "ANGIOGRAPHY OF GLIOBLASTOMA",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: Sefalgia: R/ Analgetika.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 688,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_angiography_of_glioblastoma"
+    },
+    {
+      "term": "ANS: N",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: TERAPI KELUMPUHAN ERB.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 1039,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_ans_n"
+    },
+    {
+      "term": "Anti kolinergik",
+      "definition": "Istilah/topik ini muncul dalam materi PPT Diagnosing Vertigo and Dizziness; konteks sumber: Sulfas Atropin: 0,4 mg/im.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+      "source_paragraph_index": 439,
+      "related_content_ids": [
+        "Batch_1_6e_12"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_anti_kolinergik"
+    },
+    {
+      "term": "Antibiotic therapy, and fecal impaction.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: ◼ Incontinence: altered consciousness,.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 1087,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_antibiotic_therapy_and_fecal_impaction"
+    },
+    {
+      "term": "Any restrictions of position are posted in.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: patient file (paper or electronic site).",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 237,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_any_restrictions_of_position_are_posted_in"
+    },
+    {
+      "term": "Apakah ada diagnosis banding?",
+      "definition": "Istilah/topik ini muncul dalam materi dr. Sri Novianty, Sp.N - How To Treat Central Vertigo; konteks sumber: Diagnosis tegak → atasi etiologi.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+      "source_paragraph_index": 205,
+      "related_content_ids": [
+        "Batch_1_6e_01"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_apakah_ada_diagnosis_banding"
+    },
+    {
+      "term": "Apakah diagnosis kerja sudah diikut pemeriksaan penunjang?",
+      "definition": "Istilah/topik ini muncul dalam materi dr. Sri Novianty, Sp.N - How To Treat Central Vertigo; konteks sumber: Apakah ada diagnosis banding?",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+      "source_paragraph_index": 204,
+      "related_content_ids": [
+        "Batch_1_6e_01"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang"
+    },
+    {
+      "term": "Apakah etiologi infeksinya?",
+      "definition": "Istilah/topik ini muncul dalam materi EF Infeksi; konteks sumber: • Harus langsung di situs infeksi, atau mencapai situs infeksi.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "6EF Infeksi.docx",
+      "source_paragraph_index": 11,
+      "related_content_ids": [
+        "Batch_1_6e_03"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_apakah_etiologi_infeksinya"
+    },
+    {
+      "term": "APkOutLINEUROPA",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: Acute predominant motor neuropathy.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 308,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_apkoutlineuropa"
+    },
+    {
+      "term": "ARAS (Ascending reticular activating system).",
+      "definition": "Istilah/topik ini muncul dalam materi Manajemen Pensa dan Koma - Koass; konteks sumber: Merupakan suatu rangkaian atau network sistem dari serabut- serabut aferen dalam formatio retikularis (dari kaudal berasal dari medula spinalis menuju rostral yaitu diensefalon melalui brain stem).",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+      "source_paragraph_index": 137,
+      "related_content_ids": [
+        "Batch_1_6e_09"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_aras_ascending_reticular_activating_system"
+    },
+    {
+      "term": "ARTERIES OF THE BRAIN.",
+      "definition": "Istilah/topik ini muncul dalam materi neuroanatomi 2023; konteks sumber:  The brain is supplied by the two internal carotid and the two vertebral arteries. The arteries lie within the sub arachoid space, and their branches anastomose on the inferior surface of the brain to form the circle of Willis.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "neuroanatomi 2023.docx",
+      "source_paragraph_index": 333,
+      "related_content_ids": [
+        "Batch_1_6e_23"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_arteries_of_the_brain"
+    },
+    {
+      "term": "ARTERIOGRAFI",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: tampak pembuluh darah di otak sebagai: neovaskularisasi.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 673,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_arteriografi"
+    },
+    {
+      "term": "Aspek Klinis Penyakit Parkinson.",
+      "definition": "Istilah/topik ini muncul dalam materi Parkinson Disease (Aspek Klinis); konteks sumber: POKDI Movement Disorders PERDOSSI.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Parkinson Disease (Aspek Klinis).docx",
+      "source_paragraph_index": 1,
+      "related_content_ids": [
+        "Batch_1_6e_14"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_aspek_klinis_penyakit_parkinson"
+    },
+    {
+      "term": "Astrocytic tumor",
+      "definition": "Istilah/topik ini muncul dalam materi Kuliah PA Neurologi; konteks sumber: • Astrositoma merupakan tumor otak yang berasal dari sel astrosit.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Kuliah PA Neurologi.docx",
+      "source_paragraph_index": 132,
+      "related_content_ids": [
+        "Batch_1_6e_07"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_astrocytic_tumor"
+    },
+    {
+      "term": "Ataksia",
+      "definition": "Istilah ini tercantum dalam sumber; konteks dosen: – Serebelum: ataksia, dismetria, tremor, myoklonik ataksia.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+      "source_paragraph_index": 46,
+      "related_content_ids": [
+        "Batch_1_6e_02"
+      ],
+      "tags": [
+        "Curated_term_present"
+      ],
+      "id": "term_ataksia",
+      "source_documents": [
+        "26 dr.Attiya - Gangguan Gerak.docx.",
+        "PPT Diagnosing Vertigo and Dizziness.docx.",
+        "TUMOR SSP KULIAH.docx"
+      ]
+    },
+    {
+      "term": "Ataksia karena neuropati (misal neuropati DM).",
+      "definition": "Istilah/topik ini muncul dalam materi PPT Diagnosing Vertigo and Dizziness; konteks sumber: Gangguan visus ฀ pertama memakai kacamata.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+      "source_paragraph_index": 73,
+      "related_content_ids": [
+        "Batch_1_6e_12"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_ataksia_karena_neuropati_misal_neuropati_dm"
+    },
+    {
+      "term": "ATAS",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: TERAPI KELUMPUHAN ERB.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 1078,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_atas"
+    },
+    {
+      "term": "ATTIYA ISTARINI",
+      "definition": "Istilah/topik ini muncul dalam materi neuroanatomi 2023; konteks sumber:  Mengetahui anatomi SSP.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "neuroanatomi 2023.docx",
+      "source_paragraph_index": 2,
+      "related_content_ids": [
+        "Batch_1_6e_23"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_attiya_istarini"
+    },
+    {
+      "term": "AXIAL PLANE",
+      "definition": "Istilah/topik ini muncul dalam materi neuroanatomi 2023; konteks sumber: THALAMUS AND HYPOTHALAMUS.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "neuroanatomi 2023.docx",
+      "source_paragraph_index": 148,
+      "related_content_ids": [
+        "Batch_1_6e_23"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_axial_plane"
+    },
+    {
+      "term": "Ballism",
+      "definition": "Istilah ini tercantum dalam sumber; konteks dosen: – Nucleus subtalamikus: ballism.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+      "source_paragraph_index": 42,
+      "related_content_ids": [
+        "Batch_1_6e_02"
+      ],
+      "tags": [
+        "Curated_term_present"
+      ],
+      "id": "term_ballism"
+    },
+    {
+      "term": "BANGKITAN EPILEPSI (epileptic seizure).",
+      "definition": "Istilah/topik ini muncul dalam materi KULIAH BANGKITAN koas; konteks sumber: : terjadinya tanda/gejala yang bersifat sesaat akibat aktivitas neuronal yang abnormal dan berlebihan di otak.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "KULIAH BANGKITAN koas.docx",
+      "source_paragraph_index": 38,
+      "related_content_ids": [
+        "Batch_1_6e_06"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_bangkitan_epilepsi_epileptic_seizure"
+    },
+    {
+      "term": "BANGKITAN EPILEPTIK",
+      "definition": "Istilah/topik ini muncul dalam materi KULIAH BANGKITAN koas; konteks sumber: BANGKITAN EPILEPSI (epileptic seizure).",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "KULIAH BANGKITAN koas.docx",
+      "source_paragraph_index": 5,
+      "related_content_ids": [
+        "Batch_1_6e_06"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_bangkitan_epileptik"
+    },
+    {
+      "term": "Basilaris, tumor CPA",
+      "definition": "Istilah/topik ini muncul dalam materi NYERI kepala 2; konteks sumber:  Serangan nyeri pada wajah unilateral yg bersifat.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "NYERI kepala 2.docx",
+      "source_paragraph_index": 458,
+      "related_content_ids": [
+        "Batch_1_6e_10"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_basilaris_tumor_cpa"
+    },
+    {
+      "term": "Basofilik ◻ ACTH ◻ Cushing’s disease.",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: - Khromofob ◻ aktivitas hormonal (–).",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 486,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_basofilik_acth_cushing_s_disease"
+    },
+    {
+      "term": "Batang Otak",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: gangguan kesadaran & gangguan saraf spinal.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 652,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_batang_otak"
+    },
+    {
+      "term": "Beberapa Diagnosis",
+      "definition": "Istilah/topik ini muncul dalam materi EF Infeksi; konteks sumber: Sesuai dengan epidemiologi terbanyak yang ada di.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "6EF Infeksi.docx",
+      "source_paragraph_index": 120,
+      "related_content_ids": [
+        "Batch_1_6e_03"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_beberapa_diagnosis"
+    },
+    {
+      "term": "Beberapa pilihan untuk penegakan diagnosis.",
+      "definition": "Istilah/topik ini muncul dalam materi EF Infeksi; konteks sumber: 1. Analisis r utin LCS; pemeriksaan tinta india (cepat dan murah).",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "6EF Infeksi.docx",
+      "source_paragraph_index": 339,
+      "related_content_ids": [
+        "Batch_1_6e_03"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_beberapa_pilihan_untuk_penegakan_diagnosis"
+    },
+    {
+      "term": "Beda Vertigo Neurogenik, Otogenik atau Psikogenik.",
+      "definition": "Istilah/topik ini muncul dalam materi PPT Diagnosing Vertigo and Dizziness; konteks sumber: BEDA VERTIGO PSIKOGENIK DAN NEUROGENIK.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+      "source_paragraph_index": 415,
+      "related_content_ids": [
+        "Batch_1_6e_12"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_beda_vertigo_neurogenik_otogenik_atau_psikogenik"
+    },
+    {
+      "term": "BEDA VERTIGO PSIKOGENIK DAN NEUROGENIK.",
+      "definition": "Istilah/topik ini muncul dalam materi PPT Diagnosing Vertigo and Dizziness; konteks sumber: Pengobatan vertigo neurogenik menyangkut:",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+      "source_paragraph_index": 422,
+      "related_content_ids": [
+        "Batch_1_6e_12"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_beda_vertigo_psikogenik_dan_neurogenik"
+    },
+    {
+      "term": "Benigna Paroxysmal Positional Vertigo (BPPV).",
+      "definition": "Istilah/topik ini muncul dalam materi PPT Diagnosing Vertigo and Dizziness; konteks sumber: Setiap gerakan kepala dapat menimbulkan vertigo, lebih enak jika menutup mata atau berada di ruangan yang gelap.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+      "source_paragraph_index": 61,
+      "related_content_ids": [
+        "Batch_1_6e_12"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_benigna_paroxysmal_positional_vertigo_bppv"
+    },
+    {
+      "term": "Berbagai gejala klinik",
+      "definition": "Istilah/topik ini muncul dalam materi Kuliah PA Neurologi; konteks sumber: • Sebagian besar astrositoma terjadi intrakranial, hanya kira – kira 3% kasus ditemukan.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Kuliah PA Neurologi.docx",
+      "source_paragraph_index": 142,
+      "related_content_ids": [
+        "Batch_1_6e_07"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_berbagai_gejala_klinik"
+    },
+    {
+      "term": "Berdasarkan penyebab",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Attiya - Gangguan Gerak; konteks sumber: ⚫ Primer (faktor genetik).",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+      "source_paragraph_index": 420,
+      "related_content_ids": [
+        "Batch_1_6e_02"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_berdasarkan_penyebab"
+    },
+    {
+      "term": "Berdasarkan ukuran",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: Mikroadenoma ◻ Ǿ terbesar ≤ 10 mm.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 488,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_berdasarkan_ukuran"
+    },
+    {
+      "term": "Berhubungan dengan infeksi virus pada nervus vestibularis.",
+      "definition": "Istilah/topik ini muncul dalam materi PPT Gangguan Keseimbangan; konteks sumber: Labirintis terjadi dengan komplek gejala yang sama disertai dengan tinnitus atau penurunan pendengaran.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "PPT Gangguan Keseimbangan.docx",
+      "source_paragraph_index": 218,
+      "related_content_ids": [
+        "Batch_1_6e_13"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_berhubungan_dengan_infeksi_virus_pada_nervus_vestibularis"
+    },
+    {
+      "term": "Berubah menjadi tumor, disebut sebagai ependimoma.",
+      "definition": "Istilah/topik ini muncul dalam materi Kuliah PA Neurologi; konteks sumber: • Apabila tumor ini bersifat agresif, disebut sebagai Ependimoma Anaplastik. Tumor jenis ini.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Kuliah PA Neurologi.docx",
+      "source_paragraph_index": 216,
+      "related_content_ids": [
+        "Batch_1_6e_07"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_berubah_menjadi_tumor_disebut_sebagai_ependimoma"
+    },
+    {
+      "term": "BETAHISTI N",
+      "definition": "Istilah/topik ini muncul dalam materi PPT Diagnosing Vertigo and Dizziness; konteks sumber: □ PERFUSI AREA HIPOAUROSAL.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+      "source_paragraph_index": 497,
+      "related_content_ids": [
+        "Batch_1_6e_12"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_betahisti_n"
+    },
+    {
+      "term": "Bila penanganan baik ฀ tidak ada komplikasi.",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: Keluhan membaik dengan terapi.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 1380,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_bila_penanganan_baik_tidak_ada_komplikasi"
+    },
+    {
+      "term": "Bladder control is an integrated function of.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: the brainstem, spinal, and cerebral level.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 899,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_bladder_control_is_an_integrated_function_of"
+    },
+    {
+      "term": "Blokade reseptor acetylcholine",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: - Myasthenia gravis (antibodi thd Ach reseptor).",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 386,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_blokade_reseptor_acetylcholine"
+    },
+    {
+      "term": "Blood brain barrier (BBB).",
+      "definition": "Istilah/topik ini muncul dalam materi MIKROORGANISME PENYEBAB INFEKSI; konteks sumber: Konsentrasi antibiotik dalam LCS <<< dibanding dalam darah.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+      "source_paragraph_index": 206,
+      "related_content_ids": [
+        "Batch_1_6e_08"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_blood_brain_barrier_bbb"
+    },
+    {
+      "term": "BLOOD SUPPLY OF THE BRAIN.",
+      "definition": "Istilah/topik ini muncul dalam materi neuroanatomi 2023; konteks sumber: ARTERIES OF THE BRAIN.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "neuroanatomi 2023.docx",
+      "source_paragraph_index": 332,
+      "related_content_ids": [
+        "Batch_1_6e_23"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_blood_supply_of_the_brain"
+    },
+    {
+      "term": "Bradikinesia",
+      "definition": "Istilah ini tercantum dalam sumber; konteks dosen: rigiditas, bradikinesia, hilangnya reﬂek postural akibat penurunan.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+      "source_paragraph_index": 62,
+      "related_content_ids": [
+        "Batch_1_6e_02"
+      ],
+      "tags": [
+        "Curated_term_present"
+      ],
+      "id": "term_bradikinesia",
+      "source_documents": [
+        "26 dr.Attiya - Gangguan Gerak.docx.",
+        "Parkinson Disease (Aspek Klinis).docx."
+      ]
+    },
+    {
+      "term": "BRAIN CT SCAN",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: Sejak 1972: Godfrey Hounsfield.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 679,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_brain_ct_scan"
+    },
+    {
+      "term": "BRAIN STEM (Hindbrain)",
+      "definition": "Istilah/topik ini muncul dalam materi neuroanatomi 2023; konteks sumber:  The brain stem consist of the mid brain (mesenchepalon),.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "neuroanatomi 2023.docx",
+      "source_paragraph_index": 201,
+      "related_content_ids": [
+        "Batch_1_6e_23"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_brain_stem_hindbrain"
+    },
+    {
+      "term": "Brain stem infarction or hemorrhage.",
+      "definition": "Istilah/topik ini muncul dalam materi Manajemen Pensa dan Koma - Koass; konteks sumber: Neoplastic: tumor with oedema.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+      "source_paragraph_index": 298,
+      "related_content_ids": [
+        "Batch_1_6e_09"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_brain_stem_infarction_or_hemorrhage"
+    },
+    {
+      "term": "BRAIN TUMOR",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: Penting ◻ tumor/ kanker dianggap peny. tanpa harapan,.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 2,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_brain_tumor"
+    },
+    {
+      "term": "Brainstem",
+      "definition": "Istilah ini tercantum dalam sumber; konteks dosen: the brainstem, spinal, and cerebral level.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 900,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Curated_term_present"
+      ],
+      "id": "term_brainstem",
+      "source_documents": [
+        "Dr.Patrick - neurorehab.docx",
+        "Neuroanatomi 2023.docx"
+      ]
+    },
+    {
+      "term": "Brainstem consists of asenden and desenden tract and.",
+      "definition": "Istilah/topik ini muncul dalam materi neuroanatomi 2023; konteks sumber:  Functional area: ascending reticular activating system.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "neuroanatomi 2023.docx",
+      "source_paragraph_index": 207,
+      "related_content_ids": [
+        "Batch_1_6e_23"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_brainstem_consists_of_asenden_and_desenden_tract_and"
+    },
+    {
+      "term": "Bronchus tumor, payudara dan gastrointersinal.",
+      "definition": "Istilah/topik ini muncul dalam materi Tumor Cerebri; konteks sumber: Dapat berupa kistik, kalsifikasi, perdarahan atau lesi cavitas dengan edema disekitarnya.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Tumor Cerebri.docx",
+      "source_paragraph_index": 144,
+      "related_content_ids": [
+        "Batch_1_6e_21"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_bronchus_tumor_payudara_dan_gastrointersinal"
+    },
+    {
+      "term": "Bronchusꢀtumorꢀ,ꢀpayudaraꢀꢀdanꢀ",
+      "definition": "Istilah/topik ini muncul dalam materi Radiologi Tumor Cerebri; konteks sumber: • Gambaranꢀradiologiꢀ:",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Radiologi Tumor Cerebri.docx",
+      "source_paragraph_index": 93,
+      "related_content_ids": [
+        "Batch_1_6e_17"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_bronchus_tumor_payudara_dan"
+    },
+    {
+      "term": "By stroke, brain injury, and cerebral palsy.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: ◼ Major goal is normalization of muscle tone,.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 621,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_by_stroke_brain_injury_and_cerebral_palsy"
+    },
+    {
+      "term": "Ca, GBS",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: Predominal Demyelinisasi: - DM, GBS, Heriditer.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 234,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_ca_gbs"
+    },
+    {
+      "term": "Cara yaitu",
+      "definition": "Istilah/topik ini muncul dalam materi CENTRAL NEVROS SYSTEM INFECTION and Inflammation; konteks sumber: • Proses Inflamasi meningeal (70-80% kasus).",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+      "source_paragraph_index": 140,
+      "related_content_ids": [
+        "Batch_1_6e_04"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_cara_yaitu"
+    },
+    {
+      "term": "CAROTIS ARTERY",
+      "definition": "Istilah/topik ini muncul dalam materi neuroanatomi 2023; konteks sumber:  The circle of Willis lies in the interpeduncular fossa at th base.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "neuroanatomi 2023.docx",
+      "source_paragraph_index": 355,
+      "related_content_ids": [
+        "Batch_1_6e_23"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_carotis_artery"
+    },
+    {
+      "term": "CARPAL TUNNEL SINDROM",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: 4F F emale: 3 –5 x >.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 1185,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_carpal_tunnel_sindrom"
+    },
+    {
+      "term": "Caused by factors outside the lower urinary.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: tract; this category includes UI.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 935,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_caused_by_factors_outside_the_lower_urinary"
+    },
+    {
+      "term": "Causes",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: • Swelling of the lining of the flexor tendons.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 1342,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_causes"
+    },
+    {
+      "term": "CD IS SELDOM SEEN IN INFANTS.",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: WHEN ICP INCREASE GRADUALLY, THE EDEMA OF THE DISC MAY NOT BE OBSERVED, AND IT WILL BE CONVERTED INTO ATROPHIC STAGE.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 89,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_cd_is_seldom_seen_in_infants"
+    },
+    {
+      "term": "Cellular Aspect of neural Development.",
+      "definition": "Istilah/topik ini muncul dalam materi neuroanatomi 2023; konteks sumber:  Neurons vary in size and complexity.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "neuroanatomi 2023.docx",
+      "source_paragraph_index": 59,
+      "related_content_ids": [
+        "Batch_1_6e_23"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_cellular_aspect_of_neural_development"
+    },
+    {
+      "term": "CENTRAL NERVOUS SYSTEM",
+      "definition": "Istilah/topik ini muncul dalam materi neuroanatomi 2023; konteks sumber: Structural Units & Overall organization.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "neuroanatomi 2023.docx",
+      "source_paragraph_index": 101,
+      "related_content_ids": [
+        "Batch_1_6e_23"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_central_nervous_system"
+    },
+    {
+      "term": "CENTRAL NERVUS SYSTEM INFEKSI DAN INFLAMASI.",
+      "definition": "Istilah/topik ini muncul dalam materi CENTRAL NEVROS SYSTEM INFECTION and Inflammation; konteks sumber: Dr Erni Zainuddin SpRad K-RA.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+      "source_paragraph_index": 0,
+      "related_content_ids": [
+        "Batch_1_6e_04"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_central_nervus_system_infeksi_dan_inflamasi"
+    },
+    {
+      "term": "Central Vertigo",
+      "definition": "Istilah/topik ini muncul dalam materi dr. Sri Novianty, Sp.N - How To Treat Central Vertigo; konteks sumber: dr. Sri Noviyanty Yusuf, Sp.N.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+      "source_paragraph_index": 6,
+      "related_content_ids": [
+        "Batch_1_6e_01"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_central_vertigo"
+    },
+    {
+      "term": "CEREBELARꢀTUMORꢀ",
+      "definition": "Istilah/topik ini muncul dalam materi Radiologi Tumor Cerebri; konteks sumber: • Mayoritasꢀꢀterjadiꢀpadaꢀanak2ꢀꢀdiꢀbawahꢀ tentoriumꢀcerebelliꢀꢀsepertiꢀmeduloblastomaꢀꢀ (tersering)ꢀselanjutnyaꢀependymomaꢀ.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Radiologi Tumor Cerebri.docx",
+      "source_paragraph_index": 78,
+      "related_content_ids": [
+        "Batch_1_6e_17"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_cerebelar_tumor",
+      "source_documents": [
+        "Radiologi Tumor Cerebri.docx",
+        "Tumor Cerebri.docx"
+      ]
+    },
+    {
+      "term": "Cerebellum",
+      "definition": "Istilah ini tercantum dalam sumber; konteks dosen: Cerebellum.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+      "source_paragraph_index": 49,
+      "related_content_ids": [
+        "Batch_1_6e_01"
+      ],
+      "tags": [
+        "Curated_term_present"
+      ],
+      "id": "term_cerebellum",
+      "source_documents": [
+        "2. Dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx.",
+        "PPT Gangguan Keseimbangan.docx",
+        "Radiologi Tumor Cerebri.docx",
+        "TUMOR SSP KULIAH.docx",
+        "Tumor Cerebri.docx",
+        "Neuroanatomi 2023.docx",
+        "Stroke-dr.Erni Z, SpRad.docx"
+      ]
+    },
+    {
+      "term": "CEREBELUM ABN VASC",
+      "definition": "Istilah/topik ini muncul dalam materi PPT Diagnosing Vertigo and Dizziness; konteks sumber: Cochlea tikus percobaan.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+      "source_paragraph_index": 507,
+      "related_content_ids": [
+        "Batch_1_6e_12"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_cerebelum_abn_vasc"
+    },
+    {
+      "term": "Cerebelum Hemiparesis ringan Vertigo, dizziness, nausea, vomiting.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: Tujuan Rehabilitasi Stroke.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 1168,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_cerebelum_hemiparesis_ringan_vertigo_dizziness_nausea_vomiti"
+    },
+    {
+      "term": "Cerebral Aqueduct",
+      "definition": "Istilah/topik ini muncul dalam materi neuroanatomi 2023; konteks sumber:  The lateral ventricles are the largest of the ventricles.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "neuroanatomi 2023.docx",
+      "source_paragraph_index": 393,
+      "related_content_ids": [
+        "Batch_1_6e_23"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_cerebral_aqueduct"
+    },
+    {
+      "term": "Cerebral infarct with oedema and shift.",
+      "definition": "Istilah/topik ini muncul dalam materi Manajemen Pensa dan Koma - Koass; konteks sumber: Brain stem infarction or hemorrhage.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+      "source_paragraph_index": 297,
+      "related_content_ids": [
+        "Batch_1_6e_09"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_cerebral_infarct_with_oedema_and_shift"
+    },
+    {
+      "term": "Cerebral metastase",
+      "definition": "Istilah/topik ini muncul dalam materi Tumor Cerebri; konteks sumber: CT –MRI tak dapat membedakan antar tumor primer –sekunder, tetpi klis dapat membantu menerangkannya.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Tumor Cerebri.docx",
+      "source_paragraph_index": 140,
+      "related_content_ids": [
+        "Batch_1_6e_21"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_cerebral_metastase"
+    },
+    {
+      "term": "CEREBRALꢀATROPHYꢀ",
+      "definition": "Istilah/topik ini muncul dalam materi Radiologi Tumor Cerebri; konteks sumber: • Atrophyꢀcerebriꢀbiasanyaꢀidiophaticꢀ.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Radiologi Tumor Cerebri.docx",
+      "source_paragraph_index": 113,
+      "related_content_ids": [
+        "Batch_1_6e_17"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_cerebral_atrophy",
+      "source_documents": [
+        "Radiologi Tumor Cerebri.docx",
+        "Tumor Cerebri.docx"
+      ]
+    },
+    {
+      "term": "Cerebrum",
+      "definition": "Istilah ini tercantum dalam sumber; konteks dosen:  Cerebrum.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "neuroanatomi 2023.docx",
+      "source_paragraph_index": 9,
+      "related_content_ids": [
+        "Batch_1_6e_23"
+      ],
+      "tags": [
+        "Curated_term_present"
+      ],
+      "id": "term_cerebrum"
+    },
+    {
+      "term": "CEREBRUM (TELENCEPHALON)",
+      "definition": "Istilah/topik ini muncul dalam materi neuroanatomi 2023; konteks sumber:  The telenchepalon includes the cerebral cortex (the most highly.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "neuroanatomi 2023.docx",
+      "source_paragraph_index": 120,
+      "related_content_ids": [
+        "Batch_1_6e_23"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_cerebrum_telencephalon"
+    },
+    {
+      "term": "CERVICAL",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: Parese C8 T1 = Klumpke Palsy.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 934,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_cervical"
+    },
+    {
+      "term": "CEUROPATI",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: Brachial Plexus Palsy.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 90,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_ceuropati"
+    },
+    {
+      "term": "Characteristic",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: Etiologi: Tumor metas.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 852,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_characteristic"
+    },
+    {
+      "term": "CHOKED DISC (CD) N VISUAL DITURBANCE.",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: IF CD IS PRESENT IT IS USUALLY DUE TO A (S O L), SUCH AS BT.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 86,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_choked_disc_cd_n_visual_diturbance"
+    },
+    {
+      "term": "CHOKED DISK",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: A QUARTER OF PATIENTS WITH INCREASED ICP.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 67,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_choked_disk"
+    },
+    {
+      "term": "Chorea",
+      "definition": "Istilah ini tercantum dalam sumber; konteks dosen: – Nucleus kaudatus: chorea.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+      "source_paragraph_index": 43,
+      "related_content_ids": [
+        "Batch_1_6e_02"
+      ],
+      "tags": [
+        "Curated_term_present"
+      ],
+      "id": "term_chorea"
+    },
+    {
+      "term": "Choroid plexus tumor",
+      "definition": "Istilah/topik ini muncul dalam materi Kuliah PA Neurologi; konteks sumber: g. Nonmeningothelial tumor.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Kuliah PA Neurologi.docx",
+      "source_paragraph_index": 121,
+      "related_content_ids": [
+        "Batch_1_6e_07"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_choroid_plexus_tumor"
+    },
+    {
+      "term": "Chusid. JG, Correlative neuroanatomy and functional neurology.",
+      "definition": "Istilah/topik ini muncul dalam materi neuroanatomi 2023; konteks sumber:  Jack de Groot, Neuroanatomy correlative.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "neuroanatomi 2023.docx",
+      "source_paragraph_index": 430,
+      "related_content_ids": [
+        "Batch_1_6e_23"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_chusid_jg_correlative_neuroanatomy_and_functional_neurology"
+    },
+    {
+      "term": "CIRCADIAN RYTHMS",
+      "definition": "Istilah/topik ini muncul dalam materi PPT Diagnosing Vertigo and Dizziness; konteks sumber: STRESS Behavioral Changes.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+      "source_paragraph_index": 278,
+      "related_content_ids": [
+        "Batch_1_6e_12"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_circadian_rythms"
+    },
+    {
+      "term": "Classification of epilepsies",
+      "definition": "Istilah/topik ini muncul dalam materi KULIAH BANGKITAN koas; konteks sumber: Image: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) free to use.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "KULIAH BANGKITAN koas.docx",
+      "source_paragraph_index": 43,
+      "related_content_ids": [
+        "Batch_1_6e_06"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_classification_of_epilepsies"
+    },
+    {
+      "term": "Clavicula Positip",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: •Raba nadi radial ฀ ฀฀ / (-).",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 974,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_clavicula_positip"
+    },
+    {
+      "term": "Clostridium tetani",
+      "definition": "Istilah/topik ini muncul dalam materi MIKROORGANISME PENYEBAB INFEKSI; konteks sumber: gram-positif berspora terminal, anaerob.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+      "source_paragraph_index": 486,
+      "related_content_ids": [
+        "Batch_1_6e_08"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_clostridium_tetani"
+    },
+    {
+      "term": "Clot formation and retraction.",
+      "definition": "Istilah/topik ini muncul dalam materi stroke-dr.Erni Z, SpRad; konteks sumber: • Age, size, hematocrit of hemorrhage.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "stroke-dr.Erni Z, SpRad.docx",
+      "source_paragraph_index": 93,
+      "related_content_ids": [
+        "Batch_1_6e_24"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_clot_formation_and_retraction"
+    },
+    {
+      "term": "CNS",
+      "definition": "Istilah/topik ini muncul dalam materi PPT Diagnosing Vertigo and Dizziness; konteks sumber: CNS: Central Nervous System VOR: Vestibulo Ocular Reflex.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+      "source_paragraph_index": 267,
+      "related_content_ids": [
+        "Batch_1_6e_12"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_cns"
+    },
+    {
+      "term": "Common objects so that the patient can point.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: to the picture when unable to say the word.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 789,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_common_objects_so_that_the_patient_can_point"
+    },
+    {
+      "term": "Completed stroke",
+      "definition": "Istilah/topik ini muncul dalam materi Patofisiologi stroke gizi; konteks sumber: Berdasarkan sistem pembuluh darah.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Patofisiologi stroke_gizi.docx",
+      "source_paragraph_index": 71,
+      "related_content_ids": [
+        "Batch_1_6e_15"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_completed_stroke"
+    },
+    {
+      "term": "Contact guard: provision of verbal cues and.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: minimal physical support during the.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 342,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_contact_guard_provision_of_verbal_cues_and"
+    },
+    {
+      "term": "Contoh: STROKE",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: Impairments Functional Disability Quality of Life.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 90,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_contoh_stroke"
+    },
+    {
+      "term": "Contracted to a count of 10 and then.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: relaxed to a count of 10.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 996,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_contracted_to_a_count_of_10_and_then"
+    },
+    {
+      "term": "Contracted voluntarily can be stimulated.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: electrically to help alleviate or prevent.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 692,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_contracted_voluntarily_can_be_stimulated"
+    },
+    {
+      "term": "Contraction of the ﬁngers, elbow, and.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: ◼ Near normal, slight incoordination.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 613,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_contraction_of_the_ngers_elbow_and"
+    },
+    {
+      "term": "Contracture",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: ◼ Ankylosis(stiffness and rigidty of joints).",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "dr.Patrick - neurorehab.docx",
+      "source_paragraph_index": 220,
+      "related_content_ids": [
+        "Batch_1_6e_22"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_contracture"
+    },
+    {
+      "term": "COSTO CLAVICULA SINDROMA",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: Nyeri / Parestesi / Hipestesi Letak Tak bervariasi.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 978,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_costo_clavicula_sindroma"
+    },
+    {
+      "term": "CRF",
+      "definition": "Istilah/topik ini muncul dalam materi PPT Diagnosing Vertigo and Dizziness; konteks sumber: Multiple Physiological Responses/Pathology.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+      "source_paragraph_index": 303,
+      "related_content_ids": [
+        "Batch_1_6e_12"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_crf"
+    },
+    {
+      "term": "CRF: Corticotropin Releasing Factor.",
+      "definition": "Istilah/topik ini muncul dalam materi PPT Diagnosing Vertigo and Dizziness; konteks sumber: ACTH: Adreno Corticotropic Hormon.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+      "source_paragraph_index": 338,
+      "related_content_ids": [
+        "Batch_1_6e_12"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_crf_corticotropin_releasing_factor"
+    },
+    {
+      "term": "Cryptococcus neoformans",
+      "definition": "Istilah/topik ini muncul dalam materi MIKROORGANISME PENYEBAB INFEKSI; konteks sumber: 2 var: var. neoformans (Serotype A and D) dan var. gatti (Serotype B and C).",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+      "source_paragraph_index": 470,
+      "related_content_ids": [
+        "Batch_1_6e_08"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_cryptococcus_neoformans"
+    },
+    {
+      "term": "CSS",
+      "definition": "Istilah/topik ini muncul dalam materi PPT Diagnosing Vertigo and Dizziness; konteks sumber: Multiple Physiological Responses/Pathology.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+      "source_paragraph_index": 301,
+      "related_content_ids": [
+        "Batch_1_6e_12"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_css"
+    },
+    {
+      "term": "CT dan MRI TB CNS.",
+      "definition": "Istilah/topik ini muncul dalam materi CENTRAL NEVROS SYSTEM INFECTION and Inflammation; konteks sumber: Multiple rings enhacemetnt T2 W.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+      "source_paragraph_index": 150,
+      "related_content_ids": [
+        "Batch_1_6e_04"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_ct_dan_mri_tb_cns"
+    },
+    {
+      "term": "CT S",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: tergangPgaurese: - Flexor.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 1198,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_ct_s"
+    },
+    {
+      "term": "Ct scan",
+      "definition": "Istilah ini tercantum dalam sumber; konteks dosen: • Kelainan vaskuler dengan CT Scan atau MRI.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+      "source_paragraph_index": 263,
+      "related_content_ids": [
+        "Batch_1_6e_02"
+      ],
+      "tags": [
+        "Curated_term_present"
+      ],
+      "id": "term_ct_scan",
+      "source_documents": [
+        "26 dr.Attiya - Gangguan Gerak.docx.",
+        "6EF Infeksi.docx",
+        "CENTRAL NEVROS SYSTEM INFECTION and Inflammation.docx.",
+        "CEREBRAL INFARK.docx",
+        "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "NYERI kepala 2.docx",
+        "Neuropaty Materi Ngajar Mei 2025 (1).docx.",
+        "Patofisiologi stroke_gizi.docx",
+        "Radiologi Tumor Cerebri.docx",
+        "TUMOR SSP KULIAH.docx",
+        "Tumor Cerebri.docx",
+        "Stroke-dr.Erni Z, SpRad.docx"
+      ]
+    },
+    {
+      "term": "CT scan: Lesi Hyperdens.",
+      "definition": "Istilah/topik ini muncul dalam materi CEREBRAL INFARK; konteks sumber: MRI: Lesi hyper intens dengan edema peri lesi (T2).",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "CEREBRAL INFARK.docx",
+      "source_paragraph_index": 47,
+      "related_content_ids": [
+        "Batch_1_6e_05"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_ct_scan_lesi_hyperdens"
+    },
+    {
+      "term": "CT scan dan MRI Otak.",
+      "definition": "Istilah/topik ini muncul dalam materi EF Infeksi; konteks sumber: • Eksudat di basal otak.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "6EF Infeksi.docx",
+      "source_paragraph_index": 249,
+      "related_content_ids": [
+        "Batch_1_6e_03"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_ct_scan_dan_mri_otak"
+    },
+    {
+      "term": "CT Scan Kepala Stroke Hemoragik.",
+      "definition": "Istilah/topik ini muncul dalam materi Patofisiologi stroke gizi; konteks sumber: akut terletak pada jaringan otak (hematom Intra serebral) akan tampak sebagai lesi hiperdens oval atau bulat.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Patofisiologi stroke_gizi.docx",
+      "source_paragraph_index": 174,
+      "related_content_ids": [
+        "Batch_1_6e_15"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_ct_scan_kepala_stroke_hemoragik"
+    },
+    {
+      "term": "CT SCAN – PA TUMOR.",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: MRI - PA TUMOR HIPOFISE.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 492,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_ct_scan_pa_tumor"
+    },
+    {
+      "term": "CTZ",
+      "definition": "Istilah/topik ini muncul dalam materi PPT Diagnosing Vertigo and Dizziness; konteks sumber: Stabilization of visual field.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+      "source_paragraph_index": 175,
+      "related_content_ids": [
+        "Batch_1_6e_12"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_ctz"
+    },
+    {
+      "term": "CTꢀatauꢀMRIꢀ",
+      "definition": "Istilah/topik ini muncul dalam materi Radiologi Tumor Cerebri; konteks sumber: • Mayoritasꢀꢀterjadiꢀpadaꢀanak2ꢀꢀdiꢀbawahꢀ tentoriumꢀcerebelliꢀꢀsepertiꢀmeduloblastomaꢀꢀ (tersering)ꢀselanjutnyaꢀependymomaꢀ.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Radiologi Tumor Cerebri.docx",
+      "source_paragraph_index": 69,
+      "related_content_ids": [
+        "Batch_1_6e_17"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_ct_atau_mri",
+      "source_documents": [
+        "Radiologi Tumor Cerebri.docx",
+        "Tumor Cerebri.docx"
+      ]
+    },
+    {
+      "term": "Current Diagnostic Procedures for.",
+      "definition": "Istilah/topik ini muncul dalam materi PPT Diagnosing Vertigo and Dizziness; konteks sumber: Diagnosing Vertigo and Dizziness.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+      "source_paragraph_index": 12,
+      "related_content_ids": [
+        "Batch_1_6e_12"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_current_diagnostic_procedures_for"
+    },
+    {
+      "term": "Cyptococcoma",
+      "definition": "Istilah/topik ini muncul dalam materi Kuliah PA Neurologi; konteks sumber: Etiologi Aspergillus, Candida, Histoplasma.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Kuliah PA Neurologi.docx",
+      "source_paragraph_index": 99,
+      "related_content_ids": [
+        "Batch_1_6e_07"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_cyptococcoma"
+    },
+    {
+      "term": "D/eficit VitB.",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: AsBim1.Be1tr2is. Alkoholik.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 142,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_d_eficit_vitb"
+    },
+    {
+      "term": "Daerah Pre Sentralis: kejang dan hemiparesis.",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: Lobus Parietalis: gangg. sensibilitas, asteriognosia (tak.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 638,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_daerah_pre_sentralis_kejang_dan_hemiparesis"
+    },
+    {
+      "term": "Dalam keadaan normal",
+      "definition": "Istilah/topik ini muncul dalam materi Parkinson Disease (Aspek Klinis); konteks sumber: Tubuh melakukan koreksi postur secara cepat dan otomatis sebagai penyesuaian thd perubahan posisi tubuh dengan rfx postur dan rfx righting □ keseimbangan terjaga.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Parkinson Disease (Aspek Klinis).docx",
+      "source_paragraph_index": 253,
+      "related_content_ids": [
+        "Batch_1_6e_14"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_dalam_keadaan_normal"
+    },
+    {
+      "term": "Dan kejang",
+      "definition": "Istilah/topik ini muncul dalam materi MIKROORGANISME PENYEBAB INFEKSI; konteks sumber: PENCEGAHAN DAN TERAPI.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+      "source_paragraph_index": 396,
+      "related_content_ids": [
+        "Batch_1_6e_08"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_dan_kejang"
+    },
+    {
+      "term": "Dan nyeri kepala tegang.",
+      "definition": "Istilah/topik ini muncul dalam materi NYERI kepala 2; konteks sumber:  pengobatan meliputi: pendidikan, menejemen psikologik,.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "NYERI kepala 2.docx",
+      "source_paragraph_index": 497,
+      "related_content_ids": [
+        "Batch_1_6e_10"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_dan_nyeri_kepala_tegang"
+    },
+    {
+      "term": "Dapat melakukan tatalaksana SE.",
+      "definition": "Istilah/topik ini muncul dalam materi STATUS EPILEPTIKUS koas; konteks sumber: 4. menentukan prognosis SE.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "STATUS EPILEPTIKUS koas.docx",
+      "source_paragraph_index": 59,
+      "related_content_ids": [
+        "Batch_1_6e_18"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_dapat_melakukan_tatalaksana_se"
+    },
+    {
+      "term": "Dapat mendiagnosis SE",
+      "definition": "Istilah/topik ini muncul dalam materi STATUS EPILEPTIKUS koas; konteks sumber: 3. dapat melakukan tatalaksana SE.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "STATUS EPILEPTIKUS koas.docx",
+      "source_paragraph_index": 58,
+      "related_content_ids": [
+        "Batch_1_6e_18"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_dapat_mendiagnosis_se"
+    },
+    {
+      "term": "Dapat menjadi lesi yang disebut Demyelinating pseudotumor.",
+      "definition": "Istilah/topik ini muncul dalam materi Kuliah PA Neurologi; konteks sumber: • Abses otak / Cerebal Abscess.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Kuliah PA Neurologi.docx",
+      "source_paragraph_index": 84,
+      "related_content_ids": [
+        "Batch_1_6e_07"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_dapat_menjadi_lesi_yang_disebut_demyelinating_pseudotumor"
+    },
+    {
+      "term": "DD/",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: Oclusi a. spinalis anterior.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 829,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_dd"
+    },
+    {
+      "term": "DEFINISI",
+      "definition": "Istilah/topik ini muncul dalam materi NYERI kepala 2; konteks sumber: Nyeri timbul oleh berbagai stimuli yg.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "NYERI kepala 2.docx",
+      "source_paragraph_index": 35,
+      "related_content_ids": [
+        "Batch_1_6e_10"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_definisi",
+      "source_documents": [
+        "NYERI kepala 2.docx",
+        "PPT Diagnosing Vertigo and Dizziness.docx.",
+        "Parkinson Disease (Aspek Klinis).docx.",
+        "TUMOR SSP KULIAH.docx"
+      ]
+    },
+    {
+      "term": "DEFINISI NYERI",
+      "definition": "Istilah/topik ini muncul dalam materi NYERI kepala 2; konteks sumber: International Association for Study of Pain (IASP).",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "NYERI kepala 2.docx",
+      "source_paragraph_index": 7,
+      "related_content_ids": [
+        "Batch_1_6e_10"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_definisi_nyeri"
+    },
+    {
+      "term": "Definisi Parkinsonism",
+      "definition": "Istilah/topik ini muncul dalam materi Parkinson Disease (Aspek Klinis); konteks sumber: Klasifikasi Parkinsonism.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Parkinson Disease (Aspek Klinis).docx",
+      "source_paragraph_index": 11,
+      "related_content_ids": [
+        "Batch_1_6e_14"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_definisi_parkinsonism"
+    },
+    {
+      "term": "DEFINISI&PEMBAGIAN",
+      "definition": "Istilah/topik ini muncul dalam materi Manajemen Pensa dan Koma - Koass; konteks sumber: Kesadaran adalah: kondisi waspada dengan kesiagaan terus.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+      "source_paragraph_index": 56,
+      "related_content_ids": [
+        "Batch_1_6e_09"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_definisi_pembagian"
+    },
+    {
+      "term": "Defisit motorik",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: Asimetrik, arefleks paraplegi.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 935,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_defisit_motorik"
+    },
+    {
+      "term": "Degenerasi neuron 1 dekade sebelum gejala kardinal muncul.",
+      "definition": "Istilah/topik ini muncul dalam materi Parkinson Disease (Aspek Klinis); konteks sumber: Lelah, letih, gangguan kepribadian sebelum muncul gejala motorik.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Parkinson Disease (Aspek Klinis).docx",
+      "source_paragraph_index": 105,
+      "related_content_ids": [
+        "Batch_1_6e_14"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_degenerasi_neuron_1_dekade_sebelum_gejala_kardinal_muncul"
+    },
+    {
+      "term": "Degeneration Substantia Nigra pars compacta deficit.",
+      "definition": "Istilah/topik ini muncul dalam materi neuroanatomi 2023; konteks sumber: dopamin Parkinson’s Disease.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "neuroanatomi 2023.docx",
+      "source_paragraph_index": 229,
+      "related_content_ids": [
+        "Batch_1_6e_23"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_degeneration_substantia_nigra_pars_compacta_deficit"
+    },
+    {
+      "term": "Demam, tidak ting gi (bacterial, TB) atau mendadak.",
+      "definition": "Istilah/topik ini muncul dalam materi EF Infeksi; konteks sumber: • Onset: akut (viral, bacterial), subakut sampai kronis.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "6EF Infeksi.docx",
+      "source_paragraph_index": 28,
+      "related_content_ids": [
+        "Batch_1_6e_03"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_demam_tidak_ting_gi_bacterial_tb_atau_mendadak"
+    },
+    {
+      "term": "Dengan",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Attiya - Gangguan Gerak; konteks sumber: a. Gangguan pada lebih dari satu domain kognitif.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+      "source_paragraph_index": 166,
+      "related_content_ids": [
+        "Batch_1_6e_02"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_dengan"
+    },
+    {
+      "term": "Dengan infeksi difus?",
+      "definition": "Istilah/topik ini muncul dalam materi EF Infeksi; konteks sumber: • Dibantu, bukan ditegakkan, diagnosisnya dengan pemeriksaan penunjang.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "6EF Infeksi.docx",
+      "source_paragraph_index": 72,
+      "related_content_ids": [
+        "Batch_1_6e_03"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_dengan_infeksi_difus"
+    },
+    {
+      "term": "Derajat herniasi",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: HERNIA NUKLEI PULPOSUS (HNP).",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 892,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_derajat_herniasi"
+    },
+    {
+      "term": "Derajat kesadaran berdasarkan Skala Koma Glasgow.",
+      "definition": "Istilah/topik ini muncul dalam materi Trauma Sistim Saraf; konteks sumber: Mekanisme trauma kepala.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Trauma Sistim Saraf.docx",
+      "source_paragraph_index": 52,
+      "related_content_ids": [
+        "Batch_1_6e_20"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+    },
+    {
+      "term": "DERAJAT TRAUMA SARAF PERIFER.",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: Neuromuscular junction Myasthenia gravis Lambert- Eaton syndrome Botulism.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 452,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_derajat_trauma_saraf_perifer"
+    },
+    {
+      "term": "DERMATOM",
+      "definition": "Istilah/topik ini muncul dalam materi neuroanatomi 2023; konteks sumber: BLOOD SUPPLY OF THE BRAIN.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "neuroanatomi 2023.docx",
+      "source_paragraph_index": 327,
+      "related_content_ids": [
+        "Batch_1_6e_23"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_dermatom"
+    },
+    {
+      "term": "Deskripsi tremor meliputi aspek.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Attiya - Gangguan Gerak; konteks sumber: – Lokasi tremor(kepala, dagu, rahang, pita suara, ekstremitas, dll).",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+      "source_paragraph_index": 322,
+      "related_content_ids": [
+        "Batch_1_6e_02"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_deskripsi_tremor_meliputi_aspek"
+    },
+    {
+      "term": "DETEKSI",
+      "definition": "Istilah/topik ini muncul dalam materi PPT Diagnosing Vertigo and Dizziness; konteks sumber: KUANTITATIF PERFUSI ABNORMAL DI OTAK.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+      "source_paragraph_index": 484,
+      "related_content_ids": [
+        "Batch_1_6e_12"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_deteksi"
+    },
+    {
+      "term": "Deﬁnite: kombinasi tiga gejala utama.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Attiya - Gangguan Gerak; konteks sumber: Perjalanan Penyakit menurut Stadium (Hoen and Yahr).",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+      "source_paragraph_index": 73,
+      "related_content_ids": [
+        "Batch_1_6e_02"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_de_nite_kombinasi_tiga_gejala_utama"
+    },
+    {
+      "term": "Di manakah infeksinya?",
+      "definition": "Istilah/topik ini muncul dalam materi EF Infeksi; konteks sumber: • Apakah etiologi infeksinya?",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "6EF Infeksi.docx",
+      "source_paragraph_index": 10,
+      "related_content_ids": [
+        "Batch_1_6e_03"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_di_manakah_infeksinya"
+    },
+    {
+      "term": "Di medulla spinalis",
+      "definition": "Istilah/topik ini muncul dalam materi EF Infeksi; konteks sumber: • Bisa mencakup sebagian atau semua: motorik, sensorik, dan.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "6EF Infeksi.docx",
+      "source_paragraph_index": 60,
+      "related_content_ids": [
+        "Batch_1_6e_03"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_di_medulla_spinalis"
+    },
+    {
+      "term": "Di otak",
+      "definition": "Istilah/topik ini muncul dalam materi EF Infeksi; konteks sumber: • Dapat dilokalisir sesuai defisit yang muncul melalui anamnesis dan.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "6EF Infeksi.docx",
+      "source_paragraph_index": 66,
+      "related_content_ids": [
+        "Batch_1_6e_03"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_di_otak"
+    },
+    {
+      "term": "Di USA, 1998 tumor otak primer 34.000.",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: 170.000 tumor otak metastasis.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 19,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_di_usa_1998_tumor_otak_primer_34_000"
+    },
+    {
+      "term": "Diagnosis",
+      "definition": "Istilah/topik ini muncul dalam materi Parkinson Disease (Aspek Klinis); konteks sumber: Kriteria Klinis Hughes.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Parkinson Disease (Aspek Klinis).docx",
+      "source_paragraph_index": 350,
+      "related_content_ids": [
+        "Batch_1_6e_14"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_diagnosa"
+    },
+    {
+      "term": "Diagnosis Banding",
+      "definition": "Istilah/topik ini muncul dalam materi Parkinson Disease (Aspek Klinis); konteks sumber: Hipertiroid, ansietas, kelelahan, alkoholism, obat2an, kelaian serebelar, familial (esensial tremor).",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Parkinson Disease (Aspek Klinis).docx",
+      "source_paragraph_index": 359,
+      "related_content_ids": [
+        "Batch_1_6e_14"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_diagnosa_banding"
+    },
+    {
+      "term": "DIAGNOSA HNP",
+      "definition": "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: Ischialgia/sciatica: nyeri pinggang bawah, menjalar ke paha atau sp tungkai bawah/kaki (tergantung.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+      "source_paragraph_index": 861,
+      "related_content_ids": [
+        "Batch_1_6e_11"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_diagnosa_hnp"
+    },
+    {
+      "term": "Diagnosing Vertigo and Dizziness.",
+      "definition": "Istilah/topik ini muncul dalam materi PPT Diagnosing Vertigo and Dizziness; konteks sumber: JOGJA-CLAN 2024 | YOGYAKARTA, NOVEMBER 8–10TH, 2024.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+      "source_paragraph_index": 13,
+      "related_content_ids": [
+        "Batch_1_6e_12"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_diagnosing_vertigo_and_dizziness"
+    },
+    {
+      "term": "Diagnosis",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Attiya - Gangguan Gerak; konteks sumber: • Pemeriksaan penunjang.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+      "source_paragraph_index": 48,
+      "related_content_ids": [
+        "Batch_1_6e_02"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_diagnosis",
+      "source_documents": [
+        "26 dr.Attiya - Gangguan Gerak.docx.",
+        "6EF Infeksi.docx",
+        "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "NYERI kepala 2.docx"
+      ]
+    },
+    {
+      "term": "Diagnosis: CT scan, MRI.",
+      "definition": "Istilah/topik ini muncul dalam materi MIKROORGANISME PENYEBAB INFEKSI; konteks sumber: Terapi: Antibiotik dan supportif (antikonvulsan).",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+      "source_paragraph_index": 439,
+      "related_content_ids": [
+        "Batch_1_6e_08"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_diagnosis_ct_scan_mri"
+    },
+    {
+      "term": "Diagnosis Banding",
+      "definition": "Istilah/topik ini muncul dalam materi NYERI kepala 2; konteks sumber: NYERI KEPALA TIPE TEGANG.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "NYERI kepala 2.docx",
+      "source_paragraph_index": 405,
+      "related_content_ids": [
+        "Batch_1_6e_10"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_diagnosis_banding"
+    },
+    {
+      "term": "Diagnosis dini atau terlambat.",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: Pengaruh pembedahan /.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 749,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_diagnosis_dini_atau_terlambat"
+    },
+    {
+      "term": "Diagnosis kadang-kadang sulit, namun dengan pemeriksaan klinis yang.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Attiya - Gangguan Gerak; konteks sumber: teliti dapat terdiagnosis.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+      "source_paragraph_index": 14,
+      "related_content_ids": [
+        "Batch_1_6e_02"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_diagnosis_kadang_kadang_sulit_namun_dengan_pemeriksaan_klini"
+    },
+    {
+      "term": "Diagnosis Meningitis TB",
+      "definition": "Istilah/topik ini muncul dalam materi EF Infeksi; konteks sumber: • Gejala klinis tidak spesifik.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "6EF Infeksi.docx",
+      "source_paragraph_index": 218,
+      "related_content_ids": [
+        "Batch_1_6e_03"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_diagnosis_meningitis_tb"
+    },
+    {
+      "term": "Diagnosis METB",
+      "definition": "Istilah/topik ini muncul dalam materi EF Infeksi; konteks sumber: Bila PCR TB, GeneXpert, MGI T, BTA LCS posi ti f.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "6EF Infeksi.docx",
+      "source_paragraph_index": 261,
+      "related_content_ids": [
+        "Batch_1_6e_03"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_diagnosis_metb"
+    },
+    {
+      "term": "Diagnosis Mikrobiologi",
+      "definition": "Istilah/topik ini muncul dalam materi MIKROORGANISME PENYEBAB INFEKSI; konteks sumber: Infeksi SSP dan SST jarang, tetapi seringkali fatal (kematian.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+      "source_paragraph_index": 22,
+      "related_content_ids": [
+        "Batch_1_6e_08"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_diagnosis_mikrobiologi"
+    },
+    {
+      "term": "Diagnosis mikrobiologi meningitis bakterial akut.",
+      "definition": "Istilah/topik ini muncul dalam materi MIKROORGANISME PENYEBAB INFEKSI; konteks sumber: Material: LCS (utama), darah, scrapping lesi purulent (jika curiga meningococcus).",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+      "source_paragraph_index": 186,
+      "related_content_ids": [
+        "Batch_1_6e_08"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_diagnosis_mikrobiologi_meningitis_bakterial_akut"
+    },
+    {
+      "term": "Diagnosis molekular belum menjadi standar.",
+      "definition": "Istilah/topik ini muncul dalam materi EF Infeksi; konteks sumber: • Penegakan diagnosis TB diluar SSP juga sulit dan.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "6EF Infeksi.docx",
+      "source_paragraph_index": 222,
+      "related_content_ids": [
+        "Batch_1_6e_03"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_diagnosis_molekular_belum_menjadi_standar"
+    },
+    {
+      "term": "Diagnosis tegak → atasi etiologi.",
+      "definition": "Istilah/topik ini muncul dalam materi dr. Sri Novianty, Sp.N - How To Treat Central Vertigo; konteks sumber: Tatalaksana stroke akut.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+      "source_paragraph_index": 206,
+      "related_content_ids": [
+        "Batch_1_6e_01"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_diagnosis_tegak_atasi_etiologi"
+    },
+    {
+      "term": "DIAGNOSIS TUMOR OTAK (1).",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: Keluhan yang sifatnya kronis- progresif.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 540,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_diagnosis_tumor_otak_1"
+    },
+    {
+      "term": "DIAGNOSIS TUMOR OTAK (2).",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: Sefalgia: berdenyut, terasa pagi hari, meningkat bila mengejan, batuk atau angkat berat.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 620,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_diagnosis_tumor_otak_2"
+    },
+    {
+      "term": "DIAGNOSIS TUMOR OTAK (3).",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: INGAT SINDROM FOKAL/ LOKALISATORIK:",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 632,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_diagnosis_tumor_otak_3"
+    },
+    {
+      "term": "DIAGNOSIS TUMOR OTAK (4).",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: sefalgia, gangguan medan penglihatan, agnosia visual.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 644,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_diagnosis_tumor_otak_4"
+    },
+    {
+      "term": "DIAGNOSIS TUMOR OTAK (5).",
+      "definition": "Istilah/topik ini muncul dalam materi TUMOR SSP KULIAH; konteks sumber: INGAT TANDA2 LOKALISATORIK YG MENYESATKAN:",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "TUMOR SSP KULIAH.docx",
+      "source_paragraph_index": 656,
+      "related_content_ids": [
+        "Batch_1_6e_19"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_diagnosis_tumor_otak_5"
+    },
+    {
+      "term": "DIAGNOSIS VERTIGO ANAMNESIS",
+      "definition": "Istilah/topik ini muncul dalam materi PPT Diagnosing Vertigo and Dizziness; konteks sumber: SERANGAN AKUT LABIRINTITIS.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+      "source_paragraph_index": 342,
+      "related_content_ids": [
+        "Batch_1_6e_12"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_diagnosis_vertigo_anamnesis"
+    },
+    {
+      "term": "Diagnosis “presumptive” → diterapi sesuai.",
+      "definition": "Istilah/topik ini muncul dalam materi EF Infeksi; konteks sumber: Treating Opportunistic Infections Among HIV-Infected Adults and Adolescents. Recommendations from CDC, NIH, & the HIV Medicine Association/Infectious Diseases Society of America.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "6EF Infeksi.docx",
+      "source_paragraph_index": 148,
+      "related_content_ids": [
+        "Batch_1_6e_03"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_diagnosis_presumptive_diterapi_sesuai"
+    },
+    {
+      "term": "Dibagi menjadi",
+      "definition": "Istilah/topik ini muncul dalam materi Kuliah PA Neurologi; konteks sumber: 1. Kelainan system saraf pusat / Central Nervous System.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "Kuliah PA Neurologi.docx",
+      "source_paragraph_index": 9,
+      "related_content_ids": [
+        "Batch_1_6e_07"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_dibagi_menjadi"
+    },
+    {
+      "term": "Dibagi menjadi 2 kategori utama, yaitu.",
+      "definition": "Istilah/topik ini muncul dalam materi dr.Attiya - Gangguan Gerak; konteks sumber: • Gambaran klilnis sangat komplek, bervariasi, kadang-kadang aneh.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+      "source_paragraph_index": 10,
+      "related_content_ids": [
+        "Batch_1_6e_02"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_dibagi_menjadi_2_kategori_utama_yaitu"
+    },
+    {
+      "term": "Dibandingkan infarction",
+      "definition": "Istilah/topik ini muncul dalam materi CENTRAL NEVROS SYSTEM INFECTION and Inflammation; konteks sumber: – Perhatikan T2 shine through terjadi karena vasogenic.",
+      "domain": "neurology",
+      "confidence": "medium",
+      "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+      "source_paragraph_index": 91,
+      "related_content_ids": [
+        "Batch_1_6e_04"
+      ],
+      "tags": [
+        "Heading_context"
+      ],
+      "id": "term_dibandingkan_infarction"
+    }
+  ],
+  "batch_id": "batch_1_6E",
+  "domain": "neurology",
+  "generation_notes": "Definitions are source-contextual; high confidence terms come from definitional sentences, medium terms from headings/context presence."
+}

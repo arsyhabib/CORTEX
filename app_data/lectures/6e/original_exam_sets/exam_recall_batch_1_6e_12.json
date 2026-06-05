@@ -1,0 +1,125 @@
+{
+  "id": "exam_recall_batch_1_6e_12",
+  "title": "Question-like recall prompts: PPT Diagnosing Vertigo and Dizziness.",
+  "block": "5e",
+  "year": 0,
+  "year_label": "not stated in source; extracted from Batch 1/6E lecturer material",
+  "source_label": "PPT Diagnosing Vertigo and Dizziness.docx.",
+  "page_route": "pages/exam_sets/exam_recall_batch_1_6e_12.html",
+  "question_count": 4,
+  "reconstruction_level": "Reconstructed",
+  "questions": [
+    {
+      "id": "exam_recall_batch_1_6e_12_q01",
+      "number": 1,
+      "stem": "Hydrocephalus obstruktif pada dewasa, bisa menyebabkan herniasi melalui foramen (occipitale?) magnum?",
+      "stem_original": "Hydrocephalus obstruktif pada dewasa, bisa menyebabkan herniasi melalui foramen (occipitale?) magnum.",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah 'PPT Diagnosing Vertigo and Dizziness.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 77",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_12"
+      ],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "source_paragraph_index": 77,
+        "style": "List Paragraph"
+      }
+    },
+    {
+      "id": "exam_recall_batch_1_6e_12_q02",
+      "number": 2,
+      "stem": "Lakukan secara bertahap, amati apakah pasien kesulitan menjaga keseimbangan?",
+      "stem_original": "Lakukan secara bertahap, amati apakah pasien kesulitan menjaga keseimbangan.",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah 'PPT Diagnosing Vertigo and Dizziness.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 386",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_12"
+      ],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "source_paragraph_index": 386,
+        "style": "List Paragraph"
+      }
+    },
+    {
+      "id": "exam_recall_batch_1_6e_12_q03",
+      "number": 3,
+      "stem": "Hipotensi ortostatik ฀ minta pasien berdiri lama (atau secara mendadak?)?",
+      "stem_original": "Hipotensi ortostatik ฀ minta pasien berdiri lama (atau secara mendadak?).",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah 'PPT Diagnosing Vertigo and Dizziness.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 392",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_12"
+      ],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "source_paragraph_index": 392,
+        "style": "List Paragraph"
+      }
+    },
+    {
+      "id": "exam_recall_batch_1_6e_12_q04",
+      "number": 4,
+      "stem": "Yang menarik adl gelombang IV dan V sering bercampur bersama menjadi apa yang disebut kompleks IV-V.",
+      "stem_original": "Yang menarik adl gelombang IV dan V sering bercampur bersama menjadi apa yang disebut kompleks IV-V.",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah 'PPT Diagnosing Vertigo and Dizziness.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 405",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_12"
+      ],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "source_paragraph_index": 405,
+        "style": "List Paragraph"
+      }
+    }
+  ],
+  "provenance": {
+    "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+    "detection_method": "Question mark/interrogative phrase detection; not a validated original exam set."
+  }
+}

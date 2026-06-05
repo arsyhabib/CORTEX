@@ -1,0 +1,179 @@
+{
+  "results": [
+    {
+      "file": "Lecture_material/batch_1_6e_01.json",
+      "schema": "Lecture_material",
+      "status": "Pass"
+    },
+    {
+      "file": "Lecture_material/batch_1_6e_02.json",
+      "schema": "Lecture_material",
+      "status": "Pass"
+    },
+    {
+      "file": "Lecture_material/batch_1_6e_03.json",
+      "schema": "Lecture_material",
+      "status": "Pass"
+    },
+    {
+      "file": "Lecture_material/batch_1_6e_04.json",
+      "schema": "Lecture_material",
+      "status": "Pass"
+    },
+    {
+      "file": "Lecture_material/batch_1_6e_05.json",
+      "schema": "Lecture_material",
+      "status": "Pass"
+    },
+    {
+      "file": "Lecture_material/batch_1_6e_06.json",
+      "schema": "Lecture_material",
+      "status": "Pass"
+    },
+    {
+      "file": "Lecture_material/batch_1_6e_07.json",
+      "schema": "Lecture_material",
+      "status": "Pass"
+    },
+    {
+      "file": "Lecture_material/batch_1_6e_08.json",
+      "schema": "Lecture_material",
+      "status": "Pass"
+    },
+    {
+      "file": "Lecture_material/batch_1_6e_09.json",
+      "schema": "Lecture_material",
+      "status": "Pass"
+    },
+    {
+      "file": "Lecture_material/batch_1_6e_10.json",
+      "schema": "Lecture_material",
+      "status": "Pass"
+    },
+    {
+      "file": "Lecture_material/batch_1_6e_11.json",
+      "schema": "Lecture_material",
+      "status": "Pass"
+    },
+    {
+      "file": "Lecture_material/batch_1_6e_12.json",
+      "schema": "Lecture_material",
+      "status": "Pass"
+    },
+    {
+      "file": "Lecture_material/batch_1_6e_13.json",
+      "schema": "Lecture_material",
+      "status": "Pass"
+    },
+    {
+      "file": "Lecture_material/batch_1_6e_14.json",
+      "schema": "Lecture_material",
+      "status": "Pass"
+    },
+    {
+      "file": "Lecture_material/batch_1_6e_15.json",
+      "schema": "Lecture_material",
+      "status": "Pass"
+    },
+    {
+      "file": "Lecture_material/batch_1_6e_16.json",
+      "schema": "Lecture_material",
+      "status": "Pass"
+    },
+    {
+      "file": "Lecture_material/batch_1_6e_17.json",
+      "schema": "Lecture_material",
+      "status": "Pass"
+    },
+    {
+      "file": "Lecture_material/batch_1_6e_18.json",
+      "schema": "Lecture_material",
+      "status": "Pass"
+    },
+    {
+      "file": "Lecture_material/batch_1_6e_19.json",
+      "schema": "Lecture_material",
+      "status": "Pass"
+    },
+    {
+      "file": "Lecture_material/batch_1_6e_20.json",
+      "schema": "Lecture_material",
+      "status": "Pass"
+    },
+    {
+      "file": "Lecture_material/batch_1_6e_21.json",
+      "schema": "Lecture_material",
+      "status": "Pass"
+    },
+    {
+      "file": "Lecture_material/batch_1_6e_22.json",
+      "schema": "Lecture_material",
+      "status": "Pass"
+    },
+    {
+      "file": "Lecture_material/batch_1_6e_23.json",
+      "schema": "Lecture_material",
+      "status": "Pass"
+    },
+    {
+      "file": "Lecture_material/batch_1_6e_24.json",
+      "schema": "Lecture_material",
+      "status": "Pass"
+    },
+    {
+      "file": "Glossary/glossary.generated.json",
+      "schema": "Glossary",
+      "status": "Pass"
+    },
+    {
+      "file": "Quiz_bank/quiz_bank.generated.json",
+      "schema": "Quiz_bank",
+      "status": "Pass"
+    },
+    {
+      "file": "Content_link_map/content_link_map.generated.json",
+      "schema": "Content_link_map",
+      "status": "Pass"
+    },
+    {
+      "file": "Page_registry/visual_asset_manifest.generated.json",
+      "schema": "Visual_asset_manifest",
+      "status": "Pass"
+    },
+    {
+      "file": "Original_exam_sets/exam_recall_batch_1_6e_01.json",
+      "schema": "Original_exam_set",
+      "status": "Pass"
+    },
+    {
+      "file": "Original_exam_sets/exam_recall_batch_1_6e_03.json",
+      "schema": "Original_exam_set",
+      "status": "Pass"
+    },
+    {
+      "file": "Original_exam_sets/exam_recall_batch_1_6e_11.json",
+      "schema": "Original_exam_set",
+      "status": "Pass"
+    },
+    {
+      "file": "Original_exam_sets/exam_recall_batch_1_6e_12.json",
+      "schema": "Original_exam_set",
+      "status": "Pass"
+    },
+    {
+      "file": "Original_exam_sets/exam_recall_batch_1_6e_13.json",
+      "schema": "Original_exam_set",
+      "status": "Pass"
+    },
+    {
+      "file": "Original_exam_sets/exam_recall_batch_1_6e_14.json",
+      "schema": "Original_exam_set",
+      "status": "Pass"
+    },
+    {
+      "file": "Original_exam_sets/exam_recall_batch_1_6e_22.json",
+      "schema": "Original_exam_set",
+      "status": "Pass"
+    }
+  ]
+}

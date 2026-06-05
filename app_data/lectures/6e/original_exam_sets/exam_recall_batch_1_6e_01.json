@@ -1,0 +1,152 @@
+{
+  "id": "exam_recall_batch_1_6e_01",
+  "title": "Question-like recall prompts: dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.",
+  "block": "5e",
+  "year": 0,
+  "year_label": "not stated in source; extracted from Batch 1/6E lecturer material",
+  "source_label": "2. Dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx.",
+  "page_route": "pages/exam_sets/exam_recall_batch_1_6e_01.html",
+  "question_count": 5,
+  "reconstruction_level": "Reconstructed",
+  "questions": [
+    {
+      "id": "exam_recall_batch_1_6e_01_q01",
+      "number": 1,
+      "stem": "Apa gambaran klinis vertigo sentral?",
+      "stem_original": "Klinis: vertigo sentral?",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah '2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 203",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_01"
+      ],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "source_paragraph_index": 203,
+        "style": "List Paragraph"
+      }
+    },
+    {
+      "id": "exam_recall_batch_1_6e_01_q02",
+      "number": 2,
+      "stem": "Apakah diagnosis kerja sudah diikut pemeriksaan penunjang?",
+      "stem_original": "Apakah diagnosis kerja sudah diikut pemeriksaan penunjang?",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah '2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 204",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_01"
+      ],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "source_paragraph_index": 204,
+        "style": "List Paragraph"
+      }
+    },
+    {
+      "id": "exam_recall_batch_1_6e_01_q03",
+      "number": 3,
+      "stem": "Apakah ada diagnosis banding?",
+      "stem_original": "Apakah ada diagnosis banding?",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah '2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 205",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_01"
+      ],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "source_paragraph_index": 205,
+        "style": "List Paragraph"
+      }
+    },
+    {
+      "id": "exam_recall_batch_1_6e_01_q04",
+      "number": 4,
+      "stem": "Rehidrasi: infus? NGT?",
+      "stem_original": "Rehidrasi: infus? NGT?",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah '2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 235",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_01"
+      ],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "source_paragraph_index": 235,
+        "style": "List Paragraph"
+      }
+    },
+    {
+      "id": "exam_recall_batch_1_6e_01_q05",
+      "number": 5,
+      "stem": "Dibutuhkan fasilitas untuk penegakan diagnosis dan pemberian tatalaksana untuk etiologi. Contoh: curiga disebabkan stroke. Butuh CT- scan kepala nonkontras? Butuh SpN?",
+      "stem_original": "Dibutuhkan fasilitas untuk penegakan diagnosis dan pemberian tatalaksana untuk etiologi. Contoh: curiga disebabkan stroke. Butuh CT- scan kepala nonkontras? Butuh SpN?",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah '2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 251",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_01"
+      ],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "source_paragraph_index": 251,
+        "style": "List Paragraph"
+      }
+    }
+  ],
+  "provenance": {
+    "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+    "detection_method": "Question mark/interrogative phrase detection; not a validated original exam set."
+  }
+}

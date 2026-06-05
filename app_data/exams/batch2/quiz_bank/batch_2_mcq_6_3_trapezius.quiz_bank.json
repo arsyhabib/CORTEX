@@ -1,0 +1,309 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_batch_2_mcq_6_3_trapezius_01",
+      "domain": "batch_2_question_reinforcement",
+      "linked_content_id": "orig_exam_batch_2_mcq_6_3_trapezius_q06",
+      "question": "Jenis amnesia pada pasien yang tidak dapat mengingat aktivitas setelah trauma kepala adalah...",
+      "options": [
+        "Retrograde",
+        "Anterograde",
+        "Amnesia global transien",
+        "Delirium"
+      ],
+      "answer_index": 1,
+      "explanation": "Amnesia anterograde mengganggu pembentukan/penyimpanan memori baru setelah kejadian.",
+      "difficulty": "basic_to_intermediate",
+      "source_policy": "Generated reinforcement item based on reconstructed original exam answer."
+    },
+    {
+      "id": "quiz_batch_2_mcq_6_3_trapezius_02",
+      "domain": "batch_2_question_reinforcement",
+      "linked_content_id": "orig_exam_batch_2_mcq_6_3_trapezius_q08",
+      "question": "LCS kuning kental/xantokrom pada konteks infeksi SSP dalam sumber diarahkan ke diagnosis...",
+      "options": [
+        "Meningitis TB",
+        "Ensefalitis herpes",
+        "Stroke iskemik",
+        "Migren vestibular"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban sumber adalah meningitis TB.",
+      "difficulty": "basic_to_intermediate",
+      "source_policy": "Generated reinforcement item based on reconstructed original exam answer."
+    },
+    {
+      "id": "quiz_batch_2_mcq_6_3_trapezius_03",
+      "domain": "batch_2_question_reinforcement",
+      "linked_content_id": "orig_exam_batch_2_mcq_6_3_trapezius_q10",
+      "question": "Kejang lama/berulang tanpa pemulihan kesadaran pada anak paling sesuai dengan...",
+      "options": [
+        "Absence seizure",
+        "Status epileptikus",
+        "Sinkop",
+        "Tremor esensial"
+      ],
+      "answer_index": 1,
+      "explanation": "Kejang berkepanjangan atau berulang tanpa pulih kesadaran adalah status epileptikus.",
+      "difficulty": "basic_to_intermediate",
+      "source_policy": "Generated reinforcement item based on reconstructed original exam answer."
+    },
+    {
+      "id": "quiz_batch_2_mcq_6_3_trapezius_04",
+      "domain": "batch_2_question_reinforcement",
+      "linked_content_id": "orig_exam_batch_2_mcq_6_3_trapezius_q15",
+      "question": "Obat yang ditandai sebagai terapi tremor aksi adalah...",
+      "options": [
+        "Propranolol",
+        "Trihexyphenidyl",
+        "Pramipexole",
+        "Rivastigmine"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban sumber: propranolol.",
+      "difficulty": "basic_to_intermediate",
+      "source_policy": "Generated reinforcement item based on reconstructed original exam answer."
+    },
+    {
+      "id": "quiz_batch_2_mcq_6_3_trapezius_05",
+      "domain": "batch_2_question_reinforcement",
+      "linked_content_id": "orig_exam_batch_2_mcq_6_3_trapezius_q16",
+      "question": "Sentakan mendadak pada kedua ekstremitas hingga benda di tangan jatuh paling sesuai dengan...",
+      "options": [
+        "Myoklonus",
+        "Absence seizure",
+        "Kejang tonik-klonik",
+        "Kejang parsial kompleks"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban sumber: myoklonus.",
+      "difficulty": "basic_to_intermediate",
+      "source_policy": "Generated reinforcement item based on reconstructed original exam answer."
+    },
+    {
+      "id": "quiz_batch_2_mcq_6_3_trapezius_06",
+      "domain": "batch_2_question_reinforcement",
+      "linked_content_id": "orig_exam_batch_2_mcq_6_3_trapezius_q18",
+      "question": "Pada stem ptosis dengan opsi yang tersedia, pernyataan benar yang ditandai sumber adalah...",
+      "options": [
+        "Lakukan pemeriksaan kalium",
+        "Pasien menderita Miller Fisher syndrome",
+        "Kurangi konsumsi karbohidrat",
+        "Diagnosis delirium"
+      ],
+      "answer_index": 1,
+      "explanation": "Jawaban sumber: Miller Fisher syndrome.",
+      "difficulty": "basic_to_intermediate",
+      "source_policy": "Generated reinforcement item based on reconstructed original exam answer."
+    },
+    {
+      "id": "quiz_batch_2_mcq_6_3_trapezius_07",
+      "domain": "batch_2_question_reinforcement",
+      "linked_content_id": "orig_exam_batch_2_mcq_6_3_trapezius_q20",
+      "question": "Tumor otak yang menjadi pengecualian dari intra-axial adalah...",
+      "options": [
+        "Meningioma",
+        "Astrositoma",
+        "Glioblastoma",
+        "Oligodendroglioma"
+      ],
+      "answer_index": 0,
+      "explanation": "Meningioma umumnya ekstra-aksial.",
+      "difficulty": "basic_to_intermediate",
+      "source_policy": "Generated reinforcement item based on reconstructed original exam answer."
+    },
+    {
+      "id": "quiz_batch_2_mcq_6_3_trapezius_08",
+      "domain": "batch_2_question_reinforcement",
+      "linked_content_id": "orig_exam_batch_2_mcq_6_3_trapezius_q23",
+      "question": "Diagnosis banding utama demensia yang ditandai sumber adalah...",
+      "options": [
+        "Delirium",
+        "Meningitis TB",
+        "BPPV",
+        "Gangguan konversi"
+      ],
+      "answer_index": 0,
+      "explanation": "Delirium dapat menyerupai demensia tetapi umumnya akut dan fluktuatif.",
+      "difficulty": "basic_to_intermediate",
+      "source_policy": "Generated reinforcement item based on reconstructed original exam answer."
+    },
+    {
+      "id": "quiz_batch_2_mcq_6_3_trapezius_09",
+      "domain": "batch_2_question_reinforcement",
+      "linked_content_id": "orig_exam_batch_2_mcq_6_3_trapezius_q26",
+      "question": "Antidepresan yang berkaitan dengan cheese reaction adalah...",
+      "options": [
+        "SSRI",
+        "MAOI",
+        "TCA",
+        "SNRI"
+      ],
+      "answer_index": 1,
+      "explanation": "MAOI dapat berinteraksi dengan tiramin.",
+      "difficulty": "basic_to_intermediate",
+      "source_policy": "Generated reinforcement item based on reconstructed original exam answer."
+    },
+    {
+      "id": "quiz_batch_2_mcq_6_3_trapezius_10",
+      "domain": "batch_2_question_reinforcement",
+      "linked_content_id": "orig_exam_batch_2_mcq_6_3_trapezius_q30",
+      "question": "Contoh gangguan jalan pikiran pada sumber adalah...",
+      "options": [
+        "Flight of ideas",
+        "Afasia Broca",
+        "Ataksia",
+        "Anhedonia"
+      ],
+      "answer_index": 0,
+      "explanation": "Flight of ideas adalah alur pikir meloncat cepat.",
+      "difficulty": "basic_to_intermediate",
+      "source_policy": "Generated reinforcement item based on reconstructed original exam answer."
+    },
+    {
+      "id": "quiz_batch_2_mcq_6_3_trapezius_11",
+      "domain": "batch_2_question_reinforcement",
+      "linked_content_id": "orig_exam_batch_2_mcq_6_3_trapezius_q37",
+      "question": "Takut dan sesak saat berada di kamar mandi tertutup rapat paling sesuai dengan...",
+      "options": [
+        "Claustrophobia",
+        "Agoraphobia",
+        "Delirium",
+        "Gangguan bipolar"
+      ],
+      "answer_index": 0,
+      "explanation": "Sumber menandai gangguan fobia/claustrophobia.",
+      "difficulty": "basic_to_intermediate",
+      "source_policy": "Generated reinforcement item based on reconstructed original exam answer."
+    },
+    {
+      "id": "quiz_batch_2_mcq_6_3_trapezius_12",
+      "domain": "batch_2_question_reinforcement",
+      "linked_content_id": "orig_exam_batch_2_mcq_6_3_trapezius_q38",
+      "question": "Penggunaan game berlebihan disertai berbohong tentang durasi bermain mengarah ke...",
+      "options": [
+        "Internet gaming disorder",
+        "OCD",
+        "Sundowning",
+        "BPPV"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban sumber: internet gaming disorder.",
+      "difficulty": "basic_to_intermediate",
+      "source_policy": "Generated reinforcement item based on reconstructed original exam answer."
+    },
+    {
+      "id": "quiz_batch_2_mcq_6_3_trapezius_13",
+      "domain": "batch_2_question_reinforcement",
+      "linked_content_id": "orig_exam_batch_2_mcq_6_3_trapezius_q40",
+      "question": "Takut gemuk, body image terganggu, dan IMT rendah sesuai dengan...",
+      "options": [
+        "Anoreksia nervosa",
+        "Bulimia nervosa",
+        "Delirium",
+        "Somatisasi"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban sumber: anoreksia nervosa.",
+      "difficulty": "basic_to_intermediate",
+      "source_policy": "Generated reinforcement item based on reconstructed original exam answer."
+    },
+    {
+      "id": "quiz_batch_2_mcq_6_3_trapezius_14",
+      "domain": "batch_2_question_reinforcement",
+      "linked_content_id": "orig_exam_batch_2_mcq_6_3_trapezius_q45",
+      "question": "Pada kecurigaan infeksi intrakranial berat, tindakan awal yang ditandai sumber adalah...",
+      "options": [
+        "Memberikan pengobatan TB langsung",
+        "Memberikan antibiotik empiris dengan diagnosis presumtif",
+        "Pemeriksaan dahak dahulu",
+        "Menunggu kultur dahulu"
+      ],
+      "answer_index": 1,
+      "explanation": "Jawaban sumber: antibiotik empiris dengan diagnosis presumtif.",
+      "difficulty": "basic_to_intermediate",
+      "source_policy": "Generated reinforcement item based on reconstructed original exam answer."
+    },
+    {
+      "id": "quiz_batch_2_mcq_6_3_trapezius_15",
+      "domain": "batch_2_question_reinforcement",
+      "linked_content_id": "orig_exam_batch_2_mcq_6_3_trapezius_q46",
+      "question": "Verocay bodies khas ditemukan pada...",
+      "options": [
+        "Schwannoma",
+        "Oligodendrositoma",
+        "Astrositoma",
+        "Ependidoma"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban sumber: schwannoma.",
+      "difficulty": "basic_to_intermediate",
+      "source_policy": "Generated reinforcement item based on reconstructed original exam answer."
+    },
+    {
+      "id": "quiz_batch_2_mcq_6_3_trapezius_16",
+      "domain": "batch_2_question_reinforcement",
+      "linked_content_id": "orig_exam_batch_2_mcq_6_3_trapezius_q48",
+      "question": "Terapi farmakologis demensia Alzheimer yang ditandai sumber adalah...",
+      "options": [
+        "Haloperidol",
+        "Alprazolam",
+        "Sertraline",
+        "Rivastigmine"
+      ],
+      "answer_index": 3,
+      "explanation": "Jawaban sumber: rivastigmine.",
+      "difficulty": "basic_to_intermediate",
+      "source_policy": "Generated reinforcement item based on reconstructed original exam answer."
+    },
+    {
+      "id": "quiz_batch_2_mcq_6_3_trapezius_17",
+      "domain": "batch_2_question_reinforcement",
+      "linked_content_id": "orig_exam_batch_2_mcq_6_3_trapezius_q49",
+      "question": "Waham bahwa kampus adalah kedok organisasi kejahatan dan dosen mencuri uang kuliah diarahkan ke...",
+      "options": [
+        "Skizofrenia paranoid",
+        "Gangguan panik",
+        "Fobia sosial",
+        "Anoreksia nervosa"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban sumber: skizofrenia paranoid.",
+      "difficulty": "basic_to_intermediate",
+      "source_policy": "Generated reinforcement item based on reconstructed original exam answer."
+    },
+    {
+      "id": "quiz_batch_2_mcq_6_3_trapezius_18",
+      "domain": "batch_2_question_reinforcement",
+      "linked_content_id": "orig_exam_batch_2_mcq_6_3_trapezius_q50",
+      "question": "Pemeriksaan awal/gold standard yang ditandai sumber untuk stroke akut adalah...",
+      "options": [
+        "MRI kontras",
+        "CT scan tanpa kontras",
+        "EEG",
+        "Foto toraks"
+      ],
+      "answer_index": 1,
+      "explanation": "Jawaban sumber: CT scan tanpa kontras.",
+      "difficulty": "basic_to_intermediate",
+      "source_policy": "Generated reinforcement item based on reconstructed original exam answer."
+    },
+    {
+      "id": "quiz_batch_2_mcq_6_3_trapezius_19",
+      "domain": "batch_2_question_reinforcement",
+      "linked_content_id": "orig_exam_batch_2_mcq_6_3_trapezius_q51",
+      "question": "Pasien hanya bereaksi terhadap rangsang nyeri, melokalisir nyeri, dan mengerang. Tingkat kesadarannya adalah...",
+      "options": [
+        "Somnolen",
+        "Delirium",
+        "Sopor",
+        "Koma"
+      ],
+      "answer_index": 2,
+      "explanation": "Jawaban sumber: sopor.",
+      "difficulty": "basic_to_intermediate",
+      "source_policy": "Generated reinforcement item based on reconstructed original exam answer."
+    }
+  ],
+  "generation_note": "Quiz bank is derivative reinforcement content, not a verbatim original exam set. Original provenance remains in original_exam_sets."
+}

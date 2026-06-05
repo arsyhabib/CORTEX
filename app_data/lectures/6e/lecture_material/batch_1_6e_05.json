@@ -1,0 +1,402 @@
+{
+  "id": "batch_1_6e_05",
+  "batch_id": "batch_1_6E",
+  "batch_label": "Batch 1 / 6E",
+  "block": "5e",
+  "title": "CEREBRAL INFARK",
+  "subtitle": "Neurology lecturer-derived structured content; source-preserving extraction.",
+  "source_pdf": "source_docs/6E/CEREBRAL INFARK.docx",
+  "source_docx": "CEREBRAL INFARK.docx",
+  "source_pages": [],
+  "summary": [
+    "Modul CEREBRAL INFARK disusun ulang sebagai materi terstruktur untuk neurologi batch 1/6e, dengan jejak sumber tetap dipertahankan.",
+    "Fokus inti yang ditarik dari sumber: STROKE.",
+    "Fokus inti yang ditarik dari sumber: Radiologi investigasi: .",
+    "Fokus inti yang ditarik dari sumber: CT.",
+    "Contoh pesan inti dari sumber: Dr. Erni Zainuddin SpRad K-RA."
+  ],
+  "exam_focus": [
+    "Infark merupakan hasil dari defisit sirkulasi karena adanya trombosis atau emboli cerebral, bermanifestasi sebagai stroke."
+  ],
+  "sections": [
+    {
+      "id": "batch_1_6e_05_s01",
+      "title": "STROKE",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Dr. Erni Zainuddin SpRad K-RA.",
+          "provenance": {
+            "source_document": "CEREBRAL INFARK.docx",
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Infark.",
+          "provenance": {
+            "source_document": "CEREBRAL INFARK.docx",
+            "source_paragraph_index": 6,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Infark merupakan hasil dari defisit sirkulasi karena adanya trombosis atau emboli cerebral, bermanifestasi sebagai stroke.",
+              "children": [],
+              "provenance": {
+                "source_document": "CEREBRAL INFARK.docx",
+                "source_paragraph_index": 7,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Faktor predisposisi: Hypertensi, DM, Riwayat.",
+              "children": [],
+              "provenance": {
+                "source_document": "CEREBRAL INFARK.docx",
+                "source_paragraph_index": 8,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CEREBRAL INFARK.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Keluarga.",
+          "provenance": {
+            "source_document": "CEREBRAL INFARK.docx",
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Dan berbagai penyakit menyebabkan emboli.",
+              "children": [],
+              "provenance": {
+                "source_document": "CEREBRAL INFARK.docx",
+                "source_paragraph_index": 10,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CEREBRAL INFARK.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Maupun artero sklerotik.",
+          "provenance": {
+            "source_document": "CEREBRAL INFARK.docx",
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Symtom dapat berupa TIA menyebabkan focal neurological defisist yang recovery complete dalam 24 jam atau Stroke denngan neurological defisit persistent.",
+              "children": [],
+              "provenance": {
+                "source_document": "CEREBRAL INFARK.docx",
+                "source_paragraph_index": 12,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CEREBRAL INFARK.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_05_01",
+        "Visual_batch_1_6e_05_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_05_01",
+        "Quiz_batch_1_6e_05_02"
+      ],
+      "glossary_refs": [
+        "Term_infark",
+        "Term_ct_scan_lesi_hyperdens"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "CEREBRAL INFARK.docx",
+        "section_start_paragraph": 1,
+        "section_end_paragraph": 12
+      }
+    },
+    {
+      "id": "batch_1_6e_05_s02",
+      "title": "MRI",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Carotid artery imaging (MR A) atau Dopler US.",
+              "children": [],
+              "provenance": {
+                "source_document": "CEREBRAL INFARK.docx",
+                "source_paragraph_index": 20,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Arteoriography jika diperlukan.",
+              "children": [],
+              "provenance": {
+                "source_document": "CEREBRAL INFARK.docx",
+                "source_paragraph_index": 21,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CEREBRAL INFARK.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_05_01",
+        "Visual_batch_1_6e_05_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_05_01",
+        "Quiz_batch_1_6e_05_02"
+      ],
+      "glossary_refs": [
+        "Term_infark",
+        "Term_ct_scan_lesi_hyperdens"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "CEREBRAL INFARK.docx",
+        "section_start_paragraph": 20,
+        "section_end_paragraph": 21
+      }
+    },
+    {
+      "id": "batch_1_6e_05_s03",
+      "title": "CT: dapat normal, baru jelas setelah 24 jam.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Loss of greyy / white matter diferensiasi.",
+              "children": [],
+              "provenance": {
+                "source_document": "CEREBRAL INFARK.docx",
+                "source_paragraph_index": 26,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Lesi hipodens pada area yang terkena.",
+              "children": [],
+              "provenance": {
+                "source_document": "CEREBRAL INFARK.docx",
+                "source_paragraph_index": 27,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "CEREBRAL INFARK.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_05_01",
+        "Visual_batch_1_6e_05_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_05_01",
+        "Quiz_batch_1_6e_05_02"
+      ],
+      "glossary_refs": [
+        "Term_infark",
+        "Term_ct_scan_lesi_hyperdens"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "CEREBRAL INFARK.docx",
+        "section_start_paragraph": 26,
+        "section_end_paragraph": 27
+      }
+    },
+    {
+      "id": "batch_1_6e_05_s04",
+      "title": "MRI -MRA menunjukkan regio teroklusi.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Acut.",
+          "provenance": {
+            "source_document": "CEREBRAL INFARK.docx",
+            "source_paragraph_index": 33,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_05_01",
+        "Visual_batch_1_6e_05_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_05_01",
+        "Quiz_batch_1_6e_05_02"
+      ],
+      "glossary_refs": [
+        "Term_infark",
+        "Term_ct_scan_lesi_hyperdens"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "CEREBRAL INFARK.docx",
+        "section_start_paragraph": 33,
+        "section_end_paragraph": 33
+      }
+    },
+    {
+      "id": "batch_1_6e_05_s05",
+      "title": "MRI: Lesi hyper intens dengan edema peri lesi (T2).",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "GRE: tampak lesi hypo intens dengan edema disekitarnya.",
+          "provenance": {
+            "source_document": "CEREBRAL INFARK.docx",
+            "source_paragraph_index": 49,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_05_01",
+        "Visual_batch_1_6e_05_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_05_01",
+        "Quiz_batch_1_6e_05_02"
+      ],
+      "glossary_refs": [
+        "Term_infark",
+        "Term_ct_scan_lesi_hyperdens"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "CEREBRAL INFARK.docx",
+        "section_start_paragraph": 49,
+        "section_end_paragraph": 49
+      }
+    },
+    {
+      "id": "batch_1_6e_05_s06",
+      "title": "Embedded visual material requiring downstream asset review.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Visual_asset_note",
+          "text": "Source DOCX contains 10 embedded image(s). Text extraction does not guarantee all visual labels/captions were captured; downstream Codex/asset pipeline should inspect embedded media before final compile.",
+          "embedded_image_count": 10,
+          "provenance": {
+            "source_document": "CEREBRAL INFARK.docx"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_05_embedded_review"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_05_01",
+        "Quiz_batch_1_6e_05_02"
+      ],
+      "glossary_refs": [
+        "Term_infark",
+        "Term_ct_scan_lesi_hyperdens"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "CEREBRAL INFARK.docx",
+        "embedded_image_count": 10
+      }
+    },
+    {
+      "id": "batch_1_6e_05_s07",
+      "title": "Penjelasan sederhana / simpler bilingual bridge.",
+      "kind": "Bilingual",
+      "content": [
+        {
+          "type": "Simplified_id",
+          "text": "Versi sederhana: materi ini terutama membahas cerebral infark dengan fokus pada konsep klinis, diagnosis, tanda penting, dan tata laksana yang tampak di bahan dosen.",
+          "provenance": {
+            "source_document": "CEREBRAL INFARK.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        },
+        {
+          "type": "Simplified_en",
+          "text": "Simple English bridge: this lecture centers on cerebral infark, emphasizing clinical concepts, diagnosis, key signs, and management points extracted from the lecturer file.",
+          "provenance": {
+            "source_document": "CEREBRAL INFARK.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_05_01",
+        "Visual_batch_1_6e_05_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_05_01",
+        "Quiz_batch_1_6e_05_02"
+      ],
+      "glossary_refs": [
+        "Term_infark",
+        "Term_ct_scan_lesi_hyperdens"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "CEREBRAL INFARK.docx",
+        "generated_section": true
+      }
+    }
+  ],
+  "related_exam_set_ids": [],
+  "provenance": {
+    "source_document": "CEREBRAL INFARK.docx",
+    "manifest_document_id": "batch_1_6e_05",
+    "topic_tags": [],
+    "extraction_method": "python-docx paragraph/table extraction; embedded images counted but not OCRed",
+    "paragraph_count": 24,
+    "table_count": 0,
+    "embedded_image_count": 10
+  }
+}

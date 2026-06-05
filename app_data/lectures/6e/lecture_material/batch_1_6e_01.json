@@ -1,0 +1,1832 @@
+{
+  "id": "batch_1_6e_01",
+  "batch_id": "batch_1_6E",
+  "batch_label": "Batch 1 / 6E",
+  "block": "5e",
+  "title": "Dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.",
+  "subtitle": "Neurology lecturer-derived structured content; source-preserving extraction.",
+  "source_pdf": "source_docs/6E/2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+  "source_docx": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+  "source_pages": [],
+  "summary": [
+    "Modul dr. Sri Novianty, Sp.N - How To Treat Central Vertigo disusun ulang sebagai materi terstruktur untuk neurologi batch 1/6e, dengan jejak sumber tetap dipertahankan.",
+    "Fokus inti yang ditarik dari sumber: Central Vertigo.",
+    "Fokus inti yang ditarik dari sumber: Prinsip Penanganan.",
+    "Fokus inti yang ditarik dari sumber: Klinis: tentukan: memang vertigo sentral, bukan perifer.",
+    "Contoh pesan inti dari sumber: dr. Sri Noviyanty Yusuf, Sp.N."
+  ],
+  "exam_focus": [
+    "Pendekatan utama adalah diagnosis berbasis etiologi.",
+    "Terapi diarahkan pada penatalaksanaan simtomatik dan suportif.",
+    "Bukan merupakan penyakit tersendiri, tetapi merupakan gejala dari etiologi lain yang terkait sistem vestibuler sentral yang dapat mengenai otak: .",
+    "Manifestasi Klinis Vertigo sentral Berdasarkan.",
+    "Diagnosis MS ini ditegakkan secara klinis dan tidak ada satupun pemeriksaan definitif dan memerlukan pemeriksaan neurologis dan pengamatan klinis dalam kurun waktu tertentu.",
+    "Gejala utama Pusing bergoyang.",
+    "Tatalaksana berupa kortikosteroid daan interferon untuk kasus yang relaps."
+  ],
+  "sections": [
+    {
+      "id": "batch_1_6e_01_s01",
+      "title": "Core lecturer content",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "How to Treat.",
+          "provenance": {
+            "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+            "source_paragraph_index": 5,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 5,
+        "section_end_paragraph": 5
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s02",
+      "title": "Central Vertigo",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Dr. Sri Noviyanty Yusuf, Sp.N.",
+          "provenance": {
+            "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+            "source_paragraph_index": 7,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Rumah Kito, 20 January 2024.",
+          "provenance": {
+            "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 7,
+        "section_end_paragraph": 10
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s03",
+      "title": "Sistem Vestibularis",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Perifer.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 40,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Aparatus vestibular.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 41,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Nervus Vestibularis.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 42,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Sentral.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 45,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Batang Otak.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 46,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Talamus.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 47,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Korteks.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 48,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Cerebellum.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 49,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 40,
+        "section_end_paragraph": 49
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s04",
+      "title": "Vertigo sentral",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Timbul pada Lesi sepanjang jaras vestibuler tepatnya di nucleus vestibularis dibatang otak atau.",
+          "provenance": {
+            "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+            "source_paragraph_index": 58,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Thalamus sampai ke korteks serebri.",
+          "provenance": {
+            "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+            "source_paragraph_index": 59,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 58,
+        "section_end_paragraph": 59
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s05",
+      "title": "Vertigo sentral terjadi akibat.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Terganggunya Fungsi sistem keseimbangan reseptor.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 63,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Terganggunya Transmisi oleh aferen.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 64,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Terganggunya Pusat integrasi dan koordinasi dibatang otak dan serebelum sampai persepsi dikorteks serebri.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 65,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 63,
+        "section_end_paragraph": 65
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s06",
+      "title": "Subjective",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Sakit kepala, kepala terasa ringan.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 76,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Rasa terapung, terayun 3.Diplopia.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 77,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "4.DIsfagia.",
+          "provenance": {
+            "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+            "source_paragraph_index": 78,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 76,
+        "section_end_paragraph": 78
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s07",
+      "title": "Objective:",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "1.Keringat dingin 2.Muntah 3.Pucat.",
+          "provenance": {
+            "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+            "source_paragraph_index": 81,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "4.Sempoyongan waktu berdiri dan berjalan 5.Nistagmus.",
+          "provenance": {
+            "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+            "source_paragraph_index": 82,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 81,
+        "section_end_paragraph": 82
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s08",
+      "title": "Vertigo Sentral",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Bukan merupakan penyakit tersendiri, tetapi merupakan gejala dari etiologi lain yang terkait sistem vestibuler sentral yang dapat mengenai otak: .",
+          "provenance": {
+            "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+            "source_paragraph_index": 95,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Onset akut.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 96,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 95,
+        "section_end_paragraph": 96
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s09",
+      "title": "Post-traumatic: diffuse axonal injury.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Onset subakut, kronis, atau episodik.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 99,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 99,
+        "section_end_paragraph": 99
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s10",
+      "title": "Epilepsi",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Migraine Assosiate Dizziness.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 103,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 103,
+        "section_end_paragraph": 103
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s11",
+      "title": "Manifestasi Klinis Vertigo sentral Berdasarkan.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Penyebabnya.",
+          "provenance": {
+            "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+            "source_paragraph_index": 106,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Multiple Sklerosis.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 112,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Diagnosis MS ini ditegakkan secara klinis dan tidak ada satupun pemeriksaan definitif dan memerlukan pemeriksaan neurologis dan pengamatan klinis dalam kurun waktu tertentu.",
+          "provenance": {
+            "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+            "source_paragraph_index": 113,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 106,
+        "section_end_paragraph": 113
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s12",
+      "title": "Gejala utama Pusing bergoyang.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Menurunnya ketajaman penglihatan disertai nyeri perggerakan mata, Internuclear opthlamoplegia, pandangan kabur dan diplopia.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 116,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Gangguan keseimbangan.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 117,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Keterlibatan saraf VIII.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 118,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Tatalaksana berupa kortikosteroid daan interferon untuk kasus yang relaps.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 122,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 116,
+        "section_end_paragraph": 122
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s13",
+      "title": "Manifestasi Klinis Vertigo sentral Berdasarkan.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Penyebabnya.",
+          "provenance": {
+            "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+            "source_paragraph_index": 128,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 128,
+        "section_end_paragraph": 128
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s14",
+      "title": "Tergantung dari Ukuran, Lokasi dan Perkembangan dari Tumor.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Gejala utama: Gejala auditoris berupa kehilangan pendengaran unilateral, gejala vestibular dan gejala gangguan nervus kranialis juga terjadi berupa disekuibilirium, Mati rasa, nyeri wajah, sakit kepala, Penurunan penglihatan, Ataxia, Hemiparesis.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 135,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 135,
+        "section_end_paragraph": 135
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s15",
+      "title": "Tumor yang paling sering melibatkan CPA: vestibular Schwanoma.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Terapi tatalaksana utama tumor CPA adalah pembedahan. Bisa dilakukan dalam tiga kategori yaitu observasi/konservatif, radioterapi/stereotatic radiosurgery dan bedah mikro.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 137,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Prognosisnya sangat tergantung pada seberapa besar tumor dan beratnya gejala neurologis yang ada saat.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 138,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 137,
+        "section_end_paragraph": 138
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s16",
+      "title": "Manifestasi Klinis Vertigo sentral Berdasarkan.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Penyebabnya.",
+          "provenance": {
+            "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+            "source_paragraph_index": 146,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 146,
+        "section_end_paragraph": 146
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s17",
+      "title": "Epilepsi",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Epilepsi vestibuler yang disebabkan baik oleh lesi fokal dilobus temporal gyrus superior atau korteks asosiasi parietal, yang menerima proyeksi vestibular nilateral dari thalamus ipsilateral.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 151,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Gejala: perasaan melayang/berputar seperti mau jatuh. Gejala episodik vertigo sebagai suatu serangan atau aura bangkitan epilepsi psikomotor.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 152,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 151,
+        "section_end_paragraph": 152
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s18",
+      "title": "Trauma",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Merupakan sekuele yang paling sering setelah mengalami trauma kepala dan leher, termasuk diffuse axonal injury.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 165,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 165,
+        "section_end_paragraph": 165
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s19",
+      "title": "Gambaran: sindrom vertigo vestibularis sentral yang.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Disebabkan oleh disfungsi batang otak.",
+          "provenance": {
+            "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+            "source_paragraph_index": 167,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Tatalaksana berupa farmakologi atau non farmakologi berupa Tindakan operatif.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 168,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 167,
+        "section_end_paragraph": 168
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s20",
+      "title": "Pengobatan vertigo terdiri dari:",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Pengobatan kausal.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 202,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 202,
+        "section_end_paragraph": 202
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s21",
+      "title": "Penurunan tekanan intrakranial pada infeksi atau tumor.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Dsb.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 210,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 210,
+        "section_end_paragraph": 210
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s22",
+      "title": "Tatalaksana vertigo sentral",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Pengobatan suportif/simtomatik.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 225,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 225,
+        "section_end_paragraph": 225
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s23",
+      "title": "Obat supresan vestibuler terdiri atas 3 kelompok:",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Antikolinergik: scopolamine.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 230,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Antihistamin: dimenhydrinate, cinnarizine.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 231,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Benzodiazepine: diazepam, lorazepam.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 232,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 230,
+        "section_end_paragraph": 232
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s24",
+      "title": "Suportif lainnya:",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Antiemetik: metoclopramide, ondansetron.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 234,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Rehidrasi: infus? NGT?",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 235,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Dsb.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 236,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 234,
+        "section_end_paragraph": 236
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s25",
+      "title": "Tatalaksana lanjutan",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Vertigo vestibular sentral membutuhkan penegakan diagnosis untuk etiologi dari vertigo tersebut.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 248,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 248,
+        "section_end_paragraph": 248
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s26",
+      "title": "Indikasi rujuk:",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Dibutuhkan fasilitas untuk penegakan diagnosis dan pemberian tatalaksana untuk etiologi. Contoh: curiga disebabkan stroke. Butuh CT- scan kepala nonkontras? Butuh SpN?",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 251,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Tidak terdapat perbaikan setelah diterapi farmakologik maupun non farmakologik.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 252,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 251,
+        "section_end_paragraph": 252
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s27",
+      "title": "Rehabilitasi",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Dilakukan setelah penyakit yang mendasarinya sudah ditanggulangi sehingga tidak lagi menimbulkan masalah kesehatan yang perlu diterapi segera.",
+          "provenance": {
+            "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+            "source_paragraph_index": 263,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 263,
+        "section_end_paragraph": 263
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s28",
+      "title": "Tujuan rehabilitasi:",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Meningkatkan stabilitas gaze.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 265,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Meningkatkan stabilitas postur tubuh.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 266,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 265,
+        "section_end_paragraph": 266
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s29",
+      "title": "Mencegah vertigo berulang",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Memperbaiki kemampuan pasien dalam melakukan aktifitas harian secara mandiri.",
+              "children": [],
+              "provenance": {
+                "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+                "source_paragraph_index": 268,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terapi rehabilitasi vestibuler merupakan modalitas yang sangat efektif untuk memperbaiki defisit fungsional dan keluhan subyektif akibat hipofungsi vestibular perifer yang unilateral atau bilateral dan gangguan keseimbangan sentral pada orang dewasa dan anak-anak.",
+          "provenance": {
+            "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+            "source_paragraph_index": 279,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Vestibular Rehabilitation Therapy (VRT).",
+          "provenance": {
+            "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+            "source_paragraph_index": 303,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Terima Kasih.",
+          "provenance": {
+            "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+            "source_paragraph_index": 314,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "section_start_paragraph": 268,
+        "section_end_paragraph": 314
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s30",
+      "title": "Embedded visual material requiring downstream asset review.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Visual_asset_note",
+          "text": "Source DOCX contains 34 embedded image(s). Text extraction does not guarantee all visual labels/captions were captured; downstream Codex/asset pipeline should inspect embedded media before final compile.",
+          "embedded_image_count": 34,
+          "provenance": {
+            "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_embedded_review"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "embedded_image_count": 34
+      }
+    },
+    {
+      "id": "batch_1_6e_01_s31",
+      "title": "Penjelasan sederhana / simpler bilingual bridge.",
+      "kind": "Bilingual",
+      "content": [
+        {
+          "type": "Simplified_id",
+          "text": "Versi sederhana: materi ini terutama membahas dr. sri novianty, sp.n - how to treat central vertigo dengan fokus pada konsep klinis, diagnosis, tanda penting, dan tata laksana yang tampak di bahan dosen.",
+          "provenance": {
+            "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        },
+        {
+          "type": "Simplified_en",
+          "text": "Simple English bridge: this lecture centers on dr. sri novianty, sp.n - how to treat central vertigo, emphasizing clinical concepts, diagnosis, key signs, and management points extracted from the lecturer file.",
+          "provenance": {
+            "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_01_01",
+        "Visual_batch_1_6e_01_02",
+        "Visual_batch_1_6e_01_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_01_01",
+        "Quiz_batch_1_6e_01_02",
+        "Quiz_batch_1_6e_01_03"
+      ],
+      "glossary_refs": [
+        "Term_bukan",
+        "Term_pengendalian_kejang",
+        "Term_terapi_rehabilitasi_vestibuler",
+        "Term_terapi_tatalaksana_utama_tumor_cpa",
+        "Term_apakah_ada_diagnosis_banding",
+        "Term_apakah_diagnosis_kerja_sudah_diikut_pemeriksaan_penunjang",
+        "Term_central_vertigo",
+        "Term_cerebellum"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "generated_section": true
+      }
+    }
+  ],
+  "related_exam_set_ids": [
+    "exam_recall_batch_1_6e_01"
+  ],
+  "provenance": {
+    "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+    "manifest_document_id": "batch_1_6e_01",
+    "topic_tags": [
+      "Vertigo",
+      "Neuro-otology"
+    ],
+    "extraction_method": "python-docx paragraph/table extraction; embedded images counted but not OCRed",
+    "paragraph_count": 116,
+    "table_count": 0,
+    "embedded_image_count": 34
+  }
+}

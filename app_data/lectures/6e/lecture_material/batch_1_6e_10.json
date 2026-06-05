@@ -1,0 +1,5590 @@
+{
+  "id": "batch_1_6e_10",
+  "batch_id": "batch_1_6E",
+  "batch_label": "Batch 1 / 6E",
+  "block": "5e",
+  "title": "NYERI kepala 2",
+  "subtitle": "Neurology lecturer-derived structured content; source-preserving extraction.",
+  "source_pdf": "source_docs/6E/NYERI kepala 2.docx",
+  "source_docx": "NYERI kepala 2.docx",
+  "source_pages": [],
+  "summary": [
+    "Modul NYERI kepala 2 disusun ulang sebagai materi terstruktur untuk neurologi batch 1/6e, dengan jejak sumber tetap dipertahankan.",
+    "Fokus inti yang ditarik dari sumber: NYERI.",
+    "Fokus inti yang ditarik dari sumber: DEFINISI NYERI.",
+    "Fokus inti yang ditarik dari sumber: Klasifikasi nyeri (klinis).",
+    "Contoh pesan inti dari sumber: International Association for Study of Pain (IASP)."
+  ],
+  "exam_focus": [
+    "Klasifikasi nyeri (klinis).",
+    " Nyeri Kepala  gejala yang paling sering dijumpai dalam.",
+    "Tampil sendiri maupun sebagai bagian kompleks gejala.",
+    " Di antara serangan tidak terdapat gejala sama sekali.",
+    "Tatalaksana khusus untuk mengatasi kelainan.",
+    "Klasifikasi Nyeri Kepala IHS.",
+    " biasanya menunjukkan pemeriksaan klinis yang normal .",
+    "Gejala klinis utama adalah nyeri kepala."
+  ],
+  "sections": [
+    {
+      "id": "batch_1_6e_10_s01",
+      "title": "NYERI",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Attiya Rahma.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 1,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Neurologi FKIK UNJA.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 2,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 1,
+        "section_end_paragraph": 2
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s02",
+      "title": "DEFINISI NYERI",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "International Association for Study of Pain (IASP).",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 8,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Pengalaman sensorik dan emosional yang.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 9,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak menyenangkan akibat kerusakan.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 10,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Jaringan, baik aktual maupun potensial, atau.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 11,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Yang digambarkan dalam bentuk kerusakan.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 12,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tersebut.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 13,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pain Classification.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 18,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 8,
+        "section_end_paragraph": 18
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s03",
+      "title": "NOSISEPTIF N.PSIKOGENIK",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "N.Viseral.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 26,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Reffered pain Perifer Sentral.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 27,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 26,
+        "section_end_paragraph": 27
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s04",
+      "title": "NYERI FISIOLOGIK",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Nyeri timbul oleh berbagai stimuli yg.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 37,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidak menimbulkan kerusakan jaringan.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 38,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 37,
+        "section_end_paragraph": 38
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s05",
+      "title": "NYERI NOSISEPTIF:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Nyeri yang timbul bila reseptor nyeri (nosiseptor).",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 40,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Teraktivasi oleh rangsang mekanikal, termal, atau.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 41,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kemikal.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 42,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 40,
+        "section_end_paragraph": 42
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s06",
+      "title": "NYERI NEUROPATIK:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Nyeri yang timbul akibat lesi atau disfungsi primer.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 44,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pada susunan saraf tepi atau susunan saraf pusat.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 45,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 44,
+        "section_end_paragraph": 45
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s07",
+      "title": "NYERI PSIKOGENIK:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Nyeri dengan faktor psikogen yang menonjol tanpa.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 47,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sebab organik.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 48,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Disestesia.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 53,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Fenomena nyeri muncul.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 58,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Jika ada gangguan keseimbangan.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 59,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Stimulasi neurotransmiter.",
+              "children": [],
+              "provenance": {
+                "source_document": "NYERI kepala 2.docx",
+                "source_paragraph_index": 60,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Eksitatorik glutamat, CCK, substansia P.",
+              "children": [],
+              "provenance": {
+                "source_document": "NYERI kepala 2.docx",
+                "source_paragraph_index": 61,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "NYERI kepala 2.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Meningkat.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 62,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Inhibitorik GABA glisin, DA, 5-HT,.",
+              "children": [],
+              "provenance": {
+                "source_document": "NYERI kepala 2.docx",
+                "source_paragraph_index": 63,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "NYERI kepala 2.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Noradrenalin menurun.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 64,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Jumlah dan sensitivitas reseptor opioid.",
+              "children": [],
+              "provenance": {
+                "source_document": "NYERI kepala 2.docx",
+                "source_paragraph_index": 65,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "NYERI kepala 2.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Menurun.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 66,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Eksitatorik Inhibitorik.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 67,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 47,
+        "section_end_paragraph": 67
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s08",
+      "title": "FENOMENA NYERI",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Glutamat, CCK, Subs.P.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 73,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 73,
+        "section_end_paragraph": 73
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s09",
+      "title": "GABA, DA, 5-HT",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Opioid receptor.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 75,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 75,
+        "section_end_paragraph": 75
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s10",
+      "title": "ANATOMI NYERI",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Sistem saraf tepi.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 81,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kornu Dorsalis MS.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 82,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Otak.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 83,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 81,
+        "section_end_paragraph": 83
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s11",
+      "title": "TRANSDUKSI",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Pengubahan berbagai stimuli oleh reseptor menjadi impuls listrik yang mampu timbulkan pot.aksi.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 101,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 101,
+        "section_end_paragraph": 101
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s12",
+      "title": "MODULASI",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Pengaturan impuls nyeri: normal, ditekan, difasilitasi.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 103,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 103,
+        "section_end_paragraph": 103
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s13",
+      "title": "TRANSMISI",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Penghantaran impuls nyeri.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 105,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 105,
+        "section_end_paragraph": 105
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s14",
+      "title": "PERSEPSI",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Kesadaran akan adanya nyeri.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 107,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pain Perception.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 112,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The ascending neural pain.",
+              "children": [],
+              "provenance": {
+                "source_document": "NYERI kepala 2.docx",
+                "source_paragraph_index": 113,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "NYERI kepala 2.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pathway is only.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 114,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "A 3 neuron relay.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 115,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The major convergence.",
+              "children": [],
+              "provenance": {
+                "source_document": "NYERI kepala 2.docx",
+                "source_paragraph_index": 116,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "NYERI kepala 2.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Point is the.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 117,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ventral posterior.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 118,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lateral nucleus of.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 119,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "The thalamus.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 120,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ascending Pain Pathway (Purves, 2001).",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 121,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Persepsi.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 126,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Transduksi.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 127,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Modulasi.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 128,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Transmisi.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 129,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 107,
+        "section_end_paragraph": 129
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s15",
+      "title": " Nyeri Kepala  gejala yang paling sering dijumpai dalam.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Dunia kedokteran.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 136,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 136,
+        "section_end_paragraph": 136
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s16",
+      "title": "Tampil sendiri maupun sebagai bagian kompleks gejala.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Penyakit.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 139,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 139,
+        "section_end_paragraph": 139
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s17",
+      "title": " Nyeri kepala (NK) adalah.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Sensasi tidak nyaman yang dirasakan di daerah kepala akibat.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 146,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Segala hal yang merusak atau berpotensi mengakibatkan.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 147,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kerusakan struktural.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 148,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 146,
+        "section_end_paragraph": 148
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s18",
+      "title": " Area nyeri kepala  intracranial dan ekstracranial.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "(termasuk wajah).",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 150,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 150,
+        "section_end_paragraph": 150
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s19",
+      "title": " Nyeri kepala  alarm untuk melindungi bagian kepala yang.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Terdiri dari organ-organ vital.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 152,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 152,
+        "section_end_paragraph": 152
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s20",
+      "title": " Adalah nyeri kepala yang bukan diakibatkan oleh.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Adanya kelainan struktural intrakranial -nyeri.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 160,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kepala non struktural.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 161,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 160,
+        "section_end_paragraph": 161
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s21",
+      "title": " Cirinya:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": " Berulang.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 163,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Ada pola tertentu.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 164,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Ada pemicunya.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 165,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 163,
+        "section_end_paragraph": 165
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s22",
+      "title": "Nyeri Kepala Sekunder",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": " Nyeri muncul pada saat yg berdekatan dg.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 172,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penyebab lain sblmnya  NK struktural.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 173,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 172,
+        "section_end_paragraph": 173
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s23",
+      "title": " Ciri:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": " NK yg baru pertama kali saat usia > 40 th.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 175,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Terlokalisir pada satu area.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 176,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Memburuk pd keadaan tertentu  BBM.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 177,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 175,
+        "section_end_paragraph": 177
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s24",
+      "title": " Ada riwayat HIV, trauma kepala, stroke, kejang.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Keganasan.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 179,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Perlu disingkirkan terlebih dahulu krn memerlukan.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 180,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 179,
+        "section_end_paragraph": 180
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s25",
+      "title": "Tatalaksana khusus untuk mengatasi kelainan.",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Struktural yang ada.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 182,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 182,
+        "section_end_paragraph": 182
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s26",
+      "title": "Klasifikasi Nyeri Kepala IHS.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "2013.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 188,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Penyebab.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 193,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 188,
+        "section_end_paragraph": 193
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s27",
+      "title": " Penyebab nyeri kepala yang berhubungan dengan lesi.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Struktural: perangsangan terhadap bangunan peka nyeri.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 195,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Di kepala.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 196,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Ray dan wolff (1940) kepekaan jaringan intra kranium dan.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 197,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 195,
+        "section_end_paragraph": 197
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s28",
+      "title": "Ekstra kranium terhadap nyeri:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": " Jaringan penutup kranium, semuanya banyak atau.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 199,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sedikit bersifat peka terhadap nyeri, teristimewa arteri-.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 200,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Arteri lebih peka.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 201,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Struktural intrakranial yang bersifat peka terhadap nyeri.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 202,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Adalah sinus venosus besar dan anak venanya dari permukaan otak, bagian-bagian dari duramater pada basis arteri-arteri dural, dan arteri-arteri serebral pada basis otak.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 203,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Kranium (termasuk vena diploika dan emissary), parenchim.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 208,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Otak, sebagian besar duramater, sebagian besar piamater.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 209,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dan arachnoid, batas spendimal dari ventrikel dan pleksus.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 210,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "-Pleksus khoroideus adalah tidak peka terhadap nyeri.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 211,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Sensasi satu-satunya yang dialami pada stimulasi.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 212,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bangunan-bangunan intrakranial adalah nyeri, kecuali sensasi yang dihasilkan oleh stimulasi pada parenkhim otak dan saraf.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 213,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bentuk perangsangan atau gangguan terhadap struktur peka nyeri dapat berupa.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 218,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Traksi pada pembuluh vena yang melintasi sinus-sinus.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 219,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Venosus dari permukaan otak dan geseran sinus-sinus.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 220,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Venosus yang besar.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 221,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Traksi pada arteri-arteri meningea media.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 222,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Traksi pada arteri-arteri besar pada basis otak dan cabang-.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 223,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Cabang utamanya.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 224,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Distensi dan dilatasi arteri-arteri intrakranial.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 225,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Inflamasi di dalam atau disekitar struktur peka nyeri di.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 226,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kepala.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 227,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 199,
+        "section_end_paragraph": 227
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s29",
+      "title": " Tekanan langsung oleh tumor atau jaringan yang.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Berdekatan pada saraf kranial dan servikal yang.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 229,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mengandung banyak serabut afferent nyeri dari kepala.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 230,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gambaran Klinis.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 235,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 229,
+        "section_end_paragraph": 235
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s30",
+      "title": " Nyeri kepala primer.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": " Tidak berhubungan dengan lesi struktural.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 237,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 237,
+        "section_end_paragraph": 237
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s31",
+      "title": " kualitasnya stasioner (tetap) bisa disertai gejala otonom atau tidak.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": " status neurologiknya normal.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 242,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 242,
+        "section_end_paragraph": 242
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s32",
+      "title": " Persamaan antara migren dan nyeri kepala tegang.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Adalah.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 251,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " keduanya mempunyai awitan yang insidious.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 252,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " perjalannya khronis dan sering berhubungan dengan.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 253,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Stress.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 254,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gambaran klinisnya menunjukkan beberapa perbedaan, yaitu: .",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 259,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Migren.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 260,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Durasi serangan berlangsung 4 - 72 jam, lokasinya unilateral,.",
+              "children": [],
+              "provenance": {
+                "source_document": "NYERI kepala 2.docx",
+                "source_paragraph_index": 261,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Kualitasnya berdenyut.",
+              "children": [],
+              "provenance": {
+                "source_document": "NYERI kepala 2.docx",
+                "source_paragraph_index": 262,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Intensitasnya sedang sampai berat.",
+              "children": [],
+              "provenance": {
+                "source_document": "NYERI kepala 2.docx",
+                "source_paragraph_index": 263,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Bertambah berat dengan aktifitas fisik rutin atau naik tangga disertai mual, muntah, fotofobi dan fonofobi riwayat keluarga positif.",
+              "children": [],
+              "provenance": {
+                "source_document": "NYERI kepala 2.docx",
+                "source_paragraph_index": 264,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "NYERI kepala 2.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 251,
+        "section_end_paragraph": 264
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s33",
+      "title": "Nyeri kepala tegang",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Durasi serangannya antara 30 menit menekan atau ketat.",
+              "children": [],
+              "provenance": {
+                "source_document": "NYERI kepala 2.docx",
+                "source_paragraph_index": 266,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Intensitasnya ringan sampai sedang.",
+              "children": [],
+              "provenance": {
+                "source_document": "NYERI kepala 2.docx",
+                "source_paragraph_index": 267,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Tidak bertambah berat dengan aktifitas fisik rutin atau naik tangga tidak disertai mual atau muntah.",
+              "children": [],
+              "provenance": {
+                "source_document": "NYERI kepala 2.docx",
+                "source_paragraph_index": 268,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Bisa disertai anoreksi, atau fotofobi atau fonofobi.",
+              "children": [],
+              "provenance": {
+                "source_document": "NYERI kepala 2.docx",
+                "source_paragraph_index": 269,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "NYERI kepala 2.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 266,
+        "section_end_paragraph": 269
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s34",
+      "title": " Nyeri kepala cluster.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": " awitannya adalah akut.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 275,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " frekuensi serangan satu kali tiap dua hari sampai delapan kali.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 276,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Per hari,.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 277,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " durasi serangannya lima belas menit sampai seratus delapan.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 278,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Puluh menit bila tidak diobati.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 279,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Lokasi serangannya adalah unilateral didaerah orbital,.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 280,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Supraorbital dan temporal.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 281,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Lokasinya selalu pada sisi kepala yang sama tiap periode cluster,.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 282,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Namun bisa berganti sisi pada periode cluster yang berbeda.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 283,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 275,
+        "section_end_paragraph": 283
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s35",
+      "title": " Serangan nyeri kepala cluster mempunyai kualitas sebagai nyeri.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Yang konstan, mengebor dan kuat.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 285,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Intensitas serangannya adalah berat.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 286,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Serangannya dapat dicetuskan oleh minuman beralkohol atau.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 287,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Vasodilator lain atau faktor pencetus lain.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 288,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 285,
+        "section_end_paragraph": 288
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s36",
+      "title": " Gejala yang menyertai dapat berupa: injeksi konjungtival,.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Lacrimasi, kongesti nasal, rhinorrhea, berkeringat pada dahi dan.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 290,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Wajah, miosis, ptosis dan edema kelopak mata.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 291,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gambaran klinis.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 296,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 290,
+        "section_end_paragraph": 296
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s37",
+      "title": " Nyeri kepala sekunder.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": " Berhubungan dengan lesi struktural.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 298,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 298,
+        "section_end_paragraph": 298
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s38",
+      "title": " Mencakup trauma kepala, gangguan vaskuler, gangguan.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Intrakranial non vaskuler, bahan dan withdrawalnya, infeksi non sefalik, gangguan metabolik, dan gangguan kranium, leher, mata, telinga, hidung, sinus, gigi, mulut atau lain struktur wajah dan kepala.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 300,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 300,
+        "section_end_paragraph": 300
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s39",
+      "title": " disertai dengan gejala dan tanda klinis penyakit yang.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Mendasarinya.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 302,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 302,
+        "section_end_paragraph": 302
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s40",
+      "title": " Gangguan struktural otak, karena trauma, vaskuler, infeksi.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Atau lainnya, dapat menimbulkan defisit neurologik misalnya hemiplegi atau gangguan nervi kraniales.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 304,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " kualitasnya progresif dapat disertai.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 309,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gejala motorik, sensorik dan otonom, status neurologiknya menunjukkan defisit.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 310,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 304,
+        "section_end_paragraph": 310
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s41",
+      "title": " pemeriksaan laboratoriumnya positif.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Sesuai penyakit yang mendasarinya.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 312,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 312,
+        "section_end_paragraph": 312
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s42",
+      "title": "Umumnya dapat ditegakkan diagnosis.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Klinis yang tepat.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 320,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 320,
+        "section_end_paragraph": 320
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s43",
+      "title": " membedakan nyeri kepala karena lesi struktural dengan.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Non struktural.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 322,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 322,
+        "section_end_paragraph": 322
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s44",
+      "title": "Pemeriksaan laboratorium atau penunjang hanya.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Dilakukan jika dijumpai indikasinya.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 325,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Penderita dengan rangsangan selaput otak.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 326,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Atau meningeal yang positif.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 327,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 325,
+        "section_end_paragraph": 327
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s45",
+      "title": " memerlukan pemeriksaan cairan otak (LP).",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Foto kranium polos proyeksi AP dan lateral .",
+              "children": [],
+              "provenance": {
+                "source_document": "NYERI kepala 2.docx",
+                "source_paragraph_index": 333,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "NYERI kepala 2.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Destruksi sella turcica dan meningkatnya convolutional marking tanda kenaikan tekanan intrakranium yang khronis. sensitivitas pemeriksaan kecil, destruksi sella turcica: 30 %, peningkatan convolutional marking: 6 %.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 334,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 333,
+        "section_end_paragraph": 334
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s46",
+      "title": "Pemeriksaan CT Scan serebral  sindrom.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Kenaikan tekanan intrakranium.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 336,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Dpt mendeteksi adanya patologi intrakranium .",
+              "children": [],
+              "provenance": {
+                "source_document": "NYERI kepala 2.docx",
+                "source_paragraph_index": 337,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "NYERI kepala 2.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Keganasan, hematom, abses dll.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 338,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Mendeteksi adanya hidrosefalus.",
+              "children": [],
+              "provenance": {
+                "source_document": "NYERI kepala 2.docx",
+                "source_paragraph_index": 339,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "NYERI kepala 2.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Arteriografi karotis atau vertebralis  kelainan.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 344,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Vasculer, mis: aneurisma atau AVM.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 345,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 336,
+        "section_end_paragraph": 345
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s47",
+      "title": " mempunyai keunggulan dibanding CT scan, khususnya untuk.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Pemeriksaan fossa posterior  dapat dimanfaatkan untuk mencari kausa neuralgia trigeminal.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 349,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 349,
+        "section_end_paragraph": 349
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s48",
+      "title": "Withdrawalnya, dan nyeri kepala yang berhubungan.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Dengan gangguan metabolik memerlukan pemeriksaan laboratorium yang sesuai, misalnya kadar glukosa darah, analisa gas darah dan sebagainya.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 352,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Rekaman EEG (elektroensefalogram) pada pasien.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 353,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Migren  tidak spesifik.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 354,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 352,
+        "section_end_paragraph": 354
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s49",
+      "title": "MIGREN",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": " Merupakan NK yang paling mengganggu  pengaruhi.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 360,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sosek & kehidupan pribadi.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 361,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " WHO  peringkat penyebab kecacatan ke 19 sedunia.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 362,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Faktor risiko: BB berlebih, tekanan darah tinggi,.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 363,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hiperkolesterolemia, ggn sensitivitas insulin, kadar.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 364,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 360,
+        "section_end_paragraph": 364
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s50",
+      "title": "Homosistein tinggi, stroke, riwayat penyakit jantung.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Koroner.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 366,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 366,
+        "section_end_paragraph": 366
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s51",
+      "title": "PATOFISIOLO GI",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": " 1. Teori Vaskular.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 372,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " 2. Teori neurovaskular.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 373,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " 3. Cortical Spreading Depression (CSD).",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 374,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 372,
+        "section_end_paragraph": 374
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s52",
+      "title": "Gejala Dan Tanda Klinis.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": " Stadium migren sederhana.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 380,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Prodromal.",
+              "children": [],
+              "provenance": {
+                "source_document": "NYERI kepala 2.docx",
+                "source_paragraph_index": 381,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "NYERI kepala 2.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": " 2. Aura.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 382,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 380,
+        "section_end_paragraph": 382
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s53",
+      "title": " 3. Nyeri Kepala.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": " 4. Postdromal.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 384,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 384,
+        "section_end_paragraph": 384
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s54",
+      "title": "Pada pemeriksaan fisik, dijumpai tanda- tanda:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Takikardi.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 390,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bradikardi.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 391,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hipertensi atau hipotensi.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 392,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Injeksi konjungtiva.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 393,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Reaksi pupil yg kurang baik thd cahaya.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 394,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Defisit hemisensorik atau hemiparesis (ditemukan pd.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 395,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Migren kompleks).",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 396,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 390,
+        "section_end_paragraph": 396
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s55",
+      "title": "Kriteria diagnosis berdasarkan HIS.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "1. Migren tanpa aura.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 403,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "2. Migren dengan aura.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 404,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 403,
+        "section_end_paragraph": 404
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s56",
+      "title": "TTH",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "NK klaster.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 407,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sindroma Diseksi.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 408,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Aneurisma serebral.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 409,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 407,
+        "section_end_paragraph": 409
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s57",
+      "title": " Nyeri kepala primer tersering  prevalensi 78%.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": " Mengenai hampir 1, 4 juta th.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 416,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Perempuan  2x lebih banyak daripada laki2.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 417,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 416,
+        "section_end_paragraph": 417
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s58",
+      "title": "KLASIFIKASI (IHS)",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": " 1. TTH Episodik yang infrequent.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 423,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " 2. TTH Episodik yang Frequent.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 424,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " 3. TTH Kronik.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 425,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 423,
+        "section_end_paragraph": 425
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s59",
+      "title": "PATOFISIOLO GI",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": " Muncul lebih sering saat pasien terlalu lama dalam.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 429,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Posisi kepala ditekuk ke bawah  Otot belakang.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 430,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Leher tegang.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 431,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Posisi tidur tidak baik  otot leher belakang.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 432,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tertekan lebih kuat.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 433,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Kontraksi otot  turunnya perfusi darah.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 434,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "lepasnya substansi pemicu nyeri (laktat, pirivat,.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 435,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dll) stimulasi saraf  sensasi nyeri pada otot dan.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 436,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ligamen.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 437,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 429,
+        "section_end_paragraph": 437
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s60",
+      "title": "NEURALGIA TRIGEMINA",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": " Dikenal dg tic doulourex.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 441,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Adalah nyeri akibat lesi di sepanjang cabang.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 442,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Nervus trigeminus.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 443,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Insidensi  ♀: ♂ = 2: 1.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 444,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " 90% pasien  awitan: usia lebih dari 40 th, Sering.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 445,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "60-70 th.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 446,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Pd usia 20-40 th  curiga demielinisasi akibat.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 447,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Multiple sklerosis.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 448,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 441,
+        "section_end_paragraph": 448
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s61",
+      "title": "KLASIFIKASI",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": " 1. NT klasik.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 452,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Idiopatik.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 453,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Sering berkaitan dg kompresi vaskular pd tempat.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 454,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Masuknya cab nervus trigeminus.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 455,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " 2. NT simtomatik.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 456,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Disebabkan lesi struktural  MS, aneurisma a.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 457,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 452,
+        "section_end_paragraph": 457
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s62",
+      "title": "Basilaris, tumor CPA",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": " Serangan nyeri pada wajah unilateral yg bersifat.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 463,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Episodik, spontan, menusuk dan seperti tersengat.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 464,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Listrik pd daerah wajah yg dipersyarafi oleh.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 465,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Percabangan n. Trigeminus.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 466,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " NK klasik  tdp titik picu.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 467,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 463,
+        "section_end_paragraph": 467
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s63",
+      "title": " Nyeri kepala yang disebabkan oleh lesi struktural .",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Pengobatan kausatif.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 490,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Hematom intrakranial jika memungkinkan diobati dengan.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 491,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pembedahan.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 492,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Meningitis bakteriil diobati dengan antibiotika yang sesuai.  Hidrosefalus diobati dengan operasi shunting.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 493,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 490,
+        "section_end_paragraph": 493
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s64",
+      "title": " Nyeri kepala yang tidak berhubungan dengan lesi.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Struktural.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 495,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 495,
+        "section_end_paragraph": 495
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s65",
+      "title": "Dan nyeri kepala tegang.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": " pengobatan meliputi: pendidikan, menejemen psikologik,.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 498,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Memejemen fisiologik dan pengobatan medikamentosa.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 499,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 498,
+        "section_end_paragraph": 499
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s66",
+      "title": " Untuk nyeri kepala ringan  analgetik sederhana, misalnya.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Salisilat, paracetamol atau pirasolon.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 506,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 506,
+        "section_end_paragraph": 506
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s67",
+      "title": " Untuk nyeri kepala derajat sedang  NSAID, mis: ibuprofen dan.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Naproksen.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 508,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 508,
+        "section_end_paragraph": 508
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s68",
+      "title": " Untuk nyeri kepala derajat berat jika perlu dapat dipertimbangkan.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Penggunaan narkotik.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 510,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Selain obat tunggal digunakan juga obat kombinasi, misalnya.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 511,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Analgetik dan caffein, analgetik dan tranquilezer atau analgetika,.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 512,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Cafein dan traquilizer.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 513,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Disamping simtom nyerinya, simtom penyertanya juga.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 521,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perlu diobati.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 522,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " gangguan tidur diobati dengan amitriptilin.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 523,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " nausea dan vomitus dengan promethazin atau.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 524,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Prochlorperazine.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 525,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 510,
+        "section_end_paragraph": 525
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s69",
+      "title": " Pasien layaknya diberitahu bahwa:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": " obat-obat ini tidak ‘menyembuhkan’ namun hanya bersifat.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 527,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Paliatif saja.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 528,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " ada efek samping yang mungkin dijumpai, seperti gangguan.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 529,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gastrointestinal, granulositopenia, gangguan ginjal,.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 530,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kecanduan obat dan intoksikasi obat.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 531,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 527,
+        "section_end_paragraph": 531
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s70",
+      "title": "Untuk migren, terapinya yg diberikan:",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": " pengobatan simtomatik/abortif.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 537,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Selain obat yang telah disebut, untuk migren digunakan pula.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 538,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ergotamin, terutama pada fase aura atau pada saat onset atau awitan.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 539,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Pemberiannya 1 mg Ergotamin + caffein 100 mg, digunakan 1 - 2.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 540,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tablet per os, dengan maksimal 5 tablet tiap serangan dan 10 tablet.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 541,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tiap minggu.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 542,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Pengobatan profilaksis/ preventif / interval,.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 543,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " diberikan untuk pasien migren dalam beberapa keadaan jika.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 544,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Serangan migrennya dua kali atau lebih perminggu.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 545,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Pengobatan profilaksis dapat diberikan selama 3 bulan, 6 bulan atau.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 546,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lebih lama, sampai bertahun-tahun selama tidak dijumpai efek.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 547,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Samping.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 548,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 537,
+        "section_end_paragraph": 548
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s71",
+      "title": " Bagi nyeri kepala cluster pengobatan profilaksis dapat diberikan.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Sampai periode clusternya lewat, bagi migren sampai faktor pencetus.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 550,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dapat dikendalikan.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 551,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Tergolong sebagai obat profilaksis anti migren adalah: methiser gide,.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 552,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Propanolol, pizotifen, amitriptiline, clonidine, dan flunarizine.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 553,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Suatu jenis MAC inhibitor, phenelzine, dipakai juga sebagai obat.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 554,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Profilaksis anti migren.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 555,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 550,
+        "section_end_paragraph": 555
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s72",
+      "title": "Obat Pilihan Nyeri Kepala Tipe.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Tegang Akut.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 561,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 561,
+        "section_end_paragraph": 561
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s73",
+      "title": "Mempunyai prognosis sesuai penyakit yang.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Mendasarinya.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 574,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 574,
+        "section_end_paragraph": 574
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s74",
+      "title": " PSA, meningitis dan proses desak ruang intrakranial.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Mempunyai prognosis yang jelek.  kewajiban seorang dokter adalah mengenal keadaan peninggian tekanan intrakranial sebelum adanya tanda herniasi tentorial.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 576,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 576,
+        "section_end_paragraph": 576
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s75",
+      "title": " Nyeri kepala yang tidak berhubungan dengan lesi.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Struktural pada umumnya juga non fatal.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 578,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": " Walaupun seorang penderita telah diketahui.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 579,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 578,
+        "section_end_paragraph": 579
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s76",
+      "title": "Menyandang migren atau nyeri kepala tegang, namun.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Hal ini tidak menutup kemungkinan suatu saat mengalami nyeri kepala struktural misalnya keganasan otak  pada pasien migren atau nyeri kepala tegang perlu diwaspadai jika terjadi perubahan pola dan gambaran klinis nyeri kepalanya yang berbeda dengan yang biasanya.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "source_paragraph_index": 581,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "section_start_paragraph": 581,
+        "section_end_paragraph": 581
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s77",
+      "title": "Extracted table 1",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "Duration1 Location2 Severity3 Pathophysiology4, 5.",
+              "Duration1 Location2 Severity3 Pathophysiology4, 5.",
+              "Duration1 Location2 Severity3 Pathophysiology4, 5.",
+              "Duration1 Location2 Severity3 Pathophysiology4, 5.",
+              "Duration1 Location2 Severity3 Pathophysiology4, 5.",
+              "Duration1 Location2 Severity3 Pathophysiology4, 5.",
+              "Duration1 Location2 Severity3 Pathophysiology4, 5.",
+              "Duration1 Location2 Severity3 Pathophysiology4, 5.",
+              "Duration1 Location2 Severity3 Pathophysiology4, 5.",
+              "Duration1 Location2 Severity3 Pathophysiology4, 5.",
+              "Duration1 Location2 Severity3 Pathophysiology4, 5.",
+              "Duration1 Location2 Severity3 Pathophysiology4, 5.",
+              "Duration1 Location2 Severity3 Pathophysiology4, 5."
+            ],
+            [
+              "",
+              "",
+              "Head Acute Mild Nociceptive.",
+              "Head Acute Mild Nociceptive.",
+              "Head Acute Mild Nociceptive.",
+              "Head Acute Mild Nociceptive.",
+              "Head Acute Mild Nociceptive.",
+              "Head Acute Mild Nociceptive.",
+              "Head Acute Mild Nociceptive.",
+              "Head Acute Mild Nociceptive."
+            ],
+            [
+              "",
+              "Chronic",
+              "Chronic",
+              "",
+              "Low back",
+              "Low back",
+              "",
+              "Moderate Neuropathic",
+              "Moderate Neuropathic",
+              "Moderate Neuropathic",
+              "Moderate Neuropathic"
+            ],
+            [
+              "",
+              "",
+              "",
+              "",
+              "",
+              "Etc. Severe",
+              "Etc. Severe",
+              "Etc. Severe",
+              "",
+              "Central sensitization/ dysfunctional",
+              "Central sensitization/ dysfunctional",
+              "Central sensitization/ dysfunctional"
+            ]
+          ],
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "table_index": 0
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "table_index": 0
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s78",
+      "title": "Extracted table 2",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "",
+              "N.Somatik",
+              "",
+              "N.NEUROPATIK"
+            ]
+          ],
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "table_index": 1
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "table_index": 1
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s79",
+      "title": "Extracted table 3",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "",
+              "Nyeri Nyeri"
+            ],
+            [
+              "",
+              "Nosiseptif neuropatik",
+              "Nosiseptif neuropatik",
+              "Nosiseptif neuropatik",
+              "Nosiseptif neuropatik"
+            ],
+            [
+              "Penyebab Stimuli saraf Disfungsi.",
+              "Penyebab Stimuli saraf Disfungsi.",
+              "Penyebab Stimuli saraf Disfungsi.",
+              "Penyebab Stimuli saraf Disfungsi."
+            ],
+            [
+              "",
+              "Nosiseptik sistim saraf",
+              "Nosiseptik sistim saraf",
+              "Nosiseptik sistim saraf",
+              "Nosiseptik sistim saraf",
+              "Nosiseptik sistim saraf",
+              "Nosiseptik sistim saraf"
+            ],
+            [
+              "Ciri Sakit ringan Hiperpatia,.",
+              "Ciri Sakit ringan Hiperpatia,.",
+              "Ciri Sakit ringan Hiperpatia,.",
+              "Ciri Sakit ringan Hiperpatia,.",
+              "Ciri Sakit ringan Hiperpatia,.",
+              "Ciri Sakit ringan Hiperpatia,."
+            ],
+            [
+              "",
+              "Sampai berat allodinia,",
+              "Sampai berat allodinia,"
+            ]
+          ],
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "table_index": 2
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "table_index": 2
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s80",
+      "title": "Extracted table 4",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "Terapi Analgetik / Antikonvulsan.",
+              "Terapi Analgetik / Antikonvulsan.",
+              "Terapi Analgetik / Antikonvulsan.",
+              "Terapi Analgetik / Antikonvulsan.",
+              "Terapi Analgetik / Antikonvulsan."
+            ],
+            [
+              "",
+              "NSAID",
+              "",
+              "Antidepresan"
+            ]
+          ],
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "table_index": 3
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "table_index": 3
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s81",
+      "title": "Extracted table 5",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              " Diagnosis utama nyeri kepala berdasarkan gejala klinis.",
+              "",
+              ""
+            ]
+          ],
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "table_index": 4
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "table_index": 4
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s82",
+      "title": "Embedded visual material requiring downstream asset review.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Visual_asset_note",
+          "text": "Source DOCX contains 54 embedded image(s). Text extraction does not guarantee all visual labels/captions were captured; downstream Codex/asset pipeline should inspect embedded media before final compile.",
+          "embedded_image_count": 54,
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_embedded_review"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "embedded_image_count": 54
+      }
+    },
+    {
+      "id": "batch_1_6e_10_s83",
+      "title": "Penjelasan sederhana / simpler bilingual bridge.",
+      "kind": "Bilingual",
+      "content": [
+        {
+          "type": "Simplified_id",
+          "text": "Versi sederhana: materi ini terutama membahas nyeri kepala 2 dengan fokus pada konsep klinis, diagnosis, tanda penting, dan tata laksana yang tampak di bahan dosen.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        },
+        {
+          "type": "Simplified_en",
+          "text": "Simple English bridge: this lecture centers on nyeri kepala 2, emphasizing clinical concepts, diagnosis, key signs, and management points extracted from the lecturer file.",
+          "provenance": {
+            "source_document": "NYERI kepala 2.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_10_01",
+        "Visual_batch_1_6e_10_02"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_10_01",
+        "Quiz_batch_1_6e_10_02",
+        "Quiz_batch_1_6e_10_03"
+      ],
+      "glossary_refs": [
+        "Term_bangunan_bangunan_intrakranial",
+        "Term_gejala_klinis_utama",
+        "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter",
+        "Term_pleksus_khoroideus",
+        "Term_lokasi_serangannya",
+        "Term_tergolong_sebagai_obat_profilaksis_anti_migren",
+        "Term_umumnya",
+        "Term_aferen_primer"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "generated_section": true
+      }
+    }
+  ],
+  "related_exam_set_ids": [],
+  "provenance": {
+    "source_document": "NYERI kepala 2.docx",
+    "manifest_document_id": "batch_1_6e_10",
+    "topic_tags": [
+      "Headache"
+    ],
+    "extraction_method": "python-docx paragraph/table extraction; embedded images counted but not OCRed",
+    "paragraph_count": 381,
+    "table_count": 5,
+    "embedded_image_count": 54
+  }
+}

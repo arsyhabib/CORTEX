@@ -1,0 +1,550 @@
+{
+  "links": [
+    {
+      "from_id": "batch3_pembahasan_mcq_6_3_akt_18_2021",
+      "to_id": "page_301",
+      "link_type": "set_to_page",
+      "strength": "strong",
+      "notes": "Exam set detail page for Batch 3."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q01",
+      "to_id": "term_siriraj_stroke_score",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q02",
+      "to_id": "term_gangguan_panik",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q03",
+      "to_id": "term_sindrom_weber",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q04",
+      "to_id": "term_delirium",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q05",
+      "to_id": "term_gcs",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q06",
+      "to_id": "term_meniere",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q07",
+      "to_id": "term_psikotik_organik",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q08",
+      "to_id": "term_kepribadian_anankastik",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q09",
+      "to_id": "term_delirium",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q10",
+      "to_id": "term_vertigo_sentral",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q11",
+      "to_id": "term_demensia",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q12",
+      "to_id": "term_fobia_spesifik",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q13",
+      "to_id": "term_tension_type_headache",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q14",
+      "to_id": "term_flight_of_ideas",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q15",
+      "to_id": "term_miastenia_gravis",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q16",
+      "to_id": "term_meningitis_tb",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q17",
+      "to_id": "term_migraine_aura",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q18",
+      "to_id": "term_lumbal_pungsi",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q19",
+      "to_id": "term_trauma_kepala_sedang",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q20",
+      "to_id": "term_demensia_vaskular",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q21",
+      "to_id": "term_moyamoya",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q22",
+      "to_id": "term_antipsikotik",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q23",
+      "to_id": "term_stroke_iskemik",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q24",
+      "to_id": "term_spinothalamic_lateral",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q25",
+      "to_id": "term_ssri",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q26",
+      "to_id": "term_amnesia_anterograde",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q27",
+      "to_id": "term_meningioma",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q28",
+      "to_id": "term_demensia_alzheimer",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q29",
+      "to_id": "term_descending_pathway",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q30",
+      "to_id": "term_paralisis_periodik",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q31",
+      "to_id": "term_perdarahan_subaraknoid",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q32",
+      "to_id": "term_sud",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q33",
+      "to_id": "term_agnosia",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q34",
+      "to_id": "term_faktor_risiko_stroke",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q35",
+      "to_id": "term_monoamine_hypothesis",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q36",
+      "to_id": "term_tia",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q37",
+      "to_id": "term_stroke_hemoragik",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q38",
+      "to_id": "term_wernicke_korsakoff",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q39",
+      "to_id": "term_efek_ekstrapiramidal",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q40",
+      "to_id": "term_ensefalopati",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q41",
+      "to_id": "term_basal_ganglia",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q42",
+      "to_id": "term_epilepsi_absans",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q43",
+      "to_id": "term_illness_anxiety_disorder",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q44",
+      "to_id": "term_epilepsi_absans",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q45",
+      "to_id": "term_halusinogen",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q46",
+      "to_id": "term_epidural_hematoma",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q47",
+      "to_id": "term_subdural_hematoma",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q48",
+      "to_id": "term_perdarahan_intraserebral",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q49",
+      "to_id": "term_lobus_frontal",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q50",
+      "to_id": "term_kortikospinal",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q51",
+      "to_id": "term_perdarahan_subaraknoid",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q52",
+      "to_id": "term_axis_dsm",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q53",
+      "to_id": "term_gcs",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q54",
+      "to_id": "term_tumor_serebelum",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q55",
+      "to_id": "term_migraine_aura",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q56",
+      "to_id": "term_gangguan_konversi",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q57",
+      "to_id": "term_aras",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q58",
+      "to_id": "term_donepezil",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q59",
+      "to_id": "term_eeg",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q60",
+      "to_id": "term_lobus_frontal",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q61",
+      "to_id": "term_narkotika_golongan_ii",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q62",
+      "to_id": "term_kepribadian_paranoid",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q63",
+      "to_id": "term_bell_palsy",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q64",
+      "to_id": "term_waham",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q65",
+      "to_id": "term_epilepsi_grand_mal",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q66",
+      "to_id": "term_opioid",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q67",
+      "to_id": "term_sindrom_medulla_oblongata",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q68",
+      "to_id": "term_opioid",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q69",
+      "to_id": "term_gbs",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q70",
+      "to_id": "term_rivastigmin",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q71",
+      "to_id": "term_amnesia_anterograde",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q72",
+      "to_id": "term_waham",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q73",
+      "to_id": "term_kejang_demam_sederhana",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q74",
+      "to_id": "term_haloperidol",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q75",
+      "to_id": "term_tes_lasegue",
+      "link_type": "question_to_glossary",
+      "strength": "strong",
+      "notes": "Primary concept for this reconstructed MCQ."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q46",
+      "to_id": "batch3_img_ct_epidural_hematoma",
+      "link_type": "material_to_visual",
+      "strength": "strong",
+      "notes": "Question source contains CT image media/image1.png after source line 287."
+    },
+    {
+      "from_id": "batch3_pembahasan_2018_q48",
+      "to_id": "batch3_img_ct_intracerebral_hemorrhage",
+      "link_type": "material_to_visual",
+      "strength": "strong",
+      "notes": "Question source contains CT image media/image2.png after source line 301."
+    }
+  ]
+}

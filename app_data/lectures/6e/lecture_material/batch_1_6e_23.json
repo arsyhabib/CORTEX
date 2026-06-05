@@ -1,0 +1,3677 @@
+{
+  "id": "batch_1_6e_23",
+  "batch_id": "batch_1_6E",
+  "batch_label": "Batch 1 / 6E",
+  "block": "5e",
+  "title": "Neuroanatomi 2023",
+  "subtitle": "Neurology lecturer-derived structured content; source-preserving extraction.",
+  "source_pdf": "source_docs/6E/neuroanatomi 2023.docx",
+  "source_docx": "neuroanatomi 2023.docx",
+  "source_pages": [],
+  "summary": [
+    "Modul neuroanatomi 2023 disusun ulang sebagai materi terstruktur untuk neurologi batch 1/6e, dengan jejak sumber tetap dipertahankan.",
+    "Fokus inti yang ditarik dari sumber: NEUROANATOMY.",
+    "Fokus inti yang ditarik dari sumber: ATTIYA ISTARINI.",
+    "Fokus inti yang ditarik dari sumber: Learning objektif.",
+    "Contoh pesan inti dari sumber:  Mengetahui anatomi SSP."
+  ],
+  "exam_focus": [
+    "NEUROANATOMY.",
+    "ATTIYA ISTARINI.",
+    "Learning objektif.",
+    "Mengetahui anatomi SSP.",
+    "Mengetahui anatomi SST.",
+    "INTRODUCTION: ."
+  ],
+  "sections": [
+    {
+      "id": "batch_1_6e_23_s01",
+      "title": "Core lecturer content",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Clinical.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 0,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 0,
+        "section_end_paragraph": 0
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s02",
+      "title": "Mengetahui anatomi SSP",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Cerebrum.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 9,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Cerebellum.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 10,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Midbrain.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 11,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Pons.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 12,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Medulla Oblongata.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 13,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Medulla spinalis.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 14,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 9,
+        "section_end_paragraph": 14
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s03",
+      "title": "Mengetahui anatomi SST",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Somatik.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 16,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Otonom.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 17,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 16,
+        "section_end_paragraph": 17
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s04",
+      "title": "INTRODUCTION:",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Nervous system.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 23,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "An integrated information system, functions to receive data, process it, determine responses and give orders to every organ of the body to take important actions for the state of homeostasis.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 24,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 23,
+        "section_end_paragraph": 24
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s05",
+      "title": "Anatomically, the human nervous system is a complex of two.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Division.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 26,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "CNS-The CNS, comprising the brain and spinal cord, is enclosed in bone and.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 27,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 26,
+        "section_end_paragraph": 27
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s06",
+      "title": "Wrapped in protective covering (meninges) and fluid-filled space.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Peripheral Nervous System (PNS)-The PNS is formed by the cranial and spinal.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 29,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Nerve (Fig 1.1).",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 30,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 29,
+        "section_end_paragraph": 30
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s07",
+      "title": "3 FUNGSI SISTEM SARAF.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Fungsi kewaspadaan.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 36,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Membantu mengetahui perubahan-perubahan yang terjadi di sekitar untuk disampaikan ke alat indera. Pada alat indera terdapat saraf sensorik yang befungsi khusus sebagai penginput data.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 37,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Fungsi intergrasi.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 38,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Menerima pesan (input data) sensorik dari lingkungan luar, interpretasi oleh CNS, mengatur informasi dan mengintegrasikan dengan informasi yang telah ada untuk menentukan jenis respon yang akan diberikan.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 39,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Fungsi koordinasi.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 40,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Setelah dari otak informasi yang sudah terintegrasi untuk mengirimkan pesan/perintah pada otot2 dan kelenjar2, menghasilkan gerak dan sekresi terorganisasi.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 41,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ruang lingkup.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 49,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Penyakit neurodegeneratif.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 50,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 36,
+        "section_end_paragraph": 50
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s08",
+      "title": "Kejang dan epilepsi",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Gangguan gerak.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 52,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Gangguan neurobehaviour.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 53,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 52,
+        "section_end_paragraph": 53
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s09",
+      "title": "Cellular Aspect of neural Development.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Neurons.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 60,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Neurons vary in size and complexity.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 61,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "For example, the nuclei of one type of small cerebellar cortical cell (granule cell) are only slightly larger than the nucleoli of an adjacent large Purkinje cell.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 62,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Motor neuron are usually larger than sensory neurons.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 63,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 60,
+        "section_end_paragraph": 63
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s10",
+      "title": "Neuron Structure",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Cell Bodies.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 69,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The cell bodies is the metabolic and genetic center of a.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 70,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Neuron (see fig 2-3).",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 71,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dendrites.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 72,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Dendrites receive incoming synaptic information and thus, together with the cell body, provide the receptive pole of the neuron.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 73,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Most neuron have many dendrites (see fig.2-3).",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 74,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Axons.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 79,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "A single axon arises from the most neurons  The axon is a cylindrical tube of cytoplasm covered by a membrane, the axolemma.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 80,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Synapses.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 81,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Communication between neurons usually occurs from the axon terminal of the transmitting neuron (presynaptic side) to the receptive region of the receiving neuron (postsinaptic side).",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 82,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Neuroglia.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 90,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Neuroglial cells outnumber neurons in the brain and.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 91,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Spinal cord.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 92,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Macroglia.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 93,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Astrocytes.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 94,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Oligodendrocytes.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 95,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Microglia.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 96,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 69,
+        "section_end_paragraph": 96
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s11",
+      "title": "CENTRAL NERVOUS SYSTEM",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Forebrain.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 102,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Mid brain.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 103,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Hind brain.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 104,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 102,
+        "section_end_paragraph": 104
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s12",
+      "title": "Structural Units & Overall organization.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The central portion of the nervous system consist of the brain.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 110,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "And the elongated spinal cord (fig 1-2).",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 111,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The brain has a tiered structure and form a gross point of view, can be subdivided into the cerebrum, the brain stem, and the cerebellum.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 112,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "The cerebrum (forebrain) consist of the telenchepalon and the.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 113,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dienchepalon.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 114,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The Hind brain concist of brain stem and cerebellum.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 115,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 110,
+        "section_end_paragraph": 115
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s13",
+      "title": "CEREBRUM (TELENCEPHALON)",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The telenchepalon includes the cerebral cortex (the most highly.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 121,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Envolved part of the brain, sometimes called gray matter).",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 122,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Sub cortical white matter, and the basal ganglia, which are gray.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 123,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Masses deep within the cerebral hemispheres.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 124,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The white matter carries the name because, in a freshly sectioned brain, it has a glittening appearance as a result of its high lipid-rich myelin content.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 125,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "The white matter consist of myelinated fibers and does not contain.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 126,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Neuronal cell bodies or synapses.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 127,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hemisfer Serebrum/Telensefalon.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 132,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Kedua hemisfer merupakan bagian terbesar otak.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 133,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Permukaan hemisfer serebrum mengandung banyak fisura dan sulkus yang memisahkan lobus frontalis, parietalis, oksipitalis, dan temporalis dari satu sama lain dan dari insula.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 134,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Bagian-bagian otak yang terletak diantara sulkus dinamakan.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 139,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Konvolusi atau girus.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 140,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Sulkus sentralis memisahkan lobus frontalis dari lobus parietalis.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 141,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Fisura kalkarina dimulai pada permukaan medial hemisfer dekat kutub oksipitalis dan membentang ke depan ke daerah sedikit di bawah splenium dari korpus kalosum.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 142,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Bagian dari korpus kalosum berbentuk busur; bagian anteriornya yang melengkung, genu berlanjut ke anteroventralis sebagai rostrum.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 143,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 121,
+        "section_end_paragraph": 143
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s14",
+      "title": "(DIENCEPHALON)",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The major sub division of the dienchepalon are the thalamus and.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 159,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hypothalamus.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 160,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 159,
+        "section_end_paragraph": 160
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s15",
+      "title": "Location:",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "It is located in the middle of the brain, ventrally and caudally to the frontal lobe, and encloses the lower portion of the third ventricle from both sides.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 162,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "The thalamus forms the upper portion of the third ventricular wall,.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 163,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "The hypothalamus its lower portion.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 164,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Dorsally, the diencephalon is enclosed by the corpus callosum, the lateral ventricles, and the cerebral hemispheres.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 165,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 162,
+        "section_end_paragraph": 165
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s16",
+      "title": "Function of thalamus and hypothalamus.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The thalamus is the largest subcortical collecting point for all exteroceptive and.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 171,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Proprioceptive sensory impulses.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 172,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "It is a relay station for all impulses arising in cutaneous and visceral sensory.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 173,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Receptors, for visual and auditory impulses, and for impulses from the hypo-.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 174,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Thalamus, cerebellum, and brainstem reticular formation, all of which are.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 175,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Processed in the thalamus before being transmitted onward to other structures.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 176,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Thalamus is the center for integration and coordination.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 177,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 171,
+        "section_end_paragraph": 177
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s17",
+      "title": "The thalamus modulates motor function from cerebellum and cortex.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Some thalamic nuclei are also components of the ascending reticular activating.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 179,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "System (ARAS).",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 180,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 179,
+        "section_end_paragraph": 180
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s18",
+      "title": "Function of hypothalamus",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Temperature Regulation.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 186,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Regulation of Heart Rate and Blood Pressure.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 187,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Regulation of Water Balance.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 188,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Neurosecretion and Regulation of the Endocrine.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 189,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "System.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 190,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Regulation of Nutritional Intake.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 191,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Thalamus and hypothalamus.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 196,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "BRAIN STEM (Hindbrain).",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 201,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The brain stem consist of the mid brain (mesenchepalon),.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 202,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pons, and medulla oblongata.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 203,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The cerebellum includes the vermis and two lateral lobes.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 204,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "The brain which is hollow, contains a system of spaces.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 205,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Call ventricles.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 206,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 186,
+        "section_end_paragraph": 206
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s19",
+      "title": "Brainstem consists of asenden and desenden tract and.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Contains many nuclei.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 208,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 208,
+        "section_end_paragraph": 208
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s20",
+      "title": "Functional area: ascending reticular activating system.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "(ARAS) -> regulate conciousness.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 210,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ventral and dorsal view.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 215,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lateral view.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 218,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ganglia Basalis.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 223,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The basal ganglia are a part of the motor system.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 224,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "It play an important role in the initiation and modulation of.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 225,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Movement and in the control of muscle tone.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 226,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The principal nuclei of the basal ganglia are thecorpus striatum, caudate nucleus, the putamen, and the globus pallidus,.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 227,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Neurotransmiter dopaminergik.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 228,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 210,
+        "section_end_paragraph": 228
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s21",
+      "title": "CEREBELLUM",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The cerebellum is a central organ for fine motor control.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 239,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "It processes information from vestibular and proprioceptive, together with motor impulses, and modulates the activity of motor nuclear areas in the brain and spinal cord.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 240,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Anatomically, the cerebellum is made up of two hemispheres and the vermis that lies between them. It is connected to the brainstem by the three cerebellar peduncles.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 241,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Functionally (and phylogenetically), the cerebellum is divided into three components: the vestibulocerebellum, spinocerebellum, and cerebrocerebellum.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 242,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 239,
+        "section_end_paragraph": 242
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s22",
+      "title": "Function of cerebellum",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Dorsal View.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 252,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ventral view.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 257,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 252,
+        "section_end_paragraph": 257
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s23",
+      "title": "VERTEBRAL COLUMN",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The vertebral column is the central bony pillar of the body  The vertebral column is composed of 33 vertebrae: .",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 263,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "7 cervical,.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 264,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "12 thoracic,.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 265,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "5 lumbar,.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 266,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "5 sacral (fused to form the sacrum),.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 267,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "4 coccygeal (the lower 3 are commonly fused)  the VC delivery 30 pairs of spinal nerves.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 268,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 263,
+        "section_end_paragraph": 268
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s24",
+      "title": "Spinal cord consist of:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Gray Matter.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 275,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "On cross section, the gray matter is seen as an H-shaped pillar with anterior and posterior gray columns, or horns united by a thin gray commissure containing the small central canal.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 276,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "White Matter.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 281,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The white matter, for purposes of description, may be divided into.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 282,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Anterior, lateral, and posterior white columns or funiculi.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 283,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The anterior column on each side lies between the midline and the.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 284,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Point of emergence of the anterior nerve root.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 285,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The lateral column lies between the emergence of the anterior.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 286,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Nerve roots and the entry of the posterior nerve roots.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 287,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The posterior column lies between the entry of the posterior nerve.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 288,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Roots and the midline.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 289,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 275,
+        "section_end_paragraph": 289
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s25",
+      "title": "PERIPHERAL NERVOUS SYSTEM",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The Peripheral Nervous System (PNS) consist of spinal nerves, and.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 298,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Their associated ganglia (group of nerve cells outside the CNS).",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 299,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 298,
+        "section_end_paragraph": 299
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s26",
+      "title": "The nerve contain nerve fibers that conduct information to.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "(afferent) or from (efferent) the CNS.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 301,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "PNS include otonomic system: simpatic and parasimpatic.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 302,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "PNS: nervus cranilais (brain stem), nervus spinalis (vertebral.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 303,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Column).",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 304,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Spinal Nerve.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 312,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Masing-masing segmen dari sumsum tulang belakang mempunyai 4.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 313,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Akar/ radiks.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 314,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Ke 31 saraf spinal yang muncul dari sumsum tulang belakang.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 315,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mempunyai dua akar ventralis dan dua akar dorsalis.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 316,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Akar ventralis.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 317,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Akar ventralis mempunyai akson neuron motoric  informasi motorik.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 318,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Akar Dorsalis.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 319,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Akar dorsalis membawa informasi sensorik.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 320,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Masing-masing akar dorsalis berisi serabut aferen dari sel-sel saraf.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 321,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dalam ganglionnya.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 322,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 301,
+        "section_end_paragraph": 322
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s27",
+      "title": "ARTERIES OF THE BRAIN.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The brain is supplied by the two internal carotid and the two vertebral arteries. The arteries lie within the sub arachoid space, and their branches anastomose on the inferior surface of the brain to form the circle of Willis.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 334,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Internal Carotid Artery.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 335,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The internal carotid artery begins at the bifurcation of the common carotid artery, where it usually possesses a localized dilatation, called the carotid sinus.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 336,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Branches of the Cerebral Portion.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 341,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The ophthalmic artery.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 342,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "The posterior communicating artery.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 343,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "The choroidal artery.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 344,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "The anterior cerebral artery.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 345,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "The middle cerebral artery.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 346,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Vertebral artery.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 347,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The vertebral artery, a branch of the first part of the subclavian artery, ascend the neck by passing through the foramina in the transverse processes of the upper six cervical vertebrae.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 348,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "At the lower border of the pons, it joins the vessel of the opposite.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 349,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Side to form the basilar artery.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 350,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 334,
+        "section_end_paragraph": 350
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s28",
+      "title": "CAROTIS ARTERY",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Circle of Willis.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 360,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The circle of Willis lies in the interpeduncular fossa at th base.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 361,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Of the brain.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 362,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "It is formed by the anastomoses between the two internal.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 363,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Carotid arteries and the two vertebral arteries.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 364,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 360,
+        "section_end_paragraph": 364
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s29",
+      "title": "WILLISI CYRCLE",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Cerebrospinal Fluid and Ventricular System.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 374,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The brain and spinal cord are covered by three layers (meninges) of mesodermal.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 375,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Origin: the tough dura mater is outermost, arachnoid and, lastly, the pia mater.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 376,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The subarachnoid space contains the cerebrospinal fluid (CSF).",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 377,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "The cerebrospinal fluid is formed in the choroid plexuses of the four cerebral.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 378,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ventricles.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 379,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "It flows through the ventricular system (internal CSF space) and then enters the.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 380,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Subarachnoid space surrounding the brain and spinal cord.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 381,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "It is resorbed in the arachnoid granulations of the superior sagittal sinus and in the.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 382,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perineural sheaths of the spinal cord.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 383,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "An increased volume of cerebrospinal fluid (because of either diminished resorption or-less commonly-increased production) manifests itself in increased CSF pressure and enlargement of the ventricles (hydrocephalus).",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 384,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 374,
+        "section_end_paragraph": 384
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s30",
+      "title": "VENTRICULAR SYSTEM",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The ventricles are four fluid-filled cavities located within the brain; these are the two lateral ventricles, the third ventricle, and the fourth ventricle.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 390,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Lateral Ventricle.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 391,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Third Ventricle.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 392,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 390,
+        "section_end_paragraph": 392
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s31",
+      "title": "Cerebral Aqueduct",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Fourth Ventricle.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 394,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Meningens.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 399,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 394,
+        "section_end_paragraph": 399
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s32",
+      "title": "LCS FLOW",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Lateral Ventricles.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 409,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The lateral ventricles are the largest of the ventricles.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 410,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "The anterior (frontal) horn is in front of the inter ventricular foramen.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 411,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "The posterior (occipital) horn extends into the occipital lobe.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 412,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "The inferior (temporal) horn transverses the temporal lobe, whose.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 413,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "White substance forms its roof.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 414,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The two inter ventricular foramens, or foramens of Monroe, are apertures between the column of the fornix and the anterior end of the thalamus.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 415,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Third ventricle.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 420,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The third ventricle is a narrow ventricle cleft between the two.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 421,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Halves of the diencephalon.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 422,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Fourth ventricle.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 423,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "The fourth ventricle is a pyramid-shaped cavity bounded ventrally by the pons and medulla oblongata its floor is also known as the rhomboid fossa.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 424,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Referensi.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "source_paragraph_index": 429,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 409,
+        "section_end_paragraph": 429
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s33",
+      "title": "Neuroanatomi DUUS",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Jack de Groot, Neuroanatomy correlative.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 432,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 432,
+        "section_end_paragraph": 432
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s34",
+      "title": "Sukardi. E, Neuroanatomi medica.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Waxman. SG, Clinical Neuroanatomy.",
+              "children": [],
+              "provenance": {
+                "source_document": "neuroanatomi 2023.docx",
+                "source_paragraph_index": 435,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "neuroanatomi 2023.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "section_start_paragraph": 435,
+        "section_end_paragraph": 435
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s35",
+      "title": "Extracted table 1",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              " Penyakit serebrovaskular  Trauma sistem saraf.",
+              " Penyakit serebrovaskular  Trauma sistem saraf.",
+              " Penyakit serebrovaskular  Trauma sistem saraf."
+            ],
+            [
+              " Infeksi sistem saraf  Gangguan tidur."
+            ],
+            [
+              " Penyakit Demyelinisasi  Kelainan saraf tepi.",
+              " Penyakit Demyelinisasi  Kelainan saraf tepi."
+            ]
+          ],
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "table_index": 0
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "table_index": 0
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s36",
+      "title": "Embedded visual material requiring downstream asset review.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Visual_asset_note",
+          "text": "Source DOCX contains 52 embedded image(s). Text extraction does not guarantee all visual labels/captions were captured; downstream Codex/asset pipeline should inspect embedded media before final compile.",
+          "embedded_image_count": 52,
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_embedded_review"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "embedded_image_count": 52
+      }
+    },
+    {
+      "id": "batch_1_6e_23_s37",
+      "title": "Penjelasan sederhana / simpler bilingual bridge.",
+      "kind": "Bilingual",
+      "content": [
+        {
+          "type": "Simplified_id",
+          "text": "Versi sederhana: materi ini terutama membahas neuroanatomi 2023 dengan fokus pada konsep klinis, diagnosis, tanda penting, dan tata laksana yang tampak di bahan dosen.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        },
+        {
+          "type": "Simplified_en",
+          "text": "Simple English bridge: this lecture centers on neuroanatomi 2023, emphasizing clinical concepts, diagnosis, key signs, and management points extracted from the lecturer file.",
+          "provenance": {
+            "source_document": "neuroanatomi 2023.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_23_01",
+        "Visual_batch_1_6e_23_02",
+        "Visual_batch_1_6e_23_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_23_01",
+        "Quiz_batch_1_6e_23_02",
+        "Quiz_batch_1_6e_23_03"
+      ],
+      "glossary_refs": [
+        "Term_kedua_hemisfer",
+        "Term_diencephalon",
+        "Term_3_fungsi_sistem_saraf",
+        "Term_arteries_of_the_brain",
+        "Term_attiya_istarini",
+        "Term_axial_plane",
+        "Term_blood_supply_of_the_brain",
+        "Term_brain_stem_hindbrain"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "generated_section": true
+      }
+    }
+  ],
+  "related_exam_set_ids": [],
+  "provenance": {
+    "source_document": "neuroanatomi 2023.docx",
+    "manifest_document_id": "batch_1_6e_23",
+    "topic_tags": [
+      "Anatomy"
+    ],
+    "extraction_method": "python-docx paragraph/table extraction; embedded images counted but not OCRed",
+    "paragraph_count": 243,
+    "table_count": 1,
+    "embedded_image_count": 52
+  }
+}

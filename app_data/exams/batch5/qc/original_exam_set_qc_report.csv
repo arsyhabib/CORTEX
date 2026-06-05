@@ -1,0 +1,2 @@
+exam_set_id,block,year,title,question_count,reconstruction_level,has_answer_key,has_explanations,qc_status,notes
+batch5_family_pair_canonical_exam_set,mixed,source_year_unknown,Batch 5 / Family Pair Overlap — canonical deduplicated question set,92,reconstructed,partial 91/92,92/92,pass_with_cautions,Family-pair deduplicated; malformed split fragments filtered; one unresolved low-confidence key remains for review.

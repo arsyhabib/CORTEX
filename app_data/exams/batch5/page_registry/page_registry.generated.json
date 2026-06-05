@@ -1,0 +1,32 @@
+{
+  "pages": [
+    {
+      "page_id": "page_batch5_exam_set",
+      "page_type": "original_exam_set_detail",
+      "source": "original_exam_sets/batch_5_family_pair_canonical_exam_set.json",
+      "renderer": "exam_set_detail_renderer",
+      "route": "pages/original_exam_sets/batch5_family_pair_canonical_exam_set.html"
+    },
+    {
+      "page_id": "page_batch5_quiz_bank",
+      "page_type": "quiz_bank",
+      "source": "quiz_bank/batch_5_family_pair_quiz_bank.json",
+      "renderer": "quiz_bank_renderer",
+      "route": "pages/quiz_bank/batch5_family_pair.html"
+    },
+    {
+      "page_id": "page_batch5_glossary",
+      "page_type": "glossary",
+      "source": "glossary/batch_5_family_pair_glossary.json",
+      "renderer": "glossary_renderer",
+      "route": "pages/glossary/batch5_family_pair.html"
+    },
+    {
+      "page_id": "page_batch5_notes",
+      "page_type": "lecture_material",
+      "source": "lecture_material/batch_5_inline_notes_material.json",
+      "renderer": "section_detail_renderer",
+      "route": "pages/lecture_material/batch5_inline_notes.html"
+    }
+  ]
+}

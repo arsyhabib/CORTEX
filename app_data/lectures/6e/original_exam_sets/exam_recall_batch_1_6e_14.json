@@ -1,0 +1,44 @@
+{
+  "id": "exam_recall_batch_1_6e_14",
+  "title": "Question-like recall prompts: Parkinson Disease (Aspek Klinis).",
+  "block": "5e",
+  "year": 0,
+  "year_label": "not stated in source; extracted from Batch 1/6E lecturer material",
+  "source_label": "Parkinson Disease (Aspek Klinis).docx.",
+  "page_route": "pages/exam_sets/exam_recall_batch_1_6e_14.html",
+  "question_count": 1,
+  "reconstruction_level": "Reconstructed",
+  "questions": [
+    {
+      "id": "exam_recall_batch_1_6e_14_q01",
+      "number": 1,
+      "stem": "Tremor dominan?",
+      "stem_original": "Tremor dominan?",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah 'Parkinson Disease (Aspek Klinis).docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 444",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_14"
+      ],
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "source_paragraph_index": 444,
+        "style": "Normal"
+      }
+    }
+  ],
+  "provenance": {
+    "source_document": "Parkinson Disease (Aspek Klinis).docx",
+    "detection_method": "Question mark/interrogative phrase detection; not a validated original exam set."
+  }
+}

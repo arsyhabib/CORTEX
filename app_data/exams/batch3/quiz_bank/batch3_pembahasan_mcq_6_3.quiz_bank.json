@@ -1,0 +1,1356 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_batch3_pembahasan_2018_q01",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q01",
+      "question": "Seorang wanita usia 64 tahun dibawa ke RS yang tidak memiliki fasilitas CT Scan dengan keluhan muntah dan nyeri kepala yang diikuti penurunan kesadaran. Pada pemeriksaan dijumpai kesadaran soporous (GCS 10). TD 180/100 mmHg, denyut jantung 96x/menit. Wanita ini sudah menderita hipertensi dan diabetes mellitus sejak 10 tahun yang lalu. Untuk niembantu menegakkan diagnosa, dokter menghitung Siriraj Stroke Score. Berapakah skor nya?",
+      "options": [
+        "2",
+        "4",
+        "3",
+        "5",
+        "1"
+      ],
+      "answer_index": 0,
+      "explanation": "Siriraj Stroke Score is used when CT is unavailable to help differentiate ischemic from hemorrhagic stroke. The scenario has headache, vomiting, hypertension, and depressed consciousness; the reconstructed calculation most closely matches score 2 among the available options.",
+      "difficulty": "exam_recall",
+      "confidence": "medium",
+      "source_line_range": "source lines 0003-0008"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q02",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q02",
+      "question": "Seorang perempuan datang ke praktek dokter umum dengan keluhan cemas dan merasa ketakutan. Sebelumnya terjadi perampokan terhadap suaminya sehingga timbul perasaan cemas, keringat dingin dan jantung berdebar-debar. Pasien juga mengatakan gejala ini muncul sejak 2 bulan ini, setelah suaminya menjadi korban perampokan dan dibunuh oleh pelaku. Sejak saat itu pasien juga mengalami keluhan sulittidur dan nafas terasa berat. Cemas dan ketakutan dirasalkan pasien sewaktu-waktu. Serangan ini dirasakan pasien sekitar 10 menit, terkadang bisa lebih lama Terjadi 3- 4x serangan selama setiap bulan. Pasien juga merasa takut mati dan apakah diagnosis pasien di atas?",
+      "options": [
+        "Depresi",
+        "Gangguan panik",
+        "Gangguan cemas menyeluruh",
+        "Gangguan psikotik",
+        "Gangguan stres pascatrauma"
+      ],
+      "answer_index": 1,
+      "explanation": "Repeated abrupt attacks of intense fear with palpitations, sweating, dyspnea, fear of dying, and recurrent episodes over more than one month support panic disorder.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0009-0014"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q03",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q03",
+      "question": "Yang merupakan gejala klinis pada Sindrom Weber adalah...",
+      "options": [
+        "Gangguan pendengaran",
+        "Vertigo sentral",
+        "Hemiparesis anggota gerak sesisi lesi",
+        "Anestesi pada wajah kontralateral lesi",
+        "Paresis nervus III sesisi lesi"
+      ],
+      "answer_index": 4,
+      "explanation": "Weber syndrome is a midbrain alternating syndrome classically causing ipsilateral oculomotor nerve palsy with contralateral hemiparesis.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0015-0020"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q04",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q04",
+      "question": "Seorang wanita 55 tahun dibawa ke IGD RS dikarenakan mengalami perubahan kesadaran berangsur-angsur sejak 5 hari yang laiu. Pasien cenderung bicara ngawur dan gelisah. Pasien sudah lama nienderita gagal ginjal kronik dan rutin cuci darah. Namun sejak 1 tahun terakhir akibat pandemic covid 19. pasien sudah jarang cuci darah. pada pemeriksaan vital sign, kualitas kesadaran delirium, GCS 12. tidak ditemukan kelainan neurologi. Hasil labor menunjukkan peningkatan kadar ureum dan creatinin. Gangguan kesadaran pada pasien kemungkinan terjadi karena ……",
+      "options": [
+        "Gangguan pada ARAS",
+        "Gangguan pada fungsi kortikal secara difus",
+        "Gangguan pada fungsi serebelum",
+        "Gangguan pada talamus",
+        "Gangguan pada medulla oblongata"
+      ],
+      "answer_index": 1,
+      "explanation": "Delirium/metabolic encephalopathy from uremia usually reflects diffuse cortical dysfunction rather than a focal brainstem/cerebellar lesion.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0021-0026"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q05",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q05",
+      "question": "Seorang laki-laki umur 42 tahun dibawa ke UGD dangan keluhan penurunan kesadaran. Dari anamnesis didapat penderita sudah merasakan demam hilaing timbul 2 minggu sebelum dibawa ke RS. Terdapat riwayat sakit batuk lama dengan pengobatan paru selama 6 bln tetapi tdk tuntas. Rada pemeriksaan tanda vital didapat TD 120/80; temp 39 °c: nadi 128x/menit: RR 32x/mnt. Dari pemeriksaan neurologis didapat kaku kuduk dan brudzinki positif dan GCS: E2M4V2. Pada pemeriksaan GCS diatas yang dimaksud M4 adalah:",
+      "options": [
+        "Melokalisir nyeri",
+        "Fleksi abnormal",
+        "Ekstensi",
+        "Mengikuti perintah",
+        "Menghindari nyeri/fleksi normal"
+      ],
+      "answer_index": 4,
+      "explanation": "In the Glasgow Coma Scale motor response, M4 corresponds to withdrawal from pain/normal flexion. Localizing pain is M5 and obeying commands is M6.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0027-0033"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q06",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q06",
+      "question": "Gangguan keseimbangan vestibular perifer diantaranya:",
+      "options": [
+        "Gangguan irama jantung",
+        "Stroke batang otak",
+        "Hipotensi ortostatik",
+        "Tumor serebelum",
+        "Meniere disease"
+      ],
+      "answer_index": 4,
+      "explanation": "Meniere disease is a peripheral vestibular disorder. Brainstem stroke and cerebellar tumor are central causes, while arrhythmia and orthostatic hypotension are non-vestibular mimics.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0034-0039"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q07",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q07",
+      "question": "Berikut ini yang bukan merupakan ciri-ciri gejala gangguan psikotik organic adalah: gmo gangguan pada organ (delerium, demensia, amnsia), dan skizo ituggn fungsional",
+      "options": [
+        "Adanya halusinasi dan waham",
+        "Gangguan orientasi",
+        "Onset akut usia >40 tahun tanpa riwayat gangguan jiwa sebelumnya",
+        "Kesadaran menurun",
+        "Halusinasi visual lebih menonjol"
+      ],
+      "answer_index": 3,
+      "explanation": "Organic psychosis may feature hallucinations/delusions, late onset, and prominent visual hallucinations. Decreased consciousness points more toward delirium than isolated organic psychotic disorder.",
+      "difficulty": "exam_recall",
+      "confidence": "medium",
+      "source_line_range": "source lines 0040-0045"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q08",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q08",
+      "question": "Bersikap keras kepala; sering binbang, selalu ingin terlihat sempurna dan kaku merupakan gambaran kepribadian",
+      "options": [
+        "Gangguan kepribadian antisosial",
+        "Gangguan kepribadian histrionik",
+        "Gangguan kepribadian narsistik",
+        "Gangguan kepribadian obsesif-kompulsif/anankastik",
+        "Gangguan kepribadian paranoid"
+      ],
+      "answer_index": 3,
+      "explanation": "Perfectionism, rigidity, stubbornness, and excessive orderliness are characteristic of obsessive-compulsive/anankastic personality traits.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0046-0051"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q09",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q09",
+      "question": "Seorang laki-laki berusia 40 tahun masuk rumah sakit setelah mengalami suatu kecelakaan lalu lintas. Ditemukan halusinasi berupa melihat bayangan orang yang tidak dikenalinya, kesadaran berfluktuasi sepanjang hari, terdapat disorientasi waktu namun orientasi tempart dan orang masih baik. Onset gangguannya sangat cepat. Apa diagnosis yang paling mungkin:",
+      "options": [
+        "Halusinasi organik",
+        "Sindroma amnesia organik",
+        "Delirium",
+        "Gangguan katatonik organik",
+        "Cemas organik"
+      ],
+      "answer_index": 2,
+      "explanation": "Rapid onset, fluctuating consciousness, disorientation, and visual hallucinations after trauma are typical of delirium.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0052-0057"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q10",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q10",
+      "question": "Perbedaan klinis vertigo vestibuler perifer dan sentral adalah pada vestibuler sentral akan terjadi...",
+      "options": [
+        "Disertai gejala otonom dan gangguan pendengaran",
+        "Gejala timbul mendadak",
+        "Nistagmus tanpa fase laten",
+        "Gejala lebih berat disertai mual dan muntah",
+        "Dipengaruhi posisi kepala"
+      ],
+      "answer_index": 2,
+      "explanation": "Central vestibular nystagmus commonly lacks latency and may be persistent, unlike positional peripheral vertigo where latency/fatigability are expected.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0058-0063"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q11",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q11",
+      "question": "Yang bukan gejala khas demensia adalah..",
+      "options": [
+        "Anhedonia",
+        "Agnosia",
+        "Apraksia",
+        "Afasia",
+        "Gangguan aktivitas sehari-hari"
+      ],
+      "answer_index": 0,
+      "explanation": "Aphasia, apraxia, agnosia, memory decline, and impaired daily function are dementia features. Anhedonia is more typical of depressive syndromes.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0064-0069"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q12",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q12",
+      "question": "Seorang wanita usia 40 tahun datang ke tempat praktik dokter dengan keluhan sesak nafas disertai perasaan cemas, berdebar-debar keringat dingin, mulut terasa kering. Hal ini terjadi bila berada di kamar mandi yang tertutup rapat, ia merasa sesak nafas seperti kehabisan oksigen. Kondisi ini terjadi sejak 3 bulan yang lalu setelah kematian kakaknya karena sesalk nafas di kamar mandi. Pada pemeriksaan fisik fidak ditemukan kelainan. Apa diagnosis psikiatrik yang tepat buat pasien ini?",
+      "options": [
+        "Gangguan cemas menyeluruh",
+        "Gangguan fobia/claustrophobia",
+        "Gangguan penyesuaian dengan reaksi ansietas",
+        "Gangguan campuran ansietas dan depresif",
+        "Gangguan obsesif-kompulsif"
+      ],
+      "answer_index": 1,
+      "explanation": "Anxiety and dyspnea triggered by closed rooms after a related traumatic association is most consistent with specific phobia, specifically claustrophobia.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0070-0075"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q13",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q13",
+      "question": "Untuk mendiagnosa suatu tipe nyeri kepala harus memenuhi salah satu kriteria diagnostic.Salah satu kriteria diagnostik dari “chronic tension type headache' adalah sebagai berikut:",
+      "options": [
+        "Serangan kurang dari 12 kali/tahun",
+        "Serangan lebih dari 15 hari per bulan selama 3 bulan",
+        "Nyeri bertambah bila naik tangga atau bekerja berat",
+        "Disertai gejala otonom nervus trigeminus",
+        "Nyeri intensitas sedang-berat"
+      ],
+      "answer_index": 1,
+      "explanation": "Chronic tension-type headache requires headache on at least 15 days per month for more than 3 months.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0076-0081"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q14",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q14",
+      "question": "Berikut ini merupakan bagian dari gangguan jalan pikiran adalah:",
+      "options": [
+        "Autistik",
+        "Halusinasi",
+        "Psikotik",
+        "Waham/obsesi/kompulsi/fobia",
+        "Flight of ideas"
+      ],
+      "answer_index": 4,
+      "explanation": "Flight of ideas is a disorder of thought stream/form. Hallucination is perception; delusion/waham is content of thought.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0082-0087"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q15",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q15",
+      "question": "Seorang pasien wanita berumur 27 tahun dibawa ke poliklinik saraf RS dengan keluhan mudah lelah: pandangan jadi ganda dan suara sengau, terutama setelah beraktivitas Keluhan ini sudah dirasakan sejak 4 bulan yang lalu, namun akhirakhir ini. dengan sedikit beraktivitas saja. Dari pemeriksaan didapatkan penderita sadar, TD 100/70 mmHG, nadi 94 x/mnt. Reflek cahaya +/+, ptosis bilateral, paresis N. Ill bilateral. Nervi cranial yang lain dalam batas normal. Fungsi motorik, sensorik dan otonom normal. Penderita juga menambahkan bahwa bila ia tidursiang, sewaktu bangun semua gejala tersebut hilang. Diagnosis yang paling tepat untulk penyakit dengan gambaran klinis seperti di atas adalah:",
+      "options": [
+        "Miastenia gravis",
+        "Paralisis periodik",
+        "Tumor otak",
+        "Sindrom Guillain-Barré",
+        "Spasmofilia"
+      ],
+      "answer_index": 0,
+      "explanation": "Fatigable ptosis, diplopia, bulbar symptoms, and improvement after rest are classic for myasthenia gravis.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0088-0094"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q16",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q16",
+      "question": "Hasil analisa LCS pada pemeriksaan LP yang kita harapkan pada penderita meningitis TBC adalah:",
+      "options": [
+        "Jumlah sel meningkat terutama PMN",
+        "Glukosa normal",
+        "Glukosa meningkat",
+        "Jumlah sel meningkat terutama monosit/limfosit",
+        "Protein menurun"
+      ],
+      "answer_index": 3,
+      "explanation": "Tuberculous meningitis classically shows elevated cells with lymphocytic/mononuclear predominance, low glucose, and elevated protein.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0095-0100"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q17",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q17",
+      "question": "Seorang wanita 30 tahun pegawai bank mengeluh tak bisa bekerja di rumahnya karena nyeri kepala berdenyut di kepala sebelah kiri sejak 1 hari yll. Nyerinya begitu hebat sehingga terpaksa dibawa tidur: disertai mual dan muntah. Nyeri meningkat jika dibawa bekerja dan melilhat cahaya terang. Sebelum nyeri kepala muncul pasien merasa melilhat kelipan cahaya selama kurang lebih 30 menit Salah satu kriteria diagnostik yang harus terpenuhi untuk mendiagnosa penyakit pasien adalah:",
+      "options": [
+        "Aura visual maksimal 120 menit",
+        "Minimal 5 kali serangan",
+        "Durasi sampai 7 hari",
+        "Minimal 2 kali serangan",
+        "Minimal 10 kali serangan"
+      ],
+      "answer_index": 3,
+      "explanation": "Migraine with aura diagnosis requires at least two attacks fulfilling criteria; typical aura symptoms are usually shorter than 60 minutes each, making 120 minutes less appropriate.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0101-0107"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q18",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q18",
+      "question": "Seorang bayi laki-laki berusia 3 bulan dibawa ibunya dengan keluhan demam. Demam sudah 3 hari, dan sianak dalam satu hari ini tidak mau minum dan nangis dengan nada tinggi. Pada Pemeriksaan: BB 4,5kg, suhu tubuh 38,5°c, nadi 112x/menit; kaku kuduk(+). Jantung dan parti dalam batas normal Pemeriksaan lab: Hb 12g%,llekosit 12000/cumm Dokter menduga sibayi menderita Meningitis. Pemeriksaan apa yang dilakukan untuk menegakkan diagnosis?",
+      "options": [
+        "Foto kepala",
+        "Kultur darah",
+        "EEG",
+        "Pemeriksaan lumbal pungsi",
+        "Kultur urin"
+      ],
+      "answer_index": 3,
+      "explanation": "Lumbar puncture with cerebrospinal fluid analysis is the key diagnostic test for meningitis when clinically safe.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0108-0114"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q19",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q19",
+      "question": "Kriteria penggolongan derajat trauma kepala untuk trauma kepala sedang adalah?",
+      "options": [
+        "GCS 3-8, kehilangan kesadaran >20 menit dan <36 jam, PTA >24 jam dan <7 hari",
+        "GCS 3-8, kehilangan kesadaran >36 jam dan PTA >7 hari",
+        "GCS 13-15, kehilangan kesadaran <20 menit, PTA <24 jam",
+        "GCS 9-12, kehilangan kesadaran >20 menit dan <36 jam, PTA >24 jam dan <7 hari",
+        "GCS 15, kehilangan kesadaran >20 menit, PTA >24 jam"
+      ],
+      "answer_index": 3,
+      "explanation": "Moderate head injury is generally classified by GCS 9-12, with loss of consciousness and post-traumatic amnesia durations longer than mild but not severe ranges.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0115-0120"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q20",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q20",
+      "question": "Ny. N usia 70 tahun. datang ke poliklinik jiwa dengan riwayat paresis dan penglihatan pernah menghilang. Saat ini paresis dan penglihatan sudah membaik, tetapi diikuti dengan gejala gangguan daya ingat. daya pikir dan emosi yang labil. dan kesadaran tetap baik. Apa yang terjadi pada Ny. N?",
+      "options": [
+        "Demensia Alzheimer",
+        "Sindrom amnesik organik",
+        "Delirium",
+        "Demensia vaskular",
+        "Depresi organik",
+        "Demensia Parkinson",
+        "Demensia frontotemporal"
+      ],
+      "answer_index": 3,
+      "explanation": "Stepwise cognitive impairment after cerebrovascular episodes with preserved consciousness is most compatible with vascular dementia.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0121-0128"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q21",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q21",
+      "question": "Seorang remaja putri 15 tahun mengeluh lemah badan sebelah kanan. keluhan ini sudah dirasakan sejak 2 bulan sebelumnya dan dirasakannya pula kelemahan ini seperti bertambah. dirumah sakit dilakukan pemeriksaan tensi, laboratorium terkait. EKG dengan hasil normal kemudian dilakukan angiografi arteri serebral ditemukan gambaran pembentukan kolateral seperti jaringan halus menyerupai gumpalan asap (puff-of-smoke appearance). Dokter berkesimpulan patologi penyakitnya adalah.. (moya-moya disease)",
+      "options": [
+        "Atherosclerosis",
+        "Small vessel disease",
+        "Unruptured aneurysm",
+        "Arteriovenous malformation",
+        "Steno-occlusive intracranial vessel disease"
+      ],
+      "answer_index": 4,
+      "explanation": "Moyamoya disease is characterized by stenosis/occlusion of intracranial arteries, especially the distal internal carotid circulation, with collateral vessels producing a puff-of-smoke angiographic appearance.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0129-0134"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q22",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q22",
+      "question": "Obat antipsikotik dibagi dalaim dua kelompok: yaitu Tipikal {first-generation antipsychotics') dan Atipikal (second-generation antipsychotics). Tentukan pernyataan dibawah ini yang tidak tepat terkait MoA (mekanisme of actione) dari kedua kelompok obat tersebut. Baca farmakokinetiknya tololl",
+      "options": [
+        "Antipsikotik atipikal juga menghambat reseptor 5-HT2C, histamin, alfa-adrenergik, dan muskarinik",
+        "Antipsikotik atipikal menghambat reseptor dopamin D2 dan reseptor 5-HT2A",
+        "Antipsikotik tipikal berikatan pada sedikit reseptor D2",
+        "Antipsikotik tipikal low-potency menghambat reseptor D2 serta sebagian reseptor alfa-adrenergik, kolinergik, dan histamin",
+        "Antipsikotik tipikal terutama menghambat reseptor dopamin D2 pada jalur dopamin"
+      ],
+      "answer_index": 2,
+      "explanation": "Typical antipsychotics primarily exert effects through D2 receptor antagonism; saying they bind only a small number of D2 receptors is the least accurate statement.",
+      "difficulty": "exam_recall",
+      "confidence": "medium",
+      "source_line_range": "source lines 0135-0140"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q23",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q23",
+      "question": "Seorang laki-laki 60tahun; bangun tidurjam 05.00 pagi mendadak lemah Ya badan sebelah kanan. tidak bisa biicara dan tetapi masih mengerti perintah. Sakit kepala (-), muntah (-). Riwayat penyakit sebelumnya DM dan hipertensi yang tidak terkontrol. TD 190/90 mmHg, kesadaran CMC, parese n. VII dan XII kanan tipe central motorik 111/555, Refleks babinsky +/- Manakah jawaban di bawah ini yang paling mungkin sebagai penanganan fase akut pada penderrta ini?",
+      "options": [
+        "Tekanan darah diturunkan dengan antihipertensi",
+        "Diberikan infus glukosa 5%",
+        "Diberikan antitrombus",
+        "Berikan steroid",
+        "Diberikan neuroprotektan dan vitamin neurotropik"
+      ],
+      "answer_index": 2,
+      "explanation": "The presentation is most compatible with acute ischemic stroke. Antithrombotic therapy is the most plausible listed acute-phase management after hemorrhage is excluded; routine steroid or glucose infusion is not appropriate.",
+      "difficulty": "exam_recall",
+      "confidence": "medium",
+      "source_line_range": "source lines 0141-0147"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q24",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q24",
+      "question": "Tractus which carries information, which originates from outside the body (indicates ascending pathway=sensorik), such as pain and temperature is..",
+      "options": [
+        "Spinocerebellar tract",
+        "Spinothalamic anterior tract",
+        "Corticospinal tract",
+        "Spinovestibular tract",
+        "Spinothalamic lateral tract"
+      ],
+      "answer_index": 4,
+      "explanation": "Pain and temperature are carried mainly by the lateral spinothalamic tract, an ascending sensory pathway.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0148-0153"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q25",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q25",
+      "question": "Mechanism of action (MoA) obat golongan SSRI adalah dengan cara:",
+      "options": [
+        "Merangsang pelepasan 5-HT",
+        "Menghambat pelepasan 5-HT",
+        "Mengubah triptofan menjadi 5-HT",
+        "Menghambat serotonin transporter/SERT",
+        "Meningkatkan reuptake 5-HT ke presinaps"
+      ],
+      "answer_index": 3,
+      "explanation": "SSRIs inhibit the serotonin transporter (SERT), thereby reducing reuptake of serotonin into the presynaptic neuron.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0154-0159"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q26",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q26",
+      "question": "Jenis amnesia yang paling sering terjadi pada kasus amnesia pasca trauma adalah?",
+      "options": [
+        "Amnesia menyeluruh sekejap",
+        "Transient global amnesia",
+        "Amnesia lakunar",
+        "Amnesia anterograde",
+        "Amnesia retrograde"
+      ],
+      "answer_index": 3,
+      "explanation": "Post-traumatic amnesia most directly refers to impaired formation of new memories after the injury, i.e., anterograde amnesia.",
+      "difficulty": "exam_recall",
+      "confidence": "medium",
+      "source_line_range": "source lines 0160-0166"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q27",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q27",
+      "question": "Pernyataan yang benartentang meningioma..",
+      "options": [
+        "Puncak usia 30-70 tahun",
+        "Tumor tumbuh sangat cepat dan progresif",
+        "Merupakan tumor otak sekunder",
+        "Insiden banyak terjadi pada laki-laki",
+        "Berasal dari jaringan otak non-glial"
+      ],
+      "answer_index": 4,
+      "explanation": "Meningioma is usually an extra-axial tumor arising from meningothelial/arachnoid cap cells and is non-glial; it is generally slow-growing and more common in women.",
+      "difficulty": "exam_recall",
+      "confidence": "medium",
+      "source_line_range": "source lines 0167-0172"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q28",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q28",
+      "question": "Anto usia 69 tahun datang dibawa anaknya ke RS dengan keluhan sering lupa; terutama pada hal-hal yang baru sejak 1 tahun terakhir. Keluhan ini dikatakan semakin lama semakin memberat. Pasien tidak ada riwayat hipertensi, stroke dan DM sebelumnya. Pada pemeriksaan fisik tidak ditemukan defisit neurologis. Apakah diagnosis yang paling mungkin?",
+      "options": [
+        "Demensia vaskular",
+        "Demensia Alzheimer",
+        "Mild cognitive impairment",
+        "Demensia frontotemporal",
+        "Demensia Lewy body"
+      ],
+      "answer_index": 1,
+      "explanation": "Progressive recent-memory impairment over more than 6 months without focal neurologic deficits or vascular history most strongly supports Alzheimer dementia.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0173-0178"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q29",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q29",
+      "question": "The true statements about descending pathway is...",
+      "options": [
+        "Axons enter spinal cord from posterior root ganglion",
+        "Fibers arise from postcentral gyrus",
+        "Pathway carries information from skin, muscle, and tendon receptors",
+        "Fibers arise as axons of pyramidal cells from the fifth cortical layer",
+        "Pathway carries exteroceptive and proprioceptive information"
+      ],
+      "answer_index": 3,
+      "explanation": "Descending corticospinal pathways arise from pyramidal cells in layer V of the cerebral cortex, especially motor cortex.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0179-0184"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q30",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q30",
+      "question": "Seorang pasien wanita, 20 tahun dibawa ke IGD dengan keluhan lemah keempat anggota gerak sejak tadi pagi. Ini adalah kejadian kelemahan yang ketiga kalinya dan penderita telah dirawat dua kali dengan keluhan yang sama. Tidak hal-hal yang dapt menyebabkan kekambuhannya. Peirnah ia dinasehatkan agar tidak banyak makan makanan yang banyak mengdandung karbohidrat terutama malam hari. Dari pemeriksaan fisik di IGD didapatkan kekuatan otot lengan 3/3/3 dan tungkai 2/2/2. tidak ada gamgguang sesorik. otonom reflek fisiologis dalam batas normal. Penderita sadar, kooperatif dan vitas sign normal. Topik lesi pada kasus diatas terjadi pada... dx: multiple sclerosis tipe relaps-remitting",
+      "options": [
+        "Neuromuscular junction",
+        "Channel ion otot",
+        "Radiks medulla spinalis",
+        "Nervus spinalis",
+        "Motor neuron"
+      ],
+      "answer_index": 1,
+      "explanation": "Recurrent flaccid weakness triggered by high-carbohydrate intake with no sensory deficit suggests periodic paralysis, a skeletal muscle ion-channel disorder.",
+      "difficulty": "exam_recall",
+      "confidence": "medium",
+      "source_line_range": "source lines 0185-0191"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q31",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q31",
+      "question": "Seorang ibu 60 tahun datang dengan keluhan tiba-tiba waktu mencuci mengeluh nyeri kepala hebat pusing, badan sebelah kiri lemah hingga jatuh, kesadaran menurun. pada pemeriksaan Tekanan darah 160/90. kesadaran somnollens, kaku kuduk (+), babinski kiri (+) funduskopi tampak perdarahan subhyaloid. Pemeriksaan fisik yang paling menunjang diagnosis pasien adalah: dx: perdarahan subarachnoid",
+      "options": [
+        "Refleks Babinski",
+        "Kaku kuduk dan funduskopi",
+        "Kesadaran somnolen",
+        "Hipertensi",
+        "Hemiparesis sinistra"
+      ],
+      "answer_index": 1,
+      "explanation": "Thunderclap headache, depressed consciousness, neck stiffness, and subhyaloid hemorrhage on funduscopy support subarachnoid hemorrhage.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0192-0197"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q32",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q32",
+      "question": "Yang termasuk kedalam kelompok Gangguan penggunaan zat (Substance Use Disoder) adalah: eksperiemntal, adikisi, situsional,",
+      "options": [
+        "Intoksikasi zat",
+        "Psikotik akibat penggunaan zat",
+        "Insomnia",
+        "Putus zat",
+        "Ketergantungan zat"
+      ],
+      "answer_index": 4,
+      "explanation": "Within substance-related disorders, dependence/addiction is the core substance-use disorder; intoxication and withdrawal are substance-induced states.",
+      "difficulty": "exam_recall",
+      "confidence": "medium",
+      "source_line_range": "source lines 0198-0204"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q33",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q33",
+      "question": "Laki-laki Tn. B, 69 tahun mengalami gangguan dalam daya ingatnya. ia tidak mengenal istri dan anaknya sendiri. Penurunan daya ingat ini sudah terjadi secara bertahap, dimana sebelumnya Tn. B sering lupa tempat ia meletakkan benda-bendanya seperti letak kunci mobil. Tn. B juga tidak mengenali bahwa yang dipegangnya ditangannya adalah sendok. Apa istilah ketika Tn. B yang tidak mengenal yang dipegangnya sendok? Ppt internet",
+      "options": [
+        "Agnosia",
+        "Abulia",
+        "Amnesia",
+        "Ataksia",
+        "Apraksia"
+      ],
+      "answer_index": 0,
+      "explanation": "Failure to recognize an object despite holding it is agnosia.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0205-0210"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q34",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q34",
+      "question": "Seorang pria 35 tahun dibawa ke IGD oleh keluarga dengan keluhan utama nyeri kepala sejak 2 jam yll. Keluhan disertai kelemahan anggota gerak kanan, mulut mencong dan bicara pelo saat istirahat Pasien sedang dalam kemoterapi atas indikasi leukimia Pasien merupakan pegawai sebuah Bank, dengan stressor yang tinggi. Ibu pasien menderita gagal ginjal kronis akibat hipertensi Pada pemeriksaan neurologi ditemukan GCS 15, TD 120/80, nadi 80x reguler, pupil isokor 3 mm/3mm, Rc+/+, parese N. VII dan XII kanan tipe sentral. Anamnesis yang paling tepat ditanyakan pada pasien untuk mengetahui faktor resiiko penyakitnya adalah..",
+      "options": [
+        "Riwayat penyakit ibu pasien",
+        "Riwayat menderita leukemia",
+        "Riwayat pekerjaan",
+        "Kelemahan anggota gerak kanan, mulut mencong, dan bicara pelo saat istirahat",
+        "Onset 2 jam"
+      ],
+      "answer_index": 1,
+      "explanation": "Leukemia and chemotherapy can relate to hypercoagulability/vascular risk in a young stroke presentation, making it the most relevant risk-factor history among the options.",
+      "difficulty": "exam_recall",
+      "confidence": "medium",
+      "source_line_range": "source lines 0211-0216"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q35",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q35",
+      "question": "Monoamine hypothesis adalah suatu teori yang dikenal sebagai dasar dari penyebab depresi. Dalam hipotesa ini disebutkan neurotransmitter yang berperan dalam terjadinya depresi, adalah:",
+      "options": [
+        "Serotonin, adrenergik, epinefrin",
+        "Dopamin, serotonin, norepinefrin",
+        "Histamin, serotonin, epinefrin",
+        "Semua benar",
+        "Norepinefrin, epinefrin, serotonin"
+      ],
+      "answer_index": 1,
+      "explanation": "The monoamine hypothesis of depression emphasizes reduced serotonin, norepinephrine, and dopamine signaling.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0217-0222"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q36",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q36",
+      "question": "Seorang satpam laki-laki 56 tahun dibawa kerumah sakit pukul 14.00 mendadak 1 jam sebelumnya mengeluh mulut terasa kebas, mulut mencong, mata kiri kabur, dan bicara kurang dimengerti. Selama 2 tahun ini berobat di poliklinik kantornya. Rada pemeriksaan ditemukan tekanan darah 160/90, denyut jantung 110x/menit: nadi 98x/menit ireguler. selanjutnya penderita dirawat dibangsal. Kemudian sore hari gejala sudah hilang. Kemungkinan penyakit yang dideritanya adalah:",
+      "options": [
+        "TIA sistem karotis",
+        "Perdarahan intraserebral",
+        "TIA vertebrobasilar",
+        "Emboli serebri",
+        "Reversible ischemic neurologic deficit"
+      ],
+      "answer_index": 0,
+      "explanation": "Transient unilateral facial/speech symptoms and monocular visual complaint resolving within hours are most compatible with carotid-system TIA.",
+      "difficulty": "exam_recall",
+      "confidence": "medium",
+      "source_line_range": "source lines 0223-0228"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q37",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q37",
+      "question": "Seorang laki-laki umur 60thn dibawa ke UGD sebuah RS krn tiba-tiba mengeluh lemah anggota gerak kanan disertai penurunan kesadaran.Saat anamnesis thd keluarga pasien didapat kejadian tersebut saat penderita sedang disawah, selain lemah anggota gerak kanan penderita merasakan sakit kepala yang diikuti muntah 2 kali. Setelah itu penderita tidak sadar dan sulit diajalk bicara. Rada pemeriksaan didapatkan TD didapat 200/120. pemeriksaan neurologis: Kelemahan pada lengan dan tungkai kanam bila dipanggil penderita ini tidak beraksi tetapi bila dirangsang nyerii penderita membuka mata.dan dapat melokalisir nyeri dan menepis, tetapi hanya dapat mengerang. Diagnosis pasien?",
+      "options": [
+        "Stroke hemoragik",
+        "Bukan vaskuler",
+        "Infeksi otak",
+        "Stroke non-hemoragik",
+        "Tumor otak"
+      ],
+      "answer_index": 0,
+      "explanation": "Sudden focal deficit with severe headache, vomiting, loss of consciousness, and very high blood pressure suggests hemorrhagic stroke.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0229-0235"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q38",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q38",
+      "question": "Kelainan fungsi otak akibat kekurangan vitamin B1 adalah?",
+      "options": [
+        "Amnesia lakunar",
+        "Amnesia anterograde",
+        "Transient global amnesia",
+        "Sindrom Wernicke-Korsakoff",
+        "Amnesia emosional"
+      ],
+      "answer_index": 3,
+      "explanation": "Thiamine/vitamin B1 deficiency can cause Wernicke encephalopathy and Korsakoff amnestic syndrome.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0236-0241"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q39",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q39",
+      "question": "Berikut ini beberapa efek samping obat antipsikotik pada SSP kecuali:",
+      "options": [
+        "Akatisia",
+        "Hipotensi ortostatik",
+        "Diskinesia",
+        "Pseudoparkinsonisme",
+        "Distonia"
+      ],
+      "answer_index": 1,
+      "explanation": "Akathisia, dyskinesia, pseudoparkinsonism, and dystonia are central extrapyramidal adverse effects. Orthostatic hypotension is primarily autonomic/cardiovascular.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0242-0247"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q40",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q40",
+      "question": "Dalam menegakkan diagnosis ensefalopati; kriteria yang paling penting dan harus ada adalah:",
+      "options": [
+        "Gangguan memori",
+        "Apraksia",
+        "Perubahan status mental/altered mental state",
+        "Defisit neurologi",
+        "Seizure"
+      ],
+      "answer_index": 2,
+      "explanation": "The essential feature of encephalopathy is altered mental status; other findings may accompany it but are not required in every case.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0248-0253"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q41",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q41",
+      "question": "The right statements about ganglia basal: except..",
+      "options": [
+        "Principal nuclei include corpus striatum, caudate, putamen, and globus pallidus",
+        "Basal ganglia are part of the extrapyramidal motor system",
+        "This system processes information from vestibular, proprioceptive, and motor systems",
+        "This region involves dopaminergic pathways",
+        "It has an important role in initiation and modulation of movement"
+      ],
+      "answer_index": 2,
+      "explanation": "Vestibular and proprioceptive integration is more characteristic of cerebellar/postural systems; basal ganglia are extrapyramidal structures involved in movement modulation and dopaminergic circuits.",
+      "difficulty": "exam_recall",
+      "confidence": "medium",
+      "source_line_range": "source lines 0254-0259"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q42",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q42",
+      "question": "Seorang anak wanita berusia 1 tahun datang ke poliklinik saraf diantar oleh ibunya dengan keluhan sering melamun. Pasien berkali-kali tampak melamun baik di sekolah maupun di rumah, dan prestasi belajarnya menurun Riwayat kelahiran: persalman, dan tumbuh kembang dalam batas normal. Riwayat sakit sebelumnya tidak ada. Pemeriksaan fisik dan neurologis dalam batas normal. Setelah di EEG tampak gambaran epileptiform berupa 3 Hz Spike and wave. tatalalksana yang tepat untuk anak tersebut..",
+      "options": [
+        "Karbamazepin",
+        "Fenitoin",
+        "Topiramat",
+        "Luminal/fenobarbital",
+        "Asam valproat atau lamotrigin"
+      ],
+      "answer_index": 4,
+      "explanation": "Absence epilepsy with 3-Hz spike-and-wave discharges is treated with agents such as valproate, ethosuximide, or lamotrigine; valproate/lamotrigine is the best available option.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0260-0266"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q43",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q43",
+      "question": "Ny A membawa anaknya An.B(10 tahun) ke RS dengan keluhan ada benjolan di leher. Ny.A yakin betul bahwa anaknya terkena kanker tenggorokan. Dokter memeriksakan kondisi anak tersebut dan melakukan pemeriksaan penunjang. Dokter mengatakan bahwa anak tersebut tidak terkena kanker tenggorokan dan benjolan tersebut hanyalah kelenjar getah bening yang membesar akibat faringitis. Walaupun dokter sudah menjelaskan anak tersebut tidak apa-apa: Ny.A tetap bersih keras kalau anaknya terkena kanker tenggorokan . Rada kasus diatas ibu tersebut mengalami gangguan jiwa",
+      "options": [
+        "Somatic symptom disorder",
+        "Illness anxiety disorder",
+        "Factitious disorder imposed on another",
+        "Psikosis",
+        "Skizofrenia"
+      ],
+      "answer_index": 1,
+      "explanation": "Persistent belief and anxiety about serious illness despite reassurance, without evidence of deliberate falsification, is closest to illness anxiety disorder.",
+      "difficulty": "exam_recall",
+      "confidence": "medium",
+      "source_line_range": "source lines 0267-0274"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q44",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q44",
+      "question": "Penderita anak perempuan 5 tahun dibawa ibunya berobat ke puskesmas dengan keluhan sering tampak bengong, tidak menyahut dipanggil 2-3 detik. Kelopak mate kedik-kedip setelah 3 detik anak kembali normal waktu ditanya anak menjawab bahwa dia tidak tahu ada serangan. Keluhan sudah sering berulang dalam 2 bulan terakhir. Serangan ini adalah",
+      "options": [
+        "Epilepsi tonik-klonik",
+        "Epilepsi mioklonik",
+        "Epilepsi absans",
+        "Epilepsi atonik",
+        "Psychogenic seizure"
+      ],
+      "answer_index": 2,
+      "explanation": "Brief staring spells with eyelid blinking, rapid recovery, and no awareness of the event are typical of absence seizures.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0275-0280"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q45",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q45",
+      "question": "Jenis NAPZA yang dapat menimbulkan efek halusinasi dan merubah perasaan. pikiran serta seringkali menciptakan daya pandang yang berbeda sehingga seluruh perasaan dapat terganggu, tidak digunakan dalam tempi medis. Contoh NAPZA jenis ini adalah: babi ni he",
+      "options": [
+        "Ganja/kanabis",
+        "Morfin",
+        "Kodein",
+        "Amfetamin",
+        "Heroin"
+      ],
+      "answer_index": 0,
+      "explanation": "Cannabis can produce perceptual changes/hallucinogenic effects and is listed in Indonesian narcotic grouping; among the options it best matches the described hallucinogen-like NAPZA category.",
+      "difficulty": "exam_recall",
+      "confidence": "medium",
+      "source_line_range": "source lines 0281-0286"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q46",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q46",
+      "question": "Seorang laki-laki 25 tahun mengalamii KLL saat mengendarai sepeda motor 1 jam yll. mengalami penurunan kesadaran saat di lokasi kejadian. Tampak Iuka robek di area pelipis kanan. Saat tiba di IGD pasien sempat sadar 5 menit kemudian tidak sadar kembali. dari pemeriksaan fisik ditemukan kesadaran soporous GCS 8, pupil anisokor 4mm/2mm; R. cahaya +/+. Hemiparese sinistra, babinsky (+). Hasil pemeriksaan CT Scan sbb: Kemungkinan diagnosa pasien adalah",
+      "options": [
+        "Perdarahan intraserebral",
+        "Subarachnoid hematoma",
+        "Epidural hematoma",
+        "Subdural hematoma",
+        "Kontusio serebri"
+      ],
+      "answer_index": 2,
+      "explanation": "A lucid interval after head trauma with anisocoria and hemiparesis suggests epidural hematoma; the embedded CT image shows an extra-axial convex hyperdense collection.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0287-0293"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q47",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q47",
+      "question": "Seorang laki-laki 60 tahun dibawa ke IGD karena megalami kelemahan anggota gerak kiri sejak 3 hari ini berangsur-angsur. Disertai nyeri kepala. banyak mengaintuk dan kurang nyambung jika berkomunikasi. 14 hari sebelumnya pasien jatuh dikamar mandi dengan kepala membentur binding. Dari pemeriksaan fisik ditemukan kesadaran Somnolen GCS 13, pupil anisokor4mm/2mm; R. cahaya +/+, Hemiparese sinistra, babinsky (+). Hasil pemeriksaan GT Scan ditemukan gambaran perdarahan seperti bulan sabit di parietal kanan. Kemungkinan etiologi penyakit diatas adalah",
+      "options": [
+        "Ruptur arteri meningea media",
+        "Ruptur arteri di ruang subaraknoid",
+        "Ruptur aneurisma berry",
+        "Ruptur arteri serebri media",
+        "Ruptur bridging vein"
+      ],
+      "answer_index": 4,
+      "explanation": "A crescent-shaped subdural hematoma after trauma is classically caused by tearing of bridging veins.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0294-0300"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q48",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q48",
+      "question": "Seorang wanita 50 tahun dibawa ke IGD RS. Rd Mattaher dg keluhan penurunan kesadaran tiba-tiba sejak 2 Jam SMRS. menurut keluarga sebelum tidak sadar pasien mengeluh nyeri kepala dan muntah menyemprot. Pasien sudah lama berobat Hipertensi namum kurang teratur. Pasien adalah ibu rumah tangga dengan anak berjumlah 5 orang. Pasien waktu mud a pemati minum obat KB hormonal, dari pemeriksaan fisik ditemukan kesadaran GCS 5, pupil anisokor 5/3 mm. bemiparese sinistra, Eiabinsky dari CT scan didapatkan sbb: Faktor resiko yang paling mempengarubi patologi penyakit diatas adalah:",
+      "options": [
+        "Jenis kelamin",
+        "Usia",
+        "Pil KB",
+        "Hipertensi",
+        "Pekerjaan"
+      ],
+      "answer_index": 3,
+      "explanation": "The CT image and presentation suggest intracerebral hemorrhage; chronic uncontrolled hypertension is the dominant risk factor among the options.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0301-0307"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q49",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q49",
+      "question": "Lobus otak yang berfungsi mengatur perilaku, bahasa dan eksekutif adalah",
+      "options": [
+        "Insula",
+        "Oksipital",
+        "Frontal",
+        "Parietal",
+        "Temporal"
+      ],
+      "answer_index": 2,
+      "explanation": "The frontal lobe is central to executive function, behavior regulation, and aspects of language production.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0308-0313"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q50",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q50",
+      "question": "Seorang wanita 50 tahun mengalami kelemahan anggota gerak kanan nya tiba-tiba sejak 1 jam yll, keluhan disertai mulut mencong dan bicara pelo. Pasien sudah lama menderita Diabetes Mellitus. Traktus yang terganggu pada gejala kelemahan anggota gerak kanan adalah:",
+      "options": [
+        "Traktus spinotalamikus lateral",
+        "Traktus kortikospinal",
+        "Traktus spinoserebelum",
+        "Traktus ekstrapiramidal",
+        "Traktus spinotalamikus anterior"
+      ],
+      "answer_index": 1,
+      "explanation": "Motor weakness from an upper motor neuron stroke involves the corticospinal tract.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0314-0319"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q51",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q51",
+      "question": "Seorang ibu 40 tahun datang dengan keluhan tiba-tiba waktu mencuci mengeluh nyeri kepala hebat pusing, badan sebelah kiri lemah hingga jatuh. kesadaran menurun. pada pemeriksaan Tekanan darah: 160/90. kesadaran somnollens, kaku kuduk (+), babinski kiri (+) funduskopi tampak perdarahan subhyaloid. Diagnosa penderita ini:",
+      "options": [
+        "Perdarahan serebelum",
+        "Perdarahan intraserebral",
+        "Perdarahan subaraknoid",
+        "Wallenberg syndrome dengan lesi batang otak",
+        "Trombosis serebri"
+      ],
+      "answer_index": 2,
+      "explanation": "Sudden severe headache, depressed consciousness, neck stiffness, and subhyaloid hemorrhage point to subarachnoid hemorrhage.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0320-0325"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q52",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q52",
+      "question": "Pasien datang dengan keluhan bicara sendiri. bicara tidak nyambung sejak satu tahun yang lain dan sering sakit perut. Kemudian dokter niendiiagnosis pasien mengalami gangguan skizofrenia. retardasi mental dan dipepsia. Axis 1 pada penyakit ini?",
+      "options": [
+        "Skizofrenia",
+        "Dispepsia",
+        "Skizofrenia dengan retardasi mental",
+        "Retardasi mental",
+        "Semua benar"
+      ],
+      "answer_index": 0,
+      "explanation": "In multiaxial diagnosis, the primary psychiatric syndrome such as schizophrenia is placed on Axis I; intellectual disability/retardation is Axis II and medical illness is Axis III.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0326-0332"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q53",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q53",
+      "question": "Seorang laki-laki umur 60 thn dibawa ke UGD sebuah RS krn tiba-tiba mengeluh lemah anggota gerak kanan disertai penurunan kesadaran.Saat anamnesis thd keluarga pasien didapat kejadian tersebut saat penderita sedang disawah, selain lemah anggota gerak kanan penderita merasakan sakit kepala yang diikuti muntah 2 kali. Setelah itu penderita tidak sadar dan sulit diajak bicara. Rada pemeriksaan didapatkan TD didapat 200/120. pemeriksaan neurologis: Kelemahan pada lengan dan tungkai kanam bila dipanggil penderita ini tidak beraksi tetapi bila dirangsang nyerii penderita menibuka mata.dan dapat melokalisir nyeri dan menepis, tetapi hanya dapat mengerang. E2M5V2",
+      "options": [
+        "7",
+        "10",
+        "11",
+        "8",
+        "9"
+      ],
+      "answer_index": 4,
+      "explanation": "GCS E2 + M5 + V2 equals 9.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0333-0338"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q54",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q54",
+      "question": "Seorang laki-laki usia 36 tahun datang ke puskesmas dengan keluhain: sakit kepala. Pada pemeriksaan Anamnese didapatkan bahwa keluhan ini sudah dirasakan sejak 1 tahun dan semakin memberat pada 2 bln terakhir. Biasanya bila sakit kepala makan obat sakit kepala diwarung bisa berkurang sakitnya. Saat ini hams makan 2 tablet bam berkurang tetapi dengan cepat kambuh lagi. Gejala Ini pada 2 bln terakhir disertai oyong dan rasa berputar bicara pelo, sulit mengambil barang dan sering muntah dii pagi hari. Apakah diagnosis yang paling tepat:",
+      "options": [
+        "Tumor otak di lobus temporalis",
+        "Tumor otak di serebelum",
+        "Tumor otak di lobus frontalis",
+        "Tumor otak di lobus oksipitalis",
+        "Tumor otak di lobus parietal"
+      ],
+      "answer_index": 1,
+      "explanation": "Progressive headache with vertigo, dysarthria, ataxic difficulty reaching objects, and morning vomiting suggests posterior fossa/cerebellar tumor.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0339-0344"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q55",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q55",
+      "question": "Seorang wanita 30 tahun pegawai bank mengeluh tak bisa bekerja di rumahnya karena nyeri kepala berdenyut di kepala sebelah kiri sejak 1 hari ylll. Nyerinya begitu hebat sehingga terpaksa dibawa tidur: disertai mual dan muntah. Nyeri meningkat jika dibawa bekerja dan melihat cahaya terang. Sebelum nyeri kepala muncul pasien merasa melihat kelipan cahaya selama kurang lebih 30 menit Terapi abortive spesifik Ikasus diatas adalah",
+      "options": [
+        "Sumatriptan 6 mg subkutan",
+        "Metilprednisolon 8 mg oral",
+        "Asam valproat 500 mg",
+        "Ibuprofen 400 mg oral",
+        "Ketorolac 30-60 mg intravena"
+      ],
+      "answer_index": 0,
+      "explanation": "For migraine with aura, a specific abortive agent is a triptan; subcutaneous sumatriptan is the best option listed.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0345-0351"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q56",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q56",
+      "question": "Sesuatu gangguan yang ditandai adanya 1 atau lebih gejala neurologis (sebagai contohnya paralisis, kebutaan. parastesia) yang tidak dapat dijelaskan oleh gangguan neurologis atau medis yang diketahui menurut DSM IV merupakan pengertian dari..",
+      "options": [
+        "Gangguan konversi",
+        "Gangguan somatisasi",
+        "Hipokondriasis",
+        "Gangguan panik",
+        "Gangguan cemas menyeluruh"
+      ],
+      "answer_index": 0,
+      "explanation": "Neurologic symptoms such as paralysis or blindness not explained by a known neurologic/medical disorder define conversion disorder/functional neurologic symptom disorder.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0352-0357"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q57",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q57",
+      "question": "Sistem saraf fungsional utama yang memegang peranan terpenting dalam pengarturan kesadaran adalah..",
+      "options": [
+        "Formasio retikularis dan hemisfer serebri bilateral",
+        "Serebelum",
+        "Medulla oblongata",
+        "Formasio retikularis dan hipotalamus",
+        "Pons"
+      ],
+      "answer_index": 0,
+      "explanation": "Consciousness depends on the ascending reticular activating system and bilateral cerebral hemispheric function.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0358-0363"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q58",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q58",
+      "question": "Laki-laki Tin B, 69 tahun mengalami gangguan dalam daya ingatnya. ia tidak mengenal istri dan anaknya sendiri. Penurunan daya ingat ini sudah terjadi secara bertahap, dimana sebelumnya Tn. B sering lupa tempat ia meletakkan benda-bendanya seperti letak kunci mobil. Tn. B juga tidak mengenali bahwa yang dipegangnya ditangannya adalah sendok. Apa terapi farmakologis Tn. B...",
+      "options": [
+        "Haloperidol, benzodiazepin, antidepresan",
+        "Alprazolam, antidepresan",
+        "Stelazine, antidepresan",
+        "Sertralin, antidepresan",
+        "Donepezil atau rivastigmin"
+      ],
+      "answer_index": 4,
+      "explanation": "Cholinesterase inhibitors such as donepezil and rivastigmine are used for symptomatic pharmacologic treatment of Alzheimer dementia.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0364-0369"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q59",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q59",
+      "question": "Penderita anak perempuan 5 tahun dibawa ibunya berobat ke puskesmas dengan keluhan sering tampak bengong, tidak menyahut dipanggil 2-3 detik. Kelopak mate kedik-kedip setelah 3 detik anak kembali normal waktu ditanya anak menjawab bahwa dia tidak tahu ada serangan. Keluhan sudah sering berulang dalam 2 bulan terakhir Pemeriksaan penunjang yang paling tepat untuk menegakkan diagnosa adalah:",
+      "options": [
+        "Lumbal pungsi",
+        "CT scan tanpa kontras",
+        "EEG",
+        "EMG",
+        "Pemeriksaan elektrolit darah"
+      ],
+      "answer_index": 2,
+      "explanation": "EEG is the most appropriate test to support diagnosis of absence seizures, typically showing generalized 3-Hz spike-and-wave discharges.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0370-0375"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q60",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q60",
+      "question": "Paul adalah seorang pria berusia 35tahun yang terlibat dalam kecelakaan lalu lintas dijalan raya. Dia menderita cedera kepala mayor, GCS 3/15, Amnesia Pasca-Trauma selama 14 hari dan menghabiskan 6 minggu sebagai rawat inap di bangsal. Setelah dipulangkan, keluarga paul menyadari adanya perubahan perilaku pada paul seperti agresif dan mudah marah. Setelah di CT scan, didapatkan adanya lesi pada suatu bagian di otak paul. Bagian otak mana yang diduga menjadi penyebab perubahan perilaku Paul...",
+      "options": [
+        "Girus sentralis",
+        "Lobus frontalis",
+        "Hipokampus",
+        "Hipotalamus",
+        "Lobus oksipitalis"
+      ],
+      "answer_index": 1,
+      "explanation": "Aggression, irritability, disinhibition, and personality change after traumatic brain injury are associated with frontal lobe injury.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0376-0381"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q61",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q61",
+      "question": "Dalam UU no.35 tahun 2009 tentang Narkotika. Narkotika golongan 2 adalah yang dapat digunakan dalam pengbatan dan pengembangan ilmu pengetahuan. Yang termasulk kelompok ini adalah:",
+      "options": [
+        "Heroin",
+        "Kokain",
+        "Ganja",
+        "Petidin",
+        "Kodein"
+      ],
+      "answer_index": 3,
+      "explanation": "In the Indonesian narcotics framework, pethidine/petidin is a narcotic used medically and is classically included in the group usable for treatment and science.",
+      "difficulty": "exam_recall",
+      "confidence": "medium",
+      "source_line_range": "source lines 0382-0387"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q62",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q62",
+      "question": "Merasadiri penting, mempertahankan hak pribadi yang tidak sesuai dengan gigih; pendendam dan mencurigai sikap netral orang lain merupakan gambaran:",
+      "options": [
+        "Gangguan kepribadian ambang/borderline",
+        "Gangguan kepribadian paranoid",
+        "Gangguan kepribadian antisosial",
+        "Gangguan kepribadian histrionik",
+        "Gangguan kepribadian skizoid"
+      ],
+      "answer_index": 1,
+      "explanation": "Suspiciousness, holding grudges, interpreting neutral actions as hostile, and rigid defense of personal rights fit paranoid personality disorder.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0388-0393"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q63",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q63",
+      "question": "Seorang wanita usia 58 tahun berobat ke poliklinik saraf dengan keluhan lumpuh wajah sebelah kanan sejak 1 hari yll: sebelumnya dirasakan nyeri pada telinga kanan. Demam tiidak ada Pasien merasakan kurang stabil dan bila mendengar suara lebih besar dari biasa. Riwayat infeksi pada telinga sebelumnya disangkal. Pada pemeriksaan wajah: kerutan pada dahi kanan berkurang waktu pasien mengernyitkan dahi; bersiul tidak bisa. Liang telinga kanan-kiri normal. Pemeriksaan fisik lainnya normal. Apa terapi farmakologis yang hams diberikan pada pasien...",
+      "options": [
+        "Preparat kalium",
+        "Asetilkolinesterase inhibitor",
+        "Kortikosteroid",
+        "IVIG",
+        "Plasmaferesis"
+      ],
+      "answer_index": 2,
+      "explanation": "Acute peripheral facial nerve palsy/Bell palsy is treated pharmacologically with corticosteroids early in the course.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0394-0399"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q64",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q64",
+      "question": "Rada pasien dengan gangguan jiwa: pikirannya selalu preokupasi tentang penyakitnya dan kekhawatiran akan kematian karena penyakitnya yang tidak jelas dan tidak sembuh-sembuh (waham) Gejala diatas merupakan gangguan dari:",
+      "options": [
+        "Jalan pikir",
+        "Bentuk pikir",
+        "Isi pikir",
+        "Isi mood",
+        "Bentuk afek"
+      ],
+      "answer_index": 2,
+      "explanation": "A delusional preoccupation about illness/death is a disturbance of thought content (isi pikir).",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0400-0405"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q65",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q65",
+      "question": "Seorang wanita 25 tahun dengan kehamilan berusia 8 minggu berobat ke poliklinik saraf dengan keluhan kejang seluruh tubuh yang sudah dialamii sejak 3 tahun terakhir. la mengalami kejang tiba-tiba dimana keempat anggota geraknya kaku selama 2 menit, disertai mulut berbusa dan nafas ngorok. Setelah itu pasien lemas dan kesadarannya menurun. Dalam 1 bulan frekuensi kejang semakin sering karena tidak makan obat teratur. Tidalk ada keluarga yang menderita penyakit yang sama dengan pasien. Diagnosis pada pasien ini adalah:",
+      "options": [
+        "Epilepsi lobus temporal",
+        "Status epileptikus",
+        "Epilepsi parsial kompleks",
+        "Epilepsi petit mal",
+        "Epilepsi grand mal"
+      ],
+      "answer_index": 4,
+      "explanation": "Generalized tonic stiffening followed by impaired consciousness, foaming, and postictal state is a generalized tonic-clonic/grand mal seizure.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0406-0412"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q66",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q66",
+      "question": "Sulit buang air besar merupakan salah satu efek dari penggunaan zat",
+      "options": [
+        "Amfetamin",
+        "Opioid",
+        "Metamfetamin",
+        "LSD",
+        "Alkohol"
+      ],
+      "answer_index": 1,
+      "explanation": "Opioids commonly cause constipation by reducing gastrointestinal motility.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0413-0418"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q67",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q67",
+      "question": "Gejala klinis yang bukan manifestasi dari sindrom batang otak di Medulla oblongata adalah",
+      "options": [
+        "Gangguan sensibilitas eksteroseptif",
+        "Refleks muntah menghilang",
+        "Gangguan visual",
+        "Disartria",
+        "Disfonia"
+      ],
+      "answer_index": 2,
+      "explanation": "Medullary brainstem syndromes can involve sensory deficits, gag reflex, dysarthria, and dysphonia; primary visual disturbance localizes elsewhere.",
+      "difficulty": "exam_recall",
+      "confidence": "medium",
+      "source_line_range": "source lines 0419-0424"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q68",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q68",
+      "question": "Zat narkotika yang sering digunakan dalam praktek kedokteran sebagai analgetik kuat (“Pain killer”) adalah:",
+      "options": [
+        "Kokain",
+        "Benzodiazepin",
+        "Amfetamin",
+        "Opioid",
+        "Kanabinoid"
+      ],
+      "answer_index": 3,
+      "explanation": "Opioids are the narcotic analgesics used as strong pain killers in medical practice.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0425-0430"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q69",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q69",
+      "question": "Seorang laki laki 22 tahun dibawa ke IGD RS dengan keluhan nafas sesak dan lemah keempat anggota gerak sejak 1 minggu yang lalu. Lemah di mulai dari kedua kaki dan sejak 2 hari yang lalu kedua tangan juga ikut lemah. Mulai tadi pagi ia mengeluh nafasnya mulai sesak, dari kedua orang tuanya diketahui bahwa anaknya baru saja sembuh dari demarrr flu dan batuk kira kira 1 minggu sebelum kelemahan Dari pemeriksaan fisik diketahui, anak sadar terlihat sesak nafas, TD 90/50 mmHg, nadi 92 x/mnt regular, Nfs 30 x/mnt Kekuatan motorik kaki 1/1/1 ki=ka. tangan 2/2/2 ki=ka. gangguan sensorik tidak begitu jelas, Refleks fisiologi tidak ada; Reflek dinding perut + normal, Miksi dan Sekresi keringat normal. Diagnosis yang paling mungkin dari anak laki laki tersebut diatas adalah:",
+      "options": [
+        "Miastenia gravis",
+        "Sindrom Guillain-Barré",
+        "Miopati",
+        "Multiple sclerosis",
+        "Poliomielitis"
+      ],
+      "answer_index": 1,
+      "explanation": "Ascending weakness after infection, areflexia, autonomic features, and respiratory involvement are typical of Guillain-Barré syndrome.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0431-0437"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q70",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q70",
+      "question": "Seorang laki-laki 73 tahun, datang dengan keltiarganya, setelah pemeriksaan fisik dan wawancara, akhirnya ditegakkan diagnosis demensia Alzheimer. Apakah penatalaksanaan farmakologis untuk kasus ini?",
+      "options": [
+        "Haloperidol",
+        "Rivastigmin",
+        "Risperidon",
+        "Diazepam",
+        "Alprazolam"
+      ],
+      "answer_index": 1,
+      "explanation": "Rivastigmine is a cholinesterase inhibitor used in Alzheimer dementia; antipsychotics and benzodiazepines are not baseline cognitive treatment.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0438-0443"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q71",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q71",
+      "question": "3 hari yang lalu Ny. A usia 35 tahun mengalami kecelakaan lalu lintas yang menyebabkan kepalanya terbenturdashboard dan kehilangan kesadarain. Setelah sadar. Ny.A bisa beraktivitas kembali seperti biasanya seperti mandi: sarapan, memasak, dan bekerja. Namun setelah insiden kecelakaan tersebut Ny.A sering tidak ingat saat ditanya suaminya mengenai aktivitas apa saja yang telah ia lakukan 3 hari ini. Oleh karena itu suami Ny.A memutuskan untuk membawa Ny.A ke rumah sakit. Setelah diperiksa, ternyata diidapatkan bahwa Ny.A mengalami amnesia akibat trauma tumpul kepala. Berdasarkan skenario tersebut, jenis amnesia apa yang dialami Ny.A...",
+      "options": [
+        "Amnesia menyeluruh sekejap",
+        "Anterograde dan retrograde",
+        "Bukan salah satu di atas",
+        "Retrograde",
+        "Anterograde"
+      ],
+      "answer_index": 4,
+      "explanation": "The patient cannot remember new activities after the trauma, which is anterograde amnesia.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0444-0449"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q72",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q72",
+      "question": "Pasien yakin kalau tetangga selalu mengejek-ejek dan menghinanya sehingga pasien marah dan sering melempar rumah tetangganya. Hal tersebut diatas merupakan gejala dari",
+      "options": [
+        "Halusinasi",
+        "Waham",
+        "Ilusi",
+        "Emosi labil",
+        "Mood"
+      ],
+      "answer_index": 1,
+      "explanation": "A fixed false belief that neighbors are insulting him and acting against him is a delusion/waham.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0450-0455"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q73",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q73",
+      "question": "Seorang anak laki-laki umur 4 tahun berobat ke RS Karena panas dan kejang. Demam sejak 1 hari yll. Setelah panas pasien kejang seluruh tubuh, lama kejang 5 menit, kejang hanya sekali. Setelah kejang anak Sadar. Pemeriksaan fisik: Nampak seorang anak laki-laki umur 4 tahun, BB 16 kg,suhu tubuh 38°C. Kesadaran compos mentis. Pemeriksaan tenggorokan tampak merah dan bengkak. Jantung dan paru normal. Hepar lien tidak teraba. Apakah diagnosis yang paling sesuai?",
+      "options": [
+        "Kejang demam sederhana",
+        "Ensefalitis",
+        "Abses otak",
+        "Kejang demam kompleks",
+        "Meningoensefalitis"
+      ],
+      "answer_index": 0,
+      "explanation": "Generalized seizure lasting 5 minutes, occurring once with fever, followed by full recovery in a 4-year-old fits simple febrile seizure.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0456-0461"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q74",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q74",
+      "question": "Rada pasien delirium yang gaduli gelisah disertai waham dan halusinasi: maka ini dapat memberikan haloperidol secara IM dengan dosis..",
+      "options": [
+        "10 mg",
+        "0,5 mg",
+        "1 mg",
+        "5 mg",
+        "2,5 mg"
+      ],
+      "answer_index": 3,
+      "explanation": "For severe agitated delirium, intramuscular haloperidol is commonly given in small parenteral doses; 5 mg is the most likely intended single-dose answer in this source set.",
+      "difficulty": "exam_recall",
+      "confidence": "medium",
+      "source_line_range": "source lines 0462-0467"
+    },
+    {
+      "id": "quiz_batch3_pembahasan_2018_q75",
+      "domain": "batch3_pembahasan_mcq_6_3_neuropsikiatri",
+      "linked_content_id": "batch3_pembahasan_2018_q75",
+      "question": "Seorang wanita benisia 50 tahun mengeluh nyeri pinggang kanan yang menjalar sampai ke tungkai kanan sebelah luar. Nyeri dirasakan tiba-tiba, seperti tersengat listrik, terutama saat ia membungkuk, bersin atau batuk. Selain itu ia mengeluhkan rasa kebas pada bagian luar tungkai kanan dan sedikit lemah saat melangkah Dari riwayat terdahulu: ia diketahui menderita osteoporosis. Pemeriksaan fisik untuk menunjang diagnosis adalah",
+      "options": [
+        "Tes Romberg",
+        "Tes Tinel",
+        "Tes Flick",
+        "Tes Lasègue",
+        "Tes Tensilon"
+      ],
+      "answer_index": 3,
+      "explanation": "Low back pain radiating down the leg with cough/sneeze exacerbation suggests lumbar radiculopathy; the Lasègue/straight-leg-raise test supports this diagnosis.",
+      "difficulty": "exam_recall",
+      "confidence": "high",
+      "source_line_range": "source lines 0468-0474"
+    }
+  ]
+}

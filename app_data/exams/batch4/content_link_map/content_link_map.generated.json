@@ -1,0 +1,623 @@
+{
+  "links": [
+    {
+      "from_id": "batch4_soal_mcq_6_3_akt_19_tahun_2022",
+      "to_id": "page_exam_set_batch4_2022",
+      "link_type": "set_to_page",
+      "strength": "strong",
+      "notes": "Original exam set page for Batch 4."
+    },
+    {
+      "from_id": "batch4_2022_q01",
+      "to_id": "gls_narkotika_golongan_ii",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q02",
+      "to_id": "gls_maoi",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q02",
+      "to_id": "gls_cheese_reaction",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q03",
+      "to_id": "gls_bipolar",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q03",
+      "to_id": "gls_manik",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q04",
+      "to_id": "gls_sirkumstansialitas",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q04",
+      "to_id": "gls_bentuk_pikir",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q05",
+      "to_id": "gls_tca",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q05",
+      "to_id": "gls_amitriptilin",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q06",
+      "to_id": "gls_manik",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q07",
+      "to_id": "gls_ssri",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q07",
+      "to_id": "gls_fobia_sosial",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q08",
+      "to_id": "gls_aparatus_vestibularis",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q08",
+      "to_id": "gls_kanalis_semisirkularis",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q09",
+      "to_id": "gls_tension_type_headache",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q10",
+      "to_id": "gls_mesolimbik",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q10",
+      "to_id": "gls_gejala_positif_skizofrenia",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q11",
+      "to_id": "gls_antipsikotik_tipikal",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q11",
+      "to_id": "gls_efek_ekstrapiramidal",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q12",
+      "to_id": "gls_skizofrenia_katatonik",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q13",
+      "to_id": "gls_absence_seizure",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q13",
+      "to_id": "gls_asam_valproat",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q14",
+      "to_id": "gls_haloperidol",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q14",
+      "to_id": "gls_antipsikotik",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q15",
+      "to_id": "gls_kepribadian_narsistik",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q16",
+      "to_id": "gls_nervus_ischiadicus",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q17",
+      "to_id": "gls_carpal_tunnel_syndrome",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q18",
+      "to_id": "gls_tinel_sign",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q18",
+      "to_id": "gls_carpal_tunnel_syndrome",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q19",
+      "to_id": "gls_tia",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q20",
+      "to_id": "gls_intra_aksial",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q20",
+      "to_id": "gls_meningioma",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q21",
+      "to_id": "gls_vertigo",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q22",
+      "to_id": "gls_cerebellum",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q23",
+      "to_id": "gls_illness_anxiety_disorder",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q24",
+      "to_id": "gls_demenzia_alzheimer",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q24",
+      "to_id": "gls_delirium",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q25",
+      "to_id": "gls_wawancara_psikiatri",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q26",
+      "to_id": "gls_ect",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q26",
+      "to_id": "gls_bipolar",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q27",
+      "to_id": "gls_gangguan_ansietas_menyeluruh",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q28",
+      "to_id": "gls_depresi",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q29",
+      "to_id": "gls_skizofrenia_paranoid",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q29",
+      "to_id": "gls_waham",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q30",
+      "to_id": "gls_myelografi",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q31",
+      "to_id": "gls_forebrain",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q32",
+      "to_id": "gls_meningitis_bakteri",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q32",
+      "to_id": "gls_pmn",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q33",
+      "to_id": "gls_parkinson",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q33",
+      "to_id": "gls_hoehn_yahr",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q34",
+      "to_id": "gls_parkinson_vaskular",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q35",
+      "to_id": "gls_eeg",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q35",
+      "to_id": "gls_epilepsi",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q36",
+      "to_id": "gls_vestibular_perifer",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q36",
+      "to_id": "gls_vestibular_sentral",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q37",
+      "to_id": "gls_lateral_spinothalamic_tract",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q38",
+      "to_id": "gls_sindrom_guillain_barre",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q39",
+      "to_id": "gls_penyakit_autoimun",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q39",
+      "to_id": "gls_sindrom_guillain_barre",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q40",
+      "to_id": "gls_ct_scan_tanpa_kontras",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q40",
+      "to_id": "gls_stroke",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q41",
+      "to_id": "gls_mri",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q41",
+      "to_id": "gls_trauma_kepala",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q42",
+      "to_id": "gls_hematoma_epidural",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q43",
+      "to_id": "gls_miastenia_gravis",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q43",
+      "to_id": "gls_tensilon_test",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q44",
+      "to_id": "gls_hematoma_epidural",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q45",
+      "to_id": "gls_gangguan_panik",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q46",
+      "to_id": "gls_upper_motor_neuron",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q47",
+      "to_id": "gls_migrain_dengan_aura",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q48",
+      "to_id": "gls_hemisfer_kanan",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q49",
+      "to_id": "gls_refleks_pupil",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q49",
+      "to_id": "gls_nervus_optikus",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q49",
+      "to_id": "gls_nervus_okulomotorius",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q50",
+      "to_id": "gls_neuralgia_trigeminal",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q50",
+      "to_id": "gls_nervus_trigeminus",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q51",
+      "to_id": "gls_kepribadian_paranoid",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q52",
+      "to_id": "gls_gcs",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q52",
+      "to_id": "gls_sopor",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q53",
+      "to_id": "gls_antipsikotik_tipikal",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q53",
+      "to_id": "gls_gejala_positif_skizofrenia",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q54",
+      "to_id": "gls_bppv",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q54",
+      "to_id": "gls_epley_maneuver",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q55",
+      "to_id": "gls_jalur_descending",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q56",
+      "to_id": "gls_klaustrofobia",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q57",
+      "to_id": "gls_gangguan_panik",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    },
+    {
+      "from_id": "batch4_2022_q58",
+      "to_id": "gls_agnosia",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Question uses or tests this term."
+    }
+  ],
+  "metadata": {
+    "link_count": 88
+  }
+}

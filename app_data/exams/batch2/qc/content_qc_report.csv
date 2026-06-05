@@ -1,0 +1,7 @@
+content_id,domain,title,word_count,has_summary,has_visual,has_quiz,has_glossary,readability_status,source_status,qc_status,notes
+orig_exam_batch_2_mcq_6_3_trapezius,original_exam_sets,MCQ 6.3 TRAPEZIUS - Reconstructed Original Exam Set,4475,yes,no,yes,yes,clean_normalized_indonesian,single_pdf_source,pass_with_caveats,Original options absent for many answer-only recall items; blank answers replaced with explicit concept or manual-review labels.
+batch_2_mcq_6_3_trapezius.quiz_bank,quiz_bank,Batch 2 Reinforcement Quiz,876,yes,no,yes,linked,clean,generated_from_exam_answers,pass,"Derivative quiz bank, not verbatim source."
+batch_2_mcq_6_3_trapezius.glossary,glossary,Batch 2 Glossary,784,yes,no,linked,yes,clean,derived_from_terms,pass,Definitions are concise educational glossary entries.
+content_link_map.generated,content_link_map,Question-to-glossary map,691,yes,no,linked,yes,machine_readable,generated,pass,Links only use schema-allowed link types.
+page_registry.generated,page_registry,Generated page registry,44,yes,no,yes,yes,machine_readable,generated,pass,Routes are proposed integration routes.
+course_manifest.generated,course_manifest,Batch 2 course manifest,94,yes,no,yes,yes,machine_readable,generated,pass,Manifest accounts for all sources and outputs.

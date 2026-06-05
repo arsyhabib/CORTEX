@@ -1,0 +1,1391 @@
+{
+  "id": "mcq_6e_2025_original_exam_set",
+  "title": "MCQ 6.E 2025 - Original Exam Set Reconstruction",
+  "block": "mixed",
+  "block_label": "6E",
+  "year": 2025,
+  "year_label": "2025",
+  "source_label": "MCQ 6.E 2025.pdf",
+  "page_route": "pages/original_exam_sets/mcq_6e_2025.html",
+  "question_count": 40,
+  "reconstruction_level": "reconstructed",
+  "questions": [
+    {
+      "id": "mcq_6e_2025_original_exam_set_q01",
+      "number": 1,
+      "stem": "Kontraindikasi mutlak tindakan lumbal pungsi/pemeriksaan LCS adalah ...",
+      "stem_original": "1. indikasi mutlak LCS",
+      "options": [
+        "Impending herniasi otak",
+        "Trombositopenia",
+        "Infeksi tempat penusukan",
+        "Indikasi neuroimunologi, misalnya GBS"
+      ],
+      "explanation": "Sumber menyorot impending herniasi otak. Pada konteks lumbal pungsi, impending herniation adalah kontraindikasi mutlak karena risiko herniasi bertambah setelah penurunan tekanan LCS.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reconstruction_notes": "Stem OCR menulis 'indikasi mutlak LCS', tetapi slide sumber dan jawaban tersorot menunjukkan konteks kontraindikasi mutlak LP/LCS.",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 1.",
+      "linked_glossary_term_ids": [
+        "term_lcs",
+        "term_lumbal_pungsi",
+        "term_herniasi_otak"
+      ],
+      "answer_index": 0,
+      "answer_text": "Impending herniasi otak"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q02",
+      "number": 2,
+      "stem": "Karakteristik yang tidak langsung ditemukan dari pemeriksaan LCS adalah ...",
+      "stem_original": "2. karakteristik yang tidak langsung ditemukan LCS",
+      "options": [
+        "Opening pressure",
+        "Impending herniasi",
+        "WBC",
+        "Kultur/Gram",
+        "Protein"
+      ],
+      "explanation": "Opening pressure, WBC, kultur/Gram, dan protein dapat berkaitan dengan pemeriksaan LCS; impending herniasi bukan karakteristik langsung LCS.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "reconstruction_notes": "",
+      "answer_evidence": "Jawaban B disorot pada PDF halaman 1.",
+      "linked_glossary_term_ids": [
+        "term_lcs",
+        "term_opening_pressure",
+        "term_herniasi_otak"
+      ],
+      "answer_index": 1,
+      "answer_text": "Impending herniasi"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q03",
+      "number": 3,
+      "stem": "Pada algoritme meningitis/ensefalitis, diagnosis yang mungkin pada pasien HIV negatif adalah ...",
+      "stem_original": "3. diagnosis yang mungkin terjadi pada meningitis yang HIV negatif",
+      "options": [
+        "Ensefalitis HSV (catatan jawaban; opsi asli tidak terbaca)",
+        "[Opsi lain tidak terbaca di sumber]"
+      ],
+      "explanation": "Catatan pada halaman sumber menyebut jawaban ensefalitis HSV, tetapi pilihan lengkap tidak terbaca sehingga item ini tetap berstatus rekonstruksi parsial.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        13,
+        50,
+        51
+      ],
+      "reconstruction_notes": "Pilihan jawaban asli tidak tersedia dalam OCR/transkrip. Jawaban diambil dari catatan visual “jawab: ensephalitis HSV”.",
+      "answer_evidence": "Catatan visual halaman 1 menulis “JAWAB: ENSEPHALITIS HSV”.",
+      "linked_glossary_term_ids": [
+        "term_meningitis",
+        "term_ensefalitis_hsv",
+        "term_hiv"
+      ],
+      "answer_index": 0,
+      "answer_text": "Ensefalitis HSV (catatan jawaban; opsi asli tidak terbaca)"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q04",
+      "number": 4,
+      "stem": "Obat empiris untuk abses otak, kecuali ...",
+      "stem_original": "4. obat abes otak empiris, kecuali",
+      "options": [
+        "Meropenem",
+        "Amfoterisin B",
+        "Metronidazole",
+        "Ceftazidime",
+        "Ceftriaxone"
+      ],
+      "explanation": "Pada sumber, amfoterisin B disorot sebagai jawaban “kecuali”. Regimen empiris abses otak lebih umum mengarah ke antibiotik spektrum luas dan metronidazole; antijamur tidak menjadi pilihan empiris rutin kecuali ada indikasi spesifik.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "reconstruction_notes": "OCR menulis “mtro”, “cetriafson”, “cefriakson”; dinormalisasi menjadi metronidazole, ceftazidime, ceftriaxone.",
+      "answer_evidence": "Jawaban B disorot pada PDF halaman 1.",
+      "linked_glossary_term_ids": [
+        "term_abses_otak",
+        "term_amfoterisin_b",
+        "term_metronidazole",
+        "term_ceftriaxone"
+      ],
+      "answer_index": 1,
+      "answer_text": "Amfoterisin B"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q05",
+      "number": 5,
+      "stem": "Pada skenario yang mengarah ke meningitis, gejala/riwayat tambahan yang membantu diagnosis adalah ...",
+      "stem_original": "5. skenario mengarah menigitis, gejala tambahan yang membantu diagnosis",
+      "options": [
+        "HIV positif",
+        "Batuk berdarah",
+        "Bicara pelo"
+      ],
+      "explanation": "Sumber menyorot HIV positif sebagai petunjuk tambahan yang membantu mengarahkan etiologi/diagnosis pada kasus meningitis.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "reconstruction_notes": "",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 1.",
+      "linked_glossary_term_ids": [
+        "term_meningitis",
+        "term_hiv"
+      ],
+      "answer_index": 0,
+      "answer_text": "HIV positif"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q06",
+      "number": 6,
+      "stem": "Pada pemberian terapi empiris awal meningitis, terapi definitif dilakukan ketika ...",
+      "stem_original": "6. pemrian eempiris awalnya untuk meningitis, kapan terapi definitinya dilakukan",
+      "options": [
+        "Hasil kultur LCS sudah keluar",
+        "[Opsi lain tidak terbaca di sumber]"
+      ],
+      "explanation": "Catatan sumber menyorot bahwa terapi definitif menunggu hasil kultur LCS untuk mengidentifikasi bakteri dan sensitivitas antibiotik.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        24,
+        25
+      ],
+      "reconstruction_notes": "Hanya satu opsi terbaca; opsi lain tidak tersedia di sumber.",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 1.",
+      "linked_glossary_term_ids": [
+        "term_lcs",
+        "term_kultur_lcs",
+        "term_meningitis"
+      ],
+      "answer_index": 0,
+      "answer_text": "Hasil kultur LCS sudah keluar"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q07",
+      "number": 7,
+      "stem": "Romberg positif menurut catatan “Kating 2018” merujuk pada ...",
+      "stem_original": "7. romberg positif (kating 2018)",
+      "options": [
+        "[Opsi A tidak terbaca di sumber]",
+        "[Opsi B tidak terbaca di sumber]"
+      ],
+      "explanation": "Interpretasi positif Romberg merujuk pada gangguan propriosepsi/kontrol postural. Item tetap rendah-konfidensi karena stem sangat fragmentary.",
+      "confidence": "low",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        26
+      ],
+      "reconstruction_notes": "Positive Romberg mengarah pada gangguan propriosepsi/kontrol postural; stem tetap fragmentary.",
+      "answer_evidence": "Tidak ada highlight jawaban yang dapat dipetakan.",
+      "linked_glossary_term_ids": [
+        "term_tes_romberg"
+      ],
+      "answer_text": "Gangguan propriosepsi/kontrol postural",
+      "answer_source_status": "conceptually_inferred"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q08",
+      "number": 8,
+      "stem": "Pasien mual muntah dengan peningkatan tekanan intrakranial tanpa faktor stroke. Pemeriksaan penunjang yang tepat adalah ...",
+      "stem_original": "8. mual muntah, tekanan intrakranial meningkat, tanpa faktor stroke. apa penunjang",
+      "options": [
+        "CT scan kontras",
+        "CT scan tanpa kontras"
+      ],
+      "explanation": "Sumber menyorot CT scan tanpa kontras sebagai pemeriksaan awal pada kecurigaan peningkatan tekanan intrakranial/perdarahan tanpa konteks stroke tertentu.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        27,
+        28,
+        29
+      ],
+      "reconstruction_notes": "",
+      "answer_evidence": "Jawaban B disorot pada PDF halaman 1.",
+      "linked_glossary_term_ids": [
+        "term_tekanan_intrakranial",
+        "term_ct_scan"
+      ],
+      "answer_index": 1,
+      "answer_text": "CT scan tanpa kontras"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q09",
+      "number": 9,
+      "stem": "Diplococcus Gram-negatif ditemukan pada kerokan kulit. Kuman yang paling sesuai adalah ...",
+      "stem_original": "9. diplococcus (-) ditemukan di kerokan kulit, apa?",
+      "options": [
+        "Neisseria meningitidis",
+        "Streptococcus pneumoniae",
+        "Haemophilus influenzae"
+      ],
+      "explanation": "Neisseria meningitidis adalah diplokokus Gram-negatif; sumber juga menandai pilihan ini.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        30,
+        31,
+        32,
+        33
+      ],
+      "reconstruction_notes": "OCR menulis “N. mengitis”; dinormalisasi menjadi Neisseria meningitidis.",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 1.",
+      "linked_glossary_term_ids": [
+        "term_neisseria_meningitidis",
+        "term_diplokokus_gram_negatif"
+      ],
+      "answer_index": 0,
+      "answer_text": "Neisseria meningitidis"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q10",
+      "number": 10,
+      "stem": "Bakteri Gram-positif anaerob yang banyak di tanah menghasilkan toksin ...",
+      "stem_original": "10. gram positf anaerobik banyak ditanah, toksin apa",
+      "options": [
+        "Tetanospasmin",
+        "Spasminolisis"
+      ],
+      "explanation": "Clostridium tetani menghasilkan neurotoksin tetanospasmin; pilihan A disorot di sumber.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        34,
+        35,
+        36
+      ],
+      "reconstruction_notes": "OCR menulis “tetanospasmi”; dinormalisasi menjadi tetanospasmin.",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 1.",
+      "linked_glossary_term_ids": [
+        "term_clostridium_tetani",
+        "term_tetanospasmin"
+      ],
+      "answer_index": 0,
+      "answer_text": "Tetanospasmin"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q11",
+      "number": 11,
+      "stem": "Gangguan keseimbangan dan bicara pelo paling mengarah pada gangguan ...",
+      "stem_original": "11. gangguan keseimbangan susah, pelo",
+      "options": [
+        "Cerebellum",
+        "Korteks"
+      ],
+      "explanation": "Cerebellum berperan pada koordinasi gerak, keseimbangan, dan artikulasi bicara; jawaban A disorot di sumber.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        37,
+        38,
+        39
+      ],
+      "reconstruction_notes": "",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 1.",
+      "linked_glossary_term_ids": [
+        "term_cerebellum",
+        "term_disartria"
+      ],
+      "answer_index": 0,
+      "answer_text": "Cerebellum"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q12",
+      "number": 12,
+      "stem": "Pusat kesadaran yang dimaksud pada sumber adalah ...",
+      "stem_original": "12. pusat kesadaran",
+      "options": [
+        "Thalamus",
+        "Hippocampus",
+        "Cortex",
+        "Cerebellum"
+      ],
+      "explanation": "Sumber menyorot cortex. Item ini dipertahankan sebagai jawaban sumber walaupun konsep kesadaran secara fisiologis melibatkan jaringan lebih luas.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        40,
+        41,
+        42,
+        43,
+        44
+      ],
+      "reconstruction_notes": "",
+      "answer_evidence": "Jawaban C disorot pada PDF halaman 1.",
+      "linked_glossary_term_ids": [
+        "term_korteks_serebri",
+        "term_kesadaran"
+      ],
+      "answer_index": 2,
+      "answer_text": "Cortex"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q13",
+      "number": 13,
+      "stem": "Kasus di garasi saat mati lampu dengan generator menyala dan asap hitam paling mengarah pada diagnosis ...",
+      "stem_original": "13. kasus di garasi mati lampu, generator hidup dengan asap hitam diagnosis",
+      "options": [
+        "Ensefalitis",
+        "Ensefalopati hipoksia"
+      ],
+      "explanation": "Konteks generator/asap dalam ruangan mengarah pada hipoksia/intoksikasi karbon monoksida dengan ensefalopati hipoksia, bukan ensefalitis infeksius.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        45,
+        46,
+        47
+      ],
+      "reconstruction_notes": "Jawaban tidak disorot jelas; dipilih berdasarkan konteks klinis sumber.",
+      "answer_evidence": "Inferensi dari skenario; highlight jawaban tidak tampak jelas pada PDF.",
+      "linked_glossary_term_ids": [
+        "term_ensefalopati_hipoksia",
+        "term_karbon_monoksida"
+      ],
+      "answer_index": 1,
+      "answer_text": "Ensefalopati hipoksia"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q14",
+      "number": 14,
+      "stem": "Ibu rumah tangga setelah memasak jatuh dengan gangguan bahasa/bicara pelo. Kondisi tersebut disebut ...",
+      "stem_original": "14. ibu rumah tangga setelah memasak dia jatuh bahasa pelo, kondisi yang ditemukan disebut",
+      "options": [
+        "Afasia",
+        "Distonia",
+        "Hemiparesis"
+      ],
+      "explanation": "Sumber menyorot afasia sebagai gangguan bahasa. “Pelo” pada OCR dipertahankan sebagai petunjuk gangguan bicara/bahasa.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        62,
+        63,
+        64,
+        65,
+        66
+      ],
+      "reconstruction_notes": "",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 2.",
+      "linked_glossary_term_ids": [
+        "term_afasia"
+      ],
+      "answer_index": 0,
+      "answer_text": "Afasia"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q15",
+      "number": 15,
+      "stem": "Kejang mengenai semua anggota gerak. Menurut kriteria ILAE 2017, tipe tersebut adalah ...",
+      "stem_original": "15. semua anggota gerak terkena keja. kriteria ilae 2017 apa",
+      "options": [
+        "Generalized motor seizure",
+        "Focal tonic-clonic seizure",
+        "Generalized non-motor seizure"
+      ],
+      "explanation": "Kejang dengan keterlibatan motorik bilateral/semua anggota gerak sesuai dengan kelompok generalized motor seizure dalam klasifikasi ILAE.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        67,
+        68,
+        69,
+        70
+      ],
+      "reconstruction_notes": "",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 2.",
+      "linked_glossary_term_ids": [
+        "term_ilae_2017",
+        "term_generalized_motor_seizure"
+      ],
+      "answer_index": 0,
+      "answer_text": "Generalized motor seizure"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q16",
+      "number": 16,
+      "stem": "Pasien sekitar usia 60 tahun dengan gangguan gerak Parkinson. Obat yang dimaksud sumber adalah ...",
+      "stem_original": "16. soal cerita usia 60 tahun gangguan gerak parkinson obat",
+      "options": [
+        "Entacapone (kombinasi dengan L-dopa; satu-satunya opsi terbaca)",
+        "[Opsi lain tidak terbaca di sumber]"
+      ],
+      "explanation": "Sumber hanya memuat satu opsi OCR (“entacapon”) dan catatan samping yang berbeda. Karena opsi lengkap hilang, jawaban tidak dipaksakan.",
+      "confidence": "low",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        71,
+        72,
+        111,
+        113,
+        115,
+        116,
+        117,
+        120,
+        121
+      ],
+      "reconstruction_notes": "Opsi lengkap tidak terbaca. Item dipertahankan untuk provenance, tetapi dikeluarkan dari quiz aktif.",
+      "answer_evidence": "Tidak ada highlight jawaban final yang dapat dipetakan ke opsi lengkap.",
+      "linked_glossary_term_ids": [
+        "term_penyakit_parkinson",
+        "term_entacapone",
+        "term_levodopa",
+        "term_pramipexole"
+      ],
+      "answer_text": "Tidak dapat dipastikan dari sumber; catatan samping menyebut dopamine agonist/pramipexole untuk <60 tahun dan levodopa untuk >60 tahun."
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q17",
+      "number": 17,
+      "stem": "Terapi profilaksis nyeri kepala/migren dengan evidence A adalah ...",
+      "stem_original": "17. nyeri kepala, terapi tipe profilaksis evidance A",
+      "options": [
+        "Propranolol",
+        "Ergotamin"
+      ],
+      "explanation": "Sumber menyorot propranolol sebagai terapi profilaksis. Ergotamin lebih terkait terapi abortif, bukan profilaksis utama.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        73,
+        74,
+        75
+      ],
+      "reconstruction_notes": "",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 2.",
+      "linked_glossary_term_ids": [
+        "term_migren",
+        "term_propranolol"
+      ],
+      "answer_index": 0,
+      "answer_text": "Propranolol"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q18",
+      "number": 18,
+      "stem": "Obat untuk nyeri kepala/migren tanpa aura adalah ...",
+      "stem_original": "18. nyeri kepala tanpa aura obatnya apa",
+      "options": [
+        "Sumatriptan",
+        "[Opsi lain tidak terbaca di sumber]"
+      ],
+      "explanation": "Sumber menyorot sumatriptan sebagai obat untuk serangan migren tanpa aura.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        76,
+        77
+      ],
+      "reconstruction_notes": "Hanya satu opsi terbaca; opsi lain tidak tersedia.",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 2.",
+      "linked_glossary_term_ids": [
+        "term_migren",
+        "term_sumatriptan"
+      ],
+      "answer_index": 0,
+      "answer_text": "Sumatriptan"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q19",
+      "number": 19,
+      "stem": "Kriteria nyeri kepala/migren yang ditanyakan sumber adalah ...",
+      "stem_original": "19. nyeri kepala",
+      "options": [
+        "Serangan minimal 2 kali",
+        "Aura selama nyeri",
+        "Durasi 1-7 hari"
+      ],
+      "explanation": "Sumber menyorot “serangan minimal 2x”. Item dipertahankan sebagai jawaban sumber; konteks subtype migren tidak lengkap.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        78,
+        79,
+        80,
+        81
+      ],
+      "reconstruction_notes": "",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 2.",
+      "linked_glossary_term_ids": [
+        "term_migren",
+        "term_aura"
+      ],
+      "answer_index": 0,
+      "answer_text": "Serangan minimal 2 kali"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q20",
+      "number": 20,
+      "stem": "Vertigo berputar yang lebih berat saat tidur miring ke kiri paling sesuai dengan diagnosis ...",
+      "stem_original": "20. ada gejala vertigo, dia berputar kepala tidur sebelah kiri lebih berat, dx",
+      "options": [
+        "BPPV",
+        "Meniere disease"
+      ],
+      "explanation": "BPPV dicetuskan oleh perubahan posisi kepala; sumber menyorot pilihan BPPV.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        82,
+        83,
+        84
+      ],
+      "reconstruction_notes": "",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 2.",
+      "linked_glossary_term_ids": [
+        "term_bppv",
+        "term_meniere"
+      ],
+      "answer_index": 0,
+      "answer_text": "BPPV"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q21",
+      "number": 21,
+      "stem": "Kejang berupa kedutan otot singkat, kemudian barang yang dipegang terlepas, disebut ...",
+      "stem_original": "21. kejang otot terus dilanjutkan dengan kelonjotan dan melepas barang yang dipegang",
+      "options": [
+        "Myoclonic seizure",
+        "Tonic-clonic seizure"
+      ],
+      "explanation": "Kedutan singkat yang menyebabkan benda terjatuh khas kejang mioklonik; sumber menyorot pilihan A.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        85,
+        86,
+        87
+      ],
+      "reconstruction_notes": "OCR menulis “myokolonik”; dinormalisasi menjadi myoclonic seizure.",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 2.",
+      "linked_glossary_term_ids": [
+        "term_myoclonic_seizure"
+      ],
+      "answer_index": 0,
+      "answer_text": "Myoclonic seizure"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q22",
+      "number": 22,
+      "stem": "Tumor intrakranial/intra-aksial, kecuali ...",
+      "stem_original": "22. tumor intrakranial kecuali",
+      "options": [
+        "Astrocytoma",
+        "Oligodendroglioma",
+        "Meningioma",
+        "[Opsi D tidak terbaca di sumber]"
+      ],
+      "explanation": "Sumber menyorot meningioma. Pada konteks gambar “neoplasma intra-aksial/glial”, meningioma adalah tumor ekstra-aksial/non-glial sehingga menjadi jawaban “kecuali”.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        88,
+        89,
+        90,
+        91,
+        92
+      ],
+      "reconstruction_notes": "Opsi D pada OCR bercampur dengan nomor 23 sehingga ditandai tidak terbaca.",
+      "answer_evidence": "Jawaban C disorot pada PDF halaman 2.",
+      "linked_glossary_term_ids": [
+        "term_meningioma",
+        "term_tumor_intrakranial"
+      ],
+      "answer_index": 2,
+      "answer_text": "Meningioma"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q23",
+      "number": 23,
+      "stem": "Pada nyeri kepala dengan nyeri otot leher, struktur yang menerima rangsang nyeri adalah ...",
+      "stem_original": "23. nyeri kepala di pemeriksaan nyeri otot leher, yang membuat menerima rangsangan nyeri (intrakranial)",
+      "options": [
+        "Parenkim otak",
+        "Otot kepala dan leher"
+      ],
+      "explanation": "Parenkim otak tidak peka nyeri; nyeri kepala lebih terkait struktur peka nyeri seperti pembuluh, meninges, dan jaringan kepala/leher. Karena highlight tidak jelas, jawaban ditandai medium.",
+      "confidence": "medium",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        92,
+        93,
+        94,
+        95
+      ],
+      "reconstruction_notes": "Nomor 23 menempel pada opsi D nomor 22 di OCR; dipisahkan berdasarkan tampilan visual halaman 2.",
+      "answer_evidence": "Tidak ada highlight jelas; jawaban merupakan inferensi anatomis dari opsi yang tersedia.",
+      "linked_glossary_term_ids": [
+        "term_nyeri_kepala"
+      ],
+      "answer_index": 1,
+      "answer_text": "Otot kepala dan leher"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q24",
+      "number": 24,
+      "stem": "Pasien tidak dapat menentukan apakah suatu benda adalah sendok atau bukan. Gangguan ini disebut ...",
+      "stem_original": "24. dia tidak bisa menentukan itu sendok apa bukan",
+      "options": [
+        "Agnosia",
+        "Distonia",
+        "Afasia"
+      ],
+      "explanation": "Agnosia adalah gangguan mengenali objek meski fungsi sensorik dasar relatif utuh; sumber menyorot pilihan A.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        96,
+        97,
+        98,
+        99
+      ],
+      "reconstruction_notes": "",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 2.",
+      "linked_glossary_term_ids": [
+        "term_agnosia"
+      ],
+      "answer_index": 0,
+      "answer_text": "Agnosia"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q25",
+      "number": 25,
+      "stem": "Gambaran darah yang mengikuti sulkus/gyrus pada CT kepala mengarah pada ...",
+      "stem_original": "25. dia mendatar ke gyrus itu apa",
+      "options": [
+        "Perdarahan subarachnoid",
+        "[Opsi lain tidak terbaca di sumber]"
+      ],
+      "explanation": "Perdarahan subarachnoid sering tampak mengikuti sulkus/fisura; sumber menyorot pilihan ini.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        100,
+        101
+      ],
+      "reconstruction_notes": "Hanya satu opsi terbaca.",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 2.",
+      "linked_glossary_term_ids": [
+        "term_perdarahan_subarachnoid",
+        "term_ct_scan"
+      ],
+      "answer_index": 0,
+      "answer_text": "Perdarahan subarachnoid"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q26",
+      "number": 26,
+      "stem": "Gambaran CT scan bikonveks mengarah pada ...",
+      "stem_original": "26. ct scan bikonvek",
+      "options": [
+        "Perdarahan subepidural/epidural",
+        "[Opsi lain tidak terbaca di sumber]"
+      ],
+      "explanation": "Lesi bikonveks/lentiform pada CT klasik untuk hematoma epidural; sumber menyorot jawaban ini.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        102,
+        103
+      ],
+      "reconstruction_notes": "Teks sumber menulis “sub epidural”; dinormalisasi dengan catatan bahwa istilah klinis lazim adalah epidural hematoma.",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 2.",
+      "linked_glossary_term_ids": [
+        "term_hematoma_epidural",
+        "term_ct_scan"
+      ],
+      "answer_index": 0,
+      "answer_text": "Perdarahan subepidural/epidural"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q27",
+      "number": 27,
+      "stem": "Nyeri dari bokong menjalar sampai ujung ibu jari kaki paling sesuai dengan ...",
+      "stem_original": "27. nyeri dari bokong sampai ke ujung ibu jari kaki",
+      "options": [
+        "Radikulopati",
+        "Mononeuropati",
+        "Polineuropati"
+      ],
+      "explanation": "Nyeri menjalar sepanjang dermatom sampai kaki mengarah pada radikulopati; sumber menyorot pilihan A.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        104,
+        105,
+        106,
+        107
+      ],
+      "reconstruction_notes": "OCR menulis “monokulopati/polikulopati”; dinormalisasi menjadi mononeuropati/polineuropati sesuai konteks neurologi.",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 2.",
+      "linked_glossary_term_ids": [
+        "term_radikulopati"
+      ],
+      "answer_index": 0,
+      "answer_text": "Radikulopati"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q28",
+      "number": 28,
+      "stem": "Pada anak dengan kejang, pemeriksaan penunjang yang tepat adalah ...",
+      "stem_original": "28. anak kejang pemeriksaan penunjang yang tepat adalah",
+      "options": [
+        "EEG",
+        "EMG"
+      ],
+      "explanation": "EEG adalah pemeriksaan penunjang untuk evaluasi epilepsi/kejang; sumber menyorot EEG.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2-3",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        108,
+        122,
+        123
+      ],
+      "reconstruction_notes": "Stem berada di halaman 2, opsi dan highlight jawaban terbaca di halaman 3.",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 3.",
+      "linked_glossary_term_ids": [
+        "term_eeg",
+        "term_kejang"
+      ],
+      "answer_index": 0,
+      "answer_text": "EEG"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q29",
+      "number": 29,
+      "stem": "Tes Romberg positif baik saat mata terbuka maupun tertutup mengarah pada ...",
+      "stem_original": "29. tes romberng mata mau terbukat atau tertutup (+), dx",
+      "options": [
+        "Vertigo vestibular sentral",
+        "Vertigo perifer"
+      ],
+      "explanation": "Romberg yang positif dengan mata terbuka dan tertutup lebih mengarah ke gangguan sentral/ataksia dibanding gangguan vestibular perifer murni; sumber menyorot pilihan A.",
+      "confidence": "high",
+      "origin": {
+        "page": 3,
+        "page_label": "Page 3",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        124,
+        125,
+        126
+      ],
+      "reconstruction_notes": "",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 3.",
+      "linked_glossary_term_ids": [
+        "term_tes_romberg",
+        "term_vertigo_sentral"
+      ],
+      "answer_index": 0,
+      "answer_text": "Vertigo vestibular sentral"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q30",
+      "number": 30,
+      "stem": "Kelainan medulla spinalis dapat ditandai oleh ...",
+      "stem_original": "30. kelainan medulla spinalis",
+      "options": [
+        "Paresis, gangguan miksi, dan disfungsi seksual",
+        "[Opsi lain tidak terbaca di sumber]"
+      ],
+      "explanation": "Kombinasi deficit motorik dengan gangguan otonom seperti miksi dan fungsi seksual sesuai kelainan medulla spinalis; sumber menyorot pilihan A.",
+      "confidence": "high",
+      "origin": {
+        "page": 3,
+        "page_label": "Page 3",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        127,
+        128
+      ],
+      "reconstruction_notes": "Hanya satu opsi terbaca.",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 3.",
+      "linked_glossary_term_ids": [
+        "term_medulla_spinalis"
+      ],
+      "answer_index": 0,
+      "answer_text": "Paresis, gangguan miksi, dan disfungsi seksual"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q31",
+      "number": 31,
+      "stem": "Myasthenia gravis terutama mengenai gangguan pada ...",
+      "stem_original": "31. myastenia gravis terkena di gangguan apa",
+      "options": [
+        "Reseptor asetilkolin",
+        "Asetilkolin"
+      ],
+      "explanation": "Myasthenia gravis paling sering disebabkan antibodi terhadap reseptor asetilkolin postsinaptik pada neuromuscular junction; sumber menyorot pilihan A.",
+      "confidence": "high",
+      "origin": {
+        "page": 3,
+        "page_label": "Page 3",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        129,
+        130,
+        131
+      ],
+      "reconstruction_notes": "",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 3.",
+      "linked_glossary_term_ids": [
+        "term_myasthenia_gravis",
+        "term_reseptor_asetilkolin",
+        "term_neuromuscular_junction"
+      ],
+      "answer_index": 0,
+      "answer_text": "Reseptor asetilkolin"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q32",
+      "number": 32,
+      "stem": "Pada BPPV setelah manuver tetapi keluhan masih ada, terapi berikut yang merupakan pengecualian adalah ...",
+      "stem_original": "32. bppv setelah dimanuver tapi masih ada, ttx kecuali",
+      "options": [
+        "Antihistamin",
+        "Analog histamin"
+      ],
+      "explanation": "Sumber tidak memberi highlight yang tegas. Berdasarkan catatan terapi BPPV dan perbandingan opsi, analog histamin/betahistine lebih lemah sebagai terapi BPPV dibanding antihistamin simptomatik; jawaban ditandai medium.",
+      "confidence": "medium",
+      "origin": {
+        "page": 3,
+        "page_label": "Page 3",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        132,
+        133,
+        134,
+        163,
+        165,
+        166
+      ],
+      "reconstruction_notes": "Catatan visual menyebut antihistamine, betahistine, promethazine; karena stem memakai “kecuali”, jawaban disusun konservatif sebagai analog histamin dengan confidence medium.",
+      "answer_evidence": "Inferensi dari opsi dan catatan visual; tidak ada highlight jelas pada baris Q32.",
+      "linked_glossary_term_ids": [
+        "term_bppv",
+        "term_antihistamin",
+        "term_betahistine"
+      ],
+      "answer_index": 1,
+      "answer_text": "Analog histamin"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q33",
+      "number": 33,
+      "stem": "Kelemahan seluruh motorik kiri mengarah pada lesi di ...",
+      "stem_original": "33. motor kiri kena semua, dx kena",
+      "options": [
+        "Cerebri kanan",
+        "Cerebri kiri"
+      ],
+      "explanation": "Defisit motorik supranuklear umumnya kontralateral terhadap lesi serebral; motorik kiri mengarah ke cerebri kanan. Sumber menyorot pilihan A.",
+      "confidence": "high",
+      "origin": {
+        "page": 3,
+        "page_label": "Page 3",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        135,
+        136,
+        137,
+        159,
+        160
+      ],
+      "reconstruction_notes": "",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 3.",
+      "linked_glossary_term_ids": [
+        "term_defisit_kontralateral",
+        "term_korteks_serebri"
+      ],
+      "answer_index": 0,
+      "answer_text": "Cerebri kanan"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q34",
+      "number": 34,
+      "stem": "Setelah kepala terkena lemparan, pasien mengalami kelemahan, penurunan kesadaran, dan tekanan darah 170 mmHg. Diagnosis yang paling sesuai adalah ...",
+      "stem_original": "34. tidak sengaja kena lempar ke kepala, kelamahan dan penurunan kesadaran, td 170, dx nya apa",
+      "options": [
+        "Hipertensi",
+        "Lesi desak ruang",
+        "Fraktur"
+      ],
+      "explanation": "Kelemahan dan penurunan kesadaran setelah trauma kepala mengarah pada proses intrakranial/lesi desak ruang; sumber menyorot pilihan B.",
+      "confidence": "high",
+      "origin": {
+        "page": 3,
+        "page_label": "Page 3",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        138,
+        139,
+        140,
+        141,
+        142
+      ],
+      "reconstruction_notes": "",
+      "answer_evidence": "Jawaban B disorot pada PDF halaman 3.",
+      "linked_glossary_term_ids": [
+        "term_lesi_desak_ruang",
+        "term_trauma_kepala"
+      ],
+      "answer_index": 1,
+      "answer_text": "Lesi desak ruang"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q35",
+      "number": 35,
+      "stem": "Perempuan dengan ptosis dan kelemahan tungkai mengalami gangguan pada ...",
+      "stem_original": "35. skenario perempuan, ptosis,kelemahan pada tungkai, yang terkena di",
+      "options": [
+        "Neuromuscular junction",
+        "Medulla oblongata",
+        "Korteks cerebri"
+      ],
+      "explanation": "Ptosis dengan kelemahan fluktuatif mengarah ke myasthenia gravis, yang mengenai neuromuscular junction; sumber menyorot pilihan A.",
+      "confidence": "high",
+      "origin": {
+        "page": 3,
+        "page_label": "Page 3",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        143,
+        144,
+        145,
+        146,
+        162
+      ],
+      "reconstruction_notes": "",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 3.",
+      "linked_glossary_term_ids": [
+        "term_myasthenia_gravis",
+        "term_neuromuscular_junction",
+        "term_ptosis"
+      ],
+      "answer_index": 0,
+      "answer_text": "Neuromuscular junction"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q36",
+      "number": 36,
+      "stem": "Terapi yang dicatat sumber untuk skenario BPPV adalah ...",
+      "stem_original": "36. skenario BPPV ttx",
+      "options": [
+        "Betahistine",
+        "[Opsi lain tidak terbaca di sumber]"
+      ],
+      "explanation": "Sumber menyorot betahistine. Secara klinis BPPV utama diterapi dengan manuver reposisi kanalit, tetapi bundle mempertahankan jawaban sumber.",
+      "confidence": "high",
+      "origin": {
+        "page": 3,
+        "page_label": "Page 3",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        147,
+        148,
+        166
+      ],
+      "reconstruction_notes": "Hanya satu opsi terbaca. Ada catatan samping tentang antihistamin/betahistine/promethazine.",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 3.",
+      "linked_glossary_term_ids": [
+        "term_bppv",
+        "term_betahistine"
+      ],
+      "answer_index": 0,
+      "answer_text": "Betahistine"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q37",
+      "number": 37,
+      "stem": "Gangguan kesadaran/defisit neurologis yang membaik dalam waktu kurang dari 1 jam paling sesuai dengan ...",
+      "stem_original": "37. dibawah 1 jam kesadaran membaik, dx apa",
+      "options": [
+        "TIA",
+        "RIND"
+      ],
+      "explanation": "Defisit neurologis fokal yang cepat membaik sesuai transient ischemic attack; sumber menyorot TIA.",
+      "confidence": "high",
+      "origin": {
+        "page": 3,
+        "page_label": "Page 3",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        149,
+        150,
+        151
+      ],
+      "reconstruction_notes": "",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 3.",
+      "linked_glossary_term_ids": [
+        "term_tia",
+        "term_rind"
+      ],
+      "answer_index": 0,
+      "answer_text": "TIA"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q38",
+      "number": 38,
+      "stem": "Pasien dengan jantung berdebar kemudian dirujuk ke penyakit jantung. Diagnosis neurologis yang paling sesuai adalah ...",
+      "stem_original": "38. jatung berdebar, dia rujuk ke penyakit jantung, dx",
+      "options": [
+        "Emboli cerebri",
+        "TIA"
+      ],
+      "explanation": "Keluhan jantung berdebar mengarah ke sumber kardioemboli, sehingga diagnosis yang ditandai sumber adalah emboli cerebri.",
+      "confidence": "high",
+      "origin": {
+        "page": 3,
+        "page_label": "Page 3",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [
+        152,
+        153,
+        154
+      ],
+      "reconstruction_notes": "",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 3.",
+      "linked_glossary_term_ids": [
+        "term_emboli_serebri",
+        "term_tia"
+      ],
+      "answer_index": 0,
+      "answer_text": "Emboli cerebri"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q39",
+      "number": 39,
+      "stem": "Badan meliuk-liuk disebut ...",
+      "stem_original": "39. Badan meliuk liuk",
+      "options": [
+        "Distonia",
+        "Athetosis"
+      ],
+      "explanation": "Sumber halaman 4 menyorot distonia dan menampilkan catatan definisi distonia.",
+      "confidence": "high",
+      "origin": {
+        "page": 4,
+        "page_label": "Page 4",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [],
+      "reconstruction_notes": "Pertanyaan ini tidak tertangkap OCR utama; direkonstruksi dari inspeksi visual halaman 4.",
+      "answer_evidence": "Jawaban A disorot pada PDF halaman 4.",
+      "linked_glossary_term_ids": [
+        "term_distonia"
+      ],
+      "answer_index": 0,
+      "answer_text": "Distonia"
+    },
+    {
+      "id": "mcq_6e_2025_original_exam_set_q40",
+      "number": 40,
+      "stem": "Kriteria lesi UMN adalah ...",
+      "stem_original": "40. Kriteria lesi UMN adalah",
+      "options": [
+        "Menurunnya patologis ada",
+        "Refleks patologis ada",
+        "Stocking and gloves"
+      ],
+      "explanation": "Lesi upper motor neuron ditandai refleks patologis; sumber menyorot pilihan B.",
+      "confidence": "high",
+      "origin": {
+        "page": 4,
+        "page_label": "Page 4",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.E 2025.pdf",
+      "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+      "source_lines": [],
+      "reconstruction_notes": "Pertanyaan ini tidak tertangkap OCR utama; direkonstruksi dari inspeksi visual halaman 4.",
+      "answer_evidence": "Jawaban B disorot pada PDF halaman 4.",
+      "linked_glossary_term_ids": [
+        "term_umn",
+        "term_refleks_patologis"
+      ],
+      "answer_index": 1,
+      "answer_text": "Refleks patologis ada"
+    }
+  ],
+  "source_package": {
+    "batch_id": "batch_1_mcq_6e_2025",
+    "source_filename": "MCQ 6.E 2025.pdf",
+    "source_type": "pdf",
+    "source_sha256": "563c66cca5c56be78a7f75e13dd02175b1bcd411919b751240c442ebdb8c1918",
+    "page_count": 4,
+    "ocr_line_count": 167,
+    "notes": "Main OCR/transcript contained 38-39 question-like entries; visual review recovered Q39 and Q40 from page 4. Embedded Q75 screenshot was excluded from the main 6E set."
+  },
+  "schema_compatibility_notes": [
+    "Contract schema enum only allows 5e, 5f, mixed for block; value set to mixed while block_label preserves source block 6E."
+  ]
+}

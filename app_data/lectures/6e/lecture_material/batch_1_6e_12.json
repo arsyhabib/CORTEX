@@ -1,0 +1,3520 @@
+{
+  "id": "batch_1_6e_12",
+  "batch_id": "batch_1_6E",
+  "batch_label": "Batch 1 / 6E",
+  "block": "5e",
+  "title": "PPT Diagnosing Vertigo and Dizziness.",
+  "subtitle": "Neurology lecturer-derived structured content; source-preserving extraction.",
+  "source_pdf": "source_docs/6E/PPT Diagnosing Vertigo and Dizziness.docx",
+  "source_docx": "PPT Diagnosing Vertigo and Dizziness.docx",
+  "source_pages": [],
+  "summary": [
+    "Modul PPT Diagnosing Vertigo and Dizziness disusun ulang sebagai materi terstruktur untuk neurologi batch 1/6e, dengan jejak sumber tetap dipertahankan.",
+    "Fokus inti yang ditarik dari sumber: Current Diagnostic Procedures for.",
+    "Fokus inti yang ditarik dari sumber: Diagnosing Vertigo and Dizziness.",
+    "Fokus inti yang ditarik dari sumber: JOGJA-CLAN 2024 | YOGYAKARTA, NOVEMBER 8-10TH, 2024.",
+    "Contoh pesan inti dari sumber: Current Diagnostic Procedures for."
+  ],
+  "exam_focus": [
+    "DIAGNOSIS VERTIGO ANAMNESIS.",
+    "Secara garis besar terapi dibagi dalam: ."
+  ],
+  "sections": [
+    {
+      "id": "batch_1_6e_12_s01",
+      "title": "Ada vertigo sentral & perifer.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Vertigo sentral lebih sering di orang tua, tidak terlalu parah (sudah ada kompensasi).",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 52,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 52,
+        "section_end_paragraph": 52
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s02",
+      "title": "Tingkatan-tingkatan vertigo:",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Light-headedness ฀ kepala terasa ringan.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 54,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Dizziness.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 55,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 54,
+        "section_end_paragraph": 55
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s03",
+      "title": "Otologi:",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "61% kasus (1/4 - 2/3 kasus).",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 60,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 60,
+        "section_end_paragraph": 60
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s04",
+      "title": "Benigna Paroxysmal Positional Vertigo (BPPV).",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Setiap gerakan kepala dapat menimbulkan vertigo, lebih enak jika menutup mata atau berada di ruangan yang gelap.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 62,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 62,
+        "section_end_paragraph": 62
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s05",
+      "title": "Pasien harus diedukasi bahwa vertigo dapat terjadi secara tiba-tiba.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Meniere Desease ฀ disertai keluhan telinga (misal ketulian sementara).",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 64,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Ada hydrops embolem ฀ cairan yang menyumbat vasa darah di sekitar sana.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 65,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Parese N VIII Uni/bilateral.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 66,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Otitis Media ฀ cairan keluar dari telinga, kental seperti santan (purulen) ฀ biasanya ada vertigo.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 67,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 64,
+        "section_end_paragraph": 67
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s06",
+      "title": "Neurologik",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "30% kasus (1/4 - 1/3).",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 70,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Gangguan serebrovaskuler batang otak/ serebelum.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 71,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 70,
+        "section_end_paragraph": 71
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s07",
+      "title": "Ataksia karena neuropati (misal neuropati DM).",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Gangguan visus ฀ pertama memakai kacamata.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 74,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Gangguan serebelum ฀ causes loss of balance.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 75,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Gangguan sirkulasi LCS.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 76,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Hydrocephalus obstruktif pada dewasa, bisa menyebabkan herniasi melalui foramen (occipitale?) magnum.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 77,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Hydrocephalus menggembung ke atas pada bayi.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 78,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Multiple sklerosis ฀ kelainan central & perifer.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 79,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Malformasi Chiari ฀ banyak terjadi pada pernikahan dalam keluarga.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 80,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Vertigo servikal ฀ akibat trauma pada daerah leher, retak tulang servikal.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 81,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 74,
+        "section_end_paragraph": 81
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s08",
+      "title": "Interna:",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "+/- 33% karena gangguan kardio vaskuler (tanyakan adanya faktor-faktor resiko.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 91,
+                "style": "Normal"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Tekanan darah (pada orang hipertensi, bisa diikuti hipotensi karena obat hipertensi).",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 92,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Aritmia kordis (coba tanyakan pada pasien).",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 93,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Penyakit koroner (tanyakan adanya angina).",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 94,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 91,
+        "section_end_paragraph": 94
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s09",
+      "title": "Infeksi",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "< glikemia.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 96,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Intoksikasi Obat: Nifedipin (dan obat penurun tensi lain), Benzodiazepin, Xanax,.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 97,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 96,
+        "section_end_paragraph": 97
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s10",
+      "title": "Psikiatrik",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "> 50% kasus (lebih sering pada wanita).",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 100,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Lebih sering pada anak termuda/tertua, anak tunggal.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 101,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Klinik dan laboratorik: dbn.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 102,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Hasil Px & PxP normal.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 103,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Depresi.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 104,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Fobia = takut tanpa alasan yang jelas.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 105,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Anxietas = kecemasan.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 106,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Psikosomatis.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 107,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 100,
+        "section_end_paragraph": 107
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s11",
+      "title": "Fisiologik",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Lihat dari ketinggian.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 110,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Proprioseptif.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 130,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gerak.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 134,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 110,
+        "section_end_paragraph": 134
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s12",
+      "title": "Masalah reseptor",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Mata ฀ strabismus, pemakai kaca mata.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 140,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Vestibuler ฀ sering disertai keluhan telinga mendenging.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 141,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Propioseptik ฀ symptoms: pucat, mual-mual, keringat dingin, pusing.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 142,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 140,
+        "section_end_paragraph": 142
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s13",
+      "title": "Masalah Efektor",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Otot skelet ฀ gangguan koordinasi.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 148,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 148,
+        "section_end_paragraph": 148
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s14",
+      "title": "Leher ฀ bisa menjadi sumber masalah (misal vertigo servikal).",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Badan ฀ gangguan keseimbangan.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 151,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Anggota badan.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 152,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Cerebral cortex.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 160,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Vestibula r Apparatus.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 170,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 151,
+        "section_end_paragraph": 170
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s15",
+      "title": "CTZ",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Pituitary.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 176,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Vomiting centre.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 186,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 176,
+        "section_end_paragraph": 186
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s16",
+      "title": "VOMITING",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "= coordinated.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 198,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "= known pattern.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 199,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Stabilization of visual field.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 204,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Static and kinetic equilibrium.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 207,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Propiocepsis.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 221,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sensory information.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 222,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "=abnormal.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 223,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "=Excesive.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 224,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Stimuli.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 227,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "=Discordant information.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 229,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "= unknown patern.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 233,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Oculomotor centra: NISTAGMUS.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 234,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 198,
+        "section_end_paragraph": 234
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s17",
+      "title": "X AFFECTIVE COMPONENT",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Head Acceleration Head angular Velocity Endolymph Displacement.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 239,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Cilia Bending.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 244,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Cupular Angle.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 245,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Receptor Cell Potential.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 250,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 239,
+        "section_end_paragraph": 250
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s18",
+      "title": "Synaptic Action",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Generator Potential.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 255,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perception.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 266,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 255,
+        "section_end_paragraph": 266
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s19",
+      "title": "VOR",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Posture.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 273,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 273,
+        "section_end_paragraph": 273
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s20",
+      "title": "Ket:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "CNS: Central Nervous System VOR: Vestibulo Ocular Reflex.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 275,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 275,
+        "section_end_paragraph": 275
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s21",
+      "title": "CIRCADIAN RYTHMS",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "STRESS Behavioral Changes.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 279,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 279,
+        "section_end_paragraph": 279
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s22",
+      "title": "T",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "(+).",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 290,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Ach.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 291,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "(+).",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 292,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 290,
+        "section_end_paragraph": 292
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s23",
+      "title": "CSS",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "(+).",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 302,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 302,
+        "section_end_paragraph": 302
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s24",
+      "title": "T I G E N S.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "(-).",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 313,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 313,
+        "section_end_paragraph": 313
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s25",
+      "title": "STEROIDS",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Multiple Physiological Responses/Pathology.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 321,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 321,
+        "section_end_paragraph": 321
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s26",
+      "title": "KETERANGAN:",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "5 HT: Serotonin.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 331,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Ach: Acetyl Cholin.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 332,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "GABA: Gama Amino Butyric Acid.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 333,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "CSS: Central Sympathic System.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 334,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "ADR.MED: Adrenal Medula.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 335,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "(+): Exitatory.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 336,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "(-): Inhibitory.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 337,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 331,
+        "section_end_paragraph": 337
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s27",
+      "title": "ACTH: Adreno Corticotropic Hormon.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "ADR. Cortex: Adrenal Cortex.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 340,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 340,
+        "section_end_paragraph": 340
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s28",
+      "title": "KRONIS BERULANG",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "(-).",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 346,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 346,
+        "section_end_paragraph": 346
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s29",
+      "title": "TD. TELINGA",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "(-) (+).",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 352,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 352,
+        "section_end_paragraph": 352
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s30",
+      "title": "TD. TELINGA",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "(-) (+).",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 356,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 356,
+        "section_end_paragraph": 356
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s31",
+      "title": "POSISI BERUBAH",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "(-) (+).",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 367,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "(acoustic).",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 371,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Osteofit Cervical.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 375,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Atherosclerosis.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 376,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 367,
+        "section_end_paragraph": 376
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s32",
+      "title": "PEMERIKSAAN KHUSUS",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Heart rate + irama.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 382,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Palpase a. Carotis.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 383,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Auscultasi bising a. Carotis.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 384,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Romberg test.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 385,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Lakukan secara bertahap, amati apakah pasien kesulitan menjaga keseimbangan.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 386,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Berdiri, rapatkan kaki, lipat tangan di depan, tutup mata, angkat satu kaki.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 387,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Jika jatuh, perhatikan arah jatuh.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 388,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Tandem gait ฀ heel to toe gait.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 389,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Jika ada deviasi (belok), perhatikan arah deviasi.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 390,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 382,
+        "section_end_paragraph": 390
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s33",
+      "title": "STIMULASI VERTIGO",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Hipotensi ortostatik ฀ minta pasien berdiri lama (atau secara mendadak?).",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 392,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Manuver valsava ฀ untuk meningkatkan tekanan intrameduller.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 393,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Do while pinching nose and puffing out cheeks.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 394,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Putar Kepala.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 395,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Nylen-Barany test ฀ memutar-mutar pasien di kursi.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 396,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Kalori test ฀ memasukkan air hangat/dingin ke telinga.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 397,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 392,
+        "section_end_paragraph": 397
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s34",
+      "title": "MORFOLOGI RESPON",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Yang menarik adl gelombang IV dan V sering bercampur bersama menjadi apa yang disebut kompleks IV-V.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 405,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 405,
+        "section_end_paragraph": 405
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s35",
+      "title": "Variant-variant komplek IV-V adl:",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Puncak tunggal tanpa pemisahan gel. IV dan V.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 407,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Pemisahan gelombang IV dan V dimana IV lebih pendek dari V.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 408,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Pemisahan gelombang IV dan V dimana IV lebih tinggi dari V.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 409,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Gelombang IV naik di atas gel V.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 410,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Gelombang V naik diatas gel IV.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 411,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Gelombang terpisah sama tinggi.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 412,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 407,
+        "section_end_paragraph": 412
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s36",
+      "title": "Pengobatan vertigo neurogenik menyangkut:",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Tindakan suportif ฀ psikologis.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 432,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 432,
+        "section_end_paragraph": 432
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s37",
+      "title": "Terapi kausatif",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Tindakan operasi.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 435,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 435,
+        "section_end_paragraph": 435
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s38",
+      "title": "Anti kolinergik",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Sulfas Atropin: 0, 4 mg/im.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 440,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Scopolamin: 0, 6 mg IV bisa diulang tiap 3 jam.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 441,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 440,
+        "section_end_paragraph": 441
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s39",
+      "title": "Simpatomimetika",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Epidame 1, 5 mg IV bisa diulang tiap 30 menit.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 443,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 443,
+        "section_end_paragraph": 443
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s40",
+      "title": "Menghambat aktivitas nukleus vestibuler.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Golongan antihistamin.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 445,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Golongan ini, yang menghambat aktivitas nukleus vestibularis adalah: .",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 446,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Diphenhidramin: 1, 5 mg/im/oral bisa diulang tiap 2 jam.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 447,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Dimenhidrinat: 50-100 mg/ 6 jam.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 448,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Flunarizin.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 449,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Sedatif ฀ hanya sesaat saja.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 451,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Phenobarbital: 15-30 mg/ 6 jam.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 452,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Diazepam: 5-10 mg.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 453,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Chlorpromazin (CPZ): 25 mg.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 454,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 445,
+        "section_end_paragraph": 454
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s41",
+      "title": "Oklusi:",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Anti platelet agregasi.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 457,
+                "style": "Body Text"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Vasodilator.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 458,
+                "style": "Body Text"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Flunarizin.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 459,
+                "style": "Body Text"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 457,
+        "section_end_paragraph": 459
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s42",
+      "title": "Epilepsi:",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Phenytoin.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 461,
+                "style": "Body Text"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Carbamazeoin.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 462,
+                "style": "Body Text"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 461,
+        "section_end_paragraph": 462
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s43",
+      "title": "Migren:",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Ergotamin.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 464,
+                "style": "Body Text"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Flunarizin.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 465,
+                "style": "Body Text"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 464,
+        "section_end_paragraph": 465
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s44",
+      "title": "CEREBELUM ABN VASC",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Cochlea tikus percobaan.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 519,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Tinnitus.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 520,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Meniere’ Dis.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 521,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Histamin like effek terhhadap H2 reseptor dalam cochlea a.l. darah cochlea.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 526,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "H3 Het. Reseptor.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 528,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Reseptor cholinergik.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 529,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Depol K.",
+              "children": [],
+              "provenance": {
+                "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+                "source_paragraph_index": 530,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Doppler.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 532,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Thank You.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "source_paragraph_index": 569,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "section_start_paragraph": 519,
+        "section_end_paragraph": 569
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s45",
+      "title": "Extracted table 1",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "Pr",
+              "Opioception"
+            ],
+            [
+              "Sensory information",
+              "Sensory information"
+            ]
+          ],
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "table_index": 0
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "table_index": 0
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s46",
+      "title": "Extracted table 2",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "",
+              "Vertigo Otogenik (Perifer)",
+              "Vertigo Neurogenik (Sentral)"
+            ],
+            [
+              "VERTIGO Tipe Arah",
+              "Sering ditemukan rotatory directional Horisontal, Rotatory.",
+              "Sering non Rotational Horisontal, Rotatory dan bentukan oscillopsia, scotoma (dark spot?)."
+            ],
+            [
+              "II PEMERIKSAAN FISIK",
+              "II PEMERIKSAAN FISIK",
+              "II PEMERIKSAAN FISIK"
+            ],
+            [
+              "A. Perubahan Posisi",
+              "Dipengaruhi perubahan posisi kepala/tubuh.",
+              "Dipengaruhi gerakan leher"
+            ],
+            [
+              "B. Gangguan gait",
+              "Jarang/tidak ada",
+              "Sering ada"
+            ],
+            [
+              "C. Gangguan fungsi otonom.",
+              "Selalu ada",
+              "Tidak/jarang terjadi"
+            ],
+            [
+              "D. Keluhan lain",
+              "Tinnitus, tuli",
+              "Gangguan kesadaran"
+            ]
+          ],
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "table_index": 1
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "table_index": 1
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s47",
+      "title": "Extracted table 3",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "III. PEMERIKSAAN NISTAGMUS",
+              "III. PEMERIKSAAN NISTAGMUS",
+              "III. PEMERIKSAAN NISTAGMUS"
+            ],
+            [
+              "A. Arah",
+              "Unidirectional",
+              "Bidirectional"
+            ],
+            [
+              "B. Jenis",
+              "Horisontal atau Horisontal Rotatory.",
+              "Rotatory vertikal, downbeat up beat."
+            ],
+            [
+              "C. Fiksasi mata",
+              "Menghambat (tidak bisa fiksasi).",
+              "Tidak menghambat"
+            ],
+            [
+              "D. Posisional nistagmus",
+              "Sukar diulang, latensi lama.",
+              "Mudah diulang, singkat"
+            ],
+            [
+              "E. Eye tracking",
+              "Sinusoid",
+              "Saccadic/ ataxic"
+            ],
+            [
+              "F. Kalori",
+              "Unilateral weakness",
+              "Bilateral weakness"
+            ],
+            [
+              "IV. PEMERIKSAAN VESTIBULO SPINAL.",
+              "IV. PEMERIKSAAN VESTIBULO SPINAL.",
+              "IV. PEMERIKSAAN VESTIBULO SPINAL."
+            ],
+            [
+              "A. Rambert- test mata terbuka tertutup.",
+              "Normal Abnormal",
+              "Abnormal Abnormal"
+            ],
+            [
+              "B. Writing test",
+              "Deviasi abnormal",
+              "Ataxic/ gelombang"
+            ],
+            [
+              "C. Ataksia",
+              "Tidak ada",
+              "Sering ada"
+            ]
+          ],
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "table_index": 2
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "table_index": 2
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s48",
+      "title": "Extracted table 4",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "D. Finger to finger test.",
+              "Normal",
+              "Abnormal"
+            ],
+            [
+              "E. Past pointing test.",
+              "Abnormal kedua tangan Penyimpangan sisi.",
+              "Abnormal, sisi lesi Penyimpangan tak."
+            ],
+            [
+              "F. Stepping",
+              "Penyimpangan sisi lesi",
+              "Penyimpangan tak menentu"
+            ],
+            [
+              "G. Walking",
+              "Mata tertutup ada penyimpangannya.",
+              "Mata terbuka / tertutup ada penyimpangannya."
+            ]
+          ],
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "table_index": 3
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "table_index": 3
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s49",
+      "title": "Extracted table 5",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "I. KELUHAN",
+              "Lebih banyak merasa tubuh berputar Unsteadiness menonjol Drop attack banyak dikeluhkan Lingkungan sebagai pencetus Keluhan fisik lain menonjol.",
+              "Lingkungan berputar Jarang Jarang Jarang Jarang."
+            ],
+            [
+              "II. PERJALANAN PENYAKIT",
+              "Fluktuatif",
+              "Bervariasi"
+            ],
+            [
+              "III. USIA",
+              "Usia muda",
+              "Lebih banyak orang tua."
+            ],
+            [
+              "IV. FISIK NEURALGIA",
+              "Normal",
+              "Abnormal"
+            ],
+            [
+              "V. NISTAGMUS",
+              "Lebih lama Bersifat fisiologis.",
+              "Lebih cepat Bersifat patologis."
+            ]
+          ],
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "table_index": 4
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "table_index": 4
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s50",
+      "title": "Embedded visual material requiring downstream asset review.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Visual_asset_note",
+          "text": "Source DOCX contains 16 embedded image(s). Text extraction does not guarantee all visual labels/captions were captured; downstream Codex/asset pipeline should inspect embedded media before final compile.",
+          "embedded_image_count": 16,
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_embedded_review"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "embedded_image_count": 16
+      }
+    },
+    {
+      "id": "batch_1_6e_12_s51",
+      "title": "Penjelasan sederhana / simpler bilingual bridge.",
+      "kind": "Bilingual",
+      "content": [
+        {
+          "type": "Simplified_id",
+          "text": "Versi sederhana: materi ini terutama membahas ppt diagnosing vertigo and dizziness dengan fokus pada konsep klinis, diagnosis, tanda penting, dan tata laksana yang tampak di bahan dosen.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        },
+        {
+          "type": "Simplified_en",
+          "text": "Simple English bridge: this lecture centers on ppt diagnosing vertigo and dizziness, emphasizing clinical concepts, diagnosis, key signs, and management points extracted from the lecturer file.",
+          "provenance": {
+            "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_12_01",
+        "Visual_batch_1_6e_12_02",
+        "Visual_batch_1_6e_12_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_12_01",
+        "Quiz_batch_1_6e_12_02",
+        "Quiz_batch_1_6e_12_03"
+      ],
+      "glossary_refs": [
+        "Term_vertigo",
+        "Term_acth",
+        "Term_acth_adreno_corticotropic_hormon",
+        "Term_ada_vertigo_sentral_perifer",
+        "Term_anti_kolinergik",
+        "Term_ataksia_karena_neuropati_misal_neuropati_dm",
+        "Term_beda_vertigo_neurogenik_otogenik_atau_psikogenik",
+        "Term_beda_vertigo_psikogenik_dan_neurogenik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "generated_section": true
+      }
+    }
+  ],
+  "related_exam_set_ids": [
+    "exam_recall_batch_1_6e_12"
+  ],
+  "provenance": {
+    "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+    "manifest_document_id": "batch_1_6e_12",
+    "topic_tags": [
+      "Vertigo",
+      "Neuro-otology",
+      "Dizziness"
+    ],
+    "extraction_method": "python-docx paragraph/table extraction; embedded images counted but not OCRed",
+    "paragraph_count": 225,
+    "table_count": 5,
+    "embedded_image_count": 16
+  }
+}

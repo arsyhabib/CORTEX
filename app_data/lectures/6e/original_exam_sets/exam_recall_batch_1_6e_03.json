@@ -1,0 +1,368 @@
+{
+  "id": "exam_recall_batch_1_6e_03",
+  "title": "Question-like recall prompts: EF Infeksi.",
+  "block": "5e",
+  "year": 0,
+  "year_label": "not stated in source; extracted from Batch 1/6E lecturer material",
+  "source_label": "6EF Infeksi.docx",
+  "page_route": "pages/exam_sets/exam_recall_batch_1_6e_03.html",
+  "question_count": 13,
+  "reconstruction_level": "Reconstructed",
+  "questions": [
+    {
+      "id": "exam_recall_batch_1_6e_03_q01",
+      "number": 1,
+      "stem": "Di manakah infeksinya?",
+      "stem_original": "• Di manakah infeksinya?",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah '6EF Infeksi.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 10",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_03"
+      ],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "source_paragraph_index": 10,
+        "style": "Normal"
+      }
+    },
+    {
+      "id": "exam_recall_batch_1_6e_03_q02",
+      "number": 2,
+      "stem": "Apakah etiologi infeksinya?",
+      "stem_original": "• Apakah etiologi infeksinya?",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah '6EF Infeksi.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 11",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_03"
+      ],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "source_paragraph_index": 11,
+        "style": "Normal"
+      }
+    },
+    {
+      "id": "exam_recall_batch_1_6e_03_q03",
+      "number": 3,
+      "stem": "Pengobatan infeksi lokal? Pengobatan infeksi sistemik?",
+      "stem_original": "• Pengobatan infeksi lokal? Pengobatan infeksi sistemik?",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah '6EF Infeksi.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 14",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_03"
+      ],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "source_paragraph_index": 14,
+        "style": "Normal"
+      }
+    },
+    {
+      "id": "exam_recall_batch_1_6e_03_q04",
+      "number": 4,
+      "stem": "Makin mengantuk/meracau? - kesadaran makin menurun?",
+      "stem_original": "• Makin mengantuk/meracau? – kesadaran makin menurun.",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah '6EF Infeksi.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 33",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_03"
+      ],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "source_paragraph_index": 33,
+        "style": "Normal"
+      }
+    },
+    {
+      "id": "exam_recall_batch_1_6e_03_q05",
+      "number": 5,
+      "stem": "Nyeri kepala, muntah? - tekanan intrakranial meningkat?",
+      "stem_original": "• Nyeri kepala, muntah? – tekanan intrakranial meningkat.",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah '6EF Infeksi.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 34",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_03"
+      ],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "source_paragraph_index": 34,
+        "style": "Normal"
+      }
+    },
+    {
+      "id": "exam_recall_batch_1_6e_03_q06",
+      "number": 6,
+      "stem": "Radang tanpa infeksi?",
+      "stem_original": "• Radang tanpa infeksi?",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah '6EF Infeksi.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 47",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_03"
+      ],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "source_paragraph_index": 47,
+        "style": "Normal"
+      }
+    },
+    {
+      "id": "exam_recall_batch_1_6e_03_q07",
+      "number": 7,
+      "stem": "Defisit Fokal SSP?",
+      "stem_original": "Defisit Fokal SSP?",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah '6EF Infeksi.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 53",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_03"
+      ],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "source_paragraph_index": 53,
+        "style": "Normal"
+      }
+    },
+    {
+      "id": "exam_recall_batch_1_6e_03_q08",
+      "number": 8,
+      "stem": "Dengan lesi fokal?",
+      "stem_original": "• Dengan lesi fokal?",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah '6EF Infeksi.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 71",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_03"
+      ],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "source_paragraph_index": 71,
+        "style": "Normal"
+      }
+    },
+    {
+      "id": "exam_recall_batch_1_6e_03_q09",
+      "number": 9,
+      "stem": "Dengan infeksi difus?",
+      "stem_original": "• Dengan infeksi difus?",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah '6EF Infeksi.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 72",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_03"
+      ],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "source_paragraph_index": 72,
+        "style": "Normal"
+      }
+    },
+    {
+      "id": "exam_recall_batch_1_6e_03_q10",
+      "number": 10,
+      "stem": "Apa bakteri yang?",
+      "stem_original": "• Apa bakteri yang",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah '6EF Infeksi.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 430",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_03"
+      ],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "source_paragraph_index": 430,
+        "style": "Normal"
+      }
+    },
+    {
+      "id": "exam_recall_batch_1_6e_03_q11",
+      "number": 11,
+      "stem": "Teridentifikasi?",
+      "stem_original": "Teridentifikasi?",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah '6EF Infeksi.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 431",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_03"
+      ],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "source_paragraph_index": 431,
+        "style": "Normal"
+      }
+    },
+    {
+      "id": "exam_recall_batch_1_6e_03_q12",
+      "number": 12,
+      "stem": "Antibiotik apa?",
+      "stem_original": "Antibiotik apa?",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah '6EF Infeksi.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 433",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_03"
+      ],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "source_paragraph_index": 433,
+        "style": "Normal"
+      }
+    },
+    {
+      "id": "exam_recall_batch_1_6e_03_q13",
+      "number": 13,
+      "stem": "Antibiotik apa?",
+      "stem_original": "Antibiotik apa?",
+      "options": [
+        "Prompt recall terbuka; opsi asli tidak tersedia di sumber.",
+        "Tidak berlaku / opsi pengalih untuk kompatibilitas skema."
+      ],
+      "answer_index": 0,
+      "answer_text": "Tidak ada kunci jawaban asli pada sumber; item ini diperlakukan sebagai recall prompt dan perlu ditinjau sebelum digunakan sebagai soal asesmen.",
+      "explanation": "Teks yang menyerupai soal terdeteksi pada sumber kuliah '6EF Infeksi.docx'. Item ini dipisahkan dari materi kuliah dan ditandai sebagai rekonstruksi berkepercayaan rendah karena tidak ada opsi MCQ asli atau kunci jawaban pada teks sumber.",
+      "confidence": "low",
+      "origin": {
+        "page": 0,
+        "page_label": "paragraph 435",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [
+        "batch_1_6e_03"
+      ],
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "source_paragraph_index": 435,
+        "style": "Normal"
+      }
+    }
+  ],
+  "provenance": {
+    "source_document": "6EF Infeksi.docx",
+    "detection_method": "Question mark/interrogative phrase detection; not a validated original exam set."
+  }
+}

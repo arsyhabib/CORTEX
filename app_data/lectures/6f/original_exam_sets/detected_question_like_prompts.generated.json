@@ -1,0 +1,558 @@
+{
+  "id": "batch_2_6f_detected_question_like_prompts",
+  "domain": "original_exam_sets_auxiliary_prompt_inventory",
+  "schema_note": "Auxiliary inventory; not an original_exam_set.schema.json file because source prompts do not provide complete MCQ options/answer keys.",
+  "detected_item_count": 55,
+  "detected_items": [
+    {
+      "id": "batch_2_6f_01_prompt_001",
+      "source_file": "09 dr.Susi - 1. GAM.docx",
+      "linked_material_id": "Batch_2_6f_01",
+      "section_id": "Batch_2_6f_01_s20",
+      "text": "Prompt terdeteksi: Nanti ketergantungan obat keluarga kami, dok.?. Petunjuk jawaban: edukasi ya,.",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_04_prompt_001",
+      "source_file": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx",
+      "linked_material_id": "Batch_2_6f_04",
+      "section_id": "Batch_2_6f_04_s23",
+      "text": "Klinis: vertigo sentral?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_04_prompt_002",
+      "source_file": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx",
+      "linked_material_id": "Batch_2_6f_04",
+      "section_id": "Batch_2_6f_04_s23",
+      "text": "Apakah diagnosis kerja sudah diikut pemeriksaan penunjang?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_04_prompt_003",
+      "source_file": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx",
+      "linked_material_id": "Batch_2_6f_04",
+      "section_id": "Batch_2_6f_04_s23",
+      "text": "Apakah ada diagnosis banding?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_04_prompt_004",
+      "source_file": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx",
+      "linked_material_id": "Batch_2_6f_04",
+      "section_id": "Batch_2_6f_04_s27",
+      "text": "Rehidrasi: infus? NGT?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_04_prompt_005",
+      "source_file": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx",
+      "linked_material_id": "Batch_2_6f_04",
+      "section_id": "Batch_2_6f_04_s29",
+      "text": "Dibutuhkan fasilitas untuk penegakan diagnosis dan pemberian tatalaksana untuk etiologi. Contoh: curiga disebabkan stroke. Butuh CT-scan kepala nonkontras? Butuh SpN?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_05_prompt_001",
+      "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+      "linked_material_id": "Batch_2_6f_05",
+      "section_id": "Batch_2_6f_05_s09",
+      "text": "ECT juga merupakan terapi pilihan untuk: .",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "low",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_05_prompt_002",
+      "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+      "linked_material_id": "Batch_2_6f_05",
+      "section_id": "Batch_2_6f_05_s10",
+      "text": "Informed consent harus terdokumentasi dalam rekam medis px dan memasukkan diskusi tentang penyakit, perjalanannya, dan pilihan untuk tidak menerima pengobatan.",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "low",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_05_prompt_003",
+      "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+      "linked_material_id": "Batch_2_6f_05",
+      "section_id": "Batch_2_6f_05_s24",
+      "text": "Faktor biologis, sosial psikologis?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_05_prompt_004",
+      "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+      "linked_material_id": "Batch_2_6f_05",
+      "section_id": "Batch_2_6f_05_s24",
+      "text": "Masa lalu vs masa kini?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_05_prompt_005",
+      "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+      "linked_material_id": "Batch_2_6f_05",
+      "section_id": "Batch_2_6f_05_s24",
+      "text": "Pikiran vs perasaan atau tindakan?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_05_prompt_006",
+      "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+      "linked_material_id": "Batch_2_6f_05",
+      "section_id": "Batch_2_6f_05_s24",
+      "text": "Aktif - pasif?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_05_prompt_007",
+      "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+      "linked_material_id": "Batch_2_6f_05",
+      "section_id": "Batch_2_6f_05_s24",
+      "text": "Prosedurnya fixed - fleksibel?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_09_prompt_001",
+      "source_file": "delerium FKIK UNJA (1).docx",
+      "linked_material_id": "Batch_2_6f_09",
+      "section_id": "Batch_2_6f_09_s12",
+      "text": "Tanyakan pada individu/pelaku rawat: Sejak kapan & usia saat awitan? Perburukan gejala&hendaya? Awitan mendadak atau bertahap?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_09_prompt_002",
+      "source_file": "delerium FKIK UNJA (1).docx",
+      "linked_material_id": "Batch_2_6f_09",
+      "section_id": "Batch_2_6f_09_s12",
+      "text": "Apakah awitan terkait dengan cedera kepala, pingsan atau stroke? Apakah gejala memburuk di malam hari?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_09_prompt_003",
+      "source_file": "delerium FKIK UNJA (1).docx",
+      "linked_material_id": "Batch_2_6f_09",
+      "section_id": "Batch_2_6f_09_s12",
+      "text": "Adakah rasa mengantuk atau perubahan kesadaran?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_09_prompt_004",
+      "source_file": "delerium FKIK UNJA (1).docx",
+      "linked_material_id": "Batch_2_6f_09",
+      "section_id": "Batch_2_6f_09_s15",
+      "text": "Komunikasi singkat dan jelas (satu instruksi/pertanyaan dalam satu.",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "low",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_10_prompt_001",
+      "source_file": "dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.docx",
+      "linked_material_id": "Batch_2_6f_10",
+      "section_id": "Batch_2_6f_10_s21",
+      "text": "MER em S| [can yougive some detain [IS (mustgverewantoetai ”-”-”| tersebuty (diulangWsetiapMharin campet/ Aer > 73 kendewnj [wnat time isitnow? 1S [itor each nattnour error ete. oe [wnatcayormeweekisn? [73 | ttoreacnaayerrorete | tercapai [wnat day ote mons tre taste) | 18 ¥Yoreach day ero. ete + [wnatisttemonn? «dt 18 Storeachmoninerer--*d.",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_10_prompt_002",
+      "source_file": "dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.docx",
+      "linked_material_id": "Batch_2_6f_10",
+      "section_id": "Batch_2_6f_10_s23",
+      "text": "1 & 1? d.",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_11_prompt_001",
+      "source_file": "dr.Fatmawati,Sp.KJ-Gangguan Somatoform (1).docx",
+      "linked_material_id": "Batch_2_6f_11",
+      "section_id": "Batch_2_6f_11_s44",
+      "text": "Psikoterapi, - ¥ i = SL + Merupakan pilihan terapi gan gangguan pasien dibantu berad jalanya, mengekspresikan emosi yang mendasar un strategi alternatif untuk | + Psikoterapi bentuk lainnya, misalnya yang berorientasi pada. pandangan per individu, terapi tingkah laku, terapi kognitif, dan hipnotis dapat membantu. Tn.",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "low",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_12_prompt_001",
+      "source_file": "legal-etik-jiwa.docx",
+      "linked_material_id": "Batch_2_6f_12",
+      "section_id": "Batch_2_6f_12_s03",
+      "text": "Pilihan perawatan.",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "low",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_001",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s06",
+      "text": "Apakah rapport itu?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_002",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s09",
+      "text": "Tanyakan nama pasien serta bagaimana sebaiknya memanggil pasien.",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "low",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_003",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s09",
+      "text": "Lanjutkan dengan pertanyaan ringan (cth: bagaimana perjalanan pasien sampai ke tempat pewawancara).",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "low",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_004",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s09",
+      "text": "Dapat digunakan pertanyaan-pertanyaan, seperti: .",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "low",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_005",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s09",
+      "text": "Apa yang sedang mengganggu anda?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_006",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s09",
+      "text": "Apa yang saat ini anda rasakan?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_007",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s09",
+      "text": "Apa yang bisa saya bantu? Dapatkah anda menceritakan.?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_008",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s14",
+      "text": "Teknik pertanyaan terbuka (open-ended questions) di awal wawancara akan membuat pasien menceritakan masalahnya dengan kata-kata pasien sendiri. Pertanyaan yang membantu di antaranya adalah: .",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "low",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_009",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s14",
+      "text": "“Bagaimana saya dapat membantu anda?” “Apa yang bisa saya bantu?”.",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_010",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s14",
+      "text": "“Masalah apa yang membawa anda ke sini?”.",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_011",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s14",
+      "text": "“Darimana sebaiknya kita mulai?”.",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_012",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s14",
+      "text": "Dikombinasikan dengan beberapa pertanyaan tertutup (close-ended questions) untuk menelusuri kata kunci atau menanyakan hal yang spesifik, detil-detil yang dibutuhkan untuk diagnosis.",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "low",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_013",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s14",
+      "text": "D: Sudah berapa lama anda mengalami keluhan sulit tidur?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_014",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s14",
+      "text": "Belakangan ini?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_015",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s14",
+      "text": "Tidur lagi?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_016",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s14",
+      "text": "Pendekatan yang baik adalah dengan mengkombinasikan keduanya dari pertanyaan luas ke pertanyaan yang terfokus dan tajam.",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "low",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_017",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s14",
+      "text": "Memulai topik baru dengan pertanyaan terbuka yang luas; lanjutkan dengan memfokuskan pada satu topik target; akhiri dengan serial pertanyaan yang semakin menyempit, sesekali tertutup - tipe ya/tidak.",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "low",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_018",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s14",
+      "text": "Jika ingin menghindari pertanyaan tertutup, gunakan pertanyaan terbuka yang tajam dan fokus.",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "low",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_019",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s14",
+      "text": "“Apakah anda mengalami sulit tidur?” (jawaban yang muncul adalah: ya atau tidak).",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_020",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s14",
+      "text": "“Apa yang terjadi saat anda mencoba tidur?”.",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_021",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s15",
+      "text": "“anda merasa sedih. Kapan waktu anda merasa paling sedih?”.",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_022",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s16",
+      "text": "“lalu.” “apa yang terjadi kemudian?”.",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_023",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s18",
+      "text": "“Saya sangat menghargai anda menceritakan kepada saya bahwa anda berhenti meminum obat. Dapatkah anda memberitahukan kepada saya, apa masalahnya?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_024",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s21",
+      "text": "Pertanyaan kunci untuk mendeteksi gangguan jiwa di fasilitas kesehatan primer: .",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "low",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_025",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s21",
+      "text": "Apakah Anda mengalami kesulitan tidur di malam hari?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_026",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s21",
+      "text": "Apakah Anda merasa seolah tidak tertarik untuk melakukan kegiatan yang biasa Anda lakukan?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_027",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s21",
+      "text": "Apakah Anda merasa sedih akhir-akhir ini?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_028",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s21",
+      "text": "Apakah Anda merasa takut terhadap apapun?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_029",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s26",
+      "text": "Ide meluap-luap, kemiskinan ide, flight of ideas, berpikir cepat, berpikir lambat, apakah pasien berbicara secara spontan atau hanya menjawab ketika pertanyaan diajukan, arus pikiran.",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "low",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_030",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_s26",
+      "text": "Apakah jawaban pasien sesuai dengan pertanyaan, apakah jawaban terarah, relevan atau tidak relevan, asosiasi longgar, kurangnya hubungan sebab akibat dalam menjelaskan sesuatu, tidak logis, tangensial, circumstantial, bertele-tele, perseverasi, blocking.",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "low",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_031",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_summary",
+      "text": "Pertanyaan yang membantu di antaranya adalah: .",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "low",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_032",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_summary",
+      "text": "Dikombinasikan dengan beberapa pertanyaan tertutup (close-ended questions) untuk menelusuri kata kunci atau menanyakan hal yang spesifik, detil-detil yang dibutuhkan untuk diagnosis.",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "low",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_13_prompt_033",
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "linked_material_id": "Batch_2_6f_13",
+      "section_id": "Batch_2_6f_13_summary",
+      "text": "Pendekatan yang baik adalah dengan mengkombinasikan keduanya dari pertanyaan luas ke pertanyaan yang terfokus dan tajam.",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "low",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    },
+    {
+      "id": "batch_2_6f_14_prompt_001",
+      "source_file": "✅28_4_25 GGN KEPRIBADIAN DAN PERILAKU MASA DEWASA_compressed.docx",
+      "linked_material_id": "Batch_2_6f_14",
+      "section_id": "Batch_2_6f_14_s09",
+      "text": "Suka liat yg arch?",
+      "detected_type": "Question_like_or_interview_prompt",
+      "confidence": "medium",
+      "schema_note": "Not converted into original_exam_set question because source does not provide MCQ options/answer key."
+    }
+  ]
+}

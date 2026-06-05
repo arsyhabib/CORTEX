@@ -1,0 +1,25 @@
+content_id,domain,title,word_count,has_summary,has_visual,has_quiz,has_glossary,readability_status,source_status,qc_status,notes
+batch_1_6e_01,lecture_material,"dr. Sri Novianty, Sp.N - How To Treat Central Vertigo",649,True,True,True,True,source-preserving/draft,extractable_text,pass_with_review_notes,31 sections; 34 embedded images; 5 question-like prompts
+batch_1_6e_02,lecture_material,dr.Attiya - Gangguan Gerak,1567,True,True,True,True,source-preserving/draft,extractable_text,pass_with_review_notes,108 sections; 38 embedded images; 0 question-like prompts
+batch_1_6e_03,lecture_material,EF Infeksi,1438,True,True,True,True,source-preserving/draft,extractable_text,pass_with_review_notes,65 sections; 54 embedded images; 13 question-like prompts
+batch_1_6e_04,lecture_material,CENTRAL NEVROS SYSTEM INFECTION  and Inflammation,538,True,True,True,True,source-preserving/draft,extractable_text,pass_with_review_notes,17 sections; 23 embedded images; 0 question-like prompts
+batch_1_6e_05,lecture_material,CEREBRAL INFARK,148,True,True,True,True,source-preserving/draft,extractable_text,pass_with_review_notes,7 sections; 10 embedded images; 0 question-like prompts
+batch_1_6e_06,lecture_material,KULIAH BANGKITAN koas,304,True,True,True,True,source-preserving/draft,extractable_text,pass_with_review_notes,14 sections; 48 embedded images; 0 question-like prompts
+batch_1_6e_07,lecture_material,Kuliah PA Neurologi,1376,True,True,True,True,source-preserving/draft,extractable_text,pass_with_review_notes,26 sections; 47 embedded images; 0 question-like prompts
+batch_1_6e_08,lecture_material,MIKROORGANISME PENYEBAB INFEKSI,2323,True,True,True,True,source-preserving/draft,extractable_text,pass_with_review_notes,78 sections; 6 embedded images; 0 question-like prompts
+batch_1_6e_09,lecture_material,Manajemen Pensa dan Koma - Koass,431,True,True,True,True,source-preserving/draft,extractable_text,pass_with_review_notes,16 sections; 81 embedded images; 0 question-like prompts
+batch_1_6e_10,lecture_material,NYERI kepala 2,2106,True,True,True,True,source-preserving/draft,extractable_text,pass_with_review_notes,83 sections; 54 embedded images; 0 question-like prompts
+batch_1_6e_11,lecture_material,Neuropaty Materi Ngajar Mei 2025 (1),2644,True,True,True,True,source-preserving/draft,extractable_text,pass_with_review_notes,133 sections; 121 embedded images; 1 question-like prompts
+batch_1_6e_12,lecture_material,PPT Diagnosing Vertigo and Dizziness,903,True,True,True,True,source-preserving/draft,extractable_text,pass_with_review_notes,51 sections; 16 embedded images; 4 question-like prompts
+batch_1_6e_13,lecture_material,PPT Gangguan Keseimbangan,692,True,True,True,True,source-preserving/draft,extractable_text,pass_with_review_notes,25 sections; 95 embedded images; 1 question-like prompts
+batch_1_6e_14,lecture_material,Parkinson Disease (Aspek Klinis),1149,True,True,True,True,source-preserving/draft,extractable_text,pass_with_review_notes,49 sections; 29 embedded images; 1 question-like prompts
+batch_1_6e_15,lecture_material,Patofisiologi stroke gizi,318,True,True,True,True,source-preserving/draft,extractable_text,pass_with_review_notes,23 sections; 96 embedded images; 0 question-like prompts
+batch_1_6e_16,lecture_material,Pemeriksaan klinis neuro 250523 133200,0,True,True,False,False,source-preserving/draft,image_only_or_no_text,source_gap,1 sections; 12 embedded images; 0 question-like prompts
+batch_1_6e_17,lecture_material,Radiologi Tumor Cerebri,149,True,True,True,True,source-preserving/draft,extractable_text,pass_with_review_notes,21 sections; 22 embedded images; 0 question-like prompts
+batch_1_6e_18,lecture_material,STATUS EPILEPTIKUS koas,88,True,True,True,True,source-preserving/draft,extractable_text,pass_with_review_notes,3 sections; 28 embedded images; 0 question-like prompts; residue trimmed
+batch_1_6e_19,lecture_material,TUMOR SSP KULIAH,2850,True,True,True,True,source-preserving/draft,extractable_text,pass_with_review_notes,119 sections; 72 embedded images; 0 question-like prompts
+batch_1_6e_20,lecture_material,Trauma Sistim Saraf,518,True,True,True,True,source-preserving/draft,extractable_text,pass_with_review_notes,28 sections; 13 embedded images; 0 question-like prompts
+batch_1_6e_21,lecture_material,Tumor Cerebri,392,True,True,True,True,source-preserving/draft,extractable_text,pass_with_review_notes,20 sections; 14 embedded images; 0 question-like prompts
+batch_1_6e_22,lecture_material,dr.Patrick - neurorehab,4410,True,True,True,True,source-preserving/draft,extractable_text,pass_with_review_notes,146 sections; 169 embedded images; 4 question-like prompts
+batch_1_6e_23,lecture_material,neuroanatomi 2023,1914,True,True,True,True,source-preserving/draft,extractable_text,pass_with_review_notes,37 sections; 52 embedded images; 0 question-like prompts
+batch_1_6e_24,lecture_material,"stroke-dr.Erni Z, SpRad",727,True,True,True,True,source-preserving/draft,extractable_text,pass_with_review_notes,17 sections; 33 embedded images; 0 question-like prompts

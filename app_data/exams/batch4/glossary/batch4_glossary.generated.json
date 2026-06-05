@@ -1,0 +1,478 @@
+{
+  "terms": [
+    {
+      "id": "gls_narkotika_golongan_ii",
+      "term": "Narkotika golongan II",
+      "domain": "farmakologi",
+      "definition": "Narkotika yang dalam konteks pembelajaran sumber dicontohkan oleh morfin dan pethidine; digunakan sebagai answer-hint untuk klasifikasi narkotika."
+    },
+    {
+      "id": "gls_maoi",
+      "term": "MAOI",
+      "domain": "farmakologi",
+      "definition": "Monoamine oxidase inhibitor, golongan antidepresan yang dapat berinteraksi dengan tiramin dan menimbulkan cheese reaction."
+    },
+    {
+      "id": "gls_cheese_reaction",
+      "term": "Cheese reaction",
+      "domain": "farmakologi",
+      "definition": "Reaksi hipertensi akibat konsumsi tiramin pada pengguna MAOI; istilah ini muncul sebagai inti pertanyaan sumber."
+    },
+    {
+      "id": "gls_bipolar",
+      "term": "Gangguan afektif bipolar",
+      "domain": "psikiatri",
+      "definition": "Gangguan mood dengan episode depresi dan episode manik/hipomanik; dalam sumber digunakan pada skenario perubahan dari depresi ke manik."
+    },
+    {
+      "id": "gls_manik",
+      "term": "Episode manik",
+      "domain": "psikiatri",
+      "definition": "Episode mood meningkat atau iritabel dengan gejala seperti grandiositas, kebutuhan tidur berkurang, banyak bicara, flight of ideas, mudah teralih, dan aktivitas meningkat."
+    },
+    {
+      "id": "gls_sirkumstansialitas",
+      "term": "Sirkumstansialitas",
+      "domain": "psikiatri",
+      "definition": "Gangguan bentuk pikir berupa pembicaraan berputar-putar dengan banyak detail tidak penting tetapi akhirnya mencapai tujuan."
+    },
+    {
+      "id": "gls_bentuk_pikir",
+      "term": "Bentuk pikiran",
+      "domain": "psikiatri",
+      "definition": "Aspek pemeriksaan status mental yang menilai cara atau alur berpikir, bukan isi pikiran."
+    },
+    {
+      "id": "gls_tca",
+      "term": "TCA",
+      "domain": "farmakologi",
+      "definition": "Tricyclic antidepressant; contoh yang muncul pada sumber meliputi amitriptilin, imipramine, doxepine, dan obat sejenis."
+    },
+    {
+      "id": "gls_amitriptilin",
+      "term": "Amitriptilin",
+      "domain": "farmakologi",
+      "definition": "Obat antidepresan trisiklik yang disebut eksplisit sebagai contoh TCA."
+    },
+    {
+      "id": "gls_ssri",
+      "term": "SSRI",
+      "domain": "farmakologi",
+      "definition": "Selective serotonin reuptake inhibitor; golongan antidepresan yang pada sumber dicontohkan oleh citalopram, escitalopram, fluoxetine, fluvoxamine, paroxetine, dan sertraline."
+    },
+    {
+      "id": "gls_fobia_sosial",
+      "term": "Fobia sosial",
+      "domain": "psikiatri",
+      "definition": "Gangguan ansietas terkait ketakutan terhadap situasi sosial; dalam sumber dikaitkan dengan penggunaan SSRI."
+    },
+    {
+      "id": "gls_aparatus_vestibularis",
+      "term": "Aparatus vestibularis",
+      "domain": "neuroanatomi",
+      "definition": "Sistem vestibular telinga dalam yang berperan dalam keseimbangan, mencakup kanalis semisirkularis dan organ otolit."
+    },
+    {
+      "id": "gls_kanalis_semisirkularis",
+      "term": "Kanalis semisirkularis",
+      "domain": "neuroanatomi",
+      "definition": "Komponen aparatus vestibularis yang mendeteksi gerakan rotasi kepala."
+    },
+    {
+      "id": "gls_tension_type_headache",
+      "term": "Tension-type headache",
+      "domain": "neurologi",
+      "definition": "Nyeri kepala tipe tegang; dalam sumber karakteristik yang dipakai adalah gejala ringan-sedang."
+    },
+    {
+      "id": "gls_mesolimbik",
+      "term": "Sistem mesolimbik",
+      "domain": "neurobiologi",
+      "definition": "Jalur dopamin yang dalam sumber dikaitkan dengan gejala positif skizofrenia seperti halusinasi dan waham."
+    },
+    {
+      "id": "gls_gejala_positif_skizofrenia",
+      "term": "Gejala positif skizofrenia",
+      "domain": "psikiatri",
+      "definition": "Manifestasi tambahan seperti halusinasi dan waham; sumber mengaitkannya dengan sistem mesolimbik dan antipsikotik tipikal."
+    },
+    {
+      "id": "gls_antipsikotik_tipikal",
+      "term": "Antipsikotik tipikal",
+      "domain": "farmakologi",
+      "definition": "Antipsikotik generasi pertama seperti haloperidol/klorpromazin; relevan untuk gejala positif dan efek ekstrapiramidal."
+    },
+    {
+      "id": "gls_efek_ekstrapiramidal",
+      "term": "Efek ekstrapiramidal",
+      "domain": "farmakologi",
+      "definition": "Efek samping motorik obat antipsikotik seperti tremor dan distonia."
+    },
+    {
+      "id": "gls_skizofrenia_katatonik",
+      "term": "Skizofrenia katatonik",
+      "domain": "psikiatri",
+      "definition": "Subtipe/gejala katatonik yang pada sumber ditandai oleh stupor/mutisme, rigiditas, fleksibilitas serea, negativisme, dan gejala motorik lain."
+    },
+    {
+      "id": "gls_absence_seizure",
+      "term": "Absence seizure",
+      "domain": "neurologi",
+      "definition": "Tipe kejang dengan episode bengong singkat; sumber mencatat sodium valproate/asam valproat sebagai obat."
+    },
+    {
+      "id": "gls_asam_valproat",
+      "term": "Asam valproat",
+      "domain": "farmakologi",
+      "definition": "Antiepileptik yang pada sumber disebut untuk absence seizure."
+    },
+    {
+      "id": "gls_antipsikotik",
+      "term": "Antipsikotik",
+      "domain": "farmakologi",
+      "definition": "Obat untuk gangguan psikotik/skizofrenia; sumber mencantumkan haloperidol, olanzapine, dan risperidone."
+    },
+    {
+      "id": "gls_haloperidol",
+      "term": "Haloperidol",
+      "domain": "farmakologi",
+      "definition": "Antipsikotik generasi pertama yang disebut eksplisit dalam sumber."
+    },
+    {
+      "id": "gls_kepribadian_narsistik",
+      "term": "Gangguan kepribadian narsistik",
+      "domain": "psikiatri",
+      "definition": "Gangguan kepribadian dengan grandiositas, kebutuhan dikagumi, dan empati rendah/instrumental."
+    },
+    {
+      "id": "gls_nervus_ischiadicus",
+      "term": "Nervus ischiadicus",
+      "domain": "neuroanatomi",
+      "definition": "Saraf besar ekstremitas bawah; berkaitan dengan nyeri pinggang menjalar ke tungkai/betis."
+    },
+    {
+      "id": "gls_carpal_tunnel_syndrome",
+      "term": "Carpal tunnel syndrome",
+      "domain": "neurologi",
+      "definition": "Neuropati medianus di pergelangan tangan; sumber memberi skenario kebas tangan terutama malam hari dan aktivitas repetitif."
+    },
+    {
+      "id": "gls_tinel_sign",
+      "term": "Tinel sign",
+      "domain": "pemeriksaan_fisik",
+      "definition": "Pemeriksaan dengan mengetuk area saraf untuk memicu parestesia; dalam sumber dipakai untuk kasus kebas tangan/carpal tunnel."
+    },
+    {
+      "id": "gls_tia",
+      "term": "Transient ischemic attack",
+      "domain": "neurologi",
+      "definition": "Episode defisit neurologis sementara yang dapat membaik; sumber meminta edukasi bila keluhan muncul kembali."
+    },
+    {
+      "id": "gls_intra_aksial",
+      "term": "Tumor intra-aksial",
+      "domain": "neuroonkologi",
+      "definition": "Tumor yang berasal dari parenkim otak; dibedakan dari tumor ekstra-aksial seperti meningioma."
+    },
+    {
+      "id": "gls_meningioma",
+      "term": "Meningioma",
+      "domain": "neuroonkologi",
+      "definition": "Tumor ekstra-aksial yang pada sumber menjadi pengecualian dari tumor intra-aksial."
+    },
+    {
+      "id": "gls_vertigo",
+      "term": "Vertigo",
+      "domain": "neurologi",
+      "definition": "Sensasi berputar atau gangguan keseimbangan; sumber memuat golongan obat dan BPPV."
+    },
+    {
+      "id": "gls_cerebellum",
+      "term": "Cerebellum",
+      "domain": "neuroanatomi",
+      "definition": "Struktur otak yang berperan pada koordinasi, postur, dan keseimbangan."
+    },
+    {
+      "id": "gls_illness_anxiety_disorder",
+      "term": "Illness anxiety disorder",
+      "domain": "psikiatri",
+      "definition": "Gangguan berupa preokupasi menderita penyakit serius dengan gejala somatik minimal dan kecemasan kesehatan tinggi."
+    },
+    {
+      "id": "gls_demenzia_alzheimer",
+      "term": "Demensia Alzheimer",
+      "domain": "neurologi",
+      "definition": "Gangguan neurokognitif degeneratif; sumber menyebut delirium sebagai diagnosis banding."
+    },
+    {
+      "id": "gls_delirium",
+      "term": "Delirium",
+      "domain": "psikiatri",
+      "definition": "Gangguan akut perhatian dan kesadaran; menjadi diagnosis banding demensia pada sumber."
+    },
+    {
+      "id": "gls_wawancara_psikiatri",
+      "term": "Wawancara psikiatri",
+      "domain": "komunikasi_klinis",
+      "definition": "Teknik penggalian informasi klinis; sumber menekankan menjadi pendengar efektif."
+    },
+    {
+      "id": "gls_ect",
+      "term": "ECT",
+      "domain": "psikiatri",
+      "definition": "Electroconvulsive therapy; pada sumber menjadi jawaban untuk episode depresi berat pada gangguan bipolar."
+    },
+    {
+      "id": "gls_gangguan_ansietas_menyeluruh",
+      "term": "Gangguan ansietas menyeluruh",
+      "domain": "psikiatri",
+      "definition": "Kecemasan dan kekhawatiran berlebihan terhadap banyak hal selama sekitar 6 bulan."
+    },
+    {
+      "id": "gls_depresi",
+      "term": "Depresi",
+      "domain": "psikiatri",
+      "definition": "Gangguan mood dengan durasi gejala minimal sekitar dua minggu dalam konteks diagnosis klinis."
+    },
+    {
+      "id": "gls_skizofrenia_paranoid",
+      "term": "Skizofrenia paranoid",
+      "domain": "psikiatri",
+      "definition": "Skizofrenia dengan dominasi waham paranoid/persekutorik; muncul pada skenario tuduhan dosen/kampus."
+    },
+    {
+      "id": "gls_waham",
+      "term": "Waham",
+      "domain": "psikiatri",
+      "definition": "Keyakinan salah yang menetap dan tidak sesuai realitas; sumber memuat waham persekutorik."
+    },
+    {
+      "id": "gls_myelografi",
+      "term": "Myelografi",
+      "domain": "pencitraan",
+      "definition": "Pemeriksaan pencitraan kanal spinal yang disebut sumber untuk gangguan tulang belakang."
+    },
+    {
+      "id": "gls_forebrain",
+      "term": "Forebrain",
+      "domain": "neuroanatomi",
+      "definition": "Otak depan; sumber mencatat cerebrum, thalamus, dan hipothalamus."
+    },
+    {
+      "id": "gls_meningitis_bakteri",
+      "term": "Meningitis bakteri",
+      "domain": "neurologi",
+      "definition": "Infeksi meninges oleh bakteri; sumber menekankan peningkatan PMN pada LP."
+    },
+    {
+      "id": "gls_pmn",
+      "term": "PMN",
+      "domain": "laboratorium",
+      "definition": "Polymorphonuclear leukocytes/neutrofil; meningkat pada banyak infeksi bakteri termasuk meningitis bakteri."
+    },
+    {
+      "id": "gls_parkinson",
+      "term": "Parkinson disease",
+      "domain": "neurologi",
+      "definition": "Gangguan gerakan dengan bradikinesia, tremor, rigiditas, dan gangguan postur/keseimbangan."
+    },
+    {
+      "id": "gls_hoehn_yahr",
+      "term": "Hoehn and Yahr",
+      "domain": "neurologi",
+      "definition": "Skala stadium Parkinson; sumber mencantumkan stadium 1 sampai 5."
+    },
+    {
+      "id": "gls_parkinson_vaskular",
+      "term": "Parkinson vaskular",
+      "domain": "neurologi",
+      "definition": "Parkinsonisme yang berhubungan dengan penyakit serebrovaskular/pasca-stroke."
+    },
+    {
+      "id": "gls_eeg",
+      "term": "EEG",
+      "domain": "pemeriksaan",
+      "definition": "Elektroensefalografi; sumber menyebutnya sebagai gold standard untuk epilepsi/kejang."
+    },
+    {
+      "id": "gls_epilepsi",
+      "term": "Epilepsi",
+      "domain": "neurologi",
+      "definition": "Gangguan kecenderungan kejang berulang; sumber memuat absence seizure dan EEG."
+    },
+    {
+      "id": "gls_vestibular_perifer",
+      "term": "Vestibular perifer",
+      "domain": "neurologi",
+      "definition": "Gangguan vestibular tepi; dalam catatan sumber dikaitkan dengan jatuh saat mata terpejam saja."
+    },
+    {
+      "id": "gls_vestibular_sentral",
+      "term": "Vestibular sentral",
+      "domain": "neurologi",
+      "definition": "Gangguan vestibular pusat; dalam catatan sumber dikaitkan dengan jatuh saat mata terbuka maupun terpejam."
+    },
+    {
+      "id": "gls_lateral_spinothalamic_tract",
+      "term": "Lateral spinothalamic tract",
+      "domain": "neuroanatomi",
+      "definition": "Jaras sensorik yang menghantarkan nyeri dan suhu."
+    },
+    {
+      "id": "gls_sindrom_guillain_barre",
+      "term": "Sindrom Guillain-Barré",
+      "domain": "neurologi",
+      "definition": "Poliradikuloneuropati akut autoimun yang sering didahului infeksi."
+    },
+    {
+      "id": "gls_penyakit_autoimun",
+      "term": "Penyakit autoimun",
+      "domain": "imunologi",
+      "definition": "Penyakit akibat respons imun terhadap komponen tubuh sendiri; sumber mengaitkannya dengan SGB."
+    },
+    {
+      "id": "gls_ct_scan_tanpa_kontras",
+      "term": "CT scan tanpa kontras",
+      "domain": "pencitraan",
+      "definition": "Pemeriksaan yang dicatat sumber sebagai gold standard awal pada stroke."
+    },
+    {
+      "id": "gls_stroke",
+      "term": "Stroke",
+      "domain": "neurologi",
+      "definition": "Defisit neurologis akut akibat gangguan vaskular serebral."
+    },
+    {
+      "id": "gls_mri",
+      "term": "MRI",
+      "domain": "pencitraan",
+      "definition": "Magnetic resonance imaging; sumber menyebutnya pada trauma kepala dengan anisokor, tetapi item diberi confidence rendah."
+    },
+    {
+      "id": "gls_trauma_kepala",
+      "term": "Trauma kepala",
+      "domain": "neurologi",
+      "definition": "Cedera kepala; sumber memuat anisokor, hematoma epidural, dan gambaran CT."
+    },
+    {
+      "id": "gls_hematoma_epidural",
+      "term": "Hematoma epidural",
+      "domain": "neurologi",
+      "definition": "Perdarahan antara tulang tengkorak dan dura yang khas dengan lucid interval serta lesi bikonveks/lentiform."
+    },
+    {
+      "id": "gls_miastenia_gravis",
+      "term": "Miastenia gravis",
+      "domain": "neurologi",
+      "definition": "Gangguan neuromuskular dengan kelemahan fluktuatif, ptosis, dan diplopia yang membaik setelah istirahat."
+    },
+    {
+      "id": "gls_tensilon_test",
+      "term": "Tensilon test",
+      "domain": "pemeriksaan",
+      "definition": "Tes edrofonium yang pada sumber dicatat sebagai pemeriksaan untuk miastenia gravis."
+    },
+    {
+      "id": "gls_gangguan_panik",
+      "term": "Gangguan panik",
+      "domain": "psikiatri",
+      "definition": "Episode panik berulang dengan ketakutan intens mendadak, gejala otonom, dan takut mati/kehilangan kontrol."
+    },
+    {
+      "id": "gls_upper_motor_neuron",
+      "term": "Upper motor neuron",
+      "domain": "neuroanatomi",
+      "definition": "Neuron motorik pusat; item sumber tidak menyediakan opsi atau jawaban sehingga perlu validasi."
+    },
+    {
+      "id": "gls_migrain_dengan_aura",
+      "term": "Migrain dengan aura",
+      "domain": "neurologi",
+      "definition": "Migrain disertai gejala neurologis sementara, sering visual, sebelum atau saat nyeri kepala."
+    },
+    {
+      "id": "gls_hemisfer_kanan",
+      "term": "Hemisfer kanan",
+      "domain": "neuroanatomi",
+      "definition": "Hemisfer otak yang mengontrol sisi tubuh kiri secara kontralateral pada jalur motorik utama."
+    },
+    {
+      "id": "gls_refleks_pupil",
+      "term": "Refleks pupil",
+      "domain": "neuroanatomi",
+      "definition": "Refleks cahaya pupil yang melibatkan CN II sebagai aferen dan CN III sebagai eferen."
+    },
+    {
+      "id": "gls_nervus_optikus",
+      "term": "Nervus optikus",
+      "domain": "neuroanatomi",
+      "definition": "Saraf kranialis II; aferen refleks cahaya pupil."
+    },
+    {
+      "id": "gls_nervus_okulomotorius",
+      "term": "Nervus okulomotorius",
+      "domain": "neuroanatomi",
+      "definition": "Saraf kranialis III; eferen refleks cahaya pupil."
+    },
+    {
+      "id": "gls_neuralgia_trigeminal",
+      "term": "Neuralgia trigeminal",
+      "domain": "neurologi",
+      "definition": "Nyeri paroksismal pada distribusi nervus trigeminus."
+    },
+    {
+      "id": "gls_nervus_trigeminus",
+      "term": "Nervus trigeminus",
+      "domain": "neuroanatomi",
+      "definition": "Saraf kranialis V; terkena pada neuralgia trigeminal."
+    },
+    {
+      "id": "gls_kepribadian_paranoid",
+      "term": "Gangguan kepribadian paranoid",
+      "domain": "psikiatri",
+      "definition": "Gangguan kepribadian dengan kecurigaan dan ketidakpercayaan menetap; sumber memberi jawaban ini tetapi item perlu validasi."
+    },
+    {
+      "id": "gls_gcs",
+      "term": "Glasgow Coma Scale",
+      "domain": "neurologi",
+      "definition": "Skor kesadaran berbasis respons mata, verbal, dan motorik."
+    },
+    {
+      "id": "gls_sopor",
+      "term": "Sopor",
+      "domain": "neurologi",
+      "definition": "Penurunan kesadaran berat; pasien hanya merespons rangsang kuat/nyeri."
+    },
+    {
+      "id": "gls_bppv",
+      "term": "BPPV",
+      "domain": "neurologi",
+      "definition": "Benign paroxysmal positional vertigo; sumber memuat tes diagnosis dan Epley sebagai pengecualian."
+    },
+    {
+      "id": "gls_epley_maneuver",
+      "term": "Epley maneuver",
+      "domain": "neurologi",
+      "definition": "Manuver reposisi kanalit untuk BPPV; pada sumber menjadi jawaban “kecuali” untuk tes diagnosis."
+    },
+    {
+      "id": "gls_jalur_descending",
+      "term": "Jalur descending",
+      "domain": "neuroanatomi",
+      "definition": "Jalur saraf dari otak menuju medula spinalis, terutama untuk kontrol motorik."
+    },
+    {
+      "id": "gls_klaustrofobia",
+      "term": "Klaustrofobia",
+      "domain": "psikiatri",
+      "definition": "Fobia spesifik terhadap ruang sempit."
+    },
+    {
+      "id": "gls_agnosia",
+      "term": "Agnosia",
+      "domain": "neurologi",
+      "definition": "Gangguan mengenali objek meskipun fungsi sensorik dasar relatif utuh."
+    }
+  ]
+}

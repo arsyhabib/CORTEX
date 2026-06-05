@@ -1,0 +1,1310 @@
+{
+  "id": "orig_exam_batch_2_mcq_6_3_trapezius",
+  "title": "MCQ 6.3 TRAPEZIUS - Reconstructed Original Exam Set",
+  "block": "mixed",
+  "year": 0,
+  "year_label": "undated/source year not stated",
+  "source_label": "MCQ 6.3 TRAPEZIUS.pdf",
+  "page_route": "pages/original_exam_sets/batch_2_mcq_6_3_trapezius.html",
+  "question_count": 51,
+  "reconstruction_level": "reconstructed",
+  "questions": [
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q01",
+      "number": 1,
+      "stem": "Pernyataan tentang gangguan panik.",
+      "stem_original": "1. Pernyataan tentang gangguan panik…",
+      "options": [
+        "Opsi tidak tersedia pada sumber PDF",
+        "Jawaban tidak tersedia/perlu verifikasi manual"
+      ],
+      "explanation": "Konsep gangguan panik: serangan episodik disertai gejala otonom seperti palpitasi, sesak, dan takut mati. Sumber PDF hanya memuat fragmen stem.",
+      "confidence": "low",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "2-2",
+      "answer_source_status": "conceptually_inferred",
+      "reconstruction_notes": "Gangguan panik ditandai serangan episodik dengan gejala otonom dan rasa takut mati; sumber tidak memuat opsi lengkap.",
+      "answer_text": "Serangan panik episodik dengan gejala otonom"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q02",
+      "number": 2,
+      "stem": "Yang bukan merupakan pernyataan tentang obsessive-compulsive disorder (OCD).",
+      "stem_original": "2. Yang bukan tentang ocd…*-.",
+      "options": [
+        "Opsi tidak tersedia pada sumber PDF",
+        "Jawaban tidak tersedia/perlu verifikasi manual"
+      ],
+      "explanation": "Konsep OCD adalah obsesi dan kompulsi. Item sumber sangat fragmentary.",
+      "confidence": "low",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "3-3",
+      "answer_source_status": "conceptually_inferred",
+      "reconstruction_notes": "OCD secara konsep ditandai obsesi dan kompulsi; sumber tidak memuat opsi lengkap.",
+      "answer_text": "Obsesi dan/atau kompulsi"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q03",
+      "number": 3,
+      "stem": "Cephalosporin generasi ketiga digunakan untuk penyakit apa?",
+      "stem_original": "3. Cephalosporin 3 untuk penyakit apa…",
+      "options": [
+        "Opsi tidak tersedia pada sumber PDF",
+        "Jawaban tidak tersedia/perlu verifikasi manual"
+      ],
+      "explanation": "Secara farmakologi, sefalosporin generasi ketiga sering dipakai untuk infeksi bakteri berat termasuk meningitis. Sumber hanya memuat fragmen stem.",
+      "confidence": "low",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "4-4",
+      "answer_source_status": "conceptually_inferred",
+      "reconstruction_notes": "Cephalosporin generasi ketiga lazim untuk infeksi bakteri berat termasuk meningitis; sumber tidak memuat opsi lengkap.",
+      "answer_text": "Infeksi bakteri berat, terutama meningitis"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q04",
+      "number": 4,
+      "stem": "Pasien tidak terdiagnosis sakit jantung, tetapi tetap mengira dirinya sakit jantung. Gangguan apakah ini?",
+      "stem_original": "4. Tidak terdiagnosis sakit jantung, tapi px mengira sakit jantung, gangguan apa? Hipokondrik/Hipokondriasis.",
+      "options": [
+        "[Jawaban sumber] Hipokondrik/Hipokondriasis",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai hipokondrik/hipokondriasis sebagai jawaban. Intinya adalah preokupasi menetap terhadap kemungkinan penyakit serius meskipun evaluasi medis tidak mendukung.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "5-5",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Hipokondrik/Hipokondriasis"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q05",
+      "number": 5,
+      "stem": "Pasien perempuan dengan keluhan telat haid dan badan terasa sakit; gangguan disebut apa?",
+      "stem_original": "5. Px cewe ada keluhan telat haid, badannya sakit (lupa dimana aja) gangguannya disebut apa?",
+      "options": [
+        "Opsi tidak tersedia pada sumber PDF",
+        "Jawaban tidak tersedia/perlu verifikasi manual"
+      ],
+      "explanation": "Sumber tidak menyediakan cukup detail lokasi nyeri untuk rekonstruksi diagnosis yang aman.",
+      "confidence": "low",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "6-8",
+      "answer_source_status": "missing_in_source",
+      "reconstruction_notes": "Detail lokasi nyeri hilang; diagnosis tidak dapat dipastikan aman dari sumber.",
+      "answer_text": "Belum dapat dipastikan dari sumber"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q06",
+      "number": 6,
+      "stem": "Tiga hari setelah kecelakaan lalu lintas dan trauma tumpul kepala, Ny. A dapat beraktivitas kembali tetapi tidak ingat aktivitas yang ia lakukan selama 3 hari setelah kejadian. Jenis amnesia apakah yang dialami?",
+      "stem_original": "6. 3 hari yang lalu Ny.A usia 35 tahun mengalami kecelakaan lalu lintas... jenis amnesia apa yang dialami Ny.A?",
+      "options": [
+        "Amnesia menyeluruh sekejap",
+        "Anterograde dan retrograde",
+        "Bukan salah satu di atas",
+        "Retrograde",
+        "Anterograde"
+      ],
+      "explanation": "Jawaban yang ditandai adalah anterograde. Polanya adalah gangguan membentuk/menyimpan memori baru setelah trauma, bukan hilangnya memori sebelum kejadian.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "9-69",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 4,
+      "answer_text": "Anterograde"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q07",
+      "number": 7,
+      "stem": "NAPZA golongan 2 contohnya apa?",
+      "stem_original": "7. Napza golongan 2 apa? Morfin dan petidin",
+      "options": [
+        "[Jawaban sumber] Morfin dan petidin",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai morfin dan petidin sebagai contoh NAPZA golongan 2. Opsi asli tidak tersedia dalam PDF.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "70-70",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Morfin dan petidin"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q08",
+      "number": 8,
+      "stem": "Pasien dengan LCS kuning kental atau LCS xantochrome, diagnosisnya adalah apa?",
+      "stem_original": "8. Ada pasien dengan lcs kuning kental atau LCS xantochrome, maka diagnosanya adalah.. Meningitis TB",
+      "options": [
+        "[Jawaban sumber] Meningitis TB",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai meningitis TB. Cairan serebrospinal pada meningitis TB dapat tampak xantokrom/kekuningan dan kental karena peningkatan protein.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "71-74",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Meningitis TB"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q09",
+      "number": 9,
+      "stem": "Serotipe yang sering terjadi pada bayi/anak adalah apa?",
+      "stem_original": "9. Serotipe yang sering terjadi pada bayi/anak? serotipe b",
+      "options": [
+        "[Jawaban sumber] Serotipe b",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai serotipe b. Konteks organisme tidak tertulis jelas pada stem sehingga domain spesifik perlu diverifikasi dari materi asal.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "75-75",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Serotipe b"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q10",
+      "number": 10,
+      "stem": "Anak 4 tahun kejang 20 menit tidak sadar, dibawa ke RS, lalu kembali kejang 5 menit dan tetap tidak sadar. Diagnosisnya adalah apa?",
+      "stem_original": "10. Anak 4 thn kejang 20 menit gasadar dibawa ke rs sampe rs kejang lagi 5 menit gasadar. Status epileptikus",
+      "options": [
+        "[Jawaban sumber] Status epileptikus",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai status epileptikus. Durasi kejang lama/berulang tanpa pulih kesadaran mendukung diagnosis ini.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "76-79",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Status epileptikus"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q11",
+      "number": 11,
+      "stem": "Obat untuk fobia sosial adalah apa?",
+      "stem_original": "11. Obat pobia sosial… Sertaline",
+      "options": [
+        "[Jawaban sumber] Sertaline/sertraline",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menulis “Sertaline”, kemungkinan merujuk sertraline. Ejaan sumber dipertahankan dalam stem_original; normalisasi dicatat sebagai sertraline.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "80-80",
+      "answer_source_status": "confirmed_bold_in_pdf_with_spelling_noise",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Sertaline/sertraline"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q12",
+      "number": 12,
+      "stem": "Kelemahan area wajah sebelah kiri menunjukkan gangguan nervus berapa?",
+      "stem_original": "12. Kelemahan area wajah sebelah kiri, gangguan nervus berapa…",
+      "options": [
+        "Opsi tidak tersedia pada sumber PDF",
+        "Jawaban tidak tersedia/perlu verifikasi manual"
+      ],
+      "explanation": "Walau sumber tidak menuliskan jawaban eksplisit, kelemahan area wajah unilateral paling sesuai dengan nervus fasialis (N. VII).",
+      "confidence": "low",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "81-81",
+      "answer_source_status": "conceptually_inferred",
+      "reconstruction_notes": "Kelemahan wajah unilateral paling sesuai dengan nervus fasialis, walau sumber tidak menuliskannya eksplisit.",
+      "answer_text": "Nervus fasialis (N. VII)"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q13",
+      "number": 13,
+      "stem": "Pasien tidak bisa tidur setelah mengonsumsi benzodiazepin. Diagnosisnya adalah apa?",
+      "stem_original": "13. Pasien tidak bisa tidur setelah mengonsumsi benzodiazepin,diagnosis.. Syndrome Sundower",
+      "options": [
+        "[Jawaban sumber] Sundowner/Sundowning syndrome",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menulis “Syndrome Sundower”; istilah yang lebih lazim adalah sundowning/sundowner syndrome. Normalisasi dilakukan dengan tetap mencatat noise sumber.",
+      "confidence": "medium",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "82-83",
+      "answer_source_status": "confirmed_bold_in_pdf_with_spelling_noise",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Sundowner/Sundowning syndrome"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q14",
+      "number": 14,
+      "stem": "Perubahan perilaku bermakna menunjukkan gangguan pada area otak apa?",
+      "stem_original": "14. Pasien yang mengakibatkan perubahan perilaku berarti ada gangguan pada… lobus frontalis",
+      "options": [
+        "[Jawaban sumber] Lobus frontalis",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai lobus frontalis. Lobus frontal berperan dalam fungsi eksekutif, inhibisi, kepribadian, dan regulasi perilaku.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "84-85",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Lobus frontalis"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q15",
+      "number": 15,
+      "stem": "Obat untuk tremor aksi adalah apa?",
+      "stem_original": "15. Obat tremor aksi? a. propanolol b. THP (Triheksilpiridin) c. Pramipekzol",
+      "options": [
+        "Propranolol",
+        "THP (Triheksilpiridin)",
+        "Pramipekzol"
+      ],
+      "explanation": "Jawaban yang ditandai adalah propranolol. Beta-blocker ini sering digunakan pada tremor esensial/tremor aksi.",
+      "confidence": "high",
+      "origin": {
+        "page": 1,
+        "page_label": "Page 1",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "86-89",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Propranolol"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q16",
+      "number": 16,
+      "stem": "Pasien mengalami kejang dengan sentakan pada kedua ekstremitas disertai benda yang dipegang di tangan jatuh. Diagnosis pasien ini adalah apa?",
+      "stem_original": "16. Pasien kejang dengan sentakan pada kedua ektremitas yang disertai dengan benda yang dipegang di tangan jatuh. Diagnosa pada pasien ini adalah…",
+      "options": [
+        "Myoklonus",
+        "Absence seizure",
+        "Kejang tonik klonik",
+        "Kejang parsial simple",
+        "Kejang parsial kompleks"
+      ],
+      "explanation": "Jawaban yang ditandai adalah mioklonus. Sentakan singkat mendadak yang dapat menyebabkan benda terjatuh sesuai dengan kejang mioklonik.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "90-105",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Myoklonus"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q17",
+      "number": 17,
+      "stem": "Pada pasien dewasa dengan infeksi sistem saraf pusat, pemeriksaan yang dilakukan untuk menegakkan diagnosis banding adalah apa?",
+      "stem_original": "17. Pada pasien dewasa dengan infeksi sistem saraf pusat pemeriksaan yang dilakukan untuk menegakkan diagnosa banding adalah… Pemeriksaan HIV",
+      "options": [
+        "[Jawaban sumber] Pemeriksaan HIV",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai pemeriksaan HIV. Pada infeksi SSP dewasa, status imunokompromais dapat mengubah diagnosis banding dan tata laksana.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "106-113",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Pemeriksaan HIV"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q18",
+      "number": 18,
+      "stem": "Ny. X datang dengan keluhan ptosis dan tidak ditemukan riwayat infeksi. Pernyataan yang benar adalah apa?",
+      "stem_original": "18. Ny. X datang ke klinik dengan keluhan ptosis,.... Tidak ditemukan riwayat infeks ha i. Pernyataan di bawah ini yang benar adalah…",
+      "options": [
+        "Lakukan pemeriksaan kalium",
+        "Pasien menderita Miller Fisher syndrome",
+        "Kurangi konsumsi karbohidrat"
+      ],
+      "explanation": "Jawaban yang ditandai adalah Miller Fisher syndrome. Source stem sangat ringkas; opsi dan jawaban dipertahankan sebagaimana PDF.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "114-124",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 1,
+      "answer_text": "Pasien menderita Miller Fisher syndrome"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q19",
+      "number": 19,
+      "stem": "Obat yang digunakan adalah apa?",
+      "stem_original": "19. Obat yang digunakan adalah anti kolinesterase inhibit",
+      "options": [
+        "[Jawaban sumber] Anti-kolinesterase inhibitor",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber hanya menuliskan jawaban/frasa “anti kolinesterase inhibit”. Konteks klinis lengkap tidak tersedia sehingga item dipertahankan sebagai answer-fragment.",
+      "confidence": "medium",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "125-125",
+      "answer_source_status": "answer_fragment_in_source",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Anti-kolinesterase inhibitor"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q20",
+      "number": 20,
+      "stem": "Tumor otak yang berasal dari intra-axial, kecuali apa?",
+      "stem_original": "20. Tumor otak yang berasal dari intra axial, kecuali… meningioma",
+      "options": [
+        "[Jawaban sumber] Meningioma",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai meningioma. Meningioma biasanya ekstra-aksial, sehingga cocok sebagai pengecualian dari tumor intra-aksial.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "126-126",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Meningioma"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q21",
+      "number": 21,
+      "stem": "Golongan obat antidepresan trisiklik adalah apa?",
+      "stem_original": "21. Golongan obat antidepresan trisiklik adalah… amitriptilin",
+      "options": [
+        "[Jawaban sumber] Amitriptilin",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai amitriptilin, salah satu antidepresan trisiklik.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "127-127",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Amitriptilin"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q22",
+      "number": 22,
+      "stem": "Pasien dengan riwayat gejala parese yang dicurigai stroke, sekarang mengalami pikun. Diagnosis pasien adalah apa?",
+      "stem_original": "22. Pasien ada riwayat gejala parese (curiga stroke). Sekarang pikun diagnosis pasien adalah… demensia vaskular",
+      "options": [
+        "[Jawaban sumber] Demensia vaskular",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai demensia vaskular. Riwayat stroke/defisit neurologis fokal mendukung etiologi vaskular pada keluhan kognitif.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "128-131",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Demensia vaskular"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q23",
+      "number": 23,
+      "stem": "Diagnosis banding dari demensia adalah apa?",
+      "stem_original": "23. Diagnosis banding dari demensia adalah… delirium",
+      "options": [
+        "[Jawaban sumber] Delirium",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai delirium sebagai diagnosis banding demensia. Delirium biasanya akut/fluktuatif dengan gangguan perhatian.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "132-132",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Delirium"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q24",
+      "number": 24,
+      "stem": "Pemeriksaan fisik untuk BPPV, kecuali apa?",
+      "stem_original": "24. Pemeriksaan fisik untuk BPPV, kecuali… epley manuver",
+      "options": [
+        "[Jawaban sumber] Epley maneuver",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai Epley maneuver sebagai pengecualian. Epley lebih dikenal sebagai manuver terapi/reposisi kanalit, bukan pemeriksaan fisik utama.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "133-133",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Epley maneuver"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q25",
+      "number": 25,
+      "stem": "Nistagmus setelah manuver tetapi gejala masih ada; tatalaksana kecuali apa?",
+      "stem_original": "25. Nistigmus setelah di manuver tapi gejala masih ada, tatalaksana kecuali.. analog histamin",
+      "options": [
+        "[Jawaban sumber] Analog histamin",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai analog histamin sebagai pengecualian. Konteks lengkap opsi lain tidak tersedia.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "134-135",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Analog histamin"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q26",
+      "number": 26,
+      "stem": "Antidepresan yang berhubungan dengan mekanisme cheese reaction adalah apa?",
+      "stem_original": "26. Antidepresan dengan mekanisme cheese reaction adalah… MAOI",
+      "options": [
+        "[Jawaban sumber] MAOI",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai MAOI. Cheese reaction dikaitkan dengan tiramin dan risiko krisis hipertensi pada pengguna MAOI.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "136-136",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "MAOI"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q27",
+      "number": 27,
+      "stem": "Obat untuk kecanduan main game adalah apa?",
+      "stem_original": "27. Obat untuk kecanduan main game adalah… escitalopram",
+      "options": [
+        "[Jawaban sumber] Escitalopram",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai escitalopram. Opsi dan konteks klinis tidak tersedia; jawaban dipertahankan sebagai recall answer.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "137-137",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Escitalopram"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q28",
+      "number": 28,
+      "stem": "Obat lini pertama untuk gangguan afektif bipolar dengan gejala positif adalah apa?",
+      "stem_original": "28. Obat lini pertama bipolar afektif gejala positif adalah… Risperidone/olanzapine/aripiprazole",
+      "options": [
+        "[Jawaban sumber] Risperidone/olanzapine/aripiprazole",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai antipsikotik atipikal risperidone, olanzapine, atau aripiprazole.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "138-139",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Risperidone/olanzapine/aripiprazole"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q29",
+      "number": 29,
+      "stem": "Terapi gangguan afektif bipolar episode depresi berat adalah apa?",
+      "stem_original": "29. Terapi gangguan afektif bipolar episode depresi berat adalah… quetiapine",
+      "options": [
+        "[Jawaban sumber] Quetiapine",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai quetiapine.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "140-140",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Quetiapine"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q30",
+      "number": 30,
+      "stem": "Berikut ini yang merupakan bagian dari gangguan jalan pikiran adalah apa?",
+      "stem_original": "30. Berikut ini merupakan bagian dari gangguan jalan pikiran adalah… flight of ideas",
+      "options": [
+        "[Jawaban sumber] Flight of ideas",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai flight of ideas. Ini menggambarkan alur pikir yang cepat meloncat antar gagasan.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "141-141",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Flight of ideas"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q31",
+      "number": 31,
+      "stem": "Sirkumtansial termasuk dalam kategori apa?",
+      "stem_original": "31. Sirkumtansial termasuk… Bentuk pikiran",
+      "options": [
+        "[Jawaban sumber] Bentuk pikiran",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai bentuk pikiran. Sirkumstansialitas merupakan gangguan bentuk/proses pikir.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "142-142",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Bentuk pikiran"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q32",
+      "number": 32,
+      "stem": "Seorang ibu membawa anaknya karena benjolan. Ibu yakin anaknya kanker tenggorokan, sedangkan dokter menyatakan hanya KGB. Ibu tidak percaya. Diagnosis ibu tersebut adalah apa?",
+      "stem_original": "32. Ibu membawa anaknya ke dokter karena keluhan benjolan... dx dari ibu tersebut adalah… fdia",
+      "options": [
+        "[Jawaban sumber] FDIA",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai “fdia”. Akronim ini dipertahankan; perlu verifikasi apakah dimaksudkan sebagai factitious disorder imposed on another dalam konteks lengkap.",
+      "confidence": "medium",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "143-160",
+      "answer_source_status": "confirmed_bold_in_pdf_abbreviation",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "FDIA"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q33",
+      "number": 33,
+      "stem": "Bagaimana interpretasi pemeriksaan Romberg?",
+      "stem_original": "33. Interpretasi pemeriksaan romberg… (Kalo hanya saat terpejam -> Vestibularis perifer; kalo saat terpejam dan membuka mata terjatuh -> Vestibularis sentral)",
+      "options": [
+        "[Jawaban sumber] Terjatuh hanya saat mata tertutup: vestibularis perifer; terjatuh saat mata tertutup dan terbuka: vestibularis sentral",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber memberikan aturan interpretasi langsung dalam tanda kurung.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "161-172",
+      "answer_source_status": "answer_embedded_in_source",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Terjatuh hanya saat mata tertutup: vestibularis perifer; terjatuh saat mata tertutup dan terbuka: vestibularis sentral"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q34",
+      "number": 34,
+      "stem": "Diagnosis banding demensia adalah apa?",
+      "stem_original": "34. Diagnosa banding demensia adalah… delirium",
+      "options": [
+        "[Jawaban sumber] Delirium",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Duplikat konseptual dari soal 23; sumber kembali menandai delirium.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "173-173",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Delirium"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q35",
+      "number": 35,
+      "stem": "Diagnosis banding demensia Alzheimer adalah apa?",
+      "stem_original": "35. Diagnosa banding demensia Alzheimer adalah …gangguan ansietas menyeluruh (GAM)",
+      "options": [
+        "[Jawaban sumber] Gangguan ansietas menyeluruh (GAM)",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai gangguan ansietas menyeluruh/GAM.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "174-175",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Gangguan ansietas menyeluruh (GAM)"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q36",
+      "number": 36,
+      "stem": "Ciri perdarahan epidural adalah apa?",
+      "stem_original": "36. Ciri perdarahan epidural… Benar semua",
+      "options": [
+        "[Jawaban sumber] Benar semua",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai “benar semua”, tetapi opsi yang dirujuk tidak tersedia. Jawaban dipertahankan, namun interpretasinya bergantung pada opsi asli.",
+      "confidence": "medium",
+      "origin": {
+        "page": 2,
+        "page_label": "Page 2",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "176-176",
+      "answer_source_status": "confirmed_bold_in_pdf_but_options_missing",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Benar semua"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q37",
+      "number": 37,
+      "stem": "Wanita 40 tahun sesak napas, cemas, berdebar, keringat dingin, dan mulut kering bila berada di kamar mandi tertutup rapat; gejala muncul sejak kematian kakaknya karena sesak napas di kamar mandi. Pemeriksaan fisik tidak ada kelainan. Diagnosis psikiatrik yang tepat adalah apa?",
+      "stem_original": "37. Seorang wanita usia 40 tahun... Apa diagnosis psikiatrik yang tepat buat pasien ini? Gangguan fobia (claustrophobia)",
+      "options": [
+        "[Jawaban sumber] Gangguan fobia (claustrophobia)",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai gangguan fobia/claustrophobia. Pencetus spesifik berupa ruangan tertutup mendukung fobia spesifik.",
+      "confidence": "high",
+      "origin": {
+        "page": 2,
+        "page_label": "Pages 2-3",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "177-228",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Gangguan fobia (claustrophobia)"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q38",
+      "number": 38,
+      "stem": "Anak banyak menghabiskan waktu bermain game dan sering berbohong saat ditanya durasi bermain. Diagnosis kerjanya adalah apa?",
+      "stem_original": "38. Seorang anak banyak menghabiskan waktu main game... Diagnosis kerja anak tersebut… internet gaming disorder",
+      "options": [
+        "[Jawaban sumber] Internet gaming disorder",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai internet gaming disorder. Gejala yang disebut adalah penggunaan game berlebihan dan perilaku menyembunyikan/berbohong tentang durasi.",
+      "confidence": "high",
+      "origin": {
+        "page": 3,
+        "page_label": "Page 3",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "229-242",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Internet gaming disorder"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q39",
+      "number": 39,
+      "stem": "Pasien dengan disabilitas dalam hubungan dengan realita dan komunikasi serta disabilitas berat dalam beberapa fungsi memiliki skor GAF berapa?",
+      "stem_original": "39. Pasien dg disabilitas dalam hubungan dengan realita dan komunikasi, disabilitas berat dalam beberapa fungsi. GAF score pasien ….40-31",
+      "options": [
+        "[Jawaban sumber] 40-31",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai rentang GAF 40-31 untuk disabilitas berat dalam beberapa fungsi.",
+      "confidence": "high",
+      "origin": {
+        "page": 3,
+        "page_label": "Page 3",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "243-250",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "40-31"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q40",
+      "number": 40,
+      "stem": "Gangguan makan dengan takut gemuk, kecemasan tinggi terhadap berat badan/body image, tinggi 160 cm dan berat 35 kg, adalah apa?",
+      "stem_original": "40. Gangguan makan takut gemuk... anoreksia neevosa",
+      "options": [
+        "[Jawaban sumber] Anoreksia nervosa",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai anoreksia “neevosa” (noise OCR/ejaan), dinormalisasi menjadi anoreksia nervosa.",
+      "confidence": "high",
+      "origin": {
+        "page": 3,
+        "page_label": "Page 3",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "251-266",
+      "answer_source_status": "confirmed_bold_in_pdf_with_spelling_noise",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Anoreksia nervosa"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q41",
+      "number": 41,
+      "stem": "Stadium Parkinson menurut Hoehn dan Yahr.",
+      "stem_original": "41. Stadium parkinson menurut hoen dan yahr …..",
+      "options": [
+        "Opsi tidak tersedia pada sumber PDF",
+        "Jawaban tidak tersedia/perlu verifikasi manual"
+      ],
+      "explanation": "Sumber hanya memuat fragmen stem; stadium Parkinson tidak dapat ditentukan aman.",
+      "confidence": "low",
+      "origin": {
+        "page": 3,
+        "page_label": "Page 3",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "267-267",
+      "answer_source_status": "missing_in_source",
+      "reconstruction_notes": "Stadium Hoehn and Yahr tidak dapat ditentukan dari fragmen stem saja.",
+      "answer_text": "Belum dapat dipastikan dari sumber"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q42",
+      "number": 42,
+      "stem": "Skenario kasus dengan pertanyaan diagnosis; diagnosisnya adalah apa?",
+      "stem_original": "42. Skenario kasus, ditanya dx… gangguan somatisasi",
+      "options": [
+        "[Jawaban sumber] Gangguan somatisasi",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber hanya menyediakan fragmen “skenario kasus” dan jawaban gangguan somatisasi; detail skenario tidak tersedia.",
+      "confidence": "medium",
+      "origin": {
+        "page": 3,
+        "page_label": "Page 3",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "268-268",
+      "answer_source_status": "answer_fragment_in_source",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Gangguan somatisasi"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q43",
+      "number": 43,
+      "stem": "Skenario kasus dengan pertanyaan diagnosis; diagnosisnya adalah apa?",
+      "stem_original": "43. Skenario kasus, ditanya dx… gangguan konversi",
+      "options": [
+        "[Jawaban sumber] Gangguan konversi",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber hanya menyediakan fragmen “skenario kasus” dan jawaban gangguan konversi; detail skenario tidak tersedia.",
+      "confidence": "medium",
+      "origin": {
+        "page": 3,
+        "page_label": "Page 3",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "269-269",
+      "answer_source_status": "answer_fragment_in_source",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Gangguan konversi"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q44",
+      "number": 44,
+      "stem": "Urutan yang benar dari hierarki blok diagnosis gangguan jiwa berdasarkan PPDGJ III adalah apa?",
+      "stem_original": "44. Urutan yang benar dari hirarki blok diagnosis gangguan jiwa berdasarkan PPDGJ III adalah?... Gangguan mental organic- gangguan mental dan perilaku akibat zat psikoaktif- skizofrenia- gangguan suasana perasaan",
+      "options": [
+        "[Jawaban sumber] Gangguan mental organik → gangguan mental dan perilaku akibat zat psikoaktif → skizofrenia → gangguan suasana perasaan",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber memberikan urutan hierarki secara eksplisit.",
+      "confidence": "high",
+      "origin": {
+        "page": 3,
+        "page_label": "Page 3",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "270-285",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Gangguan mental organik → gangguan mental dan perilaku akibat zat psikoaktif → skizofrenia → gangguan suasana perasaan"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q45",
+      "number": 45,
+      "stem": "Wanita 54 tahun mengalami nyeri kepala 3 minggu yang memberat, demam 3 minggu, muntah, mengantuk, meracau, melantur, lalu kesadaran menurun. Terdapat kecurigaan infeksi intrakranial. Tatalaksana awal yang dilakukan adalah apa?",
+      "stem_original": "45. Seorang wanita 54 tahun... apa keterlaksanaan awal yang akan Anda lakukan?",
+      "options": [
+        "Memberikan pengobatan TB",
+        "Memberikan antibiotik empiris dengan diagnosis presumtif",
+        "Menurunkan tekanan intrakranial",
+        "Memberikan pirimetamin dan clindamycin",
+        "Melakukan pemeriksaan dahak untuk menegakkan diagnosis",
+        "TB paru"
+      ],
+      "explanation": "Jawaban yang ditandai adalah pemberian antibiotik empiris dengan diagnosis presumtif. Pada kecurigaan infeksi intrakranial berat, tata laksana awal tidak boleh menunggu seluruh konfirmasi bila kondisi mengancam.",
+      "confidence": "high",
+      "origin": {
+        "page": 3,
+        "page_label": "Page 3",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "286-363",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 1,
+      "answer_text": "Memberikan antibiotik empiris dengan diagnosis presumtif"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q46",
+      "number": 46,
+      "stem": "Tumor yang ditemukan Verocay bodies adalah apa?",
+      "stem_original": "46. Tumor yang ditemukan verocay bodies adalah… (dr. Fairuz – Neuropathology)",
+      "options": [
+        "Schwannoma",
+        "Oligodendrositoma",
+        "Astrositoma",
+        "Ependidoma"
+      ],
+      "explanation": "Jawaban yang ditandai adalah schwannoma. Verocay bodies merupakan pola histologis khas pada schwannoma.",
+      "confidence": "high",
+      "origin": {
+        "page": 3,
+        "page_label": "Page 3",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "364-368",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Schwannoma"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q47",
+      "number": 47,
+      "stem": "Karakteristik gejala skizofrenia katatonik adalah apa?",
+      "stem_original": "47. Karakteristik gejala skizofrenia katatonik adalah… (dr. Victor –Diagnosis dan Tatalaksana Psikosis) a. Stupor",
+      "options": [
+        "Stupor",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber hanya menampilkan opsi a dan menandai stupor. Opsi lain tidak tersedia, sehingga item dipertahankan sebagai parsial.",
+      "confidence": "medium",
+      "origin": {
+        "page": 3,
+        "page_label": "Page 3",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "369-372",
+      "answer_source_status": "confirmed_bold_in_pdf_but_options_incomplete",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Stupor"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q48",
+      "number": 48,
+      "stem": "Laki-laki 73 tahun dengan diagnosis demensia Alzheimer. Apa penatalaksanaan farmakologis untuk kasus ini?",
+      "stem_original": "48. Seorang laki-laki 73 tahun... diagnosis demensia Alzheimer. Apakah penatalaksanaan farmakologis untuk kasus ini?",
+      "options": [
+        "Haloperidol",
+        "Alprazolam",
+        "Stelazine",
+        "Sertraline",
+        "Rivastigmine"
+      ],
+      "explanation": "Jawaban yang ditandai adalah rivastigmine. Rivastigmine merupakan inhibitor kolinesterase yang digunakan pada demensia Alzheimer.",
+      "confidence": "high",
+      "origin": {
+        "page": 4,
+        "page_label": "Page 4",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "373-396",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 4,
+      "answer_text": "Rivastigmine"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q49",
+      "number": 49,
+      "stem": "Tn. X 20 tahun menuduh dosennya mencuri uang kuliahnya dan berpikir tempat kuliahnya hanya kedok organisasi kejahatan. Jenis gangguan apakah ini?",
+      "stem_original": "49. Ceritanya si Tn. X 20 tahun... apa jenis gangguan Tn.X? Skizofrenia paranoid",
+      "options": [
+        "[Jawaban sumber] Skizofrenia paranoid",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai skizofrenia paranoid. Waham kejar/curiga dominan tampak pada skenario.",
+      "confidence": "high",
+      "origin": {
+        "page": 4,
+        "page_label": "Page 4",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "397-417",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "Skizofrenia paranoid"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q50",
+      "number": 50,
+      "stem": "Pasien sedang stroke dengan bicara pelo dan kelemahan sesisi tubuh. Gold standard pemeriksaan adalah apa?",
+      "stem_original": "50. Soalnya dia itu lagi stroke (ada bicara pelo, kelemahan sesisi tubuh dsb), gold standard pemeriksaan? CT scan tanpa kontras",
+      "options": [
+        "[Jawaban sumber] CT scan tanpa kontras",
+        "Opsi lain tidak tersedia pada sumber PDF"
+      ],
+      "explanation": "Sumber menandai CT scan tanpa kontras. Pemeriksaan ini umum digunakan awal untuk membedakan stroke hemoragik dan non-hemoragik.",
+      "confidence": "high",
+      "origin": {
+        "page": 4,
+        "page_label": "Page 4",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "418-424",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 0,
+      "answer_text": "CT scan tanpa kontras"
+    },
+    {
+      "id": "orig_exam_batch_2_mcq_6_3_trapezius_q51",
+      "number": 51,
+      "stem": "Jika dipanggil pasien tidak bereaksi, tetapi saat dirangsang nyeri pasien membuka mata, dapat melokalisir nyeri dan menepis, serta hanya mengerang, tingkat kesadarannya adalah apa?",
+      "stem_original": "51. Gcs bila dipanggil penderita ini tidak bereaksi tetapi bila dirangsang nyerii penderita membuka mata dan dapat melokalisir nyeri dan menepis, tetapi hanya dapat mengerang arrrhkk",
+      "options": [
+        "Somnolen",
+        "Delirium",
+        "Sopor",
+        "Compos mentis",
+        "Koma"
+      ],
+      "explanation": "Jawaban yang ditandai adalah sopor. Respons hanya terhadap rangsang nyeri dengan suara tidak bermakna sesuai penurunan kesadaran berat tetapi bukan koma total.",
+      "confidence": "high",
+      "origin": {
+        "page": 4,
+        "page_label": "Page 4",
+        "is_reconstructed": true
+      },
+      "linked_material_ids": [],
+      "source_file": "MCQ 6.3 TRAPEZIUS.pdf",
+      "source_sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "source_line_range": "425-443",
+      "answer_source_status": "confirmed_bold_in_pdf",
+      "reconstruction_notes": "",
+      "answer_index": 2,
+      "answer_text": "Sopor"
+    }
+  ],
+  "batch_id": "batch_2_mcq_6_3_trapezius",
+  "source": {
+    "filename": "MCQ 6.3 TRAPEZIUS.pdf",
+    "relative_path": "SOAL 6E 6F/MCQ 6.3 TRAPEZIUS.pdf",
+    "sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+    "page_count": 4
+  },
+  "reconstruction_policy": "Preserve all numbered items. Use pseudo-options only where source options are absent so JSON remains schema-valid; mark answer certainty and source gaps explicitly."
+}

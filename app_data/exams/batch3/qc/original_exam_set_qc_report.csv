@@ -1,0 +1,2 @@
+exam_set_id,block,year,title,question_count,reconstruction_level,has_answer_key,has_explanations,qc_status,notes
+batch3_pembahasan_mcq_6_3_akt_18_2021,mixed,2021,Pembahasan MCQ 6.3 Akt 18 Tahun 2021,75,reconstructed,yes_reconstructed,yes,pass_with_flagged_uncertainties,75 reconstructed MCQs; line-level provenance preserved; several items medium confidence due ambiguous answer notes.

@@ -1,0 +1,1746 @@
+{
+  "id": "batch_2_6f_07",
+  "block": "5f",
+  "title": "Normal Sleep dan Sleep Disorders.",
+  "subtitle": "Batch 2 / 6F sleep disorder.",
+  "source_pdf": "source_docs/6F/SLEEP DISORDERS dr.Diva,SpKJ.docx",
+  "source_format": "Docx",
+  "source_filename": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+  "document_index": 7,
+  "summary": [
+    "SLEEP DISORDERS.",
+    "NORMAL SLEEP.",
+    "FISIOLOGI TIDUR.",
+    "Stadium 2 berlangsung paling lama, yaitu 45% dari keseluruhan waktu tidur.",
+    "Bervoltase tinggi dengan frekuensi 0, 5 hingga 2, 5 siklus perdetik, yaitu gelombang delta.",
+    "Anxietas tidak menyebabkan diagnosis insomnia."
+  ],
+  "exam_focus": [
+    "Bagian kriteria diagnostik gangguan tertentu.",
+    "Anxietas tidak menyebabkan diagnosis insomnia.",
+    " Kriteria “lama tidur” (kuantitas) tidak digunakan.",
+    "Memenuhi kriteria di atas (seperti pada transient.",
+    "Insomnia) tidak didiagnosis di sini, dapat.",
+    "Kondisi Medis: Jika seseorang memiliki gejala nyeri kronis, kesulitan.",
+    "Mengalami insomnia lebih besar dibandingkan mereka yang tanpa gejala.",
+    "Dengan tanda khas adanya anxietas, tubuh.",
+    "Tak ada tanda suatu gangguan fisik, seperti.",
+    "PENATALAKSANAAN NON-FARMAKOLOGI UNTUK GANGGUAN TIDUR."
+  ],
+  "sections": [
+    {
+      "id": "batch_2_6f_07_s01",
+      "title": "SLEEP DISORDERS",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Oleh: dr. Diva Mariska Tarastin, Sp. KJ.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 3
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Departemen Psikiatri FKIK Universitas Jambi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 4
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 2
+      },
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "visual_refs": [
+        "Batch_2_6f_07_visual_concept_map"
+      ],
+      "glossary_refs": [
+        "Term_normal_sleep_dan_sleep_disorders",
+        "Term_sleep_disorder",
+        "Term_tidur_dibagi_menjadi_2_tipe",
+        "Term_tipe_rapid_eye_movement",
+        "Term_tipe_non_rapid_eye_movement",
+        "Term_adalah_psikogenik",
+        "Term_mengandung_kafein",
+        "Term_perjalanan_jauh"
+      ],
+      "quiz_refs": [
+        "Batch_2_6f_07_quiz_01",
+        "Batch_2_6f_07_quiz_02",
+        "Batch_2_6f_07_quiz_03"
+      ]
+    },
+    {
+      "id": "batch_2_6f_07_s02",
+      "title": "NORMAL SLEEP",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "1/3 hidup manusia dihabiskan untuk tidur.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 7
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Umumnya manusia membutuhkan 6-8 jam/.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 8
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidur secara relevan terkait dengan Psikiatri karena gangguan tidur terjadi pada hampir semua gangguan psikiatri dan sering menjadi bagian kriteria diagnostik gangguan tertentu.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 9
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Fungsi tidur secara pasti belum diketahui namun yang pasti untuk BERTAHAN HIDUP karena deprivasi tidur yang lama menyebabkan gangguan fisik berat dan gangguan kognitif, pada akhirnya kematian.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 11
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Fungsi Tidur.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 12
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Restorasi fungsi homeostatik.",
+              "children": []
+            },
+            {
+              "text": "Termoregulasi normal.",
+              "children": []
+            },
+            {
+              "text": "Konservasi energi.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 13
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "NREM sleep yang meningkat sesudah olahraga dan.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 14
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "FISIOLOGI TIDUR  Makhluk hidup mempunyai irama sirkadian kehidupan yang sesuai dengan beredarnya waktu dalam siklus 24 jam.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 16
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": " Fase Tidur → susunan saraf pusat masih bekerja dimana neuron-neuron di substansia retikularis ventral batang otak melakukan sinkronisasi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 17
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": ". Terletak pada substansia ventrikulo retikularis batang.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 18
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Otak yang disebut sebagai pusat tidur (sleep center).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 19
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": ". Bagian susunan saraf pusat yang menghilangkan sinkronisasi/ desinkronisasi terdapat pada bagian rostral batang otak disebut sebagai pusat penggugah (arousal center).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 20
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 6
+      },
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "glossary_refs": [
+        "Term_normal_sleep_dan_sleep_disorders",
+        "Term_sleep_disorder",
+        "Term_tidur_dibagi_menjadi_2_tipe",
+        "Term_tipe_rapid_eye_movement",
+        "Term_tipe_non_rapid_eye_movement",
+        "Term_adalah_psikogenik",
+        "Term_mengandung_kafein",
+        "Term_perjalanan_jauh"
+      ]
+    },
+    {
+      "id": "batch_2_6f_07_s03",
+      "title": "FISIOLOGI TIDUR",
+      "kind": "Reading",
+      "content": [],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 22
+      },
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "glossary_refs": [
+        "Term_normal_sleep_dan_sleep_disorders",
+        "Term_sleep_disorder",
+        "Term_tidur_dibagi_menjadi_2_tipe",
+        "Term_tipe_rapid_eye_movement",
+        "Term_tipe_non_rapid_eye_movement",
+        "Term_adalah_psikogenik",
+        "Term_mengandung_kafein",
+        "Term_perjalanan_jauh"
+      ]
+    },
+    {
+      "id": "batch_2_6f_07_s04",
+      "title": "PEMBAGIAN TIDUR",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Tidur Dibagi Menjadi 2 Tipe Yaitu: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 25
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Tipe Rapid Eye Movement (REM).",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 26
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Tipe Non Rapid Eye Movement (NREM).",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 27
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Fase awal tidur didahului oleh fase NREM yang terdiri dari 4 stadium, lalu diikuti oleh fase REM. Keadaan tidur normal antara fase NREM dan REM terjadi secara bergantian antara 4-6 kali siklus semalam.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 28
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidur NREM yang meliputi 75% dari keseluruhan waktu tidur dan dibagi menjadi 4 stadium. Sedangkan tidur REM meliputi 25% dari keseluruhan waktu tidur. Tidak dibagi-bagi dalam stadium seperti dalam tidur NREM.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 29
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 24
+      },
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "glossary_refs": [
+        "Term_normal_sleep_dan_sleep_disorders",
+        "Term_sleep_disorder",
+        "Term_tidur_dibagi_menjadi_2_tipe",
+        "Term_tipe_rapid_eye_movement",
+        "Term_tipe_non_rapid_eye_movement",
+        "Term_adalah_psikogenik",
+        "Term_mengandung_kafein",
+        "Term_perjalanan_jauh"
+      ]
+    },
+    {
+      "id": "batch_2_6f_07_s05",
+      "title": "PEMBAGIAN KETERANGAN",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Stadium 1 berlangsung selama 5% dari keseluruhan waktu tidur. Stadium ini dianggap stadium.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 33
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidur paling ringan. EEG menggambarkan gambaran kumparan tidur yang khas, bervoltase rendah, dengan frekuensi 3 sampai 7 siklus perdetik, yang disebut gelombang teta.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 34
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Stadium 2 berlangsung paling lama, yaitu 45% dari keseluruhan waktu tidur. EEG menggambarkan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 35
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gelombang yang berbentuk pilin (spindle shaped) yang sering dengan frekuensi 12 sampai 14 siklus perdetik, lambat, dan trifasik yang dikenal sebagai kompleks K. Pada stadium ini, orang dapat dibangunkan dengan mudah.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 36
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Stadium 3 berlangsung 12% dari keseluruhan waktu tidur. EEG menggambarkan gelombang.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 37
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Bervoltase tinggi dengan frekuensi 0, 5 hingga 2, 5 siklus perdetik, yaitu gelombang delta. Orang tidur dengan sangat nyenyak, sehingga sukar dibangunkan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 38
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Stadium 4 berlangsung 13% dari keseluruhan waktu tidur. Gambaran EEG hampir sama dengan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 39
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Stadium 3 dengan perbedaan kuantitatif pada jumlah gelombang delta. Stadium 3 dan 4 juga dikenal dengan nama tidur dalam, atau delta sleep, atau Slow Wave Sleep (SWS).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 40
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 32
+      },
+      "recommended_pages": [
+        4,
+        9
+      ],
+      "glossary_refs": [
+        "Term_normal_sleep_dan_sleep_disorders",
+        "Term_sleep_disorder",
+        "Term_tidur_dibagi_menjadi_2_tipe",
+        "Term_tipe_rapid_eye_movement",
+        "Term_tipe_non_rapid_eye_movement",
+        "Term_adalah_psikogenik",
+        "Term_mengandung_kafein",
+        "Term_perjalanan_jauh"
+      ]
+    },
+    {
+      "id": "batch_2_6f_07_s06",
+      "title": "PEMBAGIAN TIDUR",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Durasi Tidur.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 44
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 42
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_07_s07",
+      "title": "GANGGUAN TIDUR",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "PPDGJ III membagi Gangguan Tidur Non organik (F51) menjadi 2 bagian: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 47
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "A) Dissomnia: kondisi psikogenik primer dengan ciri gangguan utama pada jumlah, kualitas, atau waktu tidur akibat kausa emosional, yaitu: insomnia, hipersomnia, dan gangguan jadwal tidur.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 48
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "B).Parasomnia: peristiwa episodik abnormal yang terjadi selama tidur.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 50
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pada masa kanak hal ini ada hubungannya terutama dengan perkembangan anak, sedangkan pada orang dewasa predominan adalah psikogenik yaitu somnambulisme, teror tidur, dan mimpi buruk.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 51
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Insomnia Nonorganik.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 53
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 46
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_07_s08",
+      "title": "Kriteria diagnostik:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "A) Keluhan sulit masuk tidur, mempertahankan tidur, atau kualitas tidur yang buruk.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 55
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "B) Gangguan tidur terjadi minimal 3 kali dalam seminggu selama minimal sebulan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 56
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "C) Adanya preokupasi akan tidak bisa tidur dan kekhawatiran berlebihan perihal akibatnya pada malam dan sepanjang hari.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 57
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "D) Tidak puas secara kuantitas dan kualitas dari tidurnya, yang keduanya menyebabkan berbagai gangguan dalam fungsi sosial atau pekerjaan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 58
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lanjutan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 60
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": " Adanya gangguan jiwa lain seperti depresi dan anxietas tidak menyebabkan diagnosis insomnia diabaikan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 61
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": " Kriteria “lama tidur” (kuantitas) tidak digunakan untuk menentukan adanya gangguan, oleh karena luasnya variasi individual. Lama gangguan yang tidak memenuhi kriteria di atas (seperti pada transient insomnia) tidak didiagnosis di sini, dapat dimasukkan dalam reaksi stres akut (F43.0) atau gangguan penyesuaian (F43.2).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 62
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 54
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_07_s09",
+      "title": "PENYEBAB INSOMNIA",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Stress.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 65
+          }
+        },
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "Kafein, nikotin, alkohol",
+              "Kafein, nikotin, alkohol",
+              "Kecemasan dan depresi Kondisi medis.",
+              "Kecemasan dan depresi Kondisi medis.",
+              "Kecemasan dan depresi Kondisi medis."
+            ],
+            [
+              "Perubahan lingkungan",
+              "Perubahan lingkungan",
+              "Perubahan lingkungan",
+              "Belajar ‘insomnia’",
+              "Belajar ‘insomnia’"
+            ]
+          ],
+          "provenance": {
+            "source_kind": "Docx_table",
+            "table_index": 66
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 64
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_07_s10",
+      "title": "INSOMNIA",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Lanjutan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 69
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Stres: Kekhawatiran tentang pekerjaan, kesehatan, sekolah, atau keluarga dapat membuat pikiran menjadi aktif di malam hari, sehingga sulit untuk tidur. Peristiwa kehidupan yang penuh stres, seperti kematian atau penyakit dari orang yang dicintai, perceraian atau kehilangan pekerjaan, dapat menyebabkan insomnia.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 70
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Kecemasan Dan Depresi: Hal ini mungkin disebabkan ketidakseimbangan.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 71
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kimia dalam otak atau karena kekhawatiran yang menyertai depresi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 72
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Obat-obatan: Beberapa resep obat dapat mempengaruhi proses tidur,.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 73
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lanjutan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 75
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kafein, Nikotin Dan Alkohol: Kopi, teh, cola dan minuman yang mengandung kafein adalah stimulan yang terkenal. Nikotin merupakan stimulan yang dapat menyebabkan insomnia. Alkohol adalah obat penenang yang dapat membantu seseorang jatuh tertidur, tetapi mencegah tahap lebih dalam tidur dan sering menyebabkan terbangun di tengah malam.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 76
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Kondisi Medis: Jika seseorang memiliki gejala nyeri kronis, kesulitan bernapas dan sering buang air kecil, kemungkinan mereka untuk mengalami insomnia lebih besar dibandingkan mereka yang tanpa gejala tersebut. Kondisi ini dikaitkan dengan insomnia akibat artritis, kanker, gagal jantung, penyakit paru-paru, gastroesophageal reflux disease (GERD), stroke, penyakit Parkinson dan penyakit Alzheimer.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 77
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lanjutan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 79
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Perubahan Lingkungan Atau Jadwal Kerja: Kelelahan akibat perjalanan jauh atau pergeseran waktu kerja dapat menyebabkan terganggunya irama sirkadian tubuh, sehingga sulit untuk tidur. Ritme sirkadian bertindak sebagai jam internal, mengatur siklus tidur-bangun, metabolisme, dan suhu tubuh.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 80
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "“Belajar” Insomnia: Hal ini dapat terjadi ketika Anda khawatir berlebihan tentang tidak bisa tidur dengan baik dan berusaha terlalu keras untuk jatuh tertidur. Kebanyakan orang dengan kondisi ini tidur lebih baik ketika mereka berada jauh dari lingkungan tidur yang biasa atau ketika mereka tidak mencoba untuk tidur, seperti ketika mereka menonton TV atau membaca.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 81
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 67
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_07_s11",
+      "title": "FAKTOR RESIKO",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Lanjutan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 85
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Wanita: Perempuan lebih mungkin mengalami insomnia. Perubahan hormon selama siklus menstruasi dan menopause mungkin memainkan peran. Selama menopause, sering berkeringat pada malam hari dan hot flashes sering mengganggu tidur.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 86
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Usia Lebih Dari 60 Tahun: Karena terjadi perubahan dalam pola tidur,.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 87
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Insomnia meningkat sejalan dengan usia.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 88
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Memiliki Gangguan Kesehatan Mental: Banyak gangguan, termasuk.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 89
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Stres: Stres dapat menyebabkan insomnia sementara, stress jangka panjang seperti kematian orang yang dikasihi atau perceraian, dapat menyebabkan insomnia kronis. Menjadi miskin atau pengangguran juga meningkatkan risiko terjadinya insomnia.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 90
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Perjalanan jauh (Jet lag) dan Perubahan jadwal kerja: Bekerja di malam.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 91
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hari sering meningkatkan resiko insomnia.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 92
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Hipersomnia Nonorganik Kriteria diagnostik: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 94
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "A) Tidur siang hari yang berlebihan atau serangan kantuk yang hebat pada siang hari, yang bukan disebabkan oleh kurang tidur, dan/atau membutuhkan tenggang waktu yang lebih lama untuk mencapai keadaan siaga penuh saat bangun tidur.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 95
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "B) Terjadi setiap hari selama lebih dari 1 bulan, atau gangguan yang berulang yang berlangsung relatif singkat, yang menyebabkan keadaan yang tak menyenangkan atau menyebabkan gangguan yang nyata pada fungsi sosial atau pekerjaan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 96
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 83
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_07_s12",
+      "title": "Gangguan Jadwal Tidur",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Nonorganik Kriteria diagnostik: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 99
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "A) Pola jadwal tidur yang berbeda dengan jadwal tidur yang dianggap normal di masyarakat dan keadaan budaya sekitarnya.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 100
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "B) Adanya insomnia pada waktu orang tidur dan hipersomnia pada waktu kebanyakan orang bangun, berlangsung sekurangnya 1 bulan atau secara berulang dengan periode yang lebih singkat.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 101
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "C) Tidur kurang memuaskan dalam kuantitas, kualitas maupun waktunya, sehingga menyebabkan terganggunya fungsi sosial dan pekerjaan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 102
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Somnambulisme Kriteria Diagnostik: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 104
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "A) Satu/lebih episode bangun dari tempat tidur, biasanya pada sepertiga awal malam, lalu berjalan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 105
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "B) Selama episode itu, pandangannya kosong, muka menatap ke depan, tak responsif pada berbagai rangsangan, tak dapat berkomunikasi, dan hanya dengan susah payah dapat dibangunkan dari tidurnya.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 106
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Pada waktu bangun, baik dari satu episode atau.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 108
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "D. Dalam waktu beberapa menit setelah bangun dari episode somnambulisme, tidak terjadi gangguan aktivitas mental atau perilaku, walaupun mula-mula mungkin ada periode singkat berupa kebingungan dan disorientasi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 109
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Tak ada bukti terdapatnya gangguan mental.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 110
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Teror Tidur.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 112
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 98
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_07_s13",
+      "title": "Kriteria diagnostik:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "A. Terjadinya satu atau lebih episode terbangun dari tidur yang diawali dengan teriakan panik, dengan tanda khas adanya anxietas, tubuh bergetar, hiperaktivitas otonomik yang hebat seperti takikardia, napas cepat, dilatasi pupil, dan berkeringat.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 114
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Episode berulang ini berlangsung selama 1-10.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 115
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "C.Secara relatif tidak bereaksi terhadap berbagai upaya orang lain untuk mengatasi peristiwa teror malam itu dan upaya demikian bahkan dapat menyebabkan disorientasi dan gerakan perseveratif untuk beberapa menit.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 117
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Bila dapat ingat peristiwanya, hanya minimal.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 118
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Tak ada tanda suatu gangguan fisik, seperti.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 119
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mimpi Buruk (Nightmare).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 121
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 113
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_07_s14",
+      "title": "Kriteria diagnostik:",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "A. Terbangun dari tidur malam, atau tidur siang dengan mimpi yang terperinci, jelas dan menakutkan, biasanya termasuk ancaman terhadap kehidupan, keamanan dan harga diri; terbangun dapat kapan saja pada saat tidur, tetapi biasanya pada fase akhir tidur;.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 123
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Saat terbangun dari mimpi menakutkan,.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 125
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Pengalaman mimpi itu dan akibat gangguan.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 126
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Sleeptalking (Somniloquy).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 128
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Sleeptalking umum terjadi pada anak-anak dan orang.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 129
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dewasa.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 130
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Hal ini telah dipelajari secara ekstensif di laboratorium.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 131
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidur dan ditemukan di semua tahapan tidur.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 132
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Bicara biasanya melibatkan beberapa kata yang sulit.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 133
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Untuk dibedakan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 134
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Tidak berkaitan dengan mimpi saat tidur, juga sering.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 135
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mengungkapkan rahasia yang mendalam.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 136
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Episode sleeptalking kadang-kadang bersamaan.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 137
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Dengan teror malam dan tidur sambil berjalan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 138
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Sleeptalking sendiri tidak membutuhkan perawatan.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 139
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 122
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_07_s15",
+      "title": "PENATALAKSANAAN NON-FARMAKOLOGI UNTUK GANGGUAN TIDUR.",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Edukasi tentang kebiasaan tidur yang baik,.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 142
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Teknik Relaksasi Terapi kognitif Restriksi Tidur.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 143
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Kontrol stimulus.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 144
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lanjutan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 146
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Gaya Hidup Dan Pengobatan Di Rumah.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 147
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Mengatur jadwal tidur yang konsisten termasuk pada hari libur Tidak berada di tempat tidur ketika tidak tidur.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 148
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Tidak memaksakan diri untuk tidur jika tidak bisa.",
+              "children": []
+            },
+            {
+              "text": "Hanya menggunakan tempat tidur hanya untuk tidur.",
+              "children": []
+            },
+            {
+              "text": "Relaksasi sebelum tidur, seperti mandi air hangat, membaca, latihan.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 149
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Menghindari atau membatasi tidur siang karena akan menyulitkan.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 150
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Tidur pada malam hari.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 151
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Menyiapkan suasana nyaman pada kamar untuk tidur, seperti.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 152
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Menghindari kebisingan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 153
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Olahraga dan tetap aktif, seperti olahraga selama 20 hingga.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 154
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Menghindari kafein, alkohol, dan nikotin Menghindari makan besar sebelum tidur Cek kesehatan secara rutin.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 155
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Jika terdapat nyeri dapat digunakan analgesik 30.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 156
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 141
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_07_s16",
+      "title": "PENATALAKSANAAN FARMAKOLOGI",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Benzodiazepine (Alprazolam, Lorazepam, Nitrazepam, Triazolam, dan.",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 158
+          }
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Non benzodiazepine (Chloral-hydrate, Zolpidem, dll).",
+              "children": []
+            }
+          ],
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 159
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Pemilihan obat, ditinjau dari sifat gangguan tidur: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 160
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Initial Insomnia (sulit masuk ke dalam proses tidur) Obat yang dibutuhkan adalah bersifat “Sleep inducing anti-insomnia” yaitu golongan benzodiazepine (Short Acting) → Misalnya pada gangguan anxietas.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 161
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Delayed Insomnia (proses tidur terlalu cepat berakhir dan sulit masuk kembali ke proses tidur selanjutnya) Obat yang dibutuhkan adalah bersifat “Prolong latent phase Anti-Insomnia”, yaitu golongan heterosiklik antidepresan (Trisiklik dan Tetrasiklik) → Misalnya pada gangguan depresi.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 162
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Broken Insomnia (siklus proses tidur yang normal tidak utuh dan terpecah-pecah menjadi beberapa bagian (multiple awakening). Obat yang dibutuhkan adalah bersifat “Sleep Maintaining Anti- Insomnia”, yaitu golongan phenobarbital atau golongan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 163
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Benzodiazepine (Long acting).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 164
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lanjutan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 166
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lanjutan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 168
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Lanjutan.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 170
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": " Kontraindikasi: .",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 171
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": ". Sleep apneu syndrome.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 172
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": ". Congestive Heart Failure.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 173
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": ". Chronic Respiratory Disease.",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 174
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": " Penggunaan Benzodiazepine pada wanita hamil mempunyai risiko menimbulkan “teratogenic effect” (e.g. cleft-palate abnormalities) khususnya pada trimester pertama. Juga benzodiazepine diekskresikan melalui ASI, berefek pada bayi (penekanan fungsi SSP).",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 175
+          }
+        },
+        {
+          "type": "Paragraph",
+          "text": "Thank You!",
+          "provenance": {
+            "source_kind": "Docx_text",
+            "paragraph_index": 177
+          }
+        }
+      ],
+      "provenance": {
+        "source_kind": "Docx_text",
+        "paragraph_index": 157
+      },
+      "recommended_pages": [
+        4,
+        9
+      ]
+    },
+    {
+      "id": "batch_2_6f_07_high_yield",
+      "title": "High-yield / titik ujian dari sumber.",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Bagian kriteria diagnostik gangguan tertentu."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Anxietas tidak menyebabkan diagnosis insomnia."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": " Kriteria “lama tidur” (kuantitas) tidak digunakan."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Memenuhi kriteria di atas (seperti pada transient."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Insomnia) tidak didiagnosis di sini, dapat."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Kondisi Medis: Jika seseorang memiliki gejala nyeri kronis, kesulitan."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Mengalami insomnia lebih besar dibandingkan mereka yang tanpa gejala."
+        },
+        {
+          "type": "Callout",
+          "variant": "Exam_focus",
+          "title": "Fokus belajar",
+          "text": "Dengan tanda khas adanya anxietas, tubuh."
+        }
+      ],
+      "recommended_pages": [
+        11,
+        22
+      ],
+      "provenance": {
+        "source_file": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+        "derivation": "Source_keyword_extraction"
+      }
+    },
+    {
+      "id": "batch_2_6f_07_summary",
+      "title": "Ringkasan cepat",
+      "kind": "Summary",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "SLEEP DISORDERS.",
+              "children": []
+            },
+            {
+              "text": "NORMAL SLEEP.",
+              "children": []
+            },
+            {
+              "text": "FISIOLOGI TIDUR.",
+              "children": []
+            },
+            {
+              "text": "Stadium 2 berlangsung paling lama, yaitu 45% dari keseluruhan waktu tidur.",
+              "children": []
+            },
+            {
+              "text": "Bervoltase tinggi dengan frekuensi 0, 5 hingga 2, 5 siklus perdetik, yaitu gelombang delta.",
+              "children": []
+            },
+            {
+              "text": "Anxietas tidak menyebabkan diagnosis insomnia.",
+              "children": []
+            }
+          ]
+        }
+      ],
+      "recommended_pages": [
+        15,
+        22
+      ],
+      "provenance": {
+        "source_file": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+        "derivation": "Source_derived_summary"
+      }
+    },
+    {
+      "id": "batch_2_6f_07_bilingual_simplified",
+      "title": "Penjelasan sederhana bilingual",
+      "kind": "Bilingual",
+      "content": [
+        {
+          "type": "Bilingual_simplification",
+          "language": "Id-en",
+          "simple_indonesian": "Secara sederhana, topik ini membahas Normal Sleep dan Sleep Disorders. Fokuskan belajar pada definisi, gambaran klinis, pemeriksaan/diagnosis bila ada, dan penatalaksanaan yang tertulis dalam materi dosen.",
+          "english_bridge": "In simple terms, this source is a structured learning page for Normal Sleep dan Sleep Disorders. Review definitions, clinical features, assessment/diagnosis when available, and management points from the lecturer material.",
+          "confidence": "high_for_scope_low_for_unsourced_extra_claims"
+        }
+      ],
+      "recommended_pages": [
+        16
+      ],
+      "provenance": {
+        "source_file": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+        "derivation": "App_shell_simplification"
+      }
+    },
+    {
+      "id": "batch_2_6f_07_visual_plan",
+      "title": "Normal Sleep dan Sleep Disorders.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Image_plan",
+          "visual_id": "Batch_2_6f_07_visual_concept_map",
+          "title": "Concept map: Normal Sleep dan Sleep Disorders.",
+          "caption": "Visual ringkas berbasis struktur materi dosen dari SLEEP DISORDERS dr.Diva, SpKJ.docx.",
+          "recommended_pages": [
+            12,
+            13
+          ],
+          "source_file": "SLEEP DISORDERS dr.Diva,SpKJ.docx"
+        },
+        {
+          "type": "Image_plan",
+          "visual_id": "Batch_2_6f_07_source_slide_gallery_placeholder",
+          "title": "Galeri slide sumber: Normal Sleep dan Sleep Disorders.",
+          "caption": "Dokumen mengandung 35 media; perlu clearance sebelum gambar asli dimasukkan.",
+          "recommended_pages": [
+            13,
+            24
+          ],
+          "source_file": "SLEEP DISORDERS dr.Diva,SpKJ.docx"
+        }
+      ],
+      "visual_refs": [
+        "Batch_2_6f_07_visual_concept_map",
+        "Batch_2_6f_07_source_slide_gallery_placeholder"
+      ],
+      "recommended_pages": [
+        12,
+        13
+      ],
+      "provenance": {
+        "source_file": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+        "derivation": "Visual_asset_planning"
+      }
+    }
+  ],
+  "related_exam_set_ids": [],
+  "extraction_metadata": {
+    "text_chars": 13519,
+    "media_count": 35,
+    "ocr_used": false,
+    "ocr_slide_count": 0
+  },
+  "app_feature_targets": [
+    3,
+    4,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    20,
+    22,
+    24
+  ],
+  "provenance": {
+    "batch_id": "batch_2_6F",
+    "source_file": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+    "source_path": "Source_docs/6F/SLEEP DISORDERS dr.Diva, SpKJ.docx."
+  }
+}

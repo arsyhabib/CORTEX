@@ -1,0 +1,52 @@
+number,id,page_label,line_range,answer_text,confidence,answer_source_status,option_count,stem
+1,orig_exam_batch_2_mcq_6_3_trapezius_q01,Page 1,2-2,Serangan panik episodik dengan gejala otonom,low,missing_in_source,2,Pernyataan tentang gangguan panik.
+2,orig_exam_batch_2_mcq_6_3_trapezius_q02,Page 1,3-3,Obsesi dan/atau kompulsi,low,missing_in_source,2,Yang bukan merupakan pernyataan tentang obsessive-compulsive disorder (OCD).
+3,orig_exam_batch_2_mcq_6_3_trapezius_q03,Page 1,4-4,"Infeksi bakteri berat, terutama meningitis",low,missing_in_source,2,Cephalosporin generasi ketiga digunakan untuk penyakit apa?
+4,orig_exam_batch_2_mcq_6_3_trapezius_q04,Page 1,5-5,Hipokondrik/Hipokondriasis,high,confirmed_bold_in_pdf,2,"Pasien tidak terdiagnosis sakit jantung, tetapi tetap mengira dirinya sakit jantung. Gangguan apakah ini?"
+5,orig_exam_batch_2_mcq_6_3_trapezius_q05,Page 1,6-8,Belum dapat dipastikan dari sumber,low,missing_in_source,2,Pasien perempuan dengan keluhan telat haid dan badan terasa sakit; gangguan disebut apa?
+6,orig_exam_batch_2_mcq_6_3_trapezius_q06,Page 1,9-69,Anterograde,high,confirmed_bold_in_pdf,5,"Tiga hari setelah kecelakaan lalu lintas dan trauma tumpul kepala, Ny. A dapat beraktivitas kembali tetapi tidak ingat aktivitas yang ia lakukan selama 3 hari setelah kejadian. Jenis amnesia apakah yang dialami?"
+7,orig_exam_batch_2_mcq_6_3_trapezius_q07,Page 1,70-70,Morfin dan petidin,high,confirmed_bold_in_pdf,2,NAPZA golongan 2 contohnya apa?
+8,orig_exam_batch_2_mcq_6_3_trapezius_q08,Page 1,71-74,Meningitis TB,high,confirmed_bold_in_pdf,2,"Pasien dengan LCS kuning kental atau LCS xantochrome, diagnosisnya adalah apa?"
+9,orig_exam_batch_2_mcq_6_3_trapezius_q09,Page 1,75-75,Serotipe b,high,confirmed_bold_in_pdf,2,Serotipe yang sering terjadi pada bayi/anak adalah apa?
+10,orig_exam_batch_2_mcq_6_3_trapezius_q10,Page 1,76-79,Status epileptikus,high,confirmed_bold_in_pdf,2,"Anak 4 tahun kejang 20 menit tidak sadar, dibawa ke RS, lalu kembali kejang 5 menit dan tetap tidak sadar. Diagnosisnya adalah apa?"
+11,orig_exam_batch_2_mcq_6_3_trapezius_q11,Page 1,80-80,Sertaline/sertraline,medium,confirmed_bold_in_pdf_with_spelling_noise,2,Obat untuk fobia sosial adalah apa?
+12,orig_exam_batch_2_mcq_6_3_trapezius_q12,Page 1,81-81,Nervus fasialis (N. VII),low,missing_in_source,2,Kelemahan area wajah sebelah kiri menunjukkan gangguan nervus berapa?
+13,orig_exam_batch_2_mcq_6_3_trapezius_q13,Page 1,82-83,Sundowner/Sundowning syndrome,medium,confirmed_bold_in_pdf_with_spelling_noise,2,Pasien tidak bisa tidur setelah mengonsumsi benzodiazepin. Diagnosisnya adalah apa?
+14,orig_exam_batch_2_mcq_6_3_trapezius_q14,Page 1,84-85,Lobus frontalis,high,confirmed_bold_in_pdf,2,Perubahan perilaku bermakna menunjukkan gangguan pada area otak apa?
+15,orig_exam_batch_2_mcq_6_3_trapezius_q15,Page 1,86-89,Propranolol,high,confirmed_bold_in_pdf,3,Obat untuk tremor aksi adalah apa?
+16,orig_exam_batch_2_mcq_6_3_trapezius_q16,Page 2,90-105,Myoklonus,high,confirmed_bold_in_pdf,5,Pasien mengalami kejang dengan sentakan pada kedua ekstremitas disertai benda yang dipegang di tangan jatuh. Diagnosis pasien ini adalah apa?
+17,orig_exam_batch_2_mcq_6_3_trapezius_q17,Page 2,106-113,Pemeriksaan HIV,high,confirmed_bold_in_pdf,2,"Pada pasien dewasa dengan infeksi sistem saraf pusat, pemeriksaan yang dilakukan untuk menegakkan diagnosis banding adalah apa?"
+18,orig_exam_batch_2_mcq_6_3_trapezius_q18,Page 2,114-124,Pasien menderita Miller Fisher syndrome,high,confirmed_bold_in_pdf,3,Ny. X datang dengan keluhan ptosis dan tidak ditemukan riwayat infeksi. Pernyataan yang benar adalah apa?
+19,orig_exam_batch_2_mcq_6_3_trapezius_q19,Page 2,125-125,Anti-kolinesterase inhibitor,medium,answer_fragment_in_source,2,Obat yang digunakan adalah apa?
+20,orig_exam_batch_2_mcq_6_3_trapezius_q20,Page 2,126-126,Meningioma,high,confirmed_bold_in_pdf,2,"Tumor otak yang berasal dari intra-axial, kecuali apa?"
+21,orig_exam_batch_2_mcq_6_3_trapezius_q21,Page 2,127-127,Amitriptilin,high,confirmed_bold_in_pdf,2,Golongan obat antidepresan trisiklik adalah apa?
+22,orig_exam_batch_2_mcq_6_3_trapezius_q22,Page 2,128-131,Demensia vaskular,high,confirmed_bold_in_pdf,2,"Pasien dengan riwayat gejala parese yang dicurigai stroke, sekarang mengalami pikun. Diagnosis pasien adalah apa?"
+23,orig_exam_batch_2_mcq_6_3_trapezius_q23,Page 2,132-132,Delirium,high,confirmed_bold_in_pdf,2,Diagnosis banding dari demensia adalah apa?
+24,orig_exam_batch_2_mcq_6_3_trapezius_q24,Page 2,133-133,Epley maneuver,high,confirmed_bold_in_pdf,2,"Pemeriksaan fisik untuk BPPV, kecuali apa?"
+25,orig_exam_batch_2_mcq_6_3_trapezius_q25,Page 2,134-135,Analog histamin,high,confirmed_bold_in_pdf,2,Nistagmus setelah manuver tetapi gejala masih ada; tatalaksana kecuali apa?
+26,orig_exam_batch_2_mcq_6_3_trapezius_q26,Page 2,136-136,MAOI,high,confirmed_bold_in_pdf,2,Antidepresan yang berhubungan dengan mekanisme cheese reaction adalah apa?
+27,orig_exam_batch_2_mcq_6_3_trapezius_q27,Page 2,137-137,Escitalopram,high,confirmed_bold_in_pdf,2,Obat untuk kecanduan main game adalah apa?
+28,orig_exam_batch_2_mcq_6_3_trapezius_q28,Page 2,138-139,Risperidone/olanzapine/aripiprazole,high,confirmed_bold_in_pdf,2,Obat lini pertama untuk gangguan afektif bipolar dengan gejala positif adalah apa?
+29,orig_exam_batch_2_mcq_6_3_trapezius_q29,Page 2,140-140,Quetiapine,high,confirmed_bold_in_pdf,2,Terapi gangguan afektif bipolar episode depresi berat adalah apa?
+30,orig_exam_batch_2_mcq_6_3_trapezius_q30,Page 2,141-141,Flight of ideas,high,confirmed_bold_in_pdf,2,Berikut ini yang merupakan bagian dari gangguan jalan pikiran adalah apa?
+31,orig_exam_batch_2_mcq_6_3_trapezius_q31,Page 2,142-142,Bentuk pikiran,high,confirmed_bold_in_pdf,2,Sirkumtansial termasuk dalam kategori apa?
+32,orig_exam_batch_2_mcq_6_3_trapezius_q32,Page 2,143-160,FDIA,medium,confirmed_bold_in_pdf_abbreviation,2,"Seorang ibu membawa anaknya karena benjolan. Ibu yakin anaknya kanker tenggorokan, sedangkan dokter menyatakan hanya KGB. Ibu tidak percaya. Diagnosis ibu tersebut adalah apa?"
+33,orig_exam_batch_2_mcq_6_3_trapezius_q33,Page 2,161-172,Terjatuh hanya saat mata tertutup: vestibularis perifer; terjatuh saat mata tertutup dan terbuka: vestibularis sentral,high,answer_embedded_in_source,2,Bagaimana interpretasi pemeriksaan Romberg?
+34,orig_exam_batch_2_mcq_6_3_trapezius_q34,Page 2,173-173,Delirium,high,confirmed_bold_in_pdf,2,Diagnosis banding demensia adalah apa?
+35,orig_exam_batch_2_mcq_6_3_trapezius_q35,Page 2,174-175,Gangguan ansietas menyeluruh (GAM),high,confirmed_bold_in_pdf,2,Diagnosis banding demensia Alzheimer adalah apa?
+36,orig_exam_batch_2_mcq_6_3_trapezius_q36,Page 2,176-176,Benar semua,medium,confirmed_bold_in_pdf_but_options_missing,2,Ciri perdarahan epidural adalah apa?
+37,orig_exam_batch_2_mcq_6_3_trapezius_q37,Pages 2-3,177-228,Gangguan fobia (claustrophobia),high,confirmed_bold_in_pdf,2,"Wanita 40 tahun sesak napas, cemas, berdebar, keringat dingin, dan mulut kering bila berada di kamar mandi tertutup rapat; gejala muncul sejak kematian kakaknya karena sesak napas di kamar mandi. Pemeriksaan fisik tidak ada kelainan. Diagnosis psikiatrik yang tepat adalah apa?"
+38,orig_exam_batch_2_mcq_6_3_trapezius_q38,Page 3,229-242,Internet gaming disorder,high,confirmed_bold_in_pdf,2,Anak banyak menghabiskan waktu bermain game dan sering berbohong saat ditanya durasi bermain. Diagnosis kerjanya adalah apa?
+39,orig_exam_batch_2_mcq_6_3_trapezius_q39,Page 3,243-250,40-31,high,confirmed_bold_in_pdf,2,Pasien dengan disabilitas dalam hubungan dengan realita dan komunikasi serta disabilitas berat dalam beberapa fungsi memiliki skor GAF berapa?
+40,orig_exam_batch_2_mcq_6_3_trapezius_q40,Page 3,251-266,Anoreksia nervosa,high,confirmed_bold_in_pdf_with_spelling_noise,2,"Gangguan makan dengan takut gemuk, kecemasan tinggi terhadap berat badan/body image, tinggi 160 cm dan berat 35 kg, adalah apa?"
+41,orig_exam_batch_2_mcq_6_3_trapezius_q41,Page 3,267-267,Belum dapat dipastikan dari sumber,low,missing_in_source,2,Stadium Parkinson menurut Hoehn dan Yahr.
+42,orig_exam_batch_2_mcq_6_3_trapezius_q42,Page 3,268-268,Gangguan somatisasi,medium,answer_fragment_in_source,2,Skenario kasus dengan pertanyaan diagnosis; diagnosisnya adalah apa?
+43,orig_exam_batch_2_mcq_6_3_trapezius_q43,Page 3,269-269,Gangguan konversi,medium,answer_fragment_in_source,2,Skenario kasus dengan pertanyaan diagnosis; diagnosisnya adalah apa?
+44,orig_exam_batch_2_mcq_6_3_trapezius_q44,Page 3,270-285,Gangguan mental organik → gangguan mental dan perilaku akibat zat psikoaktif → skizofrenia → gangguan suasana perasaan,high,confirmed_bold_in_pdf,2,Urutan yang benar dari hierarki blok diagnosis gangguan jiwa berdasarkan PPDGJ III adalah apa?
+45,orig_exam_batch_2_mcq_6_3_trapezius_q45,Page 3,286-363,Memberikan antibiotik empiris dengan diagnosis presumtif,high,confirmed_bold_in_pdf,6,"Wanita 54 tahun mengalami nyeri kepala 3 minggu yang memberat, demam 3 minggu, muntah, mengantuk, meracau, melantur, lalu kesadaran menurun. Terdapat kecurigaan infeksi intrakranial. Tatalaksana awal yang dilakukan adalah apa?"
+46,orig_exam_batch_2_mcq_6_3_trapezius_q46,Page 3,364-368,Schwannoma,high,confirmed_bold_in_pdf,4,Tumor yang ditemukan Verocay bodies adalah apa?
+47,orig_exam_batch_2_mcq_6_3_trapezius_q47,Page 3,369-372,Stupor,medium,confirmed_bold_in_pdf_but_options_incomplete,2,Karakteristik gejala skizofrenia katatonik adalah apa?
+48,orig_exam_batch_2_mcq_6_3_trapezius_q48,Page 4,373-396,Rivastigmine,high,confirmed_bold_in_pdf,5,Laki-laki 73 tahun dengan diagnosis demensia Alzheimer. Apa penatalaksanaan farmakologis untuk kasus ini?
+49,orig_exam_batch_2_mcq_6_3_trapezius_q49,Page 4,397-417,Skizofrenia paranoid,high,confirmed_bold_in_pdf,2,Tn. X 20 tahun menuduh dosennya mencuri uang kuliahnya dan berpikir tempat kuliahnya hanya kedok organisasi kejahatan. Jenis gangguan apakah ini?
+50,orig_exam_batch_2_mcq_6_3_trapezius_q50,Page 4,418-424,CT scan tanpa kontras,high,confirmed_bold_in_pdf,2,Pasien sedang stroke dengan bicara pelo dan kelemahan sesisi tubuh. Gold standard pemeriksaan adalah apa?
+51,orig_exam_batch_2_mcq_6_3_trapezius_q51,Page 4,425-443,Sopor,high,confirmed_bold_in_pdf,5,"Jika dipanggil pasien tidak bereaksi, tetapi saat dirangsang nyeri pasien membuka mata, dapat melokalisir nyeri dan menepis, serta hanya mengerang, tingkat kesadarannya adalah apa?"

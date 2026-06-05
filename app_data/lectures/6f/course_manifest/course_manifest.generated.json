@@ -1,0 +1,406 @@
+{
+  "app": "CORTEX Education",
+  "version": "0.1",
+  "generated_at": "2026-06-03T16: 50: 03.725116+00: 00",
+  "batch_id": "batch_2_6F",
+  "batch_label": "Batch 2 / 6F",
+  "domains": [
+    {
+      "id": "psychiatry_6f",
+      "title": "Psikiatri dan Perilaku 6F.",
+      "order": 1,
+      "summary": "Bundle materi psikiatri 6F dari dosen: ansietas, panik, fobia, ECT/psikoterapi, NAPZA, sleep disorders, gangguan makan, delirium, amnesia pascatrauma, somatoform, etik-legal, pemeriksaan psikiatri, dan kepribadian.",
+      "modules": [
+        {
+          "id": "batch_2_6f_01",
+          "title": "Gangguan Ansietas & Penatalaksanaannya.",
+          "source_file": "lecture_material/batch_2_6f_01_09_dr_susi_1_gam.json",
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "topic_tags": [
+            "Anxiety"
+          ],
+          "source_filename": "09 dr.Susi - 1. GAM.docx."
+        },
+        {
+          "id": "batch_2_6f_02",
+          "title": "Gangguan Panik",
+          "source_file": "lecture_material/batch_2_6f_02_09_dr_susi_2_gangguan_panik_1.json",
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "topic_tags": [
+            "Panic disorder"
+          ],
+          "source_filename": "09 dr.Susi - 2. Gangguan Panik (1).docx."
+        },
+        {
+          "id": "batch_2_6f_03",
+          "title": "Fobia",
+          "source_file": "lecture_material/batch_2_6f_03_09_dr_susi_4_fobia.json",
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "topic_tags": [
+            "Anxiety"
+          ],
+          "source_filename": "09 dr.Susi - 4. Fobia.docx."
+        },
+        {
+          "id": "batch_2_6f_05",
+          "title": "Electroconvulsive Therapy (ECT) & Psikoterapi.",
+          "source_file": "lecture_material/batch_2_6f_05_ect_dan_psikoterapi_dr_diva_sp_kj_1.json",
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "topic_tags": [
+            "Psychotherapy",
+            "Somatic therapy"
+          ],
+          "source_filename": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx."
+        },
+        {
+          "id": "batch_2_6f_06",
+          "title": "Pemeriksaan Laboratorium pada Penyalahgunaan Obat Psikoaktif, NAPZA dan Alkohol.",
+          "source_file": "lecture_material/batch_2_6f_06_pemeriksaan_laboratorium_pada_penyalahgunaan.json",
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "topic_tags": [
+            "Substance use"
+          ],
+          "source_filename": "Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx."
+        },
+        {
+          "id": "batch_2_6f_07",
+          "title": "Normal Sleep dan Sleep Disorders.",
+          "source_file": "lecture_material/batch_2_6f_07_sleep_disorders_dr_diva_spkj.json",
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "topic_tags": [
+            "Sleep disorder"
+          ],
+          "source_filename": "SLEEP DISORDERS dr.Diva,SpKJ.docx"
+        },
+        {
+          "id": "batch_2_6f_08",
+          "title": "Gangguan Makan: Anoreksia Nervosa dan Bulimia.",
+          "source_file": "lecture_material/batch_2_6f_08_anoreksia_dan_bulimia.json",
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "topic_tags": [
+            "Eating disorder"
+          ],
+          "source_filename": "Anoreksia dan bulimia.docx"
+        },
+        {
+          "id": "batch_2_6f_09",
+          "title": "Delirium",
+          "source_file": "lecture_material/batch_2_6f_09_delerium_fkik_unja_1.json",
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "topic_tags": [
+            "Delirium"
+          ],
+          "source_filename": "Delerium FKIK UNJA (1).docx."
+        },
+        {
+          "id": "batch_2_6f_10",
+          "title": "Amnesia Pasca Trauma (Post-Traumatic Amnesia/PTA).",
+          "source_file": "lecture_material/batch_2_6f_10_dr_fatmawati_sp_kj_amnesia_pasca_trauma.json",
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "topic_tags": [
+            "Neurotrauma",
+            "Cognitive disorder"
+          ],
+          "source_filename": "Dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.docx"
+        },
+        {
+          "id": "batch_2_6f_11",
+          "title": "Gangguan Somatoform",
+          "source_file": "lecture_material/batch_2_6f_11_dr_fatmawati_sp_kj_gangguan_somatoform_1.json",
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "topic_tags": [
+            "Somatoform"
+          ],
+          "source_filename": "Dr.Fatmawati,Sp.KJ-Gangguan Somatoform (1).docx"
+        },
+        {
+          "id": "batch_2_6f_12",
+          "title": "Isu Etik dan Legal dalam Kesehatan Jiwa.",
+          "source_file": "lecture_material/batch_2_6f_12_legal_etik_jiwa.json",
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "topic_tags": [
+            "Ethics"
+          ],
+          "source_filename": "Legal-etik-jiwa.docx"
+        },
+        {
+          "id": "batch_2_6f_13",
+          "title": "Perilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri.",
+          "source_file": "lecture_material/batch_2_6f_13_prilaku_profesional_dan_pemeriksaan_psikiatri.json",
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "topic_tags": [
+            "Psychiatry basics"
+          ],
+          "source_filename": "Prilaku profesional dan Pemeriksaan Psikiatri.docx."
+        },
+        {
+          "id": "batch_2_6f_14",
+          "title": "Gangguan Kepribadian dan Perilaku Masa Dewasa.",
+          "source_file": "lecture_material/batch_2_6f_14_28_4_25_ggn_kepribadian_dan_perilaku_masa_dew.json",
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "topic_tags": [
+            "Personality disorder"
+          ],
+          "source_filename": "✅28_4_25 GGN KEPRIBADIAN DAN PERILAKU MASA DEWASA_compressed.docx."
+        }
+      ]
+    },
+    {
+      "id": "neuro_otology_6f",
+      "title": "Neuro-otology 6F",
+      "order": 2,
+      "summary": "Materi vertigo sentral yang muncul dalam batch 6F.",
+      "modules": [
+        {
+          "id": "batch_2_6f_04",
+          "title": "How to Treat Central Vertigo.",
+          "source_file": "lecture_material/batch_2_6f_04_2_dr_sri_novianty_sp_n_how_to_treat_central_v.json",
+          "page_targets": [
+            3,
+            4,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            22,
+            24
+          ],
+          "status": "Draft",
+          "topic_tags": [
+            "Vertigo",
+            "Neuro-otology"
+          ],
+          "source_filename": "2. Dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx."
+        }
+      ]
+    }
+  ]
+}

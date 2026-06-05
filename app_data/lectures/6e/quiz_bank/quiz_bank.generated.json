@@ -1,0 +1,1393 @@
+{
+  "quizzes": [
+    {
+      "id": "quiz_batch_1_6e_01_01",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_01",
+      "question": "Berdasarkan modul 'dr. Sri Novianty, Sp.N - How To Treat Central Vertigo', pernyataan mana yang paling tepat dengan istilah atau topik 'Bukan'?",
+      "options": [
+        "Bukan merupakan penyakit tersendiri, tetapi merupakan gejala dari etiologi lain yang terkait sistem vestibuler sentral yang dapat mengenai otak:",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: 2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "source_paragraph_index": 95,
+        "generated_from_glossary_term_id": "Term_bukan"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_01_02",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_01",
+      "question": "Berdasarkan modul 'dr. Sri Novianty, Sp.N - How To Treat Central Vertigo', pernyataan mana yang paling tepat dengan istilah atau topik 'Pengendalian kejang'?",
+      "options": [
+        "Pengendalian kejang merupakan tatalaksana utama berupa penggunaan OAE.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: 2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "source_paragraph_index": 153,
+        "generated_from_glossary_term_id": "Term_pengendalian_kejang"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_01_03",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_01",
+      "question": "Berdasarkan modul 'dr. Sri Novianty, Sp.N - How To Treat Central Vertigo', pernyataan mana yang paling tepat dengan istilah atau topik 'Terapi rehabilitasi vestibuler'?",
+      "options": [
+        "Terapi rehabilitasi vestibuler merupakan modalitas yang sangat efektif untuk memperbaiki defisit fungsional dan keluhan subyektif akibat hipofungsi vestibular perifer yang unilateral atau bilateral dan gangguan keseimban.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: 2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.docx",
+        "source_paragraph_index": 279,
+        "generated_from_glossary_term_id": "Term_terapi_rehabilitasi_vestibuler"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_02_01",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_02",
+      "question": "Berdasarkan modul 'dr.Attiya - Gangguan Gerak', pernyataan mana yang paling tepat dengan istilah atau topik 'fenomena sensorik dengan gerakan yang khas,'?",
+      "options": [
+        "Fenomena sensorik dengan gerakan yang khas, ditandai dorongan atau.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: 26 dr.Attiya - Gangguan Gerak.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+        "source_paragraph_index": 416,
+        "generated_from_glossary_term_id": "Term_fenomena_sensorik_dengan_gerakan_yang_khas"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_02_02",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_02",
+      "question": "Berdasarkan modul 'dr.Attiya - Gangguan Gerak', pernyataan mana yang paling tepat dengan istilah atau topik 'Gangguan gerak'?",
+      "options": [
+        "⚫ Gangguan gerak adalah gejala neurologi berupa gangguan gerakan yang.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: 26 dr.Attiya - Gangguan Gerak.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+        "source_paragraph_index": 6,
+        "generated_from_glossary_term_id": "Term_gangguan_gerak"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_02_03",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_02",
+      "question": "Berdasarkan modul 'dr.Attiya - Gangguan Gerak', pernyataan mana yang paling tepat dengan istilah atau topik 'Parkinsonism'?",
+      "options": [
+        "Parkinsonism adalah sindroma ditandai dengan tremor istirahat,.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: 26 dr.Attiya - Gangguan Gerak.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "26 dr.Attiya - Gangguan Gerak.docx",
+        "source_paragraph_index": 61,
+        "generated_from_glossary_term_id": "Term_parkinsonism"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_03_01",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_03",
+      "question": "Berdasarkan modul 'EF Infeksi', pernyataan mana yang paling tepat dengan istilah atau topik '(SSP)'?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi EF Infeksi; konteks sumber: Otak telah dijelaskan.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: 6EF Infeksi.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "source_paragraph_index": 40,
+        "generated_from_glossary_term_id": "Term_ssp"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_03_02",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_03",
+      "question": "Berdasarkan modul 'EF Infeksi', pernyataan mana yang paling tepat dengan istilah atau topik '3 Infeksi Sistem'?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi EF Infeksi; konteks sumber: Mir na Marhami Iskandar.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: 6EF Infeksi.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "source_paragraph_index": 0,
+        "generated_from_glossary_term_id": "Term_3_infeksi_sistem"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_03_03",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_03",
+      "question": "Berdasarkan modul 'EF Infeksi', pernyataan mana yang paling tepat dengan istilah atau topik 'abses otak'?",
+      "options": [
+        "Istilah ini tercantum dalam sumber; konteks dosen: Ter api definit: kultur dari hasil biopsi abses otak atau kultur dari fokus infeksi mis abses odontogenik atau cairan dari OMSK.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: 6EF Infeksi.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "6EF Infeksi.docx",
+        "source_paragraph_index": 393,
+        "generated_from_glossary_term_id": "Term_abses_otak"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_04_01",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_04",
+      "question": "Berdasarkan modul 'CENTRAL NEVROS SYSTEM INFECTION and Inflammation', pernyataan mana yang paling tepat dengan istilah atau topik 'Cerebritis'?",
+      "options": [
+        "Cerebritis merupakan stadium awal dari.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: CENTRAL NEVROS SYSTEM INFECTION and Inflammation.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+        "source_paragraph_index": 25,
+        "generated_from_glossary_term_id": "Term_cerebritis"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_04_02",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_04",
+      "question": "Berdasarkan modul 'CENTRAL NEVROS SYSTEM INFECTION and Inflammation', pernyataan mana yang paling tepat dengan istilah atau topik 'Yang'?",
+      "options": [
+        "Yang ditandai dengan edema yang tampak berupa gyri yang mendatar, dengan lesi pada bilateral temporal dan frontal tergantung area yang dikenai.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: CENTRAL NEVROS SYSTEM INFECTION and Inflammation.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+        "source_paragraph_index": 27,
+        "generated_from_glossary_term_id": "Term_yang"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_04_03",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_04",
+      "question": "Berdasarkan modul 'CENTRAL NEVROS SYSTEM INFECTION and Inflammation', pernyataan mana yang paling tepat dengan istilah atau topik 'cara yaitu '?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi CENTRAL NEVROS SYSTEM INFECTION and Inflammation; konteks sumber: Proses Inflamasi meningeal (70-80% kasus).",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: CENTRAL NEVROS SYSTEM INFECTION and Inflammation.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "CENTRAL NEVROS SYSTEM INFECTION   and Inflammation.docx",
+        "source_paragraph_index": 140,
+        "generated_from_glossary_term_id": "Term_cara_yaitu"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_05_01",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_05",
+      "question": "Berdasarkan modul 'CEREBRAL INFARK', pernyataan mana yang paling tepat dengan istilah atau topik 'Infark'?",
+      "options": [
+        "Infark merupakan hasil dari defisit sirkulasi karena adanya trombosis atau emboli cerebral, bermanifestasi sebagai stroke.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: CEREBRAL INFARK.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "CEREBRAL INFARK.docx",
+        "source_paragraph_index": 7,
+        "generated_from_glossary_term_id": "Term_infark"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_05_02",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_05",
+      "question": "Berdasarkan modul 'CEREBRAL INFARK', pernyataan mana yang paling tepat dengan istilah atau topik 'CT scan: Lesi Hyperdens'?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi CEREBRAL INFARK; konteks sumber: MRI: Lesi hyper intens dengan edema peri lesi (T2).",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: CEREBRAL INFARK.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "CEREBRAL INFARK.docx",
+        "source_paragraph_index": 47,
+        "generated_from_glossary_term_id": "Term_ct_scan_lesi_hyperdens"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_06_01",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_06",
+      "question": "Berdasarkan modul 'KULIAH BANGKITAN koas', pernyataan mana yang paling tepat dengan istilah atau topik 'Bangkitan refleks'?",
+      "options": [
+        "Bangkitan refleks adalah bangkitan yang muncul akibat oleh faktor pencetus sppesifik seperti stimulasi visual, auditorik, somatosensitif dan somatomotor.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: KULIAH BANGKITAN koas.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "KULIAH BANGKITAN koas.docx",
+        "source_paragraph_index": 73,
+        "generated_from_glossary_term_id": "Term_bangkitan_refleks"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_06_02",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_06",
+      "question": "Berdasarkan modul 'KULIAH BANGKITAN koas', pernyataan mana yang paling tepat dengan istilah atau topik 'BANGKITAN EPILEPSI (epileptic seizure)'?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi KULIAH BANGKITAN koas; konteks sumber: : terjadinya tanda/gejala yang bersifat sesaat akibat aktivitas neuronal yang abnormal dan berlebihan di otak.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: KULIAH BANGKITAN koas.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "KULIAH BANGKITAN koas.docx",
+        "source_paragraph_index": 38,
+        "generated_from_glossary_term_id": "Term_bangkitan_epilepsi_epileptic_seizure"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_06_03",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_06",
+      "question": "Berdasarkan modul 'KULIAH BANGKITAN koas', pernyataan mana yang paling tepat dengan istilah atau topik 'BANGKITAN EPILEPTIK'?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi KULIAH BANGKITAN koas; konteks sumber: BANGKITAN EPILEPSI (epileptic seizure).",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: KULIAH BANGKITAN koas.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "KULIAH BANGKITAN koas.docx",
+        "source_paragraph_index": 5,
+        "generated_from_glossary_term_id": "Term_bangkitan_epileptik"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_07_01",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_07",
+      "question": "Berdasarkan modul 'Kuliah PA Neurologi', pernyataan mana yang paling tepat dengan istilah atau topik 'Astrositoma'?",
+      "options": [
+        "Astrositoma merupakan tumor otak yang berasal dari sel astrosit.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: Kuliah PA Neurologi.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "Kuliah PA Neurologi.docx",
+        "source_paragraph_index": 139,
+        "generated_from_glossary_term_id": "Term_astrositoma"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_07_02",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_07",
+      "question": "Berdasarkan modul 'Kuliah PA Neurologi', pernyataan mana yang paling tepat dengan istilah atau topik 'derajat WHO'?",
+      "options": [
+        "Derajat WHO merupakan prediktor morfologi yang paling berguna untuk rekurensi.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: Kuliah PA Neurologi.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "Kuliah PA Neurologi.docx",
+        "source_paragraph_index": 306,
+        "generated_from_glossary_term_id": "Term_derajat_who"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_07_03",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_07",
+      "question": "Berdasarkan modul 'Kuliah PA Neurologi', pernyataan mana yang paling tepat dengan istilah atau topik 'Ependimoma'?",
+      "options": [
+        "Ependimoma merupakan tumor yang berasal dari sel ependim.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: Kuliah PA Neurologi.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "Kuliah PA Neurologi.docx",
+        "source_paragraph_index": 214,
+        "generated_from_glossary_term_id": "Term_ependimoma"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_08_01",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_08",
+      "question": "Berdasarkan modul 'MIKROORGANISME PENYEBAB INFEKSI', pernyataan mana yang paling tepat dengan istilah atau topik '1/3 kasus'?",
+      "options": [
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:",
+        "> 50% tumor otak adalah glioma spt: Astrocytoma, GBM, oligodendroglioma dan ependymoma."
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: MIKROORGANISME PENYEBAB INFEKSI.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "source_paragraph_index": 294,
+        "generated_from_glossary_term_id": "Term_1_3_kasus"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_08_02",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_08",
+      "question": "Berdasarkan modul 'MIKROORGANISME PENYEBAB INFEKSI', pernyataan mana yang paling tepat dengan istilah atau topik '2/3 kasus'?",
+      "options": [
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:",
+        "> 50% tumor otak adalah glioma spt: Astrocytoma, GBM, oligodendroglioma dan ependymoma."
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: MIKROORGANISME PENYEBAB INFEKSI.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "source_paragraph_index": 295,
+        "generated_from_glossary_term_id": "Term_2_3_kasus"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_08_03",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_08",
+      "question": "Berdasarkan modul 'MIKROORGANISME PENYEBAB INFEKSI', pernyataan mana yang paling tepat dengan istilah atau topik '40% populasi'?",
+      "options": [
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "> 50% tumor otak adalah glioma spt: Astrocytoma, GBM, oligodendroglioma dan ependymoma."
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: MIKROORGANISME PENYEBAB INFEKSI.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "MIKROORGANISME PENYEBAB INFEKSI.docx",
+        "source_paragraph_index": 135,
+        "generated_from_glossary_term_id": "Term_40_populasi"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_09_01",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_09",
+      "question": "Berdasarkan modul 'Manajemen Pensa dan Koma - Koass', pernyataan mana yang paling tepat dengan istilah atau topik 'dan Pembagian 2.Etiologi Patofisiologi 3.Diagnostik'?",
+      "options": [
+        "4.Tatalaksana di IGD",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: Manajemen Pensa dan Koma - Koass.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+        "source_paragraph_index": 20,
+        "generated_from_glossary_term_id": "Term_dan_pembagian_2_etiologi_patofisiologi_3_diagnostik"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_09_02",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_09",
+      "question": "Berdasarkan modul 'Manajemen Pensa dan Koma - Koass', pernyataan mana yang paling tepat dengan istilah atau topik 'Kesadaran'?",
+      "options": [
+        "Kesadaran adalah: kondisi waspada dengan kesiagaan terus.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: Manajemen Pensa dan Koma - Koass.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+        "source_paragraph_index": 64,
+        "generated_from_glossary_term_id": "Term_kesadaran"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_09_03",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_09",
+      "question": "Berdasarkan modul 'Manajemen Pensa dan Koma - Koass', pernyataan mana yang paling tepat dengan istilah atau topik 'ARAS (Ascending reticular activating system)'?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi Manajemen Pensa dan Koma - Koass; konteks sumber: Merupakan suatu rangkaian atau network sistem dari serabut- serabut aferen dalam formatio retikularis (dari kaudal berasal dari medu.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: Manajemen Pensa dan Koma - Koass.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "Manajemen Pensa dan Koma - Koass.docx",
+        "source_paragraph_index": 137,
+        "generated_from_glossary_term_id": "Term_aras_ascending_reticular_activating_system"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_10_01",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_10",
+      "question": "Berdasarkan modul 'NYERI kepala 2', pernyataan mana yang paling tepat dengan istilah atau topik 'bangunan-bangunan intrakranial'?",
+      "options": [
+        "Bangunan-bangunan intrakranial adalah nyeri, kecuali sensasi yang dihasilkan oleh stimulasi pada parenkhim otak dan saraf.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: NYERI kepala 2.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "source_paragraph_index": 213,
+        "generated_from_glossary_term_id": "Term_bangunan_bangunan_intrakranial"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_10_02",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_10",
+      "question": "Berdasarkan modul 'NYERI kepala 2', pernyataan mana yang paling tepat dengan istilah atau topik 'gejala klinis utama'?",
+      "options": [
+        "Gejala klinis utama adalah nyeri kepala.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: NYERI kepala 2.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "source_paragraph_index": 239,
+        "generated_from_glossary_term_id": "Term_gejala_klinis_utama"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_10_03",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_10",
+      "question": "Berdasarkan modul 'NYERI kepala 2', pernyataan mana yang paling tepat dengan istilah atau topik 'mempunyai prognosis yang jelek.  kewajiban seorang dokter'?",
+      "options": [
+        "Mempunyai prognosis yang jelek.  kewajiban seorang dokter adalah mengenal keadaan peninggian tekanan intrakranial sebelum adanya tanda herniasi tentorial.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: NYERI kepala 2.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "NYERI kepala 2.docx",
+        "source_paragraph_index": 576,
+        "generated_from_glossary_term_id": "Term_mempunyai_prognosis_yang_jelek_kewajiban_seorang_dokter"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_11_01",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_11",
+      "question": "Berdasarkan modul 'Neuropaty Materi Ngajar Mei 2025 (1)', pernyataan mana yang paling tepat dengan istilah atau topik 'Reflek: reflek tendon achilles menurun'?",
+      "options": [
+        "Reflek: reflek tendon achilles menurun Merupakan neuropati yang paling banyak.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: Neuropaty Materi Ngajar Mei 2025 (1).docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+        "source_paragraph_index": 367,
+        "generated_from_glossary_term_id": "Term_reflek_reflek_tendon_achilles_menurun"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_11_02",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_11",
+      "question": "Berdasarkan modul 'Neuropaty Materi Ngajar Mei 2025 (1)', pernyataan mana yang paling tepat dengan istilah atau topik ' -Pronasi Tangan '?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: LAeBnDga+nEbxwt.hRo: tasFilex +.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: Neuropaty Materi Ngajar Mei 2025 (1).docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+        "source_paragraph_index": 1017,
+        "generated_from_glossary_term_id": "Term_pronasi_tangan"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_11_03",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_11",
+      "question": "Berdasarkan modul 'Neuropaty Materi Ngajar Mei 2025 (1)', pernyataan mana yang paling tepat dengan istilah atau topik ' Klinis gejala & tanda dan managemen '?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi Neuropaty Materi Ngajar Mei 2025 (1); konteks sumber: Lesi Motor Neuron: ALS.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: Neuropaty Materi Ngajar Mei 2025 (1).docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "Neuropaty Materi Ngajar Mei 2025 (1).docx",
+        "source_paragraph_index": 21,
+        "generated_from_glossary_term_id": "Term_klinis_gejala_tanda_dan_managemen"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_12_01",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_12",
+      "question": "Berdasarkan modul 'PPT Diagnosing Vertigo and Dizziness', pernyataan mana yang paling tepat dengan istilah atau topik 'Vertigo'?",
+      "options": [
+        "Vertigo adalah perasaan penderita merasa dirinya atau dunia berputar.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: PPT Diagnosing Vertigo and Dizziness.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "source_paragraph_index": 50,
+        "generated_from_glossary_term_id": "Term_vertigo"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_12_02",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_12",
+      "question": "Berdasarkan modul 'PPT Diagnosing Vertigo and Dizziness', pernyataan mana yang paling tepat dengan istilah atau topik 'ACTH'?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi PPT Diagnosing Vertigo and Dizziness; konteks sumber: Multiple Physiological Responses/Pathology.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: PPT Diagnosing Vertigo and Dizziness.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "source_paragraph_index": 306,
+        "generated_from_glossary_term_id": "Term_acth"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_12_03",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_12",
+      "question": "Berdasarkan modul 'PPT Diagnosing Vertigo and Dizziness', pernyataan mana yang paling tepat dengan istilah atau topik 'ACTH: Adreno Corticotropic Hormon'?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi PPT Diagnosing Vertigo and Dizziness; konteks sumber: ADR. Cortex: Adrenal Cortex.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: PPT Diagnosing Vertigo and Dizziness.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "PPT Diagnosing Vertigo and Dizziness.docx",
+        "source_paragraph_index": 339,
+        "generated_from_glossary_term_id": "Term_acth_adreno_corticotropic_hormon"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_13_01",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_13",
+      "question": "Berdasarkan modul 'PPT Gangguan Keseimbangan', pernyataan mana yang paling tepat dengan istilah atau topik 'Serebellum'?",
+      "options": [
+        "Serebellum merupakan pusat integrasi kedua juga pusat komparasi informasi yang sedang berlangsung dengan informasi gerakan yang sudah lewat.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: PPT Gangguan Keseimbangan.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "source_paragraph_index": 163,
+        "generated_from_glossary_term_id": "Term_serebellum"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_13_02",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_13",
+      "question": "Berdasarkan modul 'PPT Gangguan Keseimbangan', pernyataan mana yang paling tepat dengan istilah atau topik '3 Kanalis Semisirkularis '?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi PPT Gangguan Keseimbangan; konteks sumber: Makula Utrikulus/Sakulus ฀ gerak lurus/linier.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: PPT Gangguan Keseimbangan.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "source_paragraph_index": 30,
+        "generated_from_glossary_term_id": "Term_3_kanalis_semisirkularis"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_13_03",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_13",
+      "question": "Berdasarkan modul 'PPT Gangguan Keseimbangan', pernyataan mana yang paling tepat dengan istilah atau topik 'ANATOMI & FISIOLOGI KESEIMBANGAN'?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi PPT Gangguan Keseimbangan; konteks sumber: ORGAN STATUS: LABIRIN VESTIBULER.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: PPT Gangguan Keseimbangan.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "PPT Gangguan Keseimbangan.docx",
+        "source_paragraph_index": 23,
+        "generated_from_glossary_term_id": "Term_anatomi_fisiologi_keseimbangan"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_14_01",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_14",
+      "question": "Berdasarkan modul 'Parkinson Disease (Aspek Klinis)', pernyataan mana yang paling tepat dengan istilah atau topik 'Gejala klinis Penyakit Parkinson'?",
+      "options": [
+        "Gejala klinis Penyakit Parkinson ditandai dengan TRAP (Tremor, Rigiditas, Akinesia, Ketidakstabilan postur).",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: Parkinson Disease (Aspek Klinis).docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "source_paragraph_index": 499,
+        "generated_from_glossary_term_id": "Term_gejala_klinis_penyakit_parkinson"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_14_02",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_14",
+      "question": "Berdasarkan modul 'Parkinson Disease (Aspek Klinis)', pernyataan mana yang paling tepat dengan istilah atau topik 'Masih tetap'?",
+      "options": [
+        "Masih tetap merupakan pilihan utama.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: Parkinson Disease (Aspek Klinis).docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "source_paragraph_index": 466,
+        "generated_from_glossary_term_id": "Term_masih_tetap"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_14_03",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_14",
+      "question": "Berdasarkan modul 'Parkinson Disease (Aspek Klinis)', pernyataan mana yang paling tepat dengan istilah atau topik 'Pilihan obat'?",
+      "options": [
+        "Pilihan obat adalah berdasarkan stadium, munculan klinis, usia, profil efek samping obat.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: Parkinson Disease (Aspek Klinis).docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "Parkinson Disease (Aspek Klinis).docx",
+        "source_paragraph_index": 467,
+        "generated_from_glossary_term_id": "Term_pilihan_obat"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_15_01",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_15",
+      "question": "Berdasarkan modul 'Patofisiologi stroke gizi', pernyataan mana yang paling tepat dengan istilah atau topik '(preventif)'?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi Patofisiologi stroke gizi; konteks sumber: Patofisiologi: Stroke Ischemic.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: Patofisiologi stroke_gizi.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "source_paragraph_index": 105,
+        "generated_from_glossary_term_id": "Term_preventif"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_15_02",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_15",
+      "question": "Berdasarkan modul 'Patofisiologi stroke gizi', pernyataan mana yang paling tepat dengan istilah atau topik 'Completed stroke'?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi Patofisiologi stroke gizi; konteks sumber: Berdasarkan sistem pembuluh darah.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: Patofisiologi stroke_gizi.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "source_paragraph_index": 71,
+        "generated_from_glossary_term_id": "Term_completed_stroke"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_15_03",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_15",
+      "question": "Berdasarkan modul 'Patofisiologi stroke gizi', pernyataan mana yang paling tepat dengan istilah atau topik 'CT Scan Kepala Stroke Hemoragik'?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi Patofisiologi stroke gizi; konteks sumber: akut terletak pada jaringan otak (hematom Intra serebral) akan tampak sebagai lesi hiperdens oval atau bulat.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: Patofisiologi stroke_gizi.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "source_paragraph_index": 174,
+        "generated_from_glossary_term_id": "Term_ct_scan_kepala_stroke_hemoragik"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_17_01",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_17",
+      "question": "Berdasarkan modul 'Radiologi Tumor Cerebri', pernyataan mana yang paling tepat dengan istilah atau topik '20%ꢀtumorꢀprimerꢀotakꢀ'?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi Radiologi Tumor Cerebri; konteks sumber: Jinakꢀꢀberbatasꢀtegasꢀ,ꢀberasalꢀdariꢀlapisanꢀ.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: Radiologi Tumor Cerebri.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "source_paragraph_index": 41,
+        "generated_from_glossary_term_id": "Term_20_tumor_primer_otak"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_17_02",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_17",
+      "question": "Berdasarkan modul 'Radiologi Tumor Cerebri', pernyataan mana yang paling tepat dengan istilah atau topik '>ꢀ50%ꢀtumorꢀotakꢀadalahꢀgliomaꢀꢀsptꢀ: ꢀꢀAstrocytomaꢀ,ꢀ'?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi Radiologi Tumor Cerebri; konteks sumber: GBMꢀ,ꢀoligodendrogliomaꢀꢀdanꢀependymomaꢀ.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: Radiologi Tumor Cerebri.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "source_paragraph_index": 29,
+        "generated_from_glossary_term_id": "Term_50_tumor_otak_adalah_glioma_spt_astrocytoma"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_17_03",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_17",
+      "question": "Berdasarkan modul 'Radiologi Tumor Cerebri', pernyataan mana yang paling tepat dengan istilah atau topik 'Alzheimerꢀdiseaseꢀ'?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi Radiologi Tumor Cerebri; konteks sumber: Biasanyaꢀꢀatrophyꢀdiffuseꢀꢀdenganꢀsparingꢀ.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: Radiologi Tumor Cerebri.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "Radiologi Tumor Cerebri.docx",
+        "source_paragraph_index": 128,
+        "generated_from_glossary_term_id": "Term_alzheimer_disease"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_18_01",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_18",
+      "question": "Berdasarkan modul 'STATUS EPILEPTIKUS koas', pernyataan mana yang paling tepat dengan istilah atau topik 'AIM '?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi STATUS EPILEPTIKUS koas; konteks sumber: 1. memahami definisi SE.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: STATUS EPILEPTIKUS koas.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "STATUS EPILEPTIKUS koas.docx",
+        "source_paragraph_index": 56,
+        "generated_from_glossary_term_id": "Term_aim"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_18_02",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_18",
+      "question": "Berdasarkan modul 'STATUS EPILEPTIKUS koas', pernyataan mana yang paling tepat dengan istilah atau topik 'dapat melakukan tatalaksana SE'?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi STATUS EPILEPTIKUS koas; konteks sumber: 4. menentukan prognosis SE.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: STATUS EPILEPTIKUS koas.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "STATUS EPILEPTIKUS koas.docx",
+        "source_paragraph_index": 59,
+        "generated_from_glossary_term_id": "Term_dapat_melakukan_tatalaksana_se"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_18_03",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_18",
+      "question": "Berdasarkan modul 'STATUS EPILEPTIKUS koas', pernyataan mana yang paling tepat dengan istilah atau topik 'dapat mendiagnosis SE'?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi STATUS EPILEPTIKUS koas; konteks sumber: 3. dapat melakukan tatalaksana SE.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: STATUS EPILEPTIKUS koas.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "STATUS EPILEPTIKUS koas.docx",
+        "source_paragraph_index": 58,
+        "generated_from_glossary_term_id": "Term_dapat_mendiagnosis_se"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_19_01",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_19",
+      "question": "Berdasarkan modul 'TUMOR SSP KULIAH', pernyataan mana yang paling tepat dengan istilah atau topik 'Lokasi ◻ sella tursica yang'?",
+      "options": [
+        "Lokasi ◻ sella tursica yang merupakan bagian dari os sphenoid, dibungkus oleh lipatan dura dan berhubungan dengan hipotalamus melalui infundibulum / tangkai pituitari.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: TUMOR SSP KULIAH.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "TUMOR SSP KULIAH.docx",
+        "source_paragraph_index": 455,
+        "generated_from_glossary_term_id": "Term_lokasi_sella_tursica_yang"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_19_02",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_19",
+      "question": "Berdasarkan modul 'TUMOR SSP KULIAH', pernyataan mana yang paling tepat dengan istilah atau topik 'Tujuannya'?",
+      "options": [
+        "Tujuannya adalah dekompresi, mere duksi efek massa, penyelamatan jiwa.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: TUMOR SSP KULIAH.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "TUMOR SSP KULIAH.docx",
+        "source_paragraph_index": 709,
+        "generated_from_glossary_term_id": "Term_tujuannya"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_19_03",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_19",
+      "question": "Berdasarkan modul 'TUMOR SSP KULIAH', pernyataan mana yang paling tepat dengan istilah atau topik 'Tumor otak'?",
+      "options": [
+        "Tumor otak adalah pertumbuhan jinak atau ganas dari jaringan otak/ selaputnya, yang menyebabkan proses desak ruang, dan menyebabkan perubahan patologis.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: TUMOR SSP KULIAH.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "TUMOR SSP KULIAH.docx",
+        "source_paragraph_index": 23,
+        "generated_from_glossary_term_id": "Term_tumor_otak"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_20_01",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_20",
+      "question": "Berdasarkan modul 'Trauma Sistim Saraf', pernyataan mana yang paling tepat dengan istilah atau topik 'Derajat kesadaran berdasarkan Skala Koma Glasgow'?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi Trauma Sistim Saraf; konteks sumber: Mekanisme trauma kepala.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: Trauma Sistim Saraf.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "Trauma Sistim Saraf.docx",
+        "source_paragraph_index": 52,
+        "generated_from_glossary_term_id": "Term_derajat_kesadaran_berdasarkan_skala_koma_glasgow"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_21_01",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_21",
+      "question": "Berdasarkan modul 'Tumor Cerebri', pernyataan mana yang paling tepat dengan istilah atau topik '> 50% tumor otak'?",
+      "options": [
+        "> 50% tumor otak adalah glioma spt: Astrocytoma, GBM, oligodendroglioma dan ependymoma.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: Tumor Cerebri.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "source_paragraph_index": 36,
+        "generated_from_glossary_term_id": "Term_50_tumor_otak"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_21_02",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_21",
+      "question": "Berdasarkan modul 'Tumor Cerebri', pernyataan mana yang paling tepat dengan istilah atau topik 'Acoustic Neuronoma'?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi Tumor Cerebri; konteks sumber: Berasal dari canalis auditory interna yang dapat menyebabkan pelebaran dan erosi dari canal tersebut.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: Tumor Cerebri.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "source_paragraph_index": 80,
+        "generated_from_glossary_term_id": "Term_acoustic_neuronoma"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_21_03",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_21",
+      "question": "Berdasarkan modul 'Tumor Cerebri', pernyataan mana yang paling tepat dengan istilah atau topik 'Bronchus tumor, payudara dan gastrointersinal'?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi Tumor Cerebri; konteks sumber: Dapat berupa kistik, kalsifikasi, perdarahan atau lesi cavitas dengan edema disekitarnya.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: Tumor Cerebri.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "Tumor Cerebri.docx",
+        "source_paragraph_index": 144,
+        "generated_from_glossary_term_id": "Term_bronchus_tumor_payudara_dan_gastrointersinal"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_22_01",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_22",
+      "question": "Berdasarkan modul 'dr.Patrick - neurorehab', pernyataan mana yang paling tepat dengan istilah atau topik 'Gerak yang dilakukan'?",
+      "options": [
+        "Gerak yang dilakukan adalah gerak fungsional bertujuan.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: dr.Patrick - neurorehab.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "dr.Patrick - neurorehab.docx",
+        "source_paragraph_index": 1223,
+        "generated_from_glossary_term_id": "Term_gerak_yang_dilakukan"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_22_02",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_22",
+      "question": "Berdasarkan modul 'dr.Patrick - neurorehab', pernyataan mana yang paling tepat dengan istilah atau topik '(Hyperactive tendon reﬂexes and'?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: exaggerated response to minimal stimuli.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: dr.Patrick - neurorehab.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "dr.Patrick - neurorehab.docx",
+        "source_paragraph_index": 605,
+        "generated_from_glossary_term_id": "Term_hyperactive_tendon_re_exes_and"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_22_03",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_22",
+      "question": "Berdasarkan modul 'dr.Patrick - neurorehab', pernyataan mana yang paling tepat dengan istilah atau topik '(Rehabilitasi Berbasis Masyarakat'?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi dr.Patrick - neurorehab; konteks sumber: rehabilitation are available.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: dr.Patrick - neurorehab.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "dr.Patrick - neurorehab.docx",
+        "source_paragraph_index": 182,
+        "generated_from_glossary_term_id": "Term_rehabilitasi_berbasis_masyarakat"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_23_01",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_23",
+      "question": "Berdasarkan modul 'neuroanatomi 2023', pernyataan mana yang paling tepat dengan istilah atau topik 'Kedua hemisfer'?",
+      "options": [
+        " Kedua hemisfer merupakan bagian terbesar otak.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: neuroanatomi 2023.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "source_paragraph_index": 133,
+        "generated_from_glossary_term_id": "Term_kedua_hemisfer"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_23_02",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_23",
+      "question": "Berdasarkan modul 'neuroanatomi 2023', pernyataan mana yang paling tepat dengan istilah atau topik '(DIENCEPHALON)'?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi neuroanatomi 2023; konteks sumber:  The major sub division of the dienchepalon are the thalamus and.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: neuroanatomi 2023.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "source_paragraph_index": 158,
+        "generated_from_glossary_term_id": "Term_diencephalon"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_23_03",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_23",
+      "question": "Berdasarkan modul 'neuroanatomi 2023', pernyataan mana yang paling tepat dengan istilah atau topik '3 FUNGSI SISTEM SARAF'?",
+      "options": [
+        "Istilah/topik ini muncul dalam materi neuroanatomi 2023; konteks sumber: Membantu mengetahui perubahan-perubahan yang terjadi di sekitar untuk disampaikan ke alat indera. Pada alat indera terdapat saraf sensorik yang bef.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: neuroanatomi 2023.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "medium",
+      "provenance": {
+        "source_document": "neuroanatomi 2023.docx",
+        "source_paragraph_index": 35,
+        "generated_from_glossary_term_id": "Term_3_fungsi_sistem_saraf"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_24_01",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_24",
+      "question": "Berdasarkan modul 'stroke-dr.Erni Z, SpRad', pernyataan mana yang paling tepat dengan istilah atau topik 'Hipertensi'?",
+      "options": [
+        "Hipertensi merupakan faktor resiko terpenting untuk terjadinya stroke.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: stroke-dr.Erni Z, SpRad.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx",
+        "source_paragraph_index": 17,
+        "generated_from_glossary_term_id": "Term_hipertensi"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_24_02",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_24",
+      "question": "Berdasarkan modul 'stroke-dr.Erni Z, SpRad', pernyataan mana yang paling tepat dengan istilah atau topik 'Hypertensi'?",
+      "options": [
+        "Hypertensi merupakan faktor resiko tertinggi.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: stroke-dr.Erni Z, SpRad.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx",
+        "source_paragraph_index": 180,
+        "generated_from_glossary_term_id": "Term_hypertensi"
+      }
+    },
+    {
+      "id": "quiz_batch_1_6e_24_03",
+      "domain": "neurology",
+      "linked_content_id": "batch_1_6e_24",
+      "question": "Berdasarkan modul 'stroke-dr.Erni Z, SpRad', pernyataan mana yang paling tepat dengan istilah atau topik 'Stroke'?",
+      "options": [
+        "Stroke adalah suatu keadaan darurat yang dapat menyebabkan kerusakan saraf yang permanen, komplikasi dan bahkan kematian.",
+        "1/3 kasus merupakan infeksi primer HSV-1 (usia 18-23thn).",
+        "2/3 kasus merupakan kasus sekunder (seropositive, usia > 50 thn).",
+        "10-40% populasi adalah carrier pneumokokus asimtomatik pd nasofaring Resiko infeksi meningkat pada:"
+      ],
+      "answer_index": 0,
+      "explanation": "Jawaban diambil dari konteks sumber dokumen: stroke-dr.Erni Z, SpRad.docx. Item ini adalah kandidat kuis hasil ekstraksi, bukan butir ujian asli.",
+      "difficulty": "Basic",
+      "confidence": "high",
+      "provenance": {
+        "source_document": "stroke-dr.Erni Z, SpRad.docx",
+        "source_paragraph_index": 6,
+        "generated_from_glossary_term_id": "Term_stroke"
+      }
+    }
+  ],
+  "batch_id": "batch_1_6E",
+  "domain": "neurology",
+  "generation_notes": "Quiz items are generated candidates from extracted glossary/context, not authentic original exam items."
+}

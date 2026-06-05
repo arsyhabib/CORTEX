@@ -1,0 +1,1697 @@
+{
+  "terms": [
+    {
+      "id": "term_ada_gejala_atau_kondisi_medis",
+      "term": "Ada gejala atau kondisi medis.",
+      "domain": "psychiatry_6f",
+      "definition": "Ada gejala atau kondisi medis (selain gangguan mental).",
+      "related_content_ids": [
+        "Batch_2_6f_11"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Gangguan Somatoform (1).docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_adalah_psikogenik",
+      "term": "Adalah psikogenik",
+      "domain": "psychiatry_6f",
+      "definition": "Adalah psikogenik yaitu somnambulisme,.",
+      "related_content_ids": [
+        "Batch_2_6f_07"
+      ],
+      "source_file": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_amnesia_lakunar",
+      "term": "Amnesia Lakunar",
+      "domain": "psychiatry_6f",
+      "definition": "Amnesia Lakunar (tidak bisa mengingat suatu kejadian tertentu).",
+      "related_content_ids": [
+        "Batch_2_6f_10"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_amnesia_pasca_trauma",
+      "term": "Amnesia pasca trauma",
+      "domain": "psychiatry_6f",
+      "definition": "Amnesia pasca trauma merupakan.",
+      "related_content_ids": [
+        "Batch_2_6f_10"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_amnesia_pasca_trauma_post_traumatic_amnesia_pta",
+      "term": "Amnesia Pasca Trauma (Post-Traumatic Amnesia/PTA).",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Amnesia Pasca Trauma (Post-Traumatic Amnesia/PTA). Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_10"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_angka_kejadian_penyalahgunaan_obat",
+      "term": "Angka kejadian penyalahgunaan obat.",
+      "domain": "psychiatry_6f",
+      "definition": "Angka kejadian penyalahgunaan obat:",
+      "related_content_ids": [
+        "Batch_2_6f_06"
+      ],
+      "source_file": "Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_anxiety",
+      "term": "Anxiety",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Gangguan Ansietas & Penatalaksanaannya. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_01",
+        "Batch_2_6f_03"
+      ],
+      "source_file": "09 dr.Susi - 1. GAM.docx",
+      "source_files": [
+        "09 dr.Susi - 4. Fobia.docx."
+      ],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_apakah_pasien_banyak_mengeluhkan_masalah_fisik",
+      "term": "Apakah pasien banyak mengeluhkan masalah fisik.",
+      "domain": "psychiatry_6f",
+      "definition": "Apakah pasien banyak mengeluhkan masalah fisik (lebih dari tiga) yang tidak cocok dengan pola penyakit apapun.",
+      "related_content_ids": [
+        "Batch_2_6f_13"
+      ],
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_batasan_ruang_gerak",
+      "term": "Batasan ruang gerak",
+      "domain": "psychiatry_6f",
+      "definition": "Batasan ruang gerak (kamar isolasi).",
+      "related_content_ids": [
+        "Batch_2_6f_12"
+      ],
+      "source_file": "legal-etik-jiwa.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_berasal_dari_tanaman_kanabis",
+      "term": "Berasal dari tanaman kanabis.",
+      "domain": "psychiatry_6f",
+      "definition": "Berasal dari tanaman kanabis: suatu tanaman yang mengandung zat psikoaktif delta-9-tetra- hidro-kanabinol (THC).",
+      "related_content_ids": [
+        "Batch_2_6f_06"
+      ],
+      "source_file": "Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_berdasarkan_ppdgj_iii",
+      "term": "Berdasarkan PPDGJ III",
+      "domain": "psychiatry_6f",
+      "definition": "Berdasarkan PPDGJ III:",
+      "related_content_ids": [
+        "Batch_2_6f_11"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Gangguan Somatoform (1).docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_berdasarkan_sifatnya_fobia_dibagi_3_yaitu",
+      "term": "Berdasarkan sifatnya fobia dibagi 3 yaitu.",
+      "domain": "psychiatry_6f",
+      "definition": "Berdasarkan sifatnya fobia dibagi 3 yaitu: | .",
+      "related_content_ids": [
+        "Batch_2_6f_03"
+      ],
+      "source_file": "09 dr.Susi - 4. Fobia.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_bisa_dilakukan_dalam_tiga_kategori",
+      "term": "Bisa dilakukan dalam tiga kategori.",
+      "domain": "neuro_otology_6f",
+      "definition": "Bisa dilakukan dalam tiga kategori yaitu observasi/konservatif, radioterapi/stereotatic radiosurgery dan bedah mikro.",
+      "related_content_ids": [
+        "Batch_2_6f_04"
+      ],
+      "source_file": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_body_dysmorphic_disorder",
+      "term": "Body Dysmorphic Disorder",
+      "domain": "psychiatry_6f",
+      "definition": "Body Dysmorphic Disorder (BDD).",
+      "related_content_ids": [
+        "Batch_2_6f_11"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Gangguan Somatoform (1).docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_buskaingminerjuapiakan_penyakit_tersendiri_tetapi",
+      "term": "BuSkaingminerjuapiakan penyakit tersendiri, tetapi.",
+      "domain": "neuro_otology_6f",
+      "definition": "BuSkaingminerjuapiakan penyakit tersendiri, tetapi merupakan gejala dari etiologi lain yang.",
+      "related_content_ids": [
+        "Batch_2_6f_04"
+      ],
+      "source_file": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_cognitive_disorder",
+      "term": "Cognitive disorder",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Amnesia Pasca Trauma (Post-Traumatic Amnesia/PTA). Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_10"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_contoh_brief_somatic_symptom_disorder",
+      "term": "Contoh - Brief Somatic Symptom Disorder.",
+      "domain": "psychiatry_6f",
+      "definition": "Contoh - Brief Somatic Symptom Disorder (durasi <6bulan).",
+      "related_content_ids": [
+        "Batch_2_6f_11"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Gangguan Somatoform (1).docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_dapat_digunakan_pertanyaan_pertanyaan_seperti",
+      "term": "Dapat digunakan pertanyaan-pertanyaan, seperti.",
+      "domain": "psychiatry_6f",
+      "definition": "Dapat digunakan pertanyaan-pertanyaan, seperti:",
+      "related_content_ids": [
+        "Batch_2_6f_13"
+      ],
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_definisi_psikoterapi",
+      "term": "Definisi Psikoterapi",
+      "domain": "psychiatry_6f",
+      "definition": "Definisi Psikoterapi (Norcross, 1990).",
+      "related_content_ids": [
+        "Batch_2_6f_05"
+      ],
+      "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_delirium",
+      "term": "Delirium",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Delirium. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_09"
+      ],
+      "source_file": "delerium FKIK UNJA (1).docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_diagnosis_multiaksial_terdiri_dari_5_aksis",
+      "term": "Diagnosis multiaksial terdiri dari 5 aksis.",
+      "domain": "psychiatry_6f",
+      "definition": "Diagnosis multiaksial terdiri dari 5 aksis:",
+      "related_content_ids": [
+        "Batch_2_6f_13"
+      ],
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_dikombinasikan_dengan_beberapa_pertanyaan_tertutup",
+      "term": "Dikombinasikan dengan beberapa pertanyaan tertutup.",
+      "domain": "psychiatry_6f",
+      "definition": "Dikombinasikan dengan beberapa pertanyaan tertutup (close-ended questions) untuk menelusuri kata kunci atau menanyakan hal yang spesifik, detil-detil yang dibutuhkan untuk diagnosis.",
+      "related_content_ids": [
+        "Batch_2_6f_13"
+      ],
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_disorientasi_tu",
+      "term": "Disorientasi (tu",
+      "domain": "psychiatry_6f",
+      "definition": "Disorientasi (tu: waktu)",
+      "related_content_ids": [
+        "Batch_2_6f_09"
+      ],
+      "source_file": "delerium FKIK UNJA (1).docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_distorsi_persepsi_ilusi_halusinasi_tu",
+      "term": "Distorsi persepsi, ilusi, halusinasi (tu.",
+      "domain": "psychiatry_6f",
+      "definition": "Distorsi persepsi, ilusi, halusinasi (tu: visual).",
+      "related_content_ids": [
+        "Batch_2_6f_09"
+      ],
+      "source_file": "delerium FKIK UNJA (1).docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_dosis_besar",
+      "term": "Dosis besar",
+      "domain": "psychiatry_6f",
+      "definition": "Dosis besar: menginduksi tidur.",
+      "related_content_ids": [
+        "Batch_2_6f_06"
+      ],
+      "source_file": "Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_dosis_kecil",
+      "term": "Dosis kecil",
+      "domain": "psychiatry_6f",
+      "definition": "Dosis kecil: mengatasi ansietas.",
+      "related_content_ids": [
+        "Batch_2_6f_06"
+      ],
+      "source_file": "Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_e_ada_dua_tipe_utama",
+      "term": "E Ada dua tipe utama.",
+      "domain": "psychiatry_6f",
+      "definition": "E Ada dua tipe utama yaitu anorexia nervosa dan.",
+      "related_content_ids": [
+        "Batch_2_6f_08"
+      ],
+      "source_file": "anoreksia dan bulimia.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_eating_disorder",
+      "term": "Eating disorder",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Gangguan Makan: Anoreksia Nervosa dan Bulimia. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_08"
+      ],
+      "source_file": "anoreksia dan bulimia.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_ect_juga",
+      "term": "ECT juga",
+      "domain": "psychiatry_6f",
+      "definition": "ECT juga merupakan terapi pilihan untuk:",
+      "related_content_ids": [
+        "Batch_2_6f_05"
+      ],
+      "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_electroconvulsive_therapy_ect_psikoterapi",
+      "term": "Electroconvulsive Therapy (ECT) & Psikoterapi.",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Electroconvulsive Therapy (ECT) & Psikoterapi. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_05"
+      ],
+      "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_ethics",
+      "term": "Ethics",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Isu Etik dan Legal dalam Kesehatan Jiwa. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_12"
+      ],
+      "source_file": "legal-etik-jiwa.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_fase_tonik_lalu_diikuti_kontraksi_ritmik",
+      "term": "Fase tonik lalu diikuti kontraksi ritmik.",
+      "domain": "psychiatry_6f",
+      "definition": "Fase tonik lalu diikuti kontraksi ritmik (klonik) yang berkurang frekuensinya dan akhirnya hilang.",
+      "related_content_ids": [
+        "Batch_2_6f_05"
+      ],
+      "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_figur_cantik_pada_wanita_slim",
+      "term": "Figur cantik pada wanita slim.",
+      "domain": "psychiatry_6f",
+      "definition": "Figur cantik pada wanita slim adalah bentuk.",
+      "related_content_ids": [
+        "Batch_2_6f_08"
+      ],
+      "source_file": "anoreksia dan bulimia.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_fobia",
+      "term": "Fobia",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Fobia. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_03"
+      ],
+      "source_file": "09 dr.Susi - 4. Fobia.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_galveston_orientation_and_amnesia_test",
+      "term": "Galveston Orientation and Amnesia Test.",
+      "domain": "psychiatry_6f",
+      "definition": "Galveston Orientation and Amnesia Test (GOAT).",
+      "related_content_ids": [
+        "Batch_2_6f_10"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_gam_juga",
+      "term": "GAM juga",
+      "domain": "psychiatry_6f",
+      "definition": "GAM juga merupakan kondisi gangguan yang.",
+      "related_content_ids": [
+        "Batch_2_6f_01"
+      ],
+      "source_file": "09 dr.Susi - 1. GAM.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_gambaran_klinik",
+      "term": "Gambaran Klinik",
+      "domain": "psychiatry_6f",
+      "definition": "Gambaran Klinik (lanj)",
+      "related_content_ids": [
+        "Batch_2_6f_09"
+      ],
+      "source_file": "delerium FKIK UNJA (1).docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_gangguan_ansietas_penatalaksanaannya",
+      "term": "Gangguan Ansietas & Penatalaksanaannya.",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Gangguan Ansietas & Penatalaksanaannya. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_01"
+      ],
+      "source_file": "09 dr.Susi - 1. GAM.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_gangguan_ansietas_menyeluruh",
+      "term": "GANGGUAN ANSIETAS MENYELURUH",
+      "domain": "psychiatry_6f",
+      "definition": "GANGGUAN ANSIETAS MENYELURUH (GAM).",
+      "related_content_ids": [
+        "Batch_2_6f_01"
+      ],
+      "source_file": "09 dr.Susi - 1. GAM.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_gangguan_kepribadian_dan_perilaku_masa_dewasa",
+      "term": "Gangguan Kepribadian dan Perilaku Masa Dewasa.",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Gangguan Kepribadian dan Perilaku Masa Dewasa. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_14"
+      ],
+      "source_file": "✅28_4_25 GGN KEPRIBADIAN DAN PERILAKU MASA DEWASA_compressed.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_gangguan_makan_anoreksia_nervosa_dan_bulimia",
+      "term": "Gangguan Makan: Anoreksia Nervosa dan Bulimia.",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Gangguan Makan: Anoreksia Nervosa dan Bulimia. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_08"
+      ],
+      "source_file": "anoreksia dan bulimia.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_gangguan_panik",
+      "term": "Gangguan Panik",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Gangguan Panik. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_02"
+      ],
+      "source_file": "09 dr.Susi - 2. Gangguan Panik (1).docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_gangguan_somatoform",
+      "term": "Gangguan Somatoform",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Gangguan Somatoform. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_11"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Gangguan Somatoform (1).docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_ganja",
+      "term": "Ganja",
+      "domain": "psychiatry_6f",
+      "definition": "Ganja (Cimeng) Kokain",
+      "related_content_ids": [
+        "Batch_2_6f_06"
+      ],
+      "source_file": "Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_gbran_ini",
+      "term": "Gbran ini",
+      "domain": "psychiatry_6f",
+      "definition": "Gbran ini (makro dan mikro) bersifat bilateral, simetris,.",
+      "related_content_ids": [
+        "Batch_2_6f_09"
+      ],
+      "source_file": "delerium FKIK UNJA (1).docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_gbran_ini_tidak",
+      "term": "Gbran ini tidak",
+      "domain": "psychiatry_6f",
+      "definition": "Gbran ini tidak merupakan gbran patognomonik spesifik.",
+      "related_content_ids": [
+        "Batch_2_6f_09"
+      ],
+      "source_file": "delerium FKIK UNJA (1).docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_gejala_otonom",
+      "term": "Gejala otonom",
+      "domain": "neuro_otology_6f",
+      "definition": "Gejala otonom (mual, muntah).",
+      "related_content_ids": [
+        "Batch_2_6f_04"
+      ],
+      "source_file": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_gejala_utama",
+      "term": "Gejala utama",
+      "domain": "neuro_otology_6f",
+      "definition": "Gejala utama: Gejala auditoris berupa kehilangan pendengaran unilateral, gejala vestibular dan gejala gangguan nervus kranialis juga terjadi berupa disekuibilirium, Mati rasa, nyeri wajah, sakit kepala, Penurunan penglihatan, Ataxia, Hemiparesis.",
+      "related_content_ids": [
+        "Batch_2_6f_04"
+      ],
+      "source_file": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_gejala_yang_utama_dominan",
+      "term": "Gejala yang utama (dominan).",
+      "domain": "psychiatry_6f",
+      "definition": "Gejala utama (dominan) adalah.",
+      "related_content_ids": [
+        "Batch_2_6f_01"
+      ],
+      "source_file": "09 dr.Susi - 1. GAM.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_ggn_kepribadian",
+      "term": "Ggn kepribadian",
+      "domain": "psychiatry_6f",
+      "definition": "Ggn kepribadian adalah suatu proses perkembangan yg terus menerus yg timbul pd masa kanak dan remaja dan berlanjut pada masa dewasa.",
+      "related_content_ids": [
+        "Batch_2_6f_14"
+      ],
+      "source_file": "✅28_4_25 GGN KEPRIBADIAN DAN PERILAKU MASA DEWASA_compressed.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_ggn_kesadaran",
+      "term": "Ggn kesadaran",
+      "domain": "psychiatry_6f",
+      "definition": "Ggn kesadaran (clouding of consciousness).",
+      "related_content_ids": [
+        "Batch_2_6f_09"
+      ],
+      "source_file": "delerium FKIK UNJA (1).docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_ggn_orientasi",
+      "term": "Ggn orientasi",
+      "domain": "psychiatry_6f",
+      "definition": "Ggn orientasi: mula2 terjadi disorientasi waktu.",
+      "related_content_ids": [
+        "Batch_2_6f_09"
+      ],
+      "source_file": "delerium FKIK UNJA (1).docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_gp_cemas",
+      "term": "GP Cemas",
+      "domain": "psychiatry_6f",
+      "definition": "GP Cemas (mengindar) ⮚ F60.7.",
+      "related_content_ids": [
+        "Batch_2_6f_14"
+      ],
+      "source_file": "✅28_4_25 GGN KEPRIBADIAN DAN PERILAKU MASA DEWASA_compressed.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_hipokondriasis",
+      "term": "Hipokondriasis",
+      "domain": "psychiatry_6f",
+      "definition": "Hipokondriasis (hypochondriasis)",
+      "related_content_ids": [
+        "Batch_2_6f_11"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Gangguan Somatoform (1).docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_how_to_treat_central_vertigo",
+      "term": "How to Treat Central Vertigo.",
+      "domain": "neuro_otology_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: How to Treat Central Vertigo. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_04"
+      ],
+      "source_file": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_indikasi_ect_yang_paling_umum",
+      "term": "Indikasi ECT yang paling umum.",
+      "domain": "psychiatry_6f",
+      "definition": "Indikasi ECT yang paling umum adalah gangguan depresif mayor, dimana ECT merupakan terapi yang tercepat dan paling efektif.",
+      "related_content_ids": [
+        "Batch_2_6f_05"
+      ],
+      "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_infiamasi_infeksi",
+      "term": "Infiamasi/ Infeksi",
+      "domain": "neuro_otology_6f",
+      "definition": "Infiamasi/ Infeksi: multiple sklerosis.",
+      "related_content_ids": [
+        "Batch_2_6f_04"
+      ],
+      "source_file": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_isu_etik_dan_legal_dalam_kesehatan_jiwa",
+      "term": "Isu Etik dan Legal dalam Kesehatan Jiwa.",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Isu Etik dan Legal dalam Kesehatan Jiwa. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_12"
+      ],
+      "source_file": "legal-etik-jiwa.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_jadi_kepribadian",
+      "term": "Jadi kepribadian",
+      "domain": "psychiatry_6f",
+      "definition": "Jadi kepribadian adalah aspek internal dan eksternal dari karakter seseorang yg bersifat unik, relatif menetap, yg mempengaruhi perilaku dalam situasi2 berbeda.",
+      "related_content_ids": [
+        "Batch_2_6f_14"
+      ],
+      "source_file": "✅28_4_25 GGN KEPRIBADIAN DAN PERILAKU MASA DEWASA_compressed.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_karena_jaringan_scalp",
+      "term": "Karena jaringan scalp",
+      "domain": "psychiatry_6f",
+      "definition": "Karena jaringan scalp merupakan konduktor listrik yang lebih baik daripada tulang, hanya 20% dari muatan listrik yang masuk ke dalam tengkorak untuk merangsang neuron.",
+      "related_content_ids": [
+        "Batch_2_6f_05"
+      ],
+      "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_kedokteran_mempunyai_hak",
+      "term": "Kedokteran, mempunyai hak",
+      "domain": "psychiatry_6f",
+      "definition": "Kedokteran, mempunyai hak:",
+      "related_content_ids": [
+        "Batch_2_6f_12"
+      ],
+      "source_file": "legal-etik-jiwa.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_keluhan_utama",
+      "term": "Keluhan utama",
+      "domain": "psychiatry_6f",
+      "definition": "Keluhan utama adalah nye!",
+      "related_content_ids": [
+        "Batch_2_6f_11"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Gangguan Somatoform (1).docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_kepribadian",
+      "term": "Kepribadian",
+      "domain": "psychiatry_6f",
+      "definition": "Kepribadian (Personality)",
+      "related_content_ids": [
+        "Batch_2_6f_14"
+      ],
+      "source_file": "✅28_4_25 GGN KEPRIBADIAN DAN PERILAKU MASA DEWASA_compressed.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_kriteria_diagnosis_menurut_dsm_iv",
+      "term": "Kriteria diagnosis menurut DSM-IV.",
+      "domain": "psychiatry_6f",
+      "definition": "Kriteria diagnosis menurut DSM-IV adalah:",
+      "related_content_ids": [
+        "Batch_2_6f_11"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Gangguan Somatoform (1).docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_makan_untuk_wkt_yg_berbeda",
+      "term": "Makan untuk wkt yg berbeda.",
+      "domain": "psychiatry_6f",
+      "definition": "Makan untuk wkt yg berbeda (cth 2jam) jlh makanan.",
+      "related_content_ids": [
+        "Batch_2_6f_08"
+      ],
+      "source_file": "anoreksia dan bulimia.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_membantu_mengarahkan_pasiet_f",
+      "term": "Membantu mengarahkan pasiet f,.",
+      "domain": "psychiatry_6f",
+      "definition": "Membantu mengarahkan pasiet f,:",
+      "related_content_ids": [
+        "Batch_2_6f_10"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_mempunyai_khasiat",
+      "term": "Mempunyai khasiat",
+      "domain": "psychiatry_6f",
+      "definition": "Mempunyai khasiat: - analgesik.",
+      "related_content_ids": [
+        "Batch_2_6f_06"
+      ],
+      "source_file": "Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_mempunyai_tujuan_antara_lain_untuk",
+      "term": "Mempunyai tujuan antara lain untuk.",
+      "domain": "psychiatry_6f",
+      "definition": "Mempunyai tujuan antara lain untuk:",
+      "related_content_ids": [
+        "Batch_2_6f_01"
+      ],
+      "source_file": "09 dr.Susi - 1. GAM.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_mengandung_kafein",
+      "term": "Mengandung kafein",
+      "domain": "psychiatry_6f",
+      "definition": "Mengandung kafein adalah stimulan yang terkenal.",
+      "related_content_ids": [
+        "Batch_2_6f_07"
+      ],
+      "source_file": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_mimpi_buruk",
+      "term": "Mimpi Buruk",
+      "domain": "psychiatry_6f",
+      "definition": "Mimpi Buruk (Nightmare)",
+      "related_content_ids": [
+        "Batch_2_6f_07"
+      ],
+      "source_file": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_n_methyi_d_aspartate_receptor_antagonist",
+      "term": "N-MethyI-D-Aspartate Receptor Antagonist",
+      "domain": "psychiatry_6f",
+      "definition": "N-MethyI-D-Aspartate Receptor Antagonist (NMDA antagonis):",
+      "related_content_ids": [
+        "Batch_2_6f_10"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_n_methyi_d_aspartate_receptor_antagonist_nmda_anta",
+      "term": "N-MethyI-D-Aspartate Receptor Antagonist (NMDA antagonis).",
+      "domain": "psychiatry_6f",
+      "definition": "N-MethyI-D-Aspartate Receptor Antagonist (NMDA antagonis):",
+      "related_content_ids": [
+        "Batch_2_6f_10"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_nama_obat_dosis",
+      "term": "NAMA OBAT DOSIS",
+      "domain": "psychiatry_6f",
+      "definition": "NAMA OBAT DOSIS (mg/hari).",
+      "related_content_ids": [
+        "Batch_2_6f_01"
+      ],
+      "source_file": "09 dr.Susi - 1. GAM.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_neuro_otology",
+      "term": "Neuro-otology",
+      "domain": "neuro_otology_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: How to Treat Central Vertigo. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_04"
+      ],
+      "source_file": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_neurotrauma",
+      "term": "Neurotrauma",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Amnesia Pasca Trauma (Post-Traumatic Amnesia/PTA). Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_10"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_non_benzodiazepine",
+      "term": "Non benzodiazepine",
+      "domain": "psychiatry_6f",
+      "definition": "Non benzodiazepine (Chloral-hydrate, Zolpidem, dll).",
+      "related_content_ids": [
+        "Batch_2_6f_07"
+      ],
+      "source_file": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_normal_sleep_dan_sleep_disorders",
+      "term": "Normal Sleep dan Sleep Disorders.",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Normal Sleep dan Sleep Disorders. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_07"
+      ],
+      "source_file": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_obat_sedatif_hipnotik",
+      "term": "Obat sedatif/Hipnotik",
+      "domain": "psychiatry_6f",
+      "definition": "Obat sedatif/Hipnotik: Valium, Diazepam, Lexo, Mogadon, Double L.",
+      "related_content_ids": [
+        "Batch_2_6f_06"
+      ],
+      "source_file": "Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_pada_perempuan_pasca_menstruasi_amenore",
+      "term": "Pada perempuan pasca menstruasi, amenore,.",
+      "domain": "psychiatry_6f",
+      "definition": "Pada perempuan pasca menstruasi, amenore, yaitu.",
+      "related_content_ids": [
+        "Batch_2_6f_08"
+      ],
+      "source_file": "anoreksia dan bulimia.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_panic_disorder",
+      "term": "Panic disorder",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Gangguan Panik. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_02"
+      ],
+      "source_file": "09 dr.Susi - 2. Gangguan Panik (1).docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_pasien_dengan_gangguan_inti_gangguan_ini",
+      "term": "Pasien dengan gangguan Inti gangguan ini.",
+      "domain": "psychiatry_6f",
+      "definition": "Pasien dengan gangguan Inti gangguan ini adalah.",
+      "related_content_ids": [
+        "Batch_2_6f_11"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Gangguan Somatoform (1).docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_pasien_pta",
+      "term": "Pasien PTA,",
+      "domain": "psychiatry_6f",
+      "definition": "Pasien PTA, yaitu: F.",
+      "related_content_ids": [
+        "Batch_2_6f_10"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_patofisiologi",
+      "term": "Patofisiologi",
+      "domain": "psychiatry_6f",
+      "definition": "Patofisiologi (lanj)",
+      "related_content_ids": [
+        "Batch_2_6f_09"
+      ],
+      "source_file": "delerium FKIK UNJA (1).docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_pemeriksaan_laboratorium_pada_penyalahgunaan_obat",
+      "term": "Pemeriksaan Laboratorium pada Penyalahgunaan Obat Psikoaktif, NAPZA dan Alkohol.",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Pemeriksaan Laboratorium pada Penyalahgunaan Obat Psikoaktif, NAPZA dan Alkohol. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_06"
+      ],
+      "source_file": "Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_pemilihan_obat_ditinjau_dari_sifat_gangguan_tidur",
+      "term": "Pemilihan obat, ditinjau dari sifat gangguan tidur.",
+      "domain": "psychiatry_6f",
+      "definition": "Pemilihan obat, ditinjau dari sifat gangguan tidur:",
+      "related_content_ids": [
+        "Batch_2_6f_07"
+      ],
+      "source_file": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_pendekatan_yang_baik",
+      "term": "Pendekatan yang baik",
+      "domain": "psychiatry_6f",
+      "definition": "Pendekatan yang baik adalah dengan mengkombinasikan keduanya dari pertanyaan luas ke pertanyaan yang terfokus dan tajam.",
+      "related_content_ids": [
+        "Batch_2_6f_13"
+      ],
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_penelitian_positron_emission_tomography",
+      "term": "Penelitian Positron emission tomography.",
+      "domain": "psychiatry_6f",
+      "definition": "Penelitian Positron emission tomography (PET) menunjukkan bahwa selama kejang terjadi peningkatan cerebral blood flow, penggunaan glukosa dan oksigen, serta peningkatan permeabilitas sawar darah otak.",
+      "related_content_ids": [
+        "Batch_2_6f_05"
+      ],
+      "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_pengendalian_kejang",
+      "term": "Pengendalian kejang",
+      "domain": "neuro_otology_6f",
+      "definition": "Pengendalian kejang merupakan tatalaksana utama berupa penggunaan OAE.",
+      "related_content_ids": [
+        "Batch_2_6f_04"
+      ],
+      "source_file": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_perilaku_profesional_anamnesa_dan_pemeriksaan_psik",
+      "term": "Perilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri.",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Perilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_13"
+      ],
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_perjalanan_jauh",
+      "term": "Perjalanan jauh",
+      "domain": "psychiatry_6f",
+      "definition": "Perjalanan jauh (Jet lag) dan Perubahan jadwal kerja: Bekerja di malam.",
+      "related_content_ids": [
+        "Batch_2_6f_07"
+      ],
+      "source_file": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_persepsi_halusinasi",
+      "term": "Persepsi Halusinasi",
+      "domain": "psychiatry_6f",
+      "definition": "Persepsi Halusinasi (visual) Halusinasi jarang kecuali.",
+      "related_content_ids": [
+        "Batch_2_6f_09"
+      ],
+      "source_file": "delerium FKIK UNJA (1).docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_personality_disorder",
+      "term": "Personality disorder",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Gangguan Kepribadian dan Perilaku Masa Dewasa. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_14"
+      ],
+      "source_file": "✅28_4_25 GGN KEPRIBADIAN DAN PERILAKU MASA DEWASA_compressed.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_pertanyaan_yang_membantu_di_antaranya",
+      "term": "Pertanyaan yang membantu di antaranya.",
+      "domain": "psychiatry_6f",
+      "definition": "Pertanyaan yang membantu di antaranya adalah:",
+      "related_content_ids": [
+        "Batch_2_6f_13"
+      ],
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_phobia_khusus",
+      "term": "Phobia khusus",
+      "domain": "psychiatry_6f",
+      "definition": "Phobia khusus yaitu ketakutan.",
+      "related_content_ids": [
+        "Batch_2_6f_03"
+      ],
+      "source_file": "09 dr.Susi - 4. Fobia.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_psikoterapi_utama_yang_direkomendasikan_untuk_pena",
+      "term": "Psikoterapi utama yang direkomendasikan untuk penanganan gangguan panik.",
+      "domain": "psychiatry_6f",
+      "definition": "Psikoterapi utama yang direkomendasikan untuk penanganan gangguan panik adalah Cognitive Behavioura….",
+      "related_content_ids": [
+        "Batch_2_6f_02"
+      ],
+      "source_file": "09 dr.Susi - 2. Gangguan Panik (1).docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_psychiatry_basics",
+      "term": "Psychiatry basics",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Perilaku Profesional, Anamnesa dan Pemeriksaan Psikiatri. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_13"
+      ],
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_psychotherapy",
+      "term": "Psychotherapy",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Electroconvulsive Therapy (ECT) & Psikoterapi. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_05"
+      ],
+      "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_respon_terapis_bisa_berupa",
+      "term": "Respon terapis bisa berupa.",
+      "domain": "psychiatry_6f",
+      "definition": "Respon terapis bisa berupa:",
+      "related_content_ids": [
+        "Batch_2_6f_13"
+      ],
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_serangan_panik",
+      "term": "Serangan panik",
+      "domain": "psychiatry_6f",
+      "definition": "Serangan panik merupakan ketakutan akan timbulnya serangan serta diyakini akan segera terjadi.",
+      "related_content_ids": [
+        "Batch_2_6f_02"
+      ],
+      "source_file": "09 dr.Susi - 2. Gangguan Panik (1).docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_sleep_disorder",
+      "term": "Sleep disorder",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Normal Sleep dan Sleep Disorders. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_07"
+      ],
+      "source_file": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_sleeptalking",
+      "term": "Sleeptalking",
+      "domain": "psychiatry_6f",
+      "definition": "Sleeptalking (Somniloquy)",
+      "related_content_ids": [
+        "Batch_2_6f_07"
+      ],
+      "source_file": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_somatic_therapy",
+      "term": "Somatic therapy",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Electroconvulsive Therapy (ECT) & Psikoterapi. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_05"
+      ],
+      "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_somatoform",
+      "term": "Somatoform",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Gangguan Somatoform. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_11"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Gangguan Somatoform (1).docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_substance_use",
+      "term": "Substance use",
+      "domain": "psychiatry_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: Pemeriksaan Laboratorium pada Penyalahgunaan Obat Psikoaktif, NAPZA dan Alkohol. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_06"
+      ],
+      "source_file": "Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_tanda_kejang_yang_pertama",
+      "term": "Tanda kejang yang pertama.",
+      "domain": "psychiatry_6f",
+      "definition": "Tanda kejang yang pertama adalah ekstensi plantar yang berakhir dalam 10-20 detik dan menandai fase tonik.",
+      "related_content_ids": [
+        "Batch_2_6f_05"
+      ],
+      "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_tapi_lebih",
+      "term": "Tapi lebih",
+      "domain": "psychiatry_6f",
+      "definition": "Tapi lebih merupakan",
+      "related_content_ids": [
+        "Batch_2_6f_08"
+      ],
+      "source_file": "anoreksia dan bulimia.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_teknik_pertanyaan_terbuka",
+      "term": "Teknik pertanyaan terbuka",
+      "domain": "psychiatry_6f",
+      "definition": "Teknik pertanyaan terbuka (open-ended questions) di awal wawancara akan membuat pasien menceritakan masalahnya dengan kata-kata pasien sendiri.",
+      "related_content_ids": [
+        "Batch_2_6f_13"
+      ],
+      "source_file": "prilaku profesional dan Pemeriksaan Psikiatri.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_teknik_yang_umum",
+      "term": "Teknik yang umum",
+      "domain": "psychiatry_6f",
+      "definition": "Teknik yang umum adalah dengan memulai tindakan pada rangsangan listrik di bawah ambang kejang dan kemudian intensitasnya ditingkatkan hingga 100% pada penempatan unilateral dan 50% pada penempatan bilateral sampai ambang kejang tercapai.",
+      "related_content_ids": [
+        "Batch_2_6f_05"
+      ],
+      "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_tempat_tgl_lahir",
+      "term": "Tempat/Tgl lahir",
+      "domain": "psychiatry_6f",
+      "definition": "Tempat/Tgl lahir: Medan, 16 juni 1977.",
+      "related_content_ids": [
+        "Batch_2_6f_09"
+      ],
+      "source_file": "delerium FKIK UNJA (1).docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_terapi_akut_tujuannya",
+      "term": "Terapi akut, tujuannya",
+      "domain": "psychiatry_6f",
+      "definition": "Terapi akut, tujuannya:",
+      "related_content_ids": [
+        "Batch_2_6f_01"
+      ],
+      "source_file": "09 dr.Susi - 1. GAM.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_terapi_suportif",
+      "term": "Terapi suportif",
+      "domain": "psychiatry_6f",
+      "definition": "Terapi suportif adalah bentuk terapi alternatif yang.",
+      "related_content_ids": [
+        "Batch_2_6f_01"
+      ],
+      "source_file": "09 dr.Susi - 1. GAM.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_terapi_tatalaksana_utama_tumor_cpa",
+      "term": "Terapi tatalaksana utama tumor CPA.",
+      "domain": "neuro_otology_6f",
+      "definition": "Terapi tatalaksana utama tumor CPA adalah pembedahan.",
+      "related_content_ids": [
+        "Batch_2_6f_04"
+      ],
+      "source_file": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_test",
+      "term": "Test",
+      "domain": "psychiatry_6f",
+      "definition": "Test (GOAT) Iri» (1 a.",
+      "related_content_ids": [
+        "Batch_2_6f_10"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_tidur_dibagi_menjadi_2_tipe",
+      "term": "Tidur Dibagi Menjadi 2 Tipe.",
+      "domain": "psychiatry_6f",
+      "definition": "Tidur Dibagi Menjadi 2 Tipe Yaitu:",
+      "related_content_ids": [
+        "Batch_2_6f_07"
+      ],
+      "source_file": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_tipe_ketiga",
+      "term": "Tipe ketiga",
+      "domain": "psychiatry_6f",
+      "definition": "Tipe ketiga adalah gangguan makan lain.",
+      "related_content_ids": [
+        "Batch_2_6f_08"
+      ],
+      "source_file": "anoreksia dan bulimia.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_tipe_membatasi",
+      "term": "Tipe membatasi",
+      "domain": "psychiatry_6f",
+      "definition": "Tipe membatasi (restricting type): secara tida beratur.",
+      "related_content_ids": [
+        "Batch_2_6f_08"
+      ],
+      "source_file": "anoreksia dan bulimia.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_tipe_non_rapid_eye_movement",
+      "term": "Tipe Non Rapid Eye Movement.",
+      "domain": "psychiatry_6f",
+      "definition": "Tipe Non Rapid Eye Movement (NREM).",
+      "related_content_ids": [
+        "Batch_2_6f_07"
+      ],
+      "source_file": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_tipe_rapid_eye_movement",
+      "term": "Tipe Rapid Eye Movement.",
+      "domain": "psychiatry_6f",
+      "definition": "Tipe Rapid Eye Movement (REM).",
+      "related_content_ids": [
+        "Batch_2_6f_07"
+      ],
+      "source_file": "SLEEP DISORDERS dr.Diva,SpKJ.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_trauma_kepala_adalah",
+      "term": "Trauma kepala adalah",
+      "domain": "psychiatry_6f",
+      "definition": "Trauma kepala adalah adalah trauma.",
+      "related_content_ids": [
+        "Batch_2_6f_10"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Amnesia Pasca Trauma.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_trend_penyalahgunaan_obat_di_indonesia_relatif_sta",
+      "term": "Trend penyalahgunaan obat di Indonesia relatif stabil.",
+      "domain": "psychiatry_6f",
+      "definition": "Trend penyalahgunaan obat di Indonesia relatif stabil: meliputi alkohol, sedatif- hipnotik (obat penenang), ganja, campuran serta sedikit morfin/heroin dan amfetamin.",
+      "related_content_ids": [
+        "Batch_2_6f_06"
+      ],
+      "source_file": "Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_tujuan_utama_penatalaksanaan",
+      "term": "Tujuan utama penatalaksanaan",
+      "domain": "psychiatry_6f",
+      "definition": "Tujuan utama penatalaksanaan adalah untuk menurunkan intensitas, frekuensi, dan durasi serangan panik; mengurangi perilaku menghindar, mencegah relapse, dan memperbaiki kualitas hidup.",
+      "related_content_ids": [
+        "Batch_2_6f_02"
+      ],
+      "source_file": "09 dr.Susi - 2. Gangguan Panik (1).docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_tumor_yang_paling_sering_melibatkan_cpa",
+      "term": "Tumor yang paling sering melibatkan CPA.",
+      "domain": "neuro_otology_6f",
+      "definition": "Tumor yang paling sering melibatkan CPA: vestibular Schwanoma.",
+      "related_content_ids": [
+        "Batch_2_6f_04"
+      ],
+      "source_file": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_variabel_yang_membatasi_penggunaannya",
+      "term": "Variabel yang membatasi penggunaannya.",
+      "domain": "psychiatry_6f",
+      "definition": "Variabel yang membatasi penggunaannya adalah efek samping kebingungan dan kehilangan memori.",
+      "related_content_ids": [
+        "Batch_2_6f_05"
+      ],
+      "source_file": "ECT dan psikoterapi dr.Diva,Sp.KJ (1).docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_vertigo",
+      "term": "Vertigo",
+      "domain": "neuro_otology_6f",
+      "definition": "Istilah atau topik utama dari dokumen sumber: How to Treat Central Vertigo. Definisi perlu dibaca bersama bagian materi terkait.",
+      "related_content_ids": [
+        "Batch_2_6f_04"
+      ],
+      "source_file": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "title_or_manifest"
+    },
+    {
+      "id": "term_vestibular_rehabilitation_therapy",
+      "term": "Vestibular Rehabilitation Therapy",
+      "domain": "neuro_otology_6f",
+      "definition": "Vestibular Rehabilitation Therapy (VRT).",
+      "related_content_ids": [
+        "Batch_2_6f_04"
+      ],
+      "source_file": "2. dr. Sri Novianty, Sp.N - How To Treat Central Vertigo.pptx.docx",
+      "source_files": [],
+      "confidence": "medium",
+      "extraction_method": "parenthetical_definition_line"
+    },
+    {
+      "id": "term_walaupun_gangguan_panik",
+      "term": "Walaupun gangguan panik",
+      "domain": "psychiatry_6f",
+      "definition": "Walaupun gangguan panik merupakan penyakit kronis, namun prognosis ini baik.",
+      "related_content_ids": [
+        "Batch_2_6f_02"
+      ],
+      "source_file": "09 dr.Susi - 2. Gangguan Panik (1).docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_yang_penting",
+      "term": "Yang penting",
+      "domain": "psychiatry_6f",
+      "definition": "Yang penting: 3 gejala utama PPDGJ GAM | yang penting: 3 gejala utama PPDGJ GAM | yang penting: 3 gejala utama PPDGJ GAM | yang penting: 3 gejala utama PPDGJ GAM | | sampe batas waktu 6 bulan.",
+      "related_content_ids": [
+        "Batch_2_6f_01"
+      ],
+      "source_file": "09 dr.Susi - 1. GAM.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_yurut_ds_tr_ada_yang",
+      "term": "Yurut DS TR ada yang.",
+      "domain": "psychiatry_6f",
+      "definition": "Yurut DS TR ada yang merupakan.",
+      "related_content_ids": [
+        "Batch_2_6f_11"
+      ],
+      "source_file": "dr.Fatmawati,Sp.KJ-Gangguan Somatoform (1).docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_zat_adiktif",
+      "term": "Zat adiktif",
+      "domain": "psychiatry_6f",
+      "definition": "Zat adiktif: bensin, cat, tiner, lem, dll.",
+      "related_content_ids": [
+        "Batch_2_6f_06"
+      ],
+      "source_file": "Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    },
+    {
+      "id": "term_zat_psikoaktif",
+      "term": "Zat psikoaktif",
+      "domain": "psychiatry_6f",
+      "definition": "Zat psikoaktif: zat yang apabila masuk ke dalam tubuh manusia akan mempengaruhi tubuh, terutama SSP, sehingga menyebabkan perubahan aktifitas mental emosional dan perilaku pengguna dan seringkali menyebabkan ketergantungan terhadap zat tersebut.",
+      "related_content_ids": [
+        "Batch_2_6f_06"
+      ],
+      "source_file": "Pemeriksaan Laboratorium pada penyalahgunaan obat psikoaktif, NAPZA.docx",
+      "source_files": [],
+      "confidence": "high",
+      "extraction_method": "explicit_definition_line"
+    }
+  ]
+}

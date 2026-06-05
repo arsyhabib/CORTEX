@@ -1,0 +1,1118 @@
+{
+  "id": "batch_1_6e_15",
+  "batch_id": "batch_1_6E",
+  "batch_label": "Batch 1 / 6E",
+  "block": "5e",
+  "title": "Patofisiologi stroke gizi",
+  "subtitle": "Neurology lecturer-derived structured content; source-preserving extraction.",
+  "source_pdf": "source_docs/6E/Patofisiologi stroke_gizi.docx",
+  "source_docx": "Patofisiologi stroke_gizi.docx",
+  "source_pages": [],
+  "summary": [
+    "Modul Patofisiologi stroke gizi disusun ulang sebagai materi terstruktur untuk neurologi batch 1/6e, dengan jejak sumber tetap dipertahankan.",
+    "Fokus inti yang ditarik dari sumber: Patofisiologi Stroke.",
+    "Fokus inti yang ditarik dari sumber: Pendahuluan.",
+    "Fokus inti yang ditarik dari sumber: Stroke → penyebab utama kematian dan kecacatan di seluruh dunia.",
+    "Contoh pesan inti dari sumber: Patofisiologi Stroke."
+  ],
+  "exam_focus": [
+    "Manifestasi klinis akut akibat disfungsi neurologis pada otak, medulla spinalis baik sebagian atau menyeluruh yang menetap selama >24 jam atau menimbulkan kematian akibat gangguan pembuluh darah.",
+    "Tujuan Tatalaksana Stroke Iskemik.",
+    "Tatalaksanan medis lain: .",
+    "Pencegahan komplikasi neurologis dan non neurologis.",
+    "Terapi endovascular (trombektomi mekanik)."
+  ],
+  "sections": [
+    {
+      "id": "batch_1_6e_15_s01",
+      "title": "Patofisiologi Stroke",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Dr. Hendra Irawan, Sp.S, FINA.",
+          "provenance": {
+            "source_document": "Patofisiologi stroke_gizi.docx",
+            "source_paragraph_index": 20,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_15_01",
+        "Visual_batch_1_6e_15_02",
+        "Visual_batch_1_6e_15_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_15_01",
+        "Quiz_batch_1_6e_15_02",
+        "Quiz_batch_1_6e_15_03"
+      ],
+      "glossary_refs": [
+        "Term_preventif",
+        "Term_completed_stroke",
+        "Term_ct_scan_kepala_stroke_hemoragik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "section_start_paragraph": 20,
+        "section_end_paragraph": 20
+      }
+    },
+    {
+      "id": "batch_1_6e_15_s02",
+      "title": "Stroke → penyebab utama kematian dan kecacatan di seluruh dunia.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "WHO → 80% kasus stroke terjadi di negara berpenghasilan rendah dan menengah.",
+              "children": [],
+              "provenance": {
+                "source_document": "Patofisiologi stroke_gizi.docx",
+                "source_paragraph_index": 30,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Patofisiologi stroke_gizi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_15_01",
+        "Visual_batch_1_6e_15_02",
+        "Visual_batch_1_6e_15_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_15_01",
+        "Quiz_batch_1_6e_15_02",
+        "Quiz_batch_1_6e_15_03"
+      ],
+      "glossary_refs": [
+        "Term_preventif",
+        "Term_completed_stroke",
+        "Term_ct_scan_kepala_stroke_hemoragik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "section_start_paragraph": 30,
+        "section_end_paragraph": 30
+      }
+    },
+    {
+      "id": "batch_1_6e_15_s03",
+      "title": "Outcome terbaik → melalui perawatan di unit stroke.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "30% mendapatkan perawatan di unit stroke di Eropa dan lebih sedikit di negara menengah di seluruh dunia.",
+              "children": [],
+              "provenance": {
+                "source_document": "Patofisiologi stroke_gizi.docx",
+                "source_paragraph_index": 32,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Patofisiologi stroke_gizi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_15_01",
+        "Visual_batch_1_6e_15_02",
+        "Visual_batch_1_6e_15_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_15_01",
+        "Quiz_batch_1_6e_15_02",
+        "Quiz_batch_1_6e_15_03"
+      ],
+      "glossary_refs": [
+        "Term_preventif",
+        "Term_completed_stroke",
+        "Term_ct_scan_kepala_stroke_hemoragik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "section_start_paragraph": 32,
+        "section_end_paragraph": 32
+      }
+    },
+    {
+      "id": "batch_1_6e_15_s04",
+      "title": "Menurunkan insidens stroke melalui usaha preventif.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Menekan kecacatan dengan pengobatan pada fase hiperakut.",
+              "children": [],
+              "provenance": {
+                "source_document": "Patofisiologi stroke_gizi.docx",
+                "source_paragraph_index": 46,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Membuat pasien pasca stroke hidup lebih baik dengan kesembuhan yang menyeluruh.",
+              "children": [],
+              "provenance": {
+                "source_document": "Patofisiologi stroke_gizi.docx",
+                "source_paragraph_index": 47,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Patofisiologi stroke_gizi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_15_01",
+        "Visual_batch_1_6e_15_02",
+        "Visual_batch_1_6e_15_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_15_01",
+        "Quiz_batch_1_6e_15_02",
+        "Quiz_batch_1_6e_15_03"
+      ],
+      "glossary_refs": [
+        "Term_preventif",
+        "Term_completed_stroke",
+        "Term_ct_scan_kepala_stroke_hemoragik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "section_start_paragraph": 46,
+        "section_end_paragraph": 47
+      }
+    },
+    {
+      "id": "batch_1_6e_15_s05",
+      "title": "Stroke",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Manifestasi klinis akut akibat disfungsi neurologis pada otak, medulla spinalis baik sebagian atau menyeluruh yang menetap selama >24 jam atau menimbulkan kematian akibat gangguan pembuluh darah.",
+          "provenance": {
+            "source_document": "Patofisiologi stroke_gizi.docx",
+            "source_paragraph_index": 55,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Berdasarkan.",
+          "provenance": {
+            "source_document": "Patofisiologi stroke_gizi.docx",
+            "source_paragraph_index": 59,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_15_01",
+        "Visual_batch_1_6e_15_02",
+        "Visual_batch_1_6e_15_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_15_01",
+        "Quiz_batch_1_6e_15_02",
+        "Quiz_batch_1_6e_15_03"
+      ],
+      "glossary_refs": [
+        "Term_preventif",
+        "Term_completed_stroke",
+        "Term_ct_scan_kepala_stroke_hemoragik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "section_start_paragraph": 55,
+        "section_end_paragraph": 59
+      }
+    },
+    {
+      "id": "batch_1_6e_15_s06",
+      "title": "Patologi anatomi dan penyebabnya.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Berdasarkan stadium/ pertimbangan waktu.",
+          "provenance": {
+            "source_document": "Patofisiologi stroke_gizi.docx",
+            "source_paragraph_index": 67,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Transient Ischemic Attack (TIA).",
+              "children": [],
+              "provenance": {
+                "source_document": "Patofisiologi stroke_gizi.docx",
+                "source_paragraph_index": 68,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Patofisiologi stroke_gizi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_15_01",
+        "Visual_batch_1_6e_15_02",
+        "Visual_batch_1_6e_15_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_15_01",
+        "Quiz_batch_1_6e_15_02",
+        "Quiz_batch_1_6e_15_03"
+      ],
+      "glossary_refs": [
+        "Term_preventif",
+        "Term_completed_stroke",
+        "Term_ct_scan_kepala_stroke_hemoragik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "section_start_paragraph": 67,
+        "section_end_paragraph": 68
+      }
+    },
+    {
+      "id": "batch_1_6e_15_s07",
+      "title": "Completed stroke",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Berdasarkan sistem pembuluh darah.",
+          "provenance": {
+            "source_document": "Patofisiologi stroke_gizi.docx",
+            "source_paragraph_index": 77,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "Mencegah lebih baik daripada mengobati.",
+          "provenance": {
+            "source_document": "Patofisiologi stroke_gizi.docx",
+            "source_paragraph_index": 104,
+            "style": "Body Text"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_15_01",
+        "Visual_batch_1_6e_15_02",
+        "Visual_batch_1_6e_15_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_15_01",
+        "Quiz_batch_1_6e_15_02",
+        "Quiz_batch_1_6e_15_03"
+      ],
+      "glossary_refs": [
+        "Term_preventif",
+        "Term_completed_stroke",
+        "Term_ct_scan_kepala_stroke_hemoragik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "section_start_paragraph": 77,
+        "section_end_paragraph": 104
+      }
+    },
+    {
+      "id": "batch_1_6e_15_s08",
+      "title": "Patofisiologi: Stroke Ischemic",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Denaturasi protein.",
+              "children": [],
+              "provenance": {
+                "source_document": "Patofisiologi stroke_gizi.docx",
+                "source_paragraph_index": 118,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Influks ca.",
+              "children": [],
+              "provenance": {
+                "source_document": "Patofisiologi stroke_gizi.docx",
+                "source_paragraph_index": 119,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Edem sel glial.",
+              "children": [],
+              "provenance": {
+                "source_document": "Patofisiologi stroke_gizi.docx",
+                "source_paragraph_index": 120,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "↑ Radikal bebas.",
+              "children": [],
+              "provenance": {
+                "source_document": "Patofisiologi stroke_gizi.docx",
+                "source_paragraph_index": 121,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Patofisiologi stroke_gizi.docx"
+        },
+        {
+          "type": "Paragraph",
+          "text": "↓ Cerebral blood flow.",
+          "provenance": {
+            "source_document": "Patofisiologi stroke_gizi.docx",
+            "source_paragraph_index": 125,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        },
+        {
+          "type": "Paragraph",
+          "text": "↓ Supply O2 & glukosa.",
+          "provenance": {
+            "source_document": "Patofisiologi stroke_gizi.docx",
+            "source_paragraph_index": 126,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_15_01",
+        "Visual_batch_1_6e_15_02",
+        "Visual_batch_1_6e_15_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_15_01",
+        "Quiz_batch_1_6e_15_02",
+        "Quiz_batch_1_6e_15_03"
+      ],
+      "glossary_refs": [
+        "Term_preventif",
+        "Term_completed_stroke",
+        "Term_ct_scan_kepala_stroke_hemoragik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "section_start_paragraph": 118,
+        "section_end_paragraph": 126
+      }
+    },
+    {
+      "id": "batch_1_6e_15_s09",
+      "title": "ICH",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Akut terletak pada jaringan otak (hematom Intra serebral) akan tampak sebagai lesi hiperdens oval atau bulat.",
+          "provenance": {
+            "source_document": "Patofisiologi stroke_gizi.docx",
+            "source_paragraph_index": 184,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_15_01",
+        "Visual_batch_1_6e_15_02",
+        "Visual_batch_1_6e_15_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_15_01",
+        "Quiz_batch_1_6e_15_02",
+        "Quiz_batch_1_6e_15_03"
+      ],
+      "glossary_refs": [
+        "Term_preventif",
+        "Term_completed_stroke",
+        "Term_ct_scan_kepala_stroke_hemoragik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "section_start_paragraph": 184,
+        "section_end_paragraph": 184
+      }
+    },
+    {
+      "id": "batch_1_6e_15_s10",
+      "title": "SAH",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "(lesi hiperdens berlekuk lekuk seperti ular (sepingeous) mengisi subarachnoid space yang terdapat pada sulcii dan sisterna.",
+          "provenance": {
+            "source_document": "Patofisiologi stroke_gizi.docx",
+            "source_paragraph_index": 186,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_15_01",
+        "Visual_batch_1_6e_15_02",
+        "Visual_batch_1_6e_15_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_15_01",
+        "Quiz_batch_1_6e_15_02",
+        "Quiz_batch_1_6e_15_03"
+      ],
+      "glossary_refs": [
+        "Term_preventif",
+        "Term_completed_stroke",
+        "Term_ct_scan_kepala_stroke_hemoragik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "section_start_paragraph": 186,
+        "section_end_paragraph": 186
+      }
+    },
+    {
+      "id": "batch_1_6e_15_s11",
+      "title": "EDH",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Kondisi di mana darah masuk dan menumpuk pada ruang yang ada di antara tulang tengkorak dan duramater, lesi hiperdens bentuk bikonvek.",
+          "provenance": {
+            "source_document": "Patofisiologi stroke_gizi.docx",
+            "source_paragraph_index": 188,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_15_01",
+        "Visual_batch_1_6e_15_02",
+        "Visual_batch_1_6e_15_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_15_01",
+        "Quiz_batch_1_6e_15_02",
+        "Quiz_batch_1_6e_15_03"
+      ],
+      "glossary_refs": [
+        "Term_preventif",
+        "Term_completed_stroke",
+        "Term_ct_scan_kepala_stroke_hemoragik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "section_start_paragraph": 188,
+        "section_end_paragraph": 188
+      }
+    },
+    {
+      "id": "batch_1_6e_15_s12",
+      "title": "SDH",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Perdarahan yang terjadi antara duramater dan arakhnoid. akibat robekan bridging vein, lesi hiperdens bentuk bulan sabit.",
+          "provenance": {
+            "source_document": "Patofisiologi stroke_gizi.docx",
+            "source_paragraph_index": 190,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_15_01",
+        "Visual_batch_1_6e_15_02",
+        "Visual_batch_1_6e_15_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_15_01",
+        "Quiz_batch_1_6e_15_02",
+        "Quiz_batch_1_6e_15_03"
+      ],
+      "glossary_refs": [
+        "Term_preventif",
+        "Term_completed_stroke",
+        "Term_ct_scan_kepala_stroke_hemoragik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "section_start_paragraph": 190,
+        "section_end_paragraph": 190
+      }
+    },
+    {
+      "id": "batch_1_6e_15_s13",
+      "title": "IVH",
+      "kind": "Reading",
+      "content": [
+        {
+          "type": "Paragraph",
+          "text": "Gambaran hiperdens pada sistem ventrikular.",
+          "provenance": {
+            "source_document": "Patofisiologi stroke_gizi.docx",
+            "source_paragraph_index": 193,
+            "style": "Normal"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_15_01",
+        "Visual_batch_1_6e_15_02",
+        "Visual_batch_1_6e_15_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_15_01",
+        "Quiz_batch_1_6e_15_02",
+        "Quiz_batch_1_6e_15_03"
+      ],
+      "glossary_refs": [
+        "Term_preventif",
+        "Term_completed_stroke",
+        "Term_ct_scan_kepala_stroke_hemoragik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "section_start_paragraph": 193,
+        "section_end_paragraph": 193
+      }
+    },
+    {
+      "id": "batch_1_6e_15_s14",
+      "title": "Penatalaksanaan umum",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Stabilisasi jalan nafas, pernapasan dan hemodinamik.",
+              "children": [],
+              "provenance": {
+                "source_document": "Patofisiologi stroke_gizi.docx",
+                "source_paragraph_index": 200,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Manajemen nutrisi.",
+              "children": [],
+              "provenance": {
+                "source_document": "Patofisiologi stroke_gizi.docx",
+                "source_paragraph_index": 201,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Patofisiologi stroke_gizi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_15_01",
+        "Visual_batch_1_6e_15_02",
+        "Visual_batch_1_6e_15_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_15_01",
+        "Quiz_batch_1_6e_15_02",
+        "Quiz_batch_1_6e_15_03"
+      ],
+      "glossary_refs": [
+        "Term_preventif",
+        "Term_completed_stroke",
+        "Term_ct_scan_kepala_stroke_hemoragik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "section_start_paragraph": 200,
+        "section_end_paragraph": 201
+      }
+    },
+    {
+      "id": "batch_1_6e_15_s15",
+      "title": "Tatalaksanan medis lain:",
+      "kind": "Callout",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Tekanan tinggi intrakranial.",
+              "children": [],
+              "provenance": {
+                "source_document": "Patofisiologi stroke_gizi.docx",
+                "source_paragraph_index": 203,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Hipertensi.",
+              "children": [],
+              "provenance": {
+                "source_document": "Patofisiologi stroke_gizi.docx",
+                "source_paragraph_index": 204,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            },
+            {
+              "text": "Gula darah.",
+              "children": [],
+              "provenance": {
+                "source_document": "Patofisiologi stroke_gizi.docx",
+                "source_paragraph_index": 205,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Patofisiologi stroke_gizi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_15_01",
+        "Visual_batch_1_6e_15_02",
+        "Visual_batch_1_6e_15_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_15_01",
+        "Quiz_batch_1_6e_15_02",
+        "Quiz_batch_1_6e_15_03"
+      ],
+      "glossary_refs": [
+        "Term_preventif",
+        "Term_completed_stroke",
+        "Term_ct_scan_kepala_stroke_hemoragik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "section_start_paragraph": 203,
+        "section_end_paragraph": 205
+      }
+    },
+    {
+      "id": "batch_1_6e_15_s16",
+      "title": "Kejang",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Gastroprotektor.",
+              "children": [],
+              "provenance": {
+                "source_document": "Patofisiologi stroke_gizi.docx",
+                "source_paragraph_index": 207,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Patofisiologi stroke_gizi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_15_01",
+        "Visual_batch_1_6e_15_02",
+        "Visual_batch_1_6e_15_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_15_01",
+        "Quiz_batch_1_6e_15_02",
+        "Quiz_batch_1_6e_15_03"
+      ],
+      "glossary_refs": [
+        "Term_preventif",
+        "Term_completed_stroke",
+        "Term_ct_scan_kepala_stroke_hemoragik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "section_start_paragraph": 207,
+        "section_end_paragraph": 207
+      }
+    },
+    {
+      "id": "batch_1_6e_15_s17",
+      "title": "Penatalaksanaan Spesifik Stroke iskemik.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Trombolisis intravena.",
+              "children": [],
+              "provenance": {
+                "source_document": "Patofisiologi stroke_gizi.docx",
+                "source_paragraph_index": 215,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Patofisiologi stroke_gizi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_15_01",
+        "Visual_batch_1_6e_15_02",
+        "Visual_batch_1_6e_15_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_15_01",
+        "Quiz_batch_1_6e_15_02",
+        "Quiz_batch_1_6e_15_03"
+      ],
+      "glossary_refs": [
+        "Term_preventif",
+        "Term_completed_stroke",
+        "Term_ct_scan_kepala_stroke_hemoragik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "section_start_paragraph": 215,
+        "section_end_paragraph": 215
+      }
+    },
+    {
+      "id": "batch_1_6e_15_s18",
+      "title": "Pencegahan stroke sekunder (antiplatelet atau antikoagulan).",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Neroprotektor.",
+              "children": [],
+              "provenance": {
+                "source_document": "Patofisiologi stroke_gizi.docx",
+                "source_paragraph_index": 218,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Patofisiologi stroke_gizi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_15_01",
+        "Visual_batch_1_6e_15_02",
+        "Visual_batch_1_6e_15_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_15_01",
+        "Quiz_batch_1_6e_15_02",
+        "Quiz_batch_1_6e_15_03"
+      ],
+      "glossary_refs": [
+        "Term_preventif",
+        "Term_completed_stroke",
+        "Term_ct_scan_kepala_stroke_hemoragik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "section_start_paragraph": 218,
+        "section_end_paragraph": 218
+      }
+    },
+    {
+      "id": "batch_1_6e_15_s19",
+      "title": "Penatalaksanaan Spesifik Stroke Hemoragik.",
+      "kind": "Bullet",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Koreksi koagulopati.",
+              "children": [],
+              "provenance": {
+                "source_document": "Patofisiologi stroke_gizi.docx",
+                "source_paragraph_index": 227,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Patofisiologi stroke_gizi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_15_01",
+        "Visual_batch_1_6e_15_02",
+        "Visual_batch_1_6e_15_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_15_01",
+        "Quiz_batch_1_6e_15_02",
+        "Quiz_batch_1_6e_15_03"
+      ],
+      "glossary_refs": [
+        "Term_preventif",
+        "Term_completed_stroke",
+        "Term_ct_scan_kepala_stroke_hemoragik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "section_start_paragraph": 227,
+        "section_end_paragraph": 227
+      }
+    },
+    {
+      "id": "batch_1_6e_15_s20",
+      "title": "Pencegahan stroke hemoragik (manajemen factor risiko).",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Bullet_group",
+          "items": [
+            {
+              "text": "Neuroprotektor.",
+              "children": [],
+              "provenance": {
+                "source_document": "Patofisiologi stroke_gizi.docx",
+                "source_paragraph_index": 229,
+                "style": "List Paragraph"
+              },
+              "confidence": "high"
+            }
+          ],
+          "source_document": "Patofisiologi stroke_gizi.docx"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_15_01",
+        "Visual_batch_1_6e_15_02",
+        "Visual_batch_1_6e_15_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_15_01",
+        "Quiz_batch_1_6e_15_02",
+        "Quiz_batch_1_6e_15_03"
+      ],
+      "glossary_refs": [
+        "Term_preventif",
+        "Term_completed_stroke",
+        "Term_ct_scan_kepala_stroke_hemoragik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "section_start_paragraph": 229,
+        "section_end_paragraph": 229
+      }
+    },
+    {
+      "id": "batch_1_6e_15_s21",
+      "title": "Extracted table 1",
+      "kind": "Table",
+      "content": [
+        {
+          "type": "Table",
+          "rows": [
+            [
+              "1. CT Scan Gold Standar untuk membedakan stroke infark dengan stroke perdarahan. Stroke infark/iskemik stroke perdarahan.",
+              "1. CT Scan Gold Standar untuk membedakan stroke infark dengan stroke perdarahan. Stroke infark/iskemik stroke perdarahan.",
+              "1. CT Scan Gold Standar untuk membedakan stroke infark dengan stroke perdarahan. Stroke infark/iskemik stroke perdarahan."
+            ],
+            [
+              "Gambaran hipodense",
+              "",
+              "Gambaran hiperdens"
+            ]
+          ],
+          "provenance": {
+            "source_document": "Patofisiologi stroke_gizi.docx",
+            "table_index": 0
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_15_01",
+        "Visual_batch_1_6e_15_02",
+        "Visual_batch_1_6e_15_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_15_01",
+        "Quiz_batch_1_6e_15_02",
+        "Quiz_batch_1_6e_15_03"
+      ],
+      "glossary_refs": [
+        "Term_preventif",
+        "Term_completed_stroke",
+        "Term_ct_scan_kepala_stroke_hemoragik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "table_index": 0
+      }
+    },
+    {
+      "id": "batch_1_6e_15_s22",
+      "title": "Embedded visual material requiring downstream asset review.",
+      "kind": "Image",
+      "content": [
+        {
+          "type": "Visual_asset_note",
+          "text": "Source DOCX contains 96 embedded image(s). Text extraction does not guarantee all visual labels/captions were captured; downstream Codex/asset pipeline should inspect embedded media before final compile.",
+          "embedded_image_count": 96,
+          "provenance": {
+            "source_document": "Patofisiologi stroke_gizi.docx"
+          },
+          "confidence": "high"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_15_embedded_review"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_15_01",
+        "Quiz_batch_1_6e_15_02",
+        "Quiz_batch_1_6e_15_03"
+      ],
+      "glossary_refs": [
+        "Term_preventif",
+        "Term_completed_stroke",
+        "Term_ct_scan_kepala_stroke_hemoragik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "embedded_image_count": 96
+      }
+    },
+    {
+      "id": "batch_1_6e_15_s23",
+      "title": "Penjelasan sederhana / simpler bilingual bridge.",
+      "kind": "Bilingual",
+      "content": [
+        {
+          "type": "Simplified_id",
+          "text": "Versi sederhana: materi ini terutama membahas patofisiologi stroke gizi dengan fokus pada konsep klinis, diagnosis, tanda penting, dan tata laksana yang tampak di bahan dosen.",
+          "provenance": {
+            "source_document": "Patofisiologi stroke_gizi.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        },
+        {
+          "type": "Simplified_en",
+          "text": "Simple English bridge: this lecture centers on patofisiologi stroke gizi, emphasizing clinical concepts, diagnosis, key signs, and management points extracted from the lecturer file.",
+          "provenance": {
+            "source_document": "Patofisiologi stroke_gizi.docx",
+            "is_generated_from_source": true
+          },
+          "confidence": "medium"
+        }
+      ],
+      "visual_refs": [
+        "Visual_batch_1_6e_15_01",
+        "Visual_batch_1_6e_15_02",
+        "Visual_batch_1_6e_15_03"
+      ],
+      "quiz_refs": [
+        "Quiz_batch_1_6e_15_01",
+        "Quiz_batch_1_6e_15_02",
+        "Quiz_batch_1_6e_15_03"
+      ],
+      "glossary_refs": [
+        "Term_preventif",
+        "Term_completed_stroke",
+        "Term_ct_scan_kepala_stroke_hemoragik"
+      ],
+      "question_refs": [],
+      "provenance": {
+        "source_document": "Patofisiologi stroke_gizi.docx",
+        "generated_section": true
+      }
+    }
+  ],
+  "related_exam_set_ids": [],
+  "provenance": {
+    "source_document": "Patofisiologi stroke_gizi.docx",
+    "manifest_document_id": "batch_1_6e_15",
+    "topic_tags": [
+      "Stroke",
+      "Vascular neurology"
+    ],
+    "extraction_method": "python-docx paragraph/table extraction; embedded images counted but not OCRed",
+    "paragraph_count": 66,
+    "table_count": 1,
+    "embedded_image_count": 96
+  }
+}

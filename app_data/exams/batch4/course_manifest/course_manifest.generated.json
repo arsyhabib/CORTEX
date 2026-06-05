@@ -1,0 +1,44 @@
+{
+  "id": "course_manifest_batch4_soal_mcq_6_3_akt_19_tahun_2022",
+  "batch_id": "batch_4_soal_2022",
+  "batch_label": "Batch 4 / Soal MCQ 6.3 Akt 19 Tahun 2022",
+  "generated_at_utc": "2026-06-03T18:11:28.403357+00:00",
+  "source_count": 1,
+  "sources": [
+    {
+      "source_filename": "Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+      "source_relative_path": "SOAL 6E 6F/Soal MCQ 6.3 Akt 19 Tahun 2022.docx",
+      "source_type": "docx",
+      "sha256": "60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9"
+    }
+  ],
+  "domains": [
+    "original_exam_sets",
+    "quiz_bank",
+    "glossary",
+    "content_link_map",
+    "page_registry",
+    "course_manifest",
+    "analysis_notes",
+    "qc"
+  ],
+  "artifacts": {
+    "original_exam_set": "original_exam_sets/batch4_soal_mcq_6_3_akt_19_tahun_2022.json",
+    "quiz_bank": "quiz_bank/batch4_quiz_bank.generated.json",
+    "glossary": "glossary/batch4_glossary.generated.json",
+    "content_link_map": "content_link_map/content_link_map.generated.json",
+    "page_registry": "page_registry/page_registry.generated.json"
+  },
+  "counts": {
+    "source_lines": 200,
+    "exam_questions": 58,
+    "quiz_items_answerable": 56,
+    "glossary_terms": 79,
+    "content_links": 88,
+    "low_confidence_questions": 7,
+    "medium_confidence_questions": 19,
+    "high_confidence_questions": 32,
+    "unresolved_questions": 2
+  },
+  "integration_notes": "Question-bank recall source normalized into provenance-safe original exam set and answerable quiz bank. Items with missing options or ambiguous answer hints are explicitly flagged."
+}

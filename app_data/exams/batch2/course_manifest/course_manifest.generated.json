@@ -1,0 +1,42 @@
+{
+  "course_manifest_id": "course_manifest_batch_2_mcq_6_3_trapezius",
+  "batch_id": "batch_2_mcq_6_3_trapezius",
+  "title": "Batch 2 / MCQ 6.3 TRAPEZIUS",
+  "domain": "question_domain",
+  "source_files": [
+    {
+      "filename": "MCQ 6.3 TRAPEZIUS.pdf",
+      "relative_path": "SOAL 6E 6F/MCQ 6.3 TRAPEZIUS.pdf",
+      "sha256": "48984c6421cb07c1771352f47c931996e49aa11673eb9578b8a41129e9f34fa6",
+      "type": "pdf",
+      "page_count": 4
+    }
+  ],
+  "outputs": {
+    "original_exam_sets": [
+      "original_exam_sets/orig_exam_batch_2_mcq_6_3_trapezius.json"
+    ],
+    "quiz_bank": [
+      "quiz_bank/batch_2_mcq_6_3_trapezius.quiz_bank.json"
+    ],
+    "glossary": [
+      "glossary/batch_2_mcq_6_3_trapezius.glossary.json"
+    ],
+    "content_link_map": "content_link_map/content_link_map.generated.json",
+    "page_registry": "page_registry/page_registry.generated.json"
+  },
+  "counts": {
+    "source_pages": 4,
+    "reconstructed_numbered_items": 51,
+    "items_with_source_answer": 45,
+    "items_missing_answer": 6,
+    "source_items_with_two_or_more_options": 8,
+    "quiz_items": 19,
+    "glossary_terms": 40
+  },
+  "integration_notes": [
+    "Original exam questions include pseudo-options only when source options were absent to satisfy compile schema minItems=2.",
+    "Use answer_source_status and confidence fields before exposing items in exam mode.",
+    "Items with missing_in_source should be routed to manual verification queue."
+  ]
+}

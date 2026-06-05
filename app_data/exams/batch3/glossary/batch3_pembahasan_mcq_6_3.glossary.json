@@ -1,0 +1,400 @@
+{
+  "terms": [
+    {
+      "id": "term_siriraj_stroke_score",
+      "term": "Siriraj Stroke Score",
+      "domain": "neurology",
+      "definition": "Clinical score used to estimate hemorrhagic versus ischemic stroke probability when CT is unavailable; uses consciousness, vomiting, headache, diastolic blood pressure, atheroma markers, and atrial fibrillation."
+    },
+    {
+      "id": "term_gangguan_panik",
+      "term": "Gangguan panik",
+      "domain": "psychiatry",
+      "definition": "Anxiety disorder with recurrent unexpected panic attacks and ongoing concern or behavioral change related to attacks, commonly with palpitations, dyspnea, sweating, and fear of dying."
+    },
+    {
+      "id": "term_sindrom_weber",
+      "term": "Sindrom Weber",
+      "domain": "neurology",
+      "definition": "Midbrain alternating syndrome with ipsilateral oculomotor nerve palsy and contralateral pyramidal weakness."
+    },
+    {
+      "id": "term_delirium",
+      "term": "Delirium",
+      "domain": "psychiatry_neurology",
+      "definition": "Acute, fluctuating disturbance of attention, awareness, cognition, often due to medical, toxic, metabolic, or neurologic causes."
+    },
+    {
+      "id": "term_gcs",
+      "term": "Glasgow Coma Scale",
+      "domain": "neurology_emergency",
+      "definition": "Scale assessing eye, verbal, and motor responses; motor M4 is withdrawal from pain, M5 localizes pain, M6 obeys commands."
+    },
+    {
+      "id": "term_meniere",
+      "term": "Meniere disease",
+      "domain": "vestibular",
+      "definition": "Peripheral vestibular disorder characterized by episodic vertigo, hearing symptoms, tinnitus, and aural fullness."
+    },
+    {
+      "id": "term_psikotik_organik",
+      "term": "Gangguan psikotik organik",
+      "domain": "psychiatry",
+      "definition": "Psychotic symptoms judged secondary to an organic brain or medical condition; must be separated from delirium when consciousness is impaired."
+    },
+    {
+      "id": "term_kepribadian_anankastik",
+      "term": "Kepribadian anankastik/obsesif-kompulsif",
+      "domain": "psychiatry",
+      "definition": "Personality pattern with rigidity, perfectionism, excessive orderliness, and control."
+    },
+    {
+      "id": "term_vertigo_sentral",
+      "term": "Vertigo sentral",
+      "domain": "neurology",
+      "definition": "Vertigo caused by central nervous system pathology; nystagmus may lack latency and is less position-fatigable than peripheral vertigo."
+    },
+    {
+      "id": "term_demensia",
+      "term": "Demensia",
+      "domain": "neuropsychiatry",
+      "definition": "Acquired decline in cognition that interferes with daily function, often involving memory, language, praxis, recognition, and executive ability."
+    },
+    {
+      "id": "term_fobia_spesifik",
+      "term": "Fobia spesifik",
+      "domain": "psychiatry",
+      "definition": "Marked fear or anxiety about a specific object or situation, such as enclosed spaces in claustrophobia."
+    },
+    {
+      "id": "term_tension_type_headache",
+      "term": "Chronic tension-type headache",
+      "domain": "neurology",
+      "definition": "Tension-type headache occurring on 15 or more days per month for more than 3 months."
+    },
+    {
+      "id": "term_flight_of_ideas",
+      "term": "Flight of ideas",
+      "domain": "psychiatry",
+      "definition": "Rapid flow of speech/thoughts with shifting associations, classically a disorder of thought stream/form."
+    },
+    {
+      "id": "term_miastenia_gravis",
+      "term": "Miastenia gravis",
+      "domain": "neurology",
+      "definition": "Autoimmune neuromuscular junction disorder causing fatigable weakness, commonly ptosis, diplopia, and bulbar symptoms."
+    },
+    {
+      "id": "term_meningitis_tb",
+      "term": "Meningitis tuberkulosis",
+      "domain": "neurology_infectious",
+      "definition": "Tuberculous infection of meninges; CSF often shows mononuclear pleocytosis, low glucose, and elevated protein."
+    },
+    {
+      "id": "term_migraine_aura",
+      "term": "Migraine with aura",
+      "domain": "neurology",
+      "definition": "Migraine subtype with reversible focal neurologic symptoms, commonly visual aura, preceding or accompanying headache."
+    },
+    {
+      "id": "term_lumbal_pungsi",
+      "term": "Lumbal pungsi",
+      "domain": "neurology_diagnostics",
+      "definition": "Procedure to obtain cerebrospinal fluid for analysis, central in meningitis diagnosis when not contraindicated."
+    },
+    {
+      "id": "term_trauma_kepala_sedang",
+      "term": "Trauma kepala sedang",
+      "domain": "emergency_neurology",
+      "definition": "Head injury severity category typically associated with GCS 9-12 and intermediate loss-of-consciousness/PTA criteria."
+    },
+    {
+      "id": "term_demensia_vaskular",
+      "term": "Demensia vaskular",
+      "domain": "neuropsychiatry",
+      "definition": "Cognitive decline due to cerebrovascular disease, often stepwise and associated with focal neurologic history."
+    },
+    {
+      "id": "term_moyamoya",
+      "term": "Moyamoya disease",
+      "domain": "vascular_neurology",
+      "definition": "Steno-occlusive intracranial vasculopathy with collateral vessels giving a puff-of-smoke angiographic appearance."
+    },
+    {
+      "id": "term_antipsikotik",
+      "term": "Antipsikotik",
+      "domain": "psychiatry_pharmacology",
+      "definition": "Drugs used for psychosis; typical agents mainly antagonize dopamine D2 receptors, while atypical agents also affect serotonin and other receptor systems."
+    },
+    {
+      "id": "term_stroke_iskemik",
+      "term": "Stroke iskemik",
+      "domain": "vascular_neurology",
+      "definition": "Acute neurologic deficit due to cerebral ischemia or infarction."
+    },
+    {
+      "id": "term_spinothalamic_lateral",
+      "term": "Traktus spinotalamikus lateral",
+      "domain": "neuroanatomy",
+      "definition": "Ascending sensory tract carrying pain and temperature information."
+    },
+    {
+      "id": "term_ssri",
+      "term": "Selective serotonin reuptake inhibitor",
+      "domain": "psychiatry_pharmacology",
+      "definition": "Antidepressant class that inhibits SERT and reduces presynaptic serotonin reuptake."
+    },
+    {
+      "id": "term_amnesia_anterograde",
+      "term": "Amnesia anterograde",
+      "domain": "neuropsychiatry",
+      "definition": "Inability to form new memories after an event or brain insult."
+    },
+    {
+      "id": "term_meningioma",
+      "term": "Meningioma",
+      "domain": "neurosurgery",
+      "definition": "Usually slow-growing extra-axial non-glial tumor arising from meningothelial arachnoid cap cells."
+    },
+    {
+      "id": "term_demensia_alzheimer",
+      "term": "Demensia Alzheimer",
+      "domain": "neuropsychiatry",
+      "definition": "Progressive neurodegenerative dementia usually beginning with episodic memory impairment."
+    },
+    {
+      "id": "term_descending_pathway",
+      "term": "Descending motor pathway",
+      "domain": "neuroanatomy",
+      "definition": "Motor pathways descending from cerebral cortex/brainstem to spinal motor neurons, including corticospinal tract."
+    },
+    {
+      "id": "term_paralisis_periodik",
+      "term": "Paralisis periodik",
+      "domain": "neuromuscular",
+      "definition": "Episodic flaccid weakness related to muscle ion-channel dysfunction, often triggered by carbohydrate load or potassium shifts."
+    },
+    {
+      "id": "term_perdarahan_subaraknoid",
+      "term": "Perdarahan subaraknoid",
+      "domain": "vascular_neurology",
+      "definition": "Bleeding into subarachnoid space, classically causing thunderclap headache, neck stiffness, and possible subhyaloid hemorrhage."
+    },
+    {
+      "id": "term_sud",
+      "term": "Substance use disorder",
+      "domain": "psychiatry_addiction",
+      "definition": "Maladaptive pattern of substance use with impaired control, social impairment, risky use, and pharmacologic criteria such as tolerance/withdrawal."
+    },
+    {
+      "id": "term_agnosia",
+      "term": "Agnosia",
+      "domain": "neuropsychology",
+      "definition": "Failure to recognize objects, persons, sounds, shapes, or smells despite intact primary sensory function."
+    },
+    {
+      "id": "term_faktor_risiko_stroke",
+      "term": "Faktor risiko stroke",
+      "domain": "vascular_neurology",
+      "definition": "Clinical or historical factors that increase stroke probability, including hypertension, diabetes, atrial fibrillation, hypercoagulability, and vascular disease."
+    },
+    {
+      "id": "term_monoamine_hypothesis",
+      "term": "Monoamine hypothesis",
+      "domain": "psychiatry",
+      "definition": "Theory linking depression to dysregulation of monoamine neurotransmitters such as serotonin, norepinephrine, and dopamine."
+    },
+    {
+      "id": "term_tia",
+      "term": "Transient ischemic attack",
+      "domain": "vascular_neurology",
+      "definition": "Transient focal neurologic dysfunction due to ischemia without established infarction."
+    },
+    {
+      "id": "term_stroke_hemoragik",
+      "term": "Stroke hemoragik",
+      "domain": "vascular_neurology",
+      "definition": "Neurologic deficit caused by intracranial bleeding, often associated with severe headache, vomiting, decreased consciousness, and hypertension."
+    },
+    {
+      "id": "term_wernicke_korsakoff",
+      "term": "Sindrom Wernicke-Korsakoff",
+      "domain": "neuropsychiatry",
+      "definition": "Neuropsychiatric syndrome due to thiamine deficiency, with Wernicke encephalopathy and Korsakoff amnesia spectrum."
+    },
+    {
+      "id": "term_efek_ekstrapiramidal",
+      "term": "Efek ekstrapiramidal",
+      "domain": "psychiatry_pharmacology",
+      "definition": "Motor adverse effects of dopamine blockade including acute dystonia, akathisia, parkinsonism, and dyskinesia."
+    },
+    {
+      "id": "term_ensefalopati",
+      "term": "Ensefalopati",
+      "domain": "neurology",
+      "definition": "Diffuse brain dysfunction, usually presenting with altered mental status."
+    },
+    {
+      "id": "term_basal_ganglia",
+      "term": "Ganglia basalis",
+      "domain": "neuroanatomy",
+      "definition": "Deep nuclei including caudate, putamen, and globus pallidus involved in extrapyramidal movement modulation."
+    },
+    {
+      "id": "term_epilepsi_absans",
+      "term": "Epilepsi absans",
+      "domain": "neurology_pediatrics",
+      "definition": "Generalized seizure type with brief staring spells and classically 3-Hz spike-and-wave EEG."
+    },
+    {
+      "id": "term_illness_anxiety_disorder",
+      "term": "Illness anxiety disorder",
+      "domain": "psychiatry",
+      "definition": "Preoccupation with having or acquiring serious illness despite reassurance, with absent or mild somatic symptoms."
+    },
+    {
+      "id": "term_halusinogen",
+      "term": "Halusinogen",
+      "domain": "psychiatry_addiction",
+      "definition": "Substances that alter perception, thought, and affect, potentially causing hallucination-like experiences."
+    },
+    {
+      "id": "term_epidural_hematoma",
+      "term": "Epidural hematoma",
+      "domain": "neurosurgery",
+      "definition": "Extra-axial hemorrhage between skull and dura, classically biconvex/lens-shaped and associated with lucid interval after trauma."
+    },
+    {
+      "id": "term_subdural_hematoma",
+      "term": "Subdural hematoma",
+      "domain": "neurosurgery",
+      "definition": "Bleeding between dura and arachnoid, commonly due to bridging vein rupture and crescent-shaped on CT."
+    },
+    {
+      "id": "term_perdarahan_intraserebral",
+      "term": "Perdarahan intraserebral",
+      "domain": "vascular_neurology",
+      "definition": "Bleeding within brain parenchyma, commonly associated with chronic hypertension."
+    },
+    {
+      "id": "term_lobus_frontal",
+      "term": "Lobus frontal",
+      "domain": "neuroanatomy",
+      "definition": "Cerebral lobe involved in executive function, behavior regulation, motor planning, and language production."
+    },
+    {
+      "id": "term_kortikospinal",
+      "term": "Traktus kortikospinal",
+      "domain": "neuroanatomy",
+      "definition": "Major descending voluntary motor tract; lesions cause upper motor neuron weakness."
+    },
+    {
+      "id": "term_axis_dsm",
+      "term": "Diagnosis multiaxial DSM",
+      "domain": "psychiatry",
+      "definition": "Older DSM multiaxial format separated clinical disorders, personality/intellectual disorders, medical conditions, psychosocial factors, and global functioning."
+    },
+    {
+      "id": "term_tumor_serebelum",
+      "term": "Tumor serebelum",
+      "domain": "neurosurgery",
+      "definition": "Posterior fossa tumor that may cause headache, vomiting, vertigo, ataxia, dysmetria, and dysarthria."
+    },
+    {
+      "id": "term_gangguan_konversi",
+      "term": "Gangguan konversi",
+      "domain": "psychiatry",
+      "definition": "Functional neurologic symptoms not explained by known neurologic disease and associated with psychological mechanisms."
+    },
+    {
+      "id": "term_aras",
+      "term": "Ascending reticular activating system",
+      "domain": "neuroanatomy",
+      "definition": "Brainstem reticular system essential for arousal and consciousness, working with bilateral cerebral hemispheres."
+    },
+    {
+      "id": "term_donepezil",
+      "term": "Donepezil",
+      "domain": "neuropharmacology",
+      "definition": "Acetylcholinesterase inhibitor used symptomatically in Alzheimer dementia."
+    },
+    {
+      "id": "term_eeg",
+      "term": "Elektroensefalografi",
+      "domain": "neurology_diagnostics",
+      "definition": "Recording of brain electrical activity used to support epilepsy diagnosis."
+    },
+    {
+      "id": "term_narkotika_golongan_ii",
+      "term": "Narkotika golongan II",
+      "domain": "forensic_pharmacology",
+      "definition": "Narcotic group recognized for medical/scientific use under Indonesian narcotic classification, including agents such as pethidine."
+    },
+    {
+      "id": "term_kepribadian_paranoid",
+      "term": "Kepribadian paranoid",
+      "domain": "psychiatry",
+      "definition": "Personality pattern marked by suspiciousness, mistrust, grudges, and hostile interpretation of neutral events."
+    },
+    {
+      "id": "term_bell_palsy",
+      "term": "Bell palsy",
+      "domain": "neurology",
+      "definition": "Acute peripheral facial nerve palsy, commonly treated early with corticosteroids."
+    },
+    {
+      "id": "term_waham",
+      "term": "Waham",
+      "domain": "psychiatry",
+      "definition": "Fixed false belief not corrected by evidence and representing a disorder of thought content."
+    },
+    {
+      "id": "term_epilepsi_grand_mal",
+      "term": "Epilepsi grand mal",
+      "domain": "neurology",
+      "definition": "Generalized tonic-clonic seizure with tonic stiffening, clonic movements, impaired consciousness, and postictal state."
+    },
+    {
+      "id": "term_opioid",
+      "term": "Opioid",
+      "domain": "pharmacology_addiction",
+      "definition": "Drug class acting on opioid receptors; used for strong analgesia and commonly causing constipation."
+    },
+    {
+      "id": "term_sindrom_medulla_oblongata",
+      "term": "Sindrom medulla oblongata",
+      "domain": "neurology",
+      "definition": "Brainstem syndrome involving lower cranial nerve and long-tract signs, such as dysphagia, dysarthria, sensory deficits, and reflex abnormalities."
+    },
+    {
+      "id": "term_gbs",
+      "term": "Guillain-Barré syndrome",
+      "domain": "neurology",
+      "definition": "Acute immune-mediated polyradiculoneuropathy causing ascending weakness, areflexia, and possible respiratory compromise."
+    },
+    {
+      "id": "term_rivastigmin",
+      "term": "Rivastigmin",
+      "domain": "neuropharmacology",
+      "definition": "Cholinesterase inhibitor used for Alzheimer and related dementias."
+    },
+    {
+      "id": "term_kejang_demam_sederhana",
+      "term": "Kejang demam sederhana",
+      "domain": "pediatrics_neurology",
+      "definition": "Generalized febrile seizure lasting under 15 minutes, occurring once in 24 hours, without focal features in a neurologically normal child."
+    },
+    {
+      "id": "term_haloperidol",
+      "term": "Haloperidol",
+      "domain": "psychiatry_pharmacology",
+      "definition": "Typical antipsychotic used for psychosis and severe agitation, including selected delirium cases under clinical monitoring."
+    },
+    {
+      "id": "term_tes_lasegue",
+      "term": "Tes Lasègue",
+      "domain": "neurology_orthopedics",
+      "definition": "Straight-leg-raise test used to assess lumbosacral radiculopathy/sciatic nerve irritation."
+    }
+  ]
+}

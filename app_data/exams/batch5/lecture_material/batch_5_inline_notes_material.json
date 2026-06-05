@@ -1,0 +1,35 @@
+{
+  "id": "batch5_inline_notes_material",
+  "title": "Batch 5 inline explanatory notes preserved from source annotations",
+  "source_label": "Inline annotations from 6.3 okeoyeee with dr iksan and willy no -50.docx plus source variants",
+  "sections": [
+    {
+      "id": "batch5_notes_farmako_psikiatri",
+      "title": "Catatan farmakologi psikiatri sumber",
+      "summary": "Sumber memuat catatan ringkas tentang antipsikotik, antidepresan, NAPZA, dan beberapa penanda efek samping. Catatan dipertahankan sebagai bahan bantu, bukan kunci final.",
+      "raw_excerpt": [
+        "Cttn farmako",
+        "Obat antisikotik",
+        "Generasi apg1, tipikal, patogenesis blok dopamin pada reseptor limbik, contoh haloperidol, klopromazin",
+        "Generasi 2 apg2,atipikal, memblok sertonin dan dopamin, cpm,hesperidon, clozapin (pilihan terakhir),",
+        "Efek ekstramidal dominan pada apg1 yaitu efek gelisa tremor, pusing ( ateksisa,, obat efeksamping ektrapiramidal, antihistamin, anti kolinergik, antagonis adingrik, antideresan",
+        "Obat antidpressan",
+        "Ssri, blokade serotinin aja, straline, fluxotine",
+        "Snri, blokade dopamine, dan serotonine, venalvaxine",
+        "Trisklik, amitripilin",
+        "Maoi, selegine",
+        "Obat napza",
+        "Napza",
+        "Narkotika gol1 ganja kokain herioin, gol 2morfin, gol3 kodein",
+        "Psikotropika, gol1 ekstasi pil, gol 2 amftamine obat,gol3 penoparbital,gol4 diazepam",
+        "Zat adiktif alkohol, etanol,"
+      ]
+    },
+    {
+      "id": "batch5_notes_uncertainty",
+      "title": "Catatan ketidakpastian",
+      "summary": "Beberapa kunci berasal dari catatan peer/lecturer shorthand dan diberi confidence rendah bila tidak eksplisit atau bertentangan dengan pengetahuan standar.",
+      "raw_excerpt": []
+    }
+  ]
+}

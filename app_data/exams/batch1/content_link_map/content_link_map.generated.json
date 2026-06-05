@@ -1,0 +1,592 @@
+{
+  "links": [
+    {
+      "from_id": "mcq_6e_2025_original_exam_set",
+      "to_id": "page_exam_mcq_6e_2025",
+      "link_type": "set_to_page",
+      "strength": "strong",
+      "notes": "Original exam set route for MCQ 6.E 2025."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q01",
+      "to_id": "term_lcs",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q01",
+      "to_id": "term_lumbal_pungsi",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q01",
+      "to_id": "term_herniasi_otak",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q02",
+      "to_id": "term_lcs",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q02",
+      "to_id": "term_opening_pressure",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q02",
+      "to_id": "term_herniasi_otak",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q03",
+      "to_id": "term_meningitis",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q03",
+      "to_id": "term_ensefalitis_hsv",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q03",
+      "to_id": "term_hiv",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q04",
+      "to_id": "term_abses_otak",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q04",
+      "to_id": "term_amfoterisin_b",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q04",
+      "to_id": "term_metronidazole",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q04",
+      "to_id": "term_ceftriaxone",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q05",
+      "to_id": "term_meningitis",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q05",
+      "to_id": "term_hiv",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q06",
+      "to_id": "term_lcs",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q06",
+      "to_id": "term_kultur_lcs",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q06",
+      "to_id": "term_meningitis",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q07",
+      "to_id": "term_tes_romberg",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q08",
+      "to_id": "term_tekanan_intrakranial",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q08",
+      "to_id": "term_ct_scan",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q09",
+      "to_id": "term_neisseria_meningitidis",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q09",
+      "to_id": "term_diplokokus_gram_negatif",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q10",
+      "to_id": "term_clostridium_tetani",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q10",
+      "to_id": "term_tetanospasmin",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q11",
+      "to_id": "term_cerebellum",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q11",
+      "to_id": "term_disartria",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q12",
+      "to_id": "term_korteks_serebri",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q12",
+      "to_id": "term_kesadaran",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q13",
+      "to_id": "term_ensefalopati_hipoksia",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q13",
+      "to_id": "term_karbon_monoksida",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q14",
+      "to_id": "term_afasia",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q15",
+      "to_id": "term_ilae_2017",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q15",
+      "to_id": "term_generalized_motor_seizure",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q16",
+      "to_id": "term_penyakit_parkinson",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q16",
+      "to_id": "term_entacapone",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q16",
+      "to_id": "term_levodopa",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q16",
+      "to_id": "term_pramipexole",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q17",
+      "to_id": "term_migren",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q17",
+      "to_id": "term_propranolol",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q18",
+      "to_id": "term_migren",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q18",
+      "to_id": "term_sumatriptan",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q19",
+      "to_id": "term_migren",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q19",
+      "to_id": "term_aura",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q20",
+      "to_id": "term_bppv",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q20",
+      "to_id": "term_meniere",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q21",
+      "to_id": "term_myoclonic_seizure",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q22",
+      "to_id": "term_meningioma",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q22",
+      "to_id": "term_tumor_intrakranial",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q23",
+      "to_id": "term_nyeri_kepala",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q24",
+      "to_id": "term_agnosia",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q25",
+      "to_id": "term_perdarahan_subarachnoid",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q25",
+      "to_id": "term_ct_scan",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q26",
+      "to_id": "term_hematoma_epidural",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q26",
+      "to_id": "term_ct_scan",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q27",
+      "to_id": "term_radikulopati",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q28",
+      "to_id": "term_eeg",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q28",
+      "to_id": "term_kejang",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q29",
+      "to_id": "term_tes_romberg",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q29",
+      "to_id": "term_vertigo_sentral",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q30",
+      "to_id": "term_medulla_spinalis",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q31",
+      "to_id": "term_myasthenia_gravis",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q31",
+      "to_id": "term_reseptor_asetilkolin",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q31",
+      "to_id": "term_neuromuscular_junction",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q32",
+      "to_id": "term_bppv",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q32",
+      "to_id": "term_antihistamin",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q32",
+      "to_id": "term_betahistine",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q33",
+      "to_id": "term_defisit_kontralateral",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q33",
+      "to_id": "term_korteks_serebri",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q34",
+      "to_id": "term_lesi_desak_ruang",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q34",
+      "to_id": "term_trauma_kepala",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q35",
+      "to_id": "term_myasthenia_gravis",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q35",
+      "to_id": "term_neuromuscular_junction",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q35",
+      "to_id": "term_ptosis",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q36",
+      "to_id": "term_bppv",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q36",
+      "to_id": "term_betahistine",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q37",
+      "to_id": "term_tia",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q37",
+      "to_id": "term_rind",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q38",
+      "to_id": "term_emboli_serebri",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q38",
+      "to_id": "term_tia",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q39",
+      "to_id": "term_distonia",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q40",
+      "to_id": "term_umn",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    },
+    {
+      "from_id": "mcq_6e_2025_original_exam_set_q40",
+      "to_id": "term_refleks_patologis",
+      "link_type": "question_to_glossary",
+      "strength": "medium",
+      "notes": "Term is directly used in the reconstructed stem, option, answer, or explanation."
+    }
+  ]
+}

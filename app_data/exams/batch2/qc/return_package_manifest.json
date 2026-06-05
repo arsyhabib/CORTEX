@@ -1,0 +1,91 @@
+{
+  "batch_id": "batch_2_mcq_6_3_trapezius",
+  "file_count": 17,
+  "files": [
+    {
+      "path": "analysis_notes/coverage_report.md",
+      "bytes": 1191,
+      "sha256": "f01227e3a3d5be465f0aa0621d52ff1c25bf4b2d3a535f0e29afb59df11331cc"
+    },
+    {
+      "path": "analysis_notes/deduplication_report.md",
+      "bytes": 834,
+      "sha256": "18eff02c6d60c87169c48301661913f0d33fc635534eddac26aca28f726c318f"
+    },
+    {
+      "path": "analysis_notes/inference_log.md",
+      "bytes": 3196,
+      "sha256": "bdd01f669fd6ece56acd44854eda9c0e4bf8b896b04035d3dfecabcdfb76c09b"
+    },
+    {
+      "path": "analysis_notes/reconstruction_table.csv",
+      "bytes": 10412,
+      "sha256": "5539b4b97a8feae52f3d59dfb3d65b608063df22aae30d4d4ac9bcaaff28dc53"
+    },
+    {
+      "path": "analysis_notes/source_gaps.md",
+      "bytes": 919,
+      "sha256": "06f0f8127f308794c062cbbbb7ba9c4ec12c8b4e746d423079288248ec6085bb"
+    },
+    {
+      "path": "content_link_map/content_link_map.generated.json",
+      "bytes": 10617,
+      "sha256": "1c2b9f3e0f81e5a704ff5f21d166e391981f7531382122a57ae7f33d5beb7942"
+    },
+    {
+      "path": "course_manifest/course_manifest.generated.json",
+      "bytes": 1460,
+      "sha256": "8d4bcf8a807d9546739c71760b84c026c14913eb64562c06dafd58a322d201b0"
+    },
+    {
+      "path": "glossary/batch_2_mcq_6_3_trapezius.glossary.json",
+      "bytes": 9247,
+      "sha256": "91f04a89856acacaa7d05feeff819185606e327f0a9616e26264b06568725286"
+    },
+    {
+      "path": "original_exam_sets/orig_exam_batch_2_mcq_6_3_trapezius.json",
+      "bytes": 57064,
+      "sha256": "9cf3f3387ba624c58a7b79bae90651c1aeb1c7b10a8fcddd06463adfdd3f4208"
+    },
+    {
+      "path": "page_registry/page_registry.generated.json",
+      "bytes": 998,
+      "sha256": "1676f269d1732dac0b8dace470bde0a3cfe7fc72d12a8a98986e85bc59e5c25c"
+    },
+    {
+      "path": "qc/content_qc_report.csv",
+      "bytes": 1282,
+      "sha256": "59c5eaceaeef422a4c4a28c299dcd0075845c7445ec8eb2c41f0a94847ef094f"
+    },
+    {
+      "path": "qc/original_exam_set_qc_report.csv",
+      "bytes": 390,
+      "sha256": "90ceec84ddcd4fdfada7405879610a783f83d9e98dc2c1251f03465278a695bb"
+    },
+    {
+      "path": "qc/repair_summary.md",
+      "bytes": 286,
+      "sha256": "42982ee10f8fee415f8ec284cf0970e4a5d54285efdde443b9cb9dc99d513102"
+    },
+    {
+      "path": "qc/return_package_manifest.json",
+      "bytes": 2681,
+      "sha256": "07c2ab40f035885cb961a94aaed6bbbdc00ed579e4372a57b495ca69dc327b57"
+    },
+    {
+      "path": "qc/schema_validation_report.json",
+      "bytes": 874,
+      "sha256": "69c79fe88cd19f6b8929205aa297ad83935ce070f44ff128b176104cd9296c6b"
+    },
+    {
+      "path": "qc/source_inventory.csv",
+      "bytes": 304,
+      "sha256": "791fbc43433a44690e1c7d97fd149558ed74d68ca99a9200628d92d74b9a294e"
+    },
+    {
+      "path": "quiz_bank/batch_2_mcq_6_3_trapezius.quiz_bank.json",
+      "bytes": 12485,
+      "sha256": "e8159d65c97ece852c583795c070c1940ac3a7fc8e9d51f8a82e6795e0f58472"
+    }
+  ]
+}

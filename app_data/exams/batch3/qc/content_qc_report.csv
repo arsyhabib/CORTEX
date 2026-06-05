@@ -1,0 +1,5 @@
+content_id,domain,title,word_count,has_summary,has_visual,has_quiz,has_glossary,readability_status,source_status,qc_status,notes
+batch3_pembahasan_mcq_6_3_akt_18_2021,original_exam_sets,Pembahasan MCQ 6.3 Akt 18 Tahun 2021,4697,yes,yes,yes,yes,normalized_indonesian,line_provenance_preserved,pass,Core exam set reconstructed from DOCX transcript.
+batch3_pembahasan_mcq_6_3.quiz_bank,quiz_bank,Quiz mirror of Batch 3 MCQs,3347,no,linked_in_exam_set,yes,linked,normalized_indonesian,derived_from_exam_set,pass,75 quiz items generated from cleaned MCQ set.
+batch3_pembahasan_mcq_6_3.glossary,glossary,Glossary for Batch 3,906,no,no,linked,yes,technical_but_short,derived_from_question_topics,pass,66 glossary terms generated.
+content_link_map.generated,content_link_map,Generated content links,0,no,yes,yes,yes,machine_readable,generated,pass,78 links.

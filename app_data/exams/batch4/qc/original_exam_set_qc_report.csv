@@ -1,0 +1,2 @@
+exam_set_id,source_file,source_sha256,source_lines,question_count,high_confidence,medium_confidence,low_confidence,answer_hint_only_count,unresolved_count,schema_status,notes
+batch4_soal_mcq_6_3_akt_19_tahun_2022,Soal MCQ 6.3 Akt 19 Tahun 2022.docx,60056b6556194903cba3dae62ed5b4a7d28bb2a4e26cb9a7ef420b5abf8185b9,200,58,32,19,7,23,2,validated_basic_json_schema,All 58 source questions retained; unresolved/ambiguous items remain explicitly flagged.
