@@ -11131,15 +11131,13 @@ function CortexLibraryNav({ page, onNavigate, mode, sidebarMode = 'dock', onClos
           ),
           React.createElement(B1Badge, { color:DL.teal }, lecturePanelOpen ? `${lectureModuleCount}` : 'Open')
         ),
-        lecturePanelOpen && React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.45, marginBottom:10 }},
-          contentIndexStatus === 'loading'
-            ? 'Loading lecture inventory...'
-            : contentIndexStatus === 'error'
-              ? '⚠️ Data gagal dimuat. Jalankan via HTTP: npx serve .'
-              : 'Each button below opens one structured lecturer module. Counts match the ingested package inventory.'),
-        lecturePanelOpen && contentIndexStatus === 'error' && React.createElement('div', { style:{ color:DL.red, fontSize:10, lineHeight:1.45, marginBottom:10, padding:'8px 10px', borderRadius:10, background:'rgba(239,68,68,0.08)', border:'1px solid rgba(239,68,68,0.2)' }},
-          'Akses via file:// tidak mendukung fetch API. Jalankan perintah berikut di terminal:\n\nnpx serve .\n\nKemudian buka http://localhost:3000'),
-        lecturePanelOpen && contentIndexStatus !== 'error' && lectureDomains.map((domain) => React.createElement('div', {
+        lecturePanelOpen && contentIndexStatus === 'loading'
+            ? React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.45, marginBottom:10 }}, '⏳ Memuat daftar materi...')
+            : React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.45, marginBottom:10 }},
+              contentIndexStatus === 'error' ? '⚠️ Data tidak bisa dimuat via file://. Gunakan: npx serve .' : 'Klik modul untuk langsung membuka konten.'),
+        contentIndexStatus === 'error' && React.createElement('div', { style:{ color:DL.red, fontSize:10, lineHeight:1.45, marginBottom:10, padding:'6px 10px', borderRadius:10, background:'rgba(239,68,68,0.08)', border:'1px solid rgba(239,68,68,0.2)' }},
+          'Jalankan: npx serve . lalu buka http://localhost:3000'),
+        lecturePanelOpen && lectureDomains.map((domain) => React.createElement('div', {
           key:domain.id,
           style:{
             marginBottom:10,
@@ -11236,9 +11234,8 @@ function CortexLibraryNav({ page, onNavigate, mode, sidebarMode = 'dock', onClos
           React.createElement(B1Badge, { color:DL.gold }, examPanelOpen ? `${examSets.length}` : 'Open')
         ),
         examPanelOpen && React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.45, marginBottom:10 }},
-          'Each button opens one reconstructed set soal domain. Only validated sets with real question counts appear here.'),
-        examPanelOpen && React.createElement('div', { style:{ display:'grid', gap:8 }},
-          examSets.map((set) => React.createElement('button', {
+          contentIndexStatus === 'error' ? '⚠️ Data tidak bisa dimuat via file://' : 'Klik set soal untuk membuka.'),
+        examPanelOpen && examSets.map((set) => React.createElement('button', {
             key:set.id,
             type:'button',
             onClick:()=> {
