@@ -4700,30 +4700,28 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
   const allowFabDrag = mode === 'desktop';
   const [fabOpen, setFabOpen] = React.useState(false);
   const [fabPos, setFabPos] = React.useState(null);
-  const [fabGroup, setFabGroup] = React.useState('🔍 Tools');
+  const [fabGroup, setFabGroup] = React.useState('Search');
   const [fabActiveHub, setFabActiveHub] = React.useState(null);
   const [fabPortalTarget, setFabPortalTarget] = React.useState(null);
   const fabDragRef = React.useRef({ active:false, moved:false, sx:0, sy:0, ox:0, oy:0 });
   const currentTheme = theme || cortexResolveTheme('neural');
-
-  /* ── CORTEX Feature Groups for FAB ── */
-  const CORTEX_FEATURE_GROUPS = [
-    { id:'🔍 Tools', surfaces:[6,12,13,14], label:'Find & Explore', sub:'Search, Images, 3D, Glossary' },
-    { id:'📊 Progress', surfaces:[19,8,7], label:'Track & Tune', sub:'Progress, Motion, Settings' },
-    { id:'🤖 AI', surfaces:[20,21], label:'AI Workspace', sub:'Assistant & Provider' },
-    { id:'ℹ️ Help', surfaces:[23], label:'Help', sub:'Privacy, states, about' },
+  const FAB_GROUPS = [
+    { id:'Search', surfaces:[6,12,13,14], label:'Search / Gallery / 3D / Glossary' },
+    { id:'Progress', surfaces:[19,8,7], label:'Progress / Settings / Motion' },
+    { id:'AI', surfaces:[20,21], label:'AI Workspace / Provider' },
+    { id:'Help', surfaces:[23], label:'Help / Privacy / States' },
   ];
-  const FEATURE_SURFACE_IDS = CORTEX_FEATURE_GROUPS.flatMap(g => g.surfaces);
-  const groupedSurfaces = React.useMemo(() => {
-    const acc = {};
-    FEATURE_SURFACE_IDS.forEach(sid => {
-      const group = CORTEX_FEATURE_GROUPS.find(g => g.surfaces.includes(sid));
-      const surface = CORTEX_MAIN_SURFACES.find(s => s.id === sid);
-      if (group && surface) (acc[group.id] ||= []).push(surface);
+  const FAB_IDS = FAB_GROUPS.reduce(function(a,g){ return a.concat(g.surfaces); }, []);
+  const groupedSurfaces = React.useMemo(function() {
+    var acc = {};
+    FAB_IDS.forEach(function(sid) {
+      var grp = FAB_GROUPS.find(function(g){ return g.surfaces.includes(sid); });
+      var sfc = CORTEX_MAIN_SURFACES.find(function(s){ return s.id === sid; });
+      if (grp && sfc) { if (!acc[grp.id]) acc[grp.id] = []; acc[grp.id].push(sfc); }
     });
     return acc;
   }, []);
-  const groupOrder = ['🔍 Tools', '📊 Progress', '🤖 AI', 'ℹ️ Help'];
+  const groupOrder = ['Search', 'Progress', 'AI', 'Help'];`
   const activeSurface = cortexSurfaceLookup(surfaceId || 2);
   const surfaceMeta = {
     note: { badge:'Calm', title:'Reading-focused', sub:'Quiet hierarchy and open spacing.' },
@@ -4741,14 +4739,16 @@ function CortexPagesHubFab({ onNavigate, onSurfaceChange, mode, surfaceId, theme
     group,
     items:groupedSurfaces[group] || [],
   })).filter(group => group.items.length);
-  const hubGroups = surfaceGroups.map(group => ({
-    id:group.group,
-    title:group.group,
-    sub:`${group.items.length} fitur`,
-    kicker:'Fitur',
-    type:'pages',
-    items:group.items,
-  }));
+  const hubGroups = [
+    ...surfaceGroups.map(group => ({
+      id:group.group,
+      title:group.group,
+      sub:`${group.items.length} pages`,
+      kicker:'Pages',
+      type:'pages',
+      items:group.items,
+    })),
+  ];
   const activeGroupItems = groupedSurfaces[fabGroup] || [];
   const getFabBasePosition = React.useCallback(() => ({
     x: Math.max(16, window.innerWidth - (compact ? 158 : 176)),
@@ -7117,6 +7117,10 @@ const CORTEX_RUNTIME_CONTENT_INDEX_PATH = 'app_data/runtime/content_index.genera
 const CORTEX_RUNTIME_VISUAL_MANIFEST_PATH = 'app_data/runtime/visual_asset_manifest.generated.json';
 
 /** Detect if opened via file:// protocol (blocks fetch) */
+function cortexIsLocalFile() {
+  return typeof window !== 'undefined' && window.location && window.location.protocol === 'file:';
+}
+
 function cortexIsLocalFile() {
   return typeof window !== 'undefined' && window.location && window.location.protocol === 'file:';
 }
@@ -10573,27 +10577,27 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
   const allowFabDrag = mode === 'desktop';
   const [fabOpen, setFabOpen] = React.useState(false);
   const [fabPos, setFabPos] = React.useState(null);
-  const [fabGroup, setFabGroup] = React.useState('🔍 Tools');
+  const [fabGroup, setFabGroup] = React.useState('Search');
   const [fabActiveHub, setFabActiveHub] = React.useState(null);
   const fabDragRef = React.useRef({ active:false, moved:false, sx:0, sy:0, ox:0, oy:0 });
-
-  const HOME_FEATURE_GROUPS = [
-    { id:'🔍 Tools', surfaces:[6,12,13,14], label:'Find & Explore', sub:'Search, Images, 3D, Glossary' },
-    { id:'📊 Progress', surfaces:[19,8,7], label:'Track & Tune', sub:'Progress, Motion, Settings' },
-    { id:'🤖 AI', surfaces:[20,21], label:'AI Workspace', sub:'Assistant & Provider' },
-    { id:'ℹ️ Help', surfaces:[23], label:'Help', sub:'Privacy, states, about' },
+  const getFabBasePosition = React.useCallback(() => ({
+    x: Math.max(16, window.innerWidth - (compact ? 158 : 176)),
+    y: Math.max(16, window.innerHeight - (compact ? 98 : 110)),
+  }), [compact]);
+  const fabMenuSide = React.useMemo(() => {});
+  const themeRows = [
+    { id:'neural', name:'Neural Pulse', note:'Core Claude DNA, synaptic purple-blue glass.' },
+    { id:'aurora', name:'Aurora Prism', note:'Ethereal cyan/prism exploratory shell.' },
+    { id:'gold', name:'Liquid Gold', note:'Editorial premium variation in the theme set.' },
+    { id:'neon', name:'Neon Matrix', note:'Cyber green hacker learning mood.' },
+    { id:'bloom', name:'Sunset Bloom', note:'Warm playful alternate visual route.' },
+    { id:'monochrome', name:'Monochrome', note:'Minimal luxury grayscale route.' },
   ];
-  const HOME_FEATURE_IDS = HOME_FEATURE_GROUPS.flatMap(g => g.surfaces);
-  const groupedSurfaces = React.useMemo(() => {
-    const acc = {};
-    HOME_FEATURE_IDS.forEach(sid => {
-      const group = HOME_FEATURE_GROUPS.find(g => g.surfaces.includes(sid));
-      const surface = CORTEX_MAIN_SURFACES.find(s => s.id === sid);
-      if (group && surface) (acc[group.id] ||= []).push(surface);
-    });
+  const groupedSurfaces = CORTEX_MAIN_SURFACES.reduce((acc, surface) => {
+    (acc[surface.group] ||= []).push(surface);
     return acc;
-  }, []);
-  const groupOrder = ['🔍 Tools', '📊 Progress', '🤖 AI', 'ℹ️ Help'];
+  }, {});
+  const groupOrder = ['Foundation', 'Learn', 'Review', 'Reference', 'Practice', 'Ops', 'Support'];
   const activeSurface = cortexSurfaceLookup(surfaceId || 2);
   const surfaceMeta = {
     note: { badge:'Calm', title:'Reading-focused', sub:'Quiet hierarchy and open spacing.' },
@@ -10602,6 +10606,7 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
     danger: { badge:'Practice', title:'Interactive review', sub:'Warm feedback and progress.' },
     info: { badge:'Ops', title:'Production surface', sub:'Ready for content injection.' },
   }[activeSurface.tone] || { badge:'Surface', title:'Balanced', sub:'Ready for content.' };
+
   const previewRows = [
     { title:'Layout', sub:activeSurface.hint },
     { title:'Purpose', sub:activeSurface.summary },
@@ -10611,35 +10616,25 @@ function PageBatch0Kernel({ onNavigate, mode, themeId, onThemeChange, theme, sur
     group,
     items:groupedSurfaces[group] || [],
   })).filter(group => group.items.length);
-  const hubGroups = surfaceGroups.map(group => ({
-    id:group.group,
-    title:group.group,
-    sub:`${group.items.length} fitur`,
-    kicker:'Fitur',
-    type:'pages',
-    items:group.items,
-  }));
-  const activeGroupItems = groupedSurfaces[fabGroup] || [];
-  const getFabBasePosition = React.useCallback(() => ({
-    x: Math.max(16, window.innerWidth - (compact ? 158 : 176)),
-    y: Math.max(16, window.innerHeight - (compact ? 98 : 110)),
-  }), [compact]);
-  const fabMenuSide = React.useMemo(() => {
-    const pos = fabPos || getFabBasePosition();
-    const width = compact ? 252 : 304;
-    const height = fabActiveHub ? (compact ? 468 : 520) : (compact ? 352 : 390);
-    const anchorRight = pos.x + width + 24 > window.innerWidth;
-    const anchorBottom = pos.y + height + 92 > window.innerHeight;
-    return { anchorRight, anchorBottom };
-  }, [fabActiveHub, fabPos, getFabBasePosition, compact]);
-  const themeRows = [
-    { id:'neural', name:'Neural Pulse', note:'Core Claude DNA, synaptic purple-blue glass.' },
-    { id:'aurora', name:'Aurora Prism', note:'Ethereal cyan/prism exploratory shell.' },
-    { id:'gold', name:'Liquid Gold', note:'Editorial premium variation in the theme set.' },
-    { id:'neon', name:'Neon Matrix', note:'Cyber green hacker learning mood.' },
-    { id:'bloom', name:'Sunset Bloom', note:'Warm playful alternate visual route.' },
-    { id:'monochrome', name:'Monochrome', note:'Minimal luxury grayscale route.' },
+  const hubGroups = [
+    ...surfaceGroups.map(group => ({
+      id:group.group,
+      title:group.group,
+      sub:`${group.items.length} pages`,
+      kicker:'Pages',
+      type:'pages',
+      items:group.items,
+    })),
+    {
+      id:'Features',
+      title:'Features',
+      sub:'App controls and tools',
+      kicker:'Tools',
+      type:'features',
+      items:CORTEX_FAB_FEATURES,
+    },
   ];
+  const activeGroupItems = groupedSurfaces[fabGroup] || [];
   const fabButtonPos = !allowFabDrag ? {
     right: 14,
     bottom: `calc(14px + env(safe-area-inset-bottom))`,
@@ -11131,13 +11126,15 @@ function CortexLibraryNav({ page, onNavigate, mode, sidebarMode = 'dock', onClos
           ),
           React.createElement(B1Badge, { color:DL.teal }, lecturePanelOpen ? `${lectureModuleCount}` : 'Open')
         ),
-        lecturePanelOpen && contentIndexStatus === 'loading'
-            ? React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.45, marginBottom:10 }}, '⏳ Memuat daftar materi...')
-            : React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.45, marginBottom:10 }},
-              contentIndexStatus === 'error' ? '⚠️ Data tidak bisa dimuat via file://. Gunakan: npx serve .' : 'Klik modul untuk langsung membuka konten.'),
-        contentIndexStatus === 'error' && React.createElement('div', { style:{ color:DL.red, fontSize:10, lineHeight:1.45, marginBottom:10, padding:'6px 10px', borderRadius:10, background:'rgba(239,68,68,0.08)', border:'1px solid rgba(239,68,68,0.2)' }},
-          'Jalankan: npx serve . lalu buka http://localhost:3000'),
-        lecturePanelOpen && lectureDomains.map((domain) => React.createElement('div', {
+        lecturePanelOpen && React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.45, marginBottom:10 }},
+          contentIndexStatus === 'loading'
+            ? 'Loading lecture inventory...'
+            : contentIndexStatus === 'error'
+              ? '⚠️ Data gagal dimuat. Jalankan via HTTP: npx serve .'
+              : 'Each button below opens one structured lecturer module. Counts match the ingested package inventory.'),
+        lecturePanelOpen && contentIndexStatus === 'error' && React.createElement('div', { style:{ color:DL.red, fontSize:10, lineHeight:1.45, marginBottom:10, padding:'8px 10px', borderRadius:10, background:'rgba(239,68,68,0.08)', border:'1px solid rgba(239,68,68,0.2)' }},
+          'Akses via file:// tidak mendukung fetch API. Jalankan perintah berikut di terminal:\n\nnpx serve .\n\nKemudian buka http://localhost:3000'),
+        lecturePanelOpen && contentIndexStatus !== 'error' && lectureDomains.map((domain) => React.createElement('div', {
           key:domain.id,
           style:{
             marginBottom:10,
@@ -11235,7 +11232,8 @@ function CortexLibraryNav({ page, onNavigate, mode, sidebarMode = 'dock', onClos
         ),
         examPanelOpen && React.createElement('div', { style:{ color:DL.sub, fontSize:10, lineHeight:1.45, marginBottom:10 }},
           contentIndexStatus === 'error' ? '⚠️ Data tidak bisa dimuat via file://' : 'Klik set soal untuk membuka.'),
-        examPanelOpen && examSets.map((set) => React.createElement('button', {
+        examPanelOpen && React.createElement('div', { style:{ display:'grid', gap:8 }},
+          examSets.map((set) => React.createElement('button', {
             key:set.id,
             type:'button',
             onClick:()=> {
@@ -11341,9 +11339,57 @@ class CortexErrorBoundary extends React.Component {
   }
 }
 
+class CortexErrorBoundary extends React.Component {
+  constructor(props) { super(props); this.state = { hasError: false, error: null }; }
+  static getDerivedStateFromError(error) { return { hasError: true, error: error }; }
+  render() {
+    if (this.state.hasError) {
+      return React.createElement('div', { style: { padding: 40, fontFamily: '"SF Pro Display","Inter",sans-serif', color: '#e8ecf1', background: '#0a0a1a', minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', textAlign: 'center', gap: 16 } },
+        React.createElement('div', { style: { fontSize: 48, marginBottom: 8 } }, '⚡'),
+        React.createElement('div', { style: { fontSize: 22, fontWeight: 800 } }, 'Terjadi gangguan'),
+        React.createElement('div', { style: { fontSize: 14, opacity: 0.65, maxWidth: 420, lineHeight: 1.6 } }, 'Komponen halaman mengalami kesalahan. Coba refresh atau kembali ke studio utama.'),
+        React.createElement('button', { onClick: function() { window.location.reload(); }, style: { marginTop: 12, padding: '10px 24px', borderRadius: 14, border: '1px solid rgba(255,255,255,0.15)', background: 'rgba(255,255,255,0.08)', color: '#e8ecf1', fontSize: 14, cursor: 'pointer' } }, '⟳ Refresh halaman')
+      );
+    }
+    return this.props.children;
+  }
+}
+
 function CortexLibraryShell() {
   const [moduleLoading, setModuleLoading] = React.useState(false);
   const [examLoading, setExamLoading] = React.useState(false);
+
+  const [moduleLoading, setModuleLoading] = React.useState(false);
+  const [examLoading, setExamLoading] = React.useState(false);
+  const [contentViewTab, setContentViewTab] = React.useState('read');
+  const isContentViewing = !!(selectedLecture || selectedExamSet);
+
+  React.useEffect(() => {
+    setContentViewTab(selectedExamSet ? 'quiz' : 'read');
+  }, [selectedLectureMeta && selectedLectureMeta.id, selectedExamSetMeta && selectedExamSetMeta.id]);
+
+  const renderContentPanel = () => {
+    const tabs = selectedExamSet
+      ? [{ id:'quiz', label:'✏️ Quiz', hint:'Interactive quiz' }, { id:'flashcard', label:'U0001f0cf Flashcard', hint:'Recall cards' }]
+      : [{ id:'read', label:'U0001f4d6 Baca', hint:'Typography reading' }, { id:'bullets', label:'U0001f4cb Poin', hint:'Structured bullets' }, { id:'pearls', label:'U0001f4a1 Pearl', hint:'Clinical pearls' }, { id:'summary', label:'U0001f4dd Ringkas', hint:'Quick summary' }, { id:'simple', label:'U0001f310 Simple', hint:'Bilingual view' }];
+    const cProps = { onNavigate:navigate, themeId:theme.id, theme, onThemeChange:setThemeId, highlightTone, onHighlightToneChange:setHighlightTone, lectureDomain:selectedLectureDomain, lectureModule:selectedLecture, lectureModuleMeta:selectedLectureMeta, examSet:selectedExamSet, examSetMeta:selectedExamSetMeta, visualManifest:visualManifest, visualManifestStatus:visualManifestStatus, visualAssets:visualAssets, selectedVisualId:selectedVisualId, onSelectVisual:setSelectedVisualId };
+    const cMap = selectedExamSet
+      ? { quiz: window.PageQuiz, flashcard: window.PageFlashcard }
+      : { read: window.PageTypographyReading, bullets: window.PageBulletContent, pearls: window.PageCalloutClinicalPearl, summary: window.PageQuickSummary, simple: window.PageBilingualSimple };
+    const Comp = cMap[contentViewTab] || (selectedExamSet ? window.PageQuiz : window.PageTypographyReading);
+    var navDir = 'forward';
+    return React.createElement('div', { style:{ display:'flex', flexDirection:'column', height:'100%', overflow:'hidden' }},
+      React.createElement('div', { style:{ display:'flex', gap:3, padding:'7px 10px', flexShrink:0, borderBottom:'1px solid ' + theme.colors.glassBorder, background:'rgba(10,10,26,0.5)', backdropFilter:'blur(10px)', WebkitBackdropFilter:'blur(10px)', overflowX:'auto' }}, tabs.map(function(t) {
+        return React.createElement('button', { key:t.id, type:'button', onClick:function(){ setContentViewTab(t.id); }, className:'cortex-motion-press', title:t.hint, style:{ padding:'6px 13px', borderRadius:14, border:0, cursor:'pointer', background:contentViewTab === t.id ? 'rgba(16,185,129,0.15)' : 'transparent', color:contentViewTab === t.id ? '#10b981' : DL.sub, fontSize:11, fontWeight:contentViewTab === t.id ? 800 : 600, whiteSpace:'nowrap', transition:'all 0.2s ease' } }, t.label);
+      })),
+      React.createElement('div', { style:{ flex:1, minHeight:0, overflow:'hidden' }},
+        moduleLoading || examLoading
+          ? React.createElement('div', { style:{ padding:40, textAlign:'center', color:DL.sub, fontSize:13 }}, '⏳ Memuat konten...')
+          : React.createElement(Comp, cProps)
+      ),
+      React.createElement('button', { onClick:function(){ setSelectedLectureId(null); setSelectedExamSetId(null); navigate(0); }, style:{ position:'fixed', bottom:24, right:24, width:46, height:46, borderRadius:'50%', background:'linear-gradient(135deg, #10b981, #06b6d4)', color:'#fff', fontSize:20, cursor:'pointer', zIndex:70, boxShadow:'0 4px 18px rgba(16,185,129,0.35)', display:'flex', alignItems:'center', justifyContent:'center', border:'none' } }, 'U0001f3e0')
+    );
+  };
 
   const mode = useCortexLayoutMode();
   const mobileFabDocked = mode !== 'desktop';
@@ -11963,84 +12009,6 @@ function CortexLibraryShell() {
     };
   }, [goBack]);
 
-  /* ── CORTEX Content Panel ── */
-  const LECTURE_VIEW_TABS = [
-    { id:'read',   label:'📖 Baca',   hint:'Typography reading' },
-    { id:'bullets',label:'📋 Poin',   hint:'Structured bullets' },
-    { id:'pearls', label:'💡 Pearl',  hint:'Clinical pearls' },
-    { id:'summary',label:'📝 Ringkas',hint:'Quick summary' },
-    { id:'simple', label:'🌐 Simple', hint:'Bilingual view' },
-  ];
-  const EXAM_VIEW_TABS = [
-    { id:'quiz',    label:'✏️ Quiz',     hint:'Interactive quiz' },
-    { id:'flashcard',label:'🃏 Flashcard',hint:'Recall cards' },
-  ];
-  const [contentViewTab, setContentViewTab] = React.useState('read');
-  const isContentViewing = !!(selectedLecture || selectedExamSet);
-
-  React.useEffect(() => {
-    setContentViewTab(selectedExamSet ? 'quiz' : 'read');
-  }, [selectedLectureMeta && selectedLectureMeta.id, selectedExamSetMeta && selectedExamSetMeta.id]);
-
-  const renderContentPanel = () => {
-    const tabs = selectedExamSet ? EXAM_VIEW_TABS : LECTURE_VIEW_TABS;
-    const cProps = {
-      onNavigate:navigate, themeId:theme.id, theme, onThemeChange:setThemeId,
-      highlightTone, onHighlightToneChange:setHighlightTone,
-      lectureDomain:selectedLectureDomain, lectureModule:selectedLecture, lectureModuleMeta:selectedLectureMeta,
-      examSet:selectedExamSet, examSetMeta:selectedExamSetMeta,
-      visualManifest, visualManifestStatus,
-      visualAssets, selectedVisualId, onSelectVisual:setSelectedVisualId,
-    };
-    const cMap = selectedExamSet
-      ? { quiz: PageQuiz, flashcard: PageFlashcard }
-      : { read: PageTypographyReading, bullets: PageBulletContent, pearls: PageCalloutClinicalPearl, summary: PageQuickSummary, simple: PageBilingualSimple };
-    const Comp = cMap[contentViewTab] || (selectedExamSet ? PageQuiz : PageTypographyReading);
-    return React.createElement('div', { style:{ display:'flex', flexDirection:'column', height:'100%', overflow:'hidden' }},
-      /* Tab strip */
-      React.createElement('div', {
-        style:{
-          display:'flex', gap:3, padding:'7px 10px', flexShrink:0,
-          borderBottom:`1px solid ${theme.colors.glassBorder}`,
-          background:'rgba(10,10,26,0.5)', backdropFilter:'blur(10px)',
-          WebkitBackdropFilter:'blur(10px)', overflowX:'auto',
-        }
-      },
-        tabs.map(t => React.createElement('button', {
-          key:t.id, type:'button', onClick:()=>setContentViewTab(t.id),
-          className:'cortex-motion-press', title:t.hint,
-          style:{
-            padding:'6px 13px', borderRadius:14, border:0, cursor:'pointer',
-            background:contentViewTab === t.id ? 'rgba(16,185,129,0.15)' : 'transparent',
-            color:contentViewTab === t.id ? '#10b981' : DL.sub,
-            fontSize:11, fontWeight:contentViewTab === t.id ? 800 : 600,
-            whiteSpace:'nowrap', transition:'all 0.2s ease',
-          }
-        }, t.label))
-      ),
-      /* Content */
-      React.createElement('div', { style:{ flex:1, minHeight:0, overflow:'hidden' }},
-        React.createElement(CortexErrorBoundary, { key:`cp_${contentViewTab}` },
-          moduleLoading || examLoading
-            ? React.createElement('div', { style:{ padding:40, textAlign:'center', color:DL.sub, fontSize:13 }}, '⏳ Memuat konten...')
-            : React.createElement(Comp, cProps)
-        )
-      ),
-      /* Back FAB */
-      React.createElement('div', {
-        onClick:()=>{ setSelectedLectureId(null); setSelectedExamSetId(null); navigate(0); },
-        style:{
-          position:'fixed', bottom:24, right:24, width:46, height:46, borderRadius:'50%',
-          background:'linear-gradient(135deg, #10b981, #06b6d4)',
-          color:'#fff', fontSize:20, cursor:'pointer', zIndex:70,
-          boxShadow:'0 4px 18px rgba(16,185,129,0.35)',
-          display:'flex', alignItems:'center', justifyContent:'center',
-          border:'none',
-        }
-      }, '🏠')
-    );
-  };
-
   const renderPage = () => {
     const sharedProps = {
       onNavigate:navigate,
@@ -12065,9 +12033,7 @@ function CortexLibraryShell() {
       moduleLoading,
       examLoading,
     };
-    /* ── Content View (lecture/exam selected) ── */
-    if (isContentViewing) return React.createElement(CortexErrorBoundary, { key:'eb_content' }, renderContentPanel());
-    /* ── Page Routing ── */
+    if (isContentViewing) return renderContentPanel();
     if (page === 0) return React.createElement(CortexErrorBoundary, { key:`eb_${page}` },
       React.createElement(PageBatch0Kernel, { ...sharedProps, mode, surfaceId, onSurfaceChange:setSurfaceId, showGlobalFab:true })
     );
